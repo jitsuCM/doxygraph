@@ -1,0 +1,435 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.2">
+  <compounddef id="db/d40/class_qhp_xml_writer" kind="class" prot="public">
+    <compoundname>QhpXmlWriter</compoundname>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="db/d40/class_qhp_xml_writer_1a8c4acc7f7af027880bf04b2e1d65fda4" prot="private" static="no" mutable="no">
+        <type>QGString</type>
+        <definition>QGString QhpXmlWriter::m_backend</definition>
+        <argsstring></argsstring>
+        <name>m_backend</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/qhpxmlwriter.h" line="56" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/qhpxmlwriter.h" bodystart="56" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="db/d40/class_qhp_xml_writer_1a477da9daf699cdedb4e495ddb8bf880b" prot="private" static="no" mutable="no">
+        <type><ref refid="dc/d3c/class_f_text_stream" kindref="compound">FTextStream</ref></type>
+        <definition>FTextStream QhpXmlWriter::m_out</definition>
+        <argsstring></argsstring>
+        <name>m_out</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/qhpxmlwriter.h" line="57" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/qhpxmlwriter.h" bodystart="57" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="db/d40/class_qhp_xml_writer_1affe7079e2929bde2226d297994096560" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int QhpXmlWriter::m_indentLevel</definition>
+        <argsstring></argsstring>
+        <name>m_indentLevel</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/qhpxmlwriter.h" line="58" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/qhpxmlwriter.h" bodystart="58" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="db/d40/class_qhp_xml_writer_1a608798a2309a6e53ccad2dc002bea3b3" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool QhpXmlWriter::m_curLineIndented</definition>
+        <argsstring></argsstring>
+        <name>m_curLineIndented</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/qhpxmlwriter.h" line="59" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/qhpxmlwriter.h" bodystart="59" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="db/d40/class_qhp_xml_writer_1adafce4927726c0a1c74034872740cb87" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool QhpXmlWriter::m_compress</definition>
+        <argsstring></argsstring>
+        <name>m_compress</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/qhpxmlwriter.h" line="60" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/qhpxmlwriter.h" bodystart="60" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="db/d40/class_qhp_xml_writer_1abd4b15277a70492b8ff31ebed3cd81c1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>QhpXmlWriter::QhpXmlWriter</definition>
+        <argsstring>()</argsstring>
+        <name>QhpXmlWriter</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/qhpxmlwriter.h" line="28" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/qhpxmlwriter.cpp" bodystart="22" bodyend="26"/>
+      </memberdef>
+      <memberdef kind="function" id="db/d40/class_qhp_xml_writer_1a55da4bd8c669239aa83126295fcde903" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>QhpXmlWriter::~QhpXmlWriter</definition>
+        <argsstring>()</argsstring>
+        <name>~QhpXmlWriter</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/qhpxmlwriter.h" line="29" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/qhpxmlwriter.cpp" bodystart="28" bodyend="30"/>
+      </memberdef>
+      <memberdef kind="function" id="db/d40/class_qhp_xml_writer_1a123d00e83e99a92ed17197bd5af02e22" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void QhpXmlWriter::setIndentLevel</definition>
+        <argsstring>(int level)</argsstring>
+        <name>setIndentLevel</name>
+        <param>
+          <type>int</type>
+          <declname>level</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/qhpxmlwriter.h" line="31" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/qhpxmlwriter.cpp" bodystart="32" bodyend="35"/>
+      </memberdef>
+      <memberdef kind="function" id="db/d40/class_qhp_xml_writer_1abcb9a02176e91e793f539f349f6f6f87" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void QhpXmlWriter::setCompressionEnabled</definition>
+        <argsstring>(bool enabled)</argsstring>
+        <name>setCompressionEnabled</name>
+        <param>
+          <type>bool</type>
+          <declname>enabled</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/qhpxmlwriter.h" line="32" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/qhpxmlwriter.cpp" bodystart="37" bodyend="40"/>
+      </memberdef>
+      <memberdef kind="function" id="db/d40/class_qhp_xml_writer_1ad6c47073ba62731ec5717abc48189c6e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void QhpXmlWriter::insert</definition>
+        <argsstring>(QhpXmlWriter const &amp;source)</argsstring>
+        <name>insert</name>
+        <param>
+          <type><ref refid="db/d40/class_qhp_xml_writer" kindref="compound">QhpXmlWriter</ref> const &amp;</type>
+          <declname>source</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/qhpxmlwriter.h" line="33" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/qhpxmlwriter.cpp" bodystart="42" bodyend="45"/>
+      </memberdef>
+      <memberdef kind="function" id="db/d40/class_qhp_xml_writer_1a4774f32eef656819475f1d68778c356b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void QhpXmlWriter::dumpTo</definition>
+        <argsstring>(QFile &amp;file)</argsstring>
+        <name>dumpTo</name>
+        <param>
+          <type>QFile &amp;</type>
+          <declname>file</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/qhpxmlwriter.h" line="34" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/qhpxmlwriter.cpp" bodystart="47" bodyend="50"/>
+      </memberdef>
+      <memberdef kind="function" id="db/d40/class_qhp_xml_writer_1a1aebd4452891a3e71899b13ed7e21bcb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void QhpXmlWriter::open</definition>
+        <argsstring>(char const *elementName, char const *const *attributes=0)</argsstring>
+        <name>open</name>
+        <param>
+          <type>char const *</type>
+          <declname>elementName</declname>
+        </param>
+        <param>
+          <type>char const *const *</type>
+          <declname>attributes</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/qhpxmlwriter.h" line="36" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/qhpxmlwriter.cpp" bodystart="52" bodyend="59"/>
+      </memberdef>
+      <memberdef kind="function" id="db/d40/class_qhp_xml_writer_1a879cff85acf2a0fdc058a7e3c6161008" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void QhpXmlWriter::openClose</definition>
+        <argsstring>(char const *elementName, char const *const *attributes=0)</argsstring>
+        <name>openClose</name>
+        <param>
+          <type>char const *</type>
+          <declname>elementName</declname>
+        </param>
+        <param>
+          <type>char const *const *</type>
+          <declname>attributes</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/qhpxmlwriter.h" line="38" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/qhpxmlwriter.cpp" bodystart="61" bodyend="67"/>
+      </memberdef>
+      <memberdef kind="function" id="db/d40/class_qhp_xml_writer_1adbab0f4cde60e8f37061081078fa7be2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void QhpXmlWriter::openCloseContent</definition>
+        <argsstring>(char const *elementName, char const *content)</argsstring>
+        <name>openCloseContent</name>
+        <param>
+          <type>char const *</type>
+          <declname>elementName</declname>
+        </param>
+        <param>
+          <type>char const *</type>
+          <declname>content</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/qhpxmlwriter.h" line="39" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/qhpxmlwriter.cpp" bodystart="69" bodyend="77"/>
+      </memberdef>
+      <memberdef kind="function" id="db/d40/class_qhp_xml_writer_1ad714a9eacec5e599c05d4d2f042536e5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void QhpXmlWriter::close</definition>
+        <argsstring>(char const *elementName)</argsstring>
+        <name>close</name>
+        <param>
+          <type>char const *</type>
+          <declname>elementName</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/qhpxmlwriter.h" line="40" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/qhpxmlwriter.cpp" bodystart="79" bodyend="85"/>
+      </memberdef>
+      <memberdef kind="function" id="db/d40/class_qhp_xml_writer_1a0be9988f8d6e3873f21e14c9fe53c024" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void QhpXmlWriter::declaration</definition>
+        <argsstring>(char const *version, char const *encoding)</argsstring>
+        <name>declaration</name>
+        <param>
+          <type>char const *</type>
+          <declname>version</declname>
+        </param>
+        <param>
+          <type>char const *</type>
+          <declname>encoding</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/qhpxmlwriter.h" line="41" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/qhpxmlwriter.cpp" bodystart="87" bodyend="91"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="db/d40/class_qhp_xml_writer_1acd457ef30a549b6677dbb4539a89e5fb" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>char *</type>
+        <definition>static char* QhpXmlWriter::dupEscaped</definition>
+        <argsstring>(const char *source)</argsstring>
+        <name>dupEscaped</name>
+        <param>
+          <type>const char *</type>
+          <declname>source</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/qhpxmlwriter.h" line="43"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="db/d40/class_qhp_xml_writer_1a74f5eb2a0f0dec01baddfdd753545685" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void QhpXmlWriter::indent</definition>
+        <argsstring>()</argsstring>
+        <name>indent</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/qhpxmlwriter.h" line="46" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/qhpxmlwriter.cpp" bodystart="93" bodyend="104"/>
+      </memberdef>
+      <memberdef kind="function" id="db/d40/class_qhp_xml_writer_1a9f98561dacef36801ad28bc7407c5744" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void QhpXmlWriter::newLine</definition>
+        <argsstring>()</argsstring>
+        <name>newLine</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/qhpxmlwriter.h" line="47" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/qhpxmlwriter.cpp" bodystart="106" bodyend="113"/>
+      </memberdef>
+      <memberdef kind="function" id="db/d40/class_qhp_xml_writer_1ab1bc64f90928297556dc054dcd254c6c" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void QhpXmlWriter::openPureHelper</definition>
+        <argsstring>(char const *elementName, char const *const *attributes, bool close)</argsstring>
+        <name>openPureHelper</name>
+        <param>
+          <type>char const *</type>
+          <declname>elementName</declname>
+        </param>
+        <param>
+          <type>char const *const *</type>
+          <declname>attributes</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>close</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/qhpxmlwriter.h" line="49" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/qhpxmlwriter.cpp" bodystart="115" bodyend="139"/>
+      </memberdef>
+      <memberdef kind="function" id="db/d40/class_qhp_xml_writer_1a4a82f1cdb1d612ce28f9cfae4631f7ea" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void QhpXmlWriter::openPure</definition>
+        <argsstring>(char const *elementName, char const *const *attributes=0)</argsstring>
+        <name>openPure</name>
+        <param>
+          <type>char const *</type>
+          <declname>elementName</declname>
+        </param>
+        <param>
+          <type>char const *const *</type>
+          <declname>attributes</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/qhpxmlwriter.h" line="51" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/qhpxmlwriter.cpp" bodystart="141" bodyend="145"/>
+      </memberdef>
+      <memberdef kind="function" id="db/d40/class_qhp_xml_writer_1a7e2e6f448592cb6f25aa6d78e84e1eae" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void QhpXmlWriter::openClosePure</definition>
+        <argsstring>(char const *elementName, char const *const *attributes=0)</argsstring>
+        <name>openClosePure</name>
+        <param>
+          <type>char const *</type>
+          <declname>elementName</declname>
+        </param>
+        <param>
+          <type>char const *const *</type>
+          <declname>attributes</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/qhpxmlwriter.h" line="53" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/qhpxmlwriter.cpp" bodystart="147" bodyend="151"/>
+      </memberdef>
+      <memberdef kind="function" id="db/d40/class_qhp_xml_writer_1a184a85bf298611f57df09182ba6155c8" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void QhpXmlWriter::closePure</definition>
+        <argsstring>(char const *elementName)</argsstring>
+        <name>closePure</name>
+        <param>
+          <type>char const *</type>
+          <declname>elementName</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/qhpxmlwriter.h" line="54" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/qhpxmlwriter.cpp" bodystart="153" bodyend="156"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/qhpxmlwriter.h" line="26" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/qhpxmlwriter.h" bodystart="25" bodyend="62"/>
+    <listofallmembers>
+      <member refid="db/d40/class_qhp_xml_writer_1ad714a9eacec5e599c05d4d2f042536e5" prot="public" virt="non-virtual"><scope>QhpXmlWriter</scope><name>close</name></member>
+      <member refid="db/d40/class_qhp_xml_writer_1a184a85bf298611f57df09182ba6155c8" prot="private" virt="non-virtual"><scope>QhpXmlWriter</scope><name>closePure</name></member>
+      <member refid="db/d40/class_qhp_xml_writer_1a0be9988f8d6e3873f21e14c9fe53c024" prot="public" virt="non-virtual"><scope>QhpXmlWriter</scope><name>declaration</name></member>
+      <member refid="db/d40/class_qhp_xml_writer_1a4774f32eef656819475f1d68778c356b" prot="public" virt="non-virtual"><scope>QhpXmlWriter</scope><name>dumpTo</name></member>
+      <member refid="db/d40/class_qhp_xml_writer_1acd457ef30a549b6677dbb4539a89e5fb" prot="public" virt="non-virtual"><scope>QhpXmlWriter</scope><name>dupEscaped</name></member>
+      <member refid="db/d40/class_qhp_xml_writer_1a74f5eb2a0f0dec01baddfdd753545685" prot="private" virt="non-virtual"><scope>QhpXmlWriter</scope><name>indent</name></member>
+      <member refid="db/d40/class_qhp_xml_writer_1ad6c47073ba62731ec5717abc48189c6e" prot="public" virt="non-virtual"><scope>QhpXmlWriter</scope><name>insert</name></member>
+      <member refid="db/d40/class_qhp_xml_writer_1a8c4acc7f7af027880bf04b2e1d65fda4" prot="private" virt="non-virtual"><scope>QhpXmlWriter</scope><name>m_backend</name></member>
+      <member refid="db/d40/class_qhp_xml_writer_1adafce4927726c0a1c74034872740cb87" prot="private" virt="non-virtual"><scope>QhpXmlWriter</scope><name>m_compress</name></member>
+      <member refid="db/d40/class_qhp_xml_writer_1a608798a2309a6e53ccad2dc002bea3b3" prot="private" virt="non-virtual"><scope>QhpXmlWriter</scope><name>m_curLineIndented</name></member>
+      <member refid="db/d40/class_qhp_xml_writer_1affe7079e2929bde2226d297994096560" prot="private" virt="non-virtual"><scope>QhpXmlWriter</scope><name>m_indentLevel</name></member>
+      <member refid="db/d40/class_qhp_xml_writer_1a477da9daf699cdedb4e495ddb8bf880b" prot="private" virt="non-virtual"><scope>QhpXmlWriter</scope><name>m_out</name></member>
+      <member refid="db/d40/class_qhp_xml_writer_1a9f98561dacef36801ad28bc7407c5744" prot="private" virt="non-virtual"><scope>QhpXmlWriter</scope><name>newLine</name></member>
+      <member refid="db/d40/class_qhp_xml_writer_1a1aebd4452891a3e71899b13ed7e21bcb" prot="public" virt="non-virtual"><scope>QhpXmlWriter</scope><name>open</name></member>
+      <member refid="db/d40/class_qhp_xml_writer_1a879cff85acf2a0fdc058a7e3c6161008" prot="public" virt="non-virtual"><scope>QhpXmlWriter</scope><name>openClose</name></member>
+      <member refid="db/d40/class_qhp_xml_writer_1adbab0f4cde60e8f37061081078fa7be2" prot="public" virt="non-virtual"><scope>QhpXmlWriter</scope><name>openCloseContent</name></member>
+      <member refid="db/d40/class_qhp_xml_writer_1a7e2e6f448592cb6f25aa6d78e84e1eae" prot="private" virt="non-virtual"><scope>QhpXmlWriter</scope><name>openClosePure</name></member>
+      <member refid="db/d40/class_qhp_xml_writer_1a4a82f1cdb1d612ce28f9cfae4631f7ea" prot="private" virt="non-virtual"><scope>QhpXmlWriter</scope><name>openPure</name></member>
+      <member refid="db/d40/class_qhp_xml_writer_1ab1bc64f90928297556dc054dcd254c6c" prot="private" virt="non-virtual"><scope>QhpXmlWriter</scope><name>openPureHelper</name></member>
+      <member refid="db/d40/class_qhp_xml_writer_1abd4b15277a70492b8ff31ebed3cd81c1" prot="public" virt="non-virtual"><scope>QhpXmlWriter</scope><name>QhpXmlWriter</name></member>
+      <member refid="db/d40/class_qhp_xml_writer_1abcb9a02176e91e793f539f349f6f6f87" prot="public" virt="non-virtual"><scope>QhpXmlWriter</scope><name>setCompressionEnabled</name></member>
+      <member refid="db/d40/class_qhp_xml_writer_1a123d00e83e99a92ed17197bd5af02e22" prot="public" virt="non-virtual"><scope>QhpXmlWriter</scope><name>setIndentLevel</name></member>
+      <member refid="db/d40/class_qhp_xml_writer_1a55da4bd8c669239aa83126295fcde903" prot="public" virt="non-virtual"><scope>QhpXmlWriter</scope><name>~QhpXmlWriter</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

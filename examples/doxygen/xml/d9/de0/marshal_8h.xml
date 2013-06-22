@@ -1,0 +1,1168 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.2">
+  <compounddef id="d9/de0/marshal_8h" kind="file">
+    <compoundname>marshal.h</compoundname>
+    <includes local="no">qlist.h</includes>
+    <includes local="no">qfile.h</includes>
+    <includes refid="d9/d21/sortdict_8h" local="yes">sortdict.h</includes>
+    <includes refid="d5/d3f/store_8h" local="yes">store.h</includes>
+    <includedby refid="d4/dd4/arguments_8cpp" local="yes">src/arguments.cpp</includedby>
+    <includedby refid="d3/dea/definition_8cpp" local="yes">src/definition.cpp</includedby>
+    <includedby refid="dc/d98/doxygen_8cpp" local="yes">src/doxygen.cpp</includedby>
+    <includedby refid="d2/dd2/entry_8cpp" local="yes">src/entry.cpp</includedby>
+    <includedby refid="d9/d85/marshal_8cpp" local="yes">src/marshal.cpp</includedby>
+    <includedby refid="d0/d72/memberdef_8cpp" local="yes">src/memberdef.cpp</includedby>
+    <includedby refid="d6/d18/membergroup_8cpp" local="yes">src/membergroup.cpp</includedby>
+    <includedby refid="d0/d14/memberlist_8cpp" local="yes">src/memberlist.cpp</includedby>
+    <incdepgraph>
+      <node id="3340">
+        <label>qfile.h</label>
+      </node>
+      <node id="3345">
+        <label>qglobal.h</label>
+      </node>
+      <node id="3341">
+        <label>sortdict.h</label>
+        <link refid="d9/d21/sortdict_8h_source"/>
+        <childnode refid="3339" relation="include">
+        </childnode>
+        <childnode refid="3342" relation="include">
+        </childnode>
+        <childnode refid="3343" relation="include">
+        </childnode>
+      </node>
+      <node id="3343">
+        <label>qintdict.h</label>
+      </node>
+      <node id="3348">
+        <label>sys/types.h</label>
+      </node>
+      <node id="3339">
+        <label>qlist.h</label>
+      </node>
+      <node id="3338">
+        <label>src/marshal.h</label>
+        <link refid="marshal.h"/>
+        <childnode refid="3339" relation="include">
+        </childnode>
+        <childnode refid="3340" relation="include">
+        </childnode>
+        <childnode refid="3341" relation="include">
+        </childnode>
+        <childnode refid="3344" relation="include">
+        </childnode>
+      </node>
+      <node id="3344">
+        <label>store.h</label>
+        <link refid="d5/d3f/store_8h_source"/>
+        <childnode refid="3345" relation="include">
+        </childnode>
+        <childnode refid="3346" relation="include">
+        </childnode>
+        <childnode refid="3347" relation="include">
+        </childnode>
+      </node>
+      <node id="3342">
+        <label>qdict.h</label>
+      </node>
+      <node id="3347">
+        <label>portable.h</label>
+        <link refid="d2/de2/portable_8h"/>
+        <childnode refid="3348" relation="include">
+        </childnode>
+        <childnode refid="3346" relation="include">
+        </childnode>
+        <childnode refid="3345" relation="include">
+        </childnode>
+      </node>
+      <node id="3346">
+        <label>stdio.h</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="3354">
+        <label>src/marshal.cpp</label>
+        <link refid="d9/d85/marshal_8cpp_source"/>
+      </node>
+      <node id="3356">
+        <label>src/membergroup.cpp</label>
+        <link refid="d6/d18/membergroup_8cpp_source"/>
+      </node>
+      <node id="3355">
+        <label>src/memberdef.cpp</label>
+        <link refid="d0/d72/memberdef_8cpp_source"/>
+      </node>
+      <node id="3352">
+        <label>src/doxygen.cpp</label>
+        <link refid="dc/d98/doxygen_8cpp_source"/>
+      </node>
+      <node id="3350">
+        <label>src/arguments.cpp</label>
+        <link refid="d4/dd4/arguments_8cpp_source"/>
+      </node>
+      <node id="3353">
+        <label>src/entry.cpp</label>
+        <link refid="d2/dd2/entry_8cpp_source"/>
+      </node>
+      <node id="3351">
+        <label>src/definition.cpp</label>
+        <link refid="d3/dea/definition_8cpp_source"/>
+      </node>
+      <node id="3357">
+        <label>src/memberlist.cpp</label>
+        <link refid="d0/d14/memberlist_8cpp_source"/>
+      </node>
+      <node id="3349">
+        <label>src/marshal.h</label>
+        <link refid="marshal.h"/>
+        <childnode refid="3350" relation="include">
+        </childnode>
+        <childnode refid="3351" relation="include">
+        </childnode>
+        <childnode refid="3352" relation="include">
+        </childnode>
+        <childnode refid="3353" relation="include">
+        </childnode>
+        <childnode refid="3354" relation="include">
+        </childnode>
+        <childnode refid="3355" relation="include">
+        </childnode>
+        <childnode refid="3356" relation="include">
+        </childnode>
+        <childnode refid="3357" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+      <sectiondef kind="define">
+      <memberdef kind="define" id="d9/de0/marshal_8h_1a29aa3c78422ac30f2619b7bd2e1ce3fa" prot="public" static="no">
+        <name>NULL_LIST</name>
+        <initializer>0xffffffff</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/marshal.h" line="41" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/marshal.h" bodystart="41" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="d9/de0/marshal_8h_1ac84b090bca1a8b427e30aa45b91b0152" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void marshalInt</definition>
+        <argsstring>(StorageIntf *s, int v)</argsstring>
+        <name>marshalInt</name>
+        <param>
+          <type><ref refid="d7/db0/class_storage_intf" kindref="compound">StorageIntf</ref> *</type>
+          <declname>s</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>v</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/marshal.h" line="45" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/marshal.cpp" bodystart="16" bodyend="24"/>
+      </memberdef>
+      <memberdef kind="function" id="d9/de0/marshal_8h_1a9b70754078d8d25e53cea4163861d0b6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void marshalUInt</definition>
+        <argsstring>(StorageIntf *s, uint v)</argsstring>
+        <name>marshalUInt</name>
+        <param>
+          <type><ref refid="d7/db0/class_storage_intf" kindref="compound">StorageIntf</ref> *</type>
+          <declname>s</declname>
+        </param>
+        <param>
+          <type>uint</type>
+          <declname>v</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/marshal.h" line="46" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/marshal.cpp" bodystart="26" bodyend="34"/>
+      </memberdef>
+      <memberdef kind="function" id="d9/de0/marshal_8h_1a5769b9e33a81fc611e81d923eccfdc4c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void marshalUInt64</definition>
+        <argsstring>(StorageIntf *s, uint64 v)</argsstring>
+        <name>marshalUInt64</name>
+        <param>
+          <type><ref refid="d7/db0/class_storage_intf" kindref="compound">StorageIntf</ref> *</type>
+          <declname>s</declname>
+        </param>
+        <param>
+          <type>uint64</type>
+          <declname>v</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/marshal.h" line="47" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/marshal.cpp" bodystart="36" bodyend="40"/>
+      </memberdef>
+      <memberdef kind="function" id="d9/de0/marshal_8h_1aa5db1f451e1fa0c9c62b186a4c076723" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void marshalBool</definition>
+        <argsstring>(StorageIntf *s, bool b)</argsstring>
+        <name>marshalBool</name>
+        <param>
+          <type><ref refid="d7/db0/class_storage_intf" kindref="compound">StorageIntf</ref> *</type>
+          <declname>s</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/marshal.h" line="48" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/marshal.cpp" bodystart="42" bodyend="46"/>
+      </memberdef>
+      <memberdef kind="function" id="d9/de0/marshal_8h_1a3c1647b7b22e4f3def34827e2e2b9197" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void marshalQCString</definition>
+        <argsstring>(StorageIntf *s, const QCString &amp;str)</argsstring>
+        <name>marshalQCString</name>
+        <param>
+          <type><ref refid="d7/db0/class_storage_intf" kindref="compound">StorageIntf</ref> *</type>
+          <declname>s</declname>
+        </param>
+        <param>
+          <type>const QCString &amp;</type>
+          <declname>str</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/marshal.h" line="49" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/marshal.cpp" bodystart="48" bodyend="53"/>
+      </memberdef>
+      <memberdef kind="function" id="d9/de0/marshal_8h_1a96024fc062c53af7f18eaccd3f2b872f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void marshalQGString</definition>
+        <argsstring>(StorageIntf *s, const QGString &amp;str)</argsstring>
+        <name>marshalQGString</name>
+        <param>
+          <type><ref refid="d7/db0/class_storage_intf" kindref="compound">StorageIntf</ref> *</type>
+          <declname>s</declname>
+        </param>
+        <param>
+          <type>const QGString &amp;</type>
+          <declname>str</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/marshal.h" line="50" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/marshal.cpp" bodystart="55" bodyend="60"/>
+      </memberdef>
+      <memberdef kind="function" id="d9/de0/marshal_8h_1a84124e6d8601d35b614be5a90e830a4e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void marshalArgumentList</definition>
+        <argsstring>(StorageIntf *s, ArgumentList *argList)</argsstring>
+        <name>marshalArgumentList</name>
+        <param>
+          <type><ref refid="d7/db0/class_storage_intf" kindref="compound">StorageIntf</ref> *</type>
+          <declname>s</declname>
+        </param>
+        <param>
+          <type><ref refid="d7/df8/class_argument_list" kindref="compound">ArgumentList</ref> *</type>
+          <declname>argList</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/marshal.h" line="51" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/marshal.cpp" bodystart="62" bodyend="65"/>
+      </memberdef>
+      <memberdef kind="function" id="d9/de0/marshal_8h_1a02845e404c81106714eeef74afea1c30" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void marshalArgumentLists</definition>
+        <argsstring>(StorageIntf *s, QList&lt; ArgumentList &gt; *argLists)</argsstring>
+        <name>marshalArgumentLists</name>
+        <param>
+          <type><ref refid="d7/db0/class_storage_intf" kindref="compound">StorageIntf</ref> *</type>
+          <declname>s</declname>
+        </param>
+        <param>
+          <type><ref refid="db/daa/class_q_list" kindref="compound">QList</ref>&lt; <ref refid="d7/df8/class_argument_list" kindref="compound">ArgumentList</ref> &gt; *</type>
+          <declname>argLists</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/marshal.h" line="52" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/marshal.cpp" bodystart="67" bodyend="83"/>
+      </memberdef>
+      <memberdef kind="function" id="d9/de0/marshal_8h_1afa2c6746b4717eedb4f25a70c3850cea" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void marshalBaseInfoList</definition>
+        <argsstring>(StorageIntf *s, QList&lt; BaseInfo &gt; *baseList)</argsstring>
+        <name>marshalBaseInfoList</name>
+        <param>
+          <type><ref refid="d7/db0/class_storage_intf" kindref="compound">StorageIntf</ref> *</type>
+          <declname>s</declname>
+        </param>
+        <param>
+          <type><ref refid="db/daa/class_q_list" kindref="compound">QList</ref>&lt; <ref refid="de/d64/struct_base_info" kindref="compound">BaseInfo</ref> &gt; *</type>
+          <declname>baseList</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/marshal.h" line="53" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/marshal.cpp" bodystart="85" bodyend="103"/>
+      </memberdef>
+      <memberdef kind="function" id="d9/de0/marshal_8h_1ae62c8d5fa49b72f88e5bbcb41a93bba0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void marshalGroupingList</definition>
+        <argsstring>(StorageIntf *s, QList&lt; Grouping &gt; *groups)</argsstring>
+        <name>marshalGroupingList</name>
+        <param>
+          <type><ref refid="d7/db0/class_storage_intf" kindref="compound">StorageIntf</ref> *</type>
+          <declname>s</declname>
+        </param>
+        <param>
+          <type><ref refid="db/daa/class_q_list" kindref="compound">QList</ref>&lt; <ref refid="d7/d59/struct_grouping" kindref="compound">Grouping</ref> &gt; *</type>
+          <declname>groups</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/marshal.h" line="54" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/marshal.cpp" bodystart="105" bodyend="122"/>
+      </memberdef>
+      <memberdef kind="function" id="d9/de0/marshal_8h_1a3d106e8564364051c90a83dfdd063306" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void marshalSectionInfoList</definition>
+        <argsstring>(StorageIntf *s, QList&lt; SectionInfo &gt; *anchors)</argsstring>
+        <name>marshalSectionInfoList</name>
+        <param>
+          <type><ref refid="d7/db0/class_storage_intf" kindref="compound">StorageIntf</ref> *</type>
+          <declname>s</declname>
+        </param>
+        <param>
+          <type><ref refid="db/daa/class_q_list" kindref="compound">QList</ref>&lt; <ref refid="d5/d5b/struct_section_info" kindref="compound">SectionInfo</ref> &gt; *</type>
+          <declname>anchors</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/marshal.h" line="55" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/marshal.cpp" bodystart="124" bodyend="145"/>
+      </memberdef>
+      <memberdef kind="function" id="d9/de0/marshal_8h_1a056d7b89c3c39dbd1af6f9eb28f1db19" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void marshalItemInfoList</definition>
+        <argsstring>(StorageIntf *s, QList&lt; ListItemInfo &gt; *sli)</argsstring>
+        <name>marshalItemInfoList</name>
+        <param>
+          <type><ref refid="d7/db0/class_storage_intf" kindref="compound">StorageIntf</ref> *</type>
+          <declname>s</declname>
+        </param>
+        <param>
+          <type><ref refid="db/daa/class_q_list" kindref="compound">QList</ref>&lt; <ref refid="d8/dd5/struct_list_item_info" kindref="compound">ListItemInfo</ref> &gt; *</type>
+          <declname>sli</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/marshal.h" line="56" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/marshal.cpp" bodystart="147" bodyend="164"/>
+      </memberdef>
+      <memberdef kind="function" id="d9/de0/marshal_8h_1ada5049b8b4a842ec632f54db37c50462" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void marshalObjPointer</definition>
+        <argsstring>(StorageIntf *s, void *obj)</argsstring>
+        <name>marshalObjPointer</name>
+        <param>
+          <type><ref refid="d7/db0/class_storage_intf" kindref="compound">StorageIntf</ref> *</type>
+          <declname>s</declname>
+        </param>
+        <param>
+          <type>void *</type>
+          <declname>obj</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/marshal.h" line="57" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/marshal.cpp" bodystart="166" bodyend="170"/>
+      </memberdef>
+      <memberdef kind="function" id="d9/de0/marshal_8h_1afdf5dc85005a565b4b80cba7db74a63c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void marshalSectionDict</definition>
+        <argsstring>(StorageIntf *s, SectionDict *sections)</argsstring>
+        <name>marshalSectionDict</name>
+        <param>
+          <type><ref refid="d7/db0/class_storage_intf" kindref="compound">StorageIntf</ref> *</type>
+          <declname>s</declname>
+        </param>
+        <param>
+          <type><ref refid="de/d9a/class_section_dict" kindref="compound">SectionDict</ref> *</type>
+          <declname>sections</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/marshal.h" line="58" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/marshal.cpp" bodystart="172" bodyend="189"/>
+      </memberdef>
+      <memberdef kind="function" id="d9/de0/marshal_8h_1a664aecfb1775a4cf9ff94ba389b828e6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void marshalMemberSDict</definition>
+        <argsstring>(StorageIntf *s, MemberSDict *memberSDict)</argsstring>
+        <name>marshalMemberSDict</name>
+        <param>
+          <type><ref refid="d7/db0/class_storage_intf" kindref="compound">StorageIntf</ref> *</type>
+          <declname>s</declname>
+        </param>
+        <param>
+          <type><ref refid="d6/dd6/class_member_s_dict" kindref="compound">MemberSDict</ref> *</type>
+          <declname>memberSDict</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/marshal.h" line="59" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/marshal.cpp" bodystart="191" bodyend="213"/>
+      </memberdef>
+      <memberdef kind="function" id="d9/de0/marshal_8h_1af76cd1ec9eb73f5a4cbad06c48c27f0f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void marshalDocInfo</definition>
+        <argsstring>(StorageIntf *s, DocInfo *docInfo)</argsstring>
+        <name>marshalDocInfo</name>
+        <param>
+          <type><ref refid="d7/db0/class_storage_intf" kindref="compound">StorageIntf</ref> *</type>
+          <declname>s</declname>
+        </param>
+        <param>
+          <type><ref refid="d7/dd5/struct_doc_info" kindref="compound">DocInfo</ref> *</type>
+          <declname>docInfo</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/marshal.h" line="60" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/marshal.cpp" bodystart="215" bodyend="228"/>
+      </memberdef>
+      <memberdef kind="function" id="d9/de0/marshal_8h_1a96092cb7501de5bd93cbda3c2b96d546" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void marshalBriefInfo</definition>
+        <argsstring>(StorageIntf *s, BriefInfo *briefInfo)</argsstring>
+        <name>marshalBriefInfo</name>
+        <param>
+          <type><ref refid="d7/db0/class_storage_intf" kindref="compound">StorageIntf</ref> *</type>
+          <declname>s</declname>
+        </param>
+        <param>
+          <type><ref refid="d0/da7/struct_brief_info" kindref="compound">BriefInfo</ref> *</type>
+          <declname>briefInfo</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/marshal.h" line="61" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/marshal.cpp" bodystart="230" bodyend="244"/>
+      </memberdef>
+      <memberdef kind="function" id="d9/de0/marshal_8h_1a207fb0a43b496dcf79a06701b57c93c5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void marshalBodyInfo</definition>
+        <argsstring>(StorageIntf *s, BodyInfo *bodyInfo)</argsstring>
+        <name>marshalBodyInfo</name>
+        <param>
+          <type><ref refid="d7/db0/class_storage_intf" kindref="compound">StorageIntf</ref> *</type>
+          <declname>s</declname>
+        </param>
+        <param>
+          <type><ref refid="db/dab/struct_body_info" kindref="compound">BodyInfo</ref> *</type>
+          <declname>bodyInfo</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/marshal.h" line="62" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/marshal.cpp" bodystart="246" bodyend="259"/>
+      </memberdef>
+      <memberdef kind="function" id="d9/de0/marshal_8h_1a87b42ee40f1aebe170eef5b27e15a4c5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void marshalGroupList</definition>
+        <argsstring>(StorageIntf *s, GroupList *groupList)</argsstring>
+        <name>marshalGroupList</name>
+        <param>
+          <type><ref refid="d7/db0/class_storage_intf" kindref="compound">StorageIntf</ref> *</type>
+          <declname>s</declname>
+        </param>
+        <param>
+          <type><ref refid="d3/d3b/class_group_list" kindref="compound">GroupList</ref> *</type>
+          <declname>groupList</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/marshal.h" line="63" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/marshal.cpp" bodystart="261" bodyend="277"/>
+      </memberdef>
+      <memberdef kind="function" id="d9/de0/marshal_8h_1a8113ab36bebb2ffd0602b5fc7f004ca1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void marshalMemberList</definition>
+        <argsstring>(StorageIntf *s, MemberList *ml)</argsstring>
+        <name>marshalMemberList</name>
+        <param>
+          <type><ref refid="d7/db0/class_storage_intf" kindref="compound">StorageIntf</ref> *</type>
+          <declname>s</declname>
+        </param>
+        <param>
+          <type><ref refid="dd/d13/class_member_list" kindref="compound">MemberList</ref> *</type>
+          <declname>ml</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/marshal.h" line="64" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/marshal.cpp" bodystart="279" bodyend="300"/>
+      </memberdef>
+      <memberdef kind="function" id="d9/de0/marshal_8h_1a9bb73b50ace476f2108d5189675b450f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void marshalExampleSDict</definition>
+        <argsstring>(StorageIntf *s, ExampleSDict *ed)</argsstring>
+        <name>marshalExampleSDict</name>
+        <param>
+          <type><ref refid="d7/db0/class_storage_intf" kindref="compound">StorageIntf</ref> *</type>
+          <declname>s</declname>
+        </param>
+        <param>
+          <type><ref refid="d0/d31/class_example_s_dict" kindref="compound">ExampleSDict</ref> *</type>
+          <declname>ed</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/marshal.h" line="65" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/marshal.cpp" bodystart="302" bodyend="323"/>
+      </memberdef>
+      <memberdef kind="function" id="d9/de0/marshal_8h_1a26813d97b71c2ef287e057b2f5530164" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void marshalMemberLists</definition>
+        <argsstring>(StorageIntf *s, SDict&lt; MemberList &gt; *mls)</argsstring>
+        <name>marshalMemberLists</name>
+        <param>
+          <type><ref refid="d7/db0/class_storage_intf" kindref="compound">StorageIntf</ref> *</type>
+          <declname>s</declname>
+        </param>
+        <param>
+          <type><ref refid="d1/d50/class_s_dict" kindref="compound">SDict</ref>&lt; <ref refid="dd/d13/class_member_list" kindref="compound">MemberList</ref> &gt; *</type>
+          <declname>mls</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/marshal.h" line="66" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/marshal.cpp" bodystart="325" bodyend="344"/>
+      </memberdef>
+      <memberdef kind="function" id="d9/de0/marshal_8h_1a185602a643d5e8f3b6f0ae03ca99852c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void marshalEntry</definition>
+        <argsstring>(StorageIntf *s, Entry *e)</argsstring>
+        <name>marshalEntry</name>
+        <param>
+          <type><ref refid="d7/db0/class_storage_intf" kindref="compound">StorageIntf</ref> *</type>
+          <declname>s</declname>
+        </param>
+        <param>
+          <type><ref refid="d4/dd7/class_entry" kindref="compound">Entry</ref> *</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/marshal.h" line="67" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/marshal.cpp" bodystart="346" bodyend="401"/>
+      </memberdef>
+      <memberdef kind="function" id="d9/de0/marshal_8h_1ae4a34dbf2a47e8d951f44561701f7d14" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void marshalEntryTree</definition>
+        <argsstring>(StorageIntf *s, Entry *e)</argsstring>
+        <name>marshalEntryTree</name>
+        <param>
+          <type><ref refid="d7/db0/class_storage_intf" kindref="compound">StorageIntf</ref> *</type>
+          <declname>s</declname>
+        </param>
+        <param>
+          <type><ref refid="d4/dd7/class_entry" kindref="compound">Entry</ref> *</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/marshal.h" line="68" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/marshal.cpp" bodystart="403" bodyend="413"/>
+      </memberdef>
+      <memberdef kind="function" id="d9/de0/marshal_8h_1a255d4c42f0fa053036e5746bf14d7eea" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int unmarshalInt</definition>
+        <argsstring>(StorageIntf *s)</argsstring>
+        <name>unmarshalInt</name>
+        <param>
+          <type><ref refid="d7/db0/class_storage_intf" kindref="compound">StorageIntf</ref> *</type>
+          <declname>s</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/marshal.h" line="72" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/marshal.cpp" bodystart="417" bodyend="424"/>
+      </memberdef>
+      <memberdef kind="function" id="d9/de0/marshal_8h_1a54d89e92a9d11449c9c5b213681eea85" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>uint</type>
+        <definition>uint unmarshalUInt</definition>
+        <argsstring>(StorageIntf *s)</argsstring>
+        <name>unmarshalUInt</name>
+        <param>
+          <type><ref refid="d7/db0/class_storage_intf" kindref="compound">StorageIntf</ref> *</type>
+          <declname>s</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/marshal.h" line="73" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/marshal.cpp" bodystart="426" bodyend="433"/>
+      </memberdef>
+      <memberdef kind="function" id="d9/de0/marshal_8h_1a37c333c4d2237c486fbc444da438228f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>uint64</type>
+        <definition>uint64 unmarshalUInt64</definition>
+        <argsstring>(StorageIntf *s)</argsstring>
+        <name>unmarshalUInt64</name>
+        <param>
+          <type><ref refid="d7/db0/class_storage_intf" kindref="compound">StorageIntf</ref> *</type>
+          <declname>s</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/marshal.h" line="74" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/marshal.cpp" bodystart="435" bodyend="440"/>
+      </memberdef>
+      <memberdef kind="function" id="d9/de0/marshal_8h_1a2caf6352c2d7698a031e002a5d925432" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool unmarshalBool</definition>
+        <argsstring>(StorageIntf *s)</argsstring>
+        <name>unmarshalBool</name>
+        <param>
+          <type><ref refid="d7/db0/class_storage_intf" kindref="compound">StorageIntf</ref> *</type>
+          <declname>s</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/marshal.h" line="75" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/marshal.cpp" bodystart="442" bodyend="448"/>
+      </memberdef>
+      <memberdef kind="function" id="d9/de0/marshal_8h_1ae5a6fd22ea172db6618676276751b574" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>QCString</type>
+        <definition>QCString unmarshalQCString</definition>
+        <argsstring>(StorageIntf *s)</argsstring>
+        <name>unmarshalQCString</name>
+        <param>
+          <type><ref refid="d7/db0/class_storage_intf" kindref="compound">StorageIntf</ref> *</type>
+          <declname>s</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/marshal.h" line="76" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/marshal.cpp" bodystart="450" bodyend="462"/>
+      </memberdef>
+      <memberdef kind="function" id="d9/de0/marshal_8h_1a91f63ee894ca3b3e77acfd57c7c3e841" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>QGString</type>
+        <definition>QGString unmarshalQGString</definition>
+        <argsstring>(StorageIntf *s)</argsstring>
+        <name>unmarshalQGString</name>
+        <param>
+          <type><ref refid="d7/db0/class_storage_intf" kindref="compound">StorageIntf</ref> *</type>
+          <declname>s</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/marshal.h" line="77" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/marshal.cpp" bodystart="464" bodyend="476"/>
+      </memberdef>
+      <memberdef kind="function" id="d9/de0/marshal_8h_1abae504ddd3883a74185762be17f8b1d3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="d7/df8/class_argument_list" kindref="compound">ArgumentList</ref> *</type>
+        <definition>ArgumentList* unmarshalArgumentList</definition>
+        <argsstring>(StorageIntf *s)</argsstring>
+        <name>unmarshalArgumentList</name>
+        <param>
+          <type><ref refid="d7/db0/class_storage_intf" kindref="compound">StorageIntf</ref> *</type>
+          <declname>s</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/marshal.h" line="78" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/marshal.cpp" bodystart="478" bodyend="481"/>
+      </memberdef>
+      <memberdef kind="function" id="d9/de0/marshal_8h_1aed4cbcaefb61e43c1b8088f210aea56e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="db/daa/class_q_list" kindref="compound">QList</ref>&lt; <ref refid="d7/df8/class_argument_list" kindref="compound">ArgumentList</ref> &gt; *</type>
+        <definition>QList&lt;ArgumentList&gt;* unmarshalArgumentLists</definition>
+        <argsstring>(StorageIntf *s)</argsstring>
+        <name>unmarshalArgumentLists</name>
+        <param>
+          <type><ref refid="d7/db0/class_storage_intf" kindref="compound">StorageIntf</ref> *</type>
+          <declname>s</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/marshal.h" line="79" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/marshal.cpp" bodystart="483" bodyend="497"/>
+      </memberdef>
+      <memberdef kind="function" id="d9/de0/marshal_8h_1a35b9b88b788180c1e87fc0938f6d0ee8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="db/daa/class_q_list" kindref="compound">QList</ref>&lt; <ref refid="de/d64/struct_base_info" kindref="compound">BaseInfo</ref> &gt; *</type>
+        <definition>QList&lt;BaseInfo&gt;* unmarshalBaseInfoList</definition>
+        <argsstring>(StorageIntf *s)</argsstring>
+        <name>unmarshalBaseInfoList</name>
+        <param>
+          <type><ref refid="d7/db0/class_storage_intf" kindref="compound">StorageIntf</ref> *</type>
+          <declname>s</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/marshal.h" line="80" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/marshal.cpp" bodystart="499" bodyend="515"/>
+      </memberdef>
+      <memberdef kind="function" id="d9/de0/marshal_8h_1a290cc79b7f8e523f41e81543fd16f7ac" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="db/daa/class_q_list" kindref="compound">QList</ref>&lt; <ref refid="d7/d59/struct_grouping" kindref="compound">Grouping</ref> &gt; *</type>
+        <definition>QList&lt;Grouping&gt;* unmarshalGroupingList</definition>
+        <argsstring>(StorageIntf *s)</argsstring>
+        <name>unmarshalGroupingList</name>
+        <param>
+          <type><ref refid="d7/db0/class_storage_intf" kindref="compound">StorageIntf</ref> *</type>
+          <declname>s</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/marshal.h" line="81" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/marshal.cpp" bodystart="517" bodyend="532"/>
+      </memberdef>
+      <memberdef kind="function" id="d9/de0/marshal_8h_1a7f782e8d49b8db8559e39c3f09425c53" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="db/daa/class_q_list" kindref="compound">QList</ref>&lt; <ref refid="d5/d5b/struct_section_info" kindref="compound">SectionInfo</ref> &gt; *</type>
+        <definition>QList&lt;SectionInfo&gt;* unmarshalSectionInfoList</definition>
+        <argsstring>(StorageIntf *s)</argsstring>
+        <name>unmarshalSectionInfoList</name>
+        <param>
+          <type><ref refid="d7/db0/class_storage_intf" kindref="compound">StorageIntf</ref> *</type>
+          <declname>s</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/marshal.h" line="82" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/marshal.cpp" bodystart="534" bodyend="553"/>
+      </memberdef>
+      <memberdef kind="function" id="d9/de0/marshal_8h_1aa0dd7a23f5df2a3eb0e0833ef281ca06" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="db/daa/class_q_list" kindref="compound">QList</ref>&lt; <ref refid="d8/dd5/struct_list_item_info" kindref="compound">ListItemInfo</ref> &gt; *</type>
+        <definition>QList&lt;ListItemInfo&gt;* unmarshalItemInfoList</definition>
+        <argsstring>(StorageIntf *s)</argsstring>
+        <name>unmarshalItemInfoList</name>
+        <param>
+          <type><ref refid="d7/db0/class_storage_intf" kindref="compound">StorageIntf</ref> *</type>
+          <declname>s</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/marshal.h" line="83" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/marshal.cpp" bodystart="555" bodyend="571"/>
+      </memberdef>
+      <memberdef kind="function" id="d9/de0/marshal_8h_1a05df47a88dbdb3801f53f4ff1fb56924" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void *</type>
+        <definition>void* unmarshalObjPointer</definition>
+        <argsstring>(StorageIntf *s)</argsstring>
+        <name>unmarshalObjPointer</name>
+        <param>
+          <type><ref refid="d7/db0/class_storage_intf" kindref="compound">StorageIntf</ref> *</type>
+          <declname>s</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/marshal.h" line="84" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/marshal.cpp" bodystart="573" bodyend="578"/>
+      </memberdef>
+      <memberdef kind="function" id="d9/de0/marshal_8h_1aa0228247f6a8b1b7dcb4175ee153592f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="de/d9a/class_section_dict" kindref="compound">SectionDict</ref> *</type>
+        <definition>SectionDict* unmarshalSectionDict</definition>
+        <argsstring>(StorageIntf *s)</argsstring>
+        <name>unmarshalSectionDict</name>
+        <param>
+          <type><ref refid="d7/db0/class_storage_intf" kindref="compound">StorageIntf</ref> *</type>
+          <declname>s</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/marshal.h" line="85" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/marshal.cpp" bodystart="580" bodyend="596"/>
+      </memberdef>
+      <memberdef kind="function" id="d9/de0/marshal_8h_1af822b0fa8c5cfbdb5905b4f6d33478da" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="d6/dd6/class_member_s_dict" kindref="compound">MemberSDict</ref> *</type>
+        <definition>MemberSDict* unmarshalMemberSDict</definition>
+        <argsstring>(StorageIntf *s)</argsstring>
+        <name>unmarshalMemberSDict</name>
+        <param>
+          <type><ref refid="d7/db0/class_storage_intf" kindref="compound">StorageIntf</ref> *</type>
+          <declname>s</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/marshal.h" line="86" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/marshal.cpp" bodystart="598" bodyend="623"/>
+      </memberdef>
+      <memberdef kind="function" id="d9/de0/marshal_8h_1a9a57fb24cf8c6ec3e40eeede849872d0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="d7/dd5/struct_doc_info" kindref="compound">DocInfo</ref> *</type>
+        <definition>DocInfo* unmarshalDocInfo</definition>
+        <argsstring>(StorageIntf *s)</argsstring>
+        <name>unmarshalDocInfo</name>
+        <param>
+          <type><ref refid="d7/db0/class_storage_intf" kindref="compound">StorageIntf</ref> *</type>
+          <declname>s</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/marshal.h" line="87" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/marshal.cpp" bodystart="625" bodyend="634"/>
+      </memberdef>
+      <memberdef kind="function" id="d9/de0/marshal_8h_1ac75f74abd69f013d6f10d831e305d2ea" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="d0/da7/struct_brief_info" kindref="compound">BriefInfo</ref> *</type>
+        <definition>BriefInfo* unmarshalBriefInfo</definition>
+        <argsstring>(StorageIntf *s)</argsstring>
+        <name>unmarshalBriefInfo</name>
+        <param>
+          <type><ref refid="d7/db0/class_storage_intf" kindref="compound">StorageIntf</ref> *</type>
+          <declname>s</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/marshal.h" line="88" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/marshal.cpp" bodystart="636" bodyend="646"/>
+      </memberdef>
+      <memberdef kind="function" id="d9/de0/marshal_8h_1a9c5457eaf8116c000ffe69e259ed54c5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="db/dab/struct_body_info" kindref="compound">BodyInfo</ref> *</type>
+        <definition>BodyInfo* unmarshalBodyInfo</definition>
+        <argsstring>(StorageIntf *s)</argsstring>
+        <name>unmarshalBodyInfo</name>
+        <param>
+          <type><ref refid="d7/db0/class_storage_intf" kindref="compound">StorageIntf</ref> *</type>
+          <declname>s</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/marshal.h" line="89" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/marshal.cpp" bodystart="648" bodyend="657"/>
+      </memberdef>
+      <memberdef kind="function" id="d9/de0/marshal_8h_1a40b02cffa1abd6b64ddf4edb4f9313d4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="d3/d3b/class_group_list" kindref="compound">GroupList</ref> *</type>
+        <definition>GroupList* unmarshalGroupList</definition>
+        <argsstring>(StorageIntf *s)</argsstring>
+        <name>unmarshalGroupList</name>
+        <param>
+          <type><ref refid="d7/db0/class_storage_intf" kindref="compound">StorageIntf</ref> *</type>
+          <declname>s</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/marshal.h" line="90" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/marshal.cpp" bodystart="659" bodyend="672"/>
+      </memberdef>
+      <memberdef kind="function" id="d9/de0/marshal_8h_1a6aa68d597ae5c8b86a0000e93e0dfd84" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="dd/d13/class_member_list" kindref="compound">MemberList</ref> *</type>
+        <definition>MemberList* unmarshalMemberList</definition>
+        <argsstring>(StorageIntf *s)</argsstring>
+        <name>unmarshalMemberList</name>
+        <param>
+          <type><ref refid="d7/db0/class_storage_intf" kindref="compound">StorageIntf</ref> *</type>
+          <declname>s</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/marshal.h" line="91" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/marshal.cpp" bodystart="674" bodyend="688"/>
+      </memberdef>
+      <memberdef kind="function" id="d9/de0/marshal_8h_1a216a37cc315a7717178205902f6e4207" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="d0/d31/class_example_s_dict" kindref="compound">ExampleSDict</ref> *</type>
+        <definition>ExampleSDict* unmarshalExampleSDict</definition>
+        <argsstring>(StorageIntf *s)</argsstring>
+        <name>unmarshalExampleSDict</name>
+        <param>
+          <type><ref refid="d7/db0/class_storage_intf" kindref="compound">StorageIntf</ref> *</type>
+          <declname>s</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/marshal.h" line="92" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/marshal.cpp" bodystart="690" bodyend="707"/>
+      </memberdef>
+      <memberdef kind="function" id="d9/de0/marshal_8h_1a795faa051fbf5d8893a21c2d6b7aedbc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="d1/d50/class_s_dict" kindref="compound">SDict</ref>&lt; <ref refid="dd/d13/class_member_list" kindref="compound">MemberList</ref> &gt; *</type>
+        <definition>SDict&lt;MemberList&gt;* unmarshalMemberLists</definition>
+        <argsstring>(StorageIntf *s)</argsstring>
+        <name>unmarshalMemberLists</name>
+        <param>
+          <type><ref refid="d7/db0/class_storage_intf" kindref="compound">StorageIntf</ref> *</type>
+          <declname>s</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/marshal.h" line="93" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/marshal.cpp" bodystart="709" bodyend="723"/>
+      </memberdef>
+      <memberdef kind="function" id="d9/de0/marshal_8h_1a9493009573b4ea1d93564a055379cbf0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="d4/dd7/class_entry" kindref="compound">Entry</ref> *</type>
+        <definition>Entry* unmarshalEntry</definition>
+        <argsstring>(StorageIntf *s)</argsstring>
+        <name>unmarshalEntry</name>
+        <param>
+          <type><ref refid="d7/db0/class_storage_intf" kindref="compound">StorageIntf</ref> *</type>
+          <declname>s</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/marshal.h" line="94" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/marshal.cpp" bodystart="725" bodyend="787"/>
+      </memberdef>
+      <memberdef kind="function" id="d9/de0/marshal_8h_1a67a83de01f7ea58d576ab00c222f3456" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="d4/dd7/class_entry" kindref="compound">Entry</ref> *</type>
+        <definition>Entry* unmarshalEntryTree</definition>
+        <argsstring>(StorageIntf *s)</argsstring>
+        <name>unmarshalEntryTree</name>
+        <param>
+          <type><ref refid="d7/db0/class_storage_intf" kindref="compound">StorageIntf</ref> *</type>
+          <declname>s</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/marshal.h" line="95" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/marshal.cpp" bodystart="789" bodyend="799"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">/******************************************************************************</highlight></codeline>
+<codeline lineno="2"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="3"><highlight class="comment"><sp/>*<sp/>Copyright<sp/>(C)<sp/>1997-2013<sp/>by<sp/>Dimitri<sp/>van<sp/>Heesch.</highlight></codeline>
+<codeline lineno="4"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="5"><highlight class="comment"><sp/>*<sp/>Permission<sp/>to<sp/>use,<sp/>copy,<sp/>modify,<sp/>and<sp/>distribute<sp/>this<sp/>software<sp/>and<sp/>its</highlight></codeline>
+<codeline lineno="6"><highlight class="comment"><sp/>*<sp/>documentation<sp/>under<sp/>the<sp/>terms<sp/>of<sp/>the<sp/>GNU<sp/>General<sp/>Public<sp/>License<sp/>is<sp/>hereby<sp/></highlight></codeline>
+<codeline lineno="7"><highlight class="comment"><sp/>*<sp/>granted.<sp/>No<sp/>representations<sp/>are<sp/>made<sp/>about<sp/>the<sp/>suitability<sp/>of<sp/>this<sp/>software<sp/></highlight></codeline>
+<codeline lineno="8"><highlight class="comment"><sp/>*<sp/>for<sp/>any<sp/>purpose.<sp/>It<sp/>is<sp/>provided<sp/>&quot;as<sp/>is&quot;<sp/>without<sp/>express<sp/>or<sp/>implied<sp/>warranty.</highlight></codeline>
+<codeline lineno="9"><highlight class="comment"><sp/>*<sp/>See<sp/>the<sp/>GNU<sp/>General<sp/>Public<sp/>License<sp/>for<sp/>more<sp/>details.</highlight></codeline>
+<codeline lineno="10"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="11"><highlight class="comment"><sp/>*<sp/>Documents<sp/>produced<sp/>by<sp/>Doxygen<sp/>are<sp/>derivative<sp/>works<sp/>derived<sp/>from<sp/>the</highlight></codeline>
+<codeline lineno="12"><highlight class="comment"><sp/>*<sp/>input<sp/>used<sp/>in<sp/>their<sp/>production;<sp/>they<sp/>are<sp/>not<sp/>affected<sp/>by<sp/>this<sp/>license.</highlight></codeline>
+<codeline lineno="13"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="14"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>MARSHAL_H</highlight></codeline>
+<codeline lineno="17"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>MARSHAL_H</highlight></codeline>
+<codeline lineno="18"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;qlist.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;qfile.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;sortdict.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;store.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="d7/df8/class_argument_list" kindref="compound" tooltip="This class represents an function or template argument list.">ArgumentList</ref>;</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="de/d64/struct_base_info" kindref="compound" tooltip="This class stores information about an inheritance relation.">BaseInfo</ref>;</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="d7/d59/struct_grouping" kindref="compound" tooltip="Grouping info.">Grouping</ref>;</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="d5/d5b/struct_section_info" kindref="compound" tooltip="Class representing a section in a page.">SectionInfo</ref>;</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="d8/dd5/struct_list_item_info" kindref="compound">ListItemInfo</ref>;</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal">QCString;</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal">QGString;</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="de/d9a/class_section_dict" kindref="compound" tooltip="Unsorted dictionary of SectionInfo objects.">SectionDict</ref>;</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="d6/dd6/class_member_s_dict" kindref="compound" tooltip="A sorted dictionary of MemberDef objects.">MemberSDict</ref>;</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="d3/d3b/class_group_list" kindref="compound" tooltip="A list of GroupDef objects.">GroupList</ref>;</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="dd/d13/class_member_list" kindref="compound" tooltip="A list of MemberDef objects.">MemberList</ref>;</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="db/dab/struct_body_info" kindref="compound" tooltip="Data associated with description found in the body.">BodyInfo</ref>;</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="d7/dd5/struct_doc_info" kindref="compound" tooltip="Data associated with a detailed description.">DocInfo</ref>;</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="d0/da7/struct_brief_info" kindref="compound" tooltip="Data associated with a brief description.">BriefInfo</ref>;</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="d0/d31/class_example_s_dict" kindref="compound" tooltip="A sorted dictionary of Example objects.">ExampleSDict</ref>;</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="d4/dd7/class_entry" kindref="compound" tooltip="Represents an unstructured piece of information, about an entity found in the sources.">Entry</ref>;</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"></highlight></codeline>
+<codeline lineno="41"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>NULL_LIST<sp/>0xffffffff</highlight></codeline>
+<codeline lineno="42"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="43"><highlight class="normal"></highlight><highlight class="comment">//-----<sp/>marshaling<sp/>function:<sp/>datatype<sp/>-&gt;<sp/>byte<sp/>stream<sp/>--------------------</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="44"><highlight class="normal"></highlight></codeline>
+<codeline lineno="45"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>marshalInt(<ref refid="d7/db0/class_storage_intf" kindref="compound" tooltip="Abstract interface for file based memory storage operations.">StorageIntf</ref><sp/>*s,</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>v);</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>marshalUInt(<ref refid="d7/db0/class_storage_intf" kindref="compound" tooltip="Abstract interface for file based memory storage operations.">StorageIntf</ref><sp/>*s,uint<sp/>v);</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>marshalUInt64(<ref refid="d7/db0/class_storage_intf" kindref="compound" tooltip="Abstract interface for file based memory storage operations.">StorageIntf</ref><sp/>*s,uint64<sp/>v);</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>marshalBool(<ref refid="d7/db0/class_storage_intf" kindref="compound" tooltip="Abstract interface for file based memory storage operations.">StorageIntf</ref><sp/>*s,</highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>b);</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>marshalQCString(<ref refid="d7/db0/class_storage_intf" kindref="compound" tooltip="Abstract interface for file based memory storage operations.">StorageIntf</ref><sp/>*s,</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QCString<sp/>&amp;str);</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>marshalQGString(<ref refid="d7/db0/class_storage_intf" kindref="compound" tooltip="Abstract interface for file based memory storage operations.">StorageIntf</ref><sp/>*s,</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QGString<sp/>&amp;str);</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>marshalArgumentList(<ref refid="d7/db0/class_storage_intf" kindref="compound" tooltip="Abstract interface for file based memory storage operations.">StorageIntf</ref><sp/>*s,<ref refid="d7/df8/class_argument_list" kindref="compound" tooltip="This class represents an function or template argument list.">ArgumentList</ref><sp/>*<ref refid="d4/dd7/class_entry_1a7dfa4587991698fbc8550e563cd71948" kindref="member" tooltip="member arguments as a list">argList</ref>);</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>marshalArgumentLists(<ref refid="d7/db0/class_storage_intf" kindref="compound" tooltip="Abstract interface for file based memory storage operations.">StorageIntf</ref><sp/>*s,<ref refid="db/daa/class_q_list" kindref="compound">QList&lt;ArgumentList&gt;</ref><sp/>*argLists);</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>marshalBaseInfoList(<ref refid="d7/db0/class_storage_intf" kindref="compound" tooltip="Abstract interface for file based memory storage operations.">StorageIntf</ref><sp/>*s,<sp/><ref refid="db/daa/class_q_list" kindref="compound">QList&lt;BaseInfo&gt;</ref><sp/>*baseList);</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>marshalGroupingList(<ref refid="d7/db0/class_storage_intf" kindref="compound" tooltip="Abstract interface for file based memory storage operations.">StorageIntf</ref><sp/>*s,<sp/><ref refid="db/daa/class_q_list" kindref="compound">QList&lt;Grouping&gt;</ref><sp/>*<ref refid="d4/dd7/class_entry_1af10b19c474b2a7173a79b97124d25fc3" kindref="member" tooltip="list of groups this entry belongs to">groups</ref>);</highlight></codeline>
+<codeline lineno="55"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>marshalSectionInfoList(<ref refid="d7/db0/class_storage_intf" kindref="compound" tooltip="Abstract interface for file based memory storage operations.">StorageIntf</ref><sp/>*s,<sp/><ref refid="db/daa/class_q_list" kindref="compound">QList&lt;SectionInfo&gt;</ref><sp/>*<ref refid="d4/dd7/class_entry_1a4608d738e9d9c7798d8b83a2846b3d12" kindref="member" tooltip="list of anchors defined in this entry">anchors</ref>);</highlight></codeline>
+<codeline lineno="56"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>marshalItemInfoList(<ref refid="d7/db0/class_storage_intf" kindref="compound" tooltip="Abstract interface for file based memory storage operations.">StorageIntf</ref><sp/>*s,<sp/><ref refid="db/daa/class_q_list" kindref="compound">QList&lt;ListItemInfo&gt;</ref><sp/>*<ref refid="d4/dd7/class_entry_1a5328bd7f1580a30ad2345840044c2a4b" kindref="member" tooltip="special lists (test/todo/bug/deprecated/..) this entry is in">sli</ref>);</highlight></codeline>
+<codeline lineno="57"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>marshalObjPointer(<ref refid="d7/db0/class_storage_intf" kindref="compound" tooltip="Abstract interface for file based memory storage operations.">StorageIntf</ref><sp/>*s,</highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>*obj);</highlight></codeline>
+<codeline lineno="58"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>marshalSectionDict(<ref refid="d7/db0/class_storage_intf" kindref="compound" tooltip="Abstract interface for file based memory storage operations.">StorageIntf</ref><sp/>*s,<ref refid="de/d9a/class_section_dict" kindref="compound" tooltip="Unsorted dictionary of SectionInfo objects.">SectionDict</ref><sp/>*sections);</highlight></codeline>
+<codeline lineno="59"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>marshalMemberSDict(<ref refid="d7/db0/class_storage_intf" kindref="compound" tooltip="Abstract interface for file based memory storage operations.">StorageIntf</ref><sp/>*s,<ref refid="d6/dd6/class_member_s_dict" kindref="compound" tooltip="A sorted dictionary of MemberDef objects.">MemberSDict</ref><sp/>*memberSDict);</highlight></codeline>
+<codeline lineno="60"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>marshalDocInfo(<ref refid="d7/db0/class_storage_intf" kindref="compound" tooltip="Abstract interface for file based memory storage operations.">StorageIntf</ref><sp/>*s,<ref refid="d7/dd5/struct_doc_info" kindref="compound" tooltip="Data associated with a detailed description.">DocInfo</ref><sp/>*docInfo);</highlight></codeline>
+<codeline lineno="61"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>marshalBriefInfo(<ref refid="d7/db0/class_storage_intf" kindref="compound" tooltip="Abstract interface for file based memory storage operations.">StorageIntf</ref><sp/>*s,<ref refid="d0/da7/struct_brief_info" kindref="compound" tooltip="Data associated with a brief description.">BriefInfo</ref><sp/>*briefInfo);</highlight></codeline>
+<codeline lineno="62"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>marshalBodyInfo(<ref refid="d7/db0/class_storage_intf" kindref="compound" tooltip="Abstract interface for file based memory storage operations.">StorageIntf</ref><sp/>*s,<ref refid="db/dab/struct_body_info" kindref="compound" tooltip="Data associated with description found in the body.">BodyInfo</ref><sp/>*bodyInfo);</highlight></codeline>
+<codeline lineno="63"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>marshalGroupList(<ref refid="d7/db0/class_storage_intf" kindref="compound" tooltip="Abstract interface for file based memory storage operations.">StorageIntf</ref><sp/>*s,<ref refid="d3/d3b/class_group_list" kindref="compound" tooltip="A list of GroupDef objects.">GroupList</ref><sp/>*groupList);</highlight></codeline>
+<codeline lineno="64"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>marshalMemberList(<ref refid="d7/db0/class_storage_intf" kindref="compound" tooltip="Abstract interface for file based memory storage operations.">StorageIntf</ref><sp/>*s,<ref refid="dd/d13/class_member_list" kindref="compound" tooltip="A list of MemberDef objects.">MemberList</ref><sp/>*ml);</highlight></codeline>
+<codeline lineno="65"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>marshalExampleSDict(<ref refid="d7/db0/class_storage_intf" kindref="compound" tooltip="Abstract interface for file based memory storage operations.">StorageIntf</ref><sp/>*s,<ref refid="d0/d31/class_example_s_dict" kindref="compound" tooltip="A sorted dictionary of Example objects.">ExampleSDict</ref><sp/>*ed);</highlight></codeline>
+<codeline lineno="66"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>marshalMemberLists(<ref refid="d7/db0/class_storage_intf" kindref="compound" tooltip="Abstract interface for file based memory storage operations.">StorageIntf</ref><sp/>*s,<ref refid="d1/d50/class_s_dict" kindref="compound">SDict&lt;MemberList&gt;</ref><sp/>*mls);</highlight></codeline>
+<codeline lineno="67"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>marshalEntry(<ref refid="d7/db0/class_storage_intf" kindref="compound" tooltip="Abstract interface for file based memory storage operations.">StorageIntf</ref><sp/>*s,<ref refid="d4/dd7/class_entry" kindref="compound" tooltip="Represents an unstructured piece of information, about an entity found in the sources.">Entry</ref><sp/>*e);</highlight></codeline>
+<codeline lineno="68"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>marshalEntryTree(<ref refid="d7/db0/class_storage_intf" kindref="compound" tooltip="Abstract interface for file based memory storage operations.">StorageIntf</ref><sp/>*s,<ref refid="d4/dd7/class_entry" kindref="compound" tooltip="Represents an unstructured piece of information, about an entity found in the sources.">Entry</ref><sp/>*e);</highlight></codeline>
+<codeline lineno="69"><highlight class="normal"></highlight></codeline>
+<codeline lineno="70"><highlight class="normal"></highlight><highlight class="comment">//-----<sp/>unmarshaling<sp/>function:<sp/>byte<sp/>stream<sp/>-&gt;<sp/>datatype<sp/>------------------</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="71"><highlight class="normal"></highlight></codeline>
+<codeline lineno="72"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>unmarshalInt(<ref refid="d7/db0/class_storage_intf" kindref="compound" tooltip="Abstract interface for file based memory storage operations.">StorageIntf</ref><sp/>*s);</highlight></codeline>
+<codeline lineno="73"><highlight class="normal">uint<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>unmarshalUInt(<ref refid="d7/db0/class_storage_intf" kindref="compound" tooltip="Abstract interface for file based memory storage operations.">StorageIntf</ref><sp/>*s);</highlight></codeline>
+<codeline lineno="74"><highlight class="normal">uint64<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>unmarshalUInt64(<ref refid="d7/db0/class_storage_intf" kindref="compound" tooltip="Abstract interface for file based memory storage operations.">StorageIntf</ref><sp/>*s);</highlight></codeline>
+<codeline lineno="75"><highlight class="normal"></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>unmarshalBool(<ref refid="d7/db0/class_storage_intf" kindref="compound" tooltip="Abstract interface for file based memory storage operations.">StorageIntf</ref><sp/>*s);</highlight></codeline>
+<codeline lineno="76"><highlight class="normal">QCString<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>unmarshalQCString(<ref refid="d7/db0/class_storage_intf" kindref="compound" tooltip="Abstract interface for file based memory storage operations.">StorageIntf</ref><sp/>*s);</highlight></codeline>
+<codeline lineno="77"><highlight class="normal">QGString<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>unmarshalQGString(<ref refid="d7/db0/class_storage_intf" kindref="compound" tooltip="Abstract interface for file based memory storage operations.">StorageIntf</ref><sp/>*s);</highlight></codeline>
+<codeline lineno="78"><highlight class="normal"><ref refid="d7/df8/class_argument_list" kindref="compound" tooltip="This class represents an function or template argument list.">ArgumentList</ref><sp/>*<sp/><sp/><sp/><sp/><sp/><sp/><sp/>unmarshalArgumentList(<ref refid="d7/db0/class_storage_intf" kindref="compound" tooltip="Abstract interface for file based memory storage operations.">StorageIntf</ref><sp/>*s);</highlight></codeline>
+<codeline lineno="79"><highlight class="normal"><ref refid="db/daa/class_q_list" kindref="compound">QList&lt;ArgumentList&gt;</ref><sp/>*unmarshalArgumentLists(<ref refid="d7/db0/class_storage_intf" kindref="compound" tooltip="Abstract interface for file based memory storage operations.">StorageIntf</ref><sp/>*s);</highlight></codeline>
+<codeline lineno="80"><highlight class="normal"><ref refid="db/daa/class_q_list" kindref="compound">QList&lt;BaseInfo&gt;</ref><sp/>*<sp/><sp/><sp/><sp/>unmarshalBaseInfoList(<ref refid="d7/db0/class_storage_intf" kindref="compound" tooltip="Abstract interface for file based memory storage operations.">StorageIntf</ref><sp/>*s);</highlight></codeline>
+<codeline lineno="81"><highlight class="normal"><ref refid="db/daa/class_q_list" kindref="compound">QList&lt;Grouping&gt;</ref><sp/>*<sp/><sp/><sp/><sp/>unmarshalGroupingList(<ref refid="d7/db0/class_storage_intf" kindref="compound" tooltip="Abstract interface for file based memory storage operations.">StorageIntf</ref><sp/>*s);</highlight></codeline>
+<codeline lineno="82"><highlight class="normal"><ref refid="db/daa/class_q_list" kindref="compound">QList&lt;SectionInfo&gt;</ref><sp/>*<sp/>unmarshalSectionInfoList(<ref refid="d7/db0/class_storage_intf" kindref="compound" tooltip="Abstract interface for file based memory storage operations.">StorageIntf</ref><sp/>*s);</highlight></codeline>
+<codeline lineno="83"><highlight class="normal"><ref refid="db/daa/class_q_list" kindref="compound">QList&lt;ListItemInfo&gt;</ref><sp/>*unmarshalItemInfoList(<ref refid="d7/db0/class_storage_intf" kindref="compound" tooltip="Abstract interface for file based memory storage operations.">StorageIntf</ref><sp/>*s);</highlight></codeline>
+<codeline lineno="84"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>*<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>unmarshalObjPointer(<ref refid="d7/db0/class_storage_intf" kindref="compound" tooltip="Abstract interface for file based memory storage operations.">StorageIntf</ref><sp/>*s);</highlight></codeline>
+<codeline lineno="85"><highlight class="normal"><ref refid="de/d9a/class_section_dict" kindref="compound" tooltip="Unsorted dictionary of SectionInfo objects.">SectionDict</ref><sp/>*<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>unmarshalSectionDict(<ref refid="d7/db0/class_storage_intf" kindref="compound" tooltip="Abstract interface for file based memory storage operations.">StorageIntf</ref><sp/>*s);</highlight></codeline>
+<codeline lineno="86"><highlight class="normal"><ref refid="d6/dd6/class_member_s_dict" kindref="compound" tooltip="A sorted dictionary of MemberDef objects.">MemberSDict</ref><sp/>*<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>unmarshalMemberSDict(<ref refid="d7/db0/class_storage_intf" kindref="compound" tooltip="Abstract interface for file based memory storage operations.">StorageIntf</ref><sp/>*s);</highlight></codeline>
+<codeline lineno="87"><highlight class="normal"><ref refid="d7/dd5/struct_doc_info" kindref="compound" tooltip="Data associated with a detailed description.">DocInfo</ref><sp/>*<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>unmarshalDocInfo(<ref refid="d7/db0/class_storage_intf" kindref="compound" tooltip="Abstract interface for file based memory storage operations.">StorageIntf</ref><sp/>*s);</highlight></codeline>
+<codeline lineno="88"><highlight class="normal"><ref refid="d0/da7/struct_brief_info" kindref="compound" tooltip="Data associated with a brief description.">BriefInfo</ref><sp/>*<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>unmarshalBriefInfo(<ref refid="d7/db0/class_storage_intf" kindref="compound" tooltip="Abstract interface for file based memory storage operations.">StorageIntf</ref><sp/>*s);</highlight></codeline>
+<codeline lineno="89"><highlight class="normal"><ref refid="db/dab/struct_body_info" kindref="compound" tooltip="Data associated with description found in the body.">BodyInfo</ref><sp/>*<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>unmarshalBodyInfo(<ref refid="d7/db0/class_storage_intf" kindref="compound" tooltip="Abstract interface for file based memory storage operations.">StorageIntf</ref><sp/>*s);</highlight></codeline>
+<codeline lineno="90"><highlight class="normal"><ref refid="d3/d3b/class_group_list" kindref="compound" tooltip="A list of GroupDef objects.">GroupList</ref><sp/>*<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>unmarshalGroupList(<ref refid="d7/db0/class_storage_intf" kindref="compound" tooltip="Abstract interface for file based memory storage operations.">StorageIntf</ref><sp/>*s);</highlight></codeline>
+<codeline lineno="91"><highlight class="normal"><ref refid="dd/d13/class_member_list" kindref="compound" tooltip="A list of MemberDef objects.">MemberList</ref><sp/>*<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>unmarshalMemberList(<ref refid="d7/db0/class_storage_intf" kindref="compound" tooltip="Abstract interface for file based memory storage operations.">StorageIntf</ref><sp/>*s);</highlight></codeline>
+<codeline lineno="92"><highlight class="normal"><ref refid="d0/d31/class_example_s_dict" kindref="compound" tooltip="A sorted dictionary of Example objects.">ExampleSDict</ref><sp/>*<sp/><sp/><sp/><sp/><sp/><sp/><sp/>unmarshalExampleSDict(<ref refid="d7/db0/class_storage_intf" kindref="compound" tooltip="Abstract interface for file based memory storage operations.">StorageIntf</ref><sp/>*s);</highlight></codeline>
+<codeline lineno="93"><highlight class="normal"><ref refid="d1/d50/class_s_dict" kindref="compound">SDict&lt;MemberList&gt;</ref><sp/>*<sp/><sp/>unmarshalMemberLists(<ref refid="d7/db0/class_storage_intf" kindref="compound" tooltip="Abstract interface for file based memory storage operations.">StorageIntf</ref><sp/>*s);</highlight></codeline>
+<codeline lineno="94"><highlight class="normal"><ref refid="d4/dd7/class_entry" kindref="compound" tooltip="Represents an unstructured piece of information, about an entity found in the sources.">Entry</ref><sp/>*<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>unmarshalEntry(<ref refid="d7/db0/class_storage_intf" kindref="compound" tooltip="Abstract interface for file based memory storage operations.">StorageIntf</ref><sp/>*s);</highlight></codeline>
+<codeline lineno="95"><highlight class="normal"><ref refid="d4/dd7/class_entry" kindref="compound" tooltip="Represents an unstructured piece of information, about an entity found in the sources.">Entry</ref><sp/>*<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>unmarshalEntryTree(<ref refid="d7/db0/class_storage_intf" kindref="compound" tooltip="Abstract interface for file based memory storage operations.">StorageIntf</ref><sp/>*s);</highlight></codeline>
+<codeline lineno="96"><highlight class="normal"></highlight></codeline>
+<codeline lineno="97"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+    </programlisting>
+    <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/marshal.h"/>
+  </compounddef>
+</doxygen>

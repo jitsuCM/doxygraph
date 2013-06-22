@@ -1,0 +1,255 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.2">
+  <compounddef id="d4/d09/reflist_8cpp" kind="file">
+    <compoundname>reflist.cpp</compoundname>
+    <includes local="no">stdio.h</includes>
+    <includes refid="d1/d02/reflist_8h" local="yes">reflist.h</includes>
+    <includes refid="d8/d3c/util_8h" local="yes">util.h</includes>
+    <includes refid="df/d83/ftextstream_8h" local="yes">ftextstream.h</includes>
+    <incdepgraph>
+      <node id="4393">
+        <label>qcstring.h</label>
+      </node>
+      <node id="4397">
+        <label>qgstring.h</label>
+      </node>
+      <node id="4396">
+        <label>qstring.h</label>
+      </node>
+      <node id="4388">
+        <label>sortdict.h</label>
+        <link refid="d9/d21/sortdict_8h_source"/>
+        <childnode refid="4387" relation="include">
+        </childnode>
+        <childnode refid="4389" relation="include">
+        </childnode>
+        <childnode refid="4386" relation="include">
+        </childnode>
+      </node>
+      <node id="4390">
+        <label>util.h</label>
+        <link refid="d8/d3c/util_8h"/>
+        <childnode refid="4387" relation="include">
+        </childnode>
+        <childnode refid="4391" relation="include">
+        </childnode>
+        <childnode refid="4392" relation="include">
+        </childnode>
+      </node>
+      <node id="4386">
+        <label>qintdict.h</label>
+      </node>
+      <node id="4395">
+        <label>qiodevice.h</label>
+      </node>
+      <node id="4392">
+        <label>types.h</label>
+        <link refid="d9/d49/types_8h"/>
+        <childnode refid="4393" relation="include">
+        </childnode>
+      </node>
+      <node id="4387">
+        <label>qlist.h</label>
+      </node>
+      <node id="4394">
+        <label>ftextstream.h</label>
+        <link refid="df/d83/ftextstream_8h_source"/>
+        <childnode refid="4384" relation="include">
+        </childnode>
+        <childnode refid="4395" relation="include">
+        </childnode>
+        <childnode refid="4396" relation="include">
+        </childnode>
+        <childnode refid="4397" relation="include">
+        </childnode>
+      </node>
+      <node id="4383">
+        <label>src/reflist.cpp</label>
+        <link refid="reflist.cpp"/>
+        <childnode refid="4384" relation="include">
+        </childnode>
+        <childnode refid="4385" relation="include">
+        </childnode>
+        <childnode refid="4390" relation="include">
+        </childnode>
+        <childnode refid="4394" relation="include">
+        </childnode>
+      </node>
+      <node id="4391">
+        <label>ctype.h</label>
+      </node>
+      <node id="4385">
+        <label>reflist.h</label>
+        <link refid="d1/d02/reflist_8h_source"/>
+        <childnode refid="4386" relation="include">
+        </childnode>
+        <childnode refid="4387" relation="include">
+        </childnode>
+        <childnode refid="4388" relation="include">
+        </childnode>
+      </node>
+      <node id="4389">
+        <label>qdict.h</label>
+      </node>
+      <node id="4384">
+        <label>stdio.h</label>
+      </node>
+    </incdepgraph>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">/******************************************************************************</highlight></codeline>
+<codeline lineno="2"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="3"><highlight class="comment"><sp/>*<sp/>$Id:<sp/>reflist.cpp,v<sp/>1.2<sp/>2001/03/19<sp/>19:27:41<sp/>root<sp/>Exp<sp/>$</highlight></codeline>
+<codeline lineno="4"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="5"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="6"><highlight class="comment"><sp/>*<sp/>Copyright<sp/>(C)<sp/>1997-2013<sp/>by<sp/>Dimitri<sp/>van<sp/>Heesch.</highlight></codeline>
+<codeline lineno="7"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="8"><highlight class="comment"><sp/>*<sp/>Permission<sp/>to<sp/>use,<sp/>copy,<sp/>modify,<sp/>and<sp/>distribute<sp/>this<sp/>software<sp/>and<sp/>its</highlight></codeline>
+<codeline lineno="9"><highlight class="comment"><sp/>*<sp/>documentation<sp/>under<sp/>the<sp/>terms<sp/>of<sp/>the<sp/>GNU<sp/>General<sp/>Public<sp/>License<sp/>is<sp/>hereby<sp/></highlight></codeline>
+<codeline lineno="10"><highlight class="comment"><sp/>*<sp/>granted.<sp/>No<sp/>representations<sp/>are<sp/>made<sp/>about<sp/>the<sp/>suitability<sp/>of<sp/>this<sp/>software<sp/></highlight></codeline>
+<codeline lineno="11"><highlight class="comment"><sp/>*<sp/>for<sp/>any<sp/>purpose.<sp/>It<sp/>is<sp/>provided<sp/>&quot;as<sp/>is&quot;<sp/>without<sp/>express<sp/>or<sp/>implied<sp/>warranty.</highlight></codeline>
+<codeline lineno="12"><highlight class="comment"><sp/>*<sp/>See<sp/>the<sp/>GNU<sp/>General<sp/>Public<sp/>License<sp/>for<sp/>more<sp/>details.</highlight></codeline>
+<codeline lineno="13"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="14"><highlight class="comment"><sp/>*<sp/>Documents<sp/>produced<sp/>by<sp/>Doxygen<sp/>are<sp/>derivative<sp/>works<sp/>derived<sp/>from<sp/>the</highlight></codeline>
+<codeline lineno="15"><highlight class="comment"><sp/>*<sp/>input<sp/>used<sp/>in<sp/>their<sp/>production;<sp/>they<sp/>are<sp/>not<sp/>affected<sp/>by<sp/>this<sp/>license.</highlight></codeline>
+<codeline lineno="16"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="17"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stdio.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;reflist.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="d8/d3c/util_8h" kindref="compound" tooltip="A bunch of utility functions.">util.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;ftextstream.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight></codeline>
+<codeline lineno="29" refid="d7/de8/class_ref_list_1a53383174c5d9adbffbfaf6b7680b5d34" refkind="member"><highlight class="normal"><ref refid="d7/de8/class_ref_list_1a53383174c5d9adbffbfaf6b7680b5d34" kindref="member">RefList::RefList</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*listName,</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*pageTitle,</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*secTitle</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>)</highlight></codeline>
+<codeline lineno="33"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/>m_itemList<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/>m_dict<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/>m_dictIterator<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/>m_id<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/>m_listName<sp/>=<sp/><ref refid="d7/de8/class_ref_list_1a2ab3866977ce58fab559d6f03d7a5d4c" kindref="member">listName</ref>;</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/>m_pageTitle<sp/>=<sp/>pageTitle;</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/>m_secTitle<sp/>=<sp/>secTitle;</highlight></codeline>
+<codeline lineno="41"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"></highlight></codeline>
+<codeline lineno="44" refid="d7/de8/class_ref_list_1a24ed19af8e396ebb4c196ab7a6805901" refkind="member"><highlight class="normal"><ref refid="d7/de8/class_ref_list_1a24ed19af8e396ebb4c196ab7a6805901" kindref="member">RefList::~RefList</ref>()</highlight></codeline>
+<codeline lineno="45"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">delete</highlight><highlight class="normal"><sp/>m_dictIterator;</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">delete</highlight><highlight class="normal"><sp/>m_dict;</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">delete</highlight><highlight class="normal"><sp/>m_itemList;</highlight></codeline>
+<codeline lineno="49"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"></highlight></codeline>
+<codeline lineno="54" refid="d7/de8/class_ref_list_1ae3dccd8cef3a09ed34c6fb611766875b" refkind="member"><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="d7/de8/class_ref_list_1ae3dccd8cef3a09ed34c6fb611766875b" kindref="member">RefList::addRefItem</ref>()</highlight></codeline>
+<codeline lineno="55"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="56"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(m_dict==0)</highlight></codeline>
+<codeline lineno="57"><highlight class="normal"><sp/><sp/>{</highlight></codeline>
+<codeline lineno="58"><highlight class="normal"><sp/><sp/><sp/><sp/>m_dict<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>QIntDict&lt;RefItem&gt;(1009);</highlight></codeline>
+<codeline lineno="59"><highlight class="normal"><sp/><sp/><sp/><sp/>m_dict-&gt;setAutoDelete(TRUE);</highlight></codeline>
+<codeline lineno="60"><highlight class="normal"><sp/><sp/><sp/><sp/>m_dictIterator<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>QIntDictIterator&lt;RefItem&gt;(*m_dict);</highlight></codeline>
+<codeline lineno="61"><highlight class="normal"><sp/><sp/>}</highlight></codeline>
+<codeline lineno="62"><highlight class="normal"><sp/><sp/><ref refid="de/d1b/struct_ref_item" kindref="compound" tooltip="This struct represents an item in the list of references.">RefItem</ref><sp/>*item<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="de/d1b/struct_ref_item" kindref="compound" tooltip="This struct represents an item in the list of references.">RefItem</ref>;</highlight></codeline>
+<codeline lineno="63"><highlight class="normal"><sp/><sp/>m_id++;</highlight></codeline>
+<codeline lineno="64"><highlight class="normal"><sp/><sp/>m_dict-&gt;insert(m_id,item);</highlight></codeline>
+<codeline lineno="65"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>m_id;</highlight></codeline>
+<codeline lineno="66"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="67"><highlight class="normal"></highlight></codeline>
+<codeline lineno="72" refid="d7/de8/class_ref_list_1af047154431d78b27f413e14cadc1d15e" refkind="member"><highlight class="normal"><ref refid="de/d1b/struct_ref_item" kindref="compound" tooltip="This struct represents an item in the list of references.">RefItem</ref><sp/>*<ref refid="d7/de8/class_ref_list_1af047154431d78b27f413e14cadc1d15e" kindref="member">RefList::getRefItem</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>itemId)</highlight></codeline>
+<codeline lineno="73"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="74"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>m_dict<sp/>?<sp/>m_dict-&gt;find(itemId)<sp/>:<sp/>0;</highlight></codeline>
+<codeline lineno="75"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="76"><highlight class="normal"></highlight></codeline>
+<codeline lineno="81" refid="d7/de8/class_ref_list_1a065a043b7798849b1b97734b39ff3e85" refkind="member"><highlight class="normal"><ref refid="de/d1b/struct_ref_item" kindref="compound" tooltip="This struct represents an item in the list of references.">RefItem</ref><sp/>*<ref refid="d7/de8/class_ref_list_1a065a043b7798849b1b97734b39ff3e85" kindref="member">RefList::getFirstRefItem</ref>()</highlight></codeline>
+<codeline lineno="82"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="83"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>m_dictIterator<sp/>?<sp/>m_dictIterator-&gt;toFirst()<sp/>:<sp/>0;</highlight></codeline>
+<codeline lineno="84"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="85"><highlight class="normal"></highlight></codeline>
+<codeline lineno="90" refid="d7/de8/class_ref_list_1a29659cc06bbde1e0b3a2b968ae333927" refkind="member"><highlight class="normal"><ref refid="de/d1b/struct_ref_item" kindref="compound" tooltip="This struct represents an item in the list of references.">RefItem</ref><sp/>*<ref refid="d7/de8/class_ref_list_1a29659cc06bbde1e0b3a2b968ae333927" kindref="member">RefList::getNextRefItem</ref>()</highlight></codeline>
+<codeline lineno="91"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="92"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>m_dictIterator<sp/>?<sp/>m_dictIterator-&gt;operator++()<sp/>:<sp/>0;</highlight></codeline>
+<codeline lineno="93"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="94"><highlight class="normal"></highlight></codeline>
+<codeline lineno="96" refid="d7/de8/class_ref_list_1a2ab3866977ce58fab559d6f03d7a5d4c" refkind="member"><highlight class="normal">QCString<sp/><ref refid="d7/de8/class_ref_list_1a2ab3866977ce58fab559d6f03d7a5d4c" kindref="member">RefList::listName</ref>()</highlight><highlight class="keyword"><sp/>const</highlight></codeline>
+<codeline lineno="97"><highlight class="keyword"></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="98"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>m_listName;</highlight></codeline>
+<codeline lineno="99"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="100"><highlight class="normal"></highlight></codeline>
+<codeline lineno="101"><highlight class="normal">QCString<sp/>RefList::pageTitle()</highlight><highlight class="keyword"><sp/>const</highlight></codeline>
+<codeline lineno="102"><highlight class="keyword"></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="103"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>m_pageTitle;</highlight></codeline>
+<codeline lineno="104"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="105"><highlight class="normal"></highlight></codeline>
+<codeline lineno="106"><highlight class="normal">QCString<sp/>RefList::sectionTitle()</highlight><highlight class="keyword"><sp/>const</highlight></codeline>
+<codeline lineno="107"><highlight class="keyword"></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="108"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>m_secTitle;</highlight></codeline>
+<codeline lineno="109"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="110"><highlight class="normal"></highlight></codeline>
+<codeline lineno="111"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>RefList::insertIntoList(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*key,<ref refid="de/d1b/struct_ref_item" kindref="compound" tooltip="This struct represents an item in the list of references.">RefItem</ref><sp/>*item)</highlight></codeline>
+<codeline lineno="112"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="113"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(m_itemList==0)</highlight></codeline>
+<codeline lineno="114"><highlight class="normal"><sp/><sp/>{</highlight></codeline>
+<codeline lineno="115"><highlight class="normal"><sp/><sp/><sp/><sp/>m_itemList<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="d0/d8c/class_sorted_ref_items" kindref="compound" tooltip="List of items sorted by title.">SortedRefItems</ref>(1009);</highlight></codeline>
+<codeline lineno="116"><highlight class="normal"><sp/><sp/>}</highlight></codeline>
+<codeline lineno="117"><highlight class="normal"><sp/><sp/><ref refid="de/d1b/struct_ref_item" kindref="compound" tooltip="This struct represents an item in the list of references.">RefItem</ref><sp/>*ri<sp/>=<sp/>m_itemList-&gt;<ref refid="d1/d50/class_s_dict_1aec67482d780157680d46f48a7ed5e7bd" kindref="member">find</ref>(key);</highlight></codeline>
+<codeline lineno="118"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(ri==0)</highlight></codeline>
+<codeline lineno="119"><highlight class="normal"><sp/><sp/>{</highlight></codeline>
+<codeline lineno="120"><highlight class="normal"><sp/><sp/><sp/><sp/>m_itemList-&gt;<ref refid="d1/d50/class_s_dict_1a121842d9858421076b81ed663034d62c" kindref="member">append</ref>(key,item);</highlight></codeline>
+<codeline lineno="121"><highlight class="normal"><sp/><sp/>}</highlight></codeline>
+<codeline lineno="122"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/></highlight><highlight class="comment">//<sp/>item<sp/>already<sp/>added<sp/>to<sp/>the<sp/>list<sp/>(i.e.<sp/>multiple<sp/>item<sp/>for<sp/>the<sp/>same</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="123"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>entity)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="124"><highlight class="normal"><sp/><sp/>{</highlight></codeline>
+<codeline lineno="125"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(ri!=item)</highlight></codeline>
+<codeline lineno="126"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="127"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>ri-&gt;<ref refid="de/d1b/struct_ref_item_1ab530bdf51cf559d443a6183a93fe37b6" kindref="member" tooltip="more items belonging to the same entity">extraItems</ref>.append(item);</highlight></codeline>
+<codeline lineno="128"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="129"><highlight class="normal"><sp/><sp/>}</highlight></codeline>
+<codeline lineno="130"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="131"><highlight class="normal"></highlight></codeline>
+<codeline lineno="132"><highlight class="normal"></highlight></codeline>
+<codeline lineno="133"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>RefList::generatePage()</highlight></codeline>
+<codeline lineno="134"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="135"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(m_itemList==0)<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="136"><highlight class="normal"><sp/><sp/>m_itemList-&gt;<ref refid="d1/d50/class_s_dict_1ab6da88a61ee284dfbd07830fcd63aed3" kindref="member">sort</ref>();</highlight></codeline>
+<codeline lineno="137"><highlight class="normal"><sp/><sp/><ref refid="d1/d50/class_s_dict" kindref="compound" tooltip="Ordered dictionary of elements of type T.">SDict&lt;RefItem&gt;::Iterator</ref><sp/>it(*m_itemList);</highlight></codeline>
+<codeline lineno="138"><highlight class="normal"><sp/><sp/><ref refid="de/d1b/struct_ref_item" kindref="compound" tooltip="This struct represents an item in the list of references.">RefItem</ref><sp/>*item;</highlight></codeline>
+<codeline lineno="139"><highlight class="normal"><sp/><sp/>QCString<sp/>doc;</highlight></codeline>
+<codeline lineno="140"><highlight class="normal"><sp/><sp/>doc<sp/>+=<sp/></highlight><highlight class="stringliteral">&quot;&lt;dl<sp/>class=\&quot;reflist\&quot;&gt;&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="141"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(it.toFirst();(item=it.current());++it)</highlight></codeline>
+<codeline lineno="142"><highlight class="normal"><sp/><sp/>{</highlight></codeline>
+<codeline lineno="143"><highlight class="normal"><sp/><sp/><sp/><sp/>doc<sp/>+=<sp/></highlight><highlight class="stringliteral">&quot;<sp/>&lt;dt&gt;&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="144"><highlight class="normal"><sp/><sp/><sp/><sp/>doc<sp/>+=<sp/><sp/></highlight><highlight class="stringliteral">&quot;\\anchor<sp/>&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="145"><highlight class="normal"><sp/><sp/><sp/><sp/>doc<sp/>+=<sp/>item-&gt;<ref refid="de/d1b/struct_ref_item_1a06a0f029d92e3573e65f94a2a106b95f" kindref="member" tooltip="anchor in the list">listAnchor</ref>;</highlight></codeline>
+<codeline lineno="146"><highlight class="normal"><sp/><sp/><sp/><sp/>doc<sp/>+=<sp/></highlight><highlight class="stringliteral">&quot;\n&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="147"><highlight class="normal"><sp/><sp/><sp/><sp/>doc<sp/>+=<sp/>item-&gt;<ref refid="de/d1b/struct_ref_item_1a5bc1b5fe84242499696ff7414217fd58" kindref="member" tooltip="type prefix for the name">prefix</ref>;</highlight></codeline>
+<codeline lineno="148"><highlight class="normal"><sp/><sp/><sp/><sp/>doc<sp/>+=<sp/></highlight><highlight class="stringliteral">&quot;<sp/>\\_internalref<sp/>&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="149"><highlight class="normal"><sp/><sp/><sp/><sp/>doc<sp/>+=<sp/>item-&gt;<ref refid="de/d1b/struct_ref_item_1a1235c4acaa9aa9bfece34c6d7f654ef0" kindref="member" tooltip="name of the entity containing the reference">name</ref>;</highlight></codeline>
+<codeline lineno="150"><highlight class="normal"><sp/><sp/><sp/><sp/>doc<sp/>+=<sp/></highlight><highlight class="stringliteral">&quot;<sp/>\&quot;&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="151"><highlight class="normal"><sp/><sp/><sp/><sp/>doc<sp/>+=<sp/>item-&gt;<ref refid="de/d1b/struct_ref_item_1a5160b8acde58f43ebfc2842281591acd" kindref="member" tooltip="display name of the entity">title</ref>;</highlight></codeline>
+<codeline lineno="152"><highlight class="normal"><sp/><sp/><sp/><sp/>doc<sp/>+=<sp/></highlight><highlight class="stringliteral">&quot;\&quot;<sp/>&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="153"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>write<sp/>declaration<sp/>in<sp/>case<sp/>a<sp/>function<sp/>with<sp/>arguments</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="154"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(!item-&gt;<ref refid="de/d1b/struct_ref_item_1abe88c74f88bcacf9fa2d16c797742910" kindref="member" tooltip="optional arguments for the entity (if function)">args</ref>.isEmpty())<sp/></highlight></codeline>
+<codeline lineno="155"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="156"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>doc<sp/>+=<sp/>item-&gt;<ref refid="de/d1b/struct_ref_item_1abe88c74f88bcacf9fa2d16c797742910" kindref="member" tooltip="optional arguments for the entity (if function)">args</ref>;</highlight></codeline>
+<codeline lineno="157"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="158"><highlight class="normal"><sp/><sp/><sp/><sp/>doc<sp/>+=<sp/></highlight><highlight class="stringliteral">&quot;&lt;/dt&gt;&lt;dd&gt;<sp/>&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="159"><highlight class="normal"><sp/><sp/><sp/><sp/>doc<sp/>+=<sp/>item-&gt;<ref refid="de/d1b/struct_ref_item_1a03313f190ccfba8be0bcfbb5dedf6c73" kindref="member" tooltip="text of the item.">text</ref>;</highlight></codeline>
+<codeline lineno="160"><highlight class="normal"><sp/><sp/><sp/><sp/>QListIterator&lt;RefItem&gt;<sp/>li(item-&gt;<ref refid="de/d1b/struct_ref_item_1ab530bdf51cf559d443a6183a93fe37b6" kindref="member" tooltip="more items belonging to the same entity">extraItems</ref>);</highlight></codeline>
+<codeline lineno="161"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="de/d1b/struct_ref_item" kindref="compound" tooltip="This struct represents an item in the list of references.">RefItem</ref><sp/>*extraItem;</highlight></codeline>
+<codeline lineno="162"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(li.toFirst();(extraItem=li.current());++li)</highlight></codeline>
+<codeline lineno="163"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="164"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>doc<sp/>+=<sp/></highlight><highlight class="stringliteral">&quot;&lt;p&gt;&quot;</highlight><highlight class="normal"><sp/>+<sp/>extraItem-&gt;<ref refid="de/d1b/struct_ref_item_1a03313f190ccfba8be0bcfbb5dedf6c73" kindref="member" tooltip="text of the item.">text</ref>;</highlight></codeline>
+<codeline lineno="165"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="166"><highlight class="normal"><sp/><sp/><sp/><sp/>doc<sp/>+=<sp/></highlight><highlight class="stringliteral">&quot;&lt;/dd&gt;&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="167"><highlight class="normal"><sp/><sp/>}</highlight></codeline>
+<codeline lineno="168"><highlight class="normal"><sp/><sp/>doc<sp/>+=<sp/></highlight><highlight class="stringliteral">&quot;&lt;/dl&gt;\n&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="169"><highlight class="normal"><sp/><sp/>addRelatedPage(m_listName,m_pageTitle,doc,0,m_listName,1,0,0,0);</highlight></codeline>
+<codeline lineno="170"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="171"><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/reflist.cpp"/>
+  </compounddef>
+</doxygen>

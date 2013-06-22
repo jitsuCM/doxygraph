@@ -1,0 +1,717 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.2">
+  <compounddef id="d2/de2/portable_8h" kind="file">
+    <compoundname>portable.h</compoundname>
+    <includes local="no">sys/types.h</includes>
+    <includes local="no">stdio.h</includes>
+    <includes local="no">qglobal.h</includes>
+    <includedby refid="d5/d3f/store_8h" local="yes">src/store.h</includedby>
+    <includedby refid="d5/d0b/cite_8cpp" local="yes">src/cite.cpp</includedby>
+    <includedby refid="d5/dbd/configoptions_8cpp" local="yes">src/configoptions.cpp</includedby>
+    <includedby refid="da/d0d/diagram_8cpp" local="yes">src/diagram.cpp</includedby>
+    <includedby refid="da/d17/docparser_8cpp" local="yes">src/docparser.cpp</includedby>
+    <includedby refid="de/daa/dot_8cpp" local="yes">src/dot.cpp</includedby>
+    <includedby refid="dc/d98/doxygen_8cpp" local="yes">src/doxygen.cpp</includedby>
+    <includedby refid="d6/ddc/filedef_8cpp" local="yes">src/filedef.cpp</includedby>
+    <includedby refid="d7/d5b/formula_8cpp" local="yes">src/formula.cpp</includedby>
+    <includedby refid="d9/db7/htags_8cpp" local="yes">src/htags.cpp</includedby>
+    <includedby refid="d3/d4b/htmlhelp_8cpp" local="yes">src/htmlhelp.cpp</includedby>
+    <includedby refid="d3/d47/translatordecoder_8h" local="yes">src/translatordecoder.h</includedby>
+    <includedby refid="d8/d6a/message_8cpp" local="yes">src/message.cpp</includedby>
+    <includedby refid="db/d33/msc_8cpp" local="yes">src/msc.cpp</includedby>
+    <includedby refid="d0/d17/outputgen_8cpp" local="yes">src/outputgen.cpp</includedby>
+    <includedby refid="d0/d1c/portable_8cpp" local="yes">src/portable.cpp</includedby>
+    <includedby refid="d0/d9c/rtfgen_8cpp" local="yes">src/rtfgen.cpp</includedby>
+    <includedby refid="da/dd8/store_8cpp" local="yes">src/store.cpp</includedby>
+    <includedby refid="df/d2d/util_8cpp" local="yes">src/util.cpp</includedby>
+    <includedby refid="de/dea/vhdldocgen_8cpp" local="yes">src/vhdldocgen.cpp</includedby>
+    <incdepgraph>
+      <node id="4262">
+        <label>qglobal.h</label>
+      </node>
+      <node id="4260">
+        <label>sys/types.h</label>
+      </node>
+      <node id="4259">
+        <label>src/portable.h</label>
+        <link refid="portable.h"/>
+        <childnode refid="4260" relation="include">
+        </childnode>
+        <childnode refid="4261" relation="include">
+        </childnode>
+        <childnode refid="4262" relation="include">
+        </childnode>
+      </node>
+      <node id="4261">
+        <label>stdio.h</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="4270">
+        <label>src/marshal.cpp</label>
+        <link refid="d9/d85/marshal_8cpp_source"/>
+      </node>
+      <node id="4279">
+        <label>src/docparser.cpp</label>
+        <link refid="da/d17/docparser_8cpp_source"/>
+      </node>
+      <node id="4272">
+        <label>src/membergroup.cpp</label>
+        <link refid="d6/d18/membergroup_8cpp_source"/>
+      </node>
+      <node id="4290">
+        <label>src/portable.cpp</label>
+        <link refid="d0/d1c/portable_8cpp_source"/>
+      </node>
+      <node id="4271">
+        <label>src/memberdef.cpp</label>
+        <link refid="d0/d72/memberdef_8cpp_source"/>
+      </node>
+      <node id="4268">
+        <label>src/doxygen.cpp</label>
+        <link refid="dc/d98/doxygen_8cpp_source"/>
+      </node>
+      <node id="4280">
+        <label>src/dot.cpp</label>
+        <link refid="de/daa/dot_8cpp_source"/>
+      </node>
+      <node id="4293">
+        <label>src/vhdldocgen.cpp</label>
+        <link refid="de/dea/vhdldocgen_8cpp_source"/>
+      </node>
+      <node id="4291">
+        <label>src/rtfgen.cpp</label>
+        <link refid="d0/d9c/rtfgen_8cpp_source"/>
+      </node>
+      <node id="4266">
+        <label>src/arguments.cpp</label>
+        <link refid="d4/dd4/arguments_8cpp_source"/>
+      </node>
+      <node id="4269">
+        <label>src/entry.cpp</label>
+        <link refid="d2/dd2/entry_8cpp_source"/>
+      </node>
+      <node id="4292">
+        <label>src/util.cpp</label>
+        <link refid="df/d2d/util_8cpp_source"/>
+      </node>
+      <node id="4288">
+        <label>src/msc.cpp</label>
+        <link refid="db/d33/msc_8cpp_source"/>
+      </node>
+      <node id="4287">
+        <label>src/message.cpp</label>
+        <link refid="d8/d6a/message_8cpp_source"/>
+      </node>
+      <node id="4275">
+        <label>src/store.cpp</label>
+        <link refid="da/dd8/store_8cpp_source"/>
+      </node>
+      <node id="4281">
+        <label>src/filedef.cpp</label>
+        <link refid="d6/ddc/filedef_8cpp_source"/>
+      </node>
+      <node id="4274">
+        <label>src/filestorage.h</label>
+        <link refid="dd/da1/filestorage_8h_source"/>
+        <childnode refid="4268" relation="include">
+        </childnode>
+        <childnode refid="4269" relation="include">
+        </childnode>
+      </node>
+      <node id="4267">
+        <label>src/definition.cpp</label>
+        <link refid="d3/dea/definition_8cpp_source"/>
+      </node>
+      <node id="4289">
+        <label>src/outputgen.cpp</label>
+        <link refid="d0/d17/outputgen_8cpp_source"/>
+      </node>
+      <node id="4282">
+        <label>src/formula.cpp</label>
+        <link refid="d7/d5b/formula_8cpp_source"/>
+      </node>
+      <node id="4283">
+        <label>src/htags.cpp</label>
+        <link refid="d9/db7/htags_8cpp_source"/>
+      </node>
+      <node id="4285">
+        <label>src/translatordecoder.h</label>
+        <link refid="d3/d47/translatordecoder_8h_source"/>
+        <childnode refid="4286" relation="include">
+        </childnode>
+      </node>
+      <node id="4273">
+        <label>src/memberlist.cpp</label>
+        <link refid="d0/d14/memberlist_8cpp_source"/>
+      </node>
+      <node id="4265">
+        <label>src/marshal.h</label>
+        <link refid="d9/de0/marshal_8h_source"/>
+        <childnode refid="4266" relation="include">
+        </childnode>
+        <childnode refid="4267" relation="include">
+        </childnode>
+        <childnode refid="4268" relation="include">
+        </childnode>
+        <childnode refid="4269" relation="include">
+        </childnode>
+        <childnode refid="4270" relation="include">
+        </childnode>
+        <childnode refid="4271" relation="include">
+        </childnode>
+        <childnode refid="4272" relation="include">
+        </childnode>
+        <childnode refid="4273" relation="include">
+        </childnode>
+      </node>
+      <node id="4264">
+        <label>src/store.h</label>
+        <link refid="d5/d3f/store_8h_source"/>
+        <childnode refid="4265" relation="include">
+        </childnode>
+        <childnode refid="4268" relation="include">
+        </childnode>
+        <childnode refid="4274" relation="include">
+        </childnode>
+        <childnode refid="4275" relation="include">
+        </childnode>
+      </node>
+      <node id="4277">
+        <label>src/configoptions.cpp</label>
+        <link refid="d5/dbd/configoptions_8cpp_source"/>
+      </node>
+      <node id="4276">
+        <label>src/cite.cpp</label>
+        <link refid="d5/d0b/cite_8cpp_source"/>
+      </node>
+      <node id="4284">
+        <label>src/htmlhelp.cpp</label>
+        <link refid="d3/d4b/htmlhelp_8cpp_source"/>
+      </node>
+      <node id="4278">
+        <label>src/diagram.cpp</label>
+        <link refid="da/d0d/diagram_8cpp_source"/>
+      </node>
+      <node id="4286">
+        <label>src/language.cpp</label>
+        <link refid="d2/d48/language_8cpp_source"/>
+      </node>
+      <node id="4263">
+        <label>src/portable.h</label>
+        <link refid="portable.h"/>
+        <childnode refid="4264" relation="include">
+        </childnode>
+        <childnode refid="4276" relation="include">
+        </childnode>
+        <childnode refid="4277" relation="include">
+        </childnode>
+        <childnode refid="4278" relation="include">
+        </childnode>
+        <childnode refid="4279" relation="include">
+        </childnode>
+        <childnode refid="4280" relation="include">
+        </childnode>
+        <childnode refid="4268" relation="include">
+        </childnode>
+        <childnode refid="4281" relation="include">
+        </childnode>
+        <childnode refid="4282" relation="include">
+        </childnode>
+        <childnode refid="4283" relation="include">
+        </childnode>
+        <childnode refid="4284" relation="include">
+        </childnode>
+        <childnode refid="4285" relation="include">
+        </childnode>
+        <childnode refid="4287" relation="include">
+        </childnode>
+        <childnode refid="4288" relation="include">
+        </childnode>
+        <childnode refid="4289" relation="include">
+        </childnode>
+        <childnode refid="4290" relation="include">
+        </childnode>
+        <childnode refid="4291" relation="include">
+        </childnode>
+        <childnode refid="4275" relation="include">
+        </childnode>
+        <childnode refid="4292" relation="include">
+        </childnode>
+        <childnode refid="4293" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+      <sectiondef kind="typedef">
+      <memberdef kind="typedef" id="d2/de2/portable_8h_1a25423a5b429a3ee0610315d93938bd0b" prot="public" static="no">
+        <type>off_t</type>
+        <definition>typedef off_t portable_off_t</definition>
+        <argsstring></argsstring>
+        <name>portable_off_t</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/portable.h" line="11" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/portable.h" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="d2/de2/portable_8h_1ab1446c4224056df1eaff8f4123f55fff" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int portable_system</definition>
+        <argsstring>(const char *command, const char *args, bool commandHasConsole=TRUE)</argsstring>
+        <name>portable_system</name>
+        <param>
+          <type>const char *</type>
+          <declname>command</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>commandHasConsole</declname>
+          <defval>TRUE</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+<para>taken from the system() manpage on my Linux box </para>        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/portable.h" line="18" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/portable.cpp" bodystart="33" bodyend="170"/>
+      </memberdef>
+      <memberdef kind="function" id="d2/de2/portable_8h_1a59f752704c51b3369512e011cb37e821" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>uint</type>
+        <definition>uint portable_pid</definition>
+        <argsstring>()</argsstring>
+        <name>portable_pid</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/portable.h" line="19" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/portable.cpp" bodystart="172" bodyend="181"/>
+      </memberdef>
+      <memberdef kind="function" id="d2/de2/portable_8h_1a52392b2bf51d0780fc3a7f0e62ab66fa" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>const char *</type>
+        <definition>const char* portable_getenv</definition>
+        <argsstring>(const char *variable)</argsstring>
+        <name>portable_getenv</name>
+        <param>
+          <type>const char *</type>
+          <declname>variable</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/portable.h" line="20" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/portable.cpp" bodystart="300" bodyend="303"/>
+      </memberdef>
+      <memberdef kind="function" id="d2/de2/portable_8h_1ae4248edc1676c7fee1b27b35b1a02167" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void portable_setenv</definition>
+        <argsstring>(const char *variable, const char *value)</argsstring>
+        <name>portable_setenv</name>
+        <param>
+          <type>const char *</type>
+          <declname>variable</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/portable.h" line="21" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/portable.cpp" bodystart="185" bodyend="264"/>
+      </memberdef>
+      <memberdef kind="function" id="d2/de2/portable_8h_1a21d2e3a5826400ea3fb385de160a4273" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void portable_unsetenv</definition>
+        <argsstring>(const char *variable)</argsstring>
+        <name>portable_unsetenv</name>
+        <param>
+          <type>const char *</type>
+          <declname>variable</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/portable.h" line="22" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/portable.cpp" bodystart="266" bodyend="298"/>
+      </memberdef>
+      <memberdef kind="function" id="d2/de2/portable_8h_1aacd3bfcb8cf704f1a88ef85378f2e3ba" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>portable_off_t</type>
+        <definition>portable_off_t portable_fseek</definition>
+        <argsstring>(FILE *f, portable_off_t offset, int whence)</argsstring>
+        <name>portable_fseek</name>
+        <param>
+          <type>FILE *</type>
+          <declname>f</declname>
+        </param>
+        <param>
+          <type>portable_off_t</type>
+          <declname>offset</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>whence</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/portable.h" line="23" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/portable.cpp" bodystart="305" bodyend="314"/>
+      </memberdef>
+      <memberdef kind="function" id="d2/de2/portable_8h_1af7bd350e4ac4a9083df7752b95b3d7b4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>portable_off_t</type>
+        <definition>portable_off_t portable_ftell</definition>
+        <argsstring>(FILE *f)</argsstring>
+        <name>portable_ftell</name>
+        <param>
+          <type>FILE *</type>
+          <declname>f</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/portable.h" line="24" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/portable.cpp" bodystart="316" bodyend="325"/>
+      </memberdef>
+      <memberdef kind="function" id="d2/de2/portable_8h_1a818dff4c8adef7d6c838c5bff8230a75" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>FILE *</type>
+        <definition>FILE* portable_fopen</definition>
+        <argsstring>(const char *fileName, const char *mode)</argsstring>
+        <name>portable_fopen</name>
+        <param>
+          <type>const char *</type>
+          <declname>fileName</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>mode</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/portable.h" line="25" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/portable.cpp" bodystart="327" bodyend="336"/>
+      </memberdef>
+      <memberdef kind="function" id="d2/de2/portable_8h_1a7611f2d585509aaf8b434b416f7f5cba" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>char</type>
+        <definition>char portable_pathSeparator</definition>
+        <argsstring>()</argsstring>
+        <name>portable_pathSeparator</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/portable.h" line="26" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/portable.cpp" bodystart="338" bodyend="345"/>
+      </memberdef>
+      <memberdef kind="function" id="d2/de2/portable_8h_1a5eb53a3f72467aaf6dd8814e3650a2b2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>char</type>
+        <definition>char portable_pathListSeparator</definition>
+        <argsstring>()</argsstring>
+        <name>portable_pathListSeparator</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/portable.h" line="27" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/portable.cpp" bodystart="347" bodyend="354"/>
+      </memberdef>
+      <memberdef kind="function" id="d2/de2/portable_8h_1adb209fd072a146757a74de224438750f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>const char *</type>
+        <definition>const char* portable_ghostScriptCommand</definition>
+        <argsstring>()</argsstring>
+        <name>portable_ghostScriptCommand</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/portable.h" line="28" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/portable.cpp" bodystart="356" bodyend="363"/>
+      </memberdef>
+      <memberdef kind="function" id="d2/de2/portable_8h_1a311fb005a4ff8025f7b2fbf121cbdee3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>const char *</type>
+        <definition>const char* portable_commandExtension</definition>
+        <argsstring>()</argsstring>
+        <name>portable_commandExtension</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/portable.h" line="29" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/portable.cpp" bodystart="365" bodyend="372"/>
+      </memberdef>
+      <memberdef kind="function" id="d2/de2/portable_8h_1a4f160f0e710170d2550709aae5caf49b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool portable_fileSystemIsCaseSensitive</definition>
+        <argsstring>()</argsstring>
+        <name>portable_fileSystemIsCaseSensitive</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/portable.h" line="30" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/portable.cpp" bodystart="374" bodyend="381"/>
+      </memberdef>
+      <memberdef kind="function" id="d2/de2/portable_8h_1ad7e56e618c52b0ab659c1b16b81cf4b4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>FILE *</type>
+        <definition>FILE* portable_popen</definition>
+        <argsstring>(const char *name, const char *type)</argsstring>
+        <name>portable_popen</name>
+        <param>
+          <type>const char *</type>
+          <declname>name</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>type</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/portable.h" line="31" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/portable.cpp" bodystart="383" bodyend="386"/>
+      </memberdef>
+      <memberdef kind="function" id="d2/de2/portable_8h_1a5c0b9bfa064283bf7495f0530cebeeba" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int portable_pclose</definition>
+        <argsstring>(FILE *stream)</argsstring>
+        <name>portable_pclose</name>
+        <param>
+          <type>FILE *</type>
+          <declname>stream</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/portable.h" line="32" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/portable.cpp" bodystart="388" bodyend="391"/>
+      </memberdef>
+      <memberdef kind="function" id="d2/de2/portable_8h_1a654a634351c19360132a57b4e7745ef9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void portable_sysTimerStart</definition>
+        <argsstring>()</argsstring>
+        <name>portable_sysTimerStart</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/portable.h" line="33" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/portable.cpp" bodystart="393" bodyend="396"/>
+      </memberdef>
+      <memberdef kind="function" id="d2/de2/portable_8h_1a29ee4e275e02c776c5d89ee0c9855b16" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void portable_sysTimerStop</definition>
+        <argsstring>()</argsstring>
+        <name>portable_sysTimerStop</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/portable.h" line="34" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/portable.cpp" bodystart="398" bodyend="401"/>
+      </memberdef>
+      <memberdef kind="function" id="d2/de2/portable_8h_1a4756803d96f0305e9c6c9e49543bd590" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>double</type>
+        <definition>double portable_getSysElapsedTime</definition>
+        <argsstring>()</argsstring>
+        <name>portable_getSysElapsedTime</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/portable.h" line="35" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/portable.cpp" bodystart="403" bodyend="406"/>
+      </memberdef>
+      <memberdef kind="function" id="d2/de2/portable_8h_1a64953440ea1cc6f46222c8f854dbe5f0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void portable_sleep</definition>
+        <argsstring>(int ms)</argsstring>
+        <name>portable_sleep</name>
+        <param>
+          <type>int</type>
+          <declname>ms</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/portable.h" line="36" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/portable.cpp" bodystart="408" bodyend="415"/>
+      </memberdef>
+      <memberdef kind="function" id="d2/de2/portable_8h_1a77da33ed6eafa47f239efc6ba65dec33" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool portable_isAbsolutePath</definition>
+        <argsstring>(const char *fileName)</argsstring>
+        <name>portable_isAbsolutePath</name>
+        <param>
+          <type>const char *</type>
+          <declname>fileName</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/portable.h" line="37" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/portable.cpp" bodystart="417" bodyend="432"/>
+      </memberdef>
+      <memberdef kind="function" id="d2/de2/portable_8h_1a265cc0f73ee132a66ce0669949359399" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void *</type>
+        <definition>void* portable_iconv_open</definition>
+        <argsstring>(const char *tocode, const char *fromcode)</argsstring>
+        <name>portable_iconv_open</name>
+        <param>
+          <type>const char *</type>
+          <declname>tocode</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>fromcode</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/portable.h" line="40"/>
+      </memberdef>
+      <memberdef kind="function" id="d2/de2/portable_8h_1a8ca77f1a4e1ca459169752103338ab0c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>size_t</type>
+        <definition>size_t portable_iconv</definition>
+        <argsstring>(void *cd, char **inbuf, size_t *inbytesleft, char **outbuf, size_t *outbytesleft)</argsstring>
+        <name>portable_iconv</name>
+        <param>
+          <type>void *</type>
+          <declname>cd</declname>
+        </param>
+        <param>
+          <type>char **</type>
+          <declname>inbuf</declname>
+        </param>
+        <param>
+          <type>size_t *</type>
+          <declname>inbytesleft</declname>
+        </param>
+        <param>
+          <type>char **</type>
+          <declname>outbuf</declname>
+        </param>
+        <param>
+          <type>size_t *</type>
+          <declname>outbytesleft</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/portable.h" line="42"/>
+      </memberdef>
+      <memberdef kind="function" id="d2/de2/portable_8h_1a3f98144680118aada1a93d2d4ba6173b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int portable_iconv_close</definition>
+        <argsstring>(void *cd)</argsstring>
+        <name>portable_iconv_close</name>
+        <param>
+          <type>void *</type>
+          <declname>cd</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/portable.h" line="43"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Portable versions of functions that are platform dependent. </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#ifndef<sp/>PORTABLE_H</highlight></codeline>
+<codeline lineno="2"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>PORTABLE_H</highlight></codeline>
+<codeline lineno="3"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;sys/types.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stdio.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;qglobal.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="preprocessor">#if<sp/>defined(_WIN32)</highlight></codeline>
+<codeline lineno="9"><highlight class="preprocessor"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/>__int64<sp/>portable_off_t;</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="preprocessor">#else</highlight></codeline>
+<codeline lineno="11"><highlight class="preprocessor"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/>off_t<sp/>portable_off_t;</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+<codeline lineno="13"><highlight class="preprocessor"></highlight></codeline>
+<codeline lineno="18"><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>portable_system(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*command,</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*args,</highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>commandHasConsole=TRUE);</highlight></codeline>
+<codeline lineno="19"><highlight class="normal">uint<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>portable_pid();</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*<sp/><sp/><sp/>portable_getenv(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*variable);</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>portable_setenv(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*variable,</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*value);</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>portable_unsetenv(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*variable);</highlight></codeline>
+<codeline lineno="23"><highlight class="normal">portable_off_t<sp/>portable_fseek(FILE<sp/>*f,portable_off_t<sp/>offset,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>whence);</highlight></codeline>
+<codeline lineno="24"><highlight class="normal">portable_off_t<sp/>portable_ftell(FILE<sp/>*f);</highlight></codeline>
+<codeline lineno="25"><highlight class="normal">FILE<sp/>*<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>portable_fopen(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*fileName,</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*mode);</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>portable_pathSeparator();</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>portable_pathListSeparator();</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*<sp/><sp/><sp/>portable_ghostScriptCommand();</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*<sp/><sp/><sp/>portable_commandExtension();</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>portable_fileSystemIsCaseSensitive();</highlight></codeline>
+<codeline lineno="31"><highlight class="normal">FILE<sp/>*<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>portable_popen(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*name,</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*type);</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>portable_pclose(FILE<sp/>*stream);</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>portable_sysTimerStart();</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>portable_sysTimerStop();</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>portable_getSysElapsedTime();</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>portable_sleep(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>ms);</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>portable_isAbsolutePath(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*fileName);</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"></highlight></codeline>
+<codeline lineno="39"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/>{</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>*<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>portable_iconv_open(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal">*<sp/>tocode,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal">*<sp/>fromcode);</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>portable_iconv<sp/>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>*cd,<sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal">**<sp/>inbuf,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>*inbytesleft,<sp/></highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal">*<sp/>*<sp/>outbuf,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>*outbytesleft);</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>portable_iconv_close<sp/>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>*cd);</highlight></codeline>
+<codeline lineno="44"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"></highlight></codeline>
+<codeline lineno="46"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+<codeline lineno="47"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/portable.h"/>
+  </compounddef>
+</doxygen>

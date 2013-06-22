@@ -1,0 +1,110 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.2">
+  <compounddef id="d0/d1b/struct_d_bus_x_m_l_handler_1_1_struct_data" kind="struct" prot="private">
+    <compoundname>DBusXMLHandler::StructData</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="d0/d1b/struct_d_bus_x_m_l_handler_1_1_struct_data_1af1b214fcbc79a78c6af2eee6c5bd8544" prot="public" static="no" mutable="no">
+        <type>QCString</type>
+        <definition>QCString DBusXMLHandler::StructData::type</definition>
+        <argsstring></argsstring>
+        <name>type</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/dbusxmlscanner.cpp" line="765" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/dbusxmlscanner.cpp" bodystart="765" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d0/d1b/struct_d_bus_x_m_l_handler_1_1_struct_data_1a8a07223da93138035692d698a9d50c4b" prot="public" static="no" mutable="no">
+        <type><ref refid="d4/dd7/class_entry" kindref="compound">Entry</ref> *</type>
+        <definition>Entry* DBusXMLHandler::StructData::entry</definition>
+        <argsstring></argsstring>
+        <name>entry</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/dbusxmlscanner.cpp" line="766" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/dbusxmlscanner.cpp" bodystart="766" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="d0/d1b/struct_d_bus_x_m_l_handler_1_1_struct_data_1a1ed4c0ea62d5b067fbc4581b1e26d1cc" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>DBusXMLHandler::StructData::StructData</definition>
+        <argsstring>(Entry *e)</argsstring>
+        <name>StructData</name>
+        <param>
+          <type><ref refid="d4/dd7/class_entry" kindref="compound">Entry</ref> *</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/dbusxmlscanner.cpp" line="762" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/dbusxmlscanner.cpp" bodystart="762" bodyend="762"/>
+      </memberdef>
+      <memberdef kind="function" id="d0/d1b/struct_d_bus_x_m_l_handler_1_1_struct_data_1abda19d63ce7e3a74dacbc60b15222979" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>DBusXMLHandler::StructData::~StructData</definition>
+        <argsstring>()</argsstring>
+        <name>~StructData</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/dbusxmlscanner.cpp" line="763" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/dbusxmlscanner.cpp" bodystart="763" bodyend="763"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="4190">
+        <label>QList&lt; Argument &gt;</label>
+        <link refid="db/daa/class_q_list"/>
+      </node>
+      <node id="4186">
+        <label>DBusXMLHandler::StructData</label>
+        <childnode refid="4187" relation="usage">
+          <edgelabel>entry</edgelabel>
+        </childnode>
+      </node>
+      <node id="4187">
+        <label>Entry</label>
+        <link refid="d4/dd7/class_entry"/>
+        <childnode refid="4188" relation="usage">
+          <edgelabel>tagInfo</edgelabel>
+        </childnode>
+        <childnode refid="4189" relation="usage">
+          <edgelabel>argList</edgelabel>
+          <edgelabel>typeConstr</edgelabel>
+        </childnode>
+      </node>
+      <node id="4188">
+        <label>TagInfo</label>
+        <link refid="d3/dc3/struct_tag_info"/>
+      </node>
+      <node id="4189">
+        <label>ArgumentList</label>
+        <link refid="d7/df8/class_argument_list"/>
+        <childnode refid="4190" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/dbusxmlscanner.cpp" line="761" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/dbusxmlscanner.cpp" bodystart="760" bodyend="767"/>
+    <listofallmembers>
+      <member refid="d0/d1b/struct_d_bus_x_m_l_handler_1_1_struct_data_1a8a07223da93138035692d698a9d50c4b" prot="public" virt="non-virtual"><scope>DBusXMLHandler::StructData</scope><name>entry</name></member>
+      <member refid="d0/d1b/struct_d_bus_x_m_l_handler_1_1_struct_data_1a1ed4c0ea62d5b067fbc4581b1e26d1cc" prot="public" virt="non-virtual"><scope>DBusXMLHandler::StructData</scope><name>StructData</name></member>
+      <member refid="d0/d1b/struct_d_bus_x_m_l_handler_1_1_struct_data_1af1b214fcbc79a78c6af2eee6c5bd8544" prot="public" virt="non-virtual"><scope>DBusXMLHandler::StructData</scope><name>type</name></member>
+      <member refid="d0/d1b/struct_d_bus_x_m_l_handler_1_1_struct_data_1abda19d63ce7e3a74dacbc60b15222979" prot="public" virt="non-virtual"><scope>DBusXMLHandler::StructData</scope><name>~StructData</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

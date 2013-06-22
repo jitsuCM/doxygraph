@@ -1,0 +1,142 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.2">
+  <compounddef id="d4/d34/class_diagram_row" kind="class" prot="public">
+    <compoundname>DiagramRow</compoundname>
+    <basecompoundref refid="db/daa/class_q_list" prot="public" virt="non-virtual">QList&lt; DiagramItem &gt;</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="d4/d34/class_diagram_row_1a08c48519f6c083f904eb5ce7f40696ac" prot="private" static="no" mutable="no">
+        <type>TreeDiagram *</type>
+        <definition>TreeDiagram* DiagramRow::diagram</definition>
+        <argsstring></argsstring>
+        <name>diagram</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/diagram.cpp" line="98" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/diagram.cpp" bodystart="98" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d4/d34/class_diagram_row_1a1f29656bfe089950a34ac479ca3055d5" prot="private" static="no" mutable="no">
+        <type>uint</type>
+        <definition>uint DiagramRow::level</definition>
+        <argsstring></argsstring>
+        <name>level</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/diagram.cpp" line="99" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/diagram.cpp" bodystart="99" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="d4/d34/class_diagram_row_1aebadc42ab37dd863cf4eb4ee6c5914a3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>DiagramRow::DiagramRow</definition>
+        <argsstring>(TreeDiagram *d, int l)</argsstring>
+        <name>DiagramRow</name>
+        <param>
+          <type>TreeDiagram *</type>
+          <declname>d</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>l</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/diagram.cpp" line="89" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/diagram.cpp" bodystart="88" bodyend="93"/>
+      </memberdef>
+      <memberdef kind="function" id="d4/d34/class_diagram_row_1ab0e8fb24c44ac7ff3acedae9fc92674b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void DiagramRow::insertClass</definition>
+        <argsstring>(DiagramItem *parent, ClassDef *cd, bool doBases, Protection prot, Specifier virt, const char *ts)</argsstring>
+        <name>insertClass</name>
+        <param>
+          <type>DiagramItem *</type>
+          <declname>parent</declname>
+        </param>
+        <param>
+          <type><ref refid="d1/dcf/class_class_def" kindref="compound">ClassDef</ref> *</type>
+          <declname>cd</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>doBases</declname>
+        </param>
+        <param>
+          <type><ref refid="d9/d49/types_8h_1a90e352184df58cd09455fe9996cd4ded" kindref="member">Protection</ref></type>
+          <declname>prot</declname>
+        </param>
+        <param>
+          <type><ref refid="d9/d49/types_8h_1ab16236bdd10ddf4d73a9847350f0017e" kindref="member">Specifier</ref></type>
+          <declname>virt</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>ts</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/diagram.cpp" line="95" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/diagram.cpp" bodystart="358" bodyend="408"/>
+      </memberdef>
+      <memberdef kind="function" id="d4/d34/class_diagram_row_1ad6dbe8c970dc8658a99fa400430758d2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>uint</type>
+        <definition>uint DiagramRow::number</definition>
+        <argsstring>()</argsstring>
+        <name>number</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/diagram.cpp" line="96" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/diagram.cpp" bodystart="96" bodyend="96"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Class representing a row in the built-in class diagram. </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2834">
+        <label>DiagramRow</label>
+        <childnode refid="2835" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2835">
+        <label>QList&lt; DiagramItem &gt;</label>
+        <link refid="db/daa/class_q_list"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2836">
+        <label>DiagramRow</label>
+        <childnode refid="2837" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2837">
+        <label>QList&lt; DiagramItem &gt;</label>
+        <link refid="db/daa/class_q_list"/>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/diagram.cpp" line="86" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/diagram.cpp" bodystart="85" bodyend="100"/>
+    <listofallmembers>
+      <member refid="d4/d34/class_diagram_row_1a08c48519f6c083f904eb5ce7f40696ac" prot="private" virt="non-virtual"><scope>DiagramRow</scope><name>diagram</name></member>
+      <member refid="d4/d34/class_diagram_row_1aebadc42ab37dd863cf4eb4ee6c5914a3" prot="public" virt="non-virtual"><scope>DiagramRow</scope><name>DiagramRow</name></member>
+      <member refid="d4/d34/class_diagram_row_1ab0e8fb24c44ac7ff3acedae9fc92674b" prot="public" virt="non-virtual"><scope>DiagramRow</scope><name>insertClass</name></member>
+      <member refid="d4/d34/class_diagram_row_1a1f29656bfe089950a34ac479ca3055d5" prot="private" virt="non-virtual"><scope>DiagramRow</scope><name>level</name></member>
+      <member refid="d4/d34/class_diagram_row_1ad6dbe8c970dc8658a99fa400430758d2" prot="public" virt="non-virtual"><scope>DiagramRow</scope><name>number</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

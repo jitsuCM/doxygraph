@@ -1,0 +1,120 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.2">
+  <compounddef id="d3/d2f/struct_vhdl_container" kind="struct" prot="public">
+    <compoundname>VhdlContainer</compoundname>
+    <includes refid="d8/d75/vhdlscanner_8h" local="no">vhdlscanner.h</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="d3/d2f/struct_vhdl_container_1aed98f4e6df23509d879acd7260a3f3cb" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int VhdlContainer::yyLineNr</definition>
+        <argsstring></argsstring>
+        <name>yyLineNr</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/vhdlscanner.h" line="79" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/vhdlscanner.h" bodystart="79" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d3/d2f/struct_vhdl_container_1a2ce2417bc4a7384ef5586793d3e463dc" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int VhdlContainer::iLine</definition>
+        <argsstring></argsstring>
+        <name>iLine</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/vhdlscanner.h" line="80" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/vhdlscanner.h" bodystart="80" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d3/d2f/struct_vhdl_container_1a3d0170abd217ce7e83015d9467e280a0" prot="public" static="no" mutable="no">
+        <type>QCString</type>
+        <definition>QCString VhdlContainer::qstr</definition>
+        <argsstring></argsstring>
+        <name>qstr</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/vhdlscanner.h" line="81" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/vhdlscanner.h" bodystart="81" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d3/d2f/struct_vhdl_container_1af31deb37fc932e494e7de5a5bcdc6146" prot="public" static="no" mutable="no">
+        <type>QCString</type>
+        <definition>QCString VhdlContainer::fileName</definition>
+        <argsstring></argsstring>
+        <name>fileName</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/vhdlscanner.h" line="82" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/vhdlscanner.h" bodystart="82" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d3/d2f/struct_vhdl_container_1a09a4fe5455b901af0c20a925a8be4153" prot="public" static="no" mutable="no">
+        <type><ref refid="d4/dd7/class_entry" kindref="compound">Entry</ref> *</type>
+        <definition>Entry* VhdlContainer::root</definition>
+        <argsstring></argsstring>
+        <name>root</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/vhdlscanner.h" line="83" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/vhdlscanner.h" bodystart="83" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Container for vhdlscanner. </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="5277">
+        <label>VhdlContainer</label>
+        <link refid="d3/d2f/struct_vhdl_container"/>
+        <childnode refid="5278" relation="usage">
+          <edgelabel>root</edgelabel>
+        </childnode>
+      </node>
+      <node id="5281">
+        <label>QList&lt; Argument &gt;</label>
+        <link refid="db/daa/class_q_list"/>
+      </node>
+      <node id="5278">
+        <label>Entry</label>
+        <link refid="d4/dd7/class_entry"/>
+        <childnode refid="5279" relation="usage">
+          <edgelabel>tagInfo</edgelabel>
+        </childnode>
+        <childnode refid="5280" relation="usage">
+          <edgelabel>argList</edgelabel>
+          <edgelabel>typeConstr</edgelabel>
+        </childnode>
+      </node>
+      <node id="5279">
+        <label>TagInfo</label>
+        <link refid="d3/dc3/struct_tag_info"/>
+      </node>
+      <node id="5280">
+        <label>ArgumentList</label>
+        <link refid="d7/df8/class_argument_list"/>
+        <childnode refid="5281" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/vhdlscanner.h" line="78" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/vhdlscanner.h" bodystart="77" bodyend="84"/>
+    <listofallmembers>
+      <member refid="d3/d2f/struct_vhdl_container_1af31deb37fc932e494e7de5a5bcdc6146" prot="public" virt="non-virtual"><scope>VhdlContainer</scope><name>fileName</name></member>
+      <member refid="d3/d2f/struct_vhdl_container_1a2ce2417bc4a7384ef5586793d3e463dc" prot="public" virt="non-virtual"><scope>VhdlContainer</scope><name>iLine</name></member>
+      <member refid="d3/d2f/struct_vhdl_container_1a3d0170abd217ce7e83015d9467e280a0" prot="public" virt="non-virtual"><scope>VhdlContainer</scope><name>qstr</name></member>
+      <member refid="d3/d2f/struct_vhdl_container_1a09a4fe5455b901af0c20a925a8be4153" prot="public" virt="non-virtual"><scope>VhdlContainer</scope><name>root</name></member>
+      <member refid="d3/d2f/struct_vhdl_container_1aed98f4e6df23509d879acd7260a3f3cb" prot="public" virt="non-virtual"><scope>VhdlContainer</scope><name>yyLineNr</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

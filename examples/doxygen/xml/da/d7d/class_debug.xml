@@ -1,0 +1,288 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.2">
+  <compounddef id="da/d7d/class_debug" kind="class" prot="public">
+    <compoundname>Debug</compoundname>
+    <includes refid="db/d16/debug_8h" local="no">debug.h</includes>
+      <sectiondef kind="public-type">
+      <memberdef kind="enum" id="da/d7d/class_debug_1a9e0b892a8030a4f64076850777991c96" prot="public" static="no">
+        <name>DebugMask</name>
+        <enumvalue id="da/d7d/class_debug_1a9e0b892a8030a4f64076850777991c96aa1079d9a4345660aa3e283c322fd12f3" prot="public">
+          <name>Quiet</name>
+          <initializer>= 0x00000000</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="da/d7d/class_debug_1a9e0b892a8030a4f64076850777991c96ac4d3bb469126ba5f5ba50c724219edf5" prot="public">
+          <name>FindMembers</name>
+          <initializer>= 0x00000001</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="da/d7d/class_debug_1a9e0b892a8030a4f64076850777991c96a6988d421a5b346541cb4f804054562a4" prot="public">
+          <name>Functions</name>
+          <initializer>= 0x00000002</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="da/d7d/class_debug_1a9e0b892a8030a4f64076850777991c96a442859fe9afb29937aeeac886b911f64" prot="public">
+          <name>Variables</name>
+          <initializer>= 0x00000004</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="da/d7d/class_debug_1a9e0b892a8030a4f64076850777991c96aec63880706f2286cd7ca9057bf407e2f" prot="public">
+          <name>Preprocessor</name>
+          <initializer>= 0x00000008</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="da/d7d/class_debug_1a9e0b892a8030a4f64076850777991c96ae45530210daeb78c35e1b4c078277c8f" prot="public">
+          <name>Classes</name>
+          <initializer>= 0x00000010</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="da/d7d/class_debug_1a9e0b892a8030a4f64076850777991c96af158610d0a0e6dd08ec7cab215168fa5" prot="public">
+          <name>CommentCnv</name>
+          <initializer>= 0x00000020</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="da/d7d/class_debug_1a9e0b892a8030a4f64076850777991c96afeb3ede15e44e56c363351c25efd2504" prot="public">
+          <name>CommentScan</name>
+          <initializer>= 0x00000040</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="da/d7d/class_debug_1a9e0b892a8030a4f64076850777991c96ab57325adbf79149e4bd7a010d6e83499" prot="public">
+          <name>Validate</name>
+          <initializer>= 0x00000080</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="da/d7d/class_debug_1a9e0b892a8030a4f64076850777991c96a92b8cea26e6d5e2a5d3d04b63686bb2b" prot="public">
+          <name>PrintTree</name>
+          <initializer>= 0x00000100</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="da/d7d/class_debug_1a9e0b892a8030a4f64076850777991c96a9cbd5d3516ffd3fe86238779edb2f7c5" prot="public">
+          <name>Time</name>
+          <initializer>= 0x00000200</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="da/d7d/class_debug_1a9e0b892a8030a4f64076850777991c96a8dbe64e9ab683833c1ea7252649058a3" prot="public">
+          <name>ExtCmd</name>
+          <initializer>= 0x00000400</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="da/d7d/class_debug_1a9e0b892a8030a4f64076850777991c96a4e7a964cec1d0423c74ab7045c1f6f6d" prot="public">
+          <name>Markdown</name>
+          <initializer>= 0x00000800</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="da/d7d/class_debug_1a9e0b892a8030a4f64076850777991c96a5e47cf9df9552fe30480288b70288d72" prot="public">
+          <name>FilterOutput</name>
+          <initializer>= 0x00001000</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/debug.h" line="26" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/debug.h" bodystart="26" bodyend="40"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="da/d7d/class_debug_1a4d585549eed6b188844447b6149c576e" prot="private" static="yes" mutable="no">
+        <type>DebugMask</type>
+        <definition>Debug::DebugMask Debug::curMask</definition>
+        <argsstring></argsstring>
+        <name>curMask</name>
+        <initializer>= Debug::Quiet</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/debug.h" line="48" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/debug.h" bodystart="48" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="da/d7d/class_debug_1a7fef523d45f91d03f5e90469060a3b97" prot="private" static="yes" mutable="no">
+        <type>int</type>
+        <definition>int Debug::curPrio</definition>
+        <argsstring></argsstring>
+        <name>curPrio</name>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/debug.h" line="49" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/debug.h" bodystart="49" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="da/d7d/class_debug_1a5d86ffebf96f9f75b6c957db5f831da3" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Debug::print</definition>
+        <argsstring>(DebugMask mask, int prio, const char *fmt,...)</argsstring>
+        <name>print</name>
+        <param>
+          <type>DebugMask</type>
+          <declname>mask</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>prio</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>fmt</declname>
+        </param>
+        <param>
+          <type>...</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/debug.h" line="41" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/debug.cpp" bodystart="82" bodyend="91"/>
+      </memberdef>
+      <memberdef kind="function" id="da/d7d/class_debug_1af71b85abae92e9b3173ffbefe19671c8" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Debug::setFlag</definition>
+        <argsstring>(const char *label)</argsstring>
+        <name>setFlag</name>
+        <param>
+          <type>const char *</type>
+          <declname>label</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/debug.h" line="42" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/debug.cpp" bodystart="100" bodyend="103"/>
+      </memberdef>
+      <memberdef kind="function" id="da/d7d/class_debug_1a1e78a9cfc37f50990e7701d56f7bf207" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Debug::clearFlag</definition>
+        <argsstring>(const char *label)</argsstring>
+        <name>clearFlag</name>
+        <param>
+          <type>const char *</type>
+          <declname>label</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/debug.h" line="43" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/debug.cpp" bodystart="105" bodyend="108"/>
+      </memberdef>
+      <memberdef kind="function" id="da/d7d/class_debug_1a92b0668ebfb43903d82ad112bf6c84e1" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Debug::isFlagSet</definition>
+        <argsstring>(DebugMask mask)</argsstring>
+        <name>isFlagSet</name>
+        <param>
+          <type>DebugMask</type>
+          <declname>mask</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/debug.h" line="44" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/debug.cpp" bodystart="115" bodyend="118"/>
+      </memberdef>
+      <memberdef kind="function" id="da/d7d/class_debug_1a666b610770dd7b7c0a87f2415aefe7d9" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Debug::setPriority</definition>
+        <argsstring>(int p)</argsstring>
+        <name>setPriority</name>
+        <param>
+          <type>int</type>
+          <declname>p</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/debug.h" line="45" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/debug.cpp" bodystart="110" bodyend="113"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Class containing a print function for diagnostics. </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/debug.h" line="24" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/debug.h" bodystart="23" bodyend="50"/>
+    <listofallmembers>
+      <member refid="da/d7d/class_debug_1a9e0b892a8030a4f64076850777991c96ae45530210daeb78c35e1b4c078277c8f" prot="public" virt="non-virtual"><scope>Debug</scope><name>Classes</name></member>
+      <member refid="da/d7d/class_debug_1a1e78a9cfc37f50990e7701d56f7bf207" prot="public" virt="non-virtual"><scope>Debug</scope><name>clearFlag</name></member>
+      <member refid="da/d7d/class_debug_1a9e0b892a8030a4f64076850777991c96af158610d0a0e6dd08ec7cab215168fa5" prot="public" virt="non-virtual"><scope>Debug</scope><name>CommentCnv</name></member>
+      <member refid="da/d7d/class_debug_1a9e0b892a8030a4f64076850777991c96afeb3ede15e44e56c363351c25efd2504" prot="public" virt="non-virtual"><scope>Debug</scope><name>CommentScan</name></member>
+      <member refid="da/d7d/class_debug_1a4d585549eed6b188844447b6149c576e" prot="private" virt="non-virtual"><scope>Debug</scope><name>curMask</name></member>
+      <member refid="da/d7d/class_debug_1a7fef523d45f91d03f5e90469060a3b97" prot="private" virt="non-virtual"><scope>Debug</scope><name>curPrio</name></member>
+      <member refid="da/d7d/class_debug_1a9e0b892a8030a4f64076850777991c96" prot="public" virt="non-virtual"><scope>Debug</scope><name>DebugMask</name></member>
+      <member refid="da/d7d/class_debug_1a9e0b892a8030a4f64076850777991c96a8dbe64e9ab683833c1ea7252649058a3" prot="public" virt="non-virtual"><scope>Debug</scope><name>ExtCmd</name></member>
+      <member refid="da/d7d/class_debug_1a9e0b892a8030a4f64076850777991c96a5e47cf9df9552fe30480288b70288d72" prot="public" virt="non-virtual"><scope>Debug</scope><name>FilterOutput</name></member>
+      <member refid="da/d7d/class_debug_1a9e0b892a8030a4f64076850777991c96ac4d3bb469126ba5f5ba50c724219edf5" prot="public" virt="non-virtual"><scope>Debug</scope><name>FindMembers</name></member>
+      <member refid="da/d7d/class_debug_1a9e0b892a8030a4f64076850777991c96a6988d421a5b346541cb4f804054562a4" prot="public" virt="non-virtual"><scope>Debug</scope><name>Functions</name></member>
+      <member refid="da/d7d/class_debug_1a92b0668ebfb43903d82ad112bf6c84e1" prot="public" virt="non-virtual"><scope>Debug</scope><name>isFlagSet</name></member>
+      <member refid="da/d7d/class_debug_1a9e0b892a8030a4f64076850777991c96a4e7a964cec1d0423c74ab7045c1f6f6d" prot="public" virt="non-virtual"><scope>Debug</scope><name>Markdown</name></member>
+      <member refid="da/d7d/class_debug_1a9e0b892a8030a4f64076850777991c96aec63880706f2286cd7ca9057bf407e2f" prot="public" virt="non-virtual"><scope>Debug</scope><name>Preprocessor</name></member>
+      <member refid="da/d7d/class_debug_1a5d86ffebf96f9f75b6c957db5f831da3" prot="public" virt="non-virtual"><scope>Debug</scope><name>print</name></member>
+      <member refid="da/d7d/class_debug_1a9e0b892a8030a4f64076850777991c96a92b8cea26e6d5e2a5d3d04b63686bb2b" prot="public" virt="non-virtual"><scope>Debug</scope><name>PrintTree</name></member>
+      <member refid="da/d7d/class_debug_1a9e0b892a8030a4f64076850777991c96aa1079d9a4345660aa3e283c322fd12f3" prot="public" virt="non-virtual"><scope>Debug</scope><name>Quiet</name></member>
+      <member refid="da/d7d/class_debug_1af71b85abae92e9b3173ffbefe19671c8" prot="public" virt="non-virtual"><scope>Debug</scope><name>setFlag</name></member>
+      <member refid="da/d7d/class_debug_1a666b610770dd7b7c0a87f2415aefe7d9" prot="public" virt="non-virtual"><scope>Debug</scope><name>setPriority</name></member>
+      <member refid="da/d7d/class_debug_1a9e0b892a8030a4f64076850777991c96a9cbd5d3516ffd3fe86238779edb2f7c5" prot="public" virt="non-virtual"><scope>Debug</scope><name>Time</name></member>
+      <member refid="da/d7d/class_debug_1a9e0b892a8030a4f64076850777991c96ab57325adbf79149e4bd7a010d6e83499" prot="public" virt="non-virtual"><scope>Debug</scope><name>Validate</name></member>
+      <member refid="da/d7d/class_debug_1a9e0b892a8030a4f64076850777991c96a442859fe9afb29937aeeac886b911f64" prot="public" virt="non-virtual"><scope>Debug</scope><name>Variables</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

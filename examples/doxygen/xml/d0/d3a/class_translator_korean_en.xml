@@ -1,0 +1,404 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.2">
+  <compounddef id="d0/d3a/class_translator_korean_en" kind="class" prot="public">
+    <compoundname>TranslatorKoreanEn</compoundname>
+    <basecompoundref refid="d6/d78/class_translator_english" prot="public" virt="non-virtual">TranslatorEnglish</basecompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="d0/d3a/class_translator_korean_en_1a255647e0edbc0550871133c143cc08a7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>QCString</type>
+        <definition>virtual QCString TranslatorKoreanEn::idLanguage</definition>
+        <argsstring>()</argsstring>
+        <name>idLanguage</name>
+        <reimplements refid="d6/d78/class_translator_english_1a940d6ef2aa0aa8a8011426219d145a53">idLanguage</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Used for identification of the language. The identification should not be translated. It should be replaced by the name of the language in English using lower-case characters only (e.g. &quot;czech&quot;, &quot;japanese&quot;, &quot;russian&quot;, etc.). It should be equal to the identification used in <ref refid="d2/d48/language_8cpp_source" kindref="compound">language.cpp</ref>. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/translator_ke.h" line="35" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/translator_ke.h" bodystart="34" bodyend="35"/>
+      </memberdef>
+      <memberdef kind="function" id="d0/d3a/class_translator_korean_en_1a0db5fe9ae0843e3f89b0b9770ba32d32" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>QCString</type>
+        <definition>virtual QCString TranslatorKoreanEn::latexLanguageSupportCommand</definition>
+        <argsstring>()</argsstring>
+        <name>latexLanguageSupportCommand</name>
+        <reimplements refid="d6/d78/class_translator_english_1a48ecd4aaa9aa68947257ff29016a808a">latexLanguageSupportCommand</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Used to get the LaTeX command(s) for the language support. This method should return string with commands that switch LaTeX to the desired language. For example <preformatted>&quot;\\usepackage[german]{babel}\n&quot;
+       </preformatted> or <preformatted>&quot;\\usepackage{polski}\n&quot;
+       &quot;\\usepackage[latin2]{inputenc}\n&quot;
+       &quot;\\usepackage[T1]{fontenc}\n&quot;
+       </preformatted></para><para>The English LaTeX does not use such commands. Because of this the empty string is returned in this implementation. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/translator_ke.h" line="37" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/translator_ke.h" bodystart="36" bodyend="39"/>
+      </memberdef>
+      <memberdef kind="function" id="d0/d3a/class_translator_korean_en_1a5f14477ad73f6a70f7117662a0d31093" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>QCString</type>
+        <definition>virtual QCString TranslatorKoreanEn::idLanguageCharset</definition>
+        <argsstring>()</argsstring>
+        <name>idLanguageCharset</name>
+        <reimplements refid="d6/d78/class_translator_english_1ab3ada9cb1f9c790267c97395981ddaac">idLanguageCharset</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>returns the name of the package that is included by LaTeX </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/translator_ke.h" line="42" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/translator_ke.h" bodystart="41" bodyend="44"/>
+      </memberdef>
+      <memberdef kind="function" id="d0/d3a/class_translator_korean_en_1ac60d57743cc1cd0a7b6bc6c57a445b7e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>QCString</type>
+        <definition>virtual QCString TranslatorKoreanEn::trRTFansicp</definition>
+        <argsstring>()</argsstring>
+        <name>trRTFansicp</name>
+        <reimplements refid="d6/d78/class_translator_english_1a58d43df9c7e82cf874f2d0ac64547a3a">trRTFansicp</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Used as ansicpg for RTF file <verbatim>  The following table shows the correlation of Charset name, Charset Value and 
+  &lt;pre&gt;
+  Codepage number:
+  Charset Name       Charset Value(hex)  Codepage number
+  ------------------------------------------------------
+  DEFAULT_CHARSET           1 (x01)
+  SYMBOL_CHARSET            2 (x02)
+  OEM_CHARSET             255 (xFF)
+  ANSI_CHARSET              0 (x00)            1252
+  RUSSIAN_CHARSET         204 (xCC)            1251
+  EE_CHARSET              238 (xEE)            1250
+  GREEK_CHARSET           161 (xA1)            1253
+  TURKISH_CHARSET         162 (xA2)            1254
+  BALTIC_CHARSET          186 (xBA)            1257
+  HEBREW_CHARSET          177 (xB1)            1255
+  ARABIC _CHARSET         178 (xB2)            1256
+  SHIFTJIS_CHARSET        128 (x80)             932
+  HANGEUL_CHARSET         129 (x81)             949
+  GB2313_CHARSET          134 (x86)             936
+  CHINESEBIG5_CHARSET     136 (x88)             950
+  &lt;/pre&gt;</verbatim> </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/translator_ke.h" line="46" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/translator_ke.h" bodystart="45" bodyend="48"/>
+      </memberdef>
+      <memberdef kind="function" id="d0/d3a/class_translator_korean_en_1ad0ac561385e4e2583eb5f3aaf5303f4d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>QCString</type>
+        <definition>virtual QCString TranslatorKoreanEn::trRTFCharSet</definition>
+        <argsstring>()</argsstring>
+        <name>trRTFCharSet</name>
+        <reimplements refid="d6/d78/class_translator_english_1a5c66e7339c73f03d5cae6291c21b98b8">trRTFCharSet</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Used as ansicpg for RTF fcharset <simplesect kind="see"><para><ref refid="d0/d3a/class_translator_korean_en_1ac60d57743cc1cd0a7b6bc6c57a445b7e" kindref="member">trRTFansicp()</ref> for a table of possible values. </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/translator_ke.h" line="54" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/translator_ke.h" bodystart="53" bodyend="56"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="4978">
+        <label>TranslatorKoreanEn</label>
+        <link refid="d0/d3a/class_translator_korean_en"/>
+        <childnode refid="4979" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4980">
+        <label>Translator</label>
+        <link refid="d8/dfb/class_translator"/>
+      </node>
+      <node id="4979">
+        <label>TranslatorEnglish</label>
+        <link refid="d6/d78/class_translator_english"/>
+        <childnode refid="4980" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="4981">
+        <label>TranslatorKoreanEn</label>
+        <link refid="d0/d3a/class_translator_korean_en"/>
+        <childnode refid="4982" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4983">
+        <label>Translator</label>
+        <link refid="d8/dfb/class_translator"/>
+      </node>
+      <node id="4982">
+        <label>TranslatorEnglish</label>
+        <link refid="d6/d78/class_translator_english"/>
+        <childnode refid="4983" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/translator_ke.h" line="32" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/translator_ke.h" bodystart="31" bodyend="57"/>
+    <listofallmembers>
+      <member refid="d0/d3a/class_translator_korean_en_1a255647e0edbc0550871133c143cc08a7" prot="public" virt="virtual"><scope>TranslatorKoreanEn</scope><name>idLanguage</name></member>
+      <member refid="d0/d3a/class_translator_korean_en_1a5f14477ad73f6a70f7117662a0d31093" prot="public" virt="virtual"><scope>TranslatorKoreanEn</scope><name>idLanguageCharset</name></member>
+      <member refid="d8/dfb/class_translator_1a05dfd255fa09d9c3ca66e1e0b7afa30e" prot="protected" virt="non-virtual"><scope>TranslatorKoreanEn</scope><name>ISO88592ToWin1250</name></member>
+      <member refid="d8/dfb/class_translator_1a417bf06973a6bcf798e8419637422d0b" prot="protected" virt="non-virtual"><scope>TranslatorKoreanEn</scope><name>JapaneseEucToSjis</name></member>
+      <member refid="d8/dfb/class_translator_1ac87d4f99130f5c7285ff3649e643c09b" prot="protected" virt="non-virtual"><scope>TranslatorKoreanEn</scope><name>Koi8RToWindows1251</name></member>
+      <member refid="d0/d3a/class_translator_korean_en_1a0db5fe9ae0843e3f89b0b9770ba32d32" prot="public" virt="virtual"><scope>TranslatorKoreanEn</scope><name>latexLanguageSupportCommand</name></member>
+      <member refid="d6/d78/class_translator_english_1af5810369a943f7e4ef3f8d5f18c41aef" prot="public" virt="virtual"><scope>TranslatorKoreanEn</scope><name>trAdditionalInheritedMembers</name></member>
+      <member refid="d6/d78/class_translator_english_1a51469d180bdb05fa28562fd2a1c86c55" prot="public" virt="virtual"><scope>TranslatorKoreanEn</scope><name>trAll</name></member>
+      <member refid="d6/d78/class_translator_english_1a01bd0ad35954cb466004a1dac7632c26" prot="public" virt="virtual"><scope>TranslatorKoreanEn</scope><name>trAlphabeticalList</name></member>
+      <member refid="d6/d78/class_translator_english_1ad32635bab1929742206e3db9ccb5c326" prot="public" virt="virtual"><scope>TranslatorKoreanEn</scope><name>trAndMore</name></member>
+      <member refid="d6/d78/class_translator_english_1a2e6cbd6daf780ddd87a59ffa5d981234" prot="public" virt="virtual"><scope>TranslatorKoreanEn</scope><name>trAttention</name></member>
+      <member refid="d6/d78/class_translator_english_1ade7d4af714a08ff6fe6bdf3d98983c0b" prot="public" virt="virtual"><scope>TranslatorKoreanEn</scope><name>trAuthor</name></member>
+      <member refid="d6/d78/class_translator_english_1a2dd8a34d6c6b85c492f6ff381fbc1990" prot="public" virt="virtual"><scope>TranslatorKoreanEn</scope><name>trBug</name></member>
+      <member refid="d6/d78/class_translator_english_1ae1fcdbfe8485cc1da19d664b28b5aca6" prot="public" virt="virtual"><scope>TranslatorKoreanEn</scope><name>trBugList</name></member>
+      <member refid="d6/d78/class_translator_english_1a33d7e680cba09f3525f9afaf481d6e7c" prot="public" virt="virtual"><scope>TranslatorKoreanEn</scope><name>trCallerGraph</name></member>
+      <member refid="d6/d78/class_translator_english_1a517d31e05fa1335c09cc932e4b801324" prot="public" virt="virtual"><scope>TranslatorKoreanEn</scope><name>trCallGraph</name></member>
+      <member refid="d6/d78/class_translator_english_1a8d1b66e7cc2978c63cf6f4d97cbd9f9c" prot="public" virt="virtual"><scope>TranslatorKoreanEn</scope><name>trCiteReferences</name></member>
+      <member refid="d6/d78/class_translator_english_1aff7117d56b042c724232f7e430067260" prot="public" virt="virtual"><scope>TranslatorKoreanEn</scope><name>trClass</name></member>
+      <member refid="d6/d78/class_translator_english_1aadab21b2cb2ea91d3db3b0637c07a3b7" prot="public" virt="virtual"><scope>TranslatorKoreanEn</scope><name>trClassDiagram</name></member>
+      <member refid="d6/d78/class_translator_english_1afc84e10e543306cc23a1278b2a8babac" prot="public" virt="virtual"><scope>TranslatorKoreanEn</scope><name>trClassDocumentation</name></member>
+      <member refid="d6/d78/class_translator_english_1a1ed82dee3a0fb5ceb0edac43887998ca" prot="public" virt="virtual"><scope>TranslatorKoreanEn</scope><name>trClasses</name></member>
+      <member refid="d6/d78/class_translator_english_1a6918b8c8cd9a66bde8d4d16a7841eb6a" prot="public" virt="virtual"><scope>TranslatorKoreanEn</scope><name>trClassHierarchy</name></member>
+      <member refid="d6/d78/class_translator_english_1a86ef64db906e5b6a598b55b7cd8bdd9b" prot="public" virt="virtual"><scope>TranslatorKoreanEn</scope><name>trClassHierarchyDescription</name></member>
+      <member refid="d6/d78/class_translator_english_1a7148dfb24ec3834caa3a2c42e6fd97d9" prot="public" virt="virtual"><scope>TranslatorKoreanEn</scope><name>trClassMethods</name></member>
+      <member refid="d6/d78/class_translator_english_1aaaa6fa1f6a2d547f5f24d147e70ded60" prot="public" virt="virtual"><scope>TranslatorKoreanEn</scope><name>trCode</name></member>
+      <member refid="d6/d78/class_translator_english_1a7dbccfa9762f584af7d0ad152f719053" prot="public" virt="virtual"><scope>TranslatorKoreanEn</scope><name>trCollaborationDiagram</name></member>
+      <member refid="d6/d78/class_translator_english_1a09043b62d9ea65c6860797d867b26b50" prot="public" virt="virtual"><scope>TranslatorKoreanEn</scope><name>trCompoundIndex</name></member>
+      <member refid="d6/d78/class_translator_english_1a7e568ebc767d205d76ba737c77416f24" prot="public" virt="virtual"><scope>TranslatorKoreanEn</scope><name>trCompoundIndexFortran</name></member>
+      <member refid="d6/d78/class_translator_english_1a83895827a9e6152ed52a5deab4054998" prot="public" virt="virtual"><scope>TranslatorKoreanEn</scope><name>trCompoundList</name></member>
+      <member refid="d6/d78/class_translator_english_1aa78b4d079367bbec4a7cd8d93d87c4a5" prot="public" virt="virtual"><scope>TranslatorKoreanEn</scope><name>trCompoundListDescription</name></member>
+      <member refid="d6/d78/class_translator_english_1a8ffb639127fc5a60e170fe4916d5e10c" prot="public" virt="virtual"><scope>TranslatorKoreanEn</scope><name>trCompoundListDescriptionFortran</name></member>
+      <member refid="d6/d78/class_translator_english_1aed37ea1d7badf7d9c68f3de6da872c04" prot="public" virt="virtual"><scope>TranslatorKoreanEn</scope><name>trCompoundListFortran</name></member>
+      <member refid="d6/d78/class_translator_english_1abda93dfab33f17cd22b52e73ab0731ed" prot="public" virt="virtual"><scope>TranslatorKoreanEn</scope><name>trCompoundMembers</name></member>
+      <member refid="d6/d78/class_translator_english_1a1188f99926661ac7d8ed0ce8c0f86e62" prot="public" virt="virtual"><scope>TranslatorKoreanEn</scope><name>trCompoundMembersDescription</name></member>
+      <member refid="d6/d78/class_translator_english_1a8635d2e9e2e4d18ab2c52214380f0e50" prot="public" virt="virtual"><scope>TranslatorKoreanEn</scope><name>trCompoundMembersDescriptionFortran</name></member>
+      <member refid="d6/d78/class_translator_english_1a6d110c1700f228c6352cf365506aa59b" prot="public" virt="virtual"><scope>TranslatorKoreanEn</scope><name>trCompoundMembersFortran</name></member>
+      <member refid="d6/d78/class_translator_english_1a52acde09dc08e65bed1b84cd96c735e5" prot="public" virt="virtual"><scope>TranslatorKoreanEn</scope><name>trCompoundReference</name></member>
+      <member refid="d6/d78/class_translator_english_1a2f3045ecf95c13d25874ae6ea35d574e" prot="public" virt="virtual"><scope>TranslatorKoreanEn</scope><name>trCompoundReferenceFortran</name></member>
+      <member refid="d6/d78/class_translator_english_1a76661b103a0cb78c0bcf26d4b3941d7a" prot="public" virt="virtual"><scope>TranslatorKoreanEn</scope><name>trCompounds</name></member>
+      <member refid="d6/d78/class_translator_english_1a69b97a9ad8ce2472c65afb89547a13e5" prot="public" virt="virtual"><scope>TranslatorKoreanEn</scope><name>trConstantGroupReference</name></member>
+      <member refid="d6/d78/class_translator_english_1a035575d56336402ab3b2103747f4b429" prot="public" virt="virtual"><scope>TranslatorKoreanEn</scope><name>trConstantGroups</name></member>
+      <member refid="d6/d78/class_translator_english_1a75dfa01098d7c2a90022a5504212f48f" prot="public" virt="virtual"><scope>TranslatorKoreanEn</scope><name>trConstructorDocumentation</name></member>
+      <member refid="d6/d78/class_translator_english_1a434238bdb474c8f28dfc64a5bef5a909" prot="public" virt="virtual"><scope>TranslatorKoreanEn</scope><name>trCopyright</name></member>
+      <member refid="d6/d78/class_translator_english_1ae6d9c4b0dd11152c36a9ff308e143fa7" prot="public" virt="virtual"><scope>TranslatorKoreanEn</scope><name>trDataTypes</name></member>
+      <member refid="d6/d78/class_translator_english_1a65c9f77c5df0db100360e51200ae5e66" prot="public" virt="virtual"><scope>TranslatorKoreanEn</scope><name>trDate</name></member>
+      <member refid="d6/d78/class_translator_english_1a9241f5cd893d168d49a6152389af4644" prot="public" virt="virtual"><scope>TranslatorKoreanEn</scope><name>trDateTime</name></member>
+      <member refid="d6/d78/class_translator_english_1a2b4d26d787c7a1738c423e9d8abeb9c2" prot="public" virt="virtual"><scope>TranslatorKoreanEn</scope><name>trDCOPMethods</name></member>
+      <member refid="d6/d78/class_translator_english_1ab844a4458febda9e3eb415fe9554072b" prot="public" virt="virtual"><scope>TranslatorKoreanEn</scope><name>trDefinedAtLineInSourceFile</name></member>
+      <member refid="d6/d78/class_translator_english_1a6482e2b7603c3d41c79aca33c703bdf2" prot="public" virt="virtual"><scope>TranslatorKoreanEn</scope><name>trDefinedIn</name></member>
+      <member refid="d6/d78/class_translator_english_1a11166696523c4c9e8004605f99eaf6c4" prot="public" virt="virtual"><scope>TranslatorKoreanEn</scope><name>trDefinedInSourceFile</name></member>
+      <member refid="d6/d78/class_translator_english_1a092a35914fb2a39b285074a85726c0a3" prot="public" virt="virtual"><scope>TranslatorKoreanEn</scope><name>trDefineDocumentation</name></member>
+      <member refid="d6/d78/class_translator_english_1a5bbf9cb2eb019b28896f2dcf8813b8f6" prot="public" virt="virtual"><scope>TranslatorKoreanEn</scope><name>trDefines</name></member>
+      <member refid="d6/d78/class_translator_english_1a8e0565f7e9d4fb2663aba6ceb054a1f2" prot="public" virt="virtual"><scope>TranslatorKoreanEn</scope><name>trDefineValue</name></member>
+      <member refid="d6/d78/class_translator_english_1a1d31b1e253a36129d6c37610b0ad0586" prot="public" virt="virtual"><scope>TranslatorKoreanEn</scope><name>trDeprecated</name></member>
+      <member refid="d6/d78/class_translator_english_1a6642a63b175adfdc60d1132ca42b9b03" prot="public" virt="virtual"><scope>TranslatorKoreanEn</scope><name>trDeprecatedList</name></member>
+      <member refid="d6/d78/class_translator_english_1ab1a052827b9f2896d6b74c6378b3cc36" prot="public" virt="virtual"><scope>TranslatorKoreanEn</scope><name>trDesignOverview</name></member>
+      <member refid="d6/d78/class_translator_english_1a8dd700811e7fe4caa458945578328044" prot="public" virt="virtual"><scope>TranslatorKoreanEn</scope><name>trDetailedDescription</name></member>
+      <member refid="d6/d78/class_translator_english_1a8cd72b866d1ee6133be6c081c9f1a006" prot="public" virt="virtual"><scope>TranslatorKoreanEn</scope><name>trDetailLevel</name></member>
+      <member refid="d6/d78/class_translator_english_1adf2a2256c9e6d671e39410e09f352398" prot="public" virt="virtual"><scope>TranslatorKoreanEn</scope><name>trDir</name></member>
+      <member refid="d6/d78/class_translator_english_1adf12a70b83b8585a149c482a7d346d56" prot="public" virt="virtual"><scope>TranslatorKoreanEn</scope><name>trDirDependency</name></member>
+      <member refid="d6/d78/class_translator_english_1a39173a615f00127b526058796a4ac6f2" prot="public" virt="virtual"><scope>TranslatorKoreanEn</scope><name>trDirDepGraph</name></member>
+      <member refid="d6/d78/class_translator_english_1a1fbfd38427dbf04dcf8368939fb8b3b3" prot="public" virt="virtual"><scope>TranslatorKoreanEn</scope><name>trDirDescription</name></member>
+      <member refid="d6/d78/class_translator_english_1af5e209ccded219d9ddb4613cf7edf124" prot="public" virt="virtual"><scope>TranslatorKoreanEn</scope><name>trDirDocumentation</name></member>
+      <member refid="d6/d78/class_translator_english_1a65cc1a9c482284d6297839f6a989890a" prot="public" virt="virtual"><scope>TranslatorKoreanEn</scope><name>trDirectories</name></member>
+      <member refid="d6/d78/class_translator_english_1a0b269f19748a771c73ddbc611d879bed" prot="public" virt="virtual"><scope>TranslatorKoreanEn</scope><name>trDirIndex</name></member>
+      <member refid="d6/d78/class_translator_english_1acee75319babb77d3d03b57e5fffb886e" prot="public" virt="virtual"><scope>TranslatorKoreanEn</scope><name>trDirReference</name></member>
+      <member refid="d6/d78/class_translator_english_1a8230892d40d8c6a1aab821817487f046" prot="public" virt="virtual"><scope>TranslatorKoreanEn</scope><name>trDirRelation</name></member>
+      <member refid="d6/d78/class_translator_english_1ac95ef3bd6ff33eacb95b5a8215a37805" prot="public" virt="virtual"><scope>TranslatorKoreanEn</scope><name>trDocumentation</name></member>
+      <member refid="d6/d78/class_translator_english_1a842268902d5370a725cad5568632dcd7" prot="public" virt="virtual"><scope>TranslatorKoreanEn</scope><name>trEnumerations</name></member>
+      <member refid="d6/d78/class_translator_english_1ae26962ca11b10e9cb20503dedb8eb635" prot="public" virt="virtual"><scope>TranslatorKoreanEn</scope><name>trEnumerationTypeDocumentation</name></member>
+      <member refid="d6/d78/class_translator_english_1a2830136212dee5a6b0f12b9c9b211fdf" prot="public" virt="virtual"><scope>TranslatorKoreanEn</scope><name>trEnumerationValueDocumentation</name></member>
+      <member refid="d6/d78/class_translator_english_1a737dc2483e90bddb8bf3ae0ef68239e0" prot="public" virt="virtual"><scope>TranslatorKoreanEn</scope><name>trEnumerationValues</name></member>
+      <member refid="d6/d78/class_translator_english_1a8a733dfbf38ae74d78fde5318f4c4cbc" prot="public" virt="virtual"><scope>TranslatorKoreanEn</scope><name>trEnumGeneratedFromFiles</name></member>
+      <member refid="d6/d78/class_translator_english_1a6d505136d193c1a3cbff2bfca935f123" prot="public" virt="virtual"><scope>TranslatorKoreanEn</scope><name>trEnumName</name></member>
+      <member refid="d6/d78/class_translator_english_1a6d27a926603cd4031b3c2050e12c9cc1" prot="public" virt="virtual"><scope>TranslatorKoreanEn</scope><name>trEnumReference</name></member>
+      <member refid="d6/d78/class_translator_english_1ab050b806454d027c1ed85e3fa9ebc28e" prot="public" virt="virtual"><scope>TranslatorKoreanEn</scope><name>trEnumValue</name></member>
+      <member refid="d6/d78/class_translator_english_1a4a2873e27aa4585123526ab99ade704d" prot="public" virt="virtual"><scope>TranslatorKoreanEn</scope><name>trEventDocumentation</name></member>
+      <member refid="d6/d78/class_translator_english_1a384ba4e1fabc92c246096e93b6780c94" prot="public" virt="virtual"><scope>TranslatorKoreanEn</scope><name>trEvents</name></member>
+      <member refid="d6/d78/class_translator_english_1acb393f01a2e8f5a87c899f4a3fb06c9d" prot="public" virt="virtual"><scope>TranslatorKoreanEn</scope><name>trExampleDocumentation</name></member>
+      <member refid="d6/d78/class_translator_english_1a1149e6cf06f2018c15171e7b38bfea84" prot="public" virt="virtual"><scope>TranslatorKoreanEn</scope><name>trExamples</name></member>
+      <member refid="d6/d78/class_translator_english_1aa05d38ec4f9bbca3f3eb5fa60b0236f3" prot="public" virt="virtual"><scope>TranslatorKoreanEn</scope><name>trExamplesDescription</name></member>
+      <member refid="d6/d78/class_translator_english_1a3901aea3db143c58075ccbb51053c267" prot="public" virt="virtual"><scope>TranslatorKoreanEn</scope><name>trExceptions</name></member>
+      <member refid="d6/d78/class_translator_english_1ae8ccf137297ffe2f66e85e0aa6ce29f4" prot="public" virt="virtual"><scope>TranslatorKoreanEn</scope><name>trExtendsClass</name></member>
+      <member refid="d6/d78/class_translator_english_1acd7521b982ea3b5116b65e7fb387c1f8" prot="public" virt="virtual"><scope>TranslatorKoreanEn</scope><name>trFile</name></member>
+      <member refid="d6/d78/class_translator_english_1a7d5dbf4902fdbd4edcdbe27812e9d52d" prot="public" virt="virtual"><scope>TranslatorKoreanEn</scope><name>trFileDocumentation</name></member>
+      <member refid="d6/d78/class_translator_english_1a1e4e9602b9331c2761e7a3e8682291d0" prot="public" virt="virtual"><scope>TranslatorKoreanEn</scope><name>trFileIn</name></member>
+      <member refid="d6/d78/class_translator_english_1a30c7d39b1293e5b80a3aa2061384d809" prot="public" virt="virtual"><scope>TranslatorKoreanEn</scope><name>trFileIndex</name></member>
+      <member refid="d6/d78/class_translator_english_1a89891be5af0b33adfb930f376994f982" prot="public" virt="virtual"><scope>TranslatorKoreanEn</scope><name>trFileList</name></member>
+      <member refid="d6/d78/class_translator_english_1abfddc291a8ee42dd055bad517b5b2ea7" prot="public" virt="virtual"><scope>TranslatorKoreanEn</scope><name>trFileListDescription</name></member>
+      <member refid="d6/d78/class_translator_english_1a187906f179f43391a1927e30030e9fd7" prot="public" virt="virtual"><scope>TranslatorKoreanEn</scope><name>trFileMembers</name></member>
+      <member refid="d6/d78/class_translator_english_1addf6c991afdd7f3505efc1b54ee2abb9" prot="public" virt="virtual"><scope>TranslatorKoreanEn</scope><name>trFileMembersDescription</name></member>
+      <member refid="d6/d78/class_translator_english_1ae3de7520ae3e41d67b14d56919ce8d3c" prot="public" virt="virtual"><scope>TranslatorKoreanEn</scope><name>trFileReference</name></member>
+      <member refid="d6/d78/class_translator_english_1a62f774936922cabadf63443e542ad470" prot="public" virt="virtual"><scope>TranslatorKoreanEn</scope><name>trForInternalUseOnly</name></member>
+      <member refid="d6/d78/class_translator_english_1abc16622332f0de377a9cc374164883c9" prot="public" virt="virtual"><scope>TranslatorKoreanEn</scope><name>trFriends</name></member>
+      <member refid="d6/d78/class_translator_english_1ac1a024188432d516355460f6b12773ab" prot="public" virt="virtual"><scope>TranslatorKoreanEn</scope><name>trFuncProtos</name></member>
+      <member refid="d6/d78/class_translator_english_1a6df9102d0ae2335b438df01853e0e1c1" prot="public" virt="virtual"><scope>TranslatorKoreanEn</scope><name>trFunctionDocumentation</name></member>
+      <member refid="d6/d78/class_translator_english_1ad167eda79aa1d0071a8bb1148976d3e4" prot="public" virt="virtual"><scope>TranslatorKoreanEn</scope><name>trFunctionPrototypeDocumentation</name></member>
+      <member refid="d6/d78/class_translator_english_1a3a213524f10c6829c13ae2223a71b792" prot="public" virt="virtual"><scope>TranslatorKoreanEn</scope><name>trFunctions</name></member>
+      <member refid="d6/d78/class_translator_english_1a8bfe486d563722fa270563808d35c49a" prot="public" virt="virtual"><scope>TranslatorKoreanEn</scope><name>trGeneratedAt</name></member>
+      <member refid="d6/d78/class_translator_english_1a1836b11b327ddfb5c2333c5364c818b7" prot="public" virt="virtual"><scope>TranslatorKoreanEn</scope><name>trGeneratedAutomatically</name></member>
+      <member refid="d6/d78/class_translator_english_1aa7af04a2122179c01a961362c8b281f9" prot="public" virt="virtual"><scope>TranslatorKoreanEn</scope><name>trGeneratedBy</name></member>
+      <member refid="d6/d78/class_translator_english_1acbc0e7617307f4cc3bf459fda93ffdfb" prot="public" virt="virtual"><scope>TranslatorKoreanEn</scope><name>trGeneratedFromFiles</name></member>
+      <member refid="d6/d78/class_translator_english_1a352ceaaa0bea78aa367695a5e23ff42f" prot="public" virt="virtual"><scope>TranslatorKoreanEn</scope><name>trGeneratedFromFilesFortran</name></member>
+      <member refid="d6/d78/class_translator_english_1a46d3dee705cc67e71abfcf66e91f4d52" prot="public" virt="virtual"><scope>TranslatorKoreanEn</scope><name>trGlobal</name></member>
+      <member refid="d6/d78/class_translator_english_1a2e97b6bdf3dd38afa888dc2704161ef2" prot="public" virt="virtual"><scope>TranslatorKoreanEn</scope><name>trGlobalNamespace</name></member>
+      <member refid="d6/d78/class_translator_english_1a1b650694e5af59250a2168d11369d484" prot="public" virt="virtual"><scope>TranslatorKoreanEn</scope><name>trGotoDocumentation</name></member>
+      <member refid="d6/d78/class_translator_english_1a41658ecf0848a219714ba5612002dcea" prot="public" virt="virtual"><scope>TranslatorKoreanEn</scope><name>trGotoGraphicalHierarchy</name></member>
+      <member refid="d6/d78/class_translator_english_1afd18b8af167cffc0459ebcce9c8ab419" prot="public" virt="virtual"><scope>TranslatorKoreanEn</scope><name>trGotoSourceCode</name></member>
+      <member refid="d6/d78/class_translator_english_1abedbe9d181cd94ead11b404364eba84a" prot="public" virt="virtual"><scope>TranslatorKoreanEn</scope><name>trGotoTextualHierarchy</name></member>
+      <member refid="d6/d78/class_translator_english_1af915dfab9233c33ebedcbdf56994de51" prot="public" virt="virtual"><scope>TranslatorKoreanEn</scope><name>trGraphicalHierarchy</name></member>
+      <member refid="d6/d78/class_translator_english_1a19e531287c10b454bf6408aeabeb35a5" prot="public" virt="virtual"><scope>TranslatorKoreanEn</scope><name>trGroup</name></member>
+      <member refid="d6/d78/class_translator_english_1a6f9a3261d1f2b39178c4f4d30df52f60" prot="public" virt="virtual"><scope>TranslatorKoreanEn</scope><name>trHierarchicalIndex</name></member>
+      <member refid="d6/d78/class_translator_english_1a87490251b5ccd4012cdfad0d29ab7ef9" prot="public" virt="virtual"><scope>TranslatorKoreanEn</scope><name>trImplementedFromList</name></member>
+      <member refid="d6/d78/class_translator_english_1a5669370d5c2192e0c33d931e4885cb3a" prot="public" virt="virtual"><scope>TranslatorKoreanEn</scope><name>trImplementedInList</name></member>
+      <member refid="d6/d78/class_translator_english_1a9f7b116f32566f996954e5fadec9bbc5" prot="public" virt="virtual"><scope>TranslatorKoreanEn</scope><name>trInclByDepGraph</name></member>
+      <member refid="d6/d78/class_translator_english_1a2fa15ea36074526a18f88ee8583cce99" prot="public" virt="virtual"><scope>TranslatorKoreanEn</scope><name>trInclDepGraph</name></member>
+      <member refid="d6/d78/class_translator_english_1af8b38bbee259dfbbf1bf3bfda1459498" prot="public" virt="virtual"><scope>TranslatorKoreanEn</scope><name>trIncludesFileIn</name></member>
+      <member refid="d6/d78/class_translator_english_1aa4fde879e1f4400ffc31f1ed8ed1bf97" prot="public" virt="virtual"><scope>TranslatorKoreanEn</scope><name>trIncludingInheritedMembers</name></member>
+      <member refid="d6/d78/class_translator_english_1afd5f9f2060afb25620ab0291203b887a" prot="public" virt="virtual"><scope>TranslatorKoreanEn</scope><name>trInheritedByList</name></member>
+      <member refid="d6/d78/class_translator_english_1a94b01e04f8622b755979a1a27f43cbe7" prot="public" virt="virtual"><scope>TranslatorKoreanEn</scope><name>trInheritedFrom</name></member>
+      <member refid="d6/d78/class_translator_english_1a2f78246cc4384db12d9179b505d12843" prot="public" virt="virtual"><scope>TranslatorKoreanEn</scope><name>trInheritsList</name></member>
+      <member refid="d6/d78/class_translator_english_1a045ea0d992445cec329bdc502da27197" prot="public" virt="virtual"><scope>TranslatorKoreanEn</scope><name>trInitialValue</name></member>
+      <member refid="d6/d78/class_translator_english_1a786b9300d1be72a483d921103e61214d" prot="public" virt="virtual"><scope>TranslatorKoreanEn</scope><name>trInstanceMethods</name></member>
+      <member refid="d6/d78/class_translator_english_1a376a3eb016a5630742ac37d07584a821" prot="public" virt="virtual"><scope>TranslatorKoreanEn</scope><name>trInterfaces</name></member>
+      <member refid="d6/d78/class_translator_english_1a7df2a33f5fbcd874edc1402391f2dc85" prot="public" virt="virtual"><scope>TranslatorKoreanEn</scope><name>trInvariant</name></member>
+      <member refid="d6/d78/class_translator_english_1ad120cf8a81b69b8b49f93493a8e2aa34" prot="public" virt="virtual"><scope>TranslatorKoreanEn</scope><name>trLegend</name></member>
+      <member refid="d6/d78/class_translator_english_1a68f499bce7c8671fe2b0e8e9bc510b82" prot="public" virt="virtual"><scope>TranslatorKoreanEn</scope><name>trLegendDocs</name></member>
+      <member refid="d6/d78/class_translator_english_1a164cbe72dfb4034a53b1ed76236945c7" prot="public" virt="virtual"><scope>TranslatorKoreanEn</scope><name>trLegendTitle</name></member>
+      <member refid="d6/d78/class_translator_english_1a208c853d090ef1d496b70a1637533f67" prot="public" virt="virtual"><scope>TranslatorKoreanEn</scope><name>trListOfAllMembers</name></member>
+      <member refid="d6/d78/class_translator_english_1afb0068f610c75c4ca4e5a59143deb7f2" prot="public" virt="virtual"><scope>TranslatorKoreanEn</scope><name>trLoading</name></member>
+      <member refid="d6/d78/class_translator_english_1a1bc26c1658f2a0705ba000906a764ffc" prot="public" virt="virtual"><scope>TranslatorKoreanEn</scope><name>trMainPage</name></member>
+      <member refid="d6/d78/class_translator_english_1a0c0baf2eb74e312cb72749bc06e67ec5" prot="public" virt="virtual"><scope>TranslatorKoreanEn</scope><name>trMember</name></member>
+      <member refid="d6/d78/class_translator_english_1a7df6397d0b21e6c4682eaa823763bff3" prot="public" virt="virtual"><scope>TranslatorKoreanEn</scope><name>trMemberDataDocumentation</name></member>
+      <member refid="d6/d78/class_translator_english_1adac6556e848ce8668a5c4bd3b064735c" prot="public" virt="virtual"><scope>TranslatorKoreanEn</scope><name>trMemberEnumerationDocumentation</name></member>
+      <member refid="d6/d78/class_translator_english_1a68089e86551acd8687aca40fb655b504" prot="public" virt="virtual"><scope>TranslatorKoreanEn</scope><name>trMemberFunctionDocumentation</name></member>
+      <member refid="d6/d78/class_translator_english_1adbe952abacb83e167f42104a78290da5" prot="public" virt="virtual"><scope>TranslatorKoreanEn</scope><name>trMemberFunctionDocumentationFortran</name></member>
+      <member refid="d6/d78/class_translator_english_1a32f5c913bcc327cd7df3c337b1cdf076" prot="public" virt="virtual"><scope>TranslatorKoreanEn</scope><name>trMemberList</name></member>
+      <member refid="d6/d78/class_translator_english_1ae2783683c8a9668ad4a225dbf1ba9762" prot="public" virt="virtual"><scope>TranslatorKoreanEn</scope><name>trMemberTypedefDocumentation</name></member>
+      <member refid="d6/d78/class_translator_english_1a795a1da3c238b58c6d13371e2a044612" prot="public" virt="virtual"><scope>TranslatorKoreanEn</scope><name>trMethodDocumentation</name></member>
+      <member refid="d6/d78/class_translator_english_1a43eb0e5c261168c45ac3bb29a92a6c26" prot="public" virt="virtual"><scope>TranslatorKoreanEn</scope><name>trModule</name></member>
+      <member refid="d6/d78/class_translator_english_1aa79bb78de6d34a0f4e2a24274c0478f7" prot="public" virt="virtual"><scope>TranslatorKoreanEn</scope><name>trModuleDocumentation</name></member>
+      <member refid="d6/d78/class_translator_english_1a55fc950f6c1c35960564b88dac866314" prot="public" virt="virtual"><scope>TranslatorKoreanEn</scope><name>trModuleIndex</name></member>
+      <member refid="d6/d78/class_translator_english_1a67de294cb689245e927a07a522f92446" prot="public" virt="virtual"><scope>TranslatorKoreanEn</scope><name>trModuleReference</name></member>
+      <member refid="d6/d78/class_translator_english_1a5ce5d21a6ebb9f9fbac3acb3ab3fc747" prot="public" virt="virtual"><scope>TranslatorKoreanEn</scope><name>trModules</name></member>
+      <member refid="d6/d78/class_translator_english_1ab9bc72301c7b0af903b66d379f5b7537" prot="public" virt="virtual"><scope>TranslatorKoreanEn</scope><name>trModulesDescription</name></member>
+      <member refid="d6/d78/class_translator_english_1ad925c638d4c4aa994cb453449f34a1aa" prot="public" virt="virtual"><scope>TranslatorKoreanEn</scope><name>trModulesIndex</name></member>
+      <member refid="d6/d78/class_translator_english_1a4bdd283d23248fc39882d73c6b32a965" prot="public" virt="virtual"><scope>TranslatorKoreanEn</scope><name>trModulesList</name></member>
+      <member refid="d6/d78/class_translator_english_1a2595f79a1eb322d912643e60e3f9c688" prot="public" virt="virtual"><scope>TranslatorKoreanEn</scope><name>trModulesListDescription</name></member>
+      <member refid="d6/d78/class_translator_english_1a48b2e56985eff6c8ddbf04b51da1bcb0" prot="public" virt="virtual"><scope>TranslatorKoreanEn</scope><name>trModulesMemberDescription</name></member>
+      <member refid="d6/d78/class_translator_english_1abaaef8c394bc23f38af51c8865d8a058" prot="public" virt="virtual"><scope>TranslatorKoreanEn</scope><name>trModulesMembers</name></member>
+      <member refid="d6/d78/class_translator_english_1a14f9cd78e240748a9c92e64aff140ebc" prot="public" virt="virtual"><scope>TranslatorKoreanEn</scope><name>trMore</name></member>
+      <member refid="d6/d78/class_translator_english_1a3930ebeba121ab79c02b8146c4989658" prot="public" virt="virtual"><scope>TranslatorKoreanEn</scope><name>trNamespace</name></member>
+      <member refid="d6/d78/class_translator_english_1a1ee1746806ab05ed43f7868822f215bf" prot="public" virt="virtual"><scope>TranslatorKoreanEn</scope><name>trNamespaceDocumentation</name></member>
+      <member refid="d6/d78/class_translator_english_1a91526c150b51f073cbaa179834a6dfd4" prot="public" virt="virtual"><scope>TranslatorKoreanEn</scope><name>trNamespaceIndex</name></member>
+      <member refid="d6/d78/class_translator_english_1af205d2d398a414cdf12e2d8e59143f1d" prot="public" virt="virtual"><scope>TranslatorKoreanEn</scope><name>trNamespaceList</name></member>
+      <member refid="d6/d78/class_translator_english_1aefdbb52afa9c6deccbae69697877c646" prot="public" virt="virtual"><scope>TranslatorKoreanEn</scope><name>trNamespaceListDescription</name></member>
+      <member refid="d6/d78/class_translator_english_1a9c5d3605a9c33fa40e73fa5cc57f5a6e" prot="public" virt="virtual"><scope>TranslatorKoreanEn</scope><name>trNamespaceMemberDescription</name></member>
+      <member refid="d6/d78/class_translator_english_1a1cc31252d090b28c84108707ec5ed943" prot="public" virt="virtual"><scope>TranslatorKoreanEn</scope><name>trNamespaceMembers</name></member>
+      <member refid="d6/d78/class_translator_english_1adbe93d17f7f3a3a13212763b7641f7f9" prot="public" virt="virtual"><scope>TranslatorKoreanEn</scope><name>trNamespaceReference</name></member>
+      <member refid="d6/d78/class_translator_english_1a91b920d63dcceb26923b2a4e30cf0f14" prot="public" virt="virtual"><scope>TranslatorKoreanEn</scope><name>trNamespaces</name></member>
+      <member refid="d6/d78/class_translator_english_1adb0f12b7f60b813c8fe472960da72ce8" prot="public" virt="virtual"><scope>TranslatorKoreanEn</scope><name>trNoMatches</name></member>
+      <member refid="d6/d78/class_translator_english_1a41614acf47589894e5806723ac9b437a" prot="public" virt="virtual"><scope>TranslatorKoreanEn</scope><name>trNote</name></member>
+      <member refid="d6/d78/class_translator_english_1a460e3fe2ccac14a7c44c098b82bad0aa" prot="public" virt="virtual"><scope>TranslatorKoreanEn</scope><name>trOverloadText</name></member>
+      <member refid="d6/d78/class_translator_english_1a38a07c803b6a6c00c238153399183563" prot="public" virt="virtual"><scope>TranslatorKoreanEn</scope><name>trPackage</name></member>
+      <member refid="d6/d78/class_translator_english_1a4311e69e690953d905ff8c675768399a" prot="public" virt="virtual"><scope>TranslatorKoreanEn</scope><name>trPackageAttribs</name></member>
+      <member refid="d6/d78/class_translator_english_1a313f8ce8728346ab9d63421d1436397b" prot="public" virt="virtual"><scope>TranslatorKoreanEn</scope><name>trPackageList</name></member>
+      <member refid="d6/d78/class_translator_english_1a1ecfc7dbe55cc35ee66ed64e3d9b9729" prot="public" virt="virtual"><scope>TranslatorKoreanEn</scope><name>trPackageListDescription</name></member>
+      <member refid="d6/d78/class_translator_english_1a48b29d0a5e9bdd83a4dedb5c225205a1" prot="public" virt="virtual"><scope>TranslatorKoreanEn</scope><name>trPackageMembers</name></member>
+      <member refid="d6/d78/class_translator_english_1a7c52f5bb4d6c49846957e317548f5fb5" prot="public" virt="virtual"><scope>TranslatorKoreanEn</scope><name>trPackages</name></member>
+      <member refid="d6/d78/class_translator_english_1a844e5b539dc7f8ceb884b589f6b025be" prot="public" virt="virtual"><scope>TranslatorKoreanEn</scope><name>trPackageTypes</name></member>
+      <member refid="d6/d78/class_translator_english_1a539d34ae570a56474d2a72b832bf1de3" prot="public" virt="virtual"><scope>TranslatorKoreanEn</scope><name>trPage</name></member>
+      <member refid="d6/d78/class_translator_english_1a35b72349c997135cea10e1db4a671353" prot="public" virt="virtual"><scope>TranslatorKoreanEn</scope><name>trPageAbbreviation</name></member>
+      <member refid="d6/d78/class_translator_english_1a2b4bdde37ed5b38e0c3cf82782c9bf53" prot="public" virt="virtual"><scope>TranslatorKoreanEn</scope><name>trPageDocumentation</name></member>
+      <member refid="d6/d78/class_translator_english_1a7af33dc80ee1e1369868c2e3e75495d7" prot="public" virt="virtual"><scope>TranslatorKoreanEn</scope><name>trPageIndex</name></member>
+      <member refid="d6/d78/class_translator_english_1aedfcf8ef223b7dac08fc5732efdc88a9" prot="public" virt="virtual"><scope>TranslatorKoreanEn</scope><name>trPanelSynchronisationTooltip</name></member>
+      <member refid="d6/d78/class_translator_english_1a9703121f01956a4e9b75a16055d4f505" prot="public" virt="virtual"><scope>TranslatorKoreanEn</scope><name>trParameters</name></member>
+      <member refid="d6/d78/class_translator_english_1ab86ae8b2c4996172bc1138cdd0ccf7e2" prot="public" virt="virtual"><scope>TranslatorKoreanEn</scope><name>trPostcondition</name></member>
+      <member refid="d6/d78/class_translator_english_1a110be99e59cceffebd08b885d2cf99ba" prot="public" virt="virtual"><scope>TranslatorKoreanEn</scope><name>trPrecondition</name></member>
+      <member refid="d6/d78/class_translator_english_1a27c808040d6db4bb0cae6c8af7a08ee2" prot="public" virt="virtual"><scope>TranslatorKoreanEn</scope><name>trPrivateAttribs</name></member>
+      <member refid="d6/d78/class_translator_english_1a85df200372c4bb32aa6d23c6e1d64dd0" prot="public" virt="virtual"><scope>TranslatorKoreanEn</scope><name>trPrivateMembers</name></member>
+      <member refid="d6/d78/class_translator_english_1ab03307eb79747228eca004a9e1c2fb03" prot="public" virt="virtual"><scope>TranslatorKoreanEn</scope><name>trPrivateSlots</name></member>
+      <member refid="d6/d78/class_translator_english_1acce21c9d9f62c5a7d4377585cc4cf5a8" prot="public" virt="virtual"><scope>TranslatorKoreanEn</scope><name>trPrivateTypes</name></member>
+      <member refid="d6/d78/class_translator_english_1af52cf157b7dd2e6d7f9b548bb8cf7d92" prot="public" virt="virtual"><scope>TranslatorKoreanEn</scope><name>trProperties</name></member>
+      <member refid="d6/d78/class_translator_english_1a8f277253d698ea7a54cb864a8b4fd79d" prot="public" virt="virtual"><scope>TranslatorKoreanEn</scope><name>trPropertyDocumentation</name></member>
+      <member refid="d6/d78/class_translator_english_1a921250ff1d64a2b97b4e28e23a664d59" prot="public" virt="virtual"><scope>TranslatorKoreanEn</scope><name>trProtectedAttribs</name></member>
+      <member refid="d6/d78/class_translator_english_1a69952453a40baa5038150a5cc2012ffc" prot="public" virt="virtual"><scope>TranslatorKoreanEn</scope><name>trProtectedMembers</name></member>
+      <member refid="d6/d78/class_translator_english_1a27de849c7283d763b454ba0f784b8dc9" prot="public" virt="virtual"><scope>TranslatorKoreanEn</scope><name>trProtectedSlots</name></member>
+      <member refid="d6/d78/class_translator_english_1a5067b0fc37eea9a2a85618abdfa55618" prot="public" virt="virtual"><scope>TranslatorKoreanEn</scope><name>trProtectedTypes</name></member>
+      <member refid="d6/d78/class_translator_english_1a9cade208b85e2a25329548bad9489932" prot="public" virt="virtual"><scope>TranslatorKoreanEn</scope><name>trProvidedByCategory</name></member>
+      <member refid="d6/d78/class_translator_english_1a739950b506c7b3af3e35d7253f7c2801" prot="public" virt="virtual"><scope>TranslatorKoreanEn</scope><name>trPublicAttribs</name></member>
+      <member refid="d6/d78/class_translator_english_1acb974c437237f2bfda363b62afc050cd" prot="public" virt="virtual"><scope>TranslatorKoreanEn</scope><name>trPublicMembers</name></member>
+      <member refid="d6/d78/class_translator_english_1a4dea6bf495ff79247b54d648f6384325" prot="public" virt="virtual"><scope>TranslatorKoreanEn</scope><name>trPublicSlots</name></member>
+      <member refid="d6/d78/class_translator_english_1ae57e81b25062c8b38ea8aa8edf663c20" prot="public" virt="virtual"><scope>TranslatorKoreanEn</scope><name>trPublicTypes</name></member>
+      <member refid="d6/d78/class_translator_english_1a11ed45f512397a435dcce744925f104f" prot="public" virt="virtual"><scope>TranslatorKoreanEn</scope><name>trReferencedBy</name></member>
+      <member refid="d6/d78/class_translator_english_1a81a5060373c6c8eb4866cbfbdb25845d" prot="public" virt="virtual"><scope>TranslatorKoreanEn</scope><name>trReferenceManual</name></member>
+      <member refid="d6/d78/class_translator_english_1a3c9f98191bcc362b159ef0d3c2e4b18f" prot="public" virt="virtual"><scope>TranslatorKoreanEn</scope><name>trReferences</name></member>
+      <member refid="d6/d78/class_translator_english_1a8b5ca946c8ca307d697f992ce1ade04e" prot="public" virt="virtual"><scope>TranslatorKoreanEn</scope><name>trReimplementedFromList</name></member>
+      <member refid="d6/d78/class_translator_english_1a87e9bfedbec853941ebba31da3417b99" prot="public" virt="virtual"><scope>TranslatorKoreanEn</scope><name>trReimplementedInList</name></member>
+      <member refid="d6/d78/class_translator_english_1ad53ad029544ddadb246a07d95584a9a2" prot="public" virt="virtual"><scope>TranslatorKoreanEn</scope><name>trRelatedFunctionDocumentation</name></member>
+      <member refid="d6/d78/class_translator_english_1a11afb6f5259dcc95534ee7da5ce4b7d2" prot="public" virt="virtual"><scope>TranslatorKoreanEn</scope><name>trRelatedFunctions</name></member>
+      <member refid="d6/d78/class_translator_english_1a1ce24d9a00969dea3f95ca0b18bf0398" prot="public" virt="virtual"><scope>TranslatorKoreanEn</scope><name>trRelatedPages</name></member>
+      <member refid="d6/d78/class_translator_english_1a0f4b6bc562bbc39c22e70c26f2b7ebd6" prot="public" virt="virtual"><scope>TranslatorKoreanEn</scope><name>trRelatedPagesDescription</name></member>
+      <member refid="d6/d78/class_translator_english_1a14e54075d59429884b4342515d6795e2" prot="public" virt="virtual"><scope>TranslatorKoreanEn</scope><name>trRelatedSubscript</name></member>
+      <member refid="d6/d78/class_translator_english_1a43386d96caa7a5c49c4df1df49ebcb4c" prot="public" virt="virtual"><scope>TranslatorKoreanEn</scope><name>trRemarks</name></member>
+      <member refid="d6/d78/class_translator_english_1a4c9f0694cf6a8fa07dd02ae1811a7eed" prot="public" virt="virtual"><scope>TranslatorKoreanEn</scope><name>trReturns</name></member>
+      <member refid="d6/d78/class_translator_english_1a9bb765311ef602e4365050b1b81637cb" prot="public" virt="virtual"><scope>TranslatorKoreanEn</scope><name>trReturnValues</name></member>
+      <member refid="d0/d3a/class_translator_korean_en_1ac60d57743cc1cd0a7b6bc6c57a445b7e" prot="public" virt="virtual"><scope>TranslatorKoreanEn</scope><name>trRTFansicp</name></member>
+      <member refid="d0/d3a/class_translator_korean_en_1ad0ac561385e4e2583eb5f3aaf5303f4d" prot="public" virt="virtual"><scope>TranslatorKoreanEn</scope><name>trRTFCharSet</name></member>
+      <member refid="d6/d78/class_translator_english_1ae6d05d92d3111427944e230387f07c76" prot="public" virt="virtual"><scope>TranslatorKoreanEn</scope><name>trRTFGeneralIndex</name></member>
+      <member refid="d6/d78/class_translator_english_1a09940c02b248afb3501a0e69c3a20496" prot="public" virt="virtual"><scope>TranslatorKoreanEn</scope><name>trRTFTableOfContents</name></member>
+      <member refid="d6/d78/class_translator_english_1acbc2b84733f21ccf2e8fda6a4d67c090" prot="public" virt="virtual"><scope>TranslatorKoreanEn</scope><name>trSearch</name></member>
+      <member refid="d6/d78/class_translator_english_1ac2578d7b93c37b2b4fe589ab66271896" prot="public" virt="virtual"><scope>TranslatorKoreanEn</scope><name>trSearchForIndex</name></member>
+      <member refid="d6/d78/class_translator_english_1a14aa8a93b1229838934443f5f19149a4" prot="public" virt="virtual"><scope>TranslatorKoreanEn</scope><name>trSearching</name></member>
+      <member refid="d6/d78/class_translator_english_1a2dc6dc941e9ad5b2a7eb8a144164108a" prot="public" virt="virtual"><scope>TranslatorKoreanEn</scope><name>trSearchMatches</name></member>
+      <member refid="d6/d78/class_translator_english_1aff5c0c2780dce8daf3cb4ba471f2fbc8" prot="public" virt="virtual"><scope>TranslatorKoreanEn</scope><name>trSearchResults</name></member>
+      <member refid="d6/d78/class_translator_english_1a72b459d05f241e8f51e3c3fc407d4793" prot="public" virt="virtual"><scope>TranslatorKoreanEn</scope><name>trSearchResultsTitle</name></member>
+      <member refid="d6/d78/class_translator_english_1a854604f89d4df2753614dc1b1d4bbd9b" prot="public" virt="virtual"><scope>TranslatorKoreanEn</scope><name>trSeeAlso</name></member>
+      <member refid="d6/d78/class_translator_english_1a337e0ced64f3b90a78ac71a8c0929a6e" prot="public" virt="virtual"><scope>TranslatorKoreanEn</scope><name>trServiceGeneratedFromFiles</name></member>
+      <member refid="d6/d78/class_translator_english_1a044df870524c280750c8e57b2d85a465" prot="public" virt="virtual"><scope>TranslatorKoreanEn</scope><name>trServiceReference</name></member>
+      <member refid="d6/d78/class_translator_english_1a0ca425c7d0b6dac236646feb6b8c1839" prot="public" virt="virtual"><scope>TranslatorKoreanEn</scope><name>trServices</name></member>
+      <member refid="d6/d78/class_translator_english_1a1e3ab347adc8fef13e1dd6b51094a816" prot="public" virt="virtual"><scope>TranslatorKoreanEn</scope><name>trSignals</name></member>
+      <member refid="d6/d78/class_translator_english_1a6ff1f8381cc1ea3353e98b360da9c181" prot="public" virt="virtual"><scope>TranslatorKoreanEn</scope><name>trSince</name></member>
+      <member refid="d6/d78/class_translator_english_1a96741d8aecb5a3f7fb51a085b3937885" prot="public" virt="virtual"><scope>TranslatorKoreanEn</scope><name>trSingletonGeneratedFromFiles</name></member>
+      <member refid="d6/d78/class_translator_english_1a4fb80aae0c36727d7b93123b656427c2" prot="public" virt="virtual"><scope>TranslatorKoreanEn</scope><name>trSingletonReference</name></member>
+      <member refid="d6/d78/class_translator_english_1ad79d13c3ba84566cd1eafe66ed3e55a6" prot="public" virt="virtual"><scope>TranslatorKoreanEn</scope><name>trSourceFile</name></member>
+      <member refid="d6/d78/class_translator_english_1af6c68579e686da9e7dca855216a39dc7" prot="public" virt="virtual"><scope>TranslatorKoreanEn</scope><name>trStaticPackageAttribs</name></member>
+      <member refid="d6/d78/class_translator_english_1a19f436877de296d10d25efdbc72038a3" prot="public" virt="virtual"><scope>TranslatorKoreanEn</scope><name>trStaticPackageMembers</name></member>
+      <member refid="d6/d78/class_translator_english_1a290e88fbed76336581f2c4d8c3796ac9" prot="public" virt="virtual"><scope>TranslatorKoreanEn</scope><name>trStaticPrivateAttribs</name></member>
+      <member refid="d6/d78/class_translator_english_1a328e7fcd4d25f0ec73781b57b5a1694f" prot="public" virt="virtual"><scope>TranslatorKoreanEn</scope><name>trStaticPrivateMembers</name></member>
+      <member refid="d6/d78/class_translator_english_1ae5e8892d5d07f05a976e745fd454a24e" prot="public" virt="virtual"><scope>TranslatorKoreanEn</scope><name>trStaticProtectedAttribs</name></member>
+      <member refid="d6/d78/class_translator_english_1a6eafba9f2c4cafe85405400be2dd5981" prot="public" virt="virtual"><scope>TranslatorKoreanEn</scope><name>trStaticProtectedMembers</name></member>
+      <member refid="d6/d78/class_translator_english_1adf9ed0e29873c559ac9d78ca7e5e44af" prot="public" virt="virtual"><scope>TranslatorKoreanEn</scope><name>trStaticPublicAttribs</name></member>
+      <member refid="d6/d78/class_translator_english_1a8ac03394d58944589ce29d3ac454a9d3" prot="public" virt="virtual"><scope>TranslatorKoreanEn</scope><name>trStaticPublicMembers</name></member>
+      <member refid="d6/d78/class_translator_english_1a6a41819138e175f26a553ccf8069cec3" prot="public" virt="virtual"><scope>TranslatorKoreanEn</scope><name>trSubprogram</name></member>
+      <member refid="d6/d78/class_translator_english_1af6aac850498f6a5c31034f1e7ab9cfe3" prot="public" virt="virtual"><scope>TranslatorKoreanEn</scope><name>trSubprogramDocumentation</name></member>
+      <member refid="d6/d78/class_translator_english_1a854ad98abca1a95e54b132fa44ce31c3" prot="public" virt="virtual"><scope>TranslatorKoreanEn</scope><name>trSubprograms</name></member>
+      <member refid="d6/d78/class_translator_english_1a3791305a5c29ecc8490a3e20ec63b87f" prot="public" virt="virtual"><scope>TranslatorKoreanEn</scope><name>trTemplateParameters</name></member>
+      <member refid="d6/d78/class_translator_english_1a9f3a265babb3cb64e55997deb833c0a6" prot="public" virt="virtual"><scope>TranslatorKoreanEn</scope><name>trTest</name></member>
+      <member refid="d6/d78/class_translator_english_1a98d51a86d968b06341e6eca674b1e895" prot="public" virt="virtual"><scope>TranslatorKoreanEn</scope><name>trTestList</name></member>
+      <member refid="d6/d78/class_translator_english_1aa05138148784a13b6eab787fb947ff69" prot="public" virt="virtual"><scope>TranslatorKoreanEn</scope><name>trThisIsTheListOfAllMembers</name></member>
+      <member refid="d6/d78/class_translator_english_1a8209d9cc3addcfefc25090105ef94b55" prot="public" virt="virtual"><scope>TranslatorKoreanEn</scope><name>trTodo</name></member>
+      <member refid="d6/d78/class_translator_english_1a71d78a4963cfe77a47c0402c2949c20e" prot="public" virt="virtual"><scope>TranslatorKoreanEn</scope><name>trTodoList</name></member>
+      <member refid="d6/d78/class_translator_english_1af6506400ea82fc2ef61938349b1bacd9" prot="public" virt="virtual"><scope>TranslatorKoreanEn</scope><name>trType</name></member>
+      <member refid="d6/d78/class_translator_english_1a1d471e5b119afcc1bf68f1b598d96041" prot="public" virt="virtual"><scope>TranslatorKoreanEn</scope><name>trTypeConstraints</name></member>
+      <member refid="d6/d78/class_translator_english_1a07666a93bb0724e64e375b39ce3a0a0f" prot="public" virt="virtual"><scope>TranslatorKoreanEn</scope><name>trTypedefDocumentation</name></member>
+      <member refid="d6/d78/class_translator_english_1af8f2ea5a6e5d55f4ecf6bd1e146e65dd" prot="public" virt="virtual"><scope>TranslatorKoreanEn</scope><name>trTypedefs</name></member>
+      <member refid="d6/d78/class_translator_english_1a71dd0dca6c5e6867d4cc377f46b7609a" prot="public" virt="virtual"><scope>TranslatorKoreanEn</scope><name>trTypeDocumentation</name></member>
+      <member refid="d6/d78/class_translator_english_1abc9436926f2390e89e7f2ea63dcc07c4" prot="public" virt="virtual"><scope>TranslatorKoreanEn</scope><name>trVariableDocumentation</name></member>
+      <member refid="d6/d78/class_translator_english_1ab26b550e1bc2094d9735ca22ae0119f9" prot="public" virt="virtual"><scope>TranslatorKoreanEn</scope><name>trVariables</name></member>
+      <member refid="d6/d78/class_translator_english_1a72ca33e8bb9f9187cc005809b09d93ff" prot="public" virt="virtual"><scope>TranslatorKoreanEn</scope><name>trVersion</name></member>
+      <member refid="d6/d78/class_translator_english_1aee4cb3b5ee1fc5db35cfe8e2f5d9bb24" prot="public" virt="virtual"><scope>TranslatorKoreanEn</scope><name>trWarning</name></member>
+      <member refid="d6/d78/class_translator_english_1a1f7d6657b8b2abc3ddcbc67a27f94fe0" prot="public" virt="virtual"><scope>TranslatorKoreanEn</scope><name>trWriteList</name></member>
+      <member refid="d6/d78/class_translator_english_1ade6b90daa40976ccedddb64aded50bf2" prot="public" virt="virtual"><scope>TranslatorKoreanEn</scope><name>trWrittenBy</name></member>
+      <member refid="d8/dfb/class_translator_1a8841e027d8a0e661d0cef7e06d75c22a" prot="public" virt="virtual"><scope>TranslatorKoreanEn</scope><name>updateNeededMessage</name></member>
+      <member refid="d8/dfb/class_translator_1a814a9121daf0261f270c1e3f1956fbb4" prot="protected" virt="non-virtual"><scope>TranslatorKoreanEn</scope><name>Win1250ToISO88592</name></member>
+      <member refid="d8/dfb/class_translator_1a94f42c302737d4d99e2aecc28f2fbc25" prot="protected" virt="non-virtual"><scope>TranslatorKoreanEn</scope><name>Windows1251ToKoi8R</name></member>
+      <member refid="d8/dfb/class_translator_1aefb33b75e4bd594476f322f886ff441c" prot="public" virt="virtual"><scope>TranslatorKoreanEn</scope><name>~Translator</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

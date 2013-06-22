@@ -1,0 +1,99 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.2">
+  <compounddef id="d3/d6a/struct_access_stack_1_1_access_elem" kind="struct" prot="private">
+    <compoundname>AccessStack::AccessElem</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="d3/d6a/struct_access_stack_1_1_access_elem_1ab2b004ec2dbb5af64e3f6f22ddeda543" prot="public" static="no" mutable="no">
+        <type><ref refid="d5/dcc/class_definition" kindref="compound">Definition</ref> *</type>
+        <definition>Definition* AccessStack::AccessElem::scope</definition>
+        <argsstring></argsstring>
+        <name>scope</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/util.cpp" line="933" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/util.cpp" bodystart="933" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d3/d6a/struct_access_stack_1_1_access_elem_1a728bc9c7cb5b99e1bc53a0636f6426b3" prot="public" static="no" mutable="no">
+        <type><ref refid="de/db0/class_file_def" kindref="compound">FileDef</ref> *</type>
+        <definition>FileDef* AccessStack::AccessElem::fileScope</definition>
+        <argsstring></argsstring>
+        <name>fileScope</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/util.cpp" line="934" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/util.cpp" bodystart="934" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d3/d6a/struct_access_stack_1_1_access_elem_1a5f03cce6bfc04c20aec4c3ff82634f83" prot="public" static="no" mutable="no">
+        <type><ref refid="d5/dcc/class_definition" kindref="compound">Definition</ref> *</type>
+        <definition>Definition* AccessStack::AccessElem::item</definition>
+        <argsstring></argsstring>
+        <name>item</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/util.cpp" line="935" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/util.cpp" bodystart="935" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d3/d6a/struct_access_stack_1_1_access_elem_1a83782802ba91aead5ad5d189f5b7917b" prot="public" static="no" mutable="no">
+        <type>QCString</type>
+        <definition>QCString AccessStack::AccessElem::expScope</definition>
+        <argsstring></argsstring>
+        <name>expScope</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/util.cpp" line="936" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/util.cpp" bodystart="936" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Element in the stack. </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="2468">
+        <label>AccessStack::AccessElem</label>
+        <childnode refid="2469" relation="usage">
+          <edgelabel>fileScope</edgelabel>
+        </childnode>
+        <childnode refid="2470" relation="usage">
+          <edgelabel>item</edgelabel>
+          <edgelabel>scope</edgelabel>
+        </childnode>
+      </node>
+      <node id="2470">
+        <label>Definition</label>
+        <link refid="d5/dcc/class_definition"/>
+        <childnode refid="2471" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2469">
+        <label>FileDef</label>
+        <link refid="de/db0/class_file_def"/>
+        <childnode refid="2470" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2471">
+        <label>DefinitionIntf</label>
+        <link refid="d9/d4a/class_definition_intf"/>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/util.cpp" line="932" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/util.cpp" bodystart="931" bodyend="937"/>
+    <listofallmembers>
+      <member refid="d3/d6a/struct_access_stack_1_1_access_elem_1a83782802ba91aead5ad5d189f5b7917b" prot="public" virt="non-virtual"><scope>AccessStack::AccessElem</scope><name>expScope</name></member>
+      <member refid="d3/d6a/struct_access_stack_1_1_access_elem_1a728bc9c7cb5b99e1bc53a0636f6426b3" prot="public" virt="non-virtual"><scope>AccessStack::AccessElem</scope><name>fileScope</name></member>
+      <member refid="d3/d6a/struct_access_stack_1_1_access_elem_1a5f03cce6bfc04c20aec4c3ff82634f83" prot="public" virt="non-virtual"><scope>AccessStack::AccessElem</scope><name>item</name></member>
+      <member refid="d3/d6a/struct_access_stack_1_1_access_elem_1ab2b004ec2dbb5af64e3f6f22ddeda543" prot="public" virt="non-virtual"><scope>AccessStack::AccessElem</scope><name>scope</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

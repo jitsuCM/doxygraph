@@ -1,0 +1,419 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.2">
+  <compounddef id="db/d9d/class_store" kind="class" prot="public">
+    <compoundname>Store</compoundname>
+    <basecompoundref refid="d7/db0/class_storage_intf" prot="public" virt="non-virtual">StorageIntf</basecompoundref>
+    <includes refid="d5/d3f/store_8h" local="no">store.h</includes>
+    <innerclass refid="d6/da7/struct_store_1_1_node" prot="private">Store::Node</innerclass>
+      <sectiondef kind="private-type">
+      <memberdef kind="enum" id="db/d9d/class_store_1af51bc7ae257f9292752a85a1a55b0d07" prot="private" static="no">
+        <name>State</name>
+        <enumvalue id="db/d9d/class_store_1af51bc7ae257f9292752a85a1a55b0d07a9f22e2357a701b2403e12a3526ebf592" prot="private">
+          <name>Init</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="db/d9d/class_store_1af51bc7ae257f9292752a85a1a55b0d07abc23a504e08b1020212cfcc9eaf09c8c" prot="private">
+          <name>Reading</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="db/d9d/class_store_1af51bc7ae257f9292752a85a1a55b0d07afeb5cf182613990016146b23347f15ea" prot="private">
+          <name>Writing</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/store.h" line="103" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/store.h" bodystart="102" bodyend="107"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="db/d9d/class_store_1a9d1cf022d6a3c2408a017161d40cdd86" prot="private" static="no" mutable="no">
+        <type>FILE *</type>
+        <definition>FILE* Store::m_file</definition>
+        <argsstring></argsstring>
+        <name>m_file</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/store.h" line="114" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/store.h" bodystart="114" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="db/d9d/class_store_1a4199d99e7ea0dd9d713b29093c31f478" prot="private" static="no" mutable="no">
+        <type>portable_off_t</type>
+        <definition>portable_off_t Store::m_front</definition>
+        <argsstring></argsstring>
+        <name>m_front</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/store.h" line="115" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/store.h" bodystart="115" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="db/d9d/class_store_1a4df3fc62fd527333879c5fd3eb0fc97b" prot="private" static="no" mutable="no">
+        <type>portable_off_t</type>
+        <definition>portable_off_t Store::m_cur</definition>
+        <argsstring></argsstring>
+        <name>m_cur</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/store.h" line="116" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/store.h" bodystart="116" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="db/d9d/class_store_1a884742fce17b80a5a38509d0e2a6a73b" prot="private" static="no" mutable="no">
+        <type>Node *</type>
+        <definition>Node* Store::m_head</definition>
+        <argsstring></argsstring>
+        <name>m_head</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/store.h" line="117" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/store.h" bodystart="117" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="db/d9d/class_store_1a2a248419a6f0bc9108dee13a274d52ba" prot="private" static="no" mutable="no">
+        <type>State</type>
+        <definition>State Store::m_state</definition>
+        <argsstring></argsstring>
+        <name>m_state</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/store.h" line="118" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/store.h" bodystart="118" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="db/d9d/class_store_1a81c111236e153598c6ba7fffac7b78d4" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Store::m_reads</definition>
+        <argsstring></argsstring>
+        <name>m_reads</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/store.h" line="119" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/store.h" bodystart="119" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="db/d9d/class_store_1a22cde11217bd5ebd5d66c586c40cefac" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Store::m_writes</definition>
+        <argsstring></argsstring>
+        <name>m_writes</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/store.h" line="120" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/store.h" bodystart="120" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="db/d9d/class_store_1a5f58eadcb7385d5a5aa6830daef84f7d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Store::Store</definition>
+        <argsstring>()</argsstring>
+        <name>Store</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Creates a store. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/store.h" line="56" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/store.cpp" bodystart="50" bodyend="59"/>
+      </memberdef>
+      <memberdef kind="function" id="db/d9d/class_store_1a4fd725fdb2de0632ed98bfbd131c2512" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Store::~Store</definition>
+        <argsstring>()</argsstring>
+        <name>~Store</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Releases the store object. Will close the underlying file if opened. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/store.h" line="59" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/store.cpp" bodystart="61" bodyend="72"/>
+      </memberdef>
+      <memberdef kind="function" id="db/d9d/class_store_1a9707050019d12be2db8ea1b38d535f03" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int Store::open</definition>
+        <argsstring>(const char *name)</argsstring>
+        <name>open</name>
+        <param>
+          <type>const char *</type>
+          <declname>name</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Opens the file underlying the store using <emphasis>name</emphasis> as the file name. Returns 0 upon success, or -1 otherwise. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/store.h" line="64" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/store.cpp" bodystart="74" bodyend="99"/>
+      </memberdef>
+      <memberdef kind="function" id="db/d9d/class_store_1ac1ce3fb86b3bc46125756b9ef782c095" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>portable_off_t</type>
+        <definition>portable_off_t Store::alloc</definition>
+        <argsstring>()</argsstring>
+        <name>alloc</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Allocates a handle to write to and read from. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/store.h" line="67" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/store.cpp" bodystart="108" bodyend="152"/>
+      </memberdef>
+      <memberdef kind="function" id="db/d9d/class_store_1aec754c74cf190cb55281a923db21194a" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>int</type>
+        <definition>int Store::write</definition>
+        <argsstring>(const char *buf, uint size)</argsstring>
+        <name>write</name>
+        <reimplements refid="d7/db0/class_storage_intf_1a97b26023c6cf0590423e428947d6febb">write</reimplements>
+        <param>
+          <type>const char *</type>
+          <declname>buf</declname>
+        </param>
+        <param>
+          <type>uint</type>
+          <declname>size</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Writes <emphasis>size</emphasis> bytes in array <emphasis>buf</emphasis> to the store. First <ref refid="db/d9d/class_store_1ac1ce3fb86b3bc46125756b9ef782c095" kindref="member">alloc()</ref> has to be called. <simplesect kind="note"><para>The information can only be read after <ref refid="db/d9d/class_store_1a616a1f53fa04d39d505a03b1f49ab7a6" kindref="member">end()</ref> has been called. </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/store.h" line="73" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/store.cpp" bodystart="154" bodyend="247"/>
+      </memberdef>
+      <memberdef kind="function" id="db/d9d/class_store_1a616a1f53fa04d39d505a03b1f49ab7a6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Store::end</definition>
+        <argsstring>()</argsstring>
+        <name>end</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Ends the sequence of writes. <simplesect kind="note"><para>After this call, first <ref refid="db/d9d/class_store_1ac1ce3fb86b3bc46125756b9ef782c095" kindref="member">alloc()</ref> has to be called before new writes can be done. </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/store.h" line="79" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/store.cpp" bodystart="249" bodyend="267"/>
+      </memberdef>
+      <memberdef kind="function" id="db/d9d/class_store_1aed5b8a83aa15dfc3f7f1ca930a4d2583" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Store::release</definition>
+        <argsstring>(portable_off_t handle)</argsstring>
+        <name>release</name>
+        <param>
+          <type>portable_off_t</type>
+          <declname>handle</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Releases the memory corresponding to the handle returned with <ref refid="db/d9d/class_store_1ac1ce3fb86b3bc46125756b9ef782c095" kindref="member">alloc()</ref> </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/store.h" line="82" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/store.cpp" bodystart="269" bodyend="303"/>
+      </memberdef>
+      <memberdef kind="function" id="db/d9d/class_store_1a1a3dd916ae5c4c2e6ca4d13f418344a9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Store::close</definition>
+        <argsstring>()</argsstring>
+        <name>close</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Closes the store </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/store.h" line="85" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/store.cpp" bodystart="101" bodyend="106"/>
+      </memberdef>
+      <memberdef kind="function" id="db/d9d/class_store_1ad77053023f371abfc70f76ee2a14c377" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Store::seek</definition>
+        <argsstring>(portable_off_t handle)</argsstring>
+        <name>seek</name>
+        <param>
+          <type>portable_off_t</type>
+          <declname>handle</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Goes to the start of information corresponding to handle <emphasis>pos</emphasis> </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/store.h" line="88" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/store.cpp" bodystart="305" bodyend="317"/>
+      </memberdef>
+      <memberdef kind="function" id="db/d9d/class_store_1a02df7a98367838e436f8f8b3367016d1" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>int</type>
+        <definition>int Store::read</definition>
+        <argsstring>(char *buf, uint size)</argsstring>
+        <name>read</name>
+        <reimplements refid="d7/db0/class_storage_intf_1a125b99d1511364f4fe49709feec46bb4">read</reimplements>
+        <param>
+          <type>char *</type>
+          <declname>buf</declname>
+        </param>
+        <param>
+          <type>uint</type>
+          <declname>size</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Reads <emphasis>size</emphasis> bytes from the store into the array pointed to be <emphasis>buf</emphasis>. <simplesect kind="note"><para>Before reading <ref refid="db/d9d/class_store_1ad77053023f371abfc70f76ee2a14c377" kindref="member">seek()</ref> has to be called to set the right start of the store. </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/store.h" line="93" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/store.cpp" bodystart="319" bodyend="380"/>
+      </memberdef>
+      <memberdef kind="function" id="db/d9d/class_store_1a3b1a8632a1a6180cbcf210a3bfe51698" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Store::printStats</definition>
+        <argsstring>()</argsstring>
+        <name>printStats</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/store.h" line="95" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/store.cpp" bodystart="394" bodyend="398"/>
+      </memberdef>
+      <memberdef kind="function" id="db/d9d/class_store_1ad81d168e4f03617ee3e63a8c7fe58f5a" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>portable_off_t</type>
+        <definition>portable_off_t Store::pos</definition>
+        <argsstring>() const </argsstring>
+        <name>pos</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/store.h" line="97" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/store.h" bodystart="97" bodyend="97"/>
+      </memberdef>
+      <memberdef kind="function" id="db/d9d/class_store_1a1aa92a07ee209dcce2542a80aba174be" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Store::dumpBlock</definition>
+        <argsstring>(portable_off_t start, portable_off_t end)</argsstring>
+        <name>dumpBlock</name>
+        <param>
+          <type>portable_off_t</type>
+          <declname>start</declname>
+        </param>
+        <param>
+          <type>portable_off_t</type>
+          <declname>end</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/store.h" line="99" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/store.cpp" bodystart="400" bodyend="425"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="db/d9d/class_store_1afa9068ae89042ad508c8846fdc61a1a7" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Store::printFreeList</definition>
+        <argsstring>()</argsstring>
+        <name>printFreeList</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/store.h" line="113" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/store.cpp" bodystart="382" bodyend="392"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>The <ref refid="db/d9d/class_store" kindref="compound">Store</ref> is a file based memory manager. </para>    </briefdescription>
+    <detaileddescription>
+<para>You can open the store using <ref refid="db/d9d/class_store_1a9707050019d12be2db8ea1b38d535f03" kindref="member">open()</ref>. Then obtain a handle via <ref refid="db/d9d/class_store_1ac1ce3fb86b3bc46125756b9ef782c095" kindref="member">alloc()</ref> followed by a sequence of <ref refid="db/d9d/class_store_1aec754c74cf190cb55281a923db21194a" kindref="member">write()</ref> commands to store information, and finalize it using <ref refid="db/d9d/class_store_1a616a1f53fa04d39d505a03b1f49ab7a6" kindref="member">end()</ref>.</para><para>Later on you locate the information with <ref refid="db/d9d/class_store_1ad77053023f371abfc70f76ee2a14c377" kindref="member">seek()</ref> using the handle obtained with <ref refid="db/d9d/class_store_1ac1ce3fb86b3bc46125756b9ef782c095" kindref="member">alloc()</ref>, and then use a sequence of <ref refid="db/d9d/class_store_1a02df7a98367838e436f8f8b3367016d1" kindref="member">read()</ref> calls to read the information back.</para><para>If no longer needed the storage space can be freed using <ref refid="db/d9d/class_store_1aed5b8a83aa15dfc3f7f1ca930a4d2583" kindref="member">release()</ref>.</para><para>The store will dynamically grow the file on disk if needed. </para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="4178">
+        <label>StorageIntf</label>
+        <link refid="d7/db0/class_storage_intf"/>
+      </node>
+      <node id="4177">
+        <label>Store</label>
+        <link refid="db/d9d/class_store"/>
+        <childnode refid="4178" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="4180">
+        <label>StorageIntf</label>
+        <link refid="d7/db0/class_storage_intf"/>
+      </node>
+      <node id="4179">
+        <label>Store</label>
+        <link refid="db/d9d/class_store"/>
+        <childnode refid="4180" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/store.h" line="53" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/store.h" bodystart="52" bodyend="121"/>
+    <listofallmembers>
+      <member refid="db/d9d/class_store_1ac1ce3fb86b3bc46125756b9ef782c095" prot="public" virt="non-virtual"><scope>Store</scope><name>alloc</name></member>
+      <member refid="db/d9d/class_store_1a1a3dd916ae5c4c2e6ca4d13f418344a9" prot="public" virt="non-virtual"><scope>Store</scope><name>close</name></member>
+      <member refid="db/d9d/class_store_1a1aa92a07ee209dcce2542a80aba174be" prot="public" virt="non-virtual"><scope>Store</scope><name>dumpBlock</name></member>
+      <member refid="db/d9d/class_store_1a616a1f53fa04d39d505a03b1f49ab7a6" prot="public" virt="non-virtual"><scope>Store</scope><name>end</name></member>
+      <member refid="db/d9d/class_store_1af51bc7ae257f9292752a85a1a55b0d07a9f22e2357a701b2403e12a3526ebf592" prot="private" virt="non-virtual"><scope>Store</scope><name>Init</name></member>
+      <member refid="db/d9d/class_store_1a4df3fc62fd527333879c5fd3eb0fc97b" prot="private" virt="non-virtual"><scope>Store</scope><name>m_cur</name></member>
+      <member refid="db/d9d/class_store_1a9d1cf022d6a3c2408a017161d40cdd86" prot="private" virt="non-virtual"><scope>Store</scope><name>m_file</name></member>
+      <member refid="db/d9d/class_store_1a4199d99e7ea0dd9d713b29093c31f478" prot="private" virt="non-virtual"><scope>Store</scope><name>m_front</name></member>
+      <member refid="db/d9d/class_store_1a884742fce17b80a5a38509d0e2a6a73b" prot="private" virt="non-virtual"><scope>Store</scope><name>m_head</name></member>
+      <member refid="db/d9d/class_store_1a81c111236e153598c6ba7fffac7b78d4" prot="private" virt="non-virtual"><scope>Store</scope><name>m_reads</name></member>
+      <member refid="db/d9d/class_store_1a2a248419a6f0bc9108dee13a274d52ba" prot="private" virt="non-virtual"><scope>Store</scope><name>m_state</name></member>
+      <member refid="db/d9d/class_store_1a22cde11217bd5ebd5d66c586c40cefac" prot="private" virt="non-virtual"><scope>Store</scope><name>m_writes</name></member>
+      <member refid="db/d9d/class_store_1a9707050019d12be2db8ea1b38d535f03" prot="public" virt="non-virtual"><scope>Store</scope><name>open</name></member>
+      <member refid="db/d9d/class_store_1ad81d168e4f03617ee3e63a8c7fe58f5a" prot="public" virt="non-virtual"><scope>Store</scope><name>pos</name></member>
+      <member refid="db/d9d/class_store_1afa9068ae89042ad508c8846fdc61a1a7" prot="private" virt="non-virtual"><scope>Store</scope><name>printFreeList</name></member>
+      <member refid="db/d9d/class_store_1a3b1a8632a1a6180cbcf210a3bfe51698" prot="public" virt="non-virtual"><scope>Store</scope><name>printStats</name></member>
+      <member refid="db/d9d/class_store_1a02df7a98367838e436f8f8b3367016d1" prot="public" virt="virtual"><scope>Store</scope><name>read</name></member>
+      <member refid="db/d9d/class_store_1af51bc7ae257f9292752a85a1a55b0d07abc23a504e08b1020212cfcc9eaf09c8c" prot="private" virt="non-virtual"><scope>Store</scope><name>Reading</name></member>
+      <member refid="db/d9d/class_store_1aed5b8a83aa15dfc3f7f1ca930a4d2583" prot="public" virt="non-virtual"><scope>Store</scope><name>release</name></member>
+      <member refid="db/d9d/class_store_1ad77053023f371abfc70f76ee2a14c377" prot="public" virt="non-virtual"><scope>Store</scope><name>seek</name></member>
+      <member refid="db/d9d/class_store_1af51bc7ae257f9292752a85a1a55b0d07" prot="private" virt="non-virtual"><scope>Store</scope><name>State</name></member>
+      <member refid="db/d9d/class_store_1a5f58eadcb7385d5a5aa6830daef84f7d" prot="public" virt="non-virtual"><scope>Store</scope><name>Store</name></member>
+      <member refid="db/d9d/class_store_1aec754c74cf190cb55281a923db21194a" prot="public" virt="virtual"><scope>Store</scope><name>write</name></member>
+      <member refid="db/d9d/class_store_1af51bc7ae257f9292752a85a1a55b0d07afeb5cf182613990016146b23347f15ea" prot="private" virt="non-virtual"><scope>Store</scope><name>Writing</name></member>
+      <member refid="d7/db0/class_storage_intf_1a20aa41248a1ea20f9829cce656171bd0" prot="public" virt="virtual"><scope>Store</scope><name>~StorageIntf</name></member>
+      <member refid="db/d9d/class_store_1a4fd725fdb2de0632ed98bfbd131c2512" prot="public" virt="non-virtual"><scope>Store</scope><name>~Store</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

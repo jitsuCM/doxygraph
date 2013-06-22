@@ -1,0 +1,540 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.2">
+  <compounddef id="d6/d14/class_f_t_v_help" kind="class" prot="public">
+    <compoundname>FTVHelp</compoundname>
+    <basecompoundref refid="d9/dd5/class_index_intf" prot="public" virt="non-virtual">IndexIntf</basecompoundref>
+    <includes refid="d2/d4a/ftvhelp_8h" local="no">ftvhelp.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="d6/d14/class_f_t_v_help_1af525f6a88b824fdce9620d4bf16b2c4c" prot="private" static="no" mutable="no">
+        <type><ref refid="db/daa/class_q_list" kindref="compound">QList</ref>&lt; FTVNode &gt; *</type>
+        <definition>QList&lt;FTVNode&gt;* FTVHelp::m_indentNodes</definition>
+        <argsstring></argsstring>
+        <name>m_indentNodes</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/ftvhelp.h" line="70" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/ftvhelp.h" bodystart="70" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d6/d14/class_f_t_v_help_1a4cff7d665d540c89211f9628a6da9d0f" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int FTVHelp::m_indent</definition>
+        <argsstring></argsstring>
+        <name>m_indent</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/ftvhelp.h" line="71" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/ftvhelp.h" bodystart="71" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d6/d14/class_f_t_v_help_1a8c693da597678353bde80dc27cd6fb06" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool FTVHelp::m_topLevelIndex</definition>
+        <argsstring></argsstring>
+        <name>m_topLevelIndex</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/ftvhelp.h" line="72" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/ftvhelp.h" bodystart="72" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="d6/d14/class_f_t_v_help_1a7e7d72cccba33233dd89c6280b9ca101" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>FTVHelp::FTVHelp</definition>
+        <argsstring>(bool LTI)</argsstring>
+        <name>FTVHelp</name>
+        <param>
+          <type>bool</type>
+          <declname>LTI</declname>
+          <defname>TLI</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs an ftv help object. The object has to be <ref refid="d6/d14/class_f_t_v_help_1a791c63d8c0dc72e7fedc4f17163dbfa3" kindref="member">initialized</ref> before it can be used. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/ftvhelp.h" line="40" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/ftvhelp.cpp" bodystart="641" bodyend="648"/>
+      </memberdef>
+      <memberdef kind="function" id="d6/d14/class_f_t_v_help_1aacb475096471a3b51feb4b247a41e27c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>FTVHelp::~FTVHelp</definition>
+        <argsstring>()</argsstring>
+        <name>~FTVHelp</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Destroys the ftv help object. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/ftvhelp.h" line="41" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/ftvhelp.cpp" bodystart="651" bodyend="654"/>
+      </memberdef>
+      <memberdef kind="function" id="d6/d14/class_f_t_v_help_1a791c63d8c0dc72e7fedc4f17163dbfa3" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void FTVHelp::initialize</definition>
+        <argsstring>()</argsstring>
+        <name>initialize</name>
+        <reimplements refid="d9/dd5/class_index_intf_1a0e46b4afa0ed269e2d089c8444590515">initialize</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>This will create a folder tree view table of contents file (tree.js). <simplesect kind="see"><para><ref refid="d6/d14/class_f_t_v_help_1a595c544e98100ca8aa84aaea4ac28e9f" kindref="member">finalize()</ref> </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/ftvhelp.h" line="42" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/ftvhelp.cpp" bodystart="659" bodyend="661"/>
+      </memberdef>
+      <memberdef kind="function" id="d6/d14/class_f_t_v_help_1a595c544e98100ca8aa84aaea4ac28e9f" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void FTVHelp::finalize</definition>
+        <argsstring>()</argsstring>
+        <name>finalize</name>
+        <reimplements refid="d9/dd5/class_index_intf_1aa5532a767c4ac41167d014209b2ea8d7">finalize</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Finalizes the FTV help. This will finish and close the contents file (index.js). <simplesect kind="see"><para><ref refid="d6/d14/class_f_t_v_help_1a791c63d8c0dc72e7fedc4f17163dbfa3" kindref="member">initialize()</ref> </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/ftvhelp.h" line="43" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/ftvhelp.cpp" bodystart="667" bodyend="670"/>
+      </memberdef>
+      <memberdef kind="function" id="d6/d14/class_f_t_v_help_1a86381415dd788cb4a1a0feac8d5316d8" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void FTVHelp::incContentsDepth</definition>
+        <argsstring>()</argsstring>
+        <name>incContentsDepth</name>
+        <reimplements refid="d9/dd5/class_index_intf_1ac5ff1647bcf1cc65543258df162a0a7c">incContentsDepth</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Increase the level of the contents hierarchy. This will start a new sublist in contents file. <simplesect kind="see"><para><ref refid="d6/d14/class_f_t_v_help_1a5949816300bc9d6a104dfd8305aa4e6f" kindref="member">decContentsDepth()</ref> </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/ftvhelp.h" line="44" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/ftvhelp.cpp" bodystart="676" bodyend="681"/>
+      </memberdef>
+      <memberdef kind="function" id="d6/d14/class_f_t_v_help_1a5949816300bc9d6a104dfd8305aa4e6f" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void FTVHelp::decContentsDepth</definition>
+        <argsstring>()</argsstring>
+        <name>decContentsDepth</name>
+        <reimplements refid="d9/dd5/class_index_intf_1a920918399556e9afd4d927de3d1f4247">decContentsDepth</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Decrease the level of the contents hierarchy. This will end the current sublist. <simplesect kind="see"><para><ref refid="d6/d14/class_f_t_v_help_1a86381415dd788cb4a1a0feac8d5316d8" kindref="member">incContentsDepth()</ref> </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/ftvhelp.h" line="45" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/ftvhelp.cpp" bodystart="687" bodyend="705"/>
+      </memberdef>
+      <memberdef kind="function" id="d6/d14/class_f_t_v_help_1a33acc17460ca075c566e0e01d33a6ee4" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void FTVHelp::addContentsItem</definition>
+        <argsstring>(bool isDir, const char *name, const char *ref, const char *file, const char *anchor, bool separateIndex, bool addToNavIndex, Definition *def)</argsstring>
+        <name>addContentsItem</name>
+        <reimplements refid="d9/dd5/class_index_intf_1aab43652b639ce5cd25f5b16e54e20f26">addContentsItem</reimplements>
+        <param>
+          <type>bool</type>
+          <declname>isDir</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>name</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>ref</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>file</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>anchor</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>separateIndex</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>addToNavIndex</declname>
+        </param>
+        <param>
+          <type><ref refid="d5/dcc/class_definition" kindref="compound">Definition</ref> *</type>
+          <declname>def</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Add a list item to the contents file. <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>isDir</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>TRUE if the item is a directory, FALSE if it is a text </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>ref</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the <ref refid="dd/d89/struct_u_r_l" kindref="compound">URL</ref> of to the item. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>file</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the file containing the definition of the item </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>anchor</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the anchor within the file. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>name</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the name of the item. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>separateIndex</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>put the entries in a separate index file </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>addToNavIndex</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>add this entry to the quick navigation index </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>def</parametername>
+</parameternamelist>
+<parameterdescription>
+<para><ref refid="d5/dcc/class_definition" kindref="compound">Definition</ref> corresponding to this entry </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/ftvhelp.h" line="53" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/ftvhelp.cpp" bodystart="717" bodyend="742"/>
+      </memberdef>
+      <memberdef kind="function" id="d6/d14/class_f_t_v_help_1ab6a465f8d11ddb4766cbdb130c6bde7e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>void FTVHelp::addIndexItem</definition>
+        <argsstring>(Definition *, MemberDef *, const char *, const char *)</argsstring>
+        <name>addIndexItem</name>
+        <reimplements refid="d9/dd5/class_index_intf_1a762276e6f0229fb784a592acd2cf6a8b">addIndexItem</reimplements>
+        <param>
+          <type><ref refid="d5/dcc/class_definition" kindref="compound">Definition</ref> *</type>
+        </param>
+        <param>
+          <type><ref refid="da/d09/class_member_def" kindref="compound">MemberDef</ref> *</type>
+        </param>
+        <param>
+          <type>const char *</type>
+        </param>
+        <param>
+          <type>const char *</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/ftvhelp.h" line="54" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/ftvhelp.h" bodystart="54" bodyend="54"/>
+      </memberdef>
+      <memberdef kind="function" id="d6/d14/class_f_t_v_help_1af1158bffd161d730771c7dfc426b98a4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>void FTVHelp::addIndexFile</definition>
+        <argsstring>(const char *)</argsstring>
+        <name>addIndexFile</name>
+        <reimplements refid="d9/dd5/class_index_intf_1a153c5c5995155d112c33fed544b44094">addIndexFile</reimplements>
+        <param>
+          <type>const char *</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/ftvhelp.h" line="55" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/ftvhelp.h" bodystart="55" bodyend="55"/>
+      </memberdef>
+      <memberdef kind="function" id="d6/d14/class_f_t_v_help_1a1e3bbb2160fc857187fbc8c1dfbeb20d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>void FTVHelp::addImageFile</definition>
+        <argsstring>(const char *)</argsstring>
+        <name>addImageFile</name>
+        <reimplements refid="d9/dd5/class_index_intf_1ac1650d4596d97cdd1de428b06a76daad">addImageFile</reimplements>
+        <param>
+          <type>const char *</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/ftvhelp.h" line="56" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/ftvhelp.h" bodystart="56" bodyend="56"/>
+      </memberdef>
+      <memberdef kind="function" id="d6/d14/class_f_t_v_help_1a4b8566ef5fe3441f6e7e22bb7493f047" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>void FTVHelp::addStyleSheetFile</definition>
+        <argsstring>(const char *)</argsstring>
+        <name>addStyleSheetFile</name>
+        <reimplements refid="d9/dd5/class_index_intf_1a3989fce1306feb90e477cb53fd0daee0">addStyleSheetFile</reimplements>
+        <param>
+          <type>const char *</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/ftvhelp.h" line="57" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/ftvhelp.h" bodystart="57" bodyend="57"/>
+      </memberdef>
+      <memberdef kind="function" id="d6/d14/class_f_t_v_help_1a0fe4b6eab80d4602256ee5edd59b78df" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void FTVHelp::generateTreeView</definition>
+        <argsstring>()</argsstring>
+        <name>generateTreeView</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/ftvhelp.h" line="58" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/ftvhelp.cpp" bodystart="1374" bodyend="1378"/>
+      </memberdef>
+      <memberdef kind="function" id="d6/d14/class_f_t_v_help_1aa5eeeb50fc575807ae4b0c6aa7c547bc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void FTVHelp::generateTreeViewInline</definition>
+        <argsstring>(FTextStream &amp;t)</argsstring>
+        <name>generateTreeViewInline</name>
+        <param>
+          <type><ref refid="dc/d3c/class_f_text_stream" kindref="compound">FTextStream</ref> &amp;</type>
+          <declname>t</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/ftvhelp.h" line="59" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/ftvhelp.cpp" bodystart="1311" bodyend="1371"/>
+      </memberdef>
+      <memberdef kind="function" id="d6/d14/class_f_t_v_help_1aad2b0bf5b5d217f8e0b77b486fed3527" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void FTVHelp::generateTreeViewScripts</definition>
+        <argsstring>()</argsstring>
+        <name>generateTreeViewScripts</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/ftvhelp.h" line="61" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/ftvhelp.cpp" bodystart="1279" bodyend="1308"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="d6/d14/class_f_t_v_help_1a9e858dee960cc0e73c2d269171dd17a7" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void FTVHelp::generateTreeViewImages</definition>
+        <argsstring>()</argsstring>
+        <name>generateTreeViewImages</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/ftvhelp.h" line="60" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/ftvhelp.cpp" bodystart="1272" bodyend="1276"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="d6/d14/class_f_t_v_help_1ab1a6b3ecc55e2f6d59652ee4160be967" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void FTVHelp::generateTree</definition>
+        <argsstring>(FTextStream &amp;t, const QList&lt; FTVNode &gt; &amp;nl, int level, int maxLevel, int &amp;index)</argsstring>
+        <name>generateTree</name>
+        <param>
+          <type><ref refid="dc/d3c/class_f_text_stream" kindref="compound">FTextStream</ref> &amp;</type>
+          <declname>t</declname>
+        </param>
+        <param>
+          <type>const <ref refid="db/daa/class_q_list" kindref="compound">QList</ref>&lt; FTVNode &gt; &amp;</type>
+          <declname>nl</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>level</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>maxLevel</declname>
+        </param>
+        <param>
+          <type>int &amp;</type>
+          <declname>index</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/ftvhelp.h" line="63" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/ftvhelp.cpp" bodystart="899" bodyend="1014"/>
+      </memberdef>
+      <memberdef kind="function" id="d6/d14/class_f_t_v_help_1a0d5e9d3c5c1ae41ad796160a514a2ea6" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>QCString</type>
+        <definition>QCString FTVHelp::generateIndentLabel</definition>
+        <argsstring>(FTVNode *n, int level)</argsstring>
+        <name>generateIndentLabel</name>
+        <param>
+          <type>FTVNode *</type>
+          <declname>n</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>level</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/ftvhelp.h" line="66" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/ftvhelp.cpp" bodystart="776" bodyend="785"/>
+      </memberdef>
+      <memberdef kind="function" id="d6/d14/class_f_t_v_help_1a363ad3aa792fc222b070d06fba924e0d" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void FTVHelp::generateIndent</definition>
+        <argsstring>(FTextStream &amp;t, FTVNode *n, int level, bool opened)</argsstring>
+        <name>generateIndent</name>
+        <param>
+          <type><ref refid="dc/d3c/class_f_text_stream" kindref="compound">FTextStream</ref> &amp;</type>
+          <declname>t</declname>
+        </param>
+        <param>
+          <type>FTVNode *</type>
+          <declname>n</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>level</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>opened</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/ftvhelp.h" line="67" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/ftvhelp.cpp" bodystart="787" bodyend="846"/>
+      </memberdef>
+      <memberdef kind="function" id="d6/d14/class_f_t_v_help_1ae51f95fd5e496925f34247011e785269" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void FTVHelp::generateLink</definition>
+        <argsstring>(FTextStream &amp;t, FTVNode *n)</argsstring>
+        <name>generateLink</name>
+        <param>
+          <type><ref refid="dc/d3c/class_f_text_stream" kindref="compound">FTextStream</ref> &amp;</type>
+          <declname>t</declname>
+        </param>
+        <param>
+          <type>FTVNode *</type>
+          <declname>n</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/ftvhelp.h" line="68" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/ftvhelp.cpp" bodystart="848" bodyend="881"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>A class that generates a dynamic tree view side panel. </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="3478">
+        <label>FTVHelp</label>
+        <link refid="d6/d14/class_f_t_v_help"/>
+        <childnode refid="3479" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3479">
+        <label>IndexIntf</label>
+        <link refid="d9/dd5/class_index_intf"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="3480">
+        <label>FTVHelp</label>
+        <link refid="d6/d14/class_f_t_v_help"/>
+        <childnode refid="3481" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3481">
+        <label>IndexIntf</label>
+        <link refid="d9/dd5/class_index_intf"/>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/ftvhelp.h" line="38" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/ftvhelp.h" bodystart="37" bodyend="73"/>
+    <listofallmembers>
+      <member refid="d6/d14/class_f_t_v_help_1a33acc17460ca075c566e0e01d33a6ee4" prot="public" virt="virtual"><scope>FTVHelp</scope><name>addContentsItem</name></member>
+      <member refid="d6/d14/class_f_t_v_help_1a1e3bbb2160fc857187fbc8c1dfbeb20d" prot="public" virt="virtual"><scope>FTVHelp</scope><name>addImageFile</name></member>
+      <member refid="d6/d14/class_f_t_v_help_1af1158bffd161d730771c7dfc426b98a4" prot="public" virt="virtual"><scope>FTVHelp</scope><name>addIndexFile</name></member>
+      <member refid="d6/d14/class_f_t_v_help_1ab6a465f8d11ddb4766cbdb130c6bde7e" prot="public" virt="virtual"><scope>FTVHelp</scope><name>addIndexItem</name></member>
+      <member refid="d6/d14/class_f_t_v_help_1a4b8566ef5fe3441f6e7e22bb7493f047" prot="public" virt="virtual"><scope>FTVHelp</scope><name>addStyleSheetFile</name></member>
+      <member refid="d6/d14/class_f_t_v_help_1a5949816300bc9d6a104dfd8305aa4e6f" prot="public" virt="virtual"><scope>FTVHelp</scope><name>decContentsDepth</name></member>
+      <member refid="d6/d14/class_f_t_v_help_1a595c544e98100ca8aa84aaea4ac28e9f" prot="public" virt="virtual"><scope>FTVHelp</scope><name>finalize</name></member>
+      <member refid="d6/d14/class_f_t_v_help_1a7e7d72cccba33233dd89c6280b9ca101" prot="public" virt="non-virtual"><scope>FTVHelp</scope><name>FTVHelp</name></member>
+      <member refid="d6/d14/class_f_t_v_help_1a363ad3aa792fc222b070d06fba924e0d" prot="private" virt="non-virtual"><scope>FTVHelp</scope><name>generateIndent</name></member>
+      <member refid="d6/d14/class_f_t_v_help_1a0d5e9d3c5c1ae41ad796160a514a2ea6" prot="private" virt="non-virtual"><scope>FTVHelp</scope><name>generateIndentLabel</name></member>
+      <member refid="d6/d14/class_f_t_v_help_1ae51f95fd5e496925f34247011e785269" prot="private" virt="non-virtual"><scope>FTVHelp</scope><name>generateLink</name></member>
+      <member refid="d6/d14/class_f_t_v_help_1ab1a6b3ecc55e2f6d59652ee4160be967" prot="private" virt="non-virtual"><scope>FTVHelp</scope><name>generateTree</name></member>
+      <member refid="d6/d14/class_f_t_v_help_1a0fe4b6eab80d4602256ee5edd59b78df" prot="public" virt="non-virtual"><scope>FTVHelp</scope><name>generateTreeView</name></member>
+      <member refid="d6/d14/class_f_t_v_help_1a9e858dee960cc0e73c2d269171dd17a7" prot="public" virt="non-virtual"><scope>FTVHelp</scope><name>generateTreeViewImages</name></member>
+      <member refid="d6/d14/class_f_t_v_help_1aa5eeeb50fc575807ae4b0c6aa7c547bc" prot="public" virt="non-virtual"><scope>FTVHelp</scope><name>generateTreeViewInline</name></member>
+      <member refid="d6/d14/class_f_t_v_help_1aad2b0bf5b5d217f8e0b77b486fed3527" prot="public" virt="non-virtual"><scope>FTVHelp</scope><name>generateTreeViewScripts</name></member>
+      <member refid="d6/d14/class_f_t_v_help_1a86381415dd788cb4a1a0feac8d5316d8" prot="public" virt="virtual"><scope>FTVHelp</scope><name>incContentsDepth</name></member>
+      <member refid="d6/d14/class_f_t_v_help_1a791c63d8c0dc72e7fedc4f17163dbfa3" prot="public" virt="virtual"><scope>FTVHelp</scope><name>initialize</name></member>
+      <member refid="d6/d14/class_f_t_v_help_1a4cff7d665d540c89211f9628a6da9d0f" prot="private" virt="non-virtual"><scope>FTVHelp</scope><name>m_indent</name></member>
+      <member refid="d6/d14/class_f_t_v_help_1af525f6a88b824fdce9620d4bf16b2c4c" prot="private" virt="non-virtual"><scope>FTVHelp</scope><name>m_indentNodes</name></member>
+      <member refid="d6/d14/class_f_t_v_help_1a8c693da597678353bde80dc27cd6fb06" prot="private" virt="non-virtual"><scope>FTVHelp</scope><name>m_topLevelIndex</name></member>
+      <member refid="d6/d14/class_f_t_v_help_1aacb475096471a3b51feb4b247a41e27c" prot="public" virt="non-virtual"><scope>FTVHelp</scope><name>~FTVHelp</name></member>
+      <member refid="d9/dd5/class_index_intf_1aa97a03b1de6ccb0d35b33cbf44d69f2a" prot="public" virt="virtual"><scope>FTVHelp</scope><name>~IndexIntf</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

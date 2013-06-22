@@ -1,0 +1,137 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.2">
+  <compounddef id="d5/db2/image_8h" kind="file">
+    <compoundname>image.h</compoundname>
+    <includes local="no">qglobal.h</includes>
+    <includedby refid="da/d0d/diagram_8cpp" local="yes">src/diagram.cpp</includedby>
+    <includedby refid="d7/d5b/formula_8cpp" local="yes">src/formula.cpp</includedby>
+    <includedby refid="d8/d6e/htmlgen_8cpp" local="yes">src/htmlgen.cpp</includedby>
+    <includedby refid="db/d11/image_8cpp" local="yes">src/image.cpp</includedby>
+    <includedby refid="df/d2d/util_8cpp" local="yes">src/util.cpp</includedby>
+    <incdepgraph>
+      <node id="2661">
+        <label>src/image.h</label>
+        <link refid="image.h"/>
+        <childnode refid="2662" relation="include">
+        </childnode>
+      </node>
+      <node id="2662">
+        <label>qglobal.h</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="2663">
+        <label>src/image.h</label>
+        <link refid="image.h"/>
+        <childnode refid="2664" relation="include">
+        </childnode>
+        <childnode refid="2665" relation="include">
+        </childnode>
+        <childnode refid="2666" relation="include">
+        </childnode>
+        <childnode refid="2667" relation="include">
+        </childnode>
+        <childnode refid="2668" relation="include">
+        </childnode>
+      </node>
+      <node id="2668">
+        <label>src/util.cpp</label>
+        <link refid="df/d2d/util_8cpp_source"/>
+      </node>
+      <node id="2667">
+        <label>src/image.cpp</label>
+        <link refid="db/d11/image_8cpp_source"/>
+      </node>
+      <node id="2665">
+        <label>src/formula.cpp</label>
+        <link refid="d7/d5b/formula_8cpp_source"/>
+      </node>
+      <node id="2666">
+        <label>src/htmlgen.cpp</label>
+        <link refid="d8/d6e/htmlgen_8cpp_source"/>
+      </node>
+      <node id="2664">
+        <label>src/diagram.cpp</label>
+        <link refid="da/d0d/diagram_8cpp_source"/>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="de/d73/class_image" prot="public">Image</innerclass>
+    <innerclass refid="dc/da6/class_colored_image" prot="public">ColoredImage</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">/******************************************************************************</highlight></codeline>
+<codeline lineno="2"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="3"><highlight class="comment"><sp/>*<sp/>$Id:<sp/>image.h,v<sp/>1.7<sp/>2001/03/19<sp/>19:27:40<sp/>root<sp/>Exp<sp/>$</highlight></codeline>
+<codeline lineno="4"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="5"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="6"><highlight class="comment"><sp/>*<sp/>Copyright<sp/>(C)<sp/>1997-2013<sp/>by<sp/>Dimitri<sp/>van<sp/>Heesch.</highlight></codeline>
+<codeline lineno="7"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="8"><highlight class="comment"><sp/>*<sp/>Permission<sp/>to<sp/>use,<sp/>copy,<sp/>modify,<sp/>and<sp/>distribute<sp/>this<sp/>software<sp/>and<sp/>its</highlight></codeline>
+<codeline lineno="9"><highlight class="comment"><sp/>*<sp/>documentation<sp/>under<sp/>the<sp/>terms<sp/>of<sp/>the<sp/>GNU<sp/>General<sp/>Public<sp/>License<sp/>is<sp/>hereby<sp/></highlight></codeline>
+<codeline lineno="10"><highlight class="comment"><sp/>*<sp/>granted.<sp/>No<sp/>representations<sp/>are<sp/>made<sp/>about<sp/>the<sp/>suitability<sp/>of<sp/>this<sp/>software<sp/></highlight></codeline>
+<codeline lineno="11"><highlight class="comment"><sp/>*<sp/>for<sp/>any<sp/>purpose.<sp/>It<sp/>is<sp/>provided<sp/>&quot;as<sp/>is&quot;<sp/>without<sp/>express<sp/>or<sp/>implied<sp/>warranty.</highlight></codeline>
+<codeline lineno="12"><highlight class="comment"><sp/>*<sp/>See<sp/>the<sp/>GNU<sp/>General<sp/>Public<sp/>License<sp/>for<sp/>more<sp/>details.</highlight></codeline>
+<codeline lineno="13"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="14"><highlight class="comment"><sp/>*<sp/>Documents<sp/>produced<sp/>by<sp/>Doxygen<sp/>are<sp/>derivative<sp/>works<sp/>derived<sp/>from<sp/>the</highlight></codeline>
+<codeline lineno="15"><highlight class="comment"><sp/>*<sp/>input<sp/>used<sp/>in<sp/>their<sp/>production;<sp/>they<sp/>are<sp/>not<sp/>affected<sp/>by<sp/>this<sp/>license.</highlight></codeline>
+<codeline lineno="16"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="17"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>_IMAGE_H</highlight></codeline>
+<codeline lineno="20"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>_IMAGE_H</highlight></codeline>
+<codeline lineno="21"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#include<sp/>&lt;qglobal.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight></codeline>
+<codeline lineno="24" refid="de/d73/class_image" refkind="compound"><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="de/d73/class_image" kindref="compound" tooltip="Class representing a bitmap image generated by doxygen.">Image</ref></highlight></codeline>
+<codeline lineno="25"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="de/d73/class_image" kindref="compound" tooltip="Class representing a bitmap image generated by doxygen.">Image</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>w,</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>h);</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/>~<ref refid="de/d73/class_image" kindref="compound" tooltip="Class representing a bitmap image generated by doxygen.">Image</ref>();</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>setPixel(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>x,</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>y,uchar<sp/>val);</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/>uchar<sp/>getPixel(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>x,</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>y)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>writeChar(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>x,</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>y,</highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>c,uchar<sp/>fg);</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>writeString(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>x,</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>y,</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*s,uchar<sp/>fg);</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>drawHorzLine(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>y,</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>xs,</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>xe,uchar<sp/>colIndex,uint<sp/>mask);</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>drawHorzArrow(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>y,</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>xs,</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>xe,uchar<sp/>colIndex,uint<sp/>mask);</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>drawVertLine(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>x,</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>ys,</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>ye,uchar<sp/>colIndex,uint<sp/>mask);</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>drawVertArrow(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>x,</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>ys,</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>ye,uchar<sp/>colIndex,uint<sp/>mask);</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>drawRect(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>x,</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>y,</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>width,</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>height,uchar<sp/>colIndex,uint<sp/>mask);</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>fillRect(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>x,</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>y,</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>width,</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>height,uchar<sp/>colIndex,uint<sp/>mask);</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>save(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*fileName,</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>mode=0);</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">friend</highlight><highlight class="normal"><sp/>uint<sp/>stringLength(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*s);</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/>uint<sp/>getWidth()</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>width;<sp/>}</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/>uint<sp/>getHeight()</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>height;<sp/>}</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/><sp/>uchar<sp/>*getData()</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>data;<sp/>}</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/>uint<sp/>stringLength(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*s);</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"><sp/></highlight></codeline>
+<codeline lineno="47"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>width;</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>height;</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"><sp/><sp/><sp/><sp/>uchar<sp/>*data;</highlight></codeline>
+<codeline lineno="51"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"></highlight></codeline>
+<codeline lineno="54" refid="dc/da6/class_colored_image" refkind="compound"><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="dc/da6/class_colored_image" kindref="compound" tooltip="Class representing a bitmap image colored based on hue/sat/gamma settings.">ColoredImage</ref></highlight></codeline>
+<codeline lineno="55"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="56"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="57"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="dc/da6/class_colored_image" kindref="compound" tooltip="Class representing a bitmap image colored based on hue/sat/gamma settings.">ColoredImage</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>width,</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>height,</highlight></codeline>
+<codeline lineno="58"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>uchar<sp/>*greyLevels,</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>uchar<sp/>*alphaLevels,</highlight></codeline>
+<codeline lineno="59"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>saturation,</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>hue,</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>gamma);</highlight></codeline>
+<codeline lineno="60"><highlight class="normal"><sp/><sp/><sp/>~<ref refid="dc/da6/class_colored_image" kindref="compound" tooltip="Class representing a bitmap image colored based on hue/sat/gamma settings.">ColoredImage</ref>();</highlight></codeline>
+<codeline lineno="61"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>save(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*fileName);</highlight></codeline>
+<codeline lineno="62"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>hsl2rgb(</highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>h,</highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>s,</highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>l,</highlight></codeline>
+<codeline lineno="63"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>*pRed,</highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>*pGreen,</highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>*pBlue);</highlight></codeline>
+<codeline lineno="64"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="65"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>m_width;</highlight></codeline>
+<codeline lineno="66"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>m_height;</highlight></codeline>
+<codeline lineno="67"><highlight class="normal"><sp/><sp/><sp/><sp/>uchar<sp/>*m_data;</highlight></codeline>
+<codeline lineno="68"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>m_hasAlpha;</highlight></codeline>
+<codeline lineno="69"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="70"><highlight class="normal"></highlight></codeline>
+<codeline lineno="71"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+    </programlisting>
+    <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/image.h"/>
+  </compounddef>
+</doxygen>

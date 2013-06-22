@@ -1,0 +1,188 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.2">
+  <compounddef id="dc/da6/class_colored_image" kind="class" prot="public">
+    <compoundname>ColoredImage</compoundname>
+    <includes refid="d5/db2/image_8h" local="no">image.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="dc/da6/class_colored_image_1ad2490839ddd9d608c2c3be9d75863f39" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int ColoredImage::m_width</definition>
+        <argsstring></argsstring>
+        <name>m_width</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/image.h" line="65" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/image.h" bodystart="65" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="dc/da6/class_colored_image_1a77bac263fd0a006ff8214ba0256a1803" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int ColoredImage::m_height</definition>
+        <argsstring></argsstring>
+        <name>m_height</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/image.h" line="66" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/image.h" bodystart="66" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="dc/da6/class_colored_image_1ab3ef0d3594c6f136903dffe6260e67d4" prot="private" static="no" mutable="no">
+        <type>uchar *</type>
+        <definition>uchar* ColoredImage::m_data</definition>
+        <argsstring></argsstring>
+        <name>m_data</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/image.h" line="67" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/image.h" bodystart="67" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="dc/da6/class_colored_image_1ac189402eca42d2db867b8a858317bc7e" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool ColoredImage::m_hasAlpha</definition>
+        <argsstring></argsstring>
+        <name>m_hasAlpha</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/image.h" line="68" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/image.h" bodystart="68" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="dc/da6/class_colored_image_1a4318459b9a275f2f6ff75ce76def2f95" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>ColoredImage::ColoredImage</definition>
+        <argsstring>(int width, int height, const uchar *greyLevels, const uchar *alphaLevels, int saturation, int hue, int gamma)</argsstring>
+        <name>ColoredImage</name>
+        <param>
+          <type>int</type>
+          <declname>width</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>height</declname>
+        </param>
+        <param>
+          <type>const uchar *</type>
+          <declname>greyLevels</declname>
+        </param>
+        <param>
+          <type>const uchar *</type>
+          <declname>alphaLevels</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>saturation</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>hue</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>gamma</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/image.h" line="59" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/image.cpp" bodystart="492" bodyend="518"/>
+      </memberdef>
+      <memberdef kind="function" id="dc/da6/class_colored_image_1a15d68911020c041ae76934d6e9bf4806" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>ColoredImage::~ColoredImage</definition>
+        <argsstring>()</argsstring>
+        <name>~ColoredImage</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/image.h" line="60" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/image.cpp" bodystart="520" bodyend="523"/>
+      </memberdef>
+      <memberdef kind="function" id="dc/da6/class_colored_image_1a8b614204b1a682c84ab32aecbb3bf542" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool ColoredImage::save</definition>
+        <argsstring>(const char *fileName)</argsstring>
+        <name>save</name>
+        <param>
+          <type>const char *</type>
+          <declname>fileName</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/image.h" line="61" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/image.cpp" bodystart="525" bodyend="538"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="dc/da6/class_colored_image_1aa28cffecb75cf52b6b457178851704c5" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ColoredImage::hsl2rgb</definition>
+        <argsstring>(double h, double s, double l, double *pRed, double *pGreen, double *pBlue)</argsstring>
+        <name>hsl2rgb</name>
+        <param>
+          <type>double</type>
+          <declname>h</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>s</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>l</declname>
+        </param>
+        <param>
+          <type>double *</type>
+          <declname>pRed</declname>
+        </param>
+        <param>
+          <type>double *</type>
+          <declname>pGreen</declname>
+        </param>
+        <param>
+          <type>double *</type>
+          <declname>pBlue</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/image.h" line="63" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/image.cpp" bodystart="428" bodyend="490"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Class representing a bitmap image colored based on hue/sat/gamma settings. </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/image.h" line="55" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/image.h" bodystart="54" bodyend="69"/>
+    <listofallmembers>
+      <member refid="dc/da6/class_colored_image_1a4318459b9a275f2f6ff75ce76def2f95" prot="public" virt="non-virtual"><scope>ColoredImage</scope><name>ColoredImage</name></member>
+      <member refid="dc/da6/class_colored_image_1aa28cffecb75cf52b6b457178851704c5" prot="public" virt="non-virtual"><scope>ColoredImage</scope><name>hsl2rgb</name></member>
+      <member refid="dc/da6/class_colored_image_1ab3ef0d3594c6f136903dffe6260e67d4" prot="private" virt="non-virtual"><scope>ColoredImage</scope><name>m_data</name></member>
+      <member refid="dc/da6/class_colored_image_1ac189402eca42d2db867b8a858317bc7e" prot="private" virt="non-virtual"><scope>ColoredImage</scope><name>m_hasAlpha</name></member>
+      <member refid="dc/da6/class_colored_image_1a77bac263fd0a006ff8214ba0256a1803" prot="private" virt="non-virtual"><scope>ColoredImage</scope><name>m_height</name></member>
+      <member refid="dc/da6/class_colored_image_1ad2490839ddd9d608c2c3be9d75863f39" prot="private" virt="non-virtual"><scope>ColoredImage</scope><name>m_width</name></member>
+      <member refid="dc/da6/class_colored_image_1a8b614204b1a682c84ab32aecbb3bf542" prot="public" virt="non-virtual"><scope>ColoredImage</scope><name>save</name></member>
+      <member refid="dc/da6/class_colored_image_1a15d68911020c041ae76934d6e9bf4806" prot="public" virt="non-virtual"><scope>ColoredImage</scope><name>~ColoredImage</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

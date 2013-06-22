@@ -1,0 +1,128 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.2">
+  <compounddef id="df/d24/example_8h" kind="file">
+    <compoundname>example.h</compoundname>
+    <includes local="no">qcstring.h</includes>
+    <includes refid="d9/d21/sortdict_8h" local="yes">sortdict.h</includes>
+    <includedby refid="de/d89/classdef_8cpp" local="yes">src/classdef.cpp</includedby>
+    <includedby refid="d9/d85/marshal_8cpp" local="yes">src/marshal.cpp</includedby>
+    <includedby refid="d0/d72/memberdef_8cpp" local="yes">src/memberdef.cpp</includedby>
+    <includedby refid="df/d2d/util_8cpp" local="yes">src/util.cpp</includedby>
+    <incdepgraph>
+      <node id="1877">
+        <label>qcstring.h</label>
+      </node>
+      <node id="1876">
+        <label>src/example.h</label>
+        <link refid="example.h"/>
+        <childnode refid="1877" relation="include">
+        </childnode>
+        <childnode refid="1878" relation="include">
+        </childnode>
+      </node>
+      <node id="1878">
+        <label>sortdict.h</label>
+        <link refid="d9/d21/sortdict_8h_source"/>
+        <childnode refid="1879" relation="include">
+        </childnode>
+        <childnode refid="1880" relation="include">
+        </childnode>
+        <childnode refid="1881" relation="include">
+        </childnode>
+      </node>
+      <node id="1881">
+        <label>qintdict.h</label>
+      </node>
+      <node id="1879">
+        <label>qlist.h</label>
+      </node>
+      <node id="1880">
+        <label>qdict.h</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="1884">
+        <label>src/marshal.cpp</label>
+        <link refid="d9/d85/marshal_8cpp_source"/>
+      </node>
+      <node id="1885">
+        <label>src/memberdef.cpp</label>
+        <link refid="d0/d72/memberdef_8cpp_source"/>
+      </node>
+      <node id="1882">
+        <label>src/example.h</label>
+        <link refid="example.h"/>
+        <childnode refid="1883" relation="include">
+        </childnode>
+        <childnode refid="1884" relation="include">
+        </childnode>
+        <childnode refid="1885" relation="include">
+        </childnode>
+        <childnode refid="1886" relation="include">
+        </childnode>
+      </node>
+      <node id="1886">
+        <label>src/util.cpp</label>
+        <link refid="df/d2d/util_8cpp_source"/>
+      </node>
+      <node id="1883">
+        <label>src/classdef.cpp</label>
+        <link refid="de/d89/classdef_8cpp_source"/>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="df/de9/struct_example" prot="public">Example</innerclass>
+    <innerclass refid="d0/d31/class_example_s_dict" prot="public">ExampleSDict</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">/******************************************************************************</highlight></codeline>
+<codeline lineno="2"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="3"><highlight class="comment"><sp/>*<sp/>$Id:<sp/>example.h,v<sp/>1.10<sp/>2001/03/19<sp/>19:27:40<sp/>root<sp/>Exp<sp/>$</highlight></codeline>
+<codeline lineno="4"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="5"><highlight class="comment"><sp/>*<sp/>Copyright<sp/>(C)<sp/>1997-2013<sp/>by<sp/>Dimitri<sp/>van<sp/>Heesch.</highlight></codeline>
+<codeline lineno="6"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="7"><highlight class="comment"><sp/>*<sp/>Permission<sp/>to<sp/>use,<sp/>copy,<sp/>modify,<sp/>and<sp/>distribute<sp/>this<sp/>software<sp/>and<sp/>its</highlight></codeline>
+<codeline lineno="8"><highlight class="comment"><sp/>*<sp/>documentation<sp/>under<sp/>the<sp/>terms<sp/>of<sp/>the<sp/>GNU<sp/>General<sp/>Public<sp/>License<sp/>is<sp/>hereby<sp/></highlight></codeline>
+<codeline lineno="9"><highlight class="comment"><sp/>*<sp/>granted.<sp/>No<sp/>representations<sp/>are<sp/>made<sp/>about<sp/>the<sp/>suitability<sp/>of<sp/>this<sp/>software<sp/></highlight></codeline>
+<codeline lineno="10"><highlight class="comment"><sp/>*<sp/>for<sp/>any<sp/>purpose.<sp/>It<sp/>is<sp/>provided<sp/>&quot;as<sp/>is&quot;<sp/>without<sp/>express<sp/>or<sp/>implied<sp/>warranty.</highlight></codeline>
+<codeline lineno="11"><highlight class="comment"><sp/>*<sp/>See<sp/>the<sp/>GNU<sp/>General<sp/>Public<sp/>License<sp/>for<sp/>more<sp/>details.</highlight></codeline>
+<codeline lineno="12"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="13"><highlight class="comment"><sp/>*<sp/>Documents<sp/>produced<sp/>by<sp/>Doxygen<sp/>are<sp/>derivative<sp/>works<sp/>derived<sp/>from<sp/>the</highlight></codeline>
+<codeline lineno="14"><highlight class="comment"><sp/>*<sp/>input<sp/>used<sp/>in<sp/>their<sp/>production;<sp/>they<sp/>are<sp/>not<sp/>affected<sp/>by<sp/>this<sp/>license.</highlight></codeline>
+<codeline lineno="15"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="16"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>EXAMPLE_H</highlight></codeline>
+<codeline lineno="19"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>EXAMPLE_H</highlight></codeline>
+<codeline lineno="20"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;qcstring.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;sortdict.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="d1/dcf/class_class_def" kindref="compound" tooltip="A class representing of a compound symbol.">ClassDef</ref>;</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="da/d7e/class_member_name" kindref="compound" tooltip="Class representing all MemberDef objects with the same name.">MemberName</ref>;</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight></codeline>
+<codeline lineno="28" refid="df/de9/struct_example" refkind="compound"><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="df/de9/struct_example" kindref="compound" tooltip="Data associated with an example.">Example</ref></highlight></codeline>
+<codeline lineno="29"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/>QCString<sp/>anchor;</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/>QCString<sp/>name;</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/>QCString<sp/>file;</highlight></codeline>
+<codeline lineno="33"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"></highlight></codeline>
+<codeline lineno="36" refid="d0/d31/class_example_s_dict" refkind="compound"><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="d0/d31/class_example_s_dict" kindref="compound" tooltip="A sorted dictionary of Example objects.">ExampleSDict</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="d1/d50/class_s_dict" kindref="compound" tooltip="Ordered dictionary of elements of type T.">SDict</ref>&lt;Example&gt;</highlight></codeline>
+<codeline lineno="37"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="d0/d31/class_example_s_dict" kindref="compound" tooltip="A sorted dictionary of Example objects.">ExampleSDict</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>size=17)<sp/>:<sp/><ref refid="d1/d50/class_s_dict" kindref="compound">SDict&lt;Example&gt;</ref>(size)<sp/>{}</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/>~<ref refid="d0/d31/class_example_s_dict" kindref="compound" tooltip="A sorted dictionary of Example objects.">ExampleSDict</ref>()<sp/>{}</highlight></codeline>
+<codeline lineno="41" refid="d0/d31/class_example_s_dict_1ab77ec9c6ca9d2182ea310cdaf69adf1a" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="d0/d31/class_example_s_dict_1ab77ec9c6ca9d2182ea310cdaf69adf1a" kindref="member">compareItems</ref>(QCollection::Item<sp/>item1,QCollection::Item<sp/>item2)</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>qstricmp(((<ref refid="df/de9/struct_example" kindref="compound" tooltip="Data associated with an example.">Example</ref><sp/>*)item1)-&gt;name,((<ref refid="df/de9/struct_example" kindref="compound" tooltip="Data associated with an example.">Example</ref><sp/>*)item2)-&gt;name);</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="45"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"></highlight></codeline>
+<codeline lineno="47"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+    </programlisting>
+    <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/example.h"/>
+  </compounddef>
+</doxygen>

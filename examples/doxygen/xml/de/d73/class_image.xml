@@ -1,0 +1,521 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.2">
+  <compounddef id="de/d73/class_image" kind="class" prot="public">
+    <compoundname>Image</compoundname>
+    <includes refid="d5/db2/image_8h" local="no">image.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="de/d73/class_image_1ab8d12f635013c04159cd4d3d972bac88" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Image::width</definition>
+        <argsstring></argsstring>
+        <name>width</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/image.h" line="48" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/image.h" bodystart="48" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="de/d73/class_image_1a51df43db420c9c0b57536cb2dd36de5c" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Image::height</definition>
+        <argsstring></argsstring>
+        <name>height</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/image.h" line="49" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/image.h" bodystart="49" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="de/d73/class_image_1ab85d3bd1283679cc77cf6e42d6273303" prot="private" static="no" mutable="no">
+        <type>uchar *</type>
+        <definition>uchar* Image::data</definition>
+        <argsstring></argsstring>
+        <name>data</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/image.h" line="50" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/image.h" bodystart="50" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="de/d73/class_image_1a05c964ca59502cc32c30e8ab89b5e920" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Image::Image</definition>
+        <argsstring>(int w, int h)</argsstring>
+        <name>Image</name>
+        <param>
+          <type>int</type>
+          <declname>w</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>h</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/image.h" line="27" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/image.cpp" bodystart="210" bodyend="243"/>
+      </memberdef>
+      <memberdef kind="function" id="de/d73/class_image_1a0294f63700543e11c0f0da85601c7ae5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Image::~Image</definition>
+        <argsstring>()</argsstring>
+        <name>~Image</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/image.h" line="28" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/image.cpp" bodystart="245" bodyend="248"/>
+      </memberdef>
+      <memberdef kind="function" id="de/d73/class_image_1ac05a72f347421d0b00091faed2216393" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Image::setPixel</definition>
+        <argsstring>(int x, int y, uchar val)</argsstring>
+        <name>setPixel</name>
+        <param>
+          <type>int</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>y</declname>
+        </param>
+        <param>
+          <type>uchar</type>
+          <declname>val</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/image.h" line="30" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/image.cpp" bodystart="250" bodyend="254"/>
+      </memberdef>
+      <memberdef kind="function" id="de/d73/class_image_1a66c00fb22cb4cd7da60bc60d6a260c18" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>uchar</type>
+        <definition>uchar Image::getPixel</definition>
+        <argsstring>(int x, int y) const </argsstring>
+        <name>getPixel</name>
+        <param>
+          <type>int</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>y</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/image.h" line="31" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/image.cpp" bodystart="256" bodyend="262"/>
+      </memberdef>
+      <memberdef kind="function" id="de/d73/class_image_1aa1af4353b607e32f3998045574697543" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Image::writeChar</definition>
+        <argsstring>(int x, int y, char c, uchar fg)</argsstring>
+        <name>writeChar</name>
+        <param>
+          <type>int</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>y</declname>
+        </param>
+        <param>
+          <type>char</type>
+          <declname>c</declname>
+        </param>
+        <param>
+          <type>uchar</type>
+          <declname>fg</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/image.h" line="32" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/image.cpp" bodystart="264" bodyend="299"/>
+      </memberdef>
+      <memberdef kind="function" id="de/d73/class_image_1a0f9e1b9dbb51e3c046f1736f33f7a1f9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Image::writeString</definition>
+        <argsstring>(int x, int y, const char *s, uchar fg)</argsstring>
+        <name>writeString</name>
+        <param>
+          <type>int</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>y</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>s</declname>
+        </param>
+        <param>
+          <type>uchar</type>
+          <declname>fg</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/image.h" line="33" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/image.cpp" bodystart="301" bodyend="312"/>
+      </memberdef>
+      <memberdef kind="function" id="de/d73/class_image_1a72e5036b6f5976a361a91381bde4e5c4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Image::drawHorzLine</definition>
+        <argsstring>(int y, int xs, int xe, uchar colIndex, uint mask)</argsstring>
+        <name>drawHorzLine</name>
+        <param>
+          <type>int</type>
+          <declname>y</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>xs</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>xe</declname>
+        </param>
+        <param>
+          <type>uchar</type>
+          <declname>colIndex</declname>
+        </param>
+        <param>
+          <type>uint</type>
+          <declname>mask</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/image.h" line="34" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/image.cpp" bodystart="325" bodyend="333"/>
+      </memberdef>
+      <memberdef kind="function" id="de/d73/class_image_1a4fba4fc168bfae61e0e7b5856c36d922" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Image::drawHorzArrow</definition>
+        <argsstring>(int y, int xs, int xe, uchar colIndex, uint mask)</argsstring>
+        <name>drawHorzArrow</name>
+        <param>
+          <type>int</type>
+          <declname>y</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>xs</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>xe</declname>
+        </param>
+        <param>
+          <type>uchar</type>
+          <declname>colIndex</declname>
+        </param>
+        <param>
+          <type>uint</type>
+          <declname>mask</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/image.h" line="35" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/image.cpp" bodystart="335" bodyend="344"/>
+      </memberdef>
+      <memberdef kind="function" id="de/d73/class_image_1a75bbaa68f25757917e87d08fd9d02606" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Image::drawVertLine</definition>
+        <argsstring>(int x, int ys, int ye, uchar colIndex, uint mask)</argsstring>
+        <name>drawVertLine</name>
+        <param>
+          <type>int</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>ys</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>ye</declname>
+        </param>
+        <param>
+          <type>uchar</type>
+          <declname>colIndex</declname>
+        </param>
+        <param>
+          <type>uint</type>
+          <declname>mask</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/image.h" line="36" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/image.cpp" bodystart="346" bodyend="353"/>
+      </memberdef>
+      <memberdef kind="function" id="de/d73/class_image_1a6b9baea7dac381277b7df7eab9d0fc4e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Image::drawVertArrow</definition>
+        <argsstring>(int x, int ys, int ye, uchar colIndex, uint mask)</argsstring>
+        <name>drawVertArrow</name>
+        <param>
+          <type>int</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>ys</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>ye</declname>
+        </param>
+        <param>
+          <type>uchar</type>
+          <declname>colIndex</declname>
+        </param>
+        <param>
+          <type>uint</type>
+          <declname>mask</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/image.h" line="37" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/image.cpp" bodystart="355" bodyend="364"/>
+      </memberdef>
+      <memberdef kind="function" id="de/d73/class_image_1ab60719f8c7153f155c6b15676b4e821f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Image::drawRect</definition>
+        <argsstring>(int x, int y, int width, int height, uchar colIndex, uint mask)</argsstring>
+        <name>drawRect</name>
+        <param>
+          <type>int</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>y</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>width</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>height</declname>
+        </param>
+        <param>
+          <type>uchar</type>
+          <declname>colIndex</declname>
+        </param>
+        <param>
+          <type>uint</type>
+          <declname>mask</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/image.h" line="38" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/image.cpp" bodystart="366" bodyend="372"/>
+      </memberdef>
+      <memberdef kind="function" id="de/d73/class_image_1a2192a6addb48198a3206f23c77922640" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Image::fillRect</definition>
+        <argsstring>(int x, int y, int width, int height, uchar colIndex, uint mask)</argsstring>
+        <name>fillRect</name>
+        <param>
+          <type>int</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>y</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>width</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>height</declname>
+        </param>
+        <param>
+          <type>uchar</type>
+          <declname>colIndex</declname>
+        </param>
+        <param>
+          <type>uint</type>
+          <declname>mask</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/image.h" line="39" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/image.cpp" bodystart="374" bodyend="381"/>
+      </memberdef>
+      <memberdef kind="function" id="de/d73/class_image_1a8e4b382c51788279b5110651e36e1043" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Image::save</definition>
+        <argsstring>(const char *fileName, int mode=0)</argsstring>
+        <name>save</name>
+        <param>
+          <type>const char *</type>
+          <declname>fileName</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>mode</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/image.h" line="40" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/image.cpp" bodystart="383" bodyend="424"/>
+      </memberdef>
+      <memberdef kind="function" id="de/d73/class_image_1afa360719f0ecc7811b099966008c76ba" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>uint</type>
+        <definition>uint Image::getWidth</definition>
+        <argsstring>() const </argsstring>
+        <name>getWidth</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/image.h" line="42" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/image.h" bodystart="42" bodyend="42"/>
+      </memberdef>
+      <memberdef kind="function" id="de/d73/class_image_1ad20bbd7c31b62baeb3d50dd1f8aa8b24" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>uint</type>
+        <definition>uint Image::getHeight</definition>
+        <argsstring>() const </argsstring>
+        <name>getHeight</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/image.h" line="43" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/image.h" bodystart="43" bodyend="43"/>
+      </memberdef>
+      <memberdef kind="function" id="de/d73/class_image_1a94d3c15b3c4bf057ee3b875113eb3189" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>uchar *</type>
+        <definition>uchar* Image::getData</definition>
+        <argsstring>() const </argsstring>
+        <name>getData</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/image.h" line="44" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/image.h" bodystart="44" bodyend="44"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="friend">
+      <memberdef kind="friend" id="de/d73/class_image_1a89090e707a9d71c5e66300a9682cf1a8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>friend uint</type>
+        <definition>uint Image::stringLength</definition>
+        <argsstring>(const char *s)</argsstring>
+        <name>stringLength</name>
+        <param>
+          <type>const char *</type>
+          <declname>s</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/image.h" line="41" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/image.cpp" bodystart="314" bodyend="323"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="de/d73/class_image_1a0646bebccb54e618889304a53ae93f14" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>uint</type>
+        <definition>static uint Image::stringLength</definition>
+        <argsstring>(const char *s)</argsstring>
+        <name>stringLength</name>
+        <param>
+          <type>const char *</type>
+          <declname>s</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/image.h" line="45"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Class representing a bitmap image generated by doxygen. </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/image.h" line="25" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/image.h" bodystart="24" bodyend="51"/>
+    <listofallmembers>
+      <member refid="de/d73/class_image_1ab85d3bd1283679cc77cf6e42d6273303" prot="private" virt="non-virtual"><scope>Image</scope><name>data</name></member>
+      <member refid="de/d73/class_image_1a4fba4fc168bfae61e0e7b5856c36d922" prot="public" virt="non-virtual"><scope>Image</scope><name>drawHorzArrow</name></member>
+      <member refid="de/d73/class_image_1a72e5036b6f5976a361a91381bde4e5c4" prot="public" virt="non-virtual"><scope>Image</scope><name>drawHorzLine</name></member>
+      <member refid="de/d73/class_image_1ab60719f8c7153f155c6b15676b4e821f" prot="public" virt="non-virtual"><scope>Image</scope><name>drawRect</name></member>
+      <member refid="de/d73/class_image_1a6b9baea7dac381277b7df7eab9d0fc4e" prot="public" virt="non-virtual"><scope>Image</scope><name>drawVertArrow</name></member>
+      <member refid="de/d73/class_image_1a75bbaa68f25757917e87d08fd9d02606" prot="public" virt="non-virtual"><scope>Image</scope><name>drawVertLine</name></member>
+      <member refid="de/d73/class_image_1a2192a6addb48198a3206f23c77922640" prot="public" virt="non-virtual"><scope>Image</scope><name>fillRect</name></member>
+      <member refid="de/d73/class_image_1a94d3c15b3c4bf057ee3b875113eb3189" prot="public" virt="non-virtual"><scope>Image</scope><name>getData</name></member>
+      <member refid="de/d73/class_image_1ad20bbd7c31b62baeb3d50dd1f8aa8b24" prot="public" virt="non-virtual"><scope>Image</scope><name>getHeight</name></member>
+      <member refid="de/d73/class_image_1a66c00fb22cb4cd7da60bc60d6a260c18" prot="public" virt="non-virtual"><scope>Image</scope><name>getPixel</name></member>
+      <member refid="de/d73/class_image_1afa360719f0ecc7811b099966008c76ba" prot="public" virt="non-virtual"><scope>Image</scope><name>getWidth</name></member>
+      <member refid="de/d73/class_image_1a51df43db420c9c0b57536cb2dd36de5c" prot="private" virt="non-virtual"><scope>Image</scope><name>height</name></member>
+      <member refid="de/d73/class_image_1a05c964ca59502cc32c30e8ab89b5e920" prot="public" virt="non-virtual"><scope>Image</scope><name>Image</name></member>
+      <member refid="de/d73/class_image_1a8e4b382c51788279b5110651e36e1043" prot="public" virt="non-virtual"><scope>Image</scope><name>save</name></member>
+      <member refid="de/d73/class_image_1ac05a72f347421d0b00091faed2216393" prot="public" virt="non-virtual"><scope>Image</scope><name>setPixel</name></member>
+      <member refid="de/d73/class_image_1a89090e707a9d71c5e66300a9682cf1a8" prot="public" virt="non-virtual"><scope>Image</scope><name>stringLength</name></member>
+      <member refid="de/d73/class_image_1a0646bebccb54e618889304a53ae93f14" prot="public" virt="non-virtual"><scope>Image</scope><name>stringLength</name></member>
+      <member refid="de/d73/class_image_1ab8d12f635013c04159cd4d3d972bac88" prot="private" virt="non-virtual"><scope>Image</scope><name>width</name></member>
+      <member refid="de/d73/class_image_1aa1af4353b607e32f3998045574697543" prot="public" virt="non-virtual"><scope>Image</scope><name>writeChar</name></member>
+      <member refid="de/d73/class_image_1a0f9e1b9dbb51e3c046f1736f33f7a1f9" prot="public" virt="non-virtual"><scope>Image</scope><name>writeString</name></member>
+      <member refid="de/d73/class_image_1a0294f63700543e11c0f0da85601c7ae5" prot="public" virt="non-virtual"><scope>Image</scope><name>~Image</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

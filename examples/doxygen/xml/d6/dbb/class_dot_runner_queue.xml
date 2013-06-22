@@ -1,0 +1,106 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.2">
+  <compounddef id="d6/dbb/class_dot_runner_queue" kind="class" prot="public">
+    <compoundname>DotRunnerQueue</compoundname>
+    <includes refid="d6/d4a/dot_8h" local="no">dot.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="d6/dbb/class_dot_runner_queue_1a7bf12628790d6bccc76706b3cd896f9a" prot="private" static="no" mutable="no">
+        <type>QWaitCondition</type>
+        <definition>QWaitCondition DotRunnerQueue::m_bufferNotEmpty</definition>
+        <argsstring></argsstring>
+        <name>m_bufferNotEmpty</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/dot.h" line="400" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/dot.h" bodystart="400" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d6/dbb/class_dot_runner_queue_1a133abc93958ab2f5204bace63b8be76a" prot="private" static="no" mutable="no">
+        <type>QQueue&lt; <ref refid="d1/de9/class_dot_runner" kindref="compound">DotRunner</ref> &gt;</type>
+        <definition>QQueue&lt;DotRunner&gt; DotRunnerQueue::m_queue</definition>
+        <argsstring></argsstring>
+        <name>m_queue</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/dot.h" line="401" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/dot.h" bodystart="401" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d6/dbb/class_dot_runner_queue_1a6598acfdc9b483522a1552df89d8060c" prot="private" static="no" mutable="yes">
+        <type>QMutex</type>
+        <definition>QMutex DotRunnerQueue::m_mutex</definition>
+        <argsstring></argsstring>
+        <name>m_mutex</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/dot.h" line="402" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/dot.h" bodystart="402" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="d6/dbb/class_dot_runner_queue_1a5574ec90088f55eb96016a84d2b51e9f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void DotRunnerQueue::enqueue</definition>
+        <argsstring>(DotRunner *runner)</argsstring>
+        <name>enqueue</name>
+        <param>
+          <type><ref refid="d1/de9/class_dot_runner" kindref="compound">DotRunner</ref> *</type>
+          <declname>runner</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/dot.h" line="396" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/dot.cpp" bodystart="1155" bodyend="1160"/>
+      </memberdef>
+      <memberdef kind="function" id="d6/dbb/class_dot_runner_queue_1adcfd55c84ad0e67666f86554b9284a3b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="d1/de9/class_dot_runner" kindref="compound">DotRunner</ref> *</type>
+        <definition>DotRunner * DotRunnerQueue::dequeue</definition>
+        <argsstring>()</argsstring>
+        <name>dequeue</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/dot.h" line="397" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/dot.cpp" bodystart="1162" bodyend="1172"/>
+      </memberdef>
+      <memberdef kind="function" id="d6/dbb/class_dot_runner_queue_1a90d4b805fdf634627cb597af4ed964aa" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>uint</type>
+        <definition>uint DotRunnerQueue::count</definition>
+        <argsstring>() const </argsstring>
+        <name>count</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/dot.h" line="398" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/dot.cpp" bodystart="1174" bodyend="1178"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Queue of dot jobs to run. </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/dot.h" line="394" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/dot.h" bodystart="393" bodyend="403"/>
+    <listofallmembers>
+      <member refid="d6/dbb/class_dot_runner_queue_1a90d4b805fdf634627cb597af4ed964aa" prot="public" virt="non-virtual"><scope>DotRunnerQueue</scope><name>count</name></member>
+      <member refid="d6/dbb/class_dot_runner_queue_1adcfd55c84ad0e67666f86554b9284a3b" prot="public" virt="non-virtual"><scope>DotRunnerQueue</scope><name>dequeue</name></member>
+      <member refid="d6/dbb/class_dot_runner_queue_1a5574ec90088f55eb96016a84d2b51e9f" prot="public" virt="non-virtual"><scope>DotRunnerQueue</scope><name>enqueue</name></member>
+      <member refid="d6/dbb/class_dot_runner_queue_1a7bf12628790d6bccc76706b3cd896f9a" prot="private" virt="non-virtual"><scope>DotRunnerQueue</scope><name>m_bufferNotEmpty</name></member>
+      <member refid="d6/dbb/class_dot_runner_queue_1a6598acfdc9b483522a1552df89d8060c" prot="private" virt="non-virtual"><scope>DotRunnerQueue</scope><name>m_mutex</name></member>
+      <member refid="d6/dbb/class_dot_runner_queue_1a133abc93958ab2f5204bace63b8be76a" prot="private" virt="non-virtual"><scope>DotRunnerQueue</scope><name>m_queue</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

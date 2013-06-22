@@ -1,0 +1,758 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.2">
+  <compounddef id="d9/d57/class_index_list" kind="class" prot="public">
+    <compoundname>IndexList</compoundname>
+    <basecompoundref refid="d9/dd5/class_index_intf" prot="public" virt="non-virtual">IndexIntf</basecompoundref>
+    <includes refid="d1/db5/index_8h" local="no">index.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="d9/d57/class_index_list_1a800d323668ac1de7e22cce969f70a780" prot="private" static="no" mutable="no">
+        <type><ref refid="db/daa/class_q_list" kindref="compound">QList</ref>&lt; <ref refid="d9/dd5/class_index_intf" kindref="compound">IndexIntf</ref> &gt;</type>
+        <definition>QList&lt;IndexIntf&gt; IndexList::m_intfs</definition>
+        <argsstring></argsstring>
+        <name>m_intfs</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/index.h" line="56" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/index.h" bodystart="56" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d9/d57/class_index_list_1a2ae70269ec6d9a598eadf0f49570b039" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool IndexList::m_enabled</definition>
+        <argsstring></argsstring>
+        <name>m_enabled</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/index.h" line="153" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/index.h" bodystart="153" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="d9/d57/class_index_list_1a94397e42d07dcc7ccb336802e89c5423" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void IndexList::foreach</definition>
+        <argsstring>(void(IndexIntf::*methodPtr)())</argsstring>
+        <name>foreach</name>
+        <param>
+          <type>void(IndexIntf::*)()</type>
+          <declname>methodPtr</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/index.h" line="61" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/index.h" bodystart="60" bodyend="64"/>
+      </memberdef>
+      <memberdef kind="function" id="d9/d57/class_index_list_1ab90d92b3581fe7ca83af9fe2045e621e" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename A1</type>
+          </param>
+        </templateparamlist>
+        <type>void</type>
+        <definition>void IndexList::foreach</definition>
+        <argsstring>(void(IndexIntf::*methodPtr)(A1), A1 a1)</argsstring>
+        <name>foreach</name>
+        <param>
+          <type>void(IndexIntf::*)(A1)</type>
+          <declname>methodPtr</declname>
+        </param>
+        <param>
+          <type>A1</type>
+          <declname>a1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/index.h" line="68" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/index.h" bodystart="67" bodyend="71"/>
+      </memberdef>
+      <memberdef kind="function" id="d9/d57/class_index_list_1a869ba458f1e79e9f946f518e7cfc6fad" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename A1</type>
+          </param>
+          <param>
+            <type>typename A2</type>
+          </param>
+          <param>
+            <type>typename A3</type>
+          </param>
+        </templateparamlist>
+        <type>void</type>
+        <definition>void IndexList::foreach</definition>
+        <argsstring>(void(IndexIntf::*methodPtr)(A1, A2, A3), A1 a1, A2 a2, A3 a3)</argsstring>
+        <name>foreach</name>
+        <param>
+          <type>void(IndexIntf::*)(A1, A2, A3)</type>
+          <declname>methodPtr</declname>
+        </param>
+        <param>
+          <type>A1</type>
+          <declname>a1</declname>
+        </param>
+        <param>
+          <type>A2</type>
+          <declname>a2</declname>
+        </param>
+        <param>
+          <type>A3</type>
+          <declname>a3</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/index.h" line="75" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/index.h" bodystart="74" bodyend="78"/>
+      </memberdef>
+      <memberdef kind="function" id="d9/d57/class_index_list_1a67f8610541ab0633a02a0540a3abbfeb" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename A1</type>
+          </param>
+          <param>
+            <type>typename A2</type>
+          </param>
+          <param>
+            <type>typename A3</type>
+          </param>
+          <param>
+            <type>typename A4</type>
+          </param>
+        </templateparamlist>
+        <type>void</type>
+        <definition>void IndexList::foreach</definition>
+        <argsstring>(void(IndexIntf::*methodPtr)(A1, A2, A3, A4), A1 a1, A2 a2, A3 a3, A4 a4)</argsstring>
+        <name>foreach</name>
+        <param>
+          <type>void(IndexIntf::*)(A1, A2, A3, A4)</type>
+          <declname>methodPtr</declname>
+        </param>
+        <param>
+          <type>A1</type>
+          <declname>a1</declname>
+        </param>
+        <param>
+          <type>A2</type>
+          <declname>a2</declname>
+        </param>
+        <param>
+          <type>A3</type>
+          <declname>a3</declname>
+        </param>
+        <param>
+          <type>A4</type>
+          <declname>a4</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/index.h" line="82" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/index.h" bodystart="81" bodyend="85"/>
+      </memberdef>
+      <memberdef kind="function" id="d9/d57/class_index_list_1a6c7627bfe26e43df9fcbc95891d1f294" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename A1</type>
+          </param>
+          <param>
+            <type>typename A2</type>
+          </param>
+          <param>
+            <type>typename A3</type>
+          </param>
+          <param>
+            <type>typename A4</type>
+          </param>
+          <param>
+            <type>typename A5</type>
+          </param>
+        </templateparamlist>
+        <type>void</type>
+        <definition>void IndexList::foreach</definition>
+        <argsstring>(void(IndexIntf::*methodPtr)(A1, A2, A3, A4, A5), A1 a1, A2 a2, A3 a3, A4 a4, A5 a5)</argsstring>
+        <name>foreach</name>
+        <param>
+          <type>void(IndexIntf::*)(A1, A2, A3, A4, A5)</type>
+          <declname>methodPtr</declname>
+        </param>
+        <param>
+          <type>A1</type>
+          <declname>a1</declname>
+        </param>
+        <param>
+          <type>A2</type>
+          <declname>a2</declname>
+        </param>
+        <param>
+          <type>A3</type>
+          <declname>a3</declname>
+        </param>
+        <param>
+          <type>A4</type>
+          <declname>a4</declname>
+        </param>
+        <param>
+          <type>A5</type>
+          <declname>a5</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/index.h" line="89" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/index.h" bodystart="88" bodyend="92"/>
+      </memberdef>
+      <memberdef kind="function" id="d9/d57/class_index_list_1a5b3786b4f461ef10945badf469232a6a" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename A1</type>
+          </param>
+          <param>
+            <type>typename A2</type>
+          </param>
+          <param>
+            <type>typename A3</type>
+          </param>
+          <param>
+            <type>typename A4</type>
+          </param>
+          <param>
+            <type>typename A5</type>
+          </param>
+          <param>
+            <type>typename A6</type>
+          </param>
+        </templateparamlist>
+        <type>void</type>
+        <definition>void IndexList::foreach</definition>
+        <argsstring>(void(IndexIntf::*methodPtr)(A1, A2, A3, A4, A5, A6), A1 a1, A2 a2, A3 a3, A4 a4, A5 a5, A6 a6)</argsstring>
+        <name>foreach</name>
+        <param>
+          <type>void(IndexIntf::*)(A1, A2, A3, A4, A5, A6)</type>
+          <declname>methodPtr</declname>
+        </param>
+        <param>
+          <type>A1</type>
+          <declname>a1</declname>
+        </param>
+        <param>
+          <type>A2</type>
+          <declname>a2</declname>
+        </param>
+        <param>
+          <type>A3</type>
+          <declname>a3</declname>
+        </param>
+        <param>
+          <type>A4</type>
+          <declname>a4</declname>
+        </param>
+        <param>
+          <type>A5</type>
+          <declname>a5</declname>
+        </param>
+        <param>
+          <type>A6</type>
+          <declname>a6</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/index.h" line="96" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/index.h" bodystart="95" bodyend="99"/>
+      </memberdef>
+      <memberdef kind="function" id="d9/d57/class_index_list_1a3db60616fcc043e81563df3c4e0a9a8a" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename A1</type>
+          </param>
+          <param>
+            <type>typename A2</type>
+          </param>
+          <param>
+            <type>typename A3</type>
+          </param>
+          <param>
+            <type>typename A4</type>
+          </param>
+          <param>
+            <type>typename A5</type>
+          </param>
+          <param>
+            <type>typename A6</type>
+          </param>
+          <param>
+            <type>typename A7</type>
+          </param>
+          <param>
+            <type>typename A8</type>
+          </param>
+        </templateparamlist>
+        <type>void</type>
+        <definition>void IndexList::foreach</definition>
+        <argsstring>(void(IndexIntf::*methodPtr)(A1, A2, A3, A4, A5, A6, A7, A8), A1 a1, A2 a2, A3 a3, A4 a4, A5 a5, A6 a6, A7 a7, A8 a8)</argsstring>
+        <name>foreach</name>
+        <param>
+          <type>void(IndexIntf::*)(A1, A2, A3, A4, A5, A6, A7, A8)</type>
+          <declname>methodPtr</declname>
+        </param>
+        <param>
+          <type>A1</type>
+          <declname>a1</declname>
+        </param>
+        <param>
+          <type>A2</type>
+          <declname>a2</declname>
+        </param>
+        <param>
+          <type>A3</type>
+          <declname>a3</declname>
+        </param>
+        <param>
+          <type>A4</type>
+          <declname>a4</declname>
+        </param>
+        <param>
+          <type>A5</type>
+          <declname>a5</declname>
+        </param>
+        <param>
+          <type>A6</type>
+          <declname>a6</declname>
+        </param>
+        <param>
+          <type>A7</type>
+          <declname>a7</declname>
+        </param>
+        <param>
+          <type>A8</type>
+          <declname>a8</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/index.h" line="103" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/index.h" bodystart="102" bodyend="106"/>
+      </memberdef>
+      <memberdef kind="function" id="d9/d57/class_index_list_1a52a9a8817b2665320282421d968751c3" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename A1</type>
+          </param>
+          <param>
+            <type>typename A2</type>
+          </param>
+          <param>
+            <type>typename A3</type>
+          </param>
+          <param>
+            <type>typename A4</type>
+          </param>
+          <param>
+            <type>typename A5</type>
+          </param>
+          <param>
+            <type>typename A6</type>
+          </param>
+          <param>
+            <type>typename A7</type>
+          </param>
+          <param>
+            <type>typename A8</type>
+          </param>
+          <param>
+            <type>typename A9</type>
+          </param>
+        </templateparamlist>
+        <type>void</type>
+        <definition>void IndexList::foreach</definition>
+        <argsstring>(void(IndexIntf::*methodPtr)(A1, A2, A3, A4, A5, A6, A7, A8, A9), A1 a1, A2 a2, A3 a3, A4 a4, A5 a5, A6 a6, A7 a7, A8 a8, A9 a9)</argsstring>
+        <name>foreach</name>
+        <param>
+          <type>void(IndexIntf::*)(A1, A2, A3, A4, A5, A6, A7, A8, A9)</type>
+          <declname>methodPtr</declname>
+        </param>
+        <param>
+          <type>A1</type>
+          <declname>a1</declname>
+        </param>
+        <param>
+          <type>A2</type>
+          <declname>a2</declname>
+        </param>
+        <param>
+          <type>A3</type>
+          <declname>a3</declname>
+        </param>
+        <param>
+          <type>A4</type>
+          <declname>a4</declname>
+        </param>
+        <param>
+          <type>A5</type>
+          <declname>a5</declname>
+        </param>
+        <param>
+          <type>A6</type>
+          <declname>a6</declname>
+        </param>
+        <param>
+          <type>A7</type>
+          <declname>a7</declname>
+        </param>
+        <param>
+          <type>A8</type>
+          <declname>a8</declname>
+        </param>
+        <param>
+          <type>A9</type>
+          <declname>a9</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/index.h" line="110" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/index.h" bodystart="109" bodyend="113"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="d9/d57/class_index_list_1a9d525f0a264b6aba4f8acf2d513a31ea" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>IndexList::IndexList</definition>
+        <argsstring>()</argsstring>
+        <name>IndexList</name>
+        <briefdescription>
+<para>Creates a list of indexes. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/index.h" line="117" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/index.h" bodystart="117" bodyend="117"/>
+      </memberdef>
+      <memberdef kind="function" id="d9/d57/class_index_list_1a8120913e328f96fec6e5b2070902f4e7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void IndexList::addIndex</definition>
+        <argsstring>(IndexIntf *intf)</argsstring>
+        <name>addIndex</name>
+        <param>
+          <type><ref refid="d9/dd5/class_index_intf" kindref="compound">IndexIntf</ref> *</type>
+          <declname>intf</declname>
+        </param>
+        <briefdescription>
+<para>Add an index generator to the list. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/index.h" line="120" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/index.h" bodystart="119" bodyend="120"/>
+      </memberdef>
+      <memberdef kind="function" id="d9/d57/class_index_list_1ae7334e24bfdf93caf3db9d61ae62caf6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void IndexList::disable</definition>
+        <argsstring>()</argsstring>
+        <name>disable</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/index.h" line="122" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/index.h" bodystart="121" bodyend="122"/>
+      </memberdef>
+      <memberdef kind="function" id="d9/d57/class_index_list_1aabffffbc2e50eeb9437640c369dfd6b7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void IndexList::enable</definition>
+        <argsstring>()</argsstring>
+        <name>enable</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/index.h" line="124" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/index.h" bodystart="123" bodyend="124"/>
+      </memberdef>
+      <memberdef kind="function" id="d9/d57/class_index_list_1a716ecb0b2b7f39d7db022d61297d9b8a" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool IndexList::isEnabled</definition>
+        <argsstring>() const </argsstring>
+        <name>isEnabled</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/index.h" line="126" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/index.h" bodystart="125" bodyend="126"/>
+      </memberdef>
+      <memberdef kind="function" id="d9/d57/class_index_list_1a104b016afa73759d65b08f6c1cced210" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>void IndexList::initialize</definition>
+        <argsstring>()</argsstring>
+        <name>initialize</name>
+        <reimplements refid="d9/dd5/class_index_intf_1a0e46b4afa0ed269e2d089c8444590515">initialize</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/index.h" line="130" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/index.h" bodystart="129" bodyend="130"/>
+      </memberdef>
+      <memberdef kind="function" id="d9/d57/class_index_list_1af04e11231983acb4dbf381e809bfa178" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>void IndexList::finalize</definition>
+        <argsstring>()</argsstring>
+        <name>finalize</name>
+        <reimplements refid="d9/dd5/class_index_intf_1aa5532a767c4ac41167d014209b2ea8d7">finalize</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/index.h" line="132" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/index.h" bodystart="131" bodyend="132"/>
+      </memberdef>
+      <memberdef kind="function" id="d9/d57/class_index_list_1ac6af95293030206c0224260e9b1d7aca" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>void IndexList::incContentsDepth</definition>
+        <argsstring>()</argsstring>
+        <name>incContentsDepth</name>
+        <reimplements refid="d9/dd5/class_index_intf_1ac5ff1647bcf1cc65543258df162a0a7c">incContentsDepth</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/index.h" line="134" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/index.h" bodystart="133" bodyend="134"/>
+      </memberdef>
+      <memberdef kind="function" id="d9/d57/class_index_list_1a4bad65cd2fadab4529bbfe5df78cc019" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>void IndexList::decContentsDepth</definition>
+        <argsstring>()</argsstring>
+        <name>decContentsDepth</name>
+        <reimplements refid="d9/dd5/class_index_intf_1a920918399556e9afd4d927de3d1f4247">decContentsDepth</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/index.h" line="136" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/index.h" bodystart="135" bodyend="136"/>
+      </memberdef>
+      <memberdef kind="function" id="d9/d57/class_index_list_1afac63d024f410eaf10960f240e881f0b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>void IndexList::addContentsItem</definition>
+        <argsstring>(bool isDir, const char *name, const char *ref, const char *file, const char *anchor, bool separateIndex=FALSE, bool addToNavIndex=FALSE, Definition *def=0)</argsstring>
+        <name>addContentsItem</name>
+        <reimplements refid="d9/dd5/class_index_intf_1aab43652b639ce5cd25f5b16e54e20f26">addContentsItem</reimplements>
+        <param>
+          <type>bool</type>
+          <declname>isDir</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>name</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>ref</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>file</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>anchor</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>separateIndex</declname>
+          <defval>FALSE</defval>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>addToNavIndex</declname>
+          <defval>FALSE</defval>
+        </param>
+        <param>
+          <type><ref refid="d5/dcc/class_definition" kindref="compound">Definition</ref> *</type>
+          <declname>def</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/index.h" line="140" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/index.h" bodystart="137" bodyend="141"/>
+      </memberdef>
+      <memberdef kind="function" id="d9/d57/class_index_list_1aab8f1fb60ccd7074dfcacab6584ebaa2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>void IndexList::addIndexItem</definition>
+        <argsstring>(Definition *context, MemberDef *md, const char *sectionAnchor=0, const char *title=0)</argsstring>
+        <name>addIndexItem</name>
+        <reimplements refid="d9/dd5/class_index_intf_1a762276e6f0229fb784a592acd2cf6a8b">addIndexItem</reimplements>
+        <param>
+          <type><ref refid="d5/dcc/class_definition" kindref="compound">Definition</ref> *</type>
+          <declname>context</declname>
+        </param>
+        <param>
+          <type><ref refid="da/d09/class_member_def" kindref="compound">MemberDef</ref> *</type>
+          <declname>md</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>sectionAnchor</declname>
+          <defval>0</defval>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>title</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/index.h" line="143" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/index.h" bodystart="142" bodyend="144"/>
+      </memberdef>
+      <memberdef kind="function" id="d9/d57/class_index_list_1a847ef82be5132a43cf70e516f6c525aa" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>void IndexList::addIndexFile</definition>
+        <argsstring>(const char *name)</argsstring>
+        <name>addIndexFile</name>
+        <reimplements refid="d9/dd5/class_index_intf_1a153c5c5995155d112c33fed544b44094">addIndexFile</reimplements>
+        <param>
+          <type>const char *</type>
+          <declname>name</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/index.h" line="146" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/index.h" bodystart="145" bodyend="146"/>
+      </memberdef>
+      <memberdef kind="function" id="d9/d57/class_index_list_1aacfe4c4bf0fa41efea7015fc6aa372d6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>void IndexList::addImageFile</definition>
+        <argsstring>(const char *name)</argsstring>
+        <name>addImageFile</name>
+        <reimplements refid="d9/dd5/class_index_intf_1ac1650d4596d97cdd1de428b06a76daad">addImageFile</reimplements>
+        <param>
+          <type>const char *</type>
+          <declname>name</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/index.h" line="148" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/index.h" bodystart="147" bodyend="148"/>
+      </memberdef>
+      <memberdef kind="function" id="d9/d57/class_index_list_1a86a377209f0483a032c4e3c241a946a9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>void IndexList::addStyleSheetFile</definition>
+        <argsstring>(const char *name)</argsstring>
+        <name>addStyleSheetFile</name>
+        <reimplements refid="d9/dd5/class_index_intf_1a3989fce1306feb90e477cb53fd0daee0">addStyleSheetFile</reimplements>
+        <param>
+          <type>const char *</type>
+          <declname>name</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/index.h" line="150" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/index.h" bodystart="149" bodyend="150"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>A list of index interfaces. </para>    </briefdescription>
+    <detaileddescription>
+<para>This class itself implements all methods of <ref refid="d9/dd5/class_index_intf" kindref="compound">IndexIntf</ref> and just forwards the calls to all items in the list. </para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="3580">
+        <label>IndexList</label>
+        <link refid="d9/d57/class_index_list"/>
+        <childnode refid="3581" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3581">
+        <label>IndexIntf</label>
+        <link refid="d9/dd5/class_index_intf"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="3582">
+        <label>IndexList</label>
+        <link refid="d9/d57/class_index_list"/>
+        <childnode refid="3583" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3583">
+        <label>IndexIntf</label>
+        <link refid="d9/dd5/class_index_intf"/>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/index.h" line="54" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/index.h" bodystart="53" bodyend="154"/>
+    <listofallmembers>
+      <member refid="d9/d57/class_index_list_1afac63d024f410eaf10960f240e881f0b" prot="public" virt="virtual"><scope>IndexList</scope><name>addContentsItem</name></member>
+      <member refid="d9/d57/class_index_list_1aacfe4c4bf0fa41efea7015fc6aa372d6" prot="public" virt="virtual"><scope>IndexList</scope><name>addImageFile</name></member>
+      <member refid="d9/d57/class_index_list_1a8120913e328f96fec6e5b2070902f4e7" prot="public" virt="non-virtual"><scope>IndexList</scope><name>addIndex</name></member>
+      <member refid="d9/d57/class_index_list_1a847ef82be5132a43cf70e516f6c525aa" prot="public" virt="virtual"><scope>IndexList</scope><name>addIndexFile</name></member>
+      <member refid="d9/d57/class_index_list_1aab8f1fb60ccd7074dfcacab6584ebaa2" prot="public" virt="virtual"><scope>IndexList</scope><name>addIndexItem</name></member>
+      <member refid="d9/d57/class_index_list_1a86a377209f0483a032c4e3c241a946a9" prot="public" virt="virtual"><scope>IndexList</scope><name>addStyleSheetFile</name></member>
+      <member refid="d9/d57/class_index_list_1a4bad65cd2fadab4529bbfe5df78cc019" prot="public" virt="virtual"><scope>IndexList</scope><name>decContentsDepth</name></member>
+      <member refid="d9/d57/class_index_list_1ae7334e24bfdf93caf3db9d61ae62caf6" prot="public" virt="non-virtual"><scope>IndexList</scope><name>disable</name></member>
+      <member refid="d9/d57/class_index_list_1aabffffbc2e50eeb9437640c369dfd6b7" prot="public" virt="non-virtual"><scope>IndexList</scope><name>enable</name></member>
+      <member refid="d9/d57/class_index_list_1af04e11231983acb4dbf381e809bfa178" prot="public" virt="virtual"><scope>IndexList</scope><name>finalize</name></member>
+      <member refid="d9/d57/class_index_list_1a94397e42d07dcc7ccb336802e89c5423" prot="private" virt="non-virtual"><scope>IndexList</scope><name>foreach</name></member>
+      <member refid="d9/d57/class_index_list_1ab90d92b3581fe7ca83af9fe2045e621e" prot="private" virt="non-virtual"><scope>IndexList</scope><name>foreach</name></member>
+      <member refid="d9/d57/class_index_list_1a869ba458f1e79e9f946f518e7cfc6fad" prot="private" virt="non-virtual"><scope>IndexList</scope><name>foreach</name></member>
+      <member refid="d9/d57/class_index_list_1a67f8610541ab0633a02a0540a3abbfeb" prot="private" virt="non-virtual"><scope>IndexList</scope><name>foreach</name></member>
+      <member refid="d9/d57/class_index_list_1a6c7627bfe26e43df9fcbc95891d1f294" prot="private" virt="non-virtual"><scope>IndexList</scope><name>foreach</name></member>
+      <member refid="d9/d57/class_index_list_1a5b3786b4f461ef10945badf469232a6a" prot="private" virt="non-virtual"><scope>IndexList</scope><name>foreach</name></member>
+      <member refid="d9/d57/class_index_list_1a3db60616fcc043e81563df3c4e0a9a8a" prot="private" virt="non-virtual"><scope>IndexList</scope><name>foreach</name></member>
+      <member refid="d9/d57/class_index_list_1a52a9a8817b2665320282421d968751c3" prot="private" virt="non-virtual"><scope>IndexList</scope><name>foreach</name></member>
+      <member refid="d9/d57/class_index_list_1ac6af95293030206c0224260e9b1d7aca" prot="public" virt="virtual"><scope>IndexList</scope><name>incContentsDepth</name></member>
+      <member refid="d9/d57/class_index_list_1a9d525f0a264b6aba4f8acf2d513a31ea" prot="public" virt="non-virtual"><scope>IndexList</scope><name>IndexList</name></member>
+      <member refid="d9/d57/class_index_list_1a104b016afa73759d65b08f6c1cced210" prot="public" virt="virtual"><scope>IndexList</scope><name>initialize</name></member>
+      <member refid="d9/d57/class_index_list_1a716ecb0b2b7f39d7db022d61297d9b8a" prot="public" virt="non-virtual"><scope>IndexList</scope><name>isEnabled</name></member>
+      <member refid="d9/d57/class_index_list_1a2ae70269ec6d9a598eadf0f49570b039" prot="private" virt="non-virtual"><scope>IndexList</scope><name>m_enabled</name></member>
+      <member refid="d9/d57/class_index_list_1a800d323668ac1de7e22cce969f70a780" prot="private" virt="non-virtual"><scope>IndexList</scope><name>m_intfs</name></member>
+      <member refid="d9/dd5/class_index_intf_1aa97a03b1de6ccb0d35b33cbf44d69f2a" prot="public" virt="virtual"><scope>IndexList</scope><name>~IndexIntf</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

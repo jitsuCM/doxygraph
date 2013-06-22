@@ -1,0 +1,581 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.2">
+  <compounddef id="d1/de6/groupdef_8h" kind="file">
+    <compoundname>groupdef.h</compoundname>
+    <includes refid="d9/d21/sortdict_8h" local="yes">sortdict.h</includes>
+    <includes refid="df/da1/definition_8h" local="yes">definition.h</includes>
+    <includedby refid="de/d89/classdef_8cpp" local="yes">src/classdef.cpp</includedby>
+    <includedby refid="d3/dea/definition_8cpp" local="yes">src/definition.cpp</includedby>
+    <includedby refid="d8/d29/docbookgen_8cpp" local="yes">src/docbookgen.cpp</includedby>
+    <includedby refid="da/d17/docparser_8cpp" local="yes">src/docparser.cpp</includedby>
+    <includedby refid="d7/d8f/docsets_8cpp" local="yes">src/docsets.cpp</includedby>
+    <includedby refid="de/daa/dot_8cpp" local="yes">src/dot.cpp</includedby>
+    <includedby refid="dc/d98/doxygen_8cpp" local="yes">src/doxygen.cpp</includedby>
+    <includedby refid="d6/ddc/filedef_8cpp" local="yes">src/filedef.cpp</includedby>
+    <includedby refid="d6/d42/groupdef_8cpp" local="yes">src/groupdef.cpp</includedby>
+    <includedby refid="d3/d4b/htmlhelp_8cpp" local="yes">src/htmlhelp.cpp</includedby>
+    <includedby refid="db/d14/index_8cpp" local="yes">src/index.cpp</includedby>
+    <includedby refid="d4/d42/latexgen_8cpp" local="yes">src/latexgen.cpp</includedby>
+    <includedby refid="d9/d85/marshal_8cpp" local="yes">src/marshal.cpp</includedby>
+    <includedby refid="d0/d72/memberdef_8cpp" local="yes">src/memberdef.cpp</includedby>
+    <includedby refid="d6/d18/membergroup_8cpp" local="yes">src/membergroup.cpp</includedby>
+    <includedby refid="d0/d14/memberlist_8cpp" local="yes">src/memberlist.cpp</includedby>
+    <includedby refid="d9/db4/pagedef_8cpp" local="yes">src/pagedef.cpp</includedby>
+    <includedby refid="de/dd0/perlmodgen_8cpp" local="yes">src/perlmodgen.cpp</includedby>
+    <includedby refid="d9/d45/qhp_8cpp" local="yes">src/qhp.cpp</includedby>
+    <includedby refid="d0/d9c/rtfgen_8cpp" local="yes">src/rtfgen.cpp</includedby>
+    <includedby refid="d7/d79/searchindex_8cpp" local="yes">src/searchindex.cpp</includedby>
+    <includedby refid="df/d2d/util_8cpp" local="yes">src/util.cpp</includedby>
+    <includedby refid="de/dea/vhdldocgen_8cpp" local="yes">src/vhdldocgen.cpp</includedby>
+    <includedby refid="d0/dc3/xmlgen_8cpp" local="yes">src/xmlgen.cpp</includedby>
+    <incdepgraph>
+      <node id="2328">
+        <label>qcstring.h</label>
+      </node>
+      <node id="2322">
+        <label>sortdict.h</label>
+        <link refid="d9/d21/sortdict_8h_source"/>
+        <childnode refid="2323" relation="include">
+        </childnode>
+        <childnode refid="2324" relation="include">
+        </childnode>
+        <childnode refid="2325" relation="include">
+        </childnode>
+      </node>
+      <node id="2325">
+        <label>qintdict.h</label>
+      </node>
+      <node id="2327">
+        <label>types.h</label>
+        <link refid="d9/d49/types_8h"/>
+        <childnode refid="2328" relation="include">
+        </childnode>
+      </node>
+      <node id="2323">
+        <label>qlist.h</label>
+      </node>
+      <node id="2321">
+        <label>src/groupdef.h</label>
+        <link refid="groupdef.h"/>
+        <childnode refid="2322" relation="include">
+        </childnode>
+        <childnode refid="2326" relation="include">
+        </childnode>
+      </node>
+      <node id="2326">
+        <label>definition.h</label>
+        <link refid="df/da1/definition_8h_source"/>
+        <childnode refid="2323" relation="include">
+        </childnode>
+        <childnode refid="2324" relation="include">
+        </childnode>
+        <childnode refid="2327" relation="include">
+        </childnode>
+      </node>
+      <node id="2324">
+        <label>qdict.h</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="2342">
+        <label>src/marshal.cpp</label>
+        <link refid="d9/d85/marshal_8cpp_source"/>
+      </node>
+      <node id="2348">
+        <label>src/qhp.cpp</label>
+        <link refid="d9/d45/qhp_8cpp_source"/>
+      </node>
+      <node id="2333">
+        <label>src/docparser.cpp</label>
+        <link refid="da/d17/docparser_8cpp_source"/>
+      </node>
+      <node id="2344">
+        <label>src/membergroup.cpp</label>
+        <link refid="d6/d18/membergroup_8cpp_source"/>
+      </node>
+      <node id="2343">
+        <label>src/memberdef.cpp</label>
+        <link refid="d0/d72/memberdef_8cpp_source"/>
+      </node>
+      <node id="2336">
+        <label>src/doxygen.cpp</label>
+        <link refid="dc/d98/doxygen_8cpp_source"/>
+      </node>
+      <node id="2335">
+        <label>src/dot.cpp</label>
+        <link refid="de/daa/dot_8cpp_source"/>
+      </node>
+      <node id="2352">
+        <label>src/vhdldocgen.cpp</label>
+        <link refid="de/dea/vhdldocgen_8cpp_source"/>
+      </node>
+      <node id="2349">
+        <label>src/rtfgen.cpp</label>
+        <link refid="d0/d9c/rtfgen_8cpp_source"/>
+      </node>
+      <node id="2346">
+        <label>src/pagedef.cpp</label>
+        <link refid="d9/db4/pagedef_8cpp_source"/>
+      </node>
+      <node id="2351">
+        <label>src/util.cpp</label>
+        <link refid="df/d2d/util_8cpp_source"/>
+      </node>
+      <node id="2350">
+        <label>src/searchindex.cpp</label>
+        <link refid="d7/d79/searchindex_8cpp_source"/>
+      </node>
+      <node id="2337">
+        <label>src/filedef.cpp</label>
+        <link refid="d6/ddc/filedef_8cpp_source"/>
+      </node>
+      <node id="2338">
+        <label>src/groupdef.cpp</label>
+        <link refid="d6/d42/groupdef_8cpp_source"/>
+      </node>
+      <node id="2332">
+        <label>src/docbookgen.cpp</label>
+        <link refid="d8/d29/docbookgen_8cpp_source"/>
+      </node>
+      <node id="2347">
+        <label>src/perlmodgen.cpp</label>
+        <link refid="de/dd0/perlmodgen_8cpp_source"/>
+      </node>
+      <node id="2331">
+        <label>src/definition.cpp</label>
+        <link refid="d3/dea/definition_8cpp_source"/>
+      </node>
+      <node id="2353">
+        <label>src/xmlgen.cpp</label>
+        <link refid="d0/dc3/xmlgen_8cpp_source"/>
+      </node>
+      <node id="2340">
+        <label>src/index.cpp</label>
+        <link refid="db/d14/index_8cpp"/>
+      </node>
+      <node id="2345">
+        <label>src/memberlist.cpp</label>
+        <link refid="d0/d14/memberlist_8cpp_source"/>
+      </node>
+      <node id="2334">
+        <label>src/docsets.cpp</label>
+        <link refid="d7/d8f/docsets_8cpp_source"/>
+      </node>
+      <node id="2329">
+        <label>src/groupdef.h</label>
+        <link refid="groupdef.h"/>
+        <childnode refid="2330" relation="include">
+        </childnode>
+        <childnode refid="2331" relation="include">
+        </childnode>
+        <childnode refid="2332" relation="include">
+        </childnode>
+        <childnode refid="2333" relation="include">
+        </childnode>
+        <childnode refid="2334" relation="include">
+        </childnode>
+        <childnode refid="2335" relation="include">
+        </childnode>
+        <childnode refid="2336" relation="include">
+        </childnode>
+        <childnode refid="2337" relation="include">
+        </childnode>
+        <childnode refid="2338" relation="include">
+        </childnode>
+        <childnode refid="2339" relation="include">
+        </childnode>
+        <childnode refid="2340" relation="include">
+        </childnode>
+        <childnode refid="2341" relation="include">
+        </childnode>
+        <childnode refid="2342" relation="include">
+        </childnode>
+        <childnode refid="2343" relation="include">
+        </childnode>
+        <childnode refid="2344" relation="include">
+        </childnode>
+        <childnode refid="2345" relation="include">
+        </childnode>
+        <childnode refid="2346" relation="include">
+        </childnode>
+        <childnode refid="2347" relation="include">
+        </childnode>
+        <childnode refid="2348" relation="include">
+        </childnode>
+        <childnode refid="2349" relation="include">
+        </childnode>
+        <childnode refid="2350" relation="include">
+        </childnode>
+        <childnode refid="2351" relation="include">
+        </childnode>
+        <childnode refid="2352" relation="include">
+        </childnode>
+        <childnode refid="2353" relation="include">
+        </childnode>
+      </node>
+      <node id="2339">
+        <label>src/htmlhelp.cpp</label>
+        <link refid="d3/d4b/htmlhelp_8cpp_source"/>
+      </node>
+      <node id="2330">
+        <label>src/classdef.cpp</label>
+        <link refid="de/d89/classdef_8cpp_source"/>
+      </node>
+      <node id="2341">
+        <label>src/latexgen.cpp</label>
+        <link refid="d4/d42/latexgen_8cpp_source"/>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="d8/d09/class_group_def" prot="public">GroupDef</innerclass>
+    <innerclass refid="d0/d32/class_group_s_dict" prot="public">GroupSDict</innerclass>
+    <innerclass refid="d3/d3b/class_group_list" prot="public">GroupList</innerclass>
+    <innerclass refid="df/dc4/class_group_list_iterator" prot="public">GroupListIterator</innerclass>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="d1/de6/groupdef_8h_1aacbc9b9a6828e743951314da8279a467" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void addClassToGroups</definition>
+        <argsstring>(Entry *root, ClassDef *cd)</argsstring>
+        <name>addClassToGroups</name>
+        <param>
+          <type><ref refid="d4/dd7/class_entry" kindref="compound">Entry</ref> *</type>
+          <declname>root</declname>
+        </param>
+        <param>
+          <type><ref refid="d1/dcf/class_class_def" kindref="compound">ClassDef</ref> *</type>
+          <declname>cd</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/groupdef.h" line="186" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/groupdef.cpp" bodystart="1168" bodyend="1184"/>
+      </memberdef>
+      <memberdef kind="function" id="d1/de6/groupdef_8h_1a3c64168cd233abda47f4314a367f23d5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void addNamespaceToGroups</definition>
+        <argsstring>(Entry *root, NamespaceDef *nd)</argsstring>
+        <name>addNamespaceToGroups</name>
+        <param>
+          <type><ref refid="d4/dd7/class_entry" kindref="compound">Entry</ref> *</type>
+          <declname>root</declname>
+        </param>
+        <param>
+          <type><ref refid="d0/d07/class_namespace_def" kindref="compound">NamespaceDef</ref> *</type>
+          <declname>nd</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/groupdef.h" line="187" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/groupdef.cpp" bodystart="1186" bodyend="1201"/>
+      </memberdef>
+      <memberdef kind="function" id="d1/de6/groupdef_8h_1aa7f48166a5a953a65dfbbff0069d276e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void addGroupToGroups</definition>
+        <argsstring>(Entry *root, GroupDef *subGroup)</argsstring>
+        <name>addGroupToGroups</name>
+        <param>
+          <type><ref refid="d4/dd7/class_entry" kindref="compound">Entry</ref> *</type>
+          <declname>root</declname>
+        </param>
+        <param>
+          <type><ref refid="d8/d09/class_group_def" kindref="compound">GroupDef</ref> *</type>
+          <declname>subGroup</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/groupdef.h" line="188" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/groupdef.cpp" bodystart="1221" bodyend="1242"/>
+      </memberdef>
+      <memberdef kind="function" id="d1/de6/groupdef_8h_1a37a6d5ee851ee7770f5672525e2469a6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void addMemberToGroups</definition>
+        <argsstring>(Entry *root, MemberDef *md)</argsstring>
+        <name>addMemberToGroups</name>
+        <param>
+          <type><ref refid="d4/dd7/class_entry" kindref="compound">Entry</ref> *</type>
+          <declname>root</declname>
+        </param>
+        <param>
+          <type><ref refid="da/d09/class_member_def" kindref="compound">MemberDef</ref> *</type>
+          <declname>md</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Add a member to the group with the highest priority </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/groupdef.h" line="189" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/groupdef.cpp" bodystart="1245" bodyend="1348"/>
+      </memberdef>
+      <memberdef kind="function" id="d1/de6/groupdef_8h_1abce2d2c7c8ba5fefb20bb16190d97935" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void addPageToGroups</definition>
+        <argsstring>(Entry *root, PageDef *pd)</argsstring>
+        <name>addPageToGroups</name>
+        <param>
+          <type><ref refid="d4/dd7/class_entry" kindref="compound">Entry</ref> *</type>
+          <declname>root</declname>
+        </param>
+        <param>
+          <type><ref refid="dd/d41/class_page_def" kindref="compound">PageDef</ref> *</type>
+          <declname>pd</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/groupdef.h" line="190"/>
+      </memberdef>
+      <memberdef kind="function" id="d1/de6/groupdef_8h_1abf7c2e3a36beeab9a0574a2bfb004399" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void addExampleToGroups</definition>
+        <argsstring>(Entry *root, PageDef *eg)</argsstring>
+        <name>addExampleToGroups</name>
+        <param>
+          <type><ref refid="d4/dd7/class_entry" kindref="compound">Entry</ref> *</type>
+          <declname>root</declname>
+        </param>
+        <param>
+          <type><ref refid="dd/d41/class_page_def" kindref="compound">PageDef</ref> *</type>
+          <declname>eg</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/groupdef.h" line="191" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/groupdef.cpp" bodystart="1351" bodyend="1365"/>
+      </memberdef>
+      <memberdef kind="function" id="d1/de6/groupdef_8h_1a2226eabfa9ef8ebccc5466224bf4a2db" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void addDirToGroups</definition>
+        <argsstring>(Entry *root, DirDef *dd)</argsstring>
+        <name>addDirToGroups</name>
+        <param>
+          <type><ref refid="d4/dd7/class_entry" kindref="compound">Entry</ref> *</type>
+          <declname>root</declname>
+        </param>
+        <param>
+          <type><ref refid="d4/dd4/class_dir_def" kindref="compound">DirDef</ref> *</type>
+          <declname>dd</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/groupdef.h" line="192" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/groupdef.cpp" bodystart="1203" bodyend="1219"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">/******************************************************************************</highlight></codeline>
+<codeline lineno="2"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="3"><highlight class="comment"><sp/>*<sp/>$Id:<sp/>groupdef.h,v<sp/>1.18<sp/>2001/03/19<sp/>19:27:40<sp/>root<sp/>Exp<sp/>$</highlight></codeline>
+<codeline lineno="4"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="5"><highlight class="comment"><sp/>*<sp/>Copyright<sp/>(C)<sp/>1997-2013<sp/>by<sp/>Dimitri<sp/>van<sp/>Heesch.</highlight></codeline>
+<codeline lineno="6"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="7"><highlight class="comment"><sp/>*<sp/>Permission<sp/>to<sp/>use,<sp/>copy,<sp/>modify,<sp/>and<sp/>distribute<sp/>this<sp/>software<sp/>and<sp/>its</highlight></codeline>
+<codeline lineno="8"><highlight class="comment"><sp/>*<sp/>documentation<sp/>under<sp/>the<sp/>terms<sp/>of<sp/>the<sp/>GNU<sp/>General<sp/>Public<sp/>License<sp/>is<sp/>hereby<sp/></highlight></codeline>
+<codeline lineno="9"><highlight class="comment"><sp/>*<sp/>granted.<sp/>No<sp/>representations<sp/>are<sp/>made<sp/>about<sp/>the<sp/>suitability<sp/>of<sp/>this<sp/>software<sp/></highlight></codeline>
+<codeline lineno="10"><highlight class="comment"><sp/>*<sp/>for<sp/>any<sp/>purpose.<sp/>It<sp/>is<sp/>provided<sp/>&quot;as<sp/>is&quot;<sp/>without<sp/>express<sp/>or<sp/>implied<sp/>warranty.</highlight></codeline>
+<codeline lineno="11"><highlight class="comment"><sp/>*<sp/>See<sp/>the<sp/>GNU<sp/>General<sp/>Public<sp/>License<sp/>for<sp/>more<sp/>details.</highlight></codeline>
+<codeline lineno="12"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="13"><highlight class="comment"><sp/>*<sp/>Documents<sp/>produced<sp/>by<sp/>Doxygen<sp/>are<sp/>derivative<sp/>works<sp/>derived<sp/>from<sp/>the</highlight></codeline>
+<codeline lineno="14"><highlight class="comment"><sp/>*<sp/>input<sp/>used<sp/>in<sp/>their<sp/>production;<sp/>they<sp/>are<sp/>not<sp/>affected<sp/>by<sp/>this<sp/>license.</highlight></codeline>
+<codeline lineno="15"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="16"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>GROUPDEF_H</highlight></codeline>
+<codeline lineno="19"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>GROUPDEF_H</highlight></codeline>
+<codeline lineno="20"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;sortdict.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;definition.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="dd/d13/class_member_list" kindref="compound" tooltip="A list of MemberDef objects.">MemberList</ref>;</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="d0/d18/class_file_list" kindref="compound" tooltip="Class representing a list of FileDef objects.">FileList</ref>;</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="d9/d3d/class_class_s_dict" kindref="compound" tooltip="A sorted dictionary of ClassDef objects.">ClassSDict</ref>;</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="de/db0/class_file_def" kindref="compound" tooltip="A model of a file symbol.">FileDef</ref>;</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="d1/dcf/class_class_def" kindref="compound" tooltip="A class representing of a compound symbol.">ClassDef</ref>;</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="d0/d07/class_namespace_def" kindref="compound" tooltip="A model of a namespace symbol.">NamespaceDef</ref>;</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="d3/d3b/class_group_list" kindref="compound" tooltip="A list of GroupDef objects.">GroupList</ref>;</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="df/dc8/class_output_list" kindref="compound" tooltip="Class representing a list of output generators that are written to in parallel.">OutputList</ref>;</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="d4/d8d/class_namespace_s_dict" kindref="compound" tooltip="A sorted dictionary of NamespaceDef objects.">NamespaceSDict</ref>;</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="dc/d1e/class_member_group_s_dict" kindref="compound" tooltip="A sorted dictionary of MemberGroup objects.">MemberGroupSDict</ref>;</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="d6/d70/class_member_name_info_s_dict" kindref="compound" tooltip="Sorted dictionary of MemberNameInfo objects.">MemberNameInfoSDict</ref>;</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="d0/d59/class_page_s_dict" kindref="compound">PageSDict</ref>;</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="dd/d41/class_page_def" kindref="compound" tooltip="A model of a page symbol.">PageDef</ref>;</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="d4/dd4/class_dir_def" kindref="compound" tooltip="A model of a directory symbol.">DirDef</ref>;</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="dc/d2a/class_dir_list" kindref="compound" tooltip="A list of directories.">DirList</ref>;</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="d6/d14/class_f_t_v_help" kindref="compound" tooltip="A class that generates a dynamic tree view side panel.">FTVHelp</ref>;</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="d4/dd7/class_entry" kindref="compound" tooltip="Represents an unstructured piece of information, about an entity found in the sources.">Entry</ref>;</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="da/d09/class_member_def" kindref="compound" tooltip="A model of a class/file/namespace member symbol.">MemberDef</ref>;</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"></highlight></codeline>
+<codeline lineno="44" refid="d8/d09/class_group_def" refkind="compound"><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="d8/d09/class_group_def" kindref="compound" tooltip="A model of a group of symbols.">GroupDef</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="d5/dcc/class_definition" kindref="compound" tooltip="The common base class of all entity definitions found in the sources.">Definition</ref></highlight></codeline>
+<codeline lineno="45"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="d8/d09/class_group_def" kindref="compound" tooltip="A model of a group of symbols.">GroupDef</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*fileName,</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>line,</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*<ref refid="d5/dcc/class_definition_1a99481361779e85f0c1556709de7d9e5b" kindref="member">name</ref>,</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*title,</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*refFileName=0);</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"><sp/><sp/><sp/>~<ref refid="d8/d09/class_group_def" kindref="compound" tooltip="A model of a group of symbols.">GroupDef</ref>();</highlight></codeline>
+<codeline lineno="49" refid="d8/d09/class_group_def_1a75fbb5366abdbbc1ef90f964abeea55f" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="d9/d4a/class_definition_intf_1ada60114bc621669dd8c19edfc6421766" kindref="member">DefType</ref><sp/><ref refid="d8/d09/class_group_def_1a75fbb5366abdbbc1ef90f964abeea55f" kindref="member">definitionType</ref>()</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>TypeGroup;<sp/>}</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"><sp/><sp/><sp/><sp/>QCString<sp/><ref refid="d8/d09/class_group_def_1a67914ef80cfb1958b5b5f36b13866b83" kindref="member">getOutputFileBase</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="51" refid="d8/d09/class_group_def_1aa294001ba3e3fd87339f24124b46a02e" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>QCString<sp/><ref refid="d8/d09/class_group_def_1aa294001ba3e3fd87339f24124b46a02e" kindref="member">anchor</ref>()</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>QCString();<sp/>}</highlight></codeline>
+<codeline lineno="52" refid="d8/d09/class_group_def_1a587ccab5939fb33a5630fdadaf0a271d" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>QCString<sp/><ref refid="d8/d09/class_group_def_1a587ccab5939fb33a5630fdadaf0a271d" kindref="member">displayName</ref>(</highlight><highlight class="keywordtype">bool</highlight><highlight class="normal">=TRUE)</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>hasGroupTitle()<sp/>?<sp/>title<sp/>:<sp/><ref refid="d5/dcc/class_definition_1a99481361779e85f0c1556709de7d9e5b" kindref="member">Definition::name</ref>();<sp/>}</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*groupTitle()</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>title;<sp/>}</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>setGroupTitle(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*newtitle<sp/>);</highlight></codeline>
+<codeline lineno="55"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>hasGroupTitle(<sp/>)</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>titleSet;<sp/>}</highlight></codeline>
+<codeline lineno="56"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>addFile(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="de/db0/class_file_def" kindref="compound" tooltip="A model of a file symbol.">FileDef</ref><sp/>*def);<sp/></highlight></codeline>
+<codeline lineno="57"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>addClass(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="d1/dcf/class_class_def" kindref="compound" tooltip="A class representing of a compound symbol.">ClassDef</ref><sp/>*def);</highlight></codeline>
+<codeline lineno="58"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>addNamespace(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="d0/d07/class_namespace_def" kindref="compound" tooltip="A model of a namespace symbol.">NamespaceDef</ref><sp/>*def);</highlight></codeline>
+<codeline lineno="59"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>addGroup(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="d8/d09/class_group_def" kindref="compound" tooltip="A model of a group of symbols.">GroupDef</ref><sp/>*def);</highlight></codeline>
+<codeline lineno="60"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>addParentGroup(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="d8/d09/class_group_def" kindref="compound" tooltip="A model of a group of symbols.">GroupDef</ref><sp/>*def);</highlight></codeline>
+<codeline lineno="61"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>addPage(<ref refid="dd/d41/class_page_def" kindref="compound" tooltip="A model of a page symbol.">PageDef</ref><sp/>*def);</highlight></codeline>
+<codeline lineno="62"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>addExample(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="dd/d41/class_page_def" kindref="compound" tooltip="A model of a page symbol.">PageDef</ref><sp/>*def);</highlight></codeline>
+<codeline lineno="63"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>addDir(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="d4/dd4/class_dir_def" kindref="compound" tooltip="A model of a directory symbol.">DirDef</ref><sp/>*dd);</highlight></codeline>
+<codeline lineno="64"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>insertMember(<ref refid="da/d09/class_member_def" kindref="compound" tooltip="A model of a class/file/namespace member symbol.">MemberDef</ref><sp/>*def,</highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>docOnly=FALSE);</highlight></codeline>
+<codeline lineno="65"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>removeMember(<ref refid="da/d09/class_member_def" kindref="compound" tooltip="A model of a class/file/namespace member symbol.">MemberDef</ref><sp/>*md);</highlight></codeline>
+<codeline lineno="66"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>containsGroup(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="d8/d09/class_group_def" kindref="compound" tooltip="A model of a group of symbols.">GroupDef</ref><sp/>*def);<sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>true<sp/>if<sp/>def<sp/>is<sp/>already<sp/>a<sp/>subgroup</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="67"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>writeDocumentation(<ref refid="df/dc8/class_output_list" kindref="compound" tooltip="Class representing a list of output generators that are written to in parallel.">OutputList</ref><sp/>&amp;ol);</highlight></codeline>
+<codeline lineno="68"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>writeMemberPages(<ref refid="df/dc8/class_output_list" kindref="compound" tooltip="Class representing a list of output generators that are written to in parallel.">OutputList</ref><sp/>&amp;ol);</highlight></codeline>
+<codeline lineno="69"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>writeQuickMemberLinks(<ref refid="df/dc8/class_output_list" kindref="compound" tooltip="Class representing a list of output generators that are written to in parallel.">OutputList</ref><sp/>&amp;ol,<ref refid="da/d09/class_member_def" kindref="compound" tooltip="A model of a class/file/namespace member symbol.">MemberDef</ref><sp/>*currentMd)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="70"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><sp/>countMembers()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="71"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="d8/d09/class_group_def_1a98828f19954df2fbc8ca02df434edab2" kindref="member">isLinkableInProject</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="72"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="d8/d09/class_group_def_1a9338f966e744542f22c5bbc630b80f95" kindref="member">isLinkable</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="73"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>isASubGroup()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="74"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="d8/d09/class_group_def_1a2b3099f398ccdb867feab801bcb970cd" kindref="member">computeAnchors</ref>();</highlight></codeline>
+<codeline lineno="75"><highlight class="normal"></highlight></codeline>
+<codeline lineno="76"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>addMembersToMemberGroup();</highlight></codeline>
+<codeline lineno="77"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>distributeMemberGroupDocumentation();</highlight></codeline>
+<codeline lineno="78"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>findSectionsInDocumentation();</highlight></codeline>
+<codeline lineno="79"><highlight class="normal"></highlight></codeline>
+<codeline lineno="80"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>addListReferences();</highlight></codeline>
+<codeline lineno="81"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>sortMemberLists();</highlight></codeline>
+<codeline lineno="82"><highlight class="normal"></highlight></codeline>
+<codeline lineno="83"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>visited;<sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>number<sp/>of<sp/>times<sp/>accessed<sp/>for<sp/>output<sp/>-<sp/>KPW</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="84"><highlight class="normal"></highlight></codeline>
+<codeline lineno="85"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//friend<sp/>void<sp/>writeGroupTreeNode(OutputList&amp;,<sp/>GroupDef*,<sp/>int,<sp/>FTVHelp*);<sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="86"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>make<sp/>accessible<sp/>for<sp/>writing<sp/>tree<sp/>view<sp/>of<sp/>group<sp/>in<sp/>index.cpp<sp/>-<sp/>KPW</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="87"><highlight class="normal"></highlight></codeline>
+<codeline lineno="88"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>setGroupScope(<ref refid="d5/dcc/class_definition" kindref="compound" tooltip="The common base class of all entity definitions found in the sources.">Definition</ref><sp/>*d)<sp/>{<sp/>groupScope<sp/>=<sp/>d;<sp/>}</highlight></codeline>
+<codeline lineno="89"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="d5/dcc/class_definition" kindref="compound" tooltip="The common base class of all entity definitions found in the sources.">Definition</ref><sp/>*getGroupScope()</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>groupScope;<sp/>}</highlight></codeline>
+<codeline lineno="90"><highlight class="normal"></highlight></codeline>
+<codeline lineno="91"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="dd/d13/class_member_list" kindref="compound" tooltip="A list of MemberDef objects.">MemberList</ref><sp/>*getMemberList(MemberListType<sp/>lt)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="92"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="db/daa/class_q_list" kindref="compound">QList&lt;MemberList&gt;</ref><sp/>&amp;getMemberLists()</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>m_memberLists;<sp/>}</highlight></codeline>
+<codeline lineno="93"><highlight class="normal"></highlight></codeline>
+<codeline lineno="94"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>user<sp/>defined<sp/>member<sp/>groups<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="95"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="dc/d1e/class_member_group_s_dict" kindref="compound" tooltip="A sorted dictionary of MemberGroup objects.">MemberGroupSDict</ref><sp/>*getMemberGroupSDict()</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>memberGroupSDict;<sp/>}</highlight></codeline>
+<codeline lineno="96"><highlight class="normal"></highlight></codeline>
+<codeline lineno="97"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="d0/d18/class_file_list" kindref="compound" tooltip="Class representing a list of FileDef objects.">FileList</ref><sp/>*<sp/><sp/><sp/><sp/><sp/><sp/>getFiles()</highlight><highlight class="keyword"><sp/>const<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="normal">{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>fileList;<sp/>}</highlight></codeline>
+<codeline lineno="98"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="d9/d3d/class_class_s_dict" kindref="compound" tooltip="A sorted dictionary of ClassDef objects.">ClassSDict</ref><sp/>*<sp/><sp/><sp/><sp/>getClasses()</highlight><highlight class="keyword"><sp/>const<sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="normal">{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>classSDict;<sp/>}</highlight></codeline>
+<codeline lineno="99"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="d4/d8d/class_namespace_s_dict" kindref="compound" tooltip="A sorted dictionary of NamespaceDef objects.">NamespaceSDict</ref><sp/>*<sp/>getNamespaces()</highlight><highlight class="keyword"><sp/>const<sp/><sp/><sp/></highlight><highlight class="normal">{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>namespaceSDict;<sp/>}</highlight></codeline>
+<codeline lineno="100"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="d3/d3b/class_group_list" kindref="compound" tooltip="A list of GroupDef objects.">GroupList</ref><sp/>*<sp/><sp/><sp/><sp/><sp/>getSubGroups()</highlight><highlight class="keyword"><sp/>const<sp/><sp/><sp/><sp/></highlight><highlight class="normal">{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>groupList;<sp/>}</highlight></codeline>
+<codeline lineno="101"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="d0/d59/class_page_s_dict" kindref="compound">PageSDict</ref><sp/>*<sp/><sp/><sp/><sp/><sp/>getPages()</highlight><highlight class="keyword"><sp/>const<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="normal">{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>pageDict;<sp/>}</highlight></codeline>
+<codeline lineno="102"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="dc/d2a/class_dir_list" kindref="compound" tooltip="A list of directories.">DirList</ref><sp/>*<sp/><sp/><sp/><sp/><sp/><sp/><sp/>getDirs()</highlight><highlight class="keyword"><sp/>const<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="normal">{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>dirList;<sp/>}</highlight></codeline>
+<codeline lineno="103"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="d0/d59/class_page_s_dict" kindref="compound">PageSDict</ref><sp/>*<sp/><sp/><sp/><sp/><sp/>getExamples()</highlight><highlight class="keyword"><sp/>const<sp/><sp/><sp/><sp/><sp/></highlight><highlight class="normal">{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>exampleDict;<sp/>}</highlight></codeline>
+<codeline lineno="104"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//MemberList*<sp/><sp/><sp/><sp/><sp/>getMembers()<sp/>const<sp/><sp/><sp/><sp/><sp/><sp/>{<sp/>return<sp/>allMemberList;<sp/>}</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="105"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>sortSubGroups();</highlight></codeline>
+<codeline lineno="106"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="107"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">protected</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="108"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>addMemberListToGroup(<ref refid="dd/d13/class_member_list" kindref="compound" tooltip="A list of MemberDef objects.">MemberList</ref><sp/>*,</highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>(<ref refid="da/d09/class_member_def" kindref="compound" tooltip="A model of a class/file/namespace member symbol.">MemberDef</ref>::*)()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="109"><highlight class="normal"></highlight></codeline>
+<codeline lineno="110"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal">:<sp/></highlight></codeline>
+<codeline lineno="111"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="dd/d13/class_member_list" kindref="compound" tooltip="A list of MemberDef objects.">MemberList</ref><sp/>*createMemberList(MemberListType<sp/>lt);</highlight></codeline>
+<codeline lineno="112"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>addMemberToList(MemberListType<sp/>lt,<ref refid="da/d09/class_member_def" kindref="compound" tooltip="A model of a class/file/namespace member symbol.">MemberDef</ref><sp/>*md);</highlight></codeline>
+<codeline lineno="113"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>writeMemberDeclarations(<ref refid="df/dc8/class_output_list" kindref="compound" tooltip="Class representing a list of output generators that are written to in parallel.">OutputList</ref><sp/>&amp;ol,MemberListType<sp/>lt,</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QCString<sp/>&amp;title);</highlight></codeline>
+<codeline lineno="114"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>writeMemberDocumentation(<ref refid="df/dc8/class_output_list" kindref="compound" tooltip="Class representing a list of output generators that are written to in parallel.">OutputList</ref><sp/>&amp;ol,MemberListType<sp/>lt,</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QCString<sp/>&amp;title);</highlight></codeline>
+<codeline lineno="115"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>removeMemberFromList(MemberListType<sp/>lt,<ref refid="da/d09/class_member_def" kindref="compound" tooltip="A model of a class/file/namespace member symbol.">MemberDef</ref><sp/>*md);</highlight></codeline>
+<codeline lineno="116"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>writeGroupGraph(<ref refid="df/dc8/class_output_list" kindref="compound" tooltip="Class representing a list of output generators that are written to in parallel.">OutputList</ref><sp/>&amp;ol);</highlight></codeline>
+<codeline lineno="117"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>writeFiles(<ref refid="df/dc8/class_output_list" kindref="compound" tooltip="Class representing a list of output generators that are written to in parallel.">OutputList</ref><sp/>&amp;ol,</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QCString<sp/>&amp;title);</highlight></codeline>
+<codeline lineno="118"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>writeNamespaces(<ref refid="df/dc8/class_output_list" kindref="compound" tooltip="Class representing a list of output generators that are written to in parallel.">OutputList</ref><sp/>&amp;ol,</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QCString<sp/>&amp;title);</highlight></codeline>
+<codeline lineno="119"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>writeNestedGroups(<ref refid="df/dc8/class_output_list" kindref="compound" tooltip="Class representing a list of output generators that are written to in parallel.">OutputList</ref><sp/>&amp;ol,</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QCString<sp/>&amp;title);</highlight></codeline>
+<codeline lineno="120"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>writeDirs(<ref refid="df/dc8/class_output_list" kindref="compound" tooltip="Class representing a list of output generators that are written to in parallel.">OutputList</ref><sp/>&amp;ol,</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QCString<sp/>&amp;title);</highlight></codeline>
+<codeline lineno="121"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>writeClasses(<ref refid="df/dc8/class_output_list" kindref="compound" tooltip="Class representing a list of output generators that are written to in parallel.">OutputList</ref><sp/>&amp;ol,</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QCString<sp/>&amp;title);</highlight></codeline>
+<codeline lineno="122"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>writeInlineClasses(<ref refid="df/dc8/class_output_list" kindref="compound" tooltip="Class representing a list of output generators that are written to in parallel.">OutputList</ref><sp/>&amp;ol);</highlight></codeline>
+<codeline lineno="123"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>writePageDocumentation(<ref refid="df/dc8/class_output_list" kindref="compound" tooltip="Class representing a list of output generators that are written to in parallel.">OutputList</ref><sp/>&amp;ol);</highlight></codeline>
+<codeline lineno="124"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>writeDetailedDescription(<ref refid="df/dc8/class_output_list" kindref="compound" tooltip="Class representing a list of output generators that are written to in parallel.">OutputList</ref><sp/>&amp;ol,</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QCString<sp/>&amp;title);</highlight></codeline>
+<codeline lineno="125"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>writeBriefDescription(<ref refid="df/dc8/class_output_list" kindref="compound" tooltip="Class representing a list of output generators that are written to in parallel.">OutputList</ref><sp/>&amp;ol);</highlight></codeline>
+<codeline lineno="126"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>writeMemberGroups(<ref refid="df/dc8/class_output_list" kindref="compound" tooltip="Class representing a list of output generators that are written to in parallel.">OutputList</ref><sp/>&amp;ol);</highlight></codeline>
+<codeline lineno="127"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>startMemberDeclarations(<ref refid="df/dc8/class_output_list" kindref="compound" tooltip="Class representing a list of output generators that are written to in parallel.">OutputList</ref><sp/>&amp;ol);</highlight></codeline>
+<codeline lineno="128"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>endMemberDeclarations(<ref refid="df/dc8/class_output_list" kindref="compound" tooltip="Class representing a list of output generators that are written to in parallel.">OutputList</ref><sp/>&amp;ol);</highlight></codeline>
+<codeline lineno="129"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>startMemberDocumentation(<ref refid="df/dc8/class_output_list" kindref="compound" tooltip="Class representing a list of output generators that are written to in parallel.">OutputList</ref><sp/>&amp;ol);</highlight></codeline>
+<codeline lineno="130"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>endMemberDocumentation(<ref refid="df/dc8/class_output_list" kindref="compound" tooltip="Class representing a list of output generators that are written to in parallel.">OutputList</ref><sp/>&amp;ol);</highlight></codeline>
+<codeline lineno="131"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>writeAuthorSection(<ref refid="df/dc8/class_output_list" kindref="compound" tooltip="Class representing a list of output generators that are written to in parallel.">OutputList</ref><sp/>&amp;ol);</highlight></codeline>
+<codeline lineno="132"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>writeSummaryLinks(<ref refid="df/dc8/class_output_list" kindref="compound" tooltip="Class representing a list of output generators that are written to in parallel.">OutputList</ref><sp/>&amp;ol);</highlight></codeline>
+<codeline lineno="133"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>updateLanguage(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="d5/dcc/class_definition" kindref="compound" tooltip="The common base class of all entity definitions found in the sources.">Definition</ref><sp/>*);</highlight></codeline>
+<codeline lineno="134"><highlight class="normal"></highlight></codeline>
+<codeline lineno="135"><highlight class="normal"><sp/><sp/><sp/><sp/>QCString<sp/>title;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>title<sp/>of<sp/>the<sp/>group</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="136"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>titleSet;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>true<sp/>if<sp/>title<sp/>is<sp/>not<sp/>the<sp/>same<sp/>as<sp/>the<sp/>name</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="137"><highlight class="normal"><sp/><sp/><sp/><sp/>QCString<sp/>fileName;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>base<sp/>name<sp/>of<sp/>the<sp/>generated<sp/>file</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="138"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="d0/d18/class_file_list" kindref="compound" tooltip="Class representing a list of FileDef objects.">FileList</ref><sp/>*fileList;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>list<sp/>of<sp/>files<sp/>in<sp/>the<sp/>group</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="139"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="d9/d3d/class_class_s_dict" kindref="compound" tooltip="A sorted dictionary of ClassDef objects.">ClassSDict</ref><sp/>*classSDict;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>list<sp/>of<sp/>classes<sp/>in<sp/>the<sp/>group</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="140"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="d4/d8d/class_namespace_s_dict" kindref="compound" tooltip="A sorted dictionary of NamespaceDef objects.">NamespaceSDict</ref><sp/>*namespaceSDict;<sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>list<sp/>of<sp/>namespaces<sp/>in<sp/>the<sp/>group</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="141"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="d3/d3b/class_group_list" kindref="compound" tooltip="A list of GroupDef objects.">GroupList</ref><sp/>*groupList;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>list<sp/>of<sp/>sub<sp/>groups.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="142"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="d0/d59/class_page_s_dict" kindref="compound">PageSDict</ref><sp/>*pageDict;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>list<sp/>of<sp/>pages<sp/>in<sp/>the<sp/>group</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="143"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="d0/d59/class_page_s_dict" kindref="compound">PageSDict</ref><sp/>*exampleDict;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>list<sp/>of<sp/>examples<sp/>in<sp/>the<sp/>group</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="144"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="dc/d2a/class_dir_list" kindref="compound" tooltip="A list of directories.">DirList</ref><sp/>*dirList;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>list<sp/>of<sp/>directories<sp/>in<sp/>the<sp/>group</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="145"><highlight class="normal"></highlight></codeline>
+<codeline lineno="146"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="dd/d13/class_member_list" kindref="compound" tooltip="A list of MemberDef objects.">MemberList</ref><sp/>*allMemberList;</highlight></codeline>
+<codeline lineno="147"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="d6/d70/class_member_name_info_s_dict" kindref="compound" tooltip="Sorted dictionary of MemberNameInfo objects.">MemberNameInfoSDict</ref><sp/>*allMemberNameInfoSDict;</highlight></codeline>
+<codeline lineno="148"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="149"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="d5/dcc/class_definition" kindref="compound" tooltip="The common base class of all entity definitions found in the sources.">Definition</ref><sp/>*groupScope;</highlight></codeline>
+<codeline lineno="150"><highlight class="normal"></highlight></codeline>
+<codeline lineno="151"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="db/daa/class_q_list" kindref="compound">QList&lt;MemberList&gt;</ref><sp/>m_memberLists;</highlight></codeline>
+<codeline lineno="152"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="dc/d1e/class_member_group_s_dict" kindref="compound" tooltip="A sorted dictionary of MemberGroup objects.">MemberGroupSDict</ref><sp/>*memberGroupSDict;</highlight></codeline>
+<codeline lineno="153"><highlight class="normal"></highlight></codeline>
+<codeline lineno="154"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="155"><highlight class="normal"></highlight></codeline>
+<codeline lineno="157" refid="d0/d32/class_group_s_dict" refkind="compound"><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="d0/d32/class_group_s_dict" kindref="compound" tooltip="A sorted dictionary of GroupDef objects.">GroupSDict</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="d1/d50/class_s_dict" kindref="compound" tooltip="Ordered dictionary of elements of type T.">SDict</ref>&lt;GroupDef&gt;</highlight></codeline>
+<codeline lineno="158"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="159"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="160"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="d0/d32/class_group_s_dict" kindref="compound" tooltip="A sorted dictionary of GroupDef objects.">GroupSDict</ref>(uint<sp/>size)<sp/>:<sp/><ref refid="d1/d50/class_s_dict" kindref="compound">SDict&lt;GroupDef&gt;</ref>(size)<sp/>{}</highlight></codeline>
+<codeline lineno="161"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/>~<ref refid="d0/d32/class_group_s_dict" kindref="compound" tooltip="A sorted dictionary of GroupDef objects.">GroupSDict</ref>()<sp/>{}</highlight></codeline>
+<codeline lineno="162" refid="d0/d32/class_group_s_dict_1ab250223c344e6dfd2891fee59f1520d9" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="d0/d32/class_group_s_dict_1ab250223c344e6dfd2891fee59f1520d9" kindref="member">compareItems</ref>(QCollection::Item<sp/>item1,QCollection::Item<sp/>item2)</highlight></codeline>
+<codeline lineno="163"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="164"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>qstrcmp(((<ref refid="d8/d09/class_group_def" kindref="compound" tooltip="A model of a group of symbols.">GroupDef</ref>*)item1)-&gt;groupTitle(),((<ref refid="d8/d09/class_group_def" kindref="compound" tooltip="A model of a group of symbols.">GroupDef</ref>*)item2)-&gt;groupTitle());</highlight></codeline>
+<codeline lineno="165"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="166"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="167"><highlight class="normal"></highlight></codeline>
+<codeline lineno="169" refid="d3/d3b/class_group_list" refkind="compound"><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="d3/d3b/class_group_list" kindref="compound" tooltip="A list of GroupDef objects.">GroupList</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="db/daa/class_q_list" kindref="compound">QList</ref>&lt;GroupDef&gt;</highlight></codeline>
+<codeline lineno="170"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="171"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="172"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>compareItems(QCollection::Item<sp/>item1,QCollection::Item<sp/>item2)</highlight></codeline>
+<codeline lineno="173"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="174"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>qstrcmp(((<ref refid="d8/d09/class_group_def" kindref="compound" tooltip="A model of a group of symbols.">GroupDef</ref>*)item1)-&gt;groupTitle(),((<ref refid="d8/d09/class_group_def" kindref="compound" tooltip="A model of a group of symbols.">GroupDef</ref>*)item2)-&gt;groupTitle());</highlight></codeline>
+<codeline lineno="175"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="176"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="177"><highlight class="normal"></highlight></codeline>
+<codeline lineno="179" refid="df/dc4/class_group_list_iterator" refkind="compound"><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="df/dc4/class_group_list_iterator" kindref="compound" tooltip="An iterator for GroupDef objects in a GroupList.">GroupListIterator</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/>QListIterator&lt;GroupDef&gt;</highlight></codeline>
+<codeline lineno="180"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="181"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="182"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="df/dc4/class_group_list_iterator" kindref="compound" tooltip="An iterator for GroupDef objects in a GroupList.">GroupListIterator</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="d3/d3b/class_group_list" kindref="compound" tooltip="A list of GroupDef objects.">GroupList</ref><sp/>&amp;l)<sp/>:<sp/>QListIterator&lt;GroupDef&gt;(l)<sp/>{}</highlight></codeline>
+<codeline lineno="183"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/>~<ref refid="df/dc4/class_group_list_iterator" kindref="compound" tooltip="An iterator for GroupDef objects in a GroupList.">GroupListIterator</ref>()<sp/>{}</highlight></codeline>
+<codeline lineno="184"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="185"><highlight class="normal"></highlight></codeline>
+<codeline lineno="186"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>addClassToGroups(<ref refid="d4/dd7/class_entry" kindref="compound" tooltip="Represents an unstructured piece of information, about an entity found in the sources.">Entry</ref><sp/>*root,<ref refid="d1/dcf/class_class_def" kindref="compound" tooltip="A class representing of a compound symbol.">ClassDef</ref><sp/>*cd);</highlight></codeline>
+<codeline lineno="187"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>addNamespaceToGroups(<ref refid="d4/dd7/class_entry" kindref="compound" tooltip="Represents an unstructured piece of information, about an entity found in the sources.">Entry</ref><sp/>*root,<ref refid="d0/d07/class_namespace_def" kindref="compound" tooltip="A model of a namespace symbol.">NamespaceDef</ref><sp/>*nd);</highlight></codeline>
+<codeline lineno="188"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>addGroupToGroups(<ref refid="d4/dd7/class_entry" kindref="compound" tooltip="Represents an unstructured piece of information, about an entity found in the sources.">Entry</ref><sp/>*root,<ref refid="d8/d09/class_group_def" kindref="compound" tooltip="A model of a group of symbols.">GroupDef</ref><sp/>*subGroup);</highlight></codeline>
+<codeline lineno="189"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>addMemberToGroups(<ref refid="d4/dd7/class_entry" kindref="compound" tooltip="Represents an unstructured piece of information, about an entity found in the sources.">Entry</ref><sp/>*root,<ref refid="da/d09/class_member_def" kindref="compound" tooltip="A model of a class/file/namespace member symbol.">MemberDef</ref><sp/>*md);</highlight></codeline>
+<codeline lineno="190"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>addPageToGroups(<ref refid="d4/dd7/class_entry" kindref="compound" tooltip="Represents an unstructured piece of information, about an entity found in the sources.">Entry</ref><sp/>*root,<ref refid="dd/d41/class_page_def" kindref="compound" tooltip="A model of a page symbol.">PageDef</ref><sp/>*pd);</highlight></codeline>
+<codeline lineno="191"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>addExampleToGroups(<ref refid="d4/dd7/class_entry" kindref="compound" tooltip="Represents an unstructured piece of information, about an entity found in the sources.">Entry</ref><sp/>*root,<ref refid="dd/d41/class_page_def" kindref="compound" tooltip="A model of a page symbol.">PageDef</ref><sp/>*eg);</highlight></codeline>
+<codeline lineno="192"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>addDirToGroups(<ref refid="d4/dd7/class_entry" kindref="compound" tooltip="Represents an unstructured piece of information, about an entity found in the sources.">Entry</ref><sp/>*root,<ref refid="d4/dd4/class_dir_def" kindref="compound" tooltip="A model of a directory symbol.">DirDef</ref><sp/>*dd);</highlight></codeline>
+<codeline lineno="193"><highlight class="normal"></highlight></codeline>
+<codeline lineno="194"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+<codeline lineno="195"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/groupdef.h"/>
+  </compounddef>
+</doxygen>

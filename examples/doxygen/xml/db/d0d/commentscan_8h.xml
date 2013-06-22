@@ -1,0 +1,406 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.2">
+  <compounddef id="db/d0d/commentscan_8h" kind="file">
+    <compoundname>commentscan.h</compoundname>
+    <includes refid="d9/d49/types_8h" local="yes">types.h</includes>
+    <includedby refid="d1/d70/dbusxmlscanner_8cpp" local="yes">src/dbusxmlscanner.cpp</includedby>
+    <includedby refid="de/d04/markdown_8cpp" local="yes">src/markdown.cpp</includedby>
+    <includedby refid="de/dea/vhdldocgen_8cpp" local="yes">src/vhdldocgen.cpp</includedby>
+    <incdepgraph>
+      <node id="627">
+        <label>qcstring.h</label>
+      </node>
+      <node id="626">
+        <label>types.h</label>
+        <link refid="d9/d49/types_8h"/>
+        <childnode refid="627" relation="include">
+        </childnode>
+      </node>
+      <node id="625">
+        <label>src/commentscan.h</label>
+        <link refid="commentscan.h"/>
+        <childnode refid="626" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="631">
+        <label>src/vhdldocgen.cpp</label>
+        <link refid="de/dea/vhdldocgen_8cpp_source"/>
+      </node>
+      <node id="629">
+        <label>src/dbusxmlscanner.cpp</label>
+        <link refid="d1/d70/dbusxmlscanner_8cpp_source"/>
+      </node>
+      <node id="630">
+        <label>src/markdown.cpp</label>
+        <link refid="de/d04/markdown_8cpp_source"/>
+      </node>
+      <node id="628">
+        <label>src/commentscan.h</label>
+        <link refid="commentscan.h"/>
+        <childnode refid="629" relation="include">
+        </childnode>
+        <childnode refid="630" relation="include">
+        </childnode>
+        <childnode refid="631" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="db/d0d/commentscan_8h_1aca4d7871b4c0228f614cb1433ba15e86" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool parseCommentBlock</definition>
+        <argsstring>(ParserInterface *parser, Entry *curEntry, const QCString &amp;comment, const QCString &amp;fileName, int &amp;lineNr, bool isBrief, bool isJavaDocStyle, bool isInbody, Protection &amp;prot, int &amp;position, bool &amp;newEntryNeeded)</argsstring>
+        <name>parseCommentBlock</name>
+        <param>
+          <type><ref refid="d5/d84/class_parser_interface" kindref="compound">ParserInterface</ref> *</type>
+          <declname>parser</declname>
+        </param>
+        <param>
+          <type><ref refid="d4/dd7/class_entry" kindref="compound">Entry</ref> *</type>
+          <declname>curEntry</declname>
+        </param>
+        <param>
+          <type>const QCString &amp;</type>
+          <declname>comment</declname>
+        </param>
+        <param>
+          <type>const QCString &amp;</type>
+          <declname>fileName</declname>
+        </param>
+        <param>
+          <type>int &amp;</type>
+          <declname>lineNr</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>isBrief</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>isJavaDocStyle</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>isInbody</declname>
+        </param>
+        <param>
+          <type><ref refid="d9/d49/types_8h_1a90e352184df58cd09455fe9996cd4ded" kindref="member">Protection</ref> &amp;</type>
+          <declname>prot</declname>
+        </param>
+        <param>
+          <type>int &amp;</type>
+          <declname>position</declname>
+        </param>
+        <param>
+          <type>bool &amp;</type>
+          <declname>newEntryNeeded</declname>
+        </param>
+        <briefdescription>
+<para>Invokes the comment block parser with the request to parse a single comment block. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">parser</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The language parse that invoked this function. The comment block parse may invoke <ref refid="d5/d84/class_parser_interface_1a5ebf0f524a296845befa22c85a4cc80b" kindref="member">ParserInterface::parsePrototype()</ref> in order to parse the argument of a @fn command. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">curEntry</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The <ref refid="d4/dd7/class_entry" kindref="compound">Entry</ref> to which the comment block belongs. Any information (like documentation) that is found in the comment block will be stored in this entry. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">comment</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>A string representing the actual comment block. Note that leading *&apos;s are already stripped from the comment block. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">fileName</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The name of the file in which the comment is found. Mainly used for producing warnings. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="inout">lineNr</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The line number at which the comment block was found. When the function returns it will be set to the last line parsed. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">isBrief</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>TRUE iff this comment block represents a brief description. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">isJavaDocStyle</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>TRUE iff this comment block is in &quot;JavaDoc&quot; style. This means that it starts as a brief description until the end of the sentences is found and then proceeds as a detailed description. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">isInbody</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>TRUE iff this comment block is located in the body of a function. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="inout">prot</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The protection level in which this comment block was found. Commands in the comment block may override this. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="inout">position</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The character position within <emphasis>comment</emphasis> where the comment block starts. Typically used in case the comment block contains multiple structural commands. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="out">newEntryNeeded</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Boolean that is TRUE if the comment block parser finds that a the comment block finishes the entry and a new one needs to be started. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>TRUE if the comment requires further processing. The parameter <emphasis>newEntryNeeded</emphasis> will typically be true in this case and <emphasis>position</emphasis> will indicate the offset inside the <emphasis>comment</emphasis> string where to proceed parsing. FALSE indicates no further processing is needed. </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/commentscan.h" line="73"/>
+        <referencedby refid="d9/d8f/class_markdown_file_parser_1a56e4994924ce8ac7710e2a1da0f98807" compoundref="de/d04/markdown_8cpp" startline="2255" endline="2339">MarkdownFileParser::parseInput</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="db/d0d/commentscan_8h_1a784a26ba150a04f770cb35dba812edea" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void groupEnterFile</definition>
+        <argsstring>(const char *file, int line)</argsstring>
+        <name>groupEnterFile</name>
+        <param>
+          <type>const char *</type>
+          <declname>file</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>line</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/commentscan.h" line="75"/>
+      </memberdef>
+      <memberdef kind="function" id="db/d0d/commentscan_8h_1acf94b1844e3e1f80575b2687cdd24a71" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void groupLeaveFile</definition>
+        <argsstring>(const char *file, int line)</argsstring>
+        <name>groupLeaveFile</name>
+        <param>
+          <type>const char *</type>
+          <declname>file</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>line</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/commentscan.h" line="76"/>
+      </memberdef>
+      <memberdef kind="function" id="db/d0d/commentscan_8h_1aa703c5a634cfe0624b1166f5978b1c24" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void groupLeaveCompound</definition>
+        <argsstring>(const char *file, int line, const char *name)</argsstring>
+        <name>groupLeaveCompound</name>
+        <param>
+          <type>const char *</type>
+          <declname>file</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>line</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>name</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/commentscan.h" line="77"/>
+      </memberdef>
+      <memberdef kind="function" id="db/d0d/commentscan_8h_1a09c779adc7ad8c649b9176fdf7904733" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void groupEnterCompound</definition>
+        <argsstring>(const char *file, int line, const char *name)</argsstring>
+        <name>groupEnterCompound</name>
+        <param>
+          <type>const char *</type>
+          <declname>file</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>line</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>name</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/commentscan.h" line="78"/>
+      </memberdef>
+      <memberdef kind="function" id="db/d0d/commentscan_8h_1a70e2168f3559ef190af82a87e6e4f79f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void openGroup</definition>
+        <argsstring>(Entry *e, const char *file, int line)</argsstring>
+        <name>openGroup</name>
+        <param>
+          <type><ref refid="d4/dd7/class_entry" kindref="compound">Entry</ref> *</type>
+          <declname>e</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>file</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>line</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/commentscan.h" line="79"/>
+      </memberdef>
+      <memberdef kind="function" id="db/d0d/commentscan_8h_1aa8ed2b35ec6d6c79096e91b87c4b8793" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void closeGroup</definition>
+        <argsstring>(Entry *, const char *file, int line, bool foundInline=FALSE)</argsstring>
+        <name>closeGroup</name>
+        <param>
+          <type><ref refid="d4/dd7/class_entry" kindref="compound">Entry</ref> *</type>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>file</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>line</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>foundInline</declname>
+          <defval>FALSE</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/commentscan.h" line="80"/>
+      </memberdef>
+      <memberdef kind="function" id="db/d0d/commentscan_8h_1a99b413d09d13ba1181cf5850c25bf235" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void initGroupInfo</definition>
+        <argsstring>(Entry *e)</argsstring>
+        <name>initGroupInfo</name>
+        <param>
+          <type><ref refid="d4/dd7/class_entry" kindref="compound">Entry</ref> *</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/commentscan.h" line="81"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Interface for the comment block parser. </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">/******************************************************************************</highlight></codeline>
+<codeline lineno="2"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="3"><highlight class="comment"><sp/>*<sp/>Copyright<sp/>(C)<sp/>1997-2013<sp/>by<sp/>Dimitri<sp/>van<sp/>Heesch.</highlight></codeline>
+<codeline lineno="4"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="5"><highlight class="comment"><sp/>*<sp/>Permission<sp/>to<sp/>use,<sp/>copy,<sp/>modify,<sp/>and<sp/>distribute<sp/>this<sp/>software<sp/>and<sp/>its</highlight></codeline>
+<codeline lineno="6"><highlight class="comment"><sp/>*<sp/>documentation<sp/>under<sp/>the<sp/>terms<sp/>of<sp/>the<sp/>GNU<sp/>General<sp/>Public<sp/>License<sp/>is<sp/>hereby<sp/></highlight></codeline>
+<codeline lineno="7"><highlight class="comment"><sp/>*<sp/>granted.<sp/>No<sp/>representations<sp/>are<sp/>made<sp/>about<sp/>the<sp/>suitability<sp/>of<sp/>this<sp/>software<sp/></highlight></codeline>
+<codeline lineno="8"><highlight class="comment"><sp/>*<sp/>for<sp/>any<sp/>purpose.<sp/>It<sp/>is<sp/>provided<sp/>&quot;as<sp/>is&quot;<sp/>without<sp/>express<sp/>or<sp/>implied<sp/>warranty.</highlight></codeline>
+<codeline lineno="9"><highlight class="comment"><sp/>*<sp/>See<sp/>the<sp/>GNU<sp/>General<sp/>Public<sp/>License<sp/>for<sp/>more<sp/>details.</highlight></codeline>
+<codeline lineno="10"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="11"><highlight class="comment"><sp/>*<sp/>Documents<sp/>produced<sp/>by<sp/>Doxygen<sp/>are<sp/>derivative<sp/>works<sp/>derived<sp/>from<sp/>the</highlight></codeline>
+<codeline lineno="12"><highlight class="comment"><sp/>*<sp/>input<sp/>used<sp/>in<sp/>their<sp/>production;<sp/>they<sp/>are<sp/>not<sp/>affected<sp/>by<sp/>this<sp/>license.</highlight></codeline>
+<codeline lineno="13"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="14"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>COMMENTSCAN_H</highlight></codeline>
+<codeline lineno="17"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>COMMENTSCAN_H</highlight></codeline>
+<codeline lineno="18"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="d9/d49/types_8h" kindref="compound" tooltip="This file contains a number of basic enums and types.">types.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="d4/dd7/class_entry" kindref="compound" tooltip="Represents an unstructured piece of information, about an entity found in the sources.">Entry</ref>;</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="d5/d84/class_parser_interface" kindref="compound" tooltip="Abstract interface for programming language parsers.">ParserInterface</ref>;</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight></codeline>
+<codeline lineno="62"><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="db/d0d/commentscan_8h_1aca4d7871b4c0228f614cb1433ba15e86" kindref="member" tooltip="Invokes the comment block parser with the request to parse a single comment block.">parseCommentBlock</ref>(<ref refid="d5/d84/class_parser_interface" kindref="compound" tooltip="Abstract interface for programming language parsers.">ParserInterface</ref><sp/>*parser,</highlight></codeline>
+<codeline lineno="63"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="d4/dd7/class_entry" kindref="compound" tooltip="Represents an unstructured piece of information, about an entity found in the sources.">Entry</ref><sp/>*curEntry,</highlight></codeline>
+<codeline lineno="64"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QCString<sp/>&amp;comment,</highlight></codeline>
+<codeline lineno="65"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QCString<sp/>&amp;fileName,</highlight></codeline>
+<codeline lineno="66"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><sp/>&amp;lineNr,</highlight></codeline>
+<codeline lineno="67"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>isBrief,</highlight></codeline>
+<codeline lineno="68"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>isJavaDocStyle,</highlight></codeline>
+<codeline lineno="69"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>isInbody,</highlight></codeline>
+<codeline lineno="70"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="d9/d49/types_8h_1a90e352184df58cd09455fe9996cd4ded" kindref="member" tooltip="Protection level of members.">Protection</ref><sp/>&amp;prot,</highlight></codeline>
+<codeline lineno="71"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>&amp;position,</highlight></codeline>
+<codeline lineno="72"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>&amp;newEntryNeeded</highlight></codeline>
+<codeline lineno="73"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>);</highlight></codeline>
+<codeline lineno="74"><highlight class="normal"></highlight></codeline>
+<codeline lineno="75"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>groupEnterFile(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*file,</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>line);</highlight></codeline>
+<codeline lineno="76"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>groupLeaveFile(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*file,</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>line);</highlight></codeline>
+<codeline lineno="77"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>groupLeaveCompound(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*file,</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>line,</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*name);</highlight></codeline>
+<codeline lineno="78"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>groupEnterCompound(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*file,</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>line,</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*name);</highlight></codeline>
+<codeline lineno="79"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>openGroup(<ref refid="d4/dd7/class_entry" kindref="compound" tooltip="Represents an unstructured piece of information, about an entity found in the sources.">Entry</ref><sp/>*e,</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*file,</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>line);</highlight></codeline>
+<codeline lineno="80"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>closeGroup(<ref refid="d4/dd7/class_entry" kindref="compound" tooltip="Represents an unstructured piece of information, about an entity found in the sources.">Entry</ref><sp/>*,</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*file,</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>line,</highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>foundInline=FALSE);</highlight></codeline>
+<codeline lineno="81"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>initGroupInfo(<ref refid="d4/dd7/class_entry" kindref="compound" tooltip="Represents an unstructured piece of information, about an entity found in the sources.">Entry</ref><sp/>*e);</highlight></codeline>
+<codeline lineno="82"><highlight class="normal"></highlight></codeline>
+<codeline lineno="83"><highlight class="normal"></highlight></codeline>
+<codeline lineno="84"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+    </programlisting>
+    <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/commentscan.h"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,308 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.2">
+  <compounddef id="dd/df8/class_config_list" kind="class" prot="public">
+    <compoundname>ConfigList</compoundname>
+    <basecompoundref refid="d2/dd3/class_config_option" prot="public" virt="non-virtual">ConfigOption</basecompoundref>
+    <includes refid="db/d16/config_8h" local="no">config.h</includes>
+      <sectiondef kind="public-type">
+      <memberdef kind="enum" id="dd/df8/class_config_list_1a562e3dbe5fc70f1af7ed4e748dae0ae9" prot="public" static="no">
+        <name>WidgetType</name>
+        <enumvalue id="dd/df8/class_config_list_1a562e3dbe5fc70f1af7ed4e748dae0ae9aa9954588024495126e9800e6a8fe6609" prot="public">
+          <name>String</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="dd/df8/class_config_list_1a562e3dbe5fc70f1af7ed4e748dae0ae9ad849531b1086e92d907f6eaeca605d19" prot="public">
+          <name>File</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="dd/df8/class_config_list_1a562e3dbe5fc70f1af7ed4e748dae0ae9af9f869ef1f20f387f022bc6a95362f36" prot="public">
+          <name>Dir</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="dd/df8/class_config_list_1a562e3dbe5fc70f1af7ed4e748dae0ae9a6e2af7234864ed6dede734bc8fd09003" prot="public">
+          <name>FileAndDir</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/config.h" line="124" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/config.h" bodystart="124" bodyend="124"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="dd/df8/class_config_list_1a9733b5fb92f13d4bdcf931fee54cd7ff" prot="private" static="no" mutable="no">
+        <type>QStrList</type>
+        <definition>QStrList ConfigList::m_value</definition>
+        <argsstring></argsstring>
+        <name>m_value</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/config.h" line="156" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/config.h" bodystart="156" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="dd/df8/class_config_list_1a0d100aaab0bece85fb79333f1f6ce850" prot="private" static="no" mutable="no">
+        <type>WidgetType</type>
+        <definition>WidgetType ConfigList::m_widgetType</definition>
+        <argsstring></argsstring>
+        <name>m_widgetType</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/config.h" line="157" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/config.h" bodystart="157" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="dd/df8/class_config_list_1aae0b9ca88cb622aec4b31270c1c1f944" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>ConfigList::ConfigList</definition>
+        <argsstring>(const char *name, const char *doc)</argsstring>
+        <name>ConfigList</name>
+        <param>
+          <type>const char *</type>
+          <declname>name</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>doc</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/config.h" line="127" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/config.h" bodystart="125" bodyend="131"/>
+      </memberdef>
+      <memberdef kind="function" id="dd/df8/class_config_list_1a708f7e2019c42d2d1d8957ee33b94518" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ConfigList::addValue</definition>
+        <argsstring>(const char *v)</argsstring>
+        <name>addValue</name>
+        <param>
+          <type>const char *</type>
+          <declname>v</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/config.h" line="132" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/config.h" bodystart="132" bodyend="132"/>
+      </memberdef>
+      <memberdef kind="function" id="dd/df8/class_config_list_1a0e85c4f20ca576934f53e7d6a9361896" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ConfigList::setWidgetType</definition>
+        <argsstring>(WidgetType w)</argsstring>
+        <name>setWidgetType</name>
+        <param>
+          <type>WidgetType</type>
+          <declname>w</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/config.h" line="133" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/config.h" bodystart="133" bodyend="133"/>
+      </memberdef>
+      <memberdef kind="function" id="dd/df8/class_config_list_1a33c5b11faa9fdb5127ffa0e101008ab0" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>WidgetType</type>
+        <definition>WidgetType ConfigList::widgetType</definition>
+        <argsstring>() const </argsstring>
+        <name>widgetType</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/config.h" line="134" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/config.h" bodystart="134" bodyend="134"/>
+      </memberdef>
+      <memberdef kind="function" id="dd/df8/class_config_list_1aebf1360b92b390ff0ec638684ac0ef9b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>QStrList *</type>
+        <definition>QStrList* ConfigList::valueRef</definition>
+        <argsstring>()</argsstring>
+        <name>valueRef</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/config.h" line="135" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/config.h" bodystart="135" bodyend="135"/>
+      </memberdef>
+      <memberdef kind="function" id="dd/df8/class_config_list_1abd14c6ac16fd90f2e501ab10bb61344f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>void ConfigList::writeTemplate</definition>
+        <argsstring>(FTextStream &amp;t, bool sl, bool)</argsstring>
+        <name>writeTemplate</name>
+        <reimplements refid="d2/dd3/class_config_option_1a4af9c041d81cc919e5aae2210087bc38">writeTemplate</reimplements>
+        <param>
+          <type><ref refid="dc/d3c/class_f_text_stream" kindref="compound">FTextStream</ref> &amp;</type>
+          <declname>t</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>sl</declname>
+        </param>
+        <param>
+          <type>bool</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/config.h" line="137" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/config.h" bodystart="136" bodyend="151"/>
+      </memberdef>
+      <memberdef kind="function" id="dd/df8/class_config_list_1a46cdc3f64d1799a802fb2d00af2e3f65" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void ConfigList::substEnvVars</definition>
+        <argsstring>()</argsstring>
+        <name>substEnvVars</name>
+        <reimplements refid="d2/dd3/class_config_option_1aeb6ac539f2fe79e07f2baefd5c4d89c1">substEnvVars</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/config.h" line="152"/>
+      </memberdef>
+      <memberdef kind="function" id="dd/df8/class_config_list_1af9e7337c2796153275419c023f6a3181" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void ConfigList::writeXML</definition>
+        <argsstring>(FTextStream &amp;)</argsstring>
+        <name>writeXML</name>
+        <reimplements refid="d2/dd3/class_config_option_1a20d0443904feac374c4b7dbf08e5b5c2">writeXML</reimplements>
+        <param>
+          <type><ref refid="dc/d3c/class_f_text_stream" kindref="compound">FTextStream</ref> &amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/config.h" line="153"/>
+      </memberdef>
+      <memberdef kind="function" id="dd/df8/class_config_list_1a48019d23edc37549f47d41ce41c43298" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>void ConfigList::init</definition>
+        <argsstring>()</argsstring>
+        <name>init</name>
+        <reimplements refid="d2/dd3/class_config_option_1a1dabfad39230674fc07f5f535392fd35">init</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/config.h" line="154" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/config.h" bodystart="154" bodyend="154"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Class respresenting a list type option. </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2727">
+        <label>ConfigOption</label>
+        <link refid="d2/dd3/class_config_option"/>
+      </node>
+      <node id="2726">
+        <label>ConfigList</label>
+        <link refid="dd/df8/class_config_list"/>
+        <childnode refid="2727" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2729">
+        <label>ConfigOption</label>
+        <link refid="d2/dd3/class_config_option"/>
+      </node>
+      <node id="2728">
+        <label>ConfigList</label>
+        <link refid="dd/df8/class_config_list"/>
+        <childnode refid="2729" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/config.h" line="122" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/config.h" bodystart="121" bodyend="158"/>
+    <listofallmembers>
+      <member refid="d2/dd3/class_config_option_1a290d4454155543728847a75ade256a32" prot="public" virt="non-virtual"><scope>ConfigList</scope><name>addDependency</name></member>
+      <member refid="dd/df8/class_config_list_1a708f7e2019c42d2d1d8957ee33b94518" prot="public" virt="non-virtual"><scope>ConfigList</scope><name>addValue</name></member>
+      <member refid="dd/df8/class_config_list_1aae0b9ca88cb622aec4b31270c1c1f944" prot="public" virt="non-virtual"><scope>ConfigList</scope><name>ConfigList</name></member>
+      <member refid="d2/dd3/class_config_option_1a3ce6753bba05ab1ee7e5eaaec6d8f1ac" prot="public" virt="non-virtual"><scope>ConfigList</scope><name>ConfigOption</name></member>
+      <member refid="d2/dd3/class_config_option_1af1d26523f37d742316ddc4c0f9add4fc" prot="protected" virt="virtual"><scope>ConfigList</scope><name>convertStrToVal</name></member>
+      <member refid="d2/dd3/class_config_option_1a7eff0847fc30aa6cbc457009625d13d1" prot="protected" virt="non-virtual"><scope>ConfigList</scope><name>convertToComment</name></member>
+      <member refid="d2/dd3/class_config_option_1acd3c60d9556e68951d43dc3422024cdb" prot="public" virt="non-virtual"><scope>ConfigList</scope><name>dependsOn</name></member>
+      <member refid="dd/df8/class_config_list_1a562e3dbe5fc70f1af7ed4e748dae0ae9af9f869ef1f20f387f022bc6a95362f36" prot="public" virt="non-virtual"><scope>ConfigList</scope><name>Dir</name></member>
+      <member refid="d2/dd3/class_config_option_1aca53064314cae27e5e650c780c10015c" prot="public" virt="non-virtual"><scope>ConfigList</scope><name>docs</name></member>
+      <member refid="dd/df8/class_config_list_1a562e3dbe5fc70f1af7ed4e748dae0ae9ad849531b1086e92d907f6eaeca605d19" prot="public" virt="non-virtual"><scope>ConfigList</scope><name>File</name></member>
+      <member refid="dd/df8/class_config_list_1a562e3dbe5fc70f1af7ed4e748dae0ae9a6e2af7234864ed6dede734bc8fd09003" prot="public" virt="non-virtual"><scope>ConfigList</scope><name>FileAndDir</name></member>
+      <member refid="dd/df8/class_config_list_1a48019d23edc37549f47d41ce41c43298" prot="public" virt="virtual"><scope>ConfigList</scope><name>init</name></member>
+      <member refid="d2/dd3/class_config_option_1a9c75888abf6d37cfe9d00ac40ecc474d" prot="public" virt="non-virtual"><scope>ConfigList</scope><name>kind</name></member>
+      <member refid="d2/dd3/class_config_option_1a5146ef81dc662e3c5b2f1e9d1f3c600e" prot="protected" virt="non-virtual"><scope>ConfigList</scope><name>m_dependency</name></member>
+      <member refid="d2/dd3/class_config_option_1a28fdea8e9fdf86e73faae697454c17ab" prot="protected" virt="non-virtual"><scope>ConfigList</scope><name>m_doc</name></member>
+      <member refid="d2/dd3/class_config_option_1a4953007ad225b5996adf18275f59e922" prot="protected" virt="non-virtual"><scope>ConfigList</scope><name>m_encoding</name></member>
+      <member refid="d2/dd3/class_config_option_1a64896a35334d6ab865f8038fb65024ac" prot="protected" virt="non-virtual"><scope>ConfigList</scope><name>m_kind</name></member>
+      <member refid="d2/dd3/class_config_option_1a4f081d447f2443212d0d032da63b20d7" prot="protected" virt="non-virtual"><scope>ConfigList</scope><name>m_name</name></member>
+      <member refid="d2/dd3/class_config_option_1aa3ef6fe13a480dad1404aee1bb0f2d11" prot="protected" virt="non-virtual"><scope>ConfigList</scope><name>m_spaces</name></member>
+      <member refid="d2/dd3/class_config_option_1a5e54ead18c124c6c6c03ed3b678a7103" prot="protected" virt="non-virtual"><scope>ConfigList</scope><name>m_userComment</name></member>
+      <member refid="dd/df8/class_config_list_1a9733b5fb92f13d4bdcf931fee54cd7ff" prot="private" virt="non-virtual"><scope>ConfigList</scope><name>m_value</name></member>
+      <member refid="dd/df8/class_config_list_1a0d100aaab0bece85fb79333f1f6ce850" prot="private" virt="non-virtual"><scope>ConfigList</scope><name>m_widgetType</name></member>
+      <member refid="d2/dd3/class_config_option_1a843270e309a4227d54b459dca07f1c86aa40e4123355dbeb41dc6ca0c68c0d346" prot="public" virt="non-virtual"><scope>ConfigList</scope><name>MAX_OPTION_LENGTH</name></member>
+      <member refid="d2/dd3/class_config_option_1a2f226c32b0c447c1fa628660f42859c4" prot="public" virt="non-virtual"><scope>ConfigList</scope><name>name</name></member>
+      <member refid="d2/dd3/class_config_option_1ad60cb308cdf307e72796dc2fc2a40fdaa306962172c18f2b309fb729e66e32e81" prot="public" virt="non-virtual"><scope>ConfigList</scope><name>O_Bool</name></member>
+      <member refid="d2/dd3/class_config_option_1ad60cb308cdf307e72796dc2fc2a40fdaa116df5f47c0442ad31ca0193cf540701" prot="public" virt="non-virtual"><scope>ConfigList</scope><name>O_Disabled</name></member>
+      <member refid="d2/dd3/class_config_option_1ad60cb308cdf307e72796dc2fc2a40fdaa1ba2565ddffed94550a83a5b537e6a31" prot="public" virt="non-virtual"><scope>ConfigList</scope><name>O_Enum</name></member>
+      <member refid="d2/dd3/class_config_option_1ad60cb308cdf307e72796dc2fc2a40fdaade872bcb27f40e3380fb20be7cea9e57" prot="public" virt="non-virtual"><scope>ConfigList</scope><name>O_Info</name></member>
+      <member refid="d2/dd3/class_config_option_1ad60cb308cdf307e72796dc2fc2a40fdaac029c8062b88308de12914e88e12dcd8" prot="public" virt="non-virtual"><scope>ConfigList</scope><name>O_Int</name></member>
+      <member refid="d2/dd3/class_config_option_1ad60cb308cdf307e72796dc2fc2a40fdaa18c0785bb1948fb57402ee80324ef1a7" prot="public" virt="non-virtual"><scope>ConfigList</scope><name>O_List</name></member>
+      <member refid="d2/dd3/class_config_option_1ad60cb308cdf307e72796dc2fc2a40fdaab60c019594029c214e601ec24988d6ac" prot="public" virt="non-virtual"><scope>ConfigList</scope><name>O_Obsolete</name></member>
+      <member refid="d2/dd3/class_config_option_1ad60cb308cdf307e72796dc2fc2a40fdaa3aa84b958a247d79889f28f4244a7d7f" prot="public" virt="non-virtual"><scope>ConfigList</scope><name>O_String</name></member>
+      <member refid="d2/dd3/class_config_option_1ad60cb308cdf307e72796dc2fc2a40fda" prot="public" virt="non-virtual"><scope>ConfigList</scope><name>OptionType</name></member>
+      <member refid="d2/dd3/class_config_option_1a0ac357ec83d2014603c8d70a00c27a33" prot="public" virt="non-virtual"><scope>ConfigList</scope><name>setEncoding</name></member>
+      <member refid="d2/dd3/class_config_option_1a5baa3fb6c4fb6ec667eb91172f3f398a" prot="public" virt="non-virtual"><scope>ConfigList</scope><name>setUserComment</name></member>
+      <member refid="dd/df8/class_config_list_1a0e85c4f20ca576934f53e7d6a9361896" prot="public" virt="non-virtual"><scope>ConfigList</scope><name>setWidgetType</name></member>
+      <member refid="dd/df8/class_config_list_1a562e3dbe5fc70f1af7ed4e748dae0ae9aa9954588024495126e9800e6a8fe6609" prot="public" virt="non-virtual"><scope>ConfigList</scope><name>String</name></member>
+      <member refid="dd/df8/class_config_list_1a46cdc3f64d1799a802fb2d00af2e3f65" prot="public" virt="virtual"><scope>ConfigList</scope><name>substEnvVars</name></member>
+      <member refid="dd/df8/class_config_list_1aebf1360b92b390ff0ec638684ac0ef9b" prot="public" virt="non-virtual"><scope>ConfigList</scope><name>valueRef</name></member>
+      <member refid="dd/df8/class_config_list_1a33c5b11faa9fdb5127ffa0e101008ab0" prot="public" virt="non-virtual"><scope>ConfigList</scope><name>widgetType</name></member>
+      <member refid="dd/df8/class_config_list_1a562e3dbe5fc70f1af7ed4e748dae0ae9" prot="public" virt="non-virtual"><scope>ConfigList</scope><name>WidgetType</name></member>
+      <member refid="d2/dd3/class_config_option_1a0762b14d6706667da888cd9c56c6f1e7" prot="protected" virt="non-virtual"><scope>ConfigList</scope><name>writeBoolValue</name></member>
+      <member refid="d2/dd3/class_config_option_1a759c9a9621a46b28dcedd5c22a0e271f" prot="protected" virt="non-virtual"><scope>ConfigList</scope><name>writeIntValue</name></member>
+      <member refid="d2/dd3/class_config_option_1abd1fe2acb02bd19ed4ec67b6a60ce446" prot="protected" virt="non-virtual"><scope>ConfigList</scope><name>writeStringList</name></member>
+      <member refid="d2/dd3/class_config_option_1a6e36e0022317d91fd50398119420ad02" prot="protected" virt="non-virtual"><scope>ConfigList</scope><name>writeStringValue</name></member>
+      <member refid="dd/df8/class_config_list_1abd14c6ac16fd90f2e501ab10bb61344f" prot="public" virt="virtual"><scope>ConfigList</scope><name>writeTemplate</name></member>
+      <member refid="dd/df8/class_config_list_1af9e7337c2796153275419c023f6a3181" prot="public" virt="virtual"><scope>ConfigList</scope><name>writeXML</name></member>
+      <member refid="d2/dd3/class_config_option_1ae9ef259a262e4422ade948313b6dd74a" prot="public" virt="virtual"><scope>ConfigList</scope><name>~ConfigOption</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

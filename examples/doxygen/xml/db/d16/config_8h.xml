@@ -1,0 +1,1022 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.2">
+  <compounddef id="db/d16/config_8h" kind="file">
+    <compoundname>config.h</compoundname>
+    <includes local="no">qstrlist.h</includes>
+    <includes local="no">qdict.h</includes>
+    <includes local="no">qlist.h</includes>
+    <includes refid="df/d83/ftextstream_8h" local="yes">ftextstream.h</includes>
+    <includedby refid="d5/d0b/cite_8cpp" local="yes">src/cite.cpp</includedby>
+    <includedby refid="de/d89/classdef_8cpp" local="yes">src/classdef.cpp</includedby>
+    <includedby refid="d6/d10/classlist_8cpp" local="yes">src/classlist.cpp</includedby>
+    <includedby refid="d7/d6d/condparser_8cpp" local="yes">src/condparser.cpp</includedby>
+    <includedby refid="d5/dbd/configoptions_8cpp" local="yes">src/configoptions.cpp</includedby>
+    <includedby refid="d3/d17/defgen_8cpp" local="yes">src/defgen.cpp</includedby>
+    <includedby refid="d0/d0a/define_8cpp" local="yes">src/define.cpp</includedby>
+    <includedby refid="d3/dea/definition_8cpp" local="yes">src/definition.cpp</includedby>
+    <includedby refid="da/d0d/diagram_8cpp" local="yes">src/diagram.cpp</includedby>
+    <includedby refid="d8/d52/dirdef_8cpp" local="yes">src/dirdef.cpp</includedby>
+    <includedby refid="d8/d29/docbookgen_8cpp" local="yes">src/docbookgen.cpp</includedby>
+    <includedby refid="dc/d05/docbookvisitor_8cpp" local="yes">src/docbookvisitor.cpp</includedby>
+    <includedby refid="da/d17/docparser_8cpp" local="yes">src/docparser.cpp</includedby>
+    <includedby refid="d7/d8f/docsets_8cpp" local="yes">src/docsets.cpp</includedby>
+    <includedby refid="de/daa/dot_8cpp" local="yes">src/dot.cpp</includedby>
+    <includedby refid="dc/d98/doxygen_8cpp" local="yes">src/doxygen.cpp</includedby>
+    <includedby refid="d8/d56/eclipsehelp_8cpp" local="yes">src/eclipsehelp.cpp</includedby>
+    <includedby refid="d6/ddc/filedef_8cpp" local="yes">src/filedef.cpp</includedby>
+    <includedby refid="de/d36/filename_8cpp" local="yes">src/filename.cpp</includedby>
+    <includedby refid="d7/d5b/formula_8cpp" local="yes">src/formula.cpp</includedby>
+    <includedby refid="db/d41/ftvhelp_8cpp" local="yes">src/ftvhelp.cpp</includedby>
+    <includedby refid="d6/d42/groupdef_8cpp" local="yes">src/groupdef.cpp</includedby>
+    <includedby refid="d9/db7/htags_8cpp" local="yes">src/htags.cpp</includedby>
+    <includedby refid="da/db0/htmldocvisitor_8cpp" local="yes">src/htmldocvisitor.cpp</includedby>
+    <includedby refid="d8/d6e/htmlgen_8cpp" local="yes">src/htmlgen.cpp</includedby>
+    <includedby refid="d3/d4b/htmlhelp_8cpp" local="yes">src/htmlhelp.cpp</includedby>
+    <includedby refid="db/d11/image_8cpp" local="yes">src/image.cpp</includedby>
+    <includedby refid="db/d14/index_8cpp" local="yes">src/index.cpp</includedby>
+    <includedby refid="d2/d48/language_8cpp" local="yes">src/language.cpp</includedby>
+    <includedby refid="d1/d4e/latexdocvisitor_8cpp" local="yes">src/latexdocvisitor.cpp</includedby>
+    <includedby refid="d4/d42/latexgen_8cpp" local="yes">src/latexgen.cpp</includedby>
+    <includedby refid="db/d16/layout_8cpp" local="yes">src/layout.cpp</includedby>
+    <includedby refid="d7/de7/mangen_8cpp" local="yes">src/mangen.cpp</includedby>
+    <includedby refid="de/d04/markdown_8cpp" local="yes">src/markdown.cpp</includedby>
+    <includedby refid="d0/d72/memberdef_8cpp" local="yes">src/memberdef.cpp</includedby>
+    <includedby refid="d0/d14/memberlist_8cpp" local="yes">src/memberlist.cpp</includedby>
+    <includedby refid="d8/d6a/message_8cpp" local="yes">src/message.cpp</includedby>
+    <includedby refid="db/d33/msc_8cpp" local="yes">src/msc.cpp</includedby>
+    <includedby refid="d7/d1c/namespacedef_8cpp" local="yes">src/namespacedef.cpp</includedby>
+    <includedby refid="db/dd8/outputlist_8cpp" local="yes">src/outputlist.cpp</includedby>
+    <includedby refid="d9/db4/pagedef_8cpp" local="yes">src/pagedef.cpp</includedby>
+    <includedby refid="de/dd0/perlmodgen_8cpp" local="yes">src/perlmodgen.cpp</includedby>
+    <includedby refid="d9/d45/qhp_8cpp" local="yes">src/qhp.cpp</includedby>
+    <includedby refid="de/d9a/rtfdocvisitor_8cpp" local="yes">src/rtfdocvisitor.cpp</includedby>
+    <includedby refid="d0/d9c/rtfgen_8cpp" local="yes">src/rtfgen.cpp</includedby>
+    <includedby refid="d7/d79/searchindex_8cpp" local="yes">src/searchindex.cpp</includedby>
+    <includedby refid="df/d2d/util_8cpp" local="yes">src/util.cpp</includedby>
+    <includedby refid="de/dea/vhdldocgen_8cpp" local="yes">src/vhdldocgen.cpp</includedby>
+    <includedby refid="dd/db6/xmldocvisitor_8cpp" local="yes">src/xmldocvisitor.cpp</includedby>
+    <includedby refid="d0/dc3/xmlgen_8cpp" local="yes">src/xmlgen.cpp</includedby>
+    <incdepgraph>
+      <node id="658">
+        <label>qgstring.h</label>
+      </node>
+      <node id="651">
+        <label>qstrlist.h</label>
+      </node>
+      <node id="657">
+        <label>qstring.h</label>
+      </node>
+      <node id="656">
+        <label>qiodevice.h</label>
+      </node>
+      <node id="650">
+        <label>src/config.h</label>
+        <link refid="config.h"/>
+        <childnode refid="651" relation="include">
+        </childnode>
+        <childnode refid="652" relation="include">
+        </childnode>
+        <childnode refid="653" relation="include">
+        </childnode>
+        <childnode refid="654" relation="include">
+        </childnode>
+      </node>
+      <node id="653">
+        <label>qlist.h</label>
+      </node>
+      <node id="654">
+        <label>ftextstream.h</label>
+        <link refid="df/d83/ftextstream_8h_source"/>
+        <childnode refid="655" relation="include">
+        </childnode>
+        <childnode refid="656" relation="include">
+        </childnode>
+        <childnode refid="657" relation="include">
+        </childnode>
+        <childnode refid="658" relation="include">
+        </childnode>
+      </node>
+      <node id="652">
+        <label>qdict.h</label>
+      </node>
+      <node id="655">
+        <label>stdio.h</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="683">
+        <label>src/htmldocvisitor.cpp</label>
+        <link refid="da/db0/htmldocvisitor_8cpp_source"/>
+      </node>
+      <node id="702">
+        <label>src/qhp.cpp</label>
+        <link refid="d9/d45/qhp_8cpp_source"/>
+      </node>
+      <node id="703">
+        <label>src/rtfdocvisitor.cpp</label>
+        <link refid="de/d9a/rtfdocvisitor_8cpp_source"/>
+      </node>
+      <node id="672">
+        <label>src/docparser.cpp</label>
+        <link refid="da/d17/docparser_8cpp_source"/>
+      </node>
+      <node id="694">
+        <label>src/memberdef.cpp</label>
+        <link refid="d0/d72/memberdef_8cpp_source"/>
+      </node>
+      <node id="675">
+        <label>src/doxygen.cpp</label>
+        <link refid="dc/d98/doxygen_8cpp_source"/>
+      </node>
+      <node id="674">
+        <label>src/dot.cpp</label>
+        <link refid="de/daa/dot_8cpp_source"/>
+      </node>
+      <node id="707">
+        <label>src/vhdldocgen.cpp</label>
+        <link refid="de/dea/vhdldocgen_8cpp_source"/>
+      </node>
+      <node id="704">
+        <label>src/rtfgen.cpp</label>
+        <link refid="d0/d9c/rtfgen_8cpp_source"/>
+      </node>
+      <node id="662">
+        <label>src/classlist.cpp</label>
+        <link refid="d6/d10/classlist_8cpp_source"/>
+      </node>
+      <node id="700">
+        <label>src/pagedef.cpp</label>
+        <link refid="d9/db4/pagedef_8cpp_source"/>
+      </node>
+      <node id="666">
+        <label>src/define.cpp</label>
+        <link refid="d0/d0a/define_8cpp_source"/>
+      </node>
+      <node id="665">
+        <label>src/defgen.cpp</label>
+        <link refid="d3/d17/defgen_8cpp_source"/>
+      </node>
+      <node id="706">
+        <label>src/util.cpp</label>
+        <link refid="df/d2d/util_8cpp_source"/>
+      </node>
+      <node id="697">
+        <label>src/msc.cpp</label>
+        <link refid="db/d33/msc_8cpp_source"/>
+      </node>
+      <node id="689">
+        <label>src/latexdocvisitor.cpp</label>
+        <link refid="d1/d4e/latexdocvisitor_8cpp_source"/>
+      </node>
+      <node id="686">
+        <label>src/image.cpp</label>
+        <link refid="db/d11/image_8cpp_source"/>
+      </node>
+      <node id="696">
+        <label>src/message.cpp</label>
+        <link refid="d8/d6a/message_8cpp_source"/>
+      </node>
+      <node id="705">
+        <label>src/searchindex.cpp</label>
+        <link refid="d7/d79/searchindex_8cpp_source"/>
+      </node>
+      <node id="677">
+        <label>src/filedef.cpp</label>
+        <link refid="d6/ddc/filedef_8cpp_source"/>
+      </node>
+      <node id="681">
+        <label>src/groupdef.cpp</label>
+        <link refid="d6/d42/groupdef_8cpp_source"/>
+      </node>
+      <node id="670">
+        <label>src/docbookgen.cpp</label>
+        <link refid="d8/d29/docbookgen_8cpp_source"/>
+      </node>
+      <node id="678">
+        <label>src/filename.cpp</label>
+        <link refid="de/d36/filename_8cpp_source"/>
+      </node>
+      <node id="669">
+        <label>src/dirdef.cpp</label>
+        <link refid="d8/d52/dirdef_8cpp_source"/>
+      </node>
+      <node id="701">
+        <label>src/perlmodgen.cpp</label>
+        <link refid="de/dd0/perlmodgen_8cpp_source"/>
+      </node>
+      <node id="667">
+        <label>src/definition.cpp</label>
+        <link refid="d3/dea/definition_8cpp_source"/>
+      </node>
+      <node id="698">
+        <label>src/namespacedef.cpp</label>
+        <link refid="d7/d1c/namespacedef_8cpp_source"/>
+      </node>
+      <node id="679">
+        <label>src/formula.cpp</label>
+        <link refid="d7/d5b/formula_8cpp_source"/>
+      </node>
+      <node id="659">
+        <label>src/config.h</label>
+        <link refid="config.h"/>
+        <childnode refid="660" relation="include">
+        </childnode>
+        <childnode refid="661" relation="include">
+        </childnode>
+        <childnode refid="662" relation="include">
+        </childnode>
+        <childnode refid="663" relation="include">
+        </childnode>
+        <childnode refid="664" relation="include">
+        </childnode>
+        <childnode refid="665" relation="include">
+        </childnode>
+        <childnode refid="666" relation="include">
+        </childnode>
+        <childnode refid="667" relation="include">
+        </childnode>
+        <childnode refid="668" relation="include">
+        </childnode>
+        <childnode refid="669" relation="include">
+        </childnode>
+        <childnode refid="670" relation="include">
+        </childnode>
+        <childnode refid="671" relation="include">
+        </childnode>
+        <childnode refid="672" relation="include">
+        </childnode>
+        <childnode refid="673" relation="include">
+        </childnode>
+        <childnode refid="674" relation="include">
+        </childnode>
+        <childnode refid="675" relation="include">
+        </childnode>
+        <childnode refid="676" relation="include">
+        </childnode>
+        <childnode refid="677" relation="include">
+        </childnode>
+        <childnode refid="678" relation="include">
+        </childnode>
+        <childnode refid="679" relation="include">
+        </childnode>
+        <childnode refid="680" relation="include">
+        </childnode>
+        <childnode refid="681" relation="include">
+        </childnode>
+        <childnode refid="682" relation="include">
+        </childnode>
+        <childnode refid="683" relation="include">
+        </childnode>
+        <childnode refid="684" relation="include">
+        </childnode>
+        <childnode refid="685" relation="include">
+        </childnode>
+        <childnode refid="686" relation="include">
+        </childnode>
+        <childnode refid="687" relation="include">
+        </childnode>
+        <childnode refid="688" relation="include">
+        </childnode>
+        <childnode refid="689" relation="include">
+        </childnode>
+        <childnode refid="690" relation="include">
+        </childnode>
+        <childnode refid="691" relation="include">
+        </childnode>
+        <childnode refid="692" relation="include">
+        </childnode>
+        <childnode refid="693" relation="include">
+        </childnode>
+        <childnode refid="694" relation="include">
+        </childnode>
+        <childnode refid="695" relation="include">
+        </childnode>
+        <childnode refid="696" relation="include">
+        </childnode>
+        <childnode refid="697" relation="include">
+        </childnode>
+        <childnode refid="698" relation="include">
+        </childnode>
+        <childnode refid="699" relation="include">
+        </childnode>
+        <childnode refid="700" relation="include">
+        </childnode>
+        <childnode refid="701" relation="include">
+        </childnode>
+        <childnode refid="702" relation="include">
+        </childnode>
+        <childnode refid="703" relation="include">
+        </childnode>
+        <childnode refid="704" relation="include">
+        </childnode>
+        <childnode refid="705" relation="include">
+        </childnode>
+        <childnode refid="706" relation="include">
+        </childnode>
+        <childnode refid="707" relation="include">
+        </childnode>
+        <childnode refid="708" relation="include">
+        </childnode>
+        <childnode refid="709" relation="include">
+        </childnode>
+      </node>
+      <node id="708">
+        <label>src/xmldocvisitor.cpp</label>
+        <link refid="dd/db6/xmldocvisitor_8cpp_source"/>
+      </node>
+      <node id="671">
+        <label>src/docbookvisitor.cpp</label>
+        <link refid="dc/d05/docbookvisitor_8cpp_source"/>
+      </node>
+      <node id="692">
+        <label>src/mangen.cpp</label>
+        <link refid="d7/de7/mangen_8cpp_source"/>
+      </node>
+      <node id="680">
+        <label>src/ftvhelp.cpp</label>
+        <link refid="db/d41/ftvhelp_8cpp_source"/>
+      </node>
+      <node id="682">
+        <label>src/htags.cpp</label>
+        <link refid="d9/db7/htags_8cpp_source"/>
+      </node>
+      <node id="709">
+        <label>src/xmlgen.cpp</label>
+        <link refid="d0/dc3/xmlgen_8cpp_source"/>
+      </node>
+      <node id="684">
+        <label>src/htmlgen.cpp</label>
+        <link refid="d8/d6e/htmlgen_8cpp_source"/>
+      </node>
+      <node id="687">
+        <label>src/index.cpp</label>
+        <link refid="db/d14/index_8cpp"/>
+      </node>
+      <node id="691">
+        <label>src/layout.cpp</label>
+        <link refid="db/d16/layout_8cpp_source"/>
+      </node>
+      <node id="695">
+        <label>src/memberlist.cpp</label>
+        <link refid="d0/d14/memberlist_8cpp_source"/>
+      </node>
+      <node id="673">
+        <label>src/docsets.cpp</label>
+        <link refid="d7/d8f/docsets_8cpp_source"/>
+      </node>
+      <node id="676">
+        <label>src/eclipsehelp.cpp</label>
+        <link refid="d8/d56/eclipsehelp_8cpp_source"/>
+      </node>
+      <node id="663">
+        <label>src/condparser.cpp</label>
+        <link refid="d7/d6d/condparser_8cpp_source"/>
+      </node>
+      <node id="664">
+        <label>src/configoptions.cpp</label>
+        <link refid="d5/dbd/configoptions_8cpp_source"/>
+      </node>
+      <node id="660">
+        <label>src/cite.cpp</label>
+        <link refid="d5/d0b/cite_8cpp_source"/>
+      </node>
+      <node id="693">
+        <label>src/markdown.cpp</label>
+        <link refid="de/d04/markdown_8cpp_source"/>
+      </node>
+      <node id="685">
+        <label>src/htmlhelp.cpp</label>
+        <link refid="d3/d4b/htmlhelp_8cpp_source"/>
+      </node>
+      <node id="668">
+        <label>src/diagram.cpp</label>
+        <link refid="da/d0d/diagram_8cpp_source"/>
+      </node>
+      <node id="688">
+        <label>src/language.cpp</label>
+        <link refid="d2/d48/language_8cpp_source"/>
+      </node>
+      <node id="661">
+        <label>src/classdef.cpp</label>
+        <link refid="de/d89/classdef_8cpp_source"/>
+      </node>
+      <node id="690">
+        <label>src/latexgen.cpp</label>
+        <link refid="d4/d42/latexgen_8cpp_source"/>
+      </node>
+      <node id="699">
+        <label>src/outputlist.cpp</label>
+        <link refid="db/dd8/outputlist_8cpp"/>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="d2/dd3/class_config_option" prot="public">ConfigOption</innerclass>
+    <innerclass refid="dd/d89/class_config_info" prot="public">ConfigInfo</innerclass>
+    <innerclass refid="dd/df8/class_config_list" prot="public">ConfigList</innerclass>
+    <innerclass refid="df/d59/class_config_enum" prot="public">ConfigEnum</innerclass>
+    <innerclass refid="d1/dff/class_config_string" prot="public">ConfigString</innerclass>
+    <innerclass refid="d4/d52/class_config_int" prot="public">ConfigInt</innerclass>
+    <innerclass refid="d4/ded/class_config_bool" prot="public">ConfigBool</innerclass>
+    <innerclass refid="d3/db9/class_config_obsolete" prot="public">ConfigObsolete</innerclass>
+    <innerclass refid="d5/d86/class_config_disabled" prot="public">ConfigDisabled</innerclass>
+    <innerclass refid="dd/d34/class_config" prot="public">Config</innerclass>
+      <sectiondef kind="define">
+      <memberdef kind="define" id="db/d16/config_8h_1ad8215ee2de81f98ebd320c3d46cba909" prot="public" static="no">
+        <name>Config_getString</name>
+        <param><defname>val</defname></param>
+        <initializer><ref refid="dd/d34/class_config_1ad62b66142ca8c837019cd04de34c8caa" kindref="member">Config::instance</ref>()-&gt;getString(__FILE__,__LINE__,val)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/config.h" line="380" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/config.h" bodystart="380" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="db/d16/config_8h_1a710ff561f00a4f93a6eafaeec6c451f3" prot="public" static="no">
+        <name>Config_getInt</name>
+        <param><defname>val</defname></param>
+        <initializer><ref refid="dd/d34/class_config_1ad62b66142ca8c837019cd04de34c8caa" kindref="member">Config::instance</ref>()-&gt;getInt(__FILE__,__LINE__,val)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/config.h" line="381" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/config.h" bodystart="381" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="db/d16/config_8h_1a1d713236a48ec5dfe9d37d2eae12061e" prot="public" static="no">
+        <name>Config_getList</name>
+        <param><defname>val</defname></param>
+        <initializer><ref refid="dd/d34/class_config_1ad62b66142ca8c837019cd04de34c8caa" kindref="member">Config::instance</ref>()-&gt;getList(__FILE__,__LINE__,val)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/config.h" line="382" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/config.h" bodystart="382" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="db/d16/config_8h_1a3ca8543ba0c188e014785b4418067567" prot="public" static="no">
+        <name>Config_getEnum</name>
+        <param><defname>val</defname></param>
+        <initializer><ref refid="dd/d34/class_config_1ad62b66142ca8c837019cd04de34c8caa" kindref="member">Config::instance</ref>()-&gt;getEnum(__FILE__,__LINE__,val)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/config.h" line="383" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/config.h" bodystart="383" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="db/d16/config_8h_1aa25ed982e8be03f64344d6d56f5ae46b" prot="public" static="no">
+        <name>Config_getBool</name>
+        <param><defname>val</defname></param>
+        <initializer><ref refid="dd/d34/class_config_1ad62b66142ca8c837019cd04de34c8caa" kindref="member">Config::instance</ref>()-&gt;getBool(__FILE__,__LINE__,val)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/config.h" line="384" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/config.h" bodystart="384" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">/******************************************************************************</highlight></codeline>
+<codeline lineno="2"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="3"><highlight class="comment"><sp/>*<sp/></highlight></codeline>
+<codeline lineno="4"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="5"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="6"><highlight class="comment"><sp/>*<sp/>Copyright<sp/>(C)<sp/>1997-2013<sp/>by<sp/>Dimitri<sp/>van<sp/>Heesch.</highlight></codeline>
+<codeline lineno="7"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="8"><highlight class="comment"><sp/>*<sp/>Permission<sp/>to<sp/>use,<sp/>copy,<sp/>modify,<sp/>and<sp/>distribute<sp/>this<sp/>software<sp/>and<sp/>its</highlight></codeline>
+<codeline lineno="9"><highlight class="comment"><sp/>*<sp/>documentation<sp/>under<sp/>the<sp/>terms<sp/>of<sp/>the<sp/>GNU<sp/>General<sp/>Public<sp/>License<sp/>is<sp/>hereby<sp/></highlight></codeline>
+<codeline lineno="10"><highlight class="comment"><sp/>*<sp/>granted.<sp/>No<sp/>representations<sp/>are<sp/>made<sp/>about<sp/>the<sp/>suitability<sp/>of<sp/>this<sp/>software<sp/></highlight></codeline>
+<codeline lineno="11"><highlight class="comment"><sp/>*<sp/>for<sp/>any<sp/>purpose.<sp/>It<sp/>is<sp/>provided<sp/>&quot;as<sp/>is&quot;<sp/>without<sp/>express<sp/>or<sp/>implied<sp/>warranty.</highlight></codeline>
+<codeline lineno="12"><highlight class="comment"><sp/>*<sp/>See<sp/>the<sp/>GNU<sp/>General<sp/>Public<sp/>License<sp/>for<sp/>more<sp/>details.</highlight></codeline>
+<codeline lineno="13"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="14"><highlight class="comment"><sp/>*<sp/>Documents<sp/>produced<sp/>by<sp/>Doxygen<sp/>are<sp/>derivative<sp/>works<sp/>derived<sp/>from<sp/>the</highlight></codeline>
+<codeline lineno="15"><highlight class="comment"><sp/>*<sp/>input<sp/>used<sp/>in<sp/>their<sp/>production;<sp/>they<sp/>are<sp/>not<sp/>affected<sp/>by<sp/>this<sp/>license.</highlight></codeline>
+<codeline lineno="16"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="17"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>CONFIG_H</highlight></codeline>
+<codeline lineno="20"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>CONFIG_H</highlight></codeline>
+<codeline lineno="21"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;qstrlist.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;qdict.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;qlist.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;ftextstream.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight></codeline>
+<codeline lineno="30" refid="d2/dd3/class_config_option" refkind="compound"><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="d2/dd3/class_config_option" kindref="compound" tooltip="Abstract base class for any configuration option.">ConfigOption</ref></highlight></codeline>
+<codeline lineno="31"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">friend</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="dd/d34/class_config" kindref="compound" tooltip="Singleton for configuration variables.">Config</ref>;</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"></highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"></highlight></codeline>
+<codeline lineno="37" refid="d2/dd3/class_config_option_1ad60cb308cdf307e72796dc2fc2a40fda" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/><ref refid="d2/dd3/class_config_option_1ad60cb308cdf307e72796dc2fc2a40fda" kindref="member">OptionType</ref><sp/></highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/>{<sp/></highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>O_Info,<sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//&lt;!<sp/>A<sp/>section<sp/>header</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>O_List,<sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//&lt;!<sp/>A<sp/>list<sp/>of<sp/>items</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>O_Enum,<sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//&lt;!<sp/>A<sp/>fixed<sp/>set<sp/>of<sp/>items</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>O_String,<sp/><sp/><sp/><sp/></highlight><highlight class="comment">//&lt;!<sp/>A<sp/>single<sp/>item</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>O_Int,<sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//&lt;!<sp/>An<sp/>integer<sp/>value</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>O_Bool,<sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//&lt;!<sp/>A<sp/>boolean<sp/>value</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="45"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>O_Obsolete,<sp/><sp/></highlight><highlight class="comment">//&lt;!<sp/>An<sp/>obsolete<sp/>option</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="46"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>O_Disabled<sp/><sp/><sp/></highlight><highlight class="comment">//&lt;!<sp/>Disabled<sp/>compile<sp/>time<sp/>option</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="47"><highlight class="normal"><sp/><sp/><sp/><sp/>};</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/></highlight></codeline>
+<codeline lineno="49"><highlight class="normal"><sp/><sp/><sp/><sp/>{<sp/></highlight></codeline>
+<codeline lineno="53" refid="d2/dd3/class_config_option_1a843270e309a4227d54b459dca07f1c86aa40e4123355dbeb41dc6ca0c68c0d346" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="d2/dd3/class_config_option_1a843270e309a4227d54b459dca07f1c86aa40e4123355dbeb41dc6ca0c68c0d346" kindref="member">MAX_OPTION_LENGTH</ref><sp/>=<sp/>23<sp/><sp/></highlight></codeline>
+<codeline lineno="54"><highlight class="normal"><sp/><sp/><sp/><sp/>};</highlight></codeline>
+<codeline lineno="55"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="d2/dd3/class_config_option" kindref="compound" tooltip="Abstract base class for any configuration option.">ConfigOption</ref>(<ref refid="d2/dd3/class_config_option_1ad60cb308cdf307e72796dc2fc2a40fda" kindref="member">OptionType</ref><sp/>t)<sp/>:<sp/>m_kind(t)<sp/></highlight></codeline>
+<codeline lineno="56"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="57"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>m_spaces.fill(</highlight><highlight class="charliteral">&apos;<sp/>&apos;</highlight><highlight class="normal">,40);</highlight></codeline>
+<codeline lineno="58"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="59"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/>~<ref refid="d2/dd3/class_config_option" kindref="compound" tooltip="Abstract base class for any configuration option.">ConfigOption</ref>()</highlight></codeline>
+<codeline lineno="60"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="61"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="62"><highlight class="normal"></highlight></codeline>
+<codeline lineno="64" refid="d2/dd3/class_config_option_1a9c75888abf6d37cfe9d00ac40ecc474d" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="d2/dd3/class_config_option_1ad60cb308cdf307e72796dc2fc2a40fda" kindref="member">OptionType</ref><sp/><ref refid="d2/dd3/class_config_option_1a9c75888abf6d37cfe9d00ac40ecc474d" kindref="member">kind</ref>()</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>m_kind;<sp/>}</highlight></codeline>
+<codeline lineno="65"><highlight class="normal"><sp/><sp/><sp/><sp/>QCString<sp/>name()</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>m_name;<sp/>}</highlight></codeline>
+<codeline lineno="66"><highlight class="normal"><sp/><sp/><sp/><sp/>QCString<sp/>docs()</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>m_doc;<sp/>}</highlight></codeline>
+<codeline lineno="67"><highlight class="normal"></highlight></codeline>
+<codeline lineno="68"><highlight class="normal"><sp/><sp/><sp/><sp/>QCString<sp/>dependsOn()</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>m_dependency;<sp/>}</highlight></codeline>
+<codeline lineno="69"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>addDependency(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*dep)<sp/>{<sp/>m_dependency<sp/>=<sp/>dep;<sp/>}</highlight></codeline>
+<codeline lineno="70"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>setEncoding(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QCString<sp/>&amp;e)<sp/>{<sp/>m_encoding<sp/>=<sp/>e;<sp/>}</highlight></codeline>
+<codeline lineno="71"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>setUserComment(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QCString<sp/>&amp;u)<sp/>{<sp/>m_userComment<sp/>=<sp/>u;<sp/>}</highlight></codeline>
+<codeline lineno="72"><highlight class="normal"></highlight></codeline>
+<codeline lineno="73"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">protected</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="74"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="dd/d34/class_config_1ae9e299c7239061edc8c369f51d3948e6" kindref="member">writeTemplate</ref>(<ref refid="dc/d3c/class_f_text_stream" kindref="compound" tooltip="Simplified and optimized version of QTextStream.">FTextStream</ref><sp/>&amp;t,</highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>sl,</highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>upd)<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="75"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="dd/d34/class_config_1a0be224084aa38a9d479ed0260baf27a6" kindref="member">convertStrToVal</ref>()<sp/>{}</highlight></codeline>
+<codeline lineno="76"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>substEnvVars()<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="77"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="dd/d34/class_config_1aebf15fc68e1b907ab56d68094735134e" kindref="member" tooltip="Write XML representation of the config file.">writeXML</ref>(<ref refid="dc/d3c/class_f_text_stream" kindref="compound" tooltip="Simplified and optimized version of QTextStream.">FTextStream</ref>&amp;)<sp/>{}</highlight></codeline>
+<codeline lineno="78"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="dd/d34/class_config_1a91bcb187ed95ec673137e413a4d77203" kindref="member">init</ref>()<sp/>{}</highlight></codeline>
+<codeline lineno="79"><highlight class="normal"></highlight></codeline>
+<codeline lineno="80"><highlight class="normal"><sp/><sp/><sp/><sp/>QCString<sp/>convertToComment(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QCString<sp/>&amp;s,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QCString<sp/>&amp;u);</highlight></codeline>
+<codeline lineno="81"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>writeBoolValue(<ref refid="dc/d3c/class_f_text_stream" kindref="compound" tooltip="Simplified and optimized version of QTextStream.">FTextStream</ref><sp/>&amp;t,</highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>v);</highlight></codeline>
+<codeline lineno="82"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>writeIntValue(<ref refid="dc/d3c/class_f_text_stream" kindref="compound" tooltip="Simplified and optimized version of QTextStream.">FTextStream</ref><sp/>&amp;t,</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>i);</highlight></codeline>
+<codeline lineno="83"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>writeStringValue(<ref refid="dc/d3c/class_f_text_stream" kindref="compound" tooltip="Simplified and optimized version of QTextStream.">FTextStream</ref><sp/>&amp;t,QCString<sp/>&amp;s);</highlight></codeline>
+<codeline lineno="84"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>writeStringList(<ref refid="dc/d3c/class_f_text_stream" kindref="compound" tooltip="Simplified and optimized version of QTextStream.">FTextStream</ref><sp/>&amp;t,QStrList<sp/>&amp;l);</highlight></codeline>
+<codeline lineno="85"><highlight class="normal"></highlight></codeline>
+<codeline lineno="86"><highlight class="normal"><sp/><sp/><sp/><sp/>QCString<sp/>m_spaces;</highlight></codeline>
+<codeline lineno="87"><highlight class="normal"><sp/><sp/><sp/><sp/>QCString<sp/>m_name;</highlight></codeline>
+<codeline lineno="88"><highlight class="normal"><sp/><sp/><sp/><sp/>QCString<sp/>m_doc;</highlight></codeline>
+<codeline lineno="89"><highlight class="normal"><sp/><sp/><sp/><sp/>QCString<sp/>m_dependency;</highlight></codeline>
+<codeline lineno="90"><highlight class="normal"><sp/><sp/><sp/><sp/>QCString<sp/>m_encoding;</highlight></codeline>
+<codeline lineno="91"><highlight class="normal"><sp/><sp/><sp/><sp/>QCString<sp/>m_userComment;</highlight></codeline>
+<codeline lineno="92"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="d2/dd3/class_config_option_1ad60cb308cdf307e72796dc2fc2a40fda" kindref="member">OptionType</ref><sp/>m_kind;</highlight></codeline>
+<codeline lineno="93"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="94"><highlight class="normal"></highlight></codeline>
+<codeline lineno="97" refid="dd/d89/class_config_info" refkind="compound"><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="dd/d89/class_config_info" kindref="compound" tooltip="Section marker for grouping the configuration options.">ConfigInfo</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="d2/dd3/class_config_option" kindref="compound" tooltip="Abstract base class for any configuration option.">ConfigOption</ref></highlight></codeline>
+<codeline lineno="98"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="99"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="100"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="dd/d89/class_config_info" kindref="compound" tooltip="Section marker for grouping the configuration options.">ConfigInfo</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*name,</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*doc)<sp/></highlight></codeline>
+<codeline lineno="101"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>:<sp/><ref refid="d2/dd3/class_config_option" kindref="compound" tooltip="Abstract base class for any configuration option.">ConfigOption</ref>(O_Info)</highlight></codeline>
+<codeline lineno="102"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="103"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>m_name<sp/>=<sp/>name;</highlight></codeline>
+<codeline lineno="104"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>m_doc<sp/>=<sp/>doc;</highlight></codeline>
+<codeline lineno="105"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="106"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>writeTemplate(<ref refid="dc/d3c/class_f_text_stream" kindref="compound" tooltip="Simplified and optimized version of QTextStream.">FTextStream</ref><sp/>&amp;t,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>sl,</highlight><highlight class="keywordtype">bool</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="107"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="108"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(!sl)</highlight></codeline>
+<codeline lineno="109"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="110"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>t<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;\n&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="111"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="112"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>t<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;#---------------------------------------------------------------------------\n&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="113"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>t<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;#<sp/>&quot;</highlight><highlight class="normal"><sp/>&lt;&lt;<sp/>m_doc<sp/>&lt;&lt;<sp/>endl;</highlight></codeline>
+<codeline lineno="114"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>t<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;#---------------------------------------------------------------------------\n&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="115"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="116"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>substEnvVars()<sp/>{}</highlight></codeline>
+<codeline lineno="117"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="118"><highlight class="normal"></highlight></codeline>
+<codeline lineno="121" refid="dd/df8/class_config_list" refkind="compound"><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="dd/df8/class_config_list" kindref="compound" tooltip="Class respresenting a list type option.">ConfigList</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="d2/dd3/class_config_option" kindref="compound" tooltip="Abstract base class for any configuration option.">ConfigOption</ref></highlight></codeline>
+<codeline lineno="122"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="123"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="124"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/>WidgetType<sp/>{<sp/>String,<sp/>File,<sp/>Dir,<sp/>FileAndDir<sp/>};</highlight></codeline>
+<codeline lineno="125"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="dd/df8/class_config_list" kindref="compound" tooltip="Class respresenting a list type option.">ConfigList</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*name,</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*doc)<sp/></highlight></codeline>
+<codeline lineno="126"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>:<sp/><ref refid="d2/dd3/class_config_option" kindref="compound" tooltip="Abstract base class for any configuration option.">ConfigOption</ref>(O_List)</highlight></codeline>
+<codeline lineno="127"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="128"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>m_name<sp/>=<sp/>name;</highlight></codeline>
+<codeline lineno="129"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>m_doc<sp/>=<sp/>doc;</highlight></codeline>
+<codeline lineno="130"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>m_widgetType<sp/>=<sp/>String;</highlight></codeline>
+<codeline lineno="131"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="132"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>addValue(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*v)<sp/>{<sp/>m_value.append(v);<sp/>}</highlight></codeline>
+<codeline lineno="133"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>setWidgetType(WidgetType<sp/>w)<sp/>{<sp/>m_widgetType<sp/>=<sp/>w;<sp/>}</highlight></codeline>
+<codeline lineno="134"><highlight class="normal"><sp/><sp/><sp/><sp/>WidgetType<sp/>widgetType()</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>m_widgetType;<sp/>}</highlight></codeline>
+<codeline lineno="135"><highlight class="normal"><sp/><sp/><sp/><sp/>QStrList<sp/>*valueRef()<sp/>{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>&amp;m_value;<sp/>}</highlight></codeline>
+<codeline lineno="136"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>writeTemplate(<ref refid="dc/d3c/class_f_text_stream" kindref="compound" tooltip="Simplified and optimized version of QTextStream.">FTextStream</ref><sp/>&amp;t,</highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>sl,</highlight><highlight class="keywordtype">bool</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="137"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="138"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(!sl)</highlight></codeline>
+<codeline lineno="139"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="140"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>t<sp/>&lt;&lt;<sp/>endl;</highlight></codeline>
+<codeline lineno="141"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>t<sp/>&lt;&lt;<sp/>convertToComment(m_doc,<sp/>m_userComment);</highlight></codeline>
+<codeline lineno="142"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>t<sp/>&lt;&lt;<sp/>endl;</highlight></codeline>
+<codeline lineno="143"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="144"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(!m_userComment.isEmpty())</highlight></codeline>
+<codeline lineno="145"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="146"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>t<sp/>&lt;&lt;<sp/>convertToComment(</highlight><highlight class="stringliteral">&quot;&quot;</highlight><highlight class="normal">,<sp/>m_userComment);</highlight></codeline>
+<codeline lineno="147"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="148"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>t<sp/>&lt;&lt;<sp/>m_name<sp/>&lt;&lt;<sp/>m_spaces.left(<ref refid="d2/dd3/class_config_option_1a843270e309a4227d54b459dca07f1c86aa40e4123355dbeb41dc6ca0c68c0d346" kindref="member">MAX_OPTION_LENGTH</ref>-m_name.length())<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;=&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="149"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>writeStringList(t,m_value);</highlight></codeline>
+<codeline lineno="150"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>t<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;\n&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="151"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="152"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>substEnvVars();</highlight></codeline>
+<codeline lineno="153"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>writeXML(<ref refid="dc/d3c/class_f_text_stream" kindref="compound" tooltip="Simplified and optimized version of QTextStream.">FTextStream</ref>&amp;);</highlight></codeline>
+<codeline lineno="154"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>init()<sp/>{<sp/>m_value.clear();<sp/>}</highlight></codeline>
+<codeline lineno="155"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="156"><highlight class="normal"><sp/><sp/><sp/><sp/>QStrList<sp/>m_value;</highlight></codeline>
+<codeline lineno="157"><highlight class="normal"><sp/><sp/><sp/><sp/>WidgetType<sp/>m_widgetType;</highlight></codeline>
+<codeline lineno="158"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="159"><highlight class="normal"></highlight></codeline>
+<codeline lineno="162" refid="df/d59/class_config_enum" refkind="compound"><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="df/d59/class_config_enum" kindref="compound" tooltip="Class representing an enum type option.">ConfigEnum</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="d2/dd3/class_config_option" kindref="compound" tooltip="Abstract base class for any configuration option.">ConfigOption</ref></highlight></codeline>
+<codeline lineno="163"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="164"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="165"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="df/d59/class_config_enum" kindref="compound" tooltip="Class representing an enum type option.">ConfigEnum</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*name,</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*doc,</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*defVal)<sp/></highlight></codeline>
+<codeline lineno="166"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>:<sp/><ref refid="d2/dd3/class_config_option" kindref="compound" tooltip="Abstract base class for any configuration option.">ConfigOption</ref>(O_Enum)</highlight></codeline>
+<codeline lineno="167"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="168"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>m_name<sp/>=<sp/>name;</highlight></codeline>
+<codeline lineno="169"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>m_doc<sp/>=<sp/>doc;</highlight></codeline>
+<codeline lineno="170"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>m_value<sp/>=<sp/>defVal;</highlight></codeline>
+<codeline lineno="171"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>m_defValue<sp/>=<sp/>defVal;</highlight></codeline>
+<codeline lineno="172"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="173"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>addValue(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*v)<sp/>{<sp/>m_valueRange.append(v);<sp/>}</highlight></codeline>
+<codeline lineno="174"><highlight class="normal"><sp/><sp/><sp/><sp/>QStrListIterator<sp/>iterator()<sp/></highlight></codeline>
+<codeline lineno="175"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="176"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>QStrListIterator(m_valueRange);</highlight></codeline>
+<codeline lineno="177"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="178"><highlight class="normal"><sp/><sp/><sp/><sp/>QCString<sp/>*valueRef()<sp/>{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>&amp;m_value;<sp/>}</highlight></codeline>
+<codeline lineno="179"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>substEnvVars();</highlight></codeline>
+<codeline lineno="180"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>writeTemplate(<ref refid="dc/d3c/class_f_text_stream" kindref="compound" tooltip="Simplified and optimized version of QTextStream.">FTextStream</ref><sp/>&amp;t,</highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>sl,</highlight><highlight class="keywordtype">bool</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="181"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="182"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(!sl)</highlight></codeline>
+<codeline lineno="183"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="184"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>t<sp/>&lt;&lt;<sp/>endl;</highlight></codeline>
+<codeline lineno="185"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>t<sp/>&lt;&lt;<sp/>convertToComment(m_doc,<sp/>m_userComment);</highlight></codeline>
+<codeline lineno="186"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>t<sp/>&lt;&lt;<sp/>endl;</highlight></codeline>
+<codeline lineno="187"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="188"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(!m_userComment.isEmpty())</highlight></codeline>
+<codeline lineno="189"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="190"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>t<sp/>&lt;&lt;<sp/>convertToComment(</highlight><highlight class="stringliteral">&quot;&quot;</highlight><highlight class="normal">,<sp/>m_userComment);</highlight></codeline>
+<codeline lineno="191"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="192"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>t<sp/>&lt;&lt;<sp/>m_name<sp/>&lt;&lt;<sp/>m_spaces.left(<ref refid="d2/dd3/class_config_option_1a843270e309a4227d54b459dca07f1c86aa40e4123355dbeb41dc6ca0c68c0d346" kindref="member">MAX_OPTION_LENGTH</ref>-m_name.length())<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;=&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="193"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>writeStringValue(t,m_value);</highlight></codeline>
+<codeline lineno="194"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>t<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;\n&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="195"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="196"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>writeXML(<ref refid="dc/d3c/class_f_text_stream" kindref="compound" tooltip="Simplified and optimized version of QTextStream.">FTextStream</ref>&amp;);</highlight></codeline>
+<codeline lineno="197"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>init()<sp/>{<sp/>m_value<sp/>=<sp/>m_defValue.copy();<sp/>}</highlight></codeline>
+<codeline lineno="198"><highlight class="normal"></highlight></codeline>
+<codeline lineno="199"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="200"><highlight class="normal"><sp/><sp/><sp/><sp/>QStrList<sp/>m_valueRange;</highlight></codeline>
+<codeline lineno="201"><highlight class="normal"><sp/><sp/><sp/><sp/>QCString<sp/>m_value;</highlight></codeline>
+<codeline lineno="202"><highlight class="normal"><sp/><sp/><sp/><sp/>QCString<sp/>m_defValue;</highlight></codeline>
+<codeline lineno="203"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="204"><highlight class="normal"></highlight></codeline>
+<codeline lineno="207" refid="d1/dff/class_config_string" refkind="compound"><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="d1/dff/class_config_string" kindref="compound" tooltip="Class representing a string type option.">ConfigString</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="d2/dd3/class_config_option" kindref="compound" tooltip="Abstract base class for any configuration option.">ConfigOption</ref></highlight></codeline>
+<codeline lineno="208"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="209"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="210"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/>WidgetType<sp/>{<sp/>String,<sp/>File,<sp/>Dir<sp/>};</highlight></codeline>
+<codeline lineno="211"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="d1/dff/class_config_string" kindref="compound" tooltip="Class representing a string type option.">ConfigString</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*name,</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*doc)<sp/></highlight></codeline>
+<codeline lineno="212"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>:<sp/><ref refid="d2/dd3/class_config_option" kindref="compound" tooltip="Abstract base class for any configuration option.">ConfigOption</ref>(O_String)</highlight></codeline>
+<codeline lineno="213"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="214"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>m_name<sp/>=<sp/>name;</highlight></codeline>
+<codeline lineno="215"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>m_doc<sp/>=<sp/>doc;</highlight></codeline>
+<codeline lineno="216"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>m_widgetType<sp/>=<sp/>String;</highlight></codeline>
+<codeline lineno="217"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="218"><highlight class="normal"><sp/><sp/><sp/>~<ref refid="d1/dff/class_config_string" kindref="compound" tooltip="Class representing a string type option.">ConfigString</ref>()</highlight></codeline>
+<codeline lineno="219"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="220"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="221"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>setWidgetType(WidgetType<sp/>w)<sp/>{<sp/>m_widgetType<sp/>=<sp/>w;<sp/>}</highlight></codeline>
+<codeline lineno="222"><highlight class="normal"><sp/><sp/><sp/><sp/>WidgetType<sp/>widgetType()</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>m_widgetType;<sp/>}</highlight></codeline>
+<codeline lineno="223"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>setDefaultValue(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*v)<sp/>{<sp/>m_defValue<sp/>=<sp/>v;<sp/>}</highlight></codeline>
+<codeline lineno="224"><highlight class="normal"><sp/><sp/><sp/><sp/>QCString<sp/>*valueRef()<sp/>{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>&amp;m_value;<sp/>}</highlight></codeline>
+<codeline lineno="225"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>writeTemplate(<ref refid="dc/d3c/class_f_text_stream" kindref="compound" tooltip="Simplified and optimized version of QTextStream.">FTextStream</ref><sp/>&amp;t,</highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>sl,</highlight><highlight class="keywordtype">bool</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="226"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="227"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(!sl)</highlight></codeline>
+<codeline lineno="228"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="229"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>t<sp/>&lt;&lt;<sp/>endl;</highlight></codeline>
+<codeline lineno="230"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>t<sp/>&lt;&lt;<sp/>convertToComment(m_doc,<sp/>m_userComment);</highlight></codeline>
+<codeline lineno="231"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>t<sp/>&lt;&lt;<sp/>endl;</highlight></codeline>
+<codeline lineno="232"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="233"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(!m_userComment.isEmpty())</highlight></codeline>
+<codeline lineno="234"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="235"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>t<sp/>&lt;&lt;<sp/>convertToComment(</highlight><highlight class="stringliteral">&quot;&quot;</highlight><highlight class="normal">,<sp/>m_userComment);</highlight></codeline>
+<codeline lineno="236"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="237"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>t<sp/>&lt;&lt;<sp/>m_name<sp/>&lt;&lt;<sp/>m_spaces.left(<ref refid="d2/dd3/class_config_option_1a843270e309a4227d54b459dca07f1c86aa40e4123355dbeb41dc6ca0c68c0d346" kindref="member">MAX_OPTION_LENGTH</ref>-m_name.length())<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;=&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="238"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>writeStringValue(t,m_value);</highlight></codeline>
+<codeline lineno="239"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>t<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;\n&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="240"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="241"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>substEnvVars();</highlight></codeline>
+<codeline lineno="242"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>writeXML(<ref refid="dc/d3c/class_f_text_stream" kindref="compound" tooltip="Simplified and optimized version of QTextStream.">FTextStream</ref>&amp;);</highlight></codeline>
+<codeline lineno="243"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>init()<sp/>{<sp/>m_value<sp/>=<sp/>m_defValue.copy();<sp/>}</highlight></codeline>
+<codeline lineno="244"><highlight class="normal"><sp/><sp/></highlight></codeline>
+<codeline lineno="245"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="246"><highlight class="normal"><sp/><sp/><sp/><sp/>QCString<sp/>m_value;</highlight></codeline>
+<codeline lineno="247"><highlight class="normal"><sp/><sp/><sp/><sp/>QCString<sp/>m_defValue;</highlight></codeline>
+<codeline lineno="248"><highlight class="normal"><sp/><sp/><sp/><sp/>WidgetType<sp/>m_widgetType;</highlight></codeline>
+<codeline lineno="249"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="250"><highlight class="normal"></highlight></codeline>
+<codeline lineno="253" refid="d4/d52/class_config_int" refkind="compound"><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="d4/d52/class_config_int" kindref="compound" tooltip="Class representing an integer type option.">ConfigInt</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="d2/dd3/class_config_option" kindref="compound" tooltip="Abstract base class for any configuration option.">ConfigOption</ref></highlight></codeline>
+<codeline lineno="254"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="255"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="256"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="d4/d52/class_config_int" kindref="compound" tooltip="Class representing an integer type option.">ConfigInt</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*name,</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*doc,</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>minVal,</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>maxVal,</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>defVal)<sp/></highlight></codeline>
+<codeline lineno="257"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>:<sp/><ref refid="d2/dd3/class_config_option" kindref="compound" tooltip="Abstract base class for any configuration option.">ConfigOption</ref>(O_Int)</highlight></codeline>
+<codeline lineno="258"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="259"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>m_name<sp/>=<sp/>name;</highlight></codeline>
+<codeline lineno="260"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>m_doc<sp/>=<sp/>doc;</highlight></codeline>
+<codeline lineno="261"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>m_value<sp/>=<sp/>defVal;</highlight></codeline>
+<codeline lineno="262"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>m_defValue<sp/>=<sp/>defVal;</highlight></codeline>
+<codeline lineno="263"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>m_minVal<sp/>=<sp/>minVal;</highlight></codeline>
+<codeline lineno="264"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>m_maxVal<sp/>=<sp/>maxVal;</highlight></codeline>
+<codeline lineno="265"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="266"><highlight class="normal"><sp/><sp/><sp/><sp/>QCString<sp/>*valueStringRef()<sp/>{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>&amp;m_valueString;<sp/>}</highlight></codeline>
+<codeline lineno="267"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>*valueRef()<sp/>{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>&amp;m_value;<sp/>}</highlight></codeline>
+<codeline lineno="268"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>minVal()</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>m_minVal;<sp/>}</highlight></codeline>
+<codeline lineno="269"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>maxVal()</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>m_maxVal;<sp/>}</highlight></codeline>
+<codeline lineno="270"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>convertStrToVal();</highlight></codeline>
+<codeline lineno="271"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>substEnvVars();</highlight></codeline>
+<codeline lineno="272"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>writeTemplate(<ref refid="dc/d3c/class_f_text_stream" kindref="compound" tooltip="Simplified and optimized version of QTextStream.">FTextStream</ref><sp/>&amp;t,</highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>sl,</highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>upd)</highlight></codeline>
+<codeline lineno="273"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="274"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(!sl)</highlight></codeline>
+<codeline lineno="275"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="276"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>t<sp/>&lt;&lt;<sp/>endl;</highlight></codeline>
+<codeline lineno="277"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>t<sp/>&lt;&lt;<sp/>convertToComment(m_doc,<sp/>m_userComment);</highlight></codeline>
+<codeline lineno="278"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>t<sp/>&lt;&lt;<sp/>endl;</highlight></codeline>
+<codeline lineno="279"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="280"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(!m_userComment.isEmpty())</highlight></codeline>
+<codeline lineno="281"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="282"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>t<sp/>&lt;&lt;<sp/>convertToComment(</highlight><highlight class="stringliteral">&quot;&quot;</highlight><highlight class="normal">,<sp/>m_userComment);</highlight></codeline>
+<codeline lineno="283"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="284"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>t<sp/>&lt;&lt;<sp/>m_name<sp/>&lt;&lt;<sp/>m_spaces.left(<ref refid="d2/dd3/class_config_option_1a843270e309a4227d54b459dca07f1c86aa40e4123355dbeb41dc6ca0c68c0d346" kindref="member">MAX_OPTION_LENGTH</ref>-m_name.length())<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;=&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="285"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(upd<sp/>&amp;&amp;<sp/>!m_valueString.isEmpty())</highlight></codeline>
+<codeline lineno="286"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="287"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>writeStringValue(t,m_valueString);</highlight></codeline>
+<codeline lineno="288"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="289"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="290"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="291"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>writeIntValue(t,m_value);</highlight></codeline>
+<codeline lineno="292"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="293"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>t<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;\n&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="294"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="295"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>writeXML(<ref refid="dc/d3c/class_f_text_stream" kindref="compound" tooltip="Simplified and optimized version of QTextStream.">FTextStream</ref>&amp;);</highlight></codeline>
+<codeline lineno="296"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>init()<sp/>{<sp/>m_value<sp/>=<sp/>m_defValue;<sp/>}</highlight></codeline>
+<codeline lineno="297"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="298"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>m_value;</highlight></codeline>
+<codeline lineno="299"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>m_defValue;</highlight></codeline>
+<codeline lineno="300"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>m_minVal;</highlight></codeline>
+<codeline lineno="301"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>m_maxVal;</highlight></codeline>
+<codeline lineno="302"><highlight class="normal"><sp/><sp/><sp/><sp/>QCString<sp/>m_valueString;</highlight></codeline>
+<codeline lineno="303"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="304"><highlight class="normal"></highlight></codeline>
+<codeline lineno="307" refid="d4/ded/class_config_bool" refkind="compound"><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="d4/ded/class_config_bool" kindref="compound" tooltip="Class representing a Boolean type option.">ConfigBool</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="d2/dd3/class_config_option" kindref="compound" tooltip="Abstract base class for any configuration option.">ConfigOption</ref></highlight></codeline>
+<codeline lineno="308"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="309"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="310"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="d4/ded/class_config_bool" kindref="compound" tooltip="Class representing a Boolean type option.">ConfigBool</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*name,</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*doc,</highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>defVal)<sp/></highlight></codeline>
+<codeline lineno="311"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>:<sp/><ref refid="d2/dd3/class_config_option" kindref="compound" tooltip="Abstract base class for any configuration option.">ConfigOption</ref>(O_Bool)</highlight></codeline>
+<codeline lineno="312"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="313"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>m_name<sp/>=<sp/>name;</highlight></codeline>
+<codeline lineno="314"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>m_doc<sp/>=<sp/>doc;</highlight></codeline>
+<codeline lineno="315"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>m_value<sp/>=<sp/>defVal;</highlight></codeline>
+<codeline lineno="316"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>m_defValue<sp/>=<sp/>defVal;</highlight></codeline>
+<codeline lineno="317"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="318"><highlight class="normal"><sp/><sp/><sp/><sp/>QCString<sp/>*valueStringRef()<sp/>{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>&amp;m_valueString;<sp/>}</highlight></codeline>
+<codeline lineno="319"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>*valueRef()<sp/>{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>&amp;m_value;<sp/>}</highlight></codeline>
+<codeline lineno="320"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>convertStrToVal();</highlight></codeline>
+<codeline lineno="321"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>substEnvVars();</highlight></codeline>
+<codeline lineno="322"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>setValueString(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QCString<sp/>&amp;v)<sp/>{<sp/>m_valueString<sp/>=<sp/>v;<sp/>}</highlight></codeline>
+<codeline lineno="323"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>writeTemplate(<ref refid="dc/d3c/class_f_text_stream" kindref="compound" tooltip="Simplified and optimized version of QTextStream.">FTextStream</ref><sp/>&amp;t,</highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>sl,</highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>upd)</highlight></codeline>
+<codeline lineno="324"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="325"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(!sl)</highlight></codeline>
+<codeline lineno="326"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="327"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>t<sp/>&lt;&lt;<sp/>endl;</highlight></codeline>
+<codeline lineno="328"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>t<sp/>&lt;&lt;<sp/>convertToComment(m_doc,<sp/>m_userComment);</highlight></codeline>
+<codeline lineno="329"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>t<sp/>&lt;&lt;<sp/>endl;</highlight></codeline>
+<codeline lineno="330"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="331"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(!m_userComment.isEmpty())</highlight></codeline>
+<codeline lineno="332"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="333"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>t<sp/>&lt;&lt;<sp/>convertToComment(</highlight><highlight class="stringliteral">&quot;&quot;</highlight><highlight class="normal">,<sp/>m_userComment);</highlight></codeline>
+<codeline lineno="334"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="335"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>t<sp/>&lt;&lt;<sp/>m_name<sp/>&lt;&lt;<sp/>m_spaces.left(<ref refid="d2/dd3/class_config_option_1a843270e309a4227d54b459dca07f1c86aa40e4123355dbeb41dc6ca0c68c0d346" kindref="member">MAX_OPTION_LENGTH</ref>-m_name.length())<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;=&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="336"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(upd<sp/>&amp;&amp;<sp/>!m_valueString.isEmpty())</highlight></codeline>
+<codeline lineno="337"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="338"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>writeStringValue(t,m_valueString);</highlight></codeline>
+<codeline lineno="339"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="340"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="341"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="342"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>writeBoolValue(t,m_value);</highlight></codeline>
+<codeline lineno="343"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="344"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>t<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;\n&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="345"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="346"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>writeXML(<ref refid="dc/d3c/class_f_text_stream" kindref="compound" tooltip="Simplified and optimized version of QTextStream.">FTextStream</ref>&amp;);</highlight></codeline>
+<codeline lineno="347"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>init()<sp/>{<sp/>m_value<sp/>=<sp/>m_defValue;<sp/>}</highlight></codeline>
+<codeline lineno="348"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="349"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>m_value;</highlight></codeline>
+<codeline lineno="350"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>m_defValue;</highlight></codeline>
+<codeline lineno="351"><highlight class="normal"><sp/><sp/><sp/><sp/>QCString<sp/>m_valueString;</highlight></codeline>
+<codeline lineno="352"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="353"><highlight class="normal"></highlight></codeline>
+<codeline lineno="356" refid="d3/db9/class_config_obsolete" refkind="compound"><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="d3/db9/class_config_obsolete" kindref="compound" tooltip="Section marker for obsolete options.">ConfigObsolete</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="d2/dd3/class_config_option" kindref="compound" tooltip="Abstract base class for any configuration option.">ConfigOption</ref></highlight></codeline>
+<codeline lineno="357"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="358"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="359"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="d3/db9/class_config_obsolete" kindref="compound" tooltip="Section marker for obsolete options.">ConfigObsolete</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*name)<sp/>:<sp/><ref refid="d2/dd3/class_config_option" kindref="compound" tooltip="Abstract base class for any configuration option.">ConfigOption</ref>(O_Obsolete)<sp/><sp/></highlight></codeline>
+<codeline lineno="360"><highlight class="normal"><sp/><sp/><sp/><sp/>{<sp/>m_name<sp/>=<sp/>name;<sp/>}</highlight></codeline>
+<codeline lineno="361"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>writeTemplate(<ref refid="dc/d3c/class_f_text_stream" kindref="compound" tooltip="Simplified and optimized version of QTextStream.">FTextStream</ref><sp/>&amp;,</highlight><highlight class="keywordtype">bool</highlight><highlight class="normal">,</highlight><highlight class="keywordtype">bool</highlight><highlight class="normal">)<sp/>{}</highlight></codeline>
+<codeline lineno="362"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>substEnvVars()<sp/>{}</highlight></codeline>
+<codeline lineno="363"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>writeXML(<ref refid="dc/d3c/class_f_text_stream" kindref="compound" tooltip="Simplified and optimized version of QTextStream.">FTextStream</ref>&amp;);</highlight></codeline>
+<codeline lineno="364"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="365"><highlight class="normal"></highlight></codeline>
+<codeline lineno="368" refid="d5/d86/class_config_disabled" refkind="compound"><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="d5/d86/class_config_disabled" kindref="compound" tooltip="Section marker for compile time optional options.">ConfigDisabled</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="d2/dd3/class_config_option" kindref="compound" tooltip="Abstract base class for any configuration option.">ConfigOption</ref></highlight></codeline>
+<codeline lineno="369"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="370"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="371"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="d5/d86/class_config_disabled" kindref="compound" tooltip="Section marker for compile time optional options.">ConfigDisabled</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*name)<sp/>:<sp/><ref refid="d2/dd3/class_config_option" kindref="compound" tooltip="Abstract base class for any configuration option.">ConfigOption</ref>(O_Disabled)<sp/><sp/></highlight></codeline>
+<codeline lineno="372"><highlight class="normal"><sp/><sp/><sp/><sp/>{<sp/>m_name<sp/>=<sp/>name;<sp/>}</highlight></codeline>
+<codeline lineno="373"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>writeTemplate(<ref refid="dc/d3c/class_f_text_stream" kindref="compound" tooltip="Simplified and optimized version of QTextStream.">FTextStream</ref><sp/>&amp;,</highlight><highlight class="keywordtype">bool</highlight><highlight class="normal">,</highlight><highlight class="keywordtype">bool</highlight><highlight class="normal">)<sp/>{}</highlight></codeline>
+<codeline lineno="374"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>substEnvVars()<sp/>{}</highlight></codeline>
+<codeline lineno="375"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>writeXML(<ref refid="dc/d3c/class_f_text_stream" kindref="compound" tooltip="Simplified and optimized version of QTextStream.">FTextStream</ref>&amp;);</highlight></codeline>
+<codeline lineno="376"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="377"><highlight class="normal"></highlight></codeline>
+<codeline lineno="378"><highlight class="normal"></highlight></codeline>
+<codeline lineno="379"><highlight class="normal"></highlight><highlight class="comment">//<sp/>some<sp/>convenience<sp/>macros</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="380"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>Config_getString(val)<sp/><sp/>Config::instance()-&gt;getString(__FILE__,__LINE__,val)</highlight></codeline>
+<codeline lineno="381"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>Config_getInt(val)<sp/><sp/><sp/><sp/><sp/>Config::instance()-&gt;getInt(__FILE__,__LINE__,val)</highlight></codeline>
+<codeline lineno="382"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>Config_getList(val)<sp/><sp/><sp/><sp/>Config::instance()-&gt;getList(__FILE__,__LINE__,val)</highlight></codeline>
+<codeline lineno="383"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>Config_getEnum(val)<sp/><sp/><sp/><sp/>Config::instance()-&gt;getEnum(__FILE__,__LINE__,val)</highlight></codeline>
+<codeline lineno="384"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>Config_getBool(val)<sp/><sp/><sp/><sp/>Config::instance()-&gt;getBool(__FILE__,__LINE__,val)</highlight></codeline>
+<codeline lineno="385"><highlight class="preprocessor"></highlight></codeline>
+<codeline lineno="397" refid="dd/d34/class_config" refkind="compound"><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="dd/d34/class_config" kindref="compound" tooltip="Singleton for configuration variables.">Config</ref></highlight></codeline>
+<codeline lineno="398"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="399"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="401"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>public<sp/>API</highlight></codeline>
+<codeline lineno="403"><highlight class="comment"></highlight></codeline>
+<codeline lineno="405" refid="dd/d34/class_config_1ad62b66142ca8c837019cd04de34c8caa" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/><ref refid="dd/d34/class_config" kindref="compound" tooltip="Singleton for configuration variables.">Config</ref><sp/>*<ref refid="dd/d34/class_config_1ad62b66142ca8c837019cd04de34c8caa" kindref="member">instance</ref>()</highlight></codeline>
+<codeline lineno="406"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="407"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(m_instance==0)<sp/>m_instance<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="dd/d34/class_config" kindref="compound" tooltip="Singleton for configuration variables.">Config</ref>;</highlight></codeline>
+<codeline lineno="408"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>m_instance;</highlight></codeline>
+<codeline lineno="409"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="411" refid="dd/d34/class_config_1a9ac848ef56b0923434a50bf658ed147a" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="dd/d34/class_config_1a9ac848ef56b0923434a50bf658ed147a" kindref="member">deleteInstance</ref>()</highlight></codeline>
+<codeline lineno="412"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="413"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">delete</highlight><highlight class="normal"><sp/>m_instance;</highlight></codeline>
+<codeline lineno="414"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>m_instance=0;</highlight></codeline>
+<codeline lineno="415"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="416"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="420" refid="dd/d34/class_config_1a59615f7624930345909a761a2b965368" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>QListIterator&lt;ConfigOption&gt;<sp/><ref refid="dd/d34/class_config_1a59615f7624930345909a761a2b965368" kindref="member">iterator</ref>()</highlight></codeline>
+<codeline lineno="421"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="422"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>QListIterator&lt;ConfigOption&gt;(*m_options);</highlight></codeline>
+<codeline lineno="423"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="424"><highlight class="normal"></highlight></codeline>
+<codeline lineno="434"><highlight class="normal"><sp/><sp/><sp/><sp/>QCString<sp/>&amp;<ref refid="dd/d34/class_config_1aad7066168aed9379e116c747261100fe" kindref="member">getString</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*fileName,</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>num,</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*name)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="435"><highlight class="normal"></highlight></codeline>
+<codeline lineno="440"><highlight class="normal"><sp/><sp/><sp/><sp/>QStrList<sp/>&amp;<ref refid="dd/d34/class_config_1a273068a63ba9425950af4e4bbf04042f" kindref="member">getList</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*fileName,</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>num,</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*name)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="441"><highlight class="normal"></highlight></codeline>
+<codeline lineno="446"><highlight class="normal"><sp/><sp/><sp/><sp/>QCString<sp/>&amp;<ref refid="dd/d34/class_config_1a2e06af598f2a74d1ccf264422483c49c" kindref="member">getEnum</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*fileName,</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>num,</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*name)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="447"><highlight class="normal"></highlight></codeline>
+<codeline lineno="452"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>&amp;<ref refid="dd/d34/class_config_1a21de6fa1d37d90ef800b0a162a1456c9" kindref="member">getInt</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*fileName,</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>num,</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*name)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="453"><highlight class="normal"></highlight></codeline>
+<codeline lineno="458"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/>&amp;<ref refid="dd/d34/class_config_1aca23fd4e84a33522cdbf09befc20355f" kindref="member">getBool</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*fileName,</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>num,</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*name)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="459"><highlight class="normal"></highlight></codeline>
+<codeline lineno="463" refid="dd/d34/class_config_1ad26b37b110cae51fa88b99bfdccc6a89" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="d2/dd3/class_config_option" kindref="compound" tooltip="Abstract base class for any configuration option.">ConfigOption</ref><sp/>*</highlight><highlight class="keyword">get</highlight><highlight class="normal">(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*name)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="464"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="465"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>m_dict-&gt;find(name);<sp/></highlight></codeline>
+<codeline lineno="466"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="467"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>@}<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="468"><highlight class="normal"></highlight></codeline>
+<codeline lineno="477" refid="dd/d34/class_config_1ae00b233eba398ae52a97715150100cce" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="dd/d89/class_config_info" kindref="compound" tooltip="Section marker for grouping the configuration options.">ConfigInfo</ref><sp/><sp/><sp/>*<ref refid="dd/d34/class_config_1ae00b233eba398ae52a97715150100cce" kindref="member">addInfo</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*name,</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*doc)</highlight></codeline>
+<codeline lineno="478"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="479"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="dd/d89/class_config_info" kindref="compound" tooltip="Section marker for grouping the configuration options.">ConfigInfo</ref><sp/>*result<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="dd/d89/class_config_info" kindref="compound" tooltip="Section marker for grouping the configuration options.">ConfigInfo</ref>(name,doc);</highlight></codeline>
+<codeline lineno="480"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>m_options-&gt;append(result);</highlight></codeline>
+<codeline lineno="481"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>result;</highlight></codeline>
+<codeline lineno="482"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="483"><highlight class="normal"></highlight></codeline>
+<codeline lineno="487" refid="dd/d34/class_config_1a1651fce3b93ce21da4559c6bd3aa470b" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="d1/dff/class_config_string" kindref="compound" tooltip="Class representing a string type option.">ConfigString</ref><sp/>*<ref refid="dd/d34/class_config_1a1651fce3b93ce21da4559c6bd3aa470b" kindref="member">addString</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*name,</highlight></codeline>
+<codeline lineno="488"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*doc)</highlight></codeline>
+<codeline lineno="489"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="490"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="d1/dff/class_config_string" kindref="compound" tooltip="Class representing a string type option.">ConfigString</ref><sp/>*result<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="d1/dff/class_config_string" kindref="compound" tooltip="Class representing a string type option.">ConfigString</ref>(name,doc);</highlight></codeline>
+<codeline lineno="491"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>m_options-&gt;append(result);</highlight></codeline>
+<codeline lineno="492"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>m_dict-&gt;insert(name,result);</highlight></codeline>
+<codeline lineno="493"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>result;</highlight></codeline>
+<codeline lineno="494"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="495"><highlight class="normal"></highlight></codeline>
+<codeline lineno="500" refid="dd/d34/class_config_1ab9fc76c9c08c212d1a4f05a9e532703b" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="df/d59/class_config_enum" kindref="compound" tooltip="Class representing an enum type option.">ConfigEnum</ref><sp/><sp/><sp/>*<ref refid="dd/d34/class_config_1ab9fc76c9c08c212d1a4f05a9e532703b" kindref="member">addEnum</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*name,</highlight></codeline>
+<codeline lineno="501"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*doc,</highlight></codeline>
+<codeline lineno="502"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*defVal)</highlight></codeline>
+<codeline lineno="503"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="504"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="df/d59/class_config_enum" kindref="compound" tooltip="Class representing an enum type option.">ConfigEnum</ref><sp/>*result<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="df/d59/class_config_enum" kindref="compound" tooltip="Class representing an enum type option.">ConfigEnum</ref>(name,doc,defVal);</highlight></codeline>
+<codeline lineno="505"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>m_options-&gt;append(result);</highlight></codeline>
+<codeline lineno="506"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>m_dict-&gt;insert(name,result);</highlight></codeline>
+<codeline lineno="507"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>result;</highlight></codeline>
+<codeline lineno="508"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="509"><highlight class="normal"></highlight></codeline>
+<codeline lineno="513" refid="dd/d34/class_config_1a8d07cf5f9e8f427eda3949380c7c3207" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="dd/df8/class_config_list" kindref="compound" tooltip="Class respresenting a list type option.">ConfigList</ref><sp/><sp/><sp/>*<ref refid="dd/d34/class_config_1a8d07cf5f9e8f427eda3949380c7c3207" kindref="member">addList</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*name,</highlight></codeline>
+<codeline lineno="514"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*doc)</highlight></codeline>
+<codeline lineno="515"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="516"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="dd/df8/class_config_list" kindref="compound" tooltip="Class respresenting a list type option.">ConfigList</ref><sp/>*result<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="dd/df8/class_config_list" kindref="compound" tooltip="Class respresenting a list type option.">ConfigList</ref>(name,doc);</highlight></codeline>
+<codeline lineno="517"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>m_options-&gt;append(result);</highlight></codeline>
+<codeline lineno="518"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>m_dict-&gt;insert(name,result);</highlight></codeline>
+<codeline lineno="519"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>result;</highlight></codeline>
+<codeline lineno="520"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="521"><highlight class="normal"></highlight></codeline>
+<codeline lineno="527" refid="dd/d34/class_config_1a1d264d5e39c9937449137267e8780cad" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="d4/d52/class_config_int" kindref="compound" tooltip="Class representing an integer type option.">ConfigInt</ref><sp/><sp/><sp/><sp/>*<ref refid="dd/d34/class_config_1a1d264d5e39c9937449137267e8780cad" kindref="member">addInt</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*name,</highlight></codeline>
+<codeline lineno="528"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*doc,</highlight></codeline>
+<codeline lineno="529"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>minVal,</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>maxVal,</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>defVal)</highlight></codeline>
+<codeline lineno="530"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="531"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="d4/d52/class_config_int" kindref="compound" tooltip="Class representing an integer type option.">ConfigInt</ref><sp/>*result<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="d4/d52/class_config_int" kindref="compound" tooltip="Class representing an integer type option.">ConfigInt</ref>(name,doc,minVal,maxVal,defVal);</highlight></codeline>
+<codeline lineno="532"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>m_options-&gt;append(result);</highlight></codeline>
+<codeline lineno="533"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>m_dict-&gt;insert(name,result);</highlight></codeline>
+<codeline lineno="534"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>result;</highlight></codeline>
+<codeline lineno="535"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="536"><highlight class="normal"></highlight></codeline>
+<codeline lineno="541" refid="dd/d34/class_config_1aa9fe790cffa0da8616a64a8e4c7d5836" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="d4/ded/class_config_bool" kindref="compound" tooltip="Class representing a Boolean type option.">ConfigBool</ref><sp/><sp/><sp/>*<ref refid="dd/d34/class_config_1aa9fe790cffa0da8616a64a8e4c7d5836" kindref="member">addBool</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*name,</highlight></codeline>
+<codeline lineno="542"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*doc,</highlight></codeline>
+<codeline lineno="543"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>defVal)</highlight></codeline>
+<codeline lineno="544"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="545"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="d4/ded/class_config_bool" kindref="compound" tooltip="Class representing a Boolean type option.">ConfigBool</ref><sp/>*result<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="d4/ded/class_config_bool" kindref="compound" tooltip="Class representing a Boolean type option.">ConfigBool</ref>(name,doc,defVal);</highlight></codeline>
+<codeline lineno="546"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>m_options-&gt;append(result);</highlight></codeline>
+<codeline lineno="547"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>m_dict-&gt;insert(name,result);</highlight></codeline>
+<codeline lineno="548"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>result;</highlight></codeline>
+<codeline lineno="549"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="551" refid="dd/d34/class_config_1a7ff40d5f1a20ac34ecc2d497dd6cd3da" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="d2/dd3/class_config_option" kindref="compound" tooltip="Abstract base class for any configuration option.">ConfigOption</ref><sp/>*<ref refid="dd/d34/class_config_1a7ff40d5f1a20ac34ecc2d497dd6cd3da" kindref="member">addObsolete</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*name)</highlight></codeline>
+<codeline lineno="552"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="553"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="d3/db9/class_config_obsolete" kindref="compound" tooltip="Section marker for obsolete options.">ConfigObsolete</ref><sp/>*option<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="d3/db9/class_config_obsolete" kindref="compound" tooltip="Section marker for obsolete options.">ConfigObsolete</ref>(name);</highlight></codeline>
+<codeline lineno="554"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>m_dict-&gt;insert(name,option);</highlight></codeline>
+<codeline lineno="555"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>m_obsolete-&gt;append(option);</highlight></codeline>
+<codeline lineno="556"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>option;</highlight></codeline>
+<codeline lineno="557"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="559" refid="dd/d34/class_config_1accfc0c75837e284e8e5c7d2770afcf4f" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="d2/dd3/class_config_option" kindref="compound" tooltip="Abstract base class for any configuration option.">ConfigOption</ref><sp/>*<ref refid="dd/d34/class_config_1accfc0c75837e284e8e5c7d2770afcf4f" kindref="member">addDisabled</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*name)</highlight></codeline>
+<codeline lineno="560"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="561"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="d5/d86/class_config_disabled" kindref="compound" tooltip="Section marker for compile time optional options.">ConfigDisabled</ref><sp/>*option<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="d5/d86/class_config_disabled" kindref="compound" tooltip="Section marker for compile time optional options.">ConfigDisabled</ref>(name);</highlight></codeline>
+<codeline lineno="562"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>m_dict-&gt;insert(name,option);</highlight></codeline>
+<codeline lineno="563"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>m_disabled-&gt;append(option);</highlight></codeline>
+<codeline lineno="564"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>option;</highlight></codeline>
+<codeline lineno="565"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="572"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="dd/d34/class_config_1ae9e299c7239061edc8c369f51d3948e6" kindref="member">writeTemplate</ref>(<ref refid="dc/d3c/class_f_text_stream" kindref="compound" tooltip="Simplified and optimized version of QTextStream.">FTextStream</ref><sp/>&amp;t,</highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>shortIndex,</highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>updateOnly);</highlight></codeline>
+<codeline lineno="573"><highlight class="normal"></highlight></codeline>
+<codeline lineno="575"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="dd/d34/class_config_1aebf15fc68e1b907ab56d68094735134e" kindref="member" tooltip="Write XML representation of the config file.">writeXML</ref>(<ref refid="dc/d3c/class_f_text_stream" kindref="compound" tooltip="Simplified and optimized version of QTextStream.">FTextStream</ref><sp/>&amp;t);</highlight></codeline>
+<codeline lineno="576"><highlight class="normal"></highlight></codeline>
+<codeline lineno="578"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>internal<sp/>API</highlight></codeline>
+<codeline lineno="580"><highlight class="comment"></highlight></codeline>
+<codeline lineno="584"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="dd/d34/class_config_1a0be224084aa38a9d479ed0260baf27a6" kindref="member">convertStrToVal</ref>();</highlight></codeline>
+<codeline lineno="585"><highlight class="normal"></highlight></codeline>
+<codeline lineno="589"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="dd/d34/class_config_1a6b714f42522fe1359a3ae30fef026d9b" kindref="member">substituteEnvironmentVars</ref>();</highlight></codeline>
+<codeline lineno="590"><highlight class="normal"></highlight></codeline>
+<codeline lineno="594"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="dd/d34/class_config_1a2d04091f571813bab7171cf713917aff" kindref="member">check</ref>();</highlight></codeline>
+<codeline lineno="595"><highlight class="normal"></highlight></codeline>
+<codeline lineno="597"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="dd/d34/class_config_1a91bcb187ed95ec673137e413a4d77203" kindref="member">init</ref>();</highlight></codeline>
+<codeline lineno="598"><highlight class="normal"></highlight></codeline>
+<codeline lineno="603"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="dd/d34/class_config_1a4588d1c40c8a95da00b047ddf13a3f3c" kindref="member">parseString</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*fn,</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*str);</highlight></codeline>
+<codeline lineno="604"><highlight class="normal"></highlight></codeline>
+<codeline lineno="609"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="dd/d34/class_config_1ad24d9fb4336f610c7c98cc4ddb9730e7" kindref="member">parse</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*fn);</highlight></codeline>
+<codeline lineno="610"><highlight class="normal"></highlight></codeline>
+<codeline lineno="614"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="dd/d34/class_config_1a648a61e504c9f71dd1e568c85e5c41c1" kindref="member">create</ref>();</highlight></codeline>
+<codeline lineno="615"><highlight class="normal"></highlight></codeline>
+<codeline lineno="618" refid="dd/d34/class_config_1a3545a504bca96d2b17f2f15d2ad7e501" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="dd/d34/class_config_1a3545a504bca96d2b17f2f15d2ad7e501" kindref="member">appendUserComment</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QCString<sp/>&amp;u)</highlight></codeline>
+<codeline lineno="619"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="620"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>m_userComment<sp/>+=<sp/>u;</highlight></codeline>
+<codeline lineno="621"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="625" refid="dd/d34/class_config_1a6ecb2d94f351474c1e80665df55bf686" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>QCString<sp/><ref refid="dd/d34/class_config_1a6ecb2d94f351474c1e80665df55bf686" kindref="member">takeUserComment</ref>()</highlight></codeline>
+<codeline lineno="626"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="627"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>QCString<sp/>result=m_userComment;</highlight></codeline>
+<codeline lineno="628"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>m_userComment.resize(0);</highlight></codeline>
+<codeline lineno="629"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>result;</highlight></codeline>
+<codeline lineno="630"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="631"><highlight class="normal"></highlight></codeline>
+<codeline lineno="632"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">protected</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="633"><highlight class="normal"></highlight></codeline>
+<codeline lineno="634"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="dd/d34/class_config" kindref="compound" tooltip="Singleton for configuration variables.">Config</ref>()</highlight></codeline>
+<codeline lineno="635"><highlight class="normal"><sp/><sp/><sp/><sp/>{<sp/></highlight></codeline>
+<codeline lineno="636"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>m_options<sp/><sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="db/daa/class_q_list" kindref="compound">QList&lt;ConfigOption&gt;</ref>;</highlight></codeline>
+<codeline lineno="637"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>m_obsolete<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="db/daa/class_q_list" kindref="compound">QList&lt;ConfigOption&gt;</ref>;</highlight></codeline>
+<codeline lineno="638"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>m_disabled<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="db/daa/class_q_list" kindref="compound">QList&lt;ConfigOption&gt;</ref>;</highlight></codeline>
+<codeline lineno="639"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>m_dict<sp/><sp/><sp/><sp/><sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>QDict&lt;ConfigOption&gt;(257);</highlight></codeline>
+<codeline lineno="640"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>m_options-&gt;setAutoDelete(TRUE);</highlight></codeline>
+<codeline lineno="641"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>m_obsolete-&gt;setAutoDelete(TRUE);</highlight></codeline>
+<codeline lineno="642"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>m_initialized<sp/>=<sp/>FALSE;</highlight></codeline>
+<codeline lineno="643"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="dd/d34/class_config_1a648a61e504c9f71dd1e568c85e5c41c1" kindref="member">create</ref>();</highlight></codeline>
+<codeline lineno="644"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="645"><highlight class="normal"><sp/><sp/><sp/>~<ref refid="dd/d34/class_config" kindref="compound" tooltip="Singleton for configuration variables.">Config</ref>()</highlight></codeline>
+<codeline lineno="646"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="647"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">delete</highlight><highlight class="normal"><sp/>m_options;</highlight></codeline>
+<codeline lineno="648"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">delete</highlight><highlight class="normal"><sp/>m_obsolete;</highlight></codeline>
+<codeline lineno="649"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">delete</highlight><highlight class="normal"><sp/>m_disabled;</highlight></codeline>
+<codeline lineno="650"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">delete</highlight><highlight class="normal"><sp/>m_dict;</highlight></codeline>
+<codeline lineno="651"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="652"><highlight class="normal"></highlight></codeline>
+<codeline lineno="653"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="654"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="db/daa/class_q_list" kindref="compound">QList&lt;ConfigOption&gt;</ref><sp/>*m_options;</highlight></codeline>
+<codeline lineno="655"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="db/daa/class_q_list" kindref="compound">QList&lt;ConfigOption&gt;</ref><sp/>*m_obsolete;</highlight></codeline>
+<codeline lineno="656"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="db/daa/class_q_list" kindref="compound">QList&lt;ConfigOption&gt;</ref><sp/>*m_disabled;</highlight></codeline>
+<codeline lineno="657"><highlight class="normal"><sp/><sp/><sp/><sp/>QDict&lt;ConfigOption&gt;<sp/>*m_dict;</highlight></codeline>
+<codeline lineno="658"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/><ref refid="dd/d34/class_config" kindref="compound" tooltip="Singleton for configuration variables.">Config</ref><sp/>*m_instance;</highlight></codeline>
+<codeline lineno="659"><highlight class="normal"><sp/><sp/><sp/><sp/>QCString<sp/>m_userComment;</highlight></codeline>
+<codeline lineno="660"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>m_initialized;</highlight></codeline>
+<codeline lineno="661"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="662"><highlight class="normal"></highlight></codeline>
+<codeline lineno="663"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+    </programlisting>
+    <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/config.h"/>
+  </compounddef>
+</doxygen>

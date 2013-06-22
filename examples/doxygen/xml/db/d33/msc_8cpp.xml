@@ -1,0 +1,610 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.2">
+  <compounddef id="db/d33/msc_8cpp" kind="file">
+    <compoundname>msc.cpp</compoundname>
+    <includes refid="dc/d66/msc_8h" local="yes">msc.h</includes>
+    <includes refid="d2/de2/portable_8h" local="yes">portable.h</includes>
+    <includes refid="db/d16/config_8h" local="yes">config.h</includes>
+    <includes refid="d2/d0d/message_8h" local="yes">message.h</includes>
+    <includes refid="de/d9c/docparser_8h" local="yes">docparser.h</includes>
+    <includes refid="d1/da1/doxygen_8h" local="yes">doxygen.h</includes>
+    <includes refid="d8/d3c/util_8h" local="yes">util.h</includes>
+    <includes local="no">qtextstream.h</includes>
+    <includes local="no">qdir.h</includes>
+    <incdepgraph>
+      <node id="3849">
+        <label>qcstring.h</label>
+      </node>
+      <node id="3846">
+        <label>qgstring.h</label>
+      </node>
+      <node id="3848">
+        <label>docparser.h</label>
+        <link refid="de/d9c/docparser_8h_source"/>
+        <childnode refid="3837" relation="include">
+        </childnode>
+        <childnode refid="3842" relation="include">
+        </childnode>
+        <childnode refid="3849" relation="include">
+        </childnode>
+        <childnode refid="3850" relation="include">
+        </childnode>
+        <childnode refid="3851" relation="include">
+        </childnode>
+      </node>
+      <node id="3853">
+        <label>qdatetime.h</label>
+      </node>
+      <node id="3840">
+        <label>qstrlist.h</label>
+      </node>
+      <node id="3838">
+        <label>qglobal.h</label>
+      </node>
+      <node id="3845">
+        <label>qstring.h</label>
+      </node>
+      <node id="3850">
+        <label>docvisitor.h</label>
+        <link refid="d2/d3c/docvisitor_8h_source"/>
+      </node>
+      <node id="3857">
+        <label>membergroup.h</label>
+        <link refid="d9/d11/membergroup_8h_source"/>
+        <childnode refid="3842" relation="include">
+        </childnode>
+        <childnode refid="3856" relation="include">
+        </childnode>
+        <childnode refid="3858" relation="include">
+        </childnode>
+      </node>
+      <node id="3833">
+        <label>src/msc.cpp</label>
+        <link refid="msc.cpp"/>
+        <childnode refid="3834" relation="include">
+        </childnode>
+        <childnode refid="3835" relation="include">
+        </childnode>
+        <childnode refid="3839" relation="include">
+        </childnode>
+        <childnode refid="3847" relation="include">
+        </childnode>
+        <childnode refid="3848" relation="include">
+        </childnode>
+        <childnode refid="3852" relation="include">
+        </childnode>
+        <childnode refid="3863" relation="include">
+        </childnode>
+        <childnode refid="3865" relation="include">
+        </childnode>
+        <childnode refid="3866" relation="include">
+        </childnode>
+      </node>
+      <node id="3856">
+        <label>sortdict.h</label>
+        <link refid="d9/d21/sortdict_8h_source"/>
+        <childnode refid="3842" relation="include">
+        </childnode>
+        <childnode refid="3841" relation="include">
+        </childnode>
+        <childnode refid="3855" relation="include">
+        </childnode>
+      </node>
+      <node id="3861">
+        <label>memberlist.h</label>
+        <link refid="dd/d78/memberlist_8h_source"/>
+        <childnode refid="3842" relation="include">
+        </childnode>
+        <childnode refid="3862" relation="include">
+        </childnode>
+        <childnode refid="3856" relation="include">
+        </childnode>
+        <childnode refid="3858" relation="include">
+        </childnode>
+      </node>
+      <node id="3834">
+        <label>msc.h</label>
+        <link refid="dc/d66/msc_8h_source"/>
+      </node>
+      <node id="3866">
+        <label>qdir.h</label>
+      </node>
+      <node id="3854">
+        <label>qcache.h</label>
+      </node>
+      <node id="3847">
+        <label>message.h</label>
+        <link refid="d2/d0d/message_8h_source"/>
+        <childnode refid="3837" relation="include">
+        </childnode>
+      </node>
+      <node id="3863">
+        <label>util.h</label>
+        <link refid="d8/d3c/util_8h"/>
+        <childnode refid="3842" relation="include">
+        </childnode>
+        <childnode refid="3864" relation="include">
+        </childnode>
+        <childnode refid="3858" relation="include">
+        </childnode>
+      </node>
+      <node id="3855">
+        <label>qintdict.h</label>
+      </node>
+      <node id="3844">
+        <label>qiodevice.h</label>
+      </node>
+      <node id="3839">
+        <label>config.h</label>
+        <link refid="db/d16/config_8h_source"/>
+        <childnode refid="3840" relation="include">
+        </childnode>
+        <childnode refid="3841" relation="include">
+        </childnode>
+        <childnode refid="3842" relation="include">
+        </childnode>
+        <childnode refid="3843" relation="include">
+        </childnode>
+      </node>
+      <node id="3836">
+        <label>sys/types.h</label>
+      </node>
+      <node id="3858">
+        <label>types.h</label>
+        <link refid="d9/d49/types_8h"/>
+        <childnode refid="3849" relation="include">
+        </childnode>
+      </node>
+      <node id="3842">
+        <label>qlist.h</label>
+      </node>
+      <node id="3843">
+        <label>ftextstream.h</label>
+        <link refid="df/d83/ftextstream_8h_source"/>
+        <childnode refid="3837" relation="include">
+        </childnode>
+        <childnode refid="3844" relation="include">
+        </childnode>
+        <childnode refid="3845" relation="include">
+        </childnode>
+        <childnode refid="3846" relation="include">
+        </childnode>
+      </node>
+      <node id="3865">
+        <label>qtextstream.h</label>
+      </node>
+      <node id="3852">
+        <label>doxygen.h</label>
+        <link refid="d1/da1/doxygen_8h_source"/>
+        <childnode refid="3853" relation="include">
+        </childnode>
+        <childnode refid="3854" relation="include">
+        </childnode>
+        <childnode refid="3840" relation="include">
+        </childnode>
+        <childnode refid="3841" relation="include">
+        </childnode>
+        <childnode refid="3855" relation="include">
+        </childnode>
+        <childnode refid="3843" relation="include">
+        </childnode>
+        <childnode refid="3856" relation="include">
+        </childnode>
+        <childnode refid="3857" relation="include">
+        </childnode>
+        <childnode refid="3859" relation="include">
+        </childnode>
+        <childnode refid="3861" relation="include">
+        </childnode>
+      </node>
+      <node id="3862">
+        <label>memberdef.h</label>
+        <link refid="d4/d46/memberdef_8h_source"/>
+        <childnode refid="3842" relation="include">
+        </childnode>
+        <childnode refid="3836" relation="include">
+        </childnode>
+        <childnode refid="3858" relation="include">
+        </childnode>
+        <childnode refid="3860" relation="include">
+        </childnode>
+      </node>
+      <node id="3864">
+        <label>ctype.h</label>
+      </node>
+      <node id="3860">
+        <label>definition.h</label>
+        <link refid="df/da1/definition_8h_source"/>
+        <childnode refid="3842" relation="include">
+        </childnode>
+        <childnode refid="3841" relation="include">
+        </childnode>
+        <childnode refid="3858" relation="include">
+        </childnode>
+      </node>
+      <node id="3859">
+        <label>dirdef.h</label>
+        <link refid="d6/d15/dirdef_8h_source"/>
+        <childnode refid="3856" relation="include">
+        </childnode>
+        <childnode refid="3860" relation="include">
+        </childnode>
+        <childnode refid="3842" relation="include">
+        </childnode>
+      </node>
+      <node id="3841">
+        <label>qdict.h</label>
+      </node>
+      <node id="3835">
+        <label>portable.h</label>
+        <link refid="d2/de2/portable_8h"/>
+        <childnode refid="3836" relation="include">
+        </childnode>
+        <childnode refid="3837" relation="include">
+        </childnode>
+        <childnode refid="3838" relation="include">
+        </childnode>
+      </node>
+      <node id="3851">
+        <label>htmlattrib.h</label>
+        <link refid="d0/d73/htmlattrib_8h_source"/>
+        <childnode refid="3849" relation="include">
+        </childnode>
+        <childnode refid="3842" relation="include">
+        </childnode>
+      </node>
+      <node id="3837">
+        <label>stdio.h</label>
+      </node>
+    </incdepgraph>
+      <sectiondef kind="var">
+      <memberdef kind="variable" id="db/d33/msc_8cpp_1ad1b6b56d95d64570f2be3ca005b63412" prot="public" static="yes" mutable="no">
+        <type>const int</type>
+        <definition>const int maxCmdLine</definition>
+        <argsstring></argsstring>
+        <name>maxCmdLine</name>
+        <initializer>= 40960</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/msc.cpp" line="29" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/msc.cpp" bodystart="29" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="db/d33/msc_8cpp_1a558b7a1f8e16c3603804aaf90dd81863" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool convertMapFile</definition>
+        <argsstring>(QTextStream &amp;t, const char *mapName, const QCString relPath, const QCString &amp;context)</argsstring>
+        <name>convertMapFile</name>
+        <param>
+          <type>QTextStream &amp;</type>
+          <declname>t</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>mapName</declname>
+        </param>
+        <param>
+          <type>const QCString</type>
+          <declname>relPath</declname>
+        </param>
+        <param>
+          <type>const QCString &amp;</type>
+          <declname>context</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/msc.cpp" line="33" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/msc.cpp" bodystart="31" bodyend="89"/>
+      </memberdef>
+      <memberdef kind="function" id="db/d33/msc_8cpp_1a2dc985bf21fc53f7970295c09a181acf" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void writeMscGraphFromFile</definition>
+        <argsstring>(const char *inFile, const char *outDir, const char *outFile, MscOutputFormat format)</argsstring>
+        <name>writeMscGraphFromFile</name>
+        <param>
+          <type>const char *</type>
+          <declname>inFile</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>outDir</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>outFile</declname>
+        </param>
+        <param>
+          <type>MscOutputFormat</type>
+          <declname>format</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/msc.cpp" line="93" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/msc.cpp" bodystart="91" bodyend="146"/>
+      </memberdef>
+      <memberdef kind="function" id="db/d33/msc_8cpp_1aa6f84611cd60b3980cdeec63b2e1ffbc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>QCString</type>
+        <definition>QCString getMscImageMapFromFile</definition>
+        <argsstring>(const QCString &amp;inFile, const QCString &amp;outDir, const QCString &amp;relPath, const QCString &amp;context)</argsstring>
+        <name>getMscImageMapFromFile</name>
+        <param>
+          <type>const QCString &amp;</type>
+          <declname>inFile</declname>
+        </param>
+        <param>
+          <type>const QCString &amp;</type>
+          <declname>outDir</declname>
+        </param>
+        <param>
+          <type>const QCString &amp;</type>
+          <declname>relPath</declname>
+        </param>
+        <param>
+          <type>const QCString &amp;</type>
+          <declname>context</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/msc.cpp" line="150" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/msc.cpp" bodystart="148" bodyend="185"/>
+      </memberdef>
+      <memberdef kind="function" id="db/d33/msc_8cpp_1a12367b6c61de469f4fc7e71b0f29e983" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void writeMscImageMapFromFile</definition>
+        <argsstring>(FTextStream &amp;t, const QCString &amp;inFile, const QCString &amp;outDir, const QCString &amp;relPath, const QCString &amp;baseName, const QCString &amp;context)</argsstring>
+        <name>writeMscImageMapFromFile</name>
+        <param>
+          <type><ref refid="dc/d3c/class_f_text_stream" kindref="compound">FTextStream</ref> &amp;</type>
+          <declname>t</declname>
+        </param>
+        <param>
+          <type>const QCString &amp;</type>
+          <declname>inFile</declname>
+        </param>
+        <param>
+          <type>const QCString &amp;</type>
+          <declname>outDir</declname>
+        </param>
+        <param>
+          <type>const QCString &amp;</type>
+          <declname>relPath</declname>
+        </param>
+        <param>
+          <type>const QCString &amp;</type>
+          <declname>baseName</declname>
+        </param>
+        <param>
+          <type>const QCString &amp;</type>
+          <declname>context</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/msc.cpp" line="192" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/msc.cpp" bodystart="187" bodyend="199"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">/******************************************************************************</highlight></codeline>
+<codeline lineno="2"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="3"><highlight class="comment"><sp/>*<sp/>$Id:<sp/>msc.cpp,v<sp/>1.14<sp/>2001/03/19<sp/>19:27:40<sp/>root<sp/>Exp<sp/>$</highlight></codeline>
+<codeline lineno="4"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="5"><highlight class="comment"><sp/>*<sp/>Copyright<sp/>(C)<sp/>1997-2013<sp/>by<sp/>Dimitri<sp/>van<sp/>Heesch.</highlight></codeline>
+<codeline lineno="6"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="7"><highlight class="comment"><sp/>*<sp/>Permission<sp/>to<sp/>use,<sp/>copy,<sp/>modify,<sp/>and<sp/>distribute<sp/>this<sp/>software<sp/>and<sp/>its</highlight></codeline>
+<codeline lineno="8"><highlight class="comment"><sp/>*<sp/>documentation<sp/>under<sp/>the<sp/>terms<sp/>of<sp/>the<sp/>GNU<sp/>General<sp/>Public<sp/>License<sp/>is<sp/>hereby<sp/></highlight></codeline>
+<codeline lineno="9"><highlight class="comment"><sp/>*<sp/>granted.<sp/>No<sp/>representations<sp/>are<sp/>made<sp/>about<sp/>the<sp/>suitability<sp/>of<sp/>this<sp/>software<sp/></highlight></codeline>
+<codeline lineno="10"><highlight class="comment"><sp/>*<sp/>for<sp/>any<sp/>purpose.<sp/>It<sp/>is<sp/>provided<sp/>&quot;as<sp/>is&quot;<sp/>without<sp/>express<sp/>or<sp/>implied<sp/>warranty.</highlight></codeline>
+<codeline lineno="11"><highlight class="comment"><sp/>*<sp/>See<sp/>the<sp/>GNU<sp/>General<sp/>Public<sp/>License<sp/>for<sp/>more<sp/>details.</highlight></codeline>
+<codeline lineno="12"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="13"><highlight class="comment"><sp/>*<sp/>Documents<sp/>produced<sp/>by<sp/>Doxygen<sp/>are<sp/>derivative<sp/>works<sp/>derived<sp/>from<sp/>the</highlight></codeline>
+<codeline lineno="14"><highlight class="comment"><sp/>*<sp/>input<sp/>used<sp/>in<sp/>their<sp/>production;<sp/>they<sp/>are<sp/>not<sp/>affected<sp/>by<sp/>this<sp/>license.</highlight></codeline>
+<codeline lineno="15"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="16"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;msc.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="d2/de2/portable_8h" kindref="compound" tooltip="Portable versions of functions that are platform dependent.">portable.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;config.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;message.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;docparser.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;doxygen.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="d8/d3c/util_8h" kindref="compound" tooltip="A bunch of utility functions.">util.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;qtextstream.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;qdir.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight></codeline>
+<codeline lineno="29"><highlight class="normal"></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>maxCmdLine<sp/>=<sp/>40960;</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"></highlight></codeline>
+<codeline lineno="31"><highlight class="normal"></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>convertMapFile(QTextStream<sp/>&amp;t,</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*mapName,</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QCString<sp/>relPath,</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QCString<sp/>&amp;context)</highlight></codeline>
+<codeline lineno="33"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/>QFile<sp/>f(mapName);</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(!f.open(IO_ReadOnly))</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/>{</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/>err(</highlight><highlight class="stringliteral">&quot;failed<sp/>to<sp/>open<sp/>map<sp/>file<sp/>%s<sp/>for<sp/>inclusion<sp/>in<sp/>the<sp/>docs!\n&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;If<sp/>you<sp/>installed<sp/>Graphviz/dot<sp/>after<sp/>a<sp/>previous<sp/>failing<sp/>run,<sp/>\n&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;try<sp/>deleting<sp/>the<sp/>output<sp/>directory<sp/>and<sp/>rerun<sp/>doxygen.\n&quot;</highlight><highlight class="normal">,mapName);</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>FALSE;</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/>}</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>maxLineLen=1024;</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>buf[maxLineLen];</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>url[maxLineLen];</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>ref[maxLineLen];</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>x1,y1,x2,y2;</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">while</highlight><highlight class="normal"><sp/>(!f.atEnd())</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"><sp/><sp/>{</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>isRef<sp/>=<sp/>FALSE;</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>numBytes<sp/>=<sp/>f.readLine(buf,maxLineLen);</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"><sp/><sp/><sp/><sp/>buf[numBytes-1]=</highlight><highlight class="charliteral">&apos;\0&apos;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//printf(&quot;ReadLine<sp/>`%s&apos;\n&quot;,buf);</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="53"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(qstrncmp(buf,</highlight><highlight class="stringliteral">&quot;rect&quot;</highlight><highlight class="normal">,4)==0)</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="55"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>obtain<sp/>the<sp/>url<sp/>and<sp/>the<sp/>coordinates<sp/>in<sp/>the<sp/>order<sp/>used<sp/>by<sp/>graphviz-1.5</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="56"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>sscanf(buf,</highlight><highlight class="stringliteral">&quot;rect<sp/>%s<sp/>%d,%d<sp/>%d,%d&quot;</highlight><highlight class="normal">,url,&amp;x1,&amp;y1,&amp;x2,&amp;y2);</highlight></codeline>
+<codeline lineno="57"><highlight class="normal"></highlight></codeline>
+<codeline lineno="58"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<sp/>strcmp(url,</highlight><highlight class="stringliteral">&quot;\\ref&quot;</highlight><highlight class="normal">)<sp/>==<sp/>0<sp/>)</highlight></codeline>
+<codeline lineno="59"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="60"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>isRef<sp/>=<sp/>TRUE;</highlight></codeline>
+<codeline lineno="61"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>sscanf(buf,</highlight><highlight class="stringliteral">&quot;rect<sp/>%s<sp/>%s<sp/>%d,%d<sp/>%d,%d&quot;</highlight><highlight class="normal">,ref,url,&amp;x1,&amp;y1,&amp;x2,&amp;y2);</highlight></codeline>
+<codeline lineno="62"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="63"><highlight class="normal"></highlight></codeline>
+<codeline lineno="64"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>sanity<sp/>checks</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="65"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(y2&lt;y1)<sp/>{<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>temp=y2;<sp/>y2=y1;<sp/>y1=temp;<sp/>}</highlight></codeline>
+<codeline lineno="66"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(x2&lt;x1)<sp/>{<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>temp=x2;<sp/>x2=x1;<sp/>x1=temp;<sp/>}</highlight></codeline>
+<codeline lineno="67"><highlight class="normal"></highlight></codeline>
+<codeline lineno="68"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>t<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;&lt;area<sp/>href=\&quot;&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="69"><highlight class="normal"></highlight></codeline>
+<codeline lineno="70"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<sp/>isRef<sp/>)</highlight></codeline>
+<codeline lineno="71"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="72"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>handle<sp/>doxygen<sp/>\ref<sp/>tag<sp/>URL<sp/>reference</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="73"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="d5/d68/class_doc_ref" kindref="compound" tooltip="Node representing a reference to some item.">DocRef</ref><sp/>*df<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="d5/d68/class_doc_ref" kindref="compound" tooltip="Node representing a reference to some item.">DocRef</ref>(<sp/>(<ref refid="d9/d0e/class_doc_node" kindref="compound" tooltip="Abstract node interface with type information.">DocNode</ref>*)<sp/>0,<sp/>url,<sp/>context<sp/>);</highlight></codeline>
+<codeline lineno="74"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>t<sp/>&lt;&lt;<sp/>externalRef(relPath,df-&gt;ref(),TRUE);</highlight></codeline>
+<codeline lineno="75"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(!df-&gt;file().isEmpty())<sp/>t<sp/>&lt;&lt;<sp/>df-&gt;file()<sp/>&lt;&lt;<sp/>Doxygen::htmlFileExtension;</highlight></codeline>
+<codeline lineno="76"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(!df-&gt;anchor().isEmpty())<sp/>t<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;#&quot;</highlight><highlight class="normal"><sp/>&lt;&lt;<sp/>df-&gt;anchor();</highlight></codeline>
+<codeline lineno="77"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="78"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="79"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="80"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>t<sp/>&lt;&lt;<sp/>url;</highlight></codeline>
+<codeline lineno="81"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="82"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>t<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;\&quot;<sp/>shape=\&quot;rect\&quot;<sp/>coords=\&quot;&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="83"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>&lt;&lt;<sp/>x1<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;,&quot;</highlight><highlight class="normal"><sp/>&lt;&lt;<sp/>y1<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;,&quot;</highlight><highlight class="normal"><sp/>&lt;&lt;<sp/>x2<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;,&quot;</highlight><highlight class="normal"><sp/>&lt;&lt;<sp/>y2<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;\&quot;&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="84"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;<sp/>alt=\&quot;\&quot;/&gt;&quot;</highlight><highlight class="normal"><sp/>&lt;&lt;<sp/>endl;</highlight></codeline>
+<codeline lineno="85"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="86"><highlight class="normal"><sp/><sp/>}</highlight></codeline>
+<codeline lineno="87"><highlight class="normal"></highlight></codeline>
+<codeline lineno="88"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>TRUE;</highlight></codeline>
+<codeline lineno="89"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="90"><highlight class="normal"></highlight></codeline>
+<codeline lineno="91"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>writeMscGraphFromFile(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*inFile,</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*outDir,</highlight></codeline>
+<codeline lineno="92"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*outFile,MscOutputFormat<sp/>format)</highlight></codeline>
+<codeline lineno="93"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="94"><highlight class="normal"><sp/><sp/>QCString<sp/>absOutFile<sp/>=<sp/>outDir;</highlight></codeline>
+<codeline lineno="95"><highlight class="normal"><sp/><sp/>absOutFile+=portable_pathSeparator();</highlight></codeline>
+<codeline lineno="96"><highlight class="normal"><sp/><sp/>absOutFile+=outFile;</highlight></codeline>
+<codeline lineno="97"><highlight class="normal"></highlight></codeline>
+<codeline lineno="98"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//<sp/>chdir<sp/>to<sp/>the<sp/>output<sp/>dir,<sp/>so<sp/>dot<sp/>can<sp/>find<sp/>the<sp/>font<sp/>file.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="99"><highlight class="normal"><sp/><sp/>QCString<sp/>oldDir<sp/>=<sp/>QDir::currentDirPath().utf8();</highlight></codeline>
+<codeline lineno="100"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//<sp/>go<sp/>to<sp/>the<sp/>html<sp/>output<sp/>directory<sp/>(i.e.<sp/>path)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="101"><highlight class="normal"><sp/><sp/>QDir::setCurrent(outDir);</highlight></codeline>
+<codeline lineno="102"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//printf(&quot;Going<sp/>to<sp/>dir<sp/>%s\n&quot;,QDir::currentDirPath().data());</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="103"><highlight class="normal"><sp/><sp/>QCString<sp/>mscExe<sp/>=<sp/>Config_getString(</highlight><highlight class="stringliteral">&quot;MSCGEN_PATH&quot;</highlight><highlight class="normal">)+</highlight><highlight class="stringliteral">&quot;mscgen&quot;</highlight><highlight class="normal">+portable_commandExtension();</highlight></codeline>
+<codeline lineno="104"><highlight class="normal"><sp/><sp/>QCString<sp/>mscArgs;</highlight></codeline>
+<codeline lineno="105"><highlight class="normal"><sp/><sp/>QCString<sp/>extension;</highlight></codeline>
+<codeline lineno="106"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(format==MSC_BITMAP)</highlight></codeline>
+<codeline lineno="107"><highlight class="normal"><sp/><sp/>{</highlight></codeline>
+<codeline lineno="108"><highlight class="normal"><sp/><sp/><sp/><sp/>mscArgs+=</highlight><highlight class="stringliteral">&quot;-T<sp/>png&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="109"><highlight class="normal"><sp/><sp/><sp/><sp/>extension=</highlight><highlight class="stringliteral">&quot;.png&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="110"><highlight class="normal"><sp/><sp/>}</highlight></codeline>
+<codeline lineno="111"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(format==MSC_EPS)</highlight></codeline>
+<codeline lineno="112"><highlight class="normal"><sp/><sp/>{</highlight></codeline>
+<codeline lineno="113"><highlight class="normal"><sp/><sp/><sp/><sp/>mscArgs+=</highlight><highlight class="stringliteral">&quot;-T<sp/>eps&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="114"><highlight class="normal"><sp/><sp/><sp/><sp/>extension=</highlight><highlight class="stringliteral">&quot;.eps&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="115"><highlight class="normal"><sp/><sp/>}</highlight></codeline>
+<codeline lineno="116"><highlight class="normal"><sp/><sp/>mscArgs+=</highlight><highlight class="stringliteral">&quot;<sp/>-i<sp/>\&quot;&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="117"><highlight class="normal"><sp/><sp/>mscArgs+=inFile;</highlight></codeline>
+<codeline lineno="118"><highlight class="normal"><sp/></highlight></codeline>
+<codeline lineno="119"><highlight class="normal"><sp/><sp/>mscArgs+=</highlight><highlight class="stringliteral">&quot;\&quot;<sp/>-o<sp/>\&quot;&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="120"><highlight class="normal"><sp/><sp/>mscArgs+=outFile;</highlight></codeline>
+<codeline lineno="121"><highlight class="normal"><sp/><sp/>mscArgs+=extension+</highlight><highlight class="stringliteral">&quot;\&quot;&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="122"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>exitCode;</highlight></codeline>
+<codeline lineno="123"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>printf(&quot;***<sp/>running:<sp/>%s<sp/>%s<sp/>outDir:%s<sp/>%s\n&quot;,mscExe.data(),mscArgs.data(),outDir,outFile);</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="124"><highlight class="normal"><sp/><sp/>portable_sysTimerStart();</highlight></codeline>
+<codeline lineno="125"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>((exitCode=portable_system(mscExe,mscArgs,FALSE))!=0)</highlight></codeline>
+<codeline lineno="126"><highlight class="normal"><sp/><sp/>{</highlight></codeline>
+<codeline lineno="127"><highlight class="normal"><sp/><sp/><sp/><sp/>portable_sysTimerStop();</highlight></codeline>
+<codeline lineno="128"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">goto</highlight><highlight class="normal"><sp/>error;</highlight></codeline>
+<codeline lineno="129"><highlight class="normal"><sp/><sp/>}</highlight></codeline>
+<codeline lineno="130"><highlight class="normal"><sp/><sp/>portable_sysTimerStop();</highlight></codeline>
+<codeline lineno="131"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<sp/>(format==MSC_EPS)<sp/>&amp;&amp;<sp/>(Config_getBool(</highlight><highlight class="stringliteral">&quot;USE_PDFLATEX&quot;</highlight><highlight class="normal">))<sp/>)</highlight></codeline>
+<codeline lineno="132"><highlight class="normal"><sp/><sp/>{</highlight></codeline>
+<codeline lineno="133"><highlight class="normal"><sp/><sp/><sp/><sp/>QCString<sp/>epstopdfArgs(maxCmdLine);</highlight></codeline>
+<codeline lineno="134"><highlight class="normal"><sp/><sp/><sp/><sp/>epstopdfArgs.sprintf(</highlight><highlight class="stringliteral">&quot;\&quot;%s.eps\&quot;<sp/>--outfile=\&quot;%s.pdf\&quot;&quot;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="135"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>outFile,outFile);</highlight></codeline>
+<codeline lineno="136"><highlight class="normal"><sp/><sp/><sp/><sp/>portable_sysTimerStart();</highlight></codeline>
+<codeline lineno="137"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(portable_system(</highlight><highlight class="stringliteral">&quot;epstopdf&quot;</highlight><highlight class="normal">,epstopdfArgs)!=0)</highlight></codeline>
+<codeline lineno="138"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="139"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>err(</highlight><highlight class="stringliteral">&quot;Problems<sp/>running<sp/>epstopdf.<sp/>Check<sp/>your<sp/>TeX<sp/>installation!\n&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="140"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="141"><highlight class="normal"><sp/><sp/><sp/><sp/>portable_sysTimerStop();</highlight></codeline>
+<codeline lineno="142"><highlight class="normal"><sp/><sp/>}</highlight></codeline>
+<codeline lineno="143"><highlight class="normal"></highlight></codeline>
+<codeline lineno="144"><highlight class="normal">error:</highlight></codeline>
+<codeline lineno="145"><highlight class="normal"><sp/><sp/>QDir::setCurrent(oldDir);</highlight></codeline>
+<codeline lineno="146"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="147"><highlight class="normal"></highlight></codeline>
+<codeline lineno="148"><highlight class="normal">QCString<sp/>getMscImageMapFromFile(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QCString&amp;<sp/>inFile,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QCString&amp;<sp/>outDir,</highlight></codeline>
+<codeline lineno="149"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QCString&amp;<sp/>relPath,</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QCString&amp;<sp/>context)</highlight></codeline>
+<codeline lineno="150"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="151"><highlight class="normal"><sp/><sp/>QCString<sp/>outFile<sp/>=<sp/>inFile<sp/>+<sp/></highlight><highlight class="stringliteral">&quot;.map&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="152"><highlight class="normal"></highlight></codeline>
+<codeline lineno="153"><highlight class="normal"></highlight></codeline>
+<codeline lineno="154"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//printf(&quot;***<sp/>running:getMscImageMapFromFile<sp/>\n&quot;);</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="155"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//<sp/>chdir<sp/>to<sp/>the<sp/>output<sp/>dir,<sp/>so<sp/>dot<sp/>can<sp/>find<sp/>the<sp/>font<sp/>file.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="156"><highlight class="normal"><sp/><sp/>QCString<sp/>oldDir<sp/>=<sp/>QDir::currentDirPath().utf8();</highlight></codeline>
+<codeline lineno="157"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//<sp/>go<sp/>to<sp/>the<sp/>html<sp/>output<sp/>directory<sp/>(i.e.<sp/>path)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="158"><highlight class="normal"><sp/><sp/>QDir::setCurrent(outDir);</highlight></codeline>
+<codeline lineno="159"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//printf(&quot;Going<sp/>to<sp/>dir<sp/>%s\n&quot;,QDir::currentDirPath().data());</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="160"><highlight class="normal"></highlight></codeline>
+<codeline lineno="161"><highlight class="normal"><sp/><sp/>QCString<sp/>mscExe<sp/>=<sp/>Config_getString(</highlight><highlight class="stringliteral">&quot;MSCGEN_PATH&quot;</highlight><highlight class="normal">)+</highlight><highlight class="stringliteral">&quot;mscgen&quot;</highlight><highlight class="normal">+portable_commandExtension();</highlight></codeline>
+<codeline lineno="162"><highlight class="normal"><sp/><sp/>QCString<sp/>mscArgs<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;-T<sp/>ismap<sp/>-i<sp/>\&quot;&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="163"><highlight class="normal"><sp/><sp/>mscArgs+=inFile;</highlight></codeline>
+<codeline lineno="164"><highlight class="normal"><sp/><sp/>QFileInfo<sp/>fi(inFile);</highlight></codeline>
+<codeline lineno="165"><highlight class="normal"><sp/><sp/>mscArgs+=</highlight><highlight class="stringliteral">&quot;\&quot;<sp/>-o<sp/>\&quot;&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="166"><highlight class="normal"><sp/><sp/>mscArgs+=outFile<sp/>+<sp/></highlight><highlight class="stringliteral">&quot;\&quot;&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="167"><highlight class="normal"></highlight></codeline>
+<codeline lineno="168"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>exitCode;</highlight></codeline>
+<codeline lineno="169"><highlight class="normal"><sp/><sp/>portable_sysTimerStart();</highlight></codeline>
+<codeline lineno="170"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>((exitCode=portable_system(mscExe,mscArgs,FALSE))!=0)</highlight></codeline>
+<codeline lineno="171"><highlight class="normal"><sp/><sp/>{</highlight></codeline>
+<codeline lineno="172"><highlight class="normal"><sp/><sp/><sp/><sp/>portable_sysTimerStop();</highlight></codeline>
+<codeline lineno="173"><highlight class="normal"><sp/><sp/><sp/><sp/>QDir::setCurrent(oldDir);</highlight></codeline>
+<codeline lineno="174"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="175"><highlight class="normal"><sp/><sp/>}</highlight></codeline>
+<codeline lineno="176"><highlight class="normal"><sp/><sp/>portable_sysTimerStop();</highlight></codeline>
+<codeline lineno="177"><highlight class="normal"><sp/><sp/></highlight></codeline>
+<codeline lineno="178"><highlight class="normal"><sp/><sp/>QString<sp/>result;</highlight></codeline>
+<codeline lineno="179"><highlight class="normal"><sp/><sp/>QTextOStream<sp/>tmpout(&amp;result);</highlight></codeline>
+<codeline lineno="180"><highlight class="normal"><sp/><sp/>convertMapFile(tmpout,<sp/>outFile,<sp/>relPath,<sp/>context);</highlight></codeline>
+<codeline lineno="181"><highlight class="normal"><sp/><sp/>QDir().remove(outFile);</highlight></codeline>
+<codeline lineno="182"><highlight class="normal"></highlight></codeline>
+<codeline lineno="183"><highlight class="normal"><sp/><sp/>QDir::setCurrent(oldDir);</highlight></codeline>
+<codeline lineno="184"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>result.data();</highlight></codeline>
+<codeline lineno="185"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="186"><highlight class="normal"></highlight></codeline>
+<codeline lineno="187"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>writeMscImageMapFromFile(<ref refid="dc/d3c/class_f_text_stream" kindref="compound" tooltip="Simplified and optimized version of QTextStream.">FTextStream</ref><sp/>&amp;t,</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QCString<sp/>&amp;inFile,</highlight></codeline>
+<codeline lineno="188"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QCString<sp/>&amp;outDir,</highlight></codeline>
+<codeline lineno="189"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QCString<sp/>&amp;relPath,</highlight></codeline>
+<codeline lineno="190"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QCString<sp/>&amp;baseName,</highlight></codeline>
+<codeline lineno="191"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QCString<sp/>&amp;context)</highlight></codeline>
+<codeline lineno="192"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="193"><highlight class="normal"><sp/><sp/>QCString<sp/>mapName<sp/>=<sp/>baseName+</highlight><highlight class="stringliteral">&quot;.map&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="194"><highlight class="normal"><sp/><sp/>QCString<sp/>mapFile<sp/>=<sp/>inFile+</highlight><highlight class="stringliteral">&quot;.map&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="195"><highlight class="normal"><sp/><sp/>t<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;&lt;img<sp/>src=\&quot;&quot;</highlight><highlight class="normal"><sp/>&lt;&lt;<sp/>relPath<sp/>&lt;&lt;<sp/>baseName<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;.png\&quot;<sp/>alt=\&quot;&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="196"><highlight class="normal"><sp/><sp/><sp/><sp/>&lt;&lt;<sp/>baseName<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;\&quot;<sp/>border=\&quot;0\&quot;<sp/>usemap=\&quot;#&quot;</highlight><highlight class="normal"><sp/>&lt;&lt;<sp/>mapName<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;\&quot;/&gt;&quot;</highlight><highlight class="normal"><sp/>&lt;&lt;<sp/>endl;</highlight></codeline>
+<codeline lineno="197"><highlight class="normal"><sp/><sp/>QCString<sp/>imap<sp/>=<sp/>getMscImageMapFromFile(inFile,outDir,relPath,context);</highlight></codeline>
+<codeline lineno="198"><highlight class="normal"><sp/><sp/>t<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;&lt;map<sp/>name=\&quot;&quot;</highlight><highlight class="normal"><sp/>&lt;&lt;<sp/>mapName<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;\&quot;<sp/>id=\&quot;&quot;</highlight><highlight class="normal"><sp/>&lt;&lt;<sp/>mapName<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;\&quot;&gt;&quot;</highlight><highlight class="normal"><sp/>&lt;&lt;<sp/>imap<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;&lt;/map&gt;&quot;</highlight><highlight class="normal"><sp/>&lt;&lt;<sp/>endl;</highlight></codeline>
+<codeline lineno="199"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="200"><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/msc.cpp"/>
+  </compounddef>
+</doxygen>

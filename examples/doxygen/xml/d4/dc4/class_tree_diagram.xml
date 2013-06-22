@@ -1,0 +1,306 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.2">
+  <compounddef id="d4/dc4/class_tree_diagram" kind="class" prot="public">
+    <compoundname>TreeDiagram</compoundname>
+    <basecompoundref refid="db/daa/class_q_list" prot="public" virt="non-virtual">QList&lt; DiagramRow &gt;</basecompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="d4/dc4/class_tree_diagram_1ad735ca99aceef0ccf0cfbcb761dbcc84" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>TreeDiagram::TreeDiagram</definition>
+        <argsstring>(ClassDef *root, bool doBases)</argsstring>
+        <name>TreeDiagram</name>
+        <param>
+          <type><ref refid="d1/dcf/class_class_def" kindref="compound">ClassDef</ref> *</type>
+          <declname>root</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>doBases</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/diagram.cpp" line="114" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/diagram.cpp" bodystart="410" bodyend="416"/>
+      </memberdef>
+      <memberdef kind="function" id="d4/dc4/class_tree_diagram_1aa7be6100836f51925f54fa5980c6b481" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>TreeDiagram::~TreeDiagram</definition>
+        <argsstring>()</argsstring>
+        <name>~TreeDiagram</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/diagram.cpp" line="115" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/diagram.cpp" bodystart="418" bodyend="420"/>
+      </memberdef>
+      <memberdef kind="function" id="d4/dc4/class_tree_diagram_1a940a3aaf1985a9f2ff19dc95aa91716b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void TreeDiagram::computeLayout</definition>
+        <argsstring>()</argsstring>
+        <name>computeLayout</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/diagram.cpp" line="116" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/diagram.cpp" bodystart="476" bodyend="522"/>
+      </memberdef>
+      <memberdef kind="function" id="d4/dc4/class_tree_diagram_1a5012275fc688c77e729ad40ebf666582" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>uint</type>
+        <definition>uint TreeDiagram::computeRows</definition>
+        <argsstring>()</argsstring>
+        <name>computeRows</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/diagram.cpp" line="117" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/diagram.cpp" bodystart="524" bodyend="551"/>
+      </memberdef>
+      <memberdef kind="function" id="d4/dc4/class_tree_diagram_1a80bd153a4b94ab9513d9d957b9953b1c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void TreeDiagram::moveChildren</definition>
+        <argsstring>(DiagramItem *root, int dx)</argsstring>
+        <name>moveChildren</name>
+        <param>
+          <type>DiagramItem *</type>
+          <declname>root</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>dx</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/diagram.cpp" line="119" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/diagram.cpp" bodystart="423" bodyend="433"/>
+      </memberdef>
+      <memberdef kind="function" id="d4/dc4/class_tree_diagram_1af73eec062500230c3fafe7095192d088" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void TreeDiagram::computeExtremes</definition>
+        <argsstring>(uint *labelWidth, uint *xpos)</argsstring>
+        <name>computeExtremes</name>
+        <param>
+          <type>uint *</type>
+          <declname>labelWidth</declname>
+        </param>
+        <param>
+          <type>uint *</type>
+          <declname>xpos</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/diagram.cpp" line="120" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/diagram.cpp" bodystart="574" bodyend="593"/>
+      </memberdef>
+      <memberdef kind="function" id="d4/dc4/class_tree_diagram_1afb5cfc60c8521a8db37b6f408b9dee95" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void TreeDiagram::drawBoxes</definition>
+        <argsstring>(FTextStream &amp;t, Image *image, bool doBase, bool bitmap, uint baseRows, uint superRows, uint cellWidth, uint cellHeight, QCString relPath=&quot;&quot;, bool generateMap=TRUE)</argsstring>
+        <name>drawBoxes</name>
+        <param>
+          <type><ref refid="dc/d3c/class_f_text_stream" kindref="compound">FTextStream</ref> &amp;</type>
+          <declname>t</declname>
+        </param>
+        <param>
+          <type><ref refid="de/d73/class_image" kindref="compound">Image</ref> *</type>
+          <declname>image</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>doBase</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>bitmap</declname>
+        </param>
+        <param>
+          <type>uint</type>
+          <declname>baseRows</declname>
+        </param>
+        <param>
+          <type>uint</type>
+          <declname>superRows</declname>
+        </param>
+        <param>
+          <type>uint</type>
+          <declname>cellWidth</declname>
+        </param>
+        <param>
+          <type>uint</type>
+          <declname>cellHeight</declname>
+        </param>
+        <param>
+          <type>QCString</type>
+          <declname>relPath</declname>
+          <defval>&quot;&quot;</defval>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>generateMap</declname>
+          <defval>TRUE</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/diagram.cpp" line="126" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/diagram.cpp" bodystart="595" bodyend="724"/>
+      </memberdef>
+      <memberdef kind="function" id="d4/dc4/class_tree_diagram_1afcb546f45e7cc4c69a8ce574ec518292" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void TreeDiagram::drawConnectors</definition>
+        <argsstring>(FTextStream &amp;t, Image *image, bool doBase, bool bitmap, uint baseRows, uint superRows, uint cellWidth, uint cellheight)</argsstring>
+        <name>drawConnectors</name>
+        <param>
+          <type><ref refid="dc/d3c/class_f_text_stream" kindref="compound">FTextStream</ref> &amp;</type>
+          <declname>t</declname>
+        </param>
+        <param>
+          <type><ref refid="de/d73/class_image" kindref="compound">Image</ref> *</type>
+          <declname>image</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>doBase</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>bitmap</declname>
+        </param>
+        <param>
+          <type>uint</type>
+          <declname>baseRows</declname>
+        </param>
+        <param>
+          <type>uint</type>
+          <declname>superRows</declname>
+        </param>
+        <param>
+          <type>uint</type>
+          <declname>cellWidth</declname>
+        </param>
+        <param>
+          <type>uint</type>
+          <declname>cellheight</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/diagram.cpp" line="130" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/diagram.cpp" bodystart="726" bodyend="1035"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="d4/dc4/class_tree_diagram_1a0f3fda53615e03944bdaca4f476b0f97" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool TreeDiagram::layoutTree</definition>
+        <argsstring>(DiagramItem *root, int row)</argsstring>
+        <name>layoutTree</name>
+        <param>
+          <type>DiagramItem *</type>
+          <declname>root</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>row</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/diagram.cpp" line="132" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/diagram.cpp" bodystart="435" bodyend="474"/>
+      </memberdef>
+      <memberdef kind="function" id="d4/dc4/class_tree_diagram_1acb47bcbf7f953ddb2b094478ff0459c6" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>TreeDiagram &amp;</type>
+        <definition>TreeDiagram&amp; TreeDiagram::operator=</definition>
+        <argsstring>(const TreeDiagram &amp;)</argsstring>
+        <name>operator=</name>
+        <param>
+          <type>const TreeDiagram &amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/diagram.cpp" line="133"/>
+      </memberdef>
+      <memberdef kind="function" id="d4/dc4/class_tree_diagram_1a793a74cfb4d54fb42d6bd5fafcf3de86" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>TreeDiagram::TreeDiagram</definition>
+        <argsstring>(const TreeDiagram &amp;)</argsstring>
+        <name>TreeDiagram</name>
+        <param>
+          <type>const TreeDiagram &amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/diagram.cpp" line="134"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Class represeting the tree layout for the built-in class diagram. </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="5252">
+        <label>QList&lt; DiagramRow &gt;</label>
+        <link refid="db/daa/class_q_list"/>
+      </node>
+      <node id="5251">
+        <label>TreeDiagram</label>
+        <childnode refid="5252" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="5254">
+        <label>QList&lt; DiagramRow &gt;</label>
+        <link refid="db/daa/class_q_list"/>
+      </node>
+      <node id="5253">
+        <label>TreeDiagram</label>
+        <childnode refid="5254" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/diagram.cpp" line="112" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/diagram.cpp" bodystart="111" bodyend="135"/>
+    <listofallmembers>
+      <member refid="d4/dc4/class_tree_diagram_1af73eec062500230c3fafe7095192d088" prot="public" virt="non-virtual"><scope>TreeDiagram</scope><name>computeExtremes</name></member>
+      <member refid="d4/dc4/class_tree_diagram_1a940a3aaf1985a9f2ff19dc95aa91716b" prot="public" virt="non-virtual"><scope>TreeDiagram</scope><name>computeLayout</name></member>
+      <member refid="d4/dc4/class_tree_diagram_1a5012275fc688c77e729ad40ebf666582" prot="public" virt="non-virtual"><scope>TreeDiagram</scope><name>computeRows</name></member>
+      <member refid="d4/dc4/class_tree_diagram_1afb5cfc60c8521a8db37b6f408b9dee95" prot="public" virt="non-virtual"><scope>TreeDiagram</scope><name>drawBoxes</name></member>
+      <member refid="d4/dc4/class_tree_diagram_1afcb546f45e7cc4c69a8ce574ec518292" prot="public" virt="non-virtual"><scope>TreeDiagram</scope><name>drawConnectors</name></member>
+      <member refid="d4/dc4/class_tree_diagram_1a0f3fda53615e03944bdaca4f476b0f97" prot="private" virt="non-virtual"><scope>TreeDiagram</scope><name>layoutTree</name></member>
+      <member refid="d4/dc4/class_tree_diagram_1a80bd153a4b94ab9513d9d957b9953b1c" prot="public" virt="non-virtual"><scope>TreeDiagram</scope><name>moveChildren</name></member>
+      <member refid="d4/dc4/class_tree_diagram_1acb47bcbf7f953ddb2b094478ff0459c6" prot="private" virt="non-virtual"><scope>TreeDiagram</scope><name>operator=</name></member>
+      <member refid="d4/dc4/class_tree_diagram_1ad735ca99aceef0ccf0cfbcb761dbcc84" prot="public" virt="non-virtual"><scope>TreeDiagram</scope><name>TreeDiagram</name></member>
+      <member refid="d4/dc4/class_tree_diagram_1a793a74cfb4d54fb42d6bd5fafcf3de86" prot="private" virt="non-virtual"><scope>TreeDiagram</scope><name>TreeDiagram</name></member>
+      <member refid="d4/dc4/class_tree_diagram_1aa7be6100836f51925f54fa5980c6b481" prot="public" virt="non-virtual"><scope>TreeDiagram</scope><name>~TreeDiagram</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

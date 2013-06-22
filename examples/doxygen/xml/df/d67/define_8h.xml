@@ -1,0 +1,168 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.2">
+  <compounddef id="df/d67/define_8h" kind="file">
+    <compoundname>define.h</compoundname>
+    <includes local="no">qdict.h</includes>
+    <includes local="no">qlist.h</includes>
+    <includedby refid="d0/d0a/define_8cpp" local="yes">src/define.cpp</includedby>
+    <incdepgraph>
+      <node id="881">
+        <label>qlist.h</label>
+      </node>
+      <node id="880">
+        <label>qdict.h</label>
+      </node>
+      <node id="879">
+        <label>src/define.h</label>
+        <link refid="define.h"/>
+        <childnode refid="880" relation="include">
+        </childnode>
+        <childnode refid="881" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="883">
+        <label>src/define.cpp</label>
+        <link refid="d0/d0a/define_8cpp_source"/>
+      </node>
+      <node id="882">
+        <label>src/define.h</label>
+        <link refid="define.h"/>
+        <childnode refid="883" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="dc/d64/class_define" prot="public">Define</innerclass>
+    <innerclass refid="dd/d65/class_define_list" prot="public">DefineList</innerclass>
+    <innerclass refid="d9/d26/class_define_name" prot="public">DefineName</innerclass>
+    <innerclass refid="d1/dab/class_define_name_list" prot="public">DefineNameList</innerclass>
+      <sectiondef kind="typedef">
+      <memberdef kind="typedef" id="df/d67/define_8h_1a10f99e0f6f8522fa4cf1e7e4ff485f35" prot="public" static="no">
+        <type>QDict&lt; <ref refid="dc/d64/class_define" kindref="compound">Define</ref> &gt;</type>
+        <definition>typedef QDict&lt;Define&gt; DefineDict</definition>
+        <argsstring></argsstring>
+        <name>DefineDict</name>
+        <briefdescription>
+<para>An unsorted dictionary of <ref refid="dc/d64/class_define" kindref="compound">Define</ref> objects. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/define.h" line="93" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/define.h" bodystart="93" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="df/d67/define_8h_1a9b08a6d26984d0ac32bf376484d658d4" prot="public" static="no">
+        <type>QDict&lt; <ref refid="d9/d26/class_define_name" kindref="compound">DefineName</ref> &gt;</type>
+        <definition>typedef QDict&lt;DefineName&gt; DefineNameDict</definition>
+        <argsstring></argsstring>
+        <name>DefineNameDict</name>
+        <briefdescription>
+<para>A sorted dictionary of <ref refid="d9/d26/class_define_name" kindref="compound">DefineName</ref> object. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/define.h" line="96" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/define.h" bodystart="96" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">/******************************************************************************</highlight></codeline>
+<codeline lineno="2"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="3"><highlight class="comment"><sp/>*<sp/>$Id:<sp/>define.h,v<sp/>1.21<sp/>2001/03/19<sp/>19:27:40<sp/>root<sp/>Exp<sp/>$</highlight></codeline>
+<codeline lineno="4"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="5"><highlight class="comment"><sp/>*<sp/>Copyright<sp/>(C)<sp/>1997-2013<sp/>by<sp/>Dimitri<sp/>van<sp/>Heesch.</highlight></codeline>
+<codeline lineno="6"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="7"><highlight class="comment"><sp/>*<sp/>Permission<sp/>to<sp/>use,<sp/>copy,<sp/>modify,<sp/>and<sp/>distribute<sp/>this<sp/>software<sp/>and<sp/>its</highlight></codeline>
+<codeline lineno="8"><highlight class="comment"><sp/>*<sp/>documentation<sp/>under<sp/>the<sp/>terms<sp/>of<sp/>the<sp/>GNU<sp/>General<sp/>Public<sp/>License<sp/>is<sp/>hereby<sp/></highlight></codeline>
+<codeline lineno="9"><highlight class="comment"><sp/>*<sp/>granted.<sp/>No<sp/>representations<sp/>are<sp/>made<sp/>about<sp/>the<sp/>suitability<sp/>of<sp/>this<sp/>software<sp/></highlight></codeline>
+<codeline lineno="10"><highlight class="comment"><sp/>*<sp/>for<sp/>any<sp/>purpose.<sp/>It<sp/>is<sp/>provided<sp/>&quot;as<sp/>is&quot;<sp/>without<sp/>express<sp/>or<sp/>implied<sp/>warranty.</highlight></codeline>
+<codeline lineno="11"><highlight class="comment"><sp/>*<sp/>See<sp/>the<sp/>GNU<sp/>General<sp/>Public<sp/>License<sp/>for<sp/>more<sp/>details.</highlight></codeline>
+<codeline lineno="12"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="13"><highlight class="comment"><sp/>*<sp/>Documents<sp/>produced<sp/>by<sp/>Doxygen<sp/>are<sp/>derivative<sp/>works<sp/>derived<sp/>from<sp/>the</highlight></codeline>
+<codeline lineno="14"><highlight class="comment"><sp/>*<sp/>input<sp/>used<sp/>in<sp/>their<sp/>production;<sp/>they<sp/>are<sp/>not<sp/>affected<sp/>by<sp/>this<sp/>license.</highlight></codeline>
+<codeline lineno="15"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="16"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>DEFINE_H</highlight></codeline>
+<codeline lineno="19"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>DEFINE_H</highlight></codeline>
+<codeline lineno="20"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;qdict.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;qlist.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="de/db0/class_file_def" kindref="compound" tooltip="A model of a file symbol.">FileDef</ref>;</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight></codeline>
+<codeline lineno="27" refid="dc/d64/class_define" refkind="compound"><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="dc/d64/class_define" kindref="compound" tooltip="A class representing a macro definition.">Define</ref></highlight></codeline>
+<codeline lineno="28"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="dc/d64/class_define" kindref="compound" tooltip="A class representing a macro definition.">Define</ref>();</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="dc/d64/class_define" kindref="compound" tooltip="A class representing a macro definition.">Define</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="dc/d64/class_define" kindref="compound" tooltip="A class representing a macro definition.">Define</ref><sp/>&amp;d);</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/>~<ref refid="dc/d64/class_define" kindref="compound" tooltip="A class representing a macro definition.">Define</ref>();</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>hasDocumentation();</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/>QCString<sp/>name;</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/>QCString<sp/>definition;</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/>QCString<sp/>fileName;</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/>QCString<sp/>doc;</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/>QCString<sp/>brief;</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/>QCString<sp/>args;</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/>QCString<sp/>anchor;</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="de/db0/class_file_def" kindref="compound" tooltip="A model of a file symbol.">FileDef</ref><sp/>*fileDef;</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>lineNr;</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>columnNr;</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>nargs;</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>undef;</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>varArgs;</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>isPredefined;</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>nonRecursive;</highlight></codeline>
+<codeline lineno="49"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"></highlight></codeline>
+<codeline lineno="52" refid="dd/d65/class_define_list" refkind="compound"><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="dd/d65/class_define_list" kindref="compound" tooltip="A list of Define objects.">DefineList</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="db/daa/class_q_list" kindref="compound">QList</ref>&lt;Define&gt;</highlight></codeline>
+<codeline lineno="53"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="55"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="dd/d65/class_define_list" kindref="compound" tooltip="A list of Define objects.">DefineList</ref>()<sp/>:<sp/><ref refid="db/daa/class_q_list" kindref="compound">QList&lt;Define&gt;</ref>()<sp/>{}</highlight></codeline>
+<codeline lineno="56"><highlight class="normal"><sp/><sp/><sp/>~<ref refid="dd/d65/class_define_list" kindref="compound" tooltip="A list of Define objects.">DefineList</ref>()<sp/>{}</highlight></codeline>
+<codeline lineno="57"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>compareItems(QCollection::Item<sp/>i1,QCollection::Item<sp/>i2)<sp/></highlight></codeline>
+<codeline lineno="58"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="59"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>qstricmp(((<ref refid="dc/d64/class_define" kindref="compound" tooltip="A class representing a macro definition.">Define</ref><sp/>*)i1)-&gt;name,((<ref refid="dc/d64/class_define" kindref="compound" tooltip="A class representing a macro definition.">Define</ref><sp/>*)i2)-&gt;name);<sp/></highlight></codeline>
+<codeline lineno="60"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="61"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="62"><highlight class="normal"></highlight></codeline>
+<codeline lineno="64" refid="d9/d26/class_define_name" refkind="compound"><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="d9/d26/class_define_name" kindref="compound" tooltip="A list of Define objects associated with a specific name.">DefineName</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="db/daa/class_q_list" kindref="compound">QList</ref>&lt;Define&gt;</highlight></codeline>
+<codeline lineno="65"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="66"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="67"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="d9/d26/class_define_name" kindref="compound" tooltip="A list of Define objects associated with a specific name.">DefineName</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*n)<sp/>:<sp/><ref refid="db/daa/class_q_list" kindref="compound">QList&lt;Define&gt;</ref>()<sp/>{<sp/>name=n;<sp/>}</highlight></codeline>
+<codeline lineno="68"><highlight class="normal"><sp/><sp/><sp/>~<ref refid="d9/d26/class_define_name" kindref="compound" tooltip="A list of Define objects associated with a specific name.">DefineName</ref>()<sp/>{}</highlight></codeline>
+<codeline lineno="69"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*nameString()</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>name;<sp/>}</highlight></codeline>
+<codeline lineno="70"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>compareItems(QCollection::Item<sp/>i1,QCollection::Item<sp/>i2)<sp/></highlight></codeline>
+<codeline lineno="71"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="72"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>qstricmp(((<ref refid="dc/d64/class_define" kindref="compound" tooltip="A class representing a macro definition.">Define</ref><sp/>*)i1)-&gt;name,((<ref refid="dc/d64/class_define" kindref="compound" tooltip="A class representing a macro definition.">Define</ref><sp/>*)i2)-&gt;name);<sp/></highlight></codeline>
+<codeline lineno="73"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="74"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="75"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="76"><highlight class="normal"><sp/><sp/><sp/><sp/>QCString<sp/>name;</highlight></codeline>
+<codeline lineno="77"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="78"><highlight class="normal"></highlight></codeline>
+<codeline lineno="80" refid="d1/dab/class_define_name_list" refkind="compound"><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="d1/dab/class_define_name_list" kindref="compound" tooltip="A list of DefineName objects.">DefineNameList</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="db/daa/class_q_list" kindref="compound">QList</ref>&lt;DefineName&gt;</highlight></codeline>
+<codeline lineno="81"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="82"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="83"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="d1/dab/class_define_name_list" kindref="compound" tooltip="A list of DefineName objects.">DefineNameList</ref>()<sp/>:<sp/><ref refid="db/daa/class_q_list" kindref="compound">QList&lt;DefineName&gt;</ref>()<sp/>{}</highlight></codeline>
+<codeline lineno="84"><highlight class="normal"><sp/><sp/><sp/>~<ref refid="d1/dab/class_define_name_list" kindref="compound" tooltip="A list of DefineName objects.">DefineNameList</ref>()<sp/>{}</highlight></codeline>
+<codeline lineno="85"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>compareItems(QCollection::Item<sp/>i1,QCollection::Item<sp/>i2)</highlight></codeline>
+<codeline lineno="86"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="87"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>qstricmp(((<ref refid="d9/d26/class_define_name" kindref="compound" tooltip="A list of Define objects associated with a specific name.">DefineName</ref><sp/>*)i1)-&gt;nameString(),</highlight></codeline>
+<codeline lineno="88"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>((<ref refid="d9/d26/class_define_name" kindref="compound" tooltip="A list of Define objects associated with a specific name.">DefineName</ref><sp/>*)i2)-&gt;nameString());</highlight></codeline>
+<codeline lineno="89"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="90"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="91"><highlight class="normal"></highlight></codeline>
+<codeline lineno="93"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/>QDict&lt;Define&gt;<sp/>DefineDict;</highlight></codeline>
+<codeline lineno="94"><highlight class="normal"></highlight></codeline>
+<codeline lineno="96"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/>QDict&lt;DefineName&gt;<sp/>DefineNameDict;</highlight></codeline>
+<codeline lineno="97"><highlight class="normal"></highlight></codeline>
+<codeline lineno="98"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+    </programlisting>
+    <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/define.h"/>
+  </compounddef>
+</doxygen>

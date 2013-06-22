@@ -1,0 +1,289 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.2">
+  <compounddef id="d2/d1a/class_output_doc_interface" kind="class" prot="public" abstract="yes">
+    <compoundname>OutputDocInterface</compoundname>
+    <basecompoundref refid="df/d27/class_base_output_doc_interface" prot="public" virt="non-virtual">BaseOutputDocInterface</basecompoundref>
+    <derivedcompoundref refid="df/dc8/class_output_list" prot="public" virt="non-virtual">OutputList</derivedcompoundref>
+    <includes refid="df/d06/outputgen_8h" local="no">outputgen.h</includes>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="d2/d1a/class_output_doc_interface_1a1a2f1e861208c6ded212292921096109" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type></type>
+        <definition>virtual OutputDocInterface::~OutputDocInterface</definition>
+        <argsstring>()</argsstring>
+        <name>~OutputDocInterface</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/outputgen.h" line="455" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/outputgen.h" bodystart="455" bodyend="455"/>
+      </memberdef>
+      <memberdef kind="function" id="d2/d1a/class_output_doc_interface_1a304402b5e336d9706678f3d11e5efeae" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>void</type>
+        <definition>virtual void OutputDocInterface::disableAllBut</definition>
+        <argsstring>(OutputGenerator::OutputType o)=0</argsstring>
+        <name>disableAllBut</name>
+        <reimplementedby refid="df/dc8/class_output_list_1a73f9be626eea01f1ccd1b446dcf2c003">disableAllBut</reimplementedby>
+        <param>
+          <type>OutputGenerator::OutputType</type>
+          <declname>o</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Create a new output generator. This can later by appended to the current one using append().</para><para>Disables all output formats except format <emphasis>o</emphasis> (useful for <ref refid="df/dc8/class_output_list" kindref="compound">OutputList</ref> only) </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/outputgen.h" line="465"/>
+      </memberdef>
+      <memberdef kind="function" id="d2/d1a/class_output_doc_interface_1a418b5b7b81a6d37eff05a7cfe8143573" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>void</type>
+        <definition>virtual void OutputDocInterface::enableAll</definition>
+        <argsstring>()=0</argsstring>
+        <name>enableAll</name>
+        <reimplementedby refid="df/dc8/class_output_list_1ad32603ff4c4ba4d39e0bad7ede5924bf">enableAll</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Enables all output formats as far as they have been enabled in the config file. (useful for <ref refid="df/dc8/class_output_list" kindref="compound">OutputList</ref> only) </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/outputgen.h" line="470"/>
+      </memberdef>
+      <memberdef kind="function" id="d2/d1a/class_output_doc_interface_1a8adfa92c26950748e6d853dde09a98f5" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>void</type>
+        <definition>virtual void OutputDocInterface::disableAll</definition>
+        <argsstring>()=0</argsstring>
+        <name>disableAll</name>
+        <reimplementedby refid="df/dc8/class_output_list_1a6a75284d21a037302ea3d7dc6e1558d4">disableAll</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Disables all output formats (useful for <ref refid="df/dc8/class_output_list" kindref="compound">OutputList</ref> only) </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/outputgen.h" line="473"/>
+      </memberdef>
+      <memberdef kind="function" id="d2/d1a/class_output_doc_interface_1a9fbc5bc49aefab5a46f18864f396f011" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>void</type>
+        <definition>virtual void OutputDocInterface::disable</definition>
+        <argsstring>(OutputGenerator::OutputType o)=0</argsstring>
+        <name>disable</name>
+        <reimplementedby refid="df/dc8/class_output_list_1a22f8c17b8c14518aa55f8af3c2abab0f">disable</reimplementedby>
+        <param>
+          <type>OutputGenerator::OutputType</type>
+          <declname>o</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Disables a specific output format (useful for <ref refid="df/dc8/class_output_list" kindref="compound">OutputList</ref> only) </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/outputgen.h" line="476"/>
+      </memberdef>
+      <memberdef kind="function" id="d2/d1a/class_output_doc_interface_1ac6eb8fe41ef1c29d92348db248989263" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>void</type>
+        <definition>virtual void OutputDocInterface::enable</definition>
+        <argsstring>(OutputGenerator::OutputType o)=0</argsstring>
+        <name>enable</name>
+        <reimplementedby refid="df/dc8/class_output_list_1a4006394472d6c49f7db435628832c49d">enable</reimplementedby>
+        <param>
+          <type>OutputGenerator::OutputType</type>
+          <declname>o</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Enables a specific output format (useful for <ref refid="df/dc8/class_output_list" kindref="compound">OutputList</ref> only) </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/outputgen.h" line="479"/>
+      </memberdef>
+      <memberdef kind="function" id="d2/d1a/class_output_doc_interface_1a6b48e942d7e057f79ed44f96353dab24" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>bool</type>
+        <definition>virtual bool OutputDocInterface::isEnabled</definition>
+        <argsstring>(OutputGenerator::OutputType o)=0</argsstring>
+        <name>isEnabled</name>
+        <reimplementedby refid="df/dc8/class_output_list_1a63a7bebe83b904d00b2350863c7c7399">isEnabled</reimplementedby>
+        <param>
+          <type>OutputGenerator::OutputType</type>
+          <declname>o</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Check whether a specific output format is currently enabled (useful for <ref refid="df/dc8/class_output_list" kindref="compound">OutputList</ref> only) </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/outputgen.h" line="484"/>
+      </memberdef>
+      <memberdef kind="function" id="d2/d1a/class_output_doc_interface_1aba5fd4dd5b0360723e62fedc7d353f29" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>void</type>
+        <definition>virtual void OutputDocInterface::pushGeneratorState</definition>
+        <argsstring>()=0</argsstring>
+        <name>pushGeneratorState</name>
+        <reimplementedby refid="df/dc8/class_output_list_1a885957a64f7d87aefb663c4ec903188f">pushGeneratorState</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Appends the output generated by generator <emphasis>g</emphasis> to this generator.</para><para>Pushes the state of the current generator (or list of generators) on a stack. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/outputgen.h" line="494"/>
+      </memberdef>
+      <memberdef kind="function" id="d2/d1a/class_output_doc_interface_1a4fb05016264d9c9f0946c2fd8e7b8e56" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>void</type>
+        <definition>virtual void OutputDocInterface::popGeneratorState</definition>
+        <argsstring>()=0</argsstring>
+        <name>popGeneratorState</name>
+        <reimplementedby refid="df/dc8/class_output_list_1a94eb1af2ea07425ef1faa539d24adcf8">popGeneratorState</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Pops the state of the current generator (or list of generators) on a stack. Should be preceded by a call the <ref refid="d2/d1a/class_output_doc_interface_1aba5fd4dd5b0360723e62fedc7d353f29" kindref="member">pushGeneratorState()</ref>. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/outputgen.h" line="500"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Interface used for generating documentation. </para>    </briefdescription>
+    <detaileddescription>
+<para>This abstract class is used by several functions to generate the output for a specific format. This interface contains some state saving and changing functions for dealing with format specific output. </para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="3845">
+        <label>OutputList</label>
+        <link refid="df/dc8/class_output_list"/>
+        <childnode refid="3842" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3843">
+        <label>BaseOutputDocInterface</label>
+        <link refid="df/d27/class_base_output_doc_interface"/>
+        <childnode refid="3844" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3842">
+        <label>OutputDocInterface</label>
+        <link refid="d2/d1a/class_output_doc_interface"/>
+        <childnode refid="3843" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3844">
+        <label>CodeOutputInterface</label>
+        <link refid="d5/d9c/class_code_output_interface"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="3847">
+        <label>BaseOutputDocInterface</label>
+        <link refid="df/d27/class_base_output_doc_interface"/>
+        <childnode refid="3848" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3846">
+        <label>OutputDocInterface</label>
+        <link refid="d2/d1a/class_output_doc_interface"/>
+        <childnode refid="3847" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3848">
+        <label>CodeOutputInterface</label>
+        <link refid="d5/d9c/class_code_output_interface"/>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/outputgen.h" line="453" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/outputgen.h" bodystart="452" bodyend="501"/>
+    <listofallmembers>
+      <member refid="df/d27/class_base_output_doc_interface_1acc5ad4f6230310456380f4db9a407161" prot="public" virt="pure-virtual"><scope>OutputDocInterface</scope><name>addIndexItem</name></member>
+      <member refid="d5/d9c/class_code_output_interface_1a2734a8371d6e710620ad238ed8de118e" prot="public" virt="pure-virtual"><scope>OutputDocInterface</scope><name>addWord</name></member>
+      <member refid="d5/d9c/class_code_output_interface_1aa29a5eedda08596ace50ed5b59c8ae7f" prot="public" virt="pure-virtual"><scope>OutputDocInterface</scope><name>codify</name></member>
+      <member refid="d2/d1a/class_output_doc_interface_1a9fbc5bc49aefab5a46f18864f396f011" prot="public" virt="pure-virtual"><scope>OutputDocInterface</scope><name>disable</name></member>
+      <member refid="d2/d1a/class_output_doc_interface_1a8adfa92c26950748e6d853dde09a98f5" prot="public" virt="pure-virtual"><scope>OutputDocInterface</scope><name>disableAll</name></member>
+      <member refid="d2/d1a/class_output_doc_interface_1a304402b5e336d9706678f3d11e5efeae" prot="public" virt="pure-virtual"><scope>OutputDocInterface</scope><name>disableAllBut</name></member>
+      <member refid="df/d27/class_base_output_doc_interface_1ad7d3f6631bd157739170690e669b3e75" prot="public" virt="pure-virtual"><scope>OutputDocInterface</scope><name>docify</name></member>
+      <member refid="d2/d1a/class_output_doc_interface_1ac6eb8fe41ef1c29d92348db248989263" prot="public" virt="pure-virtual"><scope>OutputDocInterface</scope><name>enable</name></member>
+      <member refid="d2/d1a/class_output_doc_interface_1a418b5b7b81a6d37eff05a7cfe8143573" prot="public" virt="pure-virtual"><scope>OutputDocInterface</scope><name>enableAll</name></member>
+      <member refid="df/d27/class_base_output_doc_interface_1a2a17911ba778f8efac83999fb5d190d9" prot="public" virt="pure-virtual"><scope>OutputDocInterface</scope><name>endBold</name></member>
+      <member refid="df/d27/class_base_output_doc_interface_1aacbcdb867519fce8db354460566aa4ea" prot="public" virt="pure-virtual"><scope>OutputDocInterface</scope><name>endCenter</name></member>
+      <member refid="d5/d9c/class_code_output_interface_1a404ebed09713d9736191657e3519c6b4" prot="public" virt="pure-virtual"><scope>OutputDocInterface</scope><name>endCodeAnchor</name></member>
+      <member refid="df/d27/class_base_output_doc_interface_1a08f032482a8f23ac1aab66552db43a81" prot="public" virt="pure-virtual"><scope>OutputDocInterface</scope><name>endCodeFragment</name></member>
+      <member refid="d5/d9c/class_code_output_interface_1afac5763eafc78f93b82691fb9a6dcff7" prot="public" virt="pure-virtual"><scope>OutputDocInterface</scope><name>endCodeLine</name></member>
+      <member refid="df/d27/class_base_output_doc_interface_1a1b04c0dc473f245979860c158ea450e7" prot="public" virt="pure-virtual"><scope>OutputDocInterface</scope><name>endDescForItem</name></member>
+      <member refid="df/d27/class_base_output_doc_interface_1a09e3aa9d3faac55b2cc9290eaa69f55b" prot="public" virt="pure-virtual"><scope>OutputDocInterface</scope><name>endDescItem</name></member>
+      <member refid="df/d27/class_base_output_doc_interface_1ac25c565e9fd8aee6c2b0d9b71fcff380" prot="public" virt="pure-virtual"><scope>OutputDocInterface</scope><name>endDescription</name></member>
+      <member refid="df/d27/class_base_output_doc_interface_1acad6dba3f360141250109216856eff38" prot="public" virt="pure-virtual"><scope>OutputDocInterface</scope><name>endDescTable</name></member>
+      <member refid="df/d27/class_base_output_doc_interface_1a7448492f455ed3dbff7dbedc00bb7be2" prot="public" virt="pure-virtual"><scope>OutputDocInterface</scope><name>endDescTableData</name></member>
+      <member refid="df/d27/class_base_output_doc_interface_1a1106996c286d637c873c819adc5072ba" prot="public" virt="pure-virtual"><scope>OutputDocInterface</scope><name>endDescTableTitle</name></member>
+      <member refid="df/d27/class_base_output_doc_interface_1aed2cf04d82648509f97403bd4ce62590" prot="public" virt="pure-virtual"><scope>OutputDocInterface</scope><name>endEmphasis</name></member>
+      <member refid="d5/d9c/class_code_output_interface_1a2b8ac05a391dae36793aa3aa8714a0f6" prot="public" virt="pure-virtual"><scope>OutputDocInterface</scope><name>endFontClass</name></member>
+      <member refid="df/d27/class_base_output_doc_interface_1afb808c1c487135d4fb2156d0675b387e" prot="public" virt="pure-virtual"><scope>OutputDocInterface</scope><name>endHtmlLink</name></member>
+      <member refid="df/d27/class_base_output_doc_interface_1a3493b65672bf134033bd3bb296acdff4" prot="public" virt="pure-virtual"><scope>OutputDocInterface</scope><name>endItemList</name></member>
+      <member refid="df/d27/class_base_output_doc_interface_1a90d290d7a06a9e7ecd968c8da90ed665" prot="public" virt="pure-virtual"><scope>OutputDocInterface</scope><name>endItemListItem</name></member>
+      <member refid="df/d27/class_base_output_doc_interface_1a292c5c481f4ba85ab7957bb4b8979d97" prot="public" virt="pure-virtual"><scope>OutputDocInterface</scope><name>endPageRef</name></member>
+      <member refid="df/d27/class_base_output_doc_interface_1ab76280c2eb451ad160991707206b6c95" prot="public" virt="pure-virtual"><scope>OutputDocInterface</scope><name>endParagraph</name></member>
+      <member refid="df/d27/class_base_output_doc_interface_1a2e18469ef7e3f144e05d7713efaa9aac" prot="public" virt="pure-virtual"><scope>OutputDocInterface</scope><name>endParamList</name></member>
+      <member refid="df/d27/class_base_output_doc_interface_1a754ab1bd2b1a2cf82ac1207822e76f59" prot="public" virt="pure-virtual"><scope>OutputDocInterface</scope><name>endSection</name></member>
+      <member refid="df/d27/class_base_output_doc_interface_1a4519107f922ba406e50b84a2a6b274b7" prot="public" virt="pure-virtual"><scope>OutputDocInterface</scope><name>endSimpleSect</name></member>
+      <member refid="df/d27/class_base_output_doc_interface_1aece1c56c3a382b5e7228f034e600b43f" prot="public" virt="pure-virtual"><scope>OutputDocInterface</scope><name>endSmall</name></member>
+      <member refid="df/d27/class_base_output_doc_interface_1a3e403e27b8284843a8f3cf7e30e32d2c" prot="public" virt="pure-virtual"><scope>OutputDocInterface</scope><name>endSubsection</name></member>
+      <member refid="df/d27/class_base_output_doc_interface_1a760a6b33b261dafc6625b3cf49ba2124" prot="public" virt="pure-virtual"><scope>OutputDocInterface</scope><name>endSubsubsection</name></member>
+      <member refid="df/d27/class_base_output_doc_interface_1a5b584fb5f7e3d9747c78a4e13715340a" prot="public" virt="pure-virtual"><scope>OutputDocInterface</scope><name>endTextLink</name></member>
+      <member refid="df/d27/class_base_output_doc_interface_1a5dee56a3a18bafb23c30f42e6575210f" prot="public" virt="pure-virtual"><scope>OutputDocInterface</scope><name>endTitle</name></member>
+      <member refid="df/d27/class_base_output_doc_interface_1a9e987baf8aed76f0e5e6676b3238d2c8" prot="public" virt="pure-virtual"><scope>OutputDocInterface</scope><name>endTypewriter</name></member>
+      <member refid="df/d27/class_base_output_doc_interface_1a07a3d5df76a714674e070e5e236fe886a14899d1909b84ceff4b564f2c5cdd5c8" prot="public" virt="non-virtual"><scope>OutputDocInterface</scope><name>EnumValues</name></member>
+      <member refid="df/d27/class_base_output_doc_interface_1a07a3d5df76a714674e070e5e236fe886a8e76c29b11f7bc42235f145253d37661" prot="public" virt="non-virtual"><scope>OutputDocInterface</scope><name>Examples</name></member>
+      <member refid="df/d27/class_base_output_doc_interface_1a944ed4d9fb389999c2724eeb321b8c8ca013f47562e6f852189ce39404b2c83ce" prot="public" virt="non-virtual"><scope>OutputDocInterface</scope><name>Exception</name></member>
+      <member refid="d2/d1a/class_output_doc_interface_1a6b48e942d7e057f79ed44f96353dab24" prot="public" virt="pure-virtual"><scope>OutputDocInterface</scope><name>isEnabled</name></member>
+      <member refid="df/d27/class_base_output_doc_interface_1ada61ce97bb848a4e73f60c351e217391" prot="public" virt="pure-virtual"><scope>OutputDocInterface</scope><name>lineBreak</name></member>
+      <member refid="df/d27/class_base_output_doc_interface_1a944ed4d9fb389999c2724eeb321b8c8ca2f12909be9be736f564ef1bccd8bc981" prot="public" virt="non-virtual"><scope>OutputDocInterface</scope><name>Param</name></member>
+      <member refid="df/d27/class_base_output_doc_interface_1a944ed4d9fb389999c2724eeb321b8c8c" prot="public" virt="non-virtual"><scope>OutputDocInterface</scope><name>ParamListTypes</name></member>
+      <member refid="df/d27/class_base_output_doc_interface_1a26c20546f1084cdaea8c6fe1ec8de76a" prot="public" virt="virtual"><scope>OutputDocInterface</scope><name>parseText</name></member>
+      <member refid="d2/d1a/class_output_doc_interface_1a4fb05016264d9c9f0946c2fd8e7b8e56" prot="public" virt="pure-virtual"><scope>OutputDocInterface</scope><name>popGeneratorState</name></member>
+      <member refid="d2/d1a/class_output_doc_interface_1aba5fd4dd5b0360723e62fedc7d353f29" prot="public" virt="pure-virtual"><scope>OutputDocInterface</scope><name>pushGeneratorState</name></member>
+      <member refid="df/d27/class_base_output_doc_interface_1a944ed4d9fb389999c2724eeb321b8c8ca7dbac297ebba84b706efa2afb8e5e609" prot="public" virt="non-virtual"><scope>OutputDocInterface</scope><name>RetVal</name></member>
+      <member refid="df/d27/class_base_output_doc_interface_1a07a3d5df76a714674e070e5e236fe886" prot="public" virt="non-virtual"><scope>OutputDocInterface</scope><name>SectionTypes</name></member>
+      <member refid="d5/d9c/class_code_output_interface_1a67a190860748597bd65b4cfc313797d3" prot="public" virt="pure-virtual"><scope>OutputDocInterface</scope><name>setCurrentDoc</name></member>
+      <member refid="df/d27/class_base_output_doc_interface_1aa0bfe5ef08077a7191ba4666f47c441b" prot="public" virt="pure-virtual"><scope>OutputDocInterface</scope><name>startBold</name></member>
+      <member refid="df/d27/class_base_output_doc_interface_1af7740896d897da2924e8d8818858edd1" prot="public" virt="pure-virtual"><scope>OutputDocInterface</scope><name>startCenter</name></member>
+      <member refid="d5/d9c/class_code_output_interface_1a1bac70cba0bb8c2ae9034df5b15c95b1" prot="public" virt="pure-virtual"><scope>OutputDocInterface</scope><name>startCodeAnchor</name></member>
+      <member refid="df/d27/class_base_output_doc_interface_1ab19fc767b08c25b0ca7c976d24799bda" prot="public" virt="pure-virtual"><scope>OutputDocInterface</scope><name>startCodeFragment</name></member>
+      <member refid="d5/d9c/class_code_output_interface_1a080d71d457de084ce2b3245bca5a0d68" prot="public" virt="pure-virtual"><scope>OutputDocInterface</scope><name>startCodeLine</name></member>
+      <member refid="df/d27/class_base_output_doc_interface_1a4bd0d53fa5bd37ab551b462fa1935cff" prot="public" virt="pure-virtual"><scope>OutputDocInterface</scope><name>startDescForItem</name></member>
+      <member refid="df/d27/class_base_output_doc_interface_1a5d1cc59d94c3f529c90e0a06704be181" prot="public" virt="pure-virtual"><scope>OutputDocInterface</scope><name>startDescItem</name></member>
+      <member refid="df/d27/class_base_output_doc_interface_1ac9c801c3ad0b50e3e69be184b50c2fef" prot="public" virt="pure-virtual"><scope>OutputDocInterface</scope><name>startDescription</name></member>
+      <member refid="df/d27/class_base_output_doc_interface_1ae8d272c529f66d55e23b63a8cbb1abd7" prot="public" virt="pure-virtual"><scope>OutputDocInterface</scope><name>startDescTable</name></member>
+      <member refid="df/d27/class_base_output_doc_interface_1ae9e8390997be56f776e966c0f906483d" prot="public" virt="pure-virtual"><scope>OutputDocInterface</scope><name>startDescTableData</name></member>
+      <member refid="df/d27/class_base_output_doc_interface_1a2a026821caecc0397f2c21fd1a1de095" prot="public" virt="pure-virtual"><scope>OutputDocInterface</scope><name>startDescTableTitle</name></member>
+      <member refid="df/d27/class_base_output_doc_interface_1a21debc3a6c4c58791a41e715dc78f4ab" prot="public" virt="pure-virtual"><scope>OutputDocInterface</scope><name>startEmphasis</name></member>
+      <member refid="d5/d9c/class_code_output_interface_1af68087fd1ed0e5b28b446889625337bb" prot="public" virt="pure-virtual"><scope>OutputDocInterface</scope><name>startFontClass</name></member>
+      <member refid="df/d27/class_base_output_doc_interface_1ab52dbf41ce337c701f9cd1e7794f80e7" prot="public" virt="pure-virtual"><scope>OutputDocInterface</scope><name>startHtmlLink</name></member>
+      <member refid="df/d27/class_base_output_doc_interface_1a54b169393594b6cf113977ccccaeb9ee" prot="public" virt="pure-virtual"><scope>OutputDocInterface</scope><name>startItemList</name></member>
+      <member refid="df/d27/class_base_output_doc_interface_1aa1cbcadfedf8e6d52029d17526b5fa3f" prot="public" virt="pure-virtual"><scope>OutputDocInterface</scope><name>startItemListItem</name></member>
+      <member refid="df/d27/class_base_output_doc_interface_1add686ba33132cc455a70356c77416994" prot="public" virt="pure-virtual"><scope>OutputDocInterface</scope><name>startPageRef</name></member>
+      <member refid="df/d27/class_base_output_doc_interface_1a731e8b90a344b185fff49d13858efbb3" prot="public" virt="pure-virtual"><scope>OutputDocInterface</scope><name>startParagraph</name></member>
+      <member refid="df/d27/class_base_output_doc_interface_1a0fe360d170bf70af8455d521ecad8cab" prot="public" virt="pure-virtual"><scope>OutputDocInterface</scope><name>startParamList</name></member>
+      <member refid="df/d27/class_base_output_doc_interface_1a820f65539d9328cfafe23a2542375853" prot="public" virt="pure-virtual"><scope>OutputDocInterface</scope><name>startSection</name></member>
+      <member refid="df/d27/class_base_output_doc_interface_1aa70bb07889b548a670a5b30f53fd8046" prot="public" virt="pure-virtual"><scope>OutputDocInterface</scope><name>startSimpleSect</name></member>
+      <member refid="df/d27/class_base_output_doc_interface_1aa48fb5d720aabf2dc67d866b9861f733" prot="public" virt="pure-virtual"><scope>OutputDocInterface</scope><name>startSmall</name></member>
+      <member refid="df/d27/class_base_output_doc_interface_1ab2c4106db654fb639aaca243d3f4a686" prot="public" virt="pure-virtual"><scope>OutputDocInterface</scope><name>startSubsection</name></member>
+      <member refid="df/d27/class_base_output_doc_interface_1a7f923f13c625fccde495debb5e31eb35" prot="public" virt="pure-virtual"><scope>OutputDocInterface</scope><name>startSubsubsection</name></member>
+      <member refid="df/d27/class_base_output_doc_interface_1af3e8e537c3a2379071c3573d25a64d03" prot="public" virt="pure-virtual"><scope>OutputDocInterface</scope><name>startTextLink</name></member>
+      <member refid="df/d27/class_base_output_doc_interface_1a52507f4f611800062e6776704d3c0eaf" prot="public" virt="pure-virtual"><scope>OutputDocInterface</scope><name>startTitle</name></member>
+      <member refid="df/d27/class_base_output_doc_interface_1abde41a60b900d35b0b198f43731c1cd0" prot="public" virt="pure-virtual"><scope>OutputDocInterface</scope><name>startTypewriter</name></member>
+      <member refid="df/d27/class_base_output_doc_interface_1a02ec04af87e175323ad789347884c896" prot="public" virt="pure-virtual"><scope>OutputDocInterface</scope><name>writeAnchor</name></member>
+      <member refid="df/d27/class_base_output_doc_interface_1a1577324720c1c71142dff84ae80b058d" prot="public" virt="pure-virtual"><scope>OutputDocInterface</scope><name>writeChar</name></member>
+      <member refid="d5/d9c/class_code_output_interface_1a1f6394c4ef7c4143de90bcaf3a65c0b4" prot="public" virt="pure-virtual"><scope>OutputDocInterface</scope><name>writeCodeAnchor</name></member>
+      <member refid="d5/d9c/class_code_output_interface_1a102e2b7f40916c75b79871307f5bb674" prot="public" virt="pure-virtual"><scope>OutputDocInterface</scope><name>writeCodeLink</name></member>
+      <member refid="d5/d9c/class_code_output_interface_1a8115646785b65e292480c2e4e969b389" prot="public" virt="pure-virtual"><scope>OutputDocInterface</scope><name>writeLineNumber</name></member>
+      <member refid="df/d27/class_base_output_doc_interface_1a7a6903af564a1de397adb0887e7e419a" prot="public" virt="pure-virtual"><scope>OutputDocInterface</scope><name>writeNonBreakableSpace</name></member>
+      <member refid="df/d27/class_base_output_doc_interface_1a3537423635807fe140ec5be1a2198060" prot="public" virt="pure-virtual"><scope>OutputDocInterface</scope><name>writeObjectLink</name></member>
+      <member refid="df/d27/class_base_output_doc_interface_1ade0d004fb6e8641c92f2f144d7242f0b" prot="public" virt="pure-virtual"><scope>OutputDocInterface</scope><name>writeRuler</name></member>
+      <member refid="df/d27/class_base_output_doc_interface_1a5737513ddf260787b5b79c84ae1059af" prot="public" virt="pure-virtual"><scope>OutputDocInterface</scope><name>writeString</name></member>
+      <member refid="df/d27/class_base_output_doc_interface_1ac23dcf3208e5199e2b562c2643536beb" prot="public" virt="virtual"><scope>OutputDocInterface</scope><name>~BaseOutputDocInterface</name></member>
+      <member refid="d5/d9c/class_code_output_interface_1a09fd2fd0be98227359200de7ab89c7e6" prot="public" virt="virtual"><scope>OutputDocInterface</scope><name>~CodeOutputInterface</name></member>
+      <member refid="d2/d1a/class_output_doc_interface_1a1a2f1e861208c6ded212292921096109" prot="public" virt="virtual"><scope>OutputDocInterface</scope><name>~OutputDocInterface</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,835 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.2">
+  <compounddef id="d1/d25/class_class_def_impl" kind="class" prot="public">
+    <compoundname>ClassDefImpl</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="d1/d25/class_class_def_impl_1af4852c18aa3acaa24dd3056896a51605" prot="public" static="no" mutable="no">
+        <type>QCString</type>
+        <definition>QCString ClassDefImpl::fileName</definition>
+        <argsstring></argsstring>
+        <name>fileName</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>file name that forms the base for the output file containing the class documentation. For compatibility with Qt (e.g. links via tag files) this name cannot be derived from the class name directly. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/classdef.cpp" line="63" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/classdef.cpp" bodystart="63" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d1/d25/class_class_def_impl_1abff21ee2a293a91dd508f664930ab6bc" prot="public" static="no" mutable="no">
+        <type><ref refid="d5/dc1/struct_include_info" kindref="compound">IncludeInfo</ref> *</type>
+        <definition>IncludeInfo* ClassDefImpl::incInfo</definition>
+        <argsstring></argsstring>
+        <name>incInfo</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Include information about the header file should be included in the documentation. 0 by default, set by setIncludeFile(). </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/classdef.cpp" line="68" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/classdef.cpp" bodystart="68" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d1/d25/class_class_def_impl_1a4dd8dc3a52eaf754b7d567a4dc3e0780" prot="public" static="no" mutable="no">
+        <type><ref refid="d7/d46/class_base_class_list" kindref="compound">BaseClassList</ref> *</type>
+        <definition>BaseClassList* ClassDefImpl::inherits</definition>
+        <argsstring></argsstring>
+        <name>inherits</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>List of base class (or super-classes) from which this class derives directly. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/classdef.cpp" line="73" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/classdef.cpp" bodystart="73" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d1/d25/class_class_def_impl_1a9134929b4e91fa202dad541f7a9c89ac" prot="public" static="no" mutable="no">
+        <type><ref refid="d7/d46/class_base_class_list" kindref="compound">BaseClassList</ref> *</type>
+        <definition>BaseClassList* ClassDefImpl::inheritedBy</definition>
+        <argsstring></argsstring>
+        <name>inheritedBy</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>List of sub-classes that directly derive from this class </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/classdef.cpp" line="77" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/classdef.cpp" bodystart="77" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d1/d25/class_class_def_impl_1ab48a04c16cebd115877f07f540b44c15" prot="public" static="no" mutable="no">
+        <type><ref refid="d0/d07/class_namespace_def" kindref="compound">NamespaceDef</ref> *</type>
+        <definition>NamespaceDef* ClassDefImpl::nspace</definition>
+        <argsstring></argsstring>
+        <name>nspace</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Namespace this class is part of (this is the inner most namespace in case of nested namespaces) </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/classdef.cpp" line="82" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/classdef.cpp" bodystart="82" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d1/d25/class_class_def_impl_1ac2c8c9c6cc2cea9076ad649149505f1a" prot="public" static="no" mutable="no">
+        <type><ref refid="de/db0/class_file_def" kindref="compound">FileDef</ref> *</type>
+        <definition>FileDef* ClassDefImpl::fileDef</definition>
+        <argsstring></argsstring>
+        <name>fileDef</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>File this class is defined in </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/classdef.cpp" line="85" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/classdef.cpp" bodystart="85" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d1/d25/class_class_def_impl_1ae645a7a6aceae390224919d15d6df80b" prot="public" static="no" mutable="no">
+        <type><ref refid="d6/d70/class_member_name_info_s_dict" kindref="compound">MemberNameInfoSDict</ref> *</type>
+        <definition>MemberNameInfoSDict* ClassDefImpl::allMemberNameInfoSDict</definition>
+        <argsstring></argsstring>
+        <name>allMemberNameInfoSDict</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>List of all members (including inherited members) </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/classdef.cpp" line="88" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/classdef.cpp" bodystart="88" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d1/d25/class_class_def_impl_1aacfd7b41980ab90e43e015ca2583a56c" prot="public" static="no" mutable="no">
+        <type><ref refid="d7/df8/class_argument_list" kindref="compound">ArgumentList</ref> *</type>
+        <definition>ArgumentList* ClassDefImpl::tempArgs</definition>
+        <argsstring></argsstring>
+        <name>tempArgs</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Template arguments of this class </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/classdef.cpp" line="91" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/classdef.cpp" bodystart="91" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d1/d25/class_class_def_impl_1af0266bc567e2d9eed094e5ced846ddac" prot="public" static="no" mutable="no">
+        <type><ref refid="d7/df8/class_argument_list" kindref="compound">ArgumentList</ref> *</type>
+        <definition>ArgumentList* ClassDefImpl::typeConstraints</definition>
+        <argsstring></argsstring>
+        <name>typeConstraints</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Type constraints for template parameters </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/classdef.cpp" line="94" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/classdef.cpp" bodystart="94" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d1/d25/class_class_def_impl_1aad1e8debaeb3f021677917627a5c229f" prot="public" static="no" mutable="no">
+        <type>QStrList</type>
+        <definition>QStrList ClassDefImpl::files</definition>
+        <argsstring></argsstring>
+        <name>files</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Files that were used for generating the class documentation. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/classdef.cpp" line="97" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/classdef.cpp" bodystart="97" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d1/d25/class_class_def_impl_1a256b7b66998ac4aaf0495a4133fa16a3" prot="public" static="no" mutable="no">
+        <type><ref refid="d0/d31/class_example_s_dict" kindref="compound">ExampleSDict</ref> *</type>
+        <definition>ExampleSDict* ClassDefImpl::exampleSDict</definition>
+        <argsstring></argsstring>
+        <name>exampleSDict</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Examples that use this class </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/classdef.cpp" line="100" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/classdef.cpp" bodystart="100" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d1/d25/class_class_def_impl_1af8b4e7fb963b0feff4a8009a358bd90b" prot="public" static="no" mutable="no">
+        <type><ref refid="d1/dcf/class_class_def_1ae70cf86d35fe954a94c566fbcfc87939" kindref="member">ClassDef::CompoundType</ref></type>
+        <definition>ClassDef::CompoundType ClassDefImpl::compType</definition>
+        <argsstring></argsstring>
+        <name>compType</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Holds the kind of &quot;class&quot; this is. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/classdef.cpp" line="103" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/classdef.cpp" bodystart="103" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d1/d25/class_class_def_impl_1a08fcc20edfd7a4c7090217f21389f929" prot="public" static="no" mutable="no">
+        <type><ref refid="d9/d49/types_8h_1a90e352184df58cd09455fe9996cd4ded" kindref="member">Protection</ref></type>
+        <definition>Protection ClassDefImpl::prot</definition>
+        <argsstring></argsstring>
+        <name>prot</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The protection level in which this class was found. Typically Public, but for nested classes this can also be Protected or Private. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/classdef.cpp" line="109" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/classdef.cpp" bodystart="109" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d1/d25/class_class_def_impl_1a3032dc0d393588b7afd0c2432b350feb" prot="public" static="no" mutable="no">
+        <type><ref refid="d9/d3d/class_class_s_dict" kindref="compound">ClassSDict</ref> *</type>
+        <definition>ClassSDict* ClassDefImpl::innerClasses</definition>
+        <argsstring></argsstring>
+        <name>innerClasses</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The inner classes contained in this class. Will be 0 if there are no inner classes. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/classdef.cpp" line="114" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/classdef.cpp" bodystart="114" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d1/d25/class_class_def_impl_1ac49d5feb5e7484ee50ae51873b8bc255" prot="public" static="no" mutable="no">
+        <type><ref refid="d2/d84/class_uses_class_dict" kindref="compound">UsesClassDict</ref> *</type>
+        <definition>UsesClassDict* ClassDefImpl::usesImplClassDict</definition>
+        <argsstring></argsstring>
+        <name>usesImplClassDict</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/classdef.cpp" line="117" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/classdef.cpp" bodystart="117" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d1/d25/class_class_def_impl_1a578c5fd5c2fb6e5aee107a670e9e51a1" prot="public" static="no" mutable="no">
+        <type><ref refid="d2/d84/class_uses_class_dict" kindref="compound">UsesClassDict</ref> *</type>
+        <definition>UsesClassDict* ClassDefImpl::usedByImplClassDict</definition>
+        <argsstring></argsstring>
+        <name>usedByImplClassDict</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/classdef.cpp" line="118" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/classdef.cpp" bodystart="118" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d1/d25/class_class_def_impl_1ab7e80405e26e2e111e5869c016cc9783" prot="public" static="no" mutable="no">
+        <type><ref refid="d2/d84/class_uses_class_dict" kindref="compound">UsesClassDict</ref> *</type>
+        <definition>UsesClassDict* ClassDefImpl::usesIntfClassDict</definition>
+        <argsstring></argsstring>
+        <name>usesIntfClassDict</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/classdef.cpp" line="119" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/classdef.cpp" bodystart="119" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d1/d25/class_class_def_impl_1a40568b5135505092ae7acae3e4ce224f" prot="public" static="no" mutable="no">
+        <type>QDict&lt; <ref refid="d1/dcf/class_class_def" kindref="compound">ClassDef</ref> &gt; *</type>
+        <definition>QDict&lt;ClassDef&gt;* ClassDefImpl::templateInstances</definition>
+        <argsstring></argsstring>
+        <name>templateInstances</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Template instances that exists of this class, the key in the dictionary is the template argument list. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/classdef.cpp" line="124" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/classdef.cpp" bodystart="124" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d1/d25/class_class_def_impl_1ac515e81dfa0ea2fe1e7aabe14d65d488" prot="public" static="no" mutable="no">
+        <type>QDict&lt; <ref refid="d1/dcf/class_class_def" kindref="compound">ClassDef</ref> &gt; *</type>
+        <definition>QDict&lt;ClassDef&gt;* ClassDefImpl::variableInstances</definition>
+        <argsstring></argsstring>
+        <name>variableInstances</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Template instances that exists of this class, as defined by variables. We do NOT want to document these individually. The key in the dictionary is the template argument list. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/classdef.cpp" line="130" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/classdef.cpp" bodystart="130" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d1/d25/class_class_def_impl_1af694528f58bf5c3f872e14c364dd7f89" prot="public" static="no" mutable="no">
+        <type>QDict&lt; int &gt; *</type>
+        <definition>QDict&lt;int&gt;* ClassDefImpl::templBaseClassNames</definition>
+        <argsstring></argsstring>
+        <name>templBaseClassNames</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/classdef.cpp" line="132" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/classdef.cpp" bodystart="132" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d1/d25/class_class_def_impl_1a14389d44bce551c00b53391115004d5f" prot="public" static="no" mutable="no">
+        <type><ref refid="d1/dcf/class_class_def" kindref="compound">ClassDef</ref> *</type>
+        <definition>ClassDef* ClassDefImpl::templateMaster</definition>
+        <argsstring></argsstring>
+        <name>templateMaster</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The class this class is an instance of. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/classdef.cpp" line="135" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/classdef.cpp" bodystart="135" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d1/d25/class_class_def_impl_1a5eecc11f35a74b7ac718fc46b9d8de26" prot="public" static="no" mutable="no">
+        <type>QCString</type>
+        <definition>QCString ClassDefImpl::className</definition>
+        <argsstring></argsstring>
+        <name>className</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>local class name which could be a typedef&apos;ed alias name. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/classdef.cpp" line="138" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/classdef.cpp" bodystart="138" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d1/d25/class_class_def_impl_1aa33f23ac88249219ec76053a54684ae8" prot="public" static="no" mutable="no">
+        <type><ref refid="d1/dcf/class_class_def" kindref="compound">ClassDef</ref> *</type>
+        <definition>ClassDef* ClassDefImpl::categoryOf</definition>
+        <argsstring></argsstring>
+        <name>categoryOf</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>If this class is a Objective-C category, then this points to the class which is extended. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/classdef.cpp" line="143" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/classdef.cpp" bodystart="143" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d1/d25/class_class_def_impl_1a08ae5698e8b933ec25f894f6e87ad1b1" prot="public" static="no" mutable="no">
+        <type><ref refid="db/daa/class_q_list" kindref="compound">QList</ref>&lt; <ref refid="dd/d13/class_member_list" kindref="compound">MemberList</ref> &gt;</type>
+        <definition>QList&lt;MemberList&gt; ClassDefImpl::memberLists</definition>
+        <argsstring></argsstring>
+        <name>memberLists</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/classdef.cpp" line="145" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/classdef.cpp" bodystart="145" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d1/d25/class_class_def_impl_1a0210b427b08a04f20bd5eb24c3bb6f11" prot="public" static="no" mutable="no">
+        <type><ref refid="dc/d1e/class_member_group_s_dict" kindref="compound">MemberGroupSDict</ref> *</type>
+        <definition>MemberGroupSDict* ClassDefImpl::memberGroupSDict</definition>
+        <argsstring></argsstring>
+        <name>memberGroupSDict</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/classdef.cpp" line="148" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/classdef.cpp" bodystart="148" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d1/d25/class_class_def_impl_1add7ec887a9774fff23c51033b0f68cd1" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool ClassDefImpl::isAbstract</definition>
+        <argsstring></argsstring>
+        <name>isAbstract</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Is this an abstact class? </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/classdef.cpp" line="151" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/classdef.cpp" bodystart="151" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d1/d25/class_class_def_impl_1a13a7bfbb253abb17959c8fa78d565c51" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool ClassDefImpl::isStatic</definition>
+        <argsstring></argsstring>
+        <name>isStatic</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Is the class part of an unnamed namespace? </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/classdef.cpp" line="154" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/classdef.cpp" bodystart="154" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d1/d25/class_class_def_impl_1ab613a11051f5ad3265ddc3b25ef50a82" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool ClassDefImpl::membersMerged</definition>
+        <argsstring></argsstring>
+        <name>membersMerged</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>TRUE if classes members are merged with those of the base classes. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/classdef.cpp" line="157" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/classdef.cpp" bodystart="157" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d1/d25/class_class_def_impl_1a9a751bb93d4da92aceace3210c911aa1" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool ClassDefImpl::isLocal</definition>
+        <argsstring></argsstring>
+        <name>isLocal</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>TRUE if the class is defined in a source file rather than a header file. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/classdef.cpp" line="160" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/classdef.cpp" bodystart="160" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d1/d25/class_class_def_impl_1a3a2227e55d99c40327f87f5efe096061" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool ClassDefImpl::isTemplArg</definition>
+        <argsstring></argsstring>
+        <name>isTemplArg</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/classdef.cpp" line="162" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/classdef.cpp" bodystart="162" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d1/d25/class_class_def_impl_1ad11ebe89f9a6c199c5ef2b63ef2a10cc" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool ClassDefImpl::subGrouping</definition>
+        <argsstring></argsstring>
+        <name>subGrouping</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Does this class group its user-grouped members as a sub-section of the normal (public/protected/..) groups? </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/classdef.cpp" line="168" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/classdef.cpp" bodystart="168" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d1/d25/class_class_def_impl_1aef5aa0ec452605576f9a976067326e52" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool ClassDefImpl::usedOnly</definition>
+        <argsstring></argsstring>
+        <name>usedOnly</name>
+        <briefdescription>
+<para>Reason of existence is a &quot;use&quot; relation. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/classdef.cpp" line="171" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/classdef.cpp" bodystart="171" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d1/d25/class_class_def_impl_1a1ab8fae1f7661cf9461678debaf0c5f7" prot="public" static="no" mutable="no">
+        <type><ref refid="d1/d50/class_s_dict" kindref="compound">SDict</ref>&lt; QCString &gt;</type>
+        <definition>SDict&lt;QCString&gt; ClassDefImpl::vhdlSummaryTitles</definition>
+        <argsstring></argsstring>
+        <name>vhdlSummaryTitles</name>
+        <briefdescription>
+<para>List of titles to use for the summary. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/classdef.cpp" line="174" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/classdef.cpp" bodystart="174" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d1/d25/class_class_def_impl_1a066ef909e009befddbd31341b9ddbb5b" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool ClassDefImpl::isSimple</definition>
+        <argsstring></argsstring>
+        <name>isSimple</name>
+        <briefdescription>
+<para>Is this a simple (non-nested) C structure? </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/classdef.cpp" line="177" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/classdef.cpp" bodystart="177" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d1/d25/class_class_def_impl_1a94bc1b4ff18537f707b575ce6e60920c" prot="public" static="no" mutable="no">
+        <type><ref refid="da/d09/class_member_def" kindref="compound">MemberDef</ref> *</type>
+        <definition>MemberDef* ClassDefImpl::arrowOperator</definition>
+        <argsstring></argsstring>
+        <name>arrowOperator</name>
+        <briefdescription>
+<para>Does this class overloaded the -&gt; operator? </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/classdef.cpp" line="180" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/classdef.cpp" bodystart="180" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d1/d25/class_class_def_impl_1a8753bef2143ebdef9451738751087e5f" prot="public" static="no" mutable="no">
+        <type><ref refid="d7/da3/class_class_list" kindref="compound">ClassList</ref> *</type>
+        <definition>ClassList* ClassDefImpl::taggedInnerClasses</definition>
+        <argsstring></argsstring>
+        <name>taggedInnerClasses</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/classdef.cpp" line="182" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/classdef.cpp" bodystart="182" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d1/d25/class_class_def_impl_1a57431554d3d5190b38d8ce18b65f9b09" prot="public" static="no" mutable="no">
+        <type><ref refid="d1/dcf/class_class_def" kindref="compound">ClassDef</ref> *</type>
+        <definition>ClassDef* ClassDefImpl::tagLessRef</definition>
+        <argsstring></argsstring>
+        <name>tagLessRef</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/classdef.cpp" line="183" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/classdef.cpp" bodystart="183" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d1/d25/class_class_def_impl_1a435f18aa29bf28b0723ea7c7fd79b825" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool ClassDefImpl::isJavaEnum</definition>
+        <argsstring></argsstring>
+        <name>isJavaEnum</name>
+        <briefdescription>
+<para>Does this class represent a Java style enum? </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/classdef.cpp" line="186" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/classdef.cpp" bodystart="186" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d1/d25/class_class_def_impl_1ad8a4566782b5669e5a77978189900f75" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool ClassDefImpl::isGeneric</definition>
+        <argsstring></argsstring>
+        <name>isGeneric</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/classdef.cpp" line="188" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/classdef.cpp" bodystart="188" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d1/d25/class_class_def_impl_1a9514ecc09bd2ee98965eb9bc6e0fa787" prot="public" static="no" mutable="no">
+        <type>uint64</type>
+        <definition>uint64 ClassDefImpl::spec</definition>
+        <argsstring></argsstring>
+        <name>spec</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/classdef.cpp" line="190" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/classdef.cpp" bodystart="190" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="d1/d25/class_class_def_impl_1ad6c6539c7e52207d625010ad5cdf166a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>ClassDefImpl::ClassDefImpl</definition>
+        <argsstring>()</argsstring>
+        <name>ClassDefImpl</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/classdef.cpp" line="54" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/classdef.cpp" bodystart="253" bodyend="256"/>
+      </memberdef>
+      <memberdef kind="function" id="d1/d25/class_class_def_impl_1afe3ebfc701c9477e8d31a8957f8d772d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>ClassDefImpl::~ClassDefImpl</definition>
+        <argsstring>()</argsstring>
+        <name>~ClassDefImpl</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/classdef.cpp" line="55" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/classdef.cpp" bodystart="258" bodyend="276"/>
+      </memberdef>
+      <memberdef kind="function" id="d1/d25/class_class_def_impl_1a4876a8d9d670f4f6f524e92909a557c4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ClassDefImpl::init</definition>
+        <argsstring>(const char *defFileName, const char *name, const QCString &amp;ctStr, const char *fName)</argsstring>
+        <name>init</name>
+        <param>
+          <type>const char *</type>
+          <declname>defFileName</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>name</declname>
+        </param>
+        <param>
+          <type>const QCString &amp;</type>
+          <declname>ctStr</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>fName</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/classdef.cpp" line="57" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/classdef.cpp" bodystart="193" bodyend="251"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Private data associated with a <ref refid="d1/dcf/class_class_def" kindref="compound">ClassDef</ref> object. </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="2562">
+        <label>SDict&lt; QCString &gt;</label>
+        <link refid="d1/d50/class_s_dict"/>
+        <childnode refid="2563" relation="template-instance">
+          <edgelabel>&lt; QCString &gt;</edgelabel>
+        </childnode>
+      </node>
+      <node id="2563">
+        <label>SDict&lt; T &gt;</label>
+        <link refid="d1/d50/class_s_dict"/>
+      </node>
+      <node id="2576">
+        <label>SIntDict&lt; T &gt;</label>
+        <link refid="d0/d9f/class_s_int_dict"/>
+      </node>
+      <node id="2566">
+        <label>BaseClassList</label>
+        <link refid="d7/d46/class_base_class_list"/>
+        <childnode refid="2567" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2580">
+        <label>QList&lt; Argument &gt;</label>
+        <link refid="db/daa/class_q_list"/>
+      </node>
+      <node id="2569">
+        <label>QList&lt; ClassDef &gt;</label>
+        <link refid="db/daa/class_q_list"/>
+      </node>
+      <node id="2574">
+        <label>MemberGroupSDict</label>
+        <link refid="dc/d1e/class_member_group_s_dict"/>
+        <childnode refid="2575" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2578">
+        <label>SDict&lt; Example &gt;</label>
+        <link refid="d1/d50/class_s_dict"/>
+        <childnode refid="2563" relation="template-instance">
+          <edgelabel>&lt; Example &gt;</edgelabel>
+        </childnode>
+      </node>
+      <node id="2560">
+        <label>Definition</label>
+        <link refid="d5/dcc/class_definition"/>
+        <childnode refid="2561" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2567">
+        <label>QList&lt; BaseClassDef &gt;</label>
+        <link refid="db/daa/class_q_list"/>
+      </node>
+      <node id="2584">
+        <label>ClassDef</label>
+        <link refid="d1/dcf/class_class_def"/>
+        <childnode refid="2560" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2577">
+        <label>ExampleSDict</label>
+        <link refid="d0/d31/class_example_s_dict"/>
+        <childnode refid="2578" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2559">
+        <label>NamespaceDef</label>
+        <link refid="d0/d07/class_namespace_def"/>
+        <childnode refid="2560" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2568">
+        <label>ClassList</label>
+        <link refid="d7/da3/class_class_list"/>
+        <childnode refid="2569" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2581">
+        <label>MemberDef</label>
+        <link refid="da/d09/class_member_def"/>
+        <childnode refid="2560" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2572">
+        <label>FileDef</label>
+        <link refid="de/db0/class_file_def"/>
+        <childnode refid="2560" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2564">
+        <label>ClassSDict</label>
+        <link refid="d9/d3d/class_class_s_dict"/>
+        <childnode refid="2565" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2582">
+        <label>UsesClassDict</label>
+        <link refid="d2/d84/class_uses_class_dict"/>
+        <childnode refid="2583" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2573">
+        <label>IncludeInfo</label>
+        <link refid="d5/dc1/struct_include_info"/>
+        <childnode refid="2572" relation="usage">
+          <edgelabel>fileDef</edgelabel>
+        </childnode>
+      </node>
+      <node id="2575">
+        <label>SIntDict&lt; MemberGroup &gt;</label>
+        <link refid="d0/d9f/class_s_int_dict"/>
+        <childnode refid="2576" relation="template-instance">
+          <edgelabel>&lt; MemberGroup &gt;</edgelabel>
+        </childnode>
+      </node>
+      <node id="2583">
+        <label>QDict&lt; UsesClassDef &gt;</label>
+      </node>
+      <node id="2565">
+        <label>SDict&lt; ClassDef &gt;</label>
+        <link refid="d1/d50/class_s_dict"/>
+        <childnode refid="2563" relation="template-instance">
+          <edgelabel>&lt; ClassDef &gt;</edgelabel>
+        </childnode>
+      </node>
+      <node id="2561">
+        <label>DefinitionIntf</label>
+        <link refid="d9/d4a/class_definition_intf"/>
+      </node>
+      <node id="2558">
+        <label>ClassDefImpl</label>
+        <childnode refid="2559" relation="usage">
+          <edgelabel>nspace</edgelabel>
+        </childnode>
+        <childnode refid="2562" relation="usage">
+          <edgelabel>vhdlSummaryTitles</edgelabel>
+        </childnode>
+        <childnode refid="2564" relation="usage">
+          <edgelabel>innerClasses</edgelabel>
+        </childnode>
+        <childnode refid="2566" relation="usage">
+          <edgelabel>inheritedBy</edgelabel>
+          <edgelabel>inherits</edgelabel>
+        </childnode>
+        <childnode refid="2568" relation="usage">
+          <edgelabel>taggedInnerClasses</edgelabel>
+        </childnode>
+        <childnode refid="2570" relation="usage">
+          <edgelabel>allMemberNameInfoSDict</edgelabel>
+        </childnode>
+        <childnode refid="2572" relation="usage">
+          <edgelabel>fileDef</edgelabel>
+        </childnode>
+        <childnode refid="2573" relation="usage">
+          <edgelabel>incInfo</edgelabel>
+        </childnode>
+        <childnode refid="2574" relation="usage">
+          <edgelabel>memberGroupSDict</edgelabel>
+        </childnode>
+        <childnode refid="2577" relation="usage">
+          <edgelabel>exampleSDict</edgelabel>
+        </childnode>
+        <childnode refid="2579" relation="usage">
+          <edgelabel>tempArgs</edgelabel>
+          <edgelabel>typeConstraints</edgelabel>
+        </childnode>
+        <childnode refid="2581" relation="usage">
+          <edgelabel>arrowOperator</edgelabel>
+        </childnode>
+        <childnode refid="2582" relation="usage">
+          <edgelabel>usesImplClassDict</edgelabel>
+          <edgelabel>usesIntfClassDict</edgelabel>
+          <edgelabel>usedByImplClassDict</edgelabel>
+        </childnode>
+        <childnode refid="2584" relation="usage">
+          <edgelabel>templateMaster</edgelabel>
+          <edgelabel>categoryOf</edgelabel>
+          <edgelabel>tagLessRef</edgelabel>
+        </childnode>
+      </node>
+      <node id="2571">
+        <label>SDict&lt; MemberNameInfo &gt;</label>
+        <link refid="d1/d50/class_s_dict"/>
+        <childnode refid="2563" relation="template-instance">
+          <edgelabel>&lt; MemberNameInfo &gt;</edgelabel>
+        </childnode>
+      </node>
+      <node id="2570">
+        <label>MemberNameInfoSDict</label>
+        <link refid="d6/d70/class_member_name_info_s_dict"/>
+        <childnode refid="2571" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2579">
+        <label>ArgumentList</label>
+        <link refid="d7/df8/class_argument_list"/>
+        <childnode refid="2580" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/classdef.cpp" line="52" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/classdef.cpp" bodystart="51" bodyend="191"/>
+    <listofallmembers>
+      <member refid="d1/d25/class_class_def_impl_1ae645a7a6aceae390224919d15d6df80b" prot="public" virt="non-virtual"><scope>ClassDefImpl</scope><name>allMemberNameInfoSDict</name></member>
+      <member refid="d1/d25/class_class_def_impl_1a94bc1b4ff18537f707b575ce6e60920c" prot="public" virt="non-virtual"><scope>ClassDefImpl</scope><name>arrowOperator</name></member>
+      <member refid="d1/d25/class_class_def_impl_1aa33f23ac88249219ec76053a54684ae8" prot="public" virt="non-virtual"><scope>ClassDefImpl</scope><name>categoryOf</name></member>
+      <member refid="d1/d25/class_class_def_impl_1ad6c6539c7e52207d625010ad5cdf166a" prot="public" virt="non-virtual"><scope>ClassDefImpl</scope><name>ClassDefImpl</name></member>
+      <member refid="d1/d25/class_class_def_impl_1a5eecc11f35a74b7ac718fc46b9d8de26" prot="public" virt="non-virtual"><scope>ClassDefImpl</scope><name>className</name></member>
+      <member refid="d1/d25/class_class_def_impl_1af8b4e7fb963b0feff4a8009a358bd90b" prot="public" virt="non-virtual"><scope>ClassDefImpl</scope><name>compType</name></member>
+      <member refid="d1/d25/class_class_def_impl_1a256b7b66998ac4aaf0495a4133fa16a3" prot="public" virt="non-virtual"><scope>ClassDefImpl</scope><name>exampleSDict</name></member>
+      <member refid="d1/d25/class_class_def_impl_1ac2c8c9c6cc2cea9076ad649149505f1a" prot="public" virt="non-virtual"><scope>ClassDefImpl</scope><name>fileDef</name></member>
+      <member refid="d1/d25/class_class_def_impl_1af4852c18aa3acaa24dd3056896a51605" prot="public" virt="non-virtual"><scope>ClassDefImpl</scope><name>fileName</name></member>
+      <member refid="d1/d25/class_class_def_impl_1aad1e8debaeb3f021677917627a5c229f" prot="public" virt="non-virtual"><scope>ClassDefImpl</scope><name>files</name></member>
+      <member refid="d1/d25/class_class_def_impl_1abff21ee2a293a91dd508f664930ab6bc" prot="public" virt="non-virtual"><scope>ClassDefImpl</scope><name>incInfo</name></member>
+      <member refid="d1/d25/class_class_def_impl_1a9134929b4e91fa202dad541f7a9c89ac" prot="public" virt="non-virtual"><scope>ClassDefImpl</scope><name>inheritedBy</name></member>
+      <member refid="d1/d25/class_class_def_impl_1a4dd8dc3a52eaf754b7d567a4dc3e0780" prot="public" virt="non-virtual"><scope>ClassDefImpl</scope><name>inherits</name></member>
+      <member refid="d1/d25/class_class_def_impl_1a4876a8d9d670f4f6f524e92909a557c4" prot="public" virt="non-virtual"><scope>ClassDefImpl</scope><name>init</name></member>
+      <member refid="d1/d25/class_class_def_impl_1a3032dc0d393588b7afd0c2432b350feb" prot="public" virt="non-virtual"><scope>ClassDefImpl</scope><name>innerClasses</name></member>
+      <member refid="d1/d25/class_class_def_impl_1add7ec887a9774fff23c51033b0f68cd1" prot="public" virt="non-virtual"><scope>ClassDefImpl</scope><name>isAbstract</name></member>
+      <member refid="d1/d25/class_class_def_impl_1ad8a4566782b5669e5a77978189900f75" prot="public" virt="non-virtual"><scope>ClassDefImpl</scope><name>isGeneric</name></member>
+      <member refid="d1/d25/class_class_def_impl_1a435f18aa29bf28b0723ea7c7fd79b825" prot="public" virt="non-virtual"><scope>ClassDefImpl</scope><name>isJavaEnum</name></member>
+      <member refid="d1/d25/class_class_def_impl_1a9a751bb93d4da92aceace3210c911aa1" prot="public" virt="non-virtual"><scope>ClassDefImpl</scope><name>isLocal</name></member>
+      <member refid="d1/d25/class_class_def_impl_1a066ef909e009befddbd31341b9ddbb5b" prot="public" virt="non-virtual"><scope>ClassDefImpl</scope><name>isSimple</name></member>
+      <member refid="d1/d25/class_class_def_impl_1a13a7bfbb253abb17959c8fa78d565c51" prot="public" virt="non-virtual"><scope>ClassDefImpl</scope><name>isStatic</name></member>
+      <member refid="d1/d25/class_class_def_impl_1a3a2227e55d99c40327f87f5efe096061" prot="public" virt="non-virtual"><scope>ClassDefImpl</scope><name>isTemplArg</name></member>
+      <member refid="d1/d25/class_class_def_impl_1a0210b427b08a04f20bd5eb24c3bb6f11" prot="public" virt="non-virtual"><scope>ClassDefImpl</scope><name>memberGroupSDict</name></member>
+      <member refid="d1/d25/class_class_def_impl_1a08ae5698e8b933ec25f894f6e87ad1b1" prot="public" virt="non-virtual"><scope>ClassDefImpl</scope><name>memberLists</name></member>
+      <member refid="d1/d25/class_class_def_impl_1ab613a11051f5ad3265ddc3b25ef50a82" prot="public" virt="non-virtual"><scope>ClassDefImpl</scope><name>membersMerged</name></member>
+      <member refid="d1/d25/class_class_def_impl_1ab48a04c16cebd115877f07f540b44c15" prot="public" virt="non-virtual"><scope>ClassDefImpl</scope><name>nspace</name></member>
+      <member refid="d1/d25/class_class_def_impl_1a08fcc20edfd7a4c7090217f21389f929" prot="public" virt="non-virtual"><scope>ClassDefImpl</scope><name>prot</name></member>
+      <member refid="d1/d25/class_class_def_impl_1a9514ecc09bd2ee98965eb9bc6e0fa787" prot="public" virt="non-virtual"><scope>ClassDefImpl</scope><name>spec</name></member>
+      <member refid="d1/d25/class_class_def_impl_1ad11ebe89f9a6c199c5ef2b63ef2a10cc" prot="public" virt="non-virtual"><scope>ClassDefImpl</scope><name>subGrouping</name></member>
+      <member refid="d1/d25/class_class_def_impl_1a8753bef2143ebdef9451738751087e5f" prot="public" virt="non-virtual"><scope>ClassDefImpl</scope><name>taggedInnerClasses</name></member>
+      <member refid="d1/d25/class_class_def_impl_1a57431554d3d5190b38d8ce18b65f9b09" prot="public" virt="non-virtual"><scope>ClassDefImpl</scope><name>tagLessRef</name></member>
+      <member refid="d1/d25/class_class_def_impl_1aacfd7b41980ab90e43e015ca2583a56c" prot="public" virt="non-virtual"><scope>ClassDefImpl</scope><name>tempArgs</name></member>
+      <member refid="d1/d25/class_class_def_impl_1a40568b5135505092ae7acae3e4ce224f" prot="public" virt="non-virtual"><scope>ClassDefImpl</scope><name>templateInstances</name></member>
+      <member refid="d1/d25/class_class_def_impl_1a14389d44bce551c00b53391115004d5f" prot="public" virt="non-virtual"><scope>ClassDefImpl</scope><name>templateMaster</name></member>
+      <member refid="d1/d25/class_class_def_impl_1af694528f58bf5c3f872e14c364dd7f89" prot="public" virt="non-virtual"><scope>ClassDefImpl</scope><name>templBaseClassNames</name></member>
+      <member refid="d1/d25/class_class_def_impl_1af0266bc567e2d9eed094e5ced846ddac" prot="public" virt="non-virtual"><scope>ClassDefImpl</scope><name>typeConstraints</name></member>
+      <member refid="d1/d25/class_class_def_impl_1a578c5fd5c2fb6e5aee107a670e9e51a1" prot="public" virt="non-virtual"><scope>ClassDefImpl</scope><name>usedByImplClassDict</name></member>
+      <member refid="d1/d25/class_class_def_impl_1aef5aa0ec452605576f9a976067326e52" prot="public" virt="non-virtual"><scope>ClassDefImpl</scope><name>usedOnly</name></member>
+      <member refid="d1/d25/class_class_def_impl_1ac49d5feb5e7484ee50ae51873b8bc255" prot="public" virt="non-virtual"><scope>ClassDefImpl</scope><name>usesImplClassDict</name></member>
+      <member refid="d1/d25/class_class_def_impl_1ab7e80405e26e2e111e5869c016cc9783" prot="public" virt="non-virtual"><scope>ClassDefImpl</scope><name>usesIntfClassDict</name></member>
+      <member refid="d1/d25/class_class_def_impl_1ac515e81dfa0ea2fe1e7aabe14d65d488" prot="public" virt="non-virtual"><scope>ClassDefImpl</scope><name>variableInstances</name></member>
+      <member refid="d1/d25/class_class_def_impl_1a1ab8fae1f7661cf9461678debaf0c5f7" prot="public" virt="non-virtual"><scope>ClassDefImpl</scope><name>vhdlSummaryTitles</name></member>
+      <member refid="d1/d25/class_class_def_impl_1afe3ebfc701c9477e8d31a8957f8d772d" prot="public" virt="non-virtual"><scope>ClassDefImpl</scope><name>~ClassDefImpl</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,695 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.2">
+  <compounddef id="d5/d6c/class_perl_mod_output" kind="class" prot="public">
+    <compoundname>PerlModOutput</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="d5/d6c/class_perl_mod_output_1a814c200c15b3842ff2671f28a69db498" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool PerlModOutput::m_pretty</definition>
+        <argsstring></argsstring>
+        <name>m_pretty</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/perlmodgen.cpp" line="107" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/perlmodgen.cpp" bodystart="107" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="d5/d6c/class_perl_mod_output_1a54db51bb1b250e403a16c824f66045e5" prot="private" static="no" mutable="no">
+        <type>PerlModOutputStream *</type>
+        <definition>PerlModOutputStream* PerlModOutput::m_stream</definition>
+        <argsstring></argsstring>
+        <name>m_stream</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/perlmodgen.cpp" line="188" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/perlmodgen.cpp" bodystart="188" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d5/d6c/class_perl_mod_output_1a06b8ab87fd8887a453adef8dfa73bfb7" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int PerlModOutput::m_indentation</definition>
+        <argsstring></argsstring>
+        <name>m_indentation</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/perlmodgen.cpp" line="189" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/perlmodgen.cpp" bodystart="189" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d5/d6c/class_perl_mod_output_1abd4d86b077ee6124f32e9ff75f4b08a7" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool PerlModOutput::m_blockstart</definition>
+        <argsstring></argsstring>
+        <name>m_blockstart</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/perlmodgen.cpp" line="190" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/perlmodgen.cpp" bodystart="190" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d5/d6c/class_perl_mod_output_1a3d5eebaf138a96e5410c4bbe7006de96" prot="private" static="no" mutable="no">
+        <type>QStack&lt; PerlModOutputStream &gt;</type>
+        <definition>QStack&lt;PerlModOutputStream&gt; PerlModOutput::m_saved</definition>
+        <argsstring></argsstring>
+        <name>m_saved</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/perlmodgen.cpp" line="192" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/perlmodgen.cpp" bodystart="192" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d5/d6c/class_perl_mod_output_1a13733f6b22eba5234e2049924f23c4eb" prot="private" static="no" mutable="no">
+        <type>char</type>
+        <definition>char PerlModOutput::m_spaces[PERLOUTPUT_MAX_INDENTATION *2+2]</definition>
+        <argsstring>[PERLOUTPUT_MAX_INDENTATION *2+2]</argsstring>
+        <name>m_spaces</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/perlmodgen.cpp" line="193" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/perlmodgen.cpp" bodystart="193" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="d5/d6c/class_perl_mod_output_1a1a1ff2b3add5217939d7662474f59c57" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>PerlModOutput::PerlModOutput</definition>
+        <argsstring>(bool pretty)</argsstring>
+        <name>PerlModOutput</name>
+        <param>
+          <type>bool</type>
+          <declname>pretty</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/perlmodgen.cpp" line="111" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/perlmodgen.cpp" bodystart="109" bodyend="113"/>
+      </memberdef>
+      <memberdef kind="function" id="d5/d6c/class_perl_mod_output_1a13afbda9147f3b59a75f004598ca68e1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type></type>
+        <definition>virtual PerlModOutput::~PerlModOutput</definition>
+        <argsstring>()</argsstring>
+        <name>~PerlModOutput</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/perlmodgen.cpp" line="115" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/perlmodgen.cpp" bodystart="115" bodyend="115"/>
+      </memberdef>
+      <memberdef kind="function" id="d5/d6c/class_perl_mod_output_1ab7b0911db6dc14e1a4a12241484639d1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void PerlModOutput::setPerlModOutputStream</definition>
+        <argsstring>(PerlModOutputStream *os)</argsstring>
+        <name>setPerlModOutputStream</name>
+        <param>
+          <type>PerlModOutputStream *</type>
+          <declname>os</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/perlmodgen.cpp" line="117" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/perlmodgen.cpp" bodystart="117" bodyend="117"/>
+      </memberdef>
+      <memberdef kind="function" id="d5/d6c/class_perl_mod_output_1a859c8d77099503b70e3e5650b318db85" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>PerlModOutput &amp;</type>
+        <definition>PerlModOutput&amp; PerlModOutput::openSave</definition>
+        <argsstring>()</argsstring>
+        <name>openSave</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/perlmodgen.cpp" line="119" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/perlmodgen.cpp" bodystart="119" bodyend="119"/>
+      </memberdef>
+      <memberdef kind="function" id="d5/d6c/class_perl_mod_output_1ae4e38b160261592855849e74361bb189" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>PerlModOutput &amp;</type>
+        <definition>PerlModOutput&amp; PerlModOutput::closeSave</definition>
+        <argsstring>(QCString &amp;s)</argsstring>
+        <name>closeSave</name>
+        <param>
+          <type>QCString &amp;</type>
+          <declname>s</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/perlmodgen.cpp" line="120" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/perlmodgen.cpp" bodystart="120" bodyend="120"/>
+      </memberdef>
+      <memberdef kind="function" id="d5/d6c/class_perl_mod_output_1ab38458a29d71feb99a35e4437f7ded42" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>PerlModOutput &amp;</type>
+        <definition>PerlModOutput&amp; PerlModOutput::continueBlock</definition>
+        <argsstring>()</argsstring>
+        <name>continueBlock</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/perlmodgen.cpp" line="123" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/perlmodgen.cpp" bodystart="122" bodyend="130"/>
+      </memberdef>
+      <memberdef kind="function" id="d5/d6c/class_perl_mod_output_1ae8922b7e8560f4e86849f5bb1bf3a0fd" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>PerlModOutput &amp;</type>
+        <definition>PerlModOutput&amp; PerlModOutput::add</definition>
+        <argsstring>(char c)</argsstring>
+        <name>add</name>
+        <param>
+          <type>char</type>
+          <declname>c</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/perlmodgen.cpp" line="132" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/perlmodgen.cpp" bodystart="132" bodyend="132"/>
+      </memberdef>
+      <memberdef kind="function" id="d5/d6c/class_perl_mod_output_1ac88b0e912b838cf4e3ae64038fa46201" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>PerlModOutput &amp;</type>
+        <definition>PerlModOutput&amp; PerlModOutput::add</definition>
+        <argsstring>(const char *s)</argsstring>
+        <name>add</name>
+        <param>
+          <type>const char *</type>
+          <declname>s</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/perlmodgen.cpp" line="133" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/perlmodgen.cpp" bodystart="133" bodyend="133"/>
+      </memberdef>
+      <memberdef kind="function" id="d5/d6c/class_perl_mod_output_1a1751b1bc64d228181dc903bfb91a4f84" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>PerlModOutput &amp;</type>
+        <definition>PerlModOutput&amp; PerlModOutput::add</definition>
+        <argsstring>(QCString &amp;s)</argsstring>
+        <name>add</name>
+        <param>
+          <type>QCString &amp;</type>
+          <declname>s</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/perlmodgen.cpp" line="134" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/perlmodgen.cpp" bodystart="134" bodyend="134"/>
+      </memberdef>
+      <memberdef kind="function" id="d5/d6c/class_perl_mod_output_1a0517f1dc18d5d9c8c1d4e2d2aee24479" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>PerlModOutput &amp;</type>
+        <definition>PerlModOutput&amp; PerlModOutput::add</definition>
+        <argsstring>(int n)</argsstring>
+        <name>add</name>
+        <param>
+          <type>int</type>
+          <declname>n</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/perlmodgen.cpp" line="135" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/perlmodgen.cpp" bodystart="135" bodyend="135"/>
+      </memberdef>
+      <memberdef kind="function" id="d5/d6c/class_perl_mod_output_1af4e7a0431dc492c404654d09edf519f3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>PerlModOutput &amp;</type>
+        <definition>PerlModOutput&amp; PerlModOutput::add</definition>
+        <argsstring>(unsigned int n)</argsstring>
+        <name>add</name>
+        <param>
+          <type>unsigned int</type>
+          <declname>n</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/perlmodgen.cpp" line="136" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/perlmodgen.cpp" bodystart="136" bodyend="136"/>
+      </memberdef>
+      <memberdef kind="function" id="d5/d6c/class_perl_mod_output_1ad17287468f089f08464b350ba2a140b8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>PerlModOutput &amp;</type>
+        <definition>PerlModOutput&amp; PerlModOutput::addQuoted</definition>
+        <argsstring>(const char *s)</argsstring>
+        <name>addQuoted</name>
+        <param>
+          <type>const char *</type>
+          <declname>s</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/perlmodgen.cpp" line="138" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/perlmodgen.cpp" bodystart="138" bodyend="138"/>
+      </memberdef>
+      <memberdef kind="function" id="d5/d6c/class_perl_mod_output_1ac08110cde760efc8995f58e5a922ffff" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>PerlModOutput &amp;</type>
+        <definition>PerlModOutput&amp; PerlModOutput::indent</definition>
+        <argsstring>()</argsstring>
+        <name>indent</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/perlmodgen.cpp" line="141" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/perlmodgen.cpp" bodystart="140" bodyend="147"/>
+      </memberdef>
+      <memberdef kind="function" id="d5/d6c/class_perl_mod_output_1a1a2f0463cf38f334085541eb1b4211fa" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>PerlModOutput &amp;</type>
+        <definition>PerlModOutput&amp; PerlModOutput::open</definition>
+        <argsstring>(char c, const char *s=0)</argsstring>
+        <name>open</name>
+        <param>
+          <type>char</type>
+          <declname>c</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>s</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/perlmodgen.cpp" line="149" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/perlmodgen.cpp" bodystart="149" bodyend="149"/>
+      </memberdef>
+      <memberdef kind="function" id="d5/d6c/class_perl_mod_output_1a70c627c62f8699e4b184515e1c18b2ee" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>PerlModOutput &amp;</type>
+        <definition>PerlModOutput&amp; PerlModOutput::close</definition>
+        <argsstring>(char c=0)</argsstring>
+        <name>close</name>
+        <param>
+          <type>char</type>
+          <declname>c</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/perlmodgen.cpp" line="150" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/perlmodgen.cpp" bodystart="150" bodyend="150"/>
+      </memberdef>
+      <memberdef kind="function" id="d5/d6c/class_perl_mod_output_1a6dbf1c36ff3ce95fed4a2ff3c9743149" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>PerlModOutput &amp;</type>
+        <definition>PerlModOutput&amp; PerlModOutput::addField</definition>
+        <argsstring>(const char *s)</argsstring>
+        <name>addField</name>
+        <param>
+          <type>const char *</type>
+          <declname>s</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/perlmodgen.cpp" line="152" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/perlmodgen.cpp" bodystart="152" bodyend="152"/>
+      </memberdef>
+      <memberdef kind="function" id="d5/d6c/class_perl_mod_output_1a41c914573da8e0303a9b16ee74f5e3ed" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>PerlModOutput &amp;</type>
+        <definition>PerlModOutput&amp; PerlModOutput::addFieldQuotedChar</definition>
+        <argsstring>(const char *field, char content)</argsstring>
+        <name>addFieldQuotedChar</name>
+        <param>
+          <type>const char *</type>
+          <declname>field</declname>
+        </param>
+        <param>
+          <type>char</type>
+          <declname>content</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/perlmodgen.cpp" line="154" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/perlmodgen.cpp" bodystart="153" bodyend="156"/>
+      </memberdef>
+      <memberdef kind="function" id="d5/d6c/class_perl_mod_output_1a4aa4d03f69c35b34fb6d67c82882de74" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>PerlModOutput &amp;</type>
+        <definition>PerlModOutput&amp; PerlModOutput::addFieldQuotedString</definition>
+        <argsstring>(const char *field, const char *content)</argsstring>
+        <name>addFieldQuotedString</name>
+        <param>
+          <type>const char *</type>
+          <declname>field</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>content</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/perlmodgen.cpp" line="158" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/perlmodgen.cpp" bodystart="157" bodyend="160"/>
+      </memberdef>
+      <memberdef kind="function" id="d5/d6c/class_perl_mod_output_1a1757cf0f9469290547d8b649801c1e72" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>PerlModOutput &amp;</type>
+        <definition>PerlModOutput&amp; PerlModOutput::addFieldBoolean</definition>
+        <argsstring>(const char *field, bool content)</argsstring>
+        <name>addFieldBoolean</name>
+        <param>
+          <type>const char *</type>
+          <declname>field</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>content</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/perlmodgen.cpp" line="162" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/perlmodgen.cpp" bodystart="161" bodyend="164"/>
+      </memberdef>
+      <memberdef kind="function" id="d5/d6c/class_perl_mod_output_1a98d9e21faa376f774072ded1b97f7b72" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>PerlModOutput &amp;</type>
+        <definition>PerlModOutput&amp; PerlModOutput::openList</definition>
+        <argsstring>(const char *s=0)</argsstring>
+        <name>openList</name>
+        <param>
+          <type>const char *</type>
+          <declname>s</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/perlmodgen.cpp" line="165" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/perlmodgen.cpp" bodystart="165" bodyend="165"/>
+      </memberdef>
+      <memberdef kind="function" id="d5/d6c/class_perl_mod_output_1a7c2d76ccf51197fd1a0db53c0179f14c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>PerlModOutput &amp;</type>
+        <definition>PerlModOutput&amp; PerlModOutput::closeList</definition>
+        <argsstring>()</argsstring>
+        <name>closeList</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/perlmodgen.cpp" line="166" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/perlmodgen.cpp" bodystart="166" bodyend="166"/>
+      </memberdef>
+      <memberdef kind="function" id="d5/d6c/class_perl_mod_output_1ad3f263a6a01a737ea0f48f1301a0c63b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>PerlModOutput &amp;</type>
+        <definition>PerlModOutput&amp; PerlModOutput::openHash</definition>
+        <argsstring>(const char *s=0)</argsstring>
+        <name>openHash</name>
+        <param>
+          <type>const char *</type>
+          <declname>s</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/perlmodgen.cpp" line="167" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/perlmodgen.cpp" bodystart="167" bodyend="167"/>
+      </memberdef>
+      <memberdef kind="function" id="d5/d6c/class_perl_mod_output_1a105173f8b051fdea4d34c6a161792b5f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>PerlModOutput &amp;</type>
+        <definition>PerlModOutput&amp; PerlModOutput::closeHash</definition>
+        <argsstring>()</argsstring>
+        <name>closeHash</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/perlmodgen.cpp" line="168" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/perlmodgen.cpp" bodystart="168" bodyend="168"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="d5/d6c/class_perl_mod_output_1a1bb2b1fa2bff81a44cf22ff102269603" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void PerlModOutput::iopenSave</definition>
+        <argsstring>()</argsstring>
+        <name>iopenSave</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/perlmodgen.cpp" line="172" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/perlmodgen.cpp" bodystart="196" bodyend="200"/>
+      </memberdef>
+      <memberdef kind="function" id="d5/d6c/class_perl_mod_output_1a4901c7204a33d4f67fa58ca0a1590ef8" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void PerlModOutput::icloseSave</definition>
+        <argsstring>(QCString &amp;)</argsstring>
+        <name>icloseSave</name>
+        <param>
+          <type>QCString &amp;</type>
+          <defname>s</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/perlmodgen.cpp" line="173" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/perlmodgen.cpp" bodystart="202" bodyend="207"/>
+      </memberdef>
+      <memberdef kind="function" id="d5/d6c/class_perl_mod_output_1af64a9ea9387cf24ececa9948fc6c51bf" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void PerlModOutput::incIndent</definition>
+        <argsstring>()</argsstring>
+        <name>incIndent</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/perlmodgen.cpp" line="175" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/perlmodgen.cpp" bodystart="209" bodyend="217"/>
+      </memberdef>
+      <memberdef kind="function" id="d5/d6c/class_perl_mod_output_1a87ca2eea3d930eb4fe5f34363fb4483c" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void PerlModOutput::decIndent</definition>
+        <argsstring>()</argsstring>
+        <name>decIndent</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/perlmodgen.cpp" line="176" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/perlmodgen.cpp" bodystart="219" bodyend="224"/>
+      </memberdef>
+      <memberdef kind="function" id="d5/d6c/class_perl_mod_output_1a35764c31d12ed31d82048af9560b5820" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void PerlModOutput::iaddQuoted</definition>
+        <argsstring>(const char *)</argsstring>
+        <name>iaddQuoted</name>
+        <param>
+          <type>const char *</type>
+          <defname>s</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/perlmodgen.cpp" line="178" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/perlmodgen.cpp" bodystart="226" bodyend="234"/>
+      </memberdef>
+      <memberdef kind="function" id="d5/d6c/class_perl_mod_output_1a82ffa33e722fd3168f484d77ec83cf26" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void PerlModOutput::iaddFieldQuotedChar</definition>
+        <argsstring>(const char *, char)</argsstring>
+        <name>iaddFieldQuotedChar</name>
+        <param>
+          <type>const char *</type>
+          <defname>field</defname>
+        </param>
+        <param>
+          <type>char</type>
+          <defname>content</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/perlmodgen.cpp" line="179" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/perlmodgen.cpp" bodystart="243" bodyend="251"/>
+      </memberdef>
+      <memberdef kind="function" id="d5/d6c/class_perl_mod_output_1a1cce3e0acdb2935716bca276b38b92da" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void PerlModOutput::iaddFieldQuotedString</definition>
+        <argsstring>(const char *, const char *)</argsstring>
+        <name>iaddFieldQuotedString</name>
+        <param>
+          <type>const char *</type>
+          <defname>field</defname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <defname>content</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/perlmodgen.cpp" line="180" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/perlmodgen.cpp" bodystart="253" bodyend="261"/>
+      </memberdef>
+      <memberdef kind="function" id="d5/d6c/class_perl_mod_output_1af7bacddb6455f3a0d604e42773665a81" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void PerlModOutput::iaddField</definition>
+        <argsstring>(const char *)</argsstring>
+        <name>iaddField</name>
+        <param>
+          <type>const char *</type>
+          <defname>s</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/perlmodgen.cpp" line="181" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/perlmodgen.cpp" bodystart="236" bodyend="241"/>
+      </memberdef>
+      <memberdef kind="function" id="d5/d6c/class_perl_mod_output_1a9a67e943b2fbe59bbc25825b6a2d3f93" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void PerlModOutput::iopen</definition>
+        <argsstring>(char, const char *)</argsstring>
+        <name>iopen</name>
+        <param>
+          <type>char</type>
+          <defname>c</defname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <defname>s</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/perlmodgen.cpp" line="183" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/perlmodgen.cpp" bodystart="263" bodyend="272"/>
+      </memberdef>
+      <memberdef kind="function" id="d5/d6c/class_perl_mod_output_1ac586a81a61a46b23f708aa2cf9f4e2e0" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void PerlModOutput::iclose</definition>
+        <argsstring>(char)</argsstring>
+        <name>iclose</name>
+        <param>
+          <type>char</type>
+          <defname>c</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/perlmodgen.cpp" line="184" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/perlmodgen.cpp" bodystart="274" bodyend="281"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/perlmodgen.cpp" line="104" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/perlmodgen.cpp" bodystart="103" bodyend="194"/>
+    <listofallmembers>
+      <member refid="d5/d6c/class_perl_mod_output_1ae8922b7e8560f4e86849f5bb1bf3a0fd" prot="public" virt="non-virtual"><scope>PerlModOutput</scope><name>add</name></member>
+      <member refid="d5/d6c/class_perl_mod_output_1ac88b0e912b838cf4e3ae64038fa46201" prot="public" virt="non-virtual"><scope>PerlModOutput</scope><name>add</name></member>
+      <member refid="d5/d6c/class_perl_mod_output_1a1751b1bc64d228181dc903bfb91a4f84" prot="public" virt="non-virtual"><scope>PerlModOutput</scope><name>add</name></member>
+      <member refid="d5/d6c/class_perl_mod_output_1a0517f1dc18d5d9c8c1d4e2d2aee24479" prot="public" virt="non-virtual"><scope>PerlModOutput</scope><name>add</name></member>
+      <member refid="d5/d6c/class_perl_mod_output_1af4e7a0431dc492c404654d09edf519f3" prot="public" virt="non-virtual"><scope>PerlModOutput</scope><name>add</name></member>
+      <member refid="d5/d6c/class_perl_mod_output_1a6dbf1c36ff3ce95fed4a2ff3c9743149" prot="public" virt="non-virtual"><scope>PerlModOutput</scope><name>addField</name></member>
+      <member refid="d5/d6c/class_perl_mod_output_1a1757cf0f9469290547d8b649801c1e72" prot="public" virt="non-virtual"><scope>PerlModOutput</scope><name>addFieldBoolean</name></member>
+      <member refid="d5/d6c/class_perl_mod_output_1a41c914573da8e0303a9b16ee74f5e3ed" prot="public" virt="non-virtual"><scope>PerlModOutput</scope><name>addFieldQuotedChar</name></member>
+      <member refid="d5/d6c/class_perl_mod_output_1a4aa4d03f69c35b34fb6d67c82882de74" prot="public" virt="non-virtual"><scope>PerlModOutput</scope><name>addFieldQuotedString</name></member>
+      <member refid="d5/d6c/class_perl_mod_output_1ad17287468f089f08464b350ba2a140b8" prot="public" virt="non-virtual"><scope>PerlModOutput</scope><name>addQuoted</name></member>
+      <member refid="d5/d6c/class_perl_mod_output_1a70c627c62f8699e4b184515e1c18b2ee" prot="public" virt="non-virtual"><scope>PerlModOutput</scope><name>close</name></member>
+      <member refid="d5/d6c/class_perl_mod_output_1a105173f8b051fdea4d34c6a161792b5f" prot="public" virt="non-virtual"><scope>PerlModOutput</scope><name>closeHash</name></member>
+      <member refid="d5/d6c/class_perl_mod_output_1a7c2d76ccf51197fd1a0db53c0179f14c" prot="public" virt="non-virtual"><scope>PerlModOutput</scope><name>closeList</name></member>
+      <member refid="d5/d6c/class_perl_mod_output_1ae4e38b160261592855849e74361bb189" prot="public" virt="non-virtual"><scope>PerlModOutput</scope><name>closeSave</name></member>
+      <member refid="d5/d6c/class_perl_mod_output_1ab38458a29d71feb99a35e4437f7ded42" prot="public" virt="non-virtual"><scope>PerlModOutput</scope><name>continueBlock</name></member>
+      <member refid="d5/d6c/class_perl_mod_output_1a87ca2eea3d930eb4fe5f34363fb4483c" prot="protected" virt="non-virtual"><scope>PerlModOutput</scope><name>decIndent</name></member>
+      <member refid="d5/d6c/class_perl_mod_output_1af7bacddb6455f3a0d604e42773665a81" prot="protected" virt="non-virtual"><scope>PerlModOutput</scope><name>iaddField</name></member>
+      <member refid="d5/d6c/class_perl_mod_output_1a82ffa33e722fd3168f484d77ec83cf26" prot="protected" virt="non-virtual"><scope>PerlModOutput</scope><name>iaddFieldQuotedChar</name></member>
+      <member refid="d5/d6c/class_perl_mod_output_1a1cce3e0acdb2935716bca276b38b92da" prot="protected" virt="non-virtual"><scope>PerlModOutput</scope><name>iaddFieldQuotedString</name></member>
+      <member refid="d5/d6c/class_perl_mod_output_1a35764c31d12ed31d82048af9560b5820" prot="protected" virt="non-virtual"><scope>PerlModOutput</scope><name>iaddQuoted</name></member>
+      <member refid="d5/d6c/class_perl_mod_output_1ac586a81a61a46b23f708aa2cf9f4e2e0" prot="protected" virt="non-virtual"><scope>PerlModOutput</scope><name>iclose</name></member>
+      <member refid="d5/d6c/class_perl_mod_output_1a4901c7204a33d4f67fa58ca0a1590ef8" prot="protected" virt="non-virtual"><scope>PerlModOutput</scope><name>icloseSave</name></member>
+      <member refid="d5/d6c/class_perl_mod_output_1af64a9ea9387cf24ececa9948fc6c51bf" prot="protected" virt="non-virtual"><scope>PerlModOutput</scope><name>incIndent</name></member>
+      <member refid="d5/d6c/class_perl_mod_output_1ac08110cde760efc8995f58e5a922ffff" prot="public" virt="non-virtual"><scope>PerlModOutput</scope><name>indent</name></member>
+      <member refid="d5/d6c/class_perl_mod_output_1a9a67e943b2fbe59bbc25825b6a2d3f93" prot="protected" virt="non-virtual"><scope>PerlModOutput</scope><name>iopen</name></member>
+      <member refid="d5/d6c/class_perl_mod_output_1a1bb2b1fa2bff81a44cf22ff102269603" prot="protected" virt="non-virtual"><scope>PerlModOutput</scope><name>iopenSave</name></member>
+      <member refid="d5/d6c/class_perl_mod_output_1abd4d86b077ee6124f32e9ff75f4b08a7" prot="private" virt="non-virtual"><scope>PerlModOutput</scope><name>m_blockstart</name></member>
+      <member refid="d5/d6c/class_perl_mod_output_1a06b8ab87fd8887a453adef8dfa73bfb7" prot="private" virt="non-virtual"><scope>PerlModOutput</scope><name>m_indentation</name></member>
+      <member refid="d5/d6c/class_perl_mod_output_1a814c200c15b3842ff2671f28a69db498" prot="public" virt="non-virtual"><scope>PerlModOutput</scope><name>m_pretty</name></member>
+      <member refid="d5/d6c/class_perl_mod_output_1a3d5eebaf138a96e5410c4bbe7006de96" prot="private" virt="non-virtual"><scope>PerlModOutput</scope><name>m_saved</name></member>
+      <member refid="d5/d6c/class_perl_mod_output_1a13733f6b22eba5234e2049924f23c4eb" prot="private" virt="non-virtual"><scope>PerlModOutput</scope><name>m_spaces</name></member>
+      <member refid="d5/d6c/class_perl_mod_output_1a54db51bb1b250e403a16c824f66045e5" prot="private" virt="non-virtual"><scope>PerlModOutput</scope><name>m_stream</name></member>
+      <member refid="d5/d6c/class_perl_mod_output_1a1a2f0463cf38f334085541eb1b4211fa" prot="public" virt="non-virtual"><scope>PerlModOutput</scope><name>open</name></member>
+      <member refid="d5/d6c/class_perl_mod_output_1ad3f263a6a01a737ea0f48f1301a0c63b" prot="public" virt="non-virtual"><scope>PerlModOutput</scope><name>openHash</name></member>
+      <member refid="d5/d6c/class_perl_mod_output_1a98d9e21faa376f774072ded1b97f7b72" prot="public" virt="non-virtual"><scope>PerlModOutput</scope><name>openList</name></member>
+      <member refid="d5/d6c/class_perl_mod_output_1a859c8d77099503b70e3e5650b318db85" prot="public" virt="non-virtual"><scope>PerlModOutput</scope><name>openSave</name></member>
+      <member refid="d5/d6c/class_perl_mod_output_1a1a1ff2b3add5217939d7662474f59c57" prot="public" virt="non-virtual"><scope>PerlModOutput</scope><name>PerlModOutput</name></member>
+      <member refid="d5/d6c/class_perl_mod_output_1ab7b0911db6dc14e1a4a12241484639d1" prot="public" virt="non-virtual"><scope>PerlModOutput</scope><name>setPerlModOutputStream</name></member>
+      <member refid="d5/d6c/class_perl_mod_output_1a13afbda9147f3b59a75f004598ca68e1" prot="public" virt="virtual"><scope>PerlModOutput</scope><name>~PerlModOutput</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

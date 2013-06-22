@@ -1,0 +1,590 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.2">
+  <compounddef id="d2/d0d/message_8h" kind="file">
+    <compoundname>message.h</compoundname>
+    <includes local="no">stdio.h</includes>
+    <includedby refid="d5/d0b/cite_8cpp" local="yes">src/cite.cpp</includedby>
+    <includedby refid="de/d89/classdef_8cpp" local="yes">src/classdef.cpp</includedby>
+    <includedby refid="d7/d6d/condparser_8cpp" local="yes">src/condparser.cpp</includedby>
+    <includedby refid="d1/d70/dbusxmlscanner_8cpp" local="yes">src/dbusxmlscanner.cpp</includedby>
+    <includedby refid="d3/d17/defgen_8cpp" local="yes">src/defgen.cpp</includedby>
+    <includedby refid="d3/dea/definition_8cpp" local="yes">src/definition.cpp</includedby>
+    <includedby refid="da/d0d/diagram_8cpp" local="yes">src/diagram.cpp</includedby>
+    <includedby refid="d8/d52/dirdef_8cpp" local="yes">src/dirdef.cpp</includedby>
+    <includedby refid="d8/d29/docbookgen_8cpp" local="yes">src/docbookgen.cpp</includedby>
+    <includedby refid="dc/d05/docbookvisitor_8cpp" local="yes">src/docbookvisitor.cpp</includedby>
+    <includedby refid="da/d17/docparser_8cpp" local="yes">src/docparser.cpp</includedby>
+    <includedby refid="d7/d8f/docsets_8cpp" local="yes">src/docsets.cpp</includedby>
+    <includedby refid="de/daa/dot_8cpp" local="yes">src/dot.cpp</includedby>
+    <includedby refid="dc/d98/doxygen_8cpp" local="yes">src/doxygen.cpp</includedby>
+    <includedby refid="d8/d56/eclipsehelp_8cpp" local="yes">src/eclipsehelp.cpp</includedby>
+    <includedby refid="d6/ddc/filedef_8cpp" local="yes">src/filedef.cpp</includedby>
+    <includedby refid="d7/d5b/formula_8cpp" local="yes">src/formula.cpp</includedby>
+    <includedby refid="db/d41/ftvhelp_8cpp" local="yes">src/ftvhelp.cpp</includedby>
+    <includedby refid="d6/d42/groupdef_8cpp" local="yes">src/groupdef.cpp</includedby>
+    <includedby refid="d9/db7/htags_8cpp" local="yes">src/htags.cpp</includedby>
+    <includedby refid="da/db0/htmldocvisitor_8cpp" local="yes">src/htmldocvisitor.cpp</includedby>
+    <includedby refid="d8/d6e/htmlgen_8cpp" local="yes">src/htmlgen.cpp</includedby>
+    <includedby refid="d3/d4b/htmlhelp_8cpp" local="yes">src/htmlhelp.cpp</includedby>
+    <includedby refid="db/d14/index_8cpp" local="yes">src/index.cpp</includedby>
+    <includedby refid="d2/d48/language_8cpp" local="yes">src/language.cpp</includedby>
+    <includedby refid="d1/d4e/latexdocvisitor_8cpp" local="yes">src/latexdocvisitor.cpp</includedby>
+    <includedby refid="d4/d42/latexgen_8cpp" local="yes">src/latexgen.cpp</includedby>
+    <includedby refid="db/d16/layout_8cpp" local="yes">src/layout.cpp</includedby>
+    <includedby refid="d8/dde/mandocvisitor_8cpp" local="yes">src/mandocvisitor.cpp</includedby>
+    <includedby refid="d7/de7/mangen_8cpp" local="yes">src/mangen.cpp</includedby>
+    <includedby refid="d0/d72/memberdef_8cpp" local="yes">src/memberdef.cpp</includedby>
+    <includedby refid="d0/d14/memberlist_8cpp" local="yes">src/memberlist.cpp</includedby>
+    <includedby refid="db/d33/msc_8cpp" local="yes">src/msc.cpp</includedby>
+    <includedby refid="d7/d1c/namespacedef_8cpp" local="yes">src/namespacedef.cpp</includedby>
+    <includedby refid="d0/d17/outputgen_8cpp" local="yes">src/outputgen.cpp</includedby>
+    <includedby refid="db/dd8/outputlist_8cpp" local="yes">src/outputlist.cpp</includedby>
+    <includedby refid="de/dd0/perlmodgen_8cpp" local="yes">src/perlmodgen.cpp</includedby>
+    <includedby refid="d9/d45/qhp_8cpp" local="yes">src/qhp.cpp</includedby>
+    <includedby refid="de/d9a/rtfdocvisitor_8cpp" local="yes">src/rtfdocvisitor.cpp</includedby>
+    <includedby refid="d0/d9c/rtfgen_8cpp" local="yes">src/rtfgen.cpp</includedby>
+    <includedby refid="de/d5c/rtfstyle_8cpp" local="yes">src/rtfstyle.cpp</includedby>
+    <includedby refid="d7/d79/searchindex_8cpp" local="yes">src/searchindex.cpp</includedby>
+    <includedby refid="d8/df8/sqlite3gen_8cpp" local="yes">src/sqlite3gen.cpp</includedby>
+    <includedby refid="d4/d7b/tagreader_8cpp" local="yes">src/tagreader.cpp</includedby>
+    <includedby refid="d3/da6/textdocvisitor_8cpp" local="yes">src/textdocvisitor.cpp</includedby>
+    <includedby refid="df/d2d/util_8cpp" local="yes">src/util.cpp</includedby>
+    <includedby refid="de/dea/vhdldocgen_8cpp" local="yes">src/vhdldocgen.cpp</includedby>
+    <includedby refid="dd/db6/xmldocvisitor_8cpp" local="yes">src/xmldocvisitor.cpp</includedby>
+    <includedby refid="d0/dc3/xmlgen_8cpp" local="yes">src/xmlgen.cpp</includedby>
+    <incdepgraph>
+      <node id="3781">
+        <label>src/message.h</label>
+        <link refid="message.h"/>
+        <childnode refid="3782" relation="include">
+        </childnode>
+      </node>
+      <node id="3782">
+        <label>stdio.h</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="3827">
+        <label>src/tagreader.cpp</label>
+        <link refid="d4/d7b/tagreader_8cpp_source"/>
+      </node>
+      <node id="3804">
+        <label>src/htmldocvisitor.cpp</label>
+        <link refid="da/db0/htmldocvisitor_8cpp_source"/>
+      </node>
+      <node id="3821">
+        <label>src/qhp.cpp</label>
+        <link refid="d9/d45/qhp_8cpp_source"/>
+      </node>
+      <node id="3822">
+        <label>src/rtfdocvisitor.cpp</label>
+        <link refid="de/d9a/rtfdocvisitor_8cpp_source"/>
+      </node>
+      <node id="3794">
+        <label>src/docparser.cpp</label>
+        <link refid="da/d17/docparser_8cpp_source"/>
+      </node>
+      <node id="3814">
+        <label>src/memberdef.cpp</label>
+        <link refid="d0/d72/memberdef_8cpp_source"/>
+      </node>
+      <node id="3797">
+        <label>src/doxygen.cpp</label>
+        <link refid="dc/d98/doxygen_8cpp_source"/>
+      </node>
+      <node id="3796">
+        <label>src/dot.cpp</label>
+        <link refid="de/daa/dot_8cpp_source"/>
+      </node>
+      <node id="3830">
+        <label>src/vhdldocgen.cpp</label>
+        <link refid="de/dea/vhdldocgen_8cpp_source"/>
+      </node>
+      <node id="3823">
+        <label>src/rtfgen.cpp</label>
+        <link refid="d0/d9c/rtfgen_8cpp_source"/>
+      </node>
+      <node id="3812">
+        <label>src/mandocvisitor.cpp</label>
+        <link refid="d8/dde/mandocvisitor_8cpp_source"/>
+      </node>
+      <node id="3788">
+        <label>src/defgen.cpp</label>
+        <link refid="d3/d17/defgen_8cpp_source"/>
+      </node>
+      <node id="3829">
+        <label>src/util.cpp</label>
+        <link refid="df/d2d/util_8cpp_source"/>
+      </node>
+      <node id="3826">
+        <label>src/sqlite3gen.cpp</label>
+        <link refid="d8/df8/sqlite3gen_8cpp_source"/>
+      </node>
+      <node id="3816">
+        <label>src/msc.cpp</label>
+        <link refid="db/d33/msc_8cpp_source"/>
+      </node>
+      <node id="3809">
+        <label>src/latexdocvisitor.cpp</label>
+        <link refid="d1/d4e/latexdocvisitor_8cpp_source"/>
+      </node>
+      <node id="3825">
+        <label>src/searchindex.cpp</label>
+        <link refid="d7/d79/searchindex_8cpp_source"/>
+      </node>
+      <node id="3799">
+        <label>src/filedef.cpp</label>
+        <link refid="d6/ddc/filedef_8cpp_source"/>
+      </node>
+      <node id="3802">
+        <label>src/groupdef.cpp</label>
+        <link refid="d6/d42/groupdef_8cpp_source"/>
+      </node>
+      <node id="3792">
+        <label>src/docbookgen.cpp</label>
+        <link refid="d8/d29/docbookgen_8cpp_source"/>
+      </node>
+      <node id="3791">
+        <label>src/dirdef.cpp</label>
+        <link refid="d8/d52/dirdef_8cpp_source"/>
+      </node>
+      <node id="3820">
+        <label>src/perlmodgen.cpp</label>
+        <link refid="de/dd0/perlmodgen_8cpp_source"/>
+      </node>
+      <node id="3789">
+        <label>src/definition.cpp</label>
+        <link refid="d3/dea/definition_8cpp_source"/>
+      </node>
+      <node id="3817">
+        <label>src/namespacedef.cpp</label>
+        <link refid="d7/d1c/namespacedef_8cpp_source"/>
+      </node>
+      <node id="3783">
+        <label>src/message.h</label>
+        <link refid="message.h"/>
+        <childnode refid="3784" relation="include">
+        </childnode>
+        <childnode refid="3785" relation="include">
+        </childnode>
+        <childnode refid="3786" relation="include">
+        </childnode>
+        <childnode refid="3787" relation="include">
+        </childnode>
+        <childnode refid="3788" relation="include">
+        </childnode>
+        <childnode refid="3789" relation="include">
+        </childnode>
+        <childnode refid="3790" relation="include">
+        </childnode>
+        <childnode refid="3791" relation="include">
+        </childnode>
+        <childnode refid="3792" relation="include">
+        </childnode>
+        <childnode refid="3793" relation="include">
+        </childnode>
+        <childnode refid="3794" relation="include">
+        </childnode>
+        <childnode refid="3795" relation="include">
+        </childnode>
+        <childnode refid="3796" relation="include">
+        </childnode>
+        <childnode refid="3797" relation="include">
+        </childnode>
+        <childnode refid="3798" relation="include">
+        </childnode>
+        <childnode refid="3799" relation="include">
+        </childnode>
+        <childnode refid="3800" relation="include">
+        </childnode>
+        <childnode refid="3801" relation="include">
+        </childnode>
+        <childnode refid="3802" relation="include">
+        </childnode>
+        <childnode refid="3803" relation="include">
+        </childnode>
+        <childnode refid="3804" relation="include">
+        </childnode>
+        <childnode refid="3805" relation="include">
+        </childnode>
+        <childnode refid="3806" relation="include">
+        </childnode>
+        <childnode refid="3807" relation="include">
+        </childnode>
+        <childnode refid="3808" relation="include">
+        </childnode>
+        <childnode refid="3809" relation="include">
+        </childnode>
+        <childnode refid="3810" relation="include">
+        </childnode>
+        <childnode refid="3811" relation="include">
+        </childnode>
+        <childnode refid="3812" relation="include">
+        </childnode>
+        <childnode refid="3813" relation="include">
+        </childnode>
+        <childnode refid="3814" relation="include">
+        </childnode>
+        <childnode refid="3815" relation="include">
+        </childnode>
+        <childnode refid="3816" relation="include">
+        </childnode>
+        <childnode refid="3817" relation="include">
+        </childnode>
+        <childnode refid="3818" relation="include">
+        </childnode>
+        <childnode refid="3819" relation="include">
+        </childnode>
+        <childnode refid="3820" relation="include">
+        </childnode>
+        <childnode refid="3821" relation="include">
+        </childnode>
+        <childnode refid="3822" relation="include">
+        </childnode>
+        <childnode refid="3823" relation="include">
+        </childnode>
+        <childnode refid="3824" relation="include">
+        </childnode>
+        <childnode refid="3825" relation="include">
+        </childnode>
+        <childnode refid="3826" relation="include">
+        </childnode>
+        <childnode refid="3827" relation="include">
+        </childnode>
+        <childnode refid="3828" relation="include">
+        </childnode>
+        <childnode refid="3829" relation="include">
+        </childnode>
+        <childnode refid="3830" relation="include">
+        </childnode>
+        <childnode refid="3831" relation="include">
+        </childnode>
+        <childnode refid="3832" relation="include">
+        </childnode>
+      </node>
+      <node id="3787">
+        <label>src/dbusxmlscanner.cpp</label>
+        <link refid="d1/d70/dbusxmlscanner_8cpp_source"/>
+      </node>
+      <node id="3818">
+        <label>src/outputgen.cpp</label>
+        <link refid="d0/d17/outputgen_8cpp_source"/>
+      </node>
+      <node id="3828">
+        <label>src/textdocvisitor.cpp</label>
+        <link refid="d3/da6/textdocvisitor_8cpp_source"/>
+      </node>
+      <node id="3800">
+        <label>src/formula.cpp</label>
+        <link refid="d7/d5b/formula_8cpp_source"/>
+      </node>
+      <node id="3831">
+        <label>src/xmldocvisitor.cpp</label>
+        <link refid="dd/db6/xmldocvisitor_8cpp_source"/>
+      </node>
+      <node id="3793">
+        <label>src/docbookvisitor.cpp</label>
+        <link refid="dc/d05/docbookvisitor_8cpp_source"/>
+      </node>
+      <node id="3813">
+        <label>src/mangen.cpp</label>
+        <link refid="d7/de7/mangen_8cpp_source"/>
+      </node>
+      <node id="3801">
+        <label>src/ftvhelp.cpp</label>
+        <link refid="db/d41/ftvhelp_8cpp_source"/>
+      </node>
+      <node id="3803">
+        <label>src/htags.cpp</label>
+        <link refid="d9/db7/htags_8cpp_source"/>
+      </node>
+      <node id="3832">
+        <label>src/xmlgen.cpp</label>
+        <link refid="d0/dc3/xmlgen_8cpp_source"/>
+      </node>
+      <node id="3824">
+        <label>src/rtfstyle.cpp</label>
+        <link refid="de/d5c/rtfstyle_8cpp_source"/>
+      </node>
+      <node id="3805">
+        <label>src/htmlgen.cpp</label>
+        <link refid="d8/d6e/htmlgen_8cpp_source"/>
+      </node>
+      <node id="3807">
+        <label>src/index.cpp</label>
+        <link refid="db/d14/index_8cpp"/>
+      </node>
+      <node id="3811">
+        <label>src/layout.cpp</label>
+        <link refid="db/d16/layout_8cpp_source"/>
+      </node>
+      <node id="3815">
+        <label>src/memberlist.cpp</label>
+        <link refid="d0/d14/memberlist_8cpp_source"/>
+      </node>
+      <node id="3795">
+        <label>src/docsets.cpp</label>
+        <link refid="d7/d8f/docsets_8cpp_source"/>
+      </node>
+      <node id="3798">
+        <label>src/eclipsehelp.cpp</label>
+        <link refid="d8/d56/eclipsehelp_8cpp_source"/>
+      </node>
+      <node id="3786">
+        <label>src/condparser.cpp</label>
+        <link refid="d7/d6d/condparser_8cpp_source"/>
+      </node>
+      <node id="3784">
+        <label>src/cite.cpp</label>
+        <link refid="d5/d0b/cite_8cpp_source"/>
+      </node>
+      <node id="3806">
+        <label>src/htmlhelp.cpp</label>
+        <link refid="d3/d4b/htmlhelp_8cpp_source"/>
+      </node>
+      <node id="3790">
+        <label>src/diagram.cpp</label>
+        <link refid="da/d0d/diagram_8cpp_source"/>
+      </node>
+      <node id="3808">
+        <label>src/language.cpp</label>
+        <link refid="d2/d48/language_8cpp_source"/>
+      </node>
+      <node id="3785">
+        <label>src/classdef.cpp</label>
+        <link refid="de/d89/classdef_8cpp_source"/>
+      </node>
+      <node id="3810">
+        <label>src/latexgen.cpp</label>
+        <link refid="d4/d42/latexgen_8cpp_source"/>
+      </node>
+      <node id="3819">
+        <label>src/outputlist.cpp</label>
+        <link refid="db/dd8/outputlist_8cpp"/>
+      </node>
+    </invincdepgraph>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="d2/d0d/message_8h_1aba549a028419cd48a3f373037c2c57eb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void msg</definition>
+        <argsstring>(const char *fmt,...)</argsstring>
+        <name>msg</name>
+        <param>
+          <type>const char *</type>
+          <declname>fmt</declname>
+        </param>
+        <param>
+          <type>...</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/message.h" line="23" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/message.cpp" bodystart="104" bodyend="117"/>
+      </memberdef>
+      <memberdef kind="function" id="d2/d0d/message_8h_1ac12b157a1efe7b031cb8d0de93e2f0d6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void warn</definition>
+        <argsstring>(const char *file, int line, const char *fmt,...)</argsstring>
+        <name>warn</name>
+        <param>
+          <type>const char *</type>
+          <declname>file</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>line</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>fmt</declname>
+        </param>
+        <param>
+          <type>...</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/message.h" line="24" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/message.cpp" bodystart="169" bodyend="175"/>
+      </memberdef>
+      <memberdef kind="function" id="d2/d0d/message_8h_1a13fc8bbf2602cc597f2cc223cfd6be0a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void warn_simple</definition>
+        <argsstring>(const char *file, int line, const char *text)</argsstring>
+        <name>warn_simple</name>
+        <param>
+          <type>const char *</type>
+          <declname>file</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>line</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>text</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/message.h" line="25" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/message.cpp" bodystart="177" bodyend="181"/>
+      </memberdef>
+      <memberdef kind="function" id="d2/d0d/message_8h_1a71da3f2eeb14a943214bf5986124133a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void warn_undoc</definition>
+        <argsstring>(const char *file, int line, const char *fmt,...)</argsstring>
+        <name>warn_undoc</name>
+        <param>
+          <type>const char *</type>
+          <declname>file</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>line</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>fmt</declname>
+        </param>
+        <param>
+          <type>...</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/message.h" line="26" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/message.cpp" bodystart="183" bodyend="189"/>
+      </memberdef>
+      <memberdef kind="function" id="d2/d0d/message_8h_1aa53c6662002163281ef295732ea52493" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void warn_doc_error</definition>
+        <argsstring>(const char *file, int line, const char *fmt,...)</argsstring>
+        <name>warn_doc_error</name>
+        <param>
+          <type>const char *</type>
+          <declname>file</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>line</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>fmt</declname>
+        </param>
+        <param>
+          <type>...</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/message.h" line="27" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/message.cpp" bodystart="191" bodyend="197"/>
+      </memberdef>
+      <memberdef kind="function" id="d2/d0d/message_8h_1a1fd98c6976d3826490804976e17eb83f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void warn_uncond</definition>
+        <argsstring>(const char *fmt,...)</argsstring>
+        <name>warn_uncond</name>
+        <param>
+          <type>const char *</type>
+          <declname>fmt</declname>
+        </param>
+        <param>
+          <type>...</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/message.h" line="28" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/message.cpp" bodystart="199" bodyend="205"/>
+      </memberdef>
+      <memberdef kind="function" id="d2/d0d/message_8h_1aede5746344fdce99647541101eaa7f06" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void err</definition>
+        <argsstring>(const char *fmt,...)</argsstring>
+        <name>err</name>
+        <param>
+          <type>const char *</type>
+          <declname>fmt</declname>
+        </param>
+        <param>
+          <type>...</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/message.h" line="29" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/message.cpp" bodystart="207" bodyend="213"/>
+      </memberdef>
+      <memberdef kind="function" id="d2/d0d/message_8h_1aa0b7262dc94aba9476d8669db4f3920e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void initWarningFormat</definition>
+        <argsstring>()</argsstring>
+        <name>initWarningFormat</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/message.h" line="30" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/message.cpp" bodystart="40" bodyend="101"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">/******************************************************************************</highlight></codeline>
+<codeline lineno="2"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="3"><highlight class="comment"><sp/>*<sp/>$Id:<sp/>message.h,v<sp/>1.8<sp/>2001/03/19<sp/>19:27:41<sp/>root<sp/>Exp<sp/>$</highlight></codeline>
+<codeline lineno="4"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="5"><highlight class="comment"><sp/>*<sp/>Copyright<sp/>(C)<sp/>1997-2013<sp/>by<sp/>Dimitri<sp/>van<sp/>Heesch.</highlight></codeline>
+<codeline lineno="6"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="7"><highlight class="comment"><sp/>*<sp/>Permission<sp/>to<sp/>use,<sp/>copy,<sp/>modify,<sp/>and<sp/>distribute<sp/>this<sp/>software<sp/>and<sp/>its</highlight></codeline>
+<codeline lineno="8"><highlight class="comment"><sp/>*<sp/>documentation<sp/>under<sp/>the<sp/>terms<sp/>of<sp/>the<sp/>GNU<sp/>General<sp/>Public<sp/>License<sp/>is<sp/>hereby<sp/></highlight></codeline>
+<codeline lineno="9"><highlight class="comment"><sp/>*<sp/>granted.<sp/>No<sp/>representations<sp/>are<sp/>made<sp/>about<sp/>the<sp/>suitability<sp/>of<sp/>this<sp/>software<sp/></highlight></codeline>
+<codeline lineno="10"><highlight class="comment"><sp/>*<sp/>for<sp/>any<sp/>purpose.<sp/>It<sp/>is<sp/>provided<sp/>&quot;as<sp/>is&quot;<sp/>without<sp/>express<sp/>or<sp/>implied<sp/>warranty.</highlight></codeline>
+<codeline lineno="11"><highlight class="comment"><sp/>*<sp/>See<sp/>the<sp/>GNU<sp/>General<sp/>Public<sp/>License<sp/>for<sp/>more<sp/>details.</highlight></codeline>
+<codeline lineno="12"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="13"><highlight class="comment"><sp/>*<sp/>Documents<sp/>produced<sp/>by<sp/>Doxygen<sp/>are<sp/>derivative<sp/>works<sp/>derived<sp/>from<sp/>the</highlight></codeline>
+<codeline lineno="14"><highlight class="comment"><sp/>*<sp/>input<sp/>used<sp/>in<sp/>their<sp/>production;<sp/>they<sp/>are<sp/>not<sp/>affected<sp/>by<sp/>this<sp/>license.</highlight></codeline>
+<codeline lineno="15"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="16"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>MESSAGE_H</highlight></codeline>
+<codeline lineno="19"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>MESSAGE_H</highlight></codeline>
+<codeline lineno="20"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stdio.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>msg(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*fmt,<sp/>...);</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>warn(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*file,</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>line,</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*fmt,<sp/>...);</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>warn_simple(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*file,</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>line,</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*text);</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>warn_undoc(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*file,</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>line,</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*fmt,<sp/>...);</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>warn_doc_error(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*file,</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>line,</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*fmt,<sp/>...);</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>warn_uncond(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*fmt,<sp/>...);</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>err(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*fmt,<sp/>...);</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>initWarningFormat();</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"></highlight></codeline>
+<codeline lineno="32"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+    </programlisting>
+    <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/message.h"/>
+  </compounddef>
+</doxygen>

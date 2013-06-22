@@ -1,0 +1,859 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.2">
+  <compounddef id="d6/d4a/dot_8h" kind="file">
+    <compoundname>dot.h</compoundname>
+    <includes local="no">qlist.h</includes>
+    <includes local="no">qdict.h</includes>
+    <includes local="no">qwaitcondition.h</includes>
+    <includes local="no">qmutex.h</includes>
+    <includes local="no">qqueue.h</includes>
+    <includes local="no">qthread.h</includes>
+    <includes refid="d9/d21/sortdict_8h" local="yes">sortdict.h</includes>
+    <includedby refid="de/d89/classdef_8cpp" local="yes">src/classdef.cpp</includedby>
+    <includedby refid="d3/d17/defgen_8cpp" local="yes">src/defgen.cpp</includedby>
+    <includedby refid="d8/d52/dirdef_8cpp" local="yes">src/dirdef.cpp</includedby>
+    <includedby refid="d8/d29/docbookgen_8cpp" local="yes">src/docbookgen.cpp</includedby>
+    <includedby refid="dc/d05/docbookvisitor_8cpp" local="yes">src/docbookvisitor.cpp</includedby>
+    <includedby refid="de/daa/dot_8cpp" local="yes">src/dot.cpp</includedby>
+    <includedby refid="dc/d98/doxygen_8cpp" local="yes">src/doxygen.cpp</includedby>
+    <includedby refid="d6/ddc/filedef_8cpp" local="yes">src/filedef.cpp</includedby>
+    <includedby refid="d6/d42/groupdef_8cpp" local="yes">src/groupdef.cpp</includedby>
+    <includedby refid="da/db0/htmldocvisitor_8cpp" local="yes">src/htmldocvisitor.cpp</includedby>
+    <includedby refid="d8/d6e/htmlgen_8cpp" local="yes">src/htmlgen.cpp</includedby>
+    <includedby refid="db/d14/index_8cpp" local="yes">src/index.cpp</includedby>
+    <includedby refid="d1/d4e/latexdocvisitor_8cpp" local="yes">src/latexdocvisitor.cpp</includedby>
+    <includedby refid="d4/d42/latexgen_8cpp" local="yes">src/latexgen.cpp</includedby>
+    <includedby refid="d8/dde/mandocvisitor_8cpp" local="yes">src/mandocvisitor.cpp</includedby>
+    <includedby refid="d0/d72/memberdef_8cpp" local="yes">src/memberdef.cpp</includedby>
+    <includedby refid="de/d9a/rtfdocvisitor_8cpp" local="yes">src/rtfdocvisitor.cpp</includedby>
+    <includedby refid="d0/d9c/rtfgen_8cpp" local="yes">src/rtfgen.cpp</includedby>
+    <includedby refid="dd/db6/xmldocvisitor_8cpp" local="yes">src/xmldocvisitor.cpp</includedby>
+    <includedby refid="d0/dc3/xmlgen_8cpp" local="yes">src/xmlgen.cpp</includedby>
+    <incdepgraph>
+      <node id="1552">
+        <label>sortdict.h</label>
+        <link refid="d9/d21/sortdict_8h_source"/>
+        <childnode refid="1546" relation="include">
+        </childnode>
+        <childnode refid="1547" relation="include">
+        </childnode>
+        <childnode refid="1553" relation="include">
+        </childnode>
+      </node>
+      <node id="1548">
+        <label>qwaitcondition.h</label>
+      </node>
+      <node id="1545">
+        <label>src/dot.h</label>
+        <link refid="dot.h"/>
+        <childnode refid="1546" relation="include">
+        </childnode>
+        <childnode refid="1547" relation="include">
+        </childnode>
+        <childnode refid="1548" relation="include">
+        </childnode>
+        <childnode refid="1549" relation="include">
+        </childnode>
+        <childnode refid="1550" relation="include">
+        </childnode>
+        <childnode refid="1551" relation="include">
+        </childnode>
+        <childnode refid="1552" relation="include">
+        </childnode>
+      </node>
+      <node id="1553">
+        <label>qintdict.h</label>
+      </node>
+      <node id="1550">
+        <label>qqueue.h</label>
+      </node>
+      <node id="1546">
+        <label>qlist.h</label>
+      </node>
+      <node id="1551">
+        <label>qthread.h</label>
+      </node>
+      <node id="1547">
+        <label>qdict.h</label>
+      </node>
+      <node id="1549">
+        <label>qmutex.h</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="1564">
+        <label>src/htmldocvisitor.cpp</label>
+        <link refid="da/db0/htmldocvisitor_8cpp_source"/>
+      </node>
+      <node id="1571">
+        <label>src/rtfdocvisitor.cpp</label>
+        <link refid="de/d9a/rtfdocvisitor_8cpp_source"/>
+      </node>
+      <node id="1570">
+        <label>src/memberdef.cpp</label>
+        <link refid="d0/d72/memberdef_8cpp_source"/>
+      </node>
+      <node id="1561">
+        <label>src/doxygen.cpp</label>
+        <link refid="dc/d98/doxygen_8cpp_source"/>
+      </node>
+      <node id="1560">
+        <label>src/dot.cpp</label>
+        <link refid="de/daa/dot_8cpp_source"/>
+      </node>
+      <node id="1572">
+        <label>src/rtfgen.cpp</label>
+        <link refid="d0/d9c/rtfgen_8cpp_source"/>
+      </node>
+      <node id="1569">
+        <label>src/mandocvisitor.cpp</label>
+        <link refid="d8/dde/mandocvisitor_8cpp_source"/>
+      </node>
+      <node id="1556">
+        <label>src/defgen.cpp</label>
+        <link refid="d3/d17/defgen_8cpp_source"/>
+      </node>
+      <node id="1567">
+        <label>src/latexdocvisitor.cpp</label>
+        <link refid="d1/d4e/latexdocvisitor_8cpp_source"/>
+      </node>
+      <node id="1562">
+        <label>src/filedef.cpp</label>
+        <link refid="d6/ddc/filedef_8cpp_source"/>
+      </node>
+      <node id="1563">
+        <label>src/groupdef.cpp</label>
+        <link refid="d6/d42/groupdef_8cpp_source"/>
+      </node>
+      <node id="1558">
+        <label>src/docbookgen.cpp</label>
+        <link refid="d8/d29/docbookgen_8cpp_source"/>
+      </node>
+      <node id="1554">
+        <label>src/dot.h</label>
+        <link refid="dot.h"/>
+        <childnode refid="1555" relation="include">
+        </childnode>
+        <childnode refid="1556" relation="include">
+        </childnode>
+        <childnode refid="1557" relation="include">
+        </childnode>
+        <childnode refid="1558" relation="include">
+        </childnode>
+        <childnode refid="1559" relation="include">
+        </childnode>
+        <childnode refid="1560" relation="include">
+        </childnode>
+        <childnode refid="1561" relation="include">
+        </childnode>
+        <childnode refid="1562" relation="include">
+        </childnode>
+        <childnode refid="1563" relation="include">
+        </childnode>
+        <childnode refid="1564" relation="include">
+        </childnode>
+        <childnode refid="1565" relation="include">
+        </childnode>
+        <childnode refid="1566" relation="include">
+        </childnode>
+        <childnode refid="1567" relation="include">
+        </childnode>
+        <childnode refid="1568" relation="include">
+        </childnode>
+        <childnode refid="1569" relation="include">
+        </childnode>
+        <childnode refid="1570" relation="include">
+        </childnode>
+        <childnode refid="1571" relation="include">
+        </childnode>
+        <childnode refid="1572" relation="include">
+        </childnode>
+        <childnode refid="1573" relation="include">
+        </childnode>
+        <childnode refid="1574" relation="include">
+        </childnode>
+      </node>
+      <node id="1557">
+        <label>src/dirdef.cpp</label>
+        <link refid="d8/d52/dirdef_8cpp_source"/>
+      </node>
+      <node id="1573">
+        <label>src/xmldocvisitor.cpp</label>
+        <link refid="dd/db6/xmldocvisitor_8cpp_source"/>
+      </node>
+      <node id="1559">
+        <label>src/docbookvisitor.cpp</label>
+        <link refid="dc/d05/docbookvisitor_8cpp_source"/>
+      </node>
+      <node id="1574">
+        <label>src/xmlgen.cpp</label>
+        <link refid="d0/dc3/xmlgen_8cpp_source"/>
+      </node>
+      <node id="1565">
+        <label>src/htmlgen.cpp</label>
+        <link refid="d8/d6e/htmlgen_8cpp_source"/>
+      </node>
+      <node id="1566">
+        <label>src/index.cpp</label>
+        <link refid="db/d14/index_8cpp"/>
+      </node>
+      <node id="1555">
+        <label>src/classdef.cpp</label>
+        <link refid="de/d89/classdef_8cpp_source"/>
+      </node>
+      <node id="1568">
+        <label>src/latexgen.cpp</label>
+        <link refid="d4/d42/latexgen_8cpp_source"/>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="d8/d63/struct_edge_info" prot="public">EdgeInfo</innerclass>
+    <innerclass refid="dd/d7e/class_dot_node" prot="public">DotNode</innerclass>
+    <innerclass refid="d1/d1f/class_dot_gfx_hierarchy_table" prot="public">DotGfxHierarchyTable</innerclass>
+    <innerclass refid="df/d1c/class_dot_class_graph" prot="public">DotClassGraph</innerclass>
+    <innerclass refid="dc/d03/class_dot_incl_dep_graph" prot="public">DotInclDepGraph</innerclass>
+    <innerclass refid="d0/dff/class_dot_call_graph" prot="public">DotCallGraph</innerclass>
+    <innerclass refid="d7/dd4/class_dot_dir_deps" prot="public">DotDirDeps</innerclass>
+    <innerclass refid="d1/d5f/class_dot_group_collaboration" prot="public">DotGroupCollaboration</innerclass>
+    <innerclass refid="d2/df0/class_dot_group_collaboration_1_1_link" prot="public">DotGroupCollaboration::Link</innerclass>
+    <innerclass refid="d8/d65/class_dot_group_collaboration_1_1_edge" prot="public">DotGroupCollaboration::Edge</innerclass>
+    <innerclass refid="d1/de9/class_dot_runner" prot="public">DotRunner</innerclass>
+    <innerclass refid="d1/d96/struct_dot_runner_1_1_cleanup_item" prot="public">DotRunner::CleanupItem</innerclass>
+    <innerclass refid="db/daa/class_dot_file_patcher" prot="public">DotFilePatcher</innerclass>
+    <innerclass refid="dd/d6e/struct_dot_file_patcher_1_1_map" prot="public">DotFilePatcher::Map</innerclass>
+    <innerclass refid="d6/dbb/class_dot_runner_queue" prot="public">DotRunnerQueue</innerclass>
+    <innerclass refid="d5/d99/class_dot_worker_thread" prot="public">DotWorkerThread</innerclass>
+    <innerclass refid="d5/d7c/class_dot_manager" prot="public">DotManager</innerclass>
+      <sectiondef kind="enum">
+      <memberdef kind="enum" id="d6/d4a/dot_8h_1ac60ef98d62b78366a17c9f1bda96523f" prot="public" static="no">
+        <name>GraphOutputFormat</name>
+        <enumvalue id="d6/d4a/dot_8h_1ac60ef98d62b78366a17c9f1bda96523fa8c56bb4896292ec6f9ad076faed55450" prot="public">
+          <name>BITMAP</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d6/d4a/dot_8h_1ac60ef98d62b78366a17c9f1bda96523fa7fe95fbd95752a82e28a74b8abf4e8e7" prot="public">
+          <name>EPS</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/dot.h" line="42" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/dot.h" bodystart="42" bodyend="42"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="d6/d4a/dot_8h_1adc14790df5362aef0a93a7c854b14279" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void generateGraphLegend</definition>
+        <argsstring>(const char *path)</argsstring>
+        <name>generateGraphLegend</name>
+        <param>
+          <type>const char *</type>
+          <declname>path</declname>
+        </param>
+        <briefdescription>
+<para>Generated a graphs legend page. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/dot.h" line="447" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/dot.cpp" bodystart="3992" bodyend="4065"/>
+      </memberdef>
+      <memberdef kind="function" id="d6/d4a/dot_8h_1a1b2f4344b046af1f671141d2645c8cef" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void writeDotGraphFromFile</definition>
+        <argsstring>(const char *inFile, const char *outDir, const char *outFile, GraphOutputFormat format)</argsstring>
+        <name>writeDotGraphFromFile</name>
+        <param>
+          <type>const char *</type>
+          <declname>inFile</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>outDir</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>outFile</declname>
+        </param>
+        <param>
+          <type>GraphOutputFormat</type>
+          <declname>format</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/dot.h" line="450" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/dot.cpp" bodystart="4067" bodyend="4106"/>
+      </memberdef>
+      <memberdef kind="function" id="d6/d4a/dot_8h_1a5eb5110772e0b2495a7cddbd181bac06" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void writeDotImageMapFromFile</definition>
+        <argsstring>(FTextStream &amp;t, const QCString &amp;inFile, const QCString &amp;outDir, const QCString &amp;relPath, const QCString &amp;baseName, const QCString &amp;context, int graphId=-1)</argsstring>
+        <name>writeDotImageMapFromFile</name>
+        <param>
+          <type><ref refid="dc/d3c/class_f_text_stream" kindref="compound">FTextStream</ref> &amp;</type>
+          <declname>t</declname>
+        </param>
+        <param>
+          <type>const QCString &amp;</type>
+          <declname>inFile</declname>
+        </param>
+        <param>
+          <type>const QCString &amp;</type>
+          <declname>outDir</declname>
+        </param>
+        <param>
+          <type>const QCString &amp;</type>
+          <declname>relPath</declname>
+        </param>
+        <param>
+          <type>const QCString &amp;</type>
+          <declname>baseName</declname>
+        </param>
+        <param>
+          <type>const QCString &amp;</type>
+          <declname>context</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>graphId</declname>
+          <defval>-1</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Writes user defined image map to the output. <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>t</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>text stream to write to </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>inFile</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>just the basename part of the filename </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>outDir</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>output directory </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>relPath</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>relative path the to root of the output dir </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>baseName</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the base name of the output files </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>context</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the scope in which this graph is found (for resolving links) </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>graphId</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>a unique id for this graph, use for dynamic sections </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/dot.h" line="454" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/dot.cpp" bodystart="4118" bodyend="4164"/>
+      </memberdef>
+      <memberdef kind="function" id="d6/d4a/dot_8h_1a4f8ad0ca31675286d1e1771467b15b50" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void writeDotDirDepGraph</definition>
+        <argsstring>(FTextStream &amp;t, DirDef *dd)</argsstring>
+        <name>writeDotDirDepGraph</name>
+        <param>
+          <type><ref refid="dc/d3c/class_f_text_stream" kindref="compound">FTextStream</ref> &amp;</type>
+          <declname>t</declname>
+        </param>
+        <param>
+          <type><ref refid="d4/dd4/class_dir_def" kindref="compound">DirDef</ref> *</type>
+          <declname>dd</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/dot.h" line="456" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/dot.cpp" bodystart="4616" bodyend="4758"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">/******************************************************************************</highlight></codeline>
+<codeline lineno="2"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="3"><highlight class="comment"><sp/>*<sp/>$Id:<sp/>dot.h,v<sp/>1.14<sp/>2001/03/19<sp/>19:27:40<sp/>root<sp/>Exp<sp/>$</highlight></codeline>
+<codeline lineno="4"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="5"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="6"><highlight class="comment"><sp/>*<sp/>Copyright<sp/>(C)<sp/>1997-2013<sp/>by<sp/>Dimitri<sp/>van<sp/>Heesch.</highlight></codeline>
+<codeline lineno="7"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="8"><highlight class="comment"><sp/>*<sp/>Permission<sp/>to<sp/>use,<sp/>copy,<sp/>modify,<sp/>and<sp/>distribute<sp/>this<sp/>software<sp/>and<sp/>its</highlight></codeline>
+<codeline lineno="9"><highlight class="comment"><sp/>*<sp/>documentation<sp/>under<sp/>the<sp/>terms<sp/>of<sp/>the<sp/>GNU<sp/>General<sp/>Public<sp/>License<sp/>is<sp/>hereby<sp/></highlight></codeline>
+<codeline lineno="10"><highlight class="comment"><sp/>*<sp/>granted.<sp/>No<sp/>representations<sp/>are<sp/>made<sp/>about<sp/>the<sp/>suitability<sp/>of<sp/>this<sp/>software<sp/></highlight></codeline>
+<codeline lineno="11"><highlight class="comment"><sp/>*<sp/>for<sp/>any<sp/>purpose.<sp/>It<sp/>is<sp/>provided<sp/>&quot;as<sp/>is&quot;<sp/>without<sp/>express<sp/>or<sp/>implied<sp/>warranty.</highlight></codeline>
+<codeline lineno="12"><highlight class="comment"><sp/>*<sp/>See<sp/>the<sp/>GNU<sp/>General<sp/>Public<sp/>License<sp/>for<sp/>more<sp/>details.</highlight></codeline>
+<codeline lineno="13"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="14"><highlight class="comment"><sp/>*<sp/>Documents<sp/>produced<sp/>by<sp/>Doxygen<sp/>are<sp/>derivative<sp/>works<sp/>derived<sp/>from<sp/>the</highlight></codeline>
+<codeline lineno="15"><highlight class="comment"><sp/>*<sp/>input<sp/>used<sp/>in<sp/>their<sp/>production;<sp/>they<sp/>are<sp/>not<sp/>affected<sp/>by<sp/>this<sp/>license.</highlight></codeline>
+<codeline lineno="16"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="17"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>_DOT_H</highlight></codeline>
+<codeline lineno="20"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>_DOT_H</highlight></codeline>
+<codeline lineno="21"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;qlist.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;qdict.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;qwaitcondition.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;qmutex.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;qqueue.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;qthread.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;sortdict.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="29"><highlight class="normal"></highlight></codeline>
+<codeline lineno="30"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="d1/dcf/class_class_def" kindref="compound" tooltip="A class representing of a compound symbol.">ClassDef</ref>;</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="de/db0/class_file_def" kindref="compound" tooltip="A model of a file symbol.">FileDef</ref>;</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="dc/d3c/class_f_text_stream" kindref="compound" tooltip="Simplified and optimized version of QTextStream.">FTextStream</ref>;</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal">DotNodeList;</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="d9/d3d/class_class_s_dict" kindref="compound" tooltip="A sorted dictionary of ClassDef objects.">ClassSDict</ref>;</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="da/d09/class_member_def" kindref="compound" tooltip="A model of a class/file/namespace member symbol.">MemberDef</ref>;</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="d5/dcc/class_definition" kindref="compound" tooltip="The common base class of all entity definitions found in the sources.">Definition</ref>;</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="d4/dd4/class_dir_def" kindref="compound" tooltip="A model of a directory symbol.">DirDef</ref>;</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="d8/d09/class_group_def" kindref="compound" tooltip="A model of a group of symbols.">GroupDef</ref>;</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="d1/d5f/class_dot_group_collaboration" kindref="compound" tooltip="Representation of a group collaboration graph.">DotGroupCollaboration</ref>;</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="d6/dbb/class_dot_runner_queue" kindref="compound" tooltip="Queue of dot jobs to run.">DotRunnerQueue</ref>;</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"></highlight></codeline>
+<codeline lineno="42"><highlight class="normal"></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/>GraphOutputFormat<sp/>{<sp/>BITMAP<sp/>,<sp/>EPS<sp/>};</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"></highlight></codeline>
+<codeline lineno="45" refid="d8/d63/struct_edge_info" refkind="compound"><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="d8/d63/struct_edge_info" kindref="compound" tooltip="Attributes of an edge of a dot graph.">EdgeInfo</ref></highlight></codeline>
+<codeline lineno="46"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/>Colors<sp/>{<sp/>Blue=0,<sp/>Green=1,<sp/>Red=2,<sp/>Purple=3,<sp/>Grey=4,<sp/>Orange=5<sp/>};</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/>Styles<sp/>{<sp/>Solid=0,<sp/>Dashed=1<sp/>};</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"><sp/><sp/><ref refid="d8/d63/struct_edge_info" kindref="compound" tooltip="Attributes of an edge of a dot graph.">EdgeInfo</ref>()<sp/>:<sp/>m_color(0),<sp/>m_style(0),<sp/>m_labColor(0)<sp/>{}</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"><sp/>~<ref refid="d8/d63/struct_edge_info" kindref="compound" tooltip="Attributes of an edge of a dot graph.">EdgeInfo</ref>()<sp/>{}</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>m_color;</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>m_style;</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"><sp/><sp/>QCString<sp/>m_label;</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"><sp/><sp/>QCString<sp/>m_url;</highlight></codeline>
+<codeline lineno="55"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>m_labColor;</highlight></codeline>
+<codeline lineno="56"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="57"><highlight class="normal"></highlight></codeline>
+<codeline lineno="59" refid="dd/d7e/class_dot_node" refkind="compound"><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="dd/d7e/class_dot_node" kindref="compound" tooltip="A node in a dot graph.">DotNode</ref></highlight></codeline>
+<codeline lineno="60"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="61"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="62"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/>GraphType<sp/>{<sp/>Dependency,<sp/>Inheritance,<sp/>Collaboration,<sp/>Hierarchy,<sp/>CallGraph<sp/>};</highlight></codeline>
+<codeline lineno="63"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/>TruncState<sp/>{<sp/>Unknown,<sp/>Truncated,<sp/>Untruncated<sp/>};</highlight></codeline>
+<codeline lineno="64"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="dd/d7e/class_dot_node" kindref="compound" tooltip="A node in a dot graph.">DotNode</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>n,</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*lab,</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*tip,</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*url,</highlight></codeline>
+<codeline lineno="65"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>rootNode=FALSE,<ref refid="d1/dcf/class_class_def" kindref="compound" tooltip="A class representing of a compound symbol.">ClassDef</ref><sp/>*cd=0);</highlight></codeline>
+<codeline lineno="66"><highlight class="normal"><sp/><sp/><sp/>~<ref refid="dd/d7e/class_dot_node" kindref="compound" tooltip="A node in a dot graph.">DotNode</ref>();</highlight></codeline>
+<codeline lineno="67"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>addChild(<ref refid="dd/d7e/class_dot_node" kindref="compound" tooltip="A node in a dot graph.">DotNode</ref><sp/>*n,</highlight></codeline>
+<codeline lineno="68"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>edgeColor=EdgeInfo::Purple,</highlight></codeline>
+<codeline lineno="69"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>edgeStyle=EdgeInfo::Solid,</highlight></codeline>
+<codeline lineno="70"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*edgeLab=0,</highlight></codeline>
+<codeline lineno="71"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*edgeURL=0,</highlight></codeline>
+<codeline lineno="72"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>edgeLabCol=-1</highlight></codeline>
+<codeline lineno="73"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>);</highlight></codeline>
+<codeline lineno="74"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>addParent(<ref refid="dd/d7e/class_dot_node" kindref="compound" tooltip="A node in a dot graph.">DotNode</ref><sp/>*n);</highlight></codeline>
+<codeline lineno="75"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>deleteNode(DotNodeList<sp/>&amp;deletedList,<ref refid="d1/d50/class_s_dict" kindref="compound" tooltip="Ordered dictionary of elements of type T.">SDict&lt;DotNode&gt;</ref><sp/>*skipNodes=0);</highlight></codeline>
+<codeline lineno="76"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>removeChild(<ref refid="dd/d7e/class_dot_node" kindref="compound" tooltip="A node in a dot graph.">DotNode</ref><sp/>*n);</highlight></codeline>
+<codeline lineno="77"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>removeParent(<ref refid="dd/d7e/class_dot_node" kindref="compound" tooltip="A node in a dot graph.">DotNode</ref><sp/>*n);</highlight></codeline>
+<codeline lineno="78"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>findParent(<sp/><ref refid="dd/d7e/class_dot_node" kindref="compound" tooltip="A node in a dot graph.">DotNode</ref><sp/>*n<sp/>);</highlight></codeline>
+<codeline lineno="79"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>write(<ref refid="dc/d3c/class_f_text_stream" kindref="compound" tooltip="Simplified and optimized version of QTextStream.">FTextStream</ref><sp/>&amp;t,GraphType<sp/>gt,GraphOutputFormat<sp/>f,</highlight></codeline>
+<codeline lineno="80"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>topDown,</highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>toChildren,</highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>backArrows,</highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>reNumber);</highlight></codeline>
+<codeline lineno="81"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><sp/>m_subgraphId;</highlight></codeline>
+<codeline lineno="82"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>clearWriteFlag();</highlight></codeline>
+<codeline lineno="83"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>writeXML(<ref refid="dc/d3c/class_f_text_stream" kindref="compound" tooltip="Simplified and optimized version of QTextStream.">FTextStream</ref><sp/>&amp;t,</highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>isClassGraph);</highlight></codeline>
+<codeline lineno="84"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>writeDocbook(<ref refid="dc/d3c/class_f_text_stream" kindref="compound" tooltip="Simplified and optimized version of QTextStream.">FTextStream</ref><sp/>&amp;t,</highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>isClassGraph);</highlight></codeline>
+<codeline lineno="85"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>writeDEF(<ref refid="dc/d3c/class_f_text_stream" kindref="compound" tooltip="Simplified and optimized version of QTextStream.">FTextStream</ref><sp/>&amp;t);</highlight></codeline>
+<codeline lineno="86"><highlight class="normal"><sp/><sp/><sp/><sp/>QCString<sp/>label()</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>m_label;<sp/>}</highlight></codeline>
+<codeline lineno="87"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><sp/>number()</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>m_number;<sp/>}</highlight></codeline>
+<codeline lineno="88"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>isVisible()</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>m_visible;<sp/>}</highlight></codeline>
+<codeline lineno="89"><highlight class="normal"><sp/><sp/><sp/><sp/>TruncState<sp/>isTruncated()</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>m_truncated;<sp/>}</highlight></codeline>
+<codeline lineno="90"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>distance()</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>m_distance;<sp/>}</highlight></codeline>
+<codeline lineno="91"><highlight class="normal"></highlight></codeline>
+<codeline lineno="92"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="93"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>colorConnectedNodes(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>curColor);</highlight></codeline>
+<codeline lineno="94"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>writeBox(<ref refid="dc/d3c/class_f_text_stream" kindref="compound" tooltip="Simplified and optimized version of QTextStream.">FTextStream</ref><sp/>&amp;t,GraphType<sp/>gt,GraphOutputFormat<sp/>f,</highlight></codeline>
+<codeline lineno="95"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>hasNonReachableChildren,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>reNumber=FALSE);</highlight></codeline>
+<codeline lineno="96"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>writeArrow(<ref refid="dc/d3c/class_f_text_stream" kindref="compound" tooltip="Simplified and optimized version of QTextStream.">FTextStream</ref><sp/>&amp;t,GraphType<sp/>gt,GraphOutputFormat<sp/>f,<ref refid="dd/d7e/class_dot_node" kindref="compound" tooltip="A node in a dot graph.">DotNode</ref><sp/>*cn,</highlight></codeline>
+<codeline lineno="97"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="d8/d63/struct_edge_info" kindref="compound" tooltip="Attributes of an edge of a dot graph.">EdgeInfo</ref><sp/>*ei,</highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>topDown,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>pointBack=TRUE,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>reNumber=FALSE);</highlight></codeline>
+<codeline lineno="98"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>setDistance(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>distance);</highlight></codeline>
+<codeline lineno="99"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="dd/d7e/class_dot_node" kindref="compound" tooltip="A node in a dot graph.">DotNode</ref><sp/><sp/><sp/>*findDocNode()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;<sp/></highlight><highlight class="comment">//<sp/>only<sp/>works<sp/>for<sp/>acyclic<sp/>graphs!</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="100"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>markAsVisible(</highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>b=TRUE)<sp/>{<sp/>m_visible=b;<sp/>}</highlight></codeline>
+<codeline lineno="101"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>markAsTruncated(</highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>b=TRUE)<sp/>{<sp/>m_truncated=b<sp/>?<sp/>Truncated<sp/>:<sp/>Untruncated;<sp/>}</highlight></codeline>
+<codeline lineno="102"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>m_number;</highlight></codeline>
+<codeline lineno="103"><highlight class="normal"><sp/><sp/><sp/><sp/>QCString<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>m_label;<sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="104"><highlight class="normal"><sp/><sp/><sp/><sp/>QCString<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>m_tooltip;<sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="105"><highlight class="normal"><sp/><sp/><sp/><sp/>QCString<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>m_url;<sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="106"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="db/daa/class_q_list" kindref="compound">QList&lt;DotNode&gt;</ref><sp/><sp/>*m_parents;<sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="107"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="db/daa/class_q_list" kindref="compound">QList&lt;DotNode&gt;</ref><sp/><sp/>*m_children;<sp/><sp/></highlight></codeline>
+<codeline lineno="108"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="db/daa/class_q_list" kindref="compound">QList&lt;EdgeInfo&gt;</ref><sp/>*m_edgeInfo;<sp/><sp/></highlight></codeline>
+<codeline lineno="109"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>m_deleted;<sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="110"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>m_written;<sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="111"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>m_hasDoc;<sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="112"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>m_isRoot;<sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="113"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="d1/dcf/class_class_def" kindref="compound" tooltip="A class representing of a compound symbol.">ClassDef</ref><sp/>*<sp/><sp/><sp/><sp/><sp/><sp/><sp/>m_classDef;<sp/><sp/></highlight></codeline>
+<codeline lineno="114"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>m_visible;<sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="115"><highlight class="normal"><sp/><sp/><sp/><sp/>TruncState<sp/><sp/><sp/><sp/><sp/><sp/><sp/>m_truncated;<sp/></highlight></codeline>
+<codeline lineno="116"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>m_distance;<sp/><sp/></highlight></codeline>
+<codeline lineno="117"><highlight class="normal"></highlight></codeline>
+<codeline lineno="118"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">friend</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="d1/d1f/class_dot_gfx_hierarchy_table" kindref="compound" tooltip="Represents a graphical class hierarchy.">DotGfxHierarchyTable</ref>;</highlight></codeline>
+<codeline lineno="119"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">friend</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="df/d1c/class_dot_class_graph" kindref="compound" tooltip="Representation of a class inheritance or dependency graph.">DotClassGraph</ref>;</highlight></codeline>
+<codeline lineno="120"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">friend</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="dc/d03/class_dot_incl_dep_graph" kindref="compound" tooltip="Representation of an include dependency graph.">DotInclDepGraph</ref>;</highlight></codeline>
+<codeline lineno="121"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">friend</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal">DotNodeList;</highlight></codeline>
+<codeline lineno="122"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">friend</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="d0/dff/class_dot_call_graph" kindref="compound" tooltip="Representation of an call graph.">DotCallGraph</ref>;</highlight></codeline>
+<codeline lineno="123"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">friend</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="d1/d5f/class_dot_group_collaboration" kindref="compound" tooltip="Representation of a group collaboration graph.">DotGroupCollaboration</ref>;</highlight></codeline>
+<codeline lineno="124"><highlight class="normal"></highlight></codeline>
+<codeline lineno="125"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">friend</highlight><highlight class="normal"><sp/>QCString<sp/><ref refid="dd/d7e/class_dot_node_1a884f8a9fb5f3d91efe1b967011f8f98c" kindref="member">computeMd5Signature</ref>(</highlight></codeline>
+<codeline lineno="126"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="dd/d7e/class_dot_node" kindref="compound" tooltip="A node in a dot graph.">DotNode</ref><sp/>*root,<sp/>GraphType<sp/>gt,</highlight></codeline>
+<codeline lineno="127"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>GraphOutputFormat<sp/>f,<sp/></highlight></codeline>
+<codeline lineno="128"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>lrRank,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>renderParents,</highlight></codeline>
+<codeline lineno="129"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>backArrows,</highlight></codeline>
+<codeline lineno="130"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QCString<sp/>&amp;title,</highlight></codeline>
+<codeline lineno="131"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>QCString<sp/>&amp;graphStr</highlight></codeline>
+<codeline lineno="132"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>);</highlight></codeline>
+<codeline lineno="133"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="134"><highlight class="normal"></highlight></codeline>
+<codeline lineno="135"><highlight class="normal"></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>DotNode::findParent(<sp/><ref refid="dd/d7e/class_dot_node" kindref="compound" tooltip="A node in a dot graph.">DotNode</ref><sp/>*n<sp/>)</highlight></codeline>
+<codeline lineno="136"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="137"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(<sp/>!m_parents<sp/>)</highlight></codeline>
+<codeline lineno="138"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>-1;</highlight></codeline>
+<codeline lineno="139"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>m_parents-&gt;find(n);</highlight></codeline>
+<codeline lineno="140"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="141"><highlight class="normal"></highlight></codeline>
+<codeline lineno="143" refid="d1/d1f/class_dot_gfx_hierarchy_table" refkind="compound"><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="d1/d1f/class_dot_gfx_hierarchy_table" kindref="compound" tooltip="Represents a graphical class hierarchy.">DotGfxHierarchyTable</ref></highlight></codeline>
+<codeline lineno="144"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="145"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="146"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="d1/d1f/class_dot_gfx_hierarchy_table" kindref="compound" tooltip="Represents a graphical class hierarchy.">DotGfxHierarchyTable</ref>();</highlight></codeline>
+<codeline lineno="147"><highlight class="normal"><sp/><sp/><sp/>~<ref refid="d1/d1f/class_dot_gfx_hierarchy_table" kindref="compound" tooltip="Represents a graphical class hierarchy.">DotGfxHierarchyTable</ref>();</highlight></codeline>
+<codeline lineno="148"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>writeGraph(<ref refid="dc/d3c/class_f_text_stream" kindref="compound" tooltip="Simplified and optimized version of QTextStream.">FTextStream</ref><sp/>&amp;t,</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*path,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*fileName)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="149"><highlight class="normal"><sp/><sp/></highlight></codeline>
+<codeline lineno="150"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="151"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>addHierarchy(<ref refid="dd/d7e/class_dot_node" kindref="compound" tooltip="A node in a dot graph.">DotNode</ref><sp/>*n,<ref refid="d1/dcf/class_class_def" kindref="compound" tooltip="A class representing of a compound symbol.">ClassDef</ref><sp/>*cd,</highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>hide);</highlight></codeline>
+<codeline lineno="152"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>addClassList(<ref refid="d9/d3d/class_class_s_dict" kindref="compound" tooltip="A sorted dictionary of ClassDef objects.">ClassSDict</ref><sp/>*cl);</highlight></codeline>
+<codeline lineno="153"><highlight class="normal"></highlight></codeline>
+<codeline lineno="154"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="db/daa/class_q_list" kindref="compound">QList&lt;DotNode&gt;</ref><sp/>*m_rootNodes;<sp/></highlight></codeline>
+<codeline lineno="155"><highlight class="normal"><sp/><sp/><sp/><sp/>QDict&lt;DotNode&gt;<sp/>*m_usedNodes;<sp/></highlight></codeline>
+<codeline lineno="156"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>m_curNodeNumber;</highlight></codeline>
+<codeline lineno="157"><highlight class="normal"><sp/><sp/><sp/><sp/>DotNodeList<sp/><sp/><sp/><sp/>*m_rootSubgraphs;</highlight></codeline>
+<codeline lineno="158"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="159"><highlight class="normal"></highlight></codeline>
+<codeline lineno="161" refid="df/d1c/class_dot_class_graph" refkind="compound"><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="df/d1c/class_dot_class_graph" kindref="compound" tooltip="Representation of a class inheritance or dependency graph.">DotClassGraph</ref></highlight></codeline>
+<codeline lineno="162"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="163"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="164"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="df/d1c/class_dot_class_graph" kindref="compound" tooltip="Representation of a class inheritance or dependency graph.">DotClassGraph</ref>(<ref refid="d1/dcf/class_class_def" kindref="compound" tooltip="A class representing of a compound symbol.">ClassDef</ref><sp/>*cd,DotNode::GraphType<sp/>t);</highlight></codeline>
+<codeline lineno="165"><highlight class="normal"><sp/><sp/><sp/>~<ref refid="df/d1c/class_dot_class_graph" kindref="compound" tooltip="Representation of a class inheritance or dependency graph.">DotClassGraph</ref>();</highlight></codeline>
+<codeline lineno="166"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>isTrivial()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="167"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>isTooBig()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="168"><highlight class="normal"><sp/><sp/><sp/><sp/>QCString<sp/>writeGraph(<ref refid="dc/d3c/class_f_text_stream" kindref="compound" tooltip="Simplified and optimized version of QTextStream.">FTextStream</ref><sp/>&amp;t,GraphOutputFormat<sp/>f,</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*path,</highlight></codeline>
+<codeline lineno="169"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*fileName,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*relPath,<sp/></highlight></codeline>
+<codeline lineno="170"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>TBRank=TRUE,</highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>imageMap=TRUE,</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>graphId=-1)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="171"><highlight class="normal"></highlight></codeline>
+<codeline lineno="172"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>writeXML(<ref refid="dc/d3c/class_f_text_stream" kindref="compound" tooltip="Simplified and optimized version of QTextStream.">FTextStream</ref><sp/>&amp;t);</highlight></codeline>
+<codeline lineno="173"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>writeDocbook(<ref refid="dc/d3c/class_f_text_stream" kindref="compound" tooltip="Simplified and optimized version of QTextStream.">FTextStream</ref><sp/>&amp;t);</highlight></codeline>
+<codeline lineno="174"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>writeDEF(<ref refid="dc/d3c/class_f_text_stream" kindref="compound" tooltip="Simplified and optimized version of QTextStream.">FTextStream</ref><sp/>&amp;t);</highlight></codeline>
+<codeline lineno="175"><highlight class="normal"><sp/><sp/><sp/><sp/>QCString<sp/>diskName()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="176"><highlight class="normal"></highlight></codeline>
+<codeline lineno="177"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="178"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>buildGraph(<ref refid="d1/dcf/class_class_def" kindref="compound" tooltip="A class representing of a compound symbol.">ClassDef</ref><sp/>*cd,<ref refid="dd/d7e/class_dot_node" kindref="compound" tooltip="A node in a dot graph.">DotNode</ref><sp/>*n,</highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>base,</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>distance);</highlight></codeline>
+<codeline lineno="179"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>determineVisibleNodes(<ref refid="dd/d7e/class_dot_node" kindref="compound" tooltip="A node in a dot graph.">DotNode</ref><sp/>*rootNode,</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>maxNodes,</highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>includeParents);</highlight></codeline>
+<codeline lineno="180"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>determineTruncatedNodes(<ref refid="db/daa/class_q_list" kindref="compound">QList&lt;DotNode&gt;</ref><sp/>&amp;queue,</highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>includeParents);</highlight></codeline>
+<codeline lineno="181"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>addClass(<ref refid="d1/dcf/class_class_def" kindref="compound" tooltip="A class representing of a compound symbol.">ClassDef</ref><sp/>*cd,<ref refid="dd/d7e/class_dot_node" kindref="compound" tooltip="A node in a dot graph.">DotNode</ref><sp/>*n,</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>prot,</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*label,</highlight></codeline>
+<codeline lineno="182"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*usedName,</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*templSpec,</highlight></codeline>
+<codeline lineno="183"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>base,</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>distance);</highlight></codeline>
+<codeline lineno="184"><highlight class="normal"></highlight></codeline>
+<codeline lineno="185"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="dd/d7e/class_dot_node" kindref="compound" tooltip="A node in a dot graph.">DotNode</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*<sp/><sp/><sp/>m_startNode;</highlight></codeline>
+<codeline lineno="186"><highlight class="normal"><sp/><sp/><sp/><sp/>QDict&lt;DotNode&gt;<sp/>*<sp/><sp/><sp/>m_usedNodes;</highlight></codeline>
+<codeline lineno="187"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>m_curNodeNumber;</highlight></codeline>
+<codeline lineno="188"><highlight class="normal"><sp/><sp/><sp/><sp/>DotNode::GraphType<sp/>m_graphType;</highlight></codeline>
+<codeline lineno="189"><highlight class="normal"><sp/><sp/><sp/><sp/>QCString<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>m_diskName;</highlight></codeline>
+<codeline lineno="190"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>m_lrRank;</highlight></codeline>
+<codeline lineno="191"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="192"><highlight class="normal"></highlight></codeline>
+<codeline lineno="194" refid="dc/d03/class_dot_incl_dep_graph" refkind="compound"><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="dc/d03/class_dot_incl_dep_graph" kindref="compound" tooltip="Representation of an include dependency graph.">DotInclDepGraph</ref></highlight></codeline>
+<codeline lineno="195"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="196"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="197"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="dc/d03/class_dot_incl_dep_graph" kindref="compound" tooltip="Representation of an include dependency graph.">DotInclDepGraph</ref>(<ref refid="de/db0/class_file_def" kindref="compound" tooltip="A model of a file symbol.">FileDef</ref><sp/>*fd,</highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>inverse);</highlight></codeline>
+<codeline lineno="198"><highlight class="normal"><sp/><sp/><sp/>~<ref refid="dc/d03/class_dot_incl_dep_graph" kindref="compound" tooltip="Representation of an include dependency graph.">DotInclDepGraph</ref>();</highlight></codeline>
+<codeline lineno="199"><highlight class="normal"><sp/><sp/><sp/><sp/>QCString<sp/>writeGraph(<ref refid="dc/d3c/class_f_text_stream" kindref="compound" tooltip="Simplified and optimized version of QTextStream.">FTextStream</ref><sp/>&amp;t,<sp/>GraphOutputFormat<sp/>f,</highlight></codeline>
+<codeline lineno="200"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*path,</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*fileName,</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*relPath,</highlight></codeline>
+<codeline lineno="201"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>writeImageMap=TRUE,</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>graphId=-1)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="202"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>isTrivial()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="203"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>isTooBig()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="204"><highlight class="normal"><sp/><sp/><sp/><sp/>QCString<sp/>diskName()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="205"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>writeXML(<ref refid="dc/d3c/class_f_text_stream" kindref="compound" tooltip="Simplified and optimized version of QTextStream.">FTextStream</ref><sp/>&amp;t);</highlight></codeline>
+<codeline lineno="206"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>writeDocbook(<ref refid="dc/d3c/class_f_text_stream" kindref="compound" tooltip="Simplified and optimized version of QTextStream.">FTextStream</ref><sp/>&amp;t);</highlight></codeline>
+<codeline lineno="207"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="208"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>buildGraph(<ref refid="dd/d7e/class_dot_node" kindref="compound" tooltip="A node in a dot graph.">DotNode</ref><sp/>*n,<ref refid="de/db0/class_file_def" kindref="compound" tooltip="A model of a file symbol.">FileDef</ref><sp/>*fd,</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>distance);</highlight></codeline>
+<codeline lineno="209"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>determineVisibleNodes(<ref refid="db/daa/class_q_list" kindref="compound">QList&lt;DotNode&gt;</ref><sp/>&amp;queue,</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>&amp;maxNodes);</highlight></codeline>
+<codeline lineno="210"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>determineTruncatedNodes(<ref refid="db/daa/class_q_list" kindref="compound">QList&lt;DotNode&gt;</ref><sp/>&amp;queue);</highlight></codeline>
+<codeline lineno="211"><highlight class="normal"></highlight></codeline>
+<codeline lineno="212"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="dd/d7e/class_dot_node" kindref="compound" tooltip="A node in a dot graph.">DotNode</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*m_startNode;</highlight></codeline>
+<codeline lineno="213"><highlight class="normal"><sp/><sp/><sp/><sp/>QDict&lt;DotNode&gt;<sp/>*m_usedNodes;</highlight></codeline>
+<codeline lineno="214"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>m_curNodeNumber;</highlight></codeline>
+<codeline lineno="215"><highlight class="normal"><sp/><sp/><sp/><sp/>QCString<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>m_diskName;</highlight></codeline>
+<codeline lineno="216"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>m_inverse;</highlight></codeline>
+<codeline lineno="217"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="218"><highlight class="normal"></highlight></codeline>
+<codeline lineno="220" refid="d0/dff/class_dot_call_graph" refkind="compound"><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="d0/dff/class_dot_call_graph" kindref="compound" tooltip="Representation of an call graph.">DotCallGraph</ref></highlight></codeline>
+<codeline lineno="221"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="222"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="223"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="d0/dff/class_dot_call_graph" kindref="compound" tooltip="Representation of an call graph.">DotCallGraph</ref>(<ref refid="da/d09/class_member_def" kindref="compound" tooltip="A model of a class/file/namespace member symbol.">MemberDef</ref><sp/>*md,</highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>inverse);</highlight></codeline>
+<codeline lineno="224"><highlight class="normal"><sp/><sp/><sp/>~<ref refid="d0/dff/class_dot_call_graph" kindref="compound" tooltip="Representation of an call graph.">DotCallGraph</ref>();</highlight></codeline>
+<codeline lineno="225"><highlight class="normal"><sp/><sp/><sp/><sp/>QCString<sp/>writeGraph(<ref refid="dc/d3c/class_f_text_stream" kindref="compound" tooltip="Simplified and optimized version of QTextStream.">FTextStream</ref><sp/>&amp;t,<sp/>GraphOutputFormat<sp/>f,</highlight></codeline>
+<codeline lineno="226"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*path,</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*fileName,</highlight></codeline>
+<codeline lineno="227"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*relPath,</highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>writeImageMap=TRUE,</highlight></codeline>
+<codeline lineno="228"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>graphId=-1)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="229"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>buildGraph(<ref refid="dd/d7e/class_dot_node" kindref="compound" tooltip="A node in a dot graph.">DotNode</ref><sp/>*n,<ref refid="da/d09/class_member_def" kindref="compound" tooltip="A model of a class/file/namespace member symbol.">MemberDef</ref><sp/>*md,</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>distance);</highlight></codeline>
+<codeline lineno="230"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>isTrivial()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="231"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>isTooBig()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="232"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>determineVisibleNodes(<ref refid="db/daa/class_q_list" kindref="compound">QList&lt;DotNode&gt;</ref><sp/>&amp;queue,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>&amp;maxNodes);</highlight></codeline>
+<codeline lineno="233"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>determineTruncatedNodes(<ref refid="db/daa/class_q_list" kindref="compound">QList&lt;DotNode&gt;</ref><sp/>&amp;queue);</highlight></codeline>
+<codeline lineno="234"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="235"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="236"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="dd/d7e/class_dot_node" kindref="compound" tooltip="A node in a dot graph.">DotNode</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*m_startNode;</highlight></codeline>
+<codeline lineno="237"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>m_curNodeNumber;</highlight></codeline>
+<codeline lineno="238"><highlight class="normal"><sp/><sp/><sp/><sp/>QDict&lt;DotNode&gt;<sp/>*m_usedNodes;</highlight></codeline>
+<codeline lineno="239"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>m_recDepth;</highlight></codeline>
+<codeline lineno="240"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>m_inverse;</highlight></codeline>
+<codeline lineno="241"><highlight class="normal"><sp/><sp/><sp/><sp/>QCString<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>m_diskName;</highlight></codeline>
+<codeline lineno="242"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="d5/dcc/class_definition" kindref="compound" tooltip="The common base class of all entity definitions found in the sources.">Definition</ref><sp/>*<sp/><sp/><sp/><sp/>m_scope;</highlight></codeline>
+<codeline lineno="243"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="244"><highlight class="normal"></highlight></codeline>
+<codeline lineno="246" refid="d7/dd4/class_dot_dir_deps" refkind="compound"><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="d7/dd4/class_dot_dir_deps" kindref="compound" tooltip="Representation of an directory dependency graph.">DotDirDeps</ref></highlight></codeline>
+<codeline lineno="247"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="248"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="249"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="d7/dd4/class_dot_dir_deps" kindref="compound" tooltip="Representation of an directory dependency graph.">DotDirDeps</ref>(<ref refid="d4/dd4/class_dir_def" kindref="compound" tooltip="A model of a directory symbol.">DirDef</ref><sp/>*dir);</highlight></codeline>
+<codeline lineno="250"><highlight class="normal"><sp/><sp/><sp/>~<ref refid="d7/dd4/class_dot_dir_deps" kindref="compound" tooltip="Representation of an directory dependency graph.">DotDirDeps</ref>();</highlight></codeline>
+<codeline lineno="251"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>isTrivial()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="252"><highlight class="normal"><sp/><sp/><sp/><sp/>QCString<sp/>writeGraph(<ref refid="dc/d3c/class_f_text_stream" kindref="compound" tooltip="Simplified and optimized version of QTextStream.">FTextStream</ref><sp/>&amp;out,</highlight></codeline>
+<codeline lineno="253"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>GraphOutputFormat<sp/>format,</highlight></codeline>
+<codeline lineno="254"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*path,</highlight></codeline>
+<codeline lineno="255"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*fileName,</highlight></codeline>
+<codeline lineno="256"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*relPath,</highlight></codeline>
+<codeline lineno="257"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>writeImageMap=TRUE,</highlight></codeline>
+<codeline lineno="258"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>graphId=-1)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="259"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="260"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="d4/dd4/class_dir_def" kindref="compound" tooltip="A model of a directory symbol.">DirDef</ref><sp/>*m_dir;</highlight></codeline>
+<codeline lineno="261"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="262"><highlight class="normal"></highlight></codeline>
+<codeline lineno="264" refid="d1/d5f/class_dot_group_collaboration" refkind="compound"><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="d1/d5f/class_dot_group_collaboration" kindref="compound" tooltip="Representation of a group collaboration graph.">DotGroupCollaboration</ref></highlight></codeline>
+<codeline lineno="265"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="266"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/>:</highlight></codeline>
+<codeline lineno="267"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/>EdgeType<sp/></highlight></codeline>
+<codeline lineno="268"><highlight class="normal"><sp/><sp/><sp/><sp/>{<sp/><sp/>tmember<sp/>=<sp/>0,</highlight></codeline>
+<codeline lineno="269"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/>tclass,</highlight></codeline>
+<codeline lineno="270"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/>tnamespace,</highlight></codeline>
+<codeline lineno="271"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/>tfile,</highlight></codeline>
+<codeline lineno="272"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/>tpages,</highlight></codeline>
+<codeline lineno="273"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/>tdir,</highlight></codeline>
+<codeline lineno="274"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/>thierarchy<sp/></highlight></codeline>
+<codeline lineno="275"><highlight class="normal"><sp/><sp/><sp/><sp/>};</highlight></codeline>
+<codeline lineno="276"><highlight class="normal"></highlight></codeline>
+<codeline lineno="277" refid="d2/df0/class_dot_group_collaboration_1_1_link" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="d2/df0/class_dot_group_collaboration_1_1_link" kindref="compound">Link</ref></highlight></codeline>
+<codeline lineno="278"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="279"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="280"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="d2/df0/class_dot_group_collaboration_1_1_link" kindref="compound">Link</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QCString<sp/>lab,</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QCString<sp/>&amp;u)<sp/>:<sp/>label(lab),<sp/>url(u)<sp/>{}</highlight></codeline>
+<codeline lineno="281"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>QCString<sp/>label;</highlight></codeline>
+<codeline lineno="282"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>QCString<sp/>url;</highlight></codeline>
+<codeline lineno="283"><highlight class="normal"><sp/><sp/><sp/><sp/>};</highlight></codeline>
+<codeline lineno="284"><highlight class="normal"></highlight></codeline>
+<codeline lineno="285" refid="d8/d65/class_dot_group_collaboration_1_1_edge" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="d8/d65/class_dot_group_collaboration_1_1_edge" kindref="compound">Edge</ref></highlight></codeline>
+<codeline lineno="286"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="287"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/>:</highlight></codeline>
+<codeline lineno="288"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="d8/d65/class_dot_group_collaboration_1_1_edge" kindref="compound">Edge</ref>(<ref refid="dd/d7e/class_dot_node" kindref="compound" tooltip="A node in a dot graph.">DotNode</ref><sp/>*start,<ref refid="dd/d7e/class_dot_node" kindref="compound" tooltip="A node in a dot graph.">DotNode</ref><sp/>*end,EdgeType<sp/>type)<sp/></highlight></codeline>
+<codeline lineno="289"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>:<sp/>pNStart(start),<sp/>pNEnd(end),<sp/>eType(type)</highlight></codeline>
+<codeline lineno="290"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{<sp/>links.setAutoDelete(TRUE);<sp/>}</highlight></codeline>
+<codeline lineno="291"><highlight class="normal"></highlight></codeline>
+<codeline lineno="292"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="dd/d7e/class_dot_node" kindref="compound" tooltip="A node in a dot graph.">DotNode</ref>*<sp/>pNStart;</highlight></codeline>
+<codeline lineno="293"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="dd/d7e/class_dot_node" kindref="compound" tooltip="A node in a dot graph.">DotNode</ref>*<sp/>pNEnd;</highlight></codeline>
+<codeline lineno="294"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>EdgeType<sp/>eType;</highlight></codeline>
+<codeline lineno="295"><highlight class="normal"></highlight></codeline>
+<codeline lineno="296"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="db/daa/class_q_list" kindref="compound">QList&lt;Link&gt;</ref><sp/>links;</highlight></codeline>
+<codeline lineno="297"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>write(<sp/><ref refid="dc/d3c/class_f_text_stream" kindref="compound" tooltip="Simplified and optimized version of QTextStream.">FTextStream</ref><sp/>&amp;t<sp/>)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="298"><highlight class="normal"><sp/><sp/><sp/><sp/>};</highlight></codeline>
+<codeline lineno="299"><highlight class="normal"></highlight></codeline>
+<codeline lineno="300"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="d1/d5f/class_dot_group_collaboration" kindref="compound" tooltip="Representation of a group collaboration graph.">DotGroupCollaboration</ref>(<ref refid="d8/d09/class_group_def" kindref="compound" tooltip="A model of a group of symbols.">GroupDef</ref>*<sp/>gd);</highlight></codeline>
+<codeline lineno="301"><highlight class="normal"><sp/><sp/><sp/><sp/>~<ref refid="d1/d5f/class_dot_group_collaboration" kindref="compound" tooltip="Representation of a group collaboration graph.">DotGroupCollaboration</ref>();</highlight></codeline>
+<codeline lineno="302"><highlight class="normal"><sp/><sp/><sp/><sp/>QCString<sp/>writeGraph(<ref refid="dc/d3c/class_f_text_stream" kindref="compound" tooltip="Simplified and optimized version of QTextStream.">FTextStream</ref><sp/>&amp;t,<sp/>GraphOutputFormat<sp/>format,</highlight></codeline>
+<codeline lineno="303"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*path,</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*fileName,</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*relPath,</highlight></codeline>
+<codeline lineno="304"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>writeImageMap=TRUE,</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>graphId=-1)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="305"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>buildGraph(<ref refid="d8/d09/class_group_def" kindref="compound" tooltip="A model of a group of symbols.">GroupDef</ref>*<sp/>gd);</highlight></codeline>
+<codeline lineno="306"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>isTrivial()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="307"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal"><sp/>:</highlight></codeline>
+<codeline lineno="308"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>addCollaborationMember(<sp/><ref refid="d5/dcc/class_definition" kindref="compound" tooltip="The common base class of all entity definitions found in the sources.">Definition</ref>*<sp/>def,<sp/>QCString&amp;<sp/>url,<sp/>EdgeType<sp/>eType<sp/>);</highlight></codeline>
+<codeline lineno="309"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>addMemberList(<sp/></highlight><highlight class="keyword">class</highlight><highlight class="normal"><sp/><ref refid="dd/d13/class_member_list" kindref="compound" tooltip="A list of MemberDef objects.">MemberList</ref>*<sp/>ml<sp/>);</highlight></codeline>
+<codeline lineno="310"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>writeGraphHeader(<ref refid="dc/d3c/class_f_text_stream" kindref="compound" tooltip="Simplified and optimized version of QTextStream.">FTextStream</ref><sp/>&amp;t,</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QCString<sp/>&amp;title)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="311"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="d8/d65/class_dot_group_collaboration_1_1_edge" kindref="compound">Edge</ref>*<sp/>addEdge(<sp/><ref refid="dd/d7e/class_dot_node" kindref="compound" tooltip="A node in a dot graph.">DotNode</ref>*<sp/>_pNStart,<sp/><ref refid="dd/d7e/class_dot_node" kindref="compound" tooltip="A node in a dot graph.">DotNode</ref>*<sp/>_pNEnd,<sp/>EdgeType<sp/>_eType,</highlight></codeline>
+<codeline lineno="312"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QCString&amp;<sp/>_label,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QCString&amp;<sp/>_url<sp/>);</highlight></codeline>
+<codeline lineno="313"><highlight class="normal"></highlight></codeline>
+<codeline lineno="314"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="dd/d7e/class_dot_node" kindref="compound" tooltip="A node in a dot graph.">DotNode</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*m_rootNode;</highlight></codeline>
+<codeline lineno="315"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>m_curNodeId;</highlight></codeline>
+<codeline lineno="316"><highlight class="normal"><sp/><sp/><sp/><sp/>QDict&lt;DotNode&gt;<sp/>*m_usedNodes;</highlight></codeline>
+<codeline lineno="317"><highlight class="normal"><sp/><sp/><sp/><sp/>QCString<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>m_diskName;</highlight></codeline>
+<codeline lineno="318"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="db/daa/class_q_list" kindref="compound">QList&lt;Edge&gt;</ref><sp/><sp/><sp/><sp/><sp/>m_edges;</highlight></codeline>
+<codeline lineno="319"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="320"><highlight class="normal"></highlight></codeline>
+<codeline lineno="323" refid="d1/de9/class_dot_runner" refkind="compound"><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="d1/de9/class_dot_runner" kindref="compound" tooltip="Helper class to run dot from doxygen.">DotRunner</ref></highlight></codeline>
+<codeline lineno="324"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="325"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="326" refid="d1/d96/struct_dot_runner_1_1_cleanup_item" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="d1/d96/struct_dot_runner_1_1_cleanup_item" kindref="compound">CleanupItem</ref></highlight></codeline>
+<codeline lineno="327"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="328"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>QCString<sp/>path;</highlight></codeline>
+<codeline lineno="329"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>QCString<sp/>file;</highlight></codeline>
+<codeline lineno="330"><highlight class="normal"><sp/><sp/><sp/><sp/>};</highlight></codeline>
+<codeline lineno="331"><highlight class="normal"></highlight></codeline>
+<codeline lineno="333"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="d1/de9/class_dot_runner_1a0139716432105faf63356af65f993559" kindref="member" tooltip="Creates a runner for a dot file.">DotRunner</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QCString<sp/>&amp;file,</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QCString<sp/>&amp;fontPath,</highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>checkResult,</highlight></codeline>
+<codeline lineno="334"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QCString<sp/>&amp;imageName<sp/>=<sp/>QCString());</highlight></codeline>
+<codeline lineno="335"><highlight class="normal"></highlight></codeline>
+<codeline lineno="339"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="d1/de9/class_dot_runner_1a7438f2a23b1ee231d3281a515914e4e1" kindref="member" tooltip="Adds an additional job to the run.">addJob</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*format,</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*output);</highlight></codeline>
+<codeline lineno="340"><highlight class="normal"></highlight></codeline>
+<codeline lineno="341"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>addPostProcessing(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*cmd,</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*args);</highlight></codeline>
+<codeline lineno="342"><highlight class="normal"></highlight></codeline>
+<codeline lineno="343"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>preventCleanUp()<sp/>{<sp/>m_cleanUp<sp/>=<sp/>FALSE;<sp/>}</highlight></codeline>
+<codeline lineno="344"><highlight class="normal"></highlight></codeline>
+<codeline lineno="346"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="d1/de9/class_dot_runner_1ac1afaee16ddd8bf0bc6b18aaed6b44fd" kindref="member" tooltip="Runs dot for all jobs added.">run</ref>();</highlight></codeline>
+<codeline lineno="347"><highlight class="normal"><sp/><sp/><sp/><sp/>CleanupItem<sp/>cleanup()</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>m_cleanupItem;<sp/>}</highlight></codeline>
+<codeline lineno="348"><highlight class="normal"></highlight></codeline>
+<codeline lineno="349"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="350"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="db/daa/class_q_list" kindref="compound">QList&lt;QCString&gt;</ref><sp/>m_jobs;</highlight></codeline>
+<codeline lineno="351"><highlight class="normal"><sp/><sp/><sp/><sp/>QCString<sp/>m_postArgs;</highlight></codeline>
+<codeline lineno="352"><highlight class="normal"><sp/><sp/><sp/><sp/>QCString<sp/>m_postCmd;</highlight></codeline>
+<codeline lineno="353"><highlight class="normal"><sp/><sp/><sp/><sp/>QCString<sp/>m_file;</highlight></codeline>
+<codeline lineno="354"><highlight class="normal"><sp/><sp/><sp/><sp/>QCString<sp/>m_path;</highlight></codeline>
+<codeline lineno="355"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>m_checkResult;</highlight></codeline>
+<codeline lineno="356"><highlight class="normal"><sp/><sp/><sp/><sp/>QCString<sp/>m_imageName;</highlight></codeline>
+<codeline lineno="357"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>m_cleanUp;</highlight></codeline>
+<codeline lineno="358"><highlight class="normal"><sp/><sp/><sp/><sp/>CleanupItem<sp/>m_cleanupItem;</highlight></codeline>
+<codeline lineno="359"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="360"><highlight class="normal"></highlight></codeline>
+<codeline lineno="362" refid="db/daa/class_dot_file_patcher" refkind="compound"><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="db/daa/class_dot_file_patcher" kindref="compound" tooltip="Helper class to insert a set of map file into an output file.">DotFilePatcher</ref></highlight></codeline>
+<codeline lineno="363"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="364"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="365" refid="dd/d6e/struct_dot_file_patcher_1_1_map" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="dd/d6e/struct_dot_file_patcher_1_1_map" kindref="compound">Map</ref></highlight></codeline>
+<codeline lineno="366"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="367"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>QCString<sp/>mapFile;</highlight></codeline>
+<codeline lineno="368"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>QCString<sp/>relPath;</highlight></codeline>
+<codeline lineno="369"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/>urlOnly;</highlight></codeline>
+<codeline lineno="370"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>QCString<sp/>context;</highlight></codeline>
+<codeline lineno="371"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>QCString<sp/>label;</highlight></codeline>
+<codeline lineno="372"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/>zoomable;</highlight></codeline>
+<codeline lineno="373"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>graphId;</highlight></codeline>
+<codeline lineno="374"><highlight class="normal"><sp/><sp/><sp/><sp/>};</highlight></codeline>
+<codeline lineno="375"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="db/daa/class_dot_file_patcher" kindref="compound" tooltip="Helper class to insert a set of map file into an output file.">DotFilePatcher</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*patchFile);</highlight></codeline>
+<codeline lineno="376"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>addMap(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QCString<sp/>&amp;mapFile,</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QCString<sp/>&amp;relPath,</highlight></codeline>
+<codeline lineno="377"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>urlOnly,</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QCString<sp/>&amp;context,</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QCString<sp/>&amp;label);</highlight></codeline>
+<codeline lineno="378"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>addFigure(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QCString<sp/>&amp;baseName,</highlight></codeline>
+<codeline lineno="379"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QCString<sp/>&amp;figureName,</highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>heightCheck);</highlight></codeline>
+<codeline lineno="380"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>addSVGConversion(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QCString<sp/>&amp;relPath,</highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>urlOnly,</highlight></codeline>
+<codeline lineno="381"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QCString<sp/>&amp;context,</highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>zoomable,</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>graphId);</highlight></codeline>
+<codeline lineno="382"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>addSVGObject(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QCString<sp/>&amp;baseName,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QCString<sp/>&amp;figureName,</highlight></codeline>
+<codeline lineno="383"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QCString<sp/>&amp;relPath);</highlight></codeline>
+<codeline lineno="384"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>run();</highlight></codeline>
+<codeline lineno="385"><highlight class="normal"><sp/><sp/><sp/><sp/>QCString<sp/>file()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="386"><highlight class="normal"></highlight></codeline>
+<codeline lineno="387"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="388"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="db/daa/class_q_list" kindref="compound">QList&lt;Map&gt;</ref><sp/>m_maps;</highlight></codeline>
+<codeline lineno="389"><highlight class="normal"><sp/><sp/><sp/><sp/>QCString<sp/>m_patchFile;</highlight></codeline>
+<codeline lineno="390"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="391"><highlight class="normal"></highlight></codeline>
+<codeline lineno="393" refid="d6/dbb/class_dot_runner_queue" refkind="compound"><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="d6/dbb/class_dot_runner_queue" kindref="compound" tooltip="Queue of dot jobs to run.">DotRunnerQueue</ref></highlight></codeline>
+<codeline lineno="394"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="395"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="396"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>enqueue(<ref refid="d1/de9/class_dot_runner" kindref="compound" tooltip="Helper class to run dot from doxygen.">DotRunner</ref><sp/>*runner);</highlight></codeline>
+<codeline lineno="397"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="d1/de9/class_dot_runner" kindref="compound" tooltip="Helper class to run dot from doxygen.">DotRunner</ref><sp/>*dequeue();</highlight></codeline>
+<codeline lineno="398"><highlight class="normal"><sp/><sp/><sp/><sp/>uint<sp/>count()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="399"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="400"><highlight class="normal"><sp/><sp/><sp/><sp/>QWaitCondition<sp/><sp/>m_bufferNotEmpty;</highlight></codeline>
+<codeline lineno="401"><highlight class="normal"><sp/><sp/><sp/><sp/>QQueue&lt;DotRunner&gt;<sp/>m_queue;</highlight></codeline>
+<codeline lineno="402"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">mutable</highlight><highlight class="normal"><sp/>QMutex<sp/><sp/>m_mutex;</highlight></codeline>
+<codeline lineno="403"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="404"><highlight class="normal"></highlight></codeline>
+<codeline lineno="406" refid="d5/d99/class_dot_worker_thread" refkind="compound"><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="d5/d99/class_dot_worker_thread" kindref="compound" tooltip="Worker thread to execute a dot run.">DotWorkerThread</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/>QThread</highlight></codeline>
+<codeline lineno="407"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="408"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="409"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="d5/d99/class_dot_worker_thread" kindref="compound" tooltip="Worker thread to execute a dot run.">DotWorkerThread</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">id</highlight><highlight class="normal">,<ref refid="d6/dbb/class_dot_runner_queue" kindref="compound" tooltip="Queue of dot jobs to run.">DotRunnerQueue</ref><sp/>*queue);</highlight></codeline>
+<codeline lineno="410"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>run();</highlight></codeline>
+<codeline lineno="411"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>cleanup();</highlight></codeline>
+<codeline lineno="412"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="413"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>m_id;</highlight></codeline>
+<codeline lineno="414"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="d6/dbb/class_dot_runner_queue" kindref="compound" tooltip="Queue of dot jobs to run.">DotRunnerQueue</ref><sp/>*m_queue;</highlight></codeline>
+<codeline lineno="415"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="db/daa/class_q_list" kindref="compound">QList&lt;DotRunner::CleanupItem&gt;</ref><sp/>m_cleanupItems;</highlight></codeline>
+<codeline lineno="416"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="417"><highlight class="normal"></highlight></codeline>
+<codeline lineno="419" refid="d5/d7c/class_dot_manager" refkind="compound"><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="d5/d7c/class_dot_manager" kindref="compound" tooltip="Singleton that manages dot relation actions.">DotManager</ref></highlight></codeline>
+<codeline lineno="420"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="421"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="422"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/><ref refid="d5/d7c/class_dot_manager" kindref="compound" tooltip="Singleton that manages dot relation actions.">DotManager</ref><sp/>*instance();</highlight></codeline>
+<codeline lineno="423"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>addRun(<ref refid="d1/de9/class_dot_runner" kindref="compound" tooltip="Helper class to run dot from doxygen.">DotRunner</ref><sp/>*run);</highlight></codeline>
+<codeline lineno="424"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><sp/>addMap(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QCString<sp/>&amp;file,</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QCString<sp/>&amp;mapFile,</highlight></codeline>
+<codeline lineno="425"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QCString<sp/>&amp;relPath,</highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>urlOnly,</highlight></codeline>
+<codeline lineno="426"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QCString<sp/>&amp;context,</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QCString<sp/>&amp;label);</highlight></codeline>
+<codeline lineno="427"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>addFigure(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QCString<sp/>&amp;file,</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QCString<sp/>&amp;baseName,</highlight></codeline>
+<codeline lineno="428"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QCString<sp/>&amp;figureName,</highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>heightCheck);</highlight></codeline>
+<codeline lineno="429"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>addSVGConversion(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QCString<sp/>&amp;file,</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QCString<sp/>&amp;relPath,</highlight></codeline>
+<codeline lineno="430"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>urlOnly,</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QCString<sp/>&amp;context,</highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>zoomable,</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>graphId);</highlight></codeline>
+<codeline lineno="431"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>addSVGObject(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QCString<sp/>&amp;file,</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QCString<sp/>&amp;baseName,</highlight></codeline>
+<codeline lineno="432"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QCString<sp/>&amp;figureNAme,</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QCString<sp/>&amp;relPath);</highlight></codeline>
+<codeline lineno="433"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>run();</highlight></codeline>
+<codeline lineno="434"><highlight class="normal"></highlight></codeline>
+<codeline lineno="435"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="436"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="d5/d7c/class_dot_manager" kindref="compound" tooltip="Singleton that manages dot relation actions.">DotManager</ref>();</highlight></codeline>
+<codeline lineno="437"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/>~<ref refid="d5/d7c/class_dot_manager" kindref="compound" tooltip="Singleton that manages dot relation actions.">DotManager</ref>();</highlight></codeline>
+<codeline lineno="438"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="db/daa/class_q_list" kindref="compound">QList&lt;DotRunner&gt;</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/>m_dotRuns;</highlight></codeline>
+<codeline lineno="439"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="d1/d50/class_s_dict" kindref="compound">SDict&lt;DotFilePatcher&gt;</ref><sp/>m_dotMaps;</highlight></codeline>
+<codeline lineno="440"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/><ref refid="d5/d7c/class_dot_manager" kindref="compound" tooltip="Singleton that manages dot relation actions.">DotManager</ref><sp/><sp/><sp/><sp/><sp/>*m_theInstance;</highlight></codeline>
+<codeline lineno="441"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="d6/dbb/class_dot_runner_queue" kindref="compound" tooltip="Queue of dot jobs to run.">DotRunnerQueue</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*m_queue;</highlight></codeline>
+<codeline lineno="442"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="db/daa/class_q_list" kindref="compound">QList&lt;DotWorkerThread&gt;</ref><sp/>m_workers;</highlight></codeline>
+<codeline lineno="443"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="444"><highlight class="normal"></highlight></codeline>
+<codeline lineno="445"><highlight class="normal"></highlight></codeline>
+<codeline lineno="447"><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>generateGraphLegend(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*path);</highlight></codeline>
+<codeline lineno="448"><highlight class="normal"></highlight></codeline>
+<codeline lineno="449"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>writeDotGraphFromFile(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*inFile,</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*outDir,</highlight></codeline>
+<codeline lineno="450"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*outFile,GraphOutputFormat<sp/>format);</highlight></codeline>
+<codeline lineno="451"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>writeDotImageMapFromFile(<ref refid="dc/d3c/class_f_text_stream" kindref="compound" tooltip="Simplified and optimized version of QTextStream.">FTextStream</ref><sp/>&amp;t,</highlight></codeline>
+<codeline lineno="452"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QCString&amp;<sp/>inFile,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QCString&amp;<sp/>outDir,</highlight></codeline>
+<codeline lineno="453"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QCString&amp;<sp/>relPath,</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QCString&amp;<sp/>baseName,</highlight></codeline>
+<codeline lineno="454"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QCString&amp;<sp/>context,</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>graphId=-1);</highlight></codeline>
+<codeline lineno="455"><highlight class="normal"></highlight></codeline>
+<codeline lineno="456"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>writeDotDirDepGraph(<ref refid="dc/d3c/class_f_text_stream" kindref="compound" tooltip="Simplified and optimized version of QTextStream.">FTextStream</ref><sp/>&amp;t,<ref refid="d4/dd4/class_dir_def" kindref="compound" tooltip="A model of a directory symbol.">DirDef</ref><sp/>*dd);</highlight></codeline>
+<codeline lineno="457"><highlight class="normal"></highlight></codeline>
+<codeline lineno="458"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+    </programlisting>
+    <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/dot.h"/>
+  </compounddef>
+</doxygen>

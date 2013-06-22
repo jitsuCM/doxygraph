@@ -1,0 +1,162 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.2">
+  <compounddef id="de/dd4/class_cite_dict" kind="class" prot="public">
+    <compoundname>CiteDict</compoundname>
+    <includes refid="d7/d69/cite_8h" local="no">cite.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="de/dd4/class_cite_dict_1a9080c808986ff11973c7577737688c9d" prot="private" static="no" mutable="no">
+        <type>QDict&lt; <ref refid="df/d40/struct_cite_info" kindref="compound">CiteInfo</ref> &gt;</type>
+        <definition>QDict&lt;CiteInfo&gt; CiteDict::m_entries</definition>
+        <argsstring></argsstring>
+        <name>m_entries</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/cite.h" line="93" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/cite.h" bodystart="93" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="de/dd4/class_cite_dict_1aa2f185c0f03fcac90f7280420ee7256a" prot="private" static="no" mutable="no">
+        <type>QCString</type>
+        <definition>QCString CiteDict::m_baseFileName</definition>
+        <argsstring></argsstring>
+        <name>m_baseFileName</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/cite.h" line="95" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/cite.h" bodystart="95" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="de/dd4/class_cite_dict_1a7d6745b98d4566463c2aa12bbfa65f4e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>CiteDict::CiteDict</definition>
+        <argsstring>(int size)</argsstring>
+        <name>CiteDict</name>
+        <param>
+          <type>int</type>
+          <declname>size</declname>
+        </param>
+        <briefdescription>
+<para>Create the database, with an expected maximum of <emphasis>size</emphasis> entries. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/cite.h" line="60" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/cite.cpp" bodystart="43" bodyend="46"/>
+      </memberdef>
+      <memberdef kind="function" id="de/dd4/class_cite_dict_1a1943f09412692299a6286a441ca1a01b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void CiteDict::insert</definition>
+        <argsstring>(const char *label)</argsstring>
+        <name>insert</name>
+        <param>
+          <type>const char *</type>
+          <declname>label</declname>
+        </param>
+        <briefdescription>
+<para>Resolve references to citations. </para>        </briefdescription>
+        <detaileddescription>
+<para>Insert a citation identified by <emphasis>label</emphasis> into the database </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/cite.h" line="66" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/cite.cpp" bodystart="106" bodyend="109"/>
+      </memberdef>
+      <memberdef kind="function" id="de/dd4/class_cite_dict_1acc5cb51064eb42b801ff2ae18a110b78" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="df/d40/struct_cite_info" kindref="compound">CiteInfo</ref> *</type>
+        <definition>CiteInfo * CiteDict::find</definition>
+        <argsstring>(const char *label) const </argsstring>
+        <name>find</name>
+        <param>
+          <type>const char *</type>
+          <declname>label</declname>
+        </param>
+        <briefdescription>
+<para>Return the citation info for a given <emphasis>label</emphasis>. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/cite.h" line="69" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/cite.cpp" bodystart="111" bodyend="114"/>
+      </memberdef>
+      <memberdef kind="function" id="de/dd4/class_cite_dict_1a91ef397962cb60584010cd486d2acc9f" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void CiteDict::generatePage</definition>
+        <argsstring>() const </argsstring>
+        <name>generatePage</name>
+        <briefdescription>
+<para>Generate the citations page. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/cite.h" line="72" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/cite.cpp" bodystart="127" bodyend="311"/>
+        <references refid="de/dd4/class_cite_dict_1a0b6de9a4eecdbcfd68b24671908cf97a" compoundref="d5/d0b/cite_8cpp" startline="121" endline="125">isEmpty</references>
+      </memberdef>
+      <memberdef kind="function" id="de/dd4/class_cite_dict_1a35183cd5038e60f747dd9ecd6bb64f73" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void CiteDict::clear</definition>
+        <argsstring>()</argsstring>
+        <name>clear</name>
+        <briefdescription>
+<para>clears the database </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/cite.h" line="75" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/cite.cpp" bodystart="116" bodyend="119"/>
+      </memberdef>
+      <memberdef kind="function" id="de/dd4/class_cite_dict_1a0b6de9a4eecdbcfd68b24671908cf97a" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool CiteDict::isEmpty</definition>
+        <argsstring>() const </argsstring>
+        <name>isEmpty</name>
+        <briefdescription>
+<para>return TRUE if there are no citations. </para>        </briefdescription>
+        <detaileddescription>
+<para>Only valid after calling resolve() </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/cite.h" line="80" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/cite.cpp" bodystart="121" bodyend="125"/>
+        <referencedby refid="de/dd4/class_cite_dict_1a91ef397962cb60584010cd486d2acc9f" compoundref="d5/d0b/cite_8cpp" startline="127" endline="311">generatePage</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="de/dd4/class_cite_dict_1a3b20f1fad3c4768501c7667ce73cacde" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void CiteDict::writeLatexBibliography</definition>
+        <argsstring>(FTextStream &amp;t)</argsstring>
+        <name>writeLatexBibliography</name>
+        <param>
+          <type><ref refid="dc/d3c/class_f_text_stream" kindref="compound">FTextStream</ref> &amp;</type>
+          <declname>t</declname>
+        </param>
+        <briefdescription>
+<para>writes the latex code for the standard bibliography section to text stream <emphasis>t</emphasis> </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/cite.h" line="85" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/cite.cpp" bodystart="89" bodyend="104"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Cite database access class. </para>    </briefdescription>
+    <detaileddescription>
+<para>This class provides access do the database of bibliographic references through the bibtex backend. </para>    </detaileddescription>
+    <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/cite.h" line="57" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/cite.h" bodystart="56" bodyend="96"/>
+    <listofallmembers>
+      <member refid="de/dd4/class_cite_dict_1a7d6745b98d4566463c2aa12bbfa65f4e" prot="public" virt="non-virtual"><scope>CiteDict</scope><name>CiteDict</name></member>
+      <member refid="de/dd4/class_cite_dict_1a35183cd5038e60f747dd9ecd6bb64f73" prot="public" virt="non-virtual"><scope>CiteDict</scope><name>clear</name></member>
+      <member refid="de/dd4/class_cite_dict_1acc5cb51064eb42b801ff2ae18a110b78" prot="public" virt="non-virtual"><scope>CiteDict</scope><name>find</name></member>
+      <member refid="de/dd4/class_cite_dict_1a91ef397962cb60584010cd486d2acc9f" prot="public" virt="non-virtual"><scope>CiteDict</scope><name>generatePage</name></member>
+      <member refid="de/dd4/class_cite_dict_1a1943f09412692299a6286a441ca1a01b" prot="public" virt="non-virtual"><scope>CiteDict</scope><name>insert</name></member>
+      <member refid="de/dd4/class_cite_dict_1a0b6de9a4eecdbcfd68b24671908cf97a" prot="public" virt="non-virtual"><scope>CiteDict</scope><name>isEmpty</name></member>
+      <member refid="de/dd4/class_cite_dict_1aa2f185c0f03fcac90f7280420ee7256a" prot="private" virt="non-virtual"><scope>CiteDict</scope><name>m_baseFileName</name></member>
+      <member refid="de/dd4/class_cite_dict_1a9080c808986ff11973c7577737688c9d" prot="private" virt="non-virtual"><scope>CiteDict</scope><name>m_entries</name></member>
+      <member refid="de/dd4/class_cite_dict_1a3b20f1fad3c4768501c7667ce73cacde" prot="public" virt="non-virtual"><scope>CiteDict</scope><name>writeLatexBibliography</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

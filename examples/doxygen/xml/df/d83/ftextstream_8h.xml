@@ -1,0 +1,847 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.2">
+  <compounddef id="df/d83/ftextstream_8h" kind="file">
+    <compoundname>ftextstream.h</compoundname>
+    <includes local="no">stdio.h</includes>
+    <includes local="no">qiodevice.h</includes>
+    <includes local="no">qstring.h</includes>
+    <includes local="no">qgstring.h</includes>
+    <includedby refid="db/d16/config_8h" local="yes">src/config.h</includedby>
+    <includedby refid="d5/d0b/cite_8cpp" local="yes">src/cite.cpp</includedby>
+    <includedby refid="d1/da1/doxygen_8h" local="yes">src/doxygen.h</includedby>
+    <includedby refid="d8/dc3/htmlhelp_8h" local="yes">src/htmlhelp.h</includedby>
+    <includedby refid="df/d06/outputgen_8h" local="yes">src/outputgen.h</includedby>
+    <includedby refid="da/d0d/diagram_8cpp" local="yes">src/diagram.cpp</includedby>
+    <includedby refid="d8/d52/dirdef_8cpp" local="yes">src/dirdef.cpp</includedby>
+    <includedby refid="d1/db2/docsets_8h" local="yes">src/docsets.h</includedby>
+    <includedby refid="de/daa/dot_8cpp" local="yes">src/dot.cpp</includedby>
+    <includedby refid="d8/d56/htmlgen_8h" local="yes">src/htmlgen.h</includedby>
+    <includedby refid="d8/df8/qhpxmlwriter_8h" local="yes">src/qhpxmlwriter.h</includedby>
+    <includedby refid="db/d9e/eclipsehelp_8h" local="yes">src/eclipsehelp.h</includedby>
+    <includedby refid="d7/d5b/formula_8cpp" local="yes">src/formula.cpp</includedby>
+    <includedby refid="de/da3/ftextstream_8cpp" local="yes">src/ftextstream.cpp</includedby>
+    <includedby refid="de/dd0/perlmodgen_8cpp" local="yes">src/perlmodgen.cpp</includedby>
+    <includedby refid="d4/d09/reflist_8cpp" local="yes">src/reflist.cpp</includedby>
+    <includedby refid="dd/d66/textdocvisitor_8h" local="yes">src/textdocvisitor.h</includedby>
+    <incdepgraph>
+      <node id="2130">
+        <label>qgstring.h</label>
+      </node>
+      <node id="2129">
+        <label>qstring.h</label>
+      </node>
+      <node id="2128">
+        <label>qiodevice.h</label>
+      </node>
+      <node id="2126">
+        <label>src/ftextstream.h</label>
+        <link refid="ftextstream.h"/>
+        <childnode refid="2127" relation="include">
+        </childnode>
+        <childnode refid="2128" relation="include">
+        </childnode>
+        <childnode refid="2129" relation="include">
+        </childnode>
+        <childnode refid="2130" relation="include">
+        </childnode>
+      </node>
+      <node id="2127">
+        <label>stdio.h</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="2188">
+        <label>src/tagreader.cpp</label>
+        <link refid="d4/d7b/tagreader_8cpp_source"/>
+      </node>
+      <node id="2156">
+        <label>src/htmldocvisitor.cpp</label>
+        <link refid="da/db0/htmldocvisitor_8cpp_source"/>
+      </node>
+      <node id="2175">
+        <label>src/qhp.cpp</label>
+        <link refid="d9/d45/qhp_8cpp_source"/>
+      </node>
+      <node id="2176">
+        <label>src/rtfdocvisitor.cpp</label>
+        <link refid="de/d9a/rtfdocvisitor_8cpp_source"/>
+      </node>
+      <node id="2145">
+        <label>src/docparser.cpp</label>
+        <link refid="da/d17/docparser_8cpp_source"/>
+      </node>
+      <node id="2187">
+        <label>src/membergroup.cpp</label>
+        <link refid="d6/d18/membergroup_8cpp_source"/>
+      </node>
+      <node id="2190">
+        <label>src/outputgen.h</label>
+        <link refid="df/d06/outputgen_8h_source"/>
+        <childnode refid="2191" relation="include">
+        </childnode>
+        <childnode refid="2138" relation="include">
+        </childnode>
+        <childnode refid="2143" relation="include">
+        </childnode>
+        <childnode refid="2144" relation="include">
+        </childnode>
+        <childnode refid="2192" relation="include">
+        </childnode>
+        <childnode refid="2193" relation="include">
+        </childnode>
+        <childnode refid="2194" relation="include">
+        </childnode>
+        <childnode refid="2195" relation="include">
+        </childnode>
+        <childnode refid="2156" relation="include">
+        </childnode>
+        <childnode refid="2162" relation="include">
+        </childnode>
+        <childnode refid="2186" relation="include">
+        </childnode>
+        <childnode refid="2196" relation="include">
+        </childnode>
+        <childnode refid="2172" relation="include">
+        </childnode>
+        <childnode refid="2176" relation="include">
+        </childnode>
+        <childnode refid="2181" relation="include">
+        </childnode>
+        <childnode refid="2182" relation="include">
+        </childnode>
+      </node>
+      <node id="2167">
+        <label>src/memberdef.cpp</label>
+        <link refid="d0/d72/memberdef_8cpp_source"/>
+      </node>
+      <node id="2148">
+        <label>src/doxygen.cpp</label>
+        <link refid="dc/d98/doxygen_8cpp_source"/>
+      </node>
+      <node id="2147">
+        <label>src/dot.cpp</label>
+        <link refid="de/daa/dot_8cpp_source"/>
+      </node>
+      <node id="2180">
+        <label>src/vhdldocgen.cpp</label>
+        <link refid="de/dea/vhdldocgen_8cpp_source"/>
+      </node>
+      <node id="2177">
+        <label>src/rtfgen.cpp</label>
+        <link refid="d0/d9c/rtfgen_8cpp_source"/>
+      </node>
+      <node id="2191">
+        <label>src/outputlist.h</label>
+        <link refid="d2/db9/outputlist_8h_source"/>
+        <childnode refid="2134" relation="include">
+        </childnode>
+        <childnode refid="2135" relation="include">
+        </childnode>
+        <childnode refid="2140" relation="include">
+        </childnode>
+        <childnode refid="2142" relation="include">
+        </childnode>
+        <childnode refid="2148" relation="include">
+        </childnode>
+        <childnode refid="2150" relation="include">
+        </childnode>
+        <childnode refid="2154" relation="include">
+        </childnode>
+        <childnode refid="2160" relation="include">
+        </childnode>
+        <childnode refid="2167" relation="include">
+        </childnode>
+        <childnode refid="2187" relation="include">
+        </childnode>
+        <childnode refid="2168" relation="include">
+        </childnode>
+        <childnode refid="2171" relation="include">
+        </childnode>
+        <childnode refid="2172" relation="include">
+        </childnode>
+        <childnode refid="2173" relation="include">
+        </childnode>
+        <childnode refid="2179" relation="include">
+        </childnode>
+        <childnode refid="2180" relation="include">
+        </childnode>
+      </node>
+      <node id="2186">
+        <label>src/mandocvisitor.cpp</label>
+        <link refid="d8/dde/mandocvisitor_8cpp_source"/>
+      </node>
+      <node id="2135">
+        <label>src/classlist.cpp</label>
+        <link refid="d6/d10/classlist_8cpp_source"/>
+      </node>
+      <node id="2173">
+        <label>src/pagedef.cpp</label>
+        <link refid="d9/db4/pagedef_8cpp_source"/>
+      </node>
+      <node id="2139">
+        <label>src/define.cpp</label>
+        <link refid="d0/d0a/define_8cpp_source"/>
+      </node>
+      <node id="2138">
+        <label>src/defgen.cpp</label>
+        <link refid="d3/d17/defgen_8cpp_source"/>
+      </node>
+      <node id="2184">
+        <label>src/entry.cpp</label>
+        <link refid="d2/dd2/entry_8cpp_source"/>
+      </node>
+      <node id="2179">
+        <label>src/util.cpp</label>
+        <link refid="df/d2d/util_8cpp_source"/>
+      </node>
+      <node id="2170">
+        <label>src/msc.cpp</label>
+        <link refid="db/d33/msc_8cpp_source"/>
+      </node>
+      <node id="2162">
+        <label>src/latexdocvisitor.cpp</label>
+        <link refid="d1/d4e/latexdocvisitor_8cpp_source"/>
+      </node>
+      <node id="2159">
+        <label>src/image.cpp</label>
+        <link refid="db/d11/image_8cpp_source"/>
+      </node>
+      <node id="2169">
+        <label>src/message.cpp</label>
+        <link refid="d8/d6a/message_8cpp_source"/>
+      </node>
+      <node id="2178">
+        <label>src/searchindex.cpp</label>
+        <link refid="d7/d79/searchindex_8cpp_source"/>
+      </node>
+      <node id="2150">
+        <label>src/filedef.cpp</label>
+        <link refid="d6/ddc/filedef_8cpp_source"/>
+      </node>
+      <node id="2154">
+        <label>src/groupdef.cpp</label>
+        <link refid="d6/d42/groupdef_8cpp_source"/>
+      </node>
+      <node id="2143">
+        <label>src/docbookgen.cpp</label>
+        <link refid="d8/d29/docbookgen_8cpp_source"/>
+      </node>
+      <node id="2151">
+        <label>src/filename.cpp</label>
+        <link refid="de/d36/filename_8cpp_source"/>
+      </node>
+      <node id="2142">
+        <label>src/dirdef.cpp</label>
+        <link refid="d8/d52/dirdef_8cpp_source"/>
+      </node>
+      <node id="2174">
+        <label>src/perlmodgen.cpp</label>
+        <link refid="de/dd0/perlmodgen_8cpp_source"/>
+      </node>
+      <node id="2140">
+        <label>src/definition.cpp</label>
+        <link refid="d3/dea/definition_8cpp_source"/>
+      </node>
+      <node id="2171">
+        <label>src/namespacedef.cpp</label>
+        <link refid="d7/d1c/namespacedef_8cpp_source"/>
+      </node>
+      <node id="2193">
+        <label>src/latexgen.h</label>
+        <link refid="d6/d9c/latexgen_8h_source"/>
+        <childnode refid="2148" relation="include">
+        </childnode>
+        <childnode refid="2163" relation="include">
+        </childnode>
+      </node>
+      <node id="2196">
+        <label>src/outputgen.cpp</label>
+        <link refid="d0/d17/outputgen_8cpp_source"/>
+      </node>
+      <node id="2205">
+        <label>src/textdocvisitor.cpp</label>
+        <link refid="d3/da6/textdocvisitor_8cpp_source"/>
+      </node>
+      <node id="2202">
+        <label>src/ftextstream.cpp</label>
+        <link refid="de/da3/ftextstream_8cpp_source"/>
+      </node>
+      <node id="2197">
+        <label>src/docsets.h</label>
+        <link refid="d1/db2/docsets_8h_source"/>
+        <childnode refid="2146" relation="include">
+        </childnode>
+        <childnode refid="2148" relation="include">
+        </childnode>
+      </node>
+      <node id="2200">
+        <label>src/qhpxmlwriter.cpp</label>
+        <link refid="dd/d53/qhpxmlwriter_8cpp_source"/>
+      </node>
+      <node id="2152">
+        <label>src/formula.cpp</label>
+        <link refid="d7/d5b/formula_8cpp_source"/>
+      </node>
+      <node id="2132">
+        <label>src/config.h</label>
+        <link refid="db/d16/config_8h_source"/>
+        <childnode refid="2133" relation="include">
+        </childnode>
+        <childnode refid="2134" relation="include">
+        </childnode>
+        <childnode refid="2135" relation="include">
+        </childnode>
+        <childnode refid="2136" relation="include">
+        </childnode>
+        <childnode refid="2137" relation="include">
+        </childnode>
+        <childnode refid="2138" relation="include">
+        </childnode>
+        <childnode refid="2139" relation="include">
+        </childnode>
+        <childnode refid="2140" relation="include">
+        </childnode>
+        <childnode refid="2141" relation="include">
+        </childnode>
+        <childnode refid="2142" relation="include">
+        </childnode>
+        <childnode refid="2143" relation="include">
+        </childnode>
+        <childnode refid="2144" relation="include">
+        </childnode>
+        <childnode refid="2145" relation="include">
+        </childnode>
+        <childnode refid="2146" relation="include">
+        </childnode>
+        <childnode refid="2147" relation="include">
+        </childnode>
+        <childnode refid="2148" relation="include">
+        </childnode>
+        <childnode refid="2149" relation="include">
+        </childnode>
+        <childnode refid="2150" relation="include">
+        </childnode>
+        <childnode refid="2151" relation="include">
+        </childnode>
+        <childnode refid="2152" relation="include">
+        </childnode>
+        <childnode refid="2153" relation="include">
+        </childnode>
+        <childnode refid="2154" relation="include">
+        </childnode>
+        <childnode refid="2155" relation="include">
+        </childnode>
+        <childnode refid="2156" relation="include">
+        </childnode>
+        <childnode refid="2157" relation="include">
+        </childnode>
+        <childnode refid="2158" relation="include">
+        </childnode>
+        <childnode refid="2159" relation="include">
+        </childnode>
+        <childnode refid="2160" relation="include">
+        </childnode>
+        <childnode refid="2161" relation="include">
+        </childnode>
+        <childnode refid="2162" relation="include">
+        </childnode>
+        <childnode refid="2163" relation="include">
+        </childnode>
+        <childnode refid="2164" relation="include">
+        </childnode>
+        <childnode refid="2165" relation="include">
+        </childnode>
+        <childnode refid="2166" relation="include">
+        </childnode>
+        <childnode refid="2167" relation="include">
+        </childnode>
+        <childnode refid="2168" relation="include">
+        </childnode>
+        <childnode refid="2169" relation="include">
+        </childnode>
+        <childnode refid="2170" relation="include">
+        </childnode>
+        <childnode refid="2171" relation="include">
+        </childnode>
+        <childnode refid="2172" relation="include">
+        </childnode>
+        <childnode refid="2173" relation="include">
+        </childnode>
+        <childnode refid="2174" relation="include">
+        </childnode>
+        <childnode refid="2175" relation="include">
+        </childnode>
+        <childnode refid="2176" relation="include">
+        </childnode>
+        <childnode refid="2177" relation="include">
+        </childnode>
+        <childnode refid="2178" relation="include">
+        </childnode>
+        <childnode refid="2179" relation="include">
+        </childnode>
+        <childnode refid="2180" relation="include">
+        </childnode>
+        <childnode refid="2181" relation="include">
+        </childnode>
+        <childnode refid="2182" relation="include">
+        </childnode>
+      </node>
+      <node id="2181">
+        <label>src/xmldocvisitor.cpp</label>
+        <link refid="dd/db6/xmldocvisitor_8cpp_source"/>
+      </node>
+      <node id="2144">
+        <label>src/docbookvisitor.cpp</label>
+        <link refid="dc/d05/docbookvisitor_8cpp_source"/>
+      </node>
+      <node id="2201">
+        <label>src/eclipsehelp.h</label>
+        <link refid="db/d9e/eclipsehelp_8h_source"/>
+        <childnode refid="2148" relation="include">
+        </childnode>
+        <childnode refid="2149" relation="include">
+        </childnode>
+      </node>
+      <node id="2204">
+        <label>src/textdocvisitor.h</label>
+        <link refid="dd/d66/textdocvisitor_8h_source"/>
+        <childnode refid="2205" relation="include">
+        </childnode>
+        <childnode refid="2179" relation="include">
+        </childnode>
+      </node>
+      <node id="2165">
+        <label>src/mangen.cpp</label>
+        <link refid="d7/de7/mangen_8cpp_source"/>
+      </node>
+      <node id="2153">
+        <label>src/ftvhelp.cpp</label>
+        <link refid="db/d41/ftvhelp_8cpp_source"/>
+      </node>
+      <node id="2155">
+        <label>src/htags.cpp</label>
+        <link refid="d9/db7/htags_8cpp_source"/>
+      </node>
+      <node id="2182">
+        <label>src/xmlgen.cpp</label>
+        <link refid="d0/dc3/xmlgen_8cpp_source"/>
+      </node>
+      <node id="2157">
+        <label>src/htmlgen.cpp</label>
+        <link refid="d8/d6e/htmlgen_8cpp_source"/>
+      </node>
+      <node id="2192">
+        <label>src/htmlgen.h</label>
+        <link refid="d8/d56/htmlgen_8h_source"/>
+        <childnode refid="2148" relation="include">
+        </childnode>
+        <childnode refid="2153" relation="include">
+        </childnode>
+        <childnode refid="2156" relation="include">
+        </childnode>
+        <childnode refid="2157" relation="include">
+        </childnode>
+        <childnode refid="2160" relation="include">
+        </childnode>
+      </node>
+      <node id="2160">
+        <label>src/index.cpp</label>
+        <link refid="db/d14/index_8cpp"/>
+      </node>
+      <node id="2164">
+        <label>src/layout.cpp</label>
+        <link refid="db/d16/layout_8cpp_source"/>
+      </node>
+      <node id="2131">
+        <label>src/ftextstream.h</label>
+        <link refid="ftextstream.h"/>
+        <childnode refid="2132" relation="include">
+        </childnode>
+        <childnode refid="2133" relation="include">
+        </childnode>
+        <childnode refid="2183" relation="include">
+        </childnode>
+        <childnode refid="2189" relation="include">
+        </childnode>
+        <childnode refid="2190" relation="include">
+        </childnode>
+        <childnode refid="2141" relation="include">
+        </childnode>
+        <childnode refid="2142" relation="include">
+        </childnode>
+        <childnode refid="2197" relation="include">
+        </childnode>
+        <childnode refid="2147" relation="include">
+        </childnode>
+        <childnode refid="2192" relation="include">
+        </childnode>
+        <childnode refid="2198" relation="include">
+        </childnode>
+        <childnode refid="2201" relation="include">
+        </childnode>
+        <childnode refid="2152" relation="include">
+        </childnode>
+        <childnode refid="2202" relation="include">
+        </childnode>
+        <childnode refid="2174" relation="include">
+        </childnode>
+        <childnode refid="2203" relation="include">
+        </childnode>
+        <childnode refid="2204" relation="include">
+        </childnode>
+      </node>
+      <node id="2168">
+        <label>src/memberlist.cpp</label>
+        <link refid="d0/d14/memberlist_8cpp_source"/>
+      </node>
+      <node id="2146">
+        <label>src/docsets.cpp</label>
+        <link refid="d7/d8f/docsets_8cpp_source"/>
+      </node>
+      <node id="2149">
+        <label>src/eclipsehelp.cpp</label>
+        <link refid="d8/d56/eclipsehelp_8cpp_source"/>
+      </node>
+      <node id="2203">
+        <label>src/reflist.cpp</label>
+        <link refid="d4/d09/reflist_8cpp_source"/>
+      </node>
+      <node id="2199">
+        <label>src/qhp.h</label>
+        <link refid="dc/d20/qhp_8h_source"/>
+        <childnode refid="2148" relation="include">
+        </childnode>
+        <childnode refid="2175" relation="include">
+        </childnode>
+      </node>
+      <node id="2198">
+        <label>src/qhpxmlwriter.h</label>
+        <link refid="d8/df8/qhpxmlwriter_8h_source"/>
+        <childnode refid="2199" relation="include">
+        </childnode>
+        <childnode refid="2175" relation="include">
+        </childnode>
+        <childnode refid="2200" relation="include">
+        </childnode>
+      </node>
+      <node id="2183">
+        <label>src/doxygen.h</label>
+        <link refid="d1/da1/doxygen_8h_source"/>
+        <childnode refid="2134" relation="include">
+        </childnode>
+        <childnode refid="2135" relation="include">
+        </childnode>
+        <childnode refid="2138" relation="include">
+        </childnode>
+        <childnode refid="2140" relation="include">
+        </childnode>
+        <childnode refid="2141" relation="include">
+        </childnode>
+        <childnode refid="2142" relation="include">
+        </childnode>
+        <childnode refid="2143" relation="include">
+        </childnode>
+        <childnode refid="2144" relation="include">
+        </childnode>
+        <childnode refid="2145" relation="include">
+        </childnode>
+        <childnode refid="2146" relation="include">
+        </childnode>
+        <childnode refid="2147" relation="include">
+        </childnode>
+        <childnode refid="2148" relation="include">
+        </childnode>
+        <childnode refid="2149" relation="include">
+        </childnode>
+        <childnode refid="2184" relation="include">
+        </childnode>
+        <childnode refid="2150" relation="include">
+        </childnode>
+        <childnode refid="2152" relation="include">
+        </childnode>
+        <childnode refid="2153" relation="include">
+        </childnode>
+        <childnode refid="2154" relation="include">
+        </childnode>
+        <childnode refid="2156" relation="include">
+        </childnode>
+        <childnode refid="2157" relation="include">
+        </childnode>
+        <childnode refid="2158" relation="include">
+        </childnode>
+        <childnode refid="2160" relation="include">
+        </childnode>
+        <childnode refid="2162" relation="include">
+        </childnode>
+        <childnode refid="2163" relation="include">
+        </childnode>
+        <childnode refid="2164" relation="include">
+        </childnode>
+        <childnode refid="2185" relation="include">
+        </childnode>
+        <childnode refid="2186" relation="include">
+        </childnode>
+        <childnode refid="2165" relation="include">
+        </childnode>
+        <childnode refid="2166" relation="include">
+        </childnode>
+        <childnode refid="2167" relation="include">
+        </childnode>
+        <childnode refid="2187" relation="include">
+        </childnode>
+        <childnode refid="2168" relation="include">
+        </childnode>
+        <childnode refid="2169" relation="include">
+        </childnode>
+        <childnode refid="2170" relation="include">
+        </childnode>
+        <childnode refid="2171" relation="include">
+        </childnode>
+        <childnode refid="2173" relation="include">
+        </childnode>
+        <childnode refid="2174" relation="include">
+        </childnode>
+        <childnode refid="2175" relation="include">
+        </childnode>
+        <childnode refid="2176" relation="include">
+        </childnode>
+        <childnode refid="2177" relation="include">
+        </childnode>
+        <childnode refid="2178" relation="include">
+        </childnode>
+        <childnode refid="2188" relation="include">
+        </childnode>
+        <childnode refid="2179" relation="include">
+        </childnode>
+        <childnode refid="2180" relation="include">
+        </childnode>
+        <childnode refid="2181" relation="include">
+        </childnode>
+        <childnode refid="2182" relation="include">
+        </childnode>
+      </node>
+      <node id="2136">
+        <label>src/condparser.cpp</label>
+        <link refid="d7/d6d/condparser_8cpp_source"/>
+      </node>
+      <node id="2137">
+        <label>src/configoptions.cpp</label>
+        <link refid="d5/dbd/configoptions_8cpp_source"/>
+      </node>
+      <node id="2189">
+        <label>src/htmlhelp.h</label>
+        <link refid="d8/dc3/htmlhelp_8h_source"/>
+        <childnode refid="2134" relation="include">
+        </childnode>
+        <childnode refid="2148" relation="include">
+        </childnode>
+        <childnode refid="2157" relation="include">
+        </childnode>
+        <childnode refid="2158" relation="include">
+        </childnode>
+        <childnode refid="2160" relation="include">
+        </childnode>
+        <childnode refid="2167" relation="include">
+        </childnode>
+        <childnode refid="2179" relation="include">
+        </childnode>
+      </node>
+      <node id="2133">
+        <label>src/cite.cpp</label>
+        <link refid="d5/d0b/cite_8cpp_source"/>
+      </node>
+      <node id="2195">
+        <label>src/rtfgen.h</label>
+        <link refid="d4/daa/rtfgen_8h_source"/>
+        <childnode refid="2148" relation="include">
+        </childnode>
+        <childnode refid="2177" relation="include">
+        </childnode>
+      </node>
+      <node id="2185">
+        <label>src/main.cpp</label>
+        <link refid="df/d0a/main_8cpp"/>
+      </node>
+      <node id="2166">
+        <label>src/markdown.cpp</label>
+        <link refid="de/d04/markdown_8cpp_source"/>
+      </node>
+      <node id="2158">
+        <label>src/htmlhelp.cpp</label>
+        <link refid="d3/d4b/htmlhelp_8cpp_source"/>
+      </node>
+      <node id="2141">
+        <label>src/diagram.cpp</label>
+        <link refid="da/d0d/diagram_8cpp_source"/>
+      </node>
+      <node id="2161">
+        <label>src/language.cpp</label>
+        <link refid="d2/d48/language_8cpp_source"/>
+      </node>
+      <node id="2134">
+        <label>src/classdef.cpp</label>
+        <link refid="de/d89/classdef_8cpp_source"/>
+      </node>
+      <node id="2194">
+        <label>src/mangen.h</label>
+        <link refid="da/dc0/mangen_8h_source"/>
+        <childnode refid="2148" relation="include">
+        </childnode>
+        <childnode refid="2165" relation="include">
+        </childnode>
+      </node>
+      <node id="2163">
+        <label>src/latexgen.cpp</label>
+        <link refid="d4/d42/latexgen_8cpp_source"/>
+      </node>
+      <node id="2172">
+        <label>src/outputlist.cpp</label>
+        <link refid="db/dd8/outputlist_8cpp"/>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="dc/d3c/class_f_text_stream" prot="public">FTextStream</innerclass>
+      <sectiondef kind="typedef">
+      <memberdef kind="typedef" id="df/d83/ftextstream_8h_1af4bc88d49e20a97d6a5cc157bbcea929" prot="public" static="no">
+        <type><ref refid="dc/d3c/class_f_text_stream" kindref="compound">FTextStream</ref> &amp;(*</type>
+        <definition>typedef FTextStream&amp;(* FTSFUNC)(FTextStream &amp;)</definition>
+        <argsstring>)(FTextStream &amp;)</argsstring>
+        <name>FTSFUNC</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/ftextstream.h" line="72" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/ftextstream.h" bodystart="72" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="df/d83/ftextstream_8h_1ae8d0634defcf1ed951bd5627abc82e5e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="dc/d3c/class_f_text_stream" kindref="compound">FTextStream</ref> &amp;</type>
+        <definition>FTextStream&amp; operator&lt;&lt;</definition>
+        <argsstring>(FTextStream &amp;s, FTSFUNC f)</argsstring>
+        <name>operator&lt;&lt;</name>
+        <param>
+          <type><ref refid="dc/d3c/class_f_text_stream" kindref="compound">FTextStream</ref> &amp;</type>
+          <declname>s</declname>
+        </param>
+        <param>
+          <type>FTSFUNC</type>
+          <declname>f</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/ftextstream.h" line="75" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/ftextstream.h" bodystart="74" bodyend="75"/>
+      </memberdef>
+      <memberdef kind="function" id="df/d83/ftextstream_8h_1ab68d38e5aa0ddd5fc060bbf7019a4954" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="dc/d3c/class_f_text_stream" kindref="compound">FTextStream</ref> &amp;</type>
+        <definition>FTextStream&amp; endl</definition>
+        <argsstring>(FTextStream &amp;s)</argsstring>
+        <name>endl</name>
+        <param>
+          <type><ref refid="dc/d3c/class_f_text_stream" kindref="compound">FTextStream</ref> &amp;</type>
+          <declname>s</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/ftextstream.h" line="78" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/ftextstream.h" bodystart="77" bodyend="80"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#ifndef<sp/>FTEXTSTREAM_H</highlight></codeline>
+<codeline lineno="2"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>FTEXTSTREAM_H</highlight></codeline>
+<codeline lineno="3"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stdio.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;qiodevice.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;qstring.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;qgstring.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight></codeline>
+<codeline lineno="11" refid="dc/d3c/class_f_text_stream" refkind="compound"><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="dc/d3c/class_f_text_stream" kindref="compound" tooltip="Simplified and optimized version of QTextStream.">FTextStream</ref></highlight></codeline>
+<codeline lineno="12"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="dc/d3c/class_f_text_stream" kindref="compound" tooltip="Simplified and optimized version of QTextStream.">FTextStream</ref>();</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="dc/d3c/class_f_text_stream" kindref="compound" tooltip="Simplified and optimized version of QTextStream.">FTextStream</ref>(<sp/>QIODevice<sp/>*<sp/>);</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="dc/d3c/class_f_text_stream" kindref="compound" tooltip="Simplified and optimized version of QTextStream.">FTextStream</ref>(<sp/>QGString<sp/>*<sp/>);</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="dc/d3c/class_f_text_stream" kindref="compound" tooltip="Simplified and optimized version of QTextStream.">FTextStream</ref>(<sp/>FILE<sp/>*<sp/>);</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/>~<ref refid="dc/d3c/class_f_text_stream" kindref="compound" tooltip="Simplified and optimized version of QTextStream.">FTextStream</ref>();</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/>QIODevice<sp/><sp/><sp/>*device()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>setDevice(<sp/>QIODevice<sp/>*<sp/>);</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>unsetDevice();</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="dc/d3c/class_f_text_stream" kindref="compound" tooltip="Simplified and optimized version of QTextStream.">FTextStream</ref><sp/>&amp;operator&lt;&lt;(<sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>);</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="dc/d3c/class_f_text_stream" kindref="compound" tooltip="Simplified and optimized version of QTextStream.">FTextStream</ref><sp/>&amp;operator&lt;&lt;(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*);</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="dc/d3c/class_f_text_stream" kindref="compound" tooltip="Simplified and optimized version of QTextStream.">FTextStream</ref><sp/>&amp;operator&lt;&lt;(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QString<sp/>&amp;<sp/>);</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="dc/d3c/class_f_text_stream" kindref="compound" tooltip="Simplified and optimized version of QTextStream.">FTextStream</ref><sp/>&amp;operator&lt;&lt;(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QCString<sp/>&amp;<sp/>);</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="dc/d3c/class_f_text_stream" kindref="compound" tooltip="Simplified and optimized version of QTextStream.">FTextStream</ref><sp/>&amp;operator&lt;&lt;(<sp/></highlight><highlight class="keywordtype">signed</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">short</highlight><highlight class="normal"><sp/>);</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="dc/d3c/class_f_text_stream" kindref="compound" tooltip="Simplified and optimized version of QTextStream.">FTextStream</ref><sp/>&amp;operator&lt;&lt;(<sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">short</highlight><highlight class="normal"><sp/>);</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="dc/d3c/class_f_text_stream" kindref="compound" tooltip="Simplified and optimized version of QTextStream.">FTextStream</ref><sp/>&amp;operator&lt;&lt;(<sp/></highlight><highlight class="keywordtype">signed</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>);</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="dc/d3c/class_f_text_stream" kindref="compound" tooltip="Simplified and optimized version of QTextStream.">FTextStream</ref><sp/>&amp;operator&lt;&lt;(<sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>);</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="dc/d3c/class_f_text_stream" kindref="compound" tooltip="Simplified and optimized version of QTextStream.">FTextStream</ref><sp/>&amp;operator&lt;&lt;(<sp/></highlight><highlight class="keywordtype">signed</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/>);</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="dc/d3c/class_f_text_stream" kindref="compound" tooltip="Simplified and optimized version of QTextStream.">FTextStream</ref><sp/>&amp;operator&lt;&lt;(<sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/>);</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="dc/d3c/class_f_text_stream" kindref="compound" tooltip="Simplified and optimized version of QTextStream.">FTextStream</ref><sp/>&amp;operator&lt;&lt;(<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>);</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="dc/d3c/class_f_text_stream" kindref="compound" tooltip="Simplified and optimized version of QTextStream.">FTextStream</ref><sp/>&amp;operator&lt;&lt;(<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>);</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"></highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/>QIODevice<sp/>*m_dev;</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>m_owndev;</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="dc/d3c/class_f_text_stream" kindref="compound" tooltip="Simplified and optimized version of QTextStream.">FTextStream</ref><sp/>&amp;output_int(<sp/>ulong<sp/>n,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>neg<sp/>);</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"></highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal">:<sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Disabled<sp/>copy<sp/>constructor<sp/>and<sp/>operator=</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="43"><highlight class="normal"></highlight><highlight class="preprocessor">#if<sp/>defined(Q_DISABLE_COPY)</highlight></codeline>
+<codeline lineno="44"><highlight class="preprocessor"></highlight><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="dc/d3c/class_f_text_stream" kindref="compound" tooltip="Simplified and optimized version of QTextStream.">FTextStream</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="dc/d3c/class_f_text_stream" kindref="compound" tooltip="Simplified and optimized version of QTextStream.">FTextStream</ref><sp/>&amp;<sp/>);</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="dc/d3c/class_f_text_stream" kindref="compound" tooltip="Simplified and optimized version of QTextStream.">FTextStream</ref><sp/>&amp;operator=(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="dc/d3c/class_f_text_stream" kindref="compound" tooltip="Simplified and optimized version of QTextStream.">FTextStream</ref><sp/>&amp;<sp/>);</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+<codeline lineno="47"><highlight class="preprocessor"></highlight><highlight class="normal">};</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"></highlight></codeline>
+<codeline lineno="49"><highlight class="normal"></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/><ref refid="dc/d3c/class_f_text_stream" kindref="compound" tooltip="Simplified and optimized version of QTextStream.">FTextStream</ref><sp/>&amp;FTextStream::operator&lt;&lt;(<sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>c)</highlight></codeline>
+<codeline lineno="50"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"><sp/><sp/>m_dev-&gt;putch(c);</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>*</highlight><highlight class="keyword">this</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="53"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"></highlight></codeline>
+<codeline lineno="55"><highlight class="normal"></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/><ref refid="dc/d3c/class_f_text_stream" kindref="compound" tooltip="Simplified and optimized version of QTextStream.">FTextStream</ref><sp/>&amp;FTextStream::operator&lt;&lt;(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal">*<sp/>s)</highlight></codeline>
+<codeline lineno="56"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="57"><highlight class="normal"><sp/><sp/>uint<sp/>len<sp/>=<sp/>qstrlen(<sp/>s<sp/>);</highlight></codeline>
+<codeline lineno="58"><highlight class="normal"><sp/><sp/>m_dev-&gt;writeBlock(<sp/>s,<sp/>len<sp/>);</highlight></codeline>
+<codeline lineno="59"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>*</highlight><highlight class="keyword">this</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="60"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="61"><highlight class="normal"></highlight></codeline>
+<codeline lineno="62"><highlight class="normal"></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/><ref refid="dc/d3c/class_f_text_stream" kindref="compound" tooltip="Simplified and optimized version of QTextStream.">FTextStream</ref><sp/>&amp;FTextStream::operator&lt;&lt;(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QString<sp/>&amp;<sp/>s)</highlight></codeline>
+<codeline lineno="63"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="64"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>operator&lt;&lt;(s.data());</highlight></codeline>
+<codeline lineno="65"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="66"><highlight class="normal"></highlight></codeline>
+<codeline lineno="67"><highlight class="normal"></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/><ref refid="dc/d3c/class_f_text_stream" kindref="compound" tooltip="Simplified and optimized version of QTextStream.">FTextStream</ref><sp/>&amp;FTextStream::operator&lt;&lt;(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QCString<sp/>&amp;s)</highlight></codeline>
+<codeline lineno="68"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="69"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>operator&lt;&lt;(s.data());</highlight></codeline>
+<codeline lineno="70"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="71"><highlight class="normal"></highlight></codeline>
+<codeline lineno="72"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/><ref refid="dc/d3c/class_f_text_stream" kindref="compound" tooltip="Simplified and optimized version of QTextStream.">FTextStream</ref><sp/>&amp;<sp/>(*FTSFUNC)(<ref refid="dc/d3c/class_f_text_stream" kindref="compound" tooltip="Simplified and optimized version of QTextStream.">FTextStream</ref><sp/>&amp;);</highlight><highlight class="comment">//<sp/>manipulator<sp/>function</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="73"><highlight class="normal"></highlight></codeline>
+<codeline lineno="74"><highlight class="normal"></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/><ref refid="dc/d3c/class_f_text_stream" kindref="compound" tooltip="Simplified and optimized version of QTextStream.">FTextStream</ref><sp/>&amp;operator&lt;&lt;(<sp/><ref refid="dc/d3c/class_f_text_stream" kindref="compound" tooltip="Simplified and optimized version of QTextStream.">FTextStream</ref><sp/>&amp;s,<sp/>FTSFUNC<sp/>f<sp/>)</highlight></codeline>
+<codeline lineno="75"><highlight class="normal">{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>(*f)(<sp/>s<sp/>);<sp/>}</highlight></codeline>
+<codeline lineno="76"><highlight class="normal"></highlight></codeline>
+<codeline lineno="77"><highlight class="normal"></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/><ref refid="dc/d3c/class_f_text_stream" kindref="compound" tooltip="Simplified and optimized version of QTextStream.">FTextStream</ref><sp/>&amp;endl(<sp/><ref refid="dc/d3c/class_f_text_stream" kindref="compound" tooltip="Simplified and optimized version of QTextStream.">FTextStream</ref><sp/>&amp;<sp/>s)</highlight></codeline>
+<codeline lineno="78"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="79"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>s<sp/>&lt;&lt;<sp/></highlight><highlight class="charliteral">&apos;\n&apos;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="80"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="81"><highlight class="normal"></highlight></codeline>
+<codeline lineno="82"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/>//<sp/>FTEXTSTREAM_H</highlight></codeline>
+    </programlisting>
+    <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/ftextstream.h"/>
+  </compounddef>
+</doxygen>

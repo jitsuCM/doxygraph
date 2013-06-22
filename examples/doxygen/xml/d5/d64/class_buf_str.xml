@@ -1,0 +1,326 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.2">
+  <compounddef id="d5/d64/class_buf_str" kind="class" prot="public">
+    <compoundname>BufStr</compoundname>
+    <includes refid="d4/de5/bufstr_8h" local="no">bufstr.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="d5/d64/class_buf_str_1a92937b35721f17bb66aee8c18cc387dd" prot="private" static="no" mutable="no">
+        <type>uint</type>
+        <definition>uint BufStr::m_size</definition>
+        <argsstring></argsstring>
+        <name>m_size</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/bufstr.h" line="111" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/bufstr.h" bodystart="111" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d5/d64/class_buf_str_1a775fcc3193c4109af7e917a186c34172" prot="private" static="no" mutable="no">
+        <type>uint</type>
+        <definition>uint BufStr::m_writeOffset</definition>
+        <argsstring></argsstring>
+        <name>m_writeOffset</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/bufstr.h" line="112" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/bufstr.h" bodystart="112" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d5/d64/class_buf_str_1a5e8f567aeb4a08f9e6522ff60abeb14b" prot="private" static="no" mutable="no">
+        <type>const int</type>
+        <definition>const int BufStr::m_spareRoom</definition>
+        <argsstring></argsstring>
+        <name>m_spareRoom</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/bufstr.h" line="113" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/bufstr.h" bodystart="113" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d5/d64/class_buf_str_1a187f114a1ceb45e5670f7ebf497d64f7" prot="private" static="no" mutable="no">
+        <type>char *</type>
+        <definition>char* BufStr::m_buf</definition>
+        <argsstring></argsstring>
+        <name>m_buf</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/bufstr.h" line="114" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/bufstr.h" bodystart="114" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="d5/d64/class_buf_str_1ad752ce74eb8d9ca7d546836f09ba448b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>BufStr::BufStr</definition>
+        <argsstring>(int size)</argsstring>
+        <name>BufStr</name>
+        <param>
+          <type>int</type>
+          <declname>size</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/bufstr.h" line="35" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/bufstr.h" bodystart="33" bodyend="37"/>
+      </memberdef>
+      <memberdef kind="function" id="d5/d64/class_buf_str_1aceb0e03981b7c20ee59616b2ecde261a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>BufStr::~BufStr</definition>
+        <argsstring>()</argsstring>
+        <name>~BufStr</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/bufstr.h" line="39" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/bufstr.h" bodystart="38" bodyend="41"/>
+      </memberdef>
+      <memberdef kind="function" id="d5/d64/class_buf_str_1a36ec062edea86b33b794eeab37f32b1c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void BufStr::addChar</definition>
+        <argsstring>(char c)</argsstring>
+        <name>addChar</name>
+        <param>
+          <type>char</type>
+          <declname>c</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/bufstr.h" line="43" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/bufstr.h" bodystart="42" bodyend="46"/>
+      </memberdef>
+      <memberdef kind="function" id="d5/d64/class_buf_str_1a81957fec77e64ad1a7c75e2994d903ec" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void BufStr::addArray</definition>
+        <argsstring>(const char *a, int len)</argsstring>
+        <name>addArray</name>
+        <param>
+          <type>const char *</type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>len</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/bufstr.h" line="48" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/bufstr.h" bodystart="47" bodyend="52"/>
+      </memberdef>
+      <memberdef kind="function" id="d5/d64/class_buf_str_1a9cc2457c5bf9f46db797dbf5c86f7be2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void BufStr::skip</definition>
+        <argsstring>(uint s)</argsstring>
+        <name>skip</name>
+        <param>
+          <type>uint</type>
+          <declname>s</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/bufstr.h" line="54" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/bufstr.h" bodystart="53" bodyend="57"/>
+      </memberdef>
+      <memberdef kind="function" id="d5/d64/class_buf_str_1a11fc0e89dd066db9395751269c6a761f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void BufStr::shrink</definition>
+        <argsstring>(uint newlen)</argsstring>
+        <name>shrink</name>
+        <param>
+          <type>uint</type>
+          <declname>newlen</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/bufstr.h" line="59" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/bufstr.h" bodystart="58" bodyend="62"/>
+      </memberdef>
+      <memberdef kind="function" id="d5/d64/class_buf_str_1af87ab9881190162554a0ace539be4b75" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void BufStr::resize</definition>
+        <argsstring>(uint newlen)</argsstring>
+        <name>resize</name>
+        <param>
+          <type>uint</type>
+          <declname>newlen</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/bufstr.h" line="64" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/bufstr.h" bodystart="63" bodyend="71"/>
+      </memberdef>
+      <memberdef kind="function" id="d5/d64/class_buf_str_1a4554519665ffeb764a8edbaf4f10d92c" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int BufStr::size</definition>
+        <argsstring>() const </argsstring>
+        <name>size</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/bufstr.h" line="73" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/bufstr.h" bodystart="72" bodyend="75"/>
+      </memberdef>
+      <memberdef kind="function" id="d5/d64/class_buf_str_1a366417fab189ed2b6a2c6a834623d51d" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>char *</type>
+        <definition>char* BufStr::data</definition>
+        <argsstring>() const </argsstring>
+        <name>data</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/bufstr.h" line="77" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/bufstr.h" bodystart="76" bodyend="79"/>
+      </memberdef>
+      <memberdef kind="function" id="d5/d64/class_buf_str_1a6bfff13e0f1a32c7183d0515df4ff2fe" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>char &amp;</type>
+        <definition>char&amp; BufStr::at</definition>
+        <argsstring>(uint i) const </argsstring>
+        <name>at</name>
+        <param>
+          <type>uint</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/bufstr.h" line="81" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/bufstr.h" bodystart="80" bodyend="83"/>
+      </memberdef>
+      <memberdef kind="function" id="d5/d64/class_buf_str_1ab8686c113e0dfb864031f680fc32af90" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool BufStr::isEmpty</definition>
+        <argsstring>() const </argsstring>
+        <name>isEmpty</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/bufstr.h" line="85" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/bufstr.h" bodystart="84" bodyend="87"/>
+      </memberdef>
+      <memberdef kind="function" id="d5/d64/class_buf_str_1a297a176c378703c5ff616bbae3e36e7c" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>BufStr::operator const char *</definition>
+        <argsstring>() const </argsstring>
+        <name>operator const char *</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/bufstr.h" line="89" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/bufstr.h" bodystart="88" bodyend="91"/>
+      </memberdef>
+      <memberdef kind="function" id="d5/d64/class_buf_str_1a15a1b0488ef8d61f34f6fb12ddb30078" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>uint</type>
+        <definition>uint BufStr::curPos</definition>
+        <argsstring>() const </argsstring>
+        <name>curPos</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/bufstr.h" line="93" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/bufstr.h" bodystart="92" bodyend="95"/>
+      </memberdef>
+      <memberdef kind="function" id="d5/d64/class_buf_str_1a583b684f2a7ad02fadbe9caef14af656" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void BufStr::dropFromStart</definition>
+        <argsstring>(uint bytes)</argsstring>
+        <name>dropFromStart</name>
+        <param>
+          <type>uint</type>
+          <declname>bytes</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/bufstr.h" line="97" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/bufstr.h" bodystart="96" bodyend="102"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="d5/d64/class_buf_str_1a43f73c348a5a624bce092c49a5d6b0a2" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void BufStr::makeRoomFor</definition>
+        <argsstring>(uint size)</argsstring>
+        <name>makeRoomFor</name>
+        <param>
+          <type>uint</type>
+          <declname>size</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/bufstr.h" line="105" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/bufstr.h" bodystart="104" bodyend="110"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Buffer used to store strings. </para>    </briefdescription>
+    <detaileddescription>
+<para>This buffer is used append characters and strings. It will automatically resize itself, yet provide efficient random access to the content. </para>    </detaileddescription>
+    <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/bufstr.h" line="31" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/bufstr.h" bodystart="30" bodyend="115"/>
+    <listofallmembers>
+      <member refid="d5/d64/class_buf_str_1a81957fec77e64ad1a7c75e2994d903ec" prot="public" virt="non-virtual"><scope>BufStr</scope><name>addArray</name></member>
+      <member refid="d5/d64/class_buf_str_1a36ec062edea86b33b794eeab37f32b1c" prot="public" virt="non-virtual"><scope>BufStr</scope><name>addChar</name></member>
+      <member refid="d5/d64/class_buf_str_1a6bfff13e0f1a32c7183d0515df4ff2fe" prot="public" virt="non-virtual"><scope>BufStr</scope><name>at</name></member>
+      <member refid="d5/d64/class_buf_str_1ad752ce74eb8d9ca7d546836f09ba448b" prot="public" virt="non-virtual"><scope>BufStr</scope><name>BufStr</name></member>
+      <member refid="d5/d64/class_buf_str_1a15a1b0488ef8d61f34f6fb12ddb30078" prot="public" virt="non-virtual"><scope>BufStr</scope><name>curPos</name></member>
+      <member refid="d5/d64/class_buf_str_1a366417fab189ed2b6a2c6a834623d51d" prot="public" virt="non-virtual"><scope>BufStr</scope><name>data</name></member>
+      <member refid="d5/d64/class_buf_str_1a583b684f2a7ad02fadbe9caef14af656" prot="public" virt="non-virtual"><scope>BufStr</scope><name>dropFromStart</name></member>
+      <member refid="d5/d64/class_buf_str_1ab8686c113e0dfb864031f680fc32af90" prot="public" virt="non-virtual"><scope>BufStr</scope><name>isEmpty</name></member>
+      <member refid="d5/d64/class_buf_str_1a187f114a1ceb45e5670f7ebf497d64f7" prot="private" virt="non-virtual"><scope>BufStr</scope><name>m_buf</name></member>
+      <member refid="d5/d64/class_buf_str_1a92937b35721f17bb66aee8c18cc387dd" prot="private" virt="non-virtual"><scope>BufStr</scope><name>m_size</name></member>
+      <member refid="d5/d64/class_buf_str_1a5e8f567aeb4a08f9e6522ff60abeb14b" prot="private" virt="non-virtual"><scope>BufStr</scope><name>m_spareRoom</name></member>
+      <member refid="d5/d64/class_buf_str_1a775fcc3193c4109af7e917a186c34172" prot="private" virt="non-virtual"><scope>BufStr</scope><name>m_writeOffset</name></member>
+      <member refid="d5/d64/class_buf_str_1a43f73c348a5a624bce092c49a5d6b0a2" prot="private" virt="non-virtual"><scope>BufStr</scope><name>makeRoomFor</name></member>
+      <member refid="d5/d64/class_buf_str_1a297a176c378703c5ff616bbae3e36e7c" prot="public" virt="non-virtual"><scope>BufStr</scope><name>operator const char *</name></member>
+      <member refid="d5/d64/class_buf_str_1af87ab9881190162554a0ace539be4b75" prot="public" virt="non-virtual"><scope>BufStr</scope><name>resize</name></member>
+      <member refid="d5/d64/class_buf_str_1a11fc0e89dd066db9395751269c6a761f" prot="public" virt="non-virtual"><scope>BufStr</scope><name>shrink</name></member>
+      <member refid="d5/d64/class_buf_str_1a4554519665ffeb764a8edbaf4f10d92c" prot="public" virt="non-virtual"><scope>BufStr</scope><name>size</name></member>
+      <member refid="d5/d64/class_buf_str_1a9cc2457c5bf9f46db797dbf5c86f7be2" prot="public" virt="non-virtual"><scope>BufStr</scope><name>skip</name></member>
+      <member refid="d5/d64/class_buf_str_1aceb0e03981b7c20ee59616b2ecde261a" prot="public" virt="non-virtual"><scope>BufStr</scope><name>~BufStr</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

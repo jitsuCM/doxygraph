@@ -1,0 +1,1516 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.2">
+  <compounddef id="d3/d42/cmdmapper_8h" kind="file">
+    <compoundname>cmdmapper.h</compoundname>
+    <includes local="no">qdict.h</includes>
+    <includedby refid="df/df1/cmdmapper_8cpp" local="yes">src/cmdmapper.cpp</includedby>
+    <includedby refid="da/d17/docparser_8cpp" local="yes">src/docparser.cpp</includedby>
+    <includedby refid="dc/d98/doxygen_8cpp" local="yes">src/doxygen.cpp</includedby>
+    <incdepgraph>
+      <node id="610">
+        <label>qdict.h</label>
+      </node>
+      <node id="609">
+        <label>src/cmdmapper.h</label>
+        <link refid="cmdmapper.h"/>
+        <childnode refid="610" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="613">
+        <label>src/docparser.cpp</label>
+        <link refid="da/d17/docparser_8cpp_source"/>
+      </node>
+      <node id="614">
+        <label>src/doxygen.cpp</label>
+        <link refid="dc/d98/doxygen_8cpp_source"/>
+      </node>
+      <node id="612">
+        <label>src/cmdmapper.cpp</label>
+        <link refid="df/df1/cmdmapper_8cpp_source"/>
+      </node>
+      <node id="611">
+        <label>src/cmdmapper.h</label>
+        <link refid="cmdmapper.h"/>
+        <childnode refid="612" relation="include">
+        </childnode>
+        <childnode refid="613" relation="include">
+        </childnode>
+        <childnode refid="614" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="d9/d09/class_mapper" prot="public">Mapper</innerclass>
+    <innerclass refid="dd/dc6/struct_mappers" prot="public">Mappers</innerclass>
+      <sectiondef kind="enum">
+      <memberdef kind="enum" id="d3/d42/cmdmapper_8h_1a21e038f5b8958e203d28bc4f18472352" prot="public" static="no">
+        <name>CommandType</name>
+        <enumvalue id="d3/d42/cmdmapper_8h_1a21e038f5b8958e203d28bc4f18472352a59c51f88aeda3ea6351f01c9c70b9ac7" prot="public">
+          <name>CMD_UNKNOWN</name>
+          <initializer>= 0</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d3/d42/cmdmapper_8h_1a21e038f5b8958e203d28bc4f18472352a46f97c0157cebb6ac65f5e6f4170b320" prot="public">
+          <name>CMD_ADDINDEX</name>
+          <initializer>= 1</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d3/d42/cmdmapper_8h_1a21e038f5b8958e203d28bc4f18472352a09f01a9578d7bd6c25aeb04f900408a7" prot="public">
+          <name>CMD_AMP</name>
+          <initializer>= 2</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d3/d42/cmdmapper_8h_1a21e038f5b8958e203d28bc4f18472352a2ccf6f47c5b51878ea810ddef9969c2d" prot="public">
+          <name>CMD_ANCHOR</name>
+          <initializer>= 3</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d3/d42/cmdmapper_8h_1a21e038f5b8958e203d28bc4f18472352a08d080ed693ae3d57daeeadba389b28e" prot="public">
+          <name>CMD_AT</name>
+          <initializer>= 4</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d3/d42/cmdmapper_8h_1a21e038f5b8958e203d28bc4f18472352af8ebefd0fa31474105e85b3ac921339c" prot="public">
+          <name>CMD_ATTENTION</name>
+          <initializer>= 5  | SIMPLESECT_BIT</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d3/d42/cmdmapper_8h_1a21e038f5b8958e203d28bc4f18472352ac8b40ab6cfa015c5510896e978b217b3" prot="public">
+          <name>CMD_AUTHOR</name>
+          <initializer>= 6  | SIMPLESECT_BIT</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d3/d42/cmdmapper_8h_1a21e038f5b8958e203d28bc4f18472352a391a0d10fe9a019553ec57d9cb1d4b80" prot="public">
+          <name>CMD_AUTHORS</name>
+          <initializer>= 7  | SIMPLESECT_BIT</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d3/d42/cmdmapper_8h_1a21e038f5b8958e203d28bc4f18472352abe2881ab8d2d66c0e8193c00381e3909" prot="public">
+          <name>CMD_BOLD</name>
+          <initializer>= 8</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d3/d42/cmdmapper_8h_1a21e038f5b8958e203d28bc4f18472352a0bce2c912e5c4a050a5e6a85c204ee42" prot="public">
+          <name>CMD_BSLASH</name>
+          <initializer>= 9</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d3/d42/cmdmapper_8h_1a21e038f5b8958e203d28bc4f18472352a8ab4f4613d5c037b9c56432a504b6d28" prot="public">
+          <name>CMD_CODE</name>
+          <initializer>= 10</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d3/d42/cmdmapper_8h_1a21e038f5b8958e203d28bc4f18472352a92c4be5128f4e797696eb7820adc9b70" prot="public">
+          <name>CMD_COPYDOC</name>
+          <initializer>= 11</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d3/d42/cmdmapper_8h_1a21e038f5b8958e203d28bc4f18472352a86e8e7aeaa2295e4450f9f995bdaf2a8" prot="public">
+          <name>CMD_DATE</name>
+          <initializer>= 12 | SIMPLESECT_BIT</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d3/d42/cmdmapper_8h_1a21e038f5b8958e203d28bc4f18472352af3806ce757d79f91163410b8243d475f" prot="public">
+          <name>CMD_DOLLAR</name>
+          <initializer>= 13</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d3/d42/cmdmapper_8h_1a21e038f5b8958e203d28bc4f18472352a015760c7f8c8938ed8e3fa97edd06ebf" prot="public">
+          <name>CMD_DONTINCLUDE</name>
+          <initializer>= 14</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d3/d42/cmdmapper_8h_1a21e038f5b8958e203d28bc4f18472352a03af4e9e21a23eb1628ed875f0156867" prot="public">
+          <name>CMD_DOTFILE</name>
+          <initializer>= 15</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d3/d42/cmdmapper_8h_1a21e038f5b8958e203d28bc4f18472352aac985a4be59c37a5bda46b6c5607a8ed" prot="public">
+          <name>CMD_EMPHASIS</name>
+          <initializer>= 16</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d3/d42/cmdmapper_8h_1a21e038f5b8958e203d28bc4f18472352afd5d9d62bc72addbf29c3184c296798f" prot="public">
+          <name>CMD_ENDCODE</name>
+          <initializer>= 17</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d3/d42/cmdmapper_8h_1a21e038f5b8958e203d28bc4f18472352aa2b25243d360e41264458cb803d4a22e" prot="public">
+          <name>CMD_ENDHTMLONLY</name>
+          <initializer>= 18</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d3/d42/cmdmapper_8h_1a21e038f5b8958e203d28bc4f18472352a110122ca57971285ef331a7f970736fa" prot="public">
+          <name>CMD_ENDLATEXONLY</name>
+          <initializer>= 19</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d3/d42/cmdmapper_8h_1a21e038f5b8958e203d28bc4f18472352aa4dc70d377e34b2a60453c8a1b674381" prot="public">
+          <name>CMD_ENDLINK</name>
+          <initializer>= 20</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d3/d42/cmdmapper_8h_1a21e038f5b8958e203d28bc4f18472352ab144f71820405a27afae416e579bca4a" prot="public">
+          <name>CMD_ENDSECREFLIST</name>
+          <initializer>= 21</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d3/d42/cmdmapper_8h_1a21e038f5b8958e203d28bc4f18472352a2b0b8a261825e20981d225db5e593e82" prot="public">
+          <name>CMD_ENDVERBATIM</name>
+          <initializer>= 22</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d3/d42/cmdmapper_8h_1a21e038f5b8958e203d28bc4f18472352acdd92cdea978475a76af7c309b1b894c" prot="public">
+          <name>CMD_ENDXMLONLY</name>
+          <initializer>= 23</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d3/d42/cmdmapper_8h_1a21e038f5b8958e203d28bc4f18472352abe401b90d4d1c2a955cfede5a03adb22" prot="public">
+          <name>CMD_EXCEPTION</name>
+          <initializer>= 24 | SIMPLESECT_BIT</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d3/d42/cmdmapper_8h_1a21e038f5b8958e203d28bc4f18472352af05d1a0f394992a9a446d10753e9a05f" prot="public">
+          <name>CMD_FORMULA</name>
+          <initializer>= 25</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d3/d42/cmdmapper_8h_1a21e038f5b8958e203d28bc4f18472352a726d9578393b5e3b465db7f8c229a01e" prot="public">
+          <name>CMD_GREATER</name>
+          <initializer>= 26</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d3/d42/cmdmapper_8h_1a21e038f5b8958e203d28bc4f18472352a47da9933b5dff07d6afae70cbfa647b8" prot="public">
+          <name>CMD_HASH</name>
+          <initializer>= 27</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d3/d42/cmdmapper_8h_1a21e038f5b8958e203d28bc4f18472352adae53dd7c50f13a85a89b1dc0b8d4041" prot="public">
+          <name>CMD_HTMLINCLUDE</name>
+          <initializer>= 28</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d3/d42/cmdmapper_8h_1a21e038f5b8958e203d28bc4f18472352a9f761cf9e2aac1ac177ef0bac1151302" prot="public">
+          <name>CMD_HTMLONLY</name>
+          <initializer>= 29</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d3/d42/cmdmapper_8h_1a21e038f5b8958e203d28bc4f18472352a489f5bfe07b9122b07ae95603b620637" prot="public">
+          <name>CMD_IMAGE</name>
+          <initializer>= 30</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d3/d42/cmdmapper_8h_1a21e038f5b8958e203d28bc4f18472352ab4d1c975213dd44975bc7d120dde4a2a" prot="public">
+          <name>CMD_INCLUDE</name>
+          <initializer>= 31</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d3/d42/cmdmapper_8h_1a21e038f5b8958e203d28bc4f18472352a6665d8f0bcf614404cc57821e7be1d8c" prot="public">
+          <name>CMD_INTERNAL</name>
+          <initializer>= 32</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d3/d42/cmdmapper_8h_1a21e038f5b8958e203d28bc4f18472352ae4d4c7c2d623f6ce76f6dd671e243e6e" prot="public">
+          <name>CMD_INTERNALREF</name>
+          <initializer>= 33</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d3/d42/cmdmapper_8h_1a21e038f5b8958e203d28bc4f18472352ad8c7abc774834caafe87e7c2bd407666" prot="public">
+          <name>CMD_INVARIANT</name>
+          <initializer>= 34 | SIMPLESECT_BIT</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d3/d42/cmdmapper_8h_1a21e038f5b8958e203d28bc4f18472352a60b538ad584eaab529e7a73e5e6acf8e" prot="public">
+          <name>CMD_LATEXONLY</name>
+          <initializer>= 35</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d3/d42/cmdmapper_8h_1a21e038f5b8958e203d28bc4f18472352a3a961d60636b316ed52bd72bcf3f048c" prot="public">
+          <name>CMD_LESS</name>
+          <initializer>= 36</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d3/d42/cmdmapper_8h_1a21e038f5b8958e203d28bc4f18472352a55101ef8bab305f40ec71ee8c7ccb77b" prot="public">
+          <name>CMD_LI</name>
+          <initializer>= 37</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d3/d42/cmdmapper_8h_1a21e038f5b8958e203d28bc4f18472352abb221177213477f4650b63a6d506b291" prot="public">
+          <name>CMD_LINE</name>
+          <initializer>= 38</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d3/d42/cmdmapper_8h_1a21e038f5b8958e203d28bc4f18472352a3a0100e6a1ada0c023dbd1b9ff769577" prot="public">
+          <name>CMD_LINEBREAK</name>
+          <initializer>= 39</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d3/d42/cmdmapper_8h_1a21e038f5b8958e203d28bc4f18472352a0b5a9ce6f811adbe3d817d249fbe44d4" prot="public">
+          <name>CMD_LINK</name>
+          <initializer>= 40</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d3/d42/cmdmapper_8h_1a21e038f5b8958e203d28bc4f18472352acdac039ffed313b2d399933d181ae9c3" prot="public">
+          <name>CMD_NOTE</name>
+          <initializer>= 41 | SIMPLESECT_BIT</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d3/d42/cmdmapper_8h_1a21e038f5b8958e203d28bc4f18472352ada5569a23faea46f5ff18a775d01d8a5" prot="public">
+          <name>CMD_PAR</name>
+          <initializer>= 42 | SIMPLESECT_BIT</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d3/d42/cmdmapper_8h_1a21e038f5b8958e203d28bc4f18472352ad01b24f526e012f70137bed8e5a71b68" prot="public">
+          <name>CMD_PARAM</name>
+          <initializer>= 43 | SIMPLESECT_BIT</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d3/d42/cmdmapper_8h_1a21e038f5b8958e203d28bc4f18472352aca96e5cf3753309844d0949454f78161" prot="public">
+          <name>CMD_PERCENT</name>
+          <initializer>= 44</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d3/d42/cmdmapper_8h_1a21e038f5b8958e203d28bc4f18472352a280d5532836e7a1c79bf385018735299" prot="public">
+          <name>CMD_POST</name>
+          <initializer>= 45 | SIMPLESECT_BIT</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d3/d42/cmdmapper_8h_1a21e038f5b8958e203d28bc4f18472352a59a35d52b97a447d756c2ee16357ba3b" prot="public">
+          <name>CMD_PRE</name>
+          <initializer>= 46 | SIMPLESECT_BIT</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d3/d42/cmdmapper_8h_1a21e038f5b8958e203d28bc4f18472352a7b8f06ae1e48af487c6e23a69ad11bc9" prot="public">
+          <name>CMD_REF</name>
+          <initializer>= 47</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d3/d42/cmdmapper_8h_1a21e038f5b8958e203d28bc4f18472352ae803793081803c1927138f9ea69f6d1b" prot="public">
+          <name>CMD_SECREFITEM</name>
+          <initializer>= 48</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d3/d42/cmdmapper_8h_1a21e038f5b8958e203d28bc4f18472352a77763768ec706ff41b93ccdfbfbc9fc8" prot="public">
+          <name>CMD_REMARK</name>
+          <initializer>= 49 | SIMPLESECT_BIT</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d3/d42/cmdmapper_8h_1a21e038f5b8958e203d28bc4f18472352a958f04212c5e4a3510a98dd4ddc9cacc" prot="public">
+          <name>CMD_RETURN</name>
+          <initializer>= 50 | SIMPLESECT_BIT</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d3/d42/cmdmapper_8h_1a21e038f5b8958e203d28bc4f18472352a3b1b41352af0687e5a3539dc3fa71306" prot="public">
+          <name>CMD_RETVAL</name>
+          <initializer>= 51 | SIMPLESECT_BIT</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d3/d42/cmdmapper_8h_1a21e038f5b8958e203d28bc4f18472352a05dedb991f617814382fc008c9b254af" prot="public">
+          <name>CMD_SA</name>
+          <initializer>= 52 | SIMPLESECT_BIT</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d3/d42/cmdmapper_8h_1a21e038f5b8958e203d28bc4f18472352a55a71bd5670f7e2a3effaf7099f8414b" prot="public">
+          <name>CMD_SECREFLIST</name>
+          <initializer>= 53</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d3/d42/cmdmapper_8h_1a21e038f5b8958e203d28bc4f18472352afbaa664ecc659219f06dd197e53d1103" prot="public">
+          <name>CMD_SECTION</name>
+          <initializer>= 54</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d3/d42/cmdmapper_8h_1a21e038f5b8958e203d28bc4f18472352a526362e9cbc278da3be397e44f8ddd8d" prot="public">
+          <name>CMD_SUBPAGE</name>
+          <initializer>= 55</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d3/d42/cmdmapper_8h_1a21e038f5b8958e203d28bc4f18472352aac8616a48c4f1b08d9ee7e7169900649" prot="public">
+          <name>CMD_SUBSECTION</name>
+          <initializer>= 56</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d3/d42/cmdmapper_8h_1a21e038f5b8958e203d28bc4f18472352a01b80164671b4c46dc9dcc302634ea1b" prot="public">
+          <name>CMD_SUBSUBSECTION</name>
+          <initializer>= 57</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d3/d42/cmdmapper_8h_1a21e038f5b8958e203d28bc4f18472352a91d6f6827880e5e6451c1b9876c029ef" prot="public">
+          <name>CMD_PARAGRAPH</name>
+          <initializer>= 58</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d3/d42/cmdmapper_8h_1a21e038f5b8958e203d28bc4f18472352aa1a49deb0b26369db95f89dd292794dc" prot="public">
+          <name>CMD_SINCE</name>
+          <initializer>= 59 | SIMPLESECT_BIT</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d3/d42/cmdmapper_8h_1a21e038f5b8958e203d28bc4f18472352a4805c5dee0868ae46a6847b11ea5bd79" prot="public">
+          <name>CMD_SKIP</name>
+          <initializer>= 60</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d3/d42/cmdmapper_8h_1a21e038f5b8958e203d28bc4f18472352a0552286c010906901ded70c1c725d286" prot="public">
+          <name>CMD_SKIPLINE</name>
+          <initializer>= 61</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d3/d42/cmdmapper_8h_1a21e038f5b8958e203d28bc4f18472352a55acb16c15841c9059f446aae9b08557" prot="public">
+          <name>CMD_STARTCODE</name>
+          <initializer>= 62</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d3/d42/cmdmapper_8h_1a21e038f5b8958e203d28bc4f18472352a6f4e61a229d6b794cfaf7d244312409b" prot="public">
+          <name>CMD_JAVALINK</name>
+          <initializer>= 63</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d3/d42/cmdmapper_8h_1a21e038f5b8958e203d28bc4f18472352a5e4da2a4060874b9235b0ae87fdfafe9" prot="public">
+          <name>CMD_UNTIL</name>
+          <initializer>= 64</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d3/d42/cmdmapper_8h_1a21e038f5b8958e203d28bc4f18472352a8e2892d5b3845a0640ea21108f4ecf8f" prot="public">
+          <name>CMD_VERBATIM</name>
+          <initializer>= 65</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d3/d42/cmdmapper_8h_1a21e038f5b8958e203d28bc4f18472352aa23cdd46a729b71b24b6e916a2ad6a3d" prot="public">
+          <name>CMD_VERBINCLUDE</name>
+          <initializer>= 66</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d3/d42/cmdmapper_8h_1a21e038f5b8958e203d28bc4f18472352a775afaef84c85d8173a20debb1a9e2ef" prot="public">
+          <name>CMD_VERSION</name>
+          <initializer>= 67 | SIMPLESECT_BIT</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d3/d42/cmdmapper_8h_1a21e038f5b8958e203d28bc4f18472352a8ebff95a3a1eced8424b411a58129570" prot="public">
+          <name>CMD_WARNING</name>
+          <initializer>= 68 | SIMPLESECT_BIT</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d3/d42/cmdmapper_8h_1a21e038f5b8958e203d28bc4f18472352a9a05dbb51dd0e9c99e2f5f8afeee9e34" prot="public">
+          <name>CMD_XREFITEM</name>
+          <initializer>= 69 | SIMPLESECT_BIT</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d3/d42/cmdmapper_8h_1a21e038f5b8958e203d28bc4f18472352a5ea1f3b68bcc06282c8e4e8ffc04e577" prot="public">
+          <name>CMD_XMLONLY</name>
+          <initializer>= 70</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d3/d42/cmdmapper_8h_1a21e038f5b8958e203d28bc4f18472352acc3ae0ca27b8c1e16ff656218fe75ffd" prot="public">
+          <name>CMD_DOT</name>
+          <initializer>= 71</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d3/d42/cmdmapper_8h_1a21e038f5b8958e203d28bc4f18472352ab5c456e1b599f22a99f6fca83d72c4c2" prot="public">
+          <name>CMD_ENDDOT</name>
+          <initializer>= 72</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d3/d42/cmdmapper_8h_1a21e038f5b8958e203d28bc4f18472352a0b9cfdde6af11b21f723efc74101ca91" prot="public">
+          <name>CMD_MSC</name>
+          <initializer>= 73</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d3/d42/cmdmapper_8h_1a21e038f5b8958e203d28bc4f18472352aa5b691035efafbcce28a68e1f545bca7" prot="public">
+          <name>CMD_ENDMSC</name>
+          <initializer>= 74</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d3/d42/cmdmapper_8h_1a21e038f5b8958e203d28bc4f18472352abe7a854cf21231a81d1d038b8faabd34" prot="public">
+          <name>CMD_MANONLY</name>
+          <initializer>= 75</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d3/d42/cmdmapper_8h_1a21e038f5b8958e203d28bc4f18472352abc7effe66a73c5de9e6483e3d0e443cd" prot="public">
+          <name>CMD_ENDMANONLY</name>
+          <initializer>= 76</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d3/d42/cmdmapper_8h_1a21e038f5b8958e203d28bc4f18472352af3aaa6101991074c124285bd40b25251" prot="public">
+          <name>CMD_INCWITHLINES</name>
+          <initializer>= 77</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d3/d42/cmdmapper_8h_1a21e038f5b8958e203d28bc4f18472352a19dea03fa05253a4c24ec5b831fb4620" prot="public">
+          <name>CMD_INHERITDOC</name>
+          <initializer>= 78</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d3/d42/cmdmapper_8h_1a21e038f5b8958e203d28bc4f18472352a23ffe75d48cf03af7ffe387ab0ea9b8c" prot="public">
+          <name>CMD_TPARAM</name>
+          <initializer>= 79 | SIMPLESECT_BIT</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d3/d42/cmdmapper_8h_1a21e038f5b8958e203d28bc4f18472352ae54a3da6d5ec9d3de242797ba200d340" prot="public">
+          <name>CMD_COPYBRIEF</name>
+          <initializer>= 80</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d3/d42/cmdmapper_8h_1a21e038f5b8958e203d28bc4f18472352a82223f58b6dcbfe3634c578b15b60705" prot="public">
+          <name>CMD_COPYDETAILS</name>
+          <initializer>= 81</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d3/d42/cmdmapper_8h_1a21e038f5b8958e203d28bc4f18472352a58a61c08767e3f10d7eaea740ec7f4bd" prot="public">
+          <name>CMD_QUOTE</name>
+          <initializer>= 82</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d3/d42/cmdmapper_8h_1a21e038f5b8958e203d28bc4f18472352adb64829d249746c970285f75fc0119b3" prot="public">
+          <name>CMD_MSCFILE</name>
+          <initializer>= 83</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d3/d42/cmdmapper_8h_1a21e038f5b8958e203d28bc4f18472352ab05528d9341e59cb0a4417c78f7b4612" prot="public">
+          <name>CMD_DCOLON</name>
+          <initializer>= 84</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d3/d42/cmdmapper_8h_1a21e038f5b8958e203d28bc4f18472352a3f984fb2659e79ea8db1451708cd2418" prot="public">
+          <name>CMD_COPYRIGHT</name>
+          <initializer>= 85 | SIMPLESECT_BIT</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d3/d42/cmdmapper_8h_1a21e038f5b8958e203d28bc4f18472352aef3bd5b15cfda05777564054f3d51519" prot="public">
+          <name>CMD_CITE</name>
+          <initializer>= 86</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d3/d42/cmdmapper_8h_1a21e038f5b8958e203d28bc4f18472352aa52a134d53b7dae853c6ddd7c0d32762" prot="public">
+          <name>CMD_SNIPPET</name>
+          <initializer>= 87</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d3/d42/cmdmapper_8h_1a21e038f5b8958e203d28bc4f18472352a416b36a42a1f59b90554459d5136ba59" prot="public">
+          <name>CMD_RTFONLY</name>
+          <initializer>= 88</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d3/d42/cmdmapper_8h_1a21e038f5b8958e203d28bc4f18472352a9b7320a3db24c2c2297ac3885a794f77" prot="public">
+          <name>CMD_ENDRTFONLY</name>
+          <initializer>= 89</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d3/d42/cmdmapper_8h_1a21e038f5b8958e203d28bc4f18472352a909f9b752cc4cb5ac167c49a60c693e3" prot="public">
+          <name>CMD_PIPE</name>
+          <initializer>= 90</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d3/d42/cmdmapper_8h_1a21e038f5b8958e203d28bc4f18472352afb92f40faabf2a23a7613fa45ef9b41f" prot="public">
+          <name>CMD_VHDLFLOW</name>
+          <initializer>= 91</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d3/d42/cmdmapper_8h_1a21e038f5b8958e203d28bc4f18472352a6a1b6ba7045be9a9ff5e53c4ba3a7cd2" prot="public">
+          <name>CMD_DBONLY</name>
+          <initializer>= 92</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d3/d42/cmdmapper_8h_1a21e038f5b8958e203d28bc4f18472352a689e44582ab16371bf0e4abe0b0df8bd" prot="public">
+          <name>CMD_ENDDBONLY</name>
+          <initializer>= 93</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/cmdmapper.h" line="29" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/cmdmapper.h" bodystart="28" bodyend="124"/>
+      </memberdef>
+      <memberdef kind="enum" id="d3/d42/cmdmapper_8h_1a91be16b8342aa3130a4374d78cf42273" prot="public" static="no">
+        <name>HtmlTagType</name>
+        <enumvalue id="d3/d42/cmdmapper_8h_1a91be16b8342aa3130a4374d78cf42273ac1934c403fc4e8aec69c8057dbf5eba8" prot="public">
+          <name>HTML_UNKNOWN</name>
+          <initializer>= 0</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d3/d42/cmdmapper_8h_1a91be16b8342aa3130a4374d78cf42273ac192733ecef2b440a2912e131b199297" prot="public">
+          <name>HTML_CENTER</name>
+          <initializer>= 1</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d3/d42/cmdmapper_8h_1a91be16b8342aa3130a4374d78cf42273a3aed8f95115b0405658ecce503a542f2" prot="public">
+          <name>HTML_TABLE</name>
+          <initializer>= 2</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d3/d42/cmdmapper_8h_1a91be16b8342aa3130a4374d78cf42273a8629572501ea907937bc7ab85a22a791" prot="public">
+          <name>HTML_CAPTION</name>
+          <initializer>= 3</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d3/d42/cmdmapper_8h_1a91be16b8342aa3130a4374d78cf42273adceacc537ebc8bef56297fbc0a36ad43" prot="public">
+          <name>HTML_SMALL</name>
+          <initializer>= 4</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d3/d42/cmdmapper_8h_1a91be16b8342aa3130a4374d78cf42273a979f58b8a091b20ba4df27c44f1302ad" prot="public">
+          <name>HTML_CODE</name>
+          <initializer>= 5</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d3/d42/cmdmapper_8h_1a91be16b8342aa3130a4374d78cf42273a436583682852de8309cf69f86b703ded" prot="public">
+          <name>HTML_IMG</name>
+          <initializer>= 6</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d3/d42/cmdmapper_8h_1a91be16b8342aa3130a4374d78cf42273a999fc50baf874925425d9137df1c81e6" prot="public">
+          <name>HTML_PRE</name>
+          <initializer>= 7</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d3/d42/cmdmapper_8h_1a91be16b8342aa3130a4374d78cf42273acc736af404043a5fb485bad648969714" prot="public">
+          <name>HTML_SUB</name>
+          <initializer>= 8</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d3/d42/cmdmapper_8h_1a91be16b8342aa3130a4374d78cf42273ab33821a069d677ced94c2d9b5b95cfdf" prot="public">
+          <name>HTML_SUP</name>
+          <initializer>= 9</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d3/d42/cmdmapper_8h_1a91be16b8342aa3130a4374d78cf42273a965236d24833e4787f78c558191e3194" prot="public">
+          <name>HTML_TR</name>
+          <initializer>= 10</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d3/d42/cmdmapper_8h_1a91be16b8342aa3130a4374d78cf42273a0f65add9809a92b33af57c861072420d" prot="public">
+          <name>HTML_TD</name>
+          <initializer>= 11</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d3/d42/cmdmapper_8h_1a91be16b8342aa3130a4374d78cf42273a8d77dde5aa6ca897a799e50b50c97e03" prot="public">
+          <name>HTML_TH</name>
+          <initializer>= 12</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d3/d42/cmdmapper_8h_1a91be16b8342aa3130a4374d78cf42273a09a9451950d718b0f27763fa26f170a9" prot="public">
+          <name>HTML_OL</name>
+          <initializer>= 13</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d3/d42/cmdmapper_8h_1a91be16b8342aa3130a4374d78cf42273a2e79ca260235f3a4cf4cb056908d1785" prot="public">
+          <name>HTML_UL</name>
+          <initializer>= 14</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d3/d42/cmdmapper_8h_1a91be16b8342aa3130a4374d78cf42273a5b427daa465f1ea1296910a246c456b6" prot="public">
+          <name>HTML_LI</name>
+          <initializer>= 15</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d3/d42/cmdmapper_8h_1a91be16b8342aa3130a4374d78cf42273aac52e15bdb0841a553a6b25c1d8066e7" prot="public">
+          <name>HTML_EMPHASIS</name>
+          <initializer>= 16</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d3/d42/cmdmapper_8h_1a91be16b8342aa3130a4374d78cf42273a2db3fc04fb060767f561d6ee6e119ad8" prot="public">
+          <name>HTML_HR</name>
+          <initializer>= 17</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d3/d42/cmdmapper_8h_1a91be16b8342aa3130a4374d78cf42273a7bceb89c29cacf6c836060d3228dcd8c" prot="public">
+          <name>HTML_DL</name>
+          <initializer>= 18</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d3/d42/cmdmapper_8h_1a91be16b8342aa3130a4374d78cf42273a71fe5f07a7733918d072beab57d26285" prot="public">
+          <name>HTML_DT</name>
+          <initializer>= 19</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d3/d42/cmdmapper_8h_1a91be16b8342aa3130a4374d78cf42273a03e14ddd1a8f94ed1b3994c0e248568f" prot="public">
+          <name>HTML_DD</name>
+          <initializer>= 20</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d3/d42/cmdmapper_8h_1a91be16b8342aa3130a4374d78cf42273af9d8009956ca8e2a982cf4131637872b" prot="public">
+          <name>HTML_BR</name>
+          <initializer>= 21</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d3/d42/cmdmapper_8h_1a91be16b8342aa3130a4374d78cf42273a960ff78b8fbc63b696e964b01d1af9f0" prot="public">
+          <name>HTML_A</name>
+          <initializer>= 22</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d3/d42/cmdmapper_8h_1a91be16b8342aa3130a4374d78cf42273aebdeae081cb7486e59697f060c626791" prot="public">
+          <name>HTML_BOLD</name>
+          <initializer>= 23</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d3/d42/cmdmapper_8h_1a91be16b8342aa3130a4374d78cf42273a8823a8ff4016f2ca9c638ba4a8fafcca" prot="public">
+          <name>HTML_P</name>
+          <initializer>= 24</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d3/d42/cmdmapper_8h_1a91be16b8342aa3130a4374d78cf42273a71751dfa9ae957e90cacaad5f0b02271" prot="public">
+          <name>HTML_H1</name>
+          <initializer>= 25</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d3/d42/cmdmapper_8h_1a91be16b8342aa3130a4374d78cf42273a623314b6e2c02f8cf6549eeb5d4fd53e" prot="public">
+          <name>HTML_H2</name>
+          <initializer>= 26</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d3/d42/cmdmapper_8h_1a91be16b8342aa3130a4374d78cf42273ab8f1bc95822a1243cf1cf1ccc49a757e" prot="public">
+          <name>HTML_H3</name>
+          <initializer>= 27</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d3/d42/cmdmapper_8h_1a91be16b8342aa3130a4374d78cf42273a2a914deb52931b494bd62c97e0dbfc94" prot="public">
+          <name>HTML_H4</name>
+          <initializer>= 28</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d3/d42/cmdmapper_8h_1a91be16b8342aa3130a4374d78cf42273ab26b52ed0aa1da4e9c891102f25bd477" prot="public">
+          <name>HTML_H5</name>
+          <initializer>= 29</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d3/d42/cmdmapper_8h_1a91be16b8342aa3130a4374d78cf42273ac4f15cb20d64c462bd4f5ec18fb2d425" prot="public">
+          <name>HTML_H6</name>
+          <initializer>= 30</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d3/d42/cmdmapper_8h_1a91be16b8342aa3130a4374d78cf42273a6691bc0d237372b68eca687beb8e4e7c" prot="public">
+          <name>HTML_SPAN</name>
+          <initializer>= 31</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d3/d42/cmdmapper_8h_1a91be16b8342aa3130a4374d78cf42273a925f75c7504312dc7251ecde932a062d" prot="public">
+          <name>HTML_DIV</name>
+          <initializer>= 32</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d3/d42/cmdmapper_8h_1a91be16b8342aa3130a4374d78cf42273ae6c12d9ab8e8c89628707b178ce5c986" prot="public">
+          <name>HTML_BLOCKQUOTE</name>
+          <initializer>= 33</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d3/d42/cmdmapper_8h_1a91be16b8342aa3130a4374d78cf42273adedaab7375bcdd08040b1ba9a6364ea4" prot="public">
+          <name>XML_CmdMask</name>
+          <initializer>= 0x100</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d3/d42/cmdmapper_8h_1a91be16b8342aa3130a4374d78cf42273a5ce9f148d97c638bc2c457bfe13d249a" prot="public">
+          <name>XML_C</name>
+          <initializer>= XML_CmdMask + 0</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d3/d42/cmdmapper_8h_1a91be16b8342aa3130a4374d78cf42273a2bb7e964f4b1a8a2fe5c79fac9533ed1" prot="public">
+          <name>XML_CODE</name>
+          <initializer>= XML_CmdMask + 1</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d3/d42/cmdmapper_8h_1a91be16b8342aa3130a4374d78cf42273a761a8eb7adb060a77231c1dcaf6ec7a7" prot="public">
+          <name>XML_DESCRIPTION</name>
+          <initializer>= XML_CmdMask + 2</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d3/d42/cmdmapper_8h_1a91be16b8342aa3130a4374d78cf42273ae627281142418bf3f6ea1ad587b981d0" prot="public">
+          <name>XML_EXAMPLE</name>
+          <initializer>= XML_CmdMask + 3</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d3/d42/cmdmapper_8h_1a91be16b8342aa3130a4374d78cf42273a17262cd94d4e5c0027a4091a9f2f952a" prot="public">
+          <name>XML_EXCEPTION</name>
+          <initializer>= XML_CmdMask + 4</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d3/d42/cmdmapper_8h_1a91be16b8342aa3130a4374d78cf42273a8e4ea382d510d878feb5355e2355fc72" prot="public">
+          <name>XML_INCLUDE</name>
+          <initializer>= XML_CmdMask + 5</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d3/d42/cmdmapper_8h_1a91be16b8342aa3130a4374d78cf42273ae70bda34c2d52fea764904c0e4b1fc85" prot="public">
+          <name>XML_ITEM</name>
+          <initializer>= XML_CmdMask + 6</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d3/d42/cmdmapper_8h_1a91be16b8342aa3130a4374d78cf42273aaec1100f100092d88ffc3af27bd1866c" prot="public">
+          <name>XML_LIST</name>
+          <initializer>= XML_CmdMask + 7</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d3/d42/cmdmapper_8h_1a91be16b8342aa3130a4374d78cf42273ac48592c8ebbff98d76999dd2408a46ef" prot="public">
+          <name>XML_LISTHEADER</name>
+          <initializer>= XML_CmdMask + 8</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d3/d42/cmdmapper_8h_1a91be16b8342aa3130a4374d78cf42273aa696544c534edf109c171ca758bb4702" prot="public">
+          <name>XML_PARA</name>
+          <initializer>= XML_CmdMask + 9</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d3/d42/cmdmapper_8h_1a91be16b8342aa3130a4374d78cf42273a54dc1a524b67adcea3e1563afa23cc1d" prot="public">
+          <name>XML_PARAM</name>
+          <initializer>= XML_CmdMask + 10</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d3/d42/cmdmapper_8h_1a91be16b8342aa3130a4374d78cf42273a4c31f33e40697345228ea9d29bee31d1" prot="public">
+          <name>XML_PARAMREF</name>
+          <initializer>= XML_CmdMask + 11</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d3/d42/cmdmapper_8h_1a91be16b8342aa3130a4374d78cf42273acb790b0b3426646c7a17476479cb84f1" prot="public">
+          <name>XML_PERMISSION</name>
+          <initializer>= XML_CmdMask + 12</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d3/d42/cmdmapper_8h_1a91be16b8342aa3130a4374d78cf42273aaa1f6b197dc934591767c02cd07e52de" prot="public">
+          <name>XML_REMARKS</name>
+          <initializer>= XML_CmdMask + 13</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d3/d42/cmdmapper_8h_1a91be16b8342aa3130a4374d78cf42273ad3c346b2e4c29ce98d84720d6f64f0fb" prot="public">
+          <name>XML_RETURNS</name>
+          <initializer>= XML_CmdMask + 14</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d3/d42/cmdmapper_8h_1a91be16b8342aa3130a4374d78cf42273aedc5fef9c81acc3194aff4fb88f733c1" prot="public">
+          <name>XML_SEE</name>
+          <initializer>= XML_CmdMask + 15</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d3/d42/cmdmapper_8h_1a91be16b8342aa3130a4374d78cf42273a712c5f27f1403566d33c95ad36b3ba60" prot="public">
+          <name>XML_SEEALSO</name>
+          <initializer>= XML_CmdMask + 16</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d3/d42/cmdmapper_8h_1a91be16b8342aa3130a4374d78cf42273a5e0188b366e11cbaaa19dde14e7f2ad8" prot="public">
+          <name>XML_SUMMARY</name>
+          <initializer>= XML_CmdMask + 17</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d3/d42/cmdmapper_8h_1a91be16b8342aa3130a4374d78cf42273af3f2f2a8973614ce7f59d399bf05823c" prot="public">
+          <name>XML_TERM</name>
+          <initializer>= XML_CmdMask + 18</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d3/d42/cmdmapper_8h_1a91be16b8342aa3130a4374d78cf42273a0497f73782182c5c2260a93261200065" prot="public">
+          <name>XML_TYPEPARAM</name>
+          <initializer>= XML_CmdMask + 19</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d3/d42/cmdmapper_8h_1a91be16b8342aa3130a4374d78cf42273afd6e13b735ca1096eec6467d8510944b" prot="public">
+          <name>XML_TYPEPARAMREF</name>
+          <initializer>= XML_CmdMask + 20</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d3/d42/cmdmapper_8h_1a91be16b8342aa3130a4374d78cf42273a987d799b742d02ff52c9ee7779ca6d52" prot="public">
+          <name>XML_VALUE</name>
+          <initializer>= XML_CmdMask + 21</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d3/d42/cmdmapper_8h_1a91be16b8342aa3130a4374d78cf42273a6bcf22be79f4c77c446cd03365be6a4e" prot="public">
+          <name>XML_INHERITDOC</name>
+          <initializer>= XML_CmdMask + 22</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/cmdmapper.h" line="127" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/cmdmapper.h" bodystart="126" bodyend="188"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="var">
+      <memberdef kind="variable" id="d3/d42/cmdmapper_8h_1a5c52a0f09760b4ee2a3e66c075d863f4" prot="public" static="no" mutable="no">
+        <type>const int</type>
+        <definition>const int SIMPLESECT_BIT</definition>
+        <argsstring></argsstring>
+        <name>SIMPLESECT_BIT</name>
+        <initializer>= 0x1000</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/cmdmapper.h" line="26" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/cmdmapper.h" bodystart="26" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">/******************************************************************************</highlight></codeline>
+<codeline lineno="2"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="3"><highlight class="comment"><sp/>*<sp/></highlight></codeline>
+<codeline lineno="4"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="5"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="6"><highlight class="comment"><sp/>*<sp/>Copyright<sp/>(C)<sp/>1997-2013<sp/>by<sp/>Dimitri<sp/>van<sp/>Heesch.</highlight></codeline>
+<codeline lineno="7"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="8"><highlight class="comment"><sp/>*<sp/>Permission<sp/>to<sp/>use,<sp/>copy,<sp/>modify,<sp/>and<sp/>distribute<sp/>this<sp/>software<sp/>and<sp/>its</highlight></codeline>
+<codeline lineno="9"><highlight class="comment"><sp/>*<sp/>documentation<sp/>under<sp/>the<sp/>terms<sp/>of<sp/>the<sp/>GNU<sp/>General<sp/>Public<sp/>License<sp/>is<sp/>hereby<sp/></highlight></codeline>
+<codeline lineno="10"><highlight class="comment"><sp/>*<sp/>granted.<sp/>No<sp/>representations<sp/>are<sp/>made<sp/>about<sp/>the<sp/>suitability<sp/>of<sp/>this<sp/>software<sp/></highlight></codeline>
+<codeline lineno="11"><highlight class="comment"><sp/>*<sp/>for<sp/>any<sp/>purpose.<sp/>It<sp/>is<sp/>provided<sp/>&quot;as<sp/>is&quot;<sp/>without<sp/>express<sp/>or<sp/>implied<sp/>warranty.</highlight></codeline>
+<codeline lineno="12"><highlight class="comment"><sp/>*<sp/>See<sp/>the<sp/>GNU<sp/>General<sp/>Public<sp/>License<sp/>for<sp/>more<sp/>details.</highlight></codeline>
+<codeline lineno="13"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="14"><highlight class="comment"><sp/>*<sp/>Documents<sp/>produced<sp/>by<sp/>Doxygen<sp/>are<sp/>derivative<sp/>works<sp/>derived<sp/>from<sp/>the</highlight></codeline>
+<codeline lineno="15"><highlight class="comment"><sp/>*<sp/>input<sp/>used<sp/>in<sp/>their<sp/>production;<sp/>they<sp/>are<sp/>not<sp/>affected<sp/>by<sp/>this<sp/>license.</highlight></codeline>
+<codeline lineno="16"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="17"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>_CMDMAPPER_H</highlight></codeline>
+<codeline lineno="20"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>_CMDMAPPER_H</highlight></codeline>
+<codeline lineno="21"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;qdict.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal">CommandMap;</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>SIMPLESECT_BIT<sp/>=<sp/>0x1000;</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/>CommandType</highlight></codeline>
+<codeline lineno="29"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/>CMD_UNKNOWN<sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>0,</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/>CMD_ADDINDEX<sp/><sp/><sp/><sp/><sp/>=<sp/>1,<sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/>CMD_AMP<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>2,</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/>CMD_ANCHOR<sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>3,<sp/><sp/></highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/>CMD_AT<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>4,</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/>CMD_ATTENTION<sp/><sp/><sp/><sp/>=<sp/>5<sp/><sp/>|<sp/>SIMPLESECT_BIT,</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/>CMD_AUTHOR<sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>6<sp/><sp/>|<sp/>SIMPLESECT_BIT,</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/>CMD_AUTHORS<sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>7<sp/><sp/>|<sp/>SIMPLESECT_BIT,</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/>CMD_BOLD<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>8,</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/>CMD_BSLASH<sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>9,</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/>CMD_CODE<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>10,</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/>CMD_COPYDOC<sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>11,<sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/>CMD_DATE<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>12<sp/>|<sp/>SIMPLESECT_BIT,</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/>CMD_DOLLAR<sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>13,</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"><sp/><sp/>CMD_DONTINCLUDE<sp/><sp/>=<sp/>14,<sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="45"><highlight class="normal"><sp/><sp/>CMD_DOTFILE<sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>15,<sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="46"><highlight class="normal"><sp/><sp/>CMD_EMPHASIS<sp/><sp/><sp/><sp/><sp/>=<sp/>16,</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"><sp/><sp/>CMD_ENDCODE<sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>17,<sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="48"><highlight class="normal"><sp/><sp/>CMD_ENDHTMLONLY<sp/><sp/>=<sp/>18,<sp/><sp/></highlight></codeline>
+<codeline lineno="49"><highlight class="normal"><sp/><sp/>CMD_ENDLATEXONLY<sp/>=<sp/>19,<sp/></highlight></codeline>
+<codeline lineno="50"><highlight class="normal"><sp/><sp/>CMD_ENDLINK<sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>20,<sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="51"><highlight class="normal"><sp/><sp/>CMD_ENDSECREFLIST=<sp/>21,</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"><sp/><sp/>CMD_ENDVERBATIM<sp/><sp/>=<sp/>22,<sp/></highlight></codeline>
+<codeline lineno="53"><highlight class="normal"><sp/><sp/>CMD_ENDXMLONLY<sp/><sp/><sp/>=<sp/>23,</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"><sp/><sp/>CMD_EXCEPTION<sp/><sp/><sp/><sp/>=<sp/>24<sp/>|<sp/>SIMPLESECT_BIT,</highlight></codeline>
+<codeline lineno="55"><highlight class="normal"><sp/><sp/>CMD_FORMULA<sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>25,</highlight></codeline>
+<codeline lineno="56"><highlight class="normal"><sp/><sp/>CMD_GREATER<sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>26,</highlight></codeline>
+<codeline lineno="57"><highlight class="normal"><sp/><sp/>CMD_HASH<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>27,</highlight></codeline>
+<codeline lineno="58"><highlight class="normal"><sp/><sp/>CMD_HTMLINCLUDE<sp/><sp/>=<sp/>28,</highlight></codeline>
+<codeline lineno="59"><highlight class="normal"><sp/><sp/>CMD_HTMLONLY<sp/><sp/><sp/><sp/><sp/>=<sp/>29,</highlight></codeline>
+<codeline lineno="60"><highlight class="normal"><sp/><sp/>CMD_IMAGE<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>30,<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="61"><highlight class="normal"><sp/><sp/>CMD_INCLUDE<sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>31,</highlight></codeline>
+<codeline lineno="62"><highlight class="normal"><sp/><sp/>CMD_INTERNAL<sp/><sp/><sp/><sp/><sp/>=<sp/>32,<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="63"><highlight class="normal"><sp/><sp/>CMD_INTERNALREF<sp/><sp/>=<sp/>33,</highlight></codeline>
+<codeline lineno="64"><highlight class="normal"><sp/><sp/>CMD_INVARIANT<sp/><sp/><sp/><sp/>=<sp/>34<sp/>|<sp/>SIMPLESECT_BIT<sp/>,</highlight></codeline>
+<codeline lineno="65"><highlight class="normal"><sp/><sp/>CMD_LATEXONLY<sp/><sp/><sp/><sp/>=<sp/>35,</highlight></codeline>
+<codeline lineno="66"><highlight class="normal"><sp/><sp/>CMD_LESS<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>36,</highlight></codeline>
+<codeline lineno="67"><highlight class="normal"><sp/><sp/>CMD_LI<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>37,</highlight></codeline>
+<codeline lineno="68"><highlight class="normal"><sp/><sp/>CMD_LINE<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>38,</highlight></codeline>
+<codeline lineno="69"><highlight class="normal"><sp/><sp/>CMD_LINEBREAK<sp/><sp/><sp/><sp/>=<sp/>39,</highlight></codeline>
+<codeline lineno="70"><highlight class="normal"><sp/><sp/>CMD_LINK<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>40,<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="71"><highlight class="normal"><sp/><sp/>CMD_NOTE<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>41<sp/>|<sp/>SIMPLESECT_BIT,</highlight></codeline>
+<codeline lineno="72"><highlight class="normal"><sp/><sp/>CMD_PAR<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>42<sp/>|<sp/>SIMPLESECT_BIT,</highlight></codeline>
+<codeline lineno="73"><highlight class="normal"><sp/><sp/>CMD_PARAM<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>43<sp/>|<sp/>SIMPLESECT_BIT,</highlight></codeline>
+<codeline lineno="74"><highlight class="normal"><sp/><sp/>CMD_PERCENT<sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>44,<sp/></highlight></codeline>
+<codeline lineno="75"><highlight class="normal"><sp/><sp/>CMD_POST<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>45<sp/>|<sp/>SIMPLESECT_BIT,</highlight></codeline>
+<codeline lineno="76"><highlight class="normal"><sp/><sp/>CMD_PRE<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>46<sp/>|<sp/>SIMPLESECT_BIT,</highlight></codeline>
+<codeline lineno="77"><highlight class="normal"><sp/><sp/>CMD_REF<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>47,</highlight></codeline>
+<codeline lineno="78"><highlight class="normal"><sp/><sp/>CMD_SECREFITEM<sp/><sp/><sp/>=<sp/>48,</highlight></codeline>
+<codeline lineno="79"><highlight class="normal"><sp/><sp/>CMD_REMARK<sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>49<sp/>|<sp/>SIMPLESECT_BIT<sp/>,</highlight></codeline>
+<codeline lineno="80"><highlight class="normal"><sp/><sp/>CMD_RETURN<sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>50<sp/>|<sp/>SIMPLESECT_BIT<sp/>,</highlight></codeline>
+<codeline lineno="81"><highlight class="normal"><sp/><sp/>CMD_RETVAL<sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>51<sp/>|<sp/>SIMPLESECT_BIT,</highlight></codeline>
+<codeline lineno="82"><highlight class="normal"><sp/><sp/>CMD_SA<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>52<sp/>|<sp/>SIMPLESECT_BIT<sp/>,</highlight></codeline>
+<codeline lineno="83"><highlight class="normal"><sp/><sp/>CMD_SECREFLIST<sp/><sp/><sp/>=<sp/>53,</highlight></codeline>
+<codeline lineno="84"><highlight class="normal"><sp/><sp/>CMD_SECTION<sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>54,</highlight></codeline>
+<codeline lineno="85"><highlight class="normal"><sp/><sp/>CMD_SUBPAGE<sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>55,</highlight></codeline>
+<codeline lineno="86"><highlight class="normal"><sp/><sp/>CMD_SUBSECTION<sp/><sp/><sp/>=<sp/>56,</highlight></codeline>
+<codeline lineno="87"><highlight class="normal"><sp/><sp/>CMD_SUBSUBSECTION=<sp/>57,</highlight></codeline>
+<codeline lineno="88"><highlight class="normal"><sp/><sp/>CMD_PARAGRAPH<sp/><sp/><sp/><sp/>=<sp/>58,</highlight></codeline>
+<codeline lineno="89"><highlight class="normal"><sp/><sp/>CMD_SINCE<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>59<sp/>|<sp/>SIMPLESECT_BIT,</highlight></codeline>
+<codeline lineno="90"><highlight class="normal"><sp/><sp/>CMD_SKIP<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>60,</highlight></codeline>
+<codeline lineno="91"><highlight class="normal"><sp/><sp/>CMD_SKIPLINE<sp/><sp/><sp/><sp/><sp/>=<sp/>61,</highlight></codeline>
+<codeline lineno="92"><highlight class="normal"><sp/><sp/>CMD_STARTCODE<sp/><sp/><sp/><sp/>=<sp/>62,</highlight></codeline>
+<codeline lineno="93"><highlight class="normal"><sp/><sp/>CMD_JAVALINK<sp/><sp/><sp/><sp/><sp/>=<sp/>63,</highlight></codeline>
+<codeline lineno="94"><highlight class="normal"><sp/><sp/>CMD_UNTIL<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>64,</highlight></codeline>
+<codeline lineno="95"><highlight class="normal"><sp/><sp/>CMD_VERBATIM<sp/><sp/><sp/><sp/><sp/>=<sp/>65,</highlight></codeline>
+<codeline lineno="96"><highlight class="normal"><sp/><sp/>CMD_VERBINCLUDE<sp/><sp/>=<sp/>66,</highlight></codeline>
+<codeline lineno="97"><highlight class="normal"><sp/><sp/>CMD_VERSION<sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>67<sp/>|<sp/>SIMPLESECT_BIT,</highlight></codeline>
+<codeline lineno="98"><highlight class="normal"><sp/><sp/>CMD_WARNING<sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>68<sp/>|<sp/>SIMPLESECT_BIT,</highlight></codeline>
+<codeline lineno="99"><highlight class="normal"><sp/><sp/>CMD_XREFITEM<sp/><sp/><sp/><sp/><sp/>=<sp/>69<sp/>|<sp/>SIMPLESECT_BIT,</highlight></codeline>
+<codeline lineno="100"><highlight class="normal"><sp/><sp/>CMD_XMLONLY<sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>70,</highlight></codeline>
+<codeline lineno="101"><highlight class="normal"><sp/><sp/>CMD_DOT<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>71,</highlight></codeline>
+<codeline lineno="102"><highlight class="normal"><sp/><sp/>CMD_ENDDOT<sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>72,</highlight></codeline>
+<codeline lineno="103"><highlight class="normal"><sp/><sp/>CMD_MSC<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>73,</highlight></codeline>
+<codeline lineno="104"><highlight class="normal"><sp/><sp/>CMD_ENDMSC<sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>74,</highlight></codeline>
+<codeline lineno="105"><highlight class="normal"><sp/><sp/>CMD_MANONLY<sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>75,</highlight></codeline>
+<codeline lineno="106"><highlight class="normal"><sp/><sp/>CMD_ENDMANONLY<sp/><sp/><sp/>=<sp/>76,</highlight></codeline>
+<codeline lineno="107"><highlight class="normal"><sp/><sp/>CMD_INCWITHLINES<sp/>=<sp/>77,</highlight></codeline>
+<codeline lineno="108"><highlight class="normal"><sp/><sp/>CMD_INHERITDOC<sp/><sp/><sp/>=<sp/>78,</highlight></codeline>
+<codeline lineno="109"><highlight class="normal"><sp/><sp/>CMD_TPARAM<sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>79<sp/>|<sp/>SIMPLESECT_BIT,</highlight></codeline>
+<codeline lineno="110"><highlight class="normal"><sp/><sp/>CMD_COPYBRIEF<sp/><sp/><sp/><sp/>=<sp/>80,</highlight></codeline>
+<codeline lineno="111"><highlight class="normal"><sp/><sp/>CMD_COPYDETAILS<sp/><sp/>=<sp/>81,</highlight></codeline>
+<codeline lineno="112"><highlight class="normal"><sp/><sp/>CMD_QUOTE<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>82,</highlight></codeline>
+<codeline lineno="113"><highlight class="normal"><sp/><sp/>CMD_MSCFILE<sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>83,</highlight></codeline>
+<codeline lineno="114"><highlight class="normal"><sp/><sp/>CMD_DCOLON<sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>84,</highlight></codeline>
+<codeline lineno="115"><highlight class="normal"><sp/><sp/>CMD_COPYRIGHT<sp/><sp/><sp/><sp/>=<sp/>85<sp/>|<sp/>SIMPLESECT_BIT,</highlight></codeline>
+<codeline lineno="116"><highlight class="normal"><sp/><sp/>CMD_CITE<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>86,</highlight></codeline>
+<codeline lineno="117"><highlight class="normal"><sp/><sp/>CMD_SNIPPET<sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>87,</highlight></codeline>
+<codeline lineno="118"><highlight class="normal"><sp/><sp/>CMD_RTFONLY<sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>88,<sp/></highlight></codeline>
+<codeline lineno="119"><highlight class="normal"><sp/><sp/>CMD_ENDRTFONLY<sp/><sp/><sp/>=<sp/>89,</highlight></codeline>
+<codeline lineno="120"><highlight class="normal"><sp/><sp/>CMD_PIPE<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>90,</highlight></codeline>
+<codeline lineno="121"><highlight class="normal"><sp/><sp/>CMD_VHDLFLOW<sp/><sp/><sp/><sp/><sp/>=<sp/>91,</highlight></codeline>
+<codeline lineno="122"><highlight class="normal"><sp/><sp/>CMD_DBONLY<sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>92,</highlight></codeline>
+<codeline lineno="123"><highlight class="normal"><sp/><sp/>CMD_ENDDBONLY<sp/><sp/><sp/><sp/>=<sp/>93</highlight></codeline>
+<codeline lineno="124"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="125"><highlight class="normal"></highlight></codeline>
+<codeline lineno="126"><highlight class="normal"></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/>HtmlTagType</highlight></codeline>
+<codeline lineno="127"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="128"><highlight class="normal"><sp/><sp/>HTML_UNKNOWN<sp/><sp/><sp/>=<sp/>0,</highlight></codeline>
+<codeline lineno="129"><highlight class="normal"><sp/><sp/>HTML_CENTER<sp/><sp/><sp/><sp/>=<sp/>1,</highlight></codeline>
+<codeline lineno="130"><highlight class="normal"><sp/><sp/>HTML_TABLE<sp/><sp/><sp/><sp/><sp/>=<sp/>2,</highlight></codeline>
+<codeline lineno="131"><highlight class="normal"><sp/><sp/>HTML_CAPTION<sp/><sp/><sp/>=<sp/>3,</highlight></codeline>
+<codeline lineno="132"><highlight class="normal"><sp/><sp/>HTML_SMALL<sp/><sp/><sp/><sp/><sp/>=<sp/>4,</highlight></codeline>
+<codeline lineno="133"><highlight class="normal"><sp/><sp/>HTML_CODE<sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>5,</highlight></codeline>
+<codeline lineno="134"><highlight class="normal"><sp/><sp/>HTML_IMG<sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>6,</highlight></codeline>
+<codeline lineno="135"><highlight class="normal"><sp/><sp/>HTML_PRE<sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>7,</highlight></codeline>
+<codeline lineno="136"><highlight class="normal"><sp/><sp/>HTML_SUB<sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>8,</highlight></codeline>
+<codeline lineno="137"><highlight class="normal"><sp/><sp/>HTML_SUP<sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>9,</highlight></codeline>
+<codeline lineno="138"><highlight class="normal"><sp/><sp/>HTML_TR<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>10,</highlight></codeline>
+<codeline lineno="139"><highlight class="normal"><sp/><sp/>HTML_TD<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>11,</highlight></codeline>
+<codeline lineno="140"><highlight class="normal"><sp/><sp/>HTML_TH<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>12,</highlight></codeline>
+<codeline lineno="141"><highlight class="normal"><sp/><sp/>HTML_OL<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>13,</highlight></codeline>
+<codeline lineno="142"><highlight class="normal"><sp/><sp/>HTML_UL<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>14,</highlight></codeline>
+<codeline lineno="143"><highlight class="normal"><sp/><sp/>HTML_LI<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>15,</highlight></codeline>
+<codeline lineno="144"><highlight class="normal"><sp/><sp/>HTML_EMPHASIS<sp/><sp/>=<sp/>16,</highlight></codeline>
+<codeline lineno="145"><highlight class="normal"><sp/><sp/>HTML_HR<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>17,</highlight></codeline>
+<codeline lineno="146"><highlight class="normal"><sp/><sp/>HTML_DL<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>18,</highlight></codeline>
+<codeline lineno="147"><highlight class="normal"><sp/><sp/>HTML_DT<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>19,</highlight></codeline>
+<codeline lineno="148"><highlight class="normal"><sp/><sp/>HTML_DD<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>20,</highlight></codeline>
+<codeline lineno="149"><highlight class="normal"><sp/><sp/>HTML_BR<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>21,</highlight></codeline>
+<codeline lineno="150"><highlight class="normal"><sp/><sp/>HTML_A<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>22,</highlight></codeline>
+<codeline lineno="151"><highlight class="normal"><sp/><sp/>HTML_BOLD<sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>23,</highlight></codeline>
+<codeline lineno="152"><highlight class="normal"><sp/><sp/>HTML_P<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>24,</highlight></codeline>
+<codeline lineno="153"><highlight class="normal"><sp/><sp/>HTML_H1<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>25,</highlight></codeline>
+<codeline lineno="154"><highlight class="normal"><sp/><sp/>HTML_H2<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>26,</highlight></codeline>
+<codeline lineno="155"><highlight class="normal"><sp/><sp/>HTML_H3<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>27,</highlight></codeline>
+<codeline lineno="156"><highlight class="normal"><sp/><sp/>HTML_H4<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>28,</highlight></codeline>
+<codeline lineno="157"><highlight class="normal"><sp/><sp/>HTML_H5<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>29,</highlight></codeline>
+<codeline lineno="158"><highlight class="normal"><sp/><sp/>HTML_H6<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>30,</highlight></codeline>
+<codeline lineno="159"><highlight class="normal"><sp/><sp/>HTML_SPAN<sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>31,</highlight></codeline>
+<codeline lineno="160"><highlight class="normal"><sp/><sp/>HTML_DIV<sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>32,</highlight></codeline>
+<codeline lineno="161"><highlight class="normal"><sp/><sp/>HTML_BLOCKQUOTE=<sp/>33,</highlight></codeline>
+<codeline lineno="162"><highlight class="normal"></highlight></codeline>
+<codeline lineno="163"><highlight class="normal"><sp/><sp/>XML_CmdMask<sp/><sp/><sp/><sp/>=<sp/>0x100,</highlight></codeline>
+<codeline lineno="164"><highlight class="normal"></highlight></codeline>
+<codeline lineno="165"><highlight class="normal"><sp/><sp/>XML_C<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>XML_CmdMask<sp/>+<sp/>0,</highlight></codeline>
+<codeline lineno="166"><highlight class="normal"><sp/><sp/>XML_CODE<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>XML_CmdMask<sp/>+<sp/>1,</highlight></codeline>
+<codeline lineno="167"><highlight class="normal"><sp/><sp/>XML_DESCRIPTION<sp/><sp/>=<sp/>XML_CmdMask<sp/>+<sp/>2,</highlight></codeline>
+<codeline lineno="168"><highlight class="normal"><sp/><sp/>XML_EXAMPLE<sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>XML_CmdMask<sp/>+<sp/>3,</highlight></codeline>
+<codeline lineno="169"><highlight class="normal"><sp/><sp/>XML_EXCEPTION<sp/><sp/><sp/><sp/>=<sp/>XML_CmdMask<sp/>+<sp/>4,</highlight></codeline>
+<codeline lineno="170"><highlight class="normal"><sp/><sp/>XML_INCLUDE<sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>XML_CmdMask<sp/>+<sp/>5,</highlight></codeline>
+<codeline lineno="171"><highlight class="normal"><sp/><sp/>XML_ITEM<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>XML_CmdMask<sp/>+<sp/>6,</highlight></codeline>
+<codeline lineno="172"><highlight class="normal"><sp/><sp/>XML_LIST<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>XML_CmdMask<sp/>+<sp/>7,</highlight></codeline>
+<codeline lineno="173"><highlight class="normal"><sp/><sp/>XML_LISTHEADER<sp/><sp/><sp/>=<sp/>XML_CmdMask<sp/>+<sp/>8,</highlight></codeline>
+<codeline lineno="174"><highlight class="normal"><sp/><sp/>XML_PARA<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>XML_CmdMask<sp/>+<sp/>9,</highlight></codeline>
+<codeline lineno="175"><highlight class="normal"><sp/><sp/>XML_PARAM<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>XML_CmdMask<sp/>+<sp/>10,</highlight></codeline>
+<codeline lineno="176"><highlight class="normal"><sp/><sp/>XML_PARAMREF<sp/><sp/><sp/><sp/><sp/>=<sp/>XML_CmdMask<sp/>+<sp/>11,</highlight></codeline>
+<codeline lineno="177"><highlight class="normal"><sp/><sp/>XML_PERMISSION<sp/><sp/><sp/>=<sp/>XML_CmdMask<sp/>+<sp/>12,</highlight></codeline>
+<codeline lineno="178"><highlight class="normal"><sp/><sp/>XML_REMARKS<sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>XML_CmdMask<sp/>+<sp/>13,</highlight></codeline>
+<codeline lineno="179"><highlight class="normal"><sp/><sp/>XML_RETURNS<sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>XML_CmdMask<sp/>+<sp/>14,</highlight></codeline>
+<codeline lineno="180"><highlight class="normal"><sp/><sp/>XML_SEE<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>XML_CmdMask<sp/>+<sp/>15,</highlight></codeline>
+<codeline lineno="181"><highlight class="normal"><sp/><sp/>XML_SEEALSO<sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>XML_CmdMask<sp/>+<sp/>16,</highlight></codeline>
+<codeline lineno="182"><highlight class="normal"><sp/><sp/>XML_SUMMARY<sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>XML_CmdMask<sp/>+<sp/>17,</highlight></codeline>
+<codeline lineno="183"><highlight class="normal"><sp/><sp/>XML_TERM<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>XML_CmdMask<sp/>+<sp/>18,</highlight></codeline>
+<codeline lineno="184"><highlight class="normal"><sp/><sp/>XML_TYPEPARAM<sp/><sp/><sp/><sp/>=<sp/>XML_CmdMask<sp/>+<sp/>19,</highlight></codeline>
+<codeline lineno="185"><highlight class="normal"><sp/><sp/>XML_TYPEPARAMREF<sp/>=<sp/>XML_CmdMask<sp/>+<sp/>20,</highlight></codeline>
+<codeline lineno="186"><highlight class="normal"><sp/><sp/>XML_VALUE<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>XML_CmdMask<sp/>+<sp/>21,</highlight></codeline>
+<codeline lineno="187"><highlight class="normal"><sp/><sp/>XML_INHERITDOC<sp/><sp/><sp/>=<sp/>XML_CmdMask<sp/>+<sp/>22</highlight></codeline>
+<codeline lineno="188"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="189"><highlight class="normal"></highlight></codeline>
+<codeline lineno="191" refid="d9/d09/class_mapper" refkind="compound"><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="d9/d09/class_mapper" kindref="compound" tooltip="Class representing a mapping from command names to command IDs.">Mapper</ref></highlight></codeline>
+<codeline lineno="192"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="193"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="194"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>map(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*n);</highlight></codeline>
+<codeline lineno="195"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="d9/d09/class_mapper" kindref="compound" tooltip="Class representing a mapping from command names to command IDs.">Mapper</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>CommandMap<sp/>*cm,</highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>caseSensitive);</highlight></codeline>
+<codeline lineno="196"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="197"><highlight class="normal"><sp/><sp/><sp/><sp/>QDict&lt;int&gt;<sp/>m_map;</highlight></codeline>
+<codeline lineno="198"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>m_cs;</highlight></codeline>
+<codeline lineno="199"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="200"><highlight class="normal"></highlight></codeline>
+<codeline lineno="202" refid="dd/dc6/struct_mappers" refkind="compound"><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="dd/dc6/struct_mappers" kindref="compound" tooltip="Class representing a namespace for the doxygen and HTML command mappers.">Mappers</ref></highlight></codeline>
+<codeline lineno="203"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="204"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>freeMappers();</highlight></codeline>
+<codeline lineno="205"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/><ref refid="d9/d09/class_mapper" kindref="compound" tooltip="Class representing a mapping from command names to command IDs.">Mapper</ref><sp/>*cmdMapper;</highlight></codeline>
+<codeline lineno="206"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/><ref refid="d9/d09/class_mapper" kindref="compound" tooltip="Class representing a mapping from command names to command IDs.">Mapper</ref><sp/>*htmlTagMapper;</highlight></codeline>
+<codeline lineno="207"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="208"><highlight class="normal"></highlight></codeline>
+<codeline lineno="209"><highlight class="normal"></highlight></codeline>
+<codeline lineno="210"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+    </programlisting>
+    <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/cmdmapper.h"/>
+  </compounddef>
+</doxygen>

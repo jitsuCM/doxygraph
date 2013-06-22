@@ -1,0 +1,499 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.2">
+  <compounddef id="de/d65/class_doc_simple_sect" kind="class" prot="public">
+    <compoundname>DocSimpleSect</compoundname>
+    <basecompoundref refid="d7/da3/class_comp_accept" prot="public" virt="non-virtual">CompAccept&lt; DocSimpleSect &gt;</basecompoundref>
+    <basecompoundref refid="d9/d0e/class_doc_node" prot="public" virt="non-virtual">DocNode</basecompoundref>
+    <includes refid="de/d9c/docparser_8h" local="no">docparser.h</includes>
+      <sectiondef kind="public-type">
+      <memberdef kind="enum" id="de/d65/class_doc_simple_sect_1a3b9f9dd4952f3d819b347f74a6769a9b" prot="public" static="no">
+        <name>Type</name>
+        <enumvalue id="de/d65/class_doc_simple_sect_1a3b9f9dd4952f3d819b347f74a6769a9ba9fea43f94c363209267026e3cf9583c6" prot="public">
+          <name>Unknown</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="de/d65/class_doc_simple_sect_1a3b9f9dd4952f3d819b347f74a6769a9ba3bca11381a4eecb0a155993159e1f471" prot="public">
+          <name>See</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="de/d65/class_doc_simple_sect_1a3b9f9dd4952f3d819b347f74a6769a9bafbc7207cbd14361819ce4f2c8c33595d" prot="public">
+          <name>Return</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="de/d65/class_doc_simple_sect_1a3b9f9dd4952f3d819b347f74a6769a9ba93b679802935bef0edcd5d13787c93d7" prot="public">
+          <name>Author</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="de/d65/class_doc_simple_sect_1a3b9f9dd4952f3d819b347f74a6769a9ba3e7dc72d1c6e9b0fd204ec7db9c47f6a" prot="public">
+          <name>Authors</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="de/d65/class_doc_simple_sect_1a3b9f9dd4952f3d819b347f74a6769a9baf32673a5f516e2100d41b917f37cfdf1" prot="public">
+          <name>Version</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="de/d65/class_doc_simple_sect_1a3b9f9dd4952f3d819b347f74a6769a9babede06022ff92538707861de74d9fdb5" prot="public">
+          <name>Since</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="de/d65/class_doc_simple_sect_1a3b9f9dd4952f3d819b347f74a6769a9ba7ebb3d39104e4023d8f64d46e9166305" prot="public">
+          <name>Date</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="de/d65/class_doc_simple_sect_1a3b9f9dd4952f3d819b347f74a6769a9bada884137c8ff6a93503a9c561d5c35d0" prot="public">
+          <name>Note</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="de/d65/class_doc_simple_sect_1a3b9f9dd4952f3d819b347f74a6769a9ba407aa635cc75a80b3e222e307c43c988" prot="public">
+          <name>Warning</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="de/d65/class_doc_simple_sect_1a3b9f9dd4952f3d819b347f74a6769a9ba2e0c7884fe9de17cc8ec29cc8c445fa1" prot="public">
+          <name>Copyright</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="de/d65/class_doc_simple_sect_1a3b9f9dd4952f3d819b347f74a6769a9ba68b35aae9972a5f2f4b739edb91db575" prot="public">
+          <name>Pre</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="de/d65/class_doc_simple_sect_1a3b9f9dd4952f3d819b347f74a6769a9ba10f52cafbfab59b29c286ac5d38251c8" prot="public">
+          <name>Post</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="de/d65/class_doc_simple_sect_1a3b9f9dd4952f3d819b347f74a6769a9baa5d61ff7b823df12aa9a3895342561b8" prot="public">
+          <name>Invar</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="de/d65/class_doc_simple_sect_1a3b9f9dd4952f3d819b347f74a6769a9ba71e7bd96894c8ce74ca64456d34d3939" prot="public">
+          <name>Remark</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="de/d65/class_doc_simple_sect_1a3b9f9dd4952f3d819b347f74a6769a9bae3e95855fe383d4767691416f122bda8" prot="public">
+          <name>Attention</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="de/d65/class_doc_simple_sect_1a3b9f9dd4952f3d819b347f74a6769a9ba0cdc5e6cf3a4156f2e4cb80d267ea87d" prot="public">
+          <name>User</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="de/d65/class_doc_simple_sect_1a3b9f9dd4952f3d819b347f74a6769a9bae7ac2742a06bed8be1747d68ec4af980" prot="public">
+          <name>Rcs</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/docparser.h" line="939" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/docparser.h" bodystart="938" bodyend="942"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="de/d65/class_doc_simple_sect_1a532216db9ddf4cd760f8aa8a45541818" prot="private" static="no" mutable="no">
+        <type>Type</type>
+        <definition>Type DocSimpleSect::m_type</definition>
+        <argsstring></argsstring>
+        <name>m_type</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/docparser.h" line="955" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/docparser.h" bodystart="955" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="de/d65/class_doc_simple_sect_1a27ac372b0286a22f8340dc497af7fa89" prot="private" static="no" mutable="no">
+        <type><ref refid="d3/d1c/class_doc_title" kindref="compound">DocTitle</ref> *</type>
+        <definition>DocTitle* DocSimpleSect::m_title</definition>
+        <argsstring></argsstring>
+        <name>m_title</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/docparser.h" line="956" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/docparser.h" bodystart="956" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="de/d65/class_doc_simple_sect_1a0ef58433b1e5f366b593d17a9ba4b9e1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>DocSimpleSect::DocSimpleSect</definition>
+        <argsstring>(DocNode *parent, Type t)</argsstring>
+        <name>DocSimpleSect</name>
+        <param>
+          <type><ref refid="d9/d0e/class_doc_node" kindref="compound">DocNode</ref> *</type>
+          <declname>parent</declname>
+        </param>
+        <param>
+          <type>Type</type>
+          <declname>t</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/docparser.h" line="943" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/docparser.cpp" bodystart="4520" bodyend="4525"/>
+      </memberdef>
+      <memberdef kind="function" id="de/d65/class_doc_simple_sect_1a5b8a0f80776d4071348a14ce769f61f7" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type></type>
+        <definition>DocSimpleSect::~DocSimpleSect</definition>
+        <argsstring>()</argsstring>
+        <name>~DocSimpleSect</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/docparser.h" line="944" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/docparser.cpp" bodystart="4527" bodyend="4530"/>
+      </memberdef>
+      <memberdef kind="function" id="de/d65/class_doc_simple_sect_1adf5bfabb7a7bbb3deb064746aea10fb8" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="virtual">
+        <type><ref refid="d9/d0e/class_doc_node_1aebd16e89ca590d84cbd40543ea5faadb" kindref="member">Kind</ref></type>
+        <definition>Kind DocSimpleSect::kind</definition>
+        <argsstring>() const </argsstring>
+        <name>kind</name>
+        <reimplements refid="d9/d0e/class_doc_node_1a108ffd214a72ba6e93dac084a8f58049">kind</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns the kind of node. Provides runtime type information </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/docparser.h" line="945" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/docparser.h" bodystart="945" bodyend="945"/>
+      </memberdef>
+      <memberdef kind="function" id="de/d65/class_doc_simple_sect_1a0dffdc45b4639e500e4d033616688808" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>Type</type>
+        <definition>Type DocSimpleSect::type</definition>
+        <argsstring>() const </argsstring>
+        <name>type</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/docparser.h" line="946" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/docparser.h" bodystart="946" bodyend="946"/>
+      </memberdef>
+      <memberdef kind="function" id="de/d65/class_doc_simple_sect_1abff4299d4d90b70dfa44ff56fb9baebc" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>QCString</type>
+        <definition>QCString DocSimpleSect::typeString</definition>
+        <argsstring>() const </argsstring>
+        <name>typeString</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/docparser.h" line="947" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/docparser.cpp" bodystart="4657" bodyend="4681"/>
+      </memberdef>
+      <memberdef kind="function" id="de/d65/class_doc_simple_sect_1a83c0f2c289b0d15403d1adf94c98982d" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void DocSimpleSect::accept</definition>
+        <argsstring>(DocVisitor *v)</argsstring>
+        <name>accept</name>
+        <reimplements refid="d9/d0e/class_doc_node_1a5303a550cbe6395663bf9b9dad28cbf1">accept</reimplements>
+        <param>
+          <type><ref refid="d0/d78/class_doc_visitor" kindref="compound">DocVisitor</ref> *</type>
+          <declname>v</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Acceptor function for node visitors. Part of the visitor pattern. <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>v</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Abstract visitor. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/docparser.h" line="948" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/docparser.cpp" bodystart="4532" bodyend="4540"/>
+        <references refid="d9/d0e/class_doc_node_1a5303a550cbe6395663bf9b9dad28cbf1">DocNode::accept</references>
+        <references refid="d3/d1c/class_doc_title_1a364fe0325e849a4ca80318e0336a3244" compoundref="de/d9c/docparser_8h" startline="585" endline="585">DocTitle::accept</references>
+      </memberdef>
+      <memberdef kind="function" id="de/d65/class_doc_simple_sect_1a6d4285005170976f90f3aa926a7be8c0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int DocSimpleSect::parse</definition>
+        <argsstring>(bool userTitle, bool needsSeparator)</argsstring>
+        <name>parse</name>
+        <param>
+          <type>bool</type>
+          <declname>userTitle</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>needsSeparator</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/docparser.h" line="949" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/docparser.cpp" bodystart="4542" bodyend="4576"/>
+      </memberdef>
+      <memberdef kind="function" id="de/d65/class_doc_simple_sect_1a781284e66505901d40fd6d9df8663b3e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int DocSimpleSect::parseRcs</definition>
+        <argsstring>()</argsstring>
+        <name>parseRcs</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/docparser.h" line="950" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/docparser.cpp" bodystart="4578" bodyend="4595"/>
+      </memberdef>
+      <memberdef kind="function" id="de/d65/class_doc_simple_sect_1a5cdcf0db314a3f9721842c3134550ce2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int DocSimpleSect::parseXml</definition>
+        <argsstring>()</argsstring>
+        <name>parseXml</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/docparser.h" line="951" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/docparser.cpp" bodystart="4597" bodyend="4633"/>
+      </memberdef>
+      <memberdef kind="function" id="de/d65/class_doc_simple_sect_1ae538f74c2d44222c9a45ef304c89e041" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void DocSimpleSect::appendLinkWord</definition>
+        <argsstring>(const QCString &amp;word)</argsstring>
+        <name>appendLinkWord</name>
+        <param>
+          <type>const QCString &amp;</type>
+          <declname>word</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/docparser.h" line="952" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/docparser.cpp" bodystart="4635" bodyend="4655"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Node representing a simple section. </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="3223">
+        <label>CompAccept&lt; DocSimpleSect &gt;</label>
+        <link refid="d7/da3/class_comp_accept"/>
+        <childnode refid="3224" relation="template-instance">
+          <edgelabel>&lt; DocSimpleSect &gt;</edgelabel>
+        </childnode>
+      </node>
+      <node id="3222">
+        <label>DocSimpleSect</label>
+        <link refid="de/d65/class_doc_simple_sect"/>
+        <childnode refid="3223" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3225" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3225">
+        <label>DocNode</label>
+        <link refid="d9/d0e/class_doc_node"/>
+      </node>
+      <node id="3224">
+        <label>CompAccept&lt; T &gt;</label>
+        <link refid="d7/da3/class_comp_accept"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="3227">
+        <label>CompAccept&lt; DocSimpleSect &gt;</label>
+        <link refid="d7/da3/class_comp_accept"/>
+        <childnode refid="3228" relation="template-instance">
+          <edgelabel>&lt; DocSimpleSect &gt;</edgelabel>
+        </childnode>
+      </node>
+      <node id="3226">
+        <label>DocSimpleSect</label>
+        <link refid="de/d65/class_doc_simple_sect"/>
+        <childnode refid="3227" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3229" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3229">
+        <label>DocNode</label>
+        <link refid="d9/d0e/class_doc_node"/>
+        <childnode refid="3229" relation="usage">
+          <edgelabel>m_parent</edgelabel>
+        </childnode>
+      </node>
+      <node id="3228">
+        <label>CompAccept&lt; T &gt;</label>
+        <link refid="d7/da3/class_comp_accept"/>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/docparser.h" line="936" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/docparser.h" bodystart="935" bodyend="957"/>
+    <listofallmembers>
+      <member refid="de/d65/class_doc_simple_sect_1a83c0f2c289b0d15403d1adf94c98982d" prot="public" virt="virtual"><scope>DocSimpleSect</scope><name>accept</name></member>
+      <member refid="d7/da3/class_comp_accept_1a5787ab796a9008bab225031921773b5c" prot="public" virt="non-virtual" ambiguityscope="CompAccept&lt; DocSimpleSect &gt;::"><scope>DocSimpleSect</scope><name>accept</name></member>
+      <member refid="de/d65/class_doc_simple_sect_1ae538f74c2d44222c9a45ef304c89e041" prot="public" virt="non-virtual"><scope>DocSimpleSect</scope><name>appendLinkWord</name></member>
+      <member refid="de/d65/class_doc_simple_sect_1a3b9f9dd4952f3d819b347f74a6769a9bae3e95855fe383d4767691416f122bda8" prot="public" virt="non-virtual"><scope>DocSimpleSect</scope><name>Attention</name></member>
+      <member refid="de/d65/class_doc_simple_sect_1a3b9f9dd4952f3d819b347f74a6769a9ba93b679802935bef0edcd5d13787c93d7" prot="public" virt="non-virtual"><scope>DocSimpleSect</scope><name>Author</name></member>
+      <member refid="de/d65/class_doc_simple_sect_1a3b9f9dd4952f3d819b347f74a6769a9ba3e7dc72d1c6e9b0fd204ec7db9c47f6a" prot="public" virt="non-virtual"><scope>DocSimpleSect</scope><name>Authors</name></member>
+      <member refid="d7/da3/class_comp_accept_1ad45c9ef74bc602bead18c2f36ad5d351" prot="public" virt="non-virtual"><scope>DocSimpleSect</scope><name>children</name></member>
+      <member refid="d7/da3/class_comp_accept_1af0bab1c89fc80848fe8be7b5c81afacb" prot="public" virt="non-virtual"><scope>DocSimpleSect</scope><name>children</name></member>
+      <member refid="d7/da3/class_comp_accept_1ad243d87336e0fd5dae91ca8481a1c85a" prot="public" virt="non-virtual"><scope>DocSimpleSect</scope><name>CompAccept</name></member>
+      <member refid="de/d65/class_doc_simple_sect_1a3b9f9dd4952f3d819b347f74a6769a9ba2e0c7884fe9de17cc8ec29cc8c445fa1" prot="public" virt="non-virtual"><scope>DocSimpleSect</scope><name>Copyright</name></member>
+      <member refid="de/d65/class_doc_simple_sect_1a3b9f9dd4952f3d819b347f74a6769a9ba7ebb3d39104e4023d8f64d46e9166305" prot="public" virt="non-virtual"><scope>DocSimpleSect</scope><name>Date</name></member>
+      <member refid="d9/d0e/class_doc_node_1a98d902adedf9b2270a6673e59dbab89e" prot="public" virt="non-virtual"><scope>DocSimpleSect</scope><name>DocNode</name></member>
+      <member refid="de/d65/class_doc_simple_sect_1a0ef58433b1e5f366b593d17a9ba4b9e1" prot="public" virt="non-virtual"><scope>DocSimpleSect</scope><name>DocSimpleSect</name></member>
+      <member refid="de/d65/class_doc_simple_sect_1a3b9f9dd4952f3d819b347f74a6769a9baa5d61ff7b823df12aa9a3895342561b8" prot="public" virt="non-virtual"><scope>DocSimpleSect</scope><name>Invar</name></member>
+      <member refid="d9/d0e/class_doc_node_1aef508bc4dc916756c919594db7930d54" prot="public" virt="non-virtual"><scope>DocSimpleSect</scope><name>isPreformatted</name></member>
+      <member refid="d9/d0e/class_doc_node_1aebd16e89ca590d84cbd40543ea5faadb" prot="public" virt="non-virtual"><scope>DocSimpleSect</scope><name>Kind</name></member>
+      <member refid="de/d65/class_doc_simple_sect_1adf5bfabb7a7bbb3deb064746aea10fb8" prot="public" virt="virtual"><scope>DocSimpleSect</scope><name>kind</name></member>
+      <member refid="d9/d0e/class_doc_node_1aebd16e89ca590d84cbd40543ea5faadba5acf76d5bed04d9f8973b5599e4c7d61" prot="public" virt="non-virtual"><scope>DocSimpleSect</scope><name>Kind_Anchor</name></member>
+      <member refid="d9/d0e/class_doc_node_1aebd16e89ca590d84cbd40543ea5faadbaf4af6d302524a2a72e6503fa4b5008cc" prot="public" virt="non-virtual"><scope>DocSimpleSect</scope><name>Kind_AutoList</name></member>
+      <member refid="d9/d0e/class_doc_node_1aebd16e89ca590d84cbd40543ea5faadba09e40b89d37e12cd78384c04aea5c185" prot="public" virt="non-virtual"><scope>DocSimpleSect</scope><name>Kind_AutoListItem</name></member>
+      <member refid="d9/d0e/class_doc_node_1aebd16e89ca590d84cbd40543ea5faadba2c31b7a4358465ca132212321e15fc20" prot="public" virt="non-virtual"><scope>DocSimpleSect</scope><name>Kind_Copy</name></member>
+      <member refid="d9/d0e/class_doc_node_1aebd16e89ca590d84cbd40543ea5faadba31635222d2661ef99e79b44bf3b58382" prot="public" virt="non-virtual"><scope>DocSimpleSect</scope><name>Kind_DotFile</name></member>
+      <member refid="d9/d0e/class_doc_node_1aebd16e89ca590d84cbd40543ea5faadbad6f44af7d7a9d2545d12570f1c911514" prot="public" virt="non-virtual"><scope>DocSimpleSect</scope><name>Kind_Formula</name></member>
+      <member refid="d9/d0e/class_doc_node_1aebd16e89ca590d84cbd40543ea5faadba66fdcd73d28143e4eee061037d1c0d05" prot="public" virt="non-virtual"><scope>DocSimpleSect</scope><name>Kind_HorRuler</name></member>
+      <member refid="d9/d0e/class_doc_node_1aebd16e89ca590d84cbd40543ea5faadba219784882f7a809370a515cbf18c2794" prot="public" virt="non-virtual"><scope>DocSimpleSect</scope><name>Kind_HRef</name></member>
+      <member refid="d9/d0e/class_doc_node_1aebd16e89ca590d84cbd40543ea5faadbacfac967afd367665bc4a4890828fc98d" prot="public" virt="non-virtual"><scope>DocSimpleSect</scope><name>Kind_HtmlBlockQuote</name></member>
+      <member refid="d9/d0e/class_doc_node_1aebd16e89ca590d84cbd40543ea5faadba3f64e51b724ff9f596689e66165d4e5f" prot="public" virt="non-virtual"><scope>DocSimpleSect</scope><name>Kind_HtmlCaption</name></member>
+      <member refid="d9/d0e/class_doc_node_1aebd16e89ca590d84cbd40543ea5faadbae35a8fc01717b7fba896f3f9103b641a" prot="public" virt="non-virtual"><scope>DocSimpleSect</scope><name>Kind_HtmlCell</name></member>
+      <member refid="d9/d0e/class_doc_node_1aebd16e89ca590d84cbd40543ea5faadbac9568654cd0eaa2d2e6705eb88b8bb6f" prot="public" virt="non-virtual"><scope>DocSimpleSect</scope><name>Kind_HtmlDescData</name></member>
+      <member refid="d9/d0e/class_doc_node_1aebd16e89ca590d84cbd40543ea5faadbad53b68c158dba60a523d4fd261741c1a" prot="public" virt="non-virtual"><scope>DocSimpleSect</scope><name>Kind_HtmlDescList</name></member>
+      <member refid="d9/d0e/class_doc_node_1aebd16e89ca590d84cbd40543ea5faadba0e47ad72ee03a88acc5d35755230a4bc" prot="public" virt="non-virtual"><scope>DocSimpleSect</scope><name>Kind_HtmlDescTitle</name></member>
+      <member refid="d9/d0e/class_doc_node_1aebd16e89ca590d84cbd40543ea5faadbac559cf092ec1d51d36500217b128df91" prot="public" virt="non-virtual"><scope>DocSimpleSect</scope><name>Kind_HtmlHeader</name></member>
+      <member refid="d9/d0e/class_doc_node_1aebd16e89ca590d84cbd40543ea5faadba2d89d13df0a6a173008cc476ed19da5a" prot="public" virt="non-virtual"><scope>DocSimpleSect</scope><name>Kind_HtmlList</name></member>
+      <member refid="d9/d0e/class_doc_node_1aebd16e89ca590d84cbd40543ea5faadba3899f85cc2bbe76eebc01969f026c4a8" prot="public" virt="non-virtual"><scope>DocSimpleSect</scope><name>Kind_HtmlListItem</name></member>
+      <member refid="d9/d0e/class_doc_node_1aebd16e89ca590d84cbd40543ea5faadba4aecc53268c197469ae7e36a82297f66" prot="public" virt="non-virtual"><scope>DocSimpleSect</scope><name>Kind_HtmlRow</name></member>
+      <member refid="d9/d0e/class_doc_node_1aebd16e89ca590d84cbd40543ea5faadbaaa0953fe727d5208d808d6200db9d8c4" prot="public" virt="non-virtual"><scope>DocSimpleSect</scope><name>Kind_HtmlTable</name></member>
+      <member refid="d9/d0e/class_doc_node_1aebd16e89ca590d84cbd40543ea5faadba130db602d847e2889247e35215f6ab61" prot="public" virt="non-virtual"><scope>DocSimpleSect</scope><name>Kind_Image</name></member>
+      <member refid="d9/d0e/class_doc_node_1aebd16e89ca590d84cbd40543ea5faadba0d394262ed69236213f48850d00655e1" prot="public" virt="non-virtual"><scope>DocSimpleSect</scope><name>Kind_Include</name></member>
+      <member refid="d9/d0e/class_doc_node_1aebd16e89ca590d84cbd40543ea5faadba22a463e2625469c3243a58a25ec2ac5e" prot="public" virt="non-virtual"><scope>DocSimpleSect</scope><name>Kind_IncOperator</name></member>
+      <member refid="d9/d0e/class_doc_node_1aebd16e89ca590d84cbd40543ea5faadba0c99bba8a3a83741f4cb5b488be07919" prot="public" virt="non-virtual"><scope>DocSimpleSect</scope><name>Kind_IndexEntry</name></member>
+      <member refid="d9/d0e/class_doc_node_1aebd16e89ca590d84cbd40543ea5faadbaa908f2050f29caaa1852bc6bfc2167d7" prot="public" virt="non-virtual"><scope>DocSimpleSect</scope><name>Kind_Internal</name></member>
+      <member refid="d9/d0e/class_doc_node_1aebd16e89ca590d84cbd40543ea5faadba08795b9078b94b17470db06f10e47e9a" prot="public" virt="non-virtual"><scope>DocSimpleSect</scope><name>Kind_InternalRef</name></member>
+      <member refid="d9/d0e/class_doc_node_1aebd16e89ca590d84cbd40543ea5faadba806ec6c0d1fe6c3d855364ae3ab6f02e" prot="public" virt="non-virtual"><scope>DocSimpleSect</scope><name>Kind_LineBreak</name></member>
+      <member refid="d9/d0e/class_doc_node_1aebd16e89ca590d84cbd40543ea5faadba3ea5a7ccd9136dff8ecd035c4d403c4d" prot="public" virt="non-virtual"><scope>DocSimpleSect</scope><name>Kind_Link</name></member>
+      <member refid="d9/d0e/class_doc_node_1aebd16e89ca590d84cbd40543ea5faadba3078fef47a0dd99f4a3c2ea943e9dc38" prot="public" virt="non-virtual"><scope>DocSimpleSect</scope><name>Kind_LinkedWord</name></member>
+      <member refid="d9/d0e/class_doc_node_1aebd16e89ca590d84cbd40543ea5faadbaf7a503a623b646514dbf0a1cdd4bc56d" prot="public" virt="non-virtual"><scope>DocSimpleSect</scope><name>Kind_MscFile</name></member>
+      <member refid="d9/d0e/class_doc_node_1aebd16e89ca590d84cbd40543ea5faadbab386d3972ee5815e6403a2ba94d13da7" prot="public" virt="non-virtual"><scope>DocSimpleSect</scope><name>Kind_Para</name></member>
+      <member refid="d9/d0e/class_doc_node_1aebd16e89ca590d84cbd40543ea5faadbada1efab7269767fb09ed0468023d47ef" prot="public" virt="non-virtual"><scope>DocSimpleSect</scope><name>Kind_ParamList</name></member>
+      <member refid="d9/d0e/class_doc_node_1aebd16e89ca590d84cbd40543ea5faadba98f09f518a149bbd2ca945d8be62b2eb" prot="public" virt="non-virtual"><scope>DocSimpleSect</scope><name>Kind_ParamSect</name></member>
+      <member refid="d9/d0e/class_doc_node_1aebd16e89ca590d84cbd40543ea5faadba7e37091374b5c3a40bc6080b727b8633" prot="public" virt="non-virtual"><scope>DocSimpleSect</scope><name>Kind_Ref</name></member>
+      <member refid="d9/d0e/class_doc_node_1aebd16e89ca590d84cbd40543ea5faadba40f32b4da392f2e607acd9dcd51e97ef" prot="public" virt="non-virtual"><scope>DocSimpleSect</scope><name>Kind_Root</name></member>
+      <member refid="d9/d0e/class_doc_node_1aebd16e89ca590d84cbd40543ea5faadbab434fb5f35821ac8e092397720a9986e" prot="public" virt="non-virtual"><scope>DocSimpleSect</scope><name>Kind_SecRefItem</name></member>
+      <member refid="d9/d0e/class_doc_node_1aebd16e89ca590d84cbd40543ea5faadba8a1dc5275094432667a3b3f60ca6924e" prot="public" virt="non-virtual"><scope>DocSimpleSect</scope><name>Kind_SecRefList</name></member>
+      <member refid="d9/d0e/class_doc_node_1aebd16e89ca590d84cbd40543ea5faadba2adb5849cad20cab071f918a8da06938" prot="public" virt="non-virtual"><scope>DocSimpleSect</scope><name>Kind_Section</name></member>
+      <member refid="d9/d0e/class_doc_node_1aebd16e89ca590d84cbd40543ea5faadba653816fa54d8104dc69848cd470e9e50" prot="public" virt="non-virtual"><scope>DocSimpleSect</scope><name>Kind_SimpleList</name></member>
+      <member refid="d9/d0e/class_doc_node_1aebd16e89ca590d84cbd40543ea5faadba3484d4b967a5e3650a21218cafe45bfc" prot="public" virt="non-virtual"><scope>DocSimpleSect</scope><name>Kind_SimpleListItem</name></member>
+      <member refid="d9/d0e/class_doc_node_1aebd16e89ca590d84cbd40543ea5faadbac383a7308a123820e290b129354b945b" prot="public" virt="non-virtual"><scope>DocSimpleSect</scope><name>Kind_SimpleSect</name></member>
+      <member refid="d9/d0e/class_doc_node_1aebd16e89ca590d84cbd40543ea5faadba9e64be26f9961dd56b44dc8bf940f612" prot="public" virt="non-virtual"><scope>DocSimpleSect</scope><name>Kind_SimpleSectSep</name></member>
+      <member refid="d9/d0e/class_doc_node_1aebd16e89ca590d84cbd40543ea5faadba23b15e9d0bd5a796e7ea6bc5ddb90a51" prot="public" virt="non-virtual"><scope>DocSimpleSect</scope><name>Kind_StyleChange</name></member>
+      <member refid="d9/d0e/class_doc_node_1aebd16e89ca590d84cbd40543ea5faadba11cfbdc9641f7d5e57bbf9d2d1ac29f6" prot="public" virt="non-virtual"><scope>DocSimpleSect</scope><name>Kind_Symbol</name></member>
+      <member refid="d9/d0e/class_doc_node_1aebd16e89ca590d84cbd40543ea5faadba7625967c18a27b98c0253b1d8813b22a" prot="public" virt="non-virtual"><scope>DocSimpleSect</scope><name>Kind_Text</name></member>
+      <member refid="d9/d0e/class_doc_node_1aebd16e89ca590d84cbd40543ea5faadba3a4f43b18aee3dae38339c2e322f019d" prot="public" virt="non-virtual"><scope>DocSimpleSect</scope><name>Kind_Title</name></member>
+      <member refid="d9/d0e/class_doc_node_1aebd16e89ca590d84cbd40543ea5faadbaf65de407d32b599b5b8e3172e910921f" prot="public" virt="non-virtual"><scope>DocSimpleSect</scope><name>Kind_URL</name></member>
+      <member refid="d9/d0e/class_doc_node_1aebd16e89ca590d84cbd40543ea5faadba647ae404715ce1ea95d747d03302d069" prot="public" virt="non-virtual"><scope>DocSimpleSect</scope><name>Kind_Verbatim</name></member>
+      <member refid="d9/d0e/class_doc_node_1aebd16e89ca590d84cbd40543ea5faadba2c92a0041dfb7d3d024370d59840a9ec" prot="public" virt="non-virtual"><scope>DocSimpleSect</scope><name>Kind_VhdlFlow</name></member>
+      <member refid="d9/d0e/class_doc_node_1aebd16e89ca590d84cbd40543ea5faadba19ac8d817d8ba62f451c9ac6b06052c9" prot="public" virt="non-virtual"><scope>DocSimpleSect</scope><name>Kind_WhiteSpace</name></member>
+      <member refid="d9/d0e/class_doc_node_1aebd16e89ca590d84cbd40543ea5faadbafaa72c1c3a23f07645d1546177e265ad" prot="public" virt="non-virtual"><scope>DocSimpleSect</scope><name>Kind_Word</name></member>
+      <member refid="d9/d0e/class_doc_node_1aebd16e89ca590d84cbd40543ea5faadbabf87f371a0f69d86d0e6606d31133d40" prot="public" virt="non-virtual"><scope>DocSimpleSect</scope><name>Kind_XRefItem</name></member>
+      <member refid="d7/da3/class_comp_accept_1af32d89695dc65d34b642dceb0da9e281" prot="protected" virt="non-virtual"><scope>DocSimpleSect</scope><name>m_children</name></member>
+      <member refid="d9/d0e/class_doc_node_1a5f1139016d8919795a0e1c722d3e4b91" prot="protected" virt="non-virtual"><scope>DocSimpleSect</scope><name>m_parent</name></member>
+      <member refid="de/d65/class_doc_simple_sect_1a27ac372b0286a22f8340dc497af7fa89" prot="private" virt="non-virtual"><scope>DocSimpleSect</scope><name>m_title</name></member>
+      <member refid="de/d65/class_doc_simple_sect_1a532216db9ddf4cd760f8aa8a45541818" prot="private" virt="non-virtual"><scope>DocSimpleSect</scope><name>m_type</name></member>
+      <member refid="de/d65/class_doc_simple_sect_1a3b9f9dd4952f3d819b347f74a6769a9bada884137c8ff6a93503a9c561d5c35d0" prot="public" virt="non-virtual"><scope>DocSimpleSect</scope><name>Note</name></member>
+      <member refid="d9/d0e/class_doc_node_1a990d8b983962776a647e6231d38bd329" prot="public" virt="non-virtual"><scope>DocSimpleSect</scope><name>parent</name></member>
+      <member refid="de/d65/class_doc_simple_sect_1a6d4285005170976f90f3aa926a7be8c0" prot="public" virt="non-virtual"><scope>DocSimpleSect</scope><name>parse</name></member>
+      <member refid="de/d65/class_doc_simple_sect_1a781284e66505901d40fd6d9df8663b3e" prot="public" virt="non-virtual"><scope>DocSimpleSect</scope><name>parseRcs</name></member>
+      <member refid="de/d65/class_doc_simple_sect_1a5cdcf0db314a3f9721842c3134550ce2" prot="public" virt="non-virtual"><scope>DocSimpleSect</scope><name>parseXml</name></member>
+      <member refid="de/d65/class_doc_simple_sect_1a3b9f9dd4952f3d819b347f74a6769a9ba10f52cafbfab59b29c286ac5d38251c8" prot="public" virt="non-virtual"><scope>DocSimpleSect</scope><name>Post</name></member>
+      <member refid="de/d65/class_doc_simple_sect_1a3b9f9dd4952f3d819b347f74a6769a9ba68b35aae9972a5f2f4b739edb91db575" prot="public" virt="non-virtual"><scope>DocSimpleSect</scope><name>Pre</name></member>
+      <member refid="de/d65/class_doc_simple_sect_1a3b9f9dd4952f3d819b347f74a6769a9bae7ac2742a06bed8be1747d68ec4af980" prot="public" virt="non-virtual"><scope>DocSimpleSect</scope><name>Rcs</name></member>
+      <member refid="de/d65/class_doc_simple_sect_1a3b9f9dd4952f3d819b347f74a6769a9ba71e7bd96894c8ce74ca64456d34d3939" prot="public" virt="non-virtual"><scope>DocSimpleSect</scope><name>Remark</name></member>
+      <member refid="de/d65/class_doc_simple_sect_1a3b9f9dd4952f3d819b347f74a6769a9bafbc7207cbd14361819ce4f2c8c33595d" prot="public" virt="non-virtual"><scope>DocSimpleSect</scope><name>Return</name></member>
+      <member refid="de/d65/class_doc_simple_sect_1a3b9f9dd4952f3d819b347f74a6769a9ba3bca11381a4eecb0a155993159e1f471" prot="public" virt="non-virtual"><scope>DocSimpleSect</scope><name>See</name></member>
+      <member refid="d9/d0e/class_doc_node_1a7059408f429dc1358764e334079ca986" prot="protected" virt="non-virtual"><scope>DocSimpleSect</scope><name>setInsidePreformatted</name></member>
+      <member refid="d9/d0e/class_doc_node_1a2855de7ff1248fdb71e579087ae56098" prot="public" virt="non-virtual"><scope>DocSimpleSect</scope><name>setParent</name></member>
+      <member refid="de/d65/class_doc_simple_sect_1a3b9f9dd4952f3d819b347f74a6769a9babede06022ff92538707861de74d9fdb5" prot="public" virt="non-virtual"><scope>DocSimpleSect</scope><name>Since</name></member>
+      <member refid="de/d65/class_doc_simple_sect_1a3b9f9dd4952f3d819b347f74a6769a9b" prot="public" virt="non-virtual"><scope>DocSimpleSect</scope><name>Type</name></member>
+      <member refid="de/d65/class_doc_simple_sect_1a0dffdc45b4639e500e4d033616688808" prot="public" virt="non-virtual"><scope>DocSimpleSect</scope><name>type</name></member>
+      <member refid="de/d65/class_doc_simple_sect_1abff4299d4d90b70dfa44ff56fb9baebc" prot="public" virt="non-virtual"><scope>DocSimpleSect</scope><name>typeString</name></member>
+      <member refid="de/d65/class_doc_simple_sect_1a3b9f9dd4952f3d819b347f74a6769a9ba9fea43f94c363209267026e3cf9583c6" prot="public" virt="non-virtual"><scope>DocSimpleSect</scope><name>Unknown</name></member>
+      <member refid="de/d65/class_doc_simple_sect_1a3b9f9dd4952f3d819b347f74a6769a9ba0cdc5e6cf3a4156f2e4cb80d267ea87d" prot="public" virt="non-virtual"><scope>DocSimpleSect</scope><name>User</name></member>
+      <member refid="de/d65/class_doc_simple_sect_1a3b9f9dd4952f3d819b347f74a6769a9baf32673a5f516e2100d41b917f37cfdf1" prot="public" virt="non-virtual"><scope>DocSimpleSect</scope><name>Version</name></member>
+      <member refid="de/d65/class_doc_simple_sect_1a3b9f9dd4952f3d819b347f74a6769a9ba407aa635cc75a80b3e222e307c43c988" prot="public" virt="non-virtual"><scope>DocSimpleSect</scope><name>Warning</name></member>
+      <member refid="d7/da3/class_comp_accept_1a0efdf3a4631f1d7894bf5c4ba6025d1e" prot="public" virt="virtual"><scope>DocSimpleSect</scope><name>~CompAccept</name></member>
+      <member refid="d9/d0e/class_doc_node_1a024e5ba89b140e83416f9f85f5f6d036" prot="public" virt="virtual"><scope>DocSimpleSect</scope><name>~DocNode</name></member>
+      <member refid="de/d65/class_doc_simple_sect_1a5b8a0f80776d4071348a14ce769f61f7" prot="public" virt="virtual"><scope>DocSimpleSect</scope><name>~DocSimpleSect</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,716 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.2">
+  <compounddef id="d3/d01/class_doc_para" kind="class" prot="public">
+    <compoundname>DocPara</compoundname>
+    <basecompoundref refid="d7/da3/class_comp_accept" prot="public" virt="non-virtual">CompAccept&lt; DocPara &gt;</basecompoundref>
+    <basecompoundref refid="d9/d0e/class_doc_node" prot="public" virt="non-virtual">DocNode</basecompoundref>
+    <includes refid="de/d9c/docparser_8h" local="no">docparser.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="d3/d01/class_doc_para_1a9b5a6b3ee851b7769e902a2396bf7fa8" prot="private" static="no" mutable="no">
+        <type>QCString</type>
+        <definition>QCString DocPara::m_sectionId</definition>
+        <argsstring></argsstring>
+        <name>m_sectionId</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/docparser.h" line="1043" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/docparser.h" bodystart="1043" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d3/d01/class_doc_para_1aad4b9366c317593266ed5bb1722944a5" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool DocPara::m_isFirst</definition>
+        <argsstring></argsstring>
+        <name>m_isFirst</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/docparser.h" line="1044" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/docparser.h" bodystart="1044" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d3/d01/class_doc_para_1adf380760d0bc93329ad25b77d1cbe603" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool DocPara::m_isLast</definition>
+        <argsstring></argsstring>
+        <name>m_isLast</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/docparser.h" line="1045" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/docparser.h" bodystart="1045" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="d3/d01/class_doc_para_1a38a380c29bbd63a5a4170ad20a8bade3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>DocPara::DocPara</definition>
+        <argsstring>(DocNode *parent)</argsstring>
+        <name>DocPara</name>
+        <param>
+          <type><ref refid="d9/d0e/class_doc_node" kindref="compound">DocNode</ref> *</type>
+          <declname>parent</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/docparser.h" line="1008" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/docparser.h" bodystart="1007" bodyend="1008"/>
+      </memberdef>
+      <memberdef kind="function" id="d3/d01/class_doc_para_1afbe48d84c35630599a17f907df4f9804" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int DocPara::parse</definition>
+        <argsstring>()</argsstring>
+        <name>parse</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/docparser.h" line="1009" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/docparser.cpp" bodystart="6286" bodyend="6601"/>
+      </memberdef>
+      <memberdef kind="function" id="d3/d01/class_doc_para_1ac802ce4f07b2fcde259e6cd520dc040c" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="virtual">
+        <type><ref refid="d9/d0e/class_doc_node_1aebd16e89ca590d84cbd40543ea5faadb" kindref="member">Kind</ref></type>
+        <definition>Kind DocPara::kind</definition>
+        <argsstring>() const </argsstring>
+        <name>kind</name>
+        <reimplements refid="d9/d0e/class_doc_node_1a108ffd214a72ba6e93dac084a8f58049">kind</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns the kind of node. Provides runtime type information </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/docparser.h" line="1010" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/docparser.h" bodystart="1010" bodyend="1010"/>
+      </memberdef>
+      <memberdef kind="function" id="d3/d01/class_doc_para_1a6dae7d8c42447e8bfdccdd5c68e324a9" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool DocPara::isEmpty</definition>
+        <argsstring>() const </argsstring>
+        <name>isEmpty</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/docparser.h" line="1011" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/docparser.h" bodystart="1011" bodyend="1011"/>
+      </memberdef>
+      <memberdef kind="function" id="d3/d01/class_doc_para_1a5c8cd8dc94b86fc379fe68fb4cfb50dd" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>void DocPara::accept</definition>
+        <argsstring>(DocVisitor *v)</argsstring>
+        <name>accept</name>
+        <reimplements refid="d9/d0e/class_doc_node_1a5303a550cbe6395663bf9b9dad28cbf1">accept</reimplements>
+        <param>
+          <type><ref refid="d0/d78/class_doc_visitor" kindref="compound">DocVisitor</ref> *</type>
+          <declname>v</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Acceptor function for node visitors. Part of the visitor pattern. <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>v</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Abstract visitor. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/docparser.h" line="1012" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/docparser.h" bodystart="1012" bodyend="1012"/>
+        <referencedby refid="d4/d1e/class_doc_simple_list_item_1a977fe7d09d43c8bad1f91ddeac6f37f3" compoundref="de/d9c/docparser_8h" startline="1099" endline="1104">DocSimpleListItem::accept</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="d3/d01/class_doc_para_1a849868e81af1e2ae0da511fa3e5a91b8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void DocPara::markFirst</definition>
+        <argsstring>(bool v=TRUE)</argsstring>
+        <name>markFirst</name>
+        <param>
+          <type>bool</type>
+          <declname>v</declname>
+          <defval>TRUE</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/docparser.h" line="1013" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/docparser.h" bodystart="1013" bodyend="1013"/>
+      </memberdef>
+      <memberdef kind="function" id="d3/d01/class_doc_para_1a569bc5841973bac45491c977814f62e0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void DocPara::markLast</definition>
+        <argsstring>(bool v=TRUE)</argsstring>
+        <name>markLast</name>
+        <param>
+          <type>bool</type>
+          <declname>v</declname>
+          <defval>TRUE</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/docparser.h" line="1014" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/docparser.h" bodystart="1014" bodyend="1014"/>
+      </memberdef>
+      <memberdef kind="function" id="d3/d01/class_doc_para_1a06ae2da49920a6230111a95356e40908" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool DocPara::isFirst</definition>
+        <argsstring>() const </argsstring>
+        <name>isFirst</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/docparser.h" line="1015" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/docparser.h" bodystart="1015" bodyend="1015"/>
+      </memberdef>
+      <memberdef kind="function" id="d3/d01/class_doc_para_1a06fe9ac9a85380a67106ba46eef7d192" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool DocPara::isLast</definition>
+        <argsstring>() const </argsstring>
+        <name>isLast</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/docparser.h" line="1016" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/docparser.h" bodystart="1016" bodyend="1016"/>
+      </memberdef>
+      <memberdef kind="function" id="d3/d01/class_doc_para_1aae430172da0e9fa3803184d48c6d3394" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int DocPara::handleCommand</definition>
+        <argsstring>(const QCString &amp;cmdName)</argsstring>
+        <name>handleCommand</name>
+        <param>
+          <type>const QCString &amp;</type>
+          <declname>cmdName</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/docparser.h" line="1018" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/docparser.cpp" bodystart="5319" bodyend="5704"/>
+      </memberdef>
+      <memberdef kind="function" id="d3/d01/class_doc_para_1a64806f3cd0fecd593b8ad7f6ef331688" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int DocPara::handleHtmlStartTag</definition>
+        <argsstring>(const QCString &amp;tagName, const HtmlAttribList &amp;tagHtmlAttribs)</argsstring>
+        <name>handleHtmlStartTag</name>
+        <param>
+          <type>const QCString &amp;</type>
+          <declname>tagName</declname>
+        </param>
+        <param>
+          <type>const <ref refid="db/d4d/class_html_attrib_list" kindref="compound">HtmlAttribList</ref> &amp;</type>
+          <declname>tagHtmlAttribs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/docparser.h" line="1019" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/docparser.cpp" bodystart="5724" bodyend="6100"/>
+      </memberdef>
+      <memberdef kind="function" id="d3/d01/class_doc_para_1aa71f61738c3992d1e6be47e944995f06" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int DocPara::handleHtmlEndTag</definition>
+        <argsstring>(const QCString &amp;tagName)</argsstring>
+        <name>handleHtmlEndTag</name>
+        <param>
+          <type>const QCString &amp;</type>
+          <declname>tagName</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/docparser.h" line="1020" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/docparser.cpp" bodystart="6102" bodyend="6284"/>
+      </memberdef>
+      <memberdef kind="function" id="d3/d01/class_doc_para_1a027e048f1d5674b5200427ff2ee27e7f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int DocPara::handleSimpleSection</definition>
+        <argsstring>(DocSimpleSect::Type t, bool xmlContext=FALSE)</argsstring>
+        <name>handleSimpleSection</name>
+        <param>
+          <type>DocSimpleSect::Type</type>
+          <declname>t</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>xmlContext</declname>
+          <defval>FALSE</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/docparser.h" line="1021" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/docparser.cpp" bodystart="4862" bodyend="4890"/>
+      </memberdef>
+      <memberdef kind="function" id="d3/d01/class_doc_para_1a722190df7921222d83cce8c64ac67cee" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int DocPara::handleXRefItem</definition>
+        <argsstring>()</argsstring>
+        <name>handleXRefItem</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/docparser.h" line="1022" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/docparser.cpp" bodystart="4946" bodyend="4966"/>
+      </memberdef>
+      <memberdef kind="function" id="d3/d01/class_doc_para_1a313d4a548cc38e2d374a38b276fa86a0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int DocPara::handleParamSection</definition>
+        <argsstring>(const QCString &amp;cmdName, DocParamSect::Type t, bool xmlContext, int direction)</argsstring>
+        <name>handleParamSection</name>
+        <param>
+          <type>const QCString &amp;</type>
+          <declname>cmdName</declname>
+        </param>
+        <param>
+          <type>DocParamSect::Type</type>
+          <declname>t</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>xmlContext</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>direction</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/docparser.h" line="1025" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/docparser.cpp" bodystart="4892" bodyend="4912"/>
+      </memberdef>
+      <memberdef kind="function" id="d3/d01/class_doc_para_1a7c235343a063e005bfee6c68b14a835e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void DocPara::handleIncludeOperator</definition>
+        <argsstring>(const QCString &amp;cmdName, DocIncOperator::Type t)</argsstring>
+        <name>handleIncludeOperator</name>
+        <param>
+          <type>const QCString &amp;</type>
+          <declname>cmdName</declname>
+        </param>
+        <param>
+          <type>DocIncOperator::Type</type>
+          <declname>t</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/docparser.h" line="1026" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/docparser.cpp" bodystart="4968" bodyend="5017"/>
+      </memberdef>
+      <memberdef kind="function" id="d3/d01/class_doc_para_1a8984fc90ebc2e60c3d472d39d4eb6f94" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void DocPara::handleImage</definition>
+        <argsstring>(const QCString &amp;cmdName)</argsstring>
+        <name>handleImage</name>
+        <param>
+          <type>const QCString &amp;</type>
+          <declname>cmdName</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/docparser.h" line="1027" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/docparser.cpp" bodystart="5019" bodyend="5067"/>
+      </memberdef>
+      <memberdef kind="function" id="d3/d01/class_doc_para_1ac6edb8e77cf60d6970da0ca610f94b57" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void DocPara::handleDotFile</definition>
+        <argsstring>(const QCString &amp;cmdName)</argsstring>
+        <name>handleDotFile</name>
+        <param>
+          <type>const QCString &amp;</type>
+          <declname>cmdName</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/docparser.h" line="1028" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/docparser.cpp" bodystart="5069" bodyend="5091"/>
+      </memberdef>
+      <memberdef kind="function" id="d3/d01/class_doc_para_1a6e947961e34f318ed47f8fa3877848eb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void DocPara::handleMscFile</definition>
+        <argsstring>(const QCString &amp;cmdName)</argsstring>
+        <name>handleMscFile</name>
+        <param>
+          <type>const QCString &amp;</type>
+          <declname>cmdName</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/docparser.h" line="1029" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/docparser.cpp" bodystart="5093" bodyend="5115"/>
+      </memberdef>
+      <memberdef kind="function" id="d3/d01/class_doc_para_1a1bb9289a32b8c06de83c728786bb0669" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void DocPara::handleInclude</definition>
+        <argsstring>(const QCString &amp;cmdName, DocInclude::Type t)</argsstring>
+        <name>handleInclude</name>
+        <param>
+          <type>const QCString &amp;</type>
+          <declname>cmdName</declname>
+        </param>
+        <param>
+          <type>DocInclude::Type</type>
+          <declname>t</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/docparser.h" line="1030" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/docparser.cpp" bodystart="5178" bodyend="5221"/>
+      </memberdef>
+      <memberdef kind="function" id="d3/d01/class_doc_para_1a0bff680b96bc9c76b2228affeaa90bbb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void DocPara::handleLink</definition>
+        <argsstring>(const QCString &amp;cmdName, bool isJavaLink)</argsstring>
+        <name>handleLink</name>
+        <param>
+          <type>const QCString &amp;</type>
+          <declname>cmdName</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>isJavaLink</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/docparser.h" line="1031" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/docparser.cpp" bodystart="5124" bodyend="5149"/>
+      </memberdef>
+      <memberdef kind="function" id="d3/d01/class_doc_para_1a8b963b6054712a3af42e2d1db7c6e730" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void DocPara::handleCite</definition>
+        <argsstring>()</argsstring>
+        <name>handleCite</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/docparser.h" line="1032" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/docparser.cpp" bodystart="4914" bodyend="4944"/>
+      </memberdef>
+      <memberdef kind="function" id="d3/d01/class_doc_para_1a1f2c324f92f2624c9d439810a7a4aa1e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void DocPara::handleRef</definition>
+        <argsstring>(const QCString &amp;cmdName)</argsstring>
+        <name>handleRef</name>
+        <param>
+          <type>const QCString &amp;</type>
+          <declname>cmdName</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/docparser.h" line="1033" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/docparser.cpp" bodystart="5151" bodyend="5175"/>
+      </memberdef>
+      <memberdef kind="function" id="d3/d01/class_doc_para_1a7cc062ba5edc3ca9d38a840e8e0c5094" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void DocPara::handleSection</definition>
+        <argsstring>(const QCString &amp;cmdName)</argsstring>
+        <name>handleSection</name>
+        <param>
+          <type>const QCString &amp;</type>
+          <declname>cmdName</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/docparser.h" line="1034" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/docparser.cpp" bodystart="5223" bodyend="5250"/>
+      </memberdef>
+      <memberdef kind="function" id="d3/d01/class_doc_para_1a0eecb8116d4410392244f76fb8c209e6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void DocPara::handleInheritDoc</definition>
+        <argsstring>()</argsstring>
+        <name>handleInheritDoc</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/docparser.h" line="1035" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/docparser.cpp" bodystart="5290" bodyend="5316"/>
+      </memberdef>
+      <memberdef kind="function" id="d3/d01/class_doc_para_1ab5639797f3123c08c83f16819f7a74d7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void DocPara::handleVhdlFlow</definition>
+        <argsstring>()</argsstring>
+        <name>handleVhdlFlow</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/docparser.h" line="1036" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/docparser.cpp" bodystart="5117" bodyend="5122"/>
+      </memberdef>
+      <memberdef kind="function" id="d3/d01/class_doc_para_1ac90f029b9281748cbb6f1220a174f5ab" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int DocPara::handleStartCode</definition>
+        <argsstring>()</argsstring>
+        <name>handleStartCode</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/docparser.h" line="1037" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/docparser.cpp" bodystart="5269" bodyend="5288"/>
+      </memberdef>
+      <memberdef kind="function" id="d3/d01/class_doc_para_1a8ac011de4f1337a5c9693afdf63ad025" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int DocPara::handleHtmlHeader</definition>
+        <argsstring>(const HtmlAttribList &amp;tagHtmlAttribs, int level)</argsstring>
+        <name>handleHtmlHeader</name>
+        <param>
+          <type>const <ref refid="db/d4d/class_html_attrib_list" kindref="compound">HtmlAttribList</ref> &amp;</type>
+          <declname>tagHtmlAttribs</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>level</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/docparser.h" line="1038" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/docparser.cpp" bodystart="5252" bodyend="5258"/>
+      </memberdef>
+      <memberdef kind="function" id="d3/d01/class_doc_para_1ae4273ab51ee6dc8934bff7b7d9e8440a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool DocPara::injectToken</definition>
+        <argsstring>(int tok, const QCString &amp;tokText)</argsstring>
+        <name>injectToken</name>
+        <param>
+          <type>int</type>
+          <declname>tok</declname>
+        </param>
+        <param>
+          <type>const QCString &amp;</type>
+          <declname>tokText</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/docparser.h" line="1040" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/docparser.cpp" bodystart="5263" bodyend="5267"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Node representing a paragraph in the documentation tree. </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="3135">
+        <label>DocPara</label>
+        <link refid="d3/d01/class_doc_para"/>
+        <childnode refid="3136" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3138" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3138">
+        <label>DocNode</label>
+        <link refid="d9/d0e/class_doc_node"/>
+      </node>
+      <node id="3137">
+        <label>CompAccept&lt; T &gt;</label>
+        <link refid="d7/da3/class_comp_accept"/>
+      </node>
+      <node id="3136">
+        <label>CompAccept&lt; DocPara &gt;</label>
+        <link refid="d7/da3/class_comp_accept"/>
+        <childnode refid="3137" relation="template-instance">
+          <edgelabel>&lt; DocPara &gt;</edgelabel>
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="3139">
+        <label>DocPara</label>
+        <link refid="d3/d01/class_doc_para"/>
+        <childnode refid="3140" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3142" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3142">
+        <label>DocNode</label>
+        <link refid="d9/d0e/class_doc_node"/>
+        <childnode refid="3142" relation="usage">
+          <edgelabel>m_parent</edgelabel>
+        </childnode>
+      </node>
+      <node id="3141">
+        <label>CompAccept&lt; T &gt;</label>
+        <link refid="d7/da3/class_comp_accept"/>
+      </node>
+      <node id="3140">
+        <label>CompAccept&lt; DocPara &gt;</label>
+        <link refid="d7/da3/class_comp_accept"/>
+        <childnode refid="3141" relation="template-instance">
+          <edgelabel>&lt; DocPara &gt;</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/docparser.h" line="1005" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/docparser.h" bodystart="1004" bodyend="1046"/>
+    <listofallmembers>
+      <member refid="d3/d01/class_doc_para_1a5c8cd8dc94b86fc379fe68fb4cfb50dd" prot="public" virt="virtual"><scope>DocPara</scope><name>accept</name></member>
+      <member refid="d7/da3/class_comp_accept_1a5787ab796a9008bab225031921773b5c" prot="public" virt="non-virtual" ambiguityscope="CompAccept&lt; DocPara &gt;::"><scope>DocPara</scope><name>accept</name></member>
+      <member refid="d7/da3/class_comp_accept_1ad45c9ef74bc602bead18c2f36ad5d351" prot="public" virt="non-virtual"><scope>DocPara</scope><name>children</name></member>
+      <member refid="d7/da3/class_comp_accept_1af0bab1c89fc80848fe8be7b5c81afacb" prot="public" virt="non-virtual"><scope>DocPara</scope><name>children</name></member>
+      <member refid="d7/da3/class_comp_accept_1ad243d87336e0fd5dae91ca8481a1c85a" prot="public" virt="non-virtual"><scope>DocPara</scope><name>CompAccept</name></member>
+      <member refid="d9/d0e/class_doc_node_1a98d902adedf9b2270a6673e59dbab89e" prot="public" virt="non-virtual"><scope>DocPara</scope><name>DocNode</name></member>
+      <member refid="d3/d01/class_doc_para_1a38a380c29bbd63a5a4170ad20a8bade3" prot="public" virt="non-virtual"><scope>DocPara</scope><name>DocPara</name></member>
+      <member refid="d3/d01/class_doc_para_1a8b963b6054712a3af42e2d1db7c6e730" prot="public" virt="non-virtual"><scope>DocPara</scope><name>handleCite</name></member>
+      <member refid="d3/d01/class_doc_para_1aae430172da0e9fa3803184d48c6d3394" prot="public" virt="non-virtual"><scope>DocPara</scope><name>handleCommand</name></member>
+      <member refid="d3/d01/class_doc_para_1ac6edb8e77cf60d6970da0ca610f94b57" prot="public" virt="non-virtual"><scope>DocPara</scope><name>handleDotFile</name></member>
+      <member refid="d3/d01/class_doc_para_1aa71f61738c3992d1e6be47e944995f06" prot="public" virt="non-virtual"><scope>DocPara</scope><name>handleHtmlEndTag</name></member>
+      <member refid="d3/d01/class_doc_para_1a8ac011de4f1337a5c9693afdf63ad025" prot="public" virt="non-virtual"><scope>DocPara</scope><name>handleHtmlHeader</name></member>
+      <member refid="d3/d01/class_doc_para_1a64806f3cd0fecd593b8ad7f6ef331688" prot="public" virt="non-virtual"><scope>DocPara</scope><name>handleHtmlStartTag</name></member>
+      <member refid="d3/d01/class_doc_para_1a8984fc90ebc2e60c3d472d39d4eb6f94" prot="public" virt="non-virtual"><scope>DocPara</scope><name>handleImage</name></member>
+      <member refid="d3/d01/class_doc_para_1a1bb9289a32b8c06de83c728786bb0669" prot="public" virt="non-virtual"><scope>DocPara</scope><name>handleInclude</name></member>
+      <member refid="d3/d01/class_doc_para_1a7c235343a063e005bfee6c68b14a835e" prot="public" virt="non-virtual"><scope>DocPara</scope><name>handleIncludeOperator</name></member>
+      <member refid="d3/d01/class_doc_para_1a0eecb8116d4410392244f76fb8c209e6" prot="public" virt="non-virtual"><scope>DocPara</scope><name>handleInheritDoc</name></member>
+      <member refid="d3/d01/class_doc_para_1a0bff680b96bc9c76b2228affeaa90bbb" prot="public" virt="non-virtual"><scope>DocPara</scope><name>handleLink</name></member>
+      <member refid="d3/d01/class_doc_para_1a6e947961e34f318ed47f8fa3877848eb" prot="public" virt="non-virtual"><scope>DocPara</scope><name>handleMscFile</name></member>
+      <member refid="d3/d01/class_doc_para_1a313d4a548cc38e2d374a38b276fa86a0" prot="public" virt="non-virtual"><scope>DocPara</scope><name>handleParamSection</name></member>
+      <member refid="d3/d01/class_doc_para_1a1f2c324f92f2624c9d439810a7a4aa1e" prot="public" virt="non-virtual"><scope>DocPara</scope><name>handleRef</name></member>
+      <member refid="d3/d01/class_doc_para_1a7cc062ba5edc3ca9d38a840e8e0c5094" prot="public" virt="non-virtual"><scope>DocPara</scope><name>handleSection</name></member>
+      <member refid="d3/d01/class_doc_para_1a027e048f1d5674b5200427ff2ee27e7f" prot="public" virt="non-virtual"><scope>DocPara</scope><name>handleSimpleSection</name></member>
+      <member refid="d3/d01/class_doc_para_1ac90f029b9281748cbb6f1220a174f5ab" prot="public" virt="non-virtual"><scope>DocPara</scope><name>handleStartCode</name></member>
+      <member refid="d3/d01/class_doc_para_1ab5639797f3123c08c83f16819f7a74d7" prot="public" virt="non-virtual"><scope>DocPara</scope><name>handleVhdlFlow</name></member>
+      <member refid="d3/d01/class_doc_para_1a722190df7921222d83cce8c64ac67cee" prot="public" virt="non-virtual"><scope>DocPara</scope><name>handleXRefItem</name></member>
+      <member refid="d3/d01/class_doc_para_1ae4273ab51ee6dc8934bff7b7d9e8440a" prot="public" virt="non-virtual"><scope>DocPara</scope><name>injectToken</name></member>
+      <member refid="d3/d01/class_doc_para_1a6dae7d8c42447e8bfdccdd5c68e324a9" prot="public" virt="non-virtual"><scope>DocPara</scope><name>isEmpty</name></member>
+      <member refid="d3/d01/class_doc_para_1a06ae2da49920a6230111a95356e40908" prot="public" virt="non-virtual"><scope>DocPara</scope><name>isFirst</name></member>
+      <member refid="d3/d01/class_doc_para_1a06fe9ac9a85380a67106ba46eef7d192" prot="public" virt="non-virtual"><scope>DocPara</scope><name>isLast</name></member>
+      <member refid="d9/d0e/class_doc_node_1aef508bc4dc916756c919594db7930d54" prot="public" virt="non-virtual"><scope>DocPara</scope><name>isPreformatted</name></member>
+      <member refid="d9/d0e/class_doc_node_1aebd16e89ca590d84cbd40543ea5faadb" prot="public" virt="non-virtual"><scope>DocPara</scope><name>Kind</name></member>
+      <member refid="d3/d01/class_doc_para_1ac802ce4f07b2fcde259e6cd520dc040c" prot="public" virt="virtual"><scope>DocPara</scope><name>kind</name></member>
+      <member refid="d9/d0e/class_doc_node_1aebd16e89ca590d84cbd40543ea5faadba5acf76d5bed04d9f8973b5599e4c7d61" prot="public" virt="non-virtual"><scope>DocPara</scope><name>Kind_Anchor</name></member>
+      <member refid="d9/d0e/class_doc_node_1aebd16e89ca590d84cbd40543ea5faadbaf4af6d302524a2a72e6503fa4b5008cc" prot="public" virt="non-virtual"><scope>DocPara</scope><name>Kind_AutoList</name></member>
+      <member refid="d9/d0e/class_doc_node_1aebd16e89ca590d84cbd40543ea5faadba09e40b89d37e12cd78384c04aea5c185" prot="public" virt="non-virtual"><scope>DocPara</scope><name>Kind_AutoListItem</name></member>
+      <member refid="d9/d0e/class_doc_node_1aebd16e89ca590d84cbd40543ea5faadba2c31b7a4358465ca132212321e15fc20" prot="public" virt="non-virtual"><scope>DocPara</scope><name>Kind_Copy</name></member>
+      <member refid="d9/d0e/class_doc_node_1aebd16e89ca590d84cbd40543ea5faadba31635222d2661ef99e79b44bf3b58382" prot="public" virt="non-virtual"><scope>DocPara</scope><name>Kind_DotFile</name></member>
+      <member refid="d9/d0e/class_doc_node_1aebd16e89ca590d84cbd40543ea5faadbad6f44af7d7a9d2545d12570f1c911514" prot="public" virt="non-virtual"><scope>DocPara</scope><name>Kind_Formula</name></member>
+      <member refid="d9/d0e/class_doc_node_1aebd16e89ca590d84cbd40543ea5faadba66fdcd73d28143e4eee061037d1c0d05" prot="public" virt="non-virtual"><scope>DocPara</scope><name>Kind_HorRuler</name></member>
+      <member refid="d9/d0e/class_doc_node_1aebd16e89ca590d84cbd40543ea5faadba219784882f7a809370a515cbf18c2794" prot="public" virt="non-virtual"><scope>DocPara</scope><name>Kind_HRef</name></member>
+      <member refid="d9/d0e/class_doc_node_1aebd16e89ca590d84cbd40543ea5faadbacfac967afd367665bc4a4890828fc98d" prot="public" virt="non-virtual"><scope>DocPara</scope><name>Kind_HtmlBlockQuote</name></member>
+      <member refid="d9/d0e/class_doc_node_1aebd16e89ca590d84cbd40543ea5faadba3f64e51b724ff9f596689e66165d4e5f" prot="public" virt="non-virtual"><scope>DocPara</scope><name>Kind_HtmlCaption</name></member>
+      <member refid="d9/d0e/class_doc_node_1aebd16e89ca590d84cbd40543ea5faadbae35a8fc01717b7fba896f3f9103b641a" prot="public" virt="non-virtual"><scope>DocPara</scope><name>Kind_HtmlCell</name></member>
+      <member refid="d9/d0e/class_doc_node_1aebd16e89ca590d84cbd40543ea5faadbac9568654cd0eaa2d2e6705eb88b8bb6f" prot="public" virt="non-virtual"><scope>DocPara</scope><name>Kind_HtmlDescData</name></member>
+      <member refid="d9/d0e/class_doc_node_1aebd16e89ca590d84cbd40543ea5faadbad53b68c158dba60a523d4fd261741c1a" prot="public" virt="non-virtual"><scope>DocPara</scope><name>Kind_HtmlDescList</name></member>
+      <member refid="d9/d0e/class_doc_node_1aebd16e89ca590d84cbd40543ea5faadba0e47ad72ee03a88acc5d35755230a4bc" prot="public" virt="non-virtual"><scope>DocPara</scope><name>Kind_HtmlDescTitle</name></member>
+      <member refid="d9/d0e/class_doc_node_1aebd16e89ca590d84cbd40543ea5faadbac559cf092ec1d51d36500217b128df91" prot="public" virt="non-virtual"><scope>DocPara</scope><name>Kind_HtmlHeader</name></member>
+      <member refid="d9/d0e/class_doc_node_1aebd16e89ca590d84cbd40543ea5faadba2d89d13df0a6a173008cc476ed19da5a" prot="public" virt="non-virtual"><scope>DocPara</scope><name>Kind_HtmlList</name></member>
+      <member refid="d9/d0e/class_doc_node_1aebd16e89ca590d84cbd40543ea5faadba3899f85cc2bbe76eebc01969f026c4a8" prot="public" virt="non-virtual"><scope>DocPara</scope><name>Kind_HtmlListItem</name></member>
+      <member refid="d9/d0e/class_doc_node_1aebd16e89ca590d84cbd40543ea5faadba4aecc53268c197469ae7e36a82297f66" prot="public" virt="non-virtual"><scope>DocPara</scope><name>Kind_HtmlRow</name></member>
+      <member refid="d9/d0e/class_doc_node_1aebd16e89ca590d84cbd40543ea5faadbaaa0953fe727d5208d808d6200db9d8c4" prot="public" virt="non-virtual"><scope>DocPara</scope><name>Kind_HtmlTable</name></member>
+      <member refid="d9/d0e/class_doc_node_1aebd16e89ca590d84cbd40543ea5faadba130db602d847e2889247e35215f6ab61" prot="public" virt="non-virtual"><scope>DocPara</scope><name>Kind_Image</name></member>
+      <member refid="d9/d0e/class_doc_node_1aebd16e89ca590d84cbd40543ea5faadba0d394262ed69236213f48850d00655e1" prot="public" virt="non-virtual"><scope>DocPara</scope><name>Kind_Include</name></member>
+      <member refid="d9/d0e/class_doc_node_1aebd16e89ca590d84cbd40543ea5faadba22a463e2625469c3243a58a25ec2ac5e" prot="public" virt="non-virtual"><scope>DocPara</scope><name>Kind_IncOperator</name></member>
+      <member refid="d9/d0e/class_doc_node_1aebd16e89ca590d84cbd40543ea5faadba0c99bba8a3a83741f4cb5b488be07919" prot="public" virt="non-virtual"><scope>DocPara</scope><name>Kind_IndexEntry</name></member>
+      <member refid="d9/d0e/class_doc_node_1aebd16e89ca590d84cbd40543ea5faadbaa908f2050f29caaa1852bc6bfc2167d7" prot="public" virt="non-virtual"><scope>DocPara</scope><name>Kind_Internal</name></member>
+      <member refid="d9/d0e/class_doc_node_1aebd16e89ca590d84cbd40543ea5faadba08795b9078b94b17470db06f10e47e9a" prot="public" virt="non-virtual"><scope>DocPara</scope><name>Kind_InternalRef</name></member>
+      <member refid="d9/d0e/class_doc_node_1aebd16e89ca590d84cbd40543ea5faadba806ec6c0d1fe6c3d855364ae3ab6f02e" prot="public" virt="non-virtual"><scope>DocPara</scope><name>Kind_LineBreak</name></member>
+      <member refid="d9/d0e/class_doc_node_1aebd16e89ca590d84cbd40543ea5faadba3ea5a7ccd9136dff8ecd035c4d403c4d" prot="public" virt="non-virtual"><scope>DocPara</scope><name>Kind_Link</name></member>
+      <member refid="d9/d0e/class_doc_node_1aebd16e89ca590d84cbd40543ea5faadba3078fef47a0dd99f4a3c2ea943e9dc38" prot="public" virt="non-virtual"><scope>DocPara</scope><name>Kind_LinkedWord</name></member>
+      <member refid="d9/d0e/class_doc_node_1aebd16e89ca590d84cbd40543ea5faadbaf7a503a623b646514dbf0a1cdd4bc56d" prot="public" virt="non-virtual"><scope>DocPara</scope><name>Kind_MscFile</name></member>
+      <member refid="d9/d0e/class_doc_node_1aebd16e89ca590d84cbd40543ea5faadbab386d3972ee5815e6403a2ba94d13da7" prot="public" virt="non-virtual"><scope>DocPara</scope><name>Kind_Para</name></member>
+      <member refid="d9/d0e/class_doc_node_1aebd16e89ca590d84cbd40543ea5faadbada1efab7269767fb09ed0468023d47ef" prot="public" virt="non-virtual"><scope>DocPara</scope><name>Kind_ParamList</name></member>
+      <member refid="d9/d0e/class_doc_node_1aebd16e89ca590d84cbd40543ea5faadba98f09f518a149bbd2ca945d8be62b2eb" prot="public" virt="non-virtual"><scope>DocPara</scope><name>Kind_ParamSect</name></member>
+      <member refid="d9/d0e/class_doc_node_1aebd16e89ca590d84cbd40543ea5faadba7e37091374b5c3a40bc6080b727b8633" prot="public" virt="non-virtual"><scope>DocPara</scope><name>Kind_Ref</name></member>
+      <member refid="d9/d0e/class_doc_node_1aebd16e89ca590d84cbd40543ea5faadba40f32b4da392f2e607acd9dcd51e97ef" prot="public" virt="non-virtual"><scope>DocPara</scope><name>Kind_Root</name></member>
+      <member refid="d9/d0e/class_doc_node_1aebd16e89ca590d84cbd40543ea5faadbab434fb5f35821ac8e092397720a9986e" prot="public" virt="non-virtual"><scope>DocPara</scope><name>Kind_SecRefItem</name></member>
+      <member refid="d9/d0e/class_doc_node_1aebd16e89ca590d84cbd40543ea5faadba8a1dc5275094432667a3b3f60ca6924e" prot="public" virt="non-virtual"><scope>DocPara</scope><name>Kind_SecRefList</name></member>
+      <member refid="d9/d0e/class_doc_node_1aebd16e89ca590d84cbd40543ea5faadba2adb5849cad20cab071f918a8da06938" prot="public" virt="non-virtual"><scope>DocPara</scope><name>Kind_Section</name></member>
+      <member refid="d9/d0e/class_doc_node_1aebd16e89ca590d84cbd40543ea5faadba653816fa54d8104dc69848cd470e9e50" prot="public" virt="non-virtual"><scope>DocPara</scope><name>Kind_SimpleList</name></member>
+      <member refid="d9/d0e/class_doc_node_1aebd16e89ca590d84cbd40543ea5faadba3484d4b967a5e3650a21218cafe45bfc" prot="public" virt="non-virtual"><scope>DocPara</scope><name>Kind_SimpleListItem</name></member>
+      <member refid="d9/d0e/class_doc_node_1aebd16e89ca590d84cbd40543ea5faadbac383a7308a123820e290b129354b945b" prot="public" virt="non-virtual"><scope>DocPara</scope><name>Kind_SimpleSect</name></member>
+      <member refid="d9/d0e/class_doc_node_1aebd16e89ca590d84cbd40543ea5faadba9e64be26f9961dd56b44dc8bf940f612" prot="public" virt="non-virtual"><scope>DocPara</scope><name>Kind_SimpleSectSep</name></member>
+      <member refid="d9/d0e/class_doc_node_1aebd16e89ca590d84cbd40543ea5faadba23b15e9d0bd5a796e7ea6bc5ddb90a51" prot="public" virt="non-virtual"><scope>DocPara</scope><name>Kind_StyleChange</name></member>
+      <member refid="d9/d0e/class_doc_node_1aebd16e89ca590d84cbd40543ea5faadba11cfbdc9641f7d5e57bbf9d2d1ac29f6" prot="public" virt="non-virtual"><scope>DocPara</scope><name>Kind_Symbol</name></member>
+      <member refid="d9/d0e/class_doc_node_1aebd16e89ca590d84cbd40543ea5faadba7625967c18a27b98c0253b1d8813b22a" prot="public" virt="non-virtual"><scope>DocPara</scope><name>Kind_Text</name></member>
+      <member refid="d9/d0e/class_doc_node_1aebd16e89ca590d84cbd40543ea5faadba3a4f43b18aee3dae38339c2e322f019d" prot="public" virt="non-virtual"><scope>DocPara</scope><name>Kind_Title</name></member>
+      <member refid="d9/d0e/class_doc_node_1aebd16e89ca590d84cbd40543ea5faadbaf65de407d32b599b5b8e3172e910921f" prot="public" virt="non-virtual"><scope>DocPara</scope><name>Kind_URL</name></member>
+      <member refid="d9/d0e/class_doc_node_1aebd16e89ca590d84cbd40543ea5faadba647ae404715ce1ea95d747d03302d069" prot="public" virt="non-virtual"><scope>DocPara</scope><name>Kind_Verbatim</name></member>
+      <member refid="d9/d0e/class_doc_node_1aebd16e89ca590d84cbd40543ea5faadba2c92a0041dfb7d3d024370d59840a9ec" prot="public" virt="non-virtual"><scope>DocPara</scope><name>Kind_VhdlFlow</name></member>
+      <member refid="d9/d0e/class_doc_node_1aebd16e89ca590d84cbd40543ea5faadba19ac8d817d8ba62f451c9ac6b06052c9" prot="public" virt="non-virtual"><scope>DocPara</scope><name>Kind_WhiteSpace</name></member>
+      <member refid="d9/d0e/class_doc_node_1aebd16e89ca590d84cbd40543ea5faadbafaa72c1c3a23f07645d1546177e265ad" prot="public" virt="non-virtual"><scope>DocPara</scope><name>Kind_Word</name></member>
+      <member refid="d9/d0e/class_doc_node_1aebd16e89ca590d84cbd40543ea5faadbabf87f371a0f69d86d0e6606d31133d40" prot="public" virt="non-virtual"><scope>DocPara</scope><name>Kind_XRefItem</name></member>
+      <member refid="d7/da3/class_comp_accept_1af32d89695dc65d34b642dceb0da9e281" prot="protected" virt="non-virtual"><scope>DocPara</scope><name>m_children</name></member>
+      <member refid="d3/d01/class_doc_para_1aad4b9366c317593266ed5bb1722944a5" prot="private" virt="non-virtual"><scope>DocPara</scope><name>m_isFirst</name></member>
+      <member refid="d3/d01/class_doc_para_1adf380760d0bc93329ad25b77d1cbe603" prot="private" virt="non-virtual"><scope>DocPara</scope><name>m_isLast</name></member>
+      <member refid="d9/d0e/class_doc_node_1a5f1139016d8919795a0e1c722d3e4b91" prot="protected" virt="non-virtual"><scope>DocPara</scope><name>m_parent</name></member>
+      <member refid="d3/d01/class_doc_para_1a9b5a6b3ee851b7769e902a2396bf7fa8" prot="private" virt="non-virtual"><scope>DocPara</scope><name>m_sectionId</name></member>
+      <member refid="d3/d01/class_doc_para_1a849868e81af1e2ae0da511fa3e5a91b8" prot="public" virt="non-virtual"><scope>DocPara</scope><name>markFirst</name></member>
+      <member refid="d3/d01/class_doc_para_1a569bc5841973bac45491c977814f62e0" prot="public" virt="non-virtual"><scope>DocPara</scope><name>markLast</name></member>
+      <member refid="d9/d0e/class_doc_node_1a990d8b983962776a647e6231d38bd329" prot="public" virt="non-virtual"><scope>DocPara</scope><name>parent</name></member>
+      <member refid="d3/d01/class_doc_para_1afbe48d84c35630599a17f907df4f9804" prot="public" virt="non-virtual"><scope>DocPara</scope><name>parse</name></member>
+      <member refid="d9/d0e/class_doc_node_1a7059408f429dc1358764e334079ca986" prot="protected" virt="non-virtual"><scope>DocPara</scope><name>setInsidePreformatted</name></member>
+      <member refid="d9/d0e/class_doc_node_1a2855de7ff1248fdb71e579087ae56098" prot="public" virt="non-virtual"><scope>DocPara</scope><name>setParent</name></member>
+      <member refid="d7/da3/class_comp_accept_1a0efdf3a4631f1d7894bf5c4ba6025d1e" prot="public" virt="virtual"><scope>DocPara</scope><name>~CompAccept</name></member>
+      <member refid="d9/d0e/class_doc_node_1a024e5ba89b140e83416f9f85f5f6d036" prot="public" virt="virtual"><scope>DocPara</scope><name>~DocNode</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,138 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.2">
+  <compounddef id="d9/dbf/class_s_dict_1_1_iterator" kind="class" prot="public">
+    <compoundname>SDict::Iterator</compoundname>
+    <includes refid="d9/d21/sortdict_8h" local="no">sortdict.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="d9/dbf/class_s_dict_1_1_iterator_1a049c717895b4bbc4f584a2d000dae608" prot="private" static="no" mutable="no">
+        <type>QListIterator&lt; T &gt; *</type>
+        <definition>QListIterator&lt;T&gt;* SDict&lt; T &gt;::Iterator::m_li</definition>
+        <argsstring></argsstring>
+        <name>m_li</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/sortdict.h" line="350" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/sortdict.h" bodystart="350" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="d9/dbf/class_s_dict_1_1_iterator_1a0c8bd359d5c6e57123216f52130b95bc" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>SDict&lt; T &gt;::Iterator::Iterator</definition>
+        <argsstring>(const SDict&lt; T &gt; &amp;dict)</argsstring>
+        <name>Iterator</name>
+        <param>
+          <type>const <ref refid="d1/d50/class_s_dict" kindref="compound">SDict</ref>&lt; T &gt; &amp;</type>
+          <declname>dict</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Create an iterator given the dictionary. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/sortdict.h" line="299" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/sortdict.h" bodystart="298" bodyend="301"/>
+      </memberdef>
+      <memberdef kind="function" id="d9/dbf/class_s_dict_1_1_iterator_1a2b2dc67f8c7bf160bba90c79083edcd2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type></type>
+        <definition>virtual SDict&lt; T &gt;::Iterator::~Iterator</definition>
+        <argsstring>()</argsstring>
+        <name>~Iterator</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Destroys the dictionary </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/sortdict.h" line="305" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/sortdict.h" bodystart="304" bodyend="307"/>
+      </memberdef>
+      <memberdef kind="function" id="d9/dbf/class_s_dict_1_1_iterator_1a89f954f53860fef0f7495c292f663150" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>T *</type>
+        <definition>T* SDict&lt; T &gt;::Iterator::toFirst</definition>
+        <argsstring>() const </argsstring>
+        <name>toFirst</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Set the iterator to the first element in the list. <simplesect kind="return"><para>The first compound, or zero if the list was empty. </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/sortdict.h" line="313" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/sortdict.h" bodystart="312" bodyend="315"/>
+      </memberdef>
+      <memberdef kind="function" id="d9/dbf/class_s_dict_1_1_iterator_1a70b2fd3b028bc71c0f39ff8d89fa34ea" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>T *</type>
+        <definition>T* SDict&lt; T &gt;::Iterator::toLast</definition>
+        <argsstring>() const </argsstring>
+        <name>toLast</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Set the iterator to the last element in the list. <simplesect kind="return"><para>The first compound, or zero if the list was empty. </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/sortdict.h" line="321" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/sortdict.h" bodystart="320" bodyend="323"/>
+      </memberdef>
+      <memberdef kind="function" id="d9/dbf/class_s_dict_1_1_iterator_1a7cb5c4e3c6cc381a4568bf8b2e93af15" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>T *</type>
+        <definition>T* SDict&lt; T &gt;::Iterator::current</definition>
+        <argsstring>() const </argsstring>
+        <name>current</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns the current compound </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/sortdict.h" line="327" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/sortdict.h" bodystart="326" bodyend="329"/>
+      </memberdef>
+      <memberdef kind="function" id="d9/dbf/class_s_dict_1_1_iterator_1ab3172aa53d339348bab5208611044908" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>T *</type>
+        <definition>T* SDict&lt; T &gt;::Iterator::operator++</definition>
+        <argsstring>()</argsstring>
+        <name>operator++</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Moves the iterator to the next element. <simplesect kind="return"><para>the new &quot;current&quot; element, or zero if the iterator was already pointing at the last element. </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/sortdict.h" line="336" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/sortdict.h" bodystart="335" bodyend="338"/>
+      </memberdef>
+      <memberdef kind="function" id="d9/dbf/class_s_dict_1_1_iterator_1ab660d0dacf804b314112c5ac9ea41714" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>T *</type>
+        <definition>T* SDict&lt; T &gt;::Iterator::operator--</definition>
+        <argsstring>()</argsstring>
+        <name>operator--</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Moves the iterator to the previous element. <simplesect kind="return"><para>the new &quot;current&quot; element, or zero if the iterator was already pointing at the first element. </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/sortdict.h" line="345" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/sortdict.h" bodystart="344" bodyend="347"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Simple iterator for <ref refid="d1/d50/class_s_dict" kindref="compound">SDict</ref>. It iterates in the order in which the elements are stored. </para>    </detaileddescription>
+    <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/sortdict.h" line="295" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/sortdict.h" bodystart="294" bodyend="351"/>
+    <listofallmembers>
+      <member refid="d9/dbf/class_s_dict_1_1_iterator_1a7cb5c4e3c6cc381a4568bf8b2e93af15" prot="public" virt="non-virtual"><scope>SDict::Iterator</scope><name>current</name></member>
+      <member refid="d9/dbf/class_s_dict_1_1_iterator_1a0c8bd359d5c6e57123216f52130b95bc" prot="public" virt="non-virtual"><scope>SDict::Iterator</scope><name>Iterator</name></member>
+      <member refid="d9/dbf/class_s_dict_1_1_iterator_1a049c717895b4bbc4f584a2d000dae608" prot="private" virt="non-virtual"><scope>SDict::Iterator</scope><name>m_li</name></member>
+      <member refid="d9/dbf/class_s_dict_1_1_iterator_1ab3172aa53d339348bab5208611044908" prot="public" virt="non-virtual"><scope>SDict::Iterator</scope><name>operator++</name></member>
+      <member refid="d9/dbf/class_s_dict_1_1_iterator_1ab660d0dacf804b314112c5ac9ea41714" prot="public" virt="non-virtual"><scope>SDict::Iterator</scope><name>operator--</name></member>
+      <member refid="d9/dbf/class_s_dict_1_1_iterator_1a89f954f53860fef0f7495c292f663150" prot="public" virt="non-virtual"><scope>SDict::Iterator</scope><name>toFirst</name></member>
+      <member refid="d9/dbf/class_s_dict_1_1_iterator_1a70b2fd3b028bc71c0f39ff8d89fa34ea" prot="public" virt="non-virtual"><scope>SDict::Iterator</scope><name>toLast</name></member>
+      <member refid="d9/dbf/class_s_dict_1_1_iterator_1a2b2dc67f8c7bf160bba90c79083edcd2" prot="public" virt="virtual"><scope>SDict::Iterator</scope><name>~Iterator</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,413 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.2">
+  <compounddef id="d9/dba/struct_layout_doc_entry" kind="struct" prot="public" abstract="yes">
+    <compoundname>LayoutDocEntry</compoundname>
+    <derivedcompoundref refid="df/df4/struct_layout_doc_entry_member_decl" prot="public" virt="non-virtual">LayoutDocEntryMemberDecl</derivedcompoundref>
+    <derivedcompoundref refid="d2/def/struct_layout_doc_entry_member_def" prot="public" virt="non-virtual">LayoutDocEntryMemberDef</derivedcompoundref>
+    <derivedcompoundref refid="d4/dc3/struct_layout_doc_entry_simple" prot="public" virt="non-virtual">LayoutDocEntrySimple</derivedcompoundref>
+    <includes refid="db/d51/layout_8h" local="no">layout.h</includes>
+      <sectiondef kind="public-type">
+      <memberdef kind="enum" id="d9/dba/struct_layout_doc_entry_1a89dcbe762ed7e7f7790d8c034cf8ea01" prot="public" static="no">
+        <name>Kind</name>
+        <enumvalue id="d9/dba/struct_layout_doc_entry_1a89dcbe762ed7e7f7790d8c034cf8ea01ad113af7f7c2413cff5354fc6ed746956" prot="public">
+          <name>MemberGroups</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d9/dba/struct_layout_doc_entry_1a89dcbe762ed7e7f7790d8c034cf8ea01a8d0222ff2f6825914db0db01f8bceff6" prot="public">
+          <name>MemberDeclStart</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d9/dba/struct_layout_doc_entry_1a89dcbe762ed7e7f7790d8c034cf8ea01a86996316d6fc6af00b124848132eb21a" prot="public">
+          <name>MemberDeclEnd</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d9/dba/struct_layout_doc_entry_1a89dcbe762ed7e7f7790d8c034cf8ea01ab482bcce02c17a13918450b1b5f37ad3" prot="public">
+          <name>MemberDecl</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d9/dba/struct_layout_doc_entry_1a89dcbe762ed7e7f7790d8c034cf8ea01af9234baa6bf74434335bac1587060f42" prot="public">
+          <name>MemberDefStart</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d9/dba/struct_layout_doc_entry_1a89dcbe762ed7e7f7790d8c034cf8ea01a275cf74bc12218ae684dd1b62c89da65" prot="public">
+          <name>MemberDefEnd</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d9/dba/struct_layout_doc_entry_1a89dcbe762ed7e7f7790d8c034cf8ea01a7c2ce8318cc385cbce9a8abf885c6a7b" prot="public">
+          <name>MemberDef</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d9/dba/struct_layout_doc_entry_1a89dcbe762ed7e7f7790d8c034cf8ea01a930451480f9ac7b573197b54d0baf00d" prot="public">
+          <name>BriefDesc</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d9/dba/struct_layout_doc_entry_1a89dcbe762ed7e7f7790d8c034cf8ea01ad8cd7024c3ea31d2fb37c527d628788b" prot="public">
+          <name>DetailedDesc</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d9/dba/struct_layout_doc_entry_1a89dcbe762ed7e7f7790d8c034cf8ea01a6b83a603803659762aac3ab11675c21e" prot="public">
+          <name>AuthorSection</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d9/dba/struct_layout_doc_entry_1a89dcbe762ed7e7f7790d8c034cf8ea01aa287e1f1552ee99abdc83dc5030a3062" prot="public">
+          <name>ClassIncludes</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d9/dba/struct_layout_doc_entry_1a89dcbe762ed7e7f7790d8c034cf8ea01a589fc4b135bc724fe66927dc59528c55" prot="public">
+          <name>ClassInlineClasses</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d9/dba/struct_layout_doc_entry_1a89dcbe762ed7e7f7790d8c034cf8ea01a11fbb679ff742a68c4d2428d79cf839a" prot="public">
+          <name>ClassInheritanceGraph</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d9/dba/struct_layout_doc_entry_1a89dcbe762ed7e7f7790d8c034cf8ea01abb6c12027ab80eef9a5cd50023f45b03" prot="public">
+          <name>ClassNestedClasses</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d9/dba/struct_layout_doc_entry_1a89dcbe762ed7e7f7790d8c034cf8ea01a4e1809d4121e03106d09ffc033d3a79b" prot="public">
+          <name>ClassCollaborationGraph</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d9/dba/struct_layout_doc_entry_1a89dcbe762ed7e7f7790d8c034cf8ea01a57e3b4c383119884c8cb7c379ff8330f" prot="public">
+          <name>ClassAllMembersLink</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d9/dba/struct_layout_doc_entry_1a89dcbe762ed7e7f7790d8c034cf8ea01a31993a2224000e6b3c2c2a270973d687" prot="public">
+          <name>ClassUsedFiles</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d9/dba/struct_layout_doc_entry_1a89dcbe762ed7e7f7790d8c034cf8ea01a564498f711f5c4f7ad6e4d2684e8f08c" prot="public">
+          <name>NamespaceNestedNamespaces</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d9/dba/struct_layout_doc_entry_1a89dcbe762ed7e7f7790d8c034cf8ea01af7ab6a0e1b8e4a713b0c072627d236e8" prot="public">
+          <name>NamespaceNestedConstantGroups</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d9/dba/struct_layout_doc_entry_1a89dcbe762ed7e7f7790d8c034cf8ea01ad9abcb1691f5dd7d5882ccc4039e2a09" prot="public">
+          <name>NamespaceClasses</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d9/dba/struct_layout_doc_entry_1a89dcbe762ed7e7f7790d8c034cf8ea01afc9d8ac1ff8091c91414b286fdf5fcb5" prot="public">
+          <name>NamespaceInlineClasses</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d9/dba/struct_layout_doc_entry_1a89dcbe762ed7e7f7790d8c034cf8ea01a3127f65f1e6ae4ea5821c92b1333b078" prot="public">
+          <name>FileClasses</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d9/dba/struct_layout_doc_entry_1a89dcbe762ed7e7f7790d8c034cf8ea01ac8955e5a0783f456cabdafd2e19e4c3a" prot="public">
+          <name>FileNamespaces</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d9/dba/struct_layout_doc_entry_1a89dcbe762ed7e7f7790d8c034cf8ea01ac0449c835f98ac5d6c606750fa8b7cd0" prot="public">
+          <name>FileConstantGroups</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d9/dba/struct_layout_doc_entry_1a89dcbe762ed7e7f7790d8c034cf8ea01aaf79961a0a2671adf87074db636cd5f3" prot="public">
+          <name>FileIncludes</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d9/dba/struct_layout_doc_entry_1a89dcbe762ed7e7f7790d8c034cf8ea01a4e8f3eec4812444aaaf0c4a194ab2a97" prot="public">
+          <name>FileIncludeGraph</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d9/dba/struct_layout_doc_entry_1a89dcbe762ed7e7f7790d8c034cf8ea01aa2569563d48d242c1fc0f423833c64ff" prot="public">
+          <name>FileIncludedByGraph</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d9/dba/struct_layout_doc_entry_1a89dcbe762ed7e7f7790d8c034cf8ea01a33e748ee1c0f8e6388e47e924ac064a8" prot="public">
+          <name>FileSourceLink</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d9/dba/struct_layout_doc_entry_1a89dcbe762ed7e7f7790d8c034cf8ea01a242518def58a8fb0e5fa99244debfad4" prot="public">
+          <name>FileInlineClasses</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d9/dba/struct_layout_doc_entry_1a89dcbe762ed7e7f7790d8c034cf8ea01aa8c2258d542e5c3f1a1f72c6bb2fb6b5" prot="public">
+          <name>GroupClasses</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d9/dba/struct_layout_doc_entry_1a89dcbe762ed7e7f7790d8c034cf8ea01a5e4d582865bd474031332418157dac8a" prot="public">
+          <name>GroupInlineClasses</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d9/dba/struct_layout_doc_entry_1a89dcbe762ed7e7f7790d8c034cf8ea01ace902a92d26f3e4ce9b5f7483f1d97e4" prot="public">
+          <name>GroupNamespaces</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d9/dba/struct_layout_doc_entry_1a89dcbe762ed7e7f7790d8c034cf8ea01ae93324aaf2c5a0bb2216cdb448f898b1" prot="public">
+          <name>GroupDirs</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d9/dba/struct_layout_doc_entry_1a89dcbe762ed7e7f7790d8c034cf8ea01ae688f1b9a360b8f18651fd3ea20d7954" prot="public">
+          <name>GroupNestedGroups</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d9/dba/struct_layout_doc_entry_1a89dcbe762ed7e7f7790d8c034cf8ea01addb5ada32040cfafcc4614de770437a8" prot="public">
+          <name>GroupFiles</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d9/dba/struct_layout_doc_entry_1a89dcbe762ed7e7f7790d8c034cf8ea01aef05d6101aa292988cdcb23470729fa0" prot="public">
+          <name>GroupGraph</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d9/dba/struct_layout_doc_entry_1a89dcbe762ed7e7f7790d8c034cf8ea01a5f994801eb384ec1bc84a252dd8d6353" prot="public">
+          <name>GroupPageDocs</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d9/dba/struct_layout_doc_entry_1a89dcbe762ed7e7f7790d8c034cf8ea01a621e7242302b4f6b37bfb982ea5f41d1" prot="public">
+          <name>DirSubDirs</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d9/dba/struct_layout_doc_entry_1a89dcbe762ed7e7f7790d8c034cf8ea01ae76eee5ec75efa499c40f25ffc855cd6" prot="public">
+          <name>DirFiles</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d9/dba/struct_layout_doc_entry_1a89dcbe762ed7e7f7790d8c034cf8ea01a7e327a8e014bd2d269318e4a09880705" prot="public">
+          <name>DirGraph</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/layout.h" line="33" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/layout.h" bodystart="33" bodyend="65"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="d9/dba/struct_layout_doc_entry_1aababb2177bde8020545fe2c57115a9cb" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type></type>
+        <definition>virtual LayoutDocEntry::~LayoutDocEntry</definition>
+        <argsstring>()</argsstring>
+        <name>~LayoutDocEntry</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/layout.h" line="32" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/layout.h" bodystart="32" bodyend="32"/>
+      </memberdef>
+      <memberdef kind="function" id="d9/dba/struct_layout_doc_entry_1a26ca17b3f0f887a7901cee4fb81dace2" prot="public" static="no" const="yes" explicit="no" inline="no" virt="pure-virtual">
+        <type>Kind</type>
+        <definition>virtual Kind LayoutDocEntry::kind</definition>
+        <argsstring>() const =0</argsstring>
+        <name>kind</name>
+        <reimplementedby refid="d4/dc3/struct_layout_doc_entry_simple_1a49e64d8985d81aa29b84f9d9552788ec">kind</reimplementedby>
+        <reimplementedby refid="df/df4/struct_layout_doc_entry_member_decl_1aaa9758d4babd3703ed62fcc67bab03b8">kind</reimplementedby>
+        <reimplementedby refid="d2/def/struct_layout_doc_entry_member_def_1a8a2db8fde0b290f478ea0f6e2ea1eeb0">kind</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/layout.h" line="66"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Base class representing a piece of a documentation page. </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="3613">
+        <label>LayoutDocEntryMemberDef</label>
+        <link refid="d2/def/struct_layout_doc_entry_member_def"/>
+        <childnode refid="3611" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3614">
+        <label>LayoutDocEntrySimple</label>
+        <link refid="d4/dc3/struct_layout_doc_entry_simple"/>
+        <childnode refid="3611" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3612">
+        <label>LayoutDocEntryMemberDecl</label>
+        <link refid="df/df4/struct_layout_doc_entry_member_decl"/>
+        <childnode refid="3611" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3611">
+        <label>LayoutDocEntry</label>
+        <link refid="d9/dba/struct_layout_doc_entry"/>
+      </node>
+      <node id="3615">
+        <label>LayoutDocEntrySection</label>
+        <link refid="dd/da0/struct_layout_doc_entry_section"/>
+        <childnode refid="3614" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/layout.h" line="31" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/layout.h" bodystart="30" bodyend="67"/>
+    <listofallmembers>
+      <member refid="d9/dba/struct_layout_doc_entry_1a89dcbe762ed7e7f7790d8c034cf8ea01a6b83a603803659762aac3ab11675c21e" prot="public" virt="non-virtual"><scope>LayoutDocEntry</scope><name>AuthorSection</name></member>
+      <member refid="d9/dba/struct_layout_doc_entry_1a89dcbe762ed7e7f7790d8c034cf8ea01a930451480f9ac7b573197b54d0baf00d" prot="public" virt="non-virtual"><scope>LayoutDocEntry</scope><name>BriefDesc</name></member>
+      <member refid="d9/dba/struct_layout_doc_entry_1a89dcbe762ed7e7f7790d8c034cf8ea01a57e3b4c383119884c8cb7c379ff8330f" prot="public" virt="non-virtual"><scope>LayoutDocEntry</scope><name>ClassAllMembersLink</name></member>
+      <member refid="d9/dba/struct_layout_doc_entry_1a89dcbe762ed7e7f7790d8c034cf8ea01a4e1809d4121e03106d09ffc033d3a79b" prot="public" virt="non-virtual"><scope>LayoutDocEntry</scope><name>ClassCollaborationGraph</name></member>
+      <member refid="d9/dba/struct_layout_doc_entry_1a89dcbe762ed7e7f7790d8c034cf8ea01aa287e1f1552ee99abdc83dc5030a3062" prot="public" virt="non-virtual"><scope>LayoutDocEntry</scope><name>ClassIncludes</name></member>
+      <member refid="d9/dba/struct_layout_doc_entry_1a89dcbe762ed7e7f7790d8c034cf8ea01a11fbb679ff742a68c4d2428d79cf839a" prot="public" virt="non-virtual"><scope>LayoutDocEntry</scope><name>ClassInheritanceGraph</name></member>
+      <member refid="d9/dba/struct_layout_doc_entry_1a89dcbe762ed7e7f7790d8c034cf8ea01a589fc4b135bc724fe66927dc59528c55" prot="public" virt="non-virtual"><scope>LayoutDocEntry</scope><name>ClassInlineClasses</name></member>
+      <member refid="d9/dba/struct_layout_doc_entry_1a89dcbe762ed7e7f7790d8c034cf8ea01abb6c12027ab80eef9a5cd50023f45b03" prot="public" virt="non-virtual"><scope>LayoutDocEntry</scope><name>ClassNestedClasses</name></member>
+      <member refid="d9/dba/struct_layout_doc_entry_1a89dcbe762ed7e7f7790d8c034cf8ea01a31993a2224000e6b3c2c2a270973d687" prot="public" virt="non-virtual"><scope>LayoutDocEntry</scope><name>ClassUsedFiles</name></member>
+      <member refid="d9/dba/struct_layout_doc_entry_1a89dcbe762ed7e7f7790d8c034cf8ea01ad8cd7024c3ea31d2fb37c527d628788b" prot="public" virt="non-virtual"><scope>LayoutDocEntry</scope><name>DetailedDesc</name></member>
+      <member refid="d9/dba/struct_layout_doc_entry_1a89dcbe762ed7e7f7790d8c034cf8ea01ae76eee5ec75efa499c40f25ffc855cd6" prot="public" virt="non-virtual"><scope>LayoutDocEntry</scope><name>DirFiles</name></member>
+      <member refid="d9/dba/struct_layout_doc_entry_1a89dcbe762ed7e7f7790d8c034cf8ea01a7e327a8e014bd2d269318e4a09880705" prot="public" virt="non-virtual"><scope>LayoutDocEntry</scope><name>DirGraph</name></member>
+      <member refid="d9/dba/struct_layout_doc_entry_1a89dcbe762ed7e7f7790d8c034cf8ea01a621e7242302b4f6b37bfb982ea5f41d1" prot="public" virt="non-virtual"><scope>LayoutDocEntry</scope><name>DirSubDirs</name></member>
+      <member refid="d9/dba/struct_layout_doc_entry_1a89dcbe762ed7e7f7790d8c034cf8ea01a3127f65f1e6ae4ea5821c92b1333b078" prot="public" virt="non-virtual"><scope>LayoutDocEntry</scope><name>FileClasses</name></member>
+      <member refid="d9/dba/struct_layout_doc_entry_1a89dcbe762ed7e7f7790d8c034cf8ea01ac0449c835f98ac5d6c606750fa8b7cd0" prot="public" virt="non-virtual"><scope>LayoutDocEntry</scope><name>FileConstantGroups</name></member>
+      <member refid="d9/dba/struct_layout_doc_entry_1a89dcbe762ed7e7f7790d8c034cf8ea01aa2569563d48d242c1fc0f423833c64ff" prot="public" virt="non-virtual"><scope>LayoutDocEntry</scope><name>FileIncludedByGraph</name></member>
+      <member refid="d9/dba/struct_layout_doc_entry_1a89dcbe762ed7e7f7790d8c034cf8ea01a4e8f3eec4812444aaaf0c4a194ab2a97" prot="public" virt="non-virtual"><scope>LayoutDocEntry</scope><name>FileIncludeGraph</name></member>
+      <member refid="d9/dba/struct_layout_doc_entry_1a89dcbe762ed7e7f7790d8c034cf8ea01aaf79961a0a2671adf87074db636cd5f3" prot="public" virt="non-virtual"><scope>LayoutDocEntry</scope><name>FileIncludes</name></member>
+      <member refid="d9/dba/struct_layout_doc_entry_1a89dcbe762ed7e7f7790d8c034cf8ea01a242518def58a8fb0e5fa99244debfad4" prot="public" virt="non-virtual"><scope>LayoutDocEntry</scope><name>FileInlineClasses</name></member>
+      <member refid="d9/dba/struct_layout_doc_entry_1a89dcbe762ed7e7f7790d8c034cf8ea01ac8955e5a0783f456cabdafd2e19e4c3a" prot="public" virt="non-virtual"><scope>LayoutDocEntry</scope><name>FileNamespaces</name></member>
+      <member refid="d9/dba/struct_layout_doc_entry_1a89dcbe762ed7e7f7790d8c034cf8ea01a33e748ee1c0f8e6388e47e924ac064a8" prot="public" virt="non-virtual"><scope>LayoutDocEntry</scope><name>FileSourceLink</name></member>
+      <member refid="d9/dba/struct_layout_doc_entry_1a89dcbe762ed7e7f7790d8c034cf8ea01aa8c2258d542e5c3f1a1f72c6bb2fb6b5" prot="public" virt="non-virtual"><scope>LayoutDocEntry</scope><name>GroupClasses</name></member>
+      <member refid="d9/dba/struct_layout_doc_entry_1a89dcbe762ed7e7f7790d8c034cf8ea01ae93324aaf2c5a0bb2216cdb448f898b1" prot="public" virt="non-virtual"><scope>LayoutDocEntry</scope><name>GroupDirs</name></member>
+      <member refid="d9/dba/struct_layout_doc_entry_1a89dcbe762ed7e7f7790d8c034cf8ea01addb5ada32040cfafcc4614de770437a8" prot="public" virt="non-virtual"><scope>LayoutDocEntry</scope><name>GroupFiles</name></member>
+      <member refid="d9/dba/struct_layout_doc_entry_1a89dcbe762ed7e7f7790d8c034cf8ea01aef05d6101aa292988cdcb23470729fa0" prot="public" virt="non-virtual"><scope>LayoutDocEntry</scope><name>GroupGraph</name></member>
+      <member refid="d9/dba/struct_layout_doc_entry_1a89dcbe762ed7e7f7790d8c034cf8ea01a5e4d582865bd474031332418157dac8a" prot="public" virt="non-virtual"><scope>LayoutDocEntry</scope><name>GroupInlineClasses</name></member>
+      <member refid="d9/dba/struct_layout_doc_entry_1a89dcbe762ed7e7f7790d8c034cf8ea01ace902a92d26f3e4ce9b5f7483f1d97e4" prot="public" virt="non-virtual"><scope>LayoutDocEntry</scope><name>GroupNamespaces</name></member>
+      <member refid="d9/dba/struct_layout_doc_entry_1a89dcbe762ed7e7f7790d8c034cf8ea01ae688f1b9a360b8f18651fd3ea20d7954" prot="public" virt="non-virtual"><scope>LayoutDocEntry</scope><name>GroupNestedGroups</name></member>
+      <member refid="d9/dba/struct_layout_doc_entry_1a89dcbe762ed7e7f7790d8c034cf8ea01a5f994801eb384ec1bc84a252dd8d6353" prot="public" virt="non-virtual"><scope>LayoutDocEntry</scope><name>GroupPageDocs</name></member>
+      <member refid="d9/dba/struct_layout_doc_entry_1a26ca17b3f0f887a7901cee4fb81dace2" prot="public" virt="pure-virtual"><scope>LayoutDocEntry</scope><name>kind</name></member>
+      <member refid="d9/dba/struct_layout_doc_entry_1a89dcbe762ed7e7f7790d8c034cf8ea01" prot="public" virt="non-virtual"><scope>LayoutDocEntry</scope><name>Kind</name></member>
+      <member refid="d9/dba/struct_layout_doc_entry_1a89dcbe762ed7e7f7790d8c034cf8ea01ab482bcce02c17a13918450b1b5f37ad3" prot="public" virt="non-virtual"><scope>LayoutDocEntry</scope><name>MemberDecl</name></member>
+      <member refid="d9/dba/struct_layout_doc_entry_1a89dcbe762ed7e7f7790d8c034cf8ea01a86996316d6fc6af00b124848132eb21a" prot="public" virt="non-virtual"><scope>LayoutDocEntry</scope><name>MemberDeclEnd</name></member>
+      <member refid="d9/dba/struct_layout_doc_entry_1a89dcbe762ed7e7f7790d8c034cf8ea01a8d0222ff2f6825914db0db01f8bceff6" prot="public" virt="non-virtual"><scope>LayoutDocEntry</scope><name>MemberDeclStart</name></member>
+      <member refid="d9/dba/struct_layout_doc_entry_1a89dcbe762ed7e7f7790d8c034cf8ea01a7c2ce8318cc385cbce9a8abf885c6a7b" prot="public" virt="non-virtual"><scope>LayoutDocEntry</scope><name>MemberDef</name></member>
+      <member refid="d9/dba/struct_layout_doc_entry_1a89dcbe762ed7e7f7790d8c034cf8ea01a275cf74bc12218ae684dd1b62c89da65" prot="public" virt="non-virtual"><scope>LayoutDocEntry</scope><name>MemberDefEnd</name></member>
+      <member refid="d9/dba/struct_layout_doc_entry_1a89dcbe762ed7e7f7790d8c034cf8ea01af9234baa6bf74434335bac1587060f42" prot="public" virt="non-virtual"><scope>LayoutDocEntry</scope><name>MemberDefStart</name></member>
+      <member refid="d9/dba/struct_layout_doc_entry_1a89dcbe762ed7e7f7790d8c034cf8ea01ad113af7f7c2413cff5354fc6ed746956" prot="public" virt="non-virtual"><scope>LayoutDocEntry</scope><name>MemberGroups</name></member>
+      <member refid="d9/dba/struct_layout_doc_entry_1a89dcbe762ed7e7f7790d8c034cf8ea01ad9abcb1691f5dd7d5882ccc4039e2a09" prot="public" virt="non-virtual"><scope>LayoutDocEntry</scope><name>NamespaceClasses</name></member>
+      <member refid="d9/dba/struct_layout_doc_entry_1a89dcbe762ed7e7f7790d8c034cf8ea01afc9d8ac1ff8091c91414b286fdf5fcb5" prot="public" virt="non-virtual"><scope>LayoutDocEntry</scope><name>NamespaceInlineClasses</name></member>
+      <member refid="d9/dba/struct_layout_doc_entry_1a89dcbe762ed7e7f7790d8c034cf8ea01af7ab6a0e1b8e4a713b0c072627d236e8" prot="public" virt="non-virtual"><scope>LayoutDocEntry</scope><name>NamespaceNestedConstantGroups</name></member>
+      <member refid="d9/dba/struct_layout_doc_entry_1a89dcbe762ed7e7f7790d8c034cf8ea01a564498f711f5c4f7ad6e4d2684e8f08c" prot="public" virt="non-virtual"><scope>LayoutDocEntry</scope><name>NamespaceNestedNamespaces</name></member>
+      <member refid="d9/dba/struct_layout_doc_entry_1aababb2177bde8020545fe2c57115a9cb" prot="public" virt="virtual"><scope>LayoutDocEntry</scope><name>~LayoutDocEntry</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,884 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.2">
+  <compounddef id="d4/db3/class_html_help" kind="class" prot="public">
+    <compoundname>HtmlHelp</compoundname>
+    <basecompoundref refid="d9/dd5/class_index_intf" prot="public" virt="non-virtual">IndexIntf</basecompoundref>
+    <includes refid="d8/dc3/htmlhelp_8h" local="no">htmlhelp.h</includes>
+      <sectiondef kind="private-type">
+      <memberdef kind="enum" id="d4/db3/class_html_help_1a7fa2b031d786cb7a678e88809c2566ca" prot="private" static="no">
+        <name>ImageNumber</name>
+        <enumvalue id="d4/db3/class_html_help_1a7fa2b031d786cb7a678e88809c2566caaec1852e9e27b296742d6c36b9c416920" prot="private">
+          <name>BOOK_CLOSED</name>
+          <initializer>=1</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d4/db3/class_html_help_1a7fa2b031d786cb7a678e88809c2566caa7e86e3494127343bd99ad946cfa13d21" prot="private">
+          <name>BOOK_OPEN</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d4/db3/class_html_help_1a7fa2b031d786cb7a678e88809c2566caacd0e3ae0fbebc09bd3bbebbd4815472a" prot="private">
+          <name>BOOK_CLOSED_NEW</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d4/db3/class_html_help_1a7fa2b031d786cb7a678e88809c2566caac6c5ce4a499ef91164b43958c919123f" prot="private">
+          <name>BOOK_OPEN_NEW</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d4/db3/class_html_help_1a7fa2b031d786cb7a678e88809c2566caa08208a8aca7a51f8f5b9dc1b695619c1" prot="private">
+          <name>FOLDER_CLOSED</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d4/db3/class_html_help_1a7fa2b031d786cb7a678e88809c2566caa3aea4a6d39d36dd2447e2da611623730" prot="private">
+          <name>FOLDER_OPEN</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d4/db3/class_html_help_1a7fa2b031d786cb7a678e88809c2566caa6a05e4f90f1ce01c7f60264faab7796f" prot="private">
+          <name>FOLDER_CLOSED_NEW</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d4/db3/class_html_help_1a7fa2b031d786cb7a678e88809c2566caa613f98c3ad2d1f8af8acd1fd544102b4" prot="private">
+          <name>FOLDER_OPEN_NEW</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d4/db3/class_html_help_1a7fa2b031d786cb7a678e88809c2566caa825238cc73c9011836072b7159cd063c" prot="private">
+          <name>QUERY</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d4/db3/class_html_help_1a7fa2b031d786cb7a678e88809c2566caa576707aa2b0d1f23020bf3556240b5ae" prot="private">
+          <name>QUERY_NEW</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d4/db3/class_html_help_1a7fa2b031d786cb7a678e88809c2566caa3e9b105181d342b365fe4bdee8acf84b" prot="private">
+          <name>TEXT</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d4/db3/class_html_help_1a7fa2b031d786cb7a678e88809c2566caa5bd4c350ef03738d931784b2e06f7747" prot="private">
+          <name>TEXT_NEW</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d4/db3/class_html_help_1a7fa2b031d786cb7a678e88809c2566caaf3542090c73d8ec35a6ac8331fa77e01" prot="private">
+          <name>WEB_DOC</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d4/db3/class_html_help_1a7fa2b031d786cb7a678e88809c2566caa01dc344f0d03316ac6123da212b00acd" prot="private">
+          <name>WEB_DOC_NEW</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d4/db3/class_html_help_1a7fa2b031d786cb7a678e88809c2566caa5013131ed24fc1a223d1721782c9ef65" prot="private">
+          <name>WEB_LINK</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d4/db3/class_html_help_1a7fa2b031d786cb7a678e88809c2566caacbd5cd83209e54f39785b855faad6c6b" prot="private">
+          <name>WEB_LINK_NEW</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d4/db3/class_html_help_1a7fa2b031d786cb7a678e88809c2566caae6f2e13e6d941648dcb8fa0b33de494b" prot="private">
+          <name>INFO</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d4/db3/class_html_help_1a7fa2b031d786cb7a678e88809c2566caafecd3e50bd62c15ab1d4d048b5e280c9" prot="private">
+          <name>INFO_NEW</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d4/db3/class_html_help_1a7fa2b031d786cb7a678e88809c2566caa81f15f9b760ab6bb2a67c759a072be14" prot="private">
+          <name>LINK</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d4/db3/class_html_help_1a7fa2b031d786cb7a678e88809c2566caa5b3c47ac921af0a746c3f24b04956abf" prot="private">
+          <name>LINK_NEW</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d4/db3/class_html_help_1a7fa2b031d786cb7a678e88809c2566caac317b4d5947561ac628f05ae7cbf692c" prot="private">
+          <name>BOOKLET</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d4/db3/class_html_help_1a7fa2b031d786cb7a678e88809c2566caab73467539bbfd3401ac0f0a4cc852972" prot="private">
+          <name>BOOKLET_NEW</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d4/db3/class_html_help_1a7fa2b031d786cb7a678e88809c2566caa62ff82964869830f742e4d55dcc5874d" prot="private">
+          <name>EMAIL</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d4/db3/class_html_help_1a7fa2b031d786cb7a678e88809c2566caa0c5093469414d14509f38856230a6dfa" prot="private">
+          <name>EMAIL_NEW</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d4/db3/class_html_help_1a7fa2b031d786cb7a678e88809c2566caaf1c0f7d8a8932af2157386c8de57f1c6" prot="private">
+          <name>EMAIL2</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d4/db3/class_html_help_1a7fa2b031d786cb7a678e88809c2566caa9a29099af4c48e62e289c348e2344483" prot="private">
+          <name>EMAIL2_NEW</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d4/db3/class_html_help_1a7fa2b031d786cb7a678e88809c2566caa650460790b63d21545a3a650e198127d" prot="private">
+          <name>IMAGE</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d4/db3/class_html_help_1a7fa2b031d786cb7a678e88809c2566caa3b39f2db693a2ea1bead2fd1db0876d8" prot="private">
+          <name>IMAGE_NEW</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d4/db3/class_html_help_1a7fa2b031d786cb7a678e88809c2566caa45377d49ec2e3fba7e6f51077620d737" prot="private">
+          <name>AUDIO</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d4/db3/class_html_help_1a7fa2b031d786cb7a678e88809c2566caa4bf7a99aee350a08999b1ff157e4cc38" prot="private">
+          <name>AUDIO_NEW</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d4/db3/class_html_help_1a7fa2b031d786cb7a678e88809c2566caa761720c8f58915a5614f8ee8e87fd73b" prot="private">
+          <name>MUSIC</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d4/db3/class_html_help_1a7fa2b031d786cb7a678e88809c2566caa33344e49811ddf6461d0d002de73d1fe" prot="private">
+          <name>MUSIC_NEW</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d4/db3/class_html_help_1a7fa2b031d786cb7a678e88809c2566caa19ce2f379767fa5636d99b1624424e27" prot="private">
+          <name>VIDEO</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d4/db3/class_html_help_1a7fa2b031d786cb7a678e88809c2566caa6ae16142e9a1bbfb6cf4e0057f88cb84" prot="private">
+          <name>VIDEO_NEW</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d4/db3/class_html_help_1a7fa2b031d786cb7a678e88809c2566caa7c362e1795a9644efa179ceab270fe61" prot="private">
+          <name>INDEX</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d4/db3/class_html_help_1a7fa2b031d786cb7a678e88809c2566caa5ba12150f715f11b11ba5c0c01afc292" prot="private">
+          <name>INDEX_NEW</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d4/db3/class_html_help_1a7fa2b031d786cb7a678e88809c2566caacd187fb03abe97b1f1c79c32cfbb9db6" prot="private">
+          <name>IDEA</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d4/db3/class_html_help_1a7fa2b031d786cb7a678e88809c2566caadc361e2afcf234f19692cdd976b35614" prot="private">
+          <name>IDEA_NEW</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d4/db3/class_html_help_1a7fa2b031d786cb7a678e88809c2566caa8b971585ba93d8009a46a7e0303fefab" prot="private">
+          <name>NOTE</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d4/db3/class_html_help_1a7fa2b031d786cb7a678e88809c2566caa36c71b6fceea68ae4d0508af9c5b8fa9" prot="private">
+          <name>NOTE_NEW</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d4/db3/class_html_help_1a7fa2b031d786cb7a678e88809c2566caaa549ff1567ca21b11ff5a098b4c2aecc" prot="private">
+          <name>TOOL</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d4/db3/class_html_help_1a7fa2b031d786cb7a678e88809c2566caa2a48c9704da887c47191bd7ea2d195b4" prot="private">
+          <name>TOOL_NEW</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>used in imageNumber param of HTMLHelp::addContentsItem() function to specify document icon in tree view. Writes &lt;param name=&quot;ImageNumber&quot; value=&quot;xx&quot;&gt; in .HHC file. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/htmlhelp.h" line="43" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/htmlhelp.h" bodystart="43" bodyend="65"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="friend">
+      <memberdef kind="friend" id="d4/db3/class_html_help_1a6ba39d6a831c897c93a68738d9a721f3" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>friend class</type>
+        <definition>friend class HtmlHelpIndex</definition>
+        <argsstring></argsstring>
+        <name>HtmlHelpIndex</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/htmlhelp.h" line="89" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/htmlhelp.h" bodystart="89" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="d4/db3/class_html_help_1ad0676da1ef283e252cf722dc90f297df" prot="private" static="no" mutable="no">
+        <type>QFile *</type>
+        <definition>QFile* HtmlHelp::cf</definition>
+        <argsstring></argsstring>
+        <name>cf</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/htmlhelp.h" line="92" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/htmlhelp.h" bodystart="92" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d4/db3/class_html_help_1a4f436e2c80f662e19080bf6bfa7464bd" prot="private" static="no" mutable="no">
+        <type>QFile *</type>
+        <definition>QFile * HtmlHelp::kf</definition>
+        <argsstring></argsstring>
+        <name>kf</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/htmlhelp.h" line="92" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/htmlhelp.h" bodystart="92" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d4/db3/class_html_help_1a0fffcd959b8af0cbe6dae65939232d30" prot="private" static="no" mutable="no">
+        <type><ref refid="dc/d3c/class_f_text_stream" kindref="compound">FTextStream</ref></type>
+        <definition>FTextStream HtmlHelp::cts</definition>
+        <argsstring></argsstring>
+        <name>cts</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/htmlhelp.h" line="93" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/htmlhelp.h" bodystart="93" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d4/db3/class_html_help_1a73fa1d70a7cf2fcc7d1065935c7c851a" prot="private" static="no" mutable="no">
+        <type><ref refid="dc/d3c/class_f_text_stream" kindref="compound">FTextStream</ref></type>
+        <definition>FTextStream HtmlHelp::kts</definition>
+        <argsstring></argsstring>
+        <name>kts</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/htmlhelp.h" line="93" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/htmlhelp.h" bodystart="93" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d4/db3/class_html_help_1abc1da6575b31d726ae6b113e785e9280" prot="private" static="no" mutable="no">
+        <type>HtmlHelpIndex *</type>
+        <definition>HtmlHelpIndex* HtmlHelp::index</definition>
+        <argsstring></argsstring>
+        <name>index</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/htmlhelp.h" line="94" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/htmlhelp.h" bodystart="94" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d4/db3/class_html_help_1a195300ee4f1d918be0c443294d1f986a" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int HtmlHelp::dc</definition>
+        <argsstring></argsstring>
+        <name>dc</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/htmlhelp.h" line="95" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/htmlhelp.h" bodystart="95" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d4/db3/class_html_help_1a262196131203aab987ffd659c7b89dfa" prot="private" static="no" mutable="no">
+        <type>QStrList</type>
+        <definition>QStrList HtmlHelp::indexFiles</definition>
+        <argsstring></argsstring>
+        <name>indexFiles</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/htmlhelp.h" line="96" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/htmlhelp.h" bodystart="96" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d4/db3/class_html_help_1ac60e46051e025bd4620e2fdc7fb737a1" prot="private" static="no" mutable="no">
+        <type>QStrList</type>
+        <definition>QStrList HtmlHelp::imageFiles</definition>
+        <argsstring></argsstring>
+        <name>imageFiles</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/htmlhelp.h" line="97" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/htmlhelp.h" bodystart="97" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d4/db3/class_html_help_1aed93ce624ed45c6178546361f7665792" prot="private" static="no" mutable="no">
+        <type>QDict&lt; void &gt;</type>
+        <definition>QDict&lt;void&gt; HtmlHelp::indexFileDict</definition>
+        <argsstring></argsstring>
+        <name>indexFileDict</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/htmlhelp.h" line="98" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/htmlhelp.h" bodystart="98" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d4/db3/class_html_help_1a0e8c2896b45f7f00c832d0fe59ebb2c2" prot="private" static="no" mutable="no">
+        <type>void *</type>
+        <definition>void* HtmlHelp::m_fromUtf8</definition>
+        <argsstring></argsstring>
+        <name>m_fromUtf8</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/htmlhelp.h" line="101" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/htmlhelp.h" bodystart="101" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="d4/db3/class_html_help_1a23ee43b2a191a1dab29a73f231220e88" prot="private" static="yes" mutable="no">
+        <type><ref refid="d4/db3/class_html_help" kindref="compound">HtmlHelp</ref> *</type>
+        <definition>HtmlHelp * HtmlHelp::theInstance</definition>
+        <argsstring></argsstring>
+        <name>theInstance</name>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/htmlhelp.h" line="99" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/htmlhelp.h" bodystart="99" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="d4/db3/class_html_help_1a0d86f84971a446fc8c61c1a64f8eaaf8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>HtmlHelp::HtmlHelp</definition>
+        <argsstring>()</argsstring>
+        <name>HtmlHelp</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs an html object. The object has to be <ref refid="d4/db3/class_html_help_1acf6cb7c477c71f2031b5831f979991d5" kindref="member">initialized</ref> before it can be used. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/htmlhelp.h" line="68" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/htmlhelp.cpp" bodystart="270" bodyend="277"/>
+      </memberdef>
+      <memberdef kind="function" id="d4/db3/class_html_help_1a53ff23898ba7e49de5ce6dba03675f82" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>HtmlHelp::~HtmlHelp</definition>
+        <argsstring>()</argsstring>
+        <name>~HtmlHelp</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/htmlhelp.h" line="69" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/htmlhelp.cpp" bodystart="279" bodyend="282"/>
+      </memberdef>
+      <memberdef kind="function" id="d4/db3/class_html_help_1acf6cb7c477c71f2031b5831f979991d5" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void HtmlHelp::initialize</definition>
+        <argsstring>()</argsstring>
+        <name>initialize</name>
+        <reimplements refid="d9/dd5/class_index_intf_1a0e46b4afa0ed269e2d089c8444590515">initialize</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>This will create a contents file (index.hhc) and a index file (index.hhk) and write the header of those files. It also creates a project file (index.hhp) <simplesect kind="see"><para><ref refid="d4/db3/class_html_help_1a66375adceef242d73c6554bd7fba6cf7" kindref="member">finalize()</ref> </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/htmlhelp.h" line="70" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/htmlhelp.cpp" bodystart="300" bodyend="436"/>
+      </memberdef>
+      <memberdef kind="function" id="d4/db3/class_html_help_1a66375adceef242d73c6554bd7fba6cf7" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void HtmlHelp::finalize</definition>
+        <argsstring>()</argsstring>
+        <name>finalize</name>
+        <reimplements refid="d9/dd5/class_index_intf_1aa5532a767c4ac41167d014209b2ea8d7">finalize</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Finalizes the HTML help. This will finish and close the contents file (index.hhc) and the index file (index.hhk). <simplesect kind="see"><para><ref refid="d4/db3/class_html_help_1acf6cb7c477c71f2031b5831f979991d5" kindref="member">initialize()</ref> </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/htmlhelp.h" line="71" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/htmlhelp.cpp" bodystart="526" bodyend="548"/>
+      </memberdef>
+      <memberdef kind="function" id="d4/db3/class_html_help_1aca0008f8813f28f23ca5bcaea25a7bec" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void HtmlHelp::incContentsDepth</definition>
+        <argsstring>()</argsstring>
+        <name>incContentsDepth</name>
+        <reimplements refid="d9/dd5/class_index_intf_1ac5ff1647bcf1cc65543258df162a0a7c">incContentsDepth</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Increase the level of the contents hierarchy. This will start a new unnumbered HTML list in contents file. <simplesect kind="see"><para><ref refid="d4/db3/class_html_help_1ad76b300748e818d96676f0743738090d" kindref="member">decContentsDepth()</ref> </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/htmlhelp.h" line="72" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/htmlhelp.cpp" bodystart="554" bodyend="559"/>
+      </memberdef>
+      <memberdef kind="function" id="d4/db3/class_html_help_1ad76b300748e818d96676f0743738090d" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void HtmlHelp::decContentsDepth</definition>
+        <argsstring>()</argsstring>
+        <name>decContentsDepth</name>
+        <reimplements refid="d9/dd5/class_index_intf_1a920918399556e9afd4d927de3d1f4247">decContentsDepth</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Decrease the level of the contents hierarchy. This will end the unnumber HTML list. <simplesect kind="see"><para><ref refid="d4/db3/class_html_help_1aca0008f8813f28f23ca5bcaea25a7bec" kindref="member">incContentsDepth()</ref> </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/htmlhelp.h" line="73" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/htmlhelp.cpp" bodystart="565" bodyend="570"/>
+      </memberdef>
+      <memberdef kind="function" id="d4/db3/class_html_help_1a254ac391f0b096f1c06b72205fca5d77" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void HtmlHelp::addContentsItem</definition>
+        <argsstring>(bool isDir, const char *name, const char *ref, const char *file, const char *anchor, bool separateIndex, bool addToNavIndex, Definition *def)</argsstring>
+        <name>addContentsItem</name>
+        <reimplements refid="d9/dd5/class_index_intf_1aab43652b639ce5cd25f5b16e54e20f26">addContentsItem</reimplements>
+        <param>
+          <type>bool</type>
+          <declname>isDir</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>name</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>ref</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>file</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>anchor</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>separateIndex</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>addToNavIndex</declname>
+        </param>
+        <param>
+          <type><ref refid="d5/dcc/class_definition" kindref="compound">Definition</ref> *</type>
+          <declname>def</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Add an list item to the contents file. <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>isDir</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>boolean indicating if this is a dir or file entry </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>name</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the name of the item. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>ref</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the <ref refid="dd/d89/struct_u_r_l" kindref="compound">URL</ref> of to the item. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>file</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the file in which the item is defined. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>anchor</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the anchor of the item. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>separateIndex</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>not used. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>addToNavIndex</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>not used. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>def</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>not used. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/htmlhelp.h" line="81" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/htmlhelp.cpp" bodystart="604" bodyend="650"/>
+      </memberdef>
+      <memberdef kind="function" id="d4/db3/class_html_help_1a547f7caa925db6b0f227176c695bd687" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void HtmlHelp::addIndexItem</definition>
+        <argsstring>(Definition *context, MemberDef *md, const char *sectionAnchor, const char *title)</argsstring>
+        <name>addIndexItem</name>
+        <reimplements refid="d9/dd5/class_index_intf_1a762276e6f0229fb784a592acd2cf6a8b">addIndexItem</reimplements>
+        <param>
+          <type><ref refid="d5/dcc/class_definition" kindref="compound">Definition</ref> *</type>
+          <declname>context</declname>
+        </param>
+        <param>
+          <type><ref refid="da/d09/class_member_def" kindref="compound">MemberDef</ref> *</type>
+          <declname>md</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>sectionAnchor</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>title</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/htmlhelp.h" line="83" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/htmlhelp.cpp" bodystart="653" bodyend="683"/>
+      </memberdef>
+      <memberdef kind="function" id="d4/db3/class_html_help_1a713ba33425a3d63c89322cc513e01414" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void HtmlHelp::addIndexFile</definition>
+        <argsstring>(const char *name)</argsstring>
+        <name>addIndexFile</name>
+        <reimplements refid="d9/dd5/class_index_intf_1a153c5c5995155d112c33fed544b44094">addIndexFile</reimplements>
+        <param>
+          <type>const char *</type>
+          <declname>name</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/htmlhelp.h" line="84" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/htmlhelp.cpp" bodystart="513" bodyend="520"/>
+      </memberdef>
+      <memberdef kind="function" id="d4/db3/class_html_help_1aba0ad9a05caf2ff7c310aaf751eb22e9" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void HtmlHelp::addImageFile</definition>
+        <argsstring>(const char *)</argsstring>
+        <name>addImageFile</name>
+        <reimplements refid="d9/dd5/class_index_intf_1ac1650d4596d97cdd1de428b06a76daad">addImageFile</reimplements>
+        <param>
+          <type>const char *</type>
+          <defname>fileName</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/htmlhelp.h" line="85" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/htmlhelp.cpp" bodystart="685" bodyend="688"/>
+      </memberdef>
+      <memberdef kind="function" id="d4/db3/class_html_help_1a711b8605fb3b450234299747b5675a0b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>void HtmlHelp::addStyleSheetFile</definition>
+        <argsstring>(const char *)</argsstring>
+        <name>addStyleSheetFile</name>
+        <reimplements refid="d9/dd5/class_index_intf_1a3989fce1306feb90e477cb53fd0daee0">addStyleSheetFile</reimplements>
+        <param>
+          <type>const char *</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/htmlhelp.h" line="86" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/htmlhelp.h" bodystart="86" bodyend="86"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="d4/db3/class_html_help_1a654409e480f62ba377252bff3cec60d8" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void HtmlHelp::createProjectFile</definition>
+        <argsstring>()</argsstring>
+        <name>createProjectFile</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/htmlhelp.h" line="90" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/htmlhelp.cpp" bodystart="455" bodyend="511"/>
+      </memberdef>
+      <memberdef kind="function" id="d4/db3/class_html_help_1a7d46269e4ff27f042eadf20fa02a776e" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>QCString</type>
+        <definition>QCString HtmlHelp::recode</definition>
+        <argsstring>(const QCString &amp;s)</argsstring>
+        <name>recode</name>
+        <param>
+          <type>const QCString &amp;</type>
+          <declname>s</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/htmlhelp.h" line="100" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/htmlhelp.cpp" bodystart="572" bodyend="592"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>A class that generated the HTML Help specific files. </para>    </briefdescription>
+    <detaileddescription>
+<para>These files can be used with the Microsoft HTML Help workshop to generate compressed HTML files (.chm). </para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="3549">
+        <label>HtmlHelp</label>
+        <link refid="d4/db3/class_html_help"/>
+        <childnode refid="3550" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3550">
+        <label>IndexIntf</label>
+        <link refid="d9/dd5/class_index_intf"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="3551">
+        <label>HtmlHelp</label>
+        <link refid="d4/db3/class_html_help"/>
+        <childnode refid="3552" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3552">
+        <label>IndexIntf</label>
+        <link refid="d9/dd5/class_index_intf"/>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/htmlhelp.h" line="39" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/htmlhelp.h" bodystart="38" bodyend="102"/>
+    <listofallmembers>
+      <member refid="d4/db3/class_html_help_1a254ac391f0b096f1c06b72205fca5d77" prot="public" virt="virtual"><scope>HtmlHelp</scope><name>addContentsItem</name></member>
+      <member refid="d4/db3/class_html_help_1aba0ad9a05caf2ff7c310aaf751eb22e9" prot="public" virt="virtual"><scope>HtmlHelp</scope><name>addImageFile</name></member>
+      <member refid="d4/db3/class_html_help_1a713ba33425a3d63c89322cc513e01414" prot="public" virt="virtual"><scope>HtmlHelp</scope><name>addIndexFile</name></member>
+      <member refid="d4/db3/class_html_help_1a547f7caa925db6b0f227176c695bd687" prot="public" virt="virtual"><scope>HtmlHelp</scope><name>addIndexItem</name></member>
+      <member refid="d4/db3/class_html_help_1a711b8605fb3b450234299747b5675a0b" prot="public" virt="virtual"><scope>HtmlHelp</scope><name>addStyleSheetFile</name></member>
+      <member refid="d4/db3/class_html_help_1a7fa2b031d786cb7a678e88809c2566caa45377d49ec2e3fba7e6f51077620d737" prot="private" virt="non-virtual"><scope>HtmlHelp</scope><name>AUDIO</name></member>
+      <member refid="d4/db3/class_html_help_1a7fa2b031d786cb7a678e88809c2566caa4bf7a99aee350a08999b1ff157e4cc38" prot="private" virt="non-virtual"><scope>HtmlHelp</scope><name>AUDIO_NEW</name></member>
+      <member refid="d4/db3/class_html_help_1a7fa2b031d786cb7a678e88809c2566caaec1852e9e27b296742d6c36b9c416920" prot="private" virt="non-virtual"><scope>HtmlHelp</scope><name>BOOK_CLOSED</name></member>
+      <member refid="d4/db3/class_html_help_1a7fa2b031d786cb7a678e88809c2566caacd0e3ae0fbebc09bd3bbebbd4815472a" prot="private" virt="non-virtual"><scope>HtmlHelp</scope><name>BOOK_CLOSED_NEW</name></member>
+      <member refid="d4/db3/class_html_help_1a7fa2b031d786cb7a678e88809c2566caa7e86e3494127343bd99ad946cfa13d21" prot="private" virt="non-virtual"><scope>HtmlHelp</scope><name>BOOK_OPEN</name></member>
+      <member refid="d4/db3/class_html_help_1a7fa2b031d786cb7a678e88809c2566caac6c5ce4a499ef91164b43958c919123f" prot="private" virt="non-virtual"><scope>HtmlHelp</scope><name>BOOK_OPEN_NEW</name></member>
+      <member refid="d4/db3/class_html_help_1a7fa2b031d786cb7a678e88809c2566caac317b4d5947561ac628f05ae7cbf692c" prot="private" virt="non-virtual"><scope>HtmlHelp</scope><name>BOOKLET</name></member>
+      <member refid="d4/db3/class_html_help_1a7fa2b031d786cb7a678e88809c2566caab73467539bbfd3401ac0f0a4cc852972" prot="private" virt="non-virtual"><scope>HtmlHelp</scope><name>BOOKLET_NEW</name></member>
+      <member refid="d4/db3/class_html_help_1ad0676da1ef283e252cf722dc90f297df" prot="private" virt="non-virtual"><scope>HtmlHelp</scope><name>cf</name></member>
+      <member refid="d4/db3/class_html_help_1a654409e480f62ba377252bff3cec60d8" prot="private" virt="non-virtual"><scope>HtmlHelp</scope><name>createProjectFile</name></member>
+      <member refid="d4/db3/class_html_help_1a0fffcd959b8af0cbe6dae65939232d30" prot="private" virt="non-virtual"><scope>HtmlHelp</scope><name>cts</name></member>
+      <member refid="d4/db3/class_html_help_1a195300ee4f1d918be0c443294d1f986a" prot="private" virt="non-virtual"><scope>HtmlHelp</scope><name>dc</name></member>
+      <member refid="d4/db3/class_html_help_1ad76b300748e818d96676f0743738090d" prot="public" virt="virtual"><scope>HtmlHelp</scope><name>decContentsDepth</name></member>
+      <member refid="d4/db3/class_html_help_1a7fa2b031d786cb7a678e88809c2566caa62ff82964869830f742e4d55dcc5874d" prot="private" virt="non-virtual"><scope>HtmlHelp</scope><name>EMAIL</name></member>
+      <member refid="d4/db3/class_html_help_1a7fa2b031d786cb7a678e88809c2566caaf1c0f7d8a8932af2157386c8de57f1c6" prot="private" virt="non-virtual"><scope>HtmlHelp</scope><name>EMAIL2</name></member>
+      <member refid="d4/db3/class_html_help_1a7fa2b031d786cb7a678e88809c2566caa9a29099af4c48e62e289c348e2344483" prot="private" virt="non-virtual"><scope>HtmlHelp</scope><name>EMAIL2_NEW</name></member>
+      <member refid="d4/db3/class_html_help_1a7fa2b031d786cb7a678e88809c2566caa0c5093469414d14509f38856230a6dfa" prot="private" virt="non-virtual"><scope>HtmlHelp</scope><name>EMAIL_NEW</name></member>
+      <member refid="d4/db3/class_html_help_1a66375adceef242d73c6554bd7fba6cf7" prot="public" virt="virtual"><scope>HtmlHelp</scope><name>finalize</name></member>
+      <member refid="d4/db3/class_html_help_1a7fa2b031d786cb7a678e88809c2566caa08208a8aca7a51f8f5b9dc1b695619c1" prot="private" virt="non-virtual"><scope>HtmlHelp</scope><name>FOLDER_CLOSED</name></member>
+      <member refid="d4/db3/class_html_help_1a7fa2b031d786cb7a678e88809c2566caa6a05e4f90f1ce01c7f60264faab7796f" prot="private" virt="non-virtual"><scope>HtmlHelp</scope><name>FOLDER_CLOSED_NEW</name></member>
+      <member refid="d4/db3/class_html_help_1a7fa2b031d786cb7a678e88809c2566caa3aea4a6d39d36dd2447e2da611623730" prot="private" virt="non-virtual"><scope>HtmlHelp</scope><name>FOLDER_OPEN</name></member>
+      <member refid="d4/db3/class_html_help_1a7fa2b031d786cb7a678e88809c2566caa613f98c3ad2d1f8af8acd1fd544102b4" prot="private" virt="non-virtual"><scope>HtmlHelp</scope><name>FOLDER_OPEN_NEW</name></member>
+      <member refid="d4/db3/class_html_help_1a0d86f84971a446fc8c61c1a64f8eaaf8" prot="public" virt="non-virtual"><scope>HtmlHelp</scope><name>HtmlHelp</name></member>
+      <member refid="d4/db3/class_html_help_1a6ba39d6a831c897c93a68738d9a721f3" prot="private" virt="non-virtual"><scope>HtmlHelp</scope><name>HtmlHelpIndex</name></member>
+      <member refid="d4/db3/class_html_help_1a7fa2b031d786cb7a678e88809c2566caacd187fb03abe97b1f1c79c32cfbb9db6" prot="private" virt="non-virtual"><scope>HtmlHelp</scope><name>IDEA</name></member>
+      <member refid="d4/db3/class_html_help_1a7fa2b031d786cb7a678e88809c2566caadc361e2afcf234f19692cdd976b35614" prot="private" virt="non-virtual"><scope>HtmlHelp</scope><name>IDEA_NEW</name></member>
+      <member refid="d4/db3/class_html_help_1a7fa2b031d786cb7a678e88809c2566caa650460790b63d21545a3a650e198127d" prot="private" virt="non-virtual"><scope>HtmlHelp</scope><name>IMAGE</name></member>
+      <member refid="d4/db3/class_html_help_1a7fa2b031d786cb7a678e88809c2566caa3b39f2db693a2ea1bead2fd1db0876d8" prot="private" virt="non-virtual"><scope>HtmlHelp</scope><name>IMAGE_NEW</name></member>
+      <member refid="d4/db3/class_html_help_1ac60e46051e025bd4620e2fdc7fb737a1" prot="private" virt="non-virtual"><scope>HtmlHelp</scope><name>imageFiles</name></member>
+      <member refid="d4/db3/class_html_help_1a7fa2b031d786cb7a678e88809c2566ca" prot="private" virt="non-virtual"><scope>HtmlHelp</scope><name>ImageNumber</name></member>
+      <member refid="d4/db3/class_html_help_1aca0008f8813f28f23ca5bcaea25a7bec" prot="public" virt="virtual"><scope>HtmlHelp</scope><name>incContentsDepth</name></member>
+      <member refid="d4/db3/class_html_help_1a7fa2b031d786cb7a678e88809c2566caa7c362e1795a9644efa179ceab270fe61" prot="private" virt="non-virtual"><scope>HtmlHelp</scope><name>INDEX</name></member>
+      <member refid="d4/db3/class_html_help_1abc1da6575b31d726ae6b113e785e9280" prot="private" virt="non-virtual"><scope>HtmlHelp</scope><name>index</name></member>
+      <member refid="d4/db3/class_html_help_1a7fa2b031d786cb7a678e88809c2566caa5ba12150f715f11b11ba5c0c01afc292" prot="private" virt="non-virtual"><scope>HtmlHelp</scope><name>INDEX_NEW</name></member>
+      <member refid="d4/db3/class_html_help_1aed93ce624ed45c6178546361f7665792" prot="private" virt="non-virtual"><scope>HtmlHelp</scope><name>indexFileDict</name></member>
+      <member refid="d4/db3/class_html_help_1a262196131203aab987ffd659c7b89dfa" prot="private" virt="non-virtual"><scope>HtmlHelp</scope><name>indexFiles</name></member>
+      <member refid="d4/db3/class_html_help_1a7fa2b031d786cb7a678e88809c2566caae6f2e13e6d941648dcb8fa0b33de494b" prot="private" virt="non-virtual"><scope>HtmlHelp</scope><name>INFO</name></member>
+      <member refid="d4/db3/class_html_help_1a7fa2b031d786cb7a678e88809c2566caafecd3e50bd62c15ab1d4d048b5e280c9" prot="private" virt="non-virtual"><scope>HtmlHelp</scope><name>INFO_NEW</name></member>
+      <member refid="d4/db3/class_html_help_1acf6cb7c477c71f2031b5831f979991d5" prot="public" virt="virtual"><scope>HtmlHelp</scope><name>initialize</name></member>
+      <member refid="d4/db3/class_html_help_1a4f436e2c80f662e19080bf6bfa7464bd" prot="private" virt="non-virtual"><scope>HtmlHelp</scope><name>kf</name></member>
+      <member refid="d4/db3/class_html_help_1a73fa1d70a7cf2fcc7d1065935c7c851a" prot="private" virt="non-virtual"><scope>HtmlHelp</scope><name>kts</name></member>
+      <member refid="d4/db3/class_html_help_1a7fa2b031d786cb7a678e88809c2566caa81f15f9b760ab6bb2a67c759a072be14" prot="private" virt="non-virtual"><scope>HtmlHelp</scope><name>LINK</name></member>
+      <member refid="d4/db3/class_html_help_1a7fa2b031d786cb7a678e88809c2566caa5b3c47ac921af0a746c3f24b04956abf" prot="private" virt="non-virtual"><scope>HtmlHelp</scope><name>LINK_NEW</name></member>
+      <member refid="d4/db3/class_html_help_1a0e8c2896b45f7f00c832d0fe59ebb2c2" prot="private" virt="non-virtual"><scope>HtmlHelp</scope><name>m_fromUtf8</name></member>
+      <member refid="d4/db3/class_html_help_1a7fa2b031d786cb7a678e88809c2566caa761720c8f58915a5614f8ee8e87fd73b" prot="private" virt="non-virtual"><scope>HtmlHelp</scope><name>MUSIC</name></member>
+      <member refid="d4/db3/class_html_help_1a7fa2b031d786cb7a678e88809c2566caa33344e49811ddf6461d0d002de73d1fe" prot="private" virt="non-virtual"><scope>HtmlHelp</scope><name>MUSIC_NEW</name></member>
+      <member refid="d4/db3/class_html_help_1a7fa2b031d786cb7a678e88809c2566caa8b971585ba93d8009a46a7e0303fefab" prot="private" virt="non-virtual"><scope>HtmlHelp</scope><name>NOTE</name></member>
+      <member refid="d4/db3/class_html_help_1a7fa2b031d786cb7a678e88809c2566caa36c71b6fceea68ae4d0508af9c5b8fa9" prot="private" virt="non-virtual"><scope>HtmlHelp</scope><name>NOTE_NEW</name></member>
+      <member refid="d4/db3/class_html_help_1a7fa2b031d786cb7a678e88809c2566caa825238cc73c9011836072b7159cd063c" prot="private" virt="non-virtual"><scope>HtmlHelp</scope><name>QUERY</name></member>
+      <member refid="d4/db3/class_html_help_1a7fa2b031d786cb7a678e88809c2566caa576707aa2b0d1f23020bf3556240b5ae" prot="private" virt="non-virtual"><scope>HtmlHelp</scope><name>QUERY_NEW</name></member>
+      <member refid="d4/db3/class_html_help_1a7d46269e4ff27f042eadf20fa02a776e" prot="private" virt="non-virtual"><scope>HtmlHelp</scope><name>recode</name></member>
+      <member refid="d4/db3/class_html_help_1a7fa2b031d786cb7a678e88809c2566caa3e9b105181d342b365fe4bdee8acf84b" prot="private" virt="non-virtual"><scope>HtmlHelp</scope><name>TEXT</name></member>
+      <member refid="d4/db3/class_html_help_1a7fa2b031d786cb7a678e88809c2566caa5bd4c350ef03738d931784b2e06f7747" prot="private" virt="non-virtual"><scope>HtmlHelp</scope><name>TEXT_NEW</name></member>
+      <member refid="d4/db3/class_html_help_1a23ee43b2a191a1dab29a73f231220e88" prot="private" virt="non-virtual"><scope>HtmlHelp</scope><name>theInstance</name></member>
+      <member refid="d4/db3/class_html_help_1a7fa2b031d786cb7a678e88809c2566caaa549ff1567ca21b11ff5a098b4c2aecc" prot="private" virt="non-virtual"><scope>HtmlHelp</scope><name>TOOL</name></member>
+      <member refid="d4/db3/class_html_help_1a7fa2b031d786cb7a678e88809c2566caa2a48c9704da887c47191bd7ea2d195b4" prot="private" virt="non-virtual"><scope>HtmlHelp</scope><name>TOOL_NEW</name></member>
+      <member refid="d4/db3/class_html_help_1a7fa2b031d786cb7a678e88809c2566caa19ce2f379767fa5636d99b1624424e27" prot="private" virt="non-virtual"><scope>HtmlHelp</scope><name>VIDEO</name></member>
+      <member refid="d4/db3/class_html_help_1a7fa2b031d786cb7a678e88809c2566caa6ae16142e9a1bbfb6cf4e0057f88cb84" prot="private" virt="non-virtual"><scope>HtmlHelp</scope><name>VIDEO_NEW</name></member>
+      <member refid="d4/db3/class_html_help_1a7fa2b031d786cb7a678e88809c2566caaf3542090c73d8ec35a6ac8331fa77e01" prot="private" virt="non-virtual"><scope>HtmlHelp</scope><name>WEB_DOC</name></member>
+      <member refid="d4/db3/class_html_help_1a7fa2b031d786cb7a678e88809c2566caa01dc344f0d03316ac6123da212b00acd" prot="private" virt="non-virtual"><scope>HtmlHelp</scope><name>WEB_DOC_NEW</name></member>
+      <member refid="d4/db3/class_html_help_1a7fa2b031d786cb7a678e88809c2566caa5013131ed24fc1a223d1721782c9ef65" prot="private" virt="non-virtual"><scope>HtmlHelp</scope><name>WEB_LINK</name></member>
+      <member refid="d4/db3/class_html_help_1a7fa2b031d786cb7a678e88809c2566caacbd5cd83209e54f39785b855faad6c6b" prot="private" virt="non-virtual"><scope>HtmlHelp</scope><name>WEB_LINK_NEW</name></member>
+      <member refid="d4/db3/class_html_help_1a53ff23898ba7e49de5ce6dba03675f82" prot="public" virt="non-virtual"><scope>HtmlHelp</scope><name>~HtmlHelp</name></member>
+      <member refid="d9/dd5/class_index_intf_1aa97a03b1de6ccb0d35b33cbf44d69f2a" prot="public" virt="virtual"><scope>HtmlHelp</scope><name>~IndexIntf</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

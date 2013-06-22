@@ -1,0 +1,395 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.2">
+  <compounddef id="d4/df3/rtfstyle_8h" kind="file">
+    <compoundname>rtfstyle.h</compoundname>
+    <includes local="no">qregexp.h</includes>
+    <includes local="no">qdict.h</includes>
+    <includedby refid="de/d9a/rtfdocvisitor_8cpp" local="yes">src/rtfdocvisitor.cpp</includedby>
+    <includedby refid="d0/d9c/rtfgen_8cpp" local="yes">src/rtfgen.cpp</includedby>
+    <includedby refid="de/d5c/rtfstyle_8cpp" local="yes">src/rtfstyle.cpp</includedby>
+    <incdepgraph>
+      <node id="4560">
+        <label>qregexp.h</label>
+      </node>
+      <node id="4559">
+        <label>src/rtfstyle.h</label>
+        <link refid="rtfstyle.h"/>
+        <childnode refid="4560" relation="include">
+        </childnode>
+        <childnode refid="4561" relation="include">
+        </childnode>
+      </node>
+      <node id="4561">
+        <label>qdict.h</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="4563">
+        <label>src/rtfdocvisitor.cpp</label>
+        <link refid="de/d9a/rtfdocvisitor_8cpp_source"/>
+      </node>
+      <node id="4562">
+        <label>src/rtfstyle.h</label>
+        <link refid="rtfstyle.h"/>
+        <childnode refid="4563" relation="include">
+        </childnode>
+        <childnode refid="4564" relation="include">
+        </childnode>
+        <childnode refid="4565" relation="include">
+        </childnode>
+      </node>
+      <node id="4564">
+        <label>src/rtfgen.cpp</label>
+        <link refid="d0/d9c/rtfgen_8cpp_source"/>
+      </node>
+      <node id="4565">
+        <label>src/rtfstyle.cpp</label>
+        <link refid="de/d5c/rtfstyle_8cpp_source"/>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="df/d51/struct_r_t_f_list_item_info" prot="public">RTFListItemInfo</innerclass>
+    <innerclass refid="d3/d40/struct_rtf___style___default" prot="public">Rtf_Style_Default</innerclass>
+    <innerclass refid="da/dd8/struct_style_data" prot="public">StyleData</innerclass>
+      <sectiondef kind="var">
+      <memberdef kind="variable" id="d4/df3/rtfstyle_8h_1a6329c1ef4afd935bc3ef8065583fed30" prot="public" static="no" mutable="no">
+        <type>const int</type>
+        <definition>const int rtf_pageWidth</definition>
+        <argsstring></argsstring>
+        <name>rtf_pageWidth</name>
+        <initializer>= 8748</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/rtfstyle.h" line="26" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/rtfstyle.h" bodystart="26" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d4/df3/rtfstyle_8h_1a86de556a1278f74936d85c3ad6737305" prot="public" static="no" mutable="no">
+        <type>QCString</type>
+        <definition>QCString rtf_title</definition>
+        <argsstring></argsstring>
+        <name>rtf_title</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/rtfstyle.h" line="28" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/rtfstyle.cpp" bodystart="30" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d4/df3/rtfstyle_8h_1ababa40e3b47889c9d6a12b2c27b1dcea" prot="public" static="no" mutable="no">
+        <type>QCString</type>
+        <definition>QCString rtf_subject</definition>
+        <argsstring></argsstring>
+        <name>rtf_subject</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/rtfstyle.h" line="29" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/rtfstyle.cpp" bodystart="31" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d4/df3/rtfstyle_8h_1ab52a06ee957fd74f7e3cc2d7237ea8b9" prot="public" static="no" mutable="no">
+        <type>QCString</type>
+        <definition>QCString rtf_comments</definition>
+        <argsstring></argsstring>
+        <name>rtf_comments</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/rtfstyle.h" line="30" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/rtfstyle.cpp" bodystart="32" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d4/df3/rtfstyle_8h_1a0324698363e2cd57eab1023a6dfd3eaf" prot="public" static="no" mutable="no">
+        <type>QCString</type>
+        <definition>QCString rtf_company</definition>
+        <argsstring></argsstring>
+        <name>rtf_company</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/rtfstyle.h" line="31" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/rtfstyle.cpp" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d4/df3/rtfstyle_8h_1a6dadec111c906be2f9b08e2b20a203d0" prot="public" static="no" mutable="no">
+        <type>QCString</type>
+        <definition>QCString rtf_logoFilename</definition>
+        <argsstring></argsstring>
+        <name>rtf_logoFilename</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/rtfstyle.h" line="32" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/rtfstyle.cpp" bodystart="34" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d4/df3/rtfstyle_8h_1aa3f13730015be2d7e9ab56c1282b4b9a" prot="public" static="no" mutable="no">
+        <type>QCString</type>
+        <definition>QCString rtf_author</definition>
+        <argsstring></argsstring>
+        <name>rtf_author</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/rtfstyle.h" line="33" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/rtfstyle.cpp" bodystart="35" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d4/df3/rtfstyle_8h_1ab3df69814841b23f1daaf5cdf52f11ce" prot="public" static="no" mutable="no">
+        <type>QCString</type>
+        <definition>QCString rtf_manager</definition>
+        <argsstring></argsstring>
+        <name>rtf_manager</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/rtfstyle.h" line="34" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/rtfstyle.cpp" bodystart="36" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d4/df3/rtfstyle_8h_1a171eccae8452542c0917db77076e6769" prot="public" static="no" mutable="no">
+        <type>QCString</type>
+        <definition>QCString rtf_documentType</definition>
+        <argsstring></argsstring>
+        <name>rtf_documentType</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/rtfstyle.h" line="35" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/rtfstyle.cpp" bodystart="37" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d4/df3/rtfstyle_8h_1ae5cb613ade78225b9d6487115d840fd7" prot="public" static="no" mutable="no">
+        <type>QCString</type>
+        <definition>QCString rtf_documentId</definition>
+        <argsstring></argsstring>
+        <name>rtf_documentId</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/rtfstyle.h" line="36" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/rtfstyle.cpp" bodystart="38" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d4/df3/rtfstyle_8h_1aa26f5b63acab74269d212f1559aafb5b" prot="public" static="no" mutable="no">
+        <type>QCString</type>
+        <definition>QCString rtf_keywords</definition>
+        <argsstring></argsstring>
+        <name>rtf_keywords</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/rtfstyle.h" line="37" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/rtfstyle.cpp" bodystart="39" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d4/df3/rtfstyle_8h_1aed82d9c5fc2c89588c7b031d46a7e026" prot="public" static="no" mutable="no">
+        <type>const int</type>
+        <definition>const int rtf_maxIndentLevels</definition>
+        <argsstring></argsstring>
+        <name>rtf_maxIndentLevels</name>
+        <initializer>= 10</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/rtfstyle.h" line="45" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/rtfstyle.h" bodystart="45" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d4/df3/rtfstyle_8h_1a8ae4006c68703493df0030f4b444fc6e" prot="public" static="no" mutable="no">
+        <type><ref refid="df/d51/struct_r_t_f_list_item_info" kindref="compound">RTFListItemInfo</ref></type>
+        <definition>RTFListItemInfo rtf_listItemInfo[rtf_maxIndentLevels]</definition>
+        <argsstring>[rtf_maxIndentLevels]</argsstring>
+        <name>rtf_listItemInfo</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/rtfstyle.h" line="47" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/rtfstyle.cpp" bodystart="28" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d4/df3/rtfstyle_8h_1a3588987fef5687c675e6fb979b9850c1" prot="public" static="no" mutable="no">
+        <type>char</type>
+        <definition>char rtf_Style_Reset[]</definition>
+        <argsstring>[]</argsstring>
+        <name>rtf_Style_Reset</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/rtfstyle.h" line="56" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/rtfstyle.cpp" bodystart="41" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d4/df3/rtfstyle_8h_1a1c7e59c4175c745476a2f8a1cb78644e" prot="public" static="no" mutable="no">
+        <type><ref refid="d3/d40/struct_rtf___style___default" kindref="compound">Rtf_Style_Default</ref></type>
+        <definition>Rtf_Style_Default rtf_Style_Default[]</definition>
+        <argsstring>[]</argsstring>
+        <name>rtf_Style_Default</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/rtfstyle.h" line="57" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/rtfstyle.cpp" bodystart="43" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d4/df3/rtfstyle_8h_1aeaac3cbb2d90a448b3b764ea9fe9c783" prot="public" static="no" mutable="no">
+        <type>QDict&lt; <ref refid="da/dd8/struct_style_data" kindref="compound">StyleData</ref> &gt;</type>
+        <definition>QDict&lt;StyleData&gt; rtf_Style</definition>
+        <argsstring></argsstring>
+        <name>rtf_Style</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/rtfstyle.h" line="77"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="d4/df3/rtfstyle_8h_1a7c5826d54c739524e38fa002a948c074" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void loadExtensions</definition>
+        <argsstring>(const char *name)</argsstring>
+        <name>loadExtensions</name>
+        <param>
+          <type>const char *</type>
+          <declname>name</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/rtfstyle.h" line="79" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/rtfstyle.cpp" bodystart="475" bodyend="517"/>
+      </memberdef>
+      <memberdef kind="function" id="d4/df3/rtfstyle_8h_1ac46505c12ef133d9ea55c9a4d2af21f9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void loadStylesheet</definition>
+        <argsstring>(const char *name, QDict&lt; StyleData &gt; &amp;dict)</argsstring>
+        <name>loadStylesheet</name>
+        <param>
+          <type>const char *</type>
+          <declname>name</declname>
+        </param>
+        <param>
+          <type>QDict&lt; <ref refid="da/dd8/struct_style_data" kindref="compound">StyleData</ref> &gt; &amp;</type>
+          <declname>dict</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/rtfstyle.h" line="80" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/rtfstyle.cpp" bodystart="428" bodyend="471"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">/******************************************************************************</highlight></codeline>
+<codeline lineno="2"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="3"><highlight class="comment"><sp/>*<sp/>$Id:<sp/>$</highlight></codeline>
+<codeline lineno="4"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="5"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="6"><highlight class="comment"><sp/>*<sp/>Copyright<sp/>(C)<sp/>1997-2013<sp/>by<sp/>Dimitri<sp/>van<sp/>Heesch.</highlight></codeline>
+<codeline lineno="7"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="8"><highlight class="comment"><sp/>*<sp/>Permission<sp/>to<sp/>use,<sp/>copy,<sp/>modify,<sp/>and<sp/>distribute<sp/>this<sp/>software<sp/>and<sp/>its</highlight></codeline>
+<codeline lineno="9"><highlight class="comment"><sp/>*<sp/>documentation<sp/>under<sp/>the<sp/>terms<sp/>of<sp/>the<sp/>GNU<sp/>General<sp/>Public<sp/>License<sp/>is<sp/>hereby<sp/></highlight></codeline>
+<codeline lineno="10"><highlight class="comment"><sp/>*<sp/>granted.<sp/>No<sp/>representations<sp/>are<sp/>made<sp/>about<sp/>the<sp/>suitability<sp/>of<sp/>this<sp/>software<sp/></highlight></codeline>
+<codeline lineno="11"><highlight class="comment"><sp/>*<sp/>for<sp/>any<sp/>purpose.<sp/>It<sp/>is<sp/>provided<sp/>&quot;as<sp/>is&quot;<sp/>without<sp/>express<sp/>or<sp/>implied<sp/>warranty.</highlight></codeline>
+<codeline lineno="12"><highlight class="comment"><sp/>*<sp/>See<sp/>the<sp/>GNU<sp/>General<sp/>Public<sp/>License<sp/>for<sp/>more<sp/>details.</highlight></codeline>
+<codeline lineno="13"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="14"><highlight class="comment"><sp/>*<sp/>Documents<sp/>produced<sp/>by<sp/>Doxygen<sp/>are<sp/>derivative<sp/>works<sp/>derived<sp/>from<sp/>the</highlight></codeline>
+<codeline lineno="15"><highlight class="comment"><sp/>*<sp/>input<sp/>used<sp/>in<sp/>their<sp/>production;<sp/>they<sp/>are<sp/>not<sp/>affected<sp/>by<sp/>this<sp/>license.</highlight></codeline>
+<codeline lineno="16"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="17"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>RTFSTYLE_H</highlight></codeline>
+<codeline lineno="20"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>RTFSTYLE_H</highlight></codeline>
+<codeline lineno="21"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;qregexp.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;qdict.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight><highlight class="comment">//<sp/>used<sp/>for<sp/>table<sp/>column<sp/>width<sp/>calculation</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>rtf_pageWidth<sp/>=<sp/>8748;</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/>QCString<sp/>rtf_title;</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/>QCString<sp/>rtf_subject;</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/>QCString<sp/>rtf_comments;</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/>QCString<sp/>rtf_company;</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/>QCString<sp/>rtf_logoFilename;</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/>QCString<sp/>rtf_author;</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/>QCString<sp/>rtf_manager;</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/>QCString<sp/>rtf_documentType;</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/>QCString<sp/>rtf_documentId;</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/>QCString<sp/>rtf_keywords;</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"></highlight></codeline>
+<codeline lineno="39" refid="df/d51/struct_r_t_f_list_item_info" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="df/d51/struct_r_t_f_list_item_info" kindref="compound">RTFListItemInfo</ref></highlight></codeline>
+<codeline lineno="40"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>isEnum;</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>number;</highlight></codeline>
+<codeline lineno="43"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"></highlight></codeline>
+<codeline lineno="45"><highlight class="normal"></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>rtf_maxIndentLevels<sp/>=<sp/>10;</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"></highlight></codeline>
+<codeline lineno="47"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/><ref refid="df/d51/struct_r_t_f_list_item_info" kindref="compound">RTFListItemInfo</ref><sp/>rtf_listItemInfo[rtf_maxIndentLevels];</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"></highlight></codeline>
+<codeline lineno="49" refid="d3/d40/struct_rtf___style___default" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="d3/d40/struct_rtf___style___default" kindref="compound">Rtf_Style_Default</ref></highlight></codeline>
+<codeline lineno="50"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*name;</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*reference;</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*definition;</highlight></codeline>
+<codeline lineno="54"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="55"><highlight class="normal"></highlight></codeline>
+<codeline lineno="56"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>rtf_Style_Reset[];</highlight></codeline>
+<codeline lineno="57"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/><ref refid="d3/d40/struct_rtf___style___default" kindref="compound">Rtf_Style_Default</ref><sp/>rtf_Style_Default[];</highlight></codeline>
+<codeline lineno="58"><highlight class="normal"></highlight></codeline>
+<codeline lineno="59" refid="da/dd8/struct_style_data" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="da/dd8/struct_style_data" kindref="compound">StyleData</ref></highlight></codeline>
+<codeline lineno="60"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="61"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//<sp/>elements<sp/>of<sp/>this<sp/>type<sp/>are<sp/>stored<sp/>in<sp/>dictionary<sp/>Rtf_Style</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="62"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="63"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//<sp/>to<sp/>define<sp/>a<sp/>tag<sp/>in<sp/>the<sp/>header<sp/>reference<sp/>+<sp/>definition<sp/>is<sp/>required</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="64"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//<sp/>to<sp/>use<sp/>a<sp/>tag<sp/>in<sp/>the<sp/>body<sp/>of<sp/>the<sp/>document<sp/>only<sp/>reference<sp/>is<sp/>required</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="65"><highlight class="normal"></highlight></codeline>
+<codeline lineno="66"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/>index;<sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>index<sp/>in<sp/>style-sheet,<sp/>i.e.<sp/>number<sp/>in<sp/>s-clause</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="67"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal">*<sp/>reference;<sp/><sp/></highlight><highlight class="comment">//<sp/>everything<sp/>required<sp/>to<sp/>apply<sp/>the<sp/>style</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="68"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal">*<sp/>definition;<sp/></highlight><highlight class="comment">//<sp/>aditional<sp/>tags<sp/>like<sp/>\snext<sp/>and<sp/>style<sp/>name</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="69"><highlight class="normal"></highlight></codeline>
+<codeline lineno="70"><highlight class="normal"><sp/><sp/><ref refid="da/dd8/struct_style_data" kindref="compound">StyleData</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal">*<sp/>reference,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal">*<sp/>definition);</highlight></codeline>
+<codeline lineno="71"><highlight class="normal"><sp/><sp/>~<ref refid="da/dd8/struct_style_data" kindref="compound">StyleData</ref>();</highlight></codeline>
+<codeline lineno="72"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>setStyle(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal">*<sp/>s,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal">*<sp/>styleName);</highlight></codeline>
+<codeline lineno="73"><highlight class="normal"></highlight></codeline>
+<codeline lineno="74"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QRegExp<sp/>s_clause;</highlight></codeline>
+<codeline lineno="75"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="76"><highlight class="normal"></highlight></codeline>
+<codeline lineno="77"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/>QDict&lt;StyleData&gt;<sp/>rtf_Style;</highlight></codeline>
+<codeline lineno="78"><highlight class="normal"></highlight></codeline>
+<codeline lineno="79"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>loadExtensions(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*name);</highlight></codeline>
+<codeline lineno="80"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>loadStylesheet(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*name,<sp/>QDict&lt;StyleData&gt;&amp;<sp/>dict);</highlight></codeline>
+<codeline lineno="81"><highlight class="normal"></highlight></codeline>
+<codeline lineno="82"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+    </programlisting>
+    <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/rtfstyle.h"/>
+  </compounddef>
+</doxygen>

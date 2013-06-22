@@ -1,0 +1,125 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.2">
+  <compounddef id="d8/d9a/class_s_int_list" kind="class" prot="public">
+    <compoundname>SIntList</compoundname>
+    <basecompoundref refid="db/daa/class_q_list" prot="public" virt="non-virtual">QList&lt; T &gt;</basecompoundref>
+    <includes refid="d9/d21/sortdict_8h" local="no">sortdict.h</includes>
+    <templateparamlist>
+      <param>
+        <type>class</type>
+        <declname>T</declname>
+        <defname>T</defname>
+      </param>
+    </templateparamlist>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="d8/d9a/class_s_int_list_1a7954e57295215d092e911b89c64da6d7" prot="private" static="no" mutable="no">
+        <type><ref refid="d0/d9f/class_s_int_dict" kindref="compound">SIntDict</ref>&lt; T &gt; *</type>
+        <definition>SIntDict&lt;T&gt;* SIntList&lt; T &gt;::m_owner</definition>
+        <argsstring></argsstring>
+        <name>m_owner</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/sortdict.h" line="438" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/sortdict.h" bodystart="438" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="d8/d9a/class_s_int_list_1afca4889e8c536be9025e40bb7897f234" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>SIntList&lt; T &gt;::SIntList</definition>
+        <argsstring>(SIntDict&lt; T &gt; *owner)</argsstring>
+        <name>SIntList</name>
+        <param>
+          <type><ref refid="d0/d9f/class_s_int_dict" kindref="compound">SIntDict</ref>&lt; T &gt; *</type>
+          <declname>owner</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/sortdict.h" line="431" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/sortdict.h" bodystart="431" bodyend="431"/>
+      </memberdef>
+      <memberdef kind="function" id="d8/d9a/class_s_int_list_1a92d7c50ccd74b589d2a2a3e9fffb752d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type></type>
+        <definition>virtual SIntList&lt; T &gt;::~SIntList</definition>
+        <argsstring>()</argsstring>
+        <name>~SIntList</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/sortdict.h" line="432" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/sortdict.h" bodystart="432" bodyend="432"/>
+      </memberdef>
+      <memberdef kind="function" id="d8/d9a/class_s_int_list_1a378e02104e7c09c8d6fc60348097d181" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int SIntList&lt; T &gt;::compareItems</definition>
+        <argsstring>(QCollection::Item item1, QCollection::Item item2)</argsstring>
+        <name>compareItems</name>
+        <param>
+          <type>QCollection::Item</type>
+          <declname>item1</declname>
+        </param>
+        <param>
+          <type>QCollection::Item</type>
+          <declname>item2</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/sortdict.h" line="434" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/sortdict.h" bodystart="433" bodyend="436"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>internal wrapper class that redirects compareItems() to the dictionary </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="4107">
+        <label>SIntList&lt; MemberGroup &gt;</label>
+        <link refid="d8/d9a/class_s_int_list"/>
+        <childnode refid="4105" relation="template-instance">
+          <edgelabel>&lt; MemberGroup &gt;</edgelabel>
+        </childnode>
+      </node>
+      <node id="4106">
+        <label>QList&lt; T &gt;</label>
+        <link refid="db/daa/class_q_list"/>
+      </node>
+      <node id="4105">
+        <label>SIntList&lt; T &gt;</label>
+        <link refid="d8/d9a/class_s_int_list"/>
+        <childnode refid="4106" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="4109">
+        <label>QList&lt; T &gt;</label>
+        <link refid="db/daa/class_q_list"/>
+      </node>
+      <node id="4108">
+        <label>SIntList&lt; T &gt;</label>
+        <link refid="d8/d9a/class_s_int_list"/>
+        <childnode refid="4109" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/sortdict.h" line="429" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/sortdict.h" bodystart="428" bodyend="439"/>
+    <listofallmembers>
+      <member refid="d8/d9a/class_s_int_list_1a378e02104e7c09c8d6fc60348097d181" prot="public" virt="non-virtual"><scope>SIntList</scope><name>compareItems</name></member>
+      <member refid="d8/d9a/class_s_int_list_1a7954e57295215d092e911b89c64da6d7" prot="private" virt="non-virtual"><scope>SIntList</scope><name>m_owner</name></member>
+      <member refid="d8/d9a/class_s_int_list_1afca4889e8c536be9025e40bb7897f234" prot="public" virt="non-virtual"><scope>SIntList</scope><name>SIntList</name></member>
+      <member refid="d8/d9a/class_s_int_list_1a92d7c50ccd74b589d2a2a3e9fffb752d" prot="public" virt="virtual"><scope>SIntList</scope><name>~SIntList</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

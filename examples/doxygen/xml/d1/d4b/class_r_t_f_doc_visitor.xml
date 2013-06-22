@@ -1,0 +1,1987 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.2">
+  <compounddef id="d1/d4b/class_r_t_f_doc_visitor" kind="class" prot="public">
+    <compoundname>RTFDocVisitor</compoundname>
+    <basecompoundref refid="d0/d78/class_doc_visitor" prot="public" virt="non-virtual">DocVisitor</basecompoundref>
+    <includes refid="d1/da7/rtfdocvisitor_8h" local="no">rtfdocvisitor.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="d1/d4b/class_r_t_f_doc_visitor_1a92c1638f1e068254da87a913975972db" prot="private" static="no" mutable="no">
+        <type><ref refid="dc/d3c/class_f_text_stream" kindref="compound">FTextStream</ref> &amp;</type>
+        <definition>FTextStream&amp; RTFDocVisitor::m_t</definition>
+        <argsstring></argsstring>
+        <name>m_t</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/rtfdocvisitor.h" line="158" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/rtfdocvisitor.h" bodystart="158" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d1/d4b/class_r_t_f_doc_visitor_1a78696e7eec55784e6c18e72b78515aa1" prot="private" static="no" mutable="no">
+        <type><ref refid="d5/d9c/class_code_output_interface" kindref="compound">CodeOutputInterface</ref> &amp;</type>
+        <definition>CodeOutputInterface&amp; RTFDocVisitor::m_ci</definition>
+        <argsstring></argsstring>
+        <name>m_ci</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/rtfdocvisitor.h" line="159" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/rtfdocvisitor.h" bodystart="159" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d1/d4b/class_r_t_f_doc_visitor_1a5aa7831854cde6046dc35731447cd982" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool RTFDocVisitor::m_insidePre</definition>
+        <argsstring></argsstring>
+        <name>m_insidePre</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/rtfdocvisitor.h" line="160" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/rtfdocvisitor.h" bodystart="160" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d1/d4b/class_r_t_f_doc_visitor_1a8adcc63dc189a8e625ff27867dedbe25" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool RTFDocVisitor::m_hide</definition>
+        <argsstring></argsstring>
+        <name>m_hide</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/rtfdocvisitor.h" line="161" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/rtfdocvisitor.h" bodystart="161" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d1/d4b/class_r_t_f_doc_visitor_1a7750d512b4ea14d7547669387849d45b" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int RTFDocVisitor::m_indentLevel</definition>
+        <argsstring></argsstring>
+        <name>m_indentLevel</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/rtfdocvisitor.h" line="162" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/rtfdocvisitor.h" bodystart="162" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d1/d4b/class_r_t_f_doc_visitor_1aea711b3685dffda7eabe023427467f32" prot="private" static="no" mutable="no">
+        <type>QStack&lt; bool &gt;</type>
+        <definition>QStack&lt;bool&gt; RTFDocVisitor::m_enabled</definition>
+        <argsstring></argsstring>
+        <name>m_enabled</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/rtfdocvisitor.h" line="163" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/rtfdocvisitor.h" bodystart="163" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d1/d4b/class_r_t_f_doc_visitor_1a477396568e5d3d9fdba5e77538d6c373" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool RTFDocVisitor::m_lastIsPara</definition>
+        <argsstring></argsstring>
+        <name>m_lastIsPara</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/rtfdocvisitor.h" line="164" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/rtfdocvisitor.h" bodystart="164" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d1/d4b/class_r_t_f_doc_visitor_1a303074f18eaca30ccd8faf73917255ad" prot="private" static="no" mutable="no">
+        <type>QCString</type>
+        <definition>QCString RTFDocVisitor::m_langExt</definition>
+        <argsstring></argsstring>
+        <name>m_langExt</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/rtfdocvisitor.h" line="165" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/rtfdocvisitor.h" bodystart="165" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="d1/d4b/class_r_t_f_doc_visitor_1ac948e2bbce6f318fd3cea2f3daacfc49" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>RTFDocVisitor::RTFDocVisitor</definition>
+        <argsstring>(FTextStream &amp;t, CodeOutputInterface &amp;ci, const char *langExt)</argsstring>
+        <name>RTFDocVisitor</name>
+        <param>
+          <type><ref refid="dc/d3c/class_f_text_stream" kindref="compound">FTextStream</ref> &amp;</type>
+          <declname>t</declname>
+        </param>
+        <param>
+          <type><ref refid="d5/d9c/class_code_output_interface" kindref="compound">CodeOutputInterface</ref> &amp;</type>
+          <declname>ci</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>langExt</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/rtfdocvisitor.h" line="33" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/rtfdocvisitor.cpp" bodystart="56" bodyend="61"/>
+      </memberdef>
+      <memberdef kind="function" id="d1/d4b/class_r_t_f_doc_visitor_1a9c5a705acc9d352e4666daa1701710cf" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void RTFDocVisitor::visit</definition>
+        <argsstring>(DocWord *)</argsstring>
+        <name>visit</name>
+        <reimplements refid="d0/d78/class_doc_visitor_1aec59d1c93f82aad3569fb303f1e4d3f4">visit</reimplements>
+        <param>
+          <type><ref refid="d9/d1d/class_doc_word" kindref="compound">DocWord</ref> *</type>
+          <defname>w</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/rtfdocvisitor.h" line="39" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/rtfdocvisitor.cpp" bodystart="86" bodyend="92"/>
+      </memberdef>
+      <memberdef kind="function" id="d1/d4b/class_r_t_f_doc_visitor_1a0adf23dfcfea19244e5096e4f978cb88" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void RTFDocVisitor::visit</definition>
+        <argsstring>(DocLinkedWord *)</argsstring>
+        <name>visit</name>
+        <reimplements refid="d0/d78/class_doc_visitor_1a02271e36b8c31ceddaa9a6cfe265866c">visit</reimplements>
+        <param>
+          <type><ref refid="d1/d93/class_doc_linked_word" kindref="compound">DocLinkedWord</ref> *</type>
+          <defname>w</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/rtfdocvisitor.h" line="40" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/rtfdocvisitor.cpp" bodystart="94" bodyend="102"/>
+      </memberdef>
+      <memberdef kind="function" id="d1/d4b/class_r_t_f_doc_visitor_1a9cb724693e17eb256883a3cc567d100a" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void RTFDocVisitor::visit</definition>
+        <argsstring>(DocWhiteSpace *)</argsstring>
+        <name>visit</name>
+        <reimplements refid="d0/d78/class_doc_visitor_1a68f7be9249997380d4ee39f608b21e28">visit</reimplements>
+        <param>
+          <type><ref refid="db/d78/class_doc_white_space" kindref="compound">DocWhiteSpace</ref> *</type>
+          <defname>w</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/rtfdocvisitor.h" line="41" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/rtfdocvisitor.cpp" bodystart="104" bodyend="117"/>
+      </memberdef>
+      <memberdef kind="function" id="d1/d4b/class_r_t_f_doc_visitor_1ae63f62e03aac6c5cc021c1d8b0dad55a" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void RTFDocVisitor::visit</definition>
+        <argsstring>(DocSymbol *)</argsstring>
+        <name>visit</name>
+        <reimplements refid="d0/d78/class_doc_visitor_1aff53bb2afd8f7dd963397eca8f53775d">visit</reimplements>
+        <param>
+          <type><ref refid="d7/d67/class_doc_symbol" kindref="compound">DocSymbol</ref> *</type>
+          <defname>s</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/rtfdocvisitor.h" line="42" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/rtfdocvisitor.cpp" bodystart="119" bodyend="317"/>
+      </memberdef>
+      <memberdef kind="function" id="d1/d4b/class_r_t_f_doc_visitor_1a74f4684bde67054a187306373c87d4c7" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void RTFDocVisitor::visit</definition>
+        <argsstring>(DocURL *)</argsstring>
+        <name>visit</name>
+        <reimplements refid="d0/d78/class_doc_visitor_1ad4b4715c1f30e5b7f2492f61f58eb41e">visit</reimplements>
+        <param>
+          <type><ref refid="d9/dcb/class_doc_u_r_l" kindref="compound">DocURL</ref> *</type>
+          <defname>u</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/rtfdocvisitor.h" line="43" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/rtfdocvisitor.cpp" bodystart="319" bodyend="347"/>
+      </memberdef>
+      <memberdef kind="function" id="d1/d4b/class_r_t_f_doc_visitor_1ad17bfd3d4eeb330ec99dbf45dd9fb591" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void RTFDocVisitor::visit</definition>
+        <argsstring>(DocLineBreak *)</argsstring>
+        <name>visit</name>
+        <reimplements refid="d0/d78/class_doc_visitor_1a907478f5e152ccfcd898bbbfb86e8a62">visit</reimplements>
+        <param>
+          <type><ref refid="df/d34/class_doc_line_break" kindref="compound">DocLineBreak</ref> *</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/rtfdocvisitor.h" line="44" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/rtfdocvisitor.cpp" bodystart="349" bodyend="355"/>
+      </memberdef>
+      <memberdef kind="function" id="d1/d4b/class_r_t_f_doc_visitor_1a92444cc66d9306ed7bfbb93565b9a59e" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void RTFDocVisitor::visit</definition>
+        <argsstring>(DocHorRuler *)</argsstring>
+        <name>visit</name>
+        <reimplements refid="d0/d78/class_doc_visitor_1acb3e01375bf30212b9c9a320a338d998">visit</reimplements>
+        <param>
+          <type><ref refid="d9/d6f/class_doc_hor_ruler" kindref="compound">DocHorRuler</ref> *</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/rtfdocvisitor.h" line="45" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/rtfdocvisitor.cpp" bodystart="357" bodyend="363"/>
+      </memberdef>
+      <memberdef kind="function" id="d1/d4b/class_r_t_f_doc_visitor_1a3e793e86489ec3d9e1466a54ff48297e" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void RTFDocVisitor::visit</definition>
+        <argsstring>(DocStyleChange *)</argsstring>
+        <name>visit</name>
+        <reimplements refid="d0/d78/class_doc_visitor_1ae76aedd65bb04607b0b1475cc24720b1">visit</reimplements>
+        <param>
+          <type><ref refid="d0/d4e/class_doc_style_change" kindref="compound">DocStyleChange</ref> *</type>
+          <defname>s</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/rtfdocvisitor.h" line="46" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/rtfdocvisitor.cpp" bodystart="365" bodyend="412"/>
+      </memberdef>
+      <memberdef kind="function" id="d1/d4b/class_r_t_f_doc_visitor_1a545d7ef302ca89f8b9913f72e729ef62" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void RTFDocVisitor::visit</definition>
+        <argsstring>(DocVerbatim *)</argsstring>
+        <name>visit</name>
+        <reimplements refid="d0/d78/class_doc_visitor_1a1deb88f4f8320362379dfdb3259bcf5b">visit</reimplements>
+        <param>
+          <type><ref refid="dc/d12/class_doc_verbatim" kindref="compound">DocVerbatim</ref> *</type>
+          <defname>s</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/rtfdocvisitor.h" line="47" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/rtfdocvisitor.cpp" bodystart="414" bodyend="503"/>
+      </memberdef>
+      <memberdef kind="function" id="d1/d4b/class_r_t_f_doc_visitor_1ada1cbdb2bc19cb08666e6510a2a4d210" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void RTFDocVisitor::visit</definition>
+        <argsstring>(DocAnchor *)</argsstring>
+        <name>visit</name>
+        <reimplements refid="d0/d78/class_doc_visitor_1a6b50d6c801a96480fe5d696257204b5b">visit</reimplements>
+        <param>
+          <type><ref refid="d0/d33/class_doc_anchor" kindref="compound">DocAnchor</ref> *</type>
+          <defname>anc</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/rtfdocvisitor.h" line="48" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/rtfdocvisitor.cpp" bodystart="505" bodyend="525"/>
+      </memberdef>
+      <memberdef kind="function" id="d1/d4b/class_r_t_f_doc_visitor_1a23e239f3a115ac2eec1d3ecd218e7d65" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void RTFDocVisitor::visit</definition>
+        <argsstring>(DocInclude *)</argsstring>
+        <name>visit</name>
+        <reimplements refid="d0/d78/class_doc_visitor_1a983ff26fa96114015198c2f2b9cc9659">visit</reimplements>
+        <param>
+          <type><ref refid="d6/db9/class_doc_include" kindref="compound">DocInclude</ref> *</type>
+          <defname>inc</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/rtfdocvisitor.h" line="49" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/rtfdocvisitor.cpp" bodystart="527" bodyend="587"/>
+      </memberdef>
+      <memberdef kind="function" id="d1/d4b/class_r_t_f_doc_visitor_1a825a7a241f7d62304c5654bedd1f2ee5" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void RTFDocVisitor::visit</definition>
+        <argsstring>(DocIncOperator *)</argsstring>
+        <name>visit</name>
+        <reimplements refid="d0/d78/class_doc_visitor_1acbd34843d9ac571f53484d80666553d6">visit</reimplements>
+        <param>
+          <type><ref refid="d2/db2/class_doc_inc_operator" kindref="compound">DocIncOperator</ref> *</type>
+          <defname>op</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/rtfdocvisitor.h" line="50" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/rtfdocvisitor.cpp" bodystart="589" bodyend="632"/>
+      </memberdef>
+      <memberdef kind="function" id="d1/d4b/class_r_t_f_doc_visitor_1a550feb44ded4f89d736b03706e364522" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void RTFDocVisitor::visit</definition>
+        <argsstring>(DocFormula *)</argsstring>
+        <name>visit</name>
+        <reimplements refid="d0/d78/class_doc_visitor_1a4e27e470f439b296099f15e167fefdc7">visit</reimplements>
+        <param>
+          <type><ref refid="df/de1/class_doc_formula" kindref="compound">DocFormula</ref> *</type>
+          <defname>f</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/rtfdocvisitor.h" line="51" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/rtfdocvisitor.cpp" bodystart="634" bodyend="641"/>
+      </memberdef>
+      <memberdef kind="function" id="d1/d4b/class_r_t_f_doc_visitor_1a5766f24a92bbc900a30006c8d5944ad6" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void RTFDocVisitor::visit</definition>
+        <argsstring>(DocIndexEntry *)</argsstring>
+        <name>visit</name>
+        <reimplements refid="d0/d78/class_doc_visitor_1a592d9b903b43b55af79a9511c2e4af76">visit</reimplements>
+        <param>
+          <type><ref refid="d7/dc9/class_doc_index_entry" kindref="compound">DocIndexEntry</ref> *</type>
+          <defname>i</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/rtfdocvisitor.h" line="52" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/rtfdocvisitor.cpp" bodystart="643" bodyend="649"/>
+      </memberdef>
+      <memberdef kind="function" id="d1/d4b/class_r_t_f_doc_visitor_1a477c0f5e5449556d6446766da0cfdf3a" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void RTFDocVisitor::visit</definition>
+        <argsstring>(DocSimpleSectSep *)</argsstring>
+        <name>visit</name>
+        <reimplements refid="d0/d78/class_doc_visitor_1acb552de85678adcae6deaebeba33daec">visit</reimplements>
+        <param>
+          <type><ref refid="db/dd0/class_doc_simple_sect_sep" kindref="compound">DocSimpleSectSep</ref> *</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/rtfdocvisitor.h" line="53" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/rtfdocvisitor.cpp" bodystart="651" bodyend="653"/>
+      </memberdef>
+      <memberdef kind="function" id="d1/d4b/class_r_t_f_doc_visitor_1a5d389837cc969f28d0e8ddc50e980141" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void RTFDocVisitor::visit</definition>
+        <argsstring>(DocCite *)</argsstring>
+        <name>visit</name>
+        <reimplements refid="d0/d78/class_doc_visitor_1a493e4a1f2cd6e1d0ad5f9eb5b56089b1">visit</reimplements>
+        <param>
+          <type><ref refid="d6/db8/class_doc_cite" kindref="compound">DocCite</ref> *</type>
+          <defname>cite</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/rtfdocvisitor.h" line="54" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/rtfdocvisitor.cpp" bodystart="655" bodyend="676"/>
+      </memberdef>
+      <memberdef kind="function" id="d1/d4b/class_r_t_f_doc_visitor_1a4b7d827c3a649ffc314d0aad7a02d22e" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void RTFDocVisitor::visitPre</definition>
+        <argsstring>(DocAutoList *)</argsstring>
+        <name>visitPre</name>
+        <reimplements refid="d0/d78/class_doc_visitor_1ad19af23c9a793e7b224df2a9e63f8abb">visitPre</reimplements>
+        <param>
+          <type><ref refid="d1/d3f/class_doc_auto_list" kindref="compound">DocAutoList</ref> *</type>
+          <defname>l</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/rtfdocvisitor.h" line="60" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/rtfdocvisitor.cpp" bodystart="683" bodyend="691"/>
+      </memberdef>
+      <memberdef kind="function" id="d1/d4b/class_r_t_f_doc_visitor_1ae29ed191e7d8072b5201b0acb2f9cc73" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void RTFDocVisitor::visitPost</definition>
+        <argsstring>(DocAutoList *)</argsstring>
+        <name>visitPost</name>
+        <reimplements refid="d0/d78/class_doc_visitor_1afc37187eb3ca61b7bb0b730636324966">visitPost</reimplements>
+        <param>
+          <type><ref refid="d1/d3f/class_doc_auto_list" kindref="compound">DocAutoList</ref> *</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/rtfdocvisitor.h" line="61" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/rtfdocvisitor.cpp" bodystart="693" bodyend="700"/>
+      </memberdef>
+      <memberdef kind="function" id="d1/d4b/class_r_t_f_doc_visitor_1a405fb7b4df1492242d0181391f74e20c" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void RTFDocVisitor::visitPre</definition>
+        <argsstring>(DocAutoListItem *)</argsstring>
+        <name>visitPre</name>
+        <reimplements refid="d0/d78/class_doc_visitor_1a8401a2388c52c4dacbe9121b3e24bbe5">visitPre</reimplements>
+        <param>
+          <type><ref refid="d8/df9/class_doc_auto_list_item" kindref="compound">DocAutoListItem</ref> *</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/rtfdocvisitor.h" line="62" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/rtfdocvisitor.cpp" bodystart="702" bodyend="720"/>
+      </memberdef>
+      <memberdef kind="function" id="d1/d4b/class_r_t_f_doc_visitor_1aeddf00be0881be0b8ec353d9d7f97029" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void RTFDocVisitor::visitPost</definition>
+        <argsstring>(DocAutoListItem *)</argsstring>
+        <name>visitPost</name>
+        <reimplements refid="d0/d78/class_doc_visitor_1a2d28f1aba8f013fbf165492bc0b4cf32">visitPost</reimplements>
+        <param>
+          <type><ref refid="d8/df9/class_doc_auto_list_item" kindref="compound">DocAutoListItem</ref> *</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/rtfdocvisitor.h" line="63" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/rtfdocvisitor.cpp" bodystart="722" bodyend="726"/>
+      </memberdef>
+      <memberdef kind="function" id="d1/d4b/class_r_t_f_doc_visitor_1acaba69544097b6d97f0543739ae52adf" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void RTFDocVisitor::visitPre</definition>
+        <argsstring>(DocPara *)</argsstring>
+        <name>visitPre</name>
+        <reimplements refid="d0/d78/class_doc_visitor_1aadca3f9fde4584c4776c8e96c6381f2b">visitPre</reimplements>
+        <param>
+          <type><ref refid="d3/d01/class_doc_para" kindref="compound">DocPara</ref> *</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/rtfdocvisitor.h" line="64" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/rtfdocvisitor.cpp" bodystart="728" bodyend="731"/>
+      </memberdef>
+      <memberdef kind="function" id="d1/d4b/class_r_t_f_doc_visitor_1ab62332d0b8a7af89a7367c4bc6e5dc48" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void RTFDocVisitor::visitPost</definition>
+        <argsstring>(DocPara *)</argsstring>
+        <name>visitPost</name>
+        <reimplements refid="d0/d78/class_doc_visitor_1ad6f2864a77c4ee94e3864ca7359e8e44">visitPost</reimplements>
+        <param>
+          <type><ref refid="d3/d01/class_doc_para" kindref="compound">DocPara</ref> *</type>
+          <defname>p</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/rtfdocvisitor.h" line="65" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/rtfdocvisitor.cpp" bodystart="733" bodyend="747"/>
+      </memberdef>
+      <memberdef kind="function" id="d1/d4b/class_r_t_f_doc_visitor_1a1a421baef1f44592f9ade901ed1edda5" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void RTFDocVisitor::visitPre</definition>
+        <argsstring>(DocRoot *)</argsstring>
+        <name>visitPre</name>
+        <reimplements refid="d0/d78/class_doc_visitor_1a3eaf72c546eb9c7b7721f2be0f9e0bec">visitPre</reimplements>
+        <param>
+          <type><ref refid="d8/ddb/class_doc_root" kindref="compound">DocRoot</ref> *</type>
+          <defname>r</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/rtfdocvisitor.h" line="66" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/rtfdocvisitor.cpp" bodystart="749" bodyend="755"/>
+      </memberdef>
+      <memberdef kind="function" id="d1/d4b/class_r_t_f_doc_visitor_1ac25376fcadbcd63436858cf8336003c6" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void RTFDocVisitor::visitPost</definition>
+        <argsstring>(DocRoot *)</argsstring>
+        <name>visitPost</name>
+        <reimplements refid="d0/d78/class_doc_visitor_1a36cee35f6be334919905f0afd04a6fa5">visitPost</reimplements>
+        <param>
+          <type><ref refid="d8/ddb/class_doc_root" kindref="compound">DocRoot</ref> *</type>
+          <defname>r</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/rtfdocvisitor.h" line="67" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/rtfdocvisitor.cpp" bodystart="757" bodyend="765"/>
+      </memberdef>
+      <memberdef kind="function" id="d1/d4b/class_r_t_f_doc_visitor_1ad6358b4c52f27bb9df17f6b2c1ca8753" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void RTFDocVisitor::visitPre</definition>
+        <argsstring>(DocSimpleSect *)</argsstring>
+        <name>visitPre</name>
+        <reimplements refid="d0/d78/class_doc_visitor_1a906a10ecd102203e2a8121f7d08a37dc">visitPre</reimplements>
+        <param>
+          <type><ref refid="de/d65/class_doc_simple_sect" kindref="compound">DocSimpleSect</ref> *</type>
+          <defname>s</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/rtfdocvisitor.h" line="68" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/rtfdocvisitor.cpp" bodystart="767" bodyend="822"/>
+      </memberdef>
+      <memberdef kind="function" id="d1/d4b/class_r_t_f_doc_visitor_1a5002e89ce1b2b9f81d75abcfa3559f05" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void RTFDocVisitor::visitPost</definition>
+        <argsstring>(DocSimpleSect *)</argsstring>
+        <name>visitPost</name>
+        <reimplements refid="d0/d78/class_doc_visitor_1a27dd28a0cd024947d0fa5fb4c2420d4b">visitPost</reimplements>
+        <param>
+          <type><ref refid="de/d65/class_doc_simple_sect" kindref="compound">DocSimpleSect</ref> *</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/rtfdocvisitor.h" line="69" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/rtfdocvisitor.cpp" bodystart="824" bodyend="832"/>
+      </memberdef>
+      <memberdef kind="function" id="d1/d4b/class_r_t_f_doc_visitor_1aa7e12b414409410057891ec6b74dcc8d" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void RTFDocVisitor::visitPre</definition>
+        <argsstring>(DocTitle *)</argsstring>
+        <name>visitPre</name>
+        <reimplements refid="d0/d78/class_doc_visitor_1a4f3edcfaa1f39b8e385f5fc6ad07a1fa">visitPre</reimplements>
+        <param>
+          <type><ref refid="d3/d1c/class_doc_title" kindref="compound">DocTitle</ref> *</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/rtfdocvisitor.h" line="70" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/rtfdocvisitor.cpp" bodystart="834" bodyend="837"/>
+      </memberdef>
+      <memberdef kind="function" id="d1/d4b/class_r_t_f_doc_visitor_1a002eb11f47b3d6f6d39e3a07c4830d59" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void RTFDocVisitor::visitPost</definition>
+        <argsstring>(DocTitle *)</argsstring>
+        <name>visitPost</name>
+        <reimplements refid="d0/d78/class_doc_visitor_1a9164730bf7b367e75b9288b0497e1966">visitPost</reimplements>
+        <param>
+          <type><ref refid="d3/d1c/class_doc_title" kindref="compound">DocTitle</ref> *</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/rtfdocvisitor.h" line="71" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/rtfdocvisitor.cpp" bodystart="839" bodyend="848"/>
+      </memberdef>
+      <memberdef kind="function" id="d1/d4b/class_r_t_f_doc_visitor_1abf71637000b917b0f6cebd5bb7fbfda5" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void RTFDocVisitor::visitPre</definition>
+        <argsstring>(DocSimpleList *)</argsstring>
+        <name>visitPre</name>
+        <reimplements refid="d0/d78/class_doc_visitor_1a383cc026d701e1447c1ada6cc566b328">visitPre</reimplements>
+        <param>
+          <type><ref refid="dc/de6/class_doc_simple_list" kindref="compound">DocSimpleList</ref> *</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/rtfdocvisitor.h" line="72" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/rtfdocvisitor.cpp" bodystart="850" bodyend="857"/>
+      </memberdef>
+      <memberdef kind="function" id="d1/d4b/class_r_t_f_doc_visitor_1a63956617e646076cf3b0b142c8839667" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void RTFDocVisitor::visitPost</definition>
+        <argsstring>(DocSimpleList *)</argsstring>
+        <name>visitPost</name>
+        <reimplements refid="d0/d78/class_doc_visitor_1a01330622b0795145dc662c2c32965e7d">visitPost</reimplements>
+        <param>
+          <type><ref refid="dc/de6/class_doc_simple_list" kindref="compound">DocSimpleList</ref> *</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/rtfdocvisitor.h" line="73" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/rtfdocvisitor.cpp" bodystart="859" bodyend="866"/>
+      </memberdef>
+      <memberdef kind="function" id="d1/d4b/class_r_t_f_doc_visitor_1a9e59c37ab1dfe48f6aebd845a468845f" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void RTFDocVisitor::visitPre</definition>
+        <argsstring>(DocSimpleListItem *)</argsstring>
+        <name>visitPre</name>
+        <reimplements refid="d0/d78/class_doc_visitor_1ae23ed0ebf60d58c7d7821083ad4fc283">visitPre</reimplements>
+        <param>
+          <type><ref refid="d4/d1e/class_doc_simple_list_item" kindref="compound">DocSimpleListItem</ref> *</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/rtfdocvisitor.h" line="74" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/rtfdocvisitor.cpp" bodystart="868" bodyend="875"/>
+      </memberdef>
+      <memberdef kind="function" id="d1/d4b/class_r_t_f_doc_visitor_1af6aa95d64499fa406f47034d0621b7c4" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void RTFDocVisitor::visitPost</definition>
+        <argsstring>(DocSimpleListItem *)</argsstring>
+        <name>visitPost</name>
+        <reimplements refid="d0/d78/class_doc_visitor_1a59ee419b5f54332cb88dca97e78d1fea">visitPost</reimplements>
+        <param>
+          <type><ref refid="d4/d1e/class_doc_simple_list_item" kindref="compound">DocSimpleListItem</ref> *</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/rtfdocvisitor.h" line="75" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/rtfdocvisitor.cpp" bodystart="877" bodyend="881"/>
+      </memberdef>
+      <memberdef kind="function" id="d1/d4b/class_r_t_f_doc_visitor_1a909d520efc8bad27cc8cb53f2b8abd1d" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void RTFDocVisitor::visitPre</definition>
+        <argsstring>(DocSection *s)</argsstring>
+        <name>visitPre</name>
+        <reimplements refid="d0/d78/class_doc_visitor_1a78190d964b165c0f8589ed1a6faa989a">visitPre</reimplements>
+        <param>
+          <type><ref refid="d2/da3/class_doc_section" kindref="compound">DocSection</ref> *</type>
+          <declname>s</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/rtfdocvisitor.h" line="76" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/rtfdocvisitor.cpp" bodystart="883" bodyend="904"/>
+      </memberdef>
+      <memberdef kind="function" id="d1/d4b/class_r_t_f_doc_visitor_1a81084f185a90bc23ec8417adefc5dde3" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void RTFDocVisitor::visitPost</definition>
+        <argsstring>(DocSection *)</argsstring>
+        <name>visitPost</name>
+        <reimplements refid="d0/d78/class_doc_visitor_1a083957bd79581ce312e7e3ad9e3f6102">visitPost</reimplements>
+        <param>
+          <type><ref refid="d2/da3/class_doc_section" kindref="compound">DocSection</ref> *</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/rtfdocvisitor.h" line="77" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/rtfdocvisitor.cpp" bodystart="906" bodyend="912"/>
+      </memberdef>
+      <memberdef kind="function" id="d1/d4b/class_r_t_f_doc_visitor_1ab3412df9b6bf6440162ac72cc4d3eb8b" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void RTFDocVisitor::visitPre</definition>
+        <argsstring>(DocHtmlList *s)</argsstring>
+        <name>visitPre</name>
+        <reimplements refid="d0/d78/class_doc_visitor_1a4bca6fe6f64ea99abafd6b5ab60da885">visitPre</reimplements>
+        <param>
+          <type><ref refid="d5/d42/class_doc_html_list" kindref="compound">DocHtmlList</ref> *</type>
+          <declname>s</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/rtfdocvisitor.h" line="78" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/rtfdocvisitor.cpp" bodystart="914" bodyend="922"/>
+      </memberdef>
+      <memberdef kind="function" id="d1/d4b/class_r_t_f_doc_visitor_1aca04806ab7f0109814632cc3a36cf189" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void RTFDocVisitor::visitPost</definition>
+        <argsstring>(DocHtmlList *s)</argsstring>
+        <name>visitPost</name>
+        <reimplements refid="d0/d78/class_doc_visitor_1a94c4bf557fa59bfa262d4b1fcb064b79">visitPost</reimplements>
+        <param>
+          <type><ref refid="d5/d42/class_doc_html_list" kindref="compound">DocHtmlList</ref> *</type>
+          <declname>s</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/rtfdocvisitor.h" line="79" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/rtfdocvisitor.cpp" bodystart="924" bodyend="930"/>
+      </memberdef>
+      <memberdef kind="function" id="d1/d4b/class_r_t_f_doc_visitor_1affb7ba0884003e8c8efb1a17e5d6a212" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void RTFDocVisitor::visitPre</definition>
+        <argsstring>(DocHtmlListItem *)</argsstring>
+        <name>visitPre</name>
+        <reimplements refid="d0/d78/class_doc_visitor_1af2a2b89f574d5c25112e050338886255">visitPre</reimplements>
+        <param>
+          <type><ref refid="df/da8/class_doc_html_list_item" kindref="compound">DocHtmlListItem</ref> *</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/rtfdocvisitor.h" line="80" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/rtfdocvisitor.cpp" bodystart="932" bodyend="950"/>
+      </memberdef>
+      <memberdef kind="function" id="d1/d4b/class_r_t_f_doc_visitor_1aff757e2a9565894455a743d779948f1e" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void RTFDocVisitor::visitPost</definition>
+        <argsstring>(DocHtmlListItem *)</argsstring>
+        <name>visitPost</name>
+        <reimplements refid="d0/d78/class_doc_visitor_1a213f7b6711dcde03c51487eabd229c43">visitPost</reimplements>
+        <param>
+          <type><ref refid="df/da8/class_doc_html_list_item" kindref="compound">DocHtmlListItem</ref> *</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/rtfdocvisitor.h" line="81" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/rtfdocvisitor.cpp" bodystart="952" bodyend="956"/>
+      </memberdef>
+      <memberdef kind="function" id="d1/d4b/class_r_t_f_doc_visitor_1a1e9f56a4e306699db7bae89b9234b385" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void RTFDocVisitor::visitPre</definition>
+        <argsstring>(DocHtmlDescList *)</argsstring>
+        <name>visitPre</name>
+        <reimplements refid="d0/d78/class_doc_visitor_1ad342a149c6ce394db59da0436e051d9b">visitPre</reimplements>
+        <param>
+          <type><ref refid="df/d6f/class_doc_html_desc_list" kindref="compound">DocHtmlDescList</ref> *</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/rtfdocvisitor.h" line="84" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/rtfdocvisitor.cpp" bodystart="958" bodyend="965"/>
+      </memberdef>
+      <memberdef kind="function" id="d1/d4b/class_r_t_f_doc_visitor_1a42085e74088a53c3e9647945c7fd4497" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void RTFDocVisitor::visitPost</definition>
+        <argsstring>(DocHtmlDescList *)</argsstring>
+        <name>visitPost</name>
+        <reimplements refid="d0/d78/class_doc_visitor_1a32e4c8689a7e005bdb882c3a167767c3">visitPost</reimplements>
+        <param>
+          <type><ref refid="df/d6f/class_doc_html_desc_list" kindref="compound">DocHtmlDescList</ref> *</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/rtfdocvisitor.h" line="85" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/rtfdocvisitor.cpp" bodystart="967" bodyend="974"/>
+      </memberdef>
+      <memberdef kind="function" id="d1/d4b/class_r_t_f_doc_visitor_1ab935202e1a7666c8e1c87d0913254aec" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void RTFDocVisitor::visitPre</definition>
+        <argsstring>(DocHtmlDescTitle *)</argsstring>
+        <name>visitPre</name>
+        <reimplements refid="d0/d78/class_doc_visitor_1a7807d986121da267abcd3b4bf334fe57">visitPre</reimplements>
+        <param>
+          <type><ref refid="dd/dd1/class_doc_html_desc_title" kindref="compound">DocHtmlDescTitle</ref> *</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/rtfdocvisitor.h" line="86" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/rtfdocvisitor.cpp" bodystart="976" bodyend="984"/>
+      </memberdef>
+      <memberdef kind="function" id="d1/d4b/class_r_t_f_doc_visitor_1aa5243e142778a2d9e030529f0055a92c" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void RTFDocVisitor::visitPost</definition>
+        <argsstring>(DocHtmlDescTitle *)</argsstring>
+        <name>visitPost</name>
+        <reimplements refid="d0/d78/class_doc_visitor_1aea00af70d99f90581cb07c126a819688">visitPost</reimplements>
+        <param>
+          <type><ref refid="dd/dd1/class_doc_html_desc_title" kindref="compound">DocHtmlDescTitle</ref> *</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/rtfdocvisitor.h" line="87" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/rtfdocvisitor.cpp" bodystart="986" bodyend="993"/>
+      </memberdef>
+      <memberdef kind="function" id="d1/d4b/class_r_t_f_doc_visitor_1aefe88f5e91d111b1bff6d3530c0fbf81" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void RTFDocVisitor::visitPre</definition>
+        <argsstring>(DocHtmlDescData *)</argsstring>
+        <name>visitPre</name>
+        <reimplements refid="d0/d78/class_doc_visitor_1ab777ab10aa8444e911c26ffa5a13dd80">visitPre</reimplements>
+        <param>
+          <type><ref refid="dd/d88/class_doc_html_desc_data" kindref="compound">DocHtmlDescData</ref> *</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/rtfdocvisitor.h" line="88" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/rtfdocvisitor.cpp" bodystart="995" bodyend="1001"/>
+      </memberdef>
+      <memberdef kind="function" id="d1/d4b/class_r_t_f_doc_visitor_1a85aae62e4ec13c5930e98cdbef980111" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void RTFDocVisitor::visitPost</definition>
+        <argsstring>(DocHtmlDescData *)</argsstring>
+        <name>visitPost</name>
+        <reimplements refid="d0/d78/class_doc_visitor_1a1d6c104ead1e410666853eeca1348222">visitPost</reimplements>
+        <param>
+          <type><ref refid="dd/d88/class_doc_html_desc_data" kindref="compound">DocHtmlDescData</ref> *</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/rtfdocvisitor.h" line="89" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/rtfdocvisitor.cpp" bodystart="1003" bodyend="1011"/>
+      </memberdef>
+      <memberdef kind="function" id="d1/d4b/class_r_t_f_doc_visitor_1ad46adef7c4e3d9d7bdd770f6624eeba0" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void RTFDocVisitor::visitPre</definition>
+        <argsstring>(DocHtmlTable *t)</argsstring>
+        <name>visitPre</name>
+        <reimplements refid="d0/d78/class_doc_visitor_1a46be97002c15e24d3c0a0b0b28123d4c">visitPre</reimplements>
+        <param>
+          <type><ref refid="de/d79/class_doc_html_table" kindref="compound">DocHtmlTable</ref> *</type>
+          <declname>t</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/rtfdocvisitor.h" line="90" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/rtfdocvisitor.cpp" bodystart="1013" bodyend="1019"/>
+      </memberdef>
+      <memberdef kind="function" id="d1/d4b/class_r_t_f_doc_visitor_1a3c9479379f924f2207424d9c24af612e" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void RTFDocVisitor::visitPost</definition>
+        <argsstring>(DocHtmlTable *t)</argsstring>
+        <name>visitPost</name>
+        <reimplements refid="d0/d78/class_doc_visitor_1af01861d096fb0cff4c7f6d0ea6954fda">visitPost</reimplements>
+        <param>
+          <type><ref refid="de/d79/class_doc_html_table" kindref="compound">DocHtmlTable</ref> *</type>
+          <declname>t</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/rtfdocvisitor.h" line="91" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/rtfdocvisitor.cpp" bodystart="1021" bodyend="1028"/>
+      </memberdef>
+      <memberdef kind="function" id="d1/d4b/class_r_t_f_doc_visitor_1a40282a8fec3b47ab532e03b51b720929" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void RTFDocVisitor::visitPre</definition>
+        <argsstring>(DocHtmlCaption *)</argsstring>
+        <name>visitPre</name>
+        <reimplements refid="d0/d78/class_doc_visitor_1a6bf4ac1265c14f57b338c17fa02a28bc">visitPre</reimplements>
+        <param>
+          <type><ref refid="d0/dc7/class_doc_html_caption" kindref="compound">DocHtmlCaption</ref> *</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/rtfdocvisitor.h" line="92" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/rtfdocvisitor.cpp" bodystart="1030" bodyend="1033"/>
+      </memberdef>
+      <memberdef kind="function" id="d1/d4b/class_r_t_f_doc_visitor_1ae739eab3ac070f10aece321c0ae7130b" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void RTFDocVisitor::visitPost</definition>
+        <argsstring>(DocHtmlCaption *)</argsstring>
+        <name>visitPost</name>
+        <reimplements refid="d0/d78/class_doc_visitor_1a1fd56b83af1bfc8fcf28633a6b15968f">visitPost</reimplements>
+        <param>
+          <type><ref refid="d0/dc7/class_doc_html_caption" kindref="compound">DocHtmlCaption</ref> *</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/rtfdocvisitor.h" line="93" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/rtfdocvisitor.cpp" bodystart="1035" bodyend="1038"/>
+      </memberdef>
+      <memberdef kind="function" id="d1/d4b/class_r_t_f_doc_visitor_1a204eb85434ec230c272f6454c0698eba" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void RTFDocVisitor::visitPre</definition>
+        <argsstring>(DocHtmlRow *)</argsstring>
+        <name>visitPre</name>
+        <reimplements refid="d0/d78/class_doc_visitor_1a32db2f9305e92594b3014c600e428c43">visitPre</reimplements>
+        <param>
+          <type><ref refid="d3/d16/class_doc_html_row" kindref="compound">DocHtmlRow</ref> *</type>
+          <defname>r</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/rtfdocvisitor.h" line="94" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/rtfdocvisitor.cpp" bodystart="1040" bodyend="1067"/>
+      </memberdef>
+      <memberdef kind="function" id="d1/d4b/class_r_t_f_doc_visitor_1aee9bbcef97f064f178be7ff2c56278ea" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void RTFDocVisitor::visitPost</definition>
+        <argsstring>(DocHtmlRow *)</argsstring>
+        <name>visitPost</name>
+        <reimplements refid="d0/d78/class_doc_visitor_1a288d4ff0974bd107ff9b8bb130ffca4b">visitPost</reimplements>
+        <param>
+          <type><ref refid="d3/d16/class_doc_html_row" kindref="compound">DocHtmlRow</ref> *</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/rtfdocvisitor.h" line="95" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/rtfdocvisitor.cpp" bodystart="1069" bodyend="1077"/>
+      </memberdef>
+      <memberdef kind="function" id="d1/d4b/class_r_t_f_doc_visitor_1a161b776da556acca213689098efff8ad" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void RTFDocVisitor::visitPre</definition>
+        <argsstring>(DocHtmlCell *)</argsstring>
+        <name>visitPre</name>
+        <reimplements refid="d0/d78/class_doc_visitor_1a32086fbe57451f6a8a68a89615048318">visitPre</reimplements>
+        <param>
+          <type><ref refid="d1/d56/class_doc_html_cell" kindref="compound">DocHtmlCell</ref> *</type>
+          <defname>c</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/rtfdocvisitor.h" line="96" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/rtfdocvisitor.cpp" bodystart="1079" bodyend="1085"/>
+      </memberdef>
+      <memberdef kind="function" id="d1/d4b/class_r_t_f_doc_visitor_1ab7b0dc5eec17d4445fc1fea39d24675c" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void RTFDocVisitor::visitPost</definition>
+        <argsstring>(DocHtmlCell *)</argsstring>
+        <name>visitPost</name>
+        <reimplements refid="d0/d78/class_doc_visitor_1ab3a1da26976855321849d7d9f14a0b92">visitPost</reimplements>
+        <param>
+          <type><ref refid="d1/d56/class_doc_html_cell" kindref="compound">DocHtmlCell</ref> *</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/rtfdocvisitor.h" line="97" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/rtfdocvisitor.cpp" bodystart="1087" bodyend="1093"/>
+      </memberdef>
+      <memberdef kind="function" id="d1/d4b/class_r_t_f_doc_visitor_1a109ff5483ac6c005143442bdd4fc9404" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void RTFDocVisitor::visitPre</definition>
+        <argsstring>(DocInternal *)</argsstring>
+        <name>visitPre</name>
+        <reimplements refid="d0/d78/class_doc_visitor_1a1f02d37635148eaa50ca604413b2b473">visitPre</reimplements>
+        <param>
+          <type><ref refid="db/d6d/class_doc_internal" kindref="compound">DocInternal</ref> *</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/rtfdocvisitor.h" line="98" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/rtfdocvisitor.cpp" bodystart="1095" bodyend="1107"/>
+      </memberdef>
+      <memberdef kind="function" id="d1/d4b/class_r_t_f_doc_visitor_1ab93d234a9fc677469fefd32f3882a51b" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void RTFDocVisitor::visitPost</definition>
+        <argsstring>(DocInternal *)</argsstring>
+        <name>visitPost</name>
+        <reimplements refid="d0/d78/class_doc_visitor_1ae1078286760f256a6b1423048ab4efe0">visitPost</reimplements>
+        <param>
+          <type><ref refid="db/d6d/class_doc_internal" kindref="compound">DocInternal</ref> *</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/rtfdocvisitor.h" line="99" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/rtfdocvisitor.cpp" bodystart="1109" bodyend="1117"/>
+      </memberdef>
+      <memberdef kind="function" id="d1/d4b/class_r_t_f_doc_visitor_1ab75464df6990d98abc270b9ac5a1dbf2" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void RTFDocVisitor::visitPre</definition>
+        <argsstring>(DocHRef *)</argsstring>
+        <name>visitPre</name>
+        <reimplements refid="d0/d78/class_doc_visitor_1a98077b191b4d115565261f4077319f17">visitPre</reimplements>
+        <param>
+          <type><ref refid="d9/d10/class_doc_h_ref" kindref="compound">DocHRef</ref> *</type>
+          <defname>href</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/rtfdocvisitor.h" line="100" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/rtfdocvisitor.cpp" bodystart="1119" bodyend="1139"/>
+      </memberdef>
+      <memberdef kind="function" id="d1/d4b/class_r_t_f_doc_visitor_1a6d273333f4662958d2e1a4b5f8fa973d" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void RTFDocVisitor::visitPost</definition>
+        <argsstring>(DocHRef *)</argsstring>
+        <name>visitPost</name>
+        <reimplements refid="d0/d78/class_doc_visitor_1ae8652f7fe31aa1f870b178326dbd4dfd">visitPost</reimplements>
+        <param>
+          <type><ref refid="d9/d10/class_doc_h_ref" kindref="compound">DocHRef</ref> *</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/rtfdocvisitor.h" line="101" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/rtfdocvisitor.cpp" bodystart="1141" bodyend="1156"/>
+      </memberdef>
+      <memberdef kind="function" id="d1/d4b/class_r_t_f_doc_visitor_1a26c37e2ce99ad46525e5bdfd2a5ef75d" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void RTFDocVisitor::visitPre</definition>
+        <argsstring>(DocHtmlHeader *)</argsstring>
+        <name>visitPre</name>
+        <reimplements refid="d0/d78/class_doc_visitor_1a7b89efb508cdf43eac73cab93a31e981">visitPre</reimplements>
+        <param>
+          <type><ref refid="df/d24/class_doc_html_header" kindref="compound">DocHtmlHeader</ref> *</type>
+          <defname>header</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/rtfdocvisitor.h" line="102" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/rtfdocvisitor.cpp" bodystart="1158" bodyend="1173"/>
+      </memberdef>
+      <memberdef kind="function" id="d1/d4b/class_r_t_f_doc_visitor_1aca6178b87763c465feaa2aa54cbf0195" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void RTFDocVisitor::visitPost</definition>
+        <argsstring>(DocHtmlHeader *)</argsstring>
+        <name>visitPost</name>
+        <reimplements refid="d0/d78/class_doc_visitor_1a2b5ea9275e789307ba60a9f140f4d24a">visitPost</reimplements>
+        <param>
+          <type><ref refid="df/d24/class_doc_html_header" kindref="compound">DocHtmlHeader</ref> *</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/rtfdocvisitor.h" line="103" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/rtfdocvisitor.cpp" bodystart="1175" bodyend="1182"/>
+      </memberdef>
+      <memberdef kind="function" id="d1/d4b/class_r_t_f_doc_visitor_1a0c02fafee2f0b5610201b718d3629318" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void RTFDocVisitor::visitPre</definition>
+        <argsstring>(DocImage *)</argsstring>
+        <name>visitPre</name>
+        <reimplements refid="d0/d78/class_doc_visitor_1a92215b3643f949cb8afa3c8a052696ba">visitPre</reimplements>
+        <param>
+          <type><ref refid="db/dc8/class_doc_image" kindref="compound">DocImage</ref> *</type>
+          <defname>img</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/rtfdocvisitor.h" line="104" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/rtfdocvisitor.cpp" bodystart="1184" bodyend="1204"/>
+      </memberdef>
+      <memberdef kind="function" id="d1/d4b/class_r_t_f_doc_visitor_1a8a58ed5b56bcfaa2c84edf43faa1b634" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void RTFDocVisitor::visitPost</definition>
+        <argsstring>(DocImage *)</argsstring>
+        <name>visitPost</name>
+        <reimplements refid="d0/d78/class_doc_visitor_1aeb44708901d64a8399d2d4ae694b36fb">visitPost</reimplements>
+        <param>
+          <type><ref refid="db/dc8/class_doc_image" kindref="compound">DocImage</ref> *</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/rtfdocvisitor.h" line="105" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/rtfdocvisitor.cpp" bodystart="1206" bodyend="1210"/>
+      </memberdef>
+      <memberdef kind="function" id="d1/d4b/class_r_t_f_doc_visitor_1a4edf604bb8020f1f2b56ab3f0fe87ade" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void RTFDocVisitor::visitPre</definition>
+        <argsstring>(DocDotFile *)</argsstring>
+        <name>visitPre</name>
+        <reimplements refid="d0/d78/class_doc_visitor_1aea8fe773544d038a30989c416d507ccf">visitPre</reimplements>
+        <param>
+          <type><ref refid="df/d37/class_doc_dot_file" kindref="compound">DocDotFile</ref> *</type>
+          <defname>df</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/rtfdocvisitor.h" line="106" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/rtfdocvisitor.cpp" bodystart="1212" bodyend="1220"/>
+      </memberdef>
+      <memberdef kind="function" id="d1/d4b/class_r_t_f_doc_visitor_1a80e7537afb351b5a6f100b57dd74c43f" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void RTFDocVisitor::visitPost</definition>
+        <argsstring>(DocDotFile *)</argsstring>
+        <name>visitPost</name>
+        <reimplements refid="d0/d78/class_doc_visitor_1af6c25aa497869c540a03576f2bc69c6f">visitPost</reimplements>
+        <param>
+          <type><ref refid="df/d37/class_doc_dot_file" kindref="compound">DocDotFile</ref> *</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/rtfdocvisitor.h" line="107" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/rtfdocvisitor.cpp" bodystart="1222" bodyend="1226"/>
+      </memberdef>
+      <memberdef kind="function" id="d1/d4b/class_r_t_f_doc_visitor_1a7e32f7a09ad8e8ee05e153b760f402ec" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void RTFDocVisitor::visitPre</definition>
+        <argsstring>(DocMscFile *)</argsstring>
+        <name>visitPre</name>
+        <reimplements refid="d0/d78/class_doc_visitor_1ab670b96996bca180a50ca0b8049afb74">visitPre</reimplements>
+        <param>
+          <type><ref refid="d3/d7d/class_doc_msc_file" kindref="compound">DocMscFile</ref> *</type>
+          <defname>df</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/rtfdocvisitor.h" line="108" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/rtfdocvisitor.cpp" bodystart="1227" bodyend="1235"/>
+      </memberdef>
+      <memberdef kind="function" id="d1/d4b/class_r_t_f_doc_visitor_1a34a34c4fe4400d1970395520998cc38a" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void RTFDocVisitor::visitPost</definition>
+        <argsstring>(DocMscFile *)</argsstring>
+        <name>visitPost</name>
+        <reimplements refid="d0/d78/class_doc_visitor_1af0ee053f7a73bee4279dbb0ef904091b">visitPost</reimplements>
+        <param>
+          <type><ref refid="d3/d7d/class_doc_msc_file" kindref="compound">DocMscFile</ref> *</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/rtfdocvisitor.h" line="109" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/rtfdocvisitor.cpp" bodystart="1237" bodyend="1241"/>
+      </memberdef>
+      <memberdef kind="function" id="d1/d4b/class_r_t_f_doc_visitor_1a49ac2e4a437735a26ae7893a7025fa4f" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void RTFDocVisitor::visitPre</definition>
+        <argsstring>(DocLink *)</argsstring>
+        <name>visitPre</name>
+        <reimplements refid="d0/d78/class_doc_visitor_1a17ed8049abe49ff3fe15be4a3767492c">visitPre</reimplements>
+        <param>
+          <type><ref refid="d5/dd3/class_doc_link" kindref="compound">DocLink</ref> *</type>
+          <defname>lnk</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/rtfdocvisitor.h" line="110" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/rtfdocvisitor.cpp" bodystart="1243" bodyend="1248"/>
+      </memberdef>
+      <memberdef kind="function" id="d1/d4b/class_r_t_f_doc_visitor_1af29d43e966004f232bf215a5a4f5327f" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void RTFDocVisitor::visitPost</definition>
+        <argsstring>(DocLink *)</argsstring>
+        <name>visitPost</name>
+        <reimplements refid="d0/d78/class_doc_visitor_1aa061673a2f6a5800460de7ee1939fd26">visitPost</reimplements>
+        <param>
+          <type><ref refid="d5/dd3/class_doc_link" kindref="compound">DocLink</ref> *</type>
+          <defname>lnk</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/rtfdocvisitor.h" line="111" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/rtfdocvisitor.cpp" bodystart="1250" bodyend="1255"/>
+      </memberdef>
+      <memberdef kind="function" id="d1/d4b/class_r_t_f_doc_visitor_1a84cba806c1dd1311182eb6e995349731" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void RTFDocVisitor::visitPre</definition>
+        <argsstring>(DocRef *ref)</argsstring>
+        <name>visitPre</name>
+        <reimplements refid="d0/d78/class_doc_visitor_1a60cd2b69d01085d2390f5cd5353346e8">visitPre</reimplements>
+        <param>
+          <type><ref refid="d5/d68/class_doc_ref" kindref="compound">DocRef</ref> *</type>
+          <declname>ref</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/rtfdocvisitor.h" line="112" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/rtfdocvisitor.cpp" bodystart="1257" bodyend="1272"/>
+      </memberdef>
+      <memberdef kind="function" id="d1/d4b/class_r_t_f_doc_visitor_1aae5aa2e028f7f9c2495ea210729a9f12" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void RTFDocVisitor::visitPost</definition>
+        <argsstring>(DocRef *)</argsstring>
+        <name>visitPost</name>
+        <reimplements refid="d0/d78/class_doc_visitor_1a94dc480549e1cba2cdbb6185fb0415e3">visitPost</reimplements>
+        <param>
+          <type><ref refid="d5/d68/class_doc_ref" kindref="compound">DocRef</ref> *</type>
+          <defname>ref</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/rtfdocvisitor.h" line="113" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/rtfdocvisitor.cpp" bodystart="1274" bodyend="1280"/>
+      </memberdef>
+      <memberdef kind="function" id="d1/d4b/class_r_t_f_doc_visitor_1a2898034f0854e3793a036e04e4074d00" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void RTFDocVisitor::visitPre</definition>
+        <argsstring>(DocSecRefItem *)</argsstring>
+        <name>visitPre</name>
+        <reimplements refid="d0/d78/class_doc_visitor_1a7c8e4f5703c35adb516e9061fa7d79fc">visitPre</reimplements>
+        <param>
+          <type><ref refid="de/d87/class_doc_sec_ref_item" kindref="compound">DocSecRefItem</ref> *</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/rtfdocvisitor.h" line="114" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/rtfdocvisitor.cpp" bodystart="1283" bodyend="1286"/>
+      </memberdef>
+      <memberdef kind="function" id="d1/d4b/class_r_t_f_doc_visitor_1a29936bdbef4780beb57bfcd34fde953e" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void RTFDocVisitor::visitPost</definition>
+        <argsstring>(DocSecRefItem *)</argsstring>
+        <name>visitPost</name>
+        <reimplements refid="d0/d78/class_doc_visitor_1ac84c8321aebb6766504bd7edc42bbb2f">visitPost</reimplements>
+        <param>
+          <type><ref refid="de/d87/class_doc_sec_ref_item" kindref="compound">DocSecRefItem</ref> *</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/rtfdocvisitor.h" line="115" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/rtfdocvisitor.cpp" bodystart="1288" bodyend="1291"/>
+      </memberdef>
+      <memberdef kind="function" id="d1/d4b/class_r_t_f_doc_visitor_1a8c4e9007466e8b6cb49bb773d61e9d13" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void RTFDocVisitor::visitPre</definition>
+        <argsstring>(DocSecRefList *)</argsstring>
+        <name>visitPre</name>
+        <reimplements refid="d0/d78/class_doc_visitor_1a3a65706be79641bbe4814420eaa75d94">visitPre</reimplements>
+        <param>
+          <type><ref refid="d3/ddb/class_doc_sec_ref_list" kindref="compound">DocSecRefList</ref> *</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/rtfdocvisitor.h" line="116" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/rtfdocvisitor.cpp" bodystart="1293" bodyend="1302"/>
+      </memberdef>
+      <memberdef kind="function" id="d1/d4b/class_r_t_f_doc_visitor_1add125d0b44e7124059e8a2b90aea4703" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void RTFDocVisitor::visitPost</definition>
+        <argsstring>(DocSecRefList *)</argsstring>
+        <name>visitPost</name>
+        <reimplements refid="d0/d78/class_doc_visitor_1a9044bae893e45b52b19580b2a28e559c">visitPost</reimplements>
+        <param>
+          <type><ref refid="d3/ddb/class_doc_sec_ref_list" kindref="compound">DocSecRefList</ref> *</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/rtfdocvisitor.h" line="117" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/rtfdocvisitor.cpp" bodystart="1304" bodyend="1312"/>
+      </memberdef>
+      <memberdef kind="function" id="d1/d4b/class_r_t_f_doc_visitor_1a4306bf8170d88d375b27fdda843afa38" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void RTFDocVisitor::visitPre</definition>
+        <argsstring>(DocParamSect *)</argsstring>
+        <name>visitPre</name>
+        <reimplements refid="d0/d78/class_doc_visitor_1aa6d880a9d15c8616fe9b8f7925faef89">visitPre</reimplements>
+        <param>
+          <type><ref refid="d1/d01/class_doc_param_sect" kindref="compound">DocParamSect</ref> *</type>
+          <defname>s</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/rtfdocvisitor.h" line="118" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/rtfdocvisitor.cpp" bodystart="1335" bodyend="1372"/>
+      </memberdef>
+      <memberdef kind="function" id="d1/d4b/class_r_t_f_doc_visitor_1a1346482362efde03262d6c4d5977bd09" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void RTFDocVisitor::visitPost</definition>
+        <argsstring>(DocParamSect *)</argsstring>
+        <name>visitPost</name>
+        <reimplements refid="d0/d78/class_doc_visitor_1a99c29894be00f3b556ba1e6bf6088768">visitPost</reimplements>
+        <param>
+          <type><ref refid="d1/d01/class_doc_param_sect" kindref="compound">DocParamSect</ref> *</type>
+          <defname>s</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/rtfdocvisitor.h" line="119" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/rtfdocvisitor.cpp" bodystart="1374" bodyend="1388"/>
+      </memberdef>
+      <memberdef kind="function" id="d1/d4b/class_r_t_f_doc_visitor_1abf39296db915807caab4389f595b78b2" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void RTFDocVisitor::visitPre</definition>
+        <argsstring>(DocParamList *)</argsstring>
+        <name>visitPre</name>
+        <reimplements refid="d0/d78/class_doc_visitor_1ace499f22ad300ce1313f858a591d53ee">visitPre</reimplements>
+        <param>
+          <type><ref refid="d9/d8d/class_doc_param_list" kindref="compound">DocParamList</ref> *</type>
+          <defname>pl</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/rtfdocvisitor.h" line="120" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/rtfdocvisitor.cpp" bodystart="1390" bodyend="1525"/>
+      </memberdef>
+      <memberdef kind="function" id="d1/d4b/class_r_t_f_doc_visitor_1a905b5bed77ee7df43c3f653ae166c3cb" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void RTFDocVisitor::visitPost</definition>
+        <argsstring>(DocParamList *)</argsstring>
+        <name>visitPost</name>
+        <reimplements refid="d0/d78/class_doc_visitor_1a957c7b7854102aed146f3af8d75bb117">visitPost</reimplements>
+        <param>
+          <type><ref refid="d9/d8d/class_doc_param_list" kindref="compound">DocParamList</ref> *</type>
+          <defname>pl</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/rtfdocvisitor.h" line="121" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/rtfdocvisitor.cpp" bodystart="1527" bodyend="1555"/>
+      </memberdef>
+      <memberdef kind="function" id="d1/d4b/class_r_t_f_doc_visitor_1a9629c09a2752dcfe724740317ca7651c" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void RTFDocVisitor::visitPre</definition>
+        <argsstring>(DocXRefItem *)</argsstring>
+        <name>visitPre</name>
+        <reimplements refid="d0/d78/class_doc_visitor_1ae3054c66ebab48aa4fef883fdb6712a1">visitPre</reimplements>
+        <param>
+          <type><ref refid="d0/d90/class_doc_x_ref_item" kindref="compound">DocXRefItem</ref> *</type>
+          <defname>x</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/rtfdocvisitor.h" line="122" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/rtfdocvisitor.cpp" bodystart="1557" bodyend="1603"/>
+      </memberdef>
+      <memberdef kind="function" id="d1/d4b/class_r_t_f_doc_visitor_1acf2b25a9d1855aab61af12217c51ac05" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void RTFDocVisitor::visitPost</definition>
+        <argsstring>(DocXRefItem *)</argsstring>
+        <name>visitPost</name>
+        <reimplements refid="d0/d78/class_doc_visitor_1af1c08e371fec0b927fa23c0ebd64cd20">visitPost</reimplements>
+        <param>
+          <type><ref refid="d0/d90/class_doc_x_ref_item" kindref="compound">DocXRefItem</ref> *</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/rtfdocvisitor.h" line="123" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/rtfdocvisitor.cpp" bodystart="1605" bodyend="1613"/>
+      </memberdef>
+      <memberdef kind="function" id="d1/d4b/class_r_t_f_doc_visitor_1a4f3e17f860e844bd7e28b14a918e4ab1" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void RTFDocVisitor::visitPre</definition>
+        <argsstring>(DocInternalRef *)</argsstring>
+        <name>visitPre</name>
+        <reimplements refid="d0/d78/class_doc_visitor_1a23526fe607d116ecdf0b3b6786d88754">visitPre</reimplements>
+        <param>
+          <type><ref refid="da/da2/class_doc_internal_ref" kindref="compound">DocInternalRef</ref> *</type>
+          <defname>ref</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/rtfdocvisitor.h" line="124" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/rtfdocvisitor.cpp" bodystart="1615" bodyend="1620"/>
+      </memberdef>
+      <memberdef kind="function" id="d1/d4b/class_r_t_f_doc_visitor_1a13364c204ec2e54d31a59ffe017179c4" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void RTFDocVisitor::visitPost</definition>
+        <argsstring>(DocInternalRef *)</argsstring>
+        <name>visitPost</name>
+        <reimplements refid="d0/d78/class_doc_visitor_1a6327b76bf49466890f8be949dbf38c9e">visitPost</reimplements>
+        <param>
+          <type><ref refid="da/da2/class_doc_internal_ref" kindref="compound">DocInternalRef</ref> *</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/rtfdocvisitor.h" line="125" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/rtfdocvisitor.cpp" bodystart="1622" bodyend="1628"/>
+      </memberdef>
+      <memberdef kind="function" id="d1/d4b/class_r_t_f_doc_visitor_1a5f6cffef9367a2f06be9ae04b5058d47" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void RTFDocVisitor::visitPre</definition>
+        <argsstring>(DocCopy *)</argsstring>
+        <name>visitPre</name>
+        <reimplements refid="d0/d78/class_doc_visitor_1ae87294d2b9ebc20a211500e5fa354815">visitPre</reimplements>
+        <param>
+          <type><ref refid="da/d97/class_doc_copy" kindref="compound">DocCopy</ref> *</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/rtfdocvisitor.h" line="126" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/rtfdocvisitor.cpp" bodystart="1630" bodyend="1634"/>
+      </memberdef>
+      <memberdef kind="function" id="d1/d4b/class_r_t_f_doc_visitor_1aacb595ea274656fb2911c959a5c8c4f0" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void RTFDocVisitor::visitPost</definition>
+        <argsstring>(DocCopy *)</argsstring>
+        <name>visitPost</name>
+        <reimplements refid="d0/d78/class_doc_visitor_1a345ac27dcfdd6629b0197aed47cc35f5">visitPost</reimplements>
+        <param>
+          <type><ref refid="da/d97/class_doc_copy" kindref="compound">DocCopy</ref> *</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/rtfdocvisitor.h" line="127" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/rtfdocvisitor.cpp" bodystart="1636" bodyend="1640"/>
+      </memberdef>
+      <memberdef kind="function" id="d1/d4b/class_r_t_f_doc_visitor_1a373f9aec0d69fea3978e6b229bff4a5d" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void RTFDocVisitor::visitPre</definition>
+        <argsstring>(DocText *)</argsstring>
+        <name>visitPre</name>
+        <reimplements refid="d0/d78/class_doc_visitor_1ac80ffc5a1c2a5d4e83e9583d5b46fba5">visitPre</reimplements>
+        <param>
+          <type><ref refid="d0/d87/class_doc_text" kindref="compound">DocText</ref> *</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/rtfdocvisitor.h" line="128" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/rtfdocvisitor.cpp" bodystart="1642" bodyend="1646"/>
+      </memberdef>
+      <memberdef kind="function" id="d1/d4b/class_r_t_f_doc_visitor_1aa2e46477bcc121a8065ad226bbc19c85" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void RTFDocVisitor::visitPost</definition>
+        <argsstring>(DocText *)</argsstring>
+        <name>visitPost</name>
+        <reimplements refid="d0/d78/class_doc_visitor_1ae8d32bfb6aedfcd8145075762fc1818a">visitPost</reimplements>
+        <param>
+          <type><ref refid="d0/d87/class_doc_text" kindref="compound">DocText</ref> *</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/rtfdocvisitor.h" line="129" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/rtfdocvisitor.cpp" bodystart="1648" bodyend="1652"/>
+      </memberdef>
+      <memberdef kind="function" id="d1/d4b/class_r_t_f_doc_visitor_1a79a569f9712e30ae63586674fd21003a" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void RTFDocVisitor::visitPre</definition>
+        <argsstring>(DocHtmlBlockQuote *)</argsstring>
+        <name>visitPre</name>
+        <reimplements refid="d0/d78/class_doc_visitor_1ae815fab40efb7e03356009ec05f4c8e0">visitPre</reimplements>
+        <param>
+          <type><ref refid="d9/dd3/class_doc_html_block_quote" kindref="compound">DocHtmlBlockQuote</ref> *</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/rtfdocvisitor.h" line="130" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/rtfdocvisitor.cpp" bodystart="1654" bodyend="1662"/>
+      </memberdef>
+      <memberdef kind="function" id="d1/d4b/class_r_t_f_doc_visitor_1a23c4664a66b3ef5ace0b561c51d393de" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void RTFDocVisitor::visitPost</definition>
+        <argsstring>(DocHtmlBlockQuote *)</argsstring>
+        <name>visitPost</name>
+        <reimplements refid="d0/d78/class_doc_visitor_1a3057cb11ccd5ad3a108049a27c51ce94">visitPost</reimplements>
+        <param>
+          <type><ref refid="d9/dd3/class_doc_html_block_quote" kindref="compound">DocHtmlBlockQuote</ref> *</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/rtfdocvisitor.h" line="131" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/rtfdocvisitor.cpp" bodystart="1664" bodyend="1672"/>
+      </memberdef>
+      <memberdef kind="function" id="d1/d4b/class_r_t_f_doc_visitor_1a808d7abb48ec87e6626ed071a292e248" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void RTFDocVisitor::visitPre</definition>
+        <argsstring>(DocVhdlFlow *)</argsstring>
+        <name>visitPre</name>
+        <reimplements refid="d0/d78/class_doc_visitor_1a2799c24ae52e00acca96bc5484b96c85">visitPre</reimplements>
+        <param>
+          <type><ref refid="d0/d89/class_doc_vhdl_flow" kindref="compound">DocVhdlFlow</ref> *</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/rtfdocvisitor.h" line="132" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/rtfdocvisitor.cpp" bodystart="1674" bodyend="1677"/>
+      </memberdef>
+      <memberdef kind="function" id="d1/d4b/class_r_t_f_doc_visitor_1a600cf4c9635d8233f4a1cf887ecb5629" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void RTFDocVisitor::visitPost</definition>
+        <argsstring>(DocVhdlFlow *)</argsstring>
+        <name>visitPost</name>
+        <reimplements refid="d0/d78/class_doc_visitor_1a201c6a9e58c9edbd48867c861cdb13d1">visitPost</reimplements>
+        <param>
+          <type><ref refid="d0/d89/class_doc_vhdl_flow" kindref="compound">DocVhdlFlow</ref> *</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/rtfdocvisitor.h" line="133" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/rtfdocvisitor.cpp" bodystart="1679" bodyend="1682"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="d1/d4b/class_r_t_f_doc_visitor_1a1436de248709210aecae009964414618" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void RTFDocVisitor::filter</definition>
+        <argsstring>(const char *str, bool verbatim=FALSE)</argsstring>
+        <name>filter</name>
+        <param>
+          <type>const char *</type>
+          <declname>str</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>verbatim</declname>
+          <defval>FALSE</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/rtfdocvisitor.h" line="141" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/rtfdocvisitor.cpp" bodystart="1692" bodyend="1736"/>
+      </memberdef>
+      <memberdef kind="function" id="d1/d4b/class_r_t_f_doc_visitor_1a02328f0a76dfca6a9e0d24167905289e" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void RTFDocVisitor::startLink</definition>
+        <argsstring>(const QCString &amp;ref, const QCString &amp;file, const QCString &amp;anchor)</argsstring>
+        <name>startLink</name>
+        <param>
+          <type>const QCString &amp;</type>
+          <declname>ref</declname>
+        </param>
+        <param>
+          <type>const QCString &amp;</type>
+          <declname>file</declname>
+        </param>
+        <param>
+          <type>const QCString &amp;</type>
+          <declname>anchor</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/rtfdocvisitor.h" line="143" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/rtfdocvisitor.cpp" bodystart="1738" bodyend="1766"/>
+      </memberdef>
+      <memberdef kind="function" id="d1/d4b/class_r_t_f_doc_visitor_1adc9cf36e3e61b81df2b0ada024366806" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void RTFDocVisitor::endLink</definition>
+        <argsstring>(const QCString &amp;ref)</argsstring>
+        <name>endLink</name>
+        <param>
+          <type>const QCString &amp;</type>
+          <declname>ref</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/rtfdocvisitor.h" line="144" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/rtfdocvisitor.cpp" bodystart="1768" bodyend="1779"/>
+      </memberdef>
+      <memberdef kind="function" id="d1/d4b/class_r_t_f_doc_visitor_1a4345c311acd2619c0f1e5b9bcbd18231" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>QCString</type>
+        <definition>QCString RTFDocVisitor::getStyle</definition>
+        <argsstring>(const char *name)</argsstring>
+        <name>getStyle</name>
+        <param>
+          <type>const char *</type>
+          <declname>name</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/rtfdocvisitor.h" line="145" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/rtfdocvisitor.cpp" bodystart="63" bodyend="70"/>
+      </memberdef>
+      <memberdef kind="function" id="d1/d4b/class_r_t_f_doc_visitor_1a346f4b14ce5276df49857a01b0c501c8" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void RTFDocVisitor::incIndentLevel</definition>
+        <argsstring>()</argsstring>
+        <name>incIndentLevel</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/rtfdocvisitor.h" line="146" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/rtfdocvisitor.cpp" bodystart="72" bodyend="75"/>
+      </memberdef>
+      <memberdef kind="function" id="d1/d4b/class_r_t_f_doc_visitor_1a7a1c80a721716cb64c2a82e80cbff047" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void RTFDocVisitor::decIndentLevel</definition>
+        <argsstring>()</argsstring>
+        <name>decIndentLevel</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/rtfdocvisitor.h" line="147" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/rtfdocvisitor.cpp" bodystart="77" bodyend="80"/>
+      </memberdef>
+      <memberdef kind="function" id="d1/d4b/class_r_t_f_doc_visitor_1a707dd7e19c8617e73a0b0d4f8ce0c8aa" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void RTFDocVisitor::pushEnabled</definition>
+        <argsstring>()</argsstring>
+        <name>pushEnabled</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/rtfdocvisitor.h" line="149" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/rtfdocvisitor.cpp" bodystart="1781" bodyend="1784"/>
+      </memberdef>
+      <memberdef kind="function" id="d1/d4b/class_r_t_f_doc_visitor_1a5845c682f32b376640c12ad88fad79df" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void RTFDocVisitor::popEnabled</definition>
+        <argsstring>()</argsstring>
+        <name>popEnabled</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/rtfdocvisitor.h" line="150" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/rtfdocvisitor.cpp" bodystart="1786" bodyend="1792"/>
+      </memberdef>
+      <memberdef kind="function" id="d1/d4b/class_r_t_f_doc_visitor_1a3a918c943b34b417cef5dc41cac0eb84" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void RTFDocVisitor::writeDotFile</definition>
+        <argsstring>(const QCString &amp;fileName)</argsstring>
+        <name>writeDotFile</name>
+        <param>
+          <type>const QCString &amp;</type>
+          <declname>fileName</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/rtfdocvisitor.h" line="151" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/rtfdocvisitor.cpp" bodystart="1794" bodyend="1812"/>
+      </memberdef>
+      <memberdef kind="function" id="d1/d4b/class_r_t_f_doc_visitor_1af1b73dac3186eeac40a11d73639d0a55" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void RTFDocVisitor::writeMscFile</definition>
+        <argsstring>(const QCString &amp;fileName)</argsstring>
+        <name>writeMscFile</name>
+        <param>
+          <type>const QCString &amp;</type>
+          <declname>fileName</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/rtfdocvisitor.h" line="152" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/rtfdocvisitor.cpp" bodystart="1814" bodyend="1832"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Concrete visitor implementation for RTF output. </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="4008">
+        <label>RTFDocVisitor</label>
+        <link refid="d1/d4b/class_r_t_f_doc_visitor"/>
+        <childnode refid="4009" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4009">
+        <label>DocVisitor</label>
+        <link refid="d0/d78/class_doc_visitor"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="4010">
+        <label>RTFDocVisitor</label>
+        <link refid="d1/d4b/class_r_t_f_doc_visitor"/>
+        <childnode refid="4011" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4011">
+        <label>DocVisitor</label>
+        <link refid="d0/d78/class_doc_visitor"/>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/rtfdocvisitor.h" line="31" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/rtfdocvisitor.h" bodystart="30" bodyend="166"/>
+    <listofallmembers>
+      <member refid="d1/d4b/class_r_t_f_doc_visitor_1a7a1c80a721716cb64c2a82e80cbff047" prot="private" virt="non-virtual"><scope>RTFDocVisitor</scope><name>decIndentLevel</name></member>
+      <member refid="d0/d78/class_doc_visitor_1a24962a0406b1d05920458f3d7d4fda8a" prot="public" virt="non-virtual"><scope>RTFDocVisitor</scope><name>DocVisitor</name></member>
+      <member refid="d1/d4b/class_r_t_f_doc_visitor_1adc9cf36e3e61b81df2b0ada024366806" prot="private" virt="non-virtual"><scope>RTFDocVisitor</scope><name>endLink</name></member>
+      <member refid="d1/d4b/class_r_t_f_doc_visitor_1a1436de248709210aecae009964414618" prot="private" virt="non-virtual"><scope>RTFDocVisitor</scope><name>filter</name></member>
+      <member refid="d1/d4b/class_r_t_f_doc_visitor_1a4345c311acd2619c0f1e5b9bcbd18231" prot="private" virt="non-virtual"><scope>RTFDocVisitor</scope><name>getStyle</name></member>
+      <member refid="d0/d78/class_doc_visitor_1a816cd6ab12305a4f34a06056fc923de1" prot="public" virt="non-virtual"><scope>RTFDocVisitor</scope><name>id</name></member>
+      <member refid="d1/d4b/class_r_t_f_doc_visitor_1a346f4b14ce5276df49857a01b0c501c8" prot="private" virt="non-virtual"><scope>RTFDocVisitor</scope><name>incIndentLevel</name></member>
+      <member refid="d1/d4b/class_r_t_f_doc_visitor_1a78696e7eec55784e6c18e72b78515aa1" prot="private" virt="non-virtual"><scope>RTFDocVisitor</scope><name>m_ci</name></member>
+      <member refid="d1/d4b/class_r_t_f_doc_visitor_1aea711b3685dffda7eabe023427467f32" prot="private" virt="non-virtual"><scope>RTFDocVisitor</scope><name>m_enabled</name></member>
+      <member refid="d1/d4b/class_r_t_f_doc_visitor_1a8adcc63dc189a8e625ff27867dedbe25" prot="private" virt="non-virtual"><scope>RTFDocVisitor</scope><name>m_hide</name></member>
+      <member refid="d1/d4b/class_r_t_f_doc_visitor_1a7750d512b4ea14d7547669387849d45b" prot="private" virt="non-virtual"><scope>RTFDocVisitor</scope><name>m_indentLevel</name></member>
+      <member refid="d1/d4b/class_r_t_f_doc_visitor_1a5aa7831854cde6046dc35731447cd982" prot="private" virt="non-virtual"><scope>RTFDocVisitor</scope><name>m_insidePre</name></member>
+      <member refid="d1/d4b/class_r_t_f_doc_visitor_1a303074f18eaca30ccd8faf73917255ad" prot="private" virt="non-virtual"><scope>RTFDocVisitor</scope><name>m_langExt</name></member>
+      <member refid="d1/d4b/class_r_t_f_doc_visitor_1a477396568e5d3d9fdba5e77538d6c373" prot="private" virt="non-virtual"><scope>RTFDocVisitor</scope><name>m_lastIsPara</name></member>
+      <member refid="d1/d4b/class_r_t_f_doc_visitor_1a92c1638f1e068254da87a913975972db" prot="private" virt="non-virtual"><scope>RTFDocVisitor</scope><name>m_t</name></member>
+      <member refid="d1/d4b/class_r_t_f_doc_visitor_1a5845c682f32b376640c12ad88fad79df" prot="private" virt="non-virtual"><scope>RTFDocVisitor</scope><name>popEnabled</name></member>
+      <member refid="d1/d4b/class_r_t_f_doc_visitor_1a707dd7e19c8617e73a0b0d4f8ce0c8aa" prot="private" virt="non-virtual"><scope>RTFDocVisitor</scope><name>pushEnabled</name></member>
+      <member refid="d1/d4b/class_r_t_f_doc_visitor_1ac948e2bbce6f318fd3cea2f3daacfc49" prot="public" virt="non-virtual"><scope>RTFDocVisitor</scope><name>RTFDocVisitor</name></member>
+      <member refid="d1/d4b/class_r_t_f_doc_visitor_1a02328f0a76dfca6a9e0d24167905289e" prot="private" virt="non-virtual"><scope>RTFDocVisitor</scope><name>startLink</name></member>
+      <member refid="d1/d4b/class_r_t_f_doc_visitor_1a9c5a705acc9d352e4666daa1701710cf" prot="public" virt="virtual"><scope>RTFDocVisitor</scope><name>visit</name></member>
+      <member refid="d1/d4b/class_r_t_f_doc_visitor_1a0adf23dfcfea19244e5096e4f978cb88" prot="public" virt="virtual"><scope>RTFDocVisitor</scope><name>visit</name></member>
+      <member refid="d1/d4b/class_r_t_f_doc_visitor_1a9cb724693e17eb256883a3cc567d100a" prot="public" virt="virtual"><scope>RTFDocVisitor</scope><name>visit</name></member>
+      <member refid="d1/d4b/class_r_t_f_doc_visitor_1ae63f62e03aac6c5cc021c1d8b0dad55a" prot="public" virt="virtual"><scope>RTFDocVisitor</scope><name>visit</name></member>
+      <member refid="d1/d4b/class_r_t_f_doc_visitor_1a74f4684bde67054a187306373c87d4c7" prot="public" virt="virtual"><scope>RTFDocVisitor</scope><name>visit</name></member>
+      <member refid="d1/d4b/class_r_t_f_doc_visitor_1ad17bfd3d4eeb330ec99dbf45dd9fb591" prot="public" virt="virtual"><scope>RTFDocVisitor</scope><name>visit</name></member>
+      <member refid="d1/d4b/class_r_t_f_doc_visitor_1a92444cc66d9306ed7bfbb93565b9a59e" prot="public" virt="virtual"><scope>RTFDocVisitor</scope><name>visit</name></member>
+      <member refid="d1/d4b/class_r_t_f_doc_visitor_1a3e793e86489ec3d9e1466a54ff48297e" prot="public" virt="virtual"><scope>RTFDocVisitor</scope><name>visit</name></member>
+      <member refid="d1/d4b/class_r_t_f_doc_visitor_1a545d7ef302ca89f8b9913f72e729ef62" prot="public" virt="virtual"><scope>RTFDocVisitor</scope><name>visit</name></member>
+      <member refid="d1/d4b/class_r_t_f_doc_visitor_1ada1cbdb2bc19cb08666e6510a2a4d210" prot="public" virt="virtual"><scope>RTFDocVisitor</scope><name>visit</name></member>
+      <member refid="d1/d4b/class_r_t_f_doc_visitor_1a23e239f3a115ac2eec1d3ecd218e7d65" prot="public" virt="virtual"><scope>RTFDocVisitor</scope><name>visit</name></member>
+      <member refid="d1/d4b/class_r_t_f_doc_visitor_1a825a7a241f7d62304c5654bedd1f2ee5" prot="public" virt="virtual"><scope>RTFDocVisitor</scope><name>visit</name></member>
+      <member refid="d1/d4b/class_r_t_f_doc_visitor_1a550feb44ded4f89d736b03706e364522" prot="public" virt="virtual"><scope>RTFDocVisitor</scope><name>visit</name></member>
+      <member refid="d1/d4b/class_r_t_f_doc_visitor_1a5766f24a92bbc900a30006c8d5944ad6" prot="public" virt="virtual"><scope>RTFDocVisitor</scope><name>visit</name></member>
+      <member refid="d1/d4b/class_r_t_f_doc_visitor_1a477c0f5e5449556d6446766da0cfdf3a" prot="public" virt="virtual"><scope>RTFDocVisitor</scope><name>visit</name></member>
+      <member refid="d1/d4b/class_r_t_f_doc_visitor_1a5d389837cc969f28d0e8ddc50e980141" prot="public" virt="virtual"><scope>RTFDocVisitor</scope><name>visit</name></member>
+      <member refid="d1/d4b/class_r_t_f_doc_visitor_1ae29ed191e7d8072b5201b0acb2f9cc73" prot="public" virt="virtual"><scope>RTFDocVisitor</scope><name>visitPost</name></member>
+      <member refid="d1/d4b/class_r_t_f_doc_visitor_1aeddf00be0881be0b8ec353d9d7f97029" prot="public" virt="virtual"><scope>RTFDocVisitor</scope><name>visitPost</name></member>
+      <member refid="d1/d4b/class_r_t_f_doc_visitor_1ab62332d0b8a7af89a7367c4bc6e5dc48" prot="public" virt="virtual"><scope>RTFDocVisitor</scope><name>visitPost</name></member>
+      <member refid="d1/d4b/class_r_t_f_doc_visitor_1ac25376fcadbcd63436858cf8336003c6" prot="public" virt="virtual"><scope>RTFDocVisitor</scope><name>visitPost</name></member>
+      <member refid="d1/d4b/class_r_t_f_doc_visitor_1a5002e89ce1b2b9f81d75abcfa3559f05" prot="public" virt="virtual"><scope>RTFDocVisitor</scope><name>visitPost</name></member>
+      <member refid="d1/d4b/class_r_t_f_doc_visitor_1a002eb11f47b3d6f6d39e3a07c4830d59" prot="public" virt="virtual"><scope>RTFDocVisitor</scope><name>visitPost</name></member>
+      <member refid="d1/d4b/class_r_t_f_doc_visitor_1a63956617e646076cf3b0b142c8839667" prot="public" virt="virtual"><scope>RTFDocVisitor</scope><name>visitPost</name></member>
+      <member refid="d1/d4b/class_r_t_f_doc_visitor_1af6aa95d64499fa406f47034d0621b7c4" prot="public" virt="virtual"><scope>RTFDocVisitor</scope><name>visitPost</name></member>
+      <member refid="d1/d4b/class_r_t_f_doc_visitor_1a81084f185a90bc23ec8417adefc5dde3" prot="public" virt="virtual"><scope>RTFDocVisitor</scope><name>visitPost</name></member>
+      <member refid="d1/d4b/class_r_t_f_doc_visitor_1aca04806ab7f0109814632cc3a36cf189" prot="public" virt="virtual"><scope>RTFDocVisitor</scope><name>visitPost</name></member>
+      <member refid="d1/d4b/class_r_t_f_doc_visitor_1aff757e2a9565894455a743d779948f1e" prot="public" virt="virtual"><scope>RTFDocVisitor</scope><name>visitPost</name></member>
+      <member refid="d1/d4b/class_r_t_f_doc_visitor_1a42085e74088a53c3e9647945c7fd4497" prot="public" virt="virtual"><scope>RTFDocVisitor</scope><name>visitPost</name></member>
+      <member refid="d1/d4b/class_r_t_f_doc_visitor_1aa5243e142778a2d9e030529f0055a92c" prot="public" virt="virtual"><scope>RTFDocVisitor</scope><name>visitPost</name></member>
+      <member refid="d1/d4b/class_r_t_f_doc_visitor_1a85aae62e4ec13c5930e98cdbef980111" prot="public" virt="virtual"><scope>RTFDocVisitor</scope><name>visitPost</name></member>
+      <member refid="d1/d4b/class_r_t_f_doc_visitor_1a3c9479379f924f2207424d9c24af612e" prot="public" virt="virtual"><scope>RTFDocVisitor</scope><name>visitPost</name></member>
+      <member refid="d1/d4b/class_r_t_f_doc_visitor_1ae739eab3ac070f10aece321c0ae7130b" prot="public" virt="virtual"><scope>RTFDocVisitor</scope><name>visitPost</name></member>
+      <member refid="d1/d4b/class_r_t_f_doc_visitor_1aee9bbcef97f064f178be7ff2c56278ea" prot="public" virt="virtual"><scope>RTFDocVisitor</scope><name>visitPost</name></member>
+      <member refid="d1/d4b/class_r_t_f_doc_visitor_1ab7b0dc5eec17d4445fc1fea39d24675c" prot="public" virt="virtual"><scope>RTFDocVisitor</scope><name>visitPost</name></member>
+      <member refid="d1/d4b/class_r_t_f_doc_visitor_1ab93d234a9fc677469fefd32f3882a51b" prot="public" virt="virtual"><scope>RTFDocVisitor</scope><name>visitPost</name></member>
+      <member refid="d1/d4b/class_r_t_f_doc_visitor_1a6d273333f4662958d2e1a4b5f8fa973d" prot="public" virt="virtual"><scope>RTFDocVisitor</scope><name>visitPost</name></member>
+      <member refid="d1/d4b/class_r_t_f_doc_visitor_1aca6178b87763c465feaa2aa54cbf0195" prot="public" virt="virtual"><scope>RTFDocVisitor</scope><name>visitPost</name></member>
+      <member refid="d1/d4b/class_r_t_f_doc_visitor_1a8a58ed5b56bcfaa2c84edf43faa1b634" prot="public" virt="virtual"><scope>RTFDocVisitor</scope><name>visitPost</name></member>
+      <member refid="d1/d4b/class_r_t_f_doc_visitor_1a80e7537afb351b5a6f100b57dd74c43f" prot="public" virt="virtual"><scope>RTFDocVisitor</scope><name>visitPost</name></member>
+      <member refid="d1/d4b/class_r_t_f_doc_visitor_1a34a34c4fe4400d1970395520998cc38a" prot="public" virt="virtual"><scope>RTFDocVisitor</scope><name>visitPost</name></member>
+      <member refid="d1/d4b/class_r_t_f_doc_visitor_1af29d43e966004f232bf215a5a4f5327f" prot="public" virt="virtual"><scope>RTFDocVisitor</scope><name>visitPost</name></member>
+      <member refid="d1/d4b/class_r_t_f_doc_visitor_1aae5aa2e028f7f9c2495ea210729a9f12" prot="public" virt="virtual"><scope>RTFDocVisitor</scope><name>visitPost</name></member>
+      <member refid="d1/d4b/class_r_t_f_doc_visitor_1a29936bdbef4780beb57bfcd34fde953e" prot="public" virt="virtual"><scope>RTFDocVisitor</scope><name>visitPost</name></member>
+      <member refid="d1/d4b/class_r_t_f_doc_visitor_1add125d0b44e7124059e8a2b90aea4703" prot="public" virt="virtual"><scope>RTFDocVisitor</scope><name>visitPost</name></member>
+      <member refid="d1/d4b/class_r_t_f_doc_visitor_1a1346482362efde03262d6c4d5977bd09" prot="public" virt="virtual"><scope>RTFDocVisitor</scope><name>visitPost</name></member>
+      <member refid="d1/d4b/class_r_t_f_doc_visitor_1a905b5bed77ee7df43c3f653ae166c3cb" prot="public" virt="virtual"><scope>RTFDocVisitor</scope><name>visitPost</name></member>
+      <member refid="d1/d4b/class_r_t_f_doc_visitor_1acf2b25a9d1855aab61af12217c51ac05" prot="public" virt="virtual"><scope>RTFDocVisitor</scope><name>visitPost</name></member>
+      <member refid="d1/d4b/class_r_t_f_doc_visitor_1a13364c204ec2e54d31a59ffe017179c4" prot="public" virt="virtual"><scope>RTFDocVisitor</scope><name>visitPost</name></member>
+      <member refid="d1/d4b/class_r_t_f_doc_visitor_1aacb595ea274656fb2911c959a5c8c4f0" prot="public" virt="virtual"><scope>RTFDocVisitor</scope><name>visitPost</name></member>
+      <member refid="d1/d4b/class_r_t_f_doc_visitor_1aa2e46477bcc121a8065ad226bbc19c85" prot="public" virt="virtual"><scope>RTFDocVisitor</scope><name>visitPost</name></member>
+      <member refid="d1/d4b/class_r_t_f_doc_visitor_1a23c4664a66b3ef5ace0b561c51d393de" prot="public" virt="virtual"><scope>RTFDocVisitor</scope><name>visitPost</name></member>
+      <member refid="d1/d4b/class_r_t_f_doc_visitor_1a600cf4c9635d8233f4a1cf887ecb5629" prot="public" virt="virtual"><scope>RTFDocVisitor</scope><name>visitPost</name></member>
+      <member refid="d1/d4b/class_r_t_f_doc_visitor_1a4b7d827c3a649ffc314d0aad7a02d22e" prot="public" virt="virtual"><scope>RTFDocVisitor</scope><name>visitPre</name></member>
+      <member refid="d1/d4b/class_r_t_f_doc_visitor_1a405fb7b4df1492242d0181391f74e20c" prot="public" virt="virtual"><scope>RTFDocVisitor</scope><name>visitPre</name></member>
+      <member refid="d1/d4b/class_r_t_f_doc_visitor_1acaba69544097b6d97f0543739ae52adf" prot="public" virt="virtual"><scope>RTFDocVisitor</scope><name>visitPre</name></member>
+      <member refid="d1/d4b/class_r_t_f_doc_visitor_1a1a421baef1f44592f9ade901ed1edda5" prot="public" virt="virtual"><scope>RTFDocVisitor</scope><name>visitPre</name></member>
+      <member refid="d1/d4b/class_r_t_f_doc_visitor_1ad6358b4c52f27bb9df17f6b2c1ca8753" prot="public" virt="virtual"><scope>RTFDocVisitor</scope><name>visitPre</name></member>
+      <member refid="d1/d4b/class_r_t_f_doc_visitor_1aa7e12b414409410057891ec6b74dcc8d" prot="public" virt="virtual"><scope>RTFDocVisitor</scope><name>visitPre</name></member>
+      <member refid="d1/d4b/class_r_t_f_doc_visitor_1abf71637000b917b0f6cebd5bb7fbfda5" prot="public" virt="virtual"><scope>RTFDocVisitor</scope><name>visitPre</name></member>
+      <member refid="d1/d4b/class_r_t_f_doc_visitor_1a9e59c37ab1dfe48f6aebd845a468845f" prot="public" virt="virtual"><scope>RTFDocVisitor</scope><name>visitPre</name></member>
+      <member refid="d1/d4b/class_r_t_f_doc_visitor_1a909d520efc8bad27cc8cb53f2b8abd1d" prot="public" virt="virtual"><scope>RTFDocVisitor</scope><name>visitPre</name></member>
+      <member refid="d1/d4b/class_r_t_f_doc_visitor_1ab3412df9b6bf6440162ac72cc4d3eb8b" prot="public" virt="virtual"><scope>RTFDocVisitor</scope><name>visitPre</name></member>
+      <member refid="d1/d4b/class_r_t_f_doc_visitor_1affb7ba0884003e8c8efb1a17e5d6a212" prot="public" virt="virtual"><scope>RTFDocVisitor</scope><name>visitPre</name></member>
+      <member refid="d1/d4b/class_r_t_f_doc_visitor_1a1e9f56a4e306699db7bae89b9234b385" prot="public" virt="virtual"><scope>RTFDocVisitor</scope><name>visitPre</name></member>
+      <member refid="d1/d4b/class_r_t_f_doc_visitor_1ab935202e1a7666c8e1c87d0913254aec" prot="public" virt="virtual"><scope>RTFDocVisitor</scope><name>visitPre</name></member>
+      <member refid="d1/d4b/class_r_t_f_doc_visitor_1aefe88f5e91d111b1bff6d3530c0fbf81" prot="public" virt="virtual"><scope>RTFDocVisitor</scope><name>visitPre</name></member>
+      <member refid="d1/d4b/class_r_t_f_doc_visitor_1ad46adef7c4e3d9d7bdd770f6624eeba0" prot="public" virt="virtual"><scope>RTFDocVisitor</scope><name>visitPre</name></member>
+      <member refid="d1/d4b/class_r_t_f_doc_visitor_1a40282a8fec3b47ab532e03b51b720929" prot="public" virt="virtual"><scope>RTFDocVisitor</scope><name>visitPre</name></member>
+      <member refid="d1/d4b/class_r_t_f_doc_visitor_1a204eb85434ec230c272f6454c0698eba" prot="public" virt="virtual"><scope>RTFDocVisitor</scope><name>visitPre</name></member>
+      <member refid="d1/d4b/class_r_t_f_doc_visitor_1a161b776da556acca213689098efff8ad" prot="public" virt="virtual"><scope>RTFDocVisitor</scope><name>visitPre</name></member>
+      <member refid="d1/d4b/class_r_t_f_doc_visitor_1a109ff5483ac6c005143442bdd4fc9404" prot="public" virt="virtual"><scope>RTFDocVisitor</scope><name>visitPre</name></member>
+      <member refid="d1/d4b/class_r_t_f_doc_visitor_1ab75464df6990d98abc270b9ac5a1dbf2" prot="public" virt="virtual"><scope>RTFDocVisitor</scope><name>visitPre</name></member>
+      <member refid="d1/d4b/class_r_t_f_doc_visitor_1a26c37e2ce99ad46525e5bdfd2a5ef75d" prot="public" virt="virtual"><scope>RTFDocVisitor</scope><name>visitPre</name></member>
+      <member refid="d1/d4b/class_r_t_f_doc_visitor_1a0c02fafee2f0b5610201b718d3629318" prot="public" virt="virtual"><scope>RTFDocVisitor</scope><name>visitPre</name></member>
+      <member refid="d1/d4b/class_r_t_f_doc_visitor_1a4edf604bb8020f1f2b56ab3f0fe87ade" prot="public" virt="virtual"><scope>RTFDocVisitor</scope><name>visitPre</name></member>
+      <member refid="d1/d4b/class_r_t_f_doc_visitor_1a7e32f7a09ad8e8ee05e153b760f402ec" prot="public" virt="virtual"><scope>RTFDocVisitor</scope><name>visitPre</name></member>
+      <member refid="d1/d4b/class_r_t_f_doc_visitor_1a49ac2e4a437735a26ae7893a7025fa4f" prot="public" virt="virtual"><scope>RTFDocVisitor</scope><name>visitPre</name></member>
+      <member refid="d1/d4b/class_r_t_f_doc_visitor_1a84cba806c1dd1311182eb6e995349731" prot="public" virt="virtual"><scope>RTFDocVisitor</scope><name>visitPre</name></member>
+      <member refid="d1/d4b/class_r_t_f_doc_visitor_1a2898034f0854e3793a036e04e4074d00" prot="public" virt="virtual"><scope>RTFDocVisitor</scope><name>visitPre</name></member>
+      <member refid="d1/d4b/class_r_t_f_doc_visitor_1a8c4e9007466e8b6cb49bb773d61e9d13" prot="public" virt="virtual"><scope>RTFDocVisitor</scope><name>visitPre</name></member>
+      <member refid="d1/d4b/class_r_t_f_doc_visitor_1a4306bf8170d88d375b27fdda843afa38" prot="public" virt="virtual"><scope>RTFDocVisitor</scope><name>visitPre</name></member>
+      <member refid="d1/d4b/class_r_t_f_doc_visitor_1abf39296db915807caab4389f595b78b2" prot="public" virt="virtual"><scope>RTFDocVisitor</scope><name>visitPre</name></member>
+      <member refid="d1/d4b/class_r_t_f_doc_visitor_1a9629c09a2752dcfe724740317ca7651c" prot="public" virt="virtual"><scope>RTFDocVisitor</scope><name>visitPre</name></member>
+      <member refid="d1/d4b/class_r_t_f_doc_visitor_1a4f3e17f860e844bd7e28b14a918e4ab1" prot="public" virt="virtual"><scope>RTFDocVisitor</scope><name>visitPre</name></member>
+      <member refid="d1/d4b/class_r_t_f_doc_visitor_1a5f6cffef9367a2f06be9ae04b5058d47" prot="public" virt="virtual"><scope>RTFDocVisitor</scope><name>visitPre</name></member>
+      <member refid="d1/d4b/class_r_t_f_doc_visitor_1a373f9aec0d69fea3978e6b229bff4a5d" prot="public" virt="virtual"><scope>RTFDocVisitor</scope><name>visitPre</name></member>
+      <member refid="d1/d4b/class_r_t_f_doc_visitor_1a79a569f9712e30ae63586674fd21003a" prot="public" virt="virtual"><scope>RTFDocVisitor</scope><name>visitPre</name></member>
+      <member refid="d1/d4b/class_r_t_f_doc_visitor_1a808d7abb48ec87e6626ed071a292e248" prot="public" virt="virtual"><scope>RTFDocVisitor</scope><name>visitPre</name></member>
+      <member refid="d1/d4b/class_r_t_f_doc_visitor_1a3a918c943b34b417cef5dc41cac0eb84" prot="private" virt="non-virtual"><scope>RTFDocVisitor</scope><name>writeDotFile</name></member>
+      <member refid="d1/d4b/class_r_t_f_doc_visitor_1af1b73dac3186eeac40a11d73639d0a55" prot="private" virt="non-virtual"><scope>RTFDocVisitor</scope><name>writeMscFile</name></member>
+      <member refid="d0/d78/class_doc_visitor_1a11b3740103d21254806867da845a26aa" prot="public" virt="virtual"><scope>RTFDocVisitor</scope><name>~DocVisitor</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

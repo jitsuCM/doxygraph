@@ -1,0 +1,126 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.2">
+  <compounddef id="d0/dcf/class_text_generator_intf" kind="class" prot="public" abstract="yes">
+    <compoundname>TextGeneratorIntf</compoundname>
+    <derivedcompoundref refid="dd/daa/class_text_generator_docbook_impl" prot="public" virt="non-virtual">TextGeneratorDocbookImpl</derivedcompoundref>
+    <derivedcompoundref refid="db/d2b/class_text_generator_o_l_impl" prot="public" virt="non-virtual">TextGeneratorOLImpl</derivedcompoundref>
+    <derivedcompoundref refid="db/d9f/class_text_generator_x_m_l_impl" prot="public" virt="non-virtual">TextGeneratorXMLImpl</derivedcompoundref>
+    <includes refid="d8/d3c/util_8h" local="no">util.h</includes>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="d0/dcf/class_text_generator_intf_1a1d8bb006c0d74515154f55506e5e0748" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type></type>
+        <definition>virtual TextGeneratorIntf::~TextGeneratorIntf</definition>
+        <argsstring>()</argsstring>
+        <name>~TextGeneratorIntf</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/util.h" line="65" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/util.h" bodystart="65" bodyend="65"/>
+      </memberdef>
+      <memberdef kind="function" id="d0/dcf/class_text_generator_intf_1aba1dd89729760fe7d4b37b916870f297" prot="public" static="no" const="yes" explicit="no" inline="no" virt="pure-virtual">
+        <type>void</type>
+        <definition>virtual void TextGeneratorIntf::writeString</definition>
+        <argsstring>(const char *, bool) const =0</argsstring>
+        <name>writeString</name>
+        <reimplementedby refid="db/d2b/class_text_generator_o_l_impl_1a54a566e4ea32832b71e315e77c183d49">writeString</reimplementedby>
+        <param>
+          <type>const char *</type>
+        </param>
+        <param>
+          <type>bool</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/util.h" line="66"/>
+      </memberdef>
+      <memberdef kind="function" id="d0/dcf/class_text_generator_intf_1a5367063112c94eece527eddf1cd9b978" prot="public" static="no" const="yes" explicit="no" inline="no" virt="pure-virtual">
+        <type>void</type>
+        <definition>virtual void TextGeneratorIntf::writeBreak</definition>
+        <argsstring>(int indent) const =0</argsstring>
+        <name>writeBreak</name>
+        <reimplementedby refid="db/d2b/class_text_generator_o_l_impl_1a0bcf0edafe3dfa799a2c3cf452212bed">writeBreak</reimplementedby>
+        <param>
+          <type>int</type>
+          <declname>indent</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/util.h" line="67"/>
+      </memberdef>
+      <memberdef kind="function" id="d0/dcf/class_text_generator_intf_1a5a648a078ee39640544d371c1cc747f6" prot="public" static="no" const="yes" explicit="no" inline="no" virt="pure-virtual">
+        <type>void</type>
+        <definition>virtual void TextGeneratorIntf::writeLink</definition>
+        <argsstring>(const char *extRef, const char *file, const char *anchor, const char *text) const =0</argsstring>
+        <name>writeLink</name>
+        <reimplementedby refid="db/d2b/class_text_generator_o_l_impl_1a3580d240ebc06ae4245b22905b94dfe3">writeLink</reimplementedby>
+        <param>
+          <type>const char *</type>
+          <declname>extRef</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>file</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>anchor</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>text</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/util.h" line="70"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Abstract interface for a hyperlinked text fragment. </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="4256">
+        <label>TextGeneratorDocbookImpl</label>
+        <childnode refid="4255" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4255">
+        <label>TextGeneratorIntf</label>
+        <link refid="d0/dcf/class_text_generator_intf"/>
+      </node>
+      <node id="4257">
+        <label>TextGeneratorOLImpl</label>
+        <link refid="db/d2b/class_text_generator_o_l_impl"/>
+        <childnode refid="4255" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4258">
+        <label>TextGeneratorXMLImpl</label>
+        <childnode refid="4255" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/util.h" line="63" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/util.h" bodystart="62" bodyend="71"/>
+    <listofallmembers>
+      <member refid="d0/dcf/class_text_generator_intf_1a5367063112c94eece527eddf1cd9b978" prot="public" virt="pure-virtual"><scope>TextGeneratorIntf</scope><name>writeBreak</name></member>
+      <member refid="d0/dcf/class_text_generator_intf_1a5a648a078ee39640544d371c1cc747f6" prot="public" virt="pure-virtual"><scope>TextGeneratorIntf</scope><name>writeLink</name></member>
+      <member refid="d0/dcf/class_text_generator_intf_1aba1dd89729760fe7d4b37b916870f297" prot="public" virt="pure-virtual"><scope>TextGeneratorIntf</scope><name>writeString</name></member>
+      <member refid="d0/dcf/class_text_generator_intf_1a1d8bb006c0d74515154f55506e5e0748" prot="public" virt="virtual"><scope>TextGeneratorIntf</scope><name>~TextGeneratorIntf</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

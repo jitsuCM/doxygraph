@@ -1,0 +1,133 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.2">
+  <compounddef id="d5/d99/class_dot_worker_thread" kind="class" prot="public">
+    <compoundname>DotWorkerThread</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">QThread</basecompoundref>
+    <includes refid="d6/d4a/dot_8h" local="no">dot.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="d5/d99/class_dot_worker_thread_1aab15a399334e2d01857c44b75b38bd46" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int DotWorkerThread::m_id</definition>
+        <argsstring></argsstring>
+        <name>m_id</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/dot.h" line="413" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/dot.h" bodystart="413" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d5/d99/class_dot_worker_thread_1a2b2b78b10e21dcc49eb6ed84b968f941" prot="private" static="no" mutable="no">
+        <type><ref refid="d6/dbb/class_dot_runner_queue" kindref="compound">DotRunnerQueue</ref> *</type>
+        <definition>DotRunnerQueue* DotWorkerThread::m_queue</definition>
+        <argsstring></argsstring>
+        <name>m_queue</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/dot.h" line="414" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/dot.h" bodystart="414" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d5/d99/class_dot_worker_thread_1ae53b4dd97dce5788da29c71362d99922" prot="private" static="no" mutable="no">
+        <type><ref refid="db/daa/class_q_list" kindref="compound">QList</ref>&lt; <ref refid="d1/d96/struct_dot_runner_1_1_cleanup_item" kindref="compound">DotRunner::CleanupItem</ref> &gt;</type>
+        <definition>QList&lt;DotRunner::CleanupItem&gt; DotWorkerThread::m_cleanupItems</definition>
+        <argsstring></argsstring>
+        <name>m_cleanupItems</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/dot.h" line="415" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/dot.h" bodystart="415" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="d5/d99/class_dot_worker_thread_1ad1fa3d07f7777ada9c82654bed9dca5d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>DotWorkerThread::DotWorkerThread</definition>
+        <argsstring>(int id, DotRunnerQueue *queue)</argsstring>
+        <name>DotWorkerThread</name>
+        <param>
+          <type>int</type>
+          <declname>id</declname>
+        </param>
+        <param>
+          <type><ref refid="d6/dbb/class_dot_runner_queue" kindref="compound">DotRunnerQueue</ref> *</type>
+          <declname>queue</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/dot.h" line="409" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/dot.cpp" bodystart="1182" bodyend="1186"/>
+      </memberdef>
+      <memberdef kind="function" id="d5/d99/class_dot_worker_thread_1a573402f10e5d1b1fba1954a105a1c227" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void DotWorkerThread::run</definition>
+        <argsstring>()</argsstring>
+        <name>run</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/dot.h" line="410" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/dot.cpp" bodystart="1188" bodyend="1200"/>
+      </memberdef>
+      <memberdef kind="function" id="d5/d99/class_dot_worker_thread_1abdef6c24880c1628f13a2a82e6374c0e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void DotWorkerThread::cleanup</definition>
+        <argsstring>()</argsstring>
+        <name>cleanup</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/dot.h" line="411" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/dot.cpp" bodystart="1202" bodyend="1210"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Worker thread to execute a dot run. </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="3327">
+        <label>DotWorkerThread</label>
+        <link refid="d5/d99/class_dot_worker_thread"/>
+        <childnode refid="3328" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3328">
+        <label>QThread</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="3329">
+        <label>DotWorkerThread</label>
+        <link refid="d5/d99/class_dot_worker_thread"/>
+        <childnode refid="3330" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3330">
+        <label>QThread</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/dot.h" line="407" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/dot.h" bodystart="406" bodyend="416"/>
+    <listofallmembers>
+      <member refid="d5/d99/class_dot_worker_thread_1abdef6c24880c1628f13a2a82e6374c0e" prot="public" virt="non-virtual"><scope>DotWorkerThread</scope><name>cleanup</name></member>
+      <member refid="d5/d99/class_dot_worker_thread_1ad1fa3d07f7777ada9c82654bed9dca5d" prot="public" virt="non-virtual"><scope>DotWorkerThread</scope><name>DotWorkerThread</name></member>
+      <member refid="d5/d99/class_dot_worker_thread_1ae53b4dd97dce5788da29c71362d99922" prot="private" virt="non-virtual"><scope>DotWorkerThread</scope><name>m_cleanupItems</name></member>
+      <member refid="d5/d99/class_dot_worker_thread_1aab15a399334e2d01857c44b75b38bd46" prot="private" virt="non-virtual"><scope>DotWorkerThread</scope><name>m_id</name></member>
+      <member refid="d5/d99/class_dot_worker_thread_1a2b2b78b10e21dcc49eb6ed84b968f941" prot="private" virt="non-virtual"><scope>DotWorkerThread</scope><name>m_queue</name></member>
+      <member refid="d5/d99/class_dot_worker_thread_1a573402f10e5d1b1fba1954a105a1c227" prot="public" virt="non-virtual"><scope>DotWorkerThread</scope><name>run</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

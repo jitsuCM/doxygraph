@@ -1,0 +1,113 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.2">
+  <compounddef id="structshape__functions" kind="struct" prot="public">
+    <compoundname>shape_functions</compoundname>
+    <includes refid="types_8h" local="no">types.h</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structshape__functions_1ab973eefdfd9a104ad6007b7ec7e275c9" prot="public" static="no" mutable="no">
+        <type>void(*</type>
+        <definition>void(* shape_functions::initfn)(node_t *)</definition>
+        <argsstring>)(node_t *)</argsstring>
+        <name>initfn</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/doxyviz/bindviz/graphviz-2.30.1/embuild/lib/common/types.h" line="182" bodyfile="C:/Users/Mat/Projects/doxygraph/doxyviz/bindviz/graphviz-2.30.1/embuild/lib/common/types.h" bodystart="182" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structshape__functions_1a5bdfddd20e0fb7604b7d5e15c8f57aaf" prot="public" static="no" mutable="no">
+        <type>void(*</type>
+        <definition>void(* shape_functions::freefn)(node_t *)</definition>
+        <argsstring>)(node_t *)</argsstring>
+        <name>freefn</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/doxyviz/bindviz/graphviz-2.30.1/embuild/lib/common/types.h" line="183" bodyfile="C:/Users/Mat/Projects/doxygraph/doxyviz/bindviz/graphviz-2.30.1/embuild/lib/common/types.h" bodystart="183" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structshape__functions_1a33509060b5149319bef13250fce36c69" prot="public" static="no" mutable="no">
+        <type><ref refid="structport" kindref="compound">port</ref>(*</type>
+        <definition>port(* shape_functions::portfn)(node_t *, char *, char *)</definition>
+        <argsstring>)(node_t *, char *, char *)</argsstring>
+        <name>portfn</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/doxyviz/bindviz/graphviz-2.30.1/embuild/lib/common/types.h" line="184" bodyfile="C:/Users/Mat/Projects/doxygraph/doxyviz/bindviz/graphviz-2.30.1/embuild/lib/common/types.h" bodystart="184" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structshape__functions_1a5d267ca743693a71778ed6d74d778fc4" prot="public" static="no" mutable="no">
+        <type><ref refid="types_8h_1a7670a4e8a07d9ebb00411948b0bbf86d" kindref="member">boolean</ref>(*</type>
+        <definition>boolean(* shape_functions::insidefn)(inside_t *inside_context, pointf)</definition>
+        <argsstring>)(inside_t *inside_context, pointf)</argsstring>
+        <name>insidefn</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/doxyviz/bindviz/graphviz-2.30.1/embuild/lib/common/types.h" line="185" bodyfile="C:/Users/Mat/Projects/doxygraph/doxyviz/bindviz/graphviz-2.30.1/embuild/lib/common/types.h" bodystart="185" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structshape__functions_1a282f1ff290910518898df6368f7d97f9" prot="public" static="no" mutable="no">
+        <type>int(*</type>
+        <definition>int(* shape_functions::pboxfn)(node_t *n, port *p, int side, boxf rv[], int *kptr)</definition>
+        <argsstring>)(node_t *n, port *p, int side, boxf rv[], int *kptr)</argsstring>
+        <name>pboxfn</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/doxyviz/bindviz/graphviz-2.30.1/embuild/lib/common/types.h" line="186" bodyfile="C:/Users/Mat/Projects/doxygraph/doxyviz/bindviz/graphviz-2.30.1/embuild/lib/common/types.h" bodystart="186" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structshape__functions_1aa37923bbe637a971dda16262a93c1cbe" prot="public" static="no" mutable="no">
+        <type>void(*</type>
+        <definition>void(* shape_functions::codefn)(GVJ_t *job, node_t *n)</definition>
+        <argsstring>)(GVJ_t *job, node_t *n)</argsstring>
+        <name>codefn</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/doxyviz/bindviz/graphviz-2.30.1/embuild/lib/common/types.h" line="187" bodyfile="C:/Users/Mat/Projects/doxygraph/doxyviz/bindviz/graphviz-2.30.1/embuild/lib/common/types.h" bodystart="187" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="135">
+        <label>port</label>
+        <link refid="structport"/>
+      </node>
+      <node id="134">
+        <label>shape_functions</label>
+        <link refid="structshape__functions"/>
+        <childnode refid="135" relation="usage">
+          <edgelabel>portfn</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Mat/Projects/doxygraph/doxyviz/bindviz/graphviz-2.30.1/embuild/lib/common/types.h" line="181" bodyfile="C:/Users/Mat/Projects/doxygraph/doxyviz/bindviz/graphviz-2.30.1/embuild/lib/common/types.h" bodystart="181" bodyend="188"/>
+    <listofallmembers>
+      <member refid="structshape__functions_1aa37923bbe637a971dda16262a93c1cbe" prot="public" virt="non-virtual"><scope>shape_functions</scope><name>codefn</name></member>
+      <member refid="structshape__functions_1a5bdfddd20e0fb7604b7d5e15c8f57aaf" prot="public" virt="non-virtual"><scope>shape_functions</scope><name>freefn</name></member>
+      <member refid="structshape__functions_1ab973eefdfd9a104ad6007b7ec7e275c9" prot="public" virt="non-virtual"><scope>shape_functions</scope><name>initfn</name></member>
+      <member refid="structshape__functions_1a5d267ca743693a71778ed6d74d778fc4" prot="public" virt="non-virtual"><scope>shape_functions</scope><name>insidefn</name></member>
+      <member refid="structshape__functions_1a282f1ff290910518898df6368f7d97f9" prot="public" virt="non-virtual"><scope>shape_functions</scope><name>pboxfn</name></member>
+      <member refid="structshape__functions_1a33509060b5149319bef13250fce36c69" prot="public" virt="non-virtual"><scope>shape_functions</scope><name>portfn</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

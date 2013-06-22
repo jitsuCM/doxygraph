@@ -1,0 +1,488 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.2">
+  <compounddef id="db/dd3/class_eclipse_help" kind="class" prot="public">
+    <compoundname>EclipseHelp</compoundname>
+    <basecompoundref refid="d9/dd5/class_index_intf" prot="public" virt="non-virtual">IndexIntf</basecompoundref>
+    <includes refid="db/d9e/eclipsehelp_8h" local="no">eclipsehelp.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="db/dd3/class_eclipse_help_1ade1f8a3b4193cc2162e2f48e0106ca60" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int EclipseHelp::m_depth</definition>
+        <argsstring></argsstring>
+        <name>m_depth</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/eclipsehelp.h" line="61" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/eclipsehelp.h" bodystart="61" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="db/dd3/class_eclipse_help_1a4eba60613f6c485f815f23c74e6d7bf2" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool EclipseHelp::m_endtag</definition>
+        <argsstring></argsstring>
+        <name>m_endtag</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/eclipsehelp.h" line="62" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/eclipsehelp.h" bodystart="62" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="db/dd3/class_eclipse_help_1afc78663519a8c53f2312c86bc374a3ac" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int EclipseHelp::m_openTags</definition>
+        <argsstring></argsstring>
+        <name>m_openTags</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/eclipsehelp.h" line="63" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/eclipsehelp.h" bodystart="63" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="db/dd3/class_eclipse_help_1afb041f3adc1d8aff8018d2e000c2e5af" prot="private" static="no" mutable="no">
+        <type>QFile *</type>
+        <definition>QFile* EclipseHelp::m_tocfile</definition>
+        <argsstring></argsstring>
+        <name>m_tocfile</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/eclipsehelp.h" line="65" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/eclipsehelp.h" bodystart="65" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="db/dd3/class_eclipse_help_1a73bef2835f729c5663f0e3aeed30c6fc" prot="private" static="no" mutable="no">
+        <type><ref refid="dc/d3c/class_f_text_stream" kindref="compound">FTextStream</ref></type>
+        <definition>FTextStream EclipseHelp::m_tocstream</definition>
+        <argsstring></argsstring>
+        <name>m_tocstream</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/eclipsehelp.h" line="66" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/eclipsehelp.h" bodystart="66" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="db/dd3/class_eclipse_help_1a759c76832e2df1c179128203cb576e1b" prot="private" static="no" mutable="no">
+        <type>QCString</type>
+        <definition>QCString EclipseHelp::m_pathprefix</definition>
+        <argsstring></argsstring>
+        <name>m_pathprefix</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/eclipsehelp.h" line="67" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/eclipsehelp.h" bodystart="67" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="db/dd3/class_eclipse_help_1a4f1bd0f9c58507da2b24c9491200bf8a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>EclipseHelp::EclipseHelp</definition>
+        <argsstring>()</argsstring>
+        <name>EclipseHelp</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/eclipsehelp.h" line="43" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/eclipsehelp.cpp" bodystart="22" bodyend="24"/>
+      </memberdef>
+      <memberdef kind="function" id="db/dd3/class_eclipse_help_1a09fa77b331a5f5bc951428aecd9f34cc" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type></type>
+        <definition>EclipseHelp::~EclipseHelp</definition>
+        <argsstring>()</argsstring>
+        <name>~EclipseHelp</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/eclipsehelp.h" line="44" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/eclipsehelp.cpp" bodystart="26" bodyend="28"/>
+      </memberdef>
+      <memberdef kind="function" id="db/dd3/class_eclipse_help_1aefada9c9b474d36ef9b771e2361c8dc1" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void EclipseHelp::initialize</definition>
+        <argsstring>()</argsstring>
+        <name>initialize</name>
+        <reimplements refid="d9/dd5/class_index_intf_1a0e46b4afa0ed269e2d089c8444590515">initialize</reimplements>
+        <briefdescription>
+<para>Initialize the Eclipse generator. </para>        </briefdescription>
+        <detaileddescription>
+<para>This method opens the XML TOC file and writes headers of the files. <simplesect kind="see"><para><ref refid="db/dd3/class_eclipse_help_1a6a8532316d47986f371459e6b09b9d71" kindref="member">finalize()</ref> </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/eclipsehelp.h" line="47" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/eclipsehelp.cpp" bodystart="64" bodyend="93"/>
+      </memberdef>
+      <memberdef kind="function" id="db/dd3/class_eclipse_help_1a6a8532316d47986f371459e6b09b9d71" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void EclipseHelp::finalize</definition>
+        <argsstring>()</argsstring>
+        <name>finalize</name>
+        <reimplements refid="d9/dd5/class_index_intf_1aa5532a767c4ac41167d014209b2ea8d7">finalize</reimplements>
+        <briefdescription>
+<para>Finish generation of the Eclipse specific help files. </para>        </briefdescription>
+        <detaileddescription>
+<para>This method writes footers of the files and closes them. <simplesect kind="see"><para><ref refid="db/dd3/class_eclipse_help_1aefada9c9b474d36ef9b771e2361c8dc1" kindref="member">initialize()</ref> </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/eclipsehelp.h" line="48" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/eclipsehelp.cpp" bodystart="101" bodyend="127"/>
+      </memberdef>
+      <memberdef kind="function" id="db/dd3/class_eclipse_help_1a84c091576dab518ca0301144b96cc826" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void EclipseHelp::incContentsDepth</definition>
+        <argsstring>()</argsstring>
+        <name>incContentsDepth</name>
+        <reimplements refid="d9/dd5/class_index_intf_1ac5ff1647bcf1cc65543258df162a0a7c">incContentsDepth</reimplements>
+        <briefdescription>
+<para>Increase the level of content hierarchy. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/eclipsehelp.h" line="49" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/eclipsehelp.cpp" bodystart="132" bodyend="136"/>
+      </memberdef>
+      <memberdef kind="function" id="db/dd3/class_eclipse_help_1a20d28e23b12cd60a358e7a07fd713262" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void EclipseHelp::decContentsDepth</definition>
+        <argsstring>()</argsstring>
+        <name>decContentsDepth</name>
+        <reimplements refid="d9/dd5/class_index_intf_1a920918399556e9afd4d927de3d1f4247">decContentsDepth</reimplements>
+        <briefdescription>
+<para>Decrease the level of content hierarchy. </para>        </briefdescription>
+        <detaileddescription>
+<para>It closes currently opened topic tag. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/eclipsehelp.h" line="50" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/eclipsehelp.cpp" bodystart="143" bodyend="155"/>
+      </memberdef>
+      <memberdef kind="function" id="db/dd3/class_eclipse_help_1a72d1c982cb362cc6b52660f9f93a95c6" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void EclipseHelp::addContentsItem</definition>
+        <argsstring>(bool isDir, const char *name, const char *ref, const char *file, const char *anchor, bool separateIndex, bool addToNavIndex, Definition *def)</argsstring>
+        <name>addContentsItem</name>
+        <reimplements refid="d9/dd5/class_index_intf_1aab43652b639ce5cd25f5b16e54e20f26">addContentsItem</reimplements>
+        <param>
+          <type>bool</type>
+          <declname>isDir</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>name</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>ref</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>file</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>anchor</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>separateIndex</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>addToNavIndex</declname>
+        </param>
+        <param>
+          <type><ref refid="d5/dcc/class_definition" kindref="compound">Definition</ref> *</type>
+          <declname>def</declname>
+        </param>
+        <briefdescription>
+<para>Add an item to the content. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>isDir</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Flag whether the argument <emphasis>file</emphasis> is a directory or a file entry </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>name</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Name of the item </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>ref</parametername>
+</parameternamelist>
+<parameterdescription>
+<para><ref refid="dd/d89/struct_u_r_l" kindref="compound">URL</ref> of the item </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>file</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Name of a file which the item is defined in (without extension) </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>anchor</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Name of an anchor of the item. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>separateIndex</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>not used. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>addToNavIndex</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>not used. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>def</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>not used. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/eclipsehelp.h" line="53" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/eclipsehelp.cpp" bodystart="169" bodyend="216"/>
+      </memberdef>
+      <memberdef kind="function" id="db/dd3/class_eclipse_help_1a6de2526bdffe86881205f920623a1eb8" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void EclipseHelp::addIndexItem</definition>
+        <argsstring>(Definition *context, MemberDef *md, const char *sectionAnchor, const char *title)</argsstring>
+        <name>addIndexItem</name>
+        <reimplements refid="d9/dd5/class_index_intf_1a762276e6f0229fb784a592acd2cf6a8b">addIndexItem</reimplements>
+        <param>
+          <type><ref refid="d5/dcc/class_definition" kindref="compound">Definition</ref> *</type>
+          <declname>context</declname>
+        </param>
+        <param>
+          <type><ref refid="da/d09/class_member_def" kindref="compound">MemberDef</ref> *</type>
+          <declname>md</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>sectionAnchor</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>title</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/eclipsehelp.h" line="55" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/eclipsehelp.cpp" bodystart="218" bodyend="224"/>
+      </memberdef>
+      <memberdef kind="function" id="db/dd3/class_eclipse_help_1a00340fb8f8bec447be9191475facaaa4" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void EclipseHelp::addIndexFile</definition>
+        <argsstring>(const char *name)</argsstring>
+        <name>addIndexFile</name>
+        <reimplements refid="d9/dd5/class_index_intf_1a153c5c5995155d112c33fed544b44094">addIndexFile</reimplements>
+        <param>
+          <type>const char *</type>
+          <declname>name</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/eclipsehelp.h" line="56" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/eclipsehelp.cpp" bodystart="226" bodyend="228"/>
+      </memberdef>
+      <memberdef kind="function" id="db/dd3/class_eclipse_help_1ad6efce2a4f2f154a09214a42e964f9c7" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void EclipseHelp::addImageFile</definition>
+        <argsstring>(const char *name)</argsstring>
+        <name>addImageFile</name>
+        <reimplements refid="d9/dd5/class_index_intf_1ac1650d4596d97cdd1de428b06a76daad">addImageFile</reimplements>
+        <param>
+          <type>const char *</type>
+          <declname>name</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/eclipsehelp.h" line="57" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/eclipsehelp.cpp" bodystart="230" bodyend="232"/>
+      </memberdef>
+      <memberdef kind="function" id="db/dd3/class_eclipse_help_1a2b3848c52b76d576fbb8aa04bbf698eb" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void EclipseHelp::addStyleSheetFile</definition>
+        <argsstring>(const char *name)</argsstring>
+        <name>addStyleSheetFile</name>
+        <reimplements refid="d9/dd5/class_index_intf_1a3989fce1306feb90e477cb53fd0daee0">addStyleSheetFile</reimplements>
+        <param>
+          <type>const char *</type>
+          <declname>name</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/eclipsehelp.h" line="58" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/eclipsehelp.cpp" bodystart="234" bodyend="236"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="db/dd3/class_eclipse_help_1addc9acd566c2caf35e9010082191a5ab" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>EclipseHelp::EclipseHelp</definition>
+        <argsstring>(const EclipseHelp &amp;)</argsstring>
+        <name>EclipseHelp</name>
+        <param>
+          <type>const <ref refid="db/dd3/class_eclipse_help" kindref="compound">EclipseHelp</ref> &amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/eclipsehelp.h" line="70"/>
+      </memberdef>
+      <memberdef kind="function" id="db/dd3/class_eclipse_help_1af7796553b7f0612f9f4875860e5e2f11" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="db/dd3/class_eclipse_help" kindref="compound">EclipseHelp</ref> &amp;</type>
+        <definition>EclipseHelp&amp; EclipseHelp::operator=</definition>
+        <argsstring>(const EclipseHelp &amp;)</argsstring>
+        <name>operator=</name>
+        <param>
+          <type>const <ref refid="db/dd3/class_eclipse_help" kindref="compound">EclipseHelp</ref> &amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/eclipsehelp.h" line="71"/>
+      </memberdef>
+      <memberdef kind="function" id="db/dd3/class_eclipse_help_1aa36cfd8852e6ec36545dd339024a2860" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void EclipseHelp::indent</definition>
+        <argsstring>()</argsstring>
+        <name>indent</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/eclipsehelp.h" line="74" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/eclipsehelp.cpp" bodystart="30" bodyend="37"/>
+      </memberdef>
+      <memberdef kind="function" id="db/dd3/class_eclipse_help_1aa643e66af10bc0a62b83083263c6c470" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void EclipseHelp::closedTag</definition>
+        <argsstring>()</argsstring>
+        <name>closedTag</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/eclipsehelp.h" line="75" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/eclipsehelp.cpp" bodystart="39" bodyend="46"/>
+      </memberdef>
+      <memberdef kind="function" id="db/dd3/class_eclipse_help_1a67d55c952048a47c119ffdd6f36f23c0" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void EclipseHelp::openedTag</definition>
+        <argsstring>()</argsstring>
+        <name>openedTag</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/eclipsehelp.h" line="76" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/eclipsehelp.cpp" bodystart="48" bodyend="56"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Generator for Eclipse help files. </para>    </briefdescription>
+    <detaileddescription>
+<para>This class generates the Eclipse specific help files. These files can be used to generate a help plugin readable by the Eclipse IDE. </para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="3372">
+        <label>EclipseHelp</label>
+        <link refid="db/dd3/class_eclipse_help"/>
+        <childnode refid="3373" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3373">
+        <label>IndexIntf</label>
+        <link refid="d9/dd5/class_index_intf"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="3374">
+        <label>EclipseHelp</label>
+        <link refid="db/dd3/class_eclipse_help"/>
+        <childnode refid="3375" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3375">
+        <label>IndexIntf</label>
+        <link refid="d9/dd5/class_index_intf"/>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/eclipsehelp.h" line="41" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/eclipsehelp.h" bodystart="40" bodyend="77"/>
+    <listofallmembers>
+      <member refid="db/dd3/class_eclipse_help_1a72d1c982cb362cc6b52660f9f93a95c6" prot="public" virt="virtual"><scope>EclipseHelp</scope><name>addContentsItem</name></member>
+      <member refid="db/dd3/class_eclipse_help_1ad6efce2a4f2f154a09214a42e964f9c7" prot="public" virt="virtual"><scope>EclipseHelp</scope><name>addImageFile</name></member>
+      <member refid="db/dd3/class_eclipse_help_1a00340fb8f8bec447be9191475facaaa4" prot="public" virt="virtual"><scope>EclipseHelp</scope><name>addIndexFile</name></member>
+      <member refid="db/dd3/class_eclipse_help_1a6de2526bdffe86881205f920623a1eb8" prot="public" virt="virtual"><scope>EclipseHelp</scope><name>addIndexItem</name></member>
+      <member refid="db/dd3/class_eclipse_help_1a2b3848c52b76d576fbb8aa04bbf698eb" prot="public" virt="virtual"><scope>EclipseHelp</scope><name>addStyleSheetFile</name></member>
+      <member refid="db/dd3/class_eclipse_help_1aa643e66af10bc0a62b83083263c6c470" prot="private" virt="non-virtual"><scope>EclipseHelp</scope><name>closedTag</name></member>
+      <member refid="db/dd3/class_eclipse_help_1a20d28e23b12cd60a358e7a07fd713262" prot="public" virt="virtual"><scope>EclipseHelp</scope><name>decContentsDepth</name></member>
+      <member refid="db/dd3/class_eclipse_help_1a4f1bd0f9c58507da2b24c9491200bf8a" prot="public" virt="non-virtual"><scope>EclipseHelp</scope><name>EclipseHelp</name></member>
+      <member refid="db/dd3/class_eclipse_help_1addc9acd566c2caf35e9010082191a5ab" prot="private" virt="non-virtual"><scope>EclipseHelp</scope><name>EclipseHelp</name></member>
+      <member refid="db/dd3/class_eclipse_help_1a6a8532316d47986f371459e6b09b9d71" prot="public" virt="virtual"><scope>EclipseHelp</scope><name>finalize</name></member>
+      <member refid="db/dd3/class_eclipse_help_1a84c091576dab518ca0301144b96cc826" prot="public" virt="virtual"><scope>EclipseHelp</scope><name>incContentsDepth</name></member>
+      <member refid="db/dd3/class_eclipse_help_1aa36cfd8852e6ec36545dd339024a2860" prot="private" virt="non-virtual"><scope>EclipseHelp</scope><name>indent</name></member>
+      <member refid="db/dd3/class_eclipse_help_1aefada9c9b474d36ef9b771e2361c8dc1" prot="public" virt="virtual"><scope>EclipseHelp</scope><name>initialize</name></member>
+      <member refid="db/dd3/class_eclipse_help_1ade1f8a3b4193cc2162e2f48e0106ca60" prot="private" virt="non-virtual"><scope>EclipseHelp</scope><name>m_depth</name></member>
+      <member refid="db/dd3/class_eclipse_help_1a4eba60613f6c485f815f23c74e6d7bf2" prot="private" virt="non-virtual"><scope>EclipseHelp</scope><name>m_endtag</name></member>
+      <member refid="db/dd3/class_eclipse_help_1afc78663519a8c53f2312c86bc374a3ac" prot="private" virt="non-virtual"><scope>EclipseHelp</scope><name>m_openTags</name></member>
+      <member refid="db/dd3/class_eclipse_help_1a759c76832e2df1c179128203cb576e1b" prot="private" virt="non-virtual"><scope>EclipseHelp</scope><name>m_pathprefix</name></member>
+      <member refid="db/dd3/class_eclipse_help_1afb041f3adc1d8aff8018d2e000c2e5af" prot="private" virt="non-virtual"><scope>EclipseHelp</scope><name>m_tocfile</name></member>
+      <member refid="db/dd3/class_eclipse_help_1a73bef2835f729c5663f0e3aeed30c6fc" prot="private" virt="non-virtual"><scope>EclipseHelp</scope><name>m_tocstream</name></member>
+      <member refid="db/dd3/class_eclipse_help_1a67d55c952048a47c119ffdd6f36f23c0" prot="private" virt="non-virtual"><scope>EclipseHelp</scope><name>openedTag</name></member>
+      <member refid="db/dd3/class_eclipse_help_1af7796553b7f0612f9f4875860e5e2f11" prot="private" virt="non-virtual"><scope>EclipseHelp</scope><name>operator=</name></member>
+      <member refid="db/dd3/class_eclipse_help_1a09fa77b331a5f5bc951428aecd9f34cc" prot="public" virt="virtual"><scope>EclipseHelp</scope><name>~EclipseHelp</name></member>
+      <member refid="d9/dd5/class_index_intf_1aa97a03b1de6ccb0d35b33cbf44d69f2a" prot="public" virt="virtual"><scope>EclipseHelp</scope><name>~IndexIntf</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

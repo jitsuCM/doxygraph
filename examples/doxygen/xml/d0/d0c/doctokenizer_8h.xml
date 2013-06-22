@@ -1,0 +1,1031 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.2">
+  <compounddef id="d0/d0c/doctokenizer_8h" kind="file">
+    <compoundname>doctokenizer.h</compoundname>
+    <includes local="no">qcstring.h</includes>
+    <includes local="no">qlist.h</includes>
+    <includes local="no">stdio.h</includes>
+    <includes refid="d0/d73/htmlattrib_8h" local="yes">htmlattrib.h</includes>
+    <includedby refid="da/d17/docparser_8cpp" local="yes">src/docparser.cpp</includedby>
+    <incdepgraph>
+      <node id="1440">
+        <label>qcstring.h</label>
+      </node>
+      <node id="1439">
+        <label>src/doctokenizer.h</label>
+        <link refid="doctokenizer.h"/>
+        <childnode refid="1440" relation="include">
+        </childnode>
+        <childnode refid="1441" relation="include">
+        </childnode>
+        <childnode refid="1442" relation="include">
+        </childnode>
+        <childnode refid="1443" relation="include">
+        </childnode>
+      </node>
+      <node id="1441">
+        <label>qlist.h</label>
+      </node>
+      <node id="1443">
+        <label>htmlattrib.h</label>
+        <link refid="d0/d73/htmlattrib_8h_source"/>
+        <childnode refid="1440" relation="include">
+        </childnode>
+        <childnode refid="1441" relation="include">
+        </childnode>
+      </node>
+      <node id="1442">
+        <label>stdio.h</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="1445">
+        <label>src/docparser.cpp</label>
+        <link refid="da/d17/docparser_8cpp_source"/>
+      </node>
+      <node id="1444">
+        <label>src/doctokenizer.h</label>
+        <link refid="doctokenizer.h"/>
+        <childnode refid="1445" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="d6/df4/struct_token_info" prot="public">TokenInfo</innerclass>
+      <sectiondef kind="enum">
+      <memberdef kind="enum" id="d0/d0c/doctokenizer_8h_1a7722396ed46bc111e7b794948986f8af" prot="public" static="no">
+        <name>Tokens</name>
+        <enumvalue id="d0/d0c/doctokenizer_8h_1a7722396ed46bc111e7b794948986f8afa2b4a4468ca8c7242bf98227d336bf4ad" prot="public">
+          <name>TK_WORD</name>
+          <initializer>= 1</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d0/d0c/doctokenizer_8h_1a7722396ed46bc111e7b794948986f8afa4640e6cdcb728ffd6a26282022978866" prot="public">
+          <name>TK_LNKWORD</name>
+          <initializer>= 2</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d0/d0c/doctokenizer_8h_1a7722396ed46bc111e7b794948986f8afa0ca8cd834b4402e55673fad9935c808a" prot="public">
+          <name>TK_WHITESPACE</name>
+          <initializer>= 3</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d0/d0c/doctokenizer_8h_1a7722396ed46bc111e7b794948986f8afa2c626d0e5270e4da6896efa78533cbb1" prot="public">
+          <name>TK_LISTITEM</name>
+          <initializer>= 4</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d0/d0c/doctokenizer_8h_1a7722396ed46bc111e7b794948986f8afab4ae7909ee0da54e774a68ab5df0872b" prot="public">
+          <name>TK_ENDLIST</name>
+          <initializer>= 5</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d0/d0c/doctokenizer_8h_1a7722396ed46bc111e7b794948986f8afaab4c0365ee9c799d614713e187f8dc01" prot="public">
+          <name>TK_COMMAND</name>
+          <initializer>= 6</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d0/d0c/doctokenizer_8h_1a7722396ed46bc111e7b794948986f8afa2a09cfd5ad8d861688a05908a8dea5ff" prot="public">
+          <name>TK_HTMLTAG</name>
+          <initializer>= 7</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d0/d0c/doctokenizer_8h_1a7722396ed46bc111e7b794948986f8afab4c974f1d50d9e9c292ce36562c164f2" prot="public">
+          <name>TK_SYMBOL</name>
+          <initializer>= 8</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d0/d0c/doctokenizer_8h_1a7722396ed46bc111e7b794948986f8afabe804eb9c4660e29223e9e455126b469" prot="public">
+          <name>TK_NEWPARA</name>
+          <initializer>= 9</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d0/d0c/doctokenizer_8h_1a7722396ed46bc111e7b794948986f8afa545d7bdc48929abd3a8b20ff8a06c185" prot="public">
+          <name>TK_RCSTAG</name>
+          <initializer>= 10</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d0/d0c/doctokenizer_8h_1a7722396ed46bc111e7b794948986f8afa08a22cf20f93c345c37d82be66f2535a" prot="public">
+          <name>TK_URL</name>
+          <initializer>= 11</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d0/d0c/doctokenizer_8h_1a7722396ed46bc111e7b794948986f8afa90bdd145323993d8702a222ff269a8d2" prot="public">
+          <name>RetVal_OK</name>
+          <initializer>= 0x10000</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d0/d0c/doctokenizer_8h_1a7722396ed46bc111e7b794948986f8afa3f194b10629a8efd8f05cb1445bc28f5" prot="public">
+          <name>RetVal_SimpleSec</name>
+          <initializer>= 0x10001</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d0/d0c/doctokenizer_8h_1a7722396ed46bc111e7b794948986f8afa9f55929ba63b40e6b351a39997b422c7" prot="public">
+          <name>RetVal_ListItem</name>
+          <initializer>= 0x10002</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d0/d0c/doctokenizer_8h_1a7722396ed46bc111e7b794948986f8afa3a5eda8e9ed14211b34dccb72bd98b30" prot="public">
+          <name>RetVal_Section</name>
+          <initializer>= 0x10003</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d0/d0c/doctokenizer_8h_1a7722396ed46bc111e7b794948986f8afa1e655faf9d7e324cebfc87048f8f1313" prot="public">
+          <name>RetVal_Subsection</name>
+          <initializer>= 0x10004</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d0/d0c/doctokenizer_8h_1a7722396ed46bc111e7b794948986f8afafcafa68135487d432c5de976edb2c40a" prot="public">
+          <name>RetVal_Subsubsection</name>
+          <initializer>= 0x10005</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d0/d0c/doctokenizer_8h_1a7722396ed46bc111e7b794948986f8afa550b490f9f95e11dfd0d563f829e67e8" prot="public">
+          <name>RetVal_Paragraph</name>
+          <initializer>= 0x10006</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d0/d0c/doctokenizer_8h_1a7722396ed46bc111e7b794948986f8afa982e3db35310c82d174c4d0ad3000ae4" prot="public">
+          <name>RetVal_SubParagraph</name>
+          <initializer>= 0x10007</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d0/d0c/doctokenizer_8h_1a7722396ed46bc111e7b794948986f8afa6a96924a54bab4c6b2f2131cdbecd5ae" prot="public">
+          <name>RetVal_EndList</name>
+          <initializer>= 0x10008</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d0/d0c/doctokenizer_8h_1a7722396ed46bc111e7b794948986f8afa76a2ae19a79e778838beec17e953e948" prot="public">
+          <name>RetVal_EndPre</name>
+          <initializer>= 0x10009</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d0/d0c/doctokenizer_8h_1a7722396ed46bc111e7b794948986f8afa66a9d49e9ad178ffbad3bb441d61ae84" prot="public">
+          <name>RetVal_DescData</name>
+          <initializer>= 0x1000A</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d0/d0c/doctokenizer_8h_1a7722396ed46bc111e7b794948986f8afa2a1c2cb4c1dcc409a7e19d1323bfff5f" prot="public">
+          <name>RetVal_DescTitle</name>
+          <initializer>= 0x1000B</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d0/d0c/doctokenizer_8h_1a7722396ed46bc111e7b794948986f8afab45653a874f3187d8f8298a67b7dd5f3" prot="public">
+          <name>RetVal_EndDesc</name>
+          <initializer>= 0x1000C</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d0/d0c/doctokenizer_8h_1a7722396ed46bc111e7b794948986f8afa3adac0a3a4ad484efaf3136a1d8bedcd" prot="public">
+          <name>RetVal_TableRow</name>
+          <initializer>= 0x1000D</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d0/d0c/doctokenizer_8h_1a7722396ed46bc111e7b794948986f8afa9333aaf67852e216d5bf577250e21b6c" prot="public">
+          <name>RetVal_TableCell</name>
+          <initializer>= 0x1000E</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d0/d0c/doctokenizer_8h_1a7722396ed46bc111e7b794948986f8afa6cf266883f9fb0016af739d96c47b123" prot="public">
+          <name>RetVal_TableHCell</name>
+          <initializer>= 0x1000F</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d0/d0c/doctokenizer_8h_1a7722396ed46bc111e7b794948986f8afa46c7b0a1b5f4db15b4a59625af221f44" prot="public">
+          <name>RetVal_EndTable</name>
+          <initializer>= 0x10010</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d0/d0c/doctokenizer_8h_1a7722396ed46bc111e7b794948986f8afad2436c7d2d4d16b50d4c79d774d23bf9" prot="public">
+          <name>RetVal_Internal</name>
+          <initializer>= 0x10011</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d0/d0c/doctokenizer_8h_1a7722396ed46bc111e7b794948986f8afa46f53faf8a9f761cb52e0696e512cd42" prot="public">
+          <name>RetVal_SwitchLang</name>
+          <initializer>= 0x10012</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d0/d0c/doctokenizer_8h_1a7722396ed46bc111e7b794948986f8afafc139569c8206cd797096ea9c8265c37" prot="public">
+          <name>RetVal_CloseXml</name>
+          <initializer>= 0x10013</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d0/d0c/doctokenizer_8h_1a7722396ed46bc111e7b794948986f8afa32877befdd25357697513acd0fc4ad27" prot="public">
+          <name>RetVal_EndBlockQuote</name>
+          <initializer>= 0x10014</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d0/d0c/doctokenizer_8h_1a7722396ed46bc111e7b794948986f8afad8137258d399638b061b1922338a9d90" prot="public">
+          <name>RetVal_CopyDoc</name>
+          <initializer>= 0x10015</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/doctokenizer.h" line="31" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/doctokenizer.h" bodystart="30" bodyend="66"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="var">
+      <memberdef kind="variable" id="d0/d0c/doctokenizer_8h_1a31196325b225b79fbc6b5d6683273f02" prot="public" static="no" mutable="no">
+        <type><ref refid="d6/df4/struct_token_info" kindref="compound">TokenInfo</ref> *</type>
+        <definition>TokenInfo* g_token</definition>
+        <argsstring></argsstring>
+        <name>g_token</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/doctokenizer.h" line="116"/>
+      </memberdef>
+      <memberdef kind="variable" id="d0/d0c/doctokenizer_8h_1aa2c414f2e33cf9014cad85e137da0e95" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int doctokenizerYYlineno</definition>
+        <argsstring></argsstring>
+        <name>doctokenizerYYlineno</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/doctokenizer.h" line="117"/>
+      </memberdef>
+      <memberdef kind="variable" id="d0/d0c/doctokenizer_8h_1af0ba89ed7f702071f1f005bdaa810ac8" prot="public" static="no" mutable="no">
+        <type>FILE *</type>
+        <definition>FILE* doctokenizerYYin</definition>
+        <argsstring></argsstring>
+        <name>doctokenizerYYin</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/doctokenizer.h" line="118"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="d0/d0c/doctokenizer_8h_1a2a98a6f15df23cdeae56a759def54baf" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>const char *</type>
+        <definition>const char* tokToString</definition>
+        <argsstring>(int token)</argsstring>
+        <name>tokToString</name>
+        <param>
+          <type>int</type>
+          <declname>token</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/doctokenizer.h" line="121"/>
+      </memberdef>
+      <memberdef kind="function" id="d0/d0c/doctokenizer_8h_1a6497989e3c95adbefa694460443ff909" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void doctokenizerYYFindSections</definition>
+        <argsstring>(const char *input, Definition *d, MemberGroup *mg, const char *fileName)</argsstring>
+        <name>doctokenizerYYFindSections</name>
+        <param>
+          <type>const char *</type>
+          <declname>input</declname>
+        </param>
+        <param>
+          <type><ref refid="d5/dcc/class_definition" kindref="compound">Definition</ref> *</type>
+          <declname>d</declname>
+        </param>
+        <param>
+          <type><ref refid="da/d32/class_member_group" kindref="compound">MemberGroup</ref> *</type>
+          <declname>mg</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>fileName</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/doctokenizer.h" line="125"/>
+      </memberdef>
+      <memberdef kind="function" id="d0/d0c/doctokenizer_8h_1af0fbfef38dfe206447c10c3ea7630f88" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void doctokenizerYYinit</definition>
+        <argsstring>(const char *input, const char *fileName)</argsstring>
+        <name>doctokenizerYYinit</name>
+        <param>
+          <type>const char *</type>
+          <declname>input</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>fileName</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/doctokenizer.h" line="126"/>
+      </memberdef>
+      <memberdef kind="function" id="d0/d0c/doctokenizer_8h_1a98cb372ba6f8aec638e7bb11b1372fbe" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void doctokenizerYYcleanup</definition>
+        <argsstring>()</argsstring>
+        <name>doctokenizerYYcleanup</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/doctokenizer.h" line="127"/>
+      </memberdef>
+      <memberdef kind="function" id="d0/d0c/doctokenizer_8h_1a1ad544019a5d03f9dce8ed0aa7843417" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void doctokenizerYYpushContext</definition>
+        <argsstring>()</argsstring>
+        <name>doctokenizerYYpushContext</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/doctokenizer.h" line="128"/>
+      </memberdef>
+      <memberdef kind="function" id="d0/d0c/doctokenizer_8h_1a44e35da7f5bb350b7efbc7d79a6301b9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool doctokenizerYYpopContext</definition>
+        <argsstring>()</argsstring>
+        <name>doctokenizerYYpopContext</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/doctokenizer.h" line="129"/>
+      </memberdef>
+      <memberdef kind="function" id="d0/d0c/doctokenizer_8h_1a3e518d095f77b1d681f54a27d8de5ef3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int doctokenizerYYlex</definition>
+        <argsstring>()</argsstring>
+        <name>doctokenizerYYlex</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/doctokenizer.h" line="130"/>
+      </memberdef>
+      <memberdef kind="function" id="d0/d0c/doctokenizer_8h_1a2aaff9c507b173362117117bdd1805de" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void doctokenizerYYsetStatePara</definition>
+        <argsstring>()</argsstring>
+        <name>doctokenizerYYsetStatePara</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/doctokenizer.h" line="131"/>
+      </memberdef>
+      <memberdef kind="function" id="d0/d0c/doctokenizer_8h_1a63c54ed5a866fe6df6e2a3b4b681fdc1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void doctokenizerYYsetStateTitle</definition>
+        <argsstring>()</argsstring>
+        <name>doctokenizerYYsetStateTitle</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/doctokenizer.h" line="132"/>
+      </memberdef>
+      <memberdef kind="function" id="d0/d0c/doctokenizer_8h_1aa341f65b931c443a65c1da020f9c0575" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void doctokenizerYYsetStateTitleAttrValue</definition>
+        <argsstring>()</argsstring>
+        <name>doctokenizerYYsetStateTitleAttrValue</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/doctokenizer.h" line="133"/>
+      </memberdef>
+      <memberdef kind="function" id="d0/d0c/doctokenizer_8h_1ad7bbf8187cf8035dae6572bc2074638b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void doctokenizerYYsetStateCode</definition>
+        <argsstring>()</argsstring>
+        <name>doctokenizerYYsetStateCode</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/doctokenizer.h" line="134"/>
+      </memberdef>
+      <memberdef kind="function" id="d0/d0c/doctokenizer_8h_1a83f3319c16bc4f5ed222920ebe9cd094" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void doctokenizerYYsetStateXmlCode</definition>
+        <argsstring>()</argsstring>
+        <name>doctokenizerYYsetStateXmlCode</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/doctokenizer.h" line="135"/>
+      </memberdef>
+      <memberdef kind="function" id="d0/d0c/doctokenizer_8h_1aabc8fb45704f763669cb779ad00eac8d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void doctokenizerYYsetStateHtmlOnly</definition>
+        <argsstring>()</argsstring>
+        <name>doctokenizerYYsetStateHtmlOnly</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/doctokenizer.h" line="136"/>
+      </memberdef>
+      <memberdef kind="function" id="d0/d0c/doctokenizer_8h_1a0e68fd576eb5c2993f504b19936b2d5b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void doctokenizerYYsetStateManOnly</definition>
+        <argsstring>()</argsstring>
+        <name>doctokenizerYYsetStateManOnly</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/doctokenizer.h" line="137"/>
+      </memberdef>
+      <memberdef kind="function" id="d0/d0c/doctokenizer_8h_1aedf23d1fdd2d3330e068120f1b322e37" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void doctokenizerYYsetStateLatexOnly</definition>
+        <argsstring>()</argsstring>
+        <name>doctokenizerYYsetStateLatexOnly</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/doctokenizer.h" line="138"/>
+      </memberdef>
+      <memberdef kind="function" id="d0/d0c/doctokenizer_8h_1a547733a2ce6a8c0e25f5d0749aa3f5fa" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void doctokenizerYYsetStateXmlOnly</definition>
+        <argsstring>()</argsstring>
+        <name>doctokenizerYYsetStateXmlOnly</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/doctokenizer.h" line="139"/>
+      </memberdef>
+      <memberdef kind="function" id="d0/d0c/doctokenizer_8h_1aaa58a7d460684f8f4b4016d68257193e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void doctokenizerYYsetStateDbOnly</definition>
+        <argsstring>()</argsstring>
+        <name>doctokenizerYYsetStateDbOnly</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/doctokenizer.h" line="140"/>
+      </memberdef>
+      <memberdef kind="function" id="d0/d0c/doctokenizer_8h_1acae75c924706d62377a86fe38d8b1347" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void doctokenizerYYsetStateRtfOnly</definition>
+        <argsstring>()</argsstring>
+        <name>doctokenizerYYsetStateRtfOnly</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/doctokenizer.h" line="141"/>
+      </memberdef>
+      <memberdef kind="function" id="d0/d0c/doctokenizer_8h_1aef6c57535e24c04a4f4f1c3167f0312b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void doctokenizerYYsetStateVerbatim</definition>
+        <argsstring>()</argsstring>
+        <name>doctokenizerYYsetStateVerbatim</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/doctokenizer.h" line="142"/>
+      </memberdef>
+      <memberdef kind="function" id="d0/d0c/doctokenizer_8h_1a12284a3bf0d5614ea1aac89c968014d0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void doctokenizerYYsetStateDot</definition>
+        <argsstring>()</argsstring>
+        <name>doctokenizerYYsetStateDot</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/doctokenizer.h" line="143"/>
+      </memberdef>
+      <memberdef kind="function" id="d0/d0c/doctokenizer_8h_1ad202c1e9db88a8f5c0d3ddad81729d18" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void doctokenizerYYsetStateMsc</definition>
+        <argsstring>()</argsstring>
+        <name>doctokenizerYYsetStateMsc</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/doctokenizer.h" line="144"/>
+      </memberdef>
+      <memberdef kind="function" id="d0/d0c/doctokenizer_8h_1a80daa02a4a285610d6b9ab7f9e1044f5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void doctokenizerYYsetStateParam</definition>
+        <argsstring>()</argsstring>
+        <name>doctokenizerYYsetStateParam</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/doctokenizer.h" line="145"/>
+      </memberdef>
+      <memberdef kind="function" id="d0/d0c/doctokenizer_8h_1aed7c2e03ad1c6f387c9f5d1e0b2f6e5c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void doctokenizerYYsetStateXRefItem</definition>
+        <argsstring>()</argsstring>
+        <name>doctokenizerYYsetStateXRefItem</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/doctokenizer.h" line="146"/>
+      </memberdef>
+      <memberdef kind="function" id="d0/d0c/doctokenizer_8h_1af2853fe98871a15614e098082c6390b0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void doctokenizerYYsetStateFile</definition>
+        <argsstring>()</argsstring>
+        <name>doctokenizerYYsetStateFile</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/doctokenizer.h" line="147"/>
+      </memberdef>
+      <memberdef kind="function" id="d0/d0c/doctokenizer_8h_1a46b7b5778fe56263a2f26d53303772fc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void doctokenizerYYsetStatePattern</definition>
+        <argsstring>()</argsstring>
+        <name>doctokenizerYYsetStatePattern</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/doctokenizer.h" line="148"/>
+      </memberdef>
+      <memberdef kind="function" id="d0/d0c/doctokenizer_8h_1ad41685e7ebe83cd14bf9c36145d93c75" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void doctokenizerYYsetStateLink</definition>
+        <argsstring>()</argsstring>
+        <name>doctokenizerYYsetStateLink</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/doctokenizer.h" line="149"/>
+      </memberdef>
+      <memberdef kind="function" id="d0/d0c/doctokenizer_8h_1af42238f1be74394fdb7436160c708586" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void doctokenizerYYsetStateCite</definition>
+        <argsstring>()</argsstring>
+        <name>doctokenizerYYsetStateCite</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/doctokenizer.h" line="150"/>
+      </memberdef>
+      <memberdef kind="function" id="d0/d0c/doctokenizer_8h_1aa824631822cf355273c15f3edf7bd962" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void doctokenizerYYsetStateRef</definition>
+        <argsstring>()</argsstring>
+        <name>doctokenizerYYsetStateRef</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/doctokenizer.h" line="151"/>
+      </memberdef>
+      <memberdef kind="function" id="d0/d0c/doctokenizer_8h_1a4c2f7d7ee941bcc3427479e1e64a30f0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void doctokenizerYYsetStateInternalRef</definition>
+        <argsstring>()</argsstring>
+        <name>doctokenizerYYsetStateInternalRef</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/doctokenizer.h" line="152"/>
+      </memberdef>
+      <memberdef kind="function" id="d0/d0c/doctokenizer_8h_1a49f0218a87e5afcc197d34cf922b9331" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void doctokenizerYYsetStateText</definition>
+        <argsstring>()</argsstring>
+        <name>doctokenizerYYsetStateText</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/doctokenizer.h" line="153"/>
+      </memberdef>
+      <memberdef kind="function" id="d0/d0c/doctokenizer_8h_1a2387759f8b10f2fd7adcfe0c5a6c36fa" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void doctokenizerYYsetStateSkipTitle</definition>
+        <argsstring>()</argsstring>
+        <name>doctokenizerYYsetStateSkipTitle</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/doctokenizer.h" line="154"/>
+      </memberdef>
+      <memberdef kind="function" id="d0/d0c/doctokenizer_8h_1a7cdee9515612b83cdf77ed1b30616d8f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void doctokenizerYYsetStateAnchor</definition>
+        <argsstring>()</argsstring>
+        <name>doctokenizerYYsetStateAnchor</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/doctokenizer.h" line="155"/>
+      </memberdef>
+      <memberdef kind="function" id="d0/d0c/doctokenizer_8h_1aaa52449c09f622600dae24e48939de13" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void doctokenizerYYsetInsidePre</definition>
+        <argsstring>(bool b)</argsstring>
+        <name>doctokenizerYYsetInsidePre</name>
+        <param>
+          <type>bool</type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/doctokenizer.h" line="156"/>
+      </memberdef>
+      <memberdef kind="function" id="d0/d0c/doctokenizer_8h_1ad040b79f378a00fdb88db12dbb3a4954" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void doctokenizerYYpushBackHtmlTag</definition>
+        <argsstring>(const char *tag)</argsstring>
+        <name>doctokenizerYYpushBackHtmlTag</name>
+        <param>
+          <type>const char *</type>
+          <declname>tag</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/doctokenizer.h" line="157"/>
+      </memberdef>
+      <memberdef kind="function" id="d0/d0c/doctokenizer_8h_1a2c2487633cc4d3a29c24864e45154748" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void doctokenizerYYsetStateSnippet</definition>
+        <argsstring>()</argsstring>
+        <name>doctokenizerYYsetStateSnippet</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/doctokenizer.h" line="158"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">/******************************************************************************</highlight></codeline>
+<codeline lineno="2"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="3"><highlight class="comment"><sp/>*<sp/>$Id:<sp/>$</highlight></codeline>
+<codeline lineno="4"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="5"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="6"><highlight class="comment"><sp/>*<sp/>Copyright<sp/>(C)<sp/>1997-2013<sp/>by<sp/>Dimitri<sp/>van<sp/>Heesch.</highlight></codeline>
+<codeline lineno="7"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="8"><highlight class="comment"><sp/>*<sp/>Permission<sp/>to<sp/>use,<sp/>copy,<sp/>modify,<sp/>and<sp/>distribute<sp/>this<sp/>software<sp/>and<sp/>its</highlight></codeline>
+<codeline lineno="9"><highlight class="comment"><sp/>*<sp/>documentation<sp/>under<sp/>the<sp/>terms<sp/>of<sp/>the<sp/>GNU<sp/>General<sp/>Public<sp/>License<sp/>is<sp/>hereby<sp/></highlight></codeline>
+<codeline lineno="10"><highlight class="comment"><sp/>*<sp/>granted.<sp/>No<sp/>representations<sp/>are<sp/>made<sp/>about<sp/>the<sp/>suitability<sp/>of<sp/>this<sp/>software<sp/></highlight></codeline>
+<codeline lineno="11"><highlight class="comment"><sp/>*<sp/>for<sp/>any<sp/>purpose.<sp/>It<sp/>is<sp/>provided<sp/>&quot;as<sp/>is&quot;<sp/>without<sp/>express<sp/>or<sp/>implied<sp/>warranty.</highlight></codeline>
+<codeline lineno="12"><highlight class="comment"><sp/>*<sp/>See<sp/>the<sp/>GNU<sp/>General<sp/>Public<sp/>License<sp/>for<sp/>more<sp/>details.</highlight></codeline>
+<codeline lineno="13"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="14"><highlight class="comment"><sp/>*<sp/>Documents<sp/>produced<sp/>by<sp/>Doxygen<sp/>are<sp/>derivative<sp/>works<sp/>derived<sp/>from<sp/>the</highlight></codeline>
+<codeline lineno="15"><highlight class="comment"><sp/>*<sp/>input<sp/>used<sp/>in<sp/>their<sp/>production;<sp/>they<sp/>are<sp/>not<sp/>affected<sp/>by<sp/>this<sp/>license.</highlight></codeline>
+<codeline lineno="16"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="17"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>_DOCTOKENIZER_H</highlight></codeline>
+<codeline lineno="20"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>_DOCTOKENIZER_H</highlight></codeline>
+<codeline lineno="21"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;qcstring.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;qlist.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stdio.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;htmlattrib.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="d5/dcc/class_definition" kindref="compound" tooltip="The common base class of all entity definitions found in the sources.">Definition</ref>;</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="da/d32/class_member_group" kindref="compound" tooltip="A class representing a group of members.">MemberGroup</ref>;</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"></highlight></codeline>
+<codeline lineno="30"><highlight class="normal"></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/>Tokens</highlight></codeline>
+<codeline lineno="31"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/>TK_WORD<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>1,</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/>TK_LNKWORD<sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>2,</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/>TK_WHITESPACE<sp/><sp/><sp/><sp/>=<sp/>3,</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/>TK_LISTITEM<sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>4,</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/>TK_ENDLIST<sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>5,</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/>TK_COMMAND<sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>6,</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/>TK_HTMLTAG<sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>7,</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/>TK_SYMBOL<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>8,</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/>TK_NEWPARA<sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>9,</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/>TK_RCSTAG<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>10,</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/>TK_URL<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>11,</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"></highlight></codeline>
+<codeline lineno="44"><highlight class="normal"><sp/><sp/>RetVal_OK<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>0x10000,</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"><sp/><sp/>RetVal_SimpleSec<sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>0x10001,</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"><sp/><sp/>RetVal_ListItem<sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>0x10002,</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"><sp/><sp/>RetVal_Section<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>0x10003,</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"><sp/><sp/>RetVal_Subsection<sp/><sp/><sp/><sp/><sp/>=<sp/>0x10004,</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"><sp/><sp/>RetVal_Subsubsection<sp/><sp/>=<sp/>0x10005,</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"><sp/><sp/>RetVal_Paragraph<sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>0x10006,</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"><sp/><sp/>RetVal_SubParagraph<sp/><sp/><sp/>=<sp/>0x10007,</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"><sp/><sp/>RetVal_EndList<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>0x10008,</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"><sp/><sp/>RetVal_EndPre<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>0x10009,</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"><sp/><sp/>RetVal_DescData<sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>0x1000A,</highlight></codeline>
+<codeline lineno="55"><highlight class="normal"><sp/><sp/>RetVal_DescTitle<sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>0x1000B,</highlight></codeline>
+<codeline lineno="56"><highlight class="normal"><sp/><sp/>RetVal_EndDesc<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>0x1000C,</highlight></codeline>
+<codeline lineno="57"><highlight class="normal"><sp/><sp/>RetVal_TableRow<sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>0x1000D,</highlight></codeline>
+<codeline lineno="58"><highlight class="normal"><sp/><sp/>RetVal_TableCell<sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>0x1000E,</highlight></codeline>
+<codeline lineno="59"><highlight class="normal"><sp/><sp/>RetVal_TableHCell<sp/><sp/><sp/><sp/><sp/>=<sp/>0x1000F,</highlight></codeline>
+<codeline lineno="60"><highlight class="normal"><sp/><sp/>RetVal_EndTable<sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>0x10010,</highlight></codeline>
+<codeline lineno="61"><highlight class="normal"><sp/><sp/>RetVal_Internal<sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>0x10011,</highlight></codeline>
+<codeline lineno="62"><highlight class="normal"><sp/><sp/>RetVal_SwitchLang<sp/><sp/><sp/><sp/><sp/>=<sp/>0x10012,</highlight></codeline>
+<codeline lineno="63"><highlight class="normal"><sp/><sp/>RetVal_CloseXml<sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>0x10013,</highlight></codeline>
+<codeline lineno="64"><highlight class="normal"><sp/><sp/>RetVal_EndBlockQuote<sp/><sp/>=<sp/>0x10014,</highlight></codeline>
+<codeline lineno="65"><highlight class="normal"><sp/><sp/>RetVal_CopyDoc<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>0x10015</highlight></codeline>
+<codeline lineno="66"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="67"><highlight class="normal"></highlight></codeline>
+<codeline lineno="69" refid="d6/df4/struct_token_info" refkind="compound"><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="d6/df4/struct_token_info" kindref="compound" tooltip="Data associated with a token used by the comment block parser.">TokenInfo</ref></highlight></codeline>
+<codeline lineno="70"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="71"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//<sp/>unknown<sp/>token</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="72"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>unknownChar;</highlight></codeline>
+<codeline lineno="73"><highlight class="normal"><sp/><sp/></highlight></codeline>
+<codeline lineno="74"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//<sp/>command<sp/>token</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="75"><highlight class="normal"><sp/><sp/>QCString<sp/>name;</highlight></codeline>
+<codeline lineno="76"><highlight class="normal"></highlight></codeline>
+<codeline lineno="77"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//<sp/>command<sp/>text<sp/>(RCS<sp/>tag)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="78"><highlight class="normal"><sp/><sp/>QCString<sp/>text;</highlight></codeline>
+<codeline lineno="79"><highlight class="normal"></highlight></codeline>
+<codeline lineno="80"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//<sp/>comment<sp/>blocks</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="81"><highlight class="normal"><sp/><sp/></highlight></codeline>
+<codeline lineno="82"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//<sp/>list<sp/>token<sp/>info</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="83"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>isEnumList;</highlight></codeline>
+<codeline lineno="84"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>indent;</highlight></codeline>
+<codeline lineno="85"><highlight class="normal"></highlight></codeline>
+<codeline lineno="86"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//<sp/>sections</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="87"><highlight class="normal"><sp/><sp/>QCString<sp/>sectionId;</highlight></codeline>
+<codeline lineno="88"><highlight class="normal"></highlight></codeline>
+<codeline lineno="89"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//<sp/>simple<sp/>section</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="90"><highlight class="normal"><sp/><sp/>QCString<sp/>simpleSectName;</highlight></codeline>
+<codeline lineno="91"><highlight class="normal"><sp/><sp/>QCString<sp/>simpleSectText;</highlight></codeline>
+<codeline lineno="92"><highlight class="normal"></highlight></codeline>
+<codeline lineno="93"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//<sp/>verbatim<sp/>fragment</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="94"><highlight class="normal"><sp/><sp/>QCString<sp/>verb;</highlight></codeline>
+<codeline lineno="95"><highlight class="normal"></highlight></codeline>
+<codeline lineno="96"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//<sp/>xrefitem</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="97"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>id;</highlight></codeline>
+<codeline lineno="98"><highlight class="normal"></highlight></codeline>
+<codeline lineno="99"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//<sp/>html<sp/>tag</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="100"><highlight class="normal"><sp/><sp/><ref refid="db/d4d/class_html_attrib_list" kindref="compound" tooltip="A list of Html attributes.">HtmlAttribList</ref><sp/>attribs;</highlight></codeline>
+<codeline lineno="101"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>endTag;</highlight></codeline>
+<codeline lineno="102"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>emptyTag;</highlight></codeline>
+<codeline lineno="103"><highlight class="normal"></highlight></codeline>
+<codeline lineno="104"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//<sp/>whitespace</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="105"><highlight class="normal"><sp/><sp/>QCString<sp/>chars;</highlight></codeline>
+<codeline lineno="106"><highlight class="normal"></highlight></codeline>
+<codeline lineno="107"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//<sp/>url</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="108"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>isEMailAddr;</highlight></codeline>
+<codeline lineno="109"><highlight class="normal"></highlight></codeline>
+<codeline lineno="110"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//<sp/>param<sp/>attributes</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="111"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/>ParamDir<sp/>{<sp/>In=1,<sp/>Out=2,<sp/>InOut=3,<sp/>Unspecified=0<sp/>};</highlight></codeline>
+<codeline lineno="112"><highlight class="normal"><sp/><sp/>ParamDir<sp/>paramDir;</highlight></codeline>
+<codeline lineno="113"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="114"><highlight class="normal"></highlight></codeline>
+<codeline lineno="115"><highlight class="normal"></highlight><highlight class="comment">//<sp/>globals</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="116"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/><ref refid="d6/df4/struct_token_info" kindref="compound" tooltip="Data associated with a token used by the comment block parser.">TokenInfo</ref><sp/>*g_token;</highlight></codeline>
+<codeline lineno="117"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>doctokenizerYYlineno;</highlight></codeline>
+<codeline lineno="118"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/>FILE<sp/>*doctokenizerYYin;</highlight></codeline>
+<codeline lineno="119"><highlight class="normal"></highlight></codeline>
+<codeline lineno="120"><highlight class="normal"></highlight><highlight class="comment">//<sp/>helper<sp/>functions</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="121"><highlight class="normal"></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*tokToString(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>token);</highlight></codeline>
+<codeline lineno="122"><highlight class="normal"></highlight></codeline>
+<codeline lineno="123"><highlight class="normal"></highlight><highlight class="comment">//<sp/>operations<sp/>on<sp/>the<sp/>scanner</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="124"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>doctokenizerYYFindSections(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*input,<ref refid="d5/dcc/class_definition" kindref="compound" tooltip="The common base class of all entity definitions found in the sources.">Definition</ref><sp/>*d,</highlight></codeline>
+<codeline lineno="125"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="da/d32/class_member_group" kindref="compound" tooltip="A class representing a group of members.">MemberGroup</ref><sp/>*mg,</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*fileName);</highlight></codeline>
+<codeline lineno="126"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>doctokenizerYYinit(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*input,</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*fileName);</highlight></codeline>
+<codeline lineno="127"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>doctokenizerYYcleanup();</highlight></codeline>
+<codeline lineno="128"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>doctokenizerYYpushContext();</highlight></codeline>
+<codeline lineno="129"><highlight class="normal"></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>doctokenizerYYpopContext();</highlight></codeline>
+<codeline lineno="130"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><sp/>doctokenizerYYlex();</highlight></codeline>
+<codeline lineno="131"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>doctokenizerYYsetStatePara();</highlight></codeline>
+<codeline lineno="132"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>doctokenizerYYsetStateTitle();</highlight></codeline>
+<codeline lineno="133"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>doctokenizerYYsetStateTitleAttrValue();</highlight></codeline>
+<codeline lineno="134"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>doctokenizerYYsetStateCode();</highlight></codeline>
+<codeline lineno="135"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>doctokenizerYYsetStateXmlCode();</highlight></codeline>
+<codeline lineno="136"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>doctokenizerYYsetStateHtmlOnly();</highlight></codeline>
+<codeline lineno="137"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>doctokenizerYYsetStateManOnly();</highlight></codeline>
+<codeline lineno="138"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>doctokenizerYYsetStateLatexOnly();</highlight></codeline>
+<codeline lineno="139"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>doctokenizerYYsetStateXmlOnly();</highlight></codeline>
+<codeline lineno="140"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>doctokenizerYYsetStateDbOnly();</highlight></codeline>
+<codeline lineno="141"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>doctokenizerYYsetStateRtfOnly();</highlight></codeline>
+<codeline lineno="142"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>doctokenizerYYsetStateVerbatim();</highlight></codeline>
+<codeline lineno="143"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>doctokenizerYYsetStateDot();</highlight></codeline>
+<codeline lineno="144"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>doctokenizerYYsetStateMsc();</highlight></codeline>
+<codeline lineno="145"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>doctokenizerYYsetStateParam();</highlight></codeline>
+<codeline lineno="146"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>doctokenizerYYsetStateXRefItem();</highlight></codeline>
+<codeline lineno="147"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>doctokenizerYYsetStateFile();</highlight></codeline>
+<codeline lineno="148"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>doctokenizerYYsetStatePattern();</highlight></codeline>
+<codeline lineno="149"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>doctokenizerYYsetStateLink();</highlight></codeline>
+<codeline lineno="150"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>doctokenizerYYsetStateCite();</highlight></codeline>
+<codeline lineno="151"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>doctokenizerYYsetStateRef();</highlight></codeline>
+<codeline lineno="152"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>doctokenizerYYsetStateInternalRef();</highlight></codeline>
+<codeline lineno="153"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>doctokenizerYYsetStateText();</highlight></codeline>
+<codeline lineno="154"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>doctokenizerYYsetStateSkipTitle();</highlight></codeline>
+<codeline lineno="155"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>doctokenizerYYsetStateAnchor();</highlight></codeline>
+<codeline lineno="156"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>doctokenizerYYsetInsidePre(</highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>b);</highlight></codeline>
+<codeline lineno="157"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>doctokenizerYYpushBackHtmlTag(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*tag);</highlight></codeline>
+<codeline lineno="158"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>doctokenizerYYsetStateSnippet();</highlight></codeline>
+<codeline lineno="159"><highlight class="normal"></highlight></codeline>
+<codeline lineno="160"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+    </programlisting>
+    <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/doctokenizer.h"/>
+  </compounddef>
+</doxygen>

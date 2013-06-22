@@ -1,0 +1,453 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.2">
+  <compounddef id="db/d32/class_doc_sets" kind="class" prot="public">
+    <compoundname>DocSets</compoundname>
+    <basecompoundref refid="d9/dd5/class_index_intf" prot="public" virt="non-virtual">IndexIntf</basecompoundref>
+    <includes refid="d1/db2/docsets_8h" local="no">docsets.h</includes>
+    <innerclass refid="d5/da4/struct_doc_sets_1_1_node_def" prot="private">DocSets::NodeDef</innerclass>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="db/d32/class_doc_sets_1a46a27ca06d58116605bdb9980cc845a1" prot="private" static="no" mutable="no">
+        <type>QFile *</type>
+        <definition>QFile* DocSets::m_nf</definition>
+        <argsstring></argsstring>
+        <name>m_nf</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/docsets.h" line="74" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/docsets.h" bodystart="74" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="db/d32/class_doc_sets_1a6d0ad8fe98bb3320842da5f77c7f83f4" prot="private" static="no" mutable="no">
+        <type>QFile *</type>
+        <definition>QFile* DocSets::m_tf</definition>
+        <argsstring></argsstring>
+        <name>m_tf</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/docsets.h" line="75" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/docsets.h" bodystart="75" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="db/d32/class_doc_sets_1a4a4e08bee0260b10186d1948412010a2" prot="private" static="no" mutable="no">
+        <type><ref refid="dc/d3c/class_f_text_stream" kindref="compound">FTextStream</ref></type>
+        <definition>FTextStream DocSets::m_nts</definition>
+        <argsstring></argsstring>
+        <name>m_nts</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/docsets.h" line="76" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/docsets.h" bodystart="76" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="db/d32/class_doc_sets_1a8f31ffcfb59265889546a93ce161d579" prot="private" static="no" mutable="no">
+        <type><ref refid="dc/d3c/class_f_text_stream" kindref="compound">FTextStream</ref></type>
+        <definition>FTextStream DocSets::m_tts</definition>
+        <argsstring></argsstring>
+        <name>m_tts</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/docsets.h" line="77" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/docsets.h" bodystart="77" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="db/d32/class_doc_sets_1a32795635f662fb2fcc284aa35beadabd" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int DocSets::m_dc</definition>
+        <argsstring></argsstring>
+        <name>m_dc</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/docsets.h" line="78" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/docsets.h" bodystart="78" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="db/d32/class_doc_sets_1a27e6e0b09ff97133bb37a43719643fd5" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int DocSets::m_id</definition>
+        <argsstring></argsstring>
+        <name>m_id</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/docsets.h" line="79" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/docsets.h" bodystart="79" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="db/d32/class_doc_sets_1a26a09124a43a10881c05b693fa0f8959" prot="private" static="no" mutable="no">
+        <type>QArray&lt; bool &gt;</type>
+        <definition>QArray&lt;bool&gt; DocSets::m_firstNode</definition>
+        <argsstring></argsstring>
+        <name>m_firstNode</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/docsets.h" line="80" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/docsets.h" bodystart="80" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="db/d32/class_doc_sets_1ab062151d063774927b2155fd264144c1" prot="private" static="no" mutable="no">
+        <type><ref refid="d1/d50/class_s_dict" kindref="compound">SDict</ref>&lt; NodeDef &gt;</type>
+        <definition>SDict&lt;NodeDef&gt; DocSets::m_nodes</definition>
+        <argsstring></argsstring>
+        <name>m_nodes</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/docsets.h" line="81" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/docsets.h" bodystart="81" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="db/d32/class_doc_sets_1a267625f820ef3d5389fac8b95cfc4fd9" prot="private" static="no" mutable="no">
+        <type><ref refid="d1/d50/class_s_dict" kindref="compound">SDict</ref>&lt; void &gt;</type>
+        <definition>SDict&lt;void&gt; DocSets::m_scopes</definition>
+        <argsstring></argsstring>
+        <name>m_scopes</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/docsets.h" line="82" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/docsets.h" bodystart="82" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="db/d32/class_doc_sets_1ad050cee55a579c4d01655f2041b5678b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>DocSets::DocSets</definition>
+        <argsstring>()</argsstring>
+        <name>DocSets</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/docsets.h" line="35" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/docsets.cpp" bodystart="28" bodyend="35"/>
+      </memberdef>
+      <memberdef kind="function" id="db/d32/class_doc_sets_1aa825df57a02ee969cb4ff64890aeb94f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>DocSets::~DocSets</definition>
+        <argsstring>()</argsstring>
+        <name>~DocSets</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/docsets.h" line="36" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/docsets.cpp" bodystart="37" bodyend="41"/>
+      </memberdef>
+      <memberdef kind="function" id="db/d32/class_doc_sets_1a7cad610aa745779c12a50c3dcf2cdf61" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void DocSets::initialize</definition>
+        <argsstring>()</argsstring>
+        <name>initialize</name>
+        <reimplements refid="d9/dd5/class_index_intf_1a0e46b4afa0ed269e2d089c8444590515">initialize</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/docsets.h" line="37" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/docsets.cpp" bodystart="43" bodyend="179"/>
+      </memberdef>
+      <memberdef kind="function" id="db/d32/class_doc_sets_1a8c00f9b45e88f7907db6a0e7488a7a0b" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void DocSets::finalize</definition>
+        <argsstring>()</argsstring>
+        <name>finalize</name>
+        <reimplements refid="d9/dd5/class_index_intf_1aa5532a767c4ac41167d014209b2ea8d7">finalize</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/docsets.h" line="38" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/docsets.cpp" bodystart="181" bodyend="200"/>
+      </memberdef>
+      <memberdef kind="function" id="db/d32/class_doc_sets_1a5840cce402cd857d80a49275c70d0000" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void DocSets::incContentsDepth</definition>
+        <argsstring>()</argsstring>
+        <name>incContentsDepth</name>
+        <reimplements refid="d9/dd5/class_index_intf_1ac5ff1647bcf1cc65543258df162a0a7c">incContentsDepth</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/docsets.h" line="39" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/docsets.cpp" bodystart="209" bodyend="219"/>
+      </memberdef>
+      <memberdef kind="function" id="db/d32/class_doc_sets_1a27dd321d6203de4d44b1b3b2fbc0a3a5" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void DocSets::decContentsDepth</definition>
+        <argsstring>()</argsstring>
+        <name>decContentsDepth</name>
+        <reimplements refid="d9/dd5/class_index_intf_1a920918399556e9afd4d927de3d1f4247">decContentsDepth</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/docsets.h" line="40" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/docsets.cpp" bodystart="221" bodyend="230"/>
+      </memberdef>
+      <memberdef kind="function" id="db/d32/class_doc_sets_1a5d641c4cf123b6a4e5ba33e9d6f36144" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void DocSets::addContentsItem</definition>
+        <argsstring>(bool isDir, const char *name, const char *ref, const char *file, const char *anchor, bool separateIndex, bool addToNavIndex, Definition *def)</argsstring>
+        <name>addContentsItem</name>
+        <reimplements refid="d9/dd5/class_index_intf_1aab43652b639ce5cd25f5b16e54e20f26">addContentsItem</reimplements>
+        <param>
+          <type>bool</type>
+          <declname>isDir</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>name</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>ref</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>file</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>anchor</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>separateIndex</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>addToNavIndex</declname>
+        </param>
+        <param>
+          <type><ref refid="d5/dcc/class_definition" kindref="compound">Definition</ref> *</type>
+          <declname>def</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/docsets.h" line="49" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/docsets.cpp" bodystart="232" bodyend="275"/>
+      </memberdef>
+      <memberdef kind="function" id="db/d32/class_doc_sets_1a5d979532e4ed0249c960401d1a163f8a" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void DocSets::addIndexItem</definition>
+        <argsstring>(Definition *context, MemberDef *md, const char *sectionAnchor, const char *title)</argsstring>
+        <name>addIndexItem</name>
+        <reimplements refid="d9/dd5/class_index_intf_1a762276e6f0229fb784a592acd2cf6a8b">addIndexItem</reimplements>
+        <param>
+          <type><ref refid="d5/dcc/class_definition" kindref="compound">Definition</ref> *</type>
+          <declname>context</declname>
+        </param>
+        <param>
+          <type><ref refid="da/d09/class_member_def" kindref="compound">MemberDef</ref> *</type>
+          <declname>md</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>sectionAnchor</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>title</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/docsets.h" line="51" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/docsets.cpp" bodystart="277" bodyend="488"/>
+      </memberdef>
+      <memberdef kind="function" id="db/d32/class_doc_sets_1ae9fc1949f8b1101a7f854292f7d0a4a2" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void DocSets::addIndexFile</definition>
+        <argsstring>(const char *name)</argsstring>
+        <name>addIndexFile</name>
+        <reimplements refid="d9/dd5/class_index_intf_1a153c5c5995155d112c33fed544b44094">addIndexFile</reimplements>
+        <param>
+          <type>const char *</type>
+          <declname>name</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/docsets.h" line="52" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/docsets.cpp" bodystart="534" bodyend="537"/>
+      </memberdef>
+      <memberdef kind="function" id="db/d32/class_doc_sets_1ae7cab9023e6c8e4d2d16144d3c5907c6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>void DocSets::addImageFile</definition>
+        <argsstring>(const char *)</argsstring>
+        <name>addImageFile</name>
+        <reimplements refid="d9/dd5/class_index_intf_1ac1650d4596d97cdd1de428b06a76daad">addImageFile</reimplements>
+        <param>
+          <type>const char *</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/docsets.h" line="53" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/docsets.h" bodystart="53" bodyend="53"/>
+      </memberdef>
+      <memberdef kind="function" id="db/d32/class_doc_sets_1a6c482a3663c7ed24debd7507f8977c7a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>void DocSets::addStyleSheetFile</definition>
+        <argsstring>(const char *)</argsstring>
+        <name>addStyleSheetFile</name>
+        <reimplements refid="d9/dd5/class_index_intf_1a3989fce1306feb90e477cb53fd0daee0">addStyleSheetFile</reimplements>
+        <param>
+          <type>const char *</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/docsets.h" line="54" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/docsets.h" bodystart="54" bodyend="54"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="db/d32/class_doc_sets_1a4cf80dc774a68bd07dec00f057cfbfff" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void DocSets::writeToken</definition>
+        <argsstring>(FTextStream &amp;t, const Definition *d, const QCString &amp;type, const QCString &amp;lang, const char *scope=0, const char *anchor=0, const char *decl=0)</argsstring>
+        <name>writeToken</name>
+        <param>
+          <type><ref refid="dc/d3c/class_f_text_stream" kindref="compound">FTextStream</ref> &amp;</type>
+          <declname>t</declname>
+        </param>
+        <param>
+          <type>const <ref refid="d5/dcc/class_definition" kindref="compound">Definition</ref> *</type>
+          <declname>d</declname>
+        </param>
+        <param>
+          <type>const QCString &amp;</type>
+          <declname>type</declname>
+        </param>
+        <param>
+          <type>const QCString &amp;</type>
+          <declname>lang</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>scope</declname>
+          <defval>0</defval>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>anchor</declname>
+          <defval>0</defval>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>decl</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/docsets.h" line="60" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/docsets.cpp" bodystart="490" bodyend="532"/>
+      </memberdef>
+      <memberdef kind="function" id="db/d32/class_doc_sets_1aed45830196475362671417445ce22fce" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>QCString</type>
+        <definition>QCString DocSets::indent</definition>
+        <argsstring>()</argsstring>
+        <name>indent</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/docsets.h" line="73" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/docsets.cpp" bodystart="202" bodyend="207"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>A class that generates docset files. </para>    </briefdescription>
+    <detaileddescription>
+<para>These files can be used to create context help for use within Apple&apos;s Xcode 3.0 development environment </para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="3206">
+        <label>DocSets</label>
+        <link refid="db/d32/class_doc_sets"/>
+        <childnode refid="3207" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3207">
+        <label>IndexIntf</label>
+        <link refid="d9/dd5/class_index_intf"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="3208">
+        <label>DocSets</label>
+        <link refid="db/d32/class_doc_sets"/>
+        <childnode refid="3209" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3209">
+        <label>IndexIntf</label>
+        <link refid="d9/dd5/class_index_intf"/>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/docsets.h" line="32" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/docsets.h" bodystart="31" bodyend="83"/>
+    <listofallmembers>
+      <member refid="db/d32/class_doc_sets_1a5d641c4cf123b6a4e5ba33e9d6f36144" prot="public" virt="virtual"><scope>DocSets</scope><name>addContentsItem</name></member>
+      <member refid="db/d32/class_doc_sets_1ae7cab9023e6c8e4d2d16144d3c5907c6" prot="public" virt="virtual"><scope>DocSets</scope><name>addImageFile</name></member>
+      <member refid="db/d32/class_doc_sets_1ae9fc1949f8b1101a7f854292f7d0a4a2" prot="public" virt="virtual"><scope>DocSets</scope><name>addIndexFile</name></member>
+      <member refid="db/d32/class_doc_sets_1a5d979532e4ed0249c960401d1a163f8a" prot="public" virt="virtual"><scope>DocSets</scope><name>addIndexItem</name></member>
+      <member refid="db/d32/class_doc_sets_1a6c482a3663c7ed24debd7507f8977c7a" prot="public" virt="virtual"><scope>DocSets</scope><name>addStyleSheetFile</name></member>
+      <member refid="db/d32/class_doc_sets_1a27dd321d6203de4d44b1b3b2fbc0a3a5" prot="public" virt="virtual"><scope>DocSets</scope><name>decContentsDepth</name></member>
+      <member refid="db/d32/class_doc_sets_1ad050cee55a579c4d01655f2041b5678b" prot="public" virt="non-virtual"><scope>DocSets</scope><name>DocSets</name></member>
+      <member refid="db/d32/class_doc_sets_1a8c00f9b45e88f7907db6a0e7488a7a0b" prot="public" virt="virtual"><scope>DocSets</scope><name>finalize</name></member>
+      <member refid="db/d32/class_doc_sets_1a5840cce402cd857d80a49275c70d0000" prot="public" virt="virtual"><scope>DocSets</scope><name>incContentsDepth</name></member>
+      <member refid="db/d32/class_doc_sets_1aed45830196475362671417445ce22fce" prot="private" virt="non-virtual"><scope>DocSets</scope><name>indent</name></member>
+      <member refid="db/d32/class_doc_sets_1a7cad610aa745779c12a50c3dcf2cdf61" prot="public" virt="virtual"><scope>DocSets</scope><name>initialize</name></member>
+      <member refid="db/d32/class_doc_sets_1a32795635f662fb2fcc284aa35beadabd" prot="private" virt="non-virtual"><scope>DocSets</scope><name>m_dc</name></member>
+      <member refid="db/d32/class_doc_sets_1a26a09124a43a10881c05b693fa0f8959" prot="private" virt="non-virtual"><scope>DocSets</scope><name>m_firstNode</name></member>
+      <member refid="db/d32/class_doc_sets_1a27e6e0b09ff97133bb37a43719643fd5" prot="private" virt="non-virtual"><scope>DocSets</scope><name>m_id</name></member>
+      <member refid="db/d32/class_doc_sets_1a46a27ca06d58116605bdb9980cc845a1" prot="private" virt="non-virtual"><scope>DocSets</scope><name>m_nf</name></member>
+      <member refid="db/d32/class_doc_sets_1ab062151d063774927b2155fd264144c1" prot="private" virt="non-virtual"><scope>DocSets</scope><name>m_nodes</name></member>
+      <member refid="db/d32/class_doc_sets_1a4a4e08bee0260b10186d1948412010a2" prot="private" virt="non-virtual"><scope>DocSets</scope><name>m_nts</name></member>
+      <member refid="db/d32/class_doc_sets_1a267625f820ef3d5389fac8b95cfc4fd9" prot="private" virt="non-virtual"><scope>DocSets</scope><name>m_scopes</name></member>
+      <member refid="db/d32/class_doc_sets_1a6d0ad8fe98bb3320842da5f77c7f83f4" prot="private" virt="non-virtual"><scope>DocSets</scope><name>m_tf</name></member>
+      <member refid="db/d32/class_doc_sets_1a8f31ffcfb59265889546a93ce161d579" prot="private" virt="non-virtual"><scope>DocSets</scope><name>m_tts</name></member>
+      <member refid="db/d32/class_doc_sets_1a4cf80dc774a68bd07dec00f057cfbfff" prot="private" virt="non-virtual"><scope>DocSets</scope><name>writeToken</name></member>
+      <member refid="db/d32/class_doc_sets_1aa825df57a02ee969cb4ff64890aeb94f" prot="public" virt="non-virtual"><scope>DocSets</scope><name>~DocSets</name></member>
+      <member refid="d9/dd5/class_index_intf_1aa97a03b1de6ccb0d35b33cbf44d69f2a" prot="public" virt="virtual"><scope>DocSets</scope><name>~IndexIntf</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

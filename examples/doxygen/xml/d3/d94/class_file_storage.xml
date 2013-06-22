@@ -1,0 +1,232 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.2">
+  <compounddef id="d3/d94/class_file_storage" kind="class" prot="public">
+    <compoundname>FileStorage</compoundname>
+    <basecompoundref refid="d7/db0/class_storage_intf" prot="public" virt="non-virtual">StorageIntf</basecompoundref>
+    <includes refid="dd/da1/filestorage_8h" local="no">filestorage.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="d3/d94/class_file_storage_1a4f2fdc3f0969e5769dbd592f9b714568" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool FileStorage::m_readOnly</definition>
+        <argsstring></argsstring>
+        <name>m_readOnly</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/filestorage.h" line="42" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/filestorage.h" bodystart="42" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d3/d94/class_file_storage_1a7b29c7d7bb80ec0dd9bac5414ad90331" prot="private" static="no" mutable="no">
+        <type>QFile</type>
+        <definition>QFile FileStorage::m_file</definition>
+        <argsstring></argsstring>
+        <name>m_file</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/filestorage.h" line="43" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/filestorage.h" bodystart="43" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="d3/d94/class_file_storage_1a3a88a71218e6e8cb6c7af942ac1daf47" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>FileStorage::FileStorage</definition>
+        <argsstring>()</argsstring>
+        <name>FileStorage</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/filestorage.h" line="31" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/filestorage.h" bodystart="31" bodyend="31"/>
+      </memberdef>
+      <memberdef kind="function" id="d3/d94/class_file_storage_1afa4f6304190c22b38d504402aeeb8d12" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>FileStorage::FileStorage</definition>
+        <argsstring>(const QString &amp;name)</argsstring>
+        <name>FileStorage</name>
+        <param>
+          <type>const QString &amp;</type>
+          <declname>name</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/filestorage.h" line="33" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/filestorage.h" bodystart="32" bodyend="33"/>
+      </memberdef>
+      <memberdef kind="function" id="d3/d94/class_file_storage_1ae28163449c4c40730b5e27b75362e22d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>int</type>
+        <definition>int FileStorage::read</definition>
+        <argsstring>(char *buf, uint size)</argsstring>
+        <name>read</name>
+        <reimplements refid="d7/db0/class_storage_intf_1a125b99d1511364f4fe49709feec46bb4">read</reimplements>
+        <param>
+          <type>char *</type>
+          <declname>buf</declname>
+        </param>
+        <param>
+          <type>uint</type>
+          <declname>size</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Read <emphasis>size</emphasis> bytes from the store into <emphasis>buf</emphasis>. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/filestorage.h" line="34" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/filestorage.h" bodystart="34" bodyend="34"/>
+      </memberdef>
+      <memberdef kind="function" id="d3/d94/class_file_storage_1a9f680051229bda7bca2639e5464bca77" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>int</type>
+        <definition>int FileStorage::write</definition>
+        <argsstring>(const char *buf, uint size)</argsstring>
+        <name>write</name>
+        <reimplements refid="d7/db0/class_storage_intf_1a97b26023c6cf0590423e428947d6febb">write</reimplements>
+        <param>
+          <type>const char *</type>
+          <declname>buf</declname>
+        </param>
+        <param>
+          <type>uint</type>
+          <declname>size</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Write <emphasis>size</emphasis> bytes from <emphasis>buf</emphasis> into the store. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/filestorage.h" line="35" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/filestorage.h" bodystart="35" bodyend="35"/>
+      </memberdef>
+      <memberdef kind="function" id="d3/d94/class_file_storage_1ae033a7582c81d34ce0dba7e3b9e261a4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool FileStorage::open</definition>
+        <argsstring>(int m)</argsstring>
+        <name>open</name>
+        <param>
+          <type>int</type>
+          <declname>m</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/filestorage.h" line="36" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/filestorage.h" bodystart="36" bodyend="36"/>
+      </memberdef>
+      <memberdef kind="function" id="d3/d94/class_file_storage_1a1eccec51152846d9793e81abe6be2f3d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool FileStorage::seek</definition>
+        <argsstring>(int64 pos)</argsstring>
+        <name>seek</name>
+        <param>
+          <type>int64</type>
+          <declname>pos</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/filestorage.h" line="37" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/filestorage.h" bodystart="37" bodyend="37"/>
+      </memberdef>
+      <memberdef kind="function" id="d3/d94/class_file_storage_1aca71d590a66b59c587cdda09317ede93" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>int64</type>
+        <definition>int64 FileStorage::pos</definition>
+        <argsstring>() const </argsstring>
+        <name>pos</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/filestorage.h" line="38" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/filestorage.h" bodystart="38" bodyend="38"/>
+      </memberdef>
+      <memberdef kind="function" id="d3/d94/class_file_storage_1a117ef83c02af566b40f58d9e7c93dbfd" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void FileStorage::close</definition>
+        <argsstring>()</argsstring>
+        <name>close</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/filestorage.h" line="39" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/filestorage.h" bodystart="39" bodyend="39"/>
+      </memberdef>
+      <memberdef kind="function" id="d3/d94/class_file_storage_1a34fae2b5ed8a461f14648784058098e2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void FileStorage::setName</definition>
+        <argsstring>(const char *name)</argsstring>
+        <name>setName</name>
+        <param>
+          <type>const char *</type>
+          <declname>name</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/filestorage.h" line="40" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/filestorage.h" bodystart="40" bodyend="40"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para><ref refid="db/d9d/class_store" kindref="compound">Store</ref> implementation based on a file. </para>    </briefdescription>
+    <detaileddescription>
+<para>Writing is linear, after that the file is re-opened for reading. Reading is random (seek+read). </para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="3445">
+        <label>FileStorage</label>
+        <link refid="d3/d94/class_file_storage"/>
+        <childnode refid="3446" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3446">
+        <label>StorageIntf</label>
+        <link refid="d7/db0/class_storage_intf"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="3447">
+        <label>FileStorage</label>
+        <link refid="d3/d94/class_file_storage"/>
+        <childnode refid="3448" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3448">
+        <label>StorageIntf</label>
+        <link refid="d7/db0/class_storage_intf"/>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/filestorage.h" line="29" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/filestorage.h" bodystart="28" bodyend="44"/>
+    <listofallmembers>
+      <member refid="d3/d94/class_file_storage_1a117ef83c02af566b40f58d9e7c93dbfd" prot="public" virt="non-virtual"><scope>FileStorage</scope><name>close</name></member>
+      <member refid="d3/d94/class_file_storage_1a3a88a71218e6e8cb6c7af942ac1daf47" prot="public" virt="non-virtual"><scope>FileStorage</scope><name>FileStorage</name></member>
+      <member refid="d3/d94/class_file_storage_1afa4f6304190c22b38d504402aeeb8d12" prot="public" virt="non-virtual"><scope>FileStorage</scope><name>FileStorage</name></member>
+      <member refid="d3/d94/class_file_storage_1a7b29c7d7bb80ec0dd9bac5414ad90331" prot="private" virt="non-virtual"><scope>FileStorage</scope><name>m_file</name></member>
+      <member refid="d3/d94/class_file_storage_1a4f2fdc3f0969e5769dbd592f9b714568" prot="private" virt="non-virtual"><scope>FileStorage</scope><name>m_readOnly</name></member>
+      <member refid="d3/d94/class_file_storage_1ae033a7582c81d34ce0dba7e3b9e261a4" prot="public" virt="non-virtual"><scope>FileStorage</scope><name>open</name></member>
+      <member refid="d3/d94/class_file_storage_1aca71d590a66b59c587cdda09317ede93" prot="public" virt="non-virtual"><scope>FileStorage</scope><name>pos</name></member>
+      <member refid="d3/d94/class_file_storage_1ae28163449c4c40730b5e27b75362e22d" prot="public" virt="virtual"><scope>FileStorage</scope><name>read</name></member>
+      <member refid="d3/d94/class_file_storage_1a1eccec51152846d9793e81abe6be2f3d" prot="public" virt="non-virtual"><scope>FileStorage</scope><name>seek</name></member>
+      <member refid="d3/d94/class_file_storage_1a34fae2b5ed8a461f14648784058098e2" prot="public" virt="non-virtual"><scope>FileStorage</scope><name>setName</name></member>
+      <member refid="d3/d94/class_file_storage_1a9f680051229bda7bca2639e5464bca77" prot="public" virt="virtual"><scope>FileStorage</scope><name>write</name></member>
+      <member refid="d7/db0/class_storage_intf_1a20aa41248a1ea20f9829cce656171bd0" prot="public" virt="virtual"><scope>FileStorage</scope><name>~StorageIntf</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,116 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.2">
+  <compounddef id="d8/d0d/class_tag_dir_info" kind="class" prot="public">
+    <compoundname>TagDirInfo</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="d8/d0d/class_tag_dir_info_1a5cfeefe508646d16441497e8fedf5781" prot="public" static="no" mutable="no">
+        <type>QCString</type>
+        <definition>QCString TagDirInfo::name</definition>
+        <argsstring></argsstring>
+        <name>name</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/tagreader.cpp" line="185" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/tagreader.cpp" bodystart="185" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d8/d0d/class_tag_dir_info_1aa23bec9b1cf39df5803c6d6d2a8a4023" prot="public" static="no" mutable="no">
+        <type>QCString</type>
+        <definition>QCString TagDirInfo::filename</definition>
+        <argsstring></argsstring>
+        <name>filename</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/tagreader.cpp" line="186" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/tagreader.cpp" bodystart="186" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d8/d0d/class_tag_dir_info_1a55aa3de3e3bfdd5dbf01f59356459ccd" prot="public" static="no" mutable="no">
+        <type>QCString</type>
+        <definition>QCString TagDirInfo::path</definition>
+        <argsstring></argsstring>
+        <name>path</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/tagreader.cpp" line="187" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/tagreader.cpp" bodystart="187" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d8/d0d/class_tag_dir_info_1aa92f9d1b26a45555036ae1fd4b32600e" prot="public" static="no" mutable="no">
+        <type>QStringList</type>
+        <definition>QStringList TagDirInfo::subdirList</definition>
+        <argsstring></argsstring>
+        <name>subdirList</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/tagreader.cpp" line="188" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/tagreader.cpp" bodystart="188" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d8/d0d/class_tag_dir_info_1a768be96c04e1196b7383de14306752b3" prot="public" static="no" mutable="no">
+        <type>QStringList</type>
+        <definition>QStringList TagDirInfo::fileList</definition>
+        <argsstring></argsstring>
+        <name>fileList</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/tagreader.cpp" line="189" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/tagreader.cpp" bodystart="189" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d8/d0d/class_tag_dir_info_1af9cee7f9aab8052dcfae09a6c04cbbe1" prot="public" static="no" mutable="no">
+        <type>TagAnchorInfoList</type>
+        <definition>TagAnchorInfoList TagDirInfo::docAnchors</definition>
+        <argsstring></argsstring>
+        <name>docAnchors</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/tagreader.cpp" line="190" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/tagreader.cpp" bodystart="190" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Container for directory specific info that can be read from a tagfile. </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="4204">
+        <label>TagDirInfo</label>
+        <childnode refid="4205" relation="usage">
+          <edgelabel>docAnchors</edgelabel>
+        </childnode>
+      </node>
+      <node id="4205">
+        <label>TagAnchorInfoList</label>
+        <childnode refid="4206" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4206">
+        <label>QList&lt; TagAnchorInfo &gt;</label>
+        <link refid="db/daa/class_q_list"/>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/tagreader.cpp" line="183" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/tagreader.cpp" bodystart="182" bodyend="191"/>
+    <listofallmembers>
+      <member refid="d8/d0d/class_tag_dir_info_1af9cee7f9aab8052dcfae09a6c04cbbe1" prot="public" virt="non-virtual"><scope>TagDirInfo</scope><name>docAnchors</name></member>
+      <member refid="d8/d0d/class_tag_dir_info_1a768be96c04e1196b7383de14306752b3" prot="public" virt="non-virtual"><scope>TagDirInfo</scope><name>fileList</name></member>
+      <member refid="d8/d0d/class_tag_dir_info_1aa23bec9b1cf39df5803c6d6d2a8a4023" prot="public" virt="non-virtual"><scope>TagDirInfo</scope><name>filename</name></member>
+      <member refid="d8/d0d/class_tag_dir_info_1a5cfeefe508646d16441497e8fedf5781" prot="public" virt="non-virtual"><scope>TagDirInfo</scope><name>name</name></member>
+      <member refid="d8/d0d/class_tag_dir_info_1a55aa3de3e3bfdd5dbf01f59356459ccd" prot="public" virt="non-virtual"><scope>TagDirInfo</scope><name>path</name></member>
+      <member refid="d8/d0d/class_tag_dir_info_1aa92f9d1b26a45555036ae1fd4b32600e" prot="public" virt="non-virtual"><scope>TagDirInfo</scope><name>subdirList</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

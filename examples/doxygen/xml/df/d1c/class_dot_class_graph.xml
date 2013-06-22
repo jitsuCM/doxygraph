@@ -1,0 +1,412 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.2">
+  <compounddef id="df/d1c/class_dot_class_graph" kind="class" prot="public">
+    <compoundname>DotClassGraph</compoundname>
+    <includes refid="d6/d4a/dot_8h" local="no">dot.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="df/d1c/class_dot_class_graph_1a57b5e1d953fda738be0fe623cc5a219f" prot="private" static="no" mutable="no">
+        <type><ref refid="dd/d7e/class_dot_node" kindref="compound">DotNode</ref> *</type>
+        <definition>DotNode* DotClassGraph::m_startNode</definition>
+        <argsstring></argsstring>
+        <name>m_startNode</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/dot.h" line="185" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/dot.h" bodystart="185" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="df/d1c/class_dot_class_graph_1adc9fffc74d1644fbd6ebfde87e0ad85c" prot="private" static="no" mutable="no">
+        <type>QDict&lt; <ref refid="dd/d7e/class_dot_node" kindref="compound">DotNode</ref> &gt; *</type>
+        <definition>QDict&lt;DotNode&gt;* DotClassGraph::m_usedNodes</definition>
+        <argsstring></argsstring>
+        <name>m_usedNodes</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/dot.h" line="186" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/dot.h" bodystart="186" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="df/d1c/class_dot_class_graph_1a63f49317f97e93ed44bac4d62c789fa1" prot="private" static="no" mutable="no">
+        <type>DotNode::GraphType</type>
+        <definition>DotNode::GraphType DotClassGraph::m_graphType</definition>
+        <argsstring></argsstring>
+        <name>m_graphType</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/dot.h" line="188" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/dot.h" bodystart="188" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="df/d1c/class_dot_class_graph_1aecced1ed5d012a661a8061ef7216bcc4" prot="private" static="no" mutable="no">
+        <type>QCString</type>
+        <definition>QCString DotClassGraph::m_diskName</definition>
+        <argsstring></argsstring>
+        <name>m_diskName</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/dot.h" line="189" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/dot.h" bodystart="189" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="df/d1c/class_dot_class_graph_1a8773d600872b3ebf14b547cf12a36a57" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool DotClassGraph::m_lrRank</definition>
+        <argsstring></argsstring>
+        <name>m_lrRank</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/dot.h" line="190" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/dot.h" bodystart="190" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="df/d1c/class_dot_class_graph_1af4f9aeda652e38b53a01b48ff767ccd9" prot="private" static="yes" mutable="no">
+        <type>int</type>
+        <definition>int DotClassGraph::m_curNodeNumber</definition>
+        <argsstring></argsstring>
+        <name>m_curNodeNumber</name>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/dot.h" line="187" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/dot.h" bodystart="187" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="df/d1c/class_dot_class_graph_1a58b57d060db4c9c4127e13719ed497b0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>DotClassGraph::DotClassGraph</definition>
+        <argsstring>(ClassDef *cd, DotNode::GraphType t)</argsstring>
+        <name>DotClassGraph</name>
+        <param>
+          <type><ref refid="d1/dcf/class_class_def" kindref="compound">ClassDef</ref> *</type>
+          <declname>cd</declname>
+        </param>
+        <param>
+          <type>DotNode::GraphType</type>
+          <declname>t</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/dot.h" line="164" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/dot.cpp" bodystart="2882" bodyend="2929"/>
+      </memberdef>
+      <memberdef kind="function" id="df/d1c/class_dot_class_graph_1a0b61a10dee46f6b05575aa3d1b6c8800" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>DotClassGraph::~DotClassGraph</definition>
+        <argsstring>()</argsstring>
+        <name>~DotClassGraph</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/dot.h" line="165" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/dot.cpp" bodystart="2952" bodyend="2956"/>
+      </memberdef>
+      <memberdef kind="function" id="df/d1c/class_dot_class_graph_1a11e509dc8e9341a448a9e19e079122c5" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool DotClassGraph::isTrivial</definition>
+        <argsstring>() const </argsstring>
+        <name>isTrivial</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/dot.h" line="166" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/dot.cpp" bodystart="2931" bodyend="2938"/>
+      </memberdef>
+      <memberdef kind="function" id="df/d1c/class_dot_class_graph_1a357c7131aa9501d65a91ae3493511ae5" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool DotClassGraph::isTooBig</definition>
+        <argsstring>() const </argsstring>
+        <name>isTooBig</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/dot.h" line="167" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/dot.cpp" bodystart="2940" bodyend="2950"/>
+      </memberdef>
+      <memberdef kind="function" id="df/d1c/class_dot_class_graph_1a595a98a978326a21e44fb9e298d651ae" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>QCString</type>
+        <definition>QCString DotClassGraph::writeGraph</definition>
+        <argsstring>(FTextStream &amp;t, GraphOutputFormat f, const char *path, const char *fileName, const char *relPath, bool TBRank=TRUE, bool imageMap=TRUE, int graphId=-1) const </argsstring>
+        <name>writeGraph</name>
+        <param>
+          <type><ref refid="dc/d3c/class_f_text_stream" kindref="compound">FTextStream</ref> &amp;</type>
+          <declname>t</declname>
+        </param>
+        <param>
+          <type>GraphOutputFormat</type>
+          <declname>f</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>path</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>fileName</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>relPath</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>TBRank</declname>
+          <defval>TRUE</defval>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>imageMap</declname>
+          <defval>TRUE</defval>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>graphId</declname>
+          <defval>-1</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/dot.h" line="170" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/dot.cpp" bodystart="3076" bodyend="3222"/>
+      </memberdef>
+      <memberdef kind="function" id="df/d1c/class_dot_class_graph_1ab0c9eaee7ee8abd4ffe7f849dd449da8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void DotClassGraph::writeXML</definition>
+        <argsstring>(FTextStream &amp;t)</argsstring>
+        <name>writeXML</name>
+        <param>
+          <type><ref refid="dc/d3c/class_f_text_stream" kindref="compound">FTextStream</ref> &amp;</type>
+          <declname>t</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/dot.h" line="172" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/dot.cpp" bodystart="3226" bodyend="3234"/>
+      </memberdef>
+      <memberdef kind="function" id="df/d1c/class_dot_class_graph_1a0b0d779c62489f345b60ae041bfbb61b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void DotClassGraph::writeDocbook</definition>
+        <argsstring>(FTextStream &amp;t)</argsstring>
+        <name>writeDocbook</name>
+        <param>
+          <type><ref refid="dc/d3c/class_f_text_stream" kindref="compound">FTextStream</ref> &amp;</type>
+          <declname>t</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/dot.h" line="173" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/dot.cpp" bodystart="3236" bodyend="3244"/>
+      </memberdef>
+      <memberdef kind="function" id="df/d1c/class_dot_class_graph_1a58ac0d426aa0e05f0624ea0aff1cfb11" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void DotClassGraph::writeDEF</definition>
+        <argsstring>(FTextStream &amp;t)</argsstring>
+        <name>writeDEF</name>
+        <param>
+          <type><ref refid="dc/d3c/class_f_text_stream" kindref="compound">FTextStream</ref> &amp;</type>
+          <declname>t</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/dot.h" line="174" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/dot.cpp" bodystart="3246" bodyend="3254"/>
+      </memberdef>
+      <memberdef kind="function" id="df/d1c/class_dot_class_graph_1aa6398077933d87119962200e22a4b295" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>QCString</type>
+        <definition>QCString DotClassGraph::diskName</definition>
+        <argsstring>() const </argsstring>
+        <name>diskName</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/dot.h" line="175" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/dot.cpp" bodystart="3055" bodyend="3074"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="df/d1c/class_dot_class_graph_1a66a5b4aa7d794396a1c5d2a16bc3cda0" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void DotClassGraph::buildGraph</definition>
+        <argsstring>(ClassDef *cd, DotNode *n, bool base, int distance)</argsstring>
+        <name>buildGraph</name>
+        <param>
+          <type><ref refid="d1/dcf/class_class_def" kindref="compound">ClassDef</ref> *</type>
+          <declname>cd</declname>
+        </param>
+        <param>
+          <type><ref refid="dd/d7e/class_dot_node" kindref="compound">DotNode</ref> *</type>
+          <declname>n</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>base</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>distance</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/dot.h" line="178" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/dot.cpp" bodystart="2781" bodyend="2880"/>
+      </memberdef>
+      <memberdef kind="function" id="df/d1c/class_dot_class_graph_1a71cb7cce72603b64606e7897c3b90e0b" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool DotClassGraph::determineVisibleNodes</definition>
+        <argsstring>(DotNode *rootNode, int maxNodes, bool includeParents)</argsstring>
+        <name>determineVisibleNodes</name>
+        <param>
+          <type><ref refid="dd/d7e/class_dot_node" kindref="compound">DotNode</ref> *</type>
+          <declname>rootNode</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>maxNodes</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>includeParents</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/dot.h" line="179" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/dot.cpp" bodystart="2686" bodyend="2779"/>
+      </memberdef>
+      <memberdef kind="function" id="df/d1c/class_dot_class_graph_1a11bf54d429575518b1c499740625dc9a" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void DotClassGraph::determineTruncatedNodes</definition>
+        <argsstring>(QList&lt; DotNode &gt; &amp;queue, bool includeParents)</argsstring>
+        <name>determineTruncatedNodes</name>
+        <param>
+          <type><ref refid="db/daa/class_q_list" kindref="compound">QList</ref>&lt; <ref refid="dd/d7e/class_dot_node" kindref="compound">DotNode</ref> &gt; &amp;</type>
+          <declname>queue</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>includeParents</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/dot.h" line="180" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/dot.cpp" bodystart="2649" bodyend="2684"/>
+      </memberdef>
+      <memberdef kind="function" id="df/d1c/class_dot_class_graph_1a76f782fb7d990d89d16edc414b9aed33" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void DotClassGraph::addClass</definition>
+        <argsstring>(ClassDef *cd, DotNode *n, int prot, const char *label, const char *usedName, const char *templSpec, bool base, int distance)</argsstring>
+        <name>addClass</name>
+        <param>
+          <type><ref refid="d1/dcf/class_class_def" kindref="compound">ClassDef</ref> *</type>
+          <declname>cd</declname>
+        </param>
+        <param>
+          <type><ref refid="dd/d7e/class_dot_node" kindref="compound">DotNode</ref> *</type>
+          <declname>n</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>prot</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>label</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>usedName</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>templSpec</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>base</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>distance</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/dot.h" line="183" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/dot.cpp" bodystart="2572" bodyend="2647"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Representation of a class inheritance or dependency graph. </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/dot.h" line="162" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/dot.h" bodystart="161" bodyend="191"/>
+    <listofallmembers>
+      <member refid="df/d1c/class_dot_class_graph_1a76f782fb7d990d89d16edc414b9aed33" prot="private" virt="non-virtual"><scope>DotClassGraph</scope><name>addClass</name></member>
+      <member refid="df/d1c/class_dot_class_graph_1a66a5b4aa7d794396a1c5d2a16bc3cda0" prot="private" virt="non-virtual"><scope>DotClassGraph</scope><name>buildGraph</name></member>
+      <member refid="df/d1c/class_dot_class_graph_1a11bf54d429575518b1c499740625dc9a" prot="private" virt="non-virtual"><scope>DotClassGraph</scope><name>determineTruncatedNodes</name></member>
+      <member refid="df/d1c/class_dot_class_graph_1a71cb7cce72603b64606e7897c3b90e0b" prot="private" virt="non-virtual"><scope>DotClassGraph</scope><name>determineVisibleNodes</name></member>
+      <member refid="df/d1c/class_dot_class_graph_1aa6398077933d87119962200e22a4b295" prot="public" virt="non-virtual"><scope>DotClassGraph</scope><name>diskName</name></member>
+      <member refid="df/d1c/class_dot_class_graph_1a58b57d060db4c9c4127e13719ed497b0" prot="public" virt="non-virtual"><scope>DotClassGraph</scope><name>DotClassGraph</name></member>
+      <member refid="df/d1c/class_dot_class_graph_1a357c7131aa9501d65a91ae3493511ae5" prot="public" virt="non-virtual"><scope>DotClassGraph</scope><name>isTooBig</name></member>
+      <member refid="df/d1c/class_dot_class_graph_1a11e509dc8e9341a448a9e19e079122c5" prot="public" virt="non-virtual"><scope>DotClassGraph</scope><name>isTrivial</name></member>
+      <member refid="df/d1c/class_dot_class_graph_1af4f9aeda652e38b53a01b48ff767ccd9" prot="private" virt="non-virtual"><scope>DotClassGraph</scope><name>m_curNodeNumber</name></member>
+      <member refid="df/d1c/class_dot_class_graph_1aecced1ed5d012a661a8061ef7216bcc4" prot="private" virt="non-virtual"><scope>DotClassGraph</scope><name>m_diskName</name></member>
+      <member refid="df/d1c/class_dot_class_graph_1a63f49317f97e93ed44bac4d62c789fa1" prot="private" virt="non-virtual"><scope>DotClassGraph</scope><name>m_graphType</name></member>
+      <member refid="df/d1c/class_dot_class_graph_1a8773d600872b3ebf14b547cf12a36a57" prot="private" virt="non-virtual"><scope>DotClassGraph</scope><name>m_lrRank</name></member>
+      <member refid="df/d1c/class_dot_class_graph_1a57b5e1d953fda738be0fe623cc5a219f" prot="private" virt="non-virtual"><scope>DotClassGraph</scope><name>m_startNode</name></member>
+      <member refid="df/d1c/class_dot_class_graph_1adc9fffc74d1644fbd6ebfde87e0ad85c" prot="private" virt="non-virtual"><scope>DotClassGraph</scope><name>m_usedNodes</name></member>
+      <member refid="df/d1c/class_dot_class_graph_1a58ac0d426aa0e05f0624ea0aff1cfb11" prot="public" virt="non-virtual"><scope>DotClassGraph</scope><name>writeDEF</name></member>
+      <member refid="df/d1c/class_dot_class_graph_1a0b0d779c62489f345b60ae041bfbb61b" prot="public" virt="non-virtual"><scope>DotClassGraph</scope><name>writeDocbook</name></member>
+      <member refid="df/d1c/class_dot_class_graph_1a595a98a978326a21e44fb9e298d651ae" prot="public" virt="non-virtual"><scope>DotClassGraph</scope><name>writeGraph</name></member>
+      <member refid="df/d1c/class_dot_class_graph_1ab0c9eaee7ee8abd4ffe7f849dd449da8" prot="public" virt="non-virtual"><scope>DotClassGraph</scope><name>writeXML</name></member>
+      <member refid="df/d1c/class_dot_class_graph_1a0b61a10dee46f6b05575aa3d1b6c8800" prot="public" virt="non-virtual"><scope>DotClassGraph</scope><name>~DotClassGraph</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

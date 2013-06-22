@@ -1,0 +1,441 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.2">
+  <compounddef id="dc/d21/class_obj_cache" kind="class" prot="public">
+    <compoundname>ObjCache</compoundname>
+    <includes refid="db/db6/objcache_8h" local="no">objcache.h</includes>
+    <innerclass refid="dd/d20/struct_obj_cache_1_1_cache_node" prot="private">ObjCache::CacheNode</innerclass>
+    <innerclass refid="d4/dc4/struct_obj_cache_1_1_hash_node" prot="private">ObjCache::HashNode</innerclass>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="dc/d21/class_obj_cache_1a95f51a284e41e3e2fe4a0d7786ac7d1a" prot="private" static="no" mutable="no">
+        <type>CacheNode *</type>
+        <definition>CacheNode* ObjCache::m_cache</definition>
+        <argsstring></argsstring>
+        <name>m_cache</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/objcache.h" line="113" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/objcache.h" bodystart="113" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="dc/d21/class_obj_cache_1a4c04202b61c94c3626e03974d6ddf92d" prot="private" static="no" mutable="no">
+        <type>HashNode *</type>
+        <definition>HashNode* ObjCache::m_hash</definition>
+        <argsstring></argsstring>
+        <name>m_hash</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/objcache.h" line="114" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/objcache.h" bodystart="114" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="dc/d21/class_obj_cache_1a4989e1521c32e0bccf59aa22e051734b" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int ObjCache::m_head</definition>
+        <argsstring></argsstring>
+        <name>m_head</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/objcache.h" line="115" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/objcache.h" bodystart="115" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="dc/d21/class_obj_cache_1a362504cca6b722b3aa812edfe4b12ebb" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int ObjCache::m_tail</definition>
+        <argsstring></argsstring>
+        <name>m_tail</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/objcache.h" line="116" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/objcache.h" bodystart="116" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="dc/d21/class_obj_cache_1a1c2e6b137749e46b94336040875089b7" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int ObjCache::m_size</definition>
+        <argsstring></argsstring>
+        <name>m_size</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/objcache.h" line="117" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/objcache.h" bodystart="117" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="dc/d21/class_obj_cache_1a1443162afe0d691be73b72706e201773" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int ObjCache::m_count</definition>
+        <argsstring></argsstring>
+        <name>m_count</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/objcache.h" line="118" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/objcache.h" bodystart="118" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="dc/d21/class_obj_cache_1a3cdd098eba2673783b7d13d0c0335c38" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int ObjCache::m_freeHashNodes</definition>
+        <argsstring></argsstring>
+        <name>m_freeHashNodes</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/objcache.h" line="119" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/objcache.h" bodystart="119" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="dc/d21/class_obj_cache_1ab3c50e8a362754596cbea33510089260" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int ObjCache::m_freeCacheNodes</definition>
+        <argsstring></argsstring>
+        <name>m_freeCacheNodes</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/objcache.h" line="120" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/objcache.h" bodystart="120" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="dc/d21/class_obj_cache_1a1c6ddcb8aa11ab93f3e4d334ab2d0262" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int ObjCache::m_lastHandle</definition>
+        <argsstring></argsstring>
+        <name>m_lastHandle</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/objcache.h" line="121" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/objcache.h" bodystart="121" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="dc/d21/class_obj_cache_1a2a6f81634408e50c7ccdda27644d8bfc" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int ObjCache::m_misses</definition>
+        <argsstring></argsstring>
+        <name>m_misses</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/objcache.h" line="122" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/objcache.h" bodystart="122" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="dc/d21/class_obj_cache_1af6a0be271aa2780079f8aa566330b095" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int ObjCache::m_hits</definition>
+        <argsstring></argsstring>
+        <name>m_hits</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/objcache.h" line="123" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/objcache.h" bodystart="123" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="dc/d21/class_obj_cache_1a1818fcc2b39a5c54a6e2bd9b456b7ccb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>ObjCache::ObjCache</definition>
+        <argsstring>(unsigned int logSize)</argsstring>
+        <name>ObjCache</name>
+        <param>
+          <type>unsigned int</type>
+          <declname>logSize</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Creates the cache. The number of elements in the cache is 2 to the power of <emphasis>logSize</emphasis>. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/objcache.h" line="56" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/objcache.cpp" bodystart="28" bodyend="44"/>
+      </memberdef>
+      <memberdef kind="function" id="dc/d21/class_obj_cache_1ae2ea95b2c63b154dd0a068613ba06aff" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>ObjCache::~ObjCache</definition>
+        <argsstring>()</argsstring>
+        <name>~ObjCache</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Deletes the cache and free all internal data-structures used. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/objcache.h" line="59" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/objcache.cpp" bodystart="46" bodyend="50"/>
+      </memberdef>
+      <memberdef kind="function" id="dc/d21/class_obj_cache_1affd025326493c40ac4e7f5b4c0c3ad9b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int ObjCache::add</definition>
+        <argsstring>(void *obj, void **victim)</argsstring>
+        <name>add</name>
+        <param>
+          <type>void *</type>
+          <declname>obj</declname>
+        </param>
+        <param>
+          <type>void **</type>
+          <declname>victim</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Adds <emphasis>obj</emphasis> to the cache. When victim is not null, this object is removed from the cache to make room for <emphasis>obj</emphasis>. Returns a handle to the object, which can be used by the <ref refid="dc/d21/class_obj_cache_1ac4d9eb810e8f6ca2fbd4cf058ff3fe0e" kindref="member">use()</ref> function, each time the object is used. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/objcache.h" line="66" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/objcache.cpp" bodystart="52" bodyend="103"/>
+      </memberdef>
+      <memberdef kind="function" id="dc/d21/class_obj_cache_1ac4d9eb810e8f6ca2fbd4cf058ff3fe0e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ObjCache::use</definition>
+        <argsstring>(int handle)</argsstring>
+        <name>use</name>
+        <param>
+          <type>int</type>
+          <declname>handle</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Indicates that this object is used. This will move the object to the front of the internal LRU list to make sure it is removed last. The parameter <emphasis>handle</emphasis> is returned when called <ref refid="dc/d21/class_obj_cache_1affd025326493c40ac4e7f5b4c0c3ad9b" kindref="member">add()</ref>. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/objcache.h" line="73" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/objcache.h" bodystart="72" bodyend="78"/>
+      </memberdef>
+      <memberdef kind="function" id="dc/d21/class_obj_cache_1a3ac1ae674ea8ff27e436c788f851d303" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ObjCache::del</definition>
+        <argsstring>(int handle)</argsstring>
+        <name>del</name>
+        <param>
+          <type>int</type>
+          <declname>handle</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Removes the item identified by <emphasis>handle</emphasis> from the cache. <simplesect kind="see"><para><ref refid="dc/d21/class_obj_cache_1affd025326493c40ac4e7f5b4c0c3ad9b" kindref="member">add()</ref> </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/objcache.h" line="83" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/objcache.cpp" bodystart="105" bodyend="121"/>
+      </memberdef>
+      <memberdef kind="function" id="dc/d21/class_obj_cache_1aeea7452ce80751d3f8e76038dc44decc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ObjCache::printLRU</definition>
+        <argsstring>()</argsstring>
+        <name>printLRU</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><ref refid="da/d7d/class_debug" kindref="compound">Debug</ref> function. Prints the LRU list </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/objcache.h" line="86"/>
+      </memberdef>
+      <memberdef kind="function" id="dc/d21/class_obj_cache_1a3e4ded7d3342fb02d64bd8d39466a30a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ObjCache::printStats</definition>
+        <argsstring>()</argsstring>
+        <name>printStats</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Print miss/hits statistics </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/objcache.h" line="88" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/objcache.cpp" bodystart="149" bodyend="152"/>
+      </memberdef>
+      <memberdef kind="function" id="dc/d21/class_obj_cache_1afe1e73a159e54fdc55076fc0670c13ab" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int ObjCache::size</definition>
+        <argsstring>() const </argsstring>
+        <name>size</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>total size of the cache </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/objcache.h" line="91" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/objcache.h" bodystart="91" bodyend="91"/>
+      </memberdef>
+      <memberdef kind="function" id="dc/d21/class_obj_cache_1a583b92b08b3d1d55e12fd0b331100910" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int ObjCache::count</definition>
+        <argsstring>() const </argsstring>
+        <name>count</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>number of elements in the cache </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/objcache.h" line="94" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/objcache.h" bodystart="94" bodyend="94"/>
+      </memberdef>
+      <memberdef kind="function" id="dc/d21/class_obj_cache_1a6169460988e7f843f4e7ee769d251652" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int ObjCache::hits</definition>
+        <argsstring>() const </argsstring>
+        <name>hits</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/objcache.h" line="97" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/objcache.h" bodystart="96" bodyend="99"/>
+      </memberdef>
+      <memberdef kind="function" id="dc/d21/class_obj_cache_1a5a0a344135b23e0ad7044573e0a2d369" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int ObjCache::misses</definition>
+        <argsstring>() const </argsstring>
+        <name>misses</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/objcache.h" line="101" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/objcache.h" bodystart="100" bodyend="103"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="dc/d21/class_obj_cache_1a366f4ce51c69066edab1a2e4902df136" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ObjCache::moveToFront</definition>
+        <argsstring>(int index)</argsstring>
+        <name>moveToFront</name>
+        <param>
+          <type>int</type>
+          <declname>index</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/objcache.h" line="107" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/objcache.cpp" bodystart="155" bodyend="173"/>
+      </memberdef>
+      <memberdef kind="function" id="dc/d21/class_obj_cache_1a1e5a0aba472a939b3a23f78d53a30914" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsigned int</type>
+        <definition>unsigned int ObjCache::hash</definition>
+        <argsstring>(void *addr)</argsstring>
+        <name>hash</name>
+        <param>
+          <type>void *</type>
+          <declname>addr</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/objcache.h" line="108" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/objcache.cpp" bodystart="175" bodyend="204"/>
+      </memberdef>
+      <memberdef kind="function" id="dc/d21/class_obj_cache_1a138658fccd35a3982f25a20e74e227ed" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>HashNode *</type>
+        <definition>ObjCache::HashNode * ObjCache::hashFind</definition>
+        <argsstring>(void *obj)</argsstring>
+        <name>hashFind</name>
+        <param>
+          <type>void *</type>
+          <declname>obj</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/objcache.h" line="109" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/objcache.cpp" bodystart="206" bodyend="223"/>
+      </memberdef>
+      <memberdef kind="function" id="dc/d21/class_obj_cache_1a18964f6a4cd3e26aca121e563fe4f020" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>HashNode *</type>
+        <definition>ObjCache::HashNode * ObjCache::hashInsert</definition>
+        <argsstring>(void *obj)</argsstring>
+        <name>hashInsert</name>
+        <param>
+          <type>void *</type>
+          <declname>obj</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/objcache.h" line="110" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/objcache.cpp" bodystart="225" bodyend="253"/>
+      </memberdef>
+      <memberdef kind="function" id="dc/d21/class_obj_cache_1a639c6a59f9e009ade0be133a01004e38" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ObjCache::hashRemove</definition>
+        <argsstring>(void *obj)</argsstring>
+        <name>hashRemove</name>
+        <param>
+          <type>void *</type>
+          <declname>obj</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/objcache.h" line="111" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/objcache.cpp" bodystart="255" bodyend="282"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Cache for objects. </para>    </briefdescription>
+    <detaileddescription>
+<para>This cache is used to decide which objects should remain in memory. It uses a least recently used policy (LRU) to decide which object should make room for a new object when the cache is full. An object should be added using <ref refid="dc/d21/class_obj_cache_1affd025326493c40ac4e7f5b4c0c3ad9b" kindref="member">add()</ref>, and then <ref refid="dc/d21/class_obj_cache_1ac4d9eb810e8f6ca2fbd4cf058ff3fe0e" kindref="member">use()</ref> should be called when the object is used. </para>    </detaileddescription>
+    <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/objcache.h" line="34" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/objcache.h" bodystart="33" bodyend="124"/>
+    <listofallmembers>
+      <member refid="dc/d21/class_obj_cache_1affd025326493c40ac4e7f5b4c0c3ad9b" prot="public" virt="non-virtual"><scope>ObjCache</scope><name>add</name></member>
+      <member refid="dc/d21/class_obj_cache_1a583b92b08b3d1d55e12fd0b331100910" prot="public" virt="non-virtual"><scope>ObjCache</scope><name>count</name></member>
+      <member refid="dc/d21/class_obj_cache_1a3ac1ae674ea8ff27e436c788f851d303" prot="public" virt="non-virtual"><scope>ObjCache</scope><name>del</name></member>
+      <member refid="dc/d21/class_obj_cache_1a1e5a0aba472a939b3a23f78d53a30914" prot="private" virt="non-virtual"><scope>ObjCache</scope><name>hash</name></member>
+      <member refid="dc/d21/class_obj_cache_1a138658fccd35a3982f25a20e74e227ed" prot="private" virt="non-virtual"><scope>ObjCache</scope><name>hashFind</name></member>
+      <member refid="dc/d21/class_obj_cache_1a18964f6a4cd3e26aca121e563fe4f020" prot="private" virt="non-virtual"><scope>ObjCache</scope><name>hashInsert</name></member>
+      <member refid="dc/d21/class_obj_cache_1a639c6a59f9e009ade0be133a01004e38" prot="private" virt="non-virtual"><scope>ObjCache</scope><name>hashRemove</name></member>
+      <member refid="dc/d21/class_obj_cache_1a6169460988e7f843f4e7ee769d251652" prot="public" virt="non-virtual"><scope>ObjCache</scope><name>hits</name></member>
+      <member refid="dc/d21/class_obj_cache_1a95f51a284e41e3e2fe4a0d7786ac7d1a" prot="private" virt="non-virtual"><scope>ObjCache</scope><name>m_cache</name></member>
+      <member refid="dc/d21/class_obj_cache_1a1443162afe0d691be73b72706e201773" prot="private" virt="non-virtual"><scope>ObjCache</scope><name>m_count</name></member>
+      <member refid="dc/d21/class_obj_cache_1ab3c50e8a362754596cbea33510089260" prot="private" virt="non-virtual"><scope>ObjCache</scope><name>m_freeCacheNodes</name></member>
+      <member refid="dc/d21/class_obj_cache_1a3cdd098eba2673783b7d13d0c0335c38" prot="private" virt="non-virtual"><scope>ObjCache</scope><name>m_freeHashNodes</name></member>
+      <member refid="dc/d21/class_obj_cache_1a4c04202b61c94c3626e03974d6ddf92d" prot="private" virt="non-virtual"><scope>ObjCache</scope><name>m_hash</name></member>
+      <member refid="dc/d21/class_obj_cache_1a4989e1521c32e0bccf59aa22e051734b" prot="private" virt="non-virtual"><scope>ObjCache</scope><name>m_head</name></member>
+      <member refid="dc/d21/class_obj_cache_1af6a0be271aa2780079f8aa566330b095" prot="private" virt="non-virtual"><scope>ObjCache</scope><name>m_hits</name></member>
+      <member refid="dc/d21/class_obj_cache_1a1c6ddcb8aa11ab93f3e4d334ab2d0262" prot="private" virt="non-virtual"><scope>ObjCache</scope><name>m_lastHandle</name></member>
+      <member refid="dc/d21/class_obj_cache_1a2a6f81634408e50c7ccdda27644d8bfc" prot="private" virt="non-virtual"><scope>ObjCache</scope><name>m_misses</name></member>
+      <member refid="dc/d21/class_obj_cache_1a1c2e6b137749e46b94336040875089b7" prot="private" virt="non-virtual"><scope>ObjCache</scope><name>m_size</name></member>
+      <member refid="dc/d21/class_obj_cache_1a362504cca6b722b3aa812edfe4b12ebb" prot="private" virt="non-virtual"><scope>ObjCache</scope><name>m_tail</name></member>
+      <member refid="dc/d21/class_obj_cache_1a5a0a344135b23e0ad7044573e0a2d369" prot="public" virt="non-virtual"><scope>ObjCache</scope><name>misses</name></member>
+      <member refid="dc/d21/class_obj_cache_1a366f4ce51c69066edab1a2e4902df136" prot="private" virt="non-virtual"><scope>ObjCache</scope><name>moveToFront</name></member>
+      <member refid="dc/d21/class_obj_cache_1a1818fcc2b39a5c54a6e2bd9b456b7ccb" prot="public" virt="non-virtual"><scope>ObjCache</scope><name>ObjCache</name></member>
+      <member refid="dc/d21/class_obj_cache_1aeea7452ce80751d3f8e76038dc44decc" prot="public" virt="non-virtual"><scope>ObjCache</scope><name>printLRU</name></member>
+      <member refid="dc/d21/class_obj_cache_1a3e4ded7d3342fb02d64bd8d39466a30a" prot="public" virt="non-virtual"><scope>ObjCache</scope><name>printStats</name></member>
+      <member refid="dc/d21/class_obj_cache_1afe1e73a159e54fdc55076fc0670c13ab" prot="public" virt="non-virtual"><scope>ObjCache</scope><name>size</name></member>
+      <member refid="dc/d21/class_obj_cache_1ac4d9eb810e8f6ca2fbd4cf058ff3fe0e" prot="public" virt="non-virtual"><scope>ObjCache</scope><name>use</name></member>
+      <member refid="dc/d21/class_obj_cache_1ae2ea95b2c63b154dd0a068613ba06aff" prot="public" virt="non-virtual"><scope>ObjCache</scope><name>~ObjCache</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

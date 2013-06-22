@@ -1,0 +1,748 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.2">
+  <compounddef id="de/d7d/class_d_bus_x_m_l_handler" kind="class" prot="public">
+    <compoundname>DBusXMLHandler</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">QXmlDefaultHandler</basecompoundref>
+    <innerclass refid="df/d4b/struct_d_bus_x_m_l_handler_1_1_comment_data" prot="private">DBusXMLHandler::CommentData</innerclass>
+    <innerclass refid="d5/d47/struct_d_bus_x_m_l_handler_1_1_element_data" prot="private">DBusXMLHandler::ElementData</innerclass>
+    <innerclass refid="d8/da6/struct_d_bus_x_m_l_handler_1_1_scope_data" prot="private">DBusXMLHandler::ScopeData</innerclass>
+    <innerclass refid="d0/d1b/struct_d_bus_x_m_l_handler_1_1_struct_data" prot="private">DBusXMLHandler::StructData</innerclass>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="de/d7d/class_d_bus_x_m_l_handler_1a6b2279f9d2607d3d1eb01e89bc7fb8d2" prot="private" static="no" mutable="no">
+        <type><ref refid="d5/d84/class_parser_interface" kindref="compound">ParserInterface</ref> *</type>
+        <definition>ParserInterface* DBusXMLHandler::m_parser</definition>
+        <argsstring></argsstring>
+        <name>m_parser</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/dbusxmlscanner.cpp" line="734" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/dbusxmlscanner.cpp" bodystart="734" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="de/d7d/class_d_bus_x_m_l_handler_1af16e082df0e4cbe50e3e10870a490908" prot="private" static="no" mutable="no">
+        <type>QXmlLocator</type>
+        <definition>QXmlLocator DBusXMLHandler::m_locator</definition>
+        <argsstring></argsstring>
+        <name>m_locator</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/dbusxmlscanner.cpp" line="736" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/dbusxmlscanner.cpp" bodystart="736" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="de/d7d/class_d_bus_x_m_l_handler_1a19ec1e499fb8a19c14a157aac17d5296" prot="private" static="no" mutable="no">
+        <type>QCString</type>
+        <definition>QCString DBusXMLHandler::m_currentNode</definition>
+        <argsstring></argsstring>
+        <name>m_currentNode</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/dbusxmlscanner.cpp" line="737" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/dbusxmlscanner.cpp" bodystart="737" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="de/d7d/class_d_bus_x_m_l_handler_1a4a0720dffd47610879be3747dd78c1e0" prot="private" static="no" mutable="no">
+        <type><ref refid="db/daa/class_q_list" kindref="compound">QList</ref>&lt; ElementData &gt;</type>
+        <definition>QList&lt;ElementData&gt; DBusXMLHandler::m_elementStack</definition>
+        <argsstring></argsstring>
+        <name>m_elementStack</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/dbusxmlscanner.cpp" line="749" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/dbusxmlscanner.cpp" bodystart="749" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="de/d7d/class_d_bus_x_m_l_handler_1aa03a125b0d38a36a0aae35b8d29b51fa" prot="private" static="no" mutable="no">
+        <type><ref refid="d4/dd7/class_entry" kindref="compound">Entry</ref> *</type>
+        <definition>Entry* DBusXMLHandler::m_currentEntry</definition>
+        <argsstring></argsstring>
+        <name>m_currentEntry</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/dbusxmlscanner.cpp" line="751" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/dbusxmlscanner.cpp" bodystart="751" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="de/d7d/class_d_bus_x_m_l_handler_1a1efaac2e919b468efdee2486df8f5a73" prot="private" static="no" mutable="no">
+        <type><ref refid="d4/dd7/class_entry" kindref="compound">Entry</ref> *</type>
+        <definition>Entry* DBusXMLHandler::m_currentInterface</definition>
+        <argsstring></argsstring>
+        <name>m_currentInterface</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/dbusxmlscanner.cpp" line="753" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/dbusxmlscanner.cpp" bodystart="753" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="de/d7d/class_d_bus_x_m_l_handler_1afc728e5a011c66b3dce3814d2528ca61" prot="private" static="no" mutable="no">
+        <type><ref refid="d4/dd7/class_entry" kindref="compound">Entry</ref> *</type>
+        <definition>Entry* DBusXMLHandler::m_currentMethod</definition>
+        <argsstring></argsstring>
+        <name>m_currentMethod</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/dbusxmlscanner.cpp" line="754" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/dbusxmlscanner.cpp" bodystart="754" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="de/d7d/class_d_bus_x_m_l_handler_1a7d0bef15cfb2ab8b12535e3207ff5cbb" prot="private" static="no" mutable="no">
+        <type><ref refid="d1/dee/struct_argument" kindref="compound">Argument</ref> *</type>
+        <definition>Argument* DBusXMLHandler::m_currentArgument</definition>
+        <argsstring></argsstring>
+        <name>m_currentArgument</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/dbusxmlscanner.cpp" line="755" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/dbusxmlscanner.cpp" bodystart="755" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="de/d7d/class_d_bus_x_m_l_handler_1ab142feb4f35cd88dd10f2662b1ca6ecf" prot="private" static="no" mutable="no">
+        <type><ref refid="d4/dd7/class_entry" kindref="compound">Entry</ref> *</type>
+        <definition>Entry* DBusXMLHandler::m_currentProperty</definition>
+        <argsstring></argsstring>
+        <name>m_currentProperty</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/dbusxmlscanner.cpp" line="756" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/dbusxmlscanner.cpp" bodystart="756" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="de/d7d/class_d_bus_x_m_l_handler_1ac9da171aa0cf6485653af3c3cf707077" prot="private" static="no" mutable="no">
+        <type><ref refid="d4/dd7/class_entry" kindref="compound">Entry</ref> *</type>
+        <definition>Entry* DBusXMLHandler::m_currentEnum</definition>
+        <argsstring></argsstring>
+        <name>m_currentEnum</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/dbusxmlscanner.cpp" line="757" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/dbusxmlscanner.cpp" bodystart="757" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="de/d7d/class_d_bus_x_m_l_handler_1ae691c7b485f8086ab4c434876557bfc3" prot="private" static="no" mutable="no">
+        <type><ref refid="db/daa/class_q_list" kindref="compound">QList</ref>&lt; <ref refid="d4/dd7/class_entry" kindref="compound">Entry</ref> &gt;</type>
+        <definition>QList&lt;Entry&gt; DBusXMLHandler::m_namespaceStack</definition>
+        <argsstring></argsstring>
+        <name>m_namespaceStack</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/dbusxmlscanner.cpp" line="758" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/dbusxmlscanner.cpp" bodystart="758" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="de/d7d/class_d_bus_x_m_l_handler_1ae77ed0f250c8b27273607b7b9eca6804" prot="private" static="no" mutable="no">
+        <type><ref refid="db/daa/class_q_list" kindref="compound">QList</ref>&lt; StructData &gt;</type>
+        <definition>QList&lt;StructData&gt; DBusXMLHandler::m_structStack</definition>
+        <argsstring></argsstring>
+        <name>m_structStack</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/dbusxmlscanner.cpp" line="768" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/dbusxmlscanner.cpp" bodystart="768" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="de/d7d/class_d_bus_x_m_l_handler_1a4982d1f8552facefddfd6bd98af02c44" prot="private" static="no" mutable="no">
+        <type><ref refid="db/daa/class_q_list" kindref="compound">QList</ref>&lt; ScopeData &gt;</type>
+        <definition>QList&lt;ScopeData&gt; DBusXMLHandler::m_scopeStack</definition>
+        <argsstring></argsstring>
+        <name>m_scopeStack</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/dbusxmlscanner.cpp" line="781" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/dbusxmlscanner.cpp" bodystart="781" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="de/d7d/class_d_bus_x_m_l_handler_1a0e93d5b2a6a9120857d2e90b06822df8" prot="private" static="no" mutable="no">
+        <type>QCString</type>
+        <definition>QCString DBusXMLHandler::m_fileName</definition>
+        <argsstring></argsstring>
+        <name>m_fileName</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/dbusxmlscanner.cpp" line="783" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/dbusxmlscanner.cpp" bodystart="783" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="de/d7d/class_d_bus_x_m_l_handler_1add67e281fb0c051a8cc886d6e4f8ce6b" prot="private" static="no" mutable="no">
+        <type>CommentData *</type>
+        <definition>CommentData* DBusXMLHandler::m_currentComment</definition>
+        <argsstring></argsstring>
+        <name>m_currentComment</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/dbusxmlscanner.cpp" line="812" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/dbusxmlscanner.cpp" bodystart="812" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="de/d7d/class_d_bus_x_m_l_handler_1adad17385a2cb9fdb6047e64614255246" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int DBusXMLHandler::m_scopeCount</definition>
+        <argsstring></argsstring>
+        <name>m_scopeCount</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/dbusxmlscanner.cpp" line="814" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/dbusxmlscanner.cpp" bodystart="814" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="de/d7d/class_d_bus_x_m_l_handler_1ad69a4990abe484a6d06f4322fa45a872" prot="private" static="no" mutable="no">
+        <type>QString</type>
+        <definition>QString DBusXMLHandler::m_errorString</definition>
+        <argsstring></argsstring>
+        <name>m_errorString</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/dbusxmlscanner.cpp" line="816" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/dbusxmlscanner.cpp" bodystart="816" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="de/d7d/class_d_bus_x_m_l_handler_1ad66af0d1c823699a2aa37078c6dba4b3" prot="private" static="no" mutable="no">
+        <type>QMap&lt; QCString, QCString &gt;</type>
+        <definition>QMap&lt;QCString, QCString&gt; DBusXMLHandler::m_namedTypeMap</definition>
+        <argsstring></argsstring>
+        <name>m_namedTypeMap</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/dbusxmlscanner.cpp" line="818" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/dbusxmlscanner.cpp" bodystart="818" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="de/d7d/class_d_bus_x_m_l_handler_1a6d9dbc16f263fabfec751953c7c9562b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>DBusXMLHandler::DBusXMLHandler</definition>
+        <argsstring>(ParserInterface *parser, QXmlSimpleReader *reader, const char *file_name, Entry *root)</argsstring>
+        <name>DBusXMLHandler</name>
+        <param>
+          <type><ref refid="d5/d84/class_parser_interface" kindref="compound">ParserInterface</ref> *</type>
+          <declname>parser</declname>
+        </param>
+        <param>
+          <type>QXmlSimpleReader *</type>
+          <declname>reader</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>file_name</declname>
+        </param>
+        <param>
+          <type><ref refid="d4/dd7/class_entry" kindref="compound">Entry</ref> *</type>
+          <declname>root</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/dbusxmlscanner.cpp" line="85" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/dbusxmlscanner.cpp" bodystart="71" bodyend="96"/>
+      </memberdef>
+      <memberdef kind="function" id="de/d7d/class_d_bus_x_m_l_handler_1ae5f8f810345564571cc1ce698d71a2bb" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>DBusXMLHandler::~DBusXMLHandler</definition>
+        <argsstring>()</argsstring>
+        <name>~DBusXMLHandler</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/dbusxmlscanner.cpp" line="99" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/dbusxmlscanner.cpp" bodystart="98" bodyend="99"/>
+      </memberdef>
+      <memberdef kind="function" id="de/d7d/class_d_bus_x_m_l_handler_1acebb3b8270e7ed4ad47e7122d442e5ce" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>QString</type>
+        <definition>QString DBusXMLHandler::errorString</definition>
+        <argsstring>()</argsstring>
+        <name>errorString</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/dbusxmlscanner.cpp" line="102" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/dbusxmlscanner.cpp" bodystart="101" bodyend="102"/>
+      </memberdef>
+      <memberdef kind="function" id="de/d7d/class_d_bus_x_m_l_handler_1a21c548a4afd593c1a3f9860c80ecc425" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool DBusXMLHandler::startElement</definition>
+        <argsstring>(const QString &amp;namespaceURI, const QString &amp;localName, const QString &amp;qName, const QXmlAttributes &amp;attributes)</argsstring>
+        <name>startElement</name>
+        <param>
+          <type>const QString &amp;</type>
+          <declname>namespaceURI</declname>
+        </param>
+        <param>
+          <type>const QString &amp;</type>
+          <declname>localName</declname>
+        </param>
+        <param>
+          <type>const QString &amp;</type>
+          <declname>qName</declname>
+        </param>
+        <param>
+          <type>const QXmlAttributes &amp;</type>
+          <declname>attributes</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/dbusxmlscanner.cpp" line="108" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/dbusxmlscanner.cpp" bodystart="104" bodyend="342"/>
+      </memberdef>
+      <memberdef kind="function" id="de/d7d/class_d_bus_x_m_l_handler_1a576d19ce1758e2293e3ceeac57dd171d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool DBusXMLHandler::endElement</definition>
+        <argsstring>(const QString &amp;namespaceURI, const QString &amp;localName, const QString &amp;qName)</argsstring>
+        <name>endElement</name>
+        <param>
+          <type>const QString &amp;</type>
+          <declname>namespaceURI</declname>
+        </param>
+        <param>
+          <type>const QString &amp;</type>
+          <declname>localName</declname>
+        </param>
+        <param>
+          <type>const QString &amp;</type>
+          <declname>qName</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/dbusxmlscanner.cpp" line="347" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/dbusxmlscanner.cpp" bodystart="344" bodyend="444"/>
+      </memberdef>
+      <memberdef kind="function" id="de/d7d/class_d_bus_x_m_l_handler_1a9a7a684dee5e0eceedc3743d0509b57e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool DBusXMLHandler::characters</definition>
+        <argsstring>(const QString &amp;)</argsstring>
+        <name>characters</name>
+        <param>
+          <type>const QString &amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/dbusxmlscanner.cpp" line="447" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/dbusxmlscanner.cpp" bodystart="446" bodyend="447"/>
+      </memberdef>
+      <memberdef kind="function" id="de/d7d/class_d_bus_x_m_l_handler_1a412539218764dbada949c80309646e2e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool DBusXMLHandler::comment</definition>
+        <argsstring>(const QString &amp;comment_)</argsstring>
+        <name>comment</name>
+        <param>
+          <type>const QString &amp;</type>
+          <declname>comment_</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/dbusxmlscanner.cpp" line="450" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/dbusxmlscanner.cpp" bodystart="449" bodyend="467"/>
+      </memberdef>
+      <memberdef kind="function" id="de/d7d/class_d_bus_x_m_l_handler_1aca48693571aa8d8f85f02c8bb03f9680" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void DBusXMLHandler::handleComment</definition>
+        <argsstring>()</argsstring>
+        <name>handleComment</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/dbusxmlscanner.cpp" line="470" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/dbusxmlscanner.cpp" bodystart="469" bodyend="501"/>
+      </memberdef>
+      <memberdef kind="function" id="de/d7d/class_d_bus_x_m_l_handler_1a1051753231ce540ce01f5cca7d1d5c20" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>QXmlLocator *</type>
+        <definition>QXmlLocator* DBusXMLHandler::locator</definition>
+        <argsstring>()</argsstring>
+        <name>locator</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/dbusxmlscanner.cpp" line="504" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/dbusxmlscanner.cpp" bodystart="503" bodyend="504"/>
+      </memberdef>
+      <memberdef kind="function" id="de/d7d/class_d_bus_x_m_l_handler_1ab5266454a9db213b713b443ef86b4a3e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int DBusXMLHandler::lineNumber</definition>
+        <argsstring>()</argsstring>
+        <name>lineNumber</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/dbusxmlscanner.cpp" line="507" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/dbusxmlscanner.cpp" bodystart="506" bodyend="507"/>
+      </memberdef>
+      <memberdef kind="function" id="de/d7d/class_d_bus_x_m_l_handler_1ae7365c86117c07f6825d92176bf2f8f5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void DBusXMLHandler::setSection</definition>
+        <argsstring>()</argsstring>
+        <name>setSection</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/dbusxmlscanner.cpp" line="510" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/dbusxmlscanner.cpp" bodystart="509" bodyend="520"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="de/d7d/class_d_bus_x_m_l_handler_1ac70130bd12973b2258d2a9ef713923fe" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool DBusXMLHandler::isDBusElement</definition>
+        <argsstring>(const QString &amp;namespaceURI, const QString &amp;localName, const QString &amp;qName, const QString &amp;element)</argsstring>
+        <name>isDBusElement</name>
+        <param>
+          <type>const QString &amp;</type>
+          <declname>namespaceURI</declname>
+        </param>
+        <param>
+          <type>const QString &amp;</type>
+          <declname>localName</declname>
+        </param>
+        <param>
+          <type>const QString &amp;</type>
+          <declname>qName</declname>
+        </param>
+        <param>
+          <type>const QString &amp;</type>
+          <declname>element</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/dbusxmlscanner.cpp" line="527" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/dbusxmlscanner.cpp" bodystart="523" bodyend="530"/>
+      </memberdef>
+      <memberdef kind="function" id="de/d7d/class_d_bus_x_m_l_handler_1a15b99467b03005372e8007a661ee7865" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool DBusXMLHandler::isExtensionElement</definition>
+        <argsstring>(const QString &amp;namespaceURI, const QString &amp;localName, const QString &amp;qName, const QString &amp;element)</argsstring>
+        <name>isExtensionElement</name>
+        <param>
+          <type>const QString &amp;</type>
+          <declname>namespaceURI</declname>
+        </param>
+        <param>
+          <type>const QString &amp;</type>
+          <declname>localName</declname>
+        </param>
+        <param>
+          <type>const QString &amp;</type>
+          <declname>qName</declname>
+        </param>
+        <param>
+          <type>const QString &amp;</type>
+          <declname>element</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/dbusxmlscanner.cpp" line="536" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/dbusxmlscanner.cpp" bodystart="532" bodyend="540"/>
+      </memberdef>
+      <memberdef kind="function" id="de/d7d/class_d_bus_x_m_l_handler_1a08328c5f0c3a2774837e88c1815213bc" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool DBusXMLHandler::hasType</definition>
+        <argsstring>(const QXmlAttributes &amp;attributes)</argsstring>
+        <name>hasType</name>
+        <param>
+          <type>const QXmlAttributes &amp;</type>
+          <declname>attributes</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/dbusxmlscanner.cpp" line="543" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/dbusxmlscanner.cpp" bodystart="542" bodyend="548"/>
+      </memberdef>
+      <memberdef kind="function" id="de/d7d/class_d_bus_x_m_l_handler_1a0dc8223be6c2cd256a414ab12eb0c541" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>QString</type>
+        <definition>QString DBusXMLHandler::getType</definition>
+        <argsstring>(const QXmlAttributes &amp;attributes)</argsstring>
+        <name>getType</name>
+        <param>
+          <type>const QXmlAttributes &amp;</type>
+          <declname>attributes</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/dbusxmlscanner.cpp" line="551" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/dbusxmlscanner.cpp" bodystart="550" bodyend="596"/>
+      </memberdef>
+      <memberdef kind="function" id="de/d7d/class_d_bus_x_m_l_handler_1a2d887fed0d1f5450e42f49ffcda969ce" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>QString</type>
+        <definition>QString DBusXMLHandler::getDBusType</definition>
+        <argsstring>(const QCString &amp;type)</argsstring>
+        <name>getDBusType</name>
+        <param>
+          <type>const QCString &amp;</type>
+          <declname>type</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/dbusxmlscanner.cpp" line="599" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/dbusxmlscanner.cpp" bodystart="598" bodyend="608"/>
+      </memberdef>
+      <memberdef kind="function" id="de/d7d/class_d_bus_x_m_l_handler_1a286e4905e1ef280bac0a9906bd20616a" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void DBusXMLHandler::addNamedType</definition>
+        <argsstring>(const QCString &amp;type)</argsstring>
+        <name>addNamedType</name>
+        <param>
+          <type>const QCString &amp;</type>
+          <declname>type</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/dbusxmlscanner.cpp" line="611" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/dbusxmlscanner.cpp" bodystart="610" bodyend="621"/>
+      </memberdef>
+      <memberdef kind="function" id="de/d7d/class_d_bus_x_m_l_handler_1a5071a18b0747510bda912d2ac395c8a0" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>QCString</type>
+        <definition>QCString DBusXMLHandler::getCurrentScope</definition>
+        <argsstring>(const QCString &amp;type=QCString())</argsstring>
+        <name>getCurrentScope</name>
+        <param>
+          <type>const QCString &amp;</type>
+          <declname>type</declname>
+          <defval>QCString()</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/dbusxmlscanner.cpp" line="624" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/dbusxmlscanner.cpp" bodystart="623" bodyend="637"/>
+      </memberdef>
+      <memberdef kind="function" id="de/d7d/class_d_bus_x_m_l_handler_1ac42a50c4aadf6f71ec912c4e8da1a377" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int DBusXMLHandler::indexOf</definition>
+        <argsstring>(const QXmlAttributes &amp;attributes, const QString &amp;name, const QString &amp;type=&quot;CDATA&quot;, const bool mandatory=true)</argsstring>
+        <name>indexOf</name>
+        <param>
+          <type>const QXmlAttributes &amp;</type>
+          <declname>attributes</declname>
+        </param>
+        <param>
+          <type>const QString &amp;</type>
+          <declname>name</declname>
+        </param>
+        <param>
+          <type>const QString &amp;</type>
+          <declname>type</declname>
+          <defval>&quot;CDATA&quot;</defval>
+        </param>
+        <param>
+          <type>const bool</type>
+          <declname>mandatory</declname>
+          <defval>true</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/dbusxmlscanner.cpp" line="641" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/dbusxmlscanner.cpp" bodystart="639" bodyend="648"/>
+      </memberdef>
+      <memberdef kind="function" id="de/d7d/class_d_bus_x_m_l_handler_1a769cf5d86c695f20cdc1e9232a7f5689" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="d4/dd7/class_entry" kindref="compound">Entry</ref> *</type>
+        <definition>Entry* DBusXMLHandler::createEntry</definition>
+        <argsstring>()</argsstring>
+        <name>createEntry</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/dbusxmlscanner.cpp" line="651" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/dbusxmlscanner.cpp" bodystart="650" bodyend="674"/>
+      </memberdef>
+      <memberdef kind="function" id="de/d7d/class_d_bus_x_m_l_handler_1a9146ddc461e882e76649e9e4f192cafb" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void DBusXMLHandler::openScopes</definition>
+        <argsstring>(Entry *object)</argsstring>
+        <name>openScopes</name>
+        <param>
+          <type><ref refid="d4/dd7/class_entry" kindref="compound">Entry</ref> *</type>
+          <declname>object</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/dbusxmlscanner.cpp" line="677" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/dbusxmlscanner.cpp" bodystart="676" bodyend="706"/>
+      </memberdef>
+      <memberdef kind="function" id="de/d7d/class_d_bus_x_m_l_handler_1ae6e860cb68b2285f6dd517593a41e37a" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="d4/dd7/class_entry" kindref="compound">Entry</ref> *</type>
+        <definition>Entry* DBusXMLHandler::openNamespace</definition>
+        <argsstring>(const QString &amp;name)</argsstring>
+        <name>openNamespace</name>
+        <param>
+          <type>const QString &amp;</type>
+          <declname>name</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/dbusxmlscanner.cpp" line="709" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/dbusxmlscanner.cpp" bodystart="708" bodyend="720"/>
+      </memberdef>
+      <memberdef kind="function" id="de/d7d/class_d_bus_x_m_l_handler_1a67f32d4ba82c23cc06f2a1a16cfec2bb" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void DBusXMLHandler::closeScopes</definition>
+        <argsstring>()</argsstring>
+        <name>closeScopes</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/dbusxmlscanner.cpp" line="723" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/dbusxmlscanner.cpp" bodystart="722" bodyend="732"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>DBus implementation of the generic QXmlDefaultHandler. </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2750">
+        <label>DBusXMLHandler</label>
+        <childnode refid="2751" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2751">
+        <label>QXmlDefaultHandler</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2752">
+        <label>DBusXMLHandler</label>
+        <childnode refid="2753" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2753">
+        <label>QXmlDefaultHandler</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/dbusxmlscanner.cpp" line="69" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/dbusxmlscanner.cpp" bodystart="68" bodyend="819"/>
+    <listofallmembers>
+      <member refid="de/d7d/class_d_bus_x_m_l_handler_1a286e4905e1ef280bac0a9906bd20616a" prot="private" virt="non-virtual"><scope>DBusXMLHandler</scope><name>addNamedType</name></member>
+      <member refid="de/d7d/class_d_bus_x_m_l_handler_1a9a7a684dee5e0eceedc3743d0509b57e" prot="public" virt="non-virtual"><scope>DBusXMLHandler</scope><name>characters</name></member>
+      <member refid="de/d7d/class_d_bus_x_m_l_handler_1a67f32d4ba82c23cc06f2a1a16cfec2bb" prot="private" virt="non-virtual"><scope>DBusXMLHandler</scope><name>closeScopes</name></member>
+      <member refid="de/d7d/class_d_bus_x_m_l_handler_1a412539218764dbada949c80309646e2e" prot="public" virt="non-virtual"><scope>DBusXMLHandler</scope><name>comment</name></member>
+      <member refid="de/d7d/class_d_bus_x_m_l_handler_1a769cf5d86c695f20cdc1e9232a7f5689" prot="private" virt="non-virtual"><scope>DBusXMLHandler</scope><name>createEntry</name></member>
+      <member refid="de/d7d/class_d_bus_x_m_l_handler_1a6d9dbc16f263fabfec751953c7c9562b" prot="public" virt="non-virtual"><scope>DBusXMLHandler</scope><name>DBusXMLHandler</name></member>
+      <member refid="de/d7d/class_d_bus_x_m_l_handler_1a576d19ce1758e2293e3ceeac57dd171d" prot="public" virt="non-virtual"><scope>DBusXMLHandler</scope><name>endElement</name></member>
+      <member refid="de/d7d/class_d_bus_x_m_l_handler_1acebb3b8270e7ed4ad47e7122d442e5ce" prot="public" virt="non-virtual"><scope>DBusXMLHandler</scope><name>errorString</name></member>
+      <member refid="de/d7d/class_d_bus_x_m_l_handler_1a5071a18b0747510bda912d2ac395c8a0" prot="private" virt="non-virtual"><scope>DBusXMLHandler</scope><name>getCurrentScope</name></member>
+      <member refid="de/d7d/class_d_bus_x_m_l_handler_1a2d887fed0d1f5450e42f49ffcda969ce" prot="private" virt="non-virtual"><scope>DBusXMLHandler</scope><name>getDBusType</name></member>
+      <member refid="de/d7d/class_d_bus_x_m_l_handler_1a0dc8223be6c2cd256a414ab12eb0c541" prot="private" virt="non-virtual"><scope>DBusXMLHandler</scope><name>getType</name></member>
+      <member refid="de/d7d/class_d_bus_x_m_l_handler_1aca48693571aa8d8f85f02c8bb03f9680" prot="public" virt="non-virtual"><scope>DBusXMLHandler</scope><name>handleComment</name></member>
+      <member refid="de/d7d/class_d_bus_x_m_l_handler_1a08328c5f0c3a2774837e88c1815213bc" prot="private" virt="non-virtual"><scope>DBusXMLHandler</scope><name>hasType</name></member>
+      <member refid="de/d7d/class_d_bus_x_m_l_handler_1ac42a50c4aadf6f71ec912c4e8da1a377" prot="private" virt="non-virtual"><scope>DBusXMLHandler</scope><name>indexOf</name></member>
+      <member refid="de/d7d/class_d_bus_x_m_l_handler_1ac70130bd12973b2258d2a9ef713923fe" prot="private" virt="non-virtual"><scope>DBusXMLHandler</scope><name>isDBusElement</name></member>
+      <member refid="de/d7d/class_d_bus_x_m_l_handler_1a15b99467b03005372e8007a661ee7865" prot="private" virt="non-virtual"><scope>DBusXMLHandler</scope><name>isExtensionElement</name></member>
+      <member refid="de/d7d/class_d_bus_x_m_l_handler_1ab5266454a9db213b713b443ef86b4a3e" prot="public" virt="non-virtual"><scope>DBusXMLHandler</scope><name>lineNumber</name></member>
+      <member refid="de/d7d/class_d_bus_x_m_l_handler_1a1051753231ce540ce01f5cca7d1d5c20" prot="public" virt="non-virtual"><scope>DBusXMLHandler</scope><name>locator</name></member>
+      <member refid="de/d7d/class_d_bus_x_m_l_handler_1a7d0bef15cfb2ab8b12535e3207ff5cbb" prot="private" virt="non-virtual"><scope>DBusXMLHandler</scope><name>m_currentArgument</name></member>
+      <member refid="de/d7d/class_d_bus_x_m_l_handler_1add67e281fb0c051a8cc886d6e4f8ce6b" prot="private" virt="non-virtual"><scope>DBusXMLHandler</scope><name>m_currentComment</name></member>
+      <member refid="de/d7d/class_d_bus_x_m_l_handler_1aa03a125b0d38a36a0aae35b8d29b51fa" prot="private" virt="non-virtual"><scope>DBusXMLHandler</scope><name>m_currentEntry</name></member>
+      <member refid="de/d7d/class_d_bus_x_m_l_handler_1ac9da171aa0cf6485653af3c3cf707077" prot="private" virt="non-virtual"><scope>DBusXMLHandler</scope><name>m_currentEnum</name></member>
+      <member refid="de/d7d/class_d_bus_x_m_l_handler_1a1efaac2e919b468efdee2486df8f5a73" prot="private" virt="non-virtual"><scope>DBusXMLHandler</scope><name>m_currentInterface</name></member>
+      <member refid="de/d7d/class_d_bus_x_m_l_handler_1afc728e5a011c66b3dce3814d2528ca61" prot="private" virt="non-virtual"><scope>DBusXMLHandler</scope><name>m_currentMethod</name></member>
+      <member refid="de/d7d/class_d_bus_x_m_l_handler_1a19ec1e499fb8a19c14a157aac17d5296" prot="private" virt="non-virtual"><scope>DBusXMLHandler</scope><name>m_currentNode</name></member>
+      <member refid="de/d7d/class_d_bus_x_m_l_handler_1ab142feb4f35cd88dd10f2662b1ca6ecf" prot="private" virt="non-virtual"><scope>DBusXMLHandler</scope><name>m_currentProperty</name></member>
+      <member refid="de/d7d/class_d_bus_x_m_l_handler_1a4a0720dffd47610879be3747dd78c1e0" prot="private" virt="non-virtual"><scope>DBusXMLHandler</scope><name>m_elementStack</name></member>
+      <member refid="de/d7d/class_d_bus_x_m_l_handler_1ad69a4990abe484a6d06f4322fa45a872" prot="private" virt="non-virtual"><scope>DBusXMLHandler</scope><name>m_errorString</name></member>
+      <member refid="de/d7d/class_d_bus_x_m_l_handler_1a0e93d5b2a6a9120857d2e90b06822df8" prot="private" virt="non-virtual"><scope>DBusXMLHandler</scope><name>m_fileName</name></member>
+      <member refid="de/d7d/class_d_bus_x_m_l_handler_1af16e082df0e4cbe50e3e10870a490908" prot="private" virt="non-virtual"><scope>DBusXMLHandler</scope><name>m_locator</name></member>
+      <member refid="de/d7d/class_d_bus_x_m_l_handler_1ad66af0d1c823699a2aa37078c6dba4b3" prot="private" virt="non-virtual"><scope>DBusXMLHandler</scope><name>m_namedTypeMap</name></member>
+      <member refid="de/d7d/class_d_bus_x_m_l_handler_1ae691c7b485f8086ab4c434876557bfc3" prot="private" virt="non-virtual"><scope>DBusXMLHandler</scope><name>m_namespaceStack</name></member>
+      <member refid="de/d7d/class_d_bus_x_m_l_handler_1a6b2279f9d2607d3d1eb01e89bc7fb8d2" prot="private" virt="non-virtual"><scope>DBusXMLHandler</scope><name>m_parser</name></member>
+      <member refid="de/d7d/class_d_bus_x_m_l_handler_1adad17385a2cb9fdb6047e64614255246" prot="private" virt="non-virtual"><scope>DBusXMLHandler</scope><name>m_scopeCount</name></member>
+      <member refid="de/d7d/class_d_bus_x_m_l_handler_1a4982d1f8552facefddfd6bd98af02c44" prot="private" virt="non-virtual"><scope>DBusXMLHandler</scope><name>m_scopeStack</name></member>
+      <member refid="de/d7d/class_d_bus_x_m_l_handler_1ae77ed0f250c8b27273607b7b9eca6804" prot="private" virt="non-virtual"><scope>DBusXMLHandler</scope><name>m_structStack</name></member>
+      <member refid="de/d7d/class_d_bus_x_m_l_handler_1ae6e860cb68b2285f6dd517593a41e37a" prot="private" virt="non-virtual"><scope>DBusXMLHandler</scope><name>openNamespace</name></member>
+      <member refid="de/d7d/class_d_bus_x_m_l_handler_1a9146ddc461e882e76649e9e4f192cafb" prot="private" virt="non-virtual"><scope>DBusXMLHandler</scope><name>openScopes</name></member>
+      <member refid="de/d7d/class_d_bus_x_m_l_handler_1ae7365c86117c07f6825d92176bf2f8f5" prot="public" virt="non-virtual"><scope>DBusXMLHandler</scope><name>setSection</name></member>
+      <member refid="de/d7d/class_d_bus_x_m_l_handler_1a21c548a4afd593c1a3f9860c80ecc425" prot="public" virt="non-virtual"><scope>DBusXMLHandler</scope><name>startElement</name></member>
+      <member refid="de/d7d/class_d_bus_x_m_l_handler_1ae5f8f810345564571cc1ce698d71a2bb" prot="public" virt="non-virtual"><scope>DBusXMLHandler</scope><name>~DBusXMLHandler</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

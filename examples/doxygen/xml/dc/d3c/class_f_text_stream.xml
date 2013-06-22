@@ -1,0 +1,454 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.2">
+  <compounddef id="dc/d3c/class_f_text_stream" kind="class" prot="public">
+    <compoundname>FTextStream</compoundname>
+    <includes refid="df/d83/ftextstream_8h" local="no">ftextstream.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="dc/d3c/class_f_text_stream_1a4d272c4e64ffd8f3e1ca659e30fe89ae" prot="private" static="no" mutable="no">
+        <type>QIODevice *</type>
+        <definition>QIODevice* FTextStream::m_dev</definition>
+        <argsstring></argsstring>
+        <name>m_dev</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/ftextstream.h" line="38" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/ftextstream.h" bodystart="38" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="dc/d3c/class_f_text_stream_1aee21edd32c8689acb82628c7f1562d84" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool FTextStream::m_owndev</definition>
+        <argsstring></argsstring>
+        <name>m_owndev</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/ftextstream.h" line="39" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/ftextstream.h" bodystart="39" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="dc/d3c/class_f_text_stream_1a612e69bc2d0f44fd5bb8a56bffb5e16d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>FTextStream::FTextStream</definition>
+        <argsstring>()</argsstring>
+        <name>FTextStream</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/ftextstream.h" line="14" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/ftextstream.cpp" bodystart="145" bodyend="149"/>
+      </memberdef>
+      <memberdef kind="function" id="dc/d3c/class_f_text_stream_1a5da2a94e578da2d6a437e5896d04cee2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>FTextStream::FTextStream</definition>
+        <argsstring>(QIODevice *)</argsstring>
+        <name>FTextStream</name>
+        <param>
+          <type>QIODevice *</type>
+          <defname>dev</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/ftextstream.h" line="15" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/ftextstream.cpp" bodystart="151" bodyend="155"/>
+      </memberdef>
+      <memberdef kind="function" id="dc/d3c/class_f_text_stream_1ae5e845f418c192c691b4f56597aa646c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>FTextStream::FTextStream</definition>
+        <argsstring>(QGString *)</argsstring>
+        <name>FTextStream</name>
+        <param>
+          <type>QGString *</type>
+          <defname>s</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/ftextstream.h" line="16" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/ftextstream.cpp" bodystart="157" bodyend="162"/>
+      </memberdef>
+      <memberdef kind="function" id="dc/d3c/class_f_text_stream_1aab7ddc66484e8fc42811c9013b2ac302" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>FTextStream::FTextStream</definition>
+        <argsstring>(FILE *)</argsstring>
+        <name>FTextStream</name>
+        <param>
+          <type>FILE *</type>
+          <defname>fh</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/ftextstream.h" line="17" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/ftextstream.cpp" bodystart="164" bodyend="168"/>
+      </memberdef>
+      <memberdef kind="function" id="dc/d3c/class_f_text_stream_1a87f8684e712e4e57cdc26ce5fcac0b2f" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type></type>
+        <definition>FTextStream::~FTextStream</definition>
+        <argsstring>()</argsstring>
+        <name>~FTextStream</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/ftextstream.h" line="18" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/ftextstream.cpp" bodystart="170" bodyend="174"/>
+      </memberdef>
+      <memberdef kind="function" id="dc/d3c/class_f_text_stream_1ab4c1bc07061c273ab9f750c757195cec" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>QIODevice *</type>
+        <definition>QIODevice * FTextStream::device</definition>
+        <argsstring>() const </argsstring>
+        <name>device</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/ftextstream.h" line="20" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/ftextstream.cpp" bodystart="176" bodyend="179"/>
+      </memberdef>
+      <memberdef kind="function" id="dc/d3c/class_f_text_stream_1a1a90f7e23853f2b9f8a7e5470b1e0a30" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void FTextStream::setDevice</definition>
+        <argsstring>(QIODevice *)</argsstring>
+        <name>setDevice</name>
+        <param>
+          <type>QIODevice *</type>
+          <defname>dev</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/ftextstream.h" line="21" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/ftextstream.cpp" bodystart="181" bodyend="189"/>
+      </memberdef>
+      <memberdef kind="function" id="dc/d3c/class_f_text_stream_1a284a01c6b372c3a718c29ea35b829097" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void FTextStream::unsetDevice</definition>
+        <argsstring>()</argsstring>
+        <name>unsetDevice</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/ftextstream.h" line="22" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/ftextstream.cpp" bodystart="191" bodyend="194"/>
+      </memberdef>
+      <memberdef kind="function" id="dc/d3c/class_f_text_stream_1a1d87a0c4e6838fff7beb42b06f34f71b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="dc/d3c/class_f_text_stream" kindref="compound">FTextStream</ref> &amp;</type>
+        <definition>FTextStream &amp; FTextStream::operator&lt;&lt;</definition>
+        <argsstring>(char)</argsstring>
+        <name>operator&lt;&lt;</name>
+        <param>
+          <type>char</type>
+          <defname>c</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/ftextstream.h" line="24" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/ftextstream.h" bodystart="49" bodyend="53"/>
+      </memberdef>
+      <memberdef kind="function" id="dc/d3c/class_f_text_stream_1a930047bc97078e2c98a786fe5c244c77" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="dc/d3c/class_f_text_stream" kindref="compound">FTextStream</ref> &amp;</type>
+        <definition>FTextStream &amp; FTextStream::operator&lt;&lt;</definition>
+        <argsstring>(const char *)</argsstring>
+        <name>operator&lt;&lt;</name>
+        <param>
+          <type>const char *</type>
+          <defname>s</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/ftextstream.h" line="25" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/ftextstream.h" bodystart="55" bodyend="60"/>
+      </memberdef>
+      <memberdef kind="function" id="dc/d3c/class_f_text_stream_1a3468149d96ec2ed0918cd8aa7ced0ab3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="dc/d3c/class_f_text_stream" kindref="compound">FTextStream</ref> &amp;</type>
+        <definition>FTextStream &amp; FTextStream::operator&lt;&lt;</definition>
+        <argsstring>(const QString &amp;)</argsstring>
+        <name>operator&lt;&lt;</name>
+        <param>
+          <type>const QString &amp;</type>
+          <defname>s</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/ftextstream.h" line="26" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/ftextstream.h" bodystart="62" bodyend="65"/>
+      </memberdef>
+      <memberdef kind="function" id="dc/d3c/class_f_text_stream_1af06c3d6273c5c593220a0078823f946c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="dc/d3c/class_f_text_stream" kindref="compound">FTextStream</ref> &amp;</type>
+        <definition>FTextStream &amp; FTextStream::operator&lt;&lt;</definition>
+        <argsstring>(const QCString &amp;)</argsstring>
+        <name>operator&lt;&lt;</name>
+        <param>
+          <type>const QCString &amp;</type>
+          <defname>s</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/ftextstream.h" line="27" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/ftextstream.h" bodystart="67" bodyend="70"/>
+      </memberdef>
+      <memberdef kind="function" id="dc/d3c/class_f_text_stream_1a2a8f83186d0dcb7cf994eda59d8bbab2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="dc/d3c/class_f_text_stream" kindref="compound">FTextStream</ref> &amp;</type>
+        <definition>FTextStream &amp; FTextStream::operator&lt;&lt;</definition>
+        <argsstring>(signed short)</argsstring>
+        <name>operator&lt;&lt;</name>
+        <param>
+          <type>signed</type>
+          <declname>short</declname>
+          <defname>i</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/ftextstream.h" line="28" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/ftextstream.cpp" bodystart="214" bodyend="217"/>
+      </memberdef>
+      <memberdef kind="function" id="dc/d3c/class_f_text_stream_1a2483704185aab1fdcf304a70623e7f58" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="dc/d3c/class_f_text_stream" kindref="compound">FTextStream</ref> &amp;</type>
+        <definition>FTextStream &amp; FTextStream::operator&lt;&lt;</definition>
+        <argsstring>(unsigned short)</argsstring>
+        <name>operator&lt;&lt;</name>
+        <param>
+          <type>unsigned</type>
+          <declname>short</declname>
+          <defname>i</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/ftextstream.h" line="29" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/ftextstream.cpp" bodystart="219" bodyend="222"/>
+      </memberdef>
+      <memberdef kind="function" id="dc/d3c/class_f_text_stream_1ab388dd16842bbd8fec91487a15c29959" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="dc/d3c/class_f_text_stream" kindref="compound">FTextStream</ref> &amp;</type>
+        <definition>FTextStream &amp; FTextStream::operator&lt;&lt;</definition>
+        <argsstring>(signed int)</argsstring>
+        <name>operator&lt;&lt;</name>
+        <param>
+          <type>signed</type>
+          <declname>int</declname>
+          <defname>i</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/ftextstream.h" line="30" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/ftextstream.cpp" bodystart="224" bodyend="227"/>
+      </memberdef>
+      <memberdef kind="function" id="dc/d3c/class_f_text_stream_1a64956cc813b4f5bbc317615d0965672a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="dc/d3c/class_f_text_stream" kindref="compound">FTextStream</ref> &amp;</type>
+        <definition>FTextStream &amp; FTextStream::operator&lt;&lt;</definition>
+        <argsstring>(unsigned int)</argsstring>
+        <name>operator&lt;&lt;</name>
+        <param>
+          <type>unsigned</type>
+          <declname>int</declname>
+          <defname>i</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/ftextstream.h" line="31" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/ftextstream.cpp" bodystart="229" bodyend="232"/>
+      </memberdef>
+      <memberdef kind="function" id="dc/d3c/class_f_text_stream_1ae8876943f5020db14ffdd11231998ea6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="dc/d3c/class_f_text_stream" kindref="compound">FTextStream</ref> &amp;</type>
+        <definition>FTextStream &amp; FTextStream::operator&lt;&lt;</definition>
+        <argsstring>(signed long)</argsstring>
+        <name>operator&lt;&lt;</name>
+        <param>
+          <type>signed</type>
+          <declname>long</declname>
+          <defname>i</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/ftextstream.h" line="32" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/ftextstream.cpp" bodystart="234" bodyend="237"/>
+      </memberdef>
+      <memberdef kind="function" id="dc/d3c/class_f_text_stream_1a21fedd3e73094c26f818ca5a1f187666" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="dc/d3c/class_f_text_stream" kindref="compound">FTextStream</ref> &amp;</type>
+        <definition>FTextStream &amp; FTextStream::operator&lt;&lt;</definition>
+        <argsstring>(unsigned long)</argsstring>
+        <name>operator&lt;&lt;</name>
+        <param>
+          <type>unsigned</type>
+          <declname>long</declname>
+          <defname>i</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/ftextstream.h" line="33" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/ftextstream.cpp" bodystart="239" bodyend="242"/>
+      </memberdef>
+      <memberdef kind="function" id="dc/d3c/class_f_text_stream_1a6c4c40d944c49b1110a8dedc2b1a265e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="dc/d3c/class_f_text_stream" kindref="compound">FTextStream</ref> &amp;</type>
+        <definition>FTextStream &amp; FTextStream::operator&lt;&lt;</definition>
+        <argsstring>(float)</argsstring>
+        <name>operator&lt;&lt;</name>
+        <param>
+          <type>float</type>
+          <defname>f</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/ftextstream.h" line="34" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/ftextstream.cpp" bodystart="244" bodyend="247"/>
+      </memberdef>
+      <memberdef kind="function" id="dc/d3c/class_f_text_stream_1af1dd4f6a0044885898df476168e92a7f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="dc/d3c/class_f_text_stream" kindref="compound">FTextStream</ref> &amp;</type>
+        <definition>FTextStream &amp; FTextStream::operator&lt;&lt;</definition>
+        <argsstring>(double)</argsstring>
+        <name>operator&lt;&lt;</name>
+        <param>
+          <type>double</type>
+          <defname>d</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/ftextstream.h" line="35" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/ftextstream.cpp" bodystart="249" bodyend="254"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="dc/d3c/class_f_text_stream_1aec853fc7100a51daeffd6eadeacd1b1b" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="dc/d3c/class_f_text_stream" kindref="compound">FTextStream</ref> &amp;</type>
+        <definition>FTextStream &amp; FTextStream::output_int</definition>
+        <argsstring>(ulong n, bool neg)</argsstring>
+        <name>output_int</name>
+        <param>
+          <type>ulong</type>
+          <declname>n</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>neg</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/ftextstream.h" line="40" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/ftextstream.cpp" bodystart="196" bodyend="212"/>
+      </memberdef>
+      <memberdef kind="function" id="dc/d3c/class_f_text_stream_1afc6767a7abdf8ccc089908657c3545c0" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>FTextStream::FTextStream</definition>
+        <argsstring>(const FTextStream &amp;)</argsstring>
+        <name>FTextStream</name>
+        <param>
+          <type>const <ref refid="dc/d3c/class_f_text_stream" kindref="compound">FTextStream</ref> &amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/ftextstream.h" line="44"/>
+      </memberdef>
+      <memberdef kind="function" id="dc/d3c/class_f_text_stream_1a6b950e09351a9af9fec50d92cbc76fe6" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="dc/d3c/class_f_text_stream" kindref="compound">FTextStream</ref> &amp;</type>
+        <definition>FTextStream&amp; FTextStream::operator=</definition>
+        <argsstring>(const FTextStream &amp;)</argsstring>
+        <name>operator=</name>
+        <param>
+          <type>const <ref refid="dc/d3c/class_f_text_stream" kindref="compound">FTextStream</ref> &amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/ftextstream.h" line="45"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Simplified and optimized version of QTextStream. </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/ftextstream.h" line="12" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/ftextstream.h" bodystart="11" bodyend="47"/>
+    <listofallmembers>
+      <member refid="dc/d3c/class_f_text_stream_1ab4c1bc07061c273ab9f750c757195cec" prot="public" virt="non-virtual"><scope>FTextStream</scope><name>device</name></member>
+      <member refid="dc/d3c/class_f_text_stream_1a612e69bc2d0f44fd5bb8a56bffb5e16d" prot="public" virt="non-virtual"><scope>FTextStream</scope><name>FTextStream</name></member>
+      <member refid="dc/d3c/class_f_text_stream_1a5da2a94e578da2d6a437e5896d04cee2" prot="public" virt="non-virtual"><scope>FTextStream</scope><name>FTextStream</name></member>
+      <member refid="dc/d3c/class_f_text_stream_1ae5e845f418c192c691b4f56597aa646c" prot="public" virt="non-virtual"><scope>FTextStream</scope><name>FTextStream</name></member>
+      <member refid="dc/d3c/class_f_text_stream_1aab7ddc66484e8fc42811c9013b2ac302" prot="public" virt="non-virtual"><scope>FTextStream</scope><name>FTextStream</name></member>
+      <member refid="dc/d3c/class_f_text_stream_1afc6767a7abdf8ccc089908657c3545c0" prot="private" virt="non-virtual"><scope>FTextStream</scope><name>FTextStream</name></member>
+      <member refid="dc/d3c/class_f_text_stream_1a4d272c4e64ffd8f3e1ca659e30fe89ae" prot="private" virt="non-virtual"><scope>FTextStream</scope><name>m_dev</name></member>
+      <member refid="dc/d3c/class_f_text_stream_1aee21edd32c8689acb82628c7f1562d84" prot="private" virt="non-virtual"><scope>FTextStream</scope><name>m_owndev</name></member>
+      <member refid="dc/d3c/class_f_text_stream_1a1d87a0c4e6838fff7beb42b06f34f71b" prot="public" virt="non-virtual"><scope>FTextStream</scope><name>operator&lt;&lt;</name></member>
+      <member refid="dc/d3c/class_f_text_stream_1a930047bc97078e2c98a786fe5c244c77" prot="public" virt="non-virtual"><scope>FTextStream</scope><name>operator&lt;&lt;</name></member>
+      <member refid="dc/d3c/class_f_text_stream_1a3468149d96ec2ed0918cd8aa7ced0ab3" prot="public" virt="non-virtual"><scope>FTextStream</scope><name>operator&lt;&lt;</name></member>
+      <member refid="dc/d3c/class_f_text_stream_1af06c3d6273c5c593220a0078823f946c" prot="public" virt="non-virtual"><scope>FTextStream</scope><name>operator&lt;&lt;</name></member>
+      <member refid="dc/d3c/class_f_text_stream_1a2a8f83186d0dcb7cf994eda59d8bbab2" prot="public" virt="non-virtual"><scope>FTextStream</scope><name>operator&lt;&lt;</name></member>
+      <member refid="dc/d3c/class_f_text_stream_1a2483704185aab1fdcf304a70623e7f58" prot="public" virt="non-virtual"><scope>FTextStream</scope><name>operator&lt;&lt;</name></member>
+      <member refid="dc/d3c/class_f_text_stream_1ab388dd16842bbd8fec91487a15c29959" prot="public" virt="non-virtual"><scope>FTextStream</scope><name>operator&lt;&lt;</name></member>
+      <member refid="dc/d3c/class_f_text_stream_1a64956cc813b4f5bbc317615d0965672a" prot="public" virt="non-virtual"><scope>FTextStream</scope><name>operator&lt;&lt;</name></member>
+      <member refid="dc/d3c/class_f_text_stream_1ae8876943f5020db14ffdd11231998ea6" prot="public" virt="non-virtual"><scope>FTextStream</scope><name>operator&lt;&lt;</name></member>
+      <member refid="dc/d3c/class_f_text_stream_1a21fedd3e73094c26f818ca5a1f187666" prot="public" virt="non-virtual"><scope>FTextStream</scope><name>operator&lt;&lt;</name></member>
+      <member refid="dc/d3c/class_f_text_stream_1a6c4c40d944c49b1110a8dedc2b1a265e" prot="public" virt="non-virtual"><scope>FTextStream</scope><name>operator&lt;&lt;</name></member>
+      <member refid="dc/d3c/class_f_text_stream_1af1dd4f6a0044885898df476168e92a7f" prot="public" virt="non-virtual"><scope>FTextStream</scope><name>operator&lt;&lt;</name></member>
+      <member refid="dc/d3c/class_f_text_stream_1a6b950e09351a9af9fec50d92cbc76fe6" prot="private" virt="non-virtual"><scope>FTextStream</scope><name>operator=</name></member>
+      <member refid="dc/d3c/class_f_text_stream_1aec853fc7100a51daeffd6eadeacd1b1b" prot="private" virt="non-virtual"><scope>FTextStream</scope><name>output_int</name></member>
+      <member refid="dc/d3c/class_f_text_stream_1a1a90f7e23853f2b9f8a7e5470b1e0a30" prot="public" virt="non-virtual"><scope>FTextStream</scope><name>setDevice</name></member>
+      <member refid="dc/d3c/class_f_text_stream_1a284a01c6b372c3a718c29ea35b829097" prot="public" virt="non-virtual"><scope>FTextStream</scope><name>unsetDevice</name></member>
+      <member refid="dc/d3c/class_f_text_stream_1a87f8684e712e4e57cdc26ce5fcac0b2f" prot="public" virt="virtual"><scope>FTextStream</scope><name>~FTextStream</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,115 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.2">
+  <compounddef id="d6/d0e/struct_lode_p_n_g___encoder" kind="struct" prot="public">
+    <compoundname>LodePNG_Encoder</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="d6/d0e/struct_lode_p_n_g___encoder_1ae36ceb21b9d1007491f4edbb2be12bab" prot="public" static="no" mutable="no">
+        <type><ref refid="da/da3/struct_lode_p_n_g___encode_settings" kindref="compound">LodePNG_EncodeSettings</ref></type>
+        <definition>LodePNG_EncodeSettings LodePNG_Encoder::settings</definition>
+        <argsstring></argsstring>
+        <name>settings</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/lodepng.h" line="340" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/lodepng.h" bodystart="340" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d6/d0e/struct_lode_p_n_g___encoder_1a5c4bc6d9be898fbcc14b5d762d69457e" prot="public" static="no" mutable="no">
+        <type><ref refid="d7/d1e/struct_lode_p_n_g___info_png" kindref="compound">LodePNG_InfoPng</ref></type>
+        <definition>LodePNG_InfoPng LodePNG_Encoder::infoPng</definition>
+        <argsstring></argsstring>
+        <name>infoPng</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/lodepng.h" line="341" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/lodepng.h" bodystart="341" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d6/d0e/struct_lode_p_n_g___encoder_1af37ca9b0bcecd5d1d68756fd293ab998" prot="public" static="no" mutable="no">
+        <type><ref refid="d3/d36/struct_lode_p_n_g___info_raw" kindref="compound">LodePNG_InfoRaw</ref></type>
+        <definition>LodePNG_InfoRaw LodePNG_Encoder::infoRaw</definition>
+        <argsstring></argsstring>
+        <name>infoRaw</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/lodepng.h" line="342" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/lodepng.h" bodystart="342" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d6/d0e/struct_lode_p_n_g___encoder_1a18e658a08db22dd34fc26c138f3eb2df" prot="public" static="no" mutable="no">
+        <type>unsigned</type>
+        <definition>unsigned LodePNG_Encoder::error</definition>
+        <argsstring></argsstring>
+        <name>error</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/lodepng.h" line="343" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/lodepng.h" bodystart="343" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="3660">
+        <label>LodePNG_InfoRaw</label>
+        <link refid="d3/d36/struct_lode_p_n_g___info_raw"/>
+        <childnode refid="3657" relation="usage">
+          <edgelabel>color</edgelabel>
+        </childnode>
+      </node>
+      <node id="3655">
+        <label>LodePNG_Encoder</label>
+        <link refid="d6/d0e/struct_lode_p_n_g___encoder"/>
+        <childnode refid="3656" relation="usage">
+          <edgelabel>infoPng</edgelabel>
+        </childnode>
+        <childnode refid="3658" relation="usage">
+          <edgelabel>settings</edgelabel>
+        </childnode>
+        <childnode refid="3660" relation="usage">
+          <edgelabel>infoRaw</edgelabel>
+        </childnode>
+      </node>
+      <node id="3657">
+        <label>LodePNG_InfoColor</label>
+        <link refid="d5/d0f/struct_lode_p_n_g___info_color"/>
+      </node>
+      <node id="3656">
+        <label>LodePNG_InfoPng</label>
+        <link refid="d7/d1e/struct_lode_p_n_g___info_png"/>
+        <childnode refid="3657" relation="usage">
+          <edgelabel>color</edgelabel>
+        </childnode>
+      </node>
+      <node id="3658">
+        <label>LodePNG_EncodeSettings</label>
+        <link refid="da/da3/struct_lode_p_n_g___encode_settings"/>
+        <childnode refid="3659" relation="usage">
+          <edgelabel>zlibsettings</edgelabel>
+        </childnode>
+      </node>
+      <node id="3659">
+        <label>LodeZlib_DeflateSettings</label>
+        <link refid="dc/dc3/struct_lode_zlib___deflate_settings"/>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/lodepng.h" line="339" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/lodepng.h" bodystart="338" bodyend="344"/>
+    <listofallmembers>
+      <member refid="d6/d0e/struct_lode_p_n_g___encoder_1a18e658a08db22dd34fc26c138f3eb2df" prot="public" virt="non-virtual"><scope>LodePNG_Encoder</scope><name>error</name></member>
+      <member refid="d6/d0e/struct_lode_p_n_g___encoder_1a5c4bc6d9be898fbcc14b5d762d69457e" prot="public" virt="non-virtual"><scope>LodePNG_Encoder</scope><name>infoPng</name></member>
+      <member refid="d6/d0e/struct_lode_p_n_g___encoder_1af37ca9b0bcecd5d1d68756fd293ab998" prot="public" virt="non-virtual"><scope>LodePNG_Encoder</scope><name>infoRaw</name></member>
+      <member refid="d6/d0e/struct_lode_p_n_g___encoder_1ae36ceb21b9d1007491f4edbb2be12bab" prot="public" virt="non-virtual"><scope>LodePNG_Encoder</scope><name>settings</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,99 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.2">
+  <compounddef id="structshape__desc" kind="struct" prot="public">
+    <compoundname>shape_desc</compoundname>
+    <includes refid="types_8h" local="no">types.h</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structshape__desc_1af19b381484ceb76bf8c4a0a9eed2acdd" prot="public" static="no" mutable="no">
+        <type>char *</type>
+        <definition>char* shape_desc::name</definition>
+        <argsstring></argsstring>
+        <name>name</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/doxyviz/bindviz/graphviz-2.30.1/embuild/lib/common/types.h" line="193" bodyfile="C:/Users/Mat/Projects/doxygraph/doxyviz/bindviz/graphviz-2.30.1/embuild/lib/common/types.h" bodystart="193" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structshape__desc_1a8d4ee4dd3c5b8c134f5ea75783f6d89c" prot="public" static="no" mutable="no">
+        <type><ref refid="structshape__functions" kindref="compound">shape_functions</ref> *</type>
+        <definition>shape_functions* shape_desc::fns</definition>
+        <argsstring></argsstring>
+        <name>fns</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/doxyviz/bindviz/graphviz-2.30.1/embuild/lib/common/types.h" line="194" bodyfile="C:/Users/Mat/Projects/doxygraph/doxyviz/bindviz/graphviz-2.30.1/embuild/lib/common/types.h" bodystart="194" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structshape__desc_1a54d18ab4a65276ed9dcef2a3dbd06b71" prot="public" static="no" mutable="no">
+        <type><ref refid="structpolygon__t" kindref="compound">polygon_t</ref> *</type>
+        <definition>polygon_t* shape_desc::polygon</definition>
+        <argsstring></argsstring>
+        <name>polygon</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/doxyviz/bindviz/graphviz-2.30.1/embuild/lib/common/types.h" line="195" bodyfile="C:/Users/Mat/Projects/doxygraph/doxyviz/bindviz/graphviz-2.30.1/embuild/lib/common/types.h" bodystart="195" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structshape__desc_1ad06af5679f9f663f94a409e3030fa82b" prot="public" static="no" mutable="no">
+        <type><ref refid="types_8h_1a7670a4e8a07d9ebb00411948b0bbf86d" kindref="member">boolean</ref></type>
+        <definition>boolean shape_desc::usershape</definition>
+        <argsstring></argsstring>
+        <name>usershape</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/doxyviz/bindviz/graphviz-2.30.1/embuild/lib/common/types.h" line="196" bodyfile="C:/Users/Mat/Projects/doxygraph/doxyviz/bindviz/graphviz-2.30.1/embuild/lib/common/types.h" bodystart="196" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="129">
+        <label>shape_desc</label>
+        <link refid="structshape__desc"/>
+        <childnode refid="130" relation="usage">
+          <edgelabel>fns</edgelabel>
+        </childnode>
+        <childnode refid="132" relation="usage">
+          <edgelabel>polygon</edgelabel>
+        </childnode>
+      </node>
+      <node id="131">
+        <label>port</label>
+        <link refid="structport"/>
+      </node>
+      <node id="132">
+        <label>polygon_t</label>
+        <link refid="structpolygon__t"/>
+      </node>
+      <node id="130">
+        <label>shape_functions</label>
+        <link refid="structshape__functions"/>
+        <childnode refid="131" relation="usage">
+          <edgelabel>portfn</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Mat/Projects/doxygraph/doxyviz/bindviz/graphviz-2.30.1/embuild/lib/common/types.h" line="192" bodyfile="C:/Users/Mat/Projects/doxygraph/doxyviz/bindviz/graphviz-2.30.1/embuild/lib/common/types.h" bodystart="192" bodyend="197"/>
+    <listofallmembers>
+      <member refid="structshape__desc_1a8d4ee4dd3c5b8c134f5ea75783f6d89c" prot="public" virt="non-virtual"><scope>shape_desc</scope><name>fns</name></member>
+      <member refid="structshape__desc_1af19b381484ceb76bf8c4a0a9eed2acdd" prot="public" virt="non-virtual"><scope>shape_desc</scope><name>name</name></member>
+      <member refid="structshape__desc_1a54d18ab4a65276ed9dcef2a3dbd06b71" prot="public" virt="non-virtual"><scope>shape_desc</scope><name>polygon</name></member>
+      <member refid="structshape__desc_1ad06af5679f9f663f94a409e3030fa82b" prot="public" virt="non-virtual"><scope>shape_desc</scope><name>usershape</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

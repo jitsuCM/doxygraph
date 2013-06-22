@@ -1,0 +1,2471 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.2">
+  <compounddef id="d6/d98/class_vhdl_doc_gen" kind="class" prot="public">
+    <compoundname>VhdlDocGen</compoundname>
+    <includes refid="dd/dec/vhdldocgen_8h" local="no">vhdldocgen.h</includes>
+      <sectiondef kind="public-type">
+      <memberdef kind="enum" id="d6/d98/class_vhdl_doc_gen_1a010ab08982f29df8c0f3d3f0f642f0f0" prot="public" static="no">
+        <name>VhdlClasses</name>
+        <enumvalue id="d6/d98/class_vhdl_doc_gen_1a010ab08982f29df8c0f3d3f0f642f0f0a0f87010297b89ed715ad63fccec9b90e" prot="public">
+          <name>ENTITYCLASS</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d6/d98/class_vhdl_doc_gen_1a010ab08982f29df8c0f3d3f0f642f0f0a4cdc00f213301fb089eb3906a07efd20" prot="public">
+          <name>PACKBODYCLASS</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d6/d98/class_vhdl_doc_gen_1a010ab08982f29df8c0f3d3f0f642f0f0ae0c7e4401e472ec3153e9793e240a431" prot="public">
+          <name>ARCHITECTURECLASS</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d6/d98/class_vhdl_doc_gen_1a010ab08982f29df8c0f3d3f0f642f0f0ae69513dd677b13d97b6a2e3ae445d1ef" prot="public">
+          <name>PACKAGECLASS</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/vhdldocgen.h" line="48" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/vhdldocgen.h" bodystart="47" bodyend="53"/>
+      </memberdef>
+      <memberdef kind="enum" id="d6/d98/class_vhdl_doc_gen_1a3f46a86d0561edb71388774696f6cea6" prot="public" static="no">
+        <name>VhdlKeyWords</name>
+        <enumvalue id="d6/d98/class_vhdl_doc_gen_1a3f46a86d0561edb71388774696f6cea6ace1559d6b194d1712298e2d0040d7107" prot="public">
+          <name>LIBRARY</name>
+          <initializer>=1</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d6/d98/class_vhdl_doc_gen_1a3f46a86d0561edb71388774696f6cea6a604511e3915904fbe25310051952f859" prot="public">
+          <name>ENTITY</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d6/d98/class_vhdl_doc_gen_1a3f46a86d0561edb71388774696f6cea6ae421d9c7eca60207baf35f4cbd0b1da2" prot="public">
+          <name>PACKAGE_BODY</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d6/d98/class_vhdl_doc_gen_1a3f46a86d0561edb71388774696f6cea6a523358537aff4699052d808da11a58ab" prot="public">
+          <name>ARCHITECTURE</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d6/d98/class_vhdl_doc_gen_1a3f46a86d0561edb71388774696f6cea6a28636405fd1d55082e41bae5b5b3c3a5" prot="public">
+          <name>PACKAGE</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d6/d98/class_vhdl_doc_gen_1a3f46a86d0561edb71388774696f6cea6a74fd577ccb143927e3b8dbd90242ea82" prot="public">
+          <name>ATTRIBUTE</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d6/d98/class_vhdl_doc_gen_1a3f46a86d0561edb71388774696f6cea6a425d57cd5b88c50bf8d6a7f30f9aad5f" prot="public">
+          <name>SIGNAL</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d6/d98/class_vhdl_doc_gen_1a3f46a86d0561edb71388774696f6cea6a6e8760b776ac93d18d10f76f3e9b92a0" prot="public">
+          <name>COMPONENT</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d6/d98/class_vhdl_doc_gen_1a3f46a86d0561edb71388774696f6cea6a0893bf5a72275367a8e6a3721c9086f6" prot="public">
+          <name>CONSTANT</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d6/d98/class_vhdl_doc_gen_1a3f46a86d0561edb71388774696f6cea6a0a5e79aae981605ec80283206d115283" prot="public">
+          <name>TYPE</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d6/d98/class_vhdl_doc_gen_1a3f46a86d0561edb71388774696f6cea6a0cd6b2634cdb63a17c75b4b223681084" prot="public">
+          <name>SUBTYPE</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d6/d98/class_vhdl_doc_gen_1a3f46a86d0561edb71388774696f6cea6a5b3da2e7667eed3c6f771079cda86e12" prot="public">
+          <name>FUNCTION</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d6/d98/class_vhdl_doc_gen_1a3f46a86d0561edb71388774696f6cea6af57d3961a03bd6b9bd2de810a5158370" prot="public">
+          <name>RECORD</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d6/d98/class_vhdl_doc_gen_1a3f46a86d0561edb71388774696f6cea6a25acdad40807693c8face87fa6a34dae" prot="public">
+          <name>PROCEDURE</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d6/d98/class_vhdl_doc_gen_1a3f46a86d0561edb71388774696f6cea6aeab873f5f9da8d43d0f5b730e9b4ca8f" prot="public">
+          <name>USE</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d6/d98/class_vhdl_doc_gen_1a3f46a86d0561edb71388774696f6cea6ad8826a2843d98d994f2451775f57851f" prot="public">
+          <name>PROCESS</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d6/d98/class_vhdl_doc_gen_1a3f46a86d0561edb71388774696f6cea6a96a5769416db537592ac9bd778e1ba15" prot="public">
+          <name>PORT</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d6/d98/class_vhdl_doc_gen_1a3f46a86d0561edb71388774696f6cea6a9f02979facca94d4d0113e895224a27e" prot="public">
+          <name>UNITS</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d6/d98/class_vhdl_doc_gen_1a3f46a86d0561edb71388774696f6cea6a21dd6922b9f777cb0eca071002740a49" prot="public">
+          <name>GENERIC</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d6/d98/class_vhdl_doc_gen_1a3f46a86d0561edb71388774696f6cea6ad66184819af212c8e56c4c69765df23c" prot="public">
+          <name>INSTANTIATION</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d6/d98/class_vhdl_doc_gen_1a3f46a86d0561edb71388774696f6cea6a16a7b9d37ce120789952ba9bebec0b8c" prot="public">
+          <name>GROUP</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d6/d98/class_vhdl_doc_gen_1a3f46a86d0561edb71388774696f6cea6a9f13ba47aabd6d1e602ccfacf08ae2fd" prot="public">
+          <name>VFILE</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d6/d98/class_vhdl_doc_gen_1a3f46a86d0561edb71388774696f6cea6a77f8601e3486282da0da7d4f5fb794db" prot="public">
+          <name>SHAREDVARIABLE</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d6/d98/class_vhdl_doc_gen_1a3f46a86d0561edb71388774696f6cea6a69fc9806e87f3f09d80b348be3c8e4dc" prot="public">
+          <name>CONFIG</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d6/d98/class_vhdl_doc_gen_1a3f46a86d0561edb71388774696f6cea6a7793acc4468024b56c723d5b696163e5" prot="public">
+          <name>ALIAS</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d6/d98/class_vhdl_doc_gen_1a3f46a86d0561edb71388774696f6cea6aff47a9945ac0d2a4d504f95904173750" prot="public">
+          <name>MISCELLANEOUS</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d6/d98/class_vhdl_doc_gen_1a3f46a86d0561edb71388774696f6cea6a3634e4fcc00b052fe7b55fd319d009c9" prot="public">
+          <name>UCF_CONST</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/vhdldocgen.h" line="56" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/vhdldocgen.h" bodystart="55" bodyend="84"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="d6/d98/class_vhdl_doc_gen_1a9c81282909ce97e85d0f42a4e2bd3b1e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>VhdlDocGen::VhdlDocGen</definition>
+        <argsstring>()</argsstring>
+        <name>VhdlDocGen</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/vhdldocgen.h" line="86" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/vhdldocgen.cpp" bodystart="555" bodyend="557"/>
+      </memberdef>
+      <memberdef kind="function" id="d6/d98/class_vhdl_doc_gen_1acc05e81acd9943236e3530a0beba9f86" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type></type>
+        <definition>VhdlDocGen::~VhdlDocGen</definition>
+        <argsstring>()</argsstring>
+        <name>~VhdlDocGen</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/vhdldocgen.h" line="87" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/vhdldocgen.cpp" bodystart="559" bodyend="561"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="d6/d98/class_vhdl_doc_gen_1a987fee1e906fac322dda62613525a8f9" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void VhdlDocGen::init</definition>
+        <argsstring>()</argsstring>
+        <name>init</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/vhdldocgen.h" line="88" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/vhdldocgen.cpp" bodystart="563" bodyend="636"/>
+      </memberdef>
+      <memberdef kind="function" id="d6/d98/class_vhdl_doc_gen_1ac5508320d1d3754b484107c49cfec5a7" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>QCString</type>
+        <definition>QCString VhdlDocGen::convertFileNameToClassName</definition>
+        <argsstring>(QCString name)</argsstring>
+        <name>convertFileNameToClassName</name>
+        <param>
+          <type>QCString</type>
+          <declname>name</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/vhdldocgen.h" line="89" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/vhdldocgen.cpp" bodystart="2608" bodyend="2627"/>
+      </memberdef>
+      <memberdef kind="function" id="d6/d98/class_vhdl_doc_gen_1ac7d0f125a2bffca08e8c52644bf8c6f2" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool VhdlDocGen::isSubClass</definition>
+        <argsstring>(ClassDef *cd, ClassDef *scd, bool followInstances, int level)</argsstring>
+        <name>isSubClass</name>
+        <param>
+          <type><ref refid="d1/dcf/class_class_def" kindref="compound">ClassDef</ref> *</type>
+          <declname>cd</declname>
+        </param>
+        <param>
+          <type><ref refid="d1/dcf/class_class_def" kindref="compound">ClassDef</ref> *</type>
+          <declname>scd</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>followInstances</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>level</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/vhdldocgen.h" line="92" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/vhdldocgen.cpp" bodystart="3207" bodyend="3240"/>
+      </memberdef>
+      <memberdef kind="function" id="d6/d98/class_vhdl_doc_gen_1aede8c70a47e630b7a4b562b599304121" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>QCString</type>
+        <definition>QCString VhdlDocGen::getIndexWord</definition>
+        <argsstring>(const char *, int index)</argsstring>
+        <name>getIndexWord</name>
+        <param>
+          <type>const char *</type>
+          <defname>c</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>index</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/vhdldocgen.h" line="94" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/vhdldocgen.cpp" bodystart="1176" bodyend="1190"/>
+      </memberdef>
+      <memberdef kind="function" id="d6/d98/class_vhdl_doc_gen_1a82a05cf7bd081febd19a0065eed17098" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool VhdlDocGen::deleteCharRev</definition>
+        <argsstring>(QCString &amp;s, char c)</argsstring>
+        <name>deleteCharRev</name>
+        <param>
+          <type>QCString &amp;</type>
+          <declname>s</declname>
+        </param>
+        <param>
+          <type>char</type>
+          <declname>c</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>deletes a char backwards in a string </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/vhdldocgen.h" line="95" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/vhdldocgen.cpp" bodystart="1247" bodyend="1257"/>
+        <referencedby refid="d6/d98/class_vhdl_doc_gen_1a42d423663159ccd360d8838005662343" compoundref="de/dea/vhdldocgen_8cpp" startline="1123" endline="1170">parseFuncProto</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="d6/d98/class_vhdl_doc_gen_1ae4bf0d0561d8ef807b56c1f29765713e" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void VhdlDocGen::deleteAllChars</definition>
+        <argsstring>(QCString &amp;s, char c)</argsstring>
+        <name>deleteAllChars</name>
+        <param>
+          <type>QCString &amp;</type>
+          <declname>s</declname>
+        </param>
+        <param>
+          <type>char</type>
+          <declname>c</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/vhdldocgen.h" line="96" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/vhdldocgen.cpp" bodystart="1259" bodyend="1268"/>
+      </memberdef>
+      <memberdef kind="function" id="d6/d98/class_vhdl_doc_gen_1a42d423663159ccd360d8838005662343" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void VhdlDocGen::parseFuncProto</definition>
+        <argsstring>(const char *text, QList&lt; Argument &gt; &amp;, QCString &amp;name, QCString &amp;ret, bool doc=false)</argsstring>
+        <name>parseFuncProto</name>
+        <param>
+          <type>const char *</type>
+          <declname>text</declname>
+        </param>
+        <param>
+          <type><ref refid="db/daa/class_q_list" kindref="compound">QList</ref>&lt; <ref refid="d1/dee/struct_argument" kindref="compound">Argument</ref> &gt; &amp;</type>
+          <defname>qlist</defname>
+        </param>
+        <param>
+          <type>QCString &amp;</type>
+          <declname>name</declname>
+        </param>
+        <param>
+          <type>QCString &amp;</type>
+          <declname>ret</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>doc</declname>
+          <defval>false</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>parses a function proto <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>text</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>function string </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>qlist</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>stores the function types </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>name</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>points to the function name </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>ret</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Stores the return type </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>doc</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>??? </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/vhdldocgen.h" line="101" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/vhdldocgen.cpp" bodystart="1123" bodyend="1170"/>
+        <references refid="d6/d98/class_vhdl_doc_gen_1a82a05cf7bd081febd19a0065eed17098" compoundref="de/dea/vhdldocgen_8cpp" startline="1247" endline="1257">deleteCharRev</references>
+      </memberdef>
+      <memberdef kind="function" id="d6/d98/class_vhdl_doc_gen_1ab8681769cd2f027fbf46a4836d3825e9" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void VhdlDocGen::computeVhdlComponentRelations</definition>
+        <argsstring>()</argsstring>
+        <name>computeVhdlComponentRelations</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/vhdldocgen.h" line="104" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/vhdldocgen.cpp" bodystart="3029" bodyend="3082"/>
+      </memberdef>
+      <memberdef kind="function" id="d6/d98/class_vhdl_doc_gen_1a0338d8a473042e0ce824cd33def75544" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>QCString *</type>
+        <definition>QCString * VhdlDocGen::findKeyWord</definition>
+        <argsstring>(const QCString &amp;word)</argsstring>
+        <name>findKeyWord</name>
+        <param>
+          <type>const QCString &amp;</type>
+          <declname>word</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>returns the color of a keyword </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/vhdldocgen.h" line="106" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/vhdldocgen.cpp" bodystart="642" bodyend="660"/>
+        <referencedby refid="d6/d98/class_vhdl_doc_gen_1a0b58904c2803fe64c007b6c3ddda086e" compoundref="de/dea/vhdldocgen_8cpp" startline="1303" endline="1370">writeFormatString</referencedby>
+        <referencedby refid="d6/d98/class_vhdl_doc_gen_1ab1d66321a2c118a9376b65aeb598a49c" compoundref="de/dea/vhdldocgen_8cpp" startline="1508" endline="1582">writeFunctionProto</referencedby>
+        <referencedby refid="d6/d98/class_vhdl_doc_gen_1a94da80078b9bba291b1c1af056eca6a4" compoundref="de/dea/vhdldocgen_8cpp" startline="1452" endline="1502">writeProcedureProto</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="d6/d98/class_vhdl_doc_gen_1ad890048820909df255f6ee3f95d6ed80" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="d1/dcf/class_class_def" kindref="compound">ClassDef</ref> *</type>
+        <definition>ClassDef * VhdlDocGen::getPackageName</definition>
+        <argsstring>(const QCString &amp;name)</argsstring>
+        <name>getPackageName</name>
+        <param>
+          <type>const QCString &amp;</type>
+          <declname>name</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/vhdldocgen.h" line="108" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/vhdldocgen.cpp" bodystart="674" bodyend="681"/>
+      </memberdef>
+      <memberdef kind="function" id="d6/d98/class_vhdl_doc_gen_1ac10fcedd625d329dc0013ee40e8546a7" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="da/d09/class_member_def" kindref="compound">MemberDef</ref> *</type>
+        <definition>MemberDef * VhdlDocGen::findMember</definition>
+        <argsstring>(const QCString &amp;className, const QCString &amp;memName)</argsstring>
+        <name>findMember</name>
+        <param>
+          <type>const QCString &amp;</type>
+          <declname>className</declname>
+        </param>
+        <param>
+          <type>const QCString &amp;</type>
+          <declname>memName</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/vhdldocgen.h" line="110" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/vhdldocgen.cpp" bodystart="683" bodyend="786"/>
+      </memberdef>
+      <memberdef kind="function" id="d6/d98/class_vhdl_doc_gen_1ae516505c4e1dc2baa93aa2e21a04178b" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void VhdlDocGen::findAllPackages</definition>
+        <argsstring>(const QCString &amp;className, QDict&lt; QCString &gt; &amp;)</argsstring>
+        <name>findAllPackages</name>
+        <param>
+          <type>const QCString &amp;</type>
+          <declname>className</declname>
+        </param>
+        <param>
+          <type>QDict&lt; QCString &gt; &amp;</type>
+          <defname>qdict</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>finds all included packages of an Entity or Package </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/vhdldocgen.h" line="112" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/vhdldocgen.cpp" bodystart="817" bodyend="853"/>
+        <references refid="d1/dcf/class_class_def_1a040a167e9cab0587d1eed22f22fe2c56" compoundref="de/d89/classdef_8cpp" startline="3868" endline="3880">ClassDef::getMemberList</references>
+        <references refid="d5/dcc/class_definition_1a99481361779e85f0c1556709de7d9e5b" compoundref="df/da1/definition_8h" startline="109" endline="109">Definition::name</references>
+      </memberdef>
+      <memberdef kind="function" id="d6/d98/class_vhdl_doc_gen_1a69d1010e9addd89076e51cb78ddf029f" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="da/d09/class_member_def" kindref="compound">MemberDef</ref> *</type>
+        <definition>MemberDef * VhdlDocGen::findMemberDef</definition>
+        <argsstring>(ClassDef *cd, const QCString &amp;key, MemberListType type)</argsstring>
+        <name>findMemberDef</name>
+        <param>
+          <type><ref refid="d1/dcf/class_class_def" kindref="compound">ClassDef</ref> *</type>
+          <declname>cd</declname>
+        </param>
+        <param>
+          <type>const QCString &amp;</type>
+          <declname>key</declname>
+        </param>
+        <param>
+          <type>MemberListType</type>
+          <declname>type</declname>
+        </param>
+        <briefdescription>
+<para>This function returns the entity|package in which the key (type) is found. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/vhdldocgen.h" line="115" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/vhdldocgen.cpp" bodystart="793" bodyend="811"/>
+        <references refid="d1/dcf/class_class_def_1a040a167e9cab0587d1eed22f22fe2c56" compoundref="de/d89/classdef_8cpp" startline="3868" endline="3880">ClassDef::getMemberList</references>
+        <references refid="d5/dcc/class_definition_1a99481361779e85f0c1556709de7d9e5b" compoundref="df/da1/definition_8h" startline="109" endline="109">Definition::name</references>
+      </memberdef>
+      <memberdef kind="function" id="d6/d98/class_vhdl_doc_gen_1ac766b60a818a192ef5492bcee794a0ea" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="d1/dcf/class_class_def" kindref="compound">ClassDef</ref> *</type>
+        <definition>ClassDef * VhdlDocGen::getClass</definition>
+        <argsstring>(const char *name)</argsstring>
+        <name>getClass</name>
+        <param>
+          <type>const char *</type>
+          <declname>name</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/vhdldocgen.h" line="116" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/vhdldocgen.cpp" bodystart="662" bodyend="672"/>
+      </memberdef>
+      <memberdef kind="function" id="d6/d98/class_vhdl_doc_gen_1aded31b275385b372f3bb0d4182dd990e" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="da/d09/class_member_def" kindref="compound">MemberDef</ref> *</type>
+        <definition>MemberDef * VhdlDocGen::findFunction</definition>
+        <argsstring>(const QList&lt; Argument &gt; &amp;ql, const QCString &amp;name, const QCString &amp;package, bool type)</argsstring>
+        <name>findFunction</name>
+        <param>
+          <type>const <ref refid="db/daa/class_q_list" kindref="compound">QList</ref>&lt; <ref refid="d1/dee/struct_argument" kindref="compound">Argument</ref> &gt; &amp;</type>
+          <declname>ql</declname>
+        </param>
+        <param>
+          <type>const QCString &amp;</type>
+          <declname>name</declname>
+          <defname>funcname</defname>
+        </param>
+        <param>
+          <type>const QCString &amp;</type>
+          <declname>package</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>type</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>returns the function with the matching argument list is called in vhdlcode.l </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/vhdldocgen.h" line="119" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/vhdldocgen.cpp" bodystart="860" bodyend="914"/>
+        <references refid="d1/dee/struct_argument_1aff930f2a4cb85b5616be79b81db2341f" compoundref="df/d9b/arguments_8h" startline="64">Argument::attrib</references>
+        <references refid="d1/dcf/class_class_def_1a040a167e9cab0587d1eed22f22fe2c56" compoundref="de/d89/classdef_8cpp" startline="3868" endline="3880">ClassDef::getMemberList</references>
+        <references refid="d5/dcc/class_definition_1a99481361779e85f0c1556709de7d9e5b" compoundref="df/da1/definition_8h" startline="109" endline="109">Definition::name</references>
+        <references refid="d1/dee/struct_argument_1a1ad588d2b3cc71fe3f74c8272b4ec32e" compoundref="df/d9b/arguments_8h" startline="65">Argument::type</references>
+      </memberdef>
+      <memberdef kind="function" id="d6/d98/class_vhdl_doc_gen_1ad5d4c791af3f2943467c7c7af558d83a" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>QCString</type>
+        <definition>QCString VhdlDocGen::getClassTitle</definition>
+        <argsstring>(const ClassDef *)</argsstring>
+        <name>getClassTitle</name>
+        <param>
+          <type>const <ref refid="d1/dcf/class_class_def" kindref="compound">ClassDef</ref> *</type>
+          <defname>cd</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>returns the class title+ref </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/vhdldocgen.h" line="120" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/vhdldocgen.cpp" bodystart="923" bodyend="934"/>
+        <references refid="d1/dcf/class_class_def_1a4c1949b6fda5e47ec3fea0e046df5f7b" compoundref="de/d89/classdef_8cpp" startline="305" endline="341">ClassDef::displayName</references>
+        <references refid="d1/dcf/class_class_def_1afb5695813ec0a4ea9decdc236f0e03d7" compoundref="de/d89/classdef_8cpp" startline="4322" endline="4325">ClassDef::protection</references>
+      </memberdef>
+      <memberdef kind="function" id="d6/d98/class_vhdl_doc_gen_1a67f47b8dc11d967ee47e9bda86fff7e0" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void VhdlDocGen::writeInlineClassLink</definition>
+        <argsstring>(const ClassDef *, OutputList &amp;ol)</argsstring>
+        <name>writeInlineClassLink</name>
+        <param>
+          <type>const <ref refid="d1/dcf/class_class_def" kindref="compound">ClassDef</ref> *</type>
+          <defname>cd</defname>
+        </param>
+        <param>
+          <type><ref refid="df/dc8/class_output_list" kindref="compound">OutputList</ref> &amp;</type>
+          <declname>ol</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>writes an inline link form entity|package to architecture|package body and vice verca </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/vhdldocgen.h" line="122" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/vhdldocgen.cpp" bodystart="957" bodyend="1026"/>
+        <references refid="d1/dcf/class_class_def_1ac2305dda1a69fa632d9b95fb9aa4c57a" compoundref="de/d89/classdef_8cpp" startline="3762" endline="3772">ClassDef::className</references>
+        <references refid="df/dc8/class_output_list_1a22f8c17b8c14518aa55f8af3c2abab0f" compoundref="db/dd8/outputlist_8cpp" startline="81" endline="89">OutputList::disable</references>
+        <references refid="df/dc8/class_output_list_1a4006394472d6c49f7db435628832c49d" compoundref="db/dd8/outputlist_8cpp" startline="91" endline="99">OutputList::enable</references>
+        <references refid="d1/dcf/class_class_def_1afb5695813ec0a4ea9decdc236f0e03d7" compoundref="de/d89/classdef_8cpp" startline="4322" endline="4325">ClassDef::protection</references>
+      </memberdef>
+      <memberdef kind="function" id="d6/d98/class_vhdl_doc_gen_1adb04cd03e2039ecab3a0a8f31ee4c890" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool VhdlDocGen::isConstraint</definition>
+        <argsstring>(const MemberDef *mdef)</argsstring>
+        <name>isConstraint</name>
+        <param>
+          <type>const <ref refid="da/d09/class_member_def" kindref="compound">MemberDef</ref> *</type>
+          <declname>mdef</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/vhdldocgen.h" line="124" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/vhdldocgen.cpp" bodystart="3323" bodyend="3324"/>
+      </memberdef>
+      <memberdef kind="function" id="d6/d98/class_vhdl_doc_gen_1a57efdf5bddd0b36667c8aa21256ebac7" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool VhdlDocGen::isConfig</definition>
+        <argsstring>(const MemberDef *mdef)</argsstring>
+        <name>isConfig</name>
+        <param>
+          <type>const <ref refid="da/d09/class_member_def" kindref="compound">MemberDef</ref> *</type>
+          <declname>mdef</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/vhdldocgen.h" line="125" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/vhdldocgen.cpp" bodystart="3325" bodyend="3326"/>
+      </memberdef>
+      <memberdef kind="function" id="d6/d98/class_vhdl_doc_gen_1af13dd5eb831c1df008b0fd41928f4b7c" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool VhdlDocGen::isAlias</definition>
+        <argsstring>(const MemberDef *mdef)</argsstring>
+        <name>isAlias</name>
+        <param>
+          <type>const <ref refid="da/d09/class_member_def" kindref="compound">MemberDef</ref> *</type>
+          <declname>mdef</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/vhdldocgen.h" line="126" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/vhdldocgen.cpp" bodystart="3327" bodyend="3328"/>
+      </memberdef>
+      <memberdef kind="function" id="d6/d98/class_vhdl_doc_gen_1a3f582b69841bae3ec6f1281604b6f0c8" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool VhdlDocGen::isLibrary</definition>
+        <argsstring>(const MemberDef *mdef)</argsstring>
+        <name>isLibrary</name>
+        <param>
+          <type>const <ref refid="da/d09/class_member_def" kindref="compound">MemberDef</ref> *</type>
+          <declname>mdef</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/vhdldocgen.h" line="127" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/vhdldocgen.cpp" bodystart="3329" bodyend="3330"/>
+      </memberdef>
+      <memberdef kind="function" id="d6/d98/class_vhdl_doc_gen_1ae3c19429669d382581ba37aee5f39278" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool VhdlDocGen::isGeneric</definition>
+        <argsstring>(const MemberDef *mdef)</argsstring>
+        <name>isGeneric</name>
+        <param>
+          <type>const <ref refid="da/d09/class_member_def" kindref="compound">MemberDef</ref> *</type>
+          <declname>mdef</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/vhdldocgen.h" line="128" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/vhdldocgen.cpp" bodystart="3331" bodyend="3332"/>
+      </memberdef>
+      <memberdef kind="function" id="d6/d98/class_vhdl_doc_gen_1a73186f5d1ba5e6c11c6f006708da79a6" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool VhdlDocGen::isPort</definition>
+        <argsstring>(const MemberDef *mdef)</argsstring>
+        <name>isPort</name>
+        <param>
+          <type>const <ref refid="da/d09/class_member_def" kindref="compound">MemberDef</ref> *</type>
+          <declname>mdef</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/vhdldocgen.h" line="129" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/vhdldocgen.cpp" bodystart="3333" bodyend="3334"/>
+      </memberdef>
+      <memberdef kind="function" id="d6/d98/class_vhdl_doc_gen_1ad3fdc795bf951ef11221894512b8bc6c" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool VhdlDocGen::isComponent</definition>
+        <argsstring>(const MemberDef *mdef)</argsstring>
+        <name>isComponent</name>
+        <param>
+          <type>const <ref refid="da/d09/class_member_def" kindref="compound">MemberDef</ref> *</type>
+          <declname>mdef</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/vhdldocgen.h" line="130" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/vhdldocgen.cpp" bodystart="3335" bodyend="3336"/>
+      </memberdef>
+      <memberdef kind="function" id="d6/d98/class_vhdl_doc_gen_1aca017e059b8a2972c2cad968800c0564" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool VhdlDocGen::isPackage</definition>
+        <argsstring>(const MemberDef *mdef)</argsstring>
+        <name>isPackage</name>
+        <param>
+          <type>const <ref refid="da/d09/class_member_def" kindref="compound">MemberDef</ref> *</type>
+          <declname>mdef</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/vhdldocgen.h" line="131" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/vhdldocgen.cpp" bodystart="3337" bodyend="3338"/>
+      </memberdef>
+      <memberdef kind="function" id="d6/d98/class_vhdl_doc_gen_1a65218023c4970a90f3bce70938a99781" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool VhdlDocGen::isEntity</definition>
+        <argsstring>(const MemberDef *mdef)</argsstring>
+        <name>isEntity</name>
+        <param>
+          <type>const <ref refid="da/d09/class_member_def" kindref="compound">MemberDef</ref> *</type>
+          <declname>mdef</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/vhdldocgen.h" line="132" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/vhdldocgen.cpp" bodystart="3339" bodyend="3340"/>
+      </memberdef>
+      <memberdef kind="function" id="d6/d98/class_vhdl_doc_gen_1a2c3cdcd27394531385ccd8c56257edc1" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool VhdlDocGen::isConstant</definition>
+        <argsstring>(const MemberDef *mdef)</argsstring>
+        <name>isConstant</name>
+        <param>
+          <type>const <ref refid="da/d09/class_member_def" kindref="compound">MemberDef</ref> *</type>
+          <declname>mdef</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/vhdldocgen.h" line="133" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/vhdldocgen.cpp" bodystart="3341" bodyend="3342"/>
+      </memberdef>
+      <memberdef kind="function" id="d6/d98/class_vhdl_doc_gen_1a8ab98ceef0a36aea7a15c548ec9aa455" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool VhdlDocGen::isVType</definition>
+        <argsstring>(const MemberDef *mdef)</argsstring>
+        <name>isVType</name>
+        <param>
+          <type>const <ref refid="da/d09/class_member_def" kindref="compound">MemberDef</ref> *</type>
+          <declname>mdef</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/vhdldocgen.h" line="134" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/vhdldocgen.cpp" bodystart="3343" bodyend="3344"/>
+      </memberdef>
+      <memberdef kind="function" id="d6/d98/class_vhdl_doc_gen_1ab57f7d02afdd7034f78894b20e6ff4aa" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool VhdlDocGen::isSubType</definition>
+        <argsstring>(const MemberDef *mdef)</argsstring>
+        <name>isSubType</name>
+        <param>
+          <type>const <ref refid="da/d09/class_member_def" kindref="compound">MemberDef</ref> *</type>
+          <declname>mdef</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/vhdldocgen.h" line="135" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/vhdldocgen.cpp" bodystart="3345" bodyend="3346"/>
+      </memberdef>
+      <memberdef kind="function" id="d6/d98/class_vhdl_doc_gen_1a8808d28bf43d889892a8b6bad0793d7d" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool VhdlDocGen::isVhdlFunction</definition>
+        <argsstring>(const MemberDef *mdef)</argsstring>
+        <name>isVhdlFunction</name>
+        <param>
+          <type>const <ref refid="da/d09/class_member_def" kindref="compound">MemberDef</ref> *</type>
+          <declname>mdef</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/vhdldocgen.h" line="136" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/vhdldocgen.cpp" bodystart="3347" bodyend="3348"/>
+      </memberdef>
+      <memberdef kind="function" id="d6/d98/class_vhdl_doc_gen_1a212ea7da7de8f22c3ca1dd14a38a67ef" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool VhdlDocGen::isProcess</definition>
+        <argsstring>(const MemberDef *mdef)</argsstring>
+        <name>isProcess</name>
+        <param>
+          <type>const <ref refid="da/d09/class_member_def" kindref="compound">MemberDef</ref> *</type>
+          <declname>mdef</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/vhdldocgen.h" line="137" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/vhdldocgen.cpp" bodystart="3349" bodyend="3350"/>
+      </memberdef>
+      <memberdef kind="function" id="d6/d98/class_vhdl_doc_gen_1a07199651d2f493ee3afe42975df77efb" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool VhdlDocGen::isSignal</definition>
+        <argsstring>(const MemberDef *mdef)</argsstring>
+        <name>isSignal</name>
+        <param>
+          <type>const <ref refid="da/d09/class_member_def" kindref="compound">MemberDef</ref> *</type>
+          <declname>mdef</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/vhdldocgen.h" line="138" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/vhdldocgen.cpp" bodystart="3351" bodyend="3352"/>
+      </memberdef>
+      <memberdef kind="function" id="d6/d98/class_vhdl_doc_gen_1a2dc9e668acc7c79f211709e2a0eeccad" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool VhdlDocGen::isAttribute</definition>
+        <argsstring>(const MemberDef *mdef)</argsstring>
+        <name>isAttribute</name>
+        <param>
+          <type>const <ref refid="da/d09/class_member_def" kindref="compound">MemberDef</ref> *</type>
+          <declname>mdef</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/vhdldocgen.h" line="139" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/vhdldocgen.cpp" bodystart="3353" bodyend="3354"/>
+      </memberdef>
+      <memberdef kind="function" id="d6/d98/class_vhdl_doc_gen_1a7fb01b11d2a225ee8d8c43a56862be8b" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool VhdlDocGen::isSignals</definition>
+        <argsstring>(const MemberDef *mdef)</argsstring>
+        <name>isSignals</name>
+        <param>
+          <type>const <ref refid="da/d09/class_member_def" kindref="compound">MemberDef</ref> *</type>
+          <declname>mdef</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/vhdldocgen.h" line="140" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/vhdldocgen.cpp" bodystart="3355" bodyend="3356"/>
+      </memberdef>
+      <memberdef kind="function" id="d6/d98/class_vhdl_doc_gen_1aed906dd71cdcb8aca1bc6e3f9fba9732" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool VhdlDocGen::isProcedure</definition>
+        <argsstring>(const MemberDef *mdef)</argsstring>
+        <name>isProcedure</name>
+        <param>
+          <type>const <ref refid="da/d09/class_member_def" kindref="compound">MemberDef</ref> *</type>
+          <declname>mdef</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/vhdldocgen.h" line="141" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/vhdldocgen.cpp" bodystart="3357" bodyend="3358"/>
+      </memberdef>
+      <memberdef kind="function" id="d6/d98/class_vhdl_doc_gen_1ac0634a061165ad22c27eef2ac12057d0" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool VhdlDocGen::isRecord</definition>
+        <argsstring>(const MemberDef *mdef)</argsstring>
+        <name>isRecord</name>
+        <param>
+          <type>const <ref refid="da/d09/class_member_def" kindref="compound">MemberDef</ref> *</type>
+          <declname>mdef</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/vhdldocgen.h" line="142" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/vhdldocgen.cpp" bodystart="3359" bodyend="3360"/>
+      </memberdef>
+      <memberdef kind="function" id="d6/d98/class_vhdl_doc_gen_1a0281ffc4e374d27d703419ae289e3b8c" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool VhdlDocGen::isArchitecture</definition>
+        <argsstring>(const MemberDef *mdef)</argsstring>
+        <name>isArchitecture</name>
+        <param>
+          <type>const <ref refid="da/d09/class_member_def" kindref="compound">MemberDef</ref> *</type>
+          <declname>mdef</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/vhdldocgen.h" line="143" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/vhdldocgen.cpp" bodystart="3361" bodyend="3362"/>
+      </memberdef>
+      <memberdef kind="function" id="d6/d98/class_vhdl_doc_gen_1a4861484cc952d96afcfe277cf958aff0" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool VhdlDocGen::isUnit</definition>
+        <argsstring>(const MemberDef *mdef)</argsstring>
+        <name>isUnit</name>
+        <param>
+          <type>const <ref refid="da/d09/class_member_def" kindref="compound">MemberDef</ref> *</type>
+          <declname>mdef</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/vhdldocgen.h" line="144" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/vhdldocgen.cpp" bodystart="3363" bodyend="3364"/>
+      </memberdef>
+      <memberdef kind="function" id="d6/d98/class_vhdl_doc_gen_1ab6e9aff43352b39d31806d0616e2c7af" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool VhdlDocGen::isPackageBody</definition>
+        <argsstring>(const MemberDef *mdef)</argsstring>
+        <name>isPackageBody</name>
+        <param>
+          <type>const <ref refid="da/d09/class_member_def" kindref="compound">MemberDef</ref> *</type>
+          <declname>mdef</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/vhdldocgen.h" line="145" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/vhdldocgen.cpp" bodystart="3365" bodyend="3366"/>
+      </memberdef>
+      <memberdef kind="function" id="d6/d98/class_vhdl_doc_gen_1a877e8a81695500e7ad5ed8d76fdbaffc" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool VhdlDocGen::isVariable</definition>
+        <argsstring>(const MemberDef *mdef)</argsstring>
+        <name>isVariable</name>
+        <param>
+          <type>const <ref refid="da/d09/class_member_def" kindref="compound">MemberDef</ref> *</type>
+          <declname>mdef</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/vhdldocgen.h" line="146" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/vhdldocgen.cpp" bodystart="3367" bodyend="3368"/>
+      </memberdef>
+      <memberdef kind="function" id="d6/d98/class_vhdl_doc_gen_1a7ac9c26b1b0fb7402cc58acaf569df89" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool VhdlDocGen::isFile</definition>
+        <argsstring>(const MemberDef *mdef)</argsstring>
+        <name>isFile</name>
+        <param>
+          <type>const <ref refid="da/d09/class_member_def" kindref="compound">MemberDef</ref> *</type>
+          <declname>mdef</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/vhdldocgen.h" line="147" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/vhdldocgen.cpp" bodystart="3369" bodyend="3370"/>
+      </memberdef>
+      <memberdef kind="function" id="d6/d98/class_vhdl_doc_gen_1a069c8ad206be372bd948cc8e964218ed" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool VhdlDocGen::isGroup</definition>
+        <argsstring>(const MemberDef *mdef)</argsstring>
+        <name>isGroup</name>
+        <param>
+          <type>const <ref refid="da/d09/class_member_def" kindref="compound">MemberDef</ref> *</type>
+          <declname>mdef</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/vhdldocgen.h" line="148" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/vhdldocgen.cpp" bodystart="3371" bodyend="3372"/>
+      </memberdef>
+      <memberdef kind="function" id="d6/d98/class_vhdl_doc_gen_1ab9e42b2cf2d969dcc943ec355d4fa6b2" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool VhdlDocGen::isCompInst</definition>
+        <argsstring>(const MemberDef *mdef)</argsstring>
+        <name>isCompInst</name>
+        <param>
+          <type>const <ref refid="da/d09/class_member_def" kindref="compound">MemberDef</ref> *</type>
+          <declname>mdef</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/vhdldocgen.h" line="149" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/vhdldocgen.cpp" bodystart="3373" bodyend="3374"/>
+      </memberdef>
+      <memberdef kind="function" id="d6/d98/class_vhdl_doc_gen_1a55ef68e914c38033a48b6fdac2907689" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool VhdlDocGen::isMisc</definition>
+        <argsstring>(const MemberDef *mdef)</argsstring>
+        <name>isMisc</name>
+        <param>
+          <type>const <ref refid="da/d09/class_member_def" kindref="compound">MemberDef</ref> *</type>
+          <declname>mdef</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/vhdldocgen.h" line="150" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/vhdldocgen.cpp" bodystart="3375" bodyend="3376"/>
+      </memberdef>
+      <memberdef kind="function" id="d6/d98/class_vhdl_doc_gen_1a3ff9c5f9b1c16d7212fafcd9e7275223" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>QCString</type>
+        <definition>QCString VhdlDocGen::trTypeString</definition>
+        <argsstring>(uint64 type)</argsstring>
+        <name>trTypeString</name>
+        <param>
+          <type>uint64</type>
+          <declname>type</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/vhdldocgen.h" line="155" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/vhdldocgen.cpp" bodystart="1207" bodyend="1241"/>
+      </memberdef>
+      <memberdef kind="function" id="d6/d98/class_vhdl_doc_gen_1a1f0a09f2f2d063e9fc551ee62473eb43" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>QCString</type>
+        <definition>QCString VhdlDocGen::trVhdlType</definition>
+        <argsstring>(uint64 type, bool sing=true)</argsstring>
+        <name>trVhdlType</name>
+        <param>
+          <type>uint64</type>
+          <declname>type</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>sing</declname>
+          <defval>true</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/vhdldocgen.h" line="156" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/vhdldocgen.cpp" bodystart="2406" bodyend="2490"/>
+      </memberdef>
+      <memberdef kind="function" id="d6/d98/class_vhdl_doc_gen_1a0a7d5c59311faa783cc3ec3daea29826" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>QCString</type>
+        <definition>QCString VhdlDocGen::trDesignUnitHierarchy</definition>
+        <argsstring>()</argsstring>
+        <name>trDesignUnitHierarchy</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/vhdldocgen.h" line="159" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/vhdldocgen.cpp" bodystart="2492" bodyend="2495"/>
+      </memberdef>
+      <memberdef kind="function" id="d6/d98/class_vhdl_doc_gen_1a8b0fd3c3e1ae7d234f3671b29525cf9e" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>QCString</type>
+        <definition>QCString VhdlDocGen::trDesignUnitList</definition>
+        <argsstring>()</argsstring>
+        <name>trDesignUnitList</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/vhdldocgen.h" line="162" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/vhdldocgen.cpp" bodystart="2497" bodyend="2500"/>
+      </memberdef>
+      <memberdef kind="function" id="d6/d98/class_vhdl_doc_gen_1a58b89b76fb84bb4bcfa1e482d3b9e727" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>QCString</type>
+        <definition>QCString VhdlDocGen::trDesignUnitMembers</definition>
+        <argsstring>()</argsstring>
+        <name>trDesignUnitMembers</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/vhdldocgen.h" line="165" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/vhdldocgen.cpp" bodystart="2502" bodyend="2505"/>
+      </memberdef>
+      <memberdef kind="function" id="d6/d98/class_vhdl_doc_gen_1af4139f69442e7c7d0ced59570e34f1c3" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>QCString</type>
+        <definition>QCString VhdlDocGen::trDesignUnitListDescription</definition>
+        <argsstring>()</argsstring>
+        <name>trDesignUnitListDescription</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/vhdldocgen.h" line="168" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/vhdldocgen.cpp" bodystart="2507" bodyend="2511"/>
+      </memberdef>
+      <memberdef kind="function" id="d6/d98/class_vhdl_doc_gen_1a796d5fa8a62c0e734d75e37126786714" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>QCString</type>
+        <definition>QCString VhdlDocGen::trDesignUnits</definition>
+        <argsstring>()</argsstring>
+        <name>trDesignUnits</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/vhdldocgen.h" line="171" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/vhdldocgen.cpp" bodystart="2518" bodyend="2521"/>
+      </memberdef>
+      <memberdef kind="function" id="d6/d98/class_vhdl_doc_gen_1a2905e0b83f5e95ca79104ac61c52ee7d" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>QCString</type>
+        <definition>QCString VhdlDocGen::trDesignUnitIndex</definition>
+        <argsstring>()</argsstring>
+        <name>trDesignUnitIndex</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/vhdldocgen.h" line="174" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/vhdldocgen.cpp" bodystart="2513" bodyend="2516"/>
+      </memberdef>
+      <memberdef kind="function" id="d6/d98/class_vhdl_doc_gen_1a49df715b5535e59f36c266c67cbf514f" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>QCString</type>
+        <definition>QCString VhdlDocGen::trFunctionAndProc</definition>
+        <argsstring>()</argsstring>
+        <name>trFunctionAndProc</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/vhdldocgen.h" line="177" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/vhdldocgen.cpp" bodystart="2523" bodyend="2526"/>
+      </memberdef>
+      <memberdef kind="function" id="d6/d98/class_vhdl_doc_gen_1a802a7b8116fa1b8b46895c25a32c5677" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void VhdlDocGen::prepareComment</definition>
+        <argsstring>(QCString &amp;)</argsstring>
+        <name>prepareComment</name>
+        <param>
+          <type>QCString &amp;</type>
+          <defname>qcs</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>strips the &quot;&amp;ndash;&quot; prefixes of vhdl comments </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/vhdldocgen.h" line="181" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/vhdldocgen.cpp" bodystart="1100" bodyend="1112"/>
+      </memberdef>
+      <memberdef kind="function" id="d6/d98/class_vhdl_doc_gen_1aacccadab8f7d60dc0e4b2892ea724c2b" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void VhdlDocGen::formatString</definition>
+        <argsstring>(const QCString &amp;, OutputList &amp;ol, const MemberDef *)</argsstring>
+        <name>formatString</name>
+        <param>
+          <type>const QCString &amp;</type>
+          <defname>s</defname>
+        </param>
+        <param>
+          <type><ref refid="df/dc8/class_output_list" kindref="compound">OutputList</ref> &amp;</type>
+          <declname>ol</declname>
+        </param>
+        <param>
+          <type>const <ref refid="da/d09/class_member_def" kindref="compound">MemberDef</ref> *</type>
+          <defname>mdef</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>inserts white spaces for better readings and writes a colored string to the output </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/vhdldocgen.h" line="182" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/vhdldocgen.cpp" bodystart="1393" bodyend="1446"/>
+        <references refid="d6/d98/class_vhdl_doc_gen_1a0b58904c2803fe64c007b6c3ddda086e" compoundref="de/dea/vhdldocgen_8cpp" startline="1303" endline="1370">writeFormatString</references>
+        <referencedby refid="d6/d98/class_vhdl_doc_gen_1ab1d66321a2c118a9376b65aeb598a49c" compoundref="de/dea/vhdldocgen_8cpp" startline="1508" endline="1582">writeFunctionProto</referencedby>
+        <referencedby refid="d6/d98/class_vhdl_doc_gen_1a94da80078b9bba291b1c1af056eca6a4" compoundref="de/dea/vhdldocgen_8cpp" startline="1452" endline="1502">writeProcedureProto</referencedby>
+        <referencedby refid="d6/d98/class_vhdl_doc_gen_1ac5c7235e2572f9dab6475d5af835e437" compoundref="de/dea/vhdldocgen_8cpp" startline="1901" endline="2272">writeVHDLDeclaration</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="d6/d98/class_vhdl_doc_gen_1a0b58904c2803fe64c007b6c3ddda086e" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void VhdlDocGen::writeFormatString</definition>
+        <argsstring>(const QCString &amp;, OutputList &amp;ol, const MemberDef *)</argsstring>
+        <name>writeFormatString</name>
+        <param>
+          <type>const QCString &amp;</type>
+          <defname>s</defname>
+        </param>
+        <param>
+          <type><ref refid="df/dc8/class_output_list" kindref="compound">OutputList</ref> &amp;</type>
+          <declname>ol</declname>
+        </param>
+        <param>
+          <type>const <ref refid="da/d09/class_member_def" kindref="compound">MemberDef</ref> *</type>
+          <defname>mdef</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>writes a colored and formatted string </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/vhdldocgen.h" line="184" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/vhdldocgen.cpp" bodystart="1303" bodyend="1370"/>
+        <references refid="df/dc8/class_output_list_1a3335d926bd59e1c9e3912c4352ca5bc6" compoundref="d2/db9/outputlist_8h" startline="141" endline="142">OutputList::docify</references>
+        <references refid="df/dc8/class_output_list_1aa3f855a4e60d2a7c6769b66d43c69b23" compoundref="d2/db9/outputlist_8h" startline="303" endline="304">OutputList::endBold</references>
+        <references refid="d6/d98/class_vhdl_doc_gen_1a0338d8a473042e0ce824cd33def75544" compoundref="de/dea/vhdldocgen_8cpp" startline="642" endline="660">findKeyWord</references>
+        <references refid="d6/d98/class_vhdl_doc_gen_1a37b3bf29e7ec4cfe5c453f5a5d4e8f71" compoundref="de/dea/vhdldocgen_8cpp" startline="1375" endline="1385">isNumber</references>
+        <references refid="df/dc8/class_output_list_1a796018ee85949771252f36fea9a288d0" compoundref="d2/db9/outputlist_8h" startline="301" endline="302">OutputList::startBold</references>
+        <referencedby refid="d6/d98/class_vhdl_doc_gen_1aacccadab8f7d60dc0e4b2892ea724c2b" compoundref="de/dea/vhdldocgen_8cpp" startline="1393" endline="1446">formatString</referencedby>
+        <referencedby refid="d6/d98/class_vhdl_doc_gen_1a8c40c856602e19b4fe421c9572d618b7" compoundref="de/dea/vhdldocgen_8cpp" startline="1616" endline="1698">writeFuncProcDocu</referencedby>
+        <referencedby refid="d6/d98/class_vhdl_doc_gen_1a94ad80db8536156393a701496506c052" compoundref="de/dea/vhdldocgen_8cpp" startline="1588" endline="1609">writeProcessProto</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="d6/d98/class_vhdl_doc_gen_1ab1d66321a2c118a9376b65aeb598a49c" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void VhdlDocGen::writeFunctionProto</definition>
+        <argsstring>(OutputList &amp;ol, const ArgumentList *al, const MemberDef *)</argsstring>
+        <name>writeFunctionProto</name>
+        <param>
+          <type><ref refid="df/dc8/class_output_list" kindref="compound">OutputList</ref> &amp;</type>
+          <declname>ol</declname>
+        </param>
+        <param>
+          <type>const <ref refid="d7/df8/class_argument_list" kindref="compound">ArgumentList</ref> *</type>
+          <declname>al</declname>
+        </param>
+        <param>
+          <type>const <ref refid="da/d09/class_member_def" kindref="compound">MemberDef</ref> *</type>
+          <defname>mdef</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>writes a function prototype to the output </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/vhdldocgen.h" line="185" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/vhdldocgen.cpp" bodystart="1508" bodyend="1582"/>
+        <references refid="d1/dee/struct_argument_1aff930f2a4cb85b5616be79b81db2341f" compoundref="df/d9b/arguments_8h" startline="64">Argument::attrib</references>
+        <references refid="d1/dee/struct_argument_1a4fe1d9319dede52f7551f59297772efa" compoundref="df/d9b/arguments_8h" startline="69">Argument::defval</references>
+        <references refid="df/dc8/class_output_list_1a3335d926bd59e1c9e3912c4352ca5bc6" compoundref="d2/db9/outputlist_8h" startline="141" endline="142">OutputList::docify</references>
+        <references refid="df/dc8/class_output_list_1aa3f855a4e60d2a7c6769b66d43c69b23" compoundref="d2/db9/outputlist_8h" startline="303" endline="304">OutputList::endBold</references>
+        <references refid="d6/d98/class_vhdl_doc_gen_1a0338d8a473042e0ce824cd33def75544" compoundref="de/dea/vhdldocgen_8cpp" startline="642" endline="660">findKeyWord</references>
+        <references refid="d6/d98/class_vhdl_doc_gen_1aacccadab8f7d60dc0e4b2892ea724c2b" compoundref="de/dea/vhdldocgen_8cpp" startline="1393" endline="1446">formatString</references>
+        <references refid="d1/dee/struct_argument_1a334668ce5d1f650c804e69f1bc941a3b" compoundref="df/d9b/arguments_8h" startline="67">Argument::name</references>
+        <references refid="df/dc8/class_output_list_1a796018ee85949771252f36fea9a288d0" compoundref="d2/db9/outputlist_8h" startline="301" endline="302">OutputList::startBold</references>
+        <references refid="d1/dee/struct_argument_1a1ad588d2b3cc71fe3f74c8272b4ec32e" compoundref="df/d9b/arguments_8h" startline="65">Argument::type</references>
+        <referencedby refid="d6/d98/class_vhdl_doc_gen_1ac5c7235e2572f9dab6475d5af835e437" compoundref="de/dea/vhdldocgen_8cpp" startline="1901" endline="2272">writeVHDLDeclaration</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="d6/d98/class_vhdl_doc_gen_1a94ad80db8536156393a701496506c052" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void VhdlDocGen::writeProcessProto</definition>
+        <argsstring>(OutputList &amp;ol, const ArgumentList *al, const MemberDef *)</argsstring>
+        <name>writeProcessProto</name>
+        <param>
+          <type><ref refid="df/dc8/class_output_list" kindref="compound">OutputList</ref> &amp;</type>
+          <declname>ol</declname>
+        </param>
+        <param>
+          <type>const <ref refid="d7/df8/class_argument_list" kindref="compound">ArgumentList</ref> *</type>
+          <declname>al</declname>
+        </param>
+        <param>
+          <type>const <ref refid="da/d09/class_member_def" kindref="compound">MemberDef</ref> *</type>
+          <defname>mdef</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>writes a process prototype to the output </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/vhdldocgen.h" line="186" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/vhdldocgen.cpp" bodystart="1588" bodyend="1609"/>
+        <references refid="df/dc8/class_output_list_1a3335d926bd59e1c9e3912c4352ca5bc6" compoundref="d2/db9/outputlist_8h" startline="141" endline="142">OutputList::docify</references>
+        <references refid="df/dc8/class_output_list_1aa3f855a4e60d2a7c6769b66d43c69b23" compoundref="d2/db9/outputlist_8h" startline="303" endline="304">OutputList::endBold</references>
+        <references refid="d1/dee/struct_argument_1a334668ce5d1f650c804e69f1bc941a3b" compoundref="df/d9b/arguments_8h" startline="67">Argument::name</references>
+        <references refid="df/dc8/class_output_list_1a796018ee85949771252f36fea9a288d0" compoundref="d2/db9/outputlist_8h" startline="301" endline="302">OutputList::startBold</references>
+        <references refid="d6/d98/class_vhdl_doc_gen_1a0b58904c2803fe64c007b6c3ddda086e" compoundref="de/dea/vhdldocgen_8cpp" startline="1303" endline="1370">writeFormatString</references>
+        <referencedby refid="d6/d98/class_vhdl_doc_gen_1ac5c7235e2572f9dab6475d5af835e437" compoundref="de/dea/vhdldocgen_8cpp" startline="1901" endline="2272">writeVHDLDeclaration</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="d6/d98/class_vhdl_doc_gen_1a94da80078b9bba291b1c1af056eca6a4" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void VhdlDocGen::writeProcedureProto</definition>
+        <argsstring>(OutputList &amp;ol, const ArgumentList *al, const MemberDef *)</argsstring>
+        <name>writeProcedureProto</name>
+        <param>
+          <type><ref refid="df/dc8/class_output_list" kindref="compound">OutputList</ref> &amp;</type>
+          <declname>ol</declname>
+        </param>
+        <param>
+          <type>const <ref refid="d7/df8/class_argument_list" kindref="compound">ArgumentList</ref> *</type>
+          <declname>al</declname>
+        </param>
+        <param>
+          <type>const <ref refid="da/d09/class_member_def" kindref="compound">MemberDef</ref> *</type>
+          <defname>mdef</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>writes a procedure prototype to the output </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/vhdldocgen.h" line="187" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/vhdldocgen.cpp" bodystart="1452" bodyend="1502"/>
+        <references refid="d1/dee/struct_argument_1aff930f2a4cb85b5616be79b81db2341f" compoundref="df/d9b/arguments_8h" startline="64">Argument::attrib</references>
+        <references refid="d1/dee/struct_argument_1a4fe1d9319dede52f7551f59297772efa" compoundref="df/d9b/arguments_8h" startline="69">Argument::defval</references>
+        <references refid="df/dc8/class_output_list_1a3335d926bd59e1c9e3912c4352ca5bc6" compoundref="d2/db9/outputlist_8h" startline="141" endline="142">OutputList::docify</references>
+        <references refid="df/dc8/class_output_list_1aa3f855a4e60d2a7c6769b66d43c69b23" compoundref="d2/db9/outputlist_8h" startline="303" endline="304">OutputList::endBold</references>
+        <references refid="d6/d98/class_vhdl_doc_gen_1a0338d8a473042e0ce824cd33def75544" compoundref="de/dea/vhdldocgen_8cpp" startline="642" endline="660">findKeyWord</references>
+        <references refid="d6/d98/class_vhdl_doc_gen_1aacccadab8f7d60dc0e4b2892ea724c2b" compoundref="de/dea/vhdldocgen_8cpp" startline="1393" endline="1446">formatString</references>
+        <references refid="d1/dee/struct_argument_1a334668ce5d1f650c804e69f1bc941a3b" compoundref="df/d9b/arguments_8h" startline="67">Argument::name</references>
+        <references refid="df/dc8/class_output_list_1a796018ee85949771252f36fea9a288d0" compoundref="d2/db9/outputlist_8h" startline="301" endline="302">OutputList::startBold</references>
+        <references refid="d1/dee/struct_argument_1a1ad588d2b3cc71fe3f74c8272b4ec32e" compoundref="df/d9b/arguments_8h" startline="65">Argument::type</references>
+        <references refid="df/dc8/class_output_list_1a188c7a8f0a0dc35ec5ea0f8b4a491d33" compoundref="d2/db9/outputlist_8h" startline="252" endline="253">OutputList::writeChar</references>
+        <referencedby refid="d6/d98/class_vhdl_doc_gen_1ac5c7235e2572f9dab6475d5af835e437" compoundref="de/dea/vhdldocgen_8cpp" startline="1901" endline="2272">writeVHDLDeclaration</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="d6/d98/class_vhdl_doc_gen_1a8c40c856602e19b4fe421c9572d618b7" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool VhdlDocGen::writeFuncProcDocu</definition>
+        <argsstring>(const MemberDef *mdef, OutputList &amp;ol, const ArgumentList *al, bool type=false)</argsstring>
+        <name>writeFuncProcDocu</name>
+        <param>
+          <type>const <ref refid="da/d09/class_member_def" kindref="compound">MemberDef</ref> *</type>
+          <declname>mdef</declname>
+          <defname>md</defname>
+        </param>
+        <param>
+          <type><ref refid="df/dc8/class_output_list" kindref="compound">OutputList</ref> &amp;</type>
+          <declname>ol</declname>
+        </param>
+        <param>
+          <type>const <ref refid="d7/df8/class_argument_list" kindref="compound">ArgumentList</ref> *</type>
+          <declname>al</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>type</declname>
+          <defval>false</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>writes a function|procedure documentation to the output </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/vhdldocgen.h" line="188" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/vhdldocgen.cpp" bodystart="1616" bodyend="1698"/>
+        <references refid="d1/dee/struct_argument_1aff930f2a4cb85b5616be79b81db2341f" compoundref="df/d9b/arguments_8h" startline="64">Argument::attrib</references>
+        <references refid="d1/dee/struct_argument_1a4fe1d9319dede52f7551f59297772efa" compoundref="df/d9b/arguments_8h" startline="69">Argument::defval</references>
+        <references refid="df/dc8/class_output_list_1a22f8c17b8c14518aa55f8af3c2abab0f" compoundref="db/dd8/outputlist_8cpp" startline="81" endline="89">OutputList::disable</references>
+        <references refid="df/dc8/class_output_list_1a3335d926bd59e1c9e3912c4352ca5bc6" compoundref="d2/db9/outputlist_8h" startline="141" endline="142">OutputList::docify</references>
+        <references refid="df/dc8/class_output_list_1a4006394472d6c49f7db435628832c49d" compoundref="db/dd8/outputlist_8cpp" startline="91" endline="99">OutputList::enable</references>
+        <references refid="df/dc8/class_output_list_1ad32603ff4c4ba4d39e0bad7ede5924bf" compoundref="db/dd8/outputlist_8cpp" startline="61" endline="69">OutputList::enableAll</references>
+        <references refid="df/dc8/class_output_list_1a5674d5d9336eb1f7f6cb83c058f5ad8f" compoundref="d2/db9/outputlist_8h" startline="250" endline="251">OutputList::endEmphasis</references>
+        <references refid="d1/dee/struct_argument_1a334668ce5d1f650c804e69f1bc941a3b" compoundref="df/d9b/arguments_8h" startline="67">Argument::name</references>
+        <references refid="df/dc8/class_output_list_1aba5576798309803175cefaedf33b2a28" compoundref="d2/db9/outputlist_8h" startline="248" endline="249">OutputList::startEmphasis</references>
+        <references refid="d1/dee/struct_argument_1a1ad588d2b3cc71fe3f74c8272b4ec32e" compoundref="df/d9b/arguments_8h" startline="65">Argument::type</references>
+        <references refid="d6/d98/class_vhdl_doc_gen_1a0b58904c2803fe64c007b6c3ddda086e" compoundref="de/dea/vhdldocgen_8cpp" startline="1303" endline="1370">writeFormatString</references>
+      </memberdef>
+      <memberdef kind="function" id="d6/d98/class_vhdl_doc_gen_1a4be0e9c1867f4bdc5a06f1ca54905d4b" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>static void VhdlDocGen::writeRecordProto</definition>
+        <argsstring>(const MemberDef *mdef, OutputList &amp;ol, const ArgumentList *al)</argsstring>
+        <name>writeRecordProto</name>
+        <param>
+          <type>const <ref refid="da/d09/class_member_def" kindref="compound">MemberDef</ref> *</type>
+          <declname>mdef</declname>
+        </param>
+        <param>
+          <type><ref refid="df/dc8/class_output_list" kindref="compound">OutputList</ref> &amp;</type>
+          <declname>ol</declname>
+        </param>
+        <param>
+          <type>const <ref refid="d7/df8/class_argument_list" kindref="compound">ArgumentList</ref> *</type>
+          <declname>al</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/vhdldocgen.h" line="189"/>
+      </memberdef>
+      <memberdef kind="function" id="d6/d98/class_vhdl_doc_gen_1a0218e5158efa51df8490073c645c9a79" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool VhdlDocGen::writeVHDLTypeDocumentation</definition>
+        <argsstring>(const MemberDef *mdef, const Definition *d, OutputList &amp;ol)</argsstring>
+        <name>writeVHDLTypeDocumentation</name>
+        <param>
+          <type>const <ref refid="da/d09/class_member_def" kindref="compound">MemberDef</ref> *</type>
+          <declname>mdef</declname>
+        </param>
+        <param>
+          <type>const <ref refid="d5/dcc/class_definition" kindref="compound">Definition</ref> *</type>
+          <declname>d</declname>
+        </param>
+        <param>
+          <type><ref refid="df/dc8/class_output_list" kindref="compound">OutputList</ref> &amp;</type>
+          <declname>ol</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/vhdldocgen.h" line="191" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/vhdldocgen.cpp" bodystart="1815" bodyend="1897"/>
+      </memberdef>
+      <memberdef kind="function" id="d6/d98/class_vhdl_doc_gen_1a26d6d3e1a28067a7a5c9f8624f642654" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void VhdlDocGen::writeVhdlDeclarations</definition>
+        <argsstring>(MemberList *, OutputList &amp;, GroupDef *, ClassDef *, FileDef *, NamespaceDef *)</argsstring>
+        <name>writeVhdlDeclarations</name>
+        <param>
+          <type><ref refid="dd/d13/class_member_list" kindref="compound">MemberList</ref> *</type>
+          <defname>ml</defname>
+        </param>
+        <param>
+          <type><ref refid="df/dc8/class_output_list" kindref="compound">OutputList</ref> &amp;</type>
+          <defname>ol</defname>
+        </param>
+        <param>
+          <type><ref refid="d8/d09/class_group_def" kindref="compound">GroupDef</ref> *</type>
+          <defname>gd</defname>
+        </param>
+        <param>
+          <type><ref refid="d1/dcf/class_class_def" kindref="compound">ClassDef</ref> *</type>
+          <defname>cd</defname>
+        </param>
+        <param>
+          <type><ref refid="de/db0/class_file_def" kindref="compound">FileDef</ref> *</type>
+          <defname>fd</defname>
+        </param>
+        <param>
+          <type><ref refid="d0/d07/class_namespace_def" kindref="compound">NamespaceDef</ref> *</type>
+          <defname>nd</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/vhdldocgen.h" line="193" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/vhdldocgen.cpp" bodystart="1732" bodyend="1776"/>
+      </memberdef>
+      <memberdef kind="function" id="d6/d98/class_vhdl_doc_gen_1ac5c7235e2572f9dab6475d5af835e437" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void VhdlDocGen::writeVHDLDeclaration</definition>
+        <argsstring>(MemberDef *mdef, OutputList &amp;ol, ClassDef *cd, NamespaceDef *nd, FileDef *fd, GroupDef *gd, bool inGroup)</argsstring>
+        <name>writeVHDLDeclaration</name>
+        <param>
+          <type><ref refid="da/d09/class_member_def" kindref="compound">MemberDef</ref> *</type>
+          <declname>mdef</declname>
+        </param>
+        <param>
+          <type><ref refid="df/dc8/class_output_list" kindref="compound">OutputList</ref> &amp;</type>
+          <declname>ol</declname>
+        </param>
+        <param>
+          <type><ref refid="d1/dcf/class_class_def" kindref="compound">ClassDef</ref> *</type>
+          <declname>cd</declname>
+        </param>
+        <param>
+          <type><ref refid="d0/d07/class_namespace_def" kindref="compound">NamespaceDef</ref> *</type>
+          <declname>nd</declname>
+        </param>
+        <param>
+          <type><ref refid="de/db0/class_file_def" kindref="compound">FileDef</ref> *</type>
+          <declname>fd</declname>
+        </param>
+        <param>
+          <type><ref refid="d8/d09/class_group_def" kindref="compound">GroupDef</ref> *</type>
+          <declname>gd</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>inGroup</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+<para>printf(&quot;startMemberItem for %s\n&quot;,name().data()); </para>        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/vhdldocgen.h" line="197" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/vhdldocgen.cpp" bodystart="1901" bodyend="2272"/>
+        <references refid="da/d09/class_member_def_1a09dd84c129c5b2cdd39fca8d9ef096a8" compoundref="d0/d72/memberdef_8cpp" startline="1042" endline="1063">MemberDef::anchor</references>
+        <references refid="d5/dcc/class_definition_1a748b55a1bf2566464f1e46daf1fd2ef0" compoundref="d3/dea/definition_8cpp" startline="1669" endline="1674">Definition::briefDescription</references>
+        <references refid="d5/dcc/class_definition_1a3c37121dca58fcb1c3d499b52e0a70fd" compoundref="d3/dea/definition_8cpp" startline="1706" endline="1709">Definition::briefFile</references>
+        <references refid="d5/dcc/class_definition_1a26799d5c03900e931fb1382a5aa56bdd" compoundref="d3/dea/definition_8cpp" startline="1701" endline="1704">Definition::briefLine</references>
+        <references refid="df/dc8/class_output_list_1a22f8c17b8c14518aa55f8af3c2abab0f" compoundref="db/dd8/outputlist_8cpp" startline="81" endline="89">OutputList::disable</references>
+        <references refid="df/dc8/class_output_list_1a73f9be626eea01f1ccd1b446dcf2c003" compoundref="db/dd8/outputlist_8cpp" startline="51" endline="59">OutputList::disableAllBut</references>
+        <references refid="df/dc8/class_output_list_1a3335d926bd59e1c9e3912c4352ca5bc6" compoundref="d2/db9/outputlist_8h" startline="141" endline="142">OutputList::docify</references>
+        <references refid="df/dc8/class_output_list_1a4006394472d6c49f7db435628832c49d" compoundref="db/dd8/outputlist_8cpp" startline="91" endline="99">OutputList::enable</references>
+        <references refid="df/dc8/class_output_list_1aa3f855a4e60d2a7c6769b66d43c69b23" compoundref="d2/db9/outputlist_8h" startline="303" endline="304">OutputList::endBold</references>
+        <references refid="df/dc8/class_output_list_1a5674d5d9336eb1f7f6cb83c058f5ad8f" compoundref="d2/db9/outputlist_8h" startline="250" endline="251">OutputList::endEmphasis</references>
+        <references refid="d6/d98/class_vhdl_doc_gen_1aacccadab8f7d60dc0e4b2892ea724c2b" compoundref="de/dea/vhdldocgen_8cpp" startline="1393" endline="1446">formatString</references>
+        <references refid="da/d09/class_member_def_1a55dd478aba299892bdf1f4d22c21c95a" compoundref="d0/d72/memberdef_8cpp" startline="1246" endline="1294">MemberDef::getClassDefOfAnonymousType</references>
+        <references refid="da/d09/class_member_def_1a6190309702ba12f557c4b3ccc171483b" compoundref="d0/d72/memberdef_8cpp" startline="958" endline="1010">MemberDef::getOutputFileBase</references>
+        <references refid="d1/dcf/class_class_def_1a7bc3e33011d6da98a5fd202a1dbe75fb" compoundref="de/d89/classdef_8cpp" startline="3382" endline="3426">ClassDef::getOutputFileBase</references>
+        <references refid="d5/dcc/class_definition_1acabecdc6bfda2015811eed5f3436322d">Definition::getOutputFileBase</references>
+        <references refid="da/d09/class_member_def_1a33933dad190eb78050cc5467228be5f6" compoundref="d0/d72/memberdef_8cpp" startline="1012" endline="1040">MemberDef::getReference</references>
+        <references refid="d1/dcf/class_class_def_1ab690feb2a94737d5b69c819b9794749e" compoundref="de/d89/classdef_8cpp" startline="3663" endline="3673">ClassDef::getReference</references>
+        <references refid="df/dc8/class_output_list_1a63a7bebe83b904d00b2350863c7c7399" compoundref="db/dd8/outputlist_8cpp" startline="101" endline="111">OutputList::isEnabled</references>
+        <references refid="d5/dcc/class_definition_1ae4fa9ca0807ec16be5b9b4606a5f4ba9" compoundref="d3/dea/definition_8cpp" startline="1335" endline="1338">Definition::localName</references>
+        <references refid="d5/dcc/class_definition_1a99481361779e85f0c1556709de7d9e5b" compoundref="df/da1/definition_8h" startline="109" endline="109">Definition::name</references>
+        <references refid="df/dc8/class_output_list_1a94eb1af2ea07425ef1faa539d24adcf8" compoundref="db/dd8/outputlist_8cpp" startline="123" endline="131">OutputList::popGeneratorState</references>
+        <references refid="d1/dcf/class_class_def_1afb5695813ec0a4ea9decdc236f0e03d7" compoundref="de/d89/classdef_8cpp" startline="4322" endline="4325">ClassDef::protection</references>
+        <references refid="df/dc8/class_output_list_1a885957a64f7d87aefb663c4ec903188f" compoundref="db/dd8/outputlist_8cpp" startline="113" endline="121">OutputList::pushGeneratorState</references>
+        <references refid="da/d09/class_member_def_1a51e9fb5513286c69c8e3f95e968f7ba1" compoundref="d0/d72/memberdef_8cpp" startline="3786" endline="3802">MemberDef::qualifiedName</references>
+        <references refid="d5/dcc/class_definition_1aaa3c1632bd89cb3db7c7713df4e36db0" compoundref="d3/dea/definition_8cpp" startline="393" endline="397">Definition::setName</references>
+        <references refid="df/dc8/class_output_list_1a796018ee85949771252f36fea9a288d0" compoundref="d2/db9/outputlist_8h" startline="301" endline="302">OutputList::startBold</references>
+        <references refid="df/dc8/class_output_list_1aba5576798309803175cefaedf33b2a28" compoundref="d2/db9/outputlist_8h" startline="248" endline="249">OutputList::startEmphasis</references>
+        <references refid="d5/dcc/class_definition_1a252f2febf6695acc7ac5800c683f2770" compoundref="d3/dea/definition_8cpp" startline="513" endline="537">Definition::writeDocAnchorsToTagFile</references>
+        <references refid="d6/d98/class_vhdl_doc_gen_1ab1d66321a2c118a9376b65aeb598a49c" compoundref="de/dea/vhdldocgen_8cpp" startline="1508" endline="1582">writeFunctionProto</references>
+        <references refid="df/dc8/class_output_list_1a8c499e7baca8905c8e057d23f72ff548" compoundref="d2/db9/outputlist_8h" startline="145" endline="147">OutputList::writeObjectLink</references>
+        <references refid="d6/d98/class_vhdl_doc_gen_1a94da80078b9bba291b1c1af056eca6a4" compoundref="de/dea/vhdldocgen_8cpp" startline="1452" endline="1502">writeProcedureProto</references>
+        <references refid="d6/d98/class_vhdl_doc_gen_1a94ad80db8536156393a701496506c052" compoundref="de/dea/vhdldocgen_8cpp" startline="1588" endline="1609">writeProcessProto</references>
+      </memberdef>
+      <memberdef kind="function" id="d6/d98/class_vhdl_doc_gen_1ae7a0bfaf11295ea18c656b14fb54203a" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void VhdlDocGen::writePlainVHDLDeclarations</definition>
+        <argsstring>(MemberList *ml, OutputList &amp;ol, ClassDef *cd, NamespaceDef *nd, FileDef *fd, GroupDef *gd, int specifier)</argsstring>
+        <name>writePlainVHDLDeclarations</name>
+        <param>
+          <type><ref refid="dd/d13/class_member_list" kindref="compound">MemberList</ref> *</type>
+          <declname>ml</declname>
+        </param>
+        <param>
+          <type><ref refid="df/dc8/class_output_list" kindref="compound">OutputList</ref> &amp;</type>
+          <declname>ol</declname>
+        </param>
+        <param>
+          <type><ref refid="d1/dcf/class_class_def" kindref="compound">ClassDef</ref> *</type>
+          <declname>cd</declname>
+        </param>
+        <param>
+          <type><ref refid="d0/d07/class_namespace_def" kindref="compound">NamespaceDef</ref> *</type>
+          <declname>nd</declname>
+        </param>
+        <param>
+          <type><ref refid="de/db0/class_file_def" kindref="compound">FileDef</ref> *</type>
+          <declname>fd</declname>
+        </param>
+        <param>
+          <type><ref refid="d8/d09/class_group_def" kindref="compound">GroupDef</ref> *</type>
+          <declname>gd</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>specifier</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/vhdldocgen.h" line="200" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/vhdldocgen.cpp" bodystart="2275" bodyend="2305"/>
+      </memberdef>
+      <memberdef kind="function" id="d6/d98/class_vhdl_doc_gen_1a30ec463210e92bb4f1cdd02bf1893c86" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void VhdlDocGen::writeVHDLDeclarations</definition>
+        <argsstring>(MemberList *ml, OutputList &amp;ol, ClassDef *cd, NamespaceDef *nd, FileDef *fd, GroupDef *gd, const char *title, const char *subtitle, bool showEnumValues, int type)</argsstring>
+        <name>writeVHDLDeclarations</name>
+        <param>
+          <type><ref refid="dd/d13/class_member_list" kindref="compound">MemberList</ref> *</type>
+          <declname>ml</declname>
+        </param>
+        <param>
+          <type><ref refid="df/dc8/class_output_list" kindref="compound">OutputList</ref> &amp;</type>
+          <declname>ol</declname>
+        </param>
+        <param>
+          <type><ref refid="d1/dcf/class_class_def" kindref="compound">ClassDef</ref> *</type>
+          <declname>cd</declname>
+        </param>
+        <param>
+          <type><ref refid="d0/d07/class_namespace_def" kindref="compound">NamespaceDef</ref> *</type>
+          <declname>nd</declname>
+        </param>
+        <param>
+          <type><ref refid="de/db0/class_file_def" kindref="compound">FileDef</ref> *</type>
+          <declname>fd</declname>
+        </param>
+        <param>
+          <type><ref refid="d8/d09/class_group_def" kindref="compound">GroupDef</ref> *</type>
+          <declname>gd</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>title</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>subtitle</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>showEnumValues</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>type</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/vhdldocgen.h" line="204" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/vhdldocgen.cpp" bodystart="2335" bodyend="2389"/>
+      </memberdef>
+      <memberdef kind="function" id="d6/d98/class_vhdl_doc_gen_1a201149bb595839029a622100737e0dea" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool VhdlDocGen::writeClassType</definition>
+        <argsstring>(ClassDef *&amp;, OutputList &amp;ol, QCString &amp;cname)</argsstring>
+        <name>writeClassType</name>
+        <param>
+          <type><ref refid="d1/dcf/class_class_def" kindref="compound">ClassDef</ref> *&amp;</type>
+          <defname>cd</defname>
+        </param>
+        <param>
+          <type><ref refid="df/dc8/class_output_list" kindref="compound">OutputList</ref> &amp;</type>
+          <declname>ol</declname>
+        </param>
+        <param>
+          <type>QCString &amp;</type>
+          <declname>cname</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/vhdldocgen.h" line="206" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/vhdldocgen.cpp" bodystart="2392" bodyend="2404"/>
+      </memberdef>
+      <memberdef kind="function" id="d6/d98/class_vhdl_doc_gen_1aa77f9467a8af575f85643ececc8cf4e3" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>QCString</type>
+        <definition>QCString VhdlDocGen::convertArgumentListToString</definition>
+        <argsstring>(const ArgumentList *al, bool f)</argsstring>
+        <name>convertArgumentListToString</name>
+        <param>
+          <type>const <ref refid="d7/df8/class_argument_list" kindref="compound">ArgumentList</ref> *</type>
+          <declname>al</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>f</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/vhdldocgen.h" line="208" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/vhdldocgen.cpp" bodystart="1703" bodyend="1729"/>
+      </memberdef>
+      <memberdef kind="function" id="d6/d98/class_vhdl_doc_gen_1a6524e8718f3f956610df4dfc71be204c" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>QCString</type>
+        <definition>QCString VhdlDocGen::getProcessNumber</definition>
+        <argsstring>()</argsstring>
+        <name>getProcessNumber</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>returns the next number of an anonymous process </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/vhdldocgen.h" line="209" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/vhdldocgen.cpp" bodystart="1289" bodyend="1297"/>
+      </memberdef>
+      <memberdef kind="function" id="d6/d98/class_vhdl_doc_gen_1a2e65f831a03ff54d13240da96843cd60" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>QCString</type>
+        <definition>QCString VhdlDocGen::getRecordNumber</definition>
+        <argsstring>()</argsstring>
+        <name>getRecordNumber</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>returns the next number of a record|unit member </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/vhdldocgen.h" line="210" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/vhdldocgen.cpp" bodystart="1277" bodyend="1283"/>
+      </memberdef>
+      <memberdef kind="function" id="d6/d98/class_vhdl_doc_gen_1a2c4458b0e27e9b97db254d082d1487d2" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>QCString</type>
+        <definition>QCString VhdlDocGen::getClassName</definition>
+        <argsstring>(const ClassDef *)</argsstring>
+        <name>getClassName</name>
+        <param>
+          <type>const <ref refid="d1/dcf/class_class_def" kindref="compound">ClassDef</ref> *</type>
+          <defname>cd</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/vhdldocgen.h" line="212" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/vhdldocgen.cpp" bodystart="938" bodyend="951"/>
+      </memberdef>
+      <memberdef kind="function" id="d6/d98/class_vhdl_doc_gen_1a37b3bf29e7ec4cfe5c453f5a5d4e8f71" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool VhdlDocGen::isNumber</definition>
+        <argsstring>(const QCString &amp;s)</argsstring>
+        <name>isNumber</name>
+        <param>
+          <type>const QCString &amp;</type>
+          <declname>s</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>returns TRUE if this string is a number </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/vhdldocgen.h" line="213" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/vhdldocgen.cpp" bodystart="1375" bodyend="1385"/>
+        <referencedby refid="d6/d98/class_vhdl_doc_gen_1a0b58904c2803fe64c007b6c3ddda086e" compoundref="de/dea/vhdldocgen_8cpp" startline="1303" endline="1370">writeFormatString</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="d6/d98/class_vhdl_doc_gen_1a4325f5840fe29089b4d3ea4b8c8b0fef" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>QCString</type>
+        <definition>QCString VhdlDocGen::getProtectionName</definition>
+        <argsstring>(int prot)</argsstring>
+        <name>getProtectionName</name>
+        <param>
+          <type>int</type>
+          <declname>prot</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/vhdldocgen.h" line="214" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/vhdldocgen.cpp" bodystart="1193" bodyend="1205"/>
+      </memberdef>
+      <memberdef kind="function" id="d6/d98/class_vhdl_doc_gen_1aa2a0267e84b178cc29681eeaea8cfe35" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void VhdlDocGen::parseUCF</definition>
+        <argsstring>(const char *input, Entry *entity, QCString f, bool vendor)</argsstring>
+        <name>parseUCF</name>
+        <param>
+          <type>const char *</type>
+          <declname>input</declname>
+        </param>
+        <param>
+          <type><ref refid="d4/dd7/class_entry" kindref="compound">Entry</ref> *</type>
+          <declname>entity</declname>
+        </param>
+        <param>
+          <type>QCString</type>
+          <declname>f</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>vendor</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/vhdldocgen.h" line="216" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/vhdldocgen.cpp" bodystart="2629" bodyend="2684"/>
+      </memberdef>
+      <memberdef kind="function" id="d6/d98/class_vhdl_doc_gen_1a8879c8899b889e4c595e128841054861" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool VhdlDocGen::findConstraintFile</definition>
+        <argsstring>(LayoutNavEntry *lne)</argsstring>
+        <name>findConstraintFile</name>
+        <param>
+          <type><ref refid="df/de7/struct_layout_nav_entry" kindref="compound">LayoutNavEntry</ref> *</type>
+          <declname>lne</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/vhdldocgen.h" line="217" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/vhdldocgen.cpp" bodystart="2772" bodyend="2803"/>
+      </memberdef>
+      <memberdef kind="function" id="d6/d98/class_vhdl_doc_gen_1a85060afa6fb3a871770412d06d445f62" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="d1/dcf/class_class_def" kindref="compound">ClassDef</ref> *</type>
+        <definition>ClassDef * VhdlDocGen::findArchitecture</definition>
+        <argsstring>(const ClassDef *cd)</argsstring>
+        <name>findArchitecture</name>
+        <param>
+          <type>const <ref refid="d1/dcf/class_class_def" kindref="compound">ClassDef</ref> *</type>
+          <declname>cd</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/vhdldocgen.h" line="219" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/vhdldocgen.cpp" bodystart="1051" bodyend="1070"/>
+      </memberdef>
+      <memberdef kind="function" id="d6/d98/class_vhdl_doc_gen_1adb468ffc3a78f01a58bd6ca92dcc10ec" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="d1/dcf/class_class_def" kindref="compound">ClassDef</ref> *</type>
+        <definition>static ClassDef* VhdlDocGen::findArchitecture</definition>
+        <argsstring>(QCString identifier, QCString entity_name)</argsstring>
+        <name>findArchitecture</name>
+        <param>
+          <type>QCString</type>
+          <declname>identifier</declname>
+        </param>
+        <param>
+          <type>QCString</type>
+          <declname>entity_name</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/vhdldocgen.h" line="220"/>
+      </memberdef>
+      <memberdef kind="function" id="d6/d98/class_vhdl_doc_gen_1ae08bfd74e8450f8abc4fb3a265d6b24a" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void VhdlDocGen::writeSource</definition>
+        <argsstring>(MemberDef *mdef, OutputList &amp;ol, QCString &amp;cname)</argsstring>
+        <name>writeSource</name>
+        <param>
+          <type><ref refid="da/d09/class_member_def" kindref="compound">MemberDef</ref> *</type>
+          <declname>mdef</declname>
+        </param>
+        <param>
+          <type><ref refid="df/dc8/class_output_list" kindref="compound">OutputList</ref> &amp;</type>
+          <declname>ol</declname>
+        </param>
+        <param>
+          <type>QCString &amp;</type>
+          <declname>cname</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/vhdldocgen.h" line="223" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/vhdldocgen.cpp" bodystart="2555" bodyend="2604"/>
+      </memberdef>
+      <memberdef kind="function" id="d6/d98/class_vhdl_doc_gen_1a62637da4d5b53a0243289ac6a4af2011" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>static void VhdlDocGen::writeAlphbeticalClass</definition>
+        <argsstring>(OutputList &amp;ol, const ClassDef *cd, const QCString &amp;)</argsstring>
+        <name>writeAlphbeticalClass</name>
+        <param>
+          <type><ref refid="df/dc8/class_output_list" kindref="compound">OutputList</ref> &amp;</type>
+          <declname>ol</declname>
+        </param>
+        <param>
+          <type>const <ref refid="d1/dcf/class_class_def" kindref="compound">ClassDef</ref> *</type>
+          <declname>cd</declname>
+        </param>
+        <param>
+          <type>const QCString &amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/vhdldocgen.h" line="224"/>
+      </memberdef>
+      <memberdef kind="function" id="d6/d98/class_vhdl_doc_gen_1a4584e2262b81979f6d9b88c070c78753" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>QCString</type>
+        <definition>QCString VhdlDocGen::parseForConfig</definition>
+        <argsstring>(QCString &amp;entity, QCString &amp;arch)</argsstring>
+        <name>parseForConfig</name>
+        <param>
+          <type>QCString &amp;</type>
+          <declname>entity</declname>
+        </param>
+        <param>
+          <type>QCString &amp;</type>
+          <declname>arch</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/vhdldocgen.h" line="226" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/vhdldocgen.cpp" bodystart="2807" bodyend="2835"/>
+      </memberdef>
+      <memberdef kind="function" id="d6/d98/class_vhdl_doc_gen_1a411f4f042964d6e24c0376f1378da1a8" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>QCString</type>
+        <definition>QCString VhdlDocGen::parseForBinding</definition>
+        <argsstring>(QCString &amp;entity, QCString &amp;arch)</argsstring>
+        <name>parseForBinding</name>
+        <param>
+          <type>QCString &amp;</type>
+          <declname>entity</declname>
+        </param>
+        <param>
+          <type>QCString &amp;</type>
+          <declname>arch</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/vhdldocgen.h" line="227" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/vhdldocgen.cpp" bodystart="2839" bodyend="2865"/>
+      </memberdef>
+      <memberdef kind="function" id="d6/d98/class_vhdl_doc_gen_1a4892ca19efc7055ce4b5c3004ce550ed" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void VhdlDocGen::addBaseClass</definition>
+        <argsstring>(ClassDef *cd, ClassDef *ent)</argsstring>
+        <name>addBaseClass</name>
+        <param>
+          <type><ref refid="d1/dcf/class_class_def" kindref="compound">ClassDef</ref> *</type>
+          <declname>cd</declname>
+        </param>
+        <param>
+          <type><ref refid="d1/dcf/class_class_def" kindref="compound">ClassDef</ref> *</type>
+          <declname>ent</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/vhdldocgen.h" line="228" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/vhdldocgen.cpp" bodystart="3242" bodyend="3273"/>
+      </memberdef>
+      <memberdef kind="function" id="d6/d98/class_vhdl_doc_gen_1a03533511b8edfac47bb8e53b9cfb1d3d" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="d1/dcf/class_class_def" kindref="compound">ClassDef</ref> *</type>
+        <definition>ClassDef * VhdlDocGen::findVhdlClass</definition>
+        <argsstring>(const char *className)</argsstring>
+        <name>findVhdlClass</name>
+        <param>
+          <type>const char *</type>
+          <declname>className</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/vhdldocgen.h" line="229" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/vhdldocgen.cpp" bodystart="2870" bodyend="2883"/>
+      </memberdef>
+      <memberdef kind="function" id="d6/d98/class_vhdl_doc_gen_1a4c14772902ff4d4bf2a55291debd628e" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>static void VhdlDocGen::writeOverview</definition>
+        <argsstring>(OutputList &amp;ol)</argsstring>
+        <name>writeOverview</name>
+        <param>
+          <type><ref refid="df/dc8/class_output_list" kindref="compound">OutputList</ref> &amp;</type>
+          <declname>ol</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/vhdldocgen.h" line="231"/>
+      </memberdef>
+      <memberdef kind="function" id="d6/d98/class_vhdl_doc_gen_1a658c57fb74c0fde61d0002a979710416" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void VhdlDocGen::writeOverview</definition>
+        <argsstring>()</argsstring>
+        <name>writeOverview</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/vhdldocgen.h" line="232" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/vhdldocgen.cpp" bodystart="178" bodyend="258"/>
+      </memberdef>
+      <memberdef kind="function" id="d6/d98/class_vhdl_doc_gen_1a2de08afddfa24b4a037c36ac329185ff" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void VhdlDocGen::createFlowChart</definition>
+        <argsstring>(const MemberDef *)</argsstring>
+        <name>createFlowChart</name>
+        <param>
+          <type>const <ref refid="da/d09/class_member_def" kindref="compound">MemberDef</ref> *</type>
+          <defname>mdef</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/vhdldocgen.h" line="235" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/vhdldocgen.cpp" bodystart="3289" bodyend="3321"/>
+      </memberdef>
+      <memberdef kind="function" id="d6/d98/class_vhdl_doc_gen_1a7808cdf56c299daceed3212b65b8a031" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void VhdlDocGen::setFlowMember</definition>
+        <argsstring>(const MemberDef *flowMember)</argsstring>
+        <name>setFlowMember</name>
+        <param>
+          <type>const <ref refid="da/d09/class_member_def" kindref="compound">MemberDef</ref> *</type>
+          <declname>flowMember</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/vhdldocgen.h" line="238" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/vhdldocgen.cpp" bodystart="88" bodyend="91"/>
+      </memberdef>
+      <memberdef kind="function" id="d6/d98/class_vhdl_doc_gen_1a12b2126cfa1cf80aeab17ae40d673d67" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>const <ref refid="da/d09/class_member_def" kindref="compound">MemberDef</ref> *</type>
+        <definition>const MemberDef * VhdlDocGen::getFlowMember</definition>
+        <argsstring>()</argsstring>
+        <name>getFlowMember</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/vhdldocgen.h" line="239" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/vhdldocgen.cpp" bodystart="93" bodyend="96"/>
+      </memberdef>
+      <memberdef kind="function" id="d6/d98/class_vhdl_doc_gen_1a7b7df19eb23b1532bc1d05c7ffe6cd76" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool VhdlDocGen::isVhdlClass</definition>
+        <argsstring>(const Entry *cu)</argsstring>
+        <name>isVhdlClass</name>
+        <param>
+          <type>const <ref refid="d4/dd7/class_entry" kindref="compound">Entry</ref> *</type>
+          <declname>cu</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/vhdldocgen.h" line="242" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/vhdldocgen.h" bodystart="241" bodyend="247"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="d6/d98/class_vhdl_doc_gen_1a4da266c8192303249ebb5fa87b7ebdb9" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void VhdlDocGen::findAllArchitectures</definition>
+        <argsstring>(QList&lt; QCString &gt; &amp;ql, const ClassDef *cd)</argsstring>
+        <name>findAllArchitectures</name>
+        <param>
+          <type><ref refid="db/daa/class_q_list" kindref="compound">QList</ref>&lt; QCString &gt; &amp;</type>
+          <declname>ql</declname>
+        </param>
+        <param>
+          <type>const <ref refid="d1/dcf/class_class_def" kindref="compound">ClassDef</ref> *</type>
+          <declname>cd</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/vhdldocgen.h" line="252" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/vhdldocgen.cpp" bodystart="1031" bodyend="1049"/>
+      </memberdef>
+      <memberdef kind="function" id="d6/d98/class_vhdl_doc_gen_1aac97dec20defd6dd80f31c10851039aa" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool VhdlDocGen::compareArgList</definition>
+        <argsstring>(ArgumentList *, ArgumentList *)</argsstring>
+        <name>compareArgList</name>
+        <param>
+          <type><ref refid="d7/df8/class_argument_list" kindref="compound">ArgumentList</ref> *</type>
+        </param>
+        <param>
+          <type><ref refid="d7/df8/class_argument_list" kindref="compound">ArgumentList</ref> *</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/vhdldocgen.h" line="253"/>
+      </memberdef>
+      <memberdef kind="function" id="d6/d98/class_vhdl_doc_gen_1a6e37fa3f47b3d836813a1cf2a7fef036" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void VhdlDocGen::writeVhdlLink</definition>
+        <argsstring>(const ClassDef *cdd, OutputList &amp;ol, QCString &amp;type, QCString &amp;name, QCString &amp;beh)</argsstring>
+        <name>writeVhdlLink</name>
+        <param>
+          <type>const <ref refid="d1/dcf/class_class_def" kindref="compound">ClassDef</ref> *</type>
+          <declname>cdd</declname>
+        </param>
+        <param>
+          <type><ref refid="df/dc8/class_output_list" kindref="compound">OutputList</ref> &amp;</type>
+          <declname>ol</declname>
+        </param>
+        <param>
+          <type>QCString &amp;</type>
+          <declname>type</declname>
+        </param>
+        <param>
+          <type>QCString &amp;</type>
+          <declname>name</declname>
+        </param>
+        <param>
+          <type>QCString &amp;</type>
+          <declname>beh</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/vhdldocgen.h" line="254" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/vhdldocgen.cpp" bodystart="1075" bodyend="1094"/>
+      </memberdef>
+      <memberdef kind="function" id="d6/d98/class_vhdl_doc_gen_1abdbd7a613237d2a86532bfe548209a1d" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void VhdlDocGen::writeStringLink</definition>
+        <argsstring>(const MemberDef *mdef, QCString mem, OutputList &amp;ol)</argsstring>
+        <name>writeStringLink</name>
+        <param>
+          <type>const <ref refid="da/d09/class_member_def" kindref="compound">MemberDef</ref> *</type>
+          <declname>mdef</declname>
+        </param>
+        <param>
+          <type>QCString</type>
+          <declname>mem</declname>
+        </param>
+        <param>
+          <type><ref refid="df/dc8/class_output_list" kindref="compound">OutputList</ref> &amp;</type>
+          <declname>ol</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>writes a link if the string is linkable else a formatted string </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/vhdldocgen.h" line="255" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/vhdldocgen.cpp" bodystart="2531" bodyend="2551"/>
+      </memberdef>
+      <memberdef kind="function" id="d6/d98/class_vhdl_doc_gen_1a81b6f99e6d3882e29a2a4ff830741c77" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void VhdlDocGen::writeRecUnitDocu</definition>
+        <argsstring>(const MemberDef *md, OutputList &amp;ol, QCString largs)</argsstring>
+        <name>writeRecUnitDocu</name>
+        <param>
+          <type>const <ref refid="da/d09/class_member_def" kindref="compound">MemberDef</ref> *</type>
+          <declname>md</declname>
+        </param>
+        <param>
+          <type><ref refid="df/dc8/class_output_list" kindref="compound">OutputList</ref> &amp;</type>
+          <declname>ol</declname>
+        </param>
+        <param>
+          <type>QCString</type>
+          <declname>largs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/vhdldocgen.h" line="256" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/vhdldocgen.cpp" bodystart="3177" bodyend="3203"/>
+      </memberdef>
+      <memberdef kind="function" id="d6/d98/class_vhdl_doc_gen_1a869b8203fef2b9a25eb852b335433e04" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void VhdlDocGen::writeRecorUnit</definition>
+        <argsstring>(QCString &amp;largs, OutputList &amp;ol, const MemberDef *mdef)</argsstring>
+        <name>writeRecorUnit</name>
+        <param>
+          <type>QCString &amp;</type>
+          <declname>largs</declname>
+        </param>
+        <param>
+          <type><ref refid="df/dc8/class_output_list" kindref="compound">OutputList</ref> &amp;</type>
+          <declname>ol</declname>
+        </param>
+        <param>
+          <type>const <ref refid="da/d09/class_member_def" kindref="compound">MemberDef</ref> *</type>
+          <declname>mdef</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/vhdldocgen.h" line="257" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/vhdldocgen.cpp" bodystart="3164" bodyend="3174"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Class for generating documentation specific for VHDL. </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/vhdldocgen.h" line="44" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/vhdldocgen.h" bodystart="43" bodyend="258"/>
+    <listofallmembers>
+      <member refid="d6/d98/class_vhdl_doc_gen_1a4892ca19efc7055ce4b5c3004ce550ed" prot="public" virt="non-virtual"><scope>VhdlDocGen</scope><name>addBaseClass</name></member>
+      <member refid="d6/d98/class_vhdl_doc_gen_1a3f46a86d0561edb71388774696f6cea6a7793acc4468024b56c723d5b696163e5" prot="public" virt="non-virtual"><scope>VhdlDocGen</scope><name>ALIAS</name></member>
+      <member refid="d6/d98/class_vhdl_doc_gen_1a3f46a86d0561edb71388774696f6cea6a523358537aff4699052d808da11a58ab" prot="public" virt="non-virtual"><scope>VhdlDocGen</scope><name>ARCHITECTURE</name></member>
+      <member refid="d6/d98/class_vhdl_doc_gen_1a010ab08982f29df8c0f3d3f0f642f0f0ae0c7e4401e472ec3153e9793e240a431" prot="public" virt="non-virtual"><scope>VhdlDocGen</scope><name>ARCHITECTURECLASS</name></member>
+      <member refid="d6/d98/class_vhdl_doc_gen_1a3f46a86d0561edb71388774696f6cea6a74fd577ccb143927e3b8dbd90242ea82" prot="public" virt="non-virtual"><scope>VhdlDocGen</scope><name>ATTRIBUTE</name></member>
+      <member refid="d6/d98/class_vhdl_doc_gen_1aac97dec20defd6dd80f31c10851039aa" prot="private" virt="non-virtual"><scope>VhdlDocGen</scope><name>compareArgList</name></member>
+      <member refid="d6/d98/class_vhdl_doc_gen_1a3f46a86d0561edb71388774696f6cea6a6e8760b776ac93d18d10f76f3e9b92a0" prot="public" virt="non-virtual"><scope>VhdlDocGen</scope><name>COMPONENT</name></member>
+      <member refid="d6/d98/class_vhdl_doc_gen_1ab8681769cd2f027fbf46a4836d3825e9" prot="public" virt="non-virtual"><scope>VhdlDocGen</scope><name>computeVhdlComponentRelations</name></member>
+      <member refid="d6/d98/class_vhdl_doc_gen_1a3f46a86d0561edb71388774696f6cea6a69fc9806e87f3f09d80b348be3c8e4dc" prot="public" virt="non-virtual"><scope>VhdlDocGen</scope><name>CONFIG</name></member>
+      <member refid="d6/d98/class_vhdl_doc_gen_1a3f46a86d0561edb71388774696f6cea6a0893bf5a72275367a8e6a3721c9086f6" prot="public" virt="non-virtual"><scope>VhdlDocGen</scope><name>CONSTANT</name></member>
+      <member refid="d6/d98/class_vhdl_doc_gen_1aa77f9467a8af575f85643ececc8cf4e3" prot="public" virt="non-virtual"><scope>VhdlDocGen</scope><name>convertArgumentListToString</name></member>
+      <member refid="d6/d98/class_vhdl_doc_gen_1ac5508320d1d3754b484107c49cfec5a7" prot="public" virt="non-virtual"><scope>VhdlDocGen</scope><name>convertFileNameToClassName</name></member>
+      <member refid="d6/d98/class_vhdl_doc_gen_1a2de08afddfa24b4a037c36ac329185ff" prot="public" virt="non-virtual"><scope>VhdlDocGen</scope><name>createFlowChart</name></member>
+      <member refid="d6/d98/class_vhdl_doc_gen_1ae4bf0d0561d8ef807b56c1f29765713e" prot="public" virt="non-virtual"><scope>VhdlDocGen</scope><name>deleteAllChars</name></member>
+      <member refid="d6/d98/class_vhdl_doc_gen_1a82a05cf7bd081febd19a0065eed17098" prot="public" virt="non-virtual"><scope>VhdlDocGen</scope><name>deleteCharRev</name></member>
+      <member refid="d6/d98/class_vhdl_doc_gen_1a3f46a86d0561edb71388774696f6cea6a604511e3915904fbe25310051952f859" prot="public" virt="non-virtual"><scope>VhdlDocGen</scope><name>ENTITY</name></member>
+      <member refid="d6/d98/class_vhdl_doc_gen_1a010ab08982f29df8c0f3d3f0f642f0f0a0f87010297b89ed715ad63fccec9b90e" prot="public" virt="non-virtual"><scope>VhdlDocGen</scope><name>ENTITYCLASS</name></member>
+      <member refid="d6/d98/class_vhdl_doc_gen_1a4da266c8192303249ebb5fa87b7ebdb9" prot="private" virt="non-virtual"><scope>VhdlDocGen</scope><name>findAllArchitectures</name></member>
+      <member refid="d6/d98/class_vhdl_doc_gen_1ae516505c4e1dc2baa93aa2e21a04178b" prot="public" virt="non-virtual"><scope>VhdlDocGen</scope><name>findAllPackages</name></member>
+      <member refid="d6/d98/class_vhdl_doc_gen_1a85060afa6fb3a871770412d06d445f62" prot="public" virt="non-virtual"><scope>VhdlDocGen</scope><name>findArchitecture</name></member>
+      <member refid="d6/d98/class_vhdl_doc_gen_1adb468ffc3a78f01a58bd6ca92dcc10ec" prot="public" virt="non-virtual"><scope>VhdlDocGen</scope><name>findArchitecture</name></member>
+      <member refid="d6/d98/class_vhdl_doc_gen_1a8879c8899b889e4c595e128841054861" prot="public" virt="non-virtual"><scope>VhdlDocGen</scope><name>findConstraintFile</name></member>
+      <member refid="d6/d98/class_vhdl_doc_gen_1aded31b275385b372f3bb0d4182dd990e" prot="public" virt="non-virtual"><scope>VhdlDocGen</scope><name>findFunction</name></member>
+      <member refid="d6/d98/class_vhdl_doc_gen_1a0338d8a473042e0ce824cd33def75544" prot="public" virt="non-virtual"><scope>VhdlDocGen</scope><name>findKeyWord</name></member>
+      <member refid="d6/d98/class_vhdl_doc_gen_1ac10fcedd625d329dc0013ee40e8546a7" prot="public" virt="non-virtual"><scope>VhdlDocGen</scope><name>findMember</name></member>
+      <member refid="d6/d98/class_vhdl_doc_gen_1a69d1010e9addd89076e51cb78ddf029f" prot="public" virt="non-virtual"><scope>VhdlDocGen</scope><name>findMemberDef</name></member>
+      <member refid="d6/d98/class_vhdl_doc_gen_1a03533511b8edfac47bb8e53b9cfb1d3d" prot="public" virt="non-virtual"><scope>VhdlDocGen</scope><name>findVhdlClass</name></member>
+      <member refid="d6/d98/class_vhdl_doc_gen_1aacccadab8f7d60dc0e4b2892ea724c2b" prot="public" virt="non-virtual"><scope>VhdlDocGen</scope><name>formatString</name></member>
+      <member refid="d6/d98/class_vhdl_doc_gen_1a3f46a86d0561edb71388774696f6cea6a5b3da2e7667eed3c6f771079cda86e12" prot="public" virt="non-virtual"><scope>VhdlDocGen</scope><name>FUNCTION</name></member>
+      <member refid="d6/d98/class_vhdl_doc_gen_1a3f46a86d0561edb71388774696f6cea6a21dd6922b9f777cb0eca071002740a49" prot="public" virt="non-virtual"><scope>VhdlDocGen</scope><name>GENERIC</name></member>
+      <member refid="d6/d98/class_vhdl_doc_gen_1ac766b60a818a192ef5492bcee794a0ea" prot="public" virt="non-virtual"><scope>VhdlDocGen</scope><name>getClass</name></member>
+      <member refid="d6/d98/class_vhdl_doc_gen_1a2c4458b0e27e9b97db254d082d1487d2" prot="public" virt="non-virtual"><scope>VhdlDocGen</scope><name>getClassName</name></member>
+      <member refid="d6/d98/class_vhdl_doc_gen_1ad5d4c791af3f2943467c7c7af558d83a" prot="public" virt="non-virtual"><scope>VhdlDocGen</scope><name>getClassTitle</name></member>
+      <member refid="d6/d98/class_vhdl_doc_gen_1a12b2126cfa1cf80aeab17ae40d673d67" prot="public" virt="non-virtual"><scope>VhdlDocGen</scope><name>getFlowMember</name></member>
+      <member refid="d6/d98/class_vhdl_doc_gen_1aede8c70a47e630b7a4b562b599304121" prot="public" virt="non-virtual"><scope>VhdlDocGen</scope><name>getIndexWord</name></member>
+      <member refid="d6/d98/class_vhdl_doc_gen_1ad890048820909df255f6ee3f95d6ed80" prot="public" virt="non-virtual"><scope>VhdlDocGen</scope><name>getPackageName</name></member>
+      <member refid="d6/d98/class_vhdl_doc_gen_1a6524e8718f3f956610df4dfc71be204c" prot="public" virt="non-virtual"><scope>VhdlDocGen</scope><name>getProcessNumber</name></member>
+      <member refid="d6/d98/class_vhdl_doc_gen_1a4325f5840fe29089b4d3ea4b8c8b0fef" prot="public" virt="non-virtual"><scope>VhdlDocGen</scope><name>getProtectionName</name></member>
+      <member refid="d6/d98/class_vhdl_doc_gen_1a2e65f831a03ff54d13240da96843cd60" prot="public" virt="non-virtual"><scope>VhdlDocGen</scope><name>getRecordNumber</name></member>
+      <member refid="d6/d98/class_vhdl_doc_gen_1a3f46a86d0561edb71388774696f6cea6a16a7b9d37ce120789952ba9bebec0b8c" prot="public" virt="non-virtual"><scope>VhdlDocGen</scope><name>GROUP</name></member>
+      <member refid="d6/d98/class_vhdl_doc_gen_1a987fee1e906fac322dda62613525a8f9" prot="public" virt="non-virtual"><scope>VhdlDocGen</scope><name>init</name></member>
+      <member refid="d6/d98/class_vhdl_doc_gen_1a3f46a86d0561edb71388774696f6cea6ad66184819af212c8e56c4c69765df23c" prot="public" virt="non-virtual"><scope>VhdlDocGen</scope><name>INSTANTIATION</name></member>
+      <member refid="d6/d98/class_vhdl_doc_gen_1af13dd5eb831c1df008b0fd41928f4b7c" prot="public" virt="non-virtual"><scope>VhdlDocGen</scope><name>isAlias</name></member>
+      <member refid="d6/d98/class_vhdl_doc_gen_1a0281ffc4e374d27d703419ae289e3b8c" prot="public" virt="non-virtual"><scope>VhdlDocGen</scope><name>isArchitecture</name></member>
+      <member refid="d6/d98/class_vhdl_doc_gen_1a2dc9e668acc7c79f211709e2a0eeccad" prot="public" virt="non-virtual"><scope>VhdlDocGen</scope><name>isAttribute</name></member>
+      <member refid="d6/d98/class_vhdl_doc_gen_1ab9e42b2cf2d969dcc943ec355d4fa6b2" prot="public" virt="non-virtual"><scope>VhdlDocGen</scope><name>isCompInst</name></member>
+      <member refid="d6/d98/class_vhdl_doc_gen_1ad3fdc795bf951ef11221894512b8bc6c" prot="public" virt="non-virtual"><scope>VhdlDocGen</scope><name>isComponent</name></member>
+      <member refid="d6/d98/class_vhdl_doc_gen_1a57efdf5bddd0b36667c8aa21256ebac7" prot="public" virt="non-virtual"><scope>VhdlDocGen</scope><name>isConfig</name></member>
+      <member refid="d6/d98/class_vhdl_doc_gen_1a2c3cdcd27394531385ccd8c56257edc1" prot="public" virt="non-virtual"><scope>VhdlDocGen</scope><name>isConstant</name></member>
+      <member refid="d6/d98/class_vhdl_doc_gen_1adb04cd03e2039ecab3a0a8f31ee4c890" prot="public" virt="non-virtual"><scope>VhdlDocGen</scope><name>isConstraint</name></member>
+      <member refid="d6/d98/class_vhdl_doc_gen_1a65218023c4970a90f3bce70938a99781" prot="public" virt="non-virtual"><scope>VhdlDocGen</scope><name>isEntity</name></member>
+      <member refid="d6/d98/class_vhdl_doc_gen_1a7ac9c26b1b0fb7402cc58acaf569df89" prot="public" virt="non-virtual"><scope>VhdlDocGen</scope><name>isFile</name></member>
+      <member refid="d6/d98/class_vhdl_doc_gen_1ae3c19429669d382581ba37aee5f39278" prot="public" virt="non-virtual"><scope>VhdlDocGen</scope><name>isGeneric</name></member>
+      <member refid="d6/d98/class_vhdl_doc_gen_1a069c8ad206be372bd948cc8e964218ed" prot="public" virt="non-virtual"><scope>VhdlDocGen</scope><name>isGroup</name></member>
+      <member refid="d6/d98/class_vhdl_doc_gen_1a3f582b69841bae3ec6f1281604b6f0c8" prot="public" virt="non-virtual"><scope>VhdlDocGen</scope><name>isLibrary</name></member>
+      <member refid="d6/d98/class_vhdl_doc_gen_1a55ef68e914c38033a48b6fdac2907689" prot="public" virt="non-virtual"><scope>VhdlDocGen</scope><name>isMisc</name></member>
+      <member refid="d6/d98/class_vhdl_doc_gen_1a37b3bf29e7ec4cfe5c453f5a5d4e8f71" prot="public" virt="non-virtual"><scope>VhdlDocGen</scope><name>isNumber</name></member>
+      <member refid="d6/d98/class_vhdl_doc_gen_1aca017e059b8a2972c2cad968800c0564" prot="public" virt="non-virtual"><scope>VhdlDocGen</scope><name>isPackage</name></member>
+      <member refid="d6/d98/class_vhdl_doc_gen_1ab6e9aff43352b39d31806d0616e2c7af" prot="public" virt="non-virtual"><scope>VhdlDocGen</scope><name>isPackageBody</name></member>
+      <member refid="d6/d98/class_vhdl_doc_gen_1a73186f5d1ba5e6c11c6f006708da79a6" prot="public" virt="non-virtual"><scope>VhdlDocGen</scope><name>isPort</name></member>
+      <member refid="d6/d98/class_vhdl_doc_gen_1aed906dd71cdcb8aca1bc6e3f9fba9732" prot="public" virt="non-virtual"><scope>VhdlDocGen</scope><name>isProcedure</name></member>
+      <member refid="d6/d98/class_vhdl_doc_gen_1a212ea7da7de8f22c3ca1dd14a38a67ef" prot="public" virt="non-virtual"><scope>VhdlDocGen</scope><name>isProcess</name></member>
+      <member refid="d6/d98/class_vhdl_doc_gen_1ac0634a061165ad22c27eef2ac12057d0" prot="public" virt="non-virtual"><scope>VhdlDocGen</scope><name>isRecord</name></member>
+      <member refid="d6/d98/class_vhdl_doc_gen_1a07199651d2f493ee3afe42975df77efb" prot="public" virt="non-virtual"><scope>VhdlDocGen</scope><name>isSignal</name></member>
+      <member refid="d6/d98/class_vhdl_doc_gen_1a7fb01b11d2a225ee8d8c43a56862be8b" prot="public" virt="non-virtual"><scope>VhdlDocGen</scope><name>isSignals</name></member>
+      <member refid="d6/d98/class_vhdl_doc_gen_1ac7d0f125a2bffca08e8c52644bf8c6f2" prot="public" virt="non-virtual"><scope>VhdlDocGen</scope><name>isSubClass</name></member>
+      <member refid="d6/d98/class_vhdl_doc_gen_1ab57f7d02afdd7034f78894b20e6ff4aa" prot="public" virt="non-virtual"><scope>VhdlDocGen</scope><name>isSubType</name></member>
+      <member refid="d6/d98/class_vhdl_doc_gen_1a4861484cc952d96afcfe277cf958aff0" prot="public" virt="non-virtual"><scope>VhdlDocGen</scope><name>isUnit</name></member>
+      <member refid="d6/d98/class_vhdl_doc_gen_1a877e8a81695500e7ad5ed8d76fdbaffc" prot="public" virt="non-virtual"><scope>VhdlDocGen</scope><name>isVariable</name></member>
+      <member refid="d6/d98/class_vhdl_doc_gen_1a7b7df19eb23b1532bc1d05c7ffe6cd76" prot="public" virt="non-virtual"><scope>VhdlDocGen</scope><name>isVhdlClass</name></member>
+      <member refid="d6/d98/class_vhdl_doc_gen_1a8808d28bf43d889892a8b6bad0793d7d" prot="public" virt="non-virtual"><scope>VhdlDocGen</scope><name>isVhdlFunction</name></member>
+      <member refid="d6/d98/class_vhdl_doc_gen_1a8ab98ceef0a36aea7a15c548ec9aa455" prot="public" virt="non-virtual"><scope>VhdlDocGen</scope><name>isVType</name></member>
+      <member refid="d6/d98/class_vhdl_doc_gen_1a3f46a86d0561edb71388774696f6cea6ace1559d6b194d1712298e2d0040d7107" prot="public" virt="non-virtual"><scope>VhdlDocGen</scope><name>LIBRARY</name></member>
+      <member refid="d6/d98/class_vhdl_doc_gen_1a3f46a86d0561edb71388774696f6cea6aff47a9945ac0d2a4d504f95904173750" prot="public" virt="non-virtual"><scope>VhdlDocGen</scope><name>MISCELLANEOUS</name></member>
+      <member refid="d6/d98/class_vhdl_doc_gen_1a3f46a86d0561edb71388774696f6cea6a28636405fd1d55082e41bae5b5b3c3a5" prot="public" virt="non-virtual"><scope>VhdlDocGen</scope><name>PACKAGE</name></member>
+      <member refid="d6/d98/class_vhdl_doc_gen_1a3f46a86d0561edb71388774696f6cea6ae421d9c7eca60207baf35f4cbd0b1da2" prot="public" virt="non-virtual"><scope>VhdlDocGen</scope><name>PACKAGE_BODY</name></member>
+      <member refid="d6/d98/class_vhdl_doc_gen_1a010ab08982f29df8c0f3d3f0f642f0f0ae69513dd677b13d97b6a2e3ae445d1ef" prot="public" virt="non-virtual"><scope>VhdlDocGen</scope><name>PACKAGECLASS</name></member>
+      <member refid="d6/d98/class_vhdl_doc_gen_1a010ab08982f29df8c0f3d3f0f642f0f0a4cdc00f213301fb089eb3906a07efd20" prot="public" virt="non-virtual"><scope>VhdlDocGen</scope><name>PACKBODYCLASS</name></member>
+      <member refid="d6/d98/class_vhdl_doc_gen_1a411f4f042964d6e24c0376f1378da1a8" prot="public" virt="non-virtual"><scope>VhdlDocGen</scope><name>parseForBinding</name></member>
+      <member refid="d6/d98/class_vhdl_doc_gen_1a4584e2262b81979f6d9b88c070c78753" prot="public" virt="non-virtual"><scope>VhdlDocGen</scope><name>parseForConfig</name></member>
+      <member refid="d6/d98/class_vhdl_doc_gen_1a42d423663159ccd360d8838005662343" prot="public" virt="non-virtual"><scope>VhdlDocGen</scope><name>parseFuncProto</name></member>
+      <member refid="d6/d98/class_vhdl_doc_gen_1aa2a0267e84b178cc29681eeaea8cfe35" prot="public" virt="non-virtual"><scope>VhdlDocGen</scope><name>parseUCF</name></member>
+      <member refid="d6/d98/class_vhdl_doc_gen_1a3f46a86d0561edb71388774696f6cea6a96a5769416db537592ac9bd778e1ba15" prot="public" virt="non-virtual"><scope>VhdlDocGen</scope><name>PORT</name></member>
+      <member refid="d6/d98/class_vhdl_doc_gen_1a802a7b8116fa1b8b46895c25a32c5677" prot="public" virt="non-virtual"><scope>VhdlDocGen</scope><name>prepareComment</name></member>
+      <member refid="d6/d98/class_vhdl_doc_gen_1a3f46a86d0561edb71388774696f6cea6a25acdad40807693c8face87fa6a34dae" prot="public" virt="non-virtual"><scope>VhdlDocGen</scope><name>PROCEDURE</name></member>
+      <member refid="d6/d98/class_vhdl_doc_gen_1a3f46a86d0561edb71388774696f6cea6ad8826a2843d98d994f2451775f57851f" prot="public" virt="non-virtual"><scope>VhdlDocGen</scope><name>PROCESS</name></member>
+      <member refid="d6/d98/class_vhdl_doc_gen_1a3f46a86d0561edb71388774696f6cea6af57d3961a03bd6b9bd2de810a5158370" prot="public" virt="non-virtual"><scope>VhdlDocGen</scope><name>RECORD</name></member>
+      <member refid="d6/d98/class_vhdl_doc_gen_1a7808cdf56c299daceed3212b65b8a031" prot="public" virt="non-virtual"><scope>VhdlDocGen</scope><name>setFlowMember</name></member>
+      <member refid="d6/d98/class_vhdl_doc_gen_1a3f46a86d0561edb71388774696f6cea6a77f8601e3486282da0da7d4f5fb794db" prot="public" virt="non-virtual"><scope>VhdlDocGen</scope><name>SHAREDVARIABLE</name></member>
+      <member refid="d6/d98/class_vhdl_doc_gen_1a3f46a86d0561edb71388774696f6cea6a425d57cd5b88c50bf8d6a7f30f9aad5f" prot="public" virt="non-virtual"><scope>VhdlDocGen</scope><name>SIGNAL</name></member>
+      <member refid="d6/d98/class_vhdl_doc_gen_1a3f46a86d0561edb71388774696f6cea6a0cd6b2634cdb63a17c75b4b223681084" prot="public" virt="non-virtual"><scope>VhdlDocGen</scope><name>SUBTYPE</name></member>
+      <member refid="d6/d98/class_vhdl_doc_gen_1a0a7d5c59311faa783cc3ec3daea29826" prot="public" virt="non-virtual"><scope>VhdlDocGen</scope><name>trDesignUnitHierarchy</name></member>
+      <member refid="d6/d98/class_vhdl_doc_gen_1a2905e0b83f5e95ca79104ac61c52ee7d" prot="public" virt="non-virtual"><scope>VhdlDocGen</scope><name>trDesignUnitIndex</name></member>
+      <member refid="d6/d98/class_vhdl_doc_gen_1a8b0fd3c3e1ae7d234f3671b29525cf9e" prot="public" virt="non-virtual"><scope>VhdlDocGen</scope><name>trDesignUnitList</name></member>
+      <member refid="d6/d98/class_vhdl_doc_gen_1af4139f69442e7c7d0ced59570e34f1c3" prot="public" virt="non-virtual"><scope>VhdlDocGen</scope><name>trDesignUnitListDescription</name></member>
+      <member refid="d6/d98/class_vhdl_doc_gen_1a58b89b76fb84bb4bcfa1e482d3b9e727" prot="public" virt="non-virtual"><scope>VhdlDocGen</scope><name>trDesignUnitMembers</name></member>
+      <member refid="d6/d98/class_vhdl_doc_gen_1a796d5fa8a62c0e734d75e37126786714" prot="public" virt="non-virtual"><scope>VhdlDocGen</scope><name>trDesignUnits</name></member>
+      <member refid="d6/d98/class_vhdl_doc_gen_1a49df715b5535e59f36c266c67cbf514f" prot="public" virt="non-virtual"><scope>VhdlDocGen</scope><name>trFunctionAndProc</name></member>
+      <member refid="d6/d98/class_vhdl_doc_gen_1a3ff9c5f9b1c16d7212fafcd9e7275223" prot="public" virt="non-virtual"><scope>VhdlDocGen</scope><name>trTypeString</name></member>
+      <member refid="d6/d98/class_vhdl_doc_gen_1a1f0a09f2f2d063e9fc551ee62473eb43" prot="public" virt="non-virtual"><scope>VhdlDocGen</scope><name>trVhdlType</name></member>
+      <member refid="d6/d98/class_vhdl_doc_gen_1a3f46a86d0561edb71388774696f6cea6a0a5e79aae981605ec80283206d115283" prot="public" virt="non-virtual"><scope>VhdlDocGen</scope><name>TYPE</name></member>
+      <member refid="d6/d98/class_vhdl_doc_gen_1a3f46a86d0561edb71388774696f6cea6a3634e4fcc00b052fe7b55fd319d009c9" prot="public" virt="non-virtual"><scope>VhdlDocGen</scope><name>UCF_CONST</name></member>
+      <member refid="d6/d98/class_vhdl_doc_gen_1a3f46a86d0561edb71388774696f6cea6a9f02979facca94d4d0113e895224a27e" prot="public" virt="non-virtual"><scope>VhdlDocGen</scope><name>UNITS</name></member>
+      <member refid="d6/d98/class_vhdl_doc_gen_1a3f46a86d0561edb71388774696f6cea6aeab873f5f9da8d43d0f5b730e9b4ca8f" prot="public" virt="non-virtual"><scope>VhdlDocGen</scope><name>USE</name></member>
+      <member refid="d6/d98/class_vhdl_doc_gen_1a3f46a86d0561edb71388774696f6cea6a9f13ba47aabd6d1e602ccfacf08ae2fd" prot="public" virt="non-virtual"><scope>VhdlDocGen</scope><name>VFILE</name></member>
+      <member refid="d6/d98/class_vhdl_doc_gen_1a010ab08982f29df8c0f3d3f0f642f0f0" prot="public" virt="non-virtual"><scope>VhdlDocGen</scope><name>VhdlClasses</name></member>
+      <member refid="d6/d98/class_vhdl_doc_gen_1a9c81282909ce97e85d0f42a4e2bd3b1e" prot="public" virt="non-virtual"><scope>VhdlDocGen</scope><name>VhdlDocGen</name></member>
+      <member refid="d6/d98/class_vhdl_doc_gen_1a3f46a86d0561edb71388774696f6cea6" prot="public" virt="non-virtual"><scope>VhdlDocGen</scope><name>VhdlKeyWords</name></member>
+      <member refid="d6/d98/class_vhdl_doc_gen_1a62637da4d5b53a0243289ac6a4af2011" prot="public" virt="non-virtual"><scope>VhdlDocGen</scope><name>writeAlphbeticalClass</name></member>
+      <member refid="d6/d98/class_vhdl_doc_gen_1a201149bb595839029a622100737e0dea" prot="public" virt="non-virtual"><scope>VhdlDocGen</scope><name>writeClassType</name></member>
+      <member refid="d6/d98/class_vhdl_doc_gen_1a0b58904c2803fe64c007b6c3ddda086e" prot="public" virt="non-virtual"><scope>VhdlDocGen</scope><name>writeFormatString</name></member>
+      <member refid="d6/d98/class_vhdl_doc_gen_1a8c40c856602e19b4fe421c9572d618b7" prot="public" virt="non-virtual"><scope>VhdlDocGen</scope><name>writeFuncProcDocu</name></member>
+      <member refid="d6/d98/class_vhdl_doc_gen_1ab1d66321a2c118a9376b65aeb598a49c" prot="public" virt="non-virtual"><scope>VhdlDocGen</scope><name>writeFunctionProto</name></member>
+      <member refid="d6/d98/class_vhdl_doc_gen_1a67f47b8dc11d967ee47e9bda86fff7e0" prot="public" virt="non-virtual"><scope>VhdlDocGen</scope><name>writeInlineClassLink</name></member>
+      <member refid="d6/d98/class_vhdl_doc_gen_1a4c14772902ff4d4bf2a55291debd628e" prot="public" virt="non-virtual"><scope>VhdlDocGen</scope><name>writeOverview</name></member>
+      <member refid="d6/d98/class_vhdl_doc_gen_1a658c57fb74c0fde61d0002a979710416" prot="public" virt="non-virtual"><scope>VhdlDocGen</scope><name>writeOverview</name></member>
+      <member refid="d6/d98/class_vhdl_doc_gen_1ae7a0bfaf11295ea18c656b14fb54203a" prot="public" virt="non-virtual"><scope>VhdlDocGen</scope><name>writePlainVHDLDeclarations</name></member>
+      <member refid="d6/d98/class_vhdl_doc_gen_1a94da80078b9bba291b1c1af056eca6a4" prot="public" virt="non-virtual"><scope>VhdlDocGen</scope><name>writeProcedureProto</name></member>
+      <member refid="d6/d98/class_vhdl_doc_gen_1a94ad80db8536156393a701496506c052" prot="public" virt="non-virtual"><scope>VhdlDocGen</scope><name>writeProcessProto</name></member>
+      <member refid="d6/d98/class_vhdl_doc_gen_1a4be0e9c1867f4bdc5a06f1ca54905d4b" prot="public" virt="non-virtual"><scope>VhdlDocGen</scope><name>writeRecordProto</name></member>
+      <member refid="d6/d98/class_vhdl_doc_gen_1a869b8203fef2b9a25eb852b335433e04" prot="private" virt="non-virtual"><scope>VhdlDocGen</scope><name>writeRecorUnit</name></member>
+      <member refid="d6/d98/class_vhdl_doc_gen_1a81b6f99e6d3882e29a2a4ff830741c77" prot="private" virt="non-virtual"><scope>VhdlDocGen</scope><name>writeRecUnitDocu</name></member>
+      <member refid="d6/d98/class_vhdl_doc_gen_1ae08bfd74e8450f8abc4fb3a265d6b24a" prot="public" virt="non-virtual"><scope>VhdlDocGen</scope><name>writeSource</name></member>
+      <member refid="d6/d98/class_vhdl_doc_gen_1abdbd7a613237d2a86532bfe548209a1d" prot="private" virt="non-virtual"><scope>VhdlDocGen</scope><name>writeStringLink</name></member>
+      <member refid="d6/d98/class_vhdl_doc_gen_1ac5c7235e2572f9dab6475d5af835e437" prot="public" virt="non-virtual"><scope>VhdlDocGen</scope><name>writeVHDLDeclaration</name></member>
+      <member refid="d6/d98/class_vhdl_doc_gen_1a30ec463210e92bb4f1cdd02bf1893c86" prot="public" virt="non-virtual"><scope>VhdlDocGen</scope><name>writeVHDLDeclarations</name></member>
+      <member refid="d6/d98/class_vhdl_doc_gen_1a26d6d3e1a28067a7a5c9f8624f642654" prot="public" virt="non-virtual"><scope>VhdlDocGen</scope><name>writeVhdlDeclarations</name></member>
+      <member refid="d6/d98/class_vhdl_doc_gen_1a6e37fa3f47b3d836813a1cf2a7fef036" prot="private" virt="non-virtual"><scope>VhdlDocGen</scope><name>writeVhdlLink</name></member>
+      <member refid="d6/d98/class_vhdl_doc_gen_1a0218e5158efa51df8490073c645c9a79" prot="public" virt="non-virtual"><scope>VhdlDocGen</scope><name>writeVHDLTypeDocumentation</name></member>
+      <member refid="d6/d98/class_vhdl_doc_gen_1acc05e81acd9943236e3530a0beba9f86" prot="public" virt="virtual"><scope>VhdlDocGen</scope><name>~VhdlDocGen</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

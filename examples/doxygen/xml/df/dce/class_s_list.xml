@@ -1,0 +1,279 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.2">
+  <compounddef id="df/dce/class_s_list" kind="class" prot="public">
+    <compoundname>SList</compoundname>
+    <basecompoundref refid="db/daa/class_q_list" prot="public" virt="non-virtual">QList&lt; T &gt;</basecompoundref>
+    <includes refid="d9/d21/sortdict_8h" local="no">sortdict.h</includes>
+    <templateparamlist>
+      <param>
+        <type>class</type>
+        <declname>T</declname>
+        <defname>T</defname>
+      </param>
+    </templateparamlist>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="df/dce/class_s_list_1abface9f413e646afb180f3813289631a" prot="private" static="no" mutable="no">
+        <type><ref refid="d1/d50/class_s_dict" kindref="compound">SDict</ref>&lt; T &gt; *</type>
+        <definition>SDict&lt;T&gt;* SList&lt; T &gt;::m_owner</definition>
+        <argsstring></argsstring>
+        <name>m_owner</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/sortdict.h" line="90" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/sortdict.h" bodystart="90" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="df/dce/class_s_list_1a1295b39ee8f007fa3d35a1a41d7db6fe" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>SList&lt; T &gt;::SList</definition>
+        <argsstring>(SDict&lt; T &gt; *owner)</argsstring>
+        <name>SList</name>
+        <param>
+          <type><ref refid="d1/d50/class_s_dict" kindref="compound">SDict</ref>&lt; T &gt; *</type>
+          <declname>owner</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/sortdict.h" line="83" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/sortdict.h" bodystart="83" bodyend="83"/>
+      </memberdef>
+      <memberdef kind="function" id="df/dce/class_s_list_1a65ba4ce097900693d480a5f1ff5f2fdd" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type></type>
+        <definition>virtual SList&lt; T &gt;::~SList</definition>
+        <argsstring>()</argsstring>
+        <name>~SList</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/sortdict.h" line="84" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/sortdict.h" bodystart="84" bodyend="84"/>
+      </memberdef>
+      <memberdef kind="function" id="df/dce/class_s_list_1ae9a750c6017b2288da82d44393402d50" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int SList&lt; T &gt;::compareItems</definition>
+        <argsstring>(QCollection::Item item1, QCollection::Item item2)</argsstring>
+        <name>compareItems</name>
+        <param>
+          <type>QCollection::Item</type>
+          <declname>item1</declname>
+        </param>
+        <param>
+          <type>QCollection::Item</type>
+          <declname>item2</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/sortdict.h" line="86" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/sortdict.h" bodystart="85" bodyend="88"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>internal wrapper class that redirects compareItems() to the dictionary </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="4113">
+        <label>SList&lt; MemberNameInfo &gt;</label>
+        <link refid="df/dce/class_s_list"/>
+        <childnode refid="4110" relation="template-instance">
+          <edgelabel>&lt; MemberNameInfo &gt;</edgelabel>
+        </childnode>
+      </node>
+      <node id="4134">
+        <label>SList&lt; Example &gt;</label>
+        <link refid="df/dce/class_s_list"/>
+        <childnode refid="4110" relation="template-instance">
+          <edgelabel>&lt; Example &gt;</edgelabel>
+        </childnode>
+      </node>
+      <node id="4116">
+        <label>SList&lt; Definition &gt;</label>
+        <link refid="df/dce/class_s_list"/>
+        <childnode refid="4110" relation="template-instance">
+          <edgelabel>&lt; Definition &gt;</edgelabel>
+        </childnode>
+      </node>
+      <node id="4119">
+        <label>SList&lt; DotFilePatcher &gt;</label>
+        <link refid="df/dce/class_s_list"/>
+        <childnode refid="4110" relation="template-instance">
+          <edgelabel>&lt; DotFilePatcher &gt;</edgelabel>
+        </childnode>
+      </node>
+      <node id="4122">
+        <label>SList&lt; GroupDef &gt;</label>
+        <link refid="df/dce/class_s_list"/>
+        <childnode refid="4110" relation="template-instance">
+          <edgelabel>&lt; GroupDef &gt;</edgelabel>
+        </childnode>
+      </node>
+      <node id="4124">
+        <label>SList&lt; IndexField &gt;</label>
+        <link refid="df/dce/class_s_list"/>
+        <childnode refid="4110" relation="template-instance">
+          <edgelabel>&lt; IndexField &gt;</edgelabel>
+        </childnode>
+      </node>
+      <node id="4111">
+        <label>QList&lt; T &gt;</label>
+        <link refid="db/daa/class_q_list"/>
+      </node>
+      <node id="4133">
+        <label>SList&lt; DirDef &gt;</label>
+        <link refid="df/dce/class_s_list"/>
+        <childnode refid="4110" relation="template-instance">
+          <edgelabel>&lt; DirDef &gt;</edgelabel>
+        </childnode>
+      </node>
+      <node id="4127">
+        <label>SList&lt; ClassDef &gt;</label>
+        <link refid="df/dce/class_s_list"/>
+        <childnode refid="4110" relation="template-instance">
+          <edgelabel>&lt; ClassDef &gt;</edgelabel>
+        </childnode>
+      </node>
+      <node id="4118">
+        <label>SList&lt; DirRelation &gt;</label>
+        <link refid="df/dce/class_s_list"/>
+        <childnode refid="4110" relation="template-instance">
+          <edgelabel>&lt; DirRelation &gt;</edgelabel>
+        </childnode>
+      </node>
+      <node id="4132">
+        <label>SList&lt; MemberList &gt;</label>
+        <link refid="df/dce/class_s_list"/>
+        <childnode refid="4110" relation="template-instance">
+          <edgelabel>&lt; MemberList &gt;</edgelabel>
+        </childnode>
+      </node>
+      <node id="4128">
+        <label>SList&lt; NodeDef &gt;</label>
+        <link refid="df/dce/class_s_list"/>
+        <childnode refid="4110" relation="template-instance">
+          <edgelabel>&lt; NodeDef &gt;</edgelabel>
+        </childnode>
+      </node>
+      <node id="4121">
+        <label>SList&lt; void &gt;</label>
+        <link refid="df/dce/class_s_list"/>
+        <childnode refid="4110" relation="template-instance">
+          <edgelabel>&lt; void &gt;</edgelabel>
+        </childnode>
+      </node>
+      <node id="4129">
+        <label>SList&lt; RefItem &gt;</label>
+        <link refid="df/dce/class_s_list"/>
+        <childnode refid="4110" relation="template-instance">
+          <edgelabel>&lt; RefItem &gt;</edgelabel>
+        </childnode>
+      </node>
+      <node id="4130">
+        <label>SList&lt; SearchDocEntry &gt;</label>
+        <link refid="df/dce/class_s_list"/>
+        <childnode refid="4110" relation="template-instance">
+          <edgelabel>&lt; SearchDocEntry &gt;</edgelabel>
+        </childnode>
+      </node>
+      <node id="4131">
+        <label>SList&lt; SectionInfo &gt;</label>
+        <link refid="df/dce/class_s_list"/>
+        <childnode refid="4110" relation="template-instance">
+          <edgelabel>&lt; SectionInfo &gt;</edgelabel>
+        </childnode>
+      </node>
+      <node id="4115">
+        <label>SList&lt; QCString &gt;</label>
+        <link refid="df/dce/class_s_list"/>
+        <childnode refid="4110" relation="template-instance">
+          <edgelabel>&lt; QCString &gt;</edgelabel>
+        </childnode>
+      </node>
+      <node id="4114">
+        <label>SList&lt; PageDef &gt;</label>
+        <link refid="df/dce/class_s_list"/>
+        <childnode refid="4110" relation="template-instance">
+          <edgelabel>&lt; PageDef &gt;</edgelabel>
+        </childnode>
+      </node>
+      <node id="4110">
+        <label>SList&lt; T &gt;</label>
+        <link refid="df/dce/class_s_list"/>
+        <childnode refid="4111" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4117">
+        <label>SList&lt; MemberDef &gt;</label>
+        <link refid="df/dce/class_s_list"/>
+        <childnode refid="4110" relation="template-instance">
+          <edgelabel>&lt; MemberDef &gt;</edgelabel>
+        </childnode>
+      </node>
+      <node id="4112">
+        <label>SList&lt; MemberName &gt;</label>
+        <link refid="df/dce/class_s_list"/>
+        <childnode refid="4110" relation="template-instance">
+          <edgelabel>&lt; MemberName &gt;</edgelabel>
+        </childnode>
+      </node>
+      <node id="4125">
+        <label>SList&lt; GenericsCollection &gt;</label>
+        <link refid="df/dce/class_s_list"/>
+        <childnode refid="4110" relation="template-instance">
+          <edgelabel>&lt; GenericsCollection &gt;</edgelabel>
+        </childnode>
+      </node>
+      <node id="4123">
+        <label>SList&lt; QList&lt; Definition &gt; &gt;</label>
+        <link refid="df/dce/class_s_list"/>
+        <childnode refid="4110" relation="template-instance">
+          <edgelabel>&lt; QList&lt; Definition &gt; &gt;</edgelabel>
+        </childnode>
+      </node>
+      <node id="4120">
+        <label>SList&lt; NamespaceDef &gt;</label>
+        <link refid="df/dce/class_s_list"/>
+        <childnode refid="4110" relation="template-instance">
+          <edgelabel>&lt; NamespaceDef &gt;</edgelabel>
+        </childnode>
+      </node>
+      <node id="4126">
+        <label>SList&lt; FilePair &gt;</label>
+        <link refid="df/dce/class_s_list"/>
+        <childnode refid="4110" relation="template-instance">
+          <edgelabel>&lt; FilePair &gt;</edgelabel>
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="4136">
+        <label>QList&lt; T &gt;</label>
+        <link refid="db/daa/class_q_list"/>
+      </node>
+      <node id="4135">
+        <label>SList&lt; T &gt;</label>
+        <link refid="df/dce/class_s_list"/>
+        <childnode refid="4136" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/sortdict.h" line="81" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/sortdict.h" bodystart="80" bodyend="91"/>
+    <listofallmembers>
+      <member refid="df/dce/class_s_list_1ae9a750c6017b2288da82d44393402d50" prot="public" virt="non-virtual"><scope>SList</scope><name>compareItems</name></member>
+      <member refid="df/dce/class_s_list_1abface9f413e646afb180f3813289631a" prot="private" virt="non-virtual"><scope>SList</scope><name>m_owner</name></member>
+      <member refid="df/dce/class_s_list_1a1295b39ee8f007fa3d35a1a41d7db6fe" prot="public" virt="non-virtual"><scope>SList</scope><name>SList</name></member>
+      <member refid="df/dce/class_s_list_1a65ba4ce097900693d480a5f1ff5f2fdd" prot="public" virt="virtual"><scope>SList</scope><name>~SList</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

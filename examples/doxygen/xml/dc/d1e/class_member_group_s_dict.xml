@@ -1,0 +1,125 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.2">
+  <compounddef id="dc/d1e/class_member_group_s_dict" kind="class" prot="public">
+    <compoundname>MemberGroupSDict</compoundname>
+    <basecompoundref refid="d0/d9f/class_s_int_dict" prot="public" virt="non-virtual">SIntDict&lt; MemberGroup &gt;</basecompoundref>
+    <includes refid="d9/d11/membergroup_8h" local="no">membergroup.h</includes>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="dc/d1e/class_member_group_s_dict_1aa8c39c4f71040c295bac3f3169512185" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MemberGroupSDict::MemberGroupSDict</definition>
+        <argsstring>(int size=17)</argsstring>
+        <name>MemberGroupSDict</name>
+        <param>
+          <type>int</type>
+          <declname>size</declname>
+          <defval>17</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/membergroup.h" line="126" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/membergroup.h" bodystart="126" bodyend="126"/>
+      </memberdef>
+      <memberdef kind="function" id="dc/d1e/class_member_group_s_dict_1a4d01742f5c8979c397210e1a04104702" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MemberGroupSDict::~MemberGroupSDict</definition>
+        <argsstring>()</argsstring>
+        <name>~MemberGroupSDict</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/membergroup.h" line="127" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/membergroup.h" bodystart="127" bodyend="127"/>
+      </memberdef>
+      <memberdef kind="function" id="dc/d1e/class_member_group_s_dict_1ac84ccbeeebc4a9e856490718bdee12f6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>int</type>
+        <definition>int MemberGroupSDict::compareItems</definition>
+        <argsstring>(QCollection::Item item1, QCollection::Item item2)</argsstring>
+        <name>compareItems</name>
+        <reimplements refid="d0/d9f/class_s_int_dict_1a630de896dbf2d141c03c2ec2c1351a87">compareItems</reimplements>
+        <param>
+          <type>QCollection::Item</type>
+          <declname>item1</declname>
+        </param>
+        <param>
+          <type>QCollection::Item</type>
+          <declname>item2</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Function that is used to compare two items when sorting. Overload this to properly sort items. <simplesect kind="see"><para><ref refid="d0/d9f/class_s_int_dict_1a16cc84888ede2d895d4df0323608862d" kindref="member">inSort()</ref> </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/membergroup.h" line="129" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/membergroup.h" bodystart="128" bodyend="131"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>A sorted dictionary of <ref refid="da/d32/class_member_group" kindref="compound">MemberGroup</ref> objects. </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="3748">
+        <label>SIntDict&lt; T &gt;</label>
+        <link refid="d0/d9f/class_s_int_dict"/>
+      </node>
+      <node id="3746">
+        <label>MemberGroupSDict</label>
+        <link refid="dc/d1e/class_member_group_s_dict"/>
+        <childnode refid="3747" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3747">
+        <label>SIntDict&lt; MemberGroup &gt;</label>
+        <link refid="d0/d9f/class_s_int_dict"/>
+        <childnode refid="3748" relation="template-instance">
+          <edgelabel>&lt; MemberGroup &gt;</edgelabel>
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="3751">
+        <label>SIntDict&lt; T &gt;</label>
+        <link refid="d0/d9f/class_s_int_dict"/>
+      </node>
+      <node id="3749">
+        <label>MemberGroupSDict</label>
+        <link refid="dc/d1e/class_member_group_s_dict"/>
+        <childnode refid="3750" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3750">
+        <label>SIntDict&lt; MemberGroup &gt;</label>
+        <link refid="d0/d9f/class_s_int_dict"/>
+        <childnode refid="3751" relation="template-instance">
+          <edgelabel>&lt; MemberGroup &gt;</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/membergroup.h" line="124" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/membergroup.h" bodystart="123" bodyend="132"/>
+    <listofallmembers>
+      <member refid="d0/d9f/class_s_int_dict_1a829c9e4c9827e765145d150ffb18b1ae" prot="public" virt="non-virtual"><scope>MemberGroupSDict</scope><name>append</name></member>
+      <member refid="d0/d9f/class_s_int_dict_1a13bbde7f8fdac65c32e670d627fbdeac" prot="public" virt="non-virtual"><scope>MemberGroupSDict</scope><name>at</name></member>
+      <member refid="d0/d9f/class_s_int_dict_1ab86a29e18447f3f5347bb29478a2e8f4" prot="public" virt="non-virtual"><scope>MemberGroupSDict</scope><name>clear</name></member>
+      <member refid="dc/d1e/class_member_group_s_dict_1ac84ccbeeebc4a9e856490718bdee12f6" prot="public" virt="virtual"><scope>MemberGroupSDict</scope><name>compareItems</name></member>
+      <member refid="d0/d9f/class_s_int_dict_1a2c5c2a415a61ab3466dabdb1bc441ad7" prot="public" virt="non-virtual"><scope>MemberGroupSDict</scope><name>count</name></member>
+      <member refid="d0/d9f/class_s_int_dict_1a5b08deebe24072f66bdce4fed2a3863d" prot="public" virt="non-virtual"><scope>MemberGroupSDict</scope><name>find</name></member>
+      <member refid="d0/d9f/class_s_int_dict_1a16cc84888ede2d895d4df0323608862d" prot="public" virt="non-virtual"><scope>MemberGroupSDict</scope><name>inSort</name></member>
+      <member refid="dc/d1e/class_member_group_s_dict_1aa8c39c4f71040c295bac3f3169512185" prot="public" virt="non-virtual"><scope>MemberGroupSDict</scope><name>MemberGroupSDict</name></member>
+      <member refid="d0/d9f/class_s_int_dict_1a6c7f1a2ccba55d870e39f6e112316f78" prot="public" virt="non-virtual"><scope>MemberGroupSDict</scope><name>operator[]</name></member>
+      <member refid="d0/d9f/class_s_int_dict_1a394582f93d6d758a477e86f84087c6a6" prot="public" virt="non-virtual"><scope>MemberGroupSDict</scope><name>prepend</name></member>
+      <member refid="d0/d9f/class_s_int_dict_1a3e7bf8861e4650f5f958000b86b2312a" prot="public" virt="non-virtual"><scope>MemberGroupSDict</scope><name>remove</name></member>
+      <member refid="d0/d9f/class_s_int_dict_1aa847c843b8f2509d2021d8db470aa14f" prot="public" virt="non-virtual"><scope>MemberGroupSDict</scope><name>setAutoDelete</name></member>
+      <member refid="d0/d9f/class_s_int_dict_1aecdc48000491e3b8312210e89fe29fc0" prot="public" virt="non-virtual"><scope>MemberGroupSDict</scope><name>SIntDict</name></member>
+      <member refid="d0/d9f/class_s_int_dict_1ae205d1b7f76cea9da3f117e830bd7dfa" prot="public" virt="non-virtual"><scope>MemberGroupSDict</scope><name>sort</name></member>
+      <member refid="dc/d1e/class_member_group_s_dict_1a4d01742f5c8979c397210e1a04104702" prot="public" virt="non-virtual"><scope>MemberGroupSDict</scope><name>~MemberGroupSDict</name></member>
+      <member refid="d0/d9f/class_s_int_dict_1a8d2e7da0367e653b432447a9dce7c604" prot="public" virt="virtual"><scope>MemberGroupSDict</scope><name>~SIntDict</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

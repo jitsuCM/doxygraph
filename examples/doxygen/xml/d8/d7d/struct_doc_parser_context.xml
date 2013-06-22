@@ -1,0 +1,404 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.2">
+  <compounddef id="d8/d7d/struct_doc_parser_context" kind="struct" prot="public">
+    <compoundname>DocParserContext</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="d8/d7d/struct_doc_parser_context_1add383acd336f2e26ecf24c000f31a4e3" prot="public" static="no" mutable="no">
+        <type><ref refid="d5/dcc/class_definition" kindref="compound">Definition</ref> *</type>
+        <definition>Definition* DocParserContext::scope</definition>
+        <argsstring></argsstring>
+        <name>scope</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/docparser.cpp" line="112" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/docparser.cpp" bodystart="112" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d8/d7d/struct_doc_parser_context_1a440e2d11196fe51c4b5bc991345d866d" prot="public" static="no" mutable="no">
+        <type>QCString</type>
+        <definition>QCString DocParserContext::context</definition>
+        <argsstring></argsstring>
+        <name>context</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/docparser.cpp" line="113" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/docparser.cpp" bodystart="113" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d8/d7d/struct_doc_parser_context_1a9e9561c7ec0edba0d50cdcb482942bea" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool DocParserContext::inSeeBlock</definition>
+        <argsstring></argsstring>
+        <name>inSeeBlock</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/docparser.cpp" line="114" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/docparser.cpp" bodystart="114" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d8/d7d/struct_doc_parser_context_1a5b98ca02af34e324862e5b5b8bbfb207" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool DocParserContext::xmlComment</definition>
+        <argsstring></argsstring>
+        <name>xmlComment</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/docparser.cpp" line="115" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/docparser.cpp" bodystart="115" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d8/d7d/struct_doc_parser_context_1a88cb2bde6d7f9ded45c9d33f33b65bb3" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool DocParserContext::insideHtmlLink</definition>
+        <argsstring></argsstring>
+        <name>insideHtmlLink</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/docparser.cpp" line="116" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/docparser.cpp" bodystart="116" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d8/d7d/struct_doc_parser_context_1a813c4ba2030c8b34b2c9d8f1ff6020eb" prot="public" static="no" mutable="no">
+        <type>QStack&lt; <ref refid="d9/d0e/class_doc_node" kindref="compound">DocNode</ref> &gt;</type>
+        <definition>QStack&lt;DocNode&gt; DocParserContext::nodeStack</definition>
+        <argsstring></argsstring>
+        <name>nodeStack</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/docparser.cpp" line="117" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/docparser.cpp" bodystart="117" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d8/d7d/struct_doc_parser_context_1af6fc30c2dd0edcf5fede2f271316546c" prot="public" static="no" mutable="no">
+        <type>QStack&lt; <ref refid="d0/d4e/class_doc_style_change" kindref="compound">DocStyleChange</ref> &gt;</type>
+        <definition>QStack&lt;DocStyleChange&gt; DocParserContext::styleStack</definition>
+        <argsstring></argsstring>
+        <name>styleStack</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/docparser.cpp" line="118" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/docparser.cpp" bodystart="118" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d8/d7d/struct_doc_parser_context_1a27b9c48cc75461a3fcf436c60d6af39a" prot="public" static="no" mutable="no">
+        <type>QStack&lt; <ref refid="d0/d4e/class_doc_style_change" kindref="compound">DocStyleChange</ref> &gt;</type>
+        <definition>QStack&lt;DocStyleChange&gt; DocParserContext::initialStyleStack</definition>
+        <argsstring></argsstring>
+        <name>initialStyleStack</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/docparser.cpp" line="119" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/docparser.cpp" bodystart="119" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d8/d7d/struct_doc_parser_context_1a1fc927af6a2675bc3d2f480efbed7533" prot="public" static="no" mutable="no">
+        <type><ref refid="db/daa/class_q_list" kindref="compound">QList</ref>&lt; <ref refid="d5/dcc/class_definition" kindref="compound">Definition</ref> &gt;</type>
+        <definition>QList&lt;Definition&gt; DocParserContext::copyStack</definition>
+        <argsstring></argsstring>
+        <name>copyStack</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/docparser.cpp" line="120" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/docparser.cpp" bodystart="120" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d8/d7d/struct_doc_parser_context_1a2b4c522f7f52850b1956b1b1504c4f1b" prot="public" static="no" mutable="no">
+        <type>QCString</type>
+        <definition>QCString DocParserContext::fileName</definition>
+        <argsstring></argsstring>
+        <name>fileName</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/docparser.cpp" line="121" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/docparser.cpp" bodystart="121" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d8/d7d/struct_doc_parser_context_1a603ea82abcc694bf2aeb91d85378aa0d" prot="public" static="no" mutable="no">
+        <type>QCString</type>
+        <definition>QCString DocParserContext::relPath</definition>
+        <argsstring></argsstring>
+        <name>relPath</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/docparser.cpp" line="122" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/docparser.cpp" bodystart="122" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d8/d7d/struct_doc_parser_context_1adfc69df470290ef49cf32d0e6cd83556" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool DocParserContext::hasParamCommand</definition>
+        <argsstring></argsstring>
+        <name>hasParamCommand</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/docparser.cpp" line="124" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/docparser.cpp" bodystart="124" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d8/d7d/struct_doc_parser_context_1ae20ce1c3e50ef1b4399b50f29f61607f" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool DocParserContext::hasReturnCommand</definition>
+        <argsstring></argsstring>
+        <name>hasReturnCommand</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/docparser.cpp" line="125" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/docparser.cpp" bodystart="125" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d8/d7d/struct_doc_parser_context_1ae598a4b4f7337ef13ffaff9df878a8df" prot="public" static="no" mutable="no">
+        <type><ref refid="da/d09/class_member_def" kindref="compound">MemberDef</ref> *</type>
+        <definition>MemberDef* DocParserContext::memberDef</definition>
+        <argsstring></argsstring>
+        <name>memberDef</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/docparser.cpp" line="126" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/docparser.cpp" bodystart="126" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d8/d7d/struct_doc_parser_context_1a304223304af1183a5afa3b9a36a921af" prot="public" static="no" mutable="no">
+        <type>QDict&lt; void &gt;</type>
+        <definition>QDict&lt;void&gt; DocParserContext::paramsFound</definition>
+        <argsstring></argsstring>
+        <name>paramsFound</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/docparser.cpp" line="127" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/docparser.cpp" bodystart="127" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d8/d7d/struct_doc_parser_context_1aa499773e2ac0458b4f616b07386e5685" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool DocParserContext::isExample</definition>
+        <argsstring></argsstring>
+        <name>isExample</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/docparser.cpp" line="128" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/docparser.cpp" bodystart="128" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d8/d7d/struct_doc_parser_context_1a688f0551d40b6f51fb0daaa76631502b" prot="public" static="no" mutable="no">
+        <type>QCString</type>
+        <definition>QCString DocParserContext::exampleName</definition>
+        <argsstring></argsstring>
+        <name>exampleName</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/docparser.cpp" line="129" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/docparser.cpp" bodystart="129" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d8/d7d/struct_doc_parser_context_1a0e457c01f7cfa2b60d7af671cbf6fc9c" prot="public" static="no" mutable="no">
+        <type><ref refid="de/d9a/class_section_dict" kindref="compound">SectionDict</ref> *</type>
+        <definition>SectionDict* DocParserContext::sectionDict</definition>
+        <argsstring></argsstring>
+        <name>sectionDict</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/docparser.cpp" line="130" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/docparser.cpp" bodystart="130" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d8/d7d/struct_doc_parser_context_1aa2bfd37ddbdec7e8751e6585cc53beb8" prot="public" static="no" mutable="no">
+        <type>QCString</type>
+        <definition>QCString DocParserContext::searchUrl</definition>
+        <argsstring></argsstring>
+        <name>searchUrl</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/docparser.cpp" line="131" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/docparser.cpp" bodystart="131" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d8/d7d/struct_doc_parser_context_1a741637628985f24ccf69b051638804ca" prot="public" static="no" mutable="no">
+        <type>QCString</type>
+        <definition>QCString DocParserContext::includeFileText</definition>
+        <argsstring></argsstring>
+        <name>includeFileText</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/docparser.cpp" line="133" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/docparser.cpp" bodystart="133" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d8/d7d/struct_doc_parser_context_1a8dca590b7e1548f62368aca98a1f8e5f" prot="public" static="no" mutable="no">
+        <type>uint</type>
+        <definition>uint DocParserContext::includeFileOffset</definition>
+        <argsstring></argsstring>
+        <name>includeFileOffset</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/docparser.cpp" line="134" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/docparser.cpp" bodystart="134" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d8/d7d/struct_doc_parser_context_1ada8cb01b66567027d0799c5ce1e5dc2f" prot="public" static="no" mutable="no">
+        <type>uint</type>
+        <definition>uint DocParserContext::includeFileLength</definition>
+        <argsstring></argsstring>
+        <name>includeFileLength</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/docparser.cpp" line="135" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/docparser.cpp" bodystart="135" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d8/d7d/struct_doc_parser_context_1a8da54182d40bdc81e85cd29db88230b6" prot="public" static="no" mutable="no">
+        <type><ref refid="d6/df4/struct_token_info" kindref="compound">TokenInfo</ref> *</type>
+        <definition>TokenInfo* DocParserContext::token</definition>
+        <argsstring></argsstring>
+        <name>token</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/docparser.cpp" line="137" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/docparser.cpp" bodystart="137" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Parser&apos;s context to store all global variables. </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="3160">
+        <label>SectionDict</label>
+        <link refid="de/d9a/class_section_dict"/>
+        <childnode refid="3161" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3162">
+        <label>SDict&lt; T &gt;</label>
+        <link refid="d1/d50/class_s_dict"/>
+      </node>
+      <node id="3163">
+        <label>Definition</label>
+        <link refid="d5/dcc/class_definition"/>
+        <childnode refid="3164" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3161">
+        <label>SDict&lt; SectionInfo &gt;</label>
+        <link refid="d1/d50/class_s_dict"/>
+        <childnode refid="3162" relation="template-instance">
+          <edgelabel>&lt; SectionInfo &gt;</edgelabel>
+        </childnode>
+      </node>
+      <node id="3156">
+        <label>DocParserContext</label>
+        <childnode refid="3157" relation="usage">
+          <edgelabel>token</edgelabel>
+        </childnode>
+        <childnode refid="3160" relation="usage">
+          <edgelabel>sectionDict</edgelabel>
+        </childnode>
+        <childnode refid="3163" relation="usage">
+          <edgelabel>scope</edgelabel>
+        </childnode>
+        <childnode refid="3165" relation="usage">
+          <edgelabel>memberDef</edgelabel>
+        </childnode>
+      </node>
+      <node id="3165">
+        <label>MemberDef</label>
+        <link refid="da/d09/class_member_def"/>
+        <childnode refid="3163" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3158">
+        <label>HtmlAttribList</label>
+        <link refid="db/d4d/class_html_attrib_list"/>
+        <childnode refid="3159" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3159">
+        <label>QList&lt; HtmlAttrib &gt;</label>
+        <link refid="db/daa/class_q_list"/>
+      </node>
+      <node id="3157">
+        <label>TokenInfo</label>
+        <link refid="d6/df4/struct_token_info"/>
+        <childnode refid="3158" relation="usage">
+          <edgelabel>attribs</edgelabel>
+        </childnode>
+      </node>
+      <node id="3164">
+        <label>DefinitionIntf</label>
+        <link refid="d9/d4a/class_definition_intf"/>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/docparser.cpp" line="111" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/docparser.cpp" bodystart="110" bodyend="138"/>
+    <listofallmembers>
+      <member refid="d8/d7d/struct_doc_parser_context_1a440e2d11196fe51c4b5bc991345d866d" prot="public" virt="non-virtual"><scope>DocParserContext</scope><name>context</name></member>
+      <member refid="d8/d7d/struct_doc_parser_context_1a1fc927af6a2675bc3d2f480efbed7533" prot="public" virt="non-virtual"><scope>DocParserContext</scope><name>copyStack</name></member>
+      <member refid="d8/d7d/struct_doc_parser_context_1a688f0551d40b6f51fb0daaa76631502b" prot="public" virt="non-virtual"><scope>DocParserContext</scope><name>exampleName</name></member>
+      <member refid="d8/d7d/struct_doc_parser_context_1a2b4c522f7f52850b1956b1b1504c4f1b" prot="public" virt="non-virtual"><scope>DocParserContext</scope><name>fileName</name></member>
+      <member refid="d8/d7d/struct_doc_parser_context_1adfc69df470290ef49cf32d0e6cd83556" prot="public" virt="non-virtual"><scope>DocParserContext</scope><name>hasParamCommand</name></member>
+      <member refid="d8/d7d/struct_doc_parser_context_1ae20ce1c3e50ef1b4399b50f29f61607f" prot="public" virt="non-virtual"><scope>DocParserContext</scope><name>hasReturnCommand</name></member>
+      <member refid="d8/d7d/struct_doc_parser_context_1ada8cb01b66567027d0799c5ce1e5dc2f" prot="public" virt="non-virtual"><scope>DocParserContext</scope><name>includeFileLength</name></member>
+      <member refid="d8/d7d/struct_doc_parser_context_1a8dca590b7e1548f62368aca98a1f8e5f" prot="public" virt="non-virtual"><scope>DocParserContext</scope><name>includeFileOffset</name></member>
+      <member refid="d8/d7d/struct_doc_parser_context_1a741637628985f24ccf69b051638804ca" prot="public" virt="non-virtual"><scope>DocParserContext</scope><name>includeFileText</name></member>
+      <member refid="d8/d7d/struct_doc_parser_context_1a27b9c48cc75461a3fcf436c60d6af39a" prot="public" virt="non-virtual"><scope>DocParserContext</scope><name>initialStyleStack</name></member>
+      <member refid="d8/d7d/struct_doc_parser_context_1a9e9561c7ec0edba0d50cdcb482942bea" prot="public" virt="non-virtual"><scope>DocParserContext</scope><name>inSeeBlock</name></member>
+      <member refid="d8/d7d/struct_doc_parser_context_1a88cb2bde6d7f9ded45c9d33f33b65bb3" prot="public" virt="non-virtual"><scope>DocParserContext</scope><name>insideHtmlLink</name></member>
+      <member refid="d8/d7d/struct_doc_parser_context_1aa499773e2ac0458b4f616b07386e5685" prot="public" virt="non-virtual"><scope>DocParserContext</scope><name>isExample</name></member>
+      <member refid="d8/d7d/struct_doc_parser_context_1ae598a4b4f7337ef13ffaff9df878a8df" prot="public" virt="non-virtual"><scope>DocParserContext</scope><name>memberDef</name></member>
+      <member refid="d8/d7d/struct_doc_parser_context_1a813c4ba2030c8b34b2c9d8f1ff6020eb" prot="public" virt="non-virtual"><scope>DocParserContext</scope><name>nodeStack</name></member>
+      <member refid="d8/d7d/struct_doc_parser_context_1a304223304af1183a5afa3b9a36a921af" prot="public" virt="non-virtual"><scope>DocParserContext</scope><name>paramsFound</name></member>
+      <member refid="d8/d7d/struct_doc_parser_context_1a603ea82abcc694bf2aeb91d85378aa0d" prot="public" virt="non-virtual"><scope>DocParserContext</scope><name>relPath</name></member>
+      <member refid="d8/d7d/struct_doc_parser_context_1add383acd336f2e26ecf24c000f31a4e3" prot="public" virt="non-virtual"><scope>DocParserContext</scope><name>scope</name></member>
+      <member refid="d8/d7d/struct_doc_parser_context_1aa2bfd37ddbdec7e8751e6585cc53beb8" prot="public" virt="non-virtual"><scope>DocParserContext</scope><name>searchUrl</name></member>
+      <member refid="d8/d7d/struct_doc_parser_context_1a0e457c01f7cfa2b60d7af671cbf6fc9c" prot="public" virt="non-virtual"><scope>DocParserContext</scope><name>sectionDict</name></member>
+      <member refid="d8/d7d/struct_doc_parser_context_1af6fc30c2dd0edcf5fede2f271316546c" prot="public" virt="non-virtual"><scope>DocParserContext</scope><name>styleStack</name></member>
+      <member refid="d8/d7d/struct_doc_parser_context_1a8da54182d40bdc81e85cd29db88230b6" prot="public" virt="non-virtual"><scope>DocParserContext</scope><name>token</name></member>
+      <member refid="d8/d7d/struct_doc_parser_context_1a5b98ca02af34e324862e5b5b8bbfb207" prot="public" virt="non-virtual"><scope>DocParserContext</scope><name>xmlComment</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

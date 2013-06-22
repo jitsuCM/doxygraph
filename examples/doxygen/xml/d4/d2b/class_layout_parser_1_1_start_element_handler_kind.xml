@@ -1,0 +1,143 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.2">
+  <compounddef id="d4/d2b/class_layout_parser_1_1_start_element_handler_kind" kind="class" prot="private">
+    <compoundname>LayoutParser::StartElementHandlerKind</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">LayoutParser::StartElementHandler</basecompoundref>
+      <sectiondef kind="private-type">
+      <memberdef kind="typedef" id="d4/d2b/class_layout_parser_1_1_start_element_handler_kind_1ad92abb04eb78ea1a082609178454b90b" prot="private" static="no">
+        <type>void(LayoutParser::*</type>
+        <definition>typedef void(LayoutParser::* LayoutParser::StartElementHandlerKind::Handler)(LayoutDocEntry::Kind kind, const QXmlAttributes &amp;attrib)</definition>
+        <argsstring>)(LayoutDocEntry::Kind kind, const QXmlAttributes &amp;attrib)</argsstring>
+        <name>Handler</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/layout.cpp" line="156" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/layout.cpp" bodystart="155" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="d4/d2b/class_layout_parser_1_1_start_element_handler_kind_1ad05d414a9709a08cc7d89e0b2fb4da27" prot="private" static="no" mutable="no">
+        <type>LayoutParser *</type>
+        <definition>LayoutParser* LayoutParser::StartElementHandlerKind::m_parent</definition>
+        <argsstring></argsstring>
+        <name>m_parent</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/layout.cpp" line="165" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/layout.cpp" bodystart="165" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d4/d2b/class_layout_parser_1_1_start_element_handler_kind_1afb628251fb7c136efbc26cfc5c43c970" prot="private" static="no" mutable="no">
+        <type>LayoutDocEntry::Kind</type>
+        <definition>LayoutDocEntry::Kind LayoutParser::StartElementHandlerKind::m_kind</definition>
+        <argsstring></argsstring>
+        <name>m_kind</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/layout.cpp" line="166" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/layout.cpp" bodystart="166" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d4/d2b/class_layout_parser_1_1_start_element_handler_kind_1adb18214efd9d1fa5631e564d48ff62e1" prot="private" static="no" mutable="no">
+        <type>Handler</type>
+        <definition>Handler LayoutParser::StartElementHandlerKind::m_handler</definition>
+        <argsstring></argsstring>
+        <name>m_handler</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/layout.cpp" line="167" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/layout.cpp" bodystart="167" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="d4/d2b/class_layout_parser_1_1_start_element_handler_kind_1abb1dc234149777e82e8f443ffd62df58" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>LayoutParser::StartElementHandlerKind::StartElementHandlerKind</definition>
+        <argsstring>(LayoutParser *parent, LayoutDocEntry::Kind k, Handler h)</argsstring>
+        <name>StartElementHandlerKind</name>
+        <param>
+          <type>LayoutParser *</type>
+          <declname>parent</declname>
+        </param>
+        <param>
+          <type>LayoutDocEntry::Kind</type>
+          <declname>k</declname>
+        </param>
+        <param>
+          <type>Handler</type>
+          <declname>h</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/layout.cpp" line="159" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/layout.cpp" bodystart="158" bodyend="159"/>
+      </memberdef>
+      <memberdef kind="function" id="d4/d2b/class_layout_parser_1_1_start_element_handler_kind_1a538ac320bdaffec524b74b3da07116df" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void LayoutParser::StartElementHandlerKind::operator()</definition>
+        <argsstring>(const QXmlAttributes &amp;attrib)</argsstring>
+        <name>operator()</name>
+        <param>
+          <type>const QXmlAttributes &amp;</type>
+          <declname>attrib</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/layout.cpp" line="161" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/layout.cpp" bodystart="160" bodyend="163"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="4151">
+        <label>LayoutParser::StartElementHandlerKind</label>
+        <childnode refid="4152" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4152">
+        <label>LayoutParser::StartElementHandler</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="4153">
+        <label>LayoutParser::StartElementHandlerKind</label>
+        <childnode refid="4154" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4154">
+        <label>LayoutParser::StartElementHandler</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/layout.cpp" line="154" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/layout.cpp" bodystart="153" bodyend="168"/>
+    <listofallmembers>
+      <member refid="d4/d2b/class_layout_parser_1_1_start_element_handler_kind_1ad92abb04eb78ea1a082609178454b90b" prot="private" virt="non-virtual"><scope>LayoutParser::StartElementHandlerKind</scope><name>Handler</name></member>
+      <member refid="d4/d2b/class_layout_parser_1_1_start_element_handler_kind_1adb18214efd9d1fa5631e564d48ff62e1" prot="private" virt="non-virtual"><scope>LayoutParser::StartElementHandlerKind</scope><name>m_handler</name></member>
+      <member refid="d4/d2b/class_layout_parser_1_1_start_element_handler_kind_1afb628251fb7c136efbc26cfc5c43c970" prot="private" virt="non-virtual"><scope>LayoutParser::StartElementHandlerKind</scope><name>m_kind</name></member>
+      <member refid="d4/d2b/class_layout_parser_1_1_start_element_handler_kind_1ad05d414a9709a08cc7d89e0b2fb4da27" prot="private" virt="non-virtual"><scope>LayoutParser::StartElementHandlerKind</scope><name>m_parent</name></member>
+      <member refid="d4/d2b/class_layout_parser_1_1_start_element_handler_kind_1a538ac320bdaffec524b74b3da07116df" prot="public" virt="non-virtual"><scope>LayoutParser::StartElementHandlerKind</scope><name>operator()</name></member>
+      <member refid="d9/dc0/class_layout_parser_1_1_start_element_handler_1af95e97b0336284e5fab35640a8db8786" prot="public" virt="non-virtual"><scope>LayoutParser::StartElementHandlerKind</scope><name>StartElementHandler</name></member>
+      <member refid="d9/dc0/class_layout_parser_1_1_start_element_handler_1a2f58e81144d18203c7df3c10e221a5ee" prot="protected" virt="non-virtual"><scope>LayoutParser::StartElementHandlerKind</scope><name>StartElementHandler</name></member>
+      <member refid="d4/d2b/class_layout_parser_1_1_start_element_handler_kind_1abb1dc234149777e82e8f443ffd62df58" prot="public" virt="non-virtual"><scope>LayoutParser::StartElementHandlerKind</scope><name>StartElementHandlerKind</name></member>
+      <member refid="d9/dc0/class_layout_parser_1_1_start_element_handler_1a3b70794d2da8fa1f3abacf6cdfb6fd84" prot="public" virt="virtual"><scope>LayoutParser::StartElementHandlerKind</scope><name>~StartElementHandler</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

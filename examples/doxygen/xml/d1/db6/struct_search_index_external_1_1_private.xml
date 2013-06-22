@@ -1,0 +1,92 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.2">
+  <compounddef id="d1/db6/struct_search_index_external_1_1_private" kind="struct" prot="public">
+    <compoundname>SearchIndexExternal::Private</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="d1/db6/struct_search_index_external_1_1_private_1aa5acedd8da9b0370dca75ad18023b0bf" prot="public" static="no" mutable="no">
+        <type><ref refid="d1/d50/class_s_dict" kindref="compound">SDict</ref>&lt; SearchDocEntry &gt;</type>
+        <definition>SDict&lt;SearchDocEntry&gt; SearchIndexExternal::Private::docEntries</definition>
+        <argsstring></argsstring>
+        <name>docEntries</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/searchindex.cpp" line="428" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/searchindex.cpp" bodystart="428" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d1/db6/struct_search_index_external_1_1_private_1a4330b567c9b74836071fc03a43ccd053" prot="public" static="no" mutable="no">
+        <type>SearchDocEntry *</type>
+        <definition>SearchDocEntry* SearchIndexExternal::Private::current</definition>
+        <argsstring></argsstring>
+        <name>current</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/searchindex.cpp" line="429" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/searchindex.cpp" bodystart="429" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="d1/db6/struct_search_index_external_1_1_private_1aa6ad665db5587d5a76658c4146a84fe1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>SearchIndexExternal::Private::Private</definition>
+        <argsstring>()</argsstring>
+        <name>Private</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/searchindex.cpp" line="427" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/searchindex.cpp" bodystart="427" bodyend="427"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="3924">
+        <label>SDict&lt; T &gt;</label>
+        <link refid="d1/d50/class_s_dict"/>
+      </node>
+      <node id="3925">
+        <label>SearchDocEntry</label>
+        <childnode refid="3926" relation="usage">
+          <edgelabel>normalText</edgelabel>
+          <edgelabel>importantText</edgelabel>
+        </childnode>
+      </node>
+      <node id="3922">
+        <label>SearchIndexExternal::Private</label>
+        <childnode refid="3923" relation="usage">
+          <edgelabel>docEntries</edgelabel>
+        </childnode>
+        <childnode refid="3925" relation="usage">
+          <edgelabel>current</edgelabel>
+        </childnode>
+      </node>
+      <node id="3926">
+        <label>GrowBuf</label>
+        <link refid="d8/d33/class_grow_buf"/>
+      </node>
+      <node id="3923">
+        <label>SDict&lt; SearchDocEntry &gt;</label>
+        <link refid="d1/d50/class_s_dict"/>
+        <childnode refid="3924" relation="template-instance">
+          <edgelabel>&lt; SearchDocEntry &gt;</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/searchindex.cpp" line="426" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/searchindex.cpp" bodystart="425" bodyend="430"/>
+    <listofallmembers>
+      <member refid="d1/db6/struct_search_index_external_1_1_private_1a4330b567c9b74836071fc03a43ccd053" prot="public" virt="non-virtual"><scope>SearchIndexExternal::Private</scope><name>current</name></member>
+      <member refid="d1/db6/struct_search_index_external_1_1_private_1aa5acedd8da9b0370dca75ad18023b0bf" prot="public" virt="non-virtual"><scope>SearchIndexExternal::Private</scope><name>docEntries</name></member>
+      <member refid="d1/db6/struct_search_index_external_1_1_private_1aa6ad665db5587d5a76658c4146a84fe1" prot="public" virt="non-virtual"><scope>SearchIndexExternal::Private</scope><name>Private</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

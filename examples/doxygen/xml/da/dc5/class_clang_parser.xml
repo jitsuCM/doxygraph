@@ -1,0 +1,359 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.2">
+  <compounddef id="da/dc5/class_clang_parser" kind="class" prot="public">
+    <compoundname>ClangParser</compoundname>
+    <includes refid="d5/df7/clangparser_8h" local="no">clangparser.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="da/dc5/class_clang_parser_1a2ce286dcfd93603a0bf6c6330d14a58b" prot="private" static="no" mutable="no">
+        <type>Private *</type>
+        <definition>Private* ClangParser::p</definition>
+        <argsstring></argsstring>
+        <name>p</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/clangparser.h" line="61" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/clangparser.h" bodystart="60" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="da/dc5/class_clang_parser_1a214d0c479ca3c5cad1ab31881a93e697" prot="private" static="yes" mutable="no">
+        <type><ref refid="da/dc5/class_clang_parser" kindref="compound">ClangParser</ref> *</type>
+        <definition>ClangParser * ClangParser::s_instance</definition>
+        <argsstring></argsstring>
+        <name>s_instance</name>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/clangparser.h" line="64" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/clangparser.h" bodystart="64" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="da/dc5/class_clang_parser_1add1060dd5febd4664f6038a87d87b8cd" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="da/dc5/class_clang_parser" kindref="compound">ClangParser</ref> *</type>
+        <definition>ClangParser * ClangParser::instance</definition>
+        <argsstring>()</argsstring>
+        <name>instance</name>
+        <briefdescription>
+<para>Returns the one and only instance of the class. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/clangparser.h" line="15" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/clangparser.cpp" bodystart="29" bodyend="33"/>
+        <referencedby refid="de/db0/class_file_def_1a5ed9987b075539aa61654cc55d3bac28" compoundref="d6/ddc/filedef_8cpp" startline="804" endline="889">FileDef::writeSource</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="da/dc5/class_clang_parser_1a6e336d45ecc4ec146bab1696fb26bd77" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ClangParser::start</definition>
+        <argsstring>(const char *fileName, QStrList &amp;filesInTranslationUnit)</argsstring>
+        <name>start</name>
+        <param>
+          <type>const char *</type>
+          <declname>fileName</declname>
+        </param>
+        <param>
+          <type>QStrList &amp;</type>
+          <declname>filesInTranslationUnit</declname>
+        </param>
+        <briefdescription>
+<para>Start parsing a file. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">fileName</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The name of the file to parse. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="inout">filesInTanslationUnit</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Other files that are part of the input and included by the file. The function will return a subset of the files, only including the onces that were actually found during parsing. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/clangparser.h" line="25" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/clangparser.cpp" bodystart="912" bodyend="914"/>
+        <referencedby refid="de/db0/class_file_def_1a5ed9987b075539aa61654cc55d3bac28" compoundref="d6/ddc/filedef_8cpp" startline="804" endline="889">FileDef::writeSource</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="da/dc5/class_clang_parser_1a6b4d5e7994ee8d875f5f9bf67e8550e1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ClangParser::switchToFile</definition>
+        <argsstring>(const char *fileName)</argsstring>
+        <name>switchToFile</name>
+        <param>
+          <type>const char *</type>
+          <declname>fileName</declname>
+        </param>
+        <briefdescription>
+<para>Switches to another file within the translation unit started with <ref refid="da/dc5/class_clang_parser_1a6e336d45ecc4ec146bab1696fb26bd77" kindref="member">start()</ref>. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">The</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>name of the file to switch to. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/clangparser.h" line="31" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/clangparser.cpp" bodystart="916" bodyend="918"/>
+        <referencedby refid="de/db0/class_file_def_1a5ed9987b075539aa61654cc55d3bac28" compoundref="d6/ddc/filedef_8cpp" startline="804" endline="889">FileDef::writeSource</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="da/dc5/class_clang_parser_1ac7ccfd4ea36fc8c347e8f794109678c8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ClangParser::finish</definition>
+        <argsstring>()</argsstring>
+        <name>finish</name>
+        <briefdescription>
+<para>Finishes parsing a translation unit. </para>        </briefdescription>
+        <detaileddescription>
+<para>Free any resources that were needed for parsing. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/clangparser.h" line="36" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/clangparser.cpp" bodystart="920" bodyend="922"/>
+      </memberdef>
+      <memberdef kind="function" id="da/dc5/class_clang_parser_1a2617d0cd62525f13d53a896247ac75d6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>QCString</type>
+        <definition>QCString ClangParser::lookup</definition>
+        <argsstring>(uint line, const char *symbol)</argsstring>
+        <name>lookup</name>
+        <param>
+          <type>uint</type>
+          <declname>line</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>symbol</declname>
+        </param>
+        <briefdescription>
+<para>Looks for <emphasis>symbol</emphasis> which should be found at <emphasis>line</emphasis> and returns a clang unique reference to the symbol. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/clangparser.h" line="41" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/clangparser.cpp" bodystart="924" bodyend="927"/>
+      </memberdef>
+      <memberdef kind="function" id="da/dc5/class_clang_parser_1a85070c801afbece678e44e5af2cf4c4b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ClangParser::writeSources</definition>
+        <argsstring>(CodeOutputInterface &amp;ol, FileDef *fd)</argsstring>
+        <name>writeSources</name>
+        <param>
+          <type><ref refid="d5/d9c/class_code_output_interface" kindref="compound">CodeOutputInterface</ref> &amp;</type>
+          <declname>ol</declname>
+        </param>
+        <param>
+          <type><ref refid="de/db0/class_file_def" kindref="compound">FileDef</ref> *</type>
+          <declname>fd</declname>
+        </param>
+        <briefdescription>
+<para>writes the syntax highlighted source code for a file </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="out">ol</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The output generator list to write to. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">fd</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The file to write sources for. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/clangparser.h" line="47" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/clangparser.cpp" bodystart="929" bodyend="931"/>
+        <referencedby refid="de/db0/class_file_def_1a5ed9987b075539aa61654cc55d3bac28" compoundref="d6/ddc/filedef_8cpp" startline="804" endline="889">FileDef::writeSource</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="da/dc5/class_clang_parser_1a7f7f47f9361f4c9b36bb49a9a1ca3899" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ClangParser::linkIdentifier</definition>
+        <argsstring>(CodeOutputInterface &amp;ol, FileDef *fd, uint &amp;line, uint &amp;column, const char *text, int tokenIndex)</argsstring>
+        <name>linkIdentifier</name>
+        <param>
+          <type><ref refid="d5/d9c/class_code_output_interface" kindref="compound">CodeOutputInterface</ref> &amp;</type>
+          <declname>ol</declname>
+        </param>
+        <param>
+          <type><ref refid="de/db0/class_file_def" kindref="compound">FileDef</ref> *</type>
+          <declname>fd</declname>
+        </param>
+        <param>
+          <type>uint &amp;</type>
+          <declname>line</declname>
+        </param>
+        <param>
+          <type>uint &amp;</type>
+          <declname>column</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>text</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>tokenIndex</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/clangparser.h" line="52"/>
+      </memberdef>
+      <memberdef kind="function" id="da/dc5/class_clang_parser_1aadd79e5bab8e4a5933b6ba98f71d3c75" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ClangParser::linkMacro</definition>
+        <argsstring>(CodeOutputInterface &amp;ol, FileDef *fd, uint &amp;line, uint &amp;column, const char *text)</argsstring>
+        <name>linkMacro</name>
+        <param>
+          <type><ref refid="d5/d9c/class_code_output_interface" kindref="compound">CodeOutputInterface</ref> &amp;</type>
+          <declname>ol</declname>
+        </param>
+        <param>
+          <type><ref refid="de/db0/class_file_def" kindref="compound">FileDef</ref> *</type>
+          <declname>fd</declname>
+        </param>
+        <param>
+          <type>uint &amp;</type>
+          <declname>line</declname>
+        </param>
+        <param>
+          <type>uint &amp;</type>
+          <declname>column</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>text</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/clangparser.h" line="55"/>
+      </memberdef>
+      <memberdef kind="function" id="da/dc5/class_clang_parser_1ac34485054b90ac32193b2879bdaae3da" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ClangParser::linkInclude</definition>
+        <argsstring>(CodeOutputInterface &amp;ol, FileDef *fd, uint &amp;line, uint &amp;column, const char *text)</argsstring>
+        <name>linkInclude</name>
+        <param>
+          <type><ref refid="d5/d9c/class_code_output_interface" kindref="compound">CodeOutputInterface</ref> &amp;</type>
+          <declname>ol</declname>
+        </param>
+        <param>
+          <type><ref refid="de/db0/class_file_def" kindref="compound">FileDef</ref> *</type>
+          <declname>fd</declname>
+        </param>
+        <param>
+          <type>uint &amp;</type>
+          <declname>line</declname>
+        </param>
+        <param>
+          <type>uint &amp;</type>
+          <declname>column</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>text</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/clangparser.h" line="58"/>
+      </memberdef>
+      <memberdef kind="function" id="da/dc5/class_clang_parser_1a20afdf88b42caf8a8f6b9993f57c14a3" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ClangParser::determineInputFilesInSameTu</definition>
+        <argsstring>(QStrList &amp;filesInTranslationUnit)</argsstring>
+        <name>determineInputFilesInSameTu</name>
+        <param>
+          <type>QStrList &amp;</type>
+          <declname>filesInTranslationUnit</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/clangparser.h" line="59"/>
+      </memberdef>
+      <memberdef kind="function" id="da/dc5/class_clang_parser_1acbfff98bae20ac65c370e5f418fc271c" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>ClangParser::ClangParser</definition>
+        <argsstring>()</argsstring>
+        <name>ClangParser</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/clangparser.h" line="62" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/clangparser.cpp" bodystart="933" bodyend="935"/>
+      </memberdef>
+      <memberdef kind="function" id="da/dc5/class_clang_parser_1a668d79df27923e9625fdb60ff9c49e86" prot="private" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type></type>
+        <definition>ClangParser::~ClangParser</definition>
+        <argsstring>()</argsstring>
+        <name>~ClangParser</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/clangparser.h" line="63" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/clangparser.cpp" bodystart="937" bodyend="939"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Wrapper for to let libclang assisted parsing. </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/clangparser.h" line="12" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/clangparser.h" bodystart="11" bodyend="65"/>
+    <listofallmembers>
+      <member refid="da/dc5/class_clang_parser_1acbfff98bae20ac65c370e5f418fc271c" prot="private" virt="non-virtual"><scope>ClangParser</scope><name>ClangParser</name></member>
+      <member refid="da/dc5/class_clang_parser_1a20afdf88b42caf8a8f6b9993f57c14a3" prot="private" virt="non-virtual"><scope>ClangParser</scope><name>determineInputFilesInSameTu</name></member>
+      <member refid="da/dc5/class_clang_parser_1ac7ccfd4ea36fc8c347e8f794109678c8" prot="public" virt="non-virtual"><scope>ClangParser</scope><name>finish</name></member>
+      <member refid="da/dc5/class_clang_parser_1add1060dd5febd4664f6038a87d87b8cd" prot="public" virt="non-virtual"><scope>ClangParser</scope><name>instance</name></member>
+      <member refid="da/dc5/class_clang_parser_1a7f7f47f9361f4c9b36bb49a9a1ca3899" prot="private" virt="non-virtual"><scope>ClangParser</scope><name>linkIdentifier</name></member>
+      <member refid="da/dc5/class_clang_parser_1ac34485054b90ac32193b2879bdaae3da" prot="private" virt="non-virtual"><scope>ClangParser</scope><name>linkInclude</name></member>
+      <member refid="da/dc5/class_clang_parser_1aadd79e5bab8e4a5933b6ba98f71d3c75" prot="private" virt="non-virtual"><scope>ClangParser</scope><name>linkMacro</name></member>
+      <member refid="da/dc5/class_clang_parser_1a2617d0cd62525f13d53a896247ac75d6" prot="public" virt="non-virtual"><scope>ClangParser</scope><name>lookup</name></member>
+      <member refid="da/dc5/class_clang_parser_1a2ce286dcfd93603a0bf6c6330d14a58b" prot="private" virt="non-virtual"><scope>ClangParser</scope><name>p</name></member>
+      <member refid="da/dc5/class_clang_parser_1a214d0c479ca3c5cad1ab31881a93e697" prot="private" virt="non-virtual"><scope>ClangParser</scope><name>s_instance</name></member>
+      <member refid="da/dc5/class_clang_parser_1a6e336d45ecc4ec146bab1696fb26bd77" prot="public" virt="non-virtual"><scope>ClangParser</scope><name>start</name></member>
+      <member refid="da/dc5/class_clang_parser_1a6b4d5e7994ee8d875f5f9bf67e8550e1" prot="public" virt="non-virtual"><scope>ClangParser</scope><name>switchToFile</name></member>
+      <member refid="da/dc5/class_clang_parser_1a85070c801afbece678e44e5af2cf4c4b" prot="public" virt="non-virtual"><scope>ClangParser</scope><name>writeSources</name></member>
+      <member refid="da/dc5/class_clang_parser_1a668d79df27923e9625fdb60ff9c49e86" prot="private" virt="virtual"><scope>ClangParser</scope><name>~ClangParser</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

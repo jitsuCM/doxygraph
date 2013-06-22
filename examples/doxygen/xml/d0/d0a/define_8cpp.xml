@@ -1,0 +1,132 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.2">
+  <compounddef id="d0/d0a/define_8cpp" kind="file">
+    <compoundname>define.cpp</compoundname>
+    <includes refid="df/d67/define_8h" local="yes">define.h</includes>
+    <includes refid="db/d16/config_8h" local="yes">config.h</includes>
+    <incdepgraph>
+      <node id="877">
+        <label>qgstring.h</label>
+      </node>
+      <node id="872">
+        <label>qstrlist.h</label>
+      </node>
+      <node id="876">
+        <label>qstring.h</label>
+      </node>
+      <node id="867">
+        <label>src/define.cpp</label>
+        <link refid="define.cpp"/>
+        <childnode refid="868" relation="include">
+        </childnode>
+        <childnode refid="871" relation="include">
+        </childnode>
+      </node>
+      <node id="875">
+        <label>qiodevice.h</label>
+      </node>
+      <node id="871">
+        <label>config.h</label>
+        <link refid="db/d16/config_8h_source"/>
+        <childnode refid="872" relation="include">
+        </childnode>
+        <childnode refid="869" relation="include">
+        </childnode>
+        <childnode refid="870" relation="include">
+        </childnode>
+        <childnode refid="873" relation="include">
+        </childnode>
+      </node>
+      <node id="870">
+        <label>qlist.h</label>
+      </node>
+      <node id="873">
+        <label>ftextstream.h</label>
+        <link refid="df/d83/ftextstream_8h_source"/>
+        <childnode refid="874" relation="include">
+        </childnode>
+        <childnode refid="875" relation="include">
+        </childnode>
+        <childnode refid="876" relation="include">
+        </childnode>
+        <childnode refid="877" relation="include">
+        </childnode>
+      </node>
+      <node id="869">
+        <label>qdict.h</label>
+      </node>
+      <node id="868">
+        <label>define.h</label>
+        <link refid="df/d67/define_8h_source"/>
+        <childnode refid="869" relation="include">
+        </childnode>
+        <childnode refid="870" relation="include">
+        </childnode>
+      </node>
+      <node id="874">
+        <label>stdio.h</label>
+      </node>
+    </incdepgraph>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">/******************************************************************************</highlight></codeline>
+<codeline lineno="2"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="3"><highlight class="comment"><sp/>*<sp/>$Id:<sp/>define.cpp,v<sp/>1.7<sp/>2001/03/19<sp/>19:27:40<sp/>root<sp/>Exp<sp/>$</highlight></codeline>
+<codeline lineno="4"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="5"><highlight class="comment"><sp/>*<sp/>Copyright<sp/>(C)<sp/>1997-2013<sp/>by<sp/>Dimitri<sp/>van<sp/>Heesch.</highlight></codeline>
+<codeline lineno="6"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="7"><highlight class="comment"><sp/>*<sp/>Permission<sp/>to<sp/>use,<sp/>copy,<sp/>modify,<sp/>and<sp/>distribute<sp/>this<sp/>software<sp/>and<sp/>its</highlight></codeline>
+<codeline lineno="8"><highlight class="comment"><sp/>*<sp/>documentation<sp/>under<sp/>the<sp/>terms<sp/>of<sp/>the<sp/>GNU<sp/>General<sp/>Public<sp/>License<sp/>is<sp/>hereby<sp/></highlight></codeline>
+<codeline lineno="9"><highlight class="comment"><sp/>*<sp/>granted.<sp/>No<sp/>representations<sp/>are<sp/>made<sp/>about<sp/>the<sp/>suitability<sp/>of<sp/>this<sp/>software<sp/></highlight></codeline>
+<codeline lineno="10"><highlight class="comment"><sp/>*<sp/>for<sp/>any<sp/>purpose.<sp/>It<sp/>is<sp/>provided<sp/>&quot;as<sp/>is&quot;<sp/>without<sp/>express<sp/>or<sp/>implied<sp/>warranty.</highlight></codeline>
+<codeline lineno="11"><highlight class="comment"><sp/>*<sp/>See<sp/>the<sp/>GNU<sp/>General<sp/>Public<sp/>License<sp/>for<sp/>more<sp/>details.</highlight></codeline>
+<codeline lineno="12"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="13"><highlight class="comment"><sp/>*<sp/>Documents<sp/>produced<sp/>by<sp/>Doxygen<sp/>are<sp/>derivative<sp/>works<sp/>derived<sp/>from<sp/>the</highlight></codeline>
+<codeline lineno="14"><highlight class="comment"><sp/>*<sp/>input<sp/>used<sp/>in<sp/>their<sp/>production;<sp/>they<sp/>are<sp/>not<sp/>affected<sp/>by<sp/>this<sp/>license.</highlight></codeline>
+<codeline lineno="15"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="16"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;define.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;config.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal">Define::Define()</highlight></codeline>
+<codeline lineno="22"><highlight class="normal">{<sp/></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/>fileDef=0;<sp/></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/>lineNr=1;</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/>columnNr=1;</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/>nargs=-1;</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/>undef=FALSE;<sp/></highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/>varArgs=FALSE;</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/>isPredefined=FALSE;</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/>nonRecursive=FALSE;</highlight></codeline>
+<codeline lineno="31"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"></highlight></codeline>
+<codeline lineno="33"><highlight class="normal">Define::Define(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="dc/d64/class_define" kindref="compound" tooltip="A class representing a macro definition.">Define</ref><sp/>&amp;d)</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>:<sp/>name(d.name),definition(d.definition),fileName(d.fileName)</highlight></codeline>
+<codeline lineno="35"><highlight class="normal">{<sp/></highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//name=d.name;<sp/>definition=d.definition;<sp/>fileName=d.fileName;<sp/></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/>lineNr=d.lineNr;<sp/></highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/>lineNr=d.columnNr;</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/>nargs=d.nargs;<sp/></highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/>undef=d.undef;<sp/></highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/>varArgs=d.varArgs;</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/>isPredefined=d.isPredefined;</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/>nonRecursive=d.nonRecursive;</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"><sp/><sp/>fileDef=0;</highlight></codeline>
+<codeline lineno="45"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"></highlight></codeline>
+<codeline lineno="47"><highlight class="normal">Define::~Define()</highlight></codeline>
+<codeline lineno="48"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="49"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"></highlight></codeline>
+<codeline lineno="51"><highlight class="normal"></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>Define::hasDocumentation()</highlight></codeline>
+<codeline lineno="52"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>definition<sp/>&amp;&amp;<sp/>(doc<sp/>||<sp/>Config_getBool(</highlight><highlight class="stringliteral">&quot;EXTRACT_ALL&quot;</highlight><highlight class="normal">));</highlight></codeline>
+<codeline lineno="54"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/define.cpp"/>
+  </compounddef>
+</doxygen>

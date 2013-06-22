@@ -1,0 +1,363 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.2">
+  <compounddef id="da/de6/translator__adapter_8h" kind="file">
+    <compoundname>translator_adapter.h</compoundname>
+    <includes refid="df/dfc/version_8h" local="yes">version.h</includes>
+    <includes refid="d9/df1/translator_8h" local="yes">translator.h</includes>
+    <includedby refid="d2/d48/language_8cpp" local="yes">src/language.cpp</includedby>
+    <incdepgraph>
+      <node id="4963">
+        <label>qcstring.h</label>
+      </node>
+      <node id="4955">
+        <label>version.h</label>
+        <link refid="df/dfc/version_8h_source"/>
+      </node>
+      <node id="4960">
+        <label>qptrdict.h</label>
+      </node>
+      <node id="4957">
+        <label>classdef.h</label>
+        <link refid="d1/da6/classdef_8h_source"/>
+        <childnode refid="4958" relation="include">
+        </childnode>
+        <childnode refid="4959" relation="include">
+        </childnode>
+        <childnode refid="4960" relation="include">
+        </childnode>
+        <childnode refid="4961" relation="include">
+        </childnode>
+      </node>
+      <node id="4962">
+        <label>types.h</label>
+        <link refid="d9/d49/types_8h"/>
+        <childnode refid="4963" relation="include">
+        </childnode>
+      </node>
+      <node id="4958">
+        <label>qlist.h</label>
+      </node>
+      <node id="4954">
+        <label>src/translator_adapter.h</label>
+        <link refid="translator_adapter.h"/>
+        <childnode refid="4955" relation="include">
+        </childnode>
+        <childnode refid="4956" relation="include">
+        </childnode>
+      </node>
+      <node id="4961">
+        <label>definition.h</label>
+        <link refid="df/da1/definition_8h_source"/>
+        <childnode refid="4958" relation="include">
+        </childnode>
+        <childnode refid="4959" relation="include">
+        </childnode>
+        <childnode refid="4962" relation="include">
+        </childnode>
+      </node>
+      <node id="4959">
+        <label>qdict.h</label>
+      </node>
+      <node id="4956">
+        <label>translator.h</label>
+        <link refid="d9/df1/translator_8h_source"/>
+        <childnode refid="4957" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="4964">
+        <label>src/translator_adapter.h</label>
+        <link refid="translator_adapter.h"/>
+        <childnode refid="4965" relation="include">
+        </childnode>
+      </node>
+      <node id="4965">
+        <label>src/language.cpp</label>
+        <link refid="d2/d48/language_8cpp_source"/>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="db/d6c/class_translator_adapter_base" prot="public">TranslatorAdapterBase</innerclass>
+    <innerclass refid="de/d2f/class_translator_adapter__1__8__4" prot="public">TranslatorAdapter_1_8_4</innerclass>
+    <innerclass refid="d2/d75/class_translator_adapter__1__8__2" prot="public">TranslatorAdapter_1_8_2</innerclass>
+    <innerclass refid="de/d49/class_translator_adapter__1__8__0" prot="public">TranslatorAdapter_1_8_0</innerclass>
+    <innerclass refid="da/d24/class_translator_adapter__1__7__5" prot="public">TranslatorAdapter_1_7_5</innerclass>
+    <innerclass refid="d7/d29/class_translator_adapter__1__6__3" prot="public">TranslatorAdapter_1_6_3</innerclass>
+    <innerclass refid="d3/da1/class_translator_adapter__1__6__0" prot="public">TranslatorAdapter_1_6_0</innerclass>
+    <innerclass refid="df/dc7/class_translator_adapter__1__5__4" prot="public">TranslatorAdapter_1_5_4</innerclass>
+    <innerclass refid="d4/d2b/class_translator_adapter__1__4__6" prot="public">TranslatorAdapter_1_4_6</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#ifndef<sp/>TRANSLATOR_ADAPTER_H</highlight></codeline>
+<codeline lineno="2"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>TRANSLATOR_ADAPTER_H</highlight></codeline>
+<codeline lineno="3"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;version.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;translator.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight></codeline>
+<codeline lineno="13" refid="db/d6c/class_translator_adapter_base" refkind="compound"><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="db/d6c/class_translator_adapter_base" kindref="compound" tooltip="Base of the translator adapter tree.">TranslatorAdapterBase</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="d8/dfb/class_translator" kindref="compound" tooltip="Abstract base class for all translatable text fragments.">Translator</ref></highlight></codeline>
+<codeline lineno="14"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">protected</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/>~<ref refid="db/d6c/class_translator_adapter_base" kindref="compound" tooltip="Base of the translator adapter tree.">TranslatorAdapterBase</ref>()<sp/>{}</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="d6/d78/class_translator_english" kindref="compound">TranslatorEnglish</ref><sp/>english;</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight></codeline>
+<codeline lineno="22" refid="db/d6c/class_translator_adapter_base_1a71493b87a34d6e4c232e540734aba698" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/>QCString<sp/><ref refid="db/d6c/class_translator_adapter_base_1a71493b87a34d6e4c232e540734aba698" kindref="member">createUpdateNeededMessage</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QCString<sp/>&amp;<sp/>languageName,</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QCString<sp/>&amp;<sp/>versionString)</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>QCString(</highlight><highlight class="stringliteral">&quot;The<sp/>selected<sp/>output<sp/>language<sp/>\&quot;&quot;</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>+<sp/>languageName</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>+<sp/></highlight><highlight class="stringliteral">&quot;\&quot;<sp/>has<sp/>not<sp/>been<sp/>updated\nsince<sp/>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>+<sp/>versionString</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>+<sp/></highlight><highlight class="stringliteral">&quot;.<sp/><sp/>As<sp/>a<sp/>result<sp/>some<sp/>sentences<sp/>may<sp/>appear<sp/>in<sp/>English.\n\n&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"></highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/>QCString<sp/><ref refid="db/d6c/class_translator_adapter_base_1acc5b89c39bae2a9bca490016ec15c79f" kindref="member">updateNeededMessage</ref>()<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"></highlight></codeline>
+<codeline lineno="42"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"></highlight></codeline>
+<codeline lineno="44" refid="de/d2f/class_translator_adapter__1__8__4" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="de/d2f/class_translator_adapter__1__8__4" kindref="compound">TranslatorAdapter_1_8_4</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="db/d6c/class_translator_adapter_base" kindref="compound" tooltip="Base of the translator adapter tree.">TranslatorAdapterBase</ref></highlight></codeline>
+<codeline lineno="45"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="47" refid="de/d2f/class_translator_adapter__1__8__4_1a87dbcf9a99bf2ddfd9593461d331b714" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/>QCString<sp/><ref refid="de/d2f/class_translator_adapter__1__8__4_1a87dbcf9a99bf2ddfd9593461d331b714" kindref="member">updateNeededMessage</ref>()</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"><sp/><sp/><sp/><sp/>{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="db/d6c/class_translator_adapter_base_1a71493b87a34d6e4c232e540734aba698" kindref="member">createUpdateNeededMessage</ref>(idLanguage(),</highlight><highlight class="stringliteral">&quot;release<sp/>1.8.4&quot;</highlight><highlight class="normal">);<sp/>}</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"></highlight></codeline>
+<codeline lineno="50"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/>QCString<sp/>trInterfaces()</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"><sp/><sp/><sp/><sp/>{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>english.<ref refid="d6/d78/class_translator_english_1a376a3eb016a5630742ac37d07584a821" kindref="member" tooltip="old style UNO IDL services: implemented interfaces">trInterfaces</ref>();<sp/>}</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"></highlight></codeline>
+<codeline lineno="53"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/>QCString<sp/>trServices()</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"><sp/><sp/><sp/><sp/>{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>english.<ref refid="d6/d78/class_translator_english_1a0ca425c7d0b6dac236646feb6b8c1839" kindref="member" tooltip="old style UNO IDL services: inherited services">trServices</ref>();<sp/>}</highlight></codeline>
+<codeline lineno="55"><highlight class="normal"></highlight></codeline>
+<codeline lineno="56"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/>QCString<sp/>trConstantGroups()</highlight></codeline>
+<codeline lineno="57"><highlight class="normal"><sp/><sp/><sp/><sp/>{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>english.<ref refid="d6/d78/class_translator_english_1a035575d56336402ab3b2103747f4b429" kindref="member" tooltip="UNO IDL constant groups.">trConstantGroups</ref>();<sp/>}</highlight></codeline>
+<codeline lineno="58"><highlight class="normal"></highlight></codeline>
+<codeline lineno="59"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/>QCString<sp/>trConstantGroupReference(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*namespaceName)</highlight></codeline>
+<codeline lineno="60"><highlight class="normal"><sp/><sp/><sp/><sp/>{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>english.<ref refid="d6/d78/class_translator_english_1a69b97a9ad8ce2472c65afb89547a13e5" kindref="member" tooltip="UNO IDL constant groups.">trConstantGroupReference</ref>(namespaceName);<sp/>}</highlight></codeline>
+<codeline lineno="61"><highlight class="normal"></highlight></codeline>
+<codeline lineno="62"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/>QCString<sp/>trServiceReference(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*sName)</highlight></codeline>
+<codeline lineno="63"><highlight class="normal"><sp/><sp/><sp/><sp/>{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>english.<ref refid="d6/d78/class_translator_english_1a044df870524c280750c8e57b2d85a465" kindref="member" tooltip="UNO IDL service page title.">trServiceReference</ref>(sName);<sp/>}</highlight></codeline>
+<codeline lineno="64"><highlight class="normal"></highlight></codeline>
+<codeline lineno="65"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/>QCString<sp/>trSingletonReference(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*sName)</highlight></codeline>
+<codeline lineno="66"><highlight class="normal"><sp/><sp/><sp/><sp/>{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>english.<ref refid="d6/d78/class_translator_english_1a4fb80aae0c36727d7b93123b656427c2" kindref="member" tooltip="UNO IDL singleton page title.">trSingletonReference</ref>(sName);<sp/>}</highlight></codeline>
+<codeline lineno="67"><highlight class="normal"></highlight></codeline>
+<codeline lineno="68"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/>QCString<sp/>trServiceGeneratedFromFiles(</highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>single)</highlight></codeline>
+<codeline lineno="69"><highlight class="normal"><sp/><sp/><sp/><sp/>{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>english.<ref refid="d6/d78/class_translator_english_1a337e0ced64f3b90a78ac71a8c0929a6e" kindref="member" tooltip="UNO IDL service page.">trServiceGeneratedFromFiles</ref>(single);<sp/>}</highlight></codeline>
+<codeline lineno="70"><highlight class="normal"></highlight></codeline>
+<codeline lineno="71"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/>QCString<sp/>trSingletonGeneratedFromFiles(</highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>single)</highlight></codeline>
+<codeline lineno="72"><highlight class="normal"><sp/><sp/><sp/><sp/>{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>english.<ref refid="d6/d78/class_translator_english_1a96741d8aecb5a3f7fb51a085b3937885" kindref="member" tooltip="UNO IDL singleton page.">trSingletonGeneratedFromFiles</ref>(single);<sp/>}</highlight></codeline>
+<codeline lineno="73"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="74"><highlight class="normal"></highlight></codeline>
+<codeline lineno="75" refid="d2/d75/class_translator_adapter__1__8__2" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="d2/d75/class_translator_adapter__1__8__2" kindref="compound">TranslatorAdapter_1_8_2</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="de/d2f/class_translator_adapter__1__8__4" kindref="compound">TranslatorAdapter_1_8_4</ref></highlight></codeline>
+<codeline lineno="76"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="77"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="78" refid="d2/d75/class_translator_adapter__1__8__2_1a307747456f69ab8dcb0c2be27f429e80" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/>QCString<sp/><ref refid="d2/d75/class_translator_adapter__1__8__2_1a307747456f69ab8dcb0c2be27f429e80" kindref="member">updateNeededMessage</ref>()</highlight></codeline>
+<codeline lineno="79"><highlight class="normal"><sp/><sp/><sp/><sp/>{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="db/d6c/class_translator_adapter_base_1a71493b87a34d6e4c232e540734aba698" kindref="member">createUpdateNeededMessage</ref>(idLanguage(),</highlight><highlight class="stringliteral">&quot;release<sp/>1.8.2&quot;</highlight><highlight class="normal">);<sp/>}</highlight></codeline>
+<codeline lineno="80"><highlight class="normal"></highlight></codeline>
+<codeline lineno="81"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/>QCString<sp/>trPanelSynchronisationTooltip(</highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>enable)</highlight></codeline>
+<codeline lineno="82"><highlight class="normal"><sp/><sp/><sp/><sp/>{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>english.<ref refid="d6/d78/class_translator_english_1aedfcf8ef223b7dac08fc5732efdc88a9" kindref="member">trPanelSynchronisationTooltip</ref>(enable);<sp/>}</highlight></codeline>
+<codeline lineno="83"><highlight class="normal"></highlight></codeline>
+<codeline lineno="84"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/>QCString<sp/>trProvidedByCategory()</highlight></codeline>
+<codeline lineno="85"><highlight class="normal"><sp/><sp/><sp/><sp/>{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>english.<ref refid="d6/d78/class_translator_english_1a9cade208b85e2a25329548bad9489932" kindref="member">trProvidedByCategory</ref>();<sp/>}</highlight></codeline>
+<codeline lineno="86"><highlight class="normal"></highlight></codeline>
+<codeline lineno="87"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/>QCString<sp/>trExtendsClass()</highlight></codeline>
+<codeline lineno="88"><highlight class="normal"><sp/><sp/><sp/><sp/>{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>english.<ref refid="d6/d78/class_translator_english_1ae8ccf137297ffe2f66e85e0aa6ce29f4" kindref="member">trExtendsClass</ref>();<sp/>}</highlight></codeline>
+<codeline lineno="89"><highlight class="normal"></highlight></codeline>
+<codeline lineno="90"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/>QCString<sp/>trClassMethods()</highlight></codeline>
+<codeline lineno="91"><highlight class="normal"><sp/><sp/><sp/><sp/>{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>english.<ref refid="d6/d78/class_translator_english_1a7148dfb24ec3834caa3a2c42e6fd97d9" kindref="member">trClassMethods</ref>();<sp/>}</highlight></codeline>
+<codeline lineno="92"><highlight class="normal"></highlight></codeline>
+<codeline lineno="93"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/>QCString<sp/>trInstanceMethods()</highlight></codeline>
+<codeline lineno="94"><highlight class="normal"><sp/><sp/><sp/><sp/>{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>english.<ref refid="d6/d78/class_translator_english_1a786b9300d1be72a483d921103e61214d" kindref="member">trInstanceMethods</ref>();<sp/>}</highlight></codeline>
+<codeline lineno="95"><highlight class="normal"></highlight></codeline>
+<codeline lineno="96"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/>QCString<sp/>trMethodDocumentation()</highlight></codeline>
+<codeline lineno="97"><highlight class="normal"><sp/><sp/><sp/><sp/>{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>english.<ref refid="d6/d78/class_translator_english_1a795a1da3c238b58c6d13371e2a044612" kindref="member">trMethodDocumentation</ref>();<sp/>}</highlight></codeline>
+<codeline lineno="98"><highlight class="normal"></highlight></codeline>
+<codeline lineno="99"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/>QCString<sp/>trDesignOverview()</highlight></codeline>
+<codeline lineno="100"><highlight class="normal"><sp/><sp/><sp/><sp/>{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>english.<ref refid="d6/d78/class_translator_english_1ab1a052827b9f2896d6b74c6378b3cc36" kindref="member">trDesignOverview</ref>();<sp/>}</highlight></codeline>
+<codeline lineno="101"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="102"><highlight class="normal"></highlight></codeline>
+<codeline lineno="103"><highlight class="normal"></highlight></codeline>
+<codeline lineno="107" refid="de/d49/class_translator_adapter__1__8__0" refkind="compound"><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="de/d49/class_translator_adapter__1__8__0" kindref="compound" tooltip="Adapter class for languages that only contain translations up to version 1.8.0.">TranslatorAdapter_1_8_0</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="d2/d75/class_translator_adapter__1__8__2" kindref="compound">TranslatorAdapter_1_8_2</ref></highlight></codeline>
+<codeline lineno="108"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="109"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="110" refid="de/d49/class_translator_adapter__1__8__0_1a47cedb130d9a178d9c632584d4f2abec" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/>QCString<sp/><ref refid="de/d49/class_translator_adapter__1__8__0_1a47cedb130d9a178d9c632584d4f2abec" kindref="member">updateNeededMessage</ref>()</highlight></codeline>
+<codeline lineno="111"><highlight class="normal"><sp/><sp/><sp/><sp/>{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="db/d6c/class_translator_adapter_base_1a71493b87a34d6e4c232e540734aba698" kindref="member">createUpdateNeededMessage</ref>(idLanguage(),</highlight><highlight class="stringliteral">&quot;release<sp/>1.8.0&quot;</highlight><highlight class="normal">);<sp/>}</highlight></codeline>
+<codeline lineno="112"><highlight class="normal"></highlight></codeline>
+<codeline lineno="113"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/>QCString<sp/>trDetailLevel()</highlight></codeline>
+<codeline lineno="114"><highlight class="normal"><sp/><sp/><sp/><sp/>{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>english.<ref refid="d6/d78/class_translator_english_1a8cd72b866d1ee6133be6c081c9f1a006" kindref="member">trDetailLevel</ref>();<sp/>}</highlight></codeline>
+<codeline lineno="115"><highlight class="normal"></highlight></codeline>
+<codeline lineno="116"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/>QCString<sp/>trTemplateParameters()</highlight></codeline>
+<codeline lineno="117"><highlight class="normal"><sp/><sp/><sp/><sp/>{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>english.<ref refid="d6/d78/class_translator_english_1a3791305a5c29ecc8490a3e20ec63b87f" kindref="member">trTemplateParameters</ref>();<sp/>}</highlight></codeline>
+<codeline lineno="118"><highlight class="normal"></highlight></codeline>
+<codeline lineno="119"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/>QCString<sp/>trAndMore(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QCString<sp/>&amp;number)</highlight></codeline>
+<codeline lineno="120"><highlight class="normal"><sp/><sp/><sp/><sp/>{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>english.<ref refid="d6/d78/class_translator_english_1ad32635bab1929742206e3db9ccb5c326" kindref="member">trAndMore</ref>(number);<sp/>}</highlight></codeline>
+<codeline lineno="121"><highlight class="normal"></highlight></codeline>
+<codeline lineno="122"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/>QCString<sp/>trEnumGeneratedFromFiles(</highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>single)</highlight></codeline>
+<codeline lineno="123"><highlight class="normal"><sp/><sp/><sp/><sp/>{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>english.<ref refid="d6/d78/class_translator_english_1a8a733dfbf38ae74d78fde5318f4c4cbc" kindref="member">trEnumGeneratedFromFiles</ref>(single);<sp/>}</highlight></codeline>
+<codeline lineno="124"><highlight class="normal"></highlight></codeline>
+<codeline lineno="125"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/>QCString<sp/>trEnumReference(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*name)</highlight></codeline>
+<codeline lineno="126"><highlight class="normal"><sp/><sp/><sp/><sp/>{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>english.<ref refid="d6/d78/class_translator_english_1a6d27a926603cd4031b3c2050e12c9cc1" kindref="member">trEnumReference</ref>(name);<sp/>}</highlight></codeline>
+<codeline lineno="127"><highlight class="normal"></highlight></codeline>
+<codeline lineno="128"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/>QCString<sp/>trInheritedFrom(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*members,</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*what)</highlight></codeline>
+<codeline lineno="129"><highlight class="normal"><sp/><sp/><sp/><sp/>{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>english.<ref refid="d6/d78/class_translator_english_1a94b01e04f8622b755979a1a27f43cbe7" kindref="member">trInheritedFrom</ref>(members,what);<sp/>}</highlight></codeline>
+<codeline lineno="130"><highlight class="normal"></highlight></codeline>
+<codeline lineno="131"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/>QCString<sp/>trAdditionalInheritedMembers()</highlight></codeline>
+<codeline lineno="132"><highlight class="normal"><sp/><sp/><sp/><sp/>{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>english.<ref refid="d6/d78/class_translator_english_1af5810369a943f7e4ef3f8d5f18c41aef" kindref="member">trAdditionalInheritedMembers</ref>();<sp/>}</highlight></codeline>
+<codeline lineno="133"><highlight class="normal"></highlight></codeline>
+<codeline lineno="134"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="135"><highlight class="normal"></highlight></codeline>
+<codeline lineno="139" refid="da/d24/class_translator_adapter__1__7__5" refkind="compound"><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="da/d24/class_translator_adapter__1__7__5" kindref="compound" tooltip="Adapter class for languages that only contain translations up to version 1.7.5.">TranslatorAdapter_1_7_5</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="de/d49/class_translator_adapter__1__8__0" kindref="compound" tooltip="Adapter class for languages that only contain translations up to version 1.8.0.">TranslatorAdapter_1_8_0</ref></highlight></codeline>
+<codeline lineno="140"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="141"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="142" refid="da/d24/class_translator_adapter__1__7__5_1a6e69d48e79a13c9d934f9af1a8befd8a" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/>QCString<sp/><ref refid="da/d24/class_translator_adapter__1__7__5_1a6e69d48e79a13c9d934f9af1a8befd8a" kindref="member">updateNeededMessage</ref>()</highlight></codeline>
+<codeline lineno="143"><highlight class="normal"><sp/><sp/><sp/><sp/>{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="db/d6c/class_translator_adapter_base_1a71493b87a34d6e4c232e540734aba698" kindref="member">createUpdateNeededMessage</ref>(idLanguage(),</highlight><highlight class="stringliteral">&quot;release<sp/>1.7.5&quot;</highlight><highlight class="normal">);<sp/>}</highlight></codeline>
+<codeline lineno="144"><highlight class="normal"></highlight></codeline>
+<codeline lineno="145"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/>QCString<sp/>trCiteReferences()</highlight></codeline>
+<codeline lineno="146"><highlight class="normal"><sp/><sp/><sp/><sp/>{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>english.<ref refid="d6/d78/class_translator_english_1a8d1b66e7cc2978c63cf6f4d97cbd9f9c" kindref="member">trCiteReferences</ref>();<sp/>}</highlight></codeline>
+<codeline lineno="147"><highlight class="normal"></highlight></codeline>
+<codeline lineno="148"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/>QCString<sp/>trCopyright()</highlight></codeline>
+<codeline lineno="149"><highlight class="normal"><sp/><sp/><sp/><sp/>{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>english.<ref refid="d6/d78/class_translator_english_1a434238bdb474c8f28dfc64a5bef5a909" kindref="member">trCopyright</ref>();<sp/>}</highlight></codeline>
+<codeline lineno="150"><highlight class="normal"></highlight></codeline>
+<codeline lineno="151"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/>QCString<sp/>trDirDepGraph(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*name)</highlight></codeline>
+<codeline lineno="152"><highlight class="normal"><sp/><sp/><sp/><sp/>{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>english.<ref refid="d6/d78/class_translator_english_1a39173a615f00127b526058796a4ac6f2" kindref="member">trDirDepGraph</ref>(name);<sp/>}</highlight></codeline>
+<codeline lineno="153"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="154"><highlight class="normal"></highlight></codeline>
+<codeline lineno="158" refid="d7/d29/class_translator_adapter__1__6__3" refkind="compound"><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="d7/d29/class_translator_adapter__1__6__3" kindref="compound" tooltip="Adapter class for languages that only contain translations up to version 1.6.3.">TranslatorAdapter_1_6_3</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="da/d24/class_translator_adapter__1__7__5" kindref="compound" tooltip="Adapter class for languages that only contain translations up to version 1.7.5.">TranslatorAdapter_1_7_5</ref></highlight></codeline>
+<codeline lineno="159"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="160"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="161" refid="d7/d29/class_translator_adapter__1__6__3_1ab3d79abfb926c41bd7609eeb706654fe" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/>QCString<sp/><ref refid="d7/d29/class_translator_adapter__1__6__3_1ab3d79abfb926c41bd7609eeb706654fe" kindref="member">updateNeededMessage</ref>()</highlight></codeline>
+<codeline lineno="162"><highlight class="normal"><sp/><sp/><sp/><sp/>{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="db/d6c/class_translator_adapter_base_1a71493b87a34d6e4c232e540734aba698" kindref="member">createUpdateNeededMessage</ref>(idLanguage(),</highlight><highlight class="stringliteral">&quot;release<sp/>1.6.3&quot;</highlight><highlight class="normal">);<sp/>}</highlight></codeline>
+<codeline lineno="163"><highlight class="normal"></highlight></codeline>
+<codeline lineno="164"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/>QCString<sp/>trDirDependency(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*name)</highlight></codeline>
+<codeline lineno="165"><highlight class="normal"><sp/><sp/><sp/><sp/>{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>english.<ref refid="d6/d78/class_translator_english_1adf12a70b83b8585a149c482a7d346d56" kindref="member">trDirDependency</ref>(name);<sp/>}</highlight></codeline>
+<codeline lineno="166"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/>QCString<sp/>trFileIn(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*name)</highlight></codeline>
+<codeline lineno="167"><highlight class="normal"><sp/><sp/><sp/><sp/>{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>english.<ref refid="d6/d78/class_translator_english_1a1e4e9602b9331c2761e7a3e8682291d0" kindref="member">trFileIn</ref>(name);<sp/>}</highlight></codeline>
+<codeline lineno="168"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/>QCString<sp/>trIncludesFileIn(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*name)</highlight></codeline>
+<codeline lineno="169"><highlight class="normal"><sp/><sp/><sp/><sp/>{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>english.<ref refid="d6/d78/class_translator_english_1af8b38bbee259dfbbf1bf3bfda1459498" kindref="member">trIncludesFileIn</ref>(name);<sp/>}</highlight></codeline>
+<codeline lineno="170"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/>QCString<sp/>trDateTime(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>year,</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>month,</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>day,</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>dayOfWeek,</highlight></codeline>
+<codeline lineno="171"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>hour,</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>minutes,</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>seconds,</highlight></codeline>
+<codeline lineno="172"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>includeTime)</highlight></codeline>
+<codeline lineno="173"><highlight class="normal"><sp/><sp/><sp/><sp/>{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>english.<ref refid="d6/d78/class_translator_english_1a9241f5cd893d168d49a6152389af4644" kindref="member" tooltip="Compiles a date string.">trDateTime</ref>(year,month,day,dayOfWeek,hour,minutes,seconds,includeTime);<sp/>}</highlight></codeline>
+<codeline lineno="174"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="175"><highlight class="normal"></highlight></codeline>
+<codeline lineno="179" refid="d3/da1/class_translator_adapter__1__6__0" refkind="compound"><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="d3/da1/class_translator_adapter__1__6__0" kindref="compound" tooltip="Adapter class for languages that only contain translations up to version 1.6.0.">TranslatorAdapter_1_6_0</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="d7/d29/class_translator_adapter__1__6__3" kindref="compound" tooltip="Adapter class for languages that only contain translations up to version 1.6.3.">TranslatorAdapter_1_6_3</ref></highlight></codeline>
+<codeline lineno="180"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="181"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="182" refid="d3/da1/class_translator_adapter__1__6__0_1abc231eb2c1864ca9f878e7e5deb94f54" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/>QCString<sp/><ref refid="d3/da1/class_translator_adapter__1__6__0_1abc231eb2c1864ca9f878e7e5deb94f54" kindref="member">updateNeededMessage</ref>()</highlight></codeline>
+<codeline lineno="183"><highlight class="normal"><sp/><sp/><sp/><sp/>{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="db/d6c/class_translator_adapter_base_1a71493b87a34d6e4c232e540734aba698" kindref="member">createUpdateNeededMessage</ref>(idLanguage(),</highlight><highlight class="stringliteral">&quot;release<sp/>1.6.0&quot;</highlight><highlight class="normal">);<sp/>}</highlight></codeline>
+<codeline lineno="184"><highlight class="normal"></highlight></codeline>
+<codeline lineno="185"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/>QCString<sp/>trDirRelation(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*name)</highlight></codeline>
+<codeline lineno="186"><highlight class="normal"><sp/><sp/><sp/><sp/>{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>english.<ref refid="d6/d78/class_translator_english_1a8230892d40d8c6a1aab821817487f046" kindref="member">trDirRelation</ref>(name);<sp/>}</highlight></codeline>
+<codeline lineno="187"><highlight class="normal"></highlight></codeline>
+<codeline lineno="188"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/>QCString<sp/>trLoading()</highlight></codeline>
+<codeline lineno="189"><highlight class="normal"><sp/><sp/><sp/><sp/>{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>english.<ref refid="d6/d78/class_translator_english_1afb0068f610c75c4ca4e5a59143deb7f2" kindref="member">trLoading</ref>();<sp/>}</highlight></codeline>
+<codeline lineno="190"><highlight class="normal"></highlight></codeline>
+<codeline lineno="191"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/>QCString<sp/>trGlobalNamespace()</highlight></codeline>
+<codeline lineno="192"><highlight class="normal"><sp/><sp/><sp/><sp/>{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>english.<ref refid="d6/d78/class_translator_english_1a2e97b6bdf3dd38afa888dc2704161ef2" kindref="member">trGlobalNamespace</ref>();<sp/>}</highlight></codeline>
+<codeline lineno="193"><highlight class="normal"></highlight></codeline>
+<codeline lineno="194"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/>QCString<sp/>trSearching()</highlight></codeline>
+<codeline lineno="195"><highlight class="normal"><sp/><sp/><sp/><sp/>{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>english.<ref refid="d6/d78/class_translator_english_1a14aa8a93b1229838934443f5f19149a4" kindref="member">trSearching</ref>();<sp/>}</highlight></codeline>
+<codeline lineno="196"><highlight class="normal"></highlight></codeline>
+<codeline lineno="197"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/>QCString<sp/>trNoMatches()</highlight></codeline>
+<codeline lineno="198"><highlight class="normal"><sp/><sp/><sp/><sp/>{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>english.<ref refid="d6/d78/class_translator_english_1adb0f12b7f60b813c8fe472960da72ce8" kindref="member">trNoMatches</ref>();<sp/>}</highlight></codeline>
+<codeline lineno="199"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="200"><highlight class="normal"></highlight></codeline>
+<codeline lineno="204" refid="df/dc7/class_translator_adapter__1__5__4" refkind="compound"><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="df/dc7/class_translator_adapter__1__5__4" kindref="compound" tooltip="Adapter class for languages that only contain translations up to version 1.5.4.">TranslatorAdapter_1_5_4</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="d3/da1/class_translator_adapter__1__6__0" kindref="compound" tooltip="Adapter class for languages that only contain translations up to version 1.6.0.">TranslatorAdapter_1_6_0</ref></highlight></codeline>
+<codeline lineno="205"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="206"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="207" refid="df/dc7/class_translator_adapter__1__5__4_1a587a31dad925e47f206b6a0cda9eedd0" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/>QCString<sp/><ref refid="df/dc7/class_translator_adapter__1__5__4_1a587a31dad925e47f206b6a0cda9eedd0" kindref="member">updateNeededMessage</ref>()</highlight></codeline>
+<codeline lineno="208"><highlight class="normal"><sp/><sp/><sp/><sp/>{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="db/d6c/class_translator_adapter_base_1a71493b87a34d6e4c232e540734aba698" kindref="member">createUpdateNeededMessage</ref>(idLanguage(),</highlight><highlight class="stringliteral">&quot;release<sp/>1.5.4&quot;</highlight><highlight class="normal">);<sp/>}</highlight></codeline>
+<codeline lineno="209"><highlight class="normal"></highlight></codeline>
+<codeline lineno="210"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/>QCString<sp/>trMemberFunctionDocumentationFortran()</highlight></codeline>
+<codeline lineno="211"><highlight class="normal"><sp/><sp/><sp/><sp/>{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>english.<ref refid="d6/d78/class_translator_english_1adbe952abacb83e167f42104a78290da5" kindref="member">trMemberFunctionDocumentationFortran</ref>();<sp/>}</highlight></codeline>
+<codeline lineno="212"><highlight class="normal"></highlight></codeline>
+<codeline lineno="213"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/>QCString<sp/>trCompoundListFortran()</highlight></codeline>
+<codeline lineno="214"><highlight class="normal"><sp/><sp/><sp/><sp/>{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>english.<ref refid="d6/d78/class_translator_english_1aed37ea1d7badf7d9c68f3de6da872c04" kindref="member">trCompoundListFortran</ref>();<sp/>}</highlight></codeline>
+<codeline lineno="215"><highlight class="normal"></highlight></codeline>
+<codeline lineno="216"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/>QCString<sp/>trCompoundMembersFortran()</highlight></codeline>
+<codeline lineno="217"><highlight class="normal"><sp/><sp/><sp/><sp/>{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>english.<ref refid="d6/d78/class_translator_english_1a6d110c1700f228c6352cf365506aa59b" kindref="member">trCompoundMembersFortran</ref>();<sp/>}</highlight></codeline>
+<codeline lineno="218"><highlight class="normal"></highlight></codeline>
+<codeline lineno="219"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/>QCString<sp/>trCompoundListDescriptionFortran()</highlight></codeline>
+<codeline lineno="220"><highlight class="normal"><sp/><sp/><sp/><sp/>{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>english.<ref refid="d6/d78/class_translator_english_1a8ffb639127fc5a60e170fe4916d5e10c" kindref="member">trCompoundListDescriptionFortran</ref>();<sp/>}</highlight></codeline>
+<codeline lineno="221"><highlight class="normal"></highlight></codeline>
+<codeline lineno="222"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/>QCString<sp/>trCompoundMembersDescriptionFortran(</highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>extractAll)</highlight></codeline>
+<codeline lineno="223"><highlight class="normal"><sp/><sp/><sp/><sp/>{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>english.<ref refid="d6/d78/class_translator_english_1a8635d2e9e2e4d18ab2c52214380f0e50" kindref="member">trCompoundMembersDescriptionFortran</ref>(extractAll);<sp/>}</highlight></codeline>
+<codeline lineno="224"><highlight class="normal"></highlight></codeline>
+<codeline lineno="225"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/>QCString<sp/>trCompoundIndexFortran()</highlight></codeline>
+<codeline lineno="226"><highlight class="normal"><sp/><sp/><sp/><sp/>{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>english.<ref refid="d6/d78/class_translator_english_1a7e568ebc767d205d76ba737c77416f24" kindref="member">trCompoundIndexFortran</ref>();<sp/>}</highlight></codeline>
+<codeline lineno="227"><highlight class="normal"></highlight></codeline>
+<codeline lineno="228"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/>QCString<sp/>trTypeDocumentation()</highlight></codeline>
+<codeline lineno="229"><highlight class="normal"><sp/><sp/><sp/><sp/>{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>english.<ref refid="d6/d78/class_translator_english_1a71dd0dca6c5e6867d4cc377f46b7609a" kindref="member">trTypeDocumentation</ref>();<sp/>}</highlight></codeline>
+<codeline lineno="230"><highlight class="normal"></highlight></codeline>
+<codeline lineno="231"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/>QCString<sp/>trSubprograms()</highlight></codeline>
+<codeline lineno="232"><highlight class="normal"><sp/><sp/><sp/><sp/>{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>english.<ref refid="d6/d78/class_translator_english_1a854ad98abca1a95e54b132fa44ce31c3" kindref="member">trSubprograms</ref>();<sp/>}</highlight></codeline>
+<codeline lineno="233"><highlight class="normal"></highlight></codeline>
+<codeline lineno="234"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/>QCString<sp/>trSubprogramDocumentation()</highlight></codeline>
+<codeline lineno="235"><highlight class="normal"><sp/><sp/><sp/><sp/>{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>english.<ref refid="d6/d78/class_translator_english_1af6aac850498f6a5c31034f1e7ab9cfe3" kindref="member">trSubprogramDocumentation</ref>();<sp/>}</highlight></codeline>
+<codeline lineno="236"><highlight class="normal"></highlight></codeline>
+<codeline lineno="237"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/>QCString<sp/>trDataTypes()</highlight></codeline>
+<codeline lineno="238"><highlight class="normal"><sp/><sp/><sp/><sp/>{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>english.<ref refid="d6/d78/class_translator_english_1ae6d9c4b0dd11152c36a9ff308e143fa7" kindref="member">trDataTypes</ref>();<sp/>}</highlight></codeline>
+<codeline lineno="239"><highlight class="normal"></highlight></codeline>
+<codeline lineno="240"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/>QCString<sp/>trModulesList()</highlight></codeline>
+<codeline lineno="241"><highlight class="normal"><sp/><sp/><sp/><sp/>{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>english.<ref refid="d6/d78/class_translator_english_1a4bdd283d23248fc39882d73c6b32a965" kindref="member">trModulesList</ref>();<sp/>}</highlight></codeline>
+<codeline lineno="242"><highlight class="normal"></highlight></codeline>
+<codeline lineno="243"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/>QCString<sp/>trModulesListDescription(</highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>extractAll)</highlight></codeline>
+<codeline lineno="244"><highlight class="normal"><sp/><sp/><sp/><sp/>{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>english.<ref refid="d6/d78/class_translator_english_1a2595f79a1eb322d912643e60e3f9c688" kindref="member">trModulesListDescription</ref>(extractAll);<sp/>}</highlight></codeline>
+<codeline lineno="245"><highlight class="normal"></highlight></codeline>
+<codeline lineno="246"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/>QCString<sp/>trCompoundReferenceFortran(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*clName,</highlight></codeline>
+<codeline lineno="247"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="d1/dcf/class_class_def_1ae70cf86d35fe954a94c566fbcfc87939" kindref="member" tooltip="The various compound types.">ClassDef::CompoundType</ref><sp/>compType,</highlight></codeline>
+<codeline lineno="248"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>isTemplate)</highlight></codeline>
+<codeline lineno="249"><highlight class="normal"><sp/><sp/><sp/><sp/>{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>english.<ref refid="d6/d78/class_translator_english_1a2f3045ecf95c13d25874ae6ea35d574e" kindref="member">trCompoundReferenceFortran</ref>(clName,compType,isTemplate);<sp/>}</highlight></codeline>
+<codeline lineno="250"><highlight class="normal"></highlight></codeline>
+<codeline lineno="251"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/>QCString<sp/>trModuleReference(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*namespaceName)</highlight></codeline>
+<codeline lineno="252"><highlight class="normal"><sp/><sp/><sp/><sp/>{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>english.<ref refid="d6/d78/class_translator_english_1a67de294cb689245e927a07a522f92446" kindref="member">trModuleReference</ref>(namespaceName);<sp/>}</highlight></codeline>
+<codeline lineno="253"><highlight class="normal"></highlight></codeline>
+<codeline lineno="254"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/>QCString<sp/>trModulesMembers()</highlight></codeline>
+<codeline lineno="255"><highlight class="normal"><sp/><sp/><sp/><sp/>{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>english.<ref refid="d6/d78/class_translator_english_1abaaef8c394bc23f38af51c8865d8a058" kindref="member">trModulesMembers</ref>();<sp/>}</highlight></codeline>
+<codeline lineno="256"><highlight class="normal"></highlight></codeline>
+<codeline lineno="257"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/>QCString<sp/>trModulesMemberDescription(</highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>extractAll)</highlight></codeline>
+<codeline lineno="258"><highlight class="normal"><sp/><sp/><sp/><sp/>{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>english.<ref refid="d6/d78/class_translator_english_1a48b2e56985eff6c8ddbf04b51da1bcb0" kindref="member">trModulesMemberDescription</ref>(extractAll);<sp/>}</highlight></codeline>
+<codeline lineno="259"><highlight class="normal"></highlight></codeline>
+<codeline lineno="260"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/>QCString<sp/>trModulesIndex()</highlight></codeline>
+<codeline lineno="261"><highlight class="normal"><sp/><sp/><sp/><sp/>{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>english.<ref refid="d6/d78/class_translator_english_1ad925c638d4c4aa994cb453449f34a1aa" kindref="member">trModulesIndex</ref>();<sp/>}</highlight></codeline>
+<codeline lineno="262"><highlight class="normal"></highlight></codeline>
+<codeline lineno="263"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/>QCString<sp/>trModule(</highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>first_capital,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>singular)</highlight></codeline>
+<codeline lineno="264"><highlight class="normal"><sp/><sp/><sp/><sp/>{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>english.<ref refid="d6/d78/class_translator_english_1a43eb0e5c261168c45ac3bb29a92a6c26" kindref="member">trModule</ref>(first_capital,singular);<sp/>}</highlight></codeline>
+<codeline lineno="265"><highlight class="normal"></highlight></codeline>
+<codeline lineno="266"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/>QCString<sp/>trGeneratedFromFilesFortran(<ref refid="d1/dcf/class_class_def_1ae70cf86d35fe954a94c566fbcfc87939" kindref="member" tooltip="The various compound types.">ClassDef::CompoundType</ref><sp/>compType,</highlight></codeline>
+<codeline lineno="267"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>single)</highlight></codeline>
+<codeline lineno="268"><highlight class="normal"><sp/><sp/><sp/><sp/>{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>english.<ref refid="d6/d78/class_translator_english_1a352ceaaa0bea78aa367695a5e23ff42f" kindref="member">trGeneratedFromFilesFortran</ref>(compType,single);<sp/>}</highlight></codeline>
+<codeline lineno="269"><highlight class="normal"></highlight></codeline>
+<codeline lineno="270"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/>QCString<sp/>trType(</highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>first_capital,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>singular)</highlight></codeline>
+<codeline lineno="271"><highlight class="normal"><sp/><sp/><sp/><sp/>{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>english.<ref refid="d6/d78/class_translator_english_1af6506400ea82fc2ef61938349b1bacd9" kindref="member">trType</ref>(first_capital,singular);<sp/>}</highlight></codeline>
+<codeline lineno="272"><highlight class="normal"></highlight></codeline>
+<codeline lineno="273"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/>QCString<sp/>trSubprogram(</highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>first_capital,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>singular)</highlight></codeline>
+<codeline lineno="274"><highlight class="normal"><sp/><sp/><sp/><sp/>{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>english.<ref refid="d6/d78/class_translator_english_1a6a41819138e175f26a553ccf8069cec3" kindref="member">trSubprogram</ref>(first_capital,singular);<sp/>}</highlight></codeline>
+<codeline lineno="275"><highlight class="normal"></highlight></codeline>
+<codeline lineno="276"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/>QCString<sp/>trTypeConstraints()</highlight></codeline>
+<codeline lineno="277"><highlight class="normal"><sp/><sp/><sp/><sp/>{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>english.<ref refid="d6/d78/class_translator_english_1a1d471e5b119afcc1bf68f1b598d96041" kindref="member">trTypeConstraints</ref>();<sp/>}</highlight></codeline>
+<codeline lineno="278"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="279"><highlight class="normal"></highlight></codeline>
+<codeline lineno="283" refid="d4/d2b/class_translator_adapter__1__4__6" refkind="compound"><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="d4/d2b/class_translator_adapter__1__4__6" kindref="compound" tooltip="Adapter class for languages that only contain translations up to version 1.4.6.">TranslatorAdapter_1_4_6</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="df/dc7/class_translator_adapter__1__5__4" kindref="compound" tooltip="Adapter class for languages that only contain translations up to version 1.5.4.">TranslatorAdapter_1_5_4</ref></highlight></codeline>
+<codeline lineno="284"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="285"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="286" refid="d4/d2b/class_translator_adapter__1__4__6_1ab19b01d4e00c95ef1e6eb631fbe6ada4" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/>QCString<sp/><ref refid="d4/d2b/class_translator_adapter__1__4__6_1ab19b01d4e00c95ef1e6eb631fbe6ada4" kindref="member">updateNeededMessage</ref>()</highlight></codeline>
+<codeline lineno="287"><highlight class="normal"><sp/><sp/><sp/><sp/>{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="db/d6c/class_translator_adapter_base_1a71493b87a34d6e4c232e540734aba698" kindref="member">createUpdateNeededMessage</ref>(idLanguage(),</highlight><highlight class="stringliteral">&quot;release<sp/>1.4.6&quot;</highlight><highlight class="normal">);<sp/>}</highlight></codeline>
+<codeline lineno="288"><highlight class="normal"></highlight></codeline>
+<codeline lineno="289"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/>QCString<sp/>trCallerGraph()</highlight></codeline>
+<codeline lineno="290"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="291"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>english.<ref refid="d6/d78/class_translator_english_1a33d7e680cba09f3525f9afaf481d6e7c" kindref="member">trCallerGraph</ref>();</highlight></codeline>
+<codeline lineno="292"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="293"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/>QCString<sp/>trEnumerationValueDocumentation()</highlight></codeline>
+<codeline lineno="294"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="295"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>english.<ref refid="d6/d78/class_translator_english_1a2830136212dee5a6b0f12b9c9b211fdf" kindref="member">trEnumerationValueDocumentation</ref>();</highlight></codeline>
+<codeline lineno="296"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="297"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="298"><highlight class="normal"></highlight></codeline>
+<codeline lineno="299"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+<codeline lineno="300"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/translator_adapter.h"/>
+  </compounddef>
+</doxygen>

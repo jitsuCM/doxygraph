@@ -1,0 +1,315 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.2">
+  <compounddef id="d9/dd5/class_dir_entry" kind="class" prot="public">
+    <compoundname>DirEntry</compoundname>
+    <derivedcompoundref refid="da/df3/class_directory" prot="public" virt="non-virtual">Directory</derivedcompoundref>
+    <includes refid="d4/d3a/filedef_8h" local="no">filedef.h</includes>
+      <sectiondef kind="public-type">
+      <memberdef kind="enum" id="d9/dd5/class_dir_entry_1a1edafe219ba585326221f2fbe66afaf0" prot="public" static="no">
+        <name>EntryKind</name>
+        <enumvalue id="d9/dd5/class_dir_entry_1a1edafe219ba585326221f2fbe66afaf0adb72b865ffffd17624eaac9e129e81e7" prot="public">
+          <name>Dir</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d9/dd5/class_dir_entry_1a1edafe219ba585326221f2fbe66afaf0a275016310e0fac0f6fea318363c17fab" prot="public">
+          <name>File</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/filedef.h" line="274" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/filedef.h" bodystart="274" bodyend="274"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="d9/dd5/class_dir_entry_1ac43bb4a66667c2dc67c40152b6c17975" prot="protected" static="no" mutable="no">
+        <type><ref refid="d9/dd5/class_dir_entry" kindref="compound">DirEntry</ref> *</type>
+        <definition>DirEntry* DirEntry::m_parent</definition>
+        <argsstring></argsstring>
+        <name>m_parent</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/filedef.h" line="291" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/filedef.h" bodystart="291" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d9/dd5/class_dir_entry_1a6d177d497073ab12cbc88611027f62e9" prot="protected" static="no" mutable="no">
+        <type>QCString</type>
+        <definition>QCString DirEntry::m_name</definition>
+        <argsstring></argsstring>
+        <name>m_name</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/filedef.h" line="292" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/filedef.h" bodystart="292" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="d9/dd5/class_dir_entry_1a4cb3932c7eb9456995d218b36464fd4a" prot="private" static="no" mutable="no">
+        <type>EntryKind</type>
+        <definition>EntryKind DirEntry::m_kind</definition>
+        <argsstring></argsstring>
+        <name>m_kind</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/filedef.h" line="295" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/filedef.h" bodystart="295" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d9/dd5/class_dir_entry_1a27b661aadaf0288a33898d99a3b7171e" prot="private" static="no" mutable="no">
+        <type><ref refid="de/db0/class_file_def" kindref="compound">FileDef</ref> *</type>
+        <definition>FileDef* DirEntry::m_fd</definition>
+        <argsstring></argsstring>
+        <name>m_fd</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/filedef.h" line="296" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/filedef.h" bodystart="296" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d9/dd5/class_dir_entry_1a9b3502ec74a9b19498fa15109bf72f6c" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int DirEntry::num</definition>
+        <argsstring></argsstring>
+        <name>num</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/filedef.h" line="297" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/filedef.h" bodystart="297" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d9/dd5/class_dir_entry_1a37188a7fa77f0980c1aaccf38d512b0e" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool DirEntry::m_isLast</definition>
+        <argsstring></argsstring>
+        <name>m_isLast</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/filedef.h" line="298" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/filedef.h" bodystart="298" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="d9/dd5/class_dir_entry_1a04dfc1cc4766297488f75f58ea999ea3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>DirEntry::DirEntry</definition>
+        <argsstring>(DirEntry *parent, FileDef *fd)</argsstring>
+        <name>DirEntry</name>
+        <param>
+          <type><ref refid="d9/dd5/class_dir_entry" kindref="compound">DirEntry</ref> *</type>
+          <declname>parent</declname>
+        </param>
+        <param>
+          <type><ref refid="de/db0/class_file_def" kindref="compound">FileDef</ref> *</type>
+          <declname>fd</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/filedef.h" line="277" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/filedef.h" bodystart="275" bodyend="277"/>
+      </memberdef>
+      <memberdef kind="function" id="d9/dd5/class_dir_entry_1aca2fc76af0b968b01bc465bf22da4f19" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>DirEntry::DirEntry</definition>
+        <argsstring>(DirEntry *parent, QCString name)</argsstring>
+        <name>DirEntry</name>
+        <param>
+          <type><ref refid="d9/dd5/class_dir_entry" kindref="compound">DirEntry</ref> *</type>
+          <declname>parent</declname>
+        </param>
+        <param>
+          <type>QCString</type>
+          <declname>name</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/filedef.h" line="280" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/filedef.h" bodystart="278" bodyend="280"/>
+      </memberdef>
+      <memberdef kind="function" id="d9/dd5/class_dir_entry_1a97026a1420cd2421b2ab3426848058f7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type></type>
+        <definition>virtual DirEntry::~DirEntry</definition>
+        <argsstring>()</argsstring>
+        <name>~DirEntry</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/filedef.h" line="281" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/filedef.h" bodystart="281" bodyend="281"/>
+      </memberdef>
+      <memberdef kind="function" id="d9/dd5/class_dir_entry_1aca308a26563711a43c6a1f2c10c31ef7" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>EntryKind</type>
+        <definition>EntryKind DirEntry::kind</definition>
+        <argsstring>() const </argsstring>
+        <name>kind</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/filedef.h" line="282" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/filedef.h" bodystart="282" bodyend="282"/>
+      </memberdef>
+      <memberdef kind="function" id="d9/dd5/class_dir_entry_1a6ba7c0ec1ad833359de3c3877a1d5265" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="de/db0/class_file_def" kindref="compound">FileDef</ref> *</type>
+        <definition>FileDef* DirEntry::file</definition>
+        <argsstring>() const </argsstring>
+        <name>file</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/filedef.h" line="283" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/filedef.h" bodystart="283" bodyend="283"/>
+      </memberdef>
+      <memberdef kind="function" id="d9/dd5/class_dir_entry_1ab3516d39a84a7f9b99b5491dfdd31802" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool DirEntry::isLast</definition>
+        <argsstring>() const </argsstring>
+        <name>isLast</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/filedef.h" line="284" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/filedef.h" bodystart="284" bodyend="284"/>
+      </memberdef>
+      <memberdef kind="function" id="d9/dd5/class_dir_entry_1afe7c7ba2399a45fff693a00c8390510f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void DirEntry::setLast</definition>
+        <argsstring>(bool b)</argsstring>
+        <name>setLast</name>
+        <param>
+          <type>bool</type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/filedef.h" line="285" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/filedef.h" bodystart="285" bodyend="285"/>
+      </memberdef>
+      <memberdef kind="function" id="d9/dd5/class_dir_entry_1a4bc3262d0c9a5aa23a6b6eba8414a05a" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="d9/dd5/class_dir_entry" kindref="compound">DirEntry</ref> *</type>
+        <definition>DirEntry* DirEntry::parent</definition>
+        <argsstring>() const </argsstring>
+        <name>parent</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/filedef.h" line="286" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/filedef.h" bodystart="286" bodyend="286"/>
+      </memberdef>
+      <memberdef kind="function" id="d9/dd5/class_dir_entry_1a4b1ef667119bd83d109f4cefa20ef4ea" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>QCString</type>
+        <definition>QCString DirEntry::name</definition>
+        <argsstring>() const </argsstring>
+        <name>name</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/filedef.h" line="287" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/filedef.h" bodystart="287" bodyend="287"/>
+      </memberdef>
+      <memberdef kind="function" id="d9/dd5/class_dir_entry_1a439b9effb2ba43f6819ab037e23ed406" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>QCString</type>
+        <definition>QCString DirEntry::path</definition>
+        <argsstring>() const </argsstring>
+        <name>path</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/filedef.h" line="288" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/filedef.h" bodystart="288" bodyend="288"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Class representing an entry (file or sub directory) in a directory. </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2853">
+        <label>Directory</label>
+        <link refid="da/df3/class_directory"/>
+        <childnode refid="2852" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2852">
+        <label>DirEntry</label>
+        <link refid="d9/dd5/class_dir_entry"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2854">
+        <label>DirEntry</label>
+        <link refid="d9/dd5/class_dir_entry"/>
+        <childnode refid="2854" relation="usage">
+          <edgelabel>m_parent</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/filedef.h" line="272" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/filedef.h" bodystart="271" bodyend="299"/>
+    <listofallmembers>
+      <member refid="d9/dd5/class_dir_entry_1a1edafe219ba585326221f2fbe66afaf0adb72b865ffffd17624eaac9e129e81e7" prot="public" virt="non-virtual"><scope>DirEntry</scope><name>Dir</name></member>
+      <member refid="d9/dd5/class_dir_entry_1a04dfc1cc4766297488f75f58ea999ea3" prot="public" virt="non-virtual"><scope>DirEntry</scope><name>DirEntry</name></member>
+      <member refid="d9/dd5/class_dir_entry_1aca2fc76af0b968b01bc465bf22da4f19" prot="public" virt="non-virtual"><scope>DirEntry</scope><name>DirEntry</name></member>
+      <member refid="d9/dd5/class_dir_entry_1a1edafe219ba585326221f2fbe66afaf0" prot="public" virt="non-virtual"><scope>DirEntry</scope><name>EntryKind</name></member>
+      <member refid="d9/dd5/class_dir_entry_1a1edafe219ba585326221f2fbe66afaf0a275016310e0fac0f6fea318363c17fab" prot="public" virt="non-virtual"><scope>DirEntry</scope><name>File</name></member>
+      <member refid="d9/dd5/class_dir_entry_1a6ba7c0ec1ad833359de3c3877a1d5265" prot="public" virt="non-virtual"><scope>DirEntry</scope><name>file</name></member>
+      <member refid="d9/dd5/class_dir_entry_1ab3516d39a84a7f9b99b5491dfdd31802" prot="public" virt="non-virtual"><scope>DirEntry</scope><name>isLast</name></member>
+      <member refid="d9/dd5/class_dir_entry_1aca308a26563711a43c6a1f2c10c31ef7" prot="public" virt="non-virtual"><scope>DirEntry</scope><name>kind</name></member>
+      <member refid="d9/dd5/class_dir_entry_1a27b661aadaf0288a33898d99a3b7171e" prot="private" virt="non-virtual"><scope>DirEntry</scope><name>m_fd</name></member>
+      <member refid="d9/dd5/class_dir_entry_1a37188a7fa77f0980c1aaccf38d512b0e" prot="private" virt="non-virtual"><scope>DirEntry</scope><name>m_isLast</name></member>
+      <member refid="d9/dd5/class_dir_entry_1a4cb3932c7eb9456995d218b36464fd4a" prot="private" virt="non-virtual"><scope>DirEntry</scope><name>m_kind</name></member>
+      <member refid="d9/dd5/class_dir_entry_1a6d177d497073ab12cbc88611027f62e9" prot="protected" virt="non-virtual"><scope>DirEntry</scope><name>m_name</name></member>
+      <member refid="d9/dd5/class_dir_entry_1ac43bb4a66667c2dc67c40152b6c17975" prot="protected" virt="non-virtual"><scope>DirEntry</scope><name>m_parent</name></member>
+      <member refid="d9/dd5/class_dir_entry_1a4b1ef667119bd83d109f4cefa20ef4ea" prot="public" virt="non-virtual"><scope>DirEntry</scope><name>name</name></member>
+      <member refid="d9/dd5/class_dir_entry_1a9b3502ec74a9b19498fa15109bf72f6c" prot="private" virt="non-virtual"><scope>DirEntry</scope><name>num</name></member>
+      <member refid="d9/dd5/class_dir_entry_1a4bc3262d0c9a5aa23a6b6eba8414a05a" prot="public" virt="non-virtual"><scope>DirEntry</scope><name>parent</name></member>
+      <member refid="d9/dd5/class_dir_entry_1a439b9effb2ba43f6819ab037e23ed406" prot="public" virt="non-virtual"><scope>DirEntry</scope><name>path</name></member>
+      <member refid="d9/dd5/class_dir_entry_1afe7c7ba2399a45fff693a00c8390510f" prot="public" virt="non-virtual"><scope>DirEntry</scope><name>setLast</name></member>
+      <member refid="d9/dd5/class_dir_entry_1a97026a1420cd2421b2ab3426848058f7" prot="public" virt="virtual"><scope>DirEntry</scope><name>~DirEntry</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,1986 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.2">
+  <compounddef id="de/db0/class_file_def" kind="class" prot="public">
+    <compoundname>FileDef</compoundname>
+    <basecompoundref refid="d5/dcc/class_definition" prot="public" virt="non-virtual">Definition</basecompoundref>
+    <includes refid="d4/d3a/filedef_8h" local="no">filedef.h</includes>
+      <sectiondef kind="friend">
+      <memberdef kind="friend" id="de/db0/class_file_def_1a5038284eb3ca46435712b365a038056a" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>friend class</type>
+        <definition>friend class FileName</definition>
+        <argsstring></argsstring>
+        <name>FileName</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/filedef.h" line="65" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/filedef.h" bodystart="65" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="friend" id="de/db0/class_file_def_1a35cc830de6fcd806519b598217001e5a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>friend void</type>
+        <definition>void generatedFileNames</definition>
+        <argsstring>()</argsstring>
+        <name>generatedFileNames</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/filedef.h" line="149"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="de/db0/class_file_def_1ad5dd0c1f9f0df9b7f36abf6feea9c1a1" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool FileDef::visited</definition>
+        <argsstring></argsstring>
+        <name>visited</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/filedef.h" line="176" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/filedef.h" bodystart="176" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="de/db0/class_file_def_1a9848d228d0001bc06d2a1a855e9d6865" prot="private" static="no" mutable="no">
+        <type>QDict&lt; <ref refid="d5/dc1/struct_include_info" kindref="compound">IncludeInfo</ref> &gt; *</type>
+        <definition>QDict&lt;IncludeInfo&gt;* FileDef::m_includeDict</definition>
+        <argsstring></argsstring>
+        <name>m_includeDict</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/filedef.h" line="206" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/filedef.h" bodystart="206" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="de/db0/class_file_def_1a98fc8caf1f132bd9f21465caeb61872f" prot="private" static="no" mutable="no">
+        <type><ref refid="db/daa/class_q_list" kindref="compound">QList</ref>&lt; <ref refid="d5/dc1/struct_include_info" kindref="compound">IncludeInfo</ref> &gt; *</type>
+        <definition>QList&lt;IncludeInfo&gt;* FileDef::m_includeList</definition>
+        <argsstring></argsstring>
+        <name>m_includeList</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/filedef.h" line="207" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/filedef.h" bodystart="207" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="de/db0/class_file_def_1aee37a91a0fca9e2eaf7ced61cb557c12" prot="private" static="no" mutable="no">
+        <type>QDict&lt; <ref refid="d5/dc1/struct_include_info" kindref="compound">IncludeInfo</ref> &gt; *</type>
+        <definition>QDict&lt;IncludeInfo&gt;* FileDef::m_includedByDict</definition>
+        <argsstring></argsstring>
+        <name>m_includedByDict</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/filedef.h" line="208" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/filedef.h" bodystart="208" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="de/db0/class_file_def_1a8053b57f3c90b4cd35a43bdd8c7b287c" prot="private" static="no" mutable="no">
+        <type><ref refid="db/daa/class_q_list" kindref="compound">QList</ref>&lt; <ref refid="d5/dc1/struct_include_info" kindref="compound">IncludeInfo</ref> &gt; *</type>
+        <definition>QList&lt;IncludeInfo&gt;* FileDef::m_includedByList</definition>
+        <argsstring></argsstring>
+        <name>m_includedByList</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/filedef.h" line="209" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/filedef.h" bodystart="209" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="de/db0/class_file_def_1acb7acbeac8b99661b97412a84745ec0d" prot="private" static="no" mutable="no">
+        <type><ref refid="d4/d8d/class_namespace_s_dict" kindref="compound">NamespaceSDict</ref> *</type>
+        <definition>NamespaceSDict* FileDef::m_usingDirList</definition>
+        <argsstring></argsstring>
+        <name>m_usingDirList</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/filedef.h" line="210" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/filedef.h" bodystart="210" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="de/db0/class_file_def_1a88641cb35d0bbbe9c823921874ee4e0d" prot="private" static="no" mutable="no">
+        <type><ref refid="d1/d50/class_s_dict" kindref="compound">SDict</ref>&lt; <ref refid="d5/dcc/class_definition" kindref="compound">Definition</ref> &gt; *</type>
+        <definition>SDict&lt;Definition&gt;* FileDef::m_usingDeclList</definition>
+        <argsstring></argsstring>
+        <name>m_usingDeclList</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/filedef.h" line="211" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/filedef.h" bodystart="211" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="de/db0/class_file_def_1ab5ee4b6b6ca76640dccebf27ca30e700" prot="private" static="no" mutable="no">
+        <type>QCString</type>
+        <definition>QCString FileDef::m_path</definition>
+        <argsstring></argsstring>
+        <name>m_path</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/filedef.h" line="212" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/filedef.h" bodystart="212" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="de/db0/class_file_def_1a8dcea97467ed6a82529b9beca31b7e96" prot="private" static="no" mutable="no">
+        <type>QCString</type>
+        <definition>QCString FileDef::m_filePath</definition>
+        <argsstring></argsstring>
+        <name>m_filePath</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/filedef.h" line="213" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/filedef.h" bodystart="213" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="de/db0/class_file_def_1a50a3bd62dd57bd62e5cde7e6a0af8a7c" prot="private" static="no" mutable="no">
+        <type>QCString</type>
+        <definition>QCString FileDef::m_diskName</definition>
+        <argsstring></argsstring>
+        <name>m_diskName</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/filedef.h" line="214" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/filedef.h" bodystart="214" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="de/db0/class_file_def_1ae7e97d66714809e7e53ef6e824f6ea9d" prot="private" static="no" mutable="no">
+        <type>QCString</type>
+        <definition>QCString FileDef::m_fileName</definition>
+        <argsstring></argsstring>
+        <name>m_fileName</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/filedef.h" line="215" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/filedef.h" bodystart="215" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="de/db0/class_file_def_1a6a4134e46be4d7ac30b74e3cef768144" prot="private" static="no" mutable="no">
+        <type>QCString</type>
+        <definition>QCString FileDef::m_docname</definition>
+        <argsstring></argsstring>
+        <name>m_docname</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/filedef.h" line="216" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/filedef.h" bodystart="216" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="de/db0/class_file_def_1a87af88738c7462b0bd7f8aac0e41cccf" prot="private" static="no" mutable="no">
+        <type>QIntDict&lt; <ref refid="d5/dcc/class_definition" kindref="compound">Definition</ref> &gt; *</type>
+        <definition>QIntDict&lt;Definition&gt;* FileDef::m_srcDefDict</definition>
+        <argsstring></argsstring>
+        <name>m_srcDefDict</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/filedef.h" line="217" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/filedef.h" bodystart="217" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="de/db0/class_file_def_1ae94f778d0ad70bc806def3d97da3977a" prot="private" static="no" mutable="no">
+        <type>QIntDict&lt; <ref refid="da/d09/class_member_def" kindref="compound">MemberDef</ref> &gt; *</type>
+        <definition>QIntDict&lt;MemberDef&gt;* FileDef::m_srcMemberDict</definition>
+        <argsstring></argsstring>
+        <name>m_srcMemberDict</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/filedef.h" line="218" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/filedef.h" bodystart="218" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="de/db0/class_file_def_1ab7b9fc9aec89cc935e0a5249f34213d2" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool FileDef::m_isSource</definition>
+        <argsstring></argsstring>
+        <name>m_isSource</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/filedef.h" line="219" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/filedef.h" bodystart="219" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="de/db0/class_file_def_1a0f03ff17076fefd1beed9fa980d58ee0" prot="private" static="no" mutable="no">
+        <type>QCString</type>
+        <definition>QCString FileDef::m_fileVersion</definition>
+        <argsstring></argsstring>
+        <name>m_fileVersion</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/filedef.h" line="220" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/filedef.h" bodystart="220" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="de/db0/class_file_def_1aae1712c1fe423e1b15de93923402ca52" prot="private" static="no" mutable="no">
+        <type>PackageDef *</type>
+        <definition>PackageDef* FileDef::m_package</definition>
+        <argsstring></argsstring>
+        <name>m_package</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/filedef.h" line="221" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/filedef.h" bodystart="221" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="de/db0/class_file_def_1afa4b08d0f7713675844cf6ca2a4b0381" prot="private" static="no" mutable="no">
+        <type><ref refid="d4/dd4/class_dir_def" kindref="compound">DirDef</ref> *</type>
+        <definition>DirDef* FileDef::m_dir</definition>
+        <argsstring></argsstring>
+        <name>m_dir</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/filedef.h" line="222" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/filedef.h" bodystart="222" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="de/db0/class_file_def_1ae27a7f8ad9be054545dab072f3cfc936" prot="private" static="no" mutable="no">
+        <type><ref refid="db/daa/class_q_list" kindref="compound">QList</ref>&lt; <ref refid="dd/d13/class_member_list" kindref="compound">MemberList</ref> &gt;</type>
+        <definition>QList&lt;MemberList&gt; FileDef::m_memberLists</definition>
+        <argsstring></argsstring>
+        <name>m_memberLists</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/filedef.h" line="223" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/filedef.h" bodystart="223" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="de/db0/class_file_def_1a866ae176ad56f6047df59bc0c69ebe7c" prot="private" static="no" mutable="no">
+        <type><ref refid="dc/d1e/class_member_group_s_dict" kindref="compound">MemberGroupSDict</ref> *</type>
+        <definition>MemberGroupSDict* FileDef::m_memberGroupSDict</definition>
+        <argsstring></argsstring>
+        <name>m_memberGroupSDict</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/filedef.h" line="224" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/filedef.h" bodystart="224" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="de/db0/class_file_def_1a506db0023e2d98ca366e80db58190975" prot="private" static="no" mutable="no">
+        <type><ref refid="d4/d8d/class_namespace_s_dict" kindref="compound">NamespaceSDict</ref> *</type>
+        <definition>NamespaceSDict* FileDef::m_namespaceSDict</definition>
+        <argsstring></argsstring>
+        <name>m_namespaceSDict</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/filedef.h" line="225" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/filedef.h" bodystart="225" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="de/db0/class_file_def_1aafb3f9b76cc19d7d8f2ab86af0f3d273" prot="private" static="no" mutable="no">
+        <type><ref refid="d9/d3d/class_class_s_dict" kindref="compound">ClassSDict</ref> *</type>
+        <definition>ClassSDict* FileDef::m_classSDict</definition>
+        <argsstring></argsstring>
+        <name>m_classSDict</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/filedef.h" line="226" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/filedef.h" bodystart="226" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="de/db0/class_file_def_1acbad4e23a4fe5184d478f62bf4196164" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool FileDef::m_subGrouping</definition>
+        <argsstring></argsstring>
+        <name>m_subGrouping</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/filedef.h" line="227" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/filedef.h" bodystart="227" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="de/db0/class_file_def_1aa0f1d4c412599b7c03d214c939e1ca95" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>FileDef::FileDef</definition>
+        <argsstring>(const char *p, const char *n, const char *ref=0, const char *dn=0)</argsstring>
+        <name>FileDef</name>
+        <param>
+          <type>const char *</type>
+          <declname>p</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>n</declname>
+          <defname>nm</defname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>ref</declname>
+          <defname>lref</defname>
+          <defval>0</defval>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>dn</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>create a new file definition, where <emphasis>p</emphasis> is the file path, <emphasis>nm</emphasis> the file name, and <emphasis>lref</emphasis> is an HTML anchor name if the file was read from a tag file or 0 otherwise </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/filedef.h" line="70" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/filedef.cpp" bodystart="77" bodyend="109"/>
+        <references refid="de/db0/class_file_def_1a5f297c95a2f5b8d2e1a7e3620b4c8d01" compoundref="d6/ddc/filedef_8cpp" startline="1601" endline="1628">acquireFileVersion</references>
+        <references refid="de/db0/class_file_def_1a80989971450b35c785a8fe0002e1c2db" compoundref="d6/ddc/filedef_8cpp" startline="1056" endline="1062">name</references>
+        <references refid="d5/dcc/class_definition_1a9548c1e2218ce2730c6c3e31bdac6452" compoundref="d3/dea/definition_8cpp" startline="1806" endline="1809">Definition::setReference</references>
+      </memberdef>
+      <memberdef kind="function" id="de/db0/class_file_def_1a5ed8a95230184de0f82d21bf08f4ac0a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>FileDef::~FileDef</definition>
+        <argsstring>()</argsstring>
+        <name>~FileDef</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>destroy the file definition </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/filedef.h" line="71" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/filedef.cpp" bodystart="112" bodyend="125"/>
+      </memberdef>
+      <memberdef kind="function" id="de/db0/class_file_def_1a07b59f78f008528d1fe668f263f5782b" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="virtual">
+        <type><ref refid="d9/d4a/class_definition_intf_1ada60114bc621669dd8c19edfc6421766" kindref="member">DefType</ref></type>
+        <definition>DefType FileDef::definitionType</definition>
+        <argsstring>() const </argsstring>
+        <name>definitionType</name>
+        <reimplements refid="d9/d4a/class_definition_intf_1ac8ee00bc1af5558ae37f6896d16f5a3a">definitionType</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Use this for dynamic inspection of the type of the derived class </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/filedef.h" line="75" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/filedef.h" bodystart="75" bodyend="75"/>
+      </memberdef>
+      <memberdef kind="function" id="de/db0/class_file_def_1a80989971450b35c785a8fe0002e1c2db" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>QCString</type>
+        <definition>QCString FileDef::name</definition>
+        <argsstring>() const </argsstring>
+        <name>name</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns the unique file name (this may include part of the path). </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/filedef.h" line="78" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/filedef.cpp" bodystart="1056" bodyend="1062"/>
+        <references refid="d5/dcc/class_definition_1a99481361779e85f0c1556709de7d9e5b" compoundref="df/da1/definition_8h" startline="109" endline="109">Definition::name</references>
+        <referencedby refid="d0/d5d/class_file_pair_dict_1a4866ba995e365de64902f4d70358b322" compoundref="d8/d52/dirdef_8cpp" startline="583" endline="590">FilePairDict::compareItems</referencedby>
+        <referencedby refid="de/db0/class_file_def_1ab075e2ace8cba475de669e96ae19c7a2" compoundref="d4/d3a/filedef_8h" startline="79" endline="79">displayName</referencedby>
+        <referencedby refid="de/db0/class_file_def_1aa0f1d4c412599b7c03d214c939e1ca95" compoundref="d6/ddc/filedef_8cpp" startline="77" endline="109">FileDef</referencedby>
+        <referencedby refid="de/db0/class_file_def_1a84f7bb05a4a830056b208d94c6c2bd59" compoundref="d6/ddc/filedef_8cpp" startline="963" endline="1014">insertMember</referencedby>
+        <referencedby refid="de/db0/class_file_def_1a7a73cf8448a6995be00369858d4768e8" compoundref="d6/ddc/filedef_8cpp" startline="531" endline="740">writeDocumentation</referencedby>
+        <referencedby refid="de/db0/class_file_def_1a5ed9987b075539aa61654cc55d3bac28" compoundref="d6/ddc/filedef_8cpp" startline="804" endline="889">writeSource</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="de/db0/class_file_def_1ab075e2ace8cba475de669e96ae19c7a2" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="virtual">
+        <type>QCString</type>
+        <definition>QCString FileDef::displayName</definition>
+        <argsstring>(bool=TRUE) const </argsstring>
+        <name>displayName</name>
+        <reimplements refid="d5/dcc/class_definition_1ac4741f70f06baac174cf71b3e11d06ac">displayName</reimplements>
+        <param>
+          <type>bool</type>
+          <declname>includeScope</declname>
+          <defval>TRUE</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns the name of the definition as it appears in the output </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/filedef.h" line="79" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/filedef.h" bodystart="79" bodyend="79"/>
+        <references refid="de/db0/class_file_def_1a80989971450b35c785a8fe0002e1c2db" compoundref="d6/ddc/filedef_8cpp" startline="1056" endline="1062">name</references>
+        <referencedby refid="da/d09/class_member_def_1a480c55edf3118c9e657d3aa4eecf841b" compoundref="d0/d72/memberdef_8cpp" startline="2362" endline="2844">MemberDef::writeDocumentation</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="de/db0/class_file_def_1ab68cdf42899ae3dd24cb6ead2a2145a0" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>QCString</type>
+        <definition>QCString FileDef::fileName</definition>
+        <argsstring>() const </argsstring>
+        <name>fileName</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/filedef.h" line="80" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/filedef.h" bodystart="80" bodyend="80"/>
+      </memberdef>
+      <memberdef kind="function" id="de/db0/class_file_def_1aed87b82d9fc3ce4629034232b711f4a9" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="virtual">
+        <type>QCString</type>
+        <definition>QCString FileDef::getOutputFileBase</definition>
+        <argsstring>() const </argsstring>
+        <name>getOutputFileBase</name>
+        <reimplements refid="d5/dcc/class_definition_1acabecdc6bfda2015811eed5f3436322d">getOutputFileBase</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns the base file name (without extension) of this definition. as it is referenced to/written to disk. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/filedef.h" line="83" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/filedef.h" bodystart="82" bodyend="83"/>
+        <referencedby refid="d1/dcf/class_class_def_1a7bc3e33011d6da98a5fd202a1dbe75fb" compoundref="de/d89/classdef_8cpp" startline="3382" endline="3426">ClassDef::getOutputFileBase</referencedby>
+        <referencedby refid="de/db0/class_file_def_1a7a73cf8448a6995be00369858d4768e8" compoundref="d6/ddc/filedef_8cpp" startline="531" endline="740">writeDocumentation</referencedby>
+        <referencedby refid="de/db0/class_file_def_1a5ed9987b075539aa61654cc55d3bac28" compoundref="d6/ddc/filedef_8cpp" startline="804" endline="889">writeSource</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="de/db0/class_file_def_1a01e0018f5093f7cf317f968c42e51318" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="virtual">
+        <type>QCString</type>
+        <definition>QCString FileDef::anchor</definition>
+        <argsstring>() const </argsstring>
+        <name>anchor</name>
+        <reimplements refid="d5/dcc/class_definition_1a56e91f9b76f41208a22cfb2336871604">anchor</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns the anchor within a page where this item can be found </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/filedef.h" line="85" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/filedef.h" bodystart="85" bodyend="85"/>
+        <referencedby refid="de/db0/class_file_def_1a7a73cf8448a6995be00369858d4768e8" compoundref="d6/ddc/filedef_8cpp" startline="531" endline="740">writeDocumentation</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="de/db0/class_file_def_1a359ac2e3984b4cf00bbfaa1d962fe37d" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>QCString</type>
+        <definition>QCString FileDef::getFileBase</definition>
+        <argsstring>() const </argsstring>
+        <name>getFileBase</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/filedef.h" line="87" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/filedef.h" bodystart="87" bodyend="87"/>
+      </memberdef>
+      <memberdef kind="function" id="de/db0/class_file_def_1a88b2109d1ccc5835bcf05e238699d673" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
+        <type>QCString</type>
+        <definition>QCString FileDef::getSourceFileBase</definition>
+        <argsstring>() const </argsstring>
+        <name>getSourceFileBase</name>
+        <reimplements refid="d5/dcc/class_definition_1a23521d5aa86d308aa040acd75967074c">getSourceFileBase</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns the name of the source listing of this file. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/filedef.h" line="89" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/filedef.cpp" bodystart="1631" bodyend="1641"/>
+        <references refid="d4/db0/struct_htags_1a0ce955dfddd8473bce6373e92532f12e" compoundref="d9/db7/htags_8cpp" startline="158" endline="177">Htags::path2URL</references>
+        <referencedby refid="de/db0/class_file_def_1a5ed9987b075539aa61654cc55d3bac28" compoundref="d6/ddc/filedef_8cpp" startline="804" endline="889">writeSource</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="de/db0/class_file_def_1a7ae51c3b256e80b82f83f5b550402c97" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>QCString</type>
+        <definition>QCString FileDef::includeName</definition>
+        <argsstring>() const </argsstring>
+        <name>includeName</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns the name of the verbatim copy of this file (if any). </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/filedef.h" line="92" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/filedef.cpp" bodystart="1644" bodyend="1654"/>
+        <references refid="d4/db0/struct_htags_1a0ce955dfddd8473bce6373e92532f12e" compoundref="d9/db7/htags_8cpp" startline="158" endline="177">Htags::path2URL</references>
+      </memberdef>
+      <memberdef kind="function" id="de/db0/class_file_def_1aae767e854233ec05108d7dccf458d27d" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>QCString</type>
+        <definition>QCString FileDef::absFilePath</definition>
+        <argsstring>() const </argsstring>
+        <name>absFilePath</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns the absolute path including the file name. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/filedef.h" line="95" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/filedef.h" bodystart="95" bodyend="95"/>
+        <referencedby refid="de/db0/class_file_def_1a5ed9987b075539aa61654cc55d3bac28" compoundref="d6/ddc/filedef_8cpp" startline="804" endline="889">writeSource</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="de/db0/class_file_def_1ae07162f94ec462b163e0ff743023f71c" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>QCString</type>
+        <definition>QCString FileDef::docName</definition>
+        <argsstring>() const </argsstring>
+        <name>docName</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns the name as it is used in the documentation </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/filedef.h" line="98" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/filedef.h" bodystart="98" bodyend="98"/>
+      </memberdef>
+      <memberdef kind="function" id="de/db0/class_file_def_1a55085b4099e8e80109dd8dd7ce87e5a5" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool FileDef::isSource</definition>
+        <argsstring>() const </argsstring>
+        <name>isSource</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns TRUE if this file is a source file. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/filedef.h" line="101" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/filedef.h" bodystart="101" bodyend="101"/>
+      </memberdef>
+      <memberdef kind="function" id="de/db0/class_file_def_1ad04cfe6d74948db700b140fbbf371792" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool FileDef::isDocumentationFile</definition>
+        <argsstring>() const </argsstring>
+        <name>isDocumentationFile</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/filedef.h" line="103" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/filedef.cpp" bodystart="1592" bodyend="1599"/>
+      </memberdef>
+      <memberdef kind="function" id="de/db0/class_file_def_1a1fe9fd5e6f8b50c24510d718c2ff2934" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="d5/dcc/class_definition" kindref="compound">Definition</ref> *</type>
+        <definition>Definition * FileDef::getSourceDefinition</definition>
+        <argsstring>(int lineNr) const </argsstring>
+        <name>getSourceDefinition</name>
+        <param>
+          <type>int</type>
+          <declname>lineNr</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/filedef.h" line="105" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/filedef.cpp" bodystart="1078" bodyend="1087"/>
+      </memberdef>
+      <memberdef kind="function" id="de/db0/class_file_def_1a6f002fe1d775e3ea73c590cba1c141fe" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="da/d09/class_member_def" kindref="compound">MemberDef</ref> *</type>
+        <definition>MemberDef * FileDef::getSourceMember</definition>
+        <argsstring>(int lineNr) const </argsstring>
+        <name>getSourceMember</name>
+        <param>
+          <type>int</type>
+          <declname>lineNr</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/filedef.h" line="106" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/filedef.cpp" bodystart="1089" bodyend="1098"/>
+      </memberdef>
+      <memberdef kind="function" id="de/db0/class_file_def_1a5d488e6a03d18ecf3e9236b9a2fd5e5e" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>QCString</type>
+        <definition>QCString FileDef::getPath</definition>
+        <argsstring>() const </argsstring>
+        <name>getPath</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns the absolute path of this file. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/filedef.h" line="109" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/filedef.h" bodystart="109" bodyend="109"/>
+        <referencedby refid="de/db0/class_file_def_1a7a73cf8448a6995be00369858d4768e8" compoundref="d6/ddc/filedef_8cpp" startline="531" endline="740">writeDocumentation</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="de/db0/class_file_def_1ae05a431076ed53fdbe3dbac7c709c3d7" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>QCString</type>
+        <definition>QCString FileDef::getVersion</definition>
+        <argsstring>() const </argsstring>
+        <name>getVersion</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns version of this file. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/filedef.h" line="112" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/filedef.h" bodystart="112" bodyend="112"/>
+      </memberdef>
+      <memberdef kind="function" id="de/db0/class_file_def_1a19db473ad3a95f44c28b0ba2378fdac2" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
+        <type>bool</type>
+        <definition>bool FileDef::isLinkableInProject</definition>
+        <argsstring>() const </argsstring>
+        <name>isLinkableInProject</name>
+        <reimplements refid="d5/dcc/class_definition_1a845891c7206d40c3664b562636cdf9fc">isLinkableInProject</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns TRUE iff it is possible to link to this item within this project. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/filedef.h" line="114" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/filedef.cpp" bodystart="1745" bodyend="1749"/>
+        <references refid="d5/dcc/class_definition_1a2332d001413c64148e41a6f89b80f015" compoundref="d3/dea/definition_8cpp" startline="1200" endline="1213">Definition::hasDocumentation</references>
+        <references refid="d5/dcc/class_definition_1aeac1898371c546441cf689c1f66e359b" compoundref="d3/dea/definition_8cpp" startline="1766" endline="1769">Definition::isReference</references>
+        <referencedby refid="de/db0/class_file_def_1af677cee8c349fa10532b0aa5c09df396" compoundref="d4/d3a/filedef_8h" startline="116" endline="116">isLinkable</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="de/db0/class_file_def_1af677cee8c349fa10532b0aa5c09df396" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="virtual">
+        <type>bool</type>
+        <definition>bool FileDef::isLinkable</definition>
+        <argsstring>() const </argsstring>
+        <name>isLinkable</name>
+        <reimplements refid="d5/dcc/class_definition_1a4002fd79c2d4dcf667c37c83d4214deb">isLinkable</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns TRUE iff it is possible to link to this item. This can be a link to another project imported via a tag file. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/filedef.h" line="116" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/filedef.h" bodystart="116" bodyend="116"/>
+        <references refid="de/db0/class_file_def_1a19db473ad3a95f44c28b0ba2378fdac2" compoundref="d6/ddc/filedef_8cpp" startline="1745" endline="1749">isLinkableInProject</references>
+        <references refid="d5/dcc/class_definition_1aeac1898371c546441cf689c1f66e359b" compoundref="d3/dea/definition_8cpp" startline="1766" endline="1769">Definition::isReference</references>
+        <referencedby refid="d8/d3c/util_8h_1a299731fdff2d25b4c64d046d24a0ac1f" compoundref="df/d2d/util_8cpp" startline="3899" endline="4264">getDefs</referencedby>
+        <referencedby refid="de/db0/class_file_def_1a5ed9987b075539aa61654cc55d3bac28" compoundref="d6/ddc/filedef_8cpp" startline="804" endline="889">writeSource</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="de/db0/class_file_def_1ac5b097438bb5a4c2a0b459a7f7de8b5e" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool FileDef::isIncluded</definition>
+        <argsstring>(const QCString &amp;name) const </argsstring>
+        <name>isIncluded</name>
+        <param>
+          <type>const QCString &amp;</type>
+          <declname>name</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/filedef.h" line="117" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/filedef.cpp" bodystart="1254" bodyend="1258"/>
+      </memberdef>
+      <memberdef kind="function" id="de/db0/class_file_def_1ac370bca3e46c5895e2b60277b706107e" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>PackageDef *</type>
+        <definition>PackageDef* FileDef::packageDef</definition>
+        <argsstring>() const </argsstring>
+        <name>packageDef</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/filedef.h" line="119" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/filedef.h" bodystart="119" bodyend="119"/>
+      </memberdef>
+      <memberdef kind="function" id="de/db0/class_file_def_1a83d21bb61a53c6edd319cc9bdc08e524" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="d4/dd4/class_dir_def" kindref="compound">DirDef</ref> *</type>
+        <definition>DirDef* FileDef::getDirDef</definition>
+        <argsstring>() const </argsstring>
+        <name>getDirDef</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/filedef.h" line="120" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/filedef.h" bodystart="120" bodyend="120"/>
+      </memberdef>
+      <memberdef kind="function" id="de/db0/class_file_def_1adf153f39e6a86cee583f7dbb7d82b65a" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="d4/d8d/class_namespace_s_dict" kindref="compound">NamespaceSDict</ref> *</type>
+        <definition>NamespaceSDict * FileDef::getUsedNamespaces</definition>
+        <argsstring>() const </argsstring>
+        <name>getUsedNamespaces</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/filedef.h" line="121" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/filedef.cpp" bodystart="1114" bodyend="1118"/>
+      </memberdef>
+      <memberdef kind="function" id="de/db0/class_file_def_1a5d56f458c2c6861233549a68215648f7" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="d1/d50/class_s_dict" kindref="compound">SDict</ref>&lt; <ref refid="d5/dcc/class_definition" kindref="compound">Definition</ref> &gt; *</type>
+        <definition>SDict&lt;Definition&gt;* FileDef::getUsedClasses</definition>
+        <argsstring>() const </argsstring>
+        <name>getUsedClasses</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/filedef.h" line="122" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/filedef.h" bodystart="122" bodyend="122"/>
+      </memberdef>
+      <memberdef kind="function" id="de/db0/class_file_def_1a64b496d47ff8886b45b067367a36cda1" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="db/daa/class_q_list" kindref="compound">QList</ref>&lt; <ref refid="d5/dc1/struct_include_info" kindref="compound">IncludeInfo</ref> &gt; *</type>
+        <definition>QList&lt;IncludeInfo&gt;* FileDef::includeFileList</definition>
+        <argsstring>() const </argsstring>
+        <name>includeFileList</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/filedef.h" line="123" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/filedef.h" bodystart="123" bodyend="123"/>
+      </memberdef>
+      <memberdef kind="function" id="de/db0/class_file_def_1aeb30afe2773a1b340af0b5ad29d30ee4" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="db/daa/class_q_list" kindref="compound">QList</ref>&lt; <ref refid="d5/dc1/struct_include_info" kindref="compound">IncludeInfo</ref> &gt; *</type>
+        <definition>QList&lt;IncludeInfo&gt;* FileDef::includedByFileList</definition>
+        <argsstring>() const </argsstring>
+        <name>includedByFileList</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/filedef.h" line="124" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/filedef.h" bodystart="124" bodyend="124"/>
+      </memberdef>
+      <memberdef kind="function" id="de/db0/class_file_def_1ac1199e20e088fb05237bf3cd25e8033a" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void FileDef::getAllIncludeFilesRecursively</definition>
+        <argsstring>(QStrList &amp;incFiles) const </argsstring>
+        <name>getAllIncludeFilesRecursively</name>
+        <param>
+          <type>QStrList &amp;</type>
+          <declname>incFiles</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/filedef.h" line="125" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/filedef.cpp" bodystart="1772" bodyend="1776"/>
+      </memberdef>
+      <memberdef kind="function" id="de/db0/class_file_def_1ae15a5a31c32a3fc47acc8b4d6018290f" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="dd/d13/class_member_list" kindref="compound">MemberList</ref> *</type>
+        <definition>MemberList * FileDef::getMemberList</definition>
+        <argsstring>(MemberListType lt) const </argsstring>
+        <name>getMemberList</name>
+        <param>
+          <type>MemberListType</type>
+          <declname>lt</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/filedef.h" line="127" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/filedef.cpp" bodystart="1706" bodyend="1719"/>
+      </memberdef>
+      <memberdef kind="function" id="de/db0/class_file_def_1a69be4bdc0b4c2793c0d30da65bec5e7b" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>const <ref refid="db/daa/class_q_list" kindref="compound">QList</ref>&lt; <ref refid="dd/d13/class_member_list" kindref="compound">MemberList</ref> &gt; &amp;</type>
+        <definition>const QList&lt;MemberList&gt;&amp; FileDef::getMemberLists</definition>
+        <argsstring>() const </argsstring>
+        <name>getMemberLists</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/filedef.h" line="128" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/filedef.h" bodystart="128" bodyend="128"/>
+      </memberdef>
+      <memberdef kind="function" id="de/db0/class_file_def_1a520275a99d696445fbe8dfcacc14ba74" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="dc/d1e/class_member_group_s_dict" kindref="compound">MemberGroupSDict</ref> *</type>
+        <definition>MemberGroupSDict* FileDef::getMemberGroupSDict</definition>
+        <argsstring>() const </argsstring>
+        <name>getMemberGroupSDict</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/filedef.h" line="131" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/filedef.h" bodystart="131" bodyend="131"/>
+      </memberdef>
+      <memberdef kind="function" id="de/db0/class_file_def_1abe6ba0cda81e22e0f5320950bd861ca4" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="d4/d8d/class_namespace_s_dict" kindref="compound">NamespaceSDict</ref> *</type>
+        <definition>NamespaceSDict* FileDef::getNamespaceSDict</definition>
+        <argsstring>() const </argsstring>
+        <name>getNamespaceSDict</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/filedef.h" line="132" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/filedef.h" bodystart="132" bodyend="132"/>
+      </memberdef>
+      <memberdef kind="function" id="de/db0/class_file_def_1a7b4074e0b92a75975408cafac16a2dee" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="d9/d3d/class_class_s_dict" kindref="compound">ClassSDict</ref> *</type>
+        <definition>ClassSDict* FileDef::getClassSDict</definition>
+        <argsstring>() const </argsstring>
+        <name>getClassSDict</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/filedef.h" line="133" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/filedef.h" bodystart="133" bodyend="133"/>
+      </memberdef>
+      <memberdef kind="function" id="de/db0/class_file_def_1ab77cd017d7354f3bed14a639ac7cda39" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void FileDef::addSourceRef</definition>
+        <argsstring>(int line, Definition *d, MemberDef *md)</argsstring>
+        <name>addSourceRef</name>
+        <param>
+          <type>int</type>
+          <declname>line</declname>
+        </param>
+        <param>
+          <type><ref refid="d5/dcc/class_definition" kindref="compound">Definition</ref> *</type>
+          <declname>d</declname>
+        </param>
+        <param>
+          <type><ref refid="da/d09/class_member_def" kindref="compound">MemberDef</ref> *</type>
+          <declname>md</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/filedef.h" line="137" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/filedef.cpp" bodystart="1064" bodyend="1076"/>
+      </memberdef>
+      <memberdef kind="function" id="de/db0/class_file_def_1a7a73cf8448a6995be00369858d4768e8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void FileDef::writeDocumentation</definition>
+        <argsstring>(OutputList &amp;ol)</argsstring>
+        <name>writeDocumentation</name>
+        <param>
+          <type><ref refid="df/dc8/class_output_list" kindref="compound">OutputList</ref> &amp;</type>
+          <declname>ol</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Write the documentation page for this file to the file of output generators <emphasis>ol</emphasis>. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/filedef.h" line="139" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/filedef.cpp" bodystart="531" bodyend="740"/>
+        <references refid="de/db0/class_file_def_1a01e0018f5093f7cf317f968c42e51318" compoundref="d4/d3a/filedef_8h" startline="85" endline="85">anchor</references>
+        <references refid="df/dc8/class_output_list_1a22f8c17b8c14518aa55f8af3c2abab0f" compoundref="db/dd8/outputlist_8cpp" startline="81" endline="89">OutputList::disable</references>
+        <references refid="df/dc8/class_output_list_1a73f9be626eea01f1ccd1b446dcf2c003" compoundref="db/dd8/outputlist_8cpp" startline="51" endline="59">OutputList::disableAllBut</references>
+        <references refid="df/dc8/class_output_list_1a3335d926bd59e1c9e3912c4352ca5bc6" compoundref="d2/db9/outputlist_8h" startline="141" endline="142">OutputList::docify</references>
+        <references refid="df/dc8/class_output_list_1ad32603ff4c4ba4d39e0bad7ede5924bf" compoundref="db/dd8/outputlist_8cpp" startline="61" endline="69">OutputList::enableAll</references>
+        <references refid="d5/dcc/class_definition_1a55485230d99cc877348db64f01dde092" compoundref="d3/dea/definition_8cpp" startline="1811" endline="1814">Definition::getLanguage</references>
+        <references refid="de/db0/class_file_def_1aed87b82d9fc3ce4629034232b711f4a9" compoundref="d4/d3a/filedef_8h" startline="82" endline="83">getOutputFileBase</references>
+        <references refid="de/db0/class_file_def_1a5d488e6a03d18ecf3e9236b9a2fd5e5e" compoundref="d4/d3a/filedef_8h" startline="109" endline="109">getPath</references>
+        <references refid="dc/d1d/class_layout_doc_manager_1a87bc2288833b8769bd03e47c58fbba6a" compoundref="db/d16/layout_8cpp" startline="1358" endline="1362">LayoutDocManager::instance</references>
+        <references refid="d5/dcc/class_definition_1ae4fa9ca0807ec16be5b9b4606a5f4ba9" compoundref="d3/dea/definition_8cpp" startline="1335" endline="1338">Definition::localName</references>
+        <references refid="de/db0/class_file_def_1a80989971450b35c785a8fe0002e1c2db" compoundref="d6/ddc/filedef_8cpp" startline="1056" endline="1062">name</references>
+        <references refid="df/dc8/class_output_list_1a94eb1af2ea07425ef1faa539d24adcf8" compoundref="db/dd8/outputlist_8cpp" startline="123" endline="131">OutputList::popGeneratorState</references>
+        <references refid="df/dc8/class_output_list_1a885957a64f7d87aefb663c4ec903188f" compoundref="db/dd8/outputlist_8cpp" startline="113" endline="121">OutputList::pushGeneratorState</references>
+        <references refid="d5/dcc/class_definition_1a252f2febf6695acc7ac5800c683f2770" compoundref="d3/dea/definition_8cpp" startline="513" endline="537">Definition::writeDocAnchorsToTagFile</references>
+      </memberdef>
+      <memberdef kind="function" id="de/db0/class_file_def_1a8df204556e3773738f133314d8bc2fbb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void FileDef::writeMemberPages</definition>
+        <argsstring>(OutputList &amp;ol)</argsstring>
+        <name>writeMemberPages</name>
+        <param>
+          <type><ref refid="df/dc8/class_output_list" kindref="compound">OutputList</ref> &amp;</type>
+          <declname>ol</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/filedef.h" line="140" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/filedef.cpp" bodystart="742" bodyend="758"/>
+      </memberdef>
+      <memberdef kind="function" id="de/db0/class_file_def_1a2bbd376679e5b77263424269ca877626" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void FileDef::writeQuickMemberLinks</definition>
+        <argsstring>(OutputList &amp;ol, MemberDef *currentMd) const </argsstring>
+        <name>writeQuickMemberLinks</name>
+        <reimplements refid="d5/dcc/class_definition_1ad42890905d4583fe31ff65546ed55f7c">writeQuickMemberLinks</reimplements>
+        <param>
+          <type><ref refid="df/dc8/class_output_list" kindref="compound">OutputList</ref> &amp;</type>
+          <declname>ol</declname>
+        </param>
+        <param>
+          <type><ref refid="da/d09/class_member_def" kindref="compound">MemberDef</ref> *</type>
+          <declname>currentMd</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/filedef.h" line="141" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/filedef.cpp" bodystart="760" bodyend="801"/>
+      </memberdef>
+      <memberdef kind="function" id="de/db0/class_file_def_1a077e73e869533220c7a94276c40359ef" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void FileDef::writeSummaryLinks</definition>
+        <argsstring>(OutputList &amp;ol)</argsstring>
+        <name>writeSummaryLinks</name>
+        <reimplements refid="d5/dcc/class_definition_1a2ea9c73788e47eeb9eed0c77725cb932">writeSummaryLinks</reimplements>
+        <param>
+          <type><ref refid="df/dc8/class_output_list" kindref="compound">OutputList</ref> &amp;</type>
+          <declname>ol</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/filedef.h" line="142" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/filedef.cpp" bodystart="488" bodyend="526"/>
+      </memberdef>
+      <memberdef kind="function" id="de/db0/class_file_def_1a378a97570f1ac9a9795ec5700ab4ed97" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void FileDef::startParsing</definition>
+        <argsstring>()</argsstring>
+        <name>startParsing</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/filedef.h" line="144" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/filedef.cpp" bodystart="925" bodyend="927"/>
+      </memberdef>
+      <memberdef kind="function" id="de/db0/class_file_def_1a5ed9987b075539aa61654cc55d3bac28" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void FileDef::writeSource</definition>
+        <argsstring>(OutputList &amp;ol, bool sameTu, QStrList &amp;filesInSameTu)</argsstring>
+        <name>writeSource</name>
+        <param>
+          <type><ref refid="df/dc8/class_output_list" kindref="compound">OutputList</ref> &amp;</type>
+          <declname>ol</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>sameTu</declname>
+        </param>
+        <param>
+          <type>QStrList &amp;</type>
+          <declname>filesInSameTu</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Write a source listing of this file to the output </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/filedef.h" line="145" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/filedef.cpp" bodystart="804" bodyend="889"/>
+        <references refid="de/db0/class_file_def_1aae767e854233ec05108d7dccf458d27d" compoundref="d4/d3a/filedef_8h" startline="95" endline="95">absFilePath</references>
+        <references refid="df/dc8/class_output_list_1a22f8c17b8c14518aa55f8af3c2abab0f" compoundref="db/dd8/outputlist_8cpp" startline="81" endline="89">OutputList::disable</references>
+        <references refid="df/dc8/class_output_list_1a4006394472d6c49f7db435628832c49d" compoundref="db/dd8/outputlist_8cpp" startline="91" endline="99">OutputList::enable</references>
+        <references refid="df/dc8/class_output_list_1ad32603ff4c4ba4d39e0bad7ede5924bf" compoundref="db/dd8/outputlist_8cpp" startline="61" endline="69">OutputList::enableAll</references>
+        <references refid="df/dc8/class_output_list_1a9fccddf083f487654f6e6ce261fafff8" compoundref="d2/db9/outputlist_8h" startline="239" endline="240">OutputList::endCodeFragment</references>
+        <references refid="d5/dcc/class_definition_1adf7dee9591ec45a66a9a87b9c1f2f1ee" compoundref="d3/dea/definition_8cpp" startline="1736" endline="1739">Definition::getDefFileExtension</references>
+        <references refid="d5/dcc/class_definition_1a55485230d99cc877348db64f01dde092" compoundref="d3/dea/definition_8cpp" startline="1811" endline="1814">Definition::getLanguage</references>
+        <references refid="de/db0/class_file_def_1aed87b82d9fc3ce4629034232b711f4a9" compoundref="d4/d3a/filedef_8h" startline="82" endline="83">getOutputFileBase</references>
+        <references refid="d4/d0d/class_parser_manager_1a69f9874c260df7559242ec5833051ac5" compoundref="da/d55/parserintf_8h" startline="179" endline="189">ParserManager::getParser</references>
+        <references refid="de/db0/class_file_def_1a88b2109d1ccc5835bcf05e238699d673" compoundref="d6/ddc/filedef_8cpp" startline="1631" endline="1641">getSourceFileBase</references>
+        <references refid="da/dc5/class_clang_parser_1add1060dd5febd4664f6038a87d87b8cd" compoundref="da/dce/clangparser_8cpp" startline="29" endline="33">ClangParser::instance</references>
+        <references refid="de/db0/class_file_def_1af677cee8c349fa10532b0aa5c09df396" compoundref="d4/d3a/filedef_8h" startline="116" endline="116">isLinkable</references>
+        <references refid="de/db0/class_file_def_1a80989971450b35c785a8fe0002e1c2db" compoundref="d6/ddc/filedef_8cpp" startline="1056" endline="1062">name</references>
+        <references refid="d5/d84/class_parser_interface_1a4ab2f3a321c3a1d90a2f1245d204dada">ParserInterface::parseCode</references>
+        <references refid="d5/d84/class_parser_interface_1aee4fccd1865a4e8a6b9f2896811104ca">ParserInterface::resetCodeParserState</references>
+        <references refid="da/dc5/class_clang_parser_1a6e336d45ecc4ec146bab1696fb26bd77" compoundref="da/dce/clangparser_8cpp" startline="912" endline="914">ClangParser::start</references>
+        <references refid="df/dc8/class_output_list_1ae9d700d50e148d13422052cd58243624" compoundref="d2/db9/outputlist_8h" startline="237" endline="238">OutputList::startCodeFragment</references>
+        <references refid="da/dc5/class_clang_parser_1a6b4d5e7994ee8d875f5f9bf67e8550e1" compoundref="da/dce/clangparser_8cpp" startline="916" endline="918">ClangParser::switchToFile</references>
+        <references refid="da/dc5/class_clang_parser_1a85070c801afbece678e44e5af2cf4c4b" compoundref="da/dce/clangparser_8cpp" startline="929" endline="931">ClangParser::writeSources</references>
+      </memberdef>
+      <memberdef kind="function" id="de/db0/class_file_def_1a05dd5f93ab3877d299b22727a454199e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void FileDef::parseSource</definition>
+        <argsstring>(bool sameTu, QStrList &amp;filesInSameTu)</argsstring>
+        <name>parseSource</name>
+        <param>
+          <type>bool</type>
+          <declname>sameTu</declname>
+        </param>
+        <param>
+          <type>QStrList &amp;</type>
+          <declname>filesInSameTu</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/filedef.h" line="146" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/filedef.cpp" bodystart="891" bodyend="923"/>
+      </memberdef>
+      <memberdef kind="function" id="de/db0/class_file_def_1a1b008bcc891525a7b00888511f89101a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void FileDef::finishParsing</definition>
+        <argsstring>()</argsstring>
+        <name>finishParsing</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/filedef.h" line="147" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/filedef.cpp" bodystart="929" bodyend="932"/>
+      </memberdef>
+      <memberdef kind="function" id="de/db0/class_file_def_1a84f7bb05a4a830056b208d94c6c2bd59" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void FileDef::insertMember</definition>
+        <argsstring>(MemberDef *md)</argsstring>
+        <name>insertMember</name>
+        <param>
+          <type><ref refid="da/d09/class_member_def" kindref="compound">MemberDef</ref> *</type>
+          <declname>md</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Adds member definition <emphasis>md</emphasis> to the list of all members of this file </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/filedef.h" line="150" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/filedef.cpp" bodystart="963" bodyend="1014"/>
+        <references refid="d5/dcc/class_definition_1ab322705fb59551eb0e8aa3b08c4dfbee" compoundref="d3/dea/definition_8cpp" startline="1741" endline="1744">Definition::isHidden</references>
+        <references refid="de/db0/class_file_def_1a80989971450b35c785a8fe0002e1c2db" compoundref="d6/ddc/filedef_8cpp" startline="1056" endline="1062">name</references>
+        <references refid="d5/dcc/class_definition_1a99481361779e85f0c1556709de7d9e5b" compoundref="df/da1/definition_8h" startline="109" endline="109">Definition::name</references>
+      </memberdef>
+      <memberdef kind="function" id="de/db0/class_file_def_1a61ec1208cd1055a3d91cb6a2ee60451d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void FileDef::insertClass</definition>
+        <argsstring>(ClassDef *cd)</argsstring>
+        <name>insertClass</name>
+        <param>
+          <type><ref refid="d1/dcf/class_class_def" kindref="compound">ClassDef</ref> *</type>
+          <declname>cd</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Adds compound definition <emphasis>cd</emphasis> to the list of all compounds of this file </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/filedef.h" line="151" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/filedef.cpp" bodystart="1017" bodyend="1032"/>
+        <references refid="d1/d50/class_s_dict_1a121842d9858421076b81ed663034d62c" compoundref="d9/d21/sortdict_8h" startline="135" endline="145">SDict&lt; T &gt;::append</references>
+        <references refid="d1/d50/class_s_dict_1a25a85aeba441b4c855ea7be25a4741b5" compoundref="d9/d21/sortdict_8h" startline="197" endline="207">SDict&lt; T &gt;::inSort</references>
+        <references refid="d5/dcc/class_definition_1ab322705fb59551eb0e8aa3b08c4dfbee" compoundref="d3/dea/definition_8cpp" startline="1741" endline="1744">Definition::isHidden</references>
+        <references refid="d5/dcc/class_definition_1a99481361779e85f0c1556709de7d9e5b" compoundref="df/da1/definition_8h" startline="109" endline="109">Definition::name</references>
+      </memberdef>
+      <memberdef kind="function" id="de/db0/class_file_def_1a579c95408a34b048fc3cd288bfa8893c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void FileDef::insertNamespace</definition>
+        <argsstring>(NamespaceDef *nd)</argsstring>
+        <name>insertNamespace</name>
+        <param>
+          <type><ref refid="d0/d07/class_namespace_def" kindref="compound">NamespaceDef</ref> *</type>
+          <declname>nd</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Adds namespace definition <emphasis>nd</emphasis> to the list of all compounds of this file </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/filedef.h" line="152" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/filedef.cpp" bodystart="1035" bodyend="1054"/>
+        <references refid="d1/d50/class_s_dict_1a121842d9858421076b81ed663034d62c" compoundref="d9/d21/sortdict_8h" startline="135" endline="145">SDict&lt; T &gt;::append</references>
+        <references refid="d1/d50/class_s_dict_1aec67482d780157680d46f48a7ed5e7bd" compoundref="d9/d21/sortdict_8h" startline="232" endline="235">SDict&lt; T &gt;::find</references>
+        <references refid="d1/d50/class_s_dict_1a25a85aeba441b4c855ea7be25a4741b5" compoundref="d9/d21/sortdict_8h" startline="197" endline="207">SDict&lt; T &gt;::inSort</references>
+        <references refid="d5/dcc/class_definition_1ab322705fb59551eb0e8aa3b08c4dfbee" compoundref="d3/dea/definition_8cpp" startline="1741" endline="1744">Definition::isHidden</references>
+        <references refid="d5/dcc/class_definition_1a99481361779e85f0c1556709de7d9e5b" compoundref="df/da1/definition_8h" startline="109" endline="109">Definition::name</references>
+      </memberdef>
+      <memberdef kind="function" id="de/db0/class_file_def_1a8ab814579e542ea5325a6d5d386c56a2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void FileDef::computeAnchors</definition>
+        <argsstring>()</argsstring>
+        <name>computeAnchors</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Compute the HTML anchor names for all members in the class </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/filedef.h" line="153" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/filedef.cpp" bodystart="128" bodyend="132"/>
+      </memberdef>
+      <memberdef kind="function" id="de/db0/class_file_def_1a45289f4084172bcc378d6cce05f69fb3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void FileDef::setPackageDef</definition>
+        <argsstring>(PackageDef *pd)</argsstring>
+        <name>setPackageDef</name>
+        <param>
+          <type>PackageDef *</type>
+          <declname>pd</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/filedef.h" line="155" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/filedef.h" bodystart="155" bodyend="155"/>
+      </memberdef>
+      <memberdef kind="function" id="de/db0/class_file_def_1af52c3153426bb05231bc7df5e4b5e498" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void FileDef::setDirDef</definition>
+        <argsstring>(DirDef *dd)</argsstring>
+        <name>setDirDef</name>
+        <param>
+          <type><ref refid="d4/dd4/class_dir_def" kindref="compound">DirDef</ref> *</type>
+          <declname>dd</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/filedef.h" line="156" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/filedef.h" bodystart="156" bodyend="156"/>
+      </memberdef>
+      <memberdef kind="function" id="de/db0/class_file_def_1af23fb1fdd4ed42a2ea4334dea83307d2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void FileDef::addUsingDirective</definition>
+        <argsstring>(NamespaceDef *nd)</argsstring>
+        <name>addUsingDirective</name>
+        <param>
+          <type><ref refid="d0/d07/class_namespace_def" kindref="compound">NamespaceDef</ref> *</type>
+          <declname>nd</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/filedef.h" line="158" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/filedef.cpp" bodystart="1101" bodyend="1112"/>
+      </memberdef>
+      <memberdef kind="function" id="de/db0/class_file_def_1afcb259a4f68f6840806d8b7e5176f593" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void FileDef::addUsingDeclaration</definition>
+        <argsstring>(Definition *def)</argsstring>
+        <name>addUsingDeclaration</name>
+        <param>
+          <type><ref refid="d5/dcc/class_definition" kindref="compound">Definition</ref> *</type>
+          <declname>def</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/filedef.h" line="159" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/filedef.cpp" bodystart="1120" bodyend="1130"/>
+      </memberdef>
+      <memberdef kind="function" id="de/db0/class_file_def_1ac57b260b28e22bdf186dc3e57f121891" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void FileDef::combineUsingRelations</definition>
+        <argsstring>()</argsstring>
+        <name>combineUsingRelations</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/filedef.h" line="160" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/filedef.cpp" bodystart="1552" bodyend="1590"/>
+      </memberdef>
+      <memberdef kind="function" id="de/db0/class_file_def_1a95b32ac6e7685c2461046c98e9f3af90" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool FileDef::generateSourceFile</definition>
+        <argsstring>() const </argsstring>
+        <name>generateSourceFile</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/filedef.h" line="162" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/filedef.cpp" bodystart="1260" bodyend="1271"/>
+      </memberdef>
+      <memberdef kind="function" id="de/db0/class_file_def_1a31bdeeeb4ffdaeac2636c7c5027a8d6b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void FileDef::sortMemberLists</definition>
+        <argsstring>()</argsstring>
+        <name>sortMemberLists</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/filedef.h" line="163" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/filedef.cpp" bodystart="1696" bodyend="1704"/>
+      </memberdef>
+      <memberdef kind="function" id="de/db0/class_file_def_1a409353a6de84bb6fccfefb9897b6f746" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void FileDef::addIncludeDependency</definition>
+        <argsstring>(FileDef *fd, const char *incName, bool local, bool imported, bool indirect)</argsstring>
+        <name>addIncludeDependency</name>
+        <param>
+          <type><ref refid="de/db0/class_file_def" kindref="compound">FileDef</ref> *</type>
+          <declname>fd</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>incName</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>local</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>imported</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>indirect</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/filedef.h" line="165" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/filedef.cpp" bodystart="1132" bodyend="1154"/>
+      </memberdef>
+      <memberdef kind="function" id="de/db0/class_file_def_1af844c9c34c6f823c3ef1a63896eca26b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void FileDef::addIncludedByDependency</definition>
+        <argsstring>(FileDef *fd, const char *incName, bool local, bool imported)</argsstring>
+        <name>addIncludedByDependency</name>
+        <param>
+          <type><ref refid="de/db0/class_file_def" kindref="compound">FileDef</ref> *</type>
+          <declname>fd</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>incName</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>local</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>imported</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/filedef.h" line="166" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/filedef.cpp" bodystart="1230" bodyend="1252"/>
+      </memberdef>
+      <memberdef kind="function" id="de/db0/class_file_def_1a2b9aea5dff41f072486193527fd1a500" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void FileDef::addMembersToMemberGroup</definition>
+        <argsstring>()</argsstring>
+        <name>addMembersToMemberGroup</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/filedef.h" line="168" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/filedef.cpp" bodystart="934" bodyend="960"/>
+      </memberdef>
+      <memberdef kind="function" id="de/db0/class_file_def_1a7974ff660e62bc06738fa3098ffac1e8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void FileDef::distributeMemberGroupDocumentation</definition>
+        <argsstring>()</argsstring>
+        <name>distributeMemberGroupDocumentation</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/filedef.h" line="169" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/filedef.cpp" bodystart="134" bodyend="146"/>
+      </memberdef>
+      <memberdef kind="function" id="de/db0/class_file_def_1a853d5e3b1c9ce164cfd2c5c5b5bff042" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void FileDef::findSectionsInDocumentation</definition>
+        <argsstring>()</argsstring>
+        <name>findSectionsInDocumentation</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/filedef.h" line="170" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/filedef.cpp" bodystart="148" bodyend="170"/>
+      </memberdef>
+      <memberdef kind="function" id="de/db0/class_file_def_1a364521fb6ffb159910421580992445ba" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void FileDef::addIncludedUsingDirectives</definition>
+        <argsstring>()</argsstring>
+        <name>addIncludedUsingDirectives</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/filedef.h" line="171" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/filedef.cpp" bodystart="1156" bodyend="1227"/>
+      </memberdef>
+      <memberdef kind="function" id="de/db0/class_file_def_1a00c1d42689c72a489df756202e6086a7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void FileDef::addListReferences</definition>
+        <argsstring>()</argsstring>
+        <name>addListReferences</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/filedef.h" line="173" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/filedef.cpp" bodystart="1274" bodyend="1303"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="de/db0/class_file_def_1a5f297c95a2f5b8d2e1a7e3620b4c8d01" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void FileDef::acquireFileVersion</definition>
+        <argsstring>()</argsstring>
+        <name>acquireFileVersion</name>
+        <briefdescription>
+<para>Retrieves the file version from version control system. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/filedef.h" line="182" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/filedef.cpp" bodystart="1601" bodyend="1628"/>
+        <referencedby refid="de/db0/class_file_def_1aa0f1d4c412599b7c03d214c939e1ca95" compoundref="d6/ddc/filedef_8cpp" startline="77" endline="109">FileDef</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="de/db0/class_file_def_1adb5afed152f8cc0b8a9c891c63c8606d" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="dd/d13/class_member_list" kindref="compound">MemberList</ref> *</type>
+        <definition>MemberList * FileDef::createMemberList</definition>
+        <argsstring>(MemberListType lt)</argsstring>
+        <name>createMemberList</name>
+        <param>
+          <type>MemberListType</type>
+          <declname>lt</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/filedef.h" line="185" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/filedef.cpp" bodystart="1656" bodyend="1672"/>
+      </memberdef>
+      <memberdef kind="function" id="de/db0/class_file_def_1a0585066c82e320ee17943cdb732c26f7" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void FileDef::addMemberToList</definition>
+        <argsstring>(MemberListType lt, MemberDef *md)</argsstring>
+        <name>addMemberToList</name>
+        <param>
+          <type>MemberListType</type>
+          <declname>lt</declname>
+        </param>
+        <param>
+          <type><ref refid="da/d09/class_member_def" kindref="compound">MemberDef</ref> *</type>
+          <declname>md</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/filedef.h" line="186" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/filedef.cpp" bodystart="1674" bodyend="1694"/>
+      </memberdef>
+      <memberdef kind="function" id="de/db0/class_file_def_1a49a297dc5f9c80ed73903fb3fb11d88a" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void FileDef::writeMemberDeclarations</definition>
+        <argsstring>(OutputList &amp;ol, MemberListType lt, const QCString &amp;title)</argsstring>
+        <name>writeMemberDeclarations</name>
+        <param>
+          <type><ref refid="df/dc8/class_output_list" kindref="compound">OutputList</ref> &amp;</type>
+          <declname>ol</declname>
+        </param>
+        <param>
+          <type>MemberListType</type>
+          <declname>lt</declname>
+        </param>
+        <param>
+          <type>const QCString &amp;</type>
+          <declname>title</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/filedef.h" line="187" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/filedef.cpp" bodystart="1721" bodyend="1737"/>
+      </memberdef>
+      <memberdef kind="function" id="de/db0/class_file_def_1adc2910ba33298b3d75d10d0fd7639f8b" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void FileDef::writeMemberDocumentation</definition>
+        <argsstring>(OutputList &amp;ol, MemberListType lt, const QCString &amp;title)</argsstring>
+        <name>writeMemberDocumentation</name>
+        <param>
+          <type><ref refid="df/dc8/class_output_list" kindref="compound">OutputList</ref> &amp;</type>
+          <declname>ol</declname>
+        </param>
+        <param>
+          <type>MemberListType</type>
+          <declname>lt</declname>
+        </param>
+        <param>
+          <type>const QCString &amp;</type>
+          <declname>title</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/filedef.h" line="188" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/filedef.cpp" bodystart="1739" bodyend="1743"/>
+      </memberdef>
+      <memberdef kind="function" id="de/db0/class_file_def_1aadf3c1cba2f54900d2d452b016d0627d" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void FileDef::writeIncludeFiles</definition>
+        <argsstring>(OutputList &amp;ol)</argsstring>
+        <name>writeIncludeFiles</name>
+        <param>
+          <type><ref refid="df/dc8/class_output_list" kindref="compound">OutputList</ref> &amp;</type>
+          <declname>ol</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/filedef.h" line="189" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/filedef.cpp" bodystart="265" bodyend="345"/>
+      </memberdef>
+      <memberdef kind="function" id="de/db0/class_file_def_1aa98cacd641c6e7ef96e8527a8889911d" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void FileDef::writeIncludeGraph</definition>
+        <argsstring>(OutputList &amp;ol)</argsstring>
+        <name>writeIncludeGraph</name>
+        <param>
+          <type><ref refid="df/dc8/class_output_list" kindref="compound">OutputList</ref> &amp;</type>
+          <declname>ol</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/filedef.h" line="190" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/filedef.cpp" bodystart="347" bodyend="369"/>
+      </memberdef>
+      <memberdef kind="function" id="de/db0/class_file_def_1a6fcf5dfbad5cfa45ef2494aa414dfad2" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void FileDef::writeIncludedByGraph</definition>
+        <argsstring>(OutputList &amp;ol)</argsstring>
+        <name>writeIncludedByGraph</name>
+        <param>
+          <type><ref refid="df/dc8/class_output_list" kindref="compound">OutputList</ref> &amp;</type>
+          <declname>ol</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/filedef.h" line="191" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/filedef.cpp" bodystart="371" bodyend="393"/>
+      </memberdef>
+      <memberdef kind="function" id="de/db0/class_file_def_1afdda86bd94a3b23241b8f95fad2e0b3a" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void FileDef::writeMemberGroups</definition>
+        <argsstring>(OutputList &amp;ol)</argsstring>
+        <name>writeMemberGroups</name>
+        <param>
+          <type><ref refid="df/dc8/class_output_list" kindref="compound">OutputList</ref> &amp;</type>
+          <declname>ol</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/filedef.h" line="192" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/filedef.cpp" bodystart="457" bodyend="474"/>
+      </memberdef>
+      <memberdef kind="function" id="de/db0/class_file_def_1a89a7552f9dffe2b528c645eaef0a1dc8" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void FileDef::writeAuthorSection</definition>
+        <argsstring>(OutputList &amp;ol)</argsstring>
+        <name>writeAuthorSection</name>
+        <param>
+          <type><ref refid="df/dc8/class_output_list" kindref="compound">OutputList</ref> &amp;</type>
+          <declname>ol</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/filedef.h" line="193" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/filedef.cpp" bodystart="476" bodyend="486"/>
+      </memberdef>
+      <memberdef kind="function" id="de/db0/class_file_def_1a17a9d51d2646b24474fb70121aa1af7f" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void FileDef::writeSourceLink</definition>
+        <argsstring>(OutputList &amp;ol)</argsstring>
+        <name>writeSourceLink</name>
+        <param>
+          <type><ref refid="df/dc8/class_output_list" kindref="compound">OutputList</ref> &amp;</type>
+          <declname>ol</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/filedef.h" line="194" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/filedef.cpp" bodystart="396" bodyend="409"/>
+      </memberdef>
+      <memberdef kind="function" id="de/db0/class_file_def_1a8b20c6137ad62bb56e91146760086852" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void FileDef::writeNamespaceDeclarations</definition>
+        <argsstring>(OutputList &amp;ol, const QCString &amp;title, bool isConstantGroup)</argsstring>
+        <name>writeNamespaceDeclarations</name>
+        <param>
+          <type><ref refid="df/dc8/class_output_list" kindref="compound">OutputList</ref> &amp;</type>
+          <declname>ol</declname>
+        </param>
+        <param>
+          <type>const QCString &amp;</type>
+          <declname>title</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>isConstantGroup</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/filedef.h" line="196" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/filedef.cpp" bodystart="411" bodyend="416"/>
+      </memberdef>
+      <memberdef kind="function" id="de/db0/class_file_def_1a5b34a8a780cb4b867b659dd91333bdaa" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void FileDef::writeClassDeclarations</definition>
+        <argsstring>(OutputList &amp;ol, const QCString &amp;title)</argsstring>
+        <name>writeClassDeclarations</name>
+        <param>
+          <type><ref refid="df/dc8/class_output_list" kindref="compound">OutputList</ref> &amp;</type>
+          <declname>ol</declname>
+        </param>
+        <param>
+          <type>const QCString &amp;</type>
+          <declname>title</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/filedef.h" line="197" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/filedef.cpp" bodystart="418" bodyend="422"/>
+      </memberdef>
+      <memberdef kind="function" id="de/db0/class_file_def_1a1a9cb8f341b1f63c9fcf2f65cb3d780f" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void FileDef::writeInlineClasses</definition>
+        <argsstring>(OutputList &amp;ol)</argsstring>
+        <name>writeInlineClasses</name>
+        <param>
+          <type><ref refid="df/dc8/class_output_list" kindref="compound">OutputList</ref> &amp;</type>
+          <declname>ol</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/filedef.h" line="198" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/filedef.cpp" bodystart="424" bodyend="427"/>
+      </memberdef>
+      <memberdef kind="function" id="de/db0/class_file_def_1aba393b1bd159e3d16f63671eb3a85291" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void FileDef::startMemberDeclarations</definition>
+        <argsstring>(OutputList &amp;ol)</argsstring>
+        <name>startMemberDeclarations</name>
+        <param>
+          <type><ref refid="df/dc8/class_output_list" kindref="compound">OutputList</ref> &amp;</type>
+          <declname>ol</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/filedef.h" line="199" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/filedef.cpp" bodystart="429" bodyend="432"/>
+      </memberdef>
+      <memberdef kind="function" id="de/db0/class_file_def_1a94cb98b238e233ac9005489faee4f3e2" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void FileDef::endMemberDeclarations</definition>
+        <argsstring>(OutputList &amp;ol)</argsstring>
+        <name>endMemberDeclarations</name>
+        <param>
+          <type><ref refid="df/dc8/class_output_list" kindref="compound">OutputList</ref> &amp;</type>
+          <declname>ol</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/filedef.h" line="200" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/filedef.cpp" bodystart="434" bodyend="437"/>
+      </memberdef>
+      <memberdef kind="function" id="de/db0/class_file_def_1a86a849fff2a9d99ef9746ac8d3a3f320" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void FileDef::startMemberDocumentation</definition>
+        <argsstring>(OutputList &amp;ol)</argsstring>
+        <name>startMemberDocumentation</name>
+        <param>
+          <type><ref refid="df/dc8/class_output_list" kindref="compound">OutputList</ref> &amp;</type>
+          <declname>ol</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/filedef.h" line="201" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/filedef.cpp" bodystart="439" bodyend="446"/>
+      </memberdef>
+      <memberdef kind="function" id="de/db0/class_file_def_1a29917e91b02de5c4a082071f51a7929b" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void FileDef::endMemberDocumentation</definition>
+        <argsstring>(OutputList &amp;ol)</argsstring>
+        <name>endMemberDocumentation</name>
+        <param>
+          <type><ref refid="df/dc8/class_output_list" kindref="compound">OutputList</ref> &amp;</type>
+          <declname>ol</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/filedef.h" line="202" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/filedef.cpp" bodystart="448" bodyend="455"/>
+      </memberdef>
+      <memberdef kind="function" id="de/db0/class_file_def_1af94993517c9192bcced8c7df94ac8111" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void FileDef::writeDetailedDescription</definition>
+        <argsstring>(OutputList &amp;ol, const QCString &amp;title)</argsstring>
+        <name>writeDetailedDescription</name>
+        <param>
+          <type><ref refid="df/dc8/class_output_list" kindref="compound">OutputList</ref> &amp;</type>
+          <declname>ol</declname>
+        </param>
+        <param>
+          <type>const QCString &amp;</type>
+          <declname>title</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/filedef.h" line="203" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/filedef.cpp" bodystart="172" bodyend="230"/>
+      </memberdef>
+      <memberdef kind="function" id="de/db0/class_file_def_1a89716c7bce5a26498c89024c54f0aa00" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void FileDef::writeBriefDescription</definition>
+        <argsstring>(OutputList &amp;ol)</argsstring>
+        <name>writeBriefDescription</name>
+        <param>
+          <type><ref refid="df/dc8/class_output_list" kindref="compound">OutputList</ref> &amp;</type>
+          <declname>ol</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/filedef.h" line="204" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/filedef.cpp" bodystart="232" bodyend="263"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>A model of a file symbol. </para>    </briefdescription>
+    <detaileddescription>
+<para>An object of this class contains all file information that is gathered. This includes the members and compounds defined in the file.</para><para>The member <ref refid="de/db0/class_file_def_1a7a73cf8448a6995be00369858d4768e8" kindref="member">writeDocumentation()</ref> can be used to generate the page of documentation to HTML and LaTeX. </para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="3405">
+        <label>Definition</label>
+        <link refid="d5/dcc/class_definition"/>
+        <childnode refid="3406" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3404">
+        <label>FileDef</label>
+        <link refid="de/db0/class_file_def"/>
+        <childnode refid="3405" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3406">
+        <label>DefinitionIntf</label>
+        <link refid="d9/d4a/class_definition_intf"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="3408">
+        <label>Definition</label>
+        <link refid="d5/dcc/class_definition"/>
+        <childnode refid="3409" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3407">
+        <label>FileDef</label>
+        <link refid="de/db0/class_file_def"/>
+        <childnode refid="3408" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3409">
+        <label>DefinitionIntf</label>
+        <link refid="d9/d4a/class_definition_intf"/>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/filedef.h" line="64" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/filedef.h" bodystart="63" bodyend="228"/>
+    <listofallmembers>
+      <member refid="de/db0/class_file_def_1aae767e854233ec05108d7dccf458d27d" prot="public" virt="non-virtual"><scope>FileDef</scope><name>absFilePath</name></member>
+      <member refid="de/db0/class_file_def_1a5f297c95a2f5b8d2e1a7e3620b4c8d01" prot="protected" virt="non-virtual"><scope>FileDef</scope><name>acquireFileVersion</name></member>
+      <member refid="de/db0/class_file_def_1af844c9c34c6f823c3ef1a63896eca26b" prot="public" virt="non-virtual"><scope>FileDef</scope><name>addIncludedByDependency</name></member>
+      <member refid="de/db0/class_file_def_1a409353a6de84bb6fccfefb9897b6f746" prot="public" virt="non-virtual"><scope>FileDef</scope><name>addIncludeDependency</name></member>
+      <member refid="de/db0/class_file_def_1a364521fb6ffb159910421580992445ba" prot="public" virt="non-virtual"><scope>FileDef</scope><name>addIncludedUsingDirectives</name></member>
+      <member refid="d5/dcc/class_definition_1a7acd14f8896e56cc2d6dcadd2cf14be7" prot="public" virt="virtual"><scope>FileDef</scope><name>addInnerCompound</name></member>
+      <member refid="de/db0/class_file_def_1a00c1d42689c72a489df756202e6086a7" prot="public" virt="non-virtual"><scope>FileDef</scope><name>addListReferences</name></member>
+      <member refid="de/db0/class_file_def_1a2b9aea5dff41f072486193527fd1a500" prot="public" virt="non-virtual"><scope>FileDef</scope><name>addMembersToMemberGroup</name></member>
+      <member refid="de/db0/class_file_def_1a0585066c82e320ee17943cdb732c26f7" prot="private" virt="non-virtual"><scope>FileDef</scope><name>addMemberToList</name></member>
+      <member refid="d5/dcc/class_definition_1a2314524366e46c9d0cd8bcb528d6238d" prot="public" virt="non-virtual"><scope>FileDef</scope><name>addSectionsToDefinition</name></member>
+      <member refid="d5/dcc/class_definition_1af4b179bb64137b2e0b3da44b7b4d0f24" prot="public" virt="non-virtual"><scope>FileDef</scope><name>addSectionsToIndex</name></member>
+      <member refid="de/db0/class_file_def_1ab77cd017d7354f3bed14a639ac7cda39" prot="public" virt="non-virtual"><scope>FileDef</scope><name>addSourceRef</name></member>
+      <member refid="d5/dcc/class_definition_1a06d25c9164855c20278be38829e2d72e" prot="public" virt="non-virtual"><scope>FileDef</scope><name>addSourceReferencedBy</name></member>
+      <member refid="d5/dcc/class_definition_1a153cd19977164802044d4602ee212aa3" prot="public" virt="non-virtual"><scope>FileDef</scope><name>addSourceReferences</name></member>
+      <member refid="de/db0/class_file_def_1afcb259a4f68f6840806d8b7e5176f593" prot="public" virt="non-virtual"><scope>FileDef</scope><name>addUsingDeclaration</name></member>
+      <member refid="de/db0/class_file_def_1af23fb1fdd4ed42a2ea4334dea83307d2" prot="public" virt="non-virtual"><scope>FileDef</scope><name>addUsingDirective</name></member>
+      <member refid="de/db0/class_file_def_1a01e0018f5093f7cf317f968c42e51318" prot="public" virt="virtual"><scope>FileDef</scope><name>anchor</name></member>
+      <member refid="d5/dcc/class_definition_1a748b55a1bf2566464f1e46daf1fd2ef0" prot="public" virt="non-virtual"><scope>FileDef</scope><name>briefDescription</name></member>
+      <member refid="d5/dcc/class_definition_1ad2f43fad51460d0faa291581df896270" prot="public" virt="non-virtual"><scope>FileDef</scope><name>briefDescriptionAsTooltip</name></member>
+      <member refid="d5/dcc/class_definition_1a3c37121dca58fcb1c3d499b52e0a70fd" prot="public" virt="non-virtual"><scope>FileDef</scope><name>briefFile</name></member>
+      <member refid="d5/dcc/class_definition_1a26799d5c03900e931fb1382a5aa56bdd" prot="public" virt="non-virtual"><scope>FileDef</scope><name>briefLine</name></member>
+      <member refid="de/db0/class_file_def_1ac57b260b28e22bdf186dc3e57f121891" prot="public" virt="non-virtual"><scope>FileDef</scope><name>combineUsingRelations</name></member>
+      <member refid="de/db0/class_file_def_1a8ab814579e542ea5325a6d5d386c56a2" prot="public" virt="non-virtual"><scope>FileDef</scope><name>computeAnchors</name></member>
+      <member refid="d5/dcc/class_definition_1ad320a919f0dcfd4738b7d0f0045b42fe" prot="public" virt="non-virtual"><scope>FileDef</scope><name>convertNameToFile</name></member>
+      <member refid="de/db0/class_file_def_1adb5afed152f8cc0b8a9c891c63c8606d" prot="private" virt="non-virtual"><scope>FileDef</scope><name>createMemberList</name></member>
+      <member refid="d5/dcc/class_definition_1afdf318b0b806e2b5b1fcdcf682bc338b" prot="public" virt="non-virtual"><scope>FileDef</scope><name>Definition</name></member>
+      <member refid="d5/dcc/class_definition_1a952d6c4a004165c823988111910e08cd" prot="protected" virt="non-virtual"><scope>FileDef</scope><name>Definition</name></member>
+      <member refid="d9/d4a/class_definition_intf_1a2589f23752497ae83e5894eb25bfe688" prot="public" virt="non-virtual"><scope>FileDef</scope><name>DefinitionIntf</name></member>
+      <member refid="de/db0/class_file_def_1a07b59f78f008528d1fe668f263f5782b" prot="public" virt="virtual"><scope>FileDef</scope><name>definitionType</name></member>
+      <member refid="d9/d4a/class_definition_intf_1ada60114bc621669dd8c19edfc6421766" prot="public" virt="non-virtual"><scope>FileDef</scope><name>DefType</name></member>
+      <member refid="de/db0/class_file_def_1ab075e2ace8cba475de669e96ae19c7a2" prot="public" virt="virtual"><scope>FileDef</scope><name>displayName</name></member>
+      <member refid="de/db0/class_file_def_1a7974ff660e62bc06738fa3098ffac1e8" prot="public" virt="non-virtual"><scope>FileDef</scope><name>distributeMemberGroupDocumentation</name></member>
+      <member refid="d5/dcc/class_definition_1a7c5f8f793b451b8e9bbc68b40a9e8faa" prot="public" virt="non-virtual"><scope>FileDef</scope><name>docFile</name></member>
+      <member refid="d5/dcc/class_definition_1a1eddb1e4af4660518113a159e76ca983" prot="public" virt="non-virtual"><scope>FileDef</scope><name>docLine</name></member>
+      <member refid="de/db0/class_file_def_1ae07162f94ec462b163e0ff743023f71c" prot="public" virt="non-virtual"><scope>FileDef</scope><name>docName</name></member>
+      <member refid="d5/dcc/class_definition_1a9ed55eb9487bcf1fd7ebb4a967e7b3a1" prot="public" virt="non-virtual"><scope>FileDef</scope><name>documentation</name></member>
+      <member refid="de/db0/class_file_def_1a94cb98b238e233ac9005489faee4f3e2" prot="private" virt="non-virtual"><scope>FileDef</scope><name>endMemberDeclarations</name></member>
+      <member refid="de/db0/class_file_def_1a29917e91b02de5c4a082071f51a7929b" prot="private" virt="non-virtual"><scope>FileDef</scope><name>endMemberDocumentation</name></member>
+      <member refid="de/db0/class_file_def_1aa0f1d4c412599b7c03d214c939e1ca95" prot="public" virt="non-virtual"><scope>FileDef</scope><name>FileDef</name></member>
+      <member refid="de/db0/class_file_def_1a5038284eb3ca46435712b365a038056a" prot="private" virt="non-virtual"><scope>FileDef</scope><name>FileName</name></member>
+      <member refid="de/db0/class_file_def_1ab68cdf42899ae3dd24cb6ead2a2145a0" prot="public" virt="non-virtual"><scope>FileDef</scope><name>fileName</name></member>
+      <member refid="d5/dcc/class_definition_1ad0ab125ac1d11e17d8cd5a4e5a0eea23" prot="public" virt="virtual"><scope>FileDef</scope><name>findInnerCompound</name></member>
+      <member refid="de/db0/class_file_def_1a853d5e3b1c9ce164cfd2c5c5b5bff042" prot="public" virt="non-virtual"><scope>FileDef</scope><name>findSectionsInDocumentation</name></member>
+      <member refid="de/db0/class_file_def_1a1b008bcc891525a7b00888511f89101a" prot="public" virt="non-virtual"><scope>FileDef</scope><name>finishParsing</name></member>
+      <member refid="de/db0/class_file_def_1a35cc830de6fcd806519b598217001e5a" prot="public" virt="non-virtual"><scope>FileDef</scope><name>generatedFileNames</name></member>
+      <member refid="de/db0/class_file_def_1a95b32ac6e7685c2461046c98e9f3af90" prot="public" virt="non-virtual"><scope>FileDef</scope><name>generateSourceFile</name></member>
+      <member refid="de/db0/class_file_def_1ac1199e20e088fb05237bf3cd25e8033a" prot="public" virt="non-virtual"><scope>FileDef</scope><name>getAllIncludeFilesRecursively</name></member>
+      <member refid="d5/dcc/class_definition_1aba56816cd19b24f234c7fd3f4f7ebe47" prot="public" virt="non-virtual"><scope>FileDef</scope><name>getBodyDef</name></member>
+      <member refid="de/db0/class_file_def_1a7b4074e0b92a75975408cafac16a2dee" prot="public" virt="non-virtual"><scope>FileDef</scope><name>getClassSDict</name></member>
+      <member refid="d5/dcc/class_definition_1abc16ee564cb0be049ec0f17e2adf0bca" prot="public" virt="non-virtual"><scope>FileDef</scope><name>getDefColumn</name></member>
+      <member refid="d5/dcc/class_definition_1adf7dee9591ec45a66a9a87b9c1f2f1ee" prot="public" virt="non-virtual"><scope>FileDef</scope><name>getDefFileExtension</name></member>
+      <member refid="d5/dcc/class_definition_1ad399d0ee903e4102c479c2b099b0a051" prot="public" virt="non-virtual"><scope>FileDef</scope><name>getDefFileName</name></member>
+      <member refid="d5/dcc/class_definition_1adf4945611e38928b4dd6846c912d4b3a" prot="public" virt="non-virtual"><scope>FileDef</scope><name>getDefLine</name></member>
+      <member refid="de/db0/class_file_def_1a83d21bb61a53c6edd319cc9bdc08e524" prot="public" virt="non-virtual"><scope>FileDef</scope><name>getDirDef</name></member>
+      <member refid="d5/dcc/class_definition_1a11056f29c65e1dddc184036bce5d5456" prot="public" virt="non-virtual"><scope>FileDef</scope><name>getEndBodyLine</name></member>
+      <member refid="de/db0/class_file_def_1a359ac2e3984b4cf00bbfaa1d962fe37d" prot="public" virt="non-virtual"><scope>FileDef</scope><name>getFileBase</name></member>
+      <member refid="d5/dcc/class_definition_1a55485230d99cc877348db64f01dde092" prot="public" virt="non-virtual"><scope>FileDef</scope><name>getLanguage</name></member>
+      <member refid="de/db0/class_file_def_1a520275a99d696445fbe8dfcacc14ba74" prot="public" virt="non-virtual"><scope>FileDef</scope><name>getMemberGroupSDict</name></member>
+      <member refid="de/db0/class_file_def_1ae15a5a31c32a3fc47acc8b4d6018290f" prot="public" virt="non-virtual"><scope>FileDef</scope><name>getMemberList</name></member>
+      <member refid="de/db0/class_file_def_1a69be4bdc0b4c2793c0d30da65bec5e7b" prot="public" virt="non-virtual"><scope>FileDef</scope><name>getMemberLists</name></member>
+      <member refid="de/db0/class_file_def_1abe6ba0cda81e22e0f5320950bd861ca4" prot="public" virt="non-virtual"><scope>FileDef</scope><name>getNamespaceSDict</name></member>
+      <member refid="d5/dcc/class_definition_1ab82806456f4f27020863477cfbcdecd3" prot="public" virt="virtual"><scope>FileDef</scope><name>getOuterScope</name></member>
+      <member refid="de/db0/class_file_def_1aed87b82d9fc3ce4629034232b711f4a9" prot="public" virt="virtual"><scope>FileDef</scope><name>getOutputFileBase</name></member>
+      <member refid="de/db0/class_file_def_1a5d488e6a03d18ecf3e9236b9a2fd5e5e" prot="public" virt="non-virtual"><scope>FileDef</scope><name>getPath</name></member>
+      <member refid="d5/dcc/class_definition_1a266bc8f350de23e01335d4d674995dcf" prot="public" virt="virtual"><scope>FileDef</scope><name>getReference</name></member>
+      <member refid="d5/dcc/class_definition_1a2648ef330f15e171cb3b077ced5195db" prot="public" virt="non-virtual"><scope>FileDef</scope><name>getReferencedByMembers</name></member>
+      <member refid="d5/dcc/class_definition_1a2d9e83cac9c3816d2469be611bf387e6" prot="public" virt="non-virtual"><scope>FileDef</scope><name>getReferencesMembers</name></member>
+      <member refid="de/db0/class_file_def_1a1fe9fd5e6f8b50c24510d718c2ff2934" prot="public" virt="non-virtual"><scope>FileDef</scope><name>getSourceDefinition</name></member>
+      <member refid="de/db0/class_file_def_1a88b2109d1ccc5835bcf05e238699d673" prot="public" virt="virtual"><scope>FileDef</scope><name>getSourceFileBase</name></member>
+      <member refid="de/db0/class_file_def_1a6f002fe1d775e3ea73c590cba1c141fe" prot="public" virt="non-virtual"><scope>FileDef</scope><name>getSourceMember</name></member>
+      <member refid="d5/dcc/class_definition_1ac1b628c3fd8382f3c8f365c5af01bc87" prot="public" virt="non-virtual"><scope>FileDef</scope><name>getStartBodyLine</name></member>
+      <member refid="de/db0/class_file_def_1a5d56f458c2c6861233549a68215648f7" prot="public" virt="non-virtual"><scope>FileDef</scope><name>getUsedClasses</name></member>
+      <member refid="de/db0/class_file_def_1adf153f39e6a86cee583f7dbb7d82b65a" prot="public" virt="non-virtual"><scope>FileDef</scope><name>getUsedNamespaces</name></member>
+      <member refid="de/db0/class_file_def_1ae05a431076ed53fdbe3dbac7c709c3d7" prot="public" virt="non-virtual"><scope>FileDef</scope><name>getVersion</name></member>
+      <member refid="d5/dcc/class_definition_1a2332d001413c64148e41a6f89b80f015" prot="public" virt="virtual"><scope>FileDef</scope><name>hasDocumentation</name></member>
+      <member refid="d5/dcc/class_definition_1aeb4c2067227675b9aeb7815879bf98ce" prot="public" virt="non-virtual"><scope>FileDef</scope><name>hasSections</name></member>
+      <member refid="d5/dcc/class_definition_1a92f28d12009f388a30c5e564e5ea3493" prot="public" virt="virtual"><scope>FileDef</scope><name>hasUserDocumentation</name></member>
+      <member refid="d5/dcc/class_definition_1a19d4680f1998fc384e37c90106a4ed61" prot="public" virt="non-virtual"><scope>FileDef</scope><name>id</name></member>
+      <member refid="d5/dcc/class_definition_1af85914f95149aa84386f479ff075fd86" prot="public" virt="non-virtual"><scope>FileDef</scope><name>inbodyDocumentation</name></member>
+      <member refid="d5/dcc/class_definition_1afcb2ccbaedf4f06fee6f332c3468f370" prot="public" virt="non-virtual"><scope>FileDef</scope><name>inbodyFile</name></member>
+      <member refid="d5/dcc/class_definition_1aa443907e0f5fe04afb2851068c95d706" prot="public" virt="non-virtual"><scope>FileDef</scope><name>inbodyLine</name></member>
+      <member refid="de/db0/class_file_def_1aeb30afe2773a1b340af0b5ad29d30ee4" prot="public" virt="non-virtual"><scope>FileDef</scope><name>includedByFileList</name></member>
+      <member refid="de/db0/class_file_def_1a64b496d47ff8886b45b067367a36cda1" prot="public" virt="non-virtual"><scope>FileDef</scope><name>includeFileList</name></member>
+      <member refid="de/db0/class_file_def_1a7ae51c3b256e80b82f83f5b550402c97" prot="public" virt="non-virtual"><scope>FileDef</scope><name>includeName</name></member>
+      <member refid="de/db0/class_file_def_1a61ec1208cd1055a3d91cb6a2ee60451d" prot="public" virt="non-virtual"><scope>FileDef</scope><name>insertClass</name></member>
+      <member refid="de/db0/class_file_def_1a84f7bb05a4a830056b208d94c6c2bd59" prot="public" virt="non-virtual"><scope>FileDef</scope><name>insertMember</name></member>
+      <member refid="de/db0/class_file_def_1a579c95408a34b048fc3cd288bfa8893c" prot="public" virt="non-virtual"><scope>FileDef</scope><name>insertNamespace</name></member>
+      <member refid="d5/dcc/class_definition_1acaf5924f905bf4d71c9adf4c78786eab" prot="public" virt="non-virtual"><scope>FileDef</scope><name>isArtificial</name></member>
+      <member refid="de/db0/class_file_def_1ad04cfe6d74948db700b140fbbf371792" prot="public" virt="non-virtual"><scope>FileDef</scope><name>isDocumentationFile</name></member>
+      <member refid="d5/dcc/class_definition_1ab322705fb59551eb0e8aa3b08c4dfbee" prot="public" virt="non-virtual"><scope>FileDef</scope><name>isHidden</name></member>
+      <member refid="de/db0/class_file_def_1ac5b097438bb5a4c2a0b459a7f7de8b5e" prot="public" virt="non-virtual"><scope>FileDef</scope><name>isIncluded</name></member>
+      <member refid="de/db0/class_file_def_1af677cee8c349fa10532b0aa5c09df396" prot="public" virt="virtual"><scope>FileDef</scope><name>isLinkable</name></member>
+      <member refid="de/db0/class_file_def_1a19db473ad3a95f44c28b0ba2378fdac2" prot="public" virt="virtual"><scope>FileDef</scope><name>isLinkableInProject</name></member>
+      <member refid="d5/dcc/class_definition_1aeac1898371c546441cf689c1f66e359b" prot="public" virt="virtual"><scope>FileDef</scope><name>isReference</name></member>
+      <member refid="de/db0/class_file_def_1a55085b4099e8e80109dd8dd7ce87e5a5" prot="public" virt="non-virtual"><scope>FileDef</scope><name>isSource</name></member>
+      <member refid="d5/dcc/class_definition_1a9e3fcb5ffe5c7db9d32c1a5a53bcf091" prot="public" virt="virtual"><scope>FileDef</scope><name>isVisible</name></member>
+      <member refid="d5/dcc/class_definition_1a451f82aa30e6eff67c0d9a0e919a105d" prot="public" virt="virtual"><scope>FileDef</scope><name>isVisibleInProject</name></member>
+      <member refid="d5/dcc/class_definition_1ae4fa9ca0807ec16be5b9b4606a5f4ba9" prot="public" virt="non-virtual"><scope>FileDef</scope><name>localName</name></member>
+      <member refid="de/db0/class_file_def_1aafb3f9b76cc19d7d8f2ab86af0f3d273" prot="private" virt="non-virtual"><scope>FileDef</scope><name>m_classSDict</name></member>
+      <member refid="de/db0/class_file_def_1afa4b08d0f7713675844cf6ca2a4b0381" prot="private" virt="non-virtual"><scope>FileDef</scope><name>m_dir</name></member>
+      <member refid="de/db0/class_file_def_1a50a3bd62dd57bd62e5cde7e6a0af8a7c" prot="private" virt="non-virtual"><scope>FileDef</scope><name>m_diskName</name></member>
+      <member refid="de/db0/class_file_def_1a6a4134e46be4d7ac30b74e3cef768144" prot="private" virt="non-virtual"><scope>FileDef</scope><name>m_docname</name></member>
+      <member refid="de/db0/class_file_def_1ae7e97d66714809e7e53ef6e824f6ea9d" prot="private" virt="non-virtual"><scope>FileDef</scope><name>m_fileName</name></member>
+      <member refid="de/db0/class_file_def_1a8dcea97467ed6a82529b9beca31b7e96" prot="private" virt="non-virtual"><scope>FileDef</scope><name>m_filePath</name></member>
+      <member refid="de/db0/class_file_def_1a0f03ff17076fefd1beed9fa980d58ee0" prot="private" virt="non-virtual"><scope>FileDef</scope><name>m_fileVersion</name></member>
+      <member refid="de/db0/class_file_def_1aee37a91a0fca9e2eaf7ced61cb557c12" prot="private" virt="non-virtual"><scope>FileDef</scope><name>m_includedByDict</name></member>
+      <member refid="de/db0/class_file_def_1a8053b57f3c90b4cd35a43bdd8c7b287c" prot="private" virt="non-virtual"><scope>FileDef</scope><name>m_includedByList</name></member>
+      <member refid="de/db0/class_file_def_1a9848d228d0001bc06d2a1a855e9d6865" prot="private" virt="non-virtual"><scope>FileDef</scope><name>m_includeDict</name></member>
+      <member refid="de/db0/class_file_def_1a98fc8caf1f132bd9f21465caeb61872f" prot="private" virt="non-virtual"><scope>FileDef</scope><name>m_includeList</name></member>
+      <member refid="de/db0/class_file_def_1ab7b9fc9aec89cc935e0a5249f34213d2" prot="private" virt="non-virtual"><scope>FileDef</scope><name>m_isSource</name></member>
+      <member refid="de/db0/class_file_def_1a866ae176ad56f6047df59bc0c69ebe7c" prot="private" virt="non-virtual"><scope>FileDef</scope><name>m_memberGroupSDict</name></member>
+      <member refid="de/db0/class_file_def_1ae27a7f8ad9be054545dab072f3cfc936" prot="private" virt="non-virtual"><scope>FileDef</scope><name>m_memberLists</name></member>
+      <member refid="de/db0/class_file_def_1a506db0023e2d98ca366e80db58190975" prot="private" virt="non-virtual"><scope>FileDef</scope><name>m_namespaceSDict</name></member>
+      <member refid="de/db0/class_file_def_1aae1712c1fe423e1b15de93923402ca52" prot="private" virt="non-virtual"><scope>FileDef</scope><name>m_package</name></member>
+      <member refid="de/db0/class_file_def_1ab5ee4b6b6ca76640dccebf27ca30e700" prot="private" virt="non-virtual"><scope>FileDef</scope><name>m_path</name></member>
+      <member refid="de/db0/class_file_def_1a87af88738c7462b0bd7f8aac0e41cccf" prot="private" virt="non-virtual"><scope>FileDef</scope><name>m_srcDefDict</name></member>
+      <member refid="de/db0/class_file_def_1ae94f778d0ad70bc806def3d97da3977a" prot="private" virt="non-virtual"><scope>FileDef</scope><name>m_srcMemberDict</name></member>
+      <member refid="de/db0/class_file_def_1acbad4e23a4fe5184d478f62bf4196164" prot="private" virt="non-virtual"><scope>FileDef</scope><name>m_subGrouping</name></member>
+      <member refid="de/db0/class_file_def_1a88641cb35d0bbbe9c823921874ee4e0d" prot="private" virt="non-virtual"><scope>FileDef</scope><name>m_usingDeclList</name></member>
+      <member refid="de/db0/class_file_def_1acb7acbeac8b99661b97412a84745ec0d" prot="private" virt="non-virtual"><scope>FileDef</scope><name>m_usingDirList</name></member>
+      <member refid="d5/dcc/class_definition_1aad0c6a6beb616a7f5530c0286b9d4bcc" prot="public" virt="non-virtual"><scope>FileDef</scope><name>makePartOfGroup</name></member>
+      <member refid="d5/dcc/class_definition_1ac7a24516e805c39e3f3542c387601790" prot="public" virt="non-virtual"><scope>FileDef</scope><name>mergeRefItems</name></member>
+      <member refid="de/db0/class_file_def_1a80989971450b35c785a8fe0002e1c2db" prot="public" virt="non-virtual"><scope>FileDef</scope><name>name</name></member>
+      <member refid="d5/dcc/class_definition_1a92f5e4fd230d38f33163943f399085d4" prot="public" virt="non-virtual"><scope>FileDef</scope><name>navigationPathAsString</name></member>
+      <member refid="de/db0/class_file_def_1ac370bca3e46c5895e2b60277b706107e" prot="public" virt="non-virtual"><scope>FileDef</scope><name>packageDef</name></member>
+      <member refid="de/db0/class_file_def_1a05dd5f93ab3877d299b22727a454199e" prot="public" virt="non-virtual"><scope>FileDef</scope><name>parseSource</name></member>
+      <member refid="d5/dcc/class_definition_1a16251e130cfce01ff6734e46f17fb934" prot="public" virt="non-virtual"><scope>FileDef</scope><name>partOfGroups</name></member>
+      <member refid="d5/dcc/class_definition_1a3e43d0f37d4662880d0931c9150e5671" prot="public" virt="non-virtual"><scope>FileDef</scope><name>pathFragment</name></member>
+      <member refid="d5/dcc/class_definition_1aacd9b72da80deb37974a18d2001ed715" prot="public" virt="virtual"><scope>FileDef</scope><name>qualifiedName</name></member>
+      <member refid="d5/dcc/class_definition_1a3bef4741c9dfa6cd2287ca4c9f30f775" prot="public" virt="non-virtual"><scope>FileDef</scope><name>setArtificial</name></member>
+      <member refid="d5/dcc/class_definition_1a11177a4416320b6dd561b314d02c607a" prot="public" virt="non-virtual"><scope>FileDef</scope><name>setBodyDef</name></member>
+      <member refid="d5/dcc/class_definition_1a7c5466b95c0544781c25c93d3ed8a543" prot="public" virt="non-virtual"><scope>FileDef</scope><name>setBodySegment</name></member>
+      <member refid="d5/dcc/class_definition_1a5f6f7e25d740acb612b57365f9fccfc2" prot="public" virt="virtual"><scope>FileDef</scope><name>setBriefDescription</name></member>
+      <member refid="de/db0/class_file_def_1af52c3153426bb05231bc7df5e4b5e498" prot="public" virt="non-virtual"><scope>FileDef</scope><name>setDirDef</name></member>
+      <member refid="d5/dcc/class_definition_1af13e2148f395d2704535e52f50ccc418" prot="public" virt="virtual"><scope>FileDef</scope><name>setDocumentation</name></member>
+      <member refid="d5/dcc/class_definition_1a7166ab248989769fe2dc4f0d56b72a05" prot="public" virt="virtual"><scope>FileDef</scope><name>setHidden</name></member>
+      <member refid="d5/dcc/class_definition_1ae653664eee43cfe5992cd91377f8e91b" prot="public" virt="non-virtual"><scope>FileDef</scope><name>setId</name></member>
+      <member refid="d5/dcc/class_definition_1a829959b92985d0264b9fc17277bf91b4" prot="public" virt="virtual"><scope>FileDef</scope><name>setInbodyDocumentation</name></member>
+      <member refid="d5/dcc/class_definition_1abd33a001047f6842f63f551b1ce47942" prot="public" virt="non-virtual"><scope>FileDef</scope><name>setLanguage</name></member>
+      <member refid="d5/dcc/class_definition_1ac20deb4c9dab79868fa8ec4f42ac84ff" prot="public" virt="non-virtual"><scope>FileDef</scope><name>setLocalName</name></member>
+      <member refid="d5/dcc/class_definition_1aaa3c1632bd89cb3db7c7713df4e36db0" prot="public" virt="non-virtual"><scope>FileDef</scope><name>setName</name></member>
+      <member refid="d5/dcc/class_definition_1a222010f3d2b52bf76427034d07e0ff56" prot="public" virt="virtual"><scope>FileDef</scope><name>setOuterScope</name></member>
+      <member refid="de/db0/class_file_def_1a45289f4084172bcc378d6cce05f69fb3" prot="public" virt="non-virtual"><scope>FileDef</scope><name>setPackageDef</name></member>
+      <member refid="d5/dcc/class_definition_1a9548c1e2218ce2730c6c3e31bdac6452" prot="public" virt="non-virtual"><scope>FileDef</scope><name>setReference</name></member>
+      <member refid="d5/dcc/class_definition_1afaacdadf442e3e1a33c22c5a2b49ad61" prot="public" virt="non-virtual"><scope>FileDef</scope><name>setRefItems</name></member>
+      <member refid="de/db0/class_file_def_1a31bdeeeb4ffdaeac2636c7c5027a8d6b" prot="public" virt="non-virtual"><scope>FileDef</scope><name>sortMemberLists</name></member>
+      <member refid="de/db0/class_file_def_1aba393b1bd159e3d16f63671eb3a85291" prot="private" virt="non-virtual"><scope>FileDef</scope><name>startMemberDeclarations</name></member>
+      <member refid="de/db0/class_file_def_1a86a849fff2a9d99ef9746ac8d3a3f320" prot="private" virt="non-virtual"><scope>FileDef</scope><name>startMemberDocumentation</name></member>
+      <member refid="de/db0/class_file_def_1a378a97570f1ac9a9795ec5700ab4ed97" prot="public" virt="non-virtual"><scope>FileDef</scope><name>startParsing</name></member>
+      <member refid="d5/dcc/class_definition_1a0b672c0534ecbd81ae77584d2ceae7ff" prot="public" virt="non-virtual"><scope>FileDef</scope><name>symbolName</name></member>
+      <member refid="d9/d4a/class_definition_intf_1ada60114bc621669dd8c19edfc6421766a8c7123ce45e6d365a610ed3951ecd037" prot="public" virt="non-virtual"><scope>FileDef</scope><name>TypeClass</name></member>
+      <member refid="d9/d4a/class_definition_intf_1ada60114bc621669dd8c19edfc6421766ad9e85c8933bcb049693ec8c02fd774fe" prot="public" virt="non-virtual"><scope>FileDef</scope><name>TypeDir</name></member>
+      <member refid="d9/d4a/class_definition_intf_1ada60114bc621669dd8c19edfc6421766a92fb29a1b73c05c1a21b5936f262085d" prot="public" virt="non-virtual"><scope>FileDef</scope><name>TypeFile</name></member>
+      <member refid="d9/d4a/class_definition_intf_1ada60114bc621669dd8c19edfc6421766a7ae77e43166a87eaa59e89dc7d0e2917" prot="public" virt="non-virtual"><scope>FileDef</scope><name>TypeGroup</name></member>
+      <member refid="d9/d4a/class_definition_intf_1ada60114bc621669dd8c19edfc6421766a77974c3635270f07d38ff920fd8f653c" prot="public" virt="non-virtual"><scope>FileDef</scope><name>TypeMember</name></member>
+      <member refid="d9/d4a/class_definition_intf_1ada60114bc621669dd8c19edfc6421766ac1833ce9fc94097a64c0c60104ac3297" prot="public" virt="non-virtual"><scope>FileDef</scope><name>TypeNamespace</name></member>
+      <member refid="d9/d4a/class_definition_intf_1ada60114bc621669dd8c19edfc6421766ab55dda7065ddf21d823d89a00c23063b" prot="public" virt="non-virtual"><scope>FileDef</scope><name>TypePackage</name></member>
+      <member refid="d9/d4a/class_definition_intf_1ada60114bc621669dd8c19edfc6421766a20cfcea557f83381dbdcca5ede9185a8" prot="public" virt="non-virtual"><scope>FileDef</scope><name>TypePage</name></member>
+      <member refid="d9/d4a/class_definition_intf_1ada60114bc621669dd8c19edfc6421766a2dfe7456f05b8bf08f04de5c5f8788a7" prot="public" virt="non-virtual"><scope>FileDef</scope><name>TypeSymbolList</name></member>
+      <member refid="de/db0/class_file_def_1ad5dd0c1f9f0df9b7f36abf6feea9c1a1" prot="public" virt="non-virtual"><scope>FileDef</scope><name>visited</name></member>
+      <member refid="de/db0/class_file_def_1a89a7552f9dffe2b528c645eaef0a1dc8" prot="private" virt="non-virtual"><scope>FileDef</scope><name>writeAuthorSection</name></member>
+      <member refid="de/db0/class_file_def_1a89716c7bce5a26498c89024c54f0aa00" prot="private" virt="non-virtual"><scope>FileDef</scope><name>writeBriefDescription</name></member>
+      <member refid="de/db0/class_file_def_1a5b34a8a780cb4b867b659dd91333bdaa" prot="private" virt="non-virtual"><scope>FileDef</scope><name>writeClassDeclarations</name></member>
+      <member refid="de/db0/class_file_def_1af94993517c9192bcced8c7df94ac8111" prot="private" virt="non-virtual"><scope>FileDef</scope><name>writeDetailedDescription</name></member>
+      <member refid="d5/dcc/class_definition_1a252f2febf6695acc7ac5800c683f2770" prot="public" virt="non-virtual"><scope>FileDef</scope><name>writeDocAnchorsToTagFile</name></member>
+      <member refid="de/db0/class_file_def_1a7a73cf8448a6995be00369858d4768e8" prot="public" virt="non-virtual"><scope>FileDef</scope><name>writeDocumentation</name></member>
+      <member refid="de/db0/class_file_def_1a6fcf5dfbad5cfa45ef2494aa414dfad2" prot="private" virt="non-virtual"><scope>FileDef</scope><name>writeIncludedByGraph</name></member>
+      <member refid="de/db0/class_file_def_1aadf3c1cba2f54900d2d452b016d0627d" prot="private" virt="non-virtual"><scope>FileDef</scope><name>writeIncludeFiles</name></member>
+      <member refid="de/db0/class_file_def_1aa98cacd641c6e7ef96e8527a8889911d" prot="private" virt="non-virtual"><scope>FileDef</scope><name>writeIncludeGraph</name></member>
+      <member refid="de/db0/class_file_def_1a1a9cb8f341b1f63c9fcf2f65cb3d780f" prot="private" virt="non-virtual"><scope>FileDef</scope><name>writeInlineClasses</name></member>
+      <member refid="d5/dcc/class_definition_1ad5ad17068a22165040e5b256c564c603" prot="public" virt="non-virtual"><scope>FileDef</scope><name>writeInlineCode</name></member>
+      <member refid="de/db0/class_file_def_1a49a297dc5f9c80ed73903fb3fb11d88a" prot="private" virt="non-virtual"><scope>FileDef</scope><name>writeMemberDeclarations</name></member>
+      <member refid="de/db0/class_file_def_1adc2910ba33298b3d75d10d0fd7639f8b" prot="private" virt="non-virtual"><scope>FileDef</scope><name>writeMemberDocumentation</name></member>
+      <member refid="de/db0/class_file_def_1afdda86bd94a3b23241b8f95fad2e0b3a" prot="private" virt="non-virtual"><scope>FileDef</scope><name>writeMemberGroups</name></member>
+      <member refid="de/db0/class_file_def_1a8df204556e3773738f133314d8bc2fbb" prot="public" virt="non-virtual"><scope>FileDef</scope><name>writeMemberPages</name></member>
+      <member refid="de/db0/class_file_def_1a8b20c6137ad62bb56e91146760086852" prot="private" virt="non-virtual"><scope>FileDef</scope><name>writeNamespaceDeclarations</name></member>
+      <member refid="d5/dcc/class_definition_1acb933b8a92878f6248e9a824c7115f24" prot="public" virt="non-virtual"><scope>FileDef</scope><name>writeNavigationPath</name></member>
+      <member refid="de/db0/class_file_def_1a2bbd376679e5b77263424269ca877626" prot="public" virt="virtual"><scope>FileDef</scope><name>writeQuickMemberLinks</name></member>
+      <member refid="de/db0/class_file_def_1a5ed9987b075539aa61654cc55d3bac28" prot="public" virt="non-virtual"><scope>FileDef</scope><name>writeSource</name></member>
+      <member refid="d5/dcc/class_definition_1a0d22dcffc0afca75f8ab31dd6261933f" prot="public" virt="non-virtual"><scope>FileDef</scope><name>writeSourceDef</name></member>
+      <member refid="de/db0/class_file_def_1a17a9d51d2646b24474fb70121aa1af7f" prot="private" virt="non-virtual"><scope>FileDef</scope><name>writeSourceLink</name></member>
+      <member refid="d5/dcc/class_definition_1aa870f9f2ad5bfb0943d8718ace07bf63" prot="public" virt="non-virtual"><scope>FileDef</scope><name>writeSourceReffedBy</name></member>
+      <member refid="d5/dcc/class_definition_1a0ec765eb2dc050ff415a76c5696db3dc" prot="public" virt="non-virtual"><scope>FileDef</scope><name>writeSourceRefs</name></member>
+      <member refid="de/db0/class_file_def_1a077e73e869533220c7a94276c40359ef" prot="public" virt="virtual"><scope>FileDef</scope><name>writeSummaryLinks</name></member>
+      <member refid="d5/dcc/class_definition_1ad831e89b81a88b3f4f298b9dce1dc549" prot="public" virt="non-virtual"><scope>FileDef</scope><name>writeToc</name></member>
+      <member refid="d5/dcc/class_definition_1a0b83ac7e3a42baf9bd1bac90a83f07cc" prot="public" virt="non-virtual"><scope>FileDef</scope><name>xrefListItems</name></member>
+      <member refid="d5/dcc/class_definition_1a37def2c2ca8cdc02e9f614657169e654" prot="public" virt="virtual"><scope>FileDef</scope><name>~Definition</name></member>
+      <member refid="d9/d4a/class_definition_intf_1a348acc4ce6b1a3490d32e8aedd2183a4" prot="public" virt="virtual"><scope>FileDef</scope><name>~DefinitionIntf</name></member>
+      <member refid="de/db0/class_file_def_1a5ed8a95230184de0f82d21bf08f4ac0a" prot="public" virt="non-virtual"><scope>FileDef</scope><name>~FileDef</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

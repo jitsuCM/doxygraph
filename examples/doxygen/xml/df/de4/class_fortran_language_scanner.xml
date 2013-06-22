@@ -1,0 +1,372 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.2">
+  <compounddef id="df/de4/class_fortran_language_scanner" kind="class" prot="public">
+    <compoundname>FortranLanguageScanner</compoundname>
+    <basecompoundref refid="d5/d84/class_parser_interface" prot="public" virt="non-virtual">ParserInterface</basecompoundref>
+    <includes refid="d9/d7b/fortranscanner_8h" local="no">fortranscanner.h</includes>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="df/de4/class_fortran_language_scanner_1af9a3eb54c4149bbe3f0f665774759be0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type></type>
+        <definition>virtual FortranLanguageScanner::~FortranLanguageScanner</definition>
+        <argsstring>()</argsstring>
+        <name>~FortranLanguageScanner</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/fortranscanner.h" line="30" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/fortranscanner.h" bodystart="30" bodyend="30"/>
+      </memberdef>
+      <memberdef kind="function" id="df/de4/class_fortran_language_scanner_1a571f9440b581ce6fdc1b15c08427932d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>void FortranLanguageScanner::startTranslationUnit</definition>
+        <argsstring>(const char *)</argsstring>
+        <name>startTranslationUnit</name>
+        <reimplements refid="d5/d84/class_parser_interface_1a72478f87ead5fde10d7d6bbe32a73024">startTranslationUnit</reimplements>
+        <param>
+          <type>const char *</type>
+          <declname>fileName</declname>
+        </param>
+        <briefdescription>
+<para>Starts processing a translation unit (source files + headers). </para>        </briefdescription>
+        <detaileddescription>
+<para>After this call <ref refid="df/de4/class_fortran_language_scanner_1a6f2e7fa4a4d46ae48289cd135f9f495d" kindref="member">parseInput()</ref> is called with sameTranslationUnit set to FALSE. If <ref refid="df/de4/class_fortran_language_scanner_1a6f2e7fa4a4d46ae48289cd135f9f495d" kindref="member">parseInput()</ref> returns additional include files, these are also processed using <ref refid="df/de4/class_fortran_language_scanner_1a6f2e7fa4a4d46ae48289cd135f9f495d" kindref="member">parseInput()</ref> with sameTranslationUnit set to TRUE. After that <ref refid="df/de4/class_fortran_language_scanner_1abf5a872f1e3bd81f5a285e9586869def" kindref="member">finishTranslationUnit()</ref> is called. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/fortranscanner.h" line="31" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/fortranscanner.h" bodystart="31" bodyend="31"/>
+      </memberdef>
+      <memberdef kind="function" id="df/de4/class_fortran_language_scanner_1abf5a872f1e3bd81f5a285e9586869def" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>void FortranLanguageScanner::finishTranslationUnit</definition>
+        <argsstring>()</argsstring>
+        <name>finishTranslationUnit</name>
+        <reimplements refid="d5/d84/class_parser_interface_1af3acd64c6a33852e2e46e7288eb9c9cf">finishTranslationUnit</reimplements>
+        <briefdescription>
+<para>Called after all files in a translation unit have been processed. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/fortranscanner.h" line="32" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/fortranscanner.h" bodystart="32" bodyend="32"/>
+      </memberdef>
+      <memberdef kind="function" id="df/de4/class_fortran_language_scanner_1a6f2e7fa4a4d46ae48289cd135f9f495d" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void FortranLanguageScanner::parseInput</definition>
+        <argsstring>(const char *fileName, const char *fileBuf, Entry *root, bool sameTranslationUnit, QStrList &amp;filesInSameTranslationUnit)</argsstring>
+        <name>parseInput</name>
+        <reimplements refid="d5/d84/class_parser_interface_1a09ced377e619d40b7339187bad88341e">parseInput</reimplements>
+        <param>
+          <type>const char *</type>
+          <declname>fileName</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>fileBuf</declname>
+        </param>
+        <param>
+          <type><ref refid="d4/dd7/class_entry" kindref="compound">Entry</ref> *</type>
+          <declname>root</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>sameTranslationUnit</declname>
+        </param>
+        <param>
+          <type>QStrList &amp;</type>
+          <declname>filesInSameTranslationUnit</declname>
+        </param>
+        <briefdescription>
+<para>Parses a single input file with the goal to build an <ref refid="d4/dd7/class_entry" kindref="compound">Entry</ref> tree. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">fileName</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The full name of the file. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">fileBuf</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The contents of the file (zero terminated). </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="inout">root</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The root of the tree of <ref refid="d4/dd7/class_entry" kindref="compound">Entry</ref> *nodes representing the information extracted from the file. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">sameTranslationUnit</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>TRUE if this file was found in the same translation unit (in the filesInSameTranslationUnit list returned for another file). </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="inout">filesInSameTranslationUnit</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>other files expected to be found in the same translation unit (used for libclang) </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/fortranscanner.h" line="37"/>
+      </memberdef>
+      <memberdef kind="function" id="df/de4/class_fortran_language_scanner_1a94620ec6b6cf583dccd2544671e9e578" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>bool</type>
+        <definition>bool FortranLanguageScanner::needsPreprocessing</definition>
+        <argsstring>(const QCString &amp;extension)</argsstring>
+        <name>needsPreprocessing</name>
+        <reimplements refid="d5/d84/class_parser_interface_1a36c669b17b64a6e3847f27d70a5398d2">needsPreprocessing</reimplements>
+        <param>
+          <type>const QCString &amp;</type>
+          <declname>extension</declname>
+        </param>
+        <briefdescription>
+<para>Returns TRUE if the language identified by <emphasis>extension</emphasis> needs the C preprocessor to be run before feed the result to the input parser. </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="see"><para><ref refid="df/de4/class_fortran_language_scanner_1a6f2e7fa4a4d46ae48289cd135f9f495d" kindref="member">parseInput()</ref> </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/fortranscanner.h" line="38"/>
+      </memberdef>
+      <memberdef kind="function" id="df/de4/class_fortran_language_scanner_1a402b519f5e345956ecd058c964bcabc9" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void FortranLanguageScanner::parseCode</definition>
+        <argsstring>(CodeOutputInterface &amp;codeOutIntf, const char *scopeName, const QCString &amp;input, bool isExampleBlock, const char *exampleName=0, FileDef *fileDef=0, int startLine=-1, int endLine=-1, bool inlineFragment=FALSE, MemberDef *memberDef=0, bool showLineNumbers=TRUE, Definition *searchCtx=0)</argsstring>
+        <name>parseCode</name>
+        <reimplements refid="d5/d84/class_parser_interface_1a4ab2f3a321c3a1d90a2f1245d204dada">parseCode</reimplements>
+        <param>
+          <type><ref refid="d5/d9c/class_code_output_interface" kindref="compound">CodeOutputInterface</ref> &amp;</type>
+          <declname>codeOutIntf</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>scopeName</declname>
+        </param>
+        <param>
+          <type>const QCString &amp;</type>
+          <declname>input</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>isExampleBlock</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>exampleName</declname>
+          <defval>0</defval>
+        </param>
+        <param>
+          <type><ref refid="de/db0/class_file_def" kindref="compound">FileDef</ref> *</type>
+          <declname>fileDef</declname>
+          <defval>0</defval>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>startLine</declname>
+          <defval>-1</defval>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>endLine</declname>
+          <defval>-1</defval>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>inlineFragment</declname>
+          <defval>FALSE</defval>
+        </param>
+        <param>
+          <type><ref refid="da/d09/class_member_def" kindref="compound">MemberDef</ref> *</type>
+          <declname>memberDef</declname>
+          <defval>0</defval>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>showLineNumbers</declname>
+          <defval>TRUE</defval>
+        </param>
+        <param>
+          <type><ref refid="d5/dcc/class_definition" kindref="compound">Definition</ref> *</type>
+          <declname>searchCtx</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+<para>Parses a source file or fragment with the goal to produce highlighted and cross-referenced output. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">codeOutIntf</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Abstract interface for writing the result. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">scopeName</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Name of scope to which the code belongs. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">input</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Actual code in the form of a string </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">isExampleBlock</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>TRUE iff the code is part of an example. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">exampleName</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Name of the example. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">fileDef</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>File definition to which the code is associated. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">startLine</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Starting line in case of a code fragment. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">endLine</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Ending line of the code fragment. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">inlineFragment</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Code fragment that is to be shown inline as part of the documentation. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">memberDef</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Member definition to which the code is associated (non null in case of an inline fragment for a member). </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">showLineNumbers</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>if set to TRUE and also fileDef is not 0, line numbers will be added to the source fragement </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">searchCtx</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>context under which search data has to be stored. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/fortranscanner.h" line="51"/>
+      </memberdef>
+      <memberdef kind="function" id="df/de4/class_fortran_language_scanner_1a431c7d79af2cd6b93081f3db7cdaf1c0" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void FortranLanguageScanner::resetCodeParserState</definition>
+        <argsstring>()</argsstring>
+        <name>resetCodeParserState</name>
+        <reimplements refid="d5/d84/class_parser_interface_1aee4fccd1865a4e8a6b9f2896811104ca">resetCodeParserState</reimplements>
+        <briefdescription>
+<para>Resets the state of the code parser. </para>        </briefdescription>
+        <detaileddescription>
+<para>Since multiple code fragments can together form a single example, an explicit function is used to reset the code parser state. <simplesect kind="see"><para><ref refid="df/de4/class_fortran_language_scanner_1a402b519f5e345956ecd058c964bcabc9" kindref="member">parseCode()</ref> </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/fortranscanner.h" line="52"/>
+      </memberdef>
+      <memberdef kind="function" id="df/de4/class_fortran_language_scanner_1a8ae8487e02f24ee625ad804b9bda78b3" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void FortranLanguageScanner::parsePrototype</definition>
+        <argsstring>(const char *text)</argsstring>
+        <name>parsePrototype</name>
+        <reimplements refid="d5/d84/class_parser_interface_1a5ebf0f524a296845befa22c85a4cc80b">parsePrototype</reimplements>
+        <param>
+          <type>const char *</type>
+          <declname>text</declname>
+        </param>
+        <briefdescription>
+<para>Callback function called by the comment block scanner. </para>        </briefdescription>
+        <detaileddescription>
+<para>It provides a string <emphasis>text</emphasis> containing the prototype of a function or variable. The parser should parse this and store the information in the <ref refid="d4/dd7/class_entry" kindref="compound">Entry</ref> node that corresponds with the node for which the comment block parser was invoked. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/fortranscanner.h" line="53"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Fortran language parser using state-based lexical scanning. </para>    </briefdescription>
+    <detaileddescription>
+<para>This is the Fortran language parser for doxygen. </para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="3473">
+        <label>ParserInterface</label>
+        <link refid="d5/d84/class_parser_interface"/>
+      </node>
+      <node id="3472">
+        <label>FortranLanguageScanner</label>
+        <link refid="df/de4/class_fortran_language_scanner"/>
+        <childnode refid="3473" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="3475">
+        <label>ParserInterface</label>
+        <link refid="d5/d84/class_parser_interface"/>
+      </node>
+      <node id="3474">
+        <label>FortranLanguageScanner</label>
+        <link refid="df/de4/class_fortran_language_scanner"/>
+        <childnode refid="3475" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/fortranscanner.h" line="28" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/fortranscanner.h" bodystart="27" bodyend="54"/>
+    <listofallmembers>
+      <member refid="df/de4/class_fortran_language_scanner_1abf5a872f1e3bd81f5a285e9586869def" prot="public" virt="virtual"><scope>FortranLanguageScanner</scope><name>finishTranslationUnit</name></member>
+      <member refid="df/de4/class_fortran_language_scanner_1a94620ec6b6cf583dccd2544671e9e578" prot="public" virt="virtual"><scope>FortranLanguageScanner</scope><name>needsPreprocessing</name></member>
+      <member refid="df/de4/class_fortran_language_scanner_1a402b519f5e345956ecd058c964bcabc9" prot="public" virt="virtual"><scope>FortranLanguageScanner</scope><name>parseCode</name></member>
+      <member refid="df/de4/class_fortran_language_scanner_1a6f2e7fa4a4d46ae48289cd135f9f495d" prot="public" virt="virtual"><scope>FortranLanguageScanner</scope><name>parseInput</name></member>
+      <member refid="df/de4/class_fortran_language_scanner_1a8ae8487e02f24ee625ad804b9bda78b3" prot="public" virt="virtual"><scope>FortranLanguageScanner</scope><name>parsePrototype</name></member>
+      <member refid="df/de4/class_fortran_language_scanner_1a431c7d79af2cd6b93081f3db7cdaf1c0" prot="public" virt="virtual"><scope>FortranLanguageScanner</scope><name>resetCodeParserState</name></member>
+      <member refid="df/de4/class_fortran_language_scanner_1a571f9440b581ce6fdc1b15c08427932d" prot="public" virt="virtual"><scope>FortranLanguageScanner</scope><name>startTranslationUnit</name></member>
+      <member refid="df/de4/class_fortran_language_scanner_1af9a3eb54c4149bbe3f0f665774759be0" prot="public" virt="virtual"><scope>FortranLanguageScanner</scope><name>~FortranLanguageScanner</name></member>
+      <member refid="d5/d84/class_parser_interface_1ac468c7abd84cd5ab1263555d3f95f1ee" prot="public" virt="virtual"><scope>FortranLanguageScanner</scope><name>~ParserInterface</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

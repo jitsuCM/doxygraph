@@ -1,0 +1,641 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.2">
+  <compounddef id="d1/dc6/entry_8h" kind="file">
+    <compoundname>entry.h</compoundname>
+    <includes refid="d9/d49/types_8h" local="yes">types.h</includes>
+    <includes local="no">qlist.h</includes>
+    <includes local="no">qgstring.h</includes>
+    <includedby refid="de/d89/classdef_8cpp" local="yes">src/classdef.cpp</includedby>
+    <includedby refid="dd/dec/vhdldocgen_8h" local="yes">src/vhdldocgen.h</includedby>
+    <includedby refid="d1/d70/dbusxmlscanner_8cpp" local="yes">src/dbusxmlscanner.cpp</includedby>
+    <includedby refid="dc/d98/doxygen_8cpp" local="yes">src/doxygen.cpp</includedby>
+    <includedby refid="d8/d75/vhdlscanner_8h" local="yes">src/vhdlscanner.h</includedby>
+    <includedby refid="d2/dd2/entry_8cpp" local="yes">src/entry.cpp</includedby>
+    <includedby refid="d6/ddc/filedef_8cpp" local="yes">src/filedef.cpp</includedby>
+    <includedby refid="d6/d42/groupdef_8cpp" local="yes">src/groupdef.cpp</includedby>
+    <includedby refid="de/d04/markdown_8cpp" local="yes">src/markdown.cpp</includedby>
+    <includedby refid="d9/d85/marshal_8cpp" local="yes">src/marshal.cpp</includedby>
+    <includedby refid="d6/d18/membergroup_8cpp" local="yes">src/membergroup.cpp</includedby>
+    <includedby refid="d4/d7b/tagreader_8cpp" local="yes">src/tagreader.cpp</includedby>
+    <includedby refid="df/d2d/util_8cpp" local="yes">src/util.cpp</includedby>
+    <incdepgraph>
+      <node id="1845">
+        <label>qcstring.h</label>
+      </node>
+      <node id="1847">
+        <label>qgstring.h</label>
+      </node>
+      <node id="1843">
+        <label>src/entry.h</label>
+        <link refid="entry.h"/>
+        <childnode refid="1844" relation="include">
+        </childnode>
+        <childnode refid="1846" relation="include">
+        </childnode>
+        <childnode refid="1847" relation="include">
+        </childnode>
+      </node>
+      <node id="1844">
+        <label>types.h</label>
+        <link refid="d9/d49/types_8h"/>
+        <childnode refid="1845" relation="include">
+        </childnode>
+      </node>
+      <node id="1846">
+        <label>qlist.h</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="1872">
+        <label>src/marshal.cpp</label>
+        <link refid="d9/d85/marshal_8cpp_source"/>
+      </node>
+      <node id="1874">
+        <label>src/tagreader.cpp</label>
+        <link refid="d4/d7b/tagreader_8cpp_source"/>
+      </node>
+      <node id="1861">
+        <label>src/htmldocvisitor.cpp</label>
+        <link refid="da/db0/htmldocvisitor_8cpp_source"/>
+      </node>
+      <node id="1853">
+        <label>src/docparser.cpp</label>
+        <link refid="da/d17/docparser_8cpp_source"/>
+      </node>
+      <node id="1873">
+        <label>src/membergroup.cpp</label>
+        <link refid="d6/d18/membergroup_8cpp_source"/>
+      </node>
+      <node id="1857">
+        <label>src/memberdef.cpp</label>
+        <link refid="d0/d72/memberdef_8cpp_source"/>
+      </node>
+      <node id="1856">
+        <label>src/doxygen.cpp</label>
+        <link refid="dc/d98/doxygen_8cpp_source"/>
+      </node>
+      <node id="1854">
+        <label>src/dot.cpp</label>
+        <link refid="de/daa/dot_8cpp_source"/>
+      </node>
+      <node id="1858">
+        <label>src/vhdldocgen.cpp</label>
+        <link refid="de/dea/vhdldocgen_8cpp_source"/>
+      </node>
+      <node id="1868">
+        <label>src/rtfgen.cpp</label>
+        <link refid="d0/d9c/rtfgen_8cpp_source"/>
+      </node>
+      <node id="1851">
+        <label>src/classlist.cpp</label>
+        <link refid="d6/d10/classlist_8cpp_source"/>
+      </node>
+      <node id="1855">
+        <label>src/vhdlscanner.h</label>
+        <link refid="d8/d75/vhdlscanner_8h_source"/>
+        <childnode refid="1856" relation="include">
+        </childnode>
+        <childnode refid="1857" relation="include">
+        </childnode>
+        <childnode refid="1858" relation="include">
+        </childnode>
+      </node>
+      <node id="1870">
+        <label>src/entry.cpp</label>
+        <link refid="d2/dd2/entry_8cpp_source"/>
+      </node>
+      <node id="1875">
+        <label>src/util.cpp</label>
+        <link refid="df/d2d/util_8cpp_source"/>
+      </node>
+      <node id="1848">
+        <label>src/entry.h</label>
+        <link refid="entry.h"/>
+        <childnode refid="1849" relation="include">
+        </childnode>
+        <childnode refid="1850" relation="include">
+        </childnode>
+        <childnode refid="1869" relation="include">
+        </childnode>
+        <childnode refid="1856" relation="include">
+        </childnode>
+        <childnode refid="1855" relation="include">
+        </childnode>
+        <childnode refid="1870" relation="include">
+        </childnode>
+        <childnode refid="1859" relation="include">
+        </childnode>
+        <childnode refid="1860" relation="include">
+        </childnode>
+        <childnode refid="1871" relation="include">
+        </childnode>
+        <childnode refid="1872" relation="include">
+        </childnode>
+        <childnode refid="1873" relation="include">
+        </childnode>
+        <childnode refid="1874" relation="include">
+        </childnode>
+        <childnode refid="1875" relation="include">
+        </childnode>
+      </node>
+      <node id="1859">
+        <label>src/filedef.cpp</label>
+        <link refid="d6/ddc/filedef_8cpp_source"/>
+      </node>
+      <node id="1860">
+        <label>src/groupdef.cpp</label>
+        <link refid="d6/d42/groupdef_8cpp_source"/>
+      </node>
+      <node id="1852">
+        <label>src/definition.cpp</label>
+        <link refid="d3/dea/definition_8cpp_source"/>
+      </node>
+      <node id="1866">
+        <label>src/namespacedef.cpp</label>
+        <link refid="d7/d1c/namespacedef_8cpp_source"/>
+      </node>
+      <node id="1869">
+        <label>src/dbusxmlscanner.cpp</label>
+        <link refid="d1/d70/dbusxmlscanner_8cpp_source"/>
+      </node>
+      <node id="1862">
+        <label>src/htmlgen.cpp</label>
+        <link refid="d8/d6e/htmlgen_8cpp_source"/>
+      </node>
+      <node id="1863">
+        <label>src/index.cpp</label>
+        <link refid="db/d14/index_8cpp"/>
+      </node>
+      <node id="1864">
+        <label>src/layout.cpp</label>
+        <link refid="db/d16/layout_8cpp_source"/>
+      </node>
+      <node id="1865">
+        <label>src/memberlist.cpp</label>
+        <link refid="d0/d14/memberlist_8cpp_source"/>
+      </node>
+      <node id="1871">
+        <label>src/markdown.cpp</label>
+        <link refid="de/d04/markdown_8cpp_source"/>
+      </node>
+      <node id="1849">
+        <label>src/classdef.cpp</label>
+        <link refid="de/d89/classdef_8cpp_source"/>
+      </node>
+      <node id="1867">
+        <label>src/outputlist.cpp</label>
+        <link refid="db/dd8/outputlist_8cpp"/>
+      </node>
+      <node id="1850">
+        <label>src/vhdldocgen.h</label>
+        <link refid="dd/dec/vhdldocgen_8h_source"/>
+        <childnode refid="1849" relation="include">
+        </childnode>
+        <childnode refid="1851" relation="include">
+        </childnode>
+        <childnode refid="1852" relation="include">
+        </childnode>
+        <childnode refid="1853" relation="include">
+        </childnode>
+        <childnode refid="1854" relation="include">
+        </childnode>
+        <childnode refid="1855" relation="include">
+        </childnode>
+        <childnode refid="1856" relation="include">
+        </childnode>
+        <childnode refid="1859" relation="include">
+        </childnode>
+        <childnode refid="1860" relation="include">
+        </childnode>
+        <childnode refid="1861" relation="include">
+        </childnode>
+        <childnode refid="1862" relation="include">
+        </childnode>
+        <childnode refid="1863" relation="include">
+        </childnode>
+        <childnode refid="1864" relation="include">
+        </childnode>
+        <childnode refid="1857" relation="include">
+        </childnode>
+        <childnode refid="1865" relation="include">
+        </childnode>
+        <childnode refid="1866" relation="include">
+        </childnode>
+        <childnode refid="1867" relation="include">
+        </childnode>
+        <childnode refid="1868" relation="include">
+        </childnode>
+        <childnode refid="1858" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="de/d64/struct_base_info" prot="public">BaseInfo</innerclass>
+    <innerclass refid="d3/dc3/struct_tag_info" prot="public">TagInfo</innerclass>
+    <innerclass refid="d4/dd7/class_entry" prot="public">Entry</innerclass>
+    <innerclass refid="da/dc6/class_entry_nav" prot="public">EntryNav</innerclass>
+      <sectiondef kind="typedef">
+      <memberdef kind="typedef" id="d1/dc6/entry_8h_1a2aad751451a06fca6ee53dee0538a9f8" prot="public" static="no">
+        <type><ref refid="db/daa/class_q_list" kindref="compound">QList</ref>&lt; <ref refid="d4/dd7/class_entry" kindref="compound">Entry</ref> &gt;</type>
+        <definition>typedef QList&lt;Entry&gt; EntryList</definition>
+        <argsstring></argsstring>
+        <name>EntryList</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/entry.h" line="371" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/entry.h" bodystart="371" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="d1/dc6/entry_8h_1a903e426b63a32c20bc47ef14ef638e98" prot="public" static="no">
+        <type>QListIterator&lt; <ref refid="d4/dd7/class_entry" kindref="compound">Entry</ref> &gt;</type>
+        <definition>typedef QListIterator&lt;Entry&gt; EntryListIterator</definition>
+        <argsstring></argsstring>
+        <name>EntryListIterator</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/entry.h" line="372" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/entry.h" bodystart="372" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="d1/dc6/entry_8h_1a304e9d0ef62dec48c5ec6488d1a8ff4e" prot="public" static="no">
+        <type><ref refid="db/daa/class_q_list" kindref="compound">QList</ref>&lt; <ref refid="da/dc6/class_entry_nav" kindref="compound">EntryNav</ref> &gt;</type>
+        <definition>typedef QList&lt;EntryNav&gt; EntryNavList</definition>
+        <argsstring></argsstring>
+        <name>EntryNavList</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/entry.h" line="374" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/entry.h" bodystart="374" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="d1/dc6/entry_8h_1aeca6f3ca6c6cb9de0e24b6f276736c51" prot="public" static="no">
+        <type>QListIterator&lt; <ref refid="da/dc6/class_entry_nav" kindref="compound">EntryNav</ref> &gt;</type>
+        <definition>typedef QListIterator&lt;EntryNav&gt; EntryNavListIterator</definition>
+        <argsstring></argsstring>
+        <name>EntryNavListIterator</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/entry.h" line="375" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/entry.h" bodystart="375" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">/******************************************************************************</highlight></codeline>
+<codeline lineno="2"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="3"><highlight class="comment"><sp/>*<sp/>$Id:<sp/>entry.h,v<sp/>1.36<sp/>2001/03/19<sp/>19:27:40<sp/>root<sp/>Exp<sp/>$</highlight></codeline>
+<codeline lineno="4"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="5"><highlight class="comment"><sp/>*<sp/>Copyright<sp/>(C)<sp/>1997-2013<sp/>by<sp/>Dimitri<sp/>van<sp/>Heesch.</highlight></codeline>
+<codeline lineno="6"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="7"><highlight class="comment"><sp/>*<sp/>Permission<sp/>to<sp/>use,<sp/>copy,<sp/>modify,<sp/>and<sp/>distribute<sp/>this<sp/>software<sp/>and<sp/>its</highlight></codeline>
+<codeline lineno="8"><highlight class="comment"><sp/>*<sp/>documentation<sp/>under<sp/>the<sp/>terms<sp/>of<sp/>the<sp/>GNU<sp/>General<sp/>Public<sp/>License<sp/>is<sp/>hereby<sp/></highlight></codeline>
+<codeline lineno="9"><highlight class="comment"><sp/>*<sp/>granted.<sp/>No<sp/>representations<sp/>are<sp/>made<sp/>about<sp/>the<sp/>suitability<sp/>of<sp/>this<sp/>software<sp/></highlight></codeline>
+<codeline lineno="10"><highlight class="comment"><sp/>*<sp/>for<sp/>any<sp/>purpose.<sp/>It<sp/>is<sp/>provided<sp/>&quot;as<sp/>is&quot;<sp/>without<sp/>express<sp/>or<sp/>implied<sp/>warranty.</highlight></codeline>
+<codeline lineno="11"><highlight class="comment"><sp/>*<sp/>See<sp/>the<sp/>GNU<sp/>General<sp/>Public<sp/>License<sp/>for<sp/>more<sp/>details.</highlight></codeline>
+<codeline lineno="12"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="13"><highlight class="comment"><sp/>*<sp/>Documents<sp/>produced<sp/>by<sp/>Doxygen<sp/>are<sp/>derivative<sp/>works<sp/>derived<sp/>from<sp/>the</highlight></codeline>
+<codeline lineno="14"><highlight class="comment"><sp/>*<sp/>input<sp/>used<sp/>in<sp/>their<sp/>production;<sp/>they<sp/>are<sp/>not<sp/>affected<sp/>by<sp/>this<sp/>license.</highlight></codeline>
+<codeline lineno="15"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="16"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>ENTRY_H</highlight></codeline>
+<codeline lineno="19"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>ENTRY_H</highlight></codeline>
+<codeline lineno="20"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="d9/d49/types_8h" kindref="compound" tooltip="This file contains a number of basic enums and types.">types.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;qlist.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;qgstring.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="d5/d5b/struct_section_info" kindref="compound" tooltip="Class representing a section in a page.">SectionInfo</ref>;</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal">QFile;</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="da/dc6/class_entry_nav" kindref="compound" tooltip="Wrapper for a node in the Entry tree.">EntryNav</ref>;</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="de/db0/class_file_def" kindref="compound" tooltip="A model of a file symbol.">FileDef</ref>;</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="d3/d94/class_file_storage" kindref="compound" tooltip="Store implementation based on a file.">FileStorage</ref>;</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="d7/db0/class_storage_intf" kindref="compound" tooltip="Abstract interface for file based memory storage operations.">StorageIntf</ref>;</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="d7/df8/class_argument_list" kindref="compound" tooltip="This class represents an function or template argument list.">ArgumentList</ref>;</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="d8/dd5/struct_list_item_info" kindref="compound">ListItemInfo</ref>;</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"></highlight></codeline>
+<codeline lineno="37" refid="de/d64/struct_base_info" refkind="compound"><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="de/d64/struct_base_info" kindref="compound" tooltip="This class stores information about an inheritance relation.">BaseInfo</ref><sp/></highlight></codeline>
+<codeline lineno="38"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="40" refid="de/d64/struct_base_info_1a98a84177d9d88a0520f7db57a13d2a4d" refkind="member"><highlight class="normal"><sp/><sp/><ref refid="de/d64/struct_base_info_1a98a84177d9d88a0520f7db57a13d2a4d" kindref="member">BaseInfo</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*n,<ref refid="d9/d49/types_8h_1a90e352184df58cd09455fe9996cd4ded" kindref="member" tooltip="Protection level of members.">Protection</ref><sp/>p,<ref refid="d9/d49/types_8h_1ab16236bdd10ddf4d73a9847350f0017e" kindref="member" tooltip="Virtualness of a member.">Specifier</ref><sp/>v)<sp/>:<sp/></highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="de/d64/struct_base_info_1ae8bba327d477830b4664f9d03b05c97b" kindref="member" tooltip="the name of the base class">name</ref>(n),<ref refid="de/d64/struct_base_info_1aaf46efd63ca2b598a79324042bac83f3" kindref="member" tooltip="inheritance type">prot</ref>(p),<ref refid="de/d64/struct_base_info_1ab32fa6c3344b6608768043f6ee5a8e6b" kindref="member" tooltip="virtualness">virt</ref>(v)<sp/>{}</highlight></codeline>
+<codeline lineno="42" refid="de/d64/struct_base_info_1ae8bba327d477830b4664f9d03b05c97b" refkind="member"><highlight class="normal"><sp/><sp/>QCString<sp/><sp/><sp/><ref refid="de/d64/struct_base_info_1ae8bba327d477830b4664f9d03b05c97b" kindref="member" tooltip="the name of the base class">name</ref>;<sp/></highlight></codeline>
+<codeline lineno="43" refid="de/d64/struct_base_info_1aaf46efd63ca2b598a79324042bac83f3" refkind="member"><highlight class="normal"><sp/><sp/><ref refid="d9/d49/types_8h_1a90e352184df58cd09455fe9996cd4ded" kindref="member" tooltip="Protection level of members.">Protection</ref><sp/><ref refid="de/d64/struct_base_info_1aaf46efd63ca2b598a79324042bac83f3" kindref="member" tooltip="inheritance type">prot</ref>;<sp/></highlight></codeline>
+<codeline lineno="44" refid="de/d64/struct_base_info_1ab32fa6c3344b6608768043f6ee5a8e6b" refkind="member"><highlight class="normal"><sp/><sp/><ref refid="d9/d49/types_8h_1ab16236bdd10ddf4d73a9847350f0017e" kindref="member" tooltip="Virtualness of a member.">Specifier</ref><sp/><sp/><ref refid="de/d64/struct_base_info_1ab32fa6c3344b6608768043f6ee5a8e6b" kindref="member" tooltip="virtualness">virt</ref>;<sp/></highlight></codeline>
+<codeline lineno="45"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"></highlight></codeline>
+<codeline lineno="50" refid="d3/dc3/struct_tag_info" refkind="compound"><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="d3/dc3/struct_tag_info" kindref="compound" tooltip="This struct is used to capture the tag file information for an Entry.">TagInfo</ref><sp/></highlight></codeline>
+<codeline lineno="51"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"><sp/><sp/>QCString<sp/>tagName;</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"><sp/><sp/>QCString<sp/>fileName;</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"><sp/><sp/>QCString<sp/>anchor;</highlight></codeline>
+<codeline lineno="55"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="56"><highlight class="normal"></highlight></codeline>
+<codeline lineno="63" refid="d4/dd7/class_entry" refkind="compound"><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="d4/dd7/class_entry" kindref="compound" tooltip="Represents an unstructured piece of information, about an entity found in the sources.">Entry</ref></highlight></codeline>
+<codeline lineno="64"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="65"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="66"><highlight class="normal"></highlight></codeline>
+<codeline lineno="68" refid="d4/dd7/class_entry_1a1e615d53eb7db6d16c19fcb5788fbd9e" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/><ref refid="d4/dd7/class_entry_1a1e615d53eb7db6d16c19fcb5788fbd9e" kindref="member">Sections</ref><sp/>{<sp/></highlight></codeline>
+<codeline lineno="69"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>CLASS_SEC<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>0x00000001,<sp/></highlight></codeline>
+<codeline lineno="70"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>NAMESPACE_SEC<sp/><sp/><sp/><sp/>=<sp/>0x00000010,</highlight></codeline>
+<codeline lineno="71"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>COMPOUND_MASK<sp/><sp/><sp/><sp/>=<sp/>CLASS_SEC,</highlight></codeline>
+<codeline lineno="72"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>SCOPE_MASK<sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>COMPOUND_MASK<sp/>|<sp/>NAMESPACE_SEC,</highlight></codeline>
+<codeline lineno="73"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="74"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>CLASSDOC_SEC<sp/><sp/><sp/><sp/><sp/>=<sp/>0x00000800,<sp/></highlight></codeline>
+<codeline lineno="75"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>STRUCTDOC_SEC<sp/><sp/><sp/><sp/>=<sp/>0x00001000,</highlight></codeline>
+<codeline lineno="76"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>UNIONDOC_SEC<sp/><sp/><sp/><sp/><sp/>=<sp/>0x00002000,</highlight></codeline>
+<codeline lineno="77"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>EXCEPTIONDOC_SEC<sp/>=<sp/>0x00004000,</highlight></codeline>
+<codeline lineno="78"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>NAMESPACEDOC_SEC<sp/>=<sp/>0x00008000,</highlight></codeline>
+<codeline lineno="79"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>INTERFACEDOC_SEC<sp/>=<sp/>0x00010000,</highlight></codeline>
+<codeline lineno="80"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>PROTOCOLDOC_SEC<sp/><sp/>=<sp/>0x00020000,</highlight></codeline>
+<codeline lineno="81"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>CATEGORYDOC_SEC<sp/><sp/>=<sp/>0x00040000,</highlight></codeline>
+<codeline lineno="82"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>SERVICEDOC_SEC<sp/><sp/><sp/>=<sp/>0x00080000,</highlight></codeline>
+<codeline lineno="83"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>SINGLETONDOC_SEC<sp/>=<sp/>0x00100000,</highlight></codeline>
+<codeline lineno="84"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>COMPOUNDDOC_MASK<sp/>=<sp/>CLASSDOC_SEC<sp/>|<sp/>STRUCTDOC_SEC<sp/>|<sp/>UNIONDOC_SEC<sp/>|<sp/></highlight></codeline>
+<codeline lineno="85"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>INTERFACEDOC_SEC<sp/>|<sp/>EXCEPTIONDOC_SEC<sp/>|<sp/>PROTOCOLDOC_SEC<sp/>|</highlight></codeline>
+<codeline lineno="86"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>CATEGORYDOC_SEC<sp/>|<sp/>SERVICEDOC_SEC<sp/>|<sp/>SINGLETONDOC_SEC,</highlight></codeline>
+<codeline lineno="87"><highlight class="normal"></highlight></codeline>
+<codeline lineno="88"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>SOURCE_SEC<sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>0x00400000,</highlight></codeline>
+<codeline lineno="89"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>HEADER_SEC<sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>0x00800000,</highlight></codeline>
+<codeline lineno="90"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>FILE_MASK<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>SOURCE_SEC<sp/>|<sp/>HEADER_SEC,</highlight></codeline>
+<codeline lineno="91"><highlight class="normal"></highlight></codeline>
+<codeline lineno="92"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>ENUMDOC_SEC<sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>0x01000000,</highlight></codeline>
+<codeline lineno="93"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>ENUM_SEC<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>0x02000000,</highlight></codeline>
+<codeline lineno="94"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>EMPTY_SEC<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>0x03000000,<sp/></highlight></codeline>
+<codeline lineno="95"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>PAGEDOC_SEC<sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>0x04000000,<sp/></highlight></codeline>
+<codeline lineno="96"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>VARIABLE_SEC<sp/><sp/><sp/><sp/><sp/>=<sp/>0x05000000,</highlight></codeline>
+<codeline lineno="97"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>FUNCTION_SEC<sp/><sp/><sp/><sp/><sp/>=<sp/>0x06000000,</highlight></codeline>
+<codeline lineno="98"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>TYPEDEF_SEC<sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>0x07000000,</highlight></codeline>
+<codeline lineno="99"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>MEMBERDOC_SEC<sp/><sp/><sp/><sp/>=<sp/>0x08000000,<sp/></highlight></codeline>
+<codeline lineno="100"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>OVERLOADDOC_SEC<sp/><sp/>=<sp/>0x09000000,</highlight></codeline>
+<codeline lineno="101"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>EXAMPLE_SEC<sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>0x0a000000,<sp/></highlight></codeline>
+<codeline lineno="102"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>VARIABLEDOC_SEC<sp/><sp/>=<sp/>0x0b000000,</highlight></codeline>
+<codeline lineno="103"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>FILEDOC_SEC<sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>0x0c000000,</highlight></codeline>
+<codeline lineno="104"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>DEFINEDOC_SEC<sp/><sp/><sp/><sp/>=<sp/>0x0d000000,</highlight></codeline>
+<codeline lineno="105"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>INCLUDE_SEC<sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>0x0e000000,</highlight></codeline>
+<codeline lineno="106"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>DEFINE_SEC<sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>0x0f000000,</highlight></codeline>
+<codeline lineno="107"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>GROUPDOC_SEC<sp/><sp/><sp/><sp/><sp/>=<sp/>0x10000000,</highlight></codeline>
+<codeline lineno="108"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>USINGDIR_SEC<sp/><sp/><sp/><sp/><sp/>=<sp/>0x11000000,</highlight></codeline>
+<codeline lineno="109"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>MAINPAGEDOC_SEC<sp/><sp/>=<sp/>0x12000000,</highlight></codeline>
+<codeline lineno="110"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>MEMBERGRP_SEC<sp/><sp/><sp/><sp/>=<sp/>0x13000000,</highlight></codeline>
+<codeline lineno="111"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>USINGDECL_SEC<sp/><sp/><sp/><sp/>=<sp/>0x14000000,</highlight></codeline>
+<codeline lineno="112"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>PACKAGE_SEC<sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>0x15000000,</highlight></codeline>
+<codeline lineno="113"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>PACKAGEDOC_SEC<sp/><sp/><sp/>=<sp/>0x16000000,</highlight></codeline>
+<codeline lineno="114"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>OBJCIMPL_SEC<sp/><sp/><sp/><sp/><sp/>=<sp/>0x17000000,</highlight></codeline>
+<codeline lineno="115"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>DIRDOC_SEC<sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>0x18000000</highlight></codeline>
+<codeline lineno="116"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>,EXPORTED_INTERFACE_SEC<sp/>=<sp/>0x19000000</highlight></codeline>
+<codeline lineno="117"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>,INCLUDED_SERVICE_SEC<sp/>=<sp/>0x1A000000</highlight></codeline>
+<codeline lineno="118"><highlight class="normal"><sp/><sp/><sp/><sp/>};</highlight></codeline>
+<codeline lineno="119"><highlight class="normal"></highlight></codeline>
+<codeline lineno="120"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>class<sp/>specifiers<sp/>(add<sp/>new<sp/>items<sp/>to<sp/>the<sp/>end)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="121"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>uint64<sp/>Template<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>(1ULL&lt;&lt;0);</highlight></codeline>
+<codeline lineno="122"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>uint64<sp/>Generic<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>(1ULL&lt;&lt;1);</highlight></codeline>
+<codeline lineno="123"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>uint64<sp/>Ref<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>(1ULL&lt;&lt;2);</highlight></codeline>
+<codeline lineno="124"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>uint64<sp/>Value<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>(1ULL&lt;&lt;3);</highlight></codeline>
+<codeline lineno="125"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>uint64<sp/>Interface<sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>(1ULL&lt;&lt;4);</highlight></codeline>
+<codeline lineno="126"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>uint64<sp/>Struct<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>(1ULL&lt;&lt;5);</highlight></codeline>
+<codeline lineno="127"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>uint64<sp/>Union<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>(1ULL&lt;&lt;6);</highlight></codeline>
+<codeline lineno="128"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>uint64<sp/>Exception<sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>(1ULL&lt;&lt;7);</highlight></codeline>
+<codeline lineno="129"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>uint64<sp/>Protocol<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>(1ULL&lt;&lt;8);</highlight></codeline>
+<codeline lineno="130"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>uint64<sp/>Category<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>(1ULL&lt;&lt;9);</highlight></codeline>
+<codeline lineno="131"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>uint64<sp/>SealedClass<sp/><sp/><sp/><sp/><sp/>=<sp/>(1ULL&lt;&lt;10);</highlight></codeline>
+<codeline lineno="132"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>uint64<sp/>AbstractClass<sp/><sp/><sp/>=<sp/>(1ULL&lt;&lt;11);</highlight></codeline>
+<codeline lineno="133"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>uint64<sp/>Enum<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>(1ULL&lt;&lt;12);<sp/></highlight><highlight class="comment">//<sp/>for<sp/>Java-style<sp/>enums</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="134"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>uint64<sp/>Service<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>(1ULL&lt;&lt;13);<sp/></highlight><highlight class="comment">//<sp/>UNO<sp/>IDL</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="135"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>uint64<sp/>Singleton<sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>(1ULL&lt;&lt;14);<sp/></highlight><highlight class="comment">//<sp/>UNO<sp/>IDL</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="136"><highlight class="normal"></highlight></codeline>
+<codeline lineno="137"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>member<sp/>specifiers<sp/>(add<sp/>new<sp/>items<sp/>to<sp/>the<sp/>beginning)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="138"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>uint64<sp/>Inline<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>(1ULL&lt;&lt;24);</highlight></codeline>
+<codeline lineno="139"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>uint64<sp/>Explicit<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>(1ULL&lt;&lt;25);</highlight></codeline>
+<codeline lineno="140"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>uint64<sp/>Mutable<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>(1ULL&lt;&lt;26);</highlight></codeline>
+<codeline lineno="141"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>uint64<sp/>Settable<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>(1ULL&lt;&lt;27);</highlight></codeline>
+<codeline lineno="142"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>uint64<sp/>Gettable<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>(1ULL&lt;&lt;28);</highlight></codeline>
+<codeline lineno="143"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>uint64<sp/>Readable<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>(1ULL&lt;&lt;29);</highlight></codeline>
+<codeline lineno="144"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>uint64<sp/>Writable<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>(1ULL&lt;&lt;30);</highlight></codeline>
+<codeline lineno="145"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>uint64<sp/>Final<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>(1ULL&lt;&lt;31);</highlight></codeline>
+<codeline lineno="146"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>uint64<sp/>Abstract<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>(1ULL&lt;&lt;32);</highlight></codeline>
+<codeline lineno="147"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>uint64<sp/>Addable<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>(1ULL&lt;&lt;33);</highlight></codeline>
+<codeline lineno="148"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>uint64<sp/>Removable<sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>(1ULL&lt;&lt;34);</highlight></codeline>
+<codeline lineno="149"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>uint64<sp/>Raisable<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>(1ULL&lt;&lt;35);</highlight></codeline>
+<codeline lineno="150"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>uint64<sp/>Override<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>(1ULL&lt;&lt;36);</highlight></codeline>
+<codeline lineno="151"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>uint64<sp/>New<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>(1ULL&lt;&lt;37);</highlight></codeline>
+<codeline lineno="152"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>uint64<sp/>Sealed<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>(1ULL&lt;&lt;38);</highlight></codeline>
+<codeline lineno="153"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>uint64<sp/>Initonly<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>(1ULL&lt;&lt;39);</highlight></codeline>
+<codeline lineno="154"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>uint64<sp/>Optional<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>(1ULL&lt;&lt;40);</highlight></codeline>
+<codeline lineno="155"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>uint64<sp/>Required<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>(1ULL&lt;&lt;41);</highlight></codeline>
+<codeline lineno="156"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>uint64<sp/>NonAtomic<sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>(1ULL&lt;&lt;42);</highlight></codeline>
+<codeline lineno="157"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>uint64<sp/>Copy<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>(1ULL&lt;&lt;43);</highlight></codeline>
+<codeline lineno="158"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>uint64<sp/>Retain<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>(1ULL&lt;&lt;44);</highlight></codeline>
+<codeline lineno="159"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>uint64<sp/>Assign<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>(1ULL&lt;&lt;45);</highlight></codeline>
+<codeline lineno="160"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>uint64<sp/>Strong<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>(1ULL&lt;&lt;46);</highlight></codeline>
+<codeline lineno="161"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>uint64<sp/>Weak<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>(1ULL&lt;&lt;47);</highlight></codeline>
+<codeline lineno="162"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>uint64<sp/>Unretained<sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>(1ULL&lt;&lt;48);</highlight></codeline>
+<codeline lineno="163"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>uint64<sp/>Alias<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>(1ULL&lt;&lt;49);</highlight></codeline>
+<codeline lineno="164"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>uint64<sp/>ConstExp<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>(1ULL&lt;&lt;50);</highlight></codeline>
+<codeline lineno="165"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>uint64<sp/>Default<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>(1ULL&lt;&lt;51);</highlight></codeline>
+<codeline lineno="166"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>uint64<sp/>Delete<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>(1ULL&lt;&lt;52);</highlight></codeline>
+<codeline lineno="167"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>uint64<sp/>NoExcept<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>(1ULL&lt;&lt;53);</highlight></codeline>
+<codeline lineno="168"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>uint64<sp/>Attribute<sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>(1ULL&lt;&lt;54);<sp/></highlight><highlight class="comment">//<sp/>UNO<sp/>IDL<sp/>attribute</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="169"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>uint64<sp/>Property<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>(1ULL&lt;&lt;55);<sp/></highlight><highlight class="comment">//<sp/>UNO<sp/>IDL<sp/>property</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="170"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>uint64<sp/>Readonly<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>(1ULL&lt;&lt;56);<sp/></highlight><highlight class="comment">//<sp/>on<sp/>UNO<sp/>IDL<sp/>attribute<sp/>or<sp/>property</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="171"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>uint64<sp/>Bound<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>(1ULL&lt;&lt;57);<sp/></highlight><highlight class="comment">//<sp/>on<sp/>UNO<sp/>IDL<sp/>attribute<sp/>or<sp/>property</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="172"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>uint64<sp/>Constrained<sp/><sp/><sp/><sp/><sp/>=<sp/>(1ULL&lt;&lt;58);<sp/></highlight><highlight class="comment">//<sp/>on<sp/>UNO<sp/>IDL<sp/>property</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="173"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>uint64<sp/>Transient<sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>(1ULL&lt;&lt;59);<sp/></highlight><highlight class="comment">//<sp/>on<sp/>UNO<sp/>IDL<sp/>property</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="174"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>uint64<sp/>MaybeVoid<sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>(1ULL&lt;&lt;60);<sp/></highlight><highlight class="comment">//<sp/>on<sp/>UNO<sp/>IDL<sp/>property</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="175"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>uint64<sp/>MaybeDefault<sp/><sp/><sp/><sp/>=<sp/>(1ULL&lt;&lt;61);<sp/></highlight><highlight class="comment">//<sp/>on<sp/>UNO<sp/>IDL<sp/>property</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="176"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>uint64<sp/>MaybeAmbiguous<sp/><sp/>=<sp/>(1ULL&lt;&lt;62);<sp/></highlight><highlight class="comment">//<sp/>on<sp/>UNO<sp/>IDL<sp/>property</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="177"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>uint64<sp/>Published<sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>(1ULL&lt;&lt;63);<sp/></highlight><highlight class="comment">//<sp/>UNO<sp/>IDL<sp/>keyword</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="178"><highlight class="normal"></highlight></codeline>
+<codeline lineno="179" refid="d4/dd7/class_entry_1a470b655d0d6179559a11a81e6617d509" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/><ref refid="d4/dd7/class_entry_1a470b655d0d6179559a11a81e6617d509" kindref="member">GroupDocType</ref></highlight></codeline>
+<codeline lineno="180"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="181" refid="d4/dd7/class_entry_1a470b655d0d6179559a11a81e6617d509af6812be32a740baaad470ce4aec182be" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="d4/dd7/class_entry_1a470b655d0d6179559a11a81e6617d509af6812be32a740baaad470ce4aec182be" kindref="member" tooltip="defgroup">GROUPDOC_NORMAL</ref>,<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="182" refid="d4/dd7/class_entry_1a470b655d0d6179559a11a81e6617d509a7637daf4200f6f55374604f2384ac925" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="d4/dd7/class_entry_1a470b655d0d6179559a11a81e6617d509a7637daf4200f6f55374604f2384ac925" kindref="member" tooltip="addgroup">GROUPDOC_ADD</ref>,<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="183" refid="d4/dd7/class_entry_1a470b655d0d6179559a11a81e6617d509a4231a193e86f3b43e9b1b6fe12f64ed0" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="d4/dd7/class_entry_1a470b655d0d6179559a11a81e6617d509a4231a193e86f3b43e9b1b6fe12f64ed0" kindref="member" tooltip="weakgroup">GROUPDOC_WEAK</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="184"><highlight class="normal"><sp/><sp/><sp/><sp/>};<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="185"><highlight class="normal"></highlight></codeline>
+<codeline lineno="186"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="d4/dd7/class_entry" kindref="compound" tooltip="Represents an unstructured piece of information, about an entity found in the sources.">Entry</ref>();</highlight></codeline>
+<codeline lineno="187"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="d4/dd7/class_entry" kindref="compound" tooltip="Represents an unstructured piece of information, about an entity found in the sources.">Entry</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="d4/dd7/class_entry" kindref="compound" tooltip="Represents an unstructured piece of information, about an entity found in the sources.">Entry</ref><sp/>&amp;);</highlight></codeline>
+<codeline lineno="188"><highlight class="normal"><sp/><sp/><sp/>~<ref refid="d4/dd7/class_entry" kindref="compound" tooltip="Represents an unstructured piece of information, about an entity found in the sources.">Entry</ref>();</highlight></codeline>
+<codeline lineno="189"><highlight class="normal"></highlight></codeline>
+<codeline lineno="191"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="d4/dd7/class_entry_1af8a7c9072149622cf62be17fc0bc9ec9" kindref="member">getSize</ref>();</highlight></codeline>
+<codeline lineno="192"><highlight class="normal"></highlight></codeline>
+<codeline lineno="193"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>addSpecialListItem(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*listName,</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>index);</highlight></codeline>
+<codeline lineno="194"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>createNavigationIndex(<ref refid="da/dc6/class_entry_nav" kindref="compound" tooltip="Wrapper for a node in the Entry tree.">EntryNav</ref><sp/>*rootNav,<ref refid="d3/d94/class_file_storage" kindref="compound" tooltip="Store implementation based on a file.">FileStorage</ref><sp/>*storage,<ref refid="de/db0/class_file_def" kindref="compound" tooltip="A model of a file symbol.">FileDef</ref><sp/>*fd);</highlight></codeline>
+<codeline lineno="195"><highlight class="normal"></highlight></codeline>
+<codeline lineno="196"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>while<sp/>parsing<sp/>a<sp/>file<sp/>these<sp/>function<sp/>can<sp/>be<sp/>used<sp/>to<sp/>navigate/build<sp/>the<sp/>tree</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="197"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>setParent(<ref refid="d4/dd7/class_entry" kindref="compound" tooltip="Represents an unstructured piece of information, about an entity found in the sources.">Entry</ref><sp/>*<ref refid="d4/dd7/class_entry_1a2161a0a728abbfc211fe5d6af9d6cc16" kindref="member">parent</ref>)<sp/>{<sp/>m_parent<sp/>=<sp/><ref refid="d4/dd7/class_entry_1a2161a0a728abbfc211fe5d6af9d6cc16" kindref="member">parent</ref>;<sp/>}</highlight></codeline>
+<codeline lineno="198"><highlight class="normal"></highlight></codeline>
+<codeline lineno="200" refid="d4/dd7/class_entry_1a2161a0a728abbfc211fe5d6af9d6cc16" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="d4/dd7/class_entry" kindref="compound" tooltip="Represents an unstructured piece of information, about an entity found in the sources.">Entry</ref><sp/>*<ref refid="d4/dd7/class_entry_1a2161a0a728abbfc211fe5d6af9d6cc16" kindref="member">parent</ref>()</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>m_parent;<sp/>}</highlight></codeline>
+<codeline lineno="201"><highlight class="normal"></highlight></codeline>
+<codeline lineno="205" refid="d4/dd7/class_entry_1ac030130465c1a51a13945b2e8738712e" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="db/daa/class_q_list" kindref="compound">QList&lt;Entry&gt;</ref><sp/>*<ref refid="d4/dd7/class_entry_1ac030130465c1a51a13945b2e8738712e" kindref="member">children</ref>()</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>m_sublist;<sp/>}</highlight></codeline>
+<codeline lineno="206"><highlight class="normal"></highlight></codeline>
+<codeline lineno="208"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="d4/dd7/class_entry_1a8c8479030e7a983413308cd412a926ff" kindref="member">addSubEntry</ref><sp/>(<ref refid="d4/dd7/class_entry" kindref="compound" tooltip="Represents an unstructured piece of information, about an entity found in the sources.">Entry</ref>*<sp/>e)<sp/>;</highlight></codeline>
+<codeline lineno="209"><highlight class="normal"></highlight></codeline>
+<codeline lineno="214"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="d4/dd7/class_entry" kindref="compound" tooltip="Represents an unstructured piece of information, about an entity found in the sources.">Entry</ref><sp/>*<ref refid="d4/dd7/class_entry_1aecaae1b0c184b1ee2dc342ce7d6300f1" kindref="member">removeSubEntry</ref>(<ref refid="d4/dd7/class_entry" kindref="compound" tooltip="Represents an unstructured piece of information, about an entity found in the sources.">Entry</ref><sp/>*e);</highlight></codeline>
+<codeline lineno="215"><highlight class="normal"></highlight></codeline>
+<codeline lineno="219"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="d4/dd7/class_entry_1ae9367c39f34b043c6e36ddb52a4188e0" kindref="member">reset</ref>();</highlight></codeline>
+<codeline lineno="220"><highlight class="normal"></highlight></codeline>
+<codeline lineno="222"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="d4/dd7/class_entry_1a902c34351fc9978dfe5530804827ceb6" kindref="member">marshall</ref>(<ref refid="d7/db0/class_storage_intf" kindref="compound" tooltip="Abstract interface for file based memory storage operations.">StorageIntf</ref><sp/>*);</highlight></codeline>
+<codeline lineno="223"><highlight class="normal"></highlight></codeline>
+<codeline lineno="225"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="d4/dd7/class_entry_1a0c2561181c63aad06955b06211667683" kindref="member">unmarshall</ref>(<ref refid="d7/db0/class_storage_intf" kindref="compound" tooltip="Abstract interface for file based memory storage operations.">StorageIntf</ref><sp/>*);</highlight></codeline>
+<codeline lineno="226"><highlight class="normal"></highlight></codeline>
+<codeline lineno="227"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="228"><highlight class="normal"></highlight></codeline>
+<codeline lineno="229"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>identification</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="230" refid="d4/dd7/class_entry_1a9197cdd8acd8fc0670e2911a407f3d04" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="d4/dd7/class_entry_1a9197cdd8acd8fc0670e2911a407f3d04" kindref="member" tooltip="entry type (see Sections);">section</ref>;<sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="231" refid="d4/dd7/class_entry_1a79a9b5736630c3769e645f71dc357b9f" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>QCString<sp/><sp/><sp/><sp/><sp/><ref refid="d4/dd7/class_entry_1a79a9b5736630c3769e645f71dc357b9f" kindref="member" tooltip="member type">type</ref>;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="232" refid="d4/dd7/class_entry_1a87d6afbe10ea84859ef03b6f046e34d3" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>QCString<sp/><sp/><sp/><sp/><sp/><ref refid="d4/dd7/class_entry_1a87d6afbe10ea84859ef03b6f046e34d3" kindref="member" tooltip="member name">name</ref>;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="233" refid="d4/dd7/class_entry_1a0e6301ae1fd7d56d928e1ef7672d4ede" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="d3/dc3/struct_tag_info" kindref="compound" tooltip="This struct is used to capture the tag file information for an Entry.">TagInfo</ref><sp/><sp/><sp/><sp/><sp/>*<ref refid="d4/dd7/class_entry_1a0e6301ae1fd7d56d928e1ef7672d4ede" kindref="member" tooltip="tag file info">tagInfo</ref>;<sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="234"><highlight class="normal"></highlight></codeline>
+<codeline lineno="235"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>content</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="236" refid="d4/dd7/class_entry_1acbb1b4e99978a710863cf9cab6c90553" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="d9/d49/types_8h_1a90e352184df58cd09455fe9996cd4ded" kindref="member" tooltip="Protection level of members.">Protection</ref><sp/><ref refid="d4/dd7/class_entry_1acbb1b4e99978a710863cf9cab6c90553" kindref="member" tooltip="class protection">protection</ref>;<sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="237" refid="d4/dd7/class_entry_1a4669c5294781bce55ce0ad654460acbd" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="d9/d49/types_8h_1a0872178db42722c310fe6117189ed441" kindref="member" tooltip="Kind of method.">MethodTypes</ref><sp/><ref refid="d4/dd7/class_entry_1a4669c5294781bce55ce0ad654460acbd" kindref="member" tooltip="signal, slot, (dcop) method, or property?">mtype</ref>;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="238" refid="d4/dd7/class_entry_1a3019e7d39a5c382fb924e22913198133" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>uint64<sp/><ref refid="d4/dd7/class_entry_1a3019e7d39a5c382fb924e22913198133" kindref="member" tooltip="class/member specifiers">spec</ref>;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="239" refid="d4/dd7/class_entry_1ae283a992b9a74c6925c6f602ba7d830d" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><sp/><ref refid="d4/dd7/class_entry_1ae283a992b9a74c6925c6f602ba7d830d" kindref="member" tooltip="define/variable initializer lines to show">initLines</ref>;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="240" refid="d4/dd7/class_entry_1ab5f1d92a0b5d8abdf4d42cefc134fdfa" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="d4/dd7/class_entry_1ab5f1d92a0b5d8abdf4d42cefc134fdfa" kindref="member" tooltip="static ?">stat</ref>;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="241" refid="d4/dd7/class_entry_1a6c5a4c9eda694f2bfd2037d7da08ba5d" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="d4/dd7/class_entry_1a6c5a4c9eda694f2bfd2037d7da08ba5d" kindref="member" tooltip="explicitly defined as external?">explicitExternal</ref>;<sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="242" refid="d4/dd7/class_entry_1a14c9abc36afe46d02521ef846e6bcc27" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="d4/dd7/class_entry_1a14c9abc36afe46d02521ef846e6bcc27" kindref="member" tooltip="prototype ?">proto</ref>;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="243" refid="d4/dd7/class_entry_1a095b43379529186300dd6a8d8830d5dc" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="d4/dd7/class_entry_1a095b43379529186300dd6a8d8830d5dc" kindref="member" tooltip="automatically group class members?">subGrouping</ref>;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="244" refid="d4/dd7/class_entry_1ac3b5637ee0f8469650e2d8d694733314" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="d4/dd7/class_entry_1ac3b5637ee0f8469650e2d8d694733314" kindref="member" tooltip="do we need to draw the call graph?">callGraph</ref>;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="245" refid="d4/dd7/class_entry_1a3693baa860ccc1625b5ac4fd3bc1761c" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="d4/dd7/class_entry_1a3693baa860ccc1625b5ac4fd3bc1761c" kindref="member" tooltip="do we need to draw the caller graph?">callerGraph</ref>;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="246" refid="d4/dd7/class_entry_1aaf045b9c026443fd192064117083911b" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="d9/d49/types_8h_1ab16236bdd10ddf4d73a9847350f0017e" kindref="member" tooltip="Virtualness of a member.">Specifier</ref><sp/><sp/><sp/><sp/><ref refid="d4/dd7/class_entry_1aaf045b9c026443fd192064117083911b" kindref="member" tooltip="virtualness of the entry">virt</ref>;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="247" refid="d4/dd7/class_entry_1a795acc50f8bb2497b2385ee715304076" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>QCString<sp/><sp/><sp/><sp/><sp/><ref refid="d4/dd7/class_entry_1a795acc50f8bb2497b2385ee715304076" kindref="member" tooltip="member argument string">args</ref>;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="248" refid="d4/dd7/class_entry_1a239e75c28fe009869cf25e681d2a2d41" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>QCString<sp/><sp/><sp/><sp/><sp/><ref refid="d4/dd7/class_entry_1a239e75c28fe009869cf25e681d2a2d41" kindref="member" tooltip="member&amp;#39;s bit fields">bitfields</ref>;<sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="249" refid="d4/dd7/class_entry_1a7dfa4587991698fbc8550e563cd71948" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="d7/df8/class_argument_list" kindref="compound" tooltip="This class represents an function or template argument list.">ArgumentList</ref><sp/>*<ref refid="d4/dd7/class_entry_1a7dfa4587991698fbc8550e563cd71948" kindref="member" tooltip="member arguments as a list">argList</ref>;<sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="250" refid="d4/dd7/class_entry_1a6fe1bee76d0edf07bdae161814b8e490" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="db/daa/class_q_list" kindref="compound">QList&lt;ArgumentList&gt;</ref><sp/>*<ref refid="d4/dd7/class_entry_1a6fe1bee76d0edf07bdae161814b8e490" kindref="member" tooltip="template argument declarations">tArgLists</ref>;<sp/></highlight></codeline>
+<codeline lineno="251" refid="d4/dd7/class_entry_1a8aa37e42f17105b914db76b0c05d0a1f" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>QGString<sp/><sp/><sp/><sp/><sp/><ref refid="d4/dd7/class_entry_1a8aa37e42f17105b914db76b0c05d0a1f" kindref="member" tooltip="the program text">program</ref>;<sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="252" refid="d4/dd7/class_entry_1a2a0c9e7ce364ed2981f49314c33245f9" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>QGString<sp/><sp/><sp/><sp/><sp/><ref refid="d4/dd7/class_entry_1a2a0c9e7ce364ed2981f49314c33245f9" kindref="member" tooltip="initial value (for variables)">initializer</ref>;<sp/></highlight></codeline>
+<codeline lineno="253" refid="d4/dd7/class_entry_1a88c55fcdd65a52dce640136f18adccf2" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>QCString<sp/><sp/><sp/><sp/><sp/><ref refid="d4/dd7/class_entry_1a88c55fcdd65a52dce640136f18adccf2" kindref="member" tooltip="include file (2 arg of \class, must be unique)">includeFile</ref>;<sp/></highlight></codeline>
+<codeline lineno="254" refid="d4/dd7/class_entry_1a32626ce14eb253f6da64ed475419a4ac" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>QCString<sp/><sp/><sp/><sp/><sp/><ref refid="d4/dd7/class_entry_1a32626ce14eb253f6da64ed475419a4ac" kindref="member" tooltip="include name (3 arg of \class)">includeName</ref>;<sp/></highlight></codeline>
+<codeline lineno="255" refid="d4/dd7/class_entry_1ac02a6c1dd922221351f6de0286d48d77" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>QCString<sp/><sp/><sp/><sp/><sp/><ref refid="d4/dd7/class_entry_1ac02a6c1dd922221351f6de0286d48d77" kindref="member" tooltip="documentation block (partly parsed)">doc</ref>;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="256" refid="d4/dd7/class_entry_1a180b5fdd7f3b963e4b0d2c4ea6e0b1b5" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="d4/dd7/class_entry_1a180b5fdd7f3b963e4b0d2c4ea6e0b1b5" kindref="member" tooltip="line number at which the documentation was found">docLine</ref>;<sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="257" refid="d4/dd7/class_entry_1ac6841c6ec8fd7ae6121364e7e1895e94" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>QCString<sp/><sp/><sp/><sp/><sp/><ref refid="d4/dd7/class_entry_1ac6841c6ec8fd7ae6121364e7e1895e94" kindref="member" tooltip="file in which the documentation was found">docFile</ref>;<sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="258" refid="d4/dd7/class_entry_1ad602ba19af5785515ed81790d843ce4c" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>QCString<sp/><sp/><sp/><sp/><sp/><ref refid="d4/dd7/class_entry_1ad602ba19af5785515ed81790d843ce4c" kindref="member" tooltip="brief description (doc block)">brief</ref>;<sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="259" refid="d4/dd7/class_entry_1add7a19978ab2b30a9755b8d5e3cbd00a" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="d4/dd7/class_entry_1add7a19978ab2b30a9755b8d5e3cbd00a" kindref="member" tooltip="line number at which the brief desc. was found">briefLine</ref>;<sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="260" refid="d4/dd7/class_entry_1a9a0b7ed65e6082088ededf633771d3d1" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>QCString<sp/><sp/><sp/><sp/><sp/><ref refid="d4/dd7/class_entry_1a9a0b7ed65e6082088ededf633771d3d1" kindref="member" tooltip="file in which the brief desc. was found">briefFile</ref>;<sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="261" refid="d4/dd7/class_entry_1a51e209dbd21d11b0c63d246efa6182f2" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>QCString<sp/><sp/><sp/><sp/><sp/><ref refid="d4/dd7/class_entry_1a51e209dbd21d11b0c63d246efa6182f2" kindref="member" tooltip="documentation inside the body of a function">inbodyDocs</ref>;<sp/><sp/></highlight></codeline>
+<codeline lineno="262" refid="d4/dd7/class_entry_1a8eed853bf654e1d583e10f04062ccdde" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="d4/dd7/class_entry_1a8eed853bf654e1d583e10f04062ccdde" kindref="member" tooltip="line number at which the body doc was found">inbodyLine</ref>;<sp/><sp/></highlight></codeline>
+<codeline lineno="263" refid="d4/dd7/class_entry_1aee8cba460792393b5051230c78fbb204" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>QCString<sp/><sp/><sp/><sp/><sp/><ref refid="d4/dd7/class_entry_1aee8cba460792393b5051230c78fbb204" kindref="member" tooltip="file in which the body doc was found">inbodyFile</ref>;<sp/><sp/></highlight></codeline>
+<codeline lineno="264" refid="d4/dd7/class_entry_1a611ec017dea1768b7093bea6e4177cba" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>QCString<sp/><sp/><sp/><sp/><sp/><ref refid="d4/dd7/class_entry_1a611ec017dea1768b7093bea6e4177cba" kindref="member" tooltip="related class (doc block)">relates</ref>;<sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="265" refid="d4/dd7/class_entry_1a74ff1e30a3ed19f82ce61f70b8a5a413" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="d9/d49/types_8h_1aa370e9ca1d3ff266cab92689bcc37d9e" kindref="member" tooltip="Type of member relation.">RelatesType</ref><sp/><sp/><ref refid="d4/dd7/class_entry_1a74ff1e30a3ed19f82ce61f70b8a5a413" kindref="member" tooltip="how relates is handled">relatesType</ref>;<sp/></highlight></codeline>
+<codeline lineno="266" refid="d4/dd7/class_entry_1ac5ad6c6585645a4427b54e5281316b65" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>QCString<sp/><sp/><sp/><sp/><sp/><ref refid="d4/dd7/class_entry_1ac5ad6c6585645a4427b54e5281316b65" kindref="member" tooltip="property read accessor">read</ref>;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="267" refid="d4/dd7/class_entry_1a76a68a1f14534f069444ba2704ef7404" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>QCString<sp/><sp/><sp/><sp/><sp/><ref refid="d4/dd7/class_entry_1a76a68a1f14534f069444ba2704ef7404" kindref="member" tooltip="property write accessor">write</ref>;<sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="268" refid="d4/dd7/class_entry_1af88583a31bcd3cfc5aa52691f958833f" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>QCString<sp/><sp/><sp/><sp/><sp/><ref refid="d4/dd7/class_entry_1af88583a31bcd3cfc5aa52691f958833f" kindref="member" tooltip="name of the class in which documents are found">inside</ref>;<sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="269" refid="d4/dd7/class_entry_1a81b9c13cc15e3460c8d9fdcabeb9342d" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>QCString<sp/><sp/><sp/><sp/><sp/><ref refid="d4/dd7/class_entry_1a81b9c13cc15e3460c8d9fdcabeb9342d" kindref="member" tooltip="throw specification">exception</ref>;<sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="270" refid="d4/dd7/class_entry_1a77d30ef01feb28bf83b77d4148968f84" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="d7/df8/class_argument_list" kindref="compound" tooltip="This class represents an function or template argument list.">ArgumentList</ref><sp/>*<ref refid="d4/dd7/class_entry_1a77d30ef01feb28bf83b77d4148968f84" kindref="member" tooltip="where clause (C#) for type constraints">typeConstr</ref>;<sp/></highlight></codeline>
+<codeline lineno="271" refid="d4/dd7/class_entry_1a9a2b1e3404f4723d8a6bef5966146ed0" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="d4/dd7/class_entry_1a9a2b1e3404f4723d8a6bef5966146ed0" kindref="member" tooltip="line number of the definition in the source">bodyLine</ref>;<sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="272" refid="d4/dd7/class_entry_1a2db88158279ecfe391ea775f63869fc1" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="d4/dd7/class_entry_1a2db88158279ecfe391ea775f63869fc1" kindref="member" tooltip="line number where the definition ends">endBodyLine</ref>;<sp/></highlight></codeline>
+<codeline lineno="273" refid="d4/dd7/class_entry_1a9f7167fc5b369f1fcd343946803efa0d" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="d4/dd7/class_entry_1a9f7167fc5b369f1fcd343946803efa0d" kindref="member" tooltip="member group id">mGrpId</ref>;<sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="274" refid="d4/dd7/class_entry_1a22b4c7b8255e183b68c49d5bd9f04017" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="db/daa/class_q_list" kindref="compound">QList&lt;BaseInfo&gt;</ref><sp/>*<ref refid="d4/dd7/class_entry_1a22b4c7b8255e183b68c49d5bd9f04017" kindref="member" tooltip="list of base classes">extends</ref>;<sp/></highlight></codeline>
+<codeline lineno="275" refid="d4/dd7/class_entry_1af10b19c474b2a7173a79b97124d25fc3" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="db/daa/class_q_list" kindref="compound">QList&lt;Grouping&gt;</ref><sp/>*<ref refid="d4/dd7/class_entry_1af10b19c474b2a7173a79b97124d25fc3" kindref="member" tooltip="list of groups this entry belongs to">groups</ref>;<sp/><sp/></highlight></codeline>
+<codeline lineno="276" refid="d4/dd7/class_entry_1a4608d738e9d9c7798d8b83a2846b3d12" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="db/daa/class_q_list" kindref="compound">QList&lt;SectionInfo&gt;</ref><sp/>*<ref refid="d4/dd7/class_entry_1a4608d738e9d9c7798d8b83a2846b3d12" kindref="member" tooltip="list of anchors defined in this entry">anchors</ref>;<sp/></highlight></codeline>
+<codeline lineno="277" refid="d4/dd7/class_entry_1a736f1dfadfe0c0fabb022c533aa27fdc" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>QCString<sp/><sp/><sp/><sp/><ref refid="d4/dd7/class_entry_1a736f1dfadfe0c0fabb022c533aa27fdc" kindref="member" tooltip="file this entry was extracted from">fileName</ref>;<sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="278" refid="d4/dd7/class_entry_1a81bf40c0a6646dc1e33097d7e2552c96" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="d4/dd7/class_entry_1a81bf40c0a6646dc1e33097d7e2552c96" kindref="member" tooltip="start line of entry in the source">startLine</ref>;<sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="279" refid="d4/dd7/class_entry_1a59c06b1f3be3c3220404df1d3fdc5bfb" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="d4/dd7/class_entry_1a59c06b1f3be3c3220404df1d3fdc5bfb" kindref="member" tooltip="start column of entry in the source">startColumn</ref>;<sp/><sp/></highlight></codeline>
+<codeline lineno="280" refid="d4/dd7/class_entry_1a5328bd7f1580a30ad2345840044c2a4b" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="db/daa/class_q_list" kindref="compound">QList&lt;ListItemInfo&gt;</ref><sp/>*<ref refid="d4/dd7/class_entry_1a5328bd7f1580a30ad2345840044c2a4b" kindref="member" tooltip="special lists (test/todo/bug/deprecated/..) this entry is in">sli</ref>;<sp/></highlight></codeline>
+<codeline lineno="281" refid="d4/dd7/class_entry_1a4ee5bbd6ac8bdf2f017d93edcefce5e9" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="d9/d49/types_8h_1a9974623ce72fc23df5d64426b9178bf2" kindref="member" tooltip="Language as given by extension.">SrcLangExt</ref><sp/><sp/><ref refid="d4/dd7/class_entry_1a4ee5bbd6ac8bdf2f017d93edcefce5e9" kindref="member" tooltip="programming language in which this entry was found">lang</ref>;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="282" refid="d4/dd7/class_entry_1acc4d59ae7ae3e94c3365ab8027593727" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="d4/dd7/class_entry_1acc4d59ae7ae3e94c3365ab8027593727" kindref="member" tooltip="does this represent an entity that is hidden from the output">hidden</ref>;<sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="283" refid="d4/dd7/class_entry_1acbe763144d791b44aa3620b012d0dd30" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="d4/dd7/class_entry_1acbe763144d791b44aa3620b012d0dd30" kindref="member" tooltip="Artificially introduced item.">artificial</ref>;<sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="284"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="d4/dd7/class_entry_1a470b655d0d6179559a11a81e6617d509" kindref="member">GroupDocType</ref><sp/>groupDocType;</highlight></codeline>
+<codeline lineno="285" refid="d4/dd7/class_entry_1a338fb12273a1a4f5dc124a1faf47d473" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>QCString<sp/><sp/><sp/><sp/><ref refid="d4/dd7/class_entry_1a338fb12273a1a4f5dc124a1faf47d473" kindref="member" tooltip="libclang id">id</ref>;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="286"><highlight class="normal"></highlight></codeline>
+<codeline lineno="287"><highlight class="normal"></highlight></codeline>
+<codeline lineno="288" refid="d4/dd7/class_entry_1a11f13875c6f9f3f9bed32e97a5d50bf5" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><sp/><ref refid="d4/dd7/class_entry_1a11f13875c6f9f3f9bed32e97a5d50bf5" kindref="member" tooltip="counts the total number of entries">num</ref>;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="289"><highlight class="normal"></highlight></codeline>
+<codeline lineno="291" refid="d4/dd7/class_entry_1a1ad3fe498337128e3e89c72dd5818e3b" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*<ref refid="d4/dd7/class_entry_1a1ad3fe498337128e3e89c72dd5818e3b" kindref="member" tooltip="return the command name used to define GROUPDOC_SEC">groupDocCmd</ref>()</highlight><highlight class="keyword"><sp/>const</highlight></codeline>
+<codeline lineno="292"><highlight class="keyword"><sp/><sp/><sp/><sp/></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="293"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">switch</highlight><highlight class="normal">(<sp/>groupDocType<sp/>)<sp/></highlight></codeline>
+<codeline lineno="294"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="295"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/><ref refid="d4/dd7/class_entry_1a470b655d0d6179559a11a81e6617d509af6812be32a740baaad470ce4aec182be" kindref="member" tooltip="defgroup">GROUPDOC_NORMAL</ref>:<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;\\defgroup&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="296"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/><ref refid="d4/dd7/class_entry_1a470b655d0d6179559a11a81e6617d509a7637daf4200f6f55374604f2384ac925" kindref="member" tooltip="addgroup">GROUPDOC_ADD</ref>:<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;\\addgroup&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="297"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/><ref refid="d4/dd7/class_entry_1a470b655d0d6179559a11a81e6617d509a4231a193e86f3b43e9b1b6fe12f64ed0" kindref="member" tooltip="weakgroup">GROUPDOC_WEAK</ref>:<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;\\weakgroup&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="298"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">default</highlight><highlight class="normal">:<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;unknown<sp/>group<sp/>command&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="299"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="300"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="301"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="d7/d59/struct_grouping_1a9f0ec5ab376b083ebe3274ea79fd2d70" kindref="member" tooltip="Grouping priority.">Grouping::GroupPri_t</ref><sp/>groupingPri()</highlight><highlight class="keyword"><sp/>const</highlight></codeline>
+<codeline lineno="302"><highlight class="keyword"><sp/><sp/><sp/><sp/></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="303"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(<sp/><ref refid="d4/dd7/class_entry_1a9197cdd8acd8fc0670e2911a407f3d04" kindref="member" tooltip="entry type (see Sections);">section</ref><sp/>!=<sp/>GROUPDOC_SEC<sp/>)<sp/></highlight></codeline>
+<codeline lineno="304"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="305"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>Grouping::GROUPING_LOWEST;</highlight></codeline>
+<codeline lineno="306"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="307"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">switch</highlight><highlight class="normal">(<sp/>groupDocType<sp/>)<sp/></highlight></codeline>
+<codeline lineno="308"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="309"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/><ref refid="d4/dd7/class_entry_1a470b655d0d6179559a11a81e6617d509af6812be32a740baaad470ce4aec182be" kindref="member" tooltip="defgroup">GROUPDOC_NORMAL</ref>:<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="d7/d59/struct_grouping_1a9f0ec5ab376b083ebe3274ea79fd2d70ab767fc9fe6f874c09362fd1350738f7f" kindref="member" tooltip="membership in group was defined via @defgroup">Grouping::GROUPING_AUTO_DEF</ref>;</highlight></codeline>
+<codeline lineno="310"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/><ref refid="d4/dd7/class_entry_1a470b655d0d6179559a11a81e6617d509a7637daf4200f6f55374604f2384ac925" kindref="member" tooltip="addgroup">GROUPDOC_ADD</ref>:<sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="d7/d59/struct_grouping_1a9f0ec5ab376b083ebe3274ea79fd2d70a44f89332beea02ebc5d56bcb71a081ba" kindref="member" tooltip="membership in group was defined via @add[to]group">Grouping::GROUPING_AUTO_ADD</ref>;</highlight></codeline>
+<codeline lineno="311"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/><ref refid="d4/dd7/class_entry_1a470b655d0d6179559a11a81e6617d509a4231a193e86f3b43e9b1b6fe12f64ed0" kindref="member" tooltip="weakgroup">GROUPDOC_WEAK</ref>:<sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="d7/d59/struct_grouping_1a9f0ec5ab376b083ebe3274ea79fd2d70aa59227c8fa39faf56ebc4c06e08d4d84" kindref="member" tooltip="membership in group was defined via @weakgroup">Grouping::GROUPING_AUTO_WEAK</ref>;</highlight></codeline>
+<codeline lineno="312"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">default</highlight><highlight class="normal">:<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>Grouping::GROUPING_LOWEST;</highlight></codeline>
+<codeline lineno="313"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="314"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="315"><highlight class="normal"></highlight></codeline>
+<codeline lineno="316"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal">:<sp/><sp/></highlight></codeline>
+<codeline lineno="317"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>createSubtreeIndex(<ref refid="da/dc6/class_entry_nav" kindref="compound" tooltip="Wrapper for a node in the Entry tree.">EntryNav</ref><sp/>*nav,<ref refid="d3/d94/class_file_storage" kindref="compound" tooltip="Store implementation based on a file.">FileStorage</ref><sp/>*storage,<ref refid="de/db0/class_file_def" kindref="compound" tooltip="A model of a file symbol.">FileDef</ref><sp/>*fd);</highlight></codeline>
+<codeline lineno="318"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="d4/dd7/class_entry" kindref="compound" tooltip="Represents an unstructured piece of information, about an entity found in the sources.">Entry</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*m_parent;<sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="319"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="db/daa/class_q_list" kindref="compound">QList&lt;Entry&gt;</ref><sp/><sp/>*m_sublist;<sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="320"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="d4/dd7/class_entry" kindref="compound" tooltip="Represents an unstructured piece of information, about an entity found in the sources.">Entry</ref><sp/>&amp;operator=(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="d4/dd7/class_entry" kindref="compound" tooltip="Represents an unstructured piece of information, about an entity found in the sources.">Entry</ref><sp/>&amp;);<sp/></highlight></codeline>
+<codeline lineno="321"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="322"><highlight class="normal"></highlight></codeline>
+<codeline lineno="328" refid="da/dc6/class_entry_nav" refkind="compound"><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="da/dc6/class_entry_nav" kindref="compound" tooltip="Wrapper for a node in the Entry tree.">EntryNav</ref></highlight></codeline>
+<codeline lineno="329"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="330"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="331"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="da/dc6/class_entry_nav" kindref="compound" tooltip="Wrapper for a node in the Entry tree.">EntryNav</ref>(<ref refid="da/dc6/class_entry_nav" kindref="compound" tooltip="Wrapper for a node in the Entry tree.">EntryNav</ref><sp/>*parent,<ref refid="d4/dd7/class_entry" kindref="compound" tooltip="Represents an unstructured piece of information, about an entity found in the sources.">Entry</ref><sp/>*e);</highlight></codeline>
+<codeline lineno="332"><highlight class="normal"><sp/><sp/><sp/>~<ref refid="da/dc6/class_entry_nav" kindref="compound" tooltip="Wrapper for a node in the Entry tree.">EntryNav</ref>();</highlight></codeline>
+<codeline lineno="333"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>addChild(<ref refid="da/dc6/class_entry_nav" kindref="compound" tooltip="Wrapper for a node in the Entry tree.">EntryNav</ref><sp/>*);</highlight></codeline>
+<codeline lineno="334"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>loadEntry(<ref refid="d3/d94/class_file_storage" kindref="compound" tooltip="Store implementation based on a file.">FileStorage</ref><sp/>*storage);</highlight></codeline>
+<codeline lineno="335"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>saveEntry(<ref refid="d4/dd7/class_entry" kindref="compound" tooltip="Represents an unstructured piece of information, about an entity found in the sources.">Entry</ref><sp/>*e,<ref refid="d3/d94/class_file_storage" kindref="compound" tooltip="Store implementation based on a file.">FileStorage</ref><sp/>*storage);</highlight></codeline>
+<codeline lineno="336"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>setEntry(<ref refid="d4/dd7/class_entry" kindref="compound" tooltip="Represents an unstructured piece of information, about an entity found in the sources.">Entry</ref><sp/>*e);</highlight></codeline>
+<codeline lineno="337"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>releaseEntry();</highlight></codeline>
+<codeline lineno="338"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>changeSection(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>section)<sp/>{<sp/>m_section<sp/>=<sp/>section;<sp/>}</highlight></codeline>
+<codeline lineno="339"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>setFileDef(<ref refid="de/db0/class_file_def" kindref="compound" tooltip="A model of a file symbol.">FileDef</ref><sp/>*fd)<sp/>{<sp/>m_fileDef<sp/>=<sp/>fd;<sp/>}</highlight></codeline>
+<codeline lineno="340"><highlight class="normal"></highlight></codeline>
+<codeline lineno="341"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="d4/dd7/class_entry" kindref="compound" tooltip="Represents an unstructured piece of information, about an entity found in the sources.">Entry</ref><sp/>*entry()</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>m_info;<sp/>}</highlight></codeline>
+<codeline lineno="342"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>section()</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>m_section;<sp/>}</highlight></codeline>
+<codeline lineno="343"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="d9/d49/types_8h_1a9974623ce72fc23df5d64426b9178bf2" kindref="member" tooltip="Language as given by extension.">SrcLangExt</ref><sp/>lang()</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>m_lang;<sp/>}</highlight></codeline>
+<codeline lineno="344"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QCString<sp/>&amp;type()</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>m_type;<sp/>}</highlight></codeline>
+<codeline lineno="345"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QCString<sp/>&amp;name()</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>m_name;<sp/>}</highlight></codeline>
+<codeline lineno="346"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="d3/dc3/struct_tag_info" kindref="compound" tooltip="This struct is used to capture the tag file information for an Entry.">TagInfo</ref><sp/>*tagInfo()</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>m_tagInfo;<sp/>}</highlight></codeline>
+<codeline lineno="347"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="db/daa/class_q_list" kindref="compound">QList&lt;EntryNav&gt;</ref><sp/>*children()</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>m_subList;<sp/>}</highlight></codeline>
+<codeline lineno="348"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="da/dc6/class_entry_nav" kindref="compound" tooltip="Wrapper for a node in the Entry tree.">EntryNav</ref><sp/>*parent()</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>m_parent;<sp/>}</highlight></codeline>
+<codeline lineno="349"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="de/db0/class_file_def" kindref="compound" tooltip="A model of a file symbol.">FileDef</ref><sp/>*fileDef()</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>m_fileDef;<sp/>}</highlight></codeline>
+<codeline lineno="350"><highlight class="normal"></highlight></codeline>
+<codeline lineno="351"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="352"><highlight class="normal"></highlight></codeline>
+<codeline lineno="353"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>navigation<sp/></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="354"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="da/dc6/class_entry_nav" kindref="compound" tooltip="Wrapper for a node in the Entry tree.">EntryNav</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*m_parent;<sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="355"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="db/daa/class_q_list" kindref="compound">QList&lt;EntryNav&gt;</ref><sp/>*m_subList;<sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="356"><highlight class="normal"></highlight></codeline>
+<codeline lineno="357"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>identification</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="358"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>m_section;<sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="359"><highlight class="normal"><sp/><sp/><sp/><sp/>QCString<sp/><sp/><sp/><sp/><sp/>m_type;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="360"><highlight class="normal"><sp/><sp/><sp/><sp/>QCString<sp/><sp/><sp/><sp/><sp/>m_name;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="361"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="d3/dc3/struct_tag_info" kindref="compound" tooltip="This struct is used to capture the tag file information for an Entry.">TagInfo</ref><sp/><sp/><sp/><sp/><sp/>*m_tagInfo;<sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="362"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="de/db0/class_file_def" kindref="compound" tooltip="A model of a file symbol.">FileDef</ref><sp/><sp/><sp/><sp/><sp/>*m_fileDef;</highlight></codeline>
+<codeline lineno="363"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="d9/d49/types_8h_1a9974623ce72fc23df5d64426b9178bf2" kindref="member" tooltip="Language as given by extension.">SrcLangExt</ref><sp/><sp/><sp/>m_lang;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="364"><highlight class="normal"></highlight></codeline>
+<codeline lineno="365"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="d4/dd7/class_entry" kindref="compound" tooltip="Represents an unstructured piece of information, about an entity found in the sources.">Entry</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*m_info;</highlight></codeline>
+<codeline lineno="366"><highlight class="normal"><sp/><sp/><sp/><sp/>int64<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>m_offset;</highlight></codeline>
+<codeline lineno="367"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>m_noLoad;</highlight></codeline>
+<codeline lineno="368"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="369"><highlight class="normal"></highlight></codeline>
+<codeline lineno="370"><highlight class="normal"></highlight></codeline>
+<codeline lineno="371"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/><ref refid="db/daa/class_q_list" kindref="compound">QList&lt;Entry&gt;</ref><sp/><ref refid="db/daa/class_q_list" kindref="compound">EntryList</ref>;</highlight></codeline>
+<codeline lineno="372"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/>QListIterator&lt;Entry&gt;<sp/>EntryListIterator;</highlight></codeline>
+<codeline lineno="373"><highlight class="normal"></highlight></codeline>
+<codeline lineno="374"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/><ref refid="db/daa/class_q_list" kindref="compound">QList&lt;EntryNav&gt;</ref><sp/><ref refid="db/daa/class_q_list" kindref="compound">EntryNavList</ref>;</highlight></codeline>
+<codeline lineno="375"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/>QListIterator&lt;EntryNav&gt;<sp/>EntryNavListIterator;</highlight></codeline>
+<codeline lineno="376"><highlight class="normal"></highlight></codeline>
+<codeline lineno="377"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+    </programlisting>
+    <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/entry.h"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,114 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.2">
+  <compounddef id="d8/da6/struct_d_bus_x_m_l_handler_1_1_scope_data" kind="struct" prot="private">
+    <compoundname>DBusXMLHandler::ScopeData</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="d8/da6/struct_d_bus_x_m_l_handler_1_1_scope_data_1ab33a4cfd98c23f54549db99fa6c6bf8f" prot="public" static="no" mutable="no">
+        <type><ref refid="d4/dd7/class_entry" kindref="compound">Entry</ref> *</type>
+        <definition>Entry* DBusXMLHandler::ScopeData::scope</definition>
+        <argsstring></argsstring>
+        <name>scope</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/dbusxmlscanner.cpp" line="778" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/dbusxmlscanner.cpp" bodystart="778" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d8/da6/struct_d_bus_x_m_l_handler_1_1_scope_data_1aa93397a40464d83f2342b0b56161d049" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int DBusXMLHandler::ScopeData::count</definition>
+        <argsstring></argsstring>
+        <name>count</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/dbusxmlscanner.cpp" line="779" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/dbusxmlscanner.cpp" bodystart="779" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="d8/da6/struct_d_bus_x_m_l_handler_1_1_scope_data_1a82bd2cd36f3cab32b6a1fc2be9739f09" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>DBusXMLHandler::ScopeData::ScopeData</definition>
+        <argsstring>(Entry *s, int c)</argsstring>
+        <name>ScopeData</name>
+        <param>
+          <type><ref refid="d4/dd7/class_entry" kindref="compound">Entry</ref> *</type>
+          <declname>s</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>c</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/dbusxmlscanner.cpp" line="775" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/dbusxmlscanner.cpp" bodystart="772" bodyend="775"/>
+      </memberdef>
+      <memberdef kind="function" id="d8/da6/struct_d_bus_x_m_l_handler_1_1_scope_data_1afa2fb55fe7c0247b0709ad1f7f218387" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>DBusXMLHandler::ScopeData::~ScopeData</definition>
+        <argsstring>()</argsstring>
+        <name>~ScopeData</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/dbusxmlscanner.cpp" line="776" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/dbusxmlscanner.cpp" bodystart="776" bodyend="776"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="4028">
+        <label>QList&lt; Argument &gt;</label>
+        <link refid="db/daa/class_q_list"/>
+      </node>
+      <node id="4024">
+        <label>DBusXMLHandler::ScopeData</label>
+        <childnode refid="4025" relation="usage">
+          <edgelabel>scope</edgelabel>
+        </childnode>
+      </node>
+      <node id="4025">
+        <label>Entry</label>
+        <link refid="d4/dd7/class_entry"/>
+        <childnode refid="4026" relation="usage">
+          <edgelabel>tagInfo</edgelabel>
+        </childnode>
+        <childnode refid="4027" relation="usage">
+          <edgelabel>argList</edgelabel>
+          <edgelabel>typeConstr</edgelabel>
+        </childnode>
+      </node>
+      <node id="4026">
+        <label>TagInfo</label>
+        <link refid="d3/dc3/struct_tag_info"/>
+      </node>
+      <node id="4027">
+        <label>ArgumentList</label>
+        <link refid="d7/df8/class_argument_list"/>
+        <childnode refid="4028" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/dbusxmlscanner.cpp" line="771" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/dbusxmlscanner.cpp" bodystart="770" bodyend="780"/>
+    <listofallmembers>
+      <member refid="d8/da6/struct_d_bus_x_m_l_handler_1_1_scope_data_1aa93397a40464d83f2342b0b56161d049" prot="public" virt="non-virtual"><scope>DBusXMLHandler::ScopeData</scope><name>count</name></member>
+      <member refid="d8/da6/struct_d_bus_x_m_l_handler_1_1_scope_data_1ab33a4cfd98c23f54549db99fa6c6bf8f" prot="public" virt="non-virtual"><scope>DBusXMLHandler::ScopeData</scope><name>scope</name></member>
+      <member refid="d8/da6/struct_d_bus_x_m_l_handler_1_1_scope_data_1a82bd2cd36f3cab32b6a1fc2be9739f09" prot="public" virt="non-virtual"><scope>DBusXMLHandler::ScopeData</scope><name>ScopeData</name></member>
+      <member refid="d8/da6/struct_d_bus_x_m_l_handler_1_1_scope_data_1afa2fb55fe7c0247b0709ad1f7f218387" prot="public" virt="non-virtual"><scope>DBusXMLHandler::ScopeData</scope><name>~ScopeData</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

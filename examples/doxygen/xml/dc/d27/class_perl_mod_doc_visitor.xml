@@ -1,0 +1,1827 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.2">
+  <compounddef id="dc/d27/class_perl_mod_doc_visitor" kind="class" prot="public">
+    <compoundname>PerlModDocVisitor</compoundname>
+    <basecompoundref refid="d0/d78/class_doc_visitor" prot="public" virt="non-virtual">DocVisitor</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="dc/d27/class_perl_mod_doc_visitor_1a9b7555fd8015feb299813f4b7ae078b8" prot="private" static="no" mutable="no">
+        <type>PerlModOutput &amp;</type>
+        <definition>PerlModOutput&amp; PerlModDocVisitor::m_output</definition>
+        <argsstring></argsstring>
+        <name>m_output</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/perlmodgen.cpp" line="418" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/perlmodgen.cpp" bodystart="418" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="dc/d27/class_perl_mod_doc_visitor_1a8b16465388385f7e687b8d4516cc6139" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool PerlModDocVisitor::m_textmode</definition>
+        <argsstring></argsstring>
+        <name>m_textmode</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/perlmodgen.cpp" line="419" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/perlmodgen.cpp" bodystart="419" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="dc/d27/class_perl_mod_doc_visitor_1a71c18193cb7f6bf881d412c3663ffc0e" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool PerlModDocVisitor::m_textblockstart</definition>
+        <argsstring></argsstring>
+        <name>m_textblockstart</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/perlmodgen.cpp" line="420" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/perlmodgen.cpp" bodystart="420" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="dc/d27/class_perl_mod_doc_visitor_1a43ed89421fc709074ca21376025bedb7" prot="private" static="no" mutable="no">
+        <type>QCString</type>
+        <definition>QCString PerlModDocVisitor::m_other</definition>
+        <argsstring></argsstring>
+        <name>m_other</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/perlmodgen.cpp" line="421" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/perlmodgen.cpp" bodystart="421" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="dc/d27/class_perl_mod_doc_visitor_1a147c750cdb85c41305baf5ccb8dca305" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>PerlModDocVisitor::PerlModDocVisitor</definition>
+        <argsstring>(PerlModOutput &amp;)</argsstring>
+        <name>PerlModDocVisitor</name>
+        <param>
+          <type>PerlModOutput &amp;</type>
+          <defname>output</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/perlmodgen.cpp" line="287" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/perlmodgen.cpp" bodystart="424" bodyend="428"/>
+      </memberdef>
+      <memberdef kind="function" id="dc/d27/class_perl_mod_doc_visitor_1a22fa37c6d082c47367af9414623b52eb" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type></type>
+        <definition>virtual PerlModDocVisitor::~PerlModDocVisitor</definition>
+        <argsstring>()</argsstring>
+        <name>~PerlModDocVisitor</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/perlmodgen.cpp" line="288" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/perlmodgen.cpp" bodystart="288" bodyend="288"/>
+      </memberdef>
+      <memberdef kind="function" id="dc/d27/class_perl_mod_doc_visitor_1a1766bc0c0c37524f9fac777d62526f59" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void PerlModDocVisitor::finish</definition>
+        <argsstring>()</argsstring>
+        <name>finish</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/perlmodgen.cpp" line="290" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/perlmodgen.cpp" bodystart="430" bodyend="435"/>
+      </memberdef>
+      <memberdef kind="function" id="dc/d27/class_perl_mod_doc_visitor_1a02f8554a8a51420323e77d058881e51f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void PerlModDocVisitor::visit</definition>
+        <argsstring>(DocWord *)</argsstring>
+        <name>visit</name>
+        <param>
+          <type><ref refid="d9/d1d/class_doc_word" kindref="compound">DocWord</ref> *</type>
+          <defname>w</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/perlmodgen.cpp" line="296" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/perlmodgen.cpp" bodystart="517" bodyend="521"/>
+      </memberdef>
+      <memberdef kind="function" id="dc/d27/class_perl_mod_doc_visitor_1aa80e542bb624ba60a569218362092fa7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void PerlModDocVisitor::visit</definition>
+        <argsstring>(DocLinkedWord *)</argsstring>
+        <name>visit</name>
+        <param>
+          <type><ref refid="d1/d93/class_doc_linked_word" kindref="compound">DocLinkedWord</ref> *</type>
+          <defname>w</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/perlmodgen.cpp" line="297" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/perlmodgen.cpp" bodystart="523" bodyend="529"/>
+      </memberdef>
+      <memberdef kind="function" id="dc/d27/class_perl_mod_doc_visitor_1a2c322edff264290a6e57bfa031e77cd2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void PerlModDocVisitor::visit</definition>
+        <argsstring>(DocWhiteSpace *)</argsstring>
+        <name>visit</name>
+        <param>
+          <type><ref refid="db/d78/class_doc_white_space" kindref="compound">DocWhiteSpace</ref> *</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/perlmodgen.cpp" line="298" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/perlmodgen.cpp" bodystart="531" bodyend="535"/>
+      </memberdef>
+      <memberdef kind="function" id="dc/d27/class_perl_mod_doc_visitor_1a27daa7ca4f2c3ab2a3b220633f56c57d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void PerlModDocVisitor::visit</definition>
+        <argsstring>(DocSymbol *)</argsstring>
+        <name>visit</name>
+        <param>
+          <type><ref refid="d7/d67/class_doc_symbol" kindref="compound">DocSymbol</ref> *</type>
+          <defname>sy</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/perlmodgen.cpp" line="299" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/perlmodgen.cpp" bodystart="537" bodyend="674"/>
+      </memberdef>
+      <memberdef kind="function" id="dc/d27/class_perl_mod_doc_visitor_1a623b819a61e860178970bf5620646fb5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void PerlModDocVisitor::visit</definition>
+        <argsstring>(DocURL *)</argsstring>
+        <name>visit</name>
+        <param>
+          <type><ref refid="d9/dcb/class_doc_u_r_l" kindref="compound">DocURL</ref> *</type>
+          <defname>u</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/perlmodgen.cpp" line="300" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/perlmodgen.cpp" bodystart="676" bodyend="681"/>
+      </memberdef>
+      <memberdef kind="function" id="dc/d27/class_perl_mod_doc_visitor_1a456d3d1d5b0733055f70d744c6394729" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void PerlModDocVisitor::visit</definition>
+        <argsstring>(DocLineBreak *)</argsstring>
+        <name>visit</name>
+        <param>
+          <type><ref refid="df/d34/class_doc_line_break" kindref="compound">DocLineBreak</ref> *</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/perlmodgen.cpp" line="301" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/perlmodgen.cpp" bodystart="683" bodyend="683"/>
+      </memberdef>
+      <memberdef kind="function" id="dc/d27/class_perl_mod_doc_visitor_1a1c19e22797c0f3262fdf47485f6c9596" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void PerlModDocVisitor::visit</definition>
+        <argsstring>(DocHorRuler *)</argsstring>
+        <name>visit</name>
+        <param>
+          <type><ref refid="d9/d6f/class_doc_hor_ruler" kindref="compound">DocHorRuler</ref> *</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/perlmodgen.cpp" line="302" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/perlmodgen.cpp" bodystart="684" bodyend="684"/>
+      </memberdef>
+      <memberdef kind="function" id="dc/d27/class_perl_mod_doc_visitor_1a70159e6b7bfd4231bdec8acc67c83839" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void PerlModDocVisitor::visit</definition>
+        <argsstring>(DocStyleChange *)</argsstring>
+        <name>visit</name>
+        <param>
+          <type><ref refid="d0/d4e/class_doc_style_change" kindref="compound">DocStyleChange</ref> *</type>
+          <defname>s</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/perlmodgen.cpp" line="303" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/perlmodgen.cpp" bodystart="686" bodyend="707"/>
+      </memberdef>
+      <memberdef kind="function" id="dc/d27/class_perl_mod_doc_visitor_1a233b1e47ed105234259eed1cfd6990ee" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void PerlModDocVisitor::visit</definition>
+        <argsstring>(DocVerbatim *)</argsstring>
+        <name>visit</name>
+        <param>
+          <type><ref refid="dc/d12/class_doc_verbatim" kindref="compound">DocVerbatim</ref> *</type>
+          <defname>s</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/perlmodgen.cpp" line="304" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/perlmodgen.cpp" bodystart="709" bodyend="734"/>
+      </memberdef>
+      <memberdef kind="function" id="dc/d27/class_perl_mod_doc_visitor_1a38fbfd1716fd80978b53f88dd53edc46" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void PerlModDocVisitor::visit</definition>
+        <argsstring>(DocAnchor *)</argsstring>
+        <name>visit</name>
+        <param>
+          <type><ref refid="d0/d33/class_doc_anchor" kindref="compound">DocAnchor</ref> *</type>
+          <defname>anc</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/perlmodgen.cpp" line="305" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/perlmodgen.cpp" bodystart="736" bodyend="742"/>
+      </memberdef>
+      <memberdef kind="function" id="dc/d27/class_perl_mod_doc_visitor_1a3371fd84234867b003f58186568f22e8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void PerlModDocVisitor::visit</definition>
+        <argsstring>(DocInclude *)</argsstring>
+        <name>visit</name>
+        <param>
+          <type><ref refid="d6/db9/class_doc_include" kindref="compound">DocInclude</ref> *</type>
+          <defname>inc</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/perlmodgen.cpp" line="306" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/perlmodgen.cpp" bodystart="744" bodyend="776"/>
+      </memberdef>
+      <memberdef kind="function" id="dc/d27/class_perl_mod_doc_visitor_1a162eaa4d276eb3c2940ccf6d3a4d0427" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void PerlModDocVisitor::visit</definition>
+        <argsstring>(DocIncOperator *)</argsstring>
+        <name>visit</name>
+        <param>
+          <type><ref refid="d2/db2/class_doc_inc_operator" kindref="compound">DocIncOperator</ref> *</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/perlmodgen.cpp" line="307" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/perlmodgen.cpp" bodystart="778" bodyend="800"/>
+      </memberdef>
+      <memberdef kind="function" id="dc/d27/class_perl_mod_doc_visitor_1a3560b1ca24662680bb7521f2cd700ef2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void PerlModDocVisitor::visit</definition>
+        <argsstring>(DocFormula *)</argsstring>
+        <name>visit</name>
+        <param>
+          <type><ref refid="df/de1/class_doc_formula" kindref="compound">DocFormula</ref> *</type>
+          <defname>f</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/perlmodgen.cpp" line="308" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/perlmodgen.cpp" bodystart="802" bodyend="809"/>
+      </memberdef>
+      <memberdef kind="function" id="dc/d27/class_perl_mod_doc_visitor_1a12de654377ad0e92d22109f4c6734a66" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void PerlModDocVisitor::visit</definition>
+        <argsstring>(DocIndexEntry *)</argsstring>
+        <name>visit</name>
+        <param>
+          <type><ref refid="d7/dc9/class_doc_index_entry" kindref="compound">DocIndexEntry</ref> *</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/perlmodgen.cpp" line="309" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/perlmodgen.cpp" bodystart="811" bodyend="821"/>
+      </memberdef>
+      <memberdef kind="function" id="dc/d27/class_perl_mod_doc_visitor_1a21c4a0e59d8b7485fbb63f67a24305d1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void PerlModDocVisitor::visit</definition>
+        <argsstring>(DocSimpleSectSep *)</argsstring>
+        <name>visit</name>
+        <param>
+          <type><ref refid="db/dd0/class_doc_simple_sect_sep" kindref="compound">DocSimpleSectSep</ref> *</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/perlmodgen.cpp" line="310" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/perlmodgen.cpp" bodystart="823" bodyend="825"/>
+      </memberdef>
+      <memberdef kind="function" id="dc/d27/class_perl_mod_doc_visitor_1ab3b29d44aef74284e4a5e559ac9e0051" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void PerlModDocVisitor::visit</definition>
+        <argsstring>(DocCite *)</argsstring>
+        <name>visit</name>
+        <param>
+          <type><ref refid="d6/db8/class_doc_cite" kindref="compound">DocCite</ref> *</type>
+          <defname>cite</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/perlmodgen.cpp" line="311" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/perlmodgen.cpp" bodystart="827" bodyend="832"/>
+      </memberdef>
+      <memberdef kind="function" id="dc/d27/class_perl_mod_doc_visitor_1a943f576317b46ea69116c3b0e3b5637b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void PerlModDocVisitor::visitPre</definition>
+        <argsstring>(DocAutoList *)</argsstring>
+        <name>visitPre</name>
+        <param>
+          <type><ref refid="d1/d3f/class_doc_auto_list" kindref="compound">DocAutoList</ref> *</type>
+          <defname>l</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/perlmodgen.cpp" line="317" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/perlmodgen.cpp" bodystart="839" bodyend="844"/>
+      </memberdef>
+      <memberdef kind="function" id="dc/d27/class_perl_mod_doc_visitor_1a0f62a539f3c237085e5e785bd8ff1fa8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void PerlModDocVisitor::visitPost</definition>
+        <argsstring>(DocAutoList *)</argsstring>
+        <name>visitPost</name>
+        <param>
+          <type><ref refid="d1/d3f/class_doc_auto_list" kindref="compound">DocAutoList</ref> *</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/perlmodgen.cpp" line="318" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/perlmodgen.cpp" bodystart="846" bodyend="850"/>
+      </memberdef>
+      <memberdef kind="function" id="dc/d27/class_perl_mod_doc_visitor_1af189af66f2e0e142768673e6709126b8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void PerlModDocVisitor::visitPre</definition>
+        <argsstring>(DocAutoListItem *)</argsstring>
+        <name>visitPre</name>
+        <param>
+          <type><ref refid="d8/df9/class_doc_auto_list_item" kindref="compound">DocAutoListItem</ref> *</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/perlmodgen.cpp" line="319" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/perlmodgen.cpp" bodystart="852" bodyend="855"/>
+      </memberdef>
+      <memberdef kind="function" id="dc/d27/class_perl_mod_doc_visitor_1a3e85e85bb876d233ae72affb28fa6711" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void PerlModDocVisitor::visitPost</definition>
+        <argsstring>(DocAutoListItem *)</argsstring>
+        <name>visitPost</name>
+        <param>
+          <type><ref refid="d8/df9/class_doc_auto_list_item" kindref="compound">DocAutoListItem</ref> *</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/perlmodgen.cpp" line="320" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/perlmodgen.cpp" bodystart="857" bodyend="860"/>
+      </memberdef>
+      <memberdef kind="function" id="dc/d27/class_perl_mod_doc_visitor_1ad272cb11df7988943546a52ef8b55a0a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void PerlModDocVisitor::visitPre</definition>
+        <argsstring>(DocPara *)</argsstring>
+        <name>visitPre</name>
+        <param>
+          <type><ref refid="d3/d01/class_doc_para" kindref="compound">DocPara</ref> *</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/perlmodgen.cpp" line="321" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/perlmodgen.cpp" bodystart="862" bodyend="872"/>
+      </memberdef>
+      <memberdef kind="function" id="dc/d27/class_perl_mod_doc_visitor_1aa866ed5844345ced9601563a31746805" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void PerlModDocVisitor::visitPost</definition>
+        <argsstring>(DocPara *)</argsstring>
+        <name>visitPost</name>
+        <param>
+          <type><ref refid="d3/d01/class_doc_para" kindref="compound">DocPara</ref> *</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/perlmodgen.cpp" line="322" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/perlmodgen.cpp" bodystart="874" bodyend="880"/>
+      </memberdef>
+      <memberdef kind="function" id="dc/d27/class_perl_mod_doc_visitor_1a3cd866d1362085c952c45b70c961581f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void PerlModDocVisitor::visitPre</definition>
+        <argsstring>(DocRoot *)</argsstring>
+        <name>visitPre</name>
+        <param>
+          <type><ref refid="d8/ddb/class_doc_root" kindref="compound">DocRoot</ref> *</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/perlmodgen.cpp" line="323" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/perlmodgen.cpp" bodystart="882" bodyend="884"/>
+      </memberdef>
+      <memberdef kind="function" id="dc/d27/class_perl_mod_doc_visitor_1a4d99bda58fc9c5f83d57393a408c03b0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void PerlModDocVisitor::visitPost</definition>
+        <argsstring>(DocRoot *)</argsstring>
+        <name>visitPost</name>
+        <param>
+          <type><ref refid="d8/ddb/class_doc_root" kindref="compound">DocRoot</ref> *</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/perlmodgen.cpp" line="324" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/perlmodgen.cpp" bodystart="886" bodyend="888"/>
+      </memberdef>
+      <memberdef kind="function" id="dc/d27/class_perl_mod_doc_visitor_1a61377bb003e74b040d5875f883211793" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void PerlModDocVisitor::visitPre</definition>
+        <argsstring>(DocSimpleSect *)</argsstring>
+        <name>visitPre</name>
+        <param>
+          <type><ref refid="de/d65/class_doc_simple_sect" kindref="compound">DocSimpleSect</ref> *</type>
+          <defname>s</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/perlmodgen.cpp" line="325" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/perlmodgen.cpp" bodystart="890" bodyend="920"/>
+      </memberdef>
+      <memberdef kind="function" id="dc/d27/class_perl_mod_doc_visitor_1aa2f264f3abcc2c272cb0d64f65dc7d1c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void PerlModDocVisitor::visitPost</definition>
+        <argsstring>(DocSimpleSect *)</argsstring>
+        <name>visitPost</name>
+        <param>
+          <type><ref refid="de/d65/class_doc_simple_sect" kindref="compound">DocSimpleSect</ref> *</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/perlmodgen.cpp" line="326" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/perlmodgen.cpp" bodystart="922" bodyend="927"/>
+      </memberdef>
+      <memberdef kind="function" id="dc/d27/class_perl_mod_doc_visitor_1ab5ae966ee80b6e4fc33089c62bda123e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void PerlModDocVisitor::visitPre</definition>
+        <argsstring>(DocTitle *)</argsstring>
+        <name>visitPre</name>
+        <param>
+          <type><ref refid="d3/d1c/class_doc_title" kindref="compound">DocTitle</ref> *</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/perlmodgen.cpp" line="327" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/perlmodgen.cpp" bodystart="929" bodyend="933"/>
+      </memberdef>
+      <memberdef kind="function" id="dc/d27/class_perl_mod_doc_visitor_1a3a67bd115b6f20c51b380dc86730937a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void PerlModDocVisitor::visitPost</definition>
+        <argsstring>(DocTitle *)</argsstring>
+        <name>visitPost</name>
+        <param>
+          <type><ref refid="d3/d1c/class_doc_title" kindref="compound">DocTitle</ref> *</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/perlmodgen.cpp" line="328" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/perlmodgen.cpp" bodystart="935" bodyend="939"/>
+      </memberdef>
+      <memberdef kind="function" id="dc/d27/class_perl_mod_doc_visitor_1a86de76f31d38a5eaaa536e0fdcbfce63" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void PerlModDocVisitor::visitPre</definition>
+        <argsstring>(DocSimpleList *)</argsstring>
+        <name>visitPre</name>
+        <param>
+          <type><ref refid="dc/de6/class_doc_simple_list" kindref="compound">DocSimpleList</ref> *</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/perlmodgen.cpp" line="329" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/perlmodgen.cpp" bodystart="941" bodyend="946"/>
+      </memberdef>
+      <memberdef kind="function" id="dc/d27/class_perl_mod_doc_visitor_1abf4490c7e1aa310aedbfffb80711e49b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void PerlModDocVisitor::visitPost</definition>
+        <argsstring>(DocSimpleList *)</argsstring>
+        <name>visitPost</name>
+        <param>
+          <type><ref refid="dc/de6/class_doc_simple_list" kindref="compound">DocSimpleList</ref> *</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/perlmodgen.cpp" line="330" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/perlmodgen.cpp" bodystart="948" bodyend="952"/>
+      </memberdef>
+      <memberdef kind="function" id="dc/d27/class_perl_mod_doc_visitor_1a690b22aca05c230964a13747f9fc729c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void PerlModDocVisitor::visitPre</definition>
+        <argsstring>(DocSimpleListItem *)</argsstring>
+        <name>visitPre</name>
+        <param>
+          <type><ref refid="d4/d1e/class_doc_simple_list_item" kindref="compound">DocSimpleListItem</ref> *</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/perlmodgen.cpp" line="331" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/perlmodgen.cpp" bodystart="954" bodyend="954"/>
+      </memberdef>
+      <memberdef kind="function" id="dc/d27/class_perl_mod_doc_visitor_1ae14c112a95898c08ab1d5026e02087e7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void PerlModDocVisitor::visitPost</definition>
+        <argsstring>(DocSimpleListItem *)</argsstring>
+        <name>visitPost</name>
+        <param>
+          <type><ref refid="d4/d1e/class_doc_simple_list_item" kindref="compound">DocSimpleListItem</ref> *</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/perlmodgen.cpp" line="332" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/perlmodgen.cpp" bodystart="955" bodyend="955"/>
+      </memberdef>
+      <memberdef kind="function" id="dc/d27/class_perl_mod_doc_visitor_1abf66edea256117f346019ac50def68de" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void PerlModDocVisitor::visitPre</definition>
+        <argsstring>(DocSection *)</argsstring>
+        <name>visitPre</name>
+        <param>
+          <type><ref refid="d2/da3/class_doc_section" kindref="compound">DocSection</ref> *</type>
+          <defname>s</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/perlmodgen.cpp" line="333" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/perlmodgen.cpp" bodystart="957" bodyend="962"/>
+      </memberdef>
+      <memberdef kind="function" id="dc/d27/class_perl_mod_doc_visitor_1a8785bd391cc71b449c8bd4009bdf1f35" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void PerlModDocVisitor::visitPost</definition>
+        <argsstring>(DocSection *)</argsstring>
+        <name>visitPost</name>
+        <param>
+          <type><ref refid="d2/da3/class_doc_section" kindref="compound">DocSection</ref> *</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/perlmodgen.cpp" line="334" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/perlmodgen.cpp" bodystart="964" bodyend="968"/>
+      </memberdef>
+      <memberdef kind="function" id="dc/d27/class_perl_mod_doc_visitor_1a9fcbe24c80071ce858b792e1c0184d73" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void PerlModDocVisitor::visitPre</definition>
+        <argsstring>(DocHtmlList *)</argsstring>
+        <name>visitPre</name>
+        <param>
+          <type><ref refid="d5/d42/class_doc_html_list" kindref="compound">DocHtmlList</ref> *</type>
+          <defname>l</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/perlmodgen.cpp" line="335" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/perlmodgen.cpp" bodystart="970" bodyend="975"/>
+      </memberdef>
+      <memberdef kind="function" id="dc/d27/class_perl_mod_doc_visitor_1a2264ead646d34965ddf1e7069753d303" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void PerlModDocVisitor::visitPost</definition>
+        <argsstring>(DocHtmlList *)</argsstring>
+        <name>visitPost</name>
+        <param>
+          <type><ref refid="d5/d42/class_doc_html_list" kindref="compound">DocHtmlList</ref> *</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/perlmodgen.cpp" line="336" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/perlmodgen.cpp" bodystart="977" bodyend="981"/>
+      </memberdef>
+      <memberdef kind="function" id="dc/d27/class_perl_mod_doc_visitor_1a1fb81f56b12a31c04e2d8d64d0ee343a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void PerlModDocVisitor::visitPre</definition>
+        <argsstring>(DocHtmlListItem *)</argsstring>
+        <name>visitPre</name>
+        <param>
+          <type><ref refid="df/da8/class_doc_html_list_item" kindref="compound">DocHtmlListItem</ref> *</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/perlmodgen.cpp" line="337" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/perlmodgen.cpp" bodystart="983" bodyend="983"/>
+      </memberdef>
+      <memberdef kind="function" id="dc/d27/class_perl_mod_doc_visitor_1aca8e9ddda7fbd4df74bb9373b68599c5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void PerlModDocVisitor::visitPost</definition>
+        <argsstring>(DocHtmlListItem *)</argsstring>
+        <name>visitPost</name>
+        <param>
+          <type><ref refid="df/da8/class_doc_html_list_item" kindref="compound">DocHtmlListItem</ref> *</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/perlmodgen.cpp" line="338" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/perlmodgen.cpp" bodystart="984" bodyend="984"/>
+      </memberdef>
+      <memberdef kind="function" id="dc/d27/class_perl_mod_doc_visitor_1ab7af9e44ad25a6494a5917881ea7a3b0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void PerlModDocVisitor::visitPre</definition>
+        <argsstring>(DocHtmlDescList *)</argsstring>
+        <name>visitPre</name>
+        <param>
+          <type><ref refid="df/d6f/class_doc_html_desc_list" kindref="compound">DocHtmlDescList</ref> *</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/perlmodgen.cpp" line="341" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/perlmodgen.cpp" bodystart="1000" bodyend="1005"/>
+      </memberdef>
+      <memberdef kind="function" id="dc/d27/class_perl_mod_doc_visitor_1aa186be88d0c1c07ef0f216e49749dd88" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void PerlModDocVisitor::visitPost</definition>
+        <argsstring>(DocHtmlDescList *)</argsstring>
+        <name>visitPost</name>
+        <param>
+          <type><ref refid="df/d6f/class_doc_html_desc_list" kindref="compound">DocHtmlDescList</ref> *</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/perlmodgen.cpp" line="342" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/perlmodgen.cpp" bodystart="1007" bodyend="1012"/>
+      </memberdef>
+      <memberdef kind="function" id="dc/d27/class_perl_mod_doc_visitor_1af1300e4286a03e9c48ff4f5508219b14" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void PerlModDocVisitor::visitPre</definition>
+        <argsstring>(DocHtmlDescTitle *)</argsstring>
+        <name>visitPre</name>
+        <param>
+          <type><ref refid="dd/dd1/class_doc_html_desc_title" kindref="compound">DocHtmlDescTitle</ref> *</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/perlmodgen.cpp" line="343" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/perlmodgen.cpp" bodystart="1014" bodyend="1019"/>
+      </memberdef>
+      <memberdef kind="function" id="dc/d27/class_perl_mod_doc_visitor_1aef829d837e3f8cc38dd5b7ad4994ad8b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void PerlModDocVisitor::visitPost</definition>
+        <argsstring>(DocHtmlDescTitle *)</argsstring>
+        <name>visitPost</name>
+        <param>
+          <type><ref refid="dd/dd1/class_doc_html_desc_title" kindref="compound">DocHtmlDescTitle</ref> *</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/perlmodgen.cpp" line="344" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/perlmodgen.cpp" bodystart="1021" bodyend="1026"/>
+      </memberdef>
+      <memberdef kind="function" id="dc/d27/class_perl_mod_doc_visitor_1a98f5f7cd175eeba107f43b329d964979" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void PerlModDocVisitor::visitPre</definition>
+        <argsstring>(DocHtmlDescData *)</argsstring>
+        <name>visitPre</name>
+        <param>
+          <type><ref refid="dd/d88/class_doc_html_desc_data" kindref="compound">DocHtmlDescData</ref> *</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/perlmodgen.cpp" line="345" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/perlmodgen.cpp" bodystart="1028" bodyend="1033"/>
+      </memberdef>
+      <memberdef kind="function" id="dc/d27/class_perl_mod_doc_visitor_1a588446a7f00e7b167fe5b8458496b34c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void PerlModDocVisitor::visitPost</definition>
+        <argsstring>(DocHtmlDescData *)</argsstring>
+        <name>visitPost</name>
+        <param>
+          <type><ref refid="dd/d88/class_doc_html_desc_data" kindref="compound">DocHtmlDescData</ref> *</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/perlmodgen.cpp" line="346" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/perlmodgen.cpp" bodystart="1035" bodyend="1040"/>
+      </memberdef>
+      <memberdef kind="function" id="dc/d27/class_perl_mod_doc_visitor_1ad6a82378d9312cfb2ad7b339b1208353" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void PerlModDocVisitor::visitPre</definition>
+        <argsstring>(DocHtmlTable *)</argsstring>
+        <name>visitPre</name>
+        <param>
+          <type><ref refid="de/d79/class_doc_html_table" kindref="compound">DocHtmlTable</ref> *</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/perlmodgen.cpp" line="347" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/perlmodgen.cpp" bodystart="1042" bodyend="1048"/>
+      </memberdef>
+      <memberdef kind="function" id="dc/d27/class_perl_mod_doc_visitor_1a361f1e7028f3b62106a785a282ac2cd7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void PerlModDocVisitor::visitPost</definition>
+        <argsstring>(DocHtmlTable *)</argsstring>
+        <name>visitPost</name>
+        <param>
+          <type><ref refid="de/d79/class_doc_html_table" kindref="compound">DocHtmlTable</ref> *</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/perlmodgen.cpp" line="348" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/perlmodgen.cpp" bodystart="1050" bodyend="1055"/>
+      </memberdef>
+      <memberdef kind="function" id="dc/d27/class_perl_mod_doc_visitor_1a3ddfaaee96d2d6664c2f1b269781d235" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void PerlModDocVisitor::visitPre</definition>
+        <argsstring>(DocHtmlRow *)</argsstring>
+        <name>visitPre</name>
+        <param>
+          <type><ref refid="d3/d16/class_doc_html_row" kindref="compound">DocHtmlRow</ref> *</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/perlmodgen.cpp" line="349" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/perlmodgen.cpp" bodystart="1057" bodyend="1062"/>
+      </memberdef>
+      <memberdef kind="function" id="dc/d27/class_perl_mod_doc_visitor_1a80403cd740f564f97cf959e0847b021d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void PerlModDocVisitor::visitPost</definition>
+        <argsstring>(DocHtmlRow *)</argsstring>
+        <name>visitPost</name>
+        <param>
+          <type><ref refid="d3/d16/class_doc_html_row" kindref="compound">DocHtmlRow</ref> *</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/perlmodgen.cpp" line="350" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/perlmodgen.cpp" bodystart="1064" bodyend="1069"/>
+      </memberdef>
+      <memberdef kind="function" id="dc/d27/class_perl_mod_doc_visitor_1a01d6c4fb9ecb9bfcb09f1595f70f5190" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void PerlModDocVisitor::visitPre</definition>
+        <argsstring>(DocHtmlCell *)</argsstring>
+        <name>visitPre</name>
+        <param>
+          <type><ref refid="d1/d56/class_doc_html_cell" kindref="compound">DocHtmlCell</ref> *</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/perlmodgen.cpp" line="351" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/perlmodgen.cpp" bodystart="1071" bodyend="1076"/>
+      </memberdef>
+      <memberdef kind="function" id="dc/d27/class_perl_mod_doc_visitor_1a5c1e9306b80bc8c1299bb2e3365cec79" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void PerlModDocVisitor::visitPost</definition>
+        <argsstring>(DocHtmlCell *)</argsstring>
+        <name>visitPost</name>
+        <param>
+          <type><ref refid="d1/d56/class_doc_html_cell" kindref="compound">DocHtmlCell</ref> *</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/perlmodgen.cpp" line="352" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/perlmodgen.cpp" bodystart="1078" bodyend="1083"/>
+      </memberdef>
+      <memberdef kind="function" id="dc/d27/class_perl_mod_doc_visitor_1acaaa0480658a34e11e5b1aad8ee63457" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void PerlModDocVisitor::visitPre</definition>
+        <argsstring>(DocHtmlCaption *)</argsstring>
+        <name>visitPre</name>
+        <param>
+          <type><ref refid="d0/dc7/class_doc_html_caption" kindref="compound">DocHtmlCaption</ref> *</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/perlmodgen.cpp" line="353" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/perlmodgen.cpp" bodystart="1085" bodyend="1090"/>
+      </memberdef>
+      <memberdef kind="function" id="dc/d27/class_perl_mod_doc_visitor_1ac28afd1f25d63783d679c82e39ef253f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void PerlModDocVisitor::visitPost</definition>
+        <argsstring>(DocHtmlCaption *)</argsstring>
+        <name>visitPost</name>
+        <param>
+          <type><ref refid="d0/dc7/class_doc_html_caption" kindref="compound">DocHtmlCaption</ref> *</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/perlmodgen.cpp" line="354" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/perlmodgen.cpp" bodystart="1092" bodyend="1097"/>
+      </memberdef>
+      <memberdef kind="function" id="dc/d27/class_perl_mod_doc_visitor_1a7a8ff462808486a306f14fbde81c6bb3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void PerlModDocVisitor::visitPre</definition>
+        <argsstring>(DocInternal *)</argsstring>
+        <name>visitPre</name>
+        <param>
+          <type><ref refid="db/d6d/class_doc_internal" kindref="compound">DocInternal</ref> *</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/perlmodgen.cpp" line="355" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/perlmodgen.cpp" bodystart="1099" bodyend="1104"/>
+      </memberdef>
+      <memberdef kind="function" id="dc/d27/class_perl_mod_doc_visitor_1ac505e8452a99dae2774584b128a2c7fd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void PerlModDocVisitor::visitPost</definition>
+        <argsstring>(DocInternal *)</argsstring>
+        <name>visitPost</name>
+        <param>
+          <type><ref refid="db/d6d/class_doc_internal" kindref="compound">DocInternal</ref> *</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/perlmodgen.cpp" line="356" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/perlmodgen.cpp" bodystart="1106" bodyend="1111"/>
+      </memberdef>
+      <memberdef kind="function" id="dc/d27/class_perl_mod_doc_visitor_1a26155d37f6c88c2abee0c065a8a0c395" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void PerlModDocVisitor::visitPre</definition>
+        <argsstring>(DocHRef *)</argsstring>
+        <name>visitPre</name>
+        <param>
+          <type><ref refid="d9/d10/class_doc_h_ref" kindref="compound">DocHRef</ref> *</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/perlmodgen.cpp" line="357" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/perlmodgen.cpp" bodystart="1113" bodyend="1118"/>
+      </memberdef>
+      <memberdef kind="function" id="dc/d27/class_perl_mod_doc_visitor_1a1ad9a44c324b29e1509abfa80968c833" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void PerlModDocVisitor::visitPost</definition>
+        <argsstring>(DocHRef *)</argsstring>
+        <name>visitPost</name>
+        <param>
+          <type><ref refid="d9/d10/class_doc_h_ref" kindref="compound">DocHRef</ref> *</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/perlmodgen.cpp" line="358" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/perlmodgen.cpp" bodystart="1120" bodyend="1125"/>
+      </memberdef>
+      <memberdef kind="function" id="dc/d27/class_perl_mod_doc_visitor_1aceec53b97c9e9727ec1468d09df21f1a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void PerlModDocVisitor::visitPre</definition>
+        <argsstring>(DocHtmlHeader *)</argsstring>
+        <name>visitPre</name>
+        <param>
+          <type><ref refid="df/d24/class_doc_html_header" kindref="compound">DocHtmlHeader</ref> *</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/perlmodgen.cpp" line="359" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/perlmodgen.cpp" bodystart="1127" bodyend="1132"/>
+      </memberdef>
+      <memberdef kind="function" id="dc/d27/class_perl_mod_doc_visitor_1ac06d0307a826667060ef18bcfc449517" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void PerlModDocVisitor::visitPost</definition>
+        <argsstring>(DocHtmlHeader *)</argsstring>
+        <name>visitPost</name>
+        <param>
+          <type><ref refid="df/d24/class_doc_html_header" kindref="compound">DocHtmlHeader</ref> *</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/perlmodgen.cpp" line="360" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/perlmodgen.cpp" bodystart="1134" bodyend="1139"/>
+      </memberdef>
+      <memberdef kind="function" id="dc/d27/class_perl_mod_doc_visitor_1ac2770c73a07897de98b4b7bbed8607bc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void PerlModDocVisitor::visitPre</definition>
+        <argsstring>(DocImage *)</argsstring>
+        <name>visitPre</name>
+        <param>
+          <type><ref refid="db/dc8/class_doc_image" kindref="compound">DocImage</ref> *</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/perlmodgen.cpp" line="361" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/perlmodgen.cpp" bodystart="1141" bodyend="1174"/>
+      </memberdef>
+      <memberdef kind="function" id="dc/d27/class_perl_mod_doc_visitor_1a82d93478d1ddc9f3edc8ad12af70553c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void PerlModDocVisitor::visitPost</definition>
+        <argsstring>(DocImage *)</argsstring>
+        <name>visitPost</name>
+        <param>
+          <type><ref refid="db/dc8/class_doc_image" kindref="compound">DocImage</ref> *</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/perlmodgen.cpp" line="362" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/perlmodgen.cpp" bodystart="1176" bodyend="1181"/>
+      </memberdef>
+      <memberdef kind="function" id="dc/d27/class_perl_mod_doc_visitor_1a57c81e62d63f85e79cd0aff2c826387c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void PerlModDocVisitor::visitPre</definition>
+        <argsstring>(DocDotFile *)</argsstring>
+        <name>visitPre</name>
+        <param>
+          <type><ref refid="df/d37/class_doc_dot_file" kindref="compound">DocDotFile</ref> *</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/perlmodgen.cpp" line="363" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/perlmodgen.cpp" bodystart="1183" bodyend="1188"/>
+      </memberdef>
+      <memberdef kind="function" id="dc/d27/class_perl_mod_doc_visitor_1a839751ef549f372f025a5bdd3a25f184" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void PerlModDocVisitor::visitPost</definition>
+        <argsstring>(DocDotFile *)</argsstring>
+        <name>visitPost</name>
+        <param>
+          <type><ref refid="df/d37/class_doc_dot_file" kindref="compound">DocDotFile</ref> *</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/perlmodgen.cpp" line="364" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/perlmodgen.cpp" bodystart="1190" bodyend="1195"/>
+      </memberdef>
+      <memberdef kind="function" id="dc/d27/class_perl_mod_doc_visitor_1a37ac8a8cb63c2aed087032c8e4c5641a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void PerlModDocVisitor::visitPre</definition>
+        <argsstring>(DocMscFile *)</argsstring>
+        <name>visitPre</name>
+        <param>
+          <type><ref refid="d3/d7d/class_doc_msc_file" kindref="compound">DocMscFile</ref> *</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/perlmodgen.cpp" line="365" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/perlmodgen.cpp" bodystart="1196" bodyend="1201"/>
+      </memberdef>
+      <memberdef kind="function" id="dc/d27/class_perl_mod_doc_visitor_1a8aca46a8d566cd8675423558a681109d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void PerlModDocVisitor::visitPost</definition>
+        <argsstring>(DocMscFile *)</argsstring>
+        <name>visitPost</name>
+        <param>
+          <type><ref refid="d3/d7d/class_doc_msc_file" kindref="compound">DocMscFile</ref> *</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/perlmodgen.cpp" line="366" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/perlmodgen.cpp" bodystart="1203" bodyend="1208"/>
+      </memberdef>
+      <memberdef kind="function" id="dc/d27/class_perl_mod_doc_visitor_1a5b20a41b7514a544b69613276f3c28d1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void PerlModDocVisitor::visitPre</definition>
+        <argsstring>(DocLink *)</argsstring>
+        <name>visitPre</name>
+        <param>
+          <type><ref refid="d5/dd3/class_doc_link" kindref="compound">DocLink</ref> *</type>
+          <defname>lnk</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/perlmodgen.cpp" line="367" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/perlmodgen.cpp" bodystart="1211" bodyend="1215"/>
+      </memberdef>
+      <memberdef kind="function" id="dc/d27/class_perl_mod_doc_visitor_1a57fcd7b4cfa0933e88220ea56e342b60" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void PerlModDocVisitor::visitPost</definition>
+        <argsstring>(DocLink *)</argsstring>
+        <name>visitPost</name>
+        <param>
+          <type><ref refid="d5/dd3/class_doc_link" kindref="compound">DocLink</ref> *</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/perlmodgen.cpp" line="368" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/perlmodgen.cpp" bodystart="1217" bodyend="1220"/>
+      </memberdef>
+      <memberdef kind="function" id="dc/d27/class_perl_mod_doc_visitor_1a84c1914ef60158d75ad31da447ea1290" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void PerlModDocVisitor::visitPre</definition>
+        <argsstring>(DocRef *)</argsstring>
+        <name>visitPre</name>
+        <param>
+          <type><ref refid="d5/d68/class_doc_ref" kindref="compound">DocRef</ref> *</type>
+          <defname>ref</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/perlmodgen.cpp" line="369" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/perlmodgen.cpp" bodystart="1222" bodyend="1228"/>
+      </memberdef>
+      <memberdef kind="function" id="dc/d27/class_perl_mod_doc_visitor_1a68538fc23381b18c2753510bd83ad5fe" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void PerlModDocVisitor::visitPost</definition>
+        <argsstring>(DocRef *)</argsstring>
+        <name>visitPost</name>
+        <param>
+          <type><ref refid="d5/d68/class_doc_ref" kindref="compound">DocRef</ref> *</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/perlmodgen.cpp" line="370" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/perlmodgen.cpp" bodystart="1230" bodyend="1234"/>
+      </memberdef>
+      <memberdef kind="function" id="dc/d27/class_perl_mod_doc_visitor_1a6f83e747cf5ba0a1d39b696677f21f84" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void PerlModDocVisitor::visitPre</definition>
+        <argsstring>(DocSecRefItem *)</argsstring>
+        <name>visitPre</name>
+        <param>
+          <type><ref refid="de/d87/class_doc_sec_ref_item" kindref="compound">DocSecRefItem</ref> *</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/perlmodgen.cpp" line="371" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/perlmodgen.cpp" bodystart="1236" bodyend="1241"/>
+      </memberdef>
+      <memberdef kind="function" id="dc/d27/class_perl_mod_doc_visitor_1acd11b9e0c5ec2f7059b01a01431f7c02" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void PerlModDocVisitor::visitPost</definition>
+        <argsstring>(DocSecRefItem *)</argsstring>
+        <name>visitPost</name>
+        <param>
+          <type><ref refid="de/d87/class_doc_sec_ref_item" kindref="compound">DocSecRefItem</ref> *</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/perlmodgen.cpp" line="372" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/perlmodgen.cpp" bodystart="1243" bodyend="1248"/>
+      </memberdef>
+      <memberdef kind="function" id="dc/d27/class_perl_mod_doc_visitor_1a0ad8c067dda6c9f0b1324619f35b30bd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void PerlModDocVisitor::visitPre</definition>
+        <argsstring>(DocSecRefList *)</argsstring>
+        <name>visitPre</name>
+        <param>
+          <type><ref refid="d3/ddb/class_doc_sec_ref_list" kindref="compound">DocSecRefList</ref> *</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/perlmodgen.cpp" line="373" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/perlmodgen.cpp" bodystart="1250" bodyend="1255"/>
+      </memberdef>
+      <memberdef kind="function" id="dc/d27/class_perl_mod_doc_visitor_1aee26774029b00750c58c893c7115687b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void PerlModDocVisitor::visitPost</definition>
+        <argsstring>(DocSecRefList *)</argsstring>
+        <name>visitPost</name>
+        <param>
+          <type><ref refid="d3/ddb/class_doc_sec_ref_list" kindref="compound">DocSecRefList</ref> *</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/perlmodgen.cpp" line="374" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/perlmodgen.cpp" bodystart="1257" bodyend="1262"/>
+      </memberdef>
+      <memberdef kind="function" id="dc/d27/class_perl_mod_doc_visitor_1ab47ce7fa4327aa225bb95d1db9e714ae" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void PerlModDocVisitor::visitPre</definition>
+        <argsstring>(DocParamSect *)</argsstring>
+        <name>visitPre</name>
+        <param>
+          <type><ref refid="d1/d01/class_doc_param_sect" kindref="compound">DocParamSect</ref> *</type>
+          <defname>s</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/perlmodgen.cpp" line="377" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/perlmodgen.cpp" bodystart="1275" bodyend="1291"/>
+      </memberdef>
+      <memberdef kind="function" id="dc/d27/class_perl_mod_doc_visitor_1a1ab92f2863b11cf082571834b8a38b64" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void PerlModDocVisitor::visitPost</definition>
+        <argsstring>(DocParamSect *)</argsstring>
+        <name>visitPost</name>
+        <param>
+          <type><ref refid="d1/d01/class_doc_param_sect" kindref="compound">DocParamSect</ref> *</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/perlmodgen.cpp" line="378" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/perlmodgen.cpp" bodystart="1293" bodyend="1297"/>
+      </memberdef>
+      <memberdef kind="function" id="dc/d27/class_perl_mod_doc_visitor_1a369e160a2f9fcf923eaa3cf2f364ca7c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void PerlModDocVisitor::visitPre</definition>
+        <argsstring>(DocParamList *)</argsstring>
+        <name>visitPre</name>
+        <param>
+          <type><ref refid="d9/d8d/class_doc_param_list" kindref="compound">DocParamList</ref> *</type>
+          <defname>pl</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/perlmodgen.cpp" line="379" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/perlmodgen.cpp" bodystart="1299" bodyend="1325"/>
+      </memberdef>
+      <memberdef kind="function" id="dc/d27/class_perl_mod_doc_visitor_1ad9726f68cc3c9a679c71527d1b004114" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void PerlModDocVisitor::visitPost</definition>
+        <argsstring>(DocParamList *)</argsstring>
+        <name>visitPost</name>
+        <param>
+          <type><ref refid="d9/d8d/class_doc_param_list" kindref="compound">DocParamList</ref> *</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/perlmodgen.cpp" line="380" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/perlmodgen.cpp" bodystart="1327" bodyend="1332"/>
+      </memberdef>
+      <memberdef kind="function" id="dc/d27/class_perl_mod_doc_visitor_1a11554deeaf3e631a297b8e2091aaff97" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void PerlModDocVisitor::visitPre</definition>
+        <argsstring>(DocXRefItem *)</argsstring>
+        <name>visitPre</name>
+        <param>
+          <type><ref refid="d0/d90/class_doc_x_ref_item" kindref="compound">DocXRefItem</ref> *</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/perlmodgen.cpp" line="381" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/perlmodgen.cpp" bodystart="1334" bodyend="1347"/>
+      </memberdef>
+      <memberdef kind="function" id="dc/d27/class_perl_mod_doc_visitor_1a7b3c671c16b385f1497890446b0b8777" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void PerlModDocVisitor::visitPost</definition>
+        <argsstring>(DocXRefItem *)</argsstring>
+        <name>visitPost</name>
+        <param>
+          <type><ref refid="d0/d90/class_doc_x_ref_item" kindref="compound">DocXRefItem</ref> *</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/perlmodgen.cpp" line="382" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/perlmodgen.cpp" bodystart="1349" bodyend="1357"/>
+      </memberdef>
+      <memberdef kind="function" id="dc/d27/class_perl_mod_doc_visitor_1a0df067037cffd3516ca6d453a0f6e989" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void PerlModDocVisitor::visitPre</definition>
+        <argsstring>(DocInternalRef *)</argsstring>
+        <name>visitPre</name>
+        <param>
+          <type><ref refid="da/da2/class_doc_internal_ref" kindref="compound">DocInternalRef</ref> *</type>
+          <defname>ref</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/perlmodgen.cpp" line="383" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/perlmodgen.cpp" bodystart="1359" bodyend="1364"/>
+      </memberdef>
+      <memberdef kind="function" id="dc/d27/class_perl_mod_doc_visitor_1a24f70910b80988c8991eab2a5c3acb48" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void PerlModDocVisitor::visitPost</definition>
+        <argsstring>(DocInternalRef *)</argsstring>
+        <name>visitPost</name>
+        <param>
+          <type><ref refid="da/da2/class_doc_internal_ref" kindref="compound">DocInternalRef</ref> *</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/perlmodgen.cpp" line="384" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/perlmodgen.cpp" bodystart="1366" bodyend="1370"/>
+      </memberdef>
+      <memberdef kind="function" id="dc/d27/class_perl_mod_doc_visitor_1a769f0078bded952ed3ef6bb0fe224452" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void PerlModDocVisitor::visitPre</definition>
+        <argsstring>(DocCopy *)</argsstring>
+        <name>visitPre</name>
+        <param>
+          <type><ref refid="da/d97/class_doc_copy" kindref="compound">DocCopy</ref> *</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/perlmodgen.cpp" line="385" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/perlmodgen.cpp" bodystart="1372" bodyend="1374"/>
+      </memberdef>
+      <memberdef kind="function" id="dc/d27/class_perl_mod_doc_visitor_1a170f73e5397179cff3136417d1dfaf7e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void PerlModDocVisitor::visitPost</definition>
+        <argsstring>(DocCopy *)</argsstring>
+        <name>visitPost</name>
+        <param>
+          <type><ref refid="da/d97/class_doc_copy" kindref="compound">DocCopy</ref> *</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/perlmodgen.cpp" line="386" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/perlmodgen.cpp" bodystart="1376" bodyend="1378"/>
+      </memberdef>
+      <memberdef kind="function" id="dc/d27/class_perl_mod_doc_visitor_1a41b7d6baa3f54d17707099219e73873d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void PerlModDocVisitor::visitPre</definition>
+        <argsstring>(DocText *)</argsstring>
+        <name>visitPre</name>
+        <param>
+          <type><ref refid="d0/d87/class_doc_text" kindref="compound">DocText</ref> *</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/perlmodgen.cpp" line="387" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/perlmodgen.cpp" bodystart="1380" bodyend="1382"/>
+      </memberdef>
+      <memberdef kind="function" id="dc/d27/class_perl_mod_doc_visitor_1a0bb72a51b519a2dea2930de3baa06a68" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void PerlModDocVisitor::visitPost</definition>
+        <argsstring>(DocText *)</argsstring>
+        <name>visitPost</name>
+        <param>
+          <type><ref refid="d0/d87/class_doc_text" kindref="compound">DocText</ref> *</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/perlmodgen.cpp" line="388" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/perlmodgen.cpp" bodystart="1384" bodyend="1386"/>
+      </memberdef>
+      <memberdef kind="function" id="dc/d27/class_perl_mod_doc_visitor_1afe509dcb9784d42be53c581f3e5dfebd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void PerlModDocVisitor::visitPre</definition>
+        <argsstring>(DocHtmlBlockQuote *)</argsstring>
+        <name>visitPre</name>
+        <param>
+          <type><ref refid="d9/dd3/class_doc_html_block_quote" kindref="compound">DocHtmlBlockQuote</ref> *</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/perlmodgen.cpp" line="389" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/perlmodgen.cpp" bodystart="1388" bodyend="1392"/>
+      </memberdef>
+      <memberdef kind="function" id="dc/d27/class_perl_mod_doc_visitor_1a3faf431729cf9a368bceb3fb7e2382e7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void PerlModDocVisitor::visitPost</definition>
+        <argsstring>(DocHtmlBlockQuote *)</argsstring>
+        <name>visitPost</name>
+        <param>
+          <type><ref refid="d9/dd3/class_doc_html_block_quote" kindref="compound">DocHtmlBlockQuote</ref> *</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/perlmodgen.cpp" line="390" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/perlmodgen.cpp" bodystart="1394" bodyend="1398"/>
+      </memberdef>
+      <memberdef kind="function" id="dc/d27/class_perl_mod_doc_visitor_1abe7e71d4b2d45f7988f9c48d7ab9c191" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void PerlModDocVisitor::visitPre</definition>
+        <argsstring>(DocVhdlFlow *)</argsstring>
+        <name>visitPre</name>
+        <param>
+          <type><ref refid="d0/d89/class_doc_vhdl_flow" kindref="compound">DocVhdlFlow</ref> *</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/perlmodgen.cpp" line="391" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/perlmodgen.cpp" bodystart="1400" bodyend="1402"/>
+      </memberdef>
+      <memberdef kind="function" id="dc/d27/class_perl_mod_doc_visitor_1ac7c692999a03dc8ab8c9306cb256e0ec" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void PerlModDocVisitor::visitPost</definition>
+        <argsstring>(DocVhdlFlow *)</argsstring>
+        <name>visitPost</name>
+        <param>
+          <type><ref refid="d0/d89/class_doc_vhdl_flow" kindref="compound">DocVhdlFlow</ref> *</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/perlmodgen.cpp" line="392" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/perlmodgen.cpp" bodystart="1404" bodyend="1406"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="dc/d27/class_perl_mod_doc_visitor_1a5aad47028a6405798bd2bd1de4002350" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void PerlModDocVisitor::addLink</definition>
+        <argsstring>(const QCString &amp;ref, const QCString &amp;file, const QCString &amp;anchor)</argsstring>
+        <name>addLink</name>
+        <param>
+          <type>const QCString &amp;</type>
+          <declname>ref</declname>
+        </param>
+        <param>
+          <type>const QCString &amp;</type>
+          <declname>file</declname>
+        </param>
+        <param>
+          <type>const QCString &amp;</type>
+          <declname>anchor</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/perlmodgen.cpp" line="401" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/perlmodgen.cpp" bodystart="437" bodyend="443"/>
+      </memberdef>
+      <memberdef kind="function" id="dc/d27/class_perl_mod_doc_visitor_1a4760959088fe7d23b1e9b93e37d0bfc1" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void PerlModDocVisitor::enterText</definition>
+        <argsstring>()</argsstring>
+        <name>enterText</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/perlmodgen.cpp" line="403" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/perlmodgen.cpp" bodystart="457" bodyend="464"/>
+      </memberdef>
+      <memberdef kind="function" id="dc/d27/class_perl_mod_doc_visitor_1a7e0ab03284b97ecbd849aed4bdc37b31" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void PerlModDocVisitor::leaveText</definition>
+        <argsstring>()</argsstring>
+        <name>leaveText</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/perlmodgen.cpp" line="404" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/perlmodgen.cpp" bodystart="466" bodyend="474"/>
+      </memberdef>
+      <memberdef kind="function" id="dc/d27/class_perl_mod_doc_visitor_1ad4e48116b152a278e7e8e356ffbf7e6b" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void PerlModDocVisitor::openItem</definition>
+        <argsstring>(const char *)</argsstring>
+        <name>openItem</name>
+        <param>
+          <type>const char *</type>
+          <defname>name</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/perlmodgen.cpp" line="406" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/perlmodgen.cpp" bodystart="445" bodyend="449"/>
+      </memberdef>
+      <memberdef kind="function" id="dc/d27/class_perl_mod_doc_visitor_1a679590afd127bb2606ba9f0e403081f1" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void PerlModDocVisitor::closeItem</definition>
+        <argsstring>()</argsstring>
+        <name>closeItem</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/perlmodgen.cpp" line="407" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/perlmodgen.cpp" bodystart="451" bodyend="455"/>
+      </memberdef>
+      <memberdef kind="function" id="dc/d27/class_perl_mod_doc_visitor_1a4531df3aae8d7a21df809569ccafc080" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void PerlModDocVisitor::singleItem</definition>
+        <argsstring>(const char *)</argsstring>
+        <name>singleItem</name>
+        <param>
+          <type>const char *</type>
+          <defname>name</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/perlmodgen.cpp" line="408" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/perlmodgen.cpp" bodystart="476" bodyend="480"/>
+      </memberdef>
+      <memberdef kind="function" id="dc/d27/class_perl_mod_doc_visitor_1a0c7dc7d7dea1d62f18bf03859032b3fc" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void PerlModDocVisitor::openSubBlock</definition>
+        <argsstring>(const char *=0)</argsstring>
+        <name>openSubBlock</name>
+        <param>
+          <type>const char *</type>
+          <defname>s</defname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/perlmodgen.cpp" line="409" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/perlmodgen.cpp" bodystart="482" bodyend="487"/>
+      </memberdef>
+      <memberdef kind="function" id="dc/d27/class_perl_mod_doc_visitor_1a1b2a8a636960c84a376302a77166a1f6" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void PerlModDocVisitor::closeSubBlock</definition>
+        <argsstring>()</argsstring>
+        <name>closeSubBlock</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/perlmodgen.cpp" line="410" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/perlmodgen.cpp" bodystart="489" bodyend="493"/>
+      </memberdef>
+      <memberdef kind="function" id="dc/d27/class_perl_mod_doc_visitor_1a6649604fec9984aea81d0edf5e510a9f" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void PerlModDocVisitor::openOther</definition>
+        <argsstring>()</argsstring>
+        <name>openOther</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/perlmodgen.cpp" line="411" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/perlmodgen.cpp" bodystart="495" bodyend="503"/>
+      </memberdef>
+      <memberdef kind="function" id="dc/d27/class_perl_mod_doc_visitor_1a099b3550ece8188d35bdd014d360f9bb" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void PerlModDocVisitor::closeOther</definition>
+        <argsstring>()</argsstring>
+        <name>closeOther</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/perlmodgen.cpp" line="412" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/perlmodgen.cpp" bodystart="505" bodyend="515"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Concrete visitor implementation for PerlMod output. </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="3899">
+        <label>PerlModDocVisitor</label>
+        <childnode refid="3900" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3900">
+        <label>DocVisitor</label>
+        <link refid="d0/d78/class_doc_visitor"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="3901">
+        <label>PerlModDocVisitor</label>
+        <childnode refid="3902" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3902">
+        <label>DocVisitor</label>
+        <link refid="d0/d78/class_doc_visitor"/>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/perlmodgen.cpp" line="285" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/perlmodgen.cpp" bodystart="284" bodyend="422"/>
+    <listofallmembers>
+      <member refid="dc/d27/class_perl_mod_doc_visitor_1a5aad47028a6405798bd2bd1de4002350" prot="private" virt="non-virtual"><scope>PerlModDocVisitor</scope><name>addLink</name></member>
+      <member refid="dc/d27/class_perl_mod_doc_visitor_1a679590afd127bb2606ba9f0e403081f1" prot="private" virt="non-virtual"><scope>PerlModDocVisitor</scope><name>closeItem</name></member>
+      <member refid="dc/d27/class_perl_mod_doc_visitor_1a099b3550ece8188d35bdd014d360f9bb" prot="private" virt="non-virtual"><scope>PerlModDocVisitor</scope><name>closeOther</name></member>
+      <member refid="dc/d27/class_perl_mod_doc_visitor_1a1b2a8a636960c84a376302a77166a1f6" prot="private" virt="non-virtual"><scope>PerlModDocVisitor</scope><name>closeSubBlock</name></member>
+      <member refid="d0/d78/class_doc_visitor_1a24962a0406b1d05920458f3d7d4fda8a" prot="public" virt="non-virtual"><scope>PerlModDocVisitor</scope><name>DocVisitor</name></member>
+      <member refid="dc/d27/class_perl_mod_doc_visitor_1a4760959088fe7d23b1e9b93e37d0bfc1" prot="private" virt="non-virtual"><scope>PerlModDocVisitor</scope><name>enterText</name></member>
+      <member refid="dc/d27/class_perl_mod_doc_visitor_1a1766bc0c0c37524f9fac777d62526f59" prot="public" virt="non-virtual"><scope>PerlModDocVisitor</scope><name>finish</name></member>
+      <member refid="d0/d78/class_doc_visitor_1a816cd6ab12305a4f34a06056fc923de1" prot="public" virt="non-virtual"><scope>PerlModDocVisitor</scope><name>id</name></member>
+      <member refid="dc/d27/class_perl_mod_doc_visitor_1a7e0ab03284b97ecbd849aed4bdc37b31" prot="private" virt="non-virtual"><scope>PerlModDocVisitor</scope><name>leaveText</name></member>
+      <member refid="dc/d27/class_perl_mod_doc_visitor_1a43ed89421fc709074ca21376025bedb7" prot="private" virt="non-virtual"><scope>PerlModDocVisitor</scope><name>m_other</name></member>
+      <member refid="dc/d27/class_perl_mod_doc_visitor_1a9b7555fd8015feb299813f4b7ae078b8" prot="private" virt="non-virtual"><scope>PerlModDocVisitor</scope><name>m_output</name></member>
+      <member refid="dc/d27/class_perl_mod_doc_visitor_1a71c18193cb7f6bf881d412c3663ffc0e" prot="private" virt="non-virtual"><scope>PerlModDocVisitor</scope><name>m_textblockstart</name></member>
+      <member refid="dc/d27/class_perl_mod_doc_visitor_1a8b16465388385f7e687b8d4516cc6139" prot="private" virt="non-virtual"><scope>PerlModDocVisitor</scope><name>m_textmode</name></member>
+      <member refid="dc/d27/class_perl_mod_doc_visitor_1ad4e48116b152a278e7e8e356ffbf7e6b" prot="private" virt="non-virtual"><scope>PerlModDocVisitor</scope><name>openItem</name></member>
+      <member refid="dc/d27/class_perl_mod_doc_visitor_1a6649604fec9984aea81d0edf5e510a9f" prot="private" virt="non-virtual"><scope>PerlModDocVisitor</scope><name>openOther</name></member>
+      <member refid="dc/d27/class_perl_mod_doc_visitor_1a0c7dc7d7dea1d62f18bf03859032b3fc" prot="private" virt="non-virtual"><scope>PerlModDocVisitor</scope><name>openSubBlock</name></member>
+      <member refid="dc/d27/class_perl_mod_doc_visitor_1a147c750cdb85c41305baf5ccb8dca305" prot="public" virt="non-virtual"><scope>PerlModDocVisitor</scope><name>PerlModDocVisitor</name></member>
+      <member refid="dc/d27/class_perl_mod_doc_visitor_1a4531df3aae8d7a21df809569ccafc080" prot="private" virt="non-virtual"><scope>PerlModDocVisitor</scope><name>singleItem</name></member>
+      <member refid="dc/d27/class_perl_mod_doc_visitor_1a02f8554a8a51420323e77d058881e51f" prot="public" virt="non-virtual"><scope>PerlModDocVisitor</scope><name>visit</name></member>
+      <member refid="dc/d27/class_perl_mod_doc_visitor_1aa80e542bb624ba60a569218362092fa7" prot="public" virt="non-virtual"><scope>PerlModDocVisitor</scope><name>visit</name></member>
+      <member refid="dc/d27/class_perl_mod_doc_visitor_1a2c322edff264290a6e57bfa031e77cd2" prot="public" virt="non-virtual"><scope>PerlModDocVisitor</scope><name>visit</name></member>
+      <member refid="dc/d27/class_perl_mod_doc_visitor_1a27daa7ca4f2c3ab2a3b220633f56c57d" prot="public" virt="non-virtual"><scope>PerlModDocVisitor</scope><name>visit</name></member>
+      <member refid="dc/d27/class_perl_mod_doc_visitor_1a623b819a61e860178970bf5620646fb5" prot="public" virt="non-virtual"><scope>PerlModDocVisitor</scope><name>visit</name></member>
+      <member refid="dc/d27/class_perl_mod_doc_visitor_1a456d3d1d5b0733055f70d744c6394729" prot="public" virt="non-virtual"><scope>PerlModDocVisitor</scope><name>visit</name></member>
+      <member refid="dc/d27/class_perl_mod_doc_visitor_1a1c19e22797c0f3262fdf47485f6c9596" prot="public" virt="non-virtual"><scope>PerlModDocVisitor</scope><name>visit</name></member>
+      <member refid="dc/d27/class_perl_mod_doc_visitor_1a70159e6b7bfd4231bdec8acc67c83839" prot="public" virt="non-virtual"><scope>PerlModDocVisitor</scope><name>visit</name></member>
+      <member refid="dc/d27/class_perl_mod_doc_visitor_1a233b1e47ed105234259eed1cfd6990ee" prot="public" virt="non-virtual"><scope>PerlModDocVisitor</scope><name>visit</name></member>
+      <member refid="dc/d27/class_perl_mod_doc_visitor_1a38fbfd1716fd80978b53f88dd53edc46" prot="public" virt="non-virtual"><scope>PerlModDocVisitor</scope><name>visit</name></member>
+      <member refid="dc/d27/class_perl_mod_doc_visitor_1a3371fd84234867b003f58186568f22e8" prot="public" virt="non-virtual"><scope>PerlModDocVisitor</scope><name>visit</name></member>
+      <member refid="dc/d27/class_perl_mod_doc_visitor_1a162eaa4d276eb3c2940ccf6d3a4d0427" prot="public" virt="non-virtual"><scope>PerlModDocVisitor</scope><name>visit</name></member>
+      <member refid="dc/d27/class_perl_mod_doc_visitor_1a3560b1ca24662680bb7521f2cd700ef2" prot="public" virt="non-virtual"><scope>PerlModDocVisitor</scope><name>visit</name></member>
+      <member refid="dc/d27/class_perl_mod_doc_visitor_1a12de654377ad0e92d22109f4c6734a66" prot="public" virt="non-virtual"><scope>PerlModDocVisitor</scope><name>visit</name></member>
+      <member refid="dc/d27/class_perl_mod_doc_visitor_1a21c4a0e59d8b7485fbb63f67a24305d1" prot="public" virt="non-virtual"><scope>PerlModDocVisitor</scope><name>visit</name></member>
+      <member refid="dc/d27/class_perl_mod_doc_visitor_1ab3b29d44aef74284e4a5e559ac9e0051" prot="public" virt="non-virtual"><scope>PerlModDocVisitor</scope><name>visit</name></member>
+      <member refid="dc/d27/class_perl_mod_doc_visitor_1a0f62a539f3c237085e5e785bd8ff1fa8" prot="public" virt="non-virtual"><scope>PerlModDocVisitor</scope><name>visitPost</name></member>
+      <member refid="dc/d27/class_perl_mod_doc_visitor_1a3e85e85bb876d233ae72affb28fa6711" prot="public" virt="non-virtual"><scope>PerlModDocVisitor</scope><name>visitPost</name></member>
+      <member refid="dc/d27/class_perl_mod_doc_visitor_1aa866ed5844345ced9601563a31746805" prot="public" virt="non-virtual"><scope>PerlModDocVisitor</scope><name>visitPost</name></member>
+      <member refid="dc/d27/class_perl_mod_doc_visitor_1a4d99bda58fc9c5f83d57393a408c03b0" prot="public" virt="non-virtual"><scope>PerlModDocVisitor</scope><name>visitPost</name></member>
+      <member refid="dc/d27/class_perl_mod_doc_visitor_1aa2f264f3abcc2c272cb0d64f65dc7d1c" prot="public" virt="non-virtual"><scope>PerlModDocVisitor</scope><name>visitPost</name></member>
+      <member refid="dc/d27/class_perl_mod_doc_visitor_1a3a67bd115b6f20c51b380dc86730937a" prot="public" virt="non-virtual"><scope>PerlModDocVisitor</scope><name>visitPost</name></member>
+      <member refid="dc/d27/class_perl_mod_doc_visitor_1abf4490c7e1aa310aedbfffb80711e49b" prot="public" virt="non-virtual"><scope>PerlModDocVisitor</scope><name>visitPost</name></member>
+      <member refid="dc/d27/class_perl_mod_doc_visitor_1ae14c112a95898c08ab1d5026e02087e7" prot="public" virt="non-virtual"><scope>PerlModDocVisitor</scope><name>visitPost</name></member>
+      <member refid="dc/d27/class_perl_mod_doc_visitor_1a8785bd391cc71b449c8bd4009bdf1f35" prot="public" virt="non-virtual"><scope>PerlModDocVisitor</scope><name>visitPost</name></member>
+      <member refid="dc/d27/class_perl_mod_doc_visitor_1a2264ead646d34965ddf1e7069753d303" prot="public" virt="non-virtual"><scope>PerlModDocVisitor</scope><name>visitPost</name></member>
+      <member refid="dc/d27/class_perl_mod_doc_visitor_1aca8e9ddda7fbd4df74bb9373b68599c5" prot="public" virt="non-virtual"><scope>PerlModDocVisitor</scope><name>visitPost</name></member>
+      <member refid="dc/d27/class_perl_mod_doc_visitor_1aa186be88d0c1c07ef0f216e49749dd88" prot="public" virt="non-virtual"><scope>PerlModDocVisitor</scope><name>visitPost</name></member>
+      <member refid="dc/d27/class_perl_mod_doc_visitor_1aef829d837e3f8cc38dd5b7ad4994ad8b" prot="public" virt="non-virtual"><scope>PerlModDocVisitor</scope><name>visitPost</name></member>
+      <member refid="dc/d27/class_perl_mod_doc_visitor_1a588446a7f00e7b167fe5b8458496b34c" prot="public" virt="non-virtual"><scope>PerlModDocVisitor</scope><name>visitPost</name></member>
+      <member refid="dc/d27/class_perl_mod_doc_visitor_1a361f1e7028f3b62106a785a282ac2cd7" prot="public" virt="non-virtual"><scope>PerlModDocVisitor</scope><name>visitPost</name></member>
+      <member refid="dc/d27/class_perl_mod_doc_visitor_1a80403cd740f564f97cf959e0847b021d" prot="public" virt="non-virtual"><scope>PerlModDocVisitor</scope><name>visitPost</name></member>
+      <member refid="dc/d27/class_perl_mod_doc_visitor_1a5c1e9306b80bc8c1299bb2e3365cec79" prot="public" virt="non-virtual"><scope>PerlModDocVisitor</scope><name>visitPost</name></member>
+      <member refid="dc/d27/class_perl_mod_doc_visitor_1ac28afd1f25d63783d679c82e39ef253f" prot="public" virt="non-virtual"><scope>PerlModDocVisitor</scope><name>visitPost</name></member>
+      <member refid="dc/d27/class_perl_mod_doc_visitor_1ac505e8452a99dae2774584b128a2c7fd" prot="public" virt="non-virtual"><scope>PerlModDocVisitor</scope><name>visitPost</name></member>
+      <member refid="dc/d27/class_perl_mod_doc_visitor_1a1ad9a44c324b29e1509abfa80968c833" prot="public" virt="non-virtual"><scope>PerlModDocVisitor</scope><name>visitPost</name></member>
+      <member refid="dc/d27/class_perl_mod_doc_visitor_1ac06d0307a826667060ef18bcfc449517" prot="public" virt="non-virtual"><scope>PerlModDocVisitor</scope><name>visitPost</name></member>
+      <member refid="dc/d27/class_perl_mod_doc_visitor_1a82d93478d1ddc9f3edc8ad12af70553c" prot="public" virt="non-virtual"><scope>PerlModDocVisitor</scope><name>visitPost</name></member>
+      <member refid="dc/d27/class_perl_mod_doc_visitor_1a839751ef549f372f025a5bdd3a25f184" prot="public" virt="non-virtual"><scope>PerlModDocVisitor</scope><name>visitPost</name></member>
+      <member refid="dc/d27/class_perl_mod_doc_visitor_1a8aca46a8d566cd8675423558a681109d" prot="public" virt="non-virtual"><scope>PerlModDocVisitor</scope><name>visitPost</name></member>
+      <member refid="dc/d27/class_perl_mod_doc_visitor_1a57fcd7b4cfa0933e88220ea56e342b60" prot="public" virt="non-virtual"><scope>PerlModDocVisitor</scope><name>visitPost</name></member>
+      <member refid="dc/d27/class_perl_mod_doc_visitor_1a68538fc23381b18c2753510bd83ad5fe" prot="public" virt="non-virtual"><scope>PerlModDocVisitor</scope><name>visitPost</name></member>
+      <member refid="dc/d27/class_perl_mod_doc_visitor_1acd11b9e0c5ec2f7059b01a01431f7c02" prot="public" virt="non-virtual"><scope>PerlModDocVisitor</scope><name>visitPost</name></member>
+      <member refid="dc/d27/class_perl_mod_doc_visitor_1aee26774029b00750c58c893c7115687b" prot="public" virt="non-virtual"><scope>PerlModDocVisitor</scope><name>visitPost</name></member>
+      <member refid="dc/d27/class_perl_mod_doc_visitor_1a1ab92f2863b11cf082571834b8a38b64" prot="public" virt="non-virtual"><scope>PerlModDocVisitor</scope><name>visitPost</name></member>
+      <member refid="dc/d27/class_perl_mod_doc_visitor_1ad9726f68cc3c9a679c71527d1b004114" prot="public" virt="non-virtual"><scope>PerlModDocVisitor</scope><name>visitPost</name></member>
+      <member refid="dc/d27/class_perl_mod_doc_visitor_1a7b3c671c16b385f1497890446b0b8777" prot="public" virt="non-virtual"><scope>PerlModDocVisitor</scope><name>visitPost</name></member>
+      <member refid="dc/d27/class_perl_mod_doc_visitor_1a24f70910b80988c8991eab2a5c3acb48" prot="public" virt="non-virtual"><scope>PerlModDocVisitor</scope><name>visitPost</name></member>
+      <member refid="dc/d27/class_perl_mod_doc_visitor_1a170f73e5397179cff3136417d1dfaf7e" prot="public" virt="non-virtual"><scope>PerlModDocVisitor</scope><name>visitPost</name></member>
+      <member refid="dc/d27/class_perl_mod_doc_visitor_1a0bb72a51b519a2dea2930de3baa06a68" prot="public" virt="non-virtual"><scope>PerlModDocVisitor</scope><name>visitPost</name></member>
+      <member refid="dc/d27/class_perl_mod_doc_visitor_1a3faf431729cf9a368bceb3fb7e2382e7" prot="public" virt="non-virtual"><scope>PerlModDocVisitor</scope><name>visitPost</name></member>
+      <member refid="dc/d27/class_perl_mod_doc_visitor_1ac7c692999a03dc8ab8c9306cb256e0ec" prot="public" virt="non-virtual"><scope>PerlModDocVisitor</scope><name>visitPost</name></member>
+      <member refid="dc/d27/class_perl_mod_doc_visitor_1a943f576317b46ea69116c3b0e3b5637b" prot="public" virt="non-virtual"><scope>PerlModDocVisitor</scope><name>visitPre</name></member>
+      <member refid="dc/d27/class_perl_mod_doc_visitor_1af189af66f2e0e142768673e6709126b8" prot="public" virt="non-virtual"><scope>PerlModDocVisitor</scope><name>visitPre</name></member>
+      <member refid="dc/d27/class_perl_mod_doc_visitor_1ad272cb11df7988943546a52ef8b55a0a" prot="public" virt="non-virtual"><scope>PerlModDocVisitor</scope><name>visitPre</name></member>
+      <member refid="dc/d27/class_perl_mod_doc_visitor_1a3cd866d1362085c952c45b70c961581f" prot="public" virt="non-virtual"><scope>PerlModDocVisitor</scope><name>visitPre</name></member>
+      <member refid="dc/d27/class_perl_mod_doc_visitor_1a61377bb003e74b040d5875f883211793" prot="public" virt="non-virtual"><scope>PerlModDocVisitor</scope><name>visitPre</name></member>
+      <member refid="dc/d27/class_perl_mod_doc_visitor_1ab5ae966ee80b6e4fc33089c62bda123e" prot="public" virt="non-virtual"><scope>PerlModDocVisitor</scope><name>visitPre</name></member>
+      <member refid="dc/d27/class_perl_mod_doc_visitor_1a86de76f31d38a5eaaa536e0fdcbfce63" prot="public" virt="non-virtual"><scope>PerlModDocVisitor</scope><name>visitPre</name></member>
+      <member refid="dc/d27/class_perl_mod_doc_visitor_1a690b22aca05c230964a13747f9fc729c" prot="public" virt="non-virtual"><scope>PerlModDocVisitor</scope><name>visitPre</name></member>
+      <member refid="dc/d27/class_perl_mod_doc_visitor_1abf66edea256117f346019ac50def68de" prot="public" virt="non-virtual"><scope>PerlModDocVisitor</scope><name>visitPre</name></member>
+      <member refid="dc/d27/class_perl_mod_doc_visitor_1a9fcbe24c80071ce858b792e1c0184d73" prot="public" virt="non-virtual"><scope>PerlModDocVisitor</scope><name>visitPre</name></member>
+      <member refid="dc/d27/class_perl_mod_doc_visitor_1a1fb81f56b12a31c04e2d8d64d0ee343a" prot="public" virt="non-virtual"><scope>PerlModDocVisitor</scope><name>visitPre</name></member>
+      <member refid="dc/d27/class_perl_mod_doc_visitor_1ab7af9e44ad25a6494a5917881ea7a3b0" prot="public" virt="non-virtual"><scope>PerlModDocVisitor</scope><name>visitPre</name></member>
+      <member refid="dc/d27/class_perl_mod_doc_visitor_1af1300e4286a03e9c48ff4f5508219b14" prot="public" virt="non-virtual"><scope>PerlModDocVisitor</scope><name>visitPre</name></member>
+      <member refid="dc/d27/class_perl_mod_doc_visitor_1a98f5f7cd175eeba107f43b329d964979" prot="public" virt="non-virtual"><scope>PerlModDocVisitor</scope><name>visitPre</name></member>
+      <member refid="dc/d27/class_perl_mod_doc_visitor_1ad6a82378d9312cfb2ad7b339b1208353" prot="public" virt="non-virtual"><scope>PerlModDocVisitor</scope><name>visitPre</name></member>
+      <member refid="dc/d27/class_perl_mod_doc_visitor_1a3ddfaaee96d2d6664c2f1b269781d235" prot="public" virt="non-virtual"><scope>PerlModDocVisitor</scope><name>visitPre</name></member>
+      <member refid="dc/d27/class_perl_mod_doc_visitor_1a01d6c4fb9ecb9bfcb09f1595f70f5190" prot="public" virt="non-virtual"><scope>PerlModDocVisitor</scope><name>visitPre</name></member>
+      <member refid="dc/d27/class_perl_mod_doc_visitor_1acaaa0480658a34e11e5b1aad8ee63457" prot="public" virt="non-virtual"><scope>PerlModDocVisitor</scope><name>visitPre</name></member>
+      <member refid="dc/d27/class_perl_mod_doc_visitor_1a7a8ff462808486a306f14fbde81c6bb3" prot="public" virt="non-virtual"><scope>PerlModDocVisitor</scope><name>visitPre</name></member>
+      <member refid="dc/d27/class_perl_mod_doc_visitor_1a26155d37f6c88c2abee0c065a8a0c395" prot="public" virt="non-virtual"><scope>PerlModDocVisitor</scope><name>visitPre</name></member>
+      <member refid="dc/d27/class_perl_mod_doc_visitor_1aceec53b97c9e9727ec1468d09df21f1a" prot="public" virt="non-virtual"><scope>PerlModDocVisitor</scope><name>visitPre</name></member>
+      <member refid="dc/d27/class_perl_mod_doc_visitor_1ac2770c73a07897de98b4b7bbed8607bc" prot="public" virt="non-virtual"><scope>PerlModDocVisitor</scope><name>visitPre</name></member>
+      <member refid="dc/d27/class_perl_mod_doc_visitor_1a57c81e62d63f85e79cd0aff2c826387c" prot="public" virt="non-virtual"><scope>PerlModDocVisitor</scope><name>visitPre</name></member>
+      <member refid="dc/d27/class_perl_mod_doc_visitor_1a37ac8a8cb63c2aed087032c8e4c5641a" prot="public" virt="non-virtual"><scope>PerlModDocVisitor</scope><name>visitPre</name></member>
+      <member refid="dc/d27/class_perl_mod_doc_visitor_1a5b20a41b7514a544b69613276f3c28d1" prot="public" virt="non-virtual"><scope>PerlModDocVisitor</scope><name>visitPre</name></member>
+      <member refid="dc/d27/class_perl_mod_doc_visitor_1a84c1914ef60158d75ad31da447ea1290" prot="public" virt="non-virtual"><scope>PerlModDocVisitor</scope><name>visitPre</name></member>
+      <member refid="dc/d27/class_perl_mod_doc_visitor_1a6f83e747cf5ba0a1d39b696677f21f84" prot="public" virt="non-virtual"><scope>PerlModDocVisitor</scope><name>visitPre</name></member>
+      <member refid="dc/d27/class_perl_mod_doc_visitor_1a0ad8c067dda6c9f0b1324619f35b30bd" prot="public" virt="non-virtual"><scope>PerlModDocVisitor</scope><name>visitPre</name></member>
+      <member refid="dc/d27/class_perl_mod_doc_visitor_1ab47ce7fa4327aa225bb95d1db9e714ae" prot="public" virt="non-virtual"><scope>PerlModDocVisitor</scope><name>visitPre</name></member>
+      <member refid="dc/d27/class_perl_mod_doc_visitor_1a369e160a2f9fcf923eaa3cf2f364ca7c" prot="public" virt="non-virtual"><scope>PerlModDocVisitor</scope><name>visitPre</name></member>
+      <member refid="dc/d27/class_perl_mod_doc_visitor_1a11554deeaf3e631a297b8e2091aaff97" prot="public" virt="non-virtual"><scope>PerlModDocVisitor</scope><name>visitPre</name></member>
+      <member refid="dc/d27/class_perl_mod_doc_visitor_1a0df067037cffd3516ca6d453a0f6e989" prot="public" virt="non-virtual"><scope>PerlModDocVisitor</scope><name>visitPre</name></member>
+      <member refid="dc/d27/class_perl_mod_doc_visitor_1a769f0078bded952ed3ef6bb0fe224452" prot="public" virt="non-virtual"><scope>PerlModDocVisitor</scope><name>visitPre</name></member>
+      <member refid="dc/d27/class_perl_mod_doc_visitor_1a41b7d6baa3f54d17707099219e73873d" prot="public" virt="non-virtual"><scope>PerlModDocVisitor</scope><name>visitPre</name></member>
+      <member refid="dc/d27/class_perl_mod_doc_visitor_1afe509dcb9784d42be53c581f3e5dfebd" prot="public" virt="non-virtual"><scope>PerlModDocVisitor</scope><name>visitPre</name></member>
+      <member refid="dc/d27/class_perl_mod_doc_visitor_1abe7e71d4b2d45f7988f9c48d7ab9c191" prot="public" virt="non-virtual"><scope>PerlModDocVisitor</scope><name>visitPre</name></member>
+      <member refid="d0/d78/class_doc_visitor_1a11b3740103d21254806867da845a26aa" prot="public" virt="virtual"><scope>PerlModDocVisitor</scope><name>~DocVisitor</name></member>
+      <member refid="dc/d27/class_perl_mod_doc_visitor_1a22fa37c6d082c47367af9414623b52eb" prot="public" virt="virtual"><scope>PerlModDocVisitor</scope><name>~PerlModDocVisitor</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

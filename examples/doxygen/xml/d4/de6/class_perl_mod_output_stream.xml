@@ -1,0 +1,166 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.2">
+  <compounddef id="d4/de6/class_perl_mod_output_stream" kind="class" prot="public">
+    <compoundname>PerlModOutputStream</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="d4/de6/class_perl_mod_output_stream_1abd23a5e420b365f3239937fd5091a19c" prot="public" static="no" mutable="no">
+        <type>QCString</type>
+        <definition>QCString PerlModOutputStream::m_s</definition>
+        <argsstring></argsstring>
+        <name>m_s</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/perlmodgen.cpp" line="51" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/perlmodgen.cpp" bodystart="51" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d4/de6/class_perl_mod_output_stream_1a0000b5406fb4590ed62996f43ad3a192" prot="public" static="no" mutable="no">
+        <type><ref refid="dc/d3c/class_f_text_stream" kindref="compound">FTextStream</ref> *</type>
+        <definition>FTextStream* PerlModOutputStream::m_t</definition>
+        <argsstring></argsstring>
+        <name>m_t</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/perlmodgen.cpp" line="52" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/perlmodgen.cpp" bodystart="52" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="d4/de6/class_perl_mod_output_stream_1a74b0ce7dc1e91181e3b145c6bd51239b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>PerlModOutputStream::PerlModOutputStream</definition>
+        <argsstring>(FTextStream *t=0)</argsstring>
+        <name>PerlModOutputStream</name>
+        <param>
+          <type><ref refid="dc/d3c/class_f_text_stream" kindref="compound">FTextStream</ref> *</type>
+          <declname>t</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/perlmodgen.cpp" line="54" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/perlmodgen.cpp" bodystart="54" bodyend="54"/>
+      </memberdef>
+      <memberdef kind="function" id="d4/de6/class_perl_mod_output_stream_1a6970acf3298a0e408427b54d1b876cd5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void PerlModOutputStream::add</definition>
+        <argsstring>(char c)</argsstring>
+        <name>add</name>
+        <param>
+          <type>char</type>
+          <declname>c</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/perlmodgen.cpp" line="56" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/perlmodgen.cpp" bodystart="63" bodyend="69"/>
+      </memberdef>
+      <memberdef kind="function" id="d4/de6/class_perl_mod_output_stream_1a3551835e035096e026776c6182fbd2e0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void PerlModOutputStream::add</definition>
+        <argsstring>(const char *s)</argsstring>
+        <name>add</name>
+        <param>
+          <type>const char *</type>
+          <declname>s</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/perlmodgen.cpp" line="57" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/perlmodgen.cpp" bodystart="71" bodyend="77"/>
+      </memberdef>
+      <memberdef kind="function" id="d4/de6/class_perl_mod_output_stream_1a1bc1bba39566a20570d070a8047b4dd9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void PerlModOutputStream::add</definition>
+        <argsstring>(QCString &amp;s)</argsstring>
+        <name>add</name>
+        <param>
+          <type>QCString &amp;</type>
+          <declname>s</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/perlmodgen.cpp" line="58" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/perlmodgen.cpp" bodystart="79" bodyend="85"/>
+      </memberdef>
+      <memberdef kind="function" id="d4/de6/class_perl_mod_output_stream_1ab7ddab3bb38de8bf835a62895a792ff8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void PerlModOutputStream::add</definition>
+        <argsstring>(int n)</argsstring>
+        <name>add</name>
+        <param>
+          <type>int</type>
+          <declname>n</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/perlmodgen.cpp" line="59" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/perlmodgen.cpp" bodystart="87" bodyend="93"/>
+      </memberdef>
+      <memberdef kind="function" id="d4/de6/class_perl_mod_output_stream_1aad5e9dc80caeb48eb84de1a1ef190136" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void PerlModOutputStream::add</definition>
+        <argsstring>(unsigned int n)</argsstring>
+        <name>add</name>
+        <param>
+          <type>unsigned int</type>
+          <declname>n</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/perlmodgen.cpp" line="60" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/perlmodgen.cpp" bodystart="95" bodyend="101"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="3909">
+        <label>PerlModOutputStream</label>
+        <childnode refid="3910" relation="usage">
+          <edgelabel>m_t</edgelabel>
+        </childnode>
+      </node>
+      <node id="3910">
+        <label>FTextStream</label>
+        <link refid="dc/d3c/class_f_text_stream"/>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/perlmodgen.cpp" line="48" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/perlmodgen.cpp" bodystart="47" bodyend="61"/>
+    <listofallmembers>
+      <member refid="d4/de6/class_perl_mod_output_stream_1a6970acf3298a0e408427b54d1b876cd5" prot="public" virt="non-virtual"><scope>PerlModOutputStream</scope><name>add</name></member>
+      <member refid="d4/de6/class_perl_mod_output_stream_1a3551835e035096e026776c6182fbd2e0" prot="public" virt="non-virtual"><scope>PerlModOutputStream</scope><name>add</name></member>
+      <member refid="d4/de6/class_perl_mod_output_stream_1a1bc1bba39566a20570d070a8047b4dd9" prot="public" virt="non-virtual"><scope>PerlModOutputStream</scope><name>add</name></member>
+      <member refid="d4/de6/class_perl_mod_output_stream_1ab7ddab3bb38de8bf835a62895a792ff8" prot="public" virt="non-virtual"><scope>PerlModOutputStream</scope><name>add</name></member>
+      <member refid="d4/de6/class_perl_mod_output_stream_1aad5e9dc80caeb48eb84de1a1ef190136" prot="public" virt="non-virtual"><scope>PerlModOutputStream</scope><name>add</name></member>
+      <member refid="d4/de6/class_perl_mod_output_stream_1abd23a5e420b365f3239937fd5091a19c" prot="public" virt="non-virtual"><scope>PerlModOutputStream</scope><name>m_s</name></member>
+      <member refid="d4/de6/class_perl_mod_output_stream_1a0000b5406fb4590ed62996f43ad3a192" prot="public" virt="non-virtual"><scope>PerlModOutputStream</scope><name>m_t</name></member>
+      <member refid="d4/de6/class_perl_mod_output_stream_1a74b0ce7dc1e91181e3b145c6bd51239b" prot="public" virt="non-virtual"><scope>PerlModOutputStream</scope><name>PerlModOutputStream</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,206 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.2">
+  <compounddef id="d8/d33/class_grow_buf" kind="class" prot="public">
+    <compoundname>GrowBuf</compoundname>
+    <includes refid="dd/d72/growbuf_8h" local="no">growbuf.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="d8/d33/class_grow_buf_1a9077e62c7709ba4cfa62e049280a2998" prot="private" static="no" mutable="no">
+        <type>char *</type>
+        <definition>char* GrowBuf::str</definition>
+        <argsstring></argsstring>
+        <name>str</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/growbuf.h" line="42" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/growbuf.h" bodystart="42" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d8/d33/class_grow_buf_1ab259784684d23ce8301e71c57d035275" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int GrowBuf::pos</definition>
+        <argsstring></argsstring>
+        <name>pos</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/growbuf.h" line="43" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/growbuf.h" bodystart="43" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d8/d33/class_grow_buf_1a2e7fbc6b8115c12ce89080ae83c07725" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int GrowBuf::len</definition>
+        <argsstring></argsstring>
+        <name>len</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/growbuf.h" line="44" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/growbuf.h" bodystart="44" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="d8/d33/class_grow_buf_1a7868767b69ab7f10f3a36da73e2f5e5f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>GrowBuf::GrowBuf</definition>
+        <argsstring>()</argsstring>
+        <name>GrowBuf</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/growbuf.h" line="13" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/growbuf.h" bodystart="13" bodyend="13"/>
+      </memberdef>
+      <memberdef kind="function" id="d8/d33/class_grow_buf_1af7206ac4d12d20889037d545e6bab0d9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>GrowBuf::~GrowBuf</definition>
+        <argsstring>()</argsstring>
+        <name>~GrowBuf</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/growbuf.h" line="14" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/growbuf.h" bodystart="14" bodyend="14"/>
+      </memberdef>
+      <memberdef kind="function" id="d8/d33/class_grow_buf_1a7aadcbc3d02fe6e01acf45d892cff0ba" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void GrowBuf::clear</definition>
+        <argsstring>()</argsstring>
+        <name>clear</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/growbuf.h" line="15" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/growbuf.h" bodystart="15" bodyend="15"/>
+      </memberdef>
+      <memberdef kind="function" id="d8/d33/class_grow_buf_1a46b4677f555d2abc718f26e71a59efda" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void GrowBuf::addChar</definition>
+        <argsstring>(char c)</argsstring>
+        <name>addChar</name>
+        <param>
+          <type>char</type>
+          <declname>c</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/growbuf.h" line="16" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/growbuf.h" bodystart="16" bodyend="18"/>
+      </memberdef>
+      <memberdef kind="function" id="d8/d33/class_grow_buf_1ac2a971c747abdd4cb7cb038a3e27197b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void GrowBuf::addStr</definition>
+        <argsstring>(const char *s)</argsstring>
+        <name>addStr</name>
+        <param>
+          <type>const char *</type>
+          <declname>s</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/growbuf.h" line="19" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/growbuf.h" bodystart="19" bodyend="27"/>
+      </memberdef>
+      <memberdef kind="function" id="d8/d33/class_grow_buf_1afac18a4ba578aaa629d2139694c619ae" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void GrowBuf::addStr</definition>
+        <argsstring>(const char *s, int n)</argsstring>
+        <name>addStr</name>
+        <param>
+          <type>const char *</type>
+          <declname>s</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>n</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/growbuf.h" line="28" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/growbuf.h" bodystart="28" bodyend="37"/>
+      </memberdef>
+      <memberdef kind="function" id="d8/d33/class_grow_buf_1ad3c02793a6af0024c063e67f1254803c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>const char *</type>
+        <definition>const char* GrowBuf::get</definition>
+        <argsstring>()</argsstring>
+        <name>get</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/growbuf.h" line="38" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/growbuf.h" bodystart="38" bodyend="38"/>
+      </memberdef>
+      <memberdef kind="function" id="d8/d33/class_grow_buf_1a05767584858b625daa8d1a4c9fe7e3c1" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int GrowBuf::getPos</definition>
+        <argsstring>() const </argsstring>
+        <name>getPos</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/growbuf.h" line="39" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/growbuf.h" bodystart="39" bodyend="39"/>
+      </memberdef>
+      <memberdef kind="function" id="d8/d33/class_grow_buf_1a2ec048f3feb2d273f3ce43abfa7e4d44" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>char</type>
+        <definition>char GrowBuf::at</definition>
+        <argsstring>(int i) const </argsstring>
+        <name>at</name>
+        <param>
+          <type>int</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/growbuf.h" line="40" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/growbuf.h" bodystart="40" bodyend="40"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Class representing a string buffer optimised for growing. </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/growbuf.h" line="11" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/growbuf.h" bodystart="10" bodyend="45"/>
+    <listofallmembers>
+      <member refid="d8/d33/class_grow_buf_1a46b4677f555d2abc718f26e71a59efda" prot="public" virt="non-virtual"><scope>GrowBuf</scope><name>addChar</name></member>
+      <member refid="d8/d33/class_grow_buf_1ac2a971c747abdd4cb7cb038a3e27197b" prot="public" virt="non-virtual"><scope>GrowBuf</scope><name>addStr</name></member>
+      <member refid="d8/d33/class_grow_buf_1afac18a4ba578aaa629d2139694c619ae" prot="public" virt="non-virtual"><scope>GrowBuf</scope><name>addStr</name></member>
+      <member refid="d8/d33/class_grow_buf_1a2ec048f3feb2d273f3ce43abfa7e4d44" prot="public" virt="non-virtual"><scope>GrowBuf</scope><name>at</name></member>
+      <member refid="d8/d33/class_grow_buf_1a7aadcbc3d02fe6e01acf45d892cff0ba" prot="public" virt="non-virtual"><scope>GrowBuf</scope><name>clear</name></member>
+      <member refid="d8/d33/class_grow_buf_1ad3c02793a6af0024c063e67f1254803c" prot="public" virt="non-virtual"><scope>GrowBuf</scope><name>get</name></member>
+      <member refid="d8/d33/class_grow_buf_1a05767584858b625daa8d1a4c9fe7e3c1" prot="public" virt="non-virtual"><scope>GrowBuf</scope><name>getPos</name></member>
+      <member refid="d8/d33/class_grow_buf_1a7868767b69ab7f10f3a36da73e2f5e5f" prot="public" virt="non-virtual"><scope>GrowBuf</scope><name>GrowBuf</name></member>
+      <member refid="d8/d33/class_grow_buf_1a2e7fbc6b8115c12ce89080ae83c07725" prot="private" virt="non-virtual"><scope>GrowBuf</scope><name>len</name></member>
+      <member refid="d8/d33/class_grow_buf_1ab259784684d23ce8301e71c57d035275" prot="private" virt="non-virtual"><scope>GrowBuf</scope><name>pos</name></member>
+      <member refid="d8/d33/class_grow_buf_1a9077e62c7709ba4cfa62e049280a2998" prot="private" virt="non-virtual"><scope>GrowBuf</scope><name>str</name></member>
+      <member refid="d8/d33/class_grow_buf_1af7206ac4d12d20889037d545e6bab0d9" prot="public" virt="non-virtual"><scope>GrowBuf</scope><name>~GrowBuf</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

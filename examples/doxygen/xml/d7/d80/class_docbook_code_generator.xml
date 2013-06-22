@@ -1,0 +1,449 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.2">
+  <compounddef id="d7/d80/class_docbook_code_generator" kind="class" prot="public">
+    <compoundname>DocbookCodeGenerator</compoundname>
+    <basecompoundref refid="d5/d9c/class_code_output_interface" prot="public" virt="non-virtual">CodeOutputInterface</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="d7/d80/class_docbook_code_generator_1a65660876b9456c522483398fa3b4b67e" prot="private" static="no" mutable="no">
+        <type><ref refid="dc/d3c/class_f_text_stream" kindref="compound">FTextStream</ref> &amp;</type>
+        <definition>FTextStream&amp; DocbookCodeGenerator::m_t</definition>
+        <argsstring></argsstring>
+        <name>m_t</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/docbookgen.cpp" line="291" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/docbookgen.cpp" bodystart="291" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d7/d80/class_docbook_code_generator_1a46241908135ae139616266510f569d75" prot="private" static="no" mutable="no">
+        <type>QCString</type>
+        <definition>QCString DocbookCodeGenerator::m_refId</definition>
+        <argsstring></argsstring>
+        <name>m_refId</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/docbookgen.cpp" line="292" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/docbookgen.cpp" bodystart="292" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d7/d80/class_docbook_code_generator_1a0ac00ed89685c510a7a0c97366ba1c40" prot="private" static="no" mutable="no">
+        <type>QCString</type>
+        <definition>QCString DocbookCodeGenerator::m_external</definition>
+        <argsstring></argsstring>
+        <name>m_external</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/docbookgen.cpp" line="293" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/docbookgen.cpp" bodystart="293" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d7/d80/class_docbook_code_generator_1a370944cca11dccabf9887d3bd6c00a9b" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int DocbookCodeGenerator::m_lineNumber</definition>
+        <argsstring></argsstring>
+        <name>m_lineNumber</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/docbookgen.cpp" line="294" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/docbookgen.cpp" bodystart="294" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d7/d80/class_docbook_code_generator_1ac04f76b68a4babc25a14c97d9b7fca1e" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool DocbookCodeGenerator::m_isMemberRef</definition>
+        <argsstring></argsstring>
+        <name>m_isMemberRef</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/docbookgen.cpp" line="295" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/docbookgen.cpp" bodystart="295" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d7/d80/class_docbook_code_generator_1a05c68e4fea937ddc52c668ee5dd10f68" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int DocbookCodeGenerator::col</definition>
+        <argsstring></argsstring>
+        <name>col</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/docbookgen.cpp" line="296" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/docbookgen.cpp" bodystart="296" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d7/d80/class_docbook_code_generator_1ac67a3dfb9373872b5ae97f7a9ae6873f" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool DocbookCodeGenerator::m_insideCodeLine</definition>
+        <argsstring></argsstring>
+        <name>m_insideCodeLine</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/docbookgen.cpp" line="297" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/docbookgen.cpp" bodystart="297" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d7/d80/class_docbook_code_generator_1a9d6a0b46949ad9c73c556d8f5fb4cead" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool DocbookCodeGenerator::m_normalHLNeedStartTag</definition>
+        <argsstring></argsstring>
+        <name>m_normalHLNeedStartTag</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/docbookgen.cpp" line="298" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/docbookgen.cpp" bodystart="298" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d7/d80/class_docbook_code_generator_1af499b4de75488065fce50243bc944fd2" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool DocbookCodeGenerator::m_insideSpecialHL</definition>
+        <argsstring></argsstring>
+        <name>m_insideSpecialHL</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/docbookgen.cpp" line="299" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/docbookgen.cpp" bodystart="299" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="d7/d80/class_docbook_code_generator_1a614697e6789639f7e8b67a7ba2ac31d3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>DocbookCodeGenerator::DocbookCodeGenerator</definition>
+        <argsstring>(FTextStream &amp;t)</argsstring>
+        <name>DocbookCodeGenerator</name>
+        <param>
+          <type><ref refid="dc/d3c/class_f_text_stream" kindref="compound">FTextStream</ref> &amp;</type>
+          <declname>t</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/docbookgen.cpp" line="195" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/docbookgen.cpp" bodystart="193" bodyend="195"/>
+      </memberdef>
+      <memberdef kind="function" id="d7/d80/class_docbook_code_generator_1a9280e0d73c93714828a3650102ccef58" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type></type>
+        <definition>virtual DocbookCodeGenerator::~DocbookCodeGenerator</definition>
+        <argsstring>()</argsstring>
+        <name>~DocbookCodeGenerator</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/docbookgen.cpp" line="196" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/docbookgen.cpp" bodystart="196" bodyend="196"/>
+      </memberdef>
+      <memberdef kind="function" id="d7/d80/class_docbook_code_generator_1a7c2c177e3e6e0485e9806a75b45bd7a3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void DocbookCodeGenerator::codify</definition>
+        <argsstring>(const char *text)</argsstring>
+        <name>codify</name>
+        <param>
+          <type>const char *</type>
+          <declname>text</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/docbookgen.cpp" line="199" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/docbookgen.cpp" bodystart="198" bodyend="202"/>
+      </memberdef>
+      <memberdef kind="function" id="d7/d80/class_docbook_code_generator_1aecf4ade98ac3d63f22e3632f7dfb987a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void DocbookCodeGenerator::writeCodeLink</definition>
+        <argsstring>(const char *ref, const char *file, const char *anchor, const char *name, const char *tooltip)</argsstring>
+        <name>writeCodeLink</name>
+        <param>
+          <type>const char *</type>
+          <declname>ref</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>file</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>anchor</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>name</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>tooltip</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/docbookgen.cpp" line="206" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/docbookgen.cpp" bodystart="203" bodyend="210"/>
+      </memberdef>
+      <memberdef kind="function" id="d7/d80/class_docbook_code_generator_1aa6af9297cbb2be8c975d0d123cf6d3b1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void DocbookCodeGenerator::startCodeLine</definition>
+        <argsstring>(bool)</argsstring>
+        <name>startCodeLine</name>
+        <param>
+          <type>bool</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/docbookgen.cpp" line="212" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/docbookgen.cpp" bodystart="211" bodyend="228"/>
+      </memberdef>
+      <memberdef kind="function" id="d7/d80/class_docbook_code_generator_1ab457dd3ab8b99073d9d2cc6f566bb712" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void DocbookCodeGenerator::endCodeLine</definition>
+        <argsstring>()</argsstring>
+        <name>endCodeLine</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/docbookgen.cpp" line="230" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/docbookgen.cpp" bodystart="229" bodyend="237"/>
+      </memberdef>
+      <memberdef kind="function" id="d7/d80/class_docbook_code_generator_1a7d230502ff8b31efa8bc9d20bb7abe76" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void DocbookCodeGenerator::startCodeAnchor</definition>
+        <argsstring>(const char *id)</argsstring>
+        <name>startCodeAnchor</name>
+        <param>
+          <type>const char *</type>
+          <declname>id</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/docbookgen.cpp" line="239" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/docbookgen.cpp" bodystart="238" bodyend="242"/>
+      </memberdef>
+      <memberdef kind="function" id="d7/d80/class_docbook_code_generator_1adda3ed8f9c81a6a1234e58d535dc1294" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void DocbookCodeGenerator::endCodeAnchor</definition>
+        <argsstring>()</argsstring>
+        <name>endCodeAnchor</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/docbookgen.cpp" line="244" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/docbookgen.cpp" bodystart="243" bodyend="247"/>
+      </memberdef>
+      <memberdef kind="function" id="d7/d80/class_docbook_code_generator_1af14808c150fd7b5dd51d27057695886e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void DocbookCodeGenerator::startFontClass</definition>
+        <argsstring>(const char *)</argsstring>
+        <name>startFontClass</name>
+        <param>
+          <type>const char *</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/docbookgen.cpp" line="249" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/docbookgen.cpp" bodystart="248" bodyend="253"/>
+      </memberdef>
+      <memberdef kind="function" id="d7/d80/class_docbook_code_generator_1a06537ef3f7d9c2cb4b9b0293f43d9151" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void DocbookCodeGenerator::endFontClass</definition>
+        <argsstring>()</argsstring>
+        <name>endFontClass</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/docbookgen.cpp" line="255" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/docbookgen.cpp" bodystart="254" bodyend="259"/>
+      </memberdef>
+      <memberdef kind="function" id="d7/d80/class_docbook_code_generator_1ac0f7f4cd4fec98da2855978adf786a04" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void DocbookCodeGenerator::writeCodeAnchor</definition>
+        <argsstring>(const char *)</argsstring>
+        <name>writeCodeAnchor</name>
+        <param>
+          <type>const char *</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/docbookgen.cpp" line="261" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/docbookgen.cpp" bodystart="260" bodyend="263"/>
+      </memberdef>
+      <memberdef kind="function" id="d7/d80/class_docbook_code_generator_1a0230dcc0e6ee8d3323571df44c5178ba" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void DocbookCodeGenerator::writeLineNumber</definition>
+        <argsstring>(const char *extRef, const char *compId, const char *anchorId, int l)</argsstring>
+        <name>writeLineNumber</name>
+        <param>
+          <type>const char *</type>
+          <declname>extRef</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>compId</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>anchorId</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>l</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/docbookgen.cpp" line="266" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/docbookgen.cpp" bodystart="264" bodyend="278"/>
+      </memberdef>
+      <memberdef kind="function" id="d7/d80/class_docbook_code_generator_1a22d996b1a717f7b76904cb63a21d1de2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void DocbookCodeGenerator::setCurrentDoc</definition>
+        <argsstring>(Definition *, const char *, bool)</argsstring>
+        <name>setCurrentDoc</name>
+        <param>
+          <type><ref refid="d5/dcc/class_definition" kindref="compound">Definition</ref> *</type>
+        </param>
+        <param>
+          <type>const char *</type>
+        </param>
+        <param>
+          <type>bool</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/docbookgen.cpp" line="280" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/docbookgen.cpp" bodystart="279" bodyend="281"/>
+      </memberdef>
+      <memberdef kind="function" id="d7/d80/class_docbook_code_generator_1ad935ade67aa122c6a67120d6e401ea78" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void DocbookCodeGenerator::addWord</definition>
+        <argsstring>(const char *, bool)</argsstring>
+        <name>addWord</name>
+        <param>
+          <type>const char *</type>
+        </param>
+        <param>
+          <type>bool</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/docbookgen.cpp" line="283" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/docbookgen.cpp" bodystart="282" bodyend="284"/>
+      </memberdef>
+      <memberdef kind="function" id="d7/d80/class_docbook_code_generator_1ab587badbb22f04c80d79fd6bf0b69b9a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void DocbookCodeGenerator::finish</definition>
+        <argsstring>()</argsstring>
+        <name>finish</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/docbookgen.cpp" line="286" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/docbookgen.cpp" bodystart="285" bodyend="288"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2887">
+        <label>DocbookCodeGenerator</label>
+        <childnode refid="2888" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2888">
+        <label>CodeOutputInterface</label>
+        <link refid="d5/d9c/class_code_output_interface"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2889">
+        <label>DocbookCodeGenerator</label>
+        <childnode refid="2890" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2890">
+        <label>CodeOutputInterface</label>
+        <link refid="d5/d9c/class_code_output_interface"/>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/docbookgen.cpp" line="191" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/docbookgen.cpp" bodystart="190" bodyend="300"/>
+    <listofallmembers>
+      <member refid="d7/d80/class_docbook_code_generator_1ad935ade67aa122c6a67120d6e401ea78" prot="public" virt="non-virtual"><scope>DocbookCodeGenerator</scope><name>addWord</name></member>
+      <member refid="d7/d80/class_docbook_code_generator_1a7c2c177e3e6e0485e9806a75b45bd7a3" prot="public" virt="non-virtual"><scope>DocbookCodeGenerator</scope><name>codify</name></member>
+      <member refid="d7/d80/class_docbook_code_generator_1a05c68e4fea937ddc52c668ee5dd10f68" prot="private" virt="non-virtual"><scope>DocbookCodeGenerator</scope><name>col</name></member>
+      <member refid="d7/d80/class_docbook_code_generator_1a614697e6789639f7e8b67a7ba2ac31d3" prot="public" virt="non-virtual"><scope>DocbookCodeGenerator</scope><name>DocbookCodeGenerator</name></member>
+      <member refid="d7/d80/class_docbook_code_generator_1adda3ed8f9c81a6a1234e58d535dc1294" prot="public" virt="non-virtual"><scope>DocbookCodeGenerator</scope><name>endCodeAnchor</name></member>
+      <member refid="d7/d80/class_docbook_code_generator_1ab457dd3ab8b99073d9d2cc6f566bb712" prot="public" virt="non-virtual"><scope>DocbookCodeGenerator</scope><name>endCodeLine</name></member>
+      <member refid="d7/d80/class_docbook_code_generator_1a06537ef3f7d9c2cb4b9b0293f43d9151" prot="public" virt="non-virtual"><scope>DocbookCodeGenerator</scope><name>endFontClass</name></member>
+      <member refid="d7/d80/class_docbook_code_generator_1ab587badbb22f04c80d79fd6bf0b69b9a" prot="public" virt="non-virtual"><scope>DocbookCodeGenerator</scope><name>finish</name></member>
+      <member refid="d7/d80/class_docbook_code_generator_1a0ac00ed89685c510a7a0c97366ba1c40" prot="private" virt="non-virtual"><scope>DocbookCodeGenerator</scope><name>m_external</name></member>
+      <member refid="d7/d80/class_docbook_code_generator_1ac67a3dfb9373872b5ae97f7a9ae6873f" prot="private" virt="non-virtual"><scope>DocbookCodeGenerator</scope><name>m_insideCodeLine</name></member>
+      <member refid="d7/d80/class_docbook_code_generator_1af499b4de75488065fce50243bc944fd2" prot="private" virt="non-virtual"><scope>DocbookCodeGenerator</scope><name>m_insideSpecialHL</name></member>
+      <member refid="d7/d80/class_docbook_code_generator_1ac04f76b68a4babc25a14c97d9b7fca1e" prot="private" virt="non-virtual"><scope>DocbookCodeGenerator</scope><name>m_isMemberRef</name></member>
+      <member refid="d7/d80/class_docbook_code_generator_1a370944cca11dccabf9887d3bd6c00a9b" prot="private" virt="non-virtual"><scope>DocbookCodeGenerator</scope><name>m_lineNumber</name></member>
+      <member refid="d7/d80/class_docbook_code_generator_1a9d6a0b46949ad9c73c556d8f5fb4cead" prot="private" virt="non-virtual"><scope>DocbookCodeGenerator</scope><name>m_normalHLNeedStartTag</name></member>
+      <member refid="d7/d80/class_docbook_code_generator_1a46241908135ae139616266510f569d75" prot="private" virt="non-virtual"><scope>DocbookCodeGenerator</scope><name>m_refId</name></member>
+      <member refid="d7/d80/class_docbook_code_generator_1a65660876b9456c522483398fa3b4b67e" prot="private" virt="non-virtual"><scope>DocbookCodeGenerator</scope><name>m_t</name></member>
+      <member refid="d7/d80/class_docbook_code_generator_1a22d996b1a717f7b76904cb63a21d1de2" prot="public" virt="non-virtual"><scope>DocbookCodeGenerator</scope><name>setCurrentDoc</name></member>
+      <member refid="d7/d80/class_docbook_code_generator_1a7d230502ff8b31efa8bc9d20bb7abe76" prot="public" virt="non-virtual"><scope>DocbookCodeGenerator</scope><name>startCodeAnchor</name></member>
+      <member refid="d7/d80/class_docbook_code_generator_1aa6af9297cbb2be8c975d0d123cf6d3b1" prot="public" virt="non-virtual"><scope>DocbookCodeGenerator</scope><name>startCodeLine</name></member>
+      <member refid="d7/d80/class_docbook_code_generator_1af14808c150fd7b5dd51d27057695886e" prot="public" virt="non-virtual"><scope>DocbookCodeGenerator</scope><name>startFontClass</name></member>
+      <member refid="d7/d80/class_docbook_code_generator_1ac0f7f4cd4fec98da2855978adf786a04" prot="public" virt="non-virtual"><scope>DocbookCodeGenerator</scope><name>writeCodeAnchor</name></member>
+      <member refid="d7/d80/class_docbook_code_generator_1aecf4ade98ac3d63f22e3632f7dfb987a" prot="public" virt="non-virtual"><scope>DocbookCodeGenerator</scope><name>writeCodeLink</name></member>
+      <member refid="d7/d80/class_docbook_code_generator_1a0230dcc0e6ee8d3323571df44c5178ba" prot="public" virt="non-virtual"><scope>DocbookCodeGenerator</scope><name>writeLineNumber</name></member>
+      <member refid="d5/d9c/class_code_output_interface_1a09fd2fd0be98227359200de7ab89c7e6" prot="public" virt="virtual"><scope>DocbookCodeGenerator</scope><name>~CodeOutputInterface</name></member>
+      <member refid="d7/d80/class_docbook_code_generator_1a9280e0d73c93714828a3650102ccef58" prot="public" virt="virtual"><scope>DocbookCodeGenerator</scope><name>~DocbookCodeGenerator</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,1844 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.2">
+  <compounddef id="d8/dcf/class_man_doc_visitor" kind="class" prot="public">
+    <compoundname>ManDocVisitor</compoundname>
+    <basecompoundref refid="d0/d78/class_doc_visitor" prot="public" virt="non-virtual">DocVisitor</basecompoundref>
+    <includes refid="d6/d6e/mandocvisitor_8h" local="no">mandocvisitor.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="d8/dcf/class_man_doc_visitor_1a2605341558a55ec6272d2a4360692871" prot="private" static="no" mutable="no">
+        <type><ref refid="dc/d3c/class_f_text_stream" kindref="compound">FTextStream</ref> &amp;</type>
+        <definition>FTextStream&amp; ManDocVisitor::m_t</definition>
+        <argsstring></argsstring>
+        <name>m_t</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/mandocvisitor.h" line="152" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/mandocvisitor.h" bodystart="152" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d8/dcf/class_man_doc_visitor_1a8dbcb0e877144d345011b30f073812ed" prot="private" static="no" mutable="no">
+        <type><ref refid="d5/d9c/class_code_output_interface" kindref="compound">CodeOutputInterface</ref> &amp;</type>
+        <definition>CodeOutputInterface&amp; ManDocVisitor::m_ci</definition>
+        <argsstring></argsstring>
+        <name>m_ci</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/mandocvisitor.h" line="153" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/mandocvisitor.h" bodystart="153" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d8/dcf/class_man_doc_visitor_1a9f8f69bc7068b52c3a58c132226d8dd1" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool ManDocVisitor::m_insidePre</definition>
+        <argsstring></argsstring>
+        <name>m_insidePre</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/mandocvisitor.h" line="154" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/mandocvisitor.h" bodystart="154" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d8/dcf/class_man_doc_visitor_1a19093acb1d57b5023cc26ebf81986862" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool ManDocVisitor::m_hide</definition>
+        <argsstring></argsstring>
+        <name>m_hide</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/mandocvisitor.h" line="155" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/mandocvisitor.h" bodystart="155" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d8/dcf/class_man_doc_visitor_1a7c4d50d6aca1907932aa2102deed79de" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool ManDocVisitor::m_firstCol</definition>
+        <argsstring></argsstring>
+        <name>m_firstCol</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/mandocvisitor.h" line="156" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/mandocvisitor.h" bodystart="156" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d8/dcf/class_man_doc_visitor_1a14c58a82f8994fede554dc42d6efd1ce" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int ManDocVisitor::m_indent</definition>
+        <argsstring></argsstring>
+        <name>m_indent</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/mandocvisitor.h" line="157" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/mandocvisitor.h" bodystart="157" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d8/dcf/class_man_doc_visitor_1a78b4025c9970b5a3278eb5af779e5663" prot="private" static="no" mutable="no">
+        <type>QStack&lt; bool &gt;</type>
+        <definition>QStack&lt;bool&gt; ManDocVisitor::m_enabled</definition>
+        <argsstring></argsstring>
+        <name>m_enabled</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/mandocvisitor.h" line="158" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/mandocvisitor.h" bodystart="158" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d8/dcf/class_man_doc_visitor_1aaa9bec6cb0fa3914b92e7b17d989acd4" prot="private" static="no" mutable="no">
+        <type>QCString</type>
+        <definition>QCString ManDocVisitor::m_langExt</definition>
+        <argsstring></argsstring>
+        <name>m_langExt</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/mandocvisitor.h" line="159" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/mandocvisitor.h" bodystart="159" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="d8/dcf/class_man_doc_visitor_1a2cde7798dbf5b935ea19a24143592691" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>ManDocVisitor::ManDocVisitor</definition>
+        <argsstring>(FTextStream &amp;t, CodeOutputInterface &amp;ci, const char *langExt)</argsstring>
+        <name>ManDocVisitor</name>
+        <param>
+          <type><ref refid="dc/d3c/class_f_text_stream" kindref="compound">FTextStream</ref> &amp;</type>
+          <declname>t</declname>
+        </param>
+        <param>
+          <type><ref refid="d5/d9c/class_code_output_interface" kindref="compound">CodeOutputInterface</ref> &amp;</type>
+          <declname>ci</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>langExt</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/mandocvisitor.h" line="33" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/mandocvisitor.cpp" bodystart="33" bodyend="38"/>
+      </memberdef>
+      <memberdef kind="function" id="d8/dcf/class_man_doc_visitor_1a78d86f216cde7db35913c83f439aee47" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void ManDocVisitor::visit</definition>
+        <argsstring>(DocWord *)</argsstring>
+        <name>visit</name>
+        <reimplements refid="d0/d78/class_doc_visitor_1aec59d1c93f82aad3569fb303f1e4d3f4">visit</reimplements>
+        <param>
+          <type><ref refid="d9/d1d/class_doc_word" kindref="compound">DocWord</ref> *</type>
+          <defname>w</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/mandocvisitor.h" line="39" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/mandocvisitor.cpp" bodystart="44" bodyend="49"/>
+      </memberdef>
+      <memberdef kind="function" id="d8/dcf/class_man_doc_visitor_1a976144c66fb2b63504ea913910a7a7f0" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void ManDocVisitor::visit</definition>
+        <argsstring>(DocLinkedWord *)</argsstring>
+        <name>visit</name>
+        <reimplements refid="d0/d78/class_doc_visitor_1a02271e36b8c31ceddaa9a6cfe265866c">visit</reimplements>
+        <param>
+          <type><ref refid="d1/d93/class_doc_linked_word" kindref="compound">DocLinkedWord</ref> *</type>
+          <defname>w</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/mandocvisitor.h" line="40" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/mandocvisitor.cpp" bodystart="51" bodyend="58"/>
+      </memberdef>
+      <memberdef kind="function" id="d8/dcf/class_man_doc_visitor_1ac3fa7a7d15c49edbb330fb204672c4ca" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void ManDocVisitor::visit</definition>
+        <argsstring>(DocWhiteSpace *)</argsstring>
+        <name>visit</name>
+        <reimplements refid="d0/d78/class_doc_visitor_1a68f7be9249997380d4ee39f608b21e28">visit</reimplements>
+        <param>
+          <type><ref refid="db/d78/class_doc_white_space" kindref="compound">DocWhiteSpace</ref> *</type>
+          <defname>w</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/mandocvisitor.h" line="41" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/mandocvisitor.cpp" bodystart="60" bodyend="73"/>
+      </memberdef>
+      <memberdef kind="function" id="d8/dcf/class_man_doc_visitor_1a3e5b70fdc47f9a0f7853309dc81f5a2f" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void ManDocVisitor::visit</definition>
+        <argsstring>(DocSymbol *)</argsstring>
+        <name>visit</name>
+        <reimplements refid="d0/d78/class_doc_visitor_1aff53bb2afd8f7dd963397eca8f53775d">visit</reimplements>
+        <param>
+          <type><ref refid="d7/d67/class_doc_symbol" kindref="compound">DocSymbol</ref> *</type>
+          <defname>s</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/mandocvisitor.h" line="42" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/mandocvisitor.cpp" bodystart="75" bodyend="116"/>
+      </memberdef>
+      <memberdef kind="function" id="d8/dcf/class_man_doc_visitor_1a9a7b6956a8ac6c89ee141368991c1819" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void ManDocVisitor::visit</definition>
+        <argsstring>(DocURL *)</argsstring>
+        <name>visit</name>
+        <reimplements refid="d0/d78/class_doc_visitor_1ad4b4715c1f30e5b7f2492f61f58eb41e">visit</reimplements>
+        <param>
+          <type><ref refid="d9/dcb/class_doc_u_r_l" kindref="compound">DocURL</ref> *</type>
+          <defname>u</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/mandocvisitor.h" line="43" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/mandocvisitor.cpp" bodystart="118" bodyend="123"/>
+      </memberdef>
+      <memberdef kind="function" id="d8/dcf/class_man_doc_visitor_1ad381c88ef578c667010b0371dcdf63f2" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void ManDocVisitor::visit</definition>
+        <argsstring>(DocLineBreak *)</argsstring>
+        <name>visit</name>
+        <reimplements refid="d0/d78/class_doc_visitor_1a907478f5e152ccfcd898bbbfb86e8a62">visit</reimplements>
+        <param>
+          <type><ref refid="df/d34/class_doc_line_break" kindref="compound">DocLineBreak</ref> *</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/mandocvisitor.h" line="44" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/mandocvisitor.cpp" bodystart="125" bodyend="130"/>
+      </memberdef>
+      <memberdef kind="function" id="d8/dcf/class_man_doc_visitor_1a8ac3645c640850908b9e959c81f9af8a" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void ManDocVisitor::visit</definition>
+        <argsstring>(DocHorRuler *)</argsstring>
+        <name>visit</name>
+        <reimplements refid="d0/d78/class_doc_visitor_1acb3e01375bf30212b9c9a320a338d998">visit</reimplements>
+        <param>
+          <type><ref refid="d9/d6f/class_doc_hor_ruler" kindref="compound">DocHorRuler</ref> *</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/mandocvisitor.h" line="45" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/mandocvisitor.cpp" bodystart="132" bodyend="138"/>
+      </memberdef>
+      <memberdef kind="function" id="d8/dcf/class_man_doc_visitor_1ab5d2dd27fa5eef611a68e9c64edde672" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void ManDocVisitor::visit</definition>
+        <argsstring>(DocStyleChange *)</argsstring>
+        <name>visit</name>
+        <reimplements refid="d0/d78/class_doc_visitor_1ae76aedd65bb04607b0b1475cc24720b1">visit</reimplements>
+        <param>
+          <type><ref refid="d0/d4e/class_doc_style_change" kindref="compound">DocStyleChange</ref> *</type>
+          <defname>s</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/mandocvisitor.h" line="46" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/mandocvisitor.cpp" bodystart="140" bodyend="191"/>
+      </memberdef>
+      <memberdef kind="function" id="d8/dcf/class_man_doc_visitor_1afce754a7c4c92143bb07a9f3334dbc86" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void ManDocVisitor::visit</definition>
+        <argsstring>(DocVerbatim *)</argsstring>
+        <name>visit</name>
+        <reimplements refid="d0/d78/class_doc_visitor_1a1deb88f4f8320362379dfdb3259bcf5b">visit</reimplements>
+        <param>
+          <type><ref refid="dc/d12/class_doc_verbatim" kindref="compound">DocVerbatim</ref> *</type>
+          <defname>s</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/mandocvisitor.h" line="47" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/mandocvisitor.cpp" bodystart="193" bodyend="233"/>
+      </memberdef>
+      <memberdef kind="function" id="d8/dcf/class_man_doc_visitor_1a3fb42461ac61b66285d0666eed9d23b3" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void ManDocVisitor::visit</definition>
+        <argsstring>(DocAnchor *)</argsstring>
+        <name>visit</name>
+        <reimplements refid="d0/d78/class_doc_visitor_1a6b50d6c801a96480fe5d696257204b5b">visit</reimplements>
+        <param>
+          <type><ref refid="d0/d33/class_doc_anchor" kindref="compound">DocAnchor</ref> *</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/mandocvisitor.h" line="48" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/mandocvisitor.cpp" bodystart="235" bodyend="238"/>
+      </memberdef>
+      <memberdef kind="function" id="d8/dcf/class_man_doc_visitor_1a9e6cd979f65b491fa8b29226b219f114" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void ManDocVisitor::visit</definition>
+        <argsstring>(DocInclude *)</argsstring>
+        <name>visit</name>
+        <reimplements refid="d0/d78/class_doc_visitor_1a983ff26fa96114015198c2f2b9cc9659">visit</reimplements>
+        <param>
+          <type><ref refid="d6/db9/class_doc_include" kindref="compound">DocInclude</ref> *</type>
+          <defname>inc</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/mandocvisitor.h" line="49" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/mandocvisitor.cpp" bodystart="240" bodyend="307"/>
+      </memberdef>
+      <memberdef kind="function" id="d8/dcf/class_man_doc_visitor_1a306a5ca1432217e40d1a3af57b6efdf1" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void ManDocVisitor::visit</definition>
+        <argsstring>(DocIncOperator *)</argsstring>
+        <name>visit</name>
+        <reimplements refid="d0/d78/class_doc_visitor_1acbd34843d9ac571f53484d80666553d6">visit</reimplements>
+        <param>
+          <type><ref refid="d2/db2/class_doc_inc_operator" kindref="compound">DocIncOperator</ref> *</type>
+          <defname>op</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/mandocvisitor.h" line="50" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/mandocvisitor.cpp" bodystart="309" bodyend="351"/>
+      </memberdef>
+      <memberdef kind="function" id="d8/dcf/class_man_doc_visitor_1aa9da11de40886b09990711a2d1da8f3a" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void ManDocVisitor::visit</definition>
+        <argsstring>(DocFormula *)</argsstring>
+        <name>visit</name>
+        <reimplements refid="d0/d78/class_doc_visitor_1a4e27e470f439b296099f15e167fefdc7">visit</reimplements>
+        <param>
+          <type><ref refid="df/de1/class_doc_formula" kindref="compound">DocFormula</ref> *</type>
+          <defname>f</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/mandocvisitor.h" line="51" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/mandocvisitor.cpp" bodystart="353" bodyend="357"/>
+      </memberdef>
+      <memberdef kind="function" id="d8/dcf/class_man_doc_visitor_1a58a69d1661b00279353dc8c08bf102e5" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void ManDocVisitor::visit</definition>
+        <argsstring>(DocIndexEntry *)</argsstring>
+        <name>visit</name>
+        <reimplements refid="d0/d78/class_doc_visitor_1a592d9b903b43b55af79a9511c2e4af76">visit</reimplements>
+        <param>
+          <type><ref refid="d7/dc9/class_doc_index_entry" kindref="compound">DocIndexEntry</ref> *</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/mandocvisitor.h" line="52" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/mandocvisitor.cpp" bodystart="359" bodyend="361"/>
+      </memberdef>
+      <memberdef kind="function" id="d8/dcf/class_man_doc_visitor_1a8452fb901dc3c7f06a6ce4f93d47096e" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void ManDocVisitor::visit</definition>
+        <argsstring>(DocSimpleSectSep *)</argsstring>
+        <name>visit</name>
+        <reimplements refid="d0/d78/class_doc_visitor_1acb552de85678adcae6deaebeba33daec">visit</reimplements>
+        <param>
+          <type><ref refid="db/dd0/class_doc_simple_sect_sep" kindref="compound">DocSimpleSectSep</ref> *</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/mandocvisitor.h" line="53" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/mandocvisitor.cpp" bodystart="363" bodyend="365"/>
+      </memberdef>
+      <memberdef kind="function" id="d8/dcf/class_man_doc_visitor_1ab6410a0c268c12ff8cc885dc11ac941b" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void ManDocVisitor::visit</definition>
+        <argsstring>(DocCite *)</argsstring>
+        <name>visit</name>
+        <reimplements refid="d0/d78/class_doc_visitor_1a493e4a1f2cd6e1d0ad5f9eb5b56089b1">visit</reimplements>
+        <param>
+          <type><ref refid="d6/db8/class_doc_cite" kindref="compound">DocCite</ref> *</type>
+          <defname>cite</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/mandocvisitor.h" line="54" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/mandocvisitor.cpp" bodystart="367" bodyend="375"/>
+      </memberdef>
+      <memberdef kind="function" id="d8/dcf/class_man_doc_visitor_1ac61882eec5fc673cfe3322faafe31b6f" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void ManDocVisitor::visitPre</definition>
+        <argsstring>(DocAutoList *)</argsstring>
+        <name>visitPre</name>
+        <reimplements refid="d0/d78/class_doc_visitor_1ad19af23c9a793e7b224df2a9e63f8abb">visitPre</reimplements>
+        <param>
+          <type><ref refid="d1/d3f/class_doc_auto_list" kindref="compound">DocAutoList</ref> *</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/mandocvisitor.h" line="60" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/mandocvisitor.cpp" bodystart="382" bodyend="386"/>
+      </memberdef>
+      <memberdef kind="function" id="d8/dcf/class_man_doc_visitor_1aa5f721cd0f24353730fcaa5a5e974c1d" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void ManDocVisitor::visitPost</definition>
+        <argsstring>(DocAutoList *)</argsstring>
+        <name>visitPost</name>
+        <reimplements refid="d0/d78/class_doc_visitor_1afc37187eb3ca61b7bb0b730636324966">visitPost</reimplements>
+        <param>
+          <type><ref refid="d1/d3f/class_doc_auto_list" kindref="compound">DocAutoList</ref> *</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/mandocvisitor.h" line="61" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/mandocvisitor.cpp" bodystart="388" bodyend="393"/>
+      </memberdef>
+      <memberdef kind="function" id="d8/dcf/class_man_doc_visitor_1a68535c5718bebca88280ec87204bcb03" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void ManDocVisitor::visitPre</definition>
+        <argsstring>(DocAutoListItem *)</argsstring>
+        <name>visitPre</name>
+        <reimplements refid="d0/d78/class_doc_visitor_1a8401a2388c52c4dacbe9121b3e24bbe5">visitPre</reimplements>
+        <param>
+          <type><ref refid="d8/df9/class_doc_auto_list_item" kindref="compound">DocAutoListItem</ref> *</type>
+          <defname>li</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/mandocvisitor.h" line="62" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/mandocvisitor.cpp" bodystart="395" bodyend="412"/>
+      </memberdef>
+      <memberdef kind="function" id="d8/dcf/class_man_doc_visitor_1ad84e9fadfccda826dff18f85907404eb" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void ManDocVisitor::visitPost</definition>
+        <argsstring>(DocAutoListItem *)</argsstring>
+        <name>visitPost</name>
+        <reimplements refid="d0/d78/class_doc_visitor_1a2d28f1aba8f013fbf165492bc0b4cf32">visitPost</reimplements>
+        <param>
+          <type><ref refid="d8/df9/class_doc_auto_list_item" kindref="compound">DocAutoListItem</ref> *</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/mandocvisitor.h" line="63" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/mandocvisitor.cpp" bodystart="414" bodyend="419"/>
+      </memberdef>
+      <memberdef kind="function" id="d8/dcf/class_man_doc_visitor_1a6503a01ed5a422b07aff9090a8f6fa5f" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void ManDocVisitor::visitPre</definition>
+        <argsstring>(DocPara *)</argsstring>
+        <name>visitPre</name>
+        <reimplements refid="d0/d78/class_doc_visitor_1aadca3f9fde4584c4776c8e96c6381f2b">visitPre</reimplements>
+        <param>
+          <type><ref refid="d3/d01/class_doc_para" kindref="compound">DocPara</ref> *</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/mandocvisitor.h" line="64" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/mandocvisitor.cpp" bodystart="421" bodyend="423"/>
+      </memberdef>
+      <memberdef kind="function" id="d8/dcf/class_man_doc_visitor_1add933c3493f06a50e64f397416938d77" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void ManDocVisitor::visitPost</definition>
+        <argsstring>(DocPara *)</argsstring>
+        <name>visitPost</name>
+        <reimplements refid="d0/d78/class_doc_visitor_1ad6f2864a77c4ee94e3864ca7359e8e44">visitPost</reimplements>
+        <param>
+          <type><ref refid="d3/d01/class_doc_para" kindref="compound">DocPara</ref> *</type>
+          <defname>p</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/mandocvisitor.h" line="65" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/mandocvisitor.cpp" bodystart="425" bodyend="438"/>
+      </memberdef>
+      <memberdef kind="function" id="d8/dcf/class_man_doc_visitor_1a62ec2a2b37abea790676a3e98f793537" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void ManDocVisitor::visitPre</definition>
+        <argsstring>(DocRoot *)</argsstring>
+        <name>visitPre</name>
+        <reimplements refid="d0/d78/class_doc_visitor_1a3eaf72c546eb9c7b7721f2be0f9e0bec">visitPre</reimplements>
+        <param>
+          <type><ref refid="d8/ddb/class_doc_root" kindref="compound">DocRoot</ref> *</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/mandocvisitor.h" line="66" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/mandocvisitor.cpp" bodystart="440" bodyend="442"/>
+      </memberdef>
+      <memberdef kind="function" id="d8/dcf/class_man_doc_visitor_1a71b77baa7bfd4920c9e967619de9529f" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void ManDocVisitor::visitPost</definition>
+        <argsstring>(DocRoot *)</argsstring>
+        <name>visitPost</name>
+        <reimplements refid="d0/d78/class_doc_visitor_1a36cee35f6be334919905f0afd04a6fa5">visitPost</reimplements>
+        <param>
+          <type><ref refid="d8/ddb/class_doc_root" kindref="compound">DocRoot</ref> *</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/mandocvisitor.h" line="67" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/mandocvisitor.cpp" bodystart="444" bodyend="446"/>
+      </memberdef>
+      <memberdef kind="function" id="d8/dcf/class_man_doc_visitor_1a6b08054f25a91c1d5eb3c03aef4ff94a" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void ManDocVisitor::visitPre</definition>
+        <argsstring>(DocSimpleSect *)</argsstring>
+        <name>visitPre</name>
+        <reimplements refid="d0/d78/class_doc_visitor_1a906a10ecd102203e2a8121f7d08a37dc">visitPre</reimplements>
+        <param>
+          <type><ref refid="de/d65/class_doc_simple_sect" kindref="compound">DocSimpleSect</ref> *</type>
+          <defname>s</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/mandocvisitor.h" line="68" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/mandocvisitor.cpp" bodystart="448" bodyend="500"/>
+      </memberdef>
+      <memberdef kind="function" id="d8/dcf/class_man_doc_visitor_1ad04b49e411c456cbd5da762c96dca233" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void ManDocVisitor::visitPost</definition>
+        <argsstring>(DocSimpleSect *)</argsstring>
+        <name>visitPost</name>
+        <reimplements refid="d0/d78/class_doc_visitor_1a27dd28a0cd024947d0fa5fb4c2420d4b">visitPost</reimplements>
+        <param>
+          <type><ref refid="de/d65/class_doc_simple_sect" kindref="compound">DocSimpleSect</ref> *</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/mandocvisitor.h" line="69" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/mandocvisitor.cpp" bodystart="502" bodyend="509"/>
+      </memberdef>
+      <memberdef kind="function" id="d8/dcf/class_man_doc_visitor_1a0365148847acb44c9a526249991a2a46" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void ManDocVisitor::visitPre</definition>
+        <argsstring>(DocTitle *)</argsstring>
+        <name>visitPre</name>
+        <reimplements refid="d0/d78/class_doc_visitor_1a4f3edcfaa1f39b8e385f5fc6ad07a1fa">visitPre</reimplements>
+        <param>
+          <type><ref refid="d3/d1c/class_doc_title" kindref="compound">DocTitle</ref> *</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/mandocvisitor.h" line="70" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/mandocvisitor.cpp" bodystart="511" bodyend="513"/>
+      </memberdef>
+      <memberdef kind="function" id="d8/dcf/class_man_doc_visitor_1a073e155fa1273a3d332166f0cf3d7721" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void ManDocVisitor::visitPost</definition>
+        <argsstring>(DocTitle *)</argsstring>
+        <name>visitPost</name>
+        <reimplements refid="d0/d78/class_doc_visitor_1a9164730bf7b367e75b9288b0497e1966">visitPost</reimplements>
+        <param>
+          <type><ref refid="d3/d1c/class_doc_title" kindref="compound">DocTitle</ref> *</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/mandocvisitor.h" line="71" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/mandocvisitor.cpp" bodystart="515" bodyend="520"/>
+      </memberdef>
+      <memberdef kind="function" id="d8/dcf/class_man_doc_visitor_1ae5e4161ebc481408d3be81bf4a323c30" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void ManDocVisitor::visitPre</definition>
+        <argsstring>(DocSimpleList *)</argsstring>
+        <name>visitPre</name>
+        <reimplements refid="d0/d78/class_doc_visitor_1a383cc026d701e1447c1ada6cc566b328">visitPre</reimplements>
+        <param>
+          <type><ref refid="dc/de6/class_doc_simple_list" kindref="compound">DocSimpleList</ref> *</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/mandocvisitor.h" line="72" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/mandocvisitor.cpp" bodystart="522" bodyend="528"/>
+      </memberdef>
+      <memberdef kind="function" id="d8/dcf/class_man_doc_visitor_1a4dc9ef46a00302a577c26a96303db04e" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void ManDocVisitor::visitPost</definition>
+        <argsstring>(DocSimpleList *)</argsstring>
+        <name>visitPost</name>
+        <reimplements refid="d0/d78/class_doc_visitor_1a01330622b0795145dc662c2c32965e7d">visitPost</reimplements>
+        <param>
+          <type><ref refid="dc/de6/class_doc_simple_list" kindref="compound">DocSimpleList</ref> *</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/mandocvisitor.h" line="73" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/mandocvisitor.cpp" bodystart="530" bodyend="535"/>
+      </memberdef>
+      <memberdef kind="function" id="d8/dcf/class_man_doc_visitor_1a9e22c8905c481b36fc8a786e07f27d59" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void ManDocVisitor::visitPre</definition>
+        <argsstring>(DocSimpleListItem *)</argsstring>
+        <name>visitPre</name>
+        <reimplements refid="d0/d78/class_doc_visitor_1ae23ed0ebf60d58c7d7821083ad4fc283">visitPre</reimplements>
+        <param>
+          <type><ref refid="d4/d1e/class_doc_simple_list_item" kindref="compound">DocSimpleListItem</ref> *</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/mandocvisitor.h" line="74" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/mandocvisitor.cpp" bodystart="537" bodyend="545"/>
+      </memberdef>
+      <memberdef kind="function" id="d8/dcf/class_man_doc_visitor_1a6e316b030c2ce02fa6f10628699d07a9" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void ManDocVisitor::visitPost</definition>
+        <argsstring>(DocSimpleListItem *)</argsstring>
+        <name>visitPost</name>
+        <reimplements refid="d0/d78/class_doc_visitor_1a59ee419b5f54332cb88dca97e78d1fea">visitPost</reimplements>
+        <param>
+          <type><ref refid="d4/d1e/class_doc_simple_list_item" kindref="compound">DocSimpleListItem</ref> *</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/mandocvisitor.h" line="75" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/mandocvisitor.cpp" bodystart="547" bodyend="552"/>
+      </memberdef>
+      <memberdef kind="function" id="d8/dcf/class_man_doc_visitor_1a9e33eca3d62adf42fb24a3f8009647bc" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void ManDocVisitor::visitPre</definition>
+        <argsstring>(DocSection *s)</argsstring>
+        <name>visitPre</name>
+        <reimplements refid="d0/d78/class_doc_visitor_1a78190d964b165c0f8589ed1a6faa989a">visitPre</reimplements>
+        <param>
+          <type><ref refid="d2/da3/class_doc_section" kindref="compound">DocSection</ref> *</type>
+          <declname>s</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/mandocvisitor.h" line="76" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/mandocvisitor.cpp" bodystart="554" bodyend="564"/>
+      </memberdef>
+      <memberdef kind="function" id="d8/dcf/class_man_doc_visitor_1ad48c62312a049df3ed9f37cce7dcaee4" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void ManDocVisitor::visitPost</definition>
+        <argsstring>(DocSection *)</argsstring>
+        <name>visitPost</name>
+        <reimplements refid="d0/d78/class_doc_visitor_1a083957bd79581ce312e7e3ad9e3f6102">visitPost</reimplements>
+        <param>
+          <type><ref refid="d2/da3/class_doc_section" kindref="compound">DocSection</ref> *</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/mandocvisitor.h" line="77" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/mandocvisitor.cpp" bodystart="566" bodyend="568"/>
+      </memberdef>
+      <memberdef kind="function" id="d8/dcf/class_man_doc_visitor_1abd9473fd9bc149f1e08ec4baea38c2dd" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void ManDocVisitor::visitPre</definition>
+        <argsstring>(DocHtmlList *s)</argsstring>
+        <name>visitPre</name>
+        <reimplements refid="d0/d78/class_doc_visitor_1a4bca6fe6f64ea99abafd6b5ab60da885">visitPre</reimplements>
+        <param>
+          <type><ref refid="d5/d42/class_doc_html_list" kindref="compound">DocHtmlList</ref> *</type>
+          <declname>s</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/mandocvisitor.h" line="78" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/mandocvisitor.cpp" bodystart="570" bodyend="576"/>
+      </memberdef>
+      <memberdef kind="function" id="d8/dcf/class_man_doc_visitor_1a0ed34c75c073014b27f73d5641f00505" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void ManDocVisitor::visitPost</definition>
+        <argsstring>(DocHtmlList *s)</argsstring>
+        <name>visitPost</name>
+        <reimplements refid="d0/d78/class_doc_visitor_1a94c4bf557fa59bfa262d4b1fcb064b79">visitPost</reimplements>
+        <param>
+          <type><ref refid="d5/d42/class_doc_html_list" kindref="compound">DocHtmlList</ref> *</type>
+          <declname>s</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/mandocvisitor.h" line="79" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/mandocvisitor.cpp" bodystart="578" bodyend="584"/>
+      </memberdef>
+      <memberdef kind="function" id="d8/dcf/class_man_doc_visitor_1a67595af3a1d78f9d08a445f12b01b4fa" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void ManDocVisitor::visitPre</definition>
+        <argsstring>(DocHtmlListItem *)</argsstring>
+        <name>visitPre</name>
+        <reimplements refid="d0/d78/class_doc_visitor_1af2a2b89f574d5c25112e050338886255">visitPre</reimplements>
+        <param>
+          <type><ref refid="df/da8/class_doc_html_list_item" kindref="compound">DocHtmlListItem</ref> *</type>
+          <defname>li</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/mandocvisitor.h" line="80" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/mandocvisitor.cpp" bodystart="586" bodyend="603"/>
+      </memberdef>
+      <memberdef kind="function" id="d8/dcf/class_man_doc_visitor_1a95ca8e67415f7189d1df6cad1f2bbfa9" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void ManDocVisitor::visitPost</definition>
+        <argsstring>(DocHtmlListItem *)</argsstring>
+        <name>visitPost</name>
+        <reimplements refid="d0/d78/class_doc_visitor_1a213f7b6711dcde03c51487eabd229c43">visitPost</reimplements>
+        <param>
+          <type><ref refid="df/da8/class_doc_html_list_item" kindref="compound">DocHtmlListItem</ref> *</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/mandocvisitor.h" line="81" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/mandocvisitor.cpp" bodystart="605" bodyend="610"/>
+      </memberdef>
+      <memberdef kind="function" id="d8/dcf/class_man_doc_visitor_1a2ad7b57718ec39a2dcb1570b78fbf02a" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void ManDocVisitor::visitPre</definition>
+        <argsstring>(DocHtmlDescList *)</argsstring>
+        <name>visitPre</name>
+        <reimplements refid="d0/d78/class_doc_visitor_1ad342a149c6ce394db59da0436e051d9b">visitPre</reimplements>
+        <param>
+          <type><ref refid="df/d6f/class_doc_html_desc_list" kindref="compound">DocHtmlDescList</ref> *</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/mandocvisitor.h" line="84" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/mandocvisitor.cpp" bodystart="629" bodyend="631"/>
+      </memberdef>
+      <memberdef kind="function" id="d8/dcf/class_man_doc_visitor_1a9604c1c7018484af1f43781cb73c73ec" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void ManDocVisitor::visitPost</definition>
+        <argsstring>(DocHtmlDescList *)</argsstring>
+        <name>visitPost</name>
+        <reimplements refid="d0/d78/class_doc_visitor_1a32e4c8689a7e005bdb882c3a167767c3">visitPost</reimplements>
+        <param>
+          <type><ref refid="df/d6f/class_doc_html_desc_list" kindref="compound">DocHtmlDescList</ref> *</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/mandocvisitor.h" line="85" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/mandocvisitor.cpp" bodystart="633" bodyend="639"/>
+      </memberdef>
+      <memberdef kind="function" id="d8/dcf/class_man_doc_visitor_1af60484e92f3e21a5cc8ff133511c2d5e" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void ManDocVisitor::visitPre</definition>
+        <argsstring>(DocHtmlDescTitle *)</argsstring>
+        <name>visitPre</name>
+        <reimplements refid="d0/d78/class_doc_visitor_1a7807d986121da267abcd3b4bf334fe57">visitPre</reimplements>
+        <param>
+          <type><ref refid="dd/dd1/class_doc_html_desc_title" kindref="compound">DocHtmlDescTitle</ref> *</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/mandocvisitor.h" line="86" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/mandocvisitor.cpp" bodystart="641" bodyend="647"/>
+      </memberdef>
+      <memberdef kind="function" id="d8/dcf/class_man_doc_visitor_1a89514e6c1137f8fbfa505a1de9f29328" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void ManDocVisitor::visitPost</definition>
+        <argsstring>(DocHtmlDescTitle *)</argsstring>
+        <name>visitPost</name>
+        <reimplements refid="d0/d78/class_doc_visitor_1aea00af70d99f90581cb07c126a819688">visitPost</reimplements>
+        <param>
+          <type><ref refid="dd/dd1/class_doc_html_desc_title" kindref="compound">DocHtmlDescTitle</ref> *</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/mandocvisitor.h" line="87" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/mandocvisitor.cpp" bodystart="649" bodyend="654"/>
+      </memberdef>
+      <memberdef kind="function" id="d8/dcf/class_man_doc_visitor_1a88fdf0a67a12e1ab11b448bb2fb5317b" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void ManDocVisitor::visitPre</definition>
+        <argsstring>(DocHtmlDescData *)</argsstring>
+        <name>visitPre</name>
+        <reimplements refid="d0/d78/class_doc_visitor_1ab777ab10aa8444e911c26ffa5a13dd80">visitPre</reimplements>
+        <param>
+          <type><ref refid="dd/d88/class_doc_html_desc_data" kindref="compound">DocHtmlDescData</ref> *</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/mandocvisitor.h" line="88" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/mandocvisitor.cpp" bodystart="656" bodyend="658"/>
+      </memberdef>
+      <memberdef kind="function" id="d8/dcf/class_man_doc_visitor_1a4a5e112c7dfa74ca62648d5ee9dd8a13" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void ManDocVisitor::visitPost</definition>
+        <argsstring>(DocHtmlDescData *)</argsstring>
+        <name>visitPost</name>
+        <reimplements refid="d0/d78/class_doc_visitor_1a1d6c104ead1e410666853eeca1348222">visitPost</reimplements>
+        <param>
+          <type><ref refid="dd/d88/class_doc_html_desc_data" kindref="compound">DocHtmlDescData</ref> *</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/mandocvisitor.h" line="89" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/mandocvisitor.cpp" bodystart="660" bodyend="662"/>
+      </memberdef>
+      <memberdef kind="function" id="d8/dcf/class_man_doc_visitor_1ad7c49df6c8a681ed7eecb499e1249b12" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void ManDocVisitor::visitPre</definition>
+        <argsstring>(DocHtmlTable *t)</argsstring>
+        <name>visitPre</name>
+        <reimplements refid="d0/d78/class_doc_visitor_1a46be97002c15e24d3c0a0b0b28123d4c">visitPre</reimplements>
+        <param>
+          <type><ref refid="de/d79/class_doc_html_table" kindref="compound">DocHtmlTable</ref> *</type>
+          <declname>t</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/mandocvisitor.h" line="90" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/mandocvisitor.cpp" bodystart="664" bodyend="666"/>
+      </memberdef>
+      <memberdef kind="function" id="d8/dcf/class_man_doc_visitor_1a6a21193b3e897d31793b3153c9f16598" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void ManDocVisitor::visitPost</definition>
+        <argsstring>(DocHtmlTable *t)</argsstring>
+        <name>visitPost</name>
+        <reimplements refid="d0/d78/class_doc_visitor_1af01861d096fb0cff4c7f6d0ea6954fda">visitPost</reimplements>
+        <param>
+          <type><ref refid="de/d79/class_doc_html_table" kindref="compound">DocHtmlTable</ref> *</type>
+          <declname>t</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/mandocvisitor.h" line="91" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/mandocvisitor.cpp" bodystart="668" bodyend="670"/>
+      </memberdef>
+      <memberdef kind="function" id="d8/dcf/class_man_doc_visitor_1afaae9dce806059785d1df5b16b1b88ef" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void ManDocVisitor::visitPre</definition>
+        <argsstring>(DocHtmlCaption *)</argsstring>
+        <name>visitPre</name>
+        <reimplements refid="d0/d78/class_doc_visitor_1a6bf4ac1265c14f57b338c17fa02a28bc">visitPre</reimplements>
+        <param>
+          <type><ref refid="d0/dc7/class_doc_html_caption" kindref="compound">DocHtmlCaption</ref> *</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/mandocvisitor.h" line="92" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/mandocvisitor.cpp" bodystart="672" bodyend="674"/>
+      </memberdef>
+      <memberdef kind="function" id="d8/dcf/class_man_doc_visitor_1a65d6874e65967b4d3e33d0851a21f4d8" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void ManDocVisitor::visitPost</definition>
+        <argsstring>(DocHtmlCaption *)</argsstring>
+        <name>visitPost</name>
+        <reimplements refid="d0/d78/class_doc_visitor_1a1fd56b83af1bfc8fcf28633a6b15968f">visitPost</reimplements>
+        <param>
+          <type><ref refid="d0/dc7/class_doc_html_caption" kindref="compound">DocHtmlCaption</ref> *</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/mandocvisitor.h" line="93" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/mandocvisitor.cpp" bodystart="676" bodyend="678"/>
+      </memberdef>
+      <memberdef kind="function" id="d8/dcf/class_man_doc_visitor_1a34f759bdd64ec279effacc848a603372" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void ManDocVisitor::visitPre</definition>
+        <argsstring>(DocHtmlRow *)</argsstring>
+        <name>visitPre</name>
+        <reimplements refid="d0/d78/class_doc_visitor_1a32db2f9305e92594b3014c600e428c43">visitPre</reimplements>
+        <param>
+          <type><ref refid="d3/d16/class_doc_html_row" kindref="compound">DocHtmlRow</ref> *</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/mandocvisitor.h" line="94" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/mandocvisitor.cpp" bodystart="680" bodyend="682"/>
+      </memberdef>
+      <memberdef kind="function" id="d8/dcf/class_man_doc_visitor_1ac61d04620273c151d633e91a4216e6ec" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void ManDocVisitor::visitPost</definition>
+        <argsstring>(DocHtmlRow *)</argsstring>
+        <name>visitPost</name>
+        <reimplements refid="d0/d78/class_doc_visitor_1a288d4ff0974bd107ff9b8bb130ffca4b">visitPost</reimplements>
+        <param>
+          <type><ref refid="d3/d16/class_doc_html_row" kindref="compound">DocHtmlRow</ref> *</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/mandocvisitor.h" line="95" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/mandocvisitor.cpp" bodystart="684" bodyend="686"/>
+      </memberdef>
+      <memberdef kind="function" id="d8/dcf/class_man_doc_visitor_1a36facbf83beba99eef805e56ba39cc09" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void ManDocVisitor::visitPre</definition>
+        <argsstring>(DocHtmlCell *)</argsstring>
+        <name>visitPre</name>
+        <reimplements refid="d0/d78/class_doc_visitor_1a32086fbe57451f6a8a68a89615048318">visitPre</reimplements>
+        <param>
+          <type><ref refid="d1/d56/class_doc_html_cell" kindref="compound">DocHtmlCell</ref> *</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/mandocvisitor.h" line="96" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/mandocvisitor.cpp" bodystart="688" bodyend="690"/>
+      </memberdef>
+      <memberdef kind="function" id="d8/dcf/class_man_doc_visitor_1a107c1dc54180b0b461c4ccbd00c8614e" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void ManDocVisitor::visitPost</definition>
+        <argsstring>(DocHtmlCell *)</argsstring>
+        <name>visitPost</name>
+        <reimplements refid="d0/d78/class_doc_visitor_1ab3a1da26976855321849d7d9f14a0b92">visitPost</reimplements>
+        <param>
+          <type><ref refid="d1/d56/class_doc_html_cell" kindref="compound">DocHtmlCell</ref> *</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/mandocvisitor.h" line="97" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/mandocvisitor.cpp" bodystart="692" bodyend="694"/>
+      </memberdef>
+      <memberdef kind="function" id="d8/dcf/class_man_doc_visitor_1a35ae292757c3ae1f0bfcdb17e4e0e164" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void ManDocVisitor::visitPre</definition>
+        <argsstring>(DocInternal *)</argsstring>
+        <name>visitPre</name>
+        <reimplements refid="d0/d78/class_doc_visitor_1a1f02d37635148eaa50ca604413b2b473">visitPre</reimplements>
+        <param>
+          <type><ref refid="db/d6d/class_doc_internal" kindref="compound">DocInternal</ref> *</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/mandocvisitor.h" line="98" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/mandocvisitor.cpp" bodystart="696" bodyend="703"/>
+      </memberdef>
+      <memberdef kind="function" id="d8/dcf/class_man_doc_visitor_1ae0b3ff8b66fecedfd5862165e2dcc979" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void ManDocVisitor::visitPost</definition>
+        <argsstring>(DocInternal *)</argsstring>
+        <name>visitPost</name>
+        <reimplements refid="d0/d78/class_doc_visitor_1ae1078286760f256a6b1423048ab4efe0">visitPost</reimplements>
+        <param>
+          <type><ref refid="db/d6d/class_doc_internal" kindref="compound">DocInternal</ref> *</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/mandocvisitor.h" line="99" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/mandocvisitor.cpp" bodystart="705" bodyend="712"/>
+      </memberdef>
+      <memberdef kind="function" id="d8/dcf/class_man_doc_visitor_1a07b590a805aabdd2e39146e952d6e68b" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void ManDocVisitor::visitPre</definition>
+        <argsstring>(DocHRef *)</argsstring>
+        <name>visitPre</name>
+        <reimplements refid="d0/d78/class_doc_visitor_1a98077b191b4d115565261f4077319f17">visitPre</reimplements>
+        <param>
+          <type><ref refid="d9/d10/class_doc_h_ref" kindref="compound">DocHRef</ref> *</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/mandocvisitor.h" line="100" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/mandocvisitor.cpp" bodystart="714" bodyend="718"/>
+      </memberdef>
+      <memberdef kind="function" id="d8/dcf/class_man_doc_visitor_1a203d00affbef71e9e3101d6c359a16d2" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void ManDocVisitor::visitPost</definition>
+        <argsstring>(DocHRef *)</argsstring>
+        <name>visitPost</name>
+        <reimplements refid="d0/d78/class_doc_visitor_1ae8652f7fe31aa1f870b178326dbd4dfd">visitPost</reimplements>
+        <param>
+          <type><ref refid="d9/d10/class_doc_h_ref" kindref="compound">DocHRef</ref> *</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/mandocvisitor.h" line="101" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/mandocvisitor.cpp" bodystart="720" bodyend="724"/>
+      </memberdef>
+      <memberdef kind="function" id="d8/dcf/class_man_doc_visitor_1aa841735a274000e156580446e3b588ce" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void ManDocVisitor::visitPre</definition>
+        <argsstring>(DocHtmlHeader *)</argsstring>
+        <name>visitPre</name>
+        <reimplements refid="d0/d78/class_doc_visitor_1a7b89efb508cdf43eac73cab93a31e981">visitPre</reimplements>
+        <param>
+          <type><ref refid="df/d24/class_doc_html_header" kindref="compound">DocHtmlHeader</ref> *</type>
+          <defname>header</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/mandocvisitor.h" line="102" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/mandocvisitor.cpp" bodystart="726" bodyend="732"/>
+      </memberdef>
+      <memberdef kind="function" id="d8/dcf/class_man_doc_visitor_1a601b7601f5875a3891d9b790dccb13ad" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void ManDocVisitor::visitPost</definition>
+        <argsstring>(DocHtmlHeader *)</argsstring>
+        <name>visitPost</name>
+        <reimplements refid="d0/d78/class_doc_visitor_1a2b5ea9275e789307ba60a9f140f4d24a">visitPost</reimplements>
+        <param>
+          <type><ref refid="df/d24/class_doc_html_header" kindref="compound">DocHtmlHeader</ref> *</type>
+          <defname>header</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/mandocvisitor.h" line="103" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/mandocvisitor.cpp" bodystart="734" bodyend="740"/>
+      </memberdef>
+      <memberdef kind="function" id="d8/dcf/class_man_doc_visitor_1a1c1dff13ff841b3ddb4e1a710c2bdd9b" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void ManDocVisitor::visitPre</definition>
+        <argsstring>(DocImage *)</argsstring>
+        <name>visitPre</name>
+        <reimplements refid="d0/d78/class_doc_visitor_1a92215b3643f949cb8afa3c8a052696ba">visitPre</reimplements>
+        <param>
+          <type><ref refid="db/dc8/class_doc_image" kindref="compound">DocImage</ref> *</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/mandocvisitor.h" line="104" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/mandocvisitor.cpp" bodystart="742" bodyend="744"/>
+      </memberdef>
+      <memberdef kind="function" id="d8/dcf/class_man_doc_visitor_1a92700edd2e421eabf98bc10c5c847e75" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void ManDocVisitor::visitPost</definition>
+        <argsstring>(DocImage *)</argsstring>
+        <name>visitPost</name>
+        <reimplements refid="d0/d78/class_doc_visitor_1aeb44708901d64a8399d2d4ae694b36fb">visitPost</reimplements>
+        <param>
+          <type><ref refid="db/dc8/class_doc_image" kindref="compound">DocImage</ref> *</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/mandocvisitor.h" line="105" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/mandocvisitor.cpp" bodystart="746" bodyend="748"/>
+      </memberdef>
+      <memberdef kind="function" id="d8/dcf/class_man_doc_visitor_1a870d0d242da1508dd14adfe208691416" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void ManDocVisitor::visitPre</definition>
+        <argsstring>(DocDotFile *)</argsstring>
+        <name>visitPre</name>
+        <reimplements refid="d0/d78/class_doc_visitor_1aea8fe773544d038a30989c416d507ccf">visitPre</reimplements>
+        <param>
+          <type><ref refid="df/d37/class_doc_dot_file" kindref="compound">DocDotFile</ref> *</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/mandocvisitor.h" line="106" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/mandocvisitor.cpp" bodystart="750" bodyend="752"/>
+      </memberdef>
+      <memberdef kind="function" id="d8/dcf/class_man_doc_visitor_1ab8fcaa39eb29a77e6847aeed1a344bf0" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void ManDocVisitor::visitPost</definition>
+        <argsstring>(DocDotFile *)</argsstring>
+        <name>visitPost</name>
+        <reimplements refid="d0/d78/class_doc_visitor_1af6c25aa497869c540a03576f2bc69c6f">visitPost</reimplements>
+        <param>
+          <type><ref refid="df/d37/class_doc_dot_file" kindref="compound">DocDotFile</ref> *</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/mandocvisitor.h" line="107" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/mandocvisitor.cpp" bodystart="754" bodyend="756"/>
+      </memberdef>
+      <memberdef kind="function" id="d8/dcf/class_man_doc_visitor_1a2a38feecfa32eaaf6b19d5de0f206791" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void ManDocVisitor::visitPre</definition>
+        <argsstring>(DocMscFile *)</argsstring>
+        <name>visitPre</name>
+        <reimplements refid="d0/d78/class_doc_visitor_1ab670b96996bca180a50ca0b8049afb74">visitPre</reimplements>
+        <param>
+          <type><ref refid="d3/d7d/class_doc_msc_file" kindref="compound">DocMscFile</ref> *</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/mandocvisitor.h" line="108" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/mandocvisitor.cpp" bodystart="757" bodyend="759"/>
+      </memberdef>
+      <memberdef kind="function" id="d8/dcf/class_man_doc_visitor_1ab9bd5efd00073e6c6b851bbf3c99f250" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void ManDocVisitor::visitPost</definition>
+        <argsstring>(DocMscFile *)</argsstring>
+        <name>visitPost</name>
+        <reimplements refid="d0/d78/class_doc_visitor_1af0ee053f7a73bee4279dbb0ef904091b">visitPost</reimplements>
+        <param>
+          <type><ref refid="d3/d7d/class_doc_msc_file" kindref="compound">DocMscFile</ref> *</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/mandocvisitor.h" line="109" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/mandocvisitor.cpp" bodystart="761" bodyend="763"/>
+      </memberdef>
+      <memberdef kind="function" id="d8/dcf/class_man_doc_visitor_1a7ba393580fadc6fa0a1f1a272f966aee" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void ManDocVisitor::visitPre</definition>
+        <argsstring>(DocLink *lnk)</argsstring>
+        <name>visitPre</name>
+        <reimplements refid="d0/d78/class_doc_visitor_1a17ed8049abe49ff3fe15be4a3767492c">visitPre</reimplements>
+        <param>
+          <type><ref refid="d5/dd3/class_doc_link" kindref="compound">DocLink</ref> *</type>
+          <declname>lnk</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/mandocvisitor.h" line="110" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/mandocvisitor.cpp" bodystart="766" bodyend="770"/>
+      </memberdef>
+      <memberdef kind="function" id="d8/dcf/class_man_doc_visitor_1a2fe6cb8b77d2ffa49b3ed2c9f6c42316" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void ManDocVisitor::visitPost</definition>
+        <argsstring>(DocLink *)</argsstring>
+        <name>visitPost</name>
+        <reimplements refid="d0/d78/class_doc_visitor_1aa061673a2f6a5800460de7ee1939fd26">visitPost</reimplements>
+        <param>
+          <type><ref refid="d5/dd3/class_doc_link" kindref="compound">DocLink</ref> *</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/mandocvisitor.h" line="111" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/mandocvisitor.cpp" bodystart="772" bodyend="776"/>
+      </memberdef>
+      <memberdef kind="function" id="d8/dcf/class_man_doc_visitor_1ad80337d915a216e7ae4aae63fd24a25d" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void ManDocVisitor::visitPre</definition>
+        <argsstring>(DocRef *ref)</argsstring>
+        <name>visitPre</name>
+        <reimplements refid="d0/d78/class_doc_visitor_1a60cd2b69d01085d2390f5cd5353346e8">visitPre</reimplements>
+        <param>
+          <type><ref refid="d5/d68/class_doc_ref" kindref="compound">DocRef</ref> *</type>
+          <declname>ref</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/mandocvisitor.h" line="112" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/mandocvisitor.cpp" bodystart="778" bodyend="783"/>
+      </memberdef>
+      <memberdef kind="function" id="d8/dcf/class_man_doc_visitor_1a7d31e38e1fec57232289cb4518ba8054" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void ManDocVisitor::visitPost</definition>
+        <argsstring>(DocRef *)</argsstring>
+        <name>visitPost</name>
+        <reimplements refid="d0/d78/class_doc_visitor_1a94dc480549e1cba2cdbb6185fb0415e3">visitPost</reimplements>
+        <param>
+          <type><ref refid="d5/d68/class_doc_ref" kindref="compound">DocRef</ref> *</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/mandocvisitor.h" line="113" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/mandocvisitor.cpp" bodystart="785" bodyend="789"/>
+      </memberdef>
+      <memberdef kind="function" id="d8/dcf/class_man_doc_visitor_1a0926730129e69e040d75a6dcac362890" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void ManDocVisitor::visitPre</definition>
+        <argsstring>(DocSecRefItem *)</argsstring>
+        <name>visitPre</name>
+        <reimplements refid="d0/d78/class_doc_visitor_1a7c8e4f5703c35adb516e9061fa7d79fc">visitPre</reimplements>
+        <param>
+          <type><ref refid="de/d87/class_doc_sec_ref_item" kindref="compound">DocSecRefItem</ref> *</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/mandocvisitor.h" line="114" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/mandocvisitor.cpp" bodystart="791" bodyend="799"/>
+      </memberdef>
+      <memberdef kind="function" id="d8/dcf/class_man_doc_visitor_1ad1c2b3e8af0ec9920e69ba839536a1c9" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void ManDocVisitor::visitPost</definition>
+        <argsstring>(DocSecRefItem *)</argsstring>
+        <name>visitPost</name>
+        <reimplements refid="d0/d78/class_doc_visitor_1ac84c8321aebb6766504bd7edc42bbb2f">visitPost</reimplements>
+        <param>
+          <type><ref refid="de/d87/class_doc_sec_ref_item" kindref="compound">DocSecRefItem</ref> *</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/mandocvisitor.h" line="115" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/mandocvisitor.cpp" bodystart="801" bodyend="806"/>
+      </memberdef>
+      <memberdef kind="function" id="d8/dcf/class_man_doc_visitor_1a9d1f53ca1901201c4cacdeff2f00a5a5" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void ManDocVisitor::visitPre</definition>
+        <argsstring>(DocSecRefList *)</argsstring>
+        <name>visitPre</name>
+        <reimplements refid="d0/d78/class_doc_visitor_1a3a65706be79641bbe4814420eaa75d94">visitPre</reimplements>
+        <param>
+          <type><ref refid="d3/ddb/class_doc_sec_ref_list" kindref="compound">DocSecRefList</ref> *</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/mandocvisitor.h" line="116" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/mandocvisitor.cpp" bodystart="808" bodyend="812"/>
+      </memberdef>
+      <memberdef kind="function" id="d8/dcf/class_man_doc_visitor_1accf0aae5841a6773156ea6e375d1c1f7" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void ManDocVisitor::visitPost</definition>
+        <argsstring>(DocSecRefList *)</argsstring>
+        <name>visitPost</name>
+        <reimplements refid="d0/d78/class_doc_visitor_1a9044bae893e45b52b19580b2a28e559c">visitPost</reimplements>
+        <param>
+          <type><ref refid="d3/ddb/class_doc_sec_ref_list" kindref="compound">DocSecRefList</ref> *</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/mandocvisitor.h" line="117" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/mandocvisitor.cpp" bodystart="814" bodyend="820"/>
+      </memberdef>
+      <memberdef kind="function" id="d8/dcf/class_man_doc_visitor_1a540d76af886f61c3384596371bec3d30" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void ManDocVisitor::visitPre</definition>
+        <argsstring>(DocParamSect *)</argsstring>
+        <name>visitPre</name>
+        <reimplements refid="d0/d78/class_doc_visitor_1aa6d880a9d15c8616fe9b8f7925faef89">visitPre</reimplements>
+        <param>
+          <type><ref refid="d1/d01/class_doc_param_sect" kindref="compound">DocParamSect</ref> *</type>
+          <defname>s</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/mandocvisitor.h" line="120" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/mandocvisitor.cpp" bodystart="841" bodyend="868"/>
+      </memberdef>
+      <memberdef kind="function" id="d8/dcf/class_man_doc_visitor_1a4a6c2a565b9ed4fa569dc0fa80f6b4e1" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void ManDocVisitor::visitPost</definition>
+        <argsstring>(DocParamSect *)</argsstring>
+        <name>visitPost</name>
+        <reimplements refid="d0/d78/class_doc_visitor_1a99c29894be00f3b556ba1e6bf6088768">visitPost</reimplements>
+        <param>
+          <type><ref refid="d1/d01/class_doc_param_sect" kindref="compound">DocParamSect</ref> *</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/mandocvisitor.h" line="121" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/mandocvisitor.cpp" bodystart="870" bodyend="877"/>
+      </memberdef>
+      <memberdef kind="function" id="d8/dcf/class_man_doc_visitor_1ae5378c1f14ea3d19a82a98ebde7ce15e" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void ManDocVisitor::visitPre</definition>
+        <argsstring>(DocParamList *)</argsstring>
+        <name>visitPre</name>
+        <reimplements refid="d0/d78/class_doc_visitor_1ace499f22ad300ce1313f858a591d53ee">visitPre</reimplements>
+        <param>
+          <type><ref refid="d9/d8d/class_doc_param_list" kindref="compound">DocParamList</ref> *</type>
+          <defname>pl</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/mandocvisitor.h" line="122" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/mandocvisitor.cpp" bodystart="879" bodyend="901"/>
+      </memberdef>
+      <memberdef kind="function" id="d8/dcf/class_man_doc_visitor_1abcb6114aa293563412d7fda27cc792f3" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void ManDocVisitor::visitPost</definition>
+        <argsstring>(DocParamList *)</argsstring>
+        <name>visitPost</name>
+        <reimplements refid="d0/d78/class_doc_visitor_1a957c7b7854102aed146f3af8d75bb117">visitPost</reimplements>
+        <param>
+          <type><ref refid="d9/d8d/class_doc_param_list" kindref="compound">DocParamList</ref> *</type>
+          <defname>pl</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/mandocvisitor.h" line="123" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/mandocvisitor.cpp" bodystart="903" bodyend="911"/>
+      </memberdef>
+      <memberdef kind="function" id="d8/dcf/class_man_doc_visitor_1a8c6d2c77be7831b8be778fc8f309d69a" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void ManDocVisitor::visitPre</definition>
+        <argsstring>(DocXRefItem *)</argsstring>
+        <name>visitPre</name>
+        <reimplements refid="d0/d78/class_doc_visitor_1ae3054c66ebab48aa4fef883fdb6712a1">visitPre</reimplements>
+        <param>
+          <type><ref refid="d0/d90/class_doc_x_ref_item" kindref="compound">DocXRefItem</ref> *</type>
+          <defname>x</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/mandocvisitor.h" line="124" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/mandocvisitor.cpp" bodystart="913" bodyend="925"/>
+      </memberdef>
+      <memberdef kind="function" id="d8/dcf/class_man_doc_visitor_1aeed551e6afa76454fe45e68769c9d965" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void ManDocVisitor::visitPost</definition>
+        <argsstring>(DocXRefItem *)</argsstring>
+        <name>visitPost</name>
+        <reimplements refid="d0/d78/class_doc_visitor_1af1c08e371fec0b927fa23c0ebd64cd20">visitPost</reimplements>
+        <param>
+          <type><ref refid="d0/d90/class_doc_x_ref_item" kindref="compound">DocXRefItem</ref> *</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/mandocvisitor.h" line="125" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/mandocvisitor.cpp" bodystart="927" bodyend="934"/>
+      </memberdef>
+      <memberdef kind="function" id="d8/dcf/class_man_doc_visitor_1a45ad4c012145d919e785d10daa880da4" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void ManDocVisitor::visitPre</definition>
+        <argsstring>(DocInternalRef *)</argsstring>
+        <name>visitPre</name>
+        <reimplements refid="d0/d78/class_doc_visitor_1a23526fe607d116ecdf0b3b6786d88754">visitPre</reimplements>
+        <param>
+          <type><ref refid="da/da2/class_doc_internal_ref" kindref="compound">DocInternalRef</ref> *</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/mandocvisitor.h" line="126" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/mandocvisitor.cpp" bodystart="936" bodyend="940"/>
+      </memberdef>
+      <memberdef kind="function" id="d8/dcf/class_man_doc_visitor_1aba4c6213fafad743bf58742414556f88" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void ManDocVisitor::visitPost</definition>
+        <argsstring>(DocInternalRef *)</argsstring>
+        <name>visitPost</name>
+        <reimplements refid="d0/d78/class_doc_visitor_1a6327b76bf49466890f8be949dbf38c9e">visitPost</reimplements>
+        <param>
+          <type><ref refid="da/da2/class_doc_internal_ref" kindref="compound">DocInternalRef</ref> *</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/mandocvisitor.h" line="127" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/mandocvisitor.cpp" bodystart="942" bodyend="946"/>
+      </memberdef>
+      <memberdef kind="function" id="d8/dcf/class_man_doc_visitor_1a7a2c07fc6eb2758e3b6cac3c0953cf7d" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void ManDocVisitor::visitPre</definition>
+        <argsstring>(DocCopy *)</argsstring>
+        <name>visitPre</name>
+        <reimplements refid="d0/d78/class_doc_visitor_1ae87294d2b9ebc20a211500e5fa354815">visitPre</reimplements>
+        <param>
+          <type><ref refid="da/d97/class_doc_copy" kindref="compound">DocCopy</ref> *</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/mandocvisitor.h" line="128" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/mandocvisitor.cpp" bodystart="948" bodyend="950"/>
+      </memberdef>
+      <memberdef kind="function" id="d8/dcf/class_man_doc_visitor_1a64e6f650bcce8563e70be8c9072108e9" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void ManDocVisitor::visitPost</definition>
+        <argsstring>(DocCopy *)</argsstring>
+        <name>visitPost</name>
+        <reimplements refid="d0/d78/class_doc_visitor_1a345ac27dcfdd6629b0197aed47cc35f5">visitPost</reimplements>
+        <param>
+          <type><ref refid="da/d97/class_doc_copy" kindref="compound">DocCopy</ref> *</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/mandocvisitor.h" line="129" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/mandocvisitor.cpp" bodystart="952" bodyend="954"/>
+      </memberdef>
+      <memberdef kind="function" id="d8/dcf/class_man_doc_visitor_1a55128e98164691660adaf300a6a9effb" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void ManDocVisitor::visitPre</definition>
+        <argsstring>(DocText *)</argsstring>
+        <name>visitPre</name>
+        <reimplements refid="d0/d78/class_doc_visitor_1ac80ffc5a1c2a5d4e83e9583d5b46fba5">visitPre</reimplements>
+        <param>
+          <type><ref refid="d0/d87/class_doc_text" kindref="compound">DocText</ref> *</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/mandocvisitor.h" line="130" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/mandocvisitor.cpp" bodystart="956" bodyend="958"/>
+      </memberdef>
+      <memberdef kind="function" id="d8/dcf/class_man_doc_visitor_1a76585807b1ac81db6d94cf6d171560cd" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void ManDocVisitor::visitPost</definition>
+        <argsstring>(DocText *)</argsstring>
+        <name>visitPost</name>
+        <reimplements refid="d0/d78/class_doc_visitor_1ae8d32bfb6aedfcd8145075762fc1818a">visitPost</reimplements>
+        <param>
+          <type><ref refid="d0/d87/class_doc_text" kindref="compound">DocText</ref> *</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/mandocvisitor.h" line="131" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/mandocvisitor.cpp" bodystart="960" bodyend="962"/>
+      </memberdef>
+      <memberdef kind="function" id="d8/dcf/class_man_doc_visitor_1ab5a49aa7990e8757a4df8a4d82662000" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void ManDocVisitor::visitPre</definition>
+        <argsstring>(DocHtmlBlockQuote *)</argsstring>
+        <name>visitPre</name>
+        <reimplements refid="d0/d78/class_doc_visitor_1ae815fab40efb7e03356009ec05f4c8e0">visitPre</reimplements>
+        <param>
+          <type><ref refid="d9/dd3/class_doc_html_block_quote" kindref="compound">DocHtmlBlockQuote</ref> *</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/mandocvisitor.h" line="132" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/mandocvisitor.cpp" bodystart="964" bodyend="973"/>
+      </memberdef>
+      <memberdef kind="function" id="d8/dcf/class_man_doc_visitor_1a7a99dae6fc5666af71794a8c420218c3" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void ManDocVisitor::visitPost</definition>
+        <argsstring>(DocHtmlBlockQuote *)</argsstring>
+        <name>visitPost</name>
+        <reimplements refid="d0/d78/class_doc_visitor_1a3057cb11ccd5ad3a108049a27c51ce94">visitPost</reimplements>
+        <param>
+          <type><ref refid="d9/dd3/class_doc_html_block_quote" kindref="compound">DocHtmlBlockQuote</ref> *</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/mandocvisitor.h" line="133" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/mandocvisitor.cpp" bodystart="975" bodyend="982"/>
+      </memberdef>
+      <memberdef kind="function" id="d8/dcf/class_man_doc_visitor_1a40e8d9cb775cc4839e0174c0aad63a4e" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void ManDocVisitor::visitPre</definition>
+        <argsstring>(DocVhdlFlow *)</argsstring>
+        <name>visitPre</name>
+        <reimplements refid="d0/d78/class_doc_visitor_1a2799c24ae52e00acca96bc5484b96c85">visitPre</reimplements>
+        <param>
+          <type><ref refid="d0/d89/class_doc_vhdl_flow" kindref="compound">DocVhdlFlow</ref> *</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/mandocvisitor.h" line="134" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/mandocvisitor.cpp" bodystart="984" bodyend="986"/>
+      </memberdef>
+      <memberdef kind="function" id="d8/dcf/class_man_doc_visitor_1aa729c8275c30fb7884067d5b1f6c3616" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void ManDocVisitor::visitPost</definition>
+        <argsstring>(DocVhdlFlow *)</argsstring>
+        <name>visitPost</name>
+        <reimplements refid="d0/d78/class_doc_visitor_1a201c6a9e58c9edbd48867c861cdb13d1">visitPost</reimplements>
+        <param>
+          <type><ref refid="d0/d89/class_doc_vhdl_flow" kindref="compound">DocVhdlFlow</ref> *</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/mandocvisitor.h" line="135" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/mandocvisitor.cpp" bodystart="988" bodyend="990"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="d8/dcf/class_man_doc_visitor_1af0d5bb12115d865e9ab25dc16a3d5902" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ManDocVisitor::filter</definition>
+        <argsstring>(const char *str)</argsstring>
+        <name>filter</name>
+        <param>
+          <type>const char *</type>
+          <declname>str</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/mandocvisitor.h" line="143" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/mandocvisitor.cpp" bodystart="993" bodyend="1010"/>
+      </memberdef>
+      <memberdef kind="function" id="d8/dcf/class_man_doc_visitor_1a21309707396c58089217409ab596a88c" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ManDocVisitor::pushEnabled</definition>
+        <argsstring>()</argsstring>
+        <name>pushEnabled</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/mandocvisitor.h" line="145" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/mandocvisitor.cpp" bodystart="1012" bodyend="1015"/>
+      </memberdef>
+      <memberdef kind="function" id="d8/dcf/class_man_doc_visitor_1aa539367b32dd993bba29a0f5eea4dda1" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ManDocVisitor::popEnabled</definition>
+        <argsstring>()</argsstring>
+        <name>popEnabled</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/mandocvisitor.h" line="146" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/mandocvisitor.cpp" bodystart="1017" bodyend="1023"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Concrete visitor implementation for LaTeX output. </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="3680">
+        <label>ManDocVisitor</label>
+        <link refid="d8/dcf/class_man_doc_visitor"/>
+        <childnode refid="3681" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3681">
+        <label>DocVisitor</label>
+        <link refid="d0/d78/class_doc_visitor"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="3682">
+        <label>ManDocVisitor</label>
+        <link refid="d8/dcf/class_man_doc_visitor"/>
+        <childnode refid="3683" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3683">
+        <label>DocVisitor</label>
+        <link refid="d0/d78/class_doc_visitor"/>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/mandocvisitor.h" line="31" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/mandocvisitor.h" bodystart="30" bodyend="160"/>
+    <listofallmembers>
+      <member refid="d0/d78/class_doc_visitor_1a24962a0406b1d05920458f3d7d4fda8a" prot="public" virt="non-virtual"><scope>ManDocVisitor</scope><name>DocVisitor</name></member>
+      <member refid="d8/dcf/class_man_doc_visitor_1af0d5bb12115d865e9ab25dc16a3d5902" prot="private" virt="non-virtual"><scope>ManDocVisitor</scope><name>filter</name></member>
+      <member refid="d0/d78/class_doc_visitor_1a816cd6ab12305a4f34a06056fc923de1" prot="public" virt="non-virtual"><scope>ManDocVisitor</scope><name>id</name></member>
+      <member refid="d8/dcf/class_man_doc_visitor_1a8dbcb0e877144d345011b30f073812ed" prot="private" virt="non-virtual"><scope>ManDocVisitor</scope><name>m_ci</name></member>
+      <member refid="d8/dcf/class_man_doc_visitor_1a78b4025c9970b5a3278eb5af779e5663" prot="private" virt="non-virtual"><scope>ManDocVisitor</scope><name>m_enabled</name></member>
+      <member refid="d8/dcf/class_man_doc_visitor_1a7c4d50d6aca1907932aa2102deed79de" prot="private" virt="non-virtual"><scope>ManDocVisitor</scope><name>m_firstCol</name></member>
+      <member refid="d8/dcf/class_man_doc_visitor_1a19093acb1d57b5023cc26ebf81986862" prot="private" virt="non-virtual"><scope>ManDocVisitor</scope><name>m_hide</name></member>
+      <member refid="d8/dcf/class_man_doc_visitor_1a14c58a82f8994fede554dc42d6efd1ce" prot="private" virt="non-virtual"><scope>ManDocVisitor</scope><name>m_indent</name></member>
+      <member refid="d8/dcf/class_man_doc_visitor_1a9f8f69bc7068b52c3a58c132226d8dd1" prot="private" virt="non-virtual"><scope>ManDocVisitor</scope><name>m_insidePre</name></member>
+      <member refid="d8/dcf/class_man_doc_visitor_1aaa9bec6cb0fa3914b92e7b17d989acd4" prot="private" virt="non-virtual"><scope>ManDocVisitor</scope><name>m_langExt</name></member>
+      <member refid="d8/dcf/class_man_doc_visitor_1a2605341558a55ec6272d2a4360692871" prot="private" virt="non-virtual"><scope>ManDocVisitor</scope><name>m_t</name></member>
+      <member refid="d8/dcf/class_man_doc_visitor_1a2cde7798dbf5b935ea19a24143592691" prot="public" virt="non-virtual"><scope>ManDocVisitor</scope><name>ManDocVisitor</name></member>
+      <member refid="d8/dcf/class_man_doc_visitor_1aa539367b32dd993bba29a0f5eea4dda1" prot="private" virt="non-virtual"><scope>ManDocVisitor</scope><name>popEnabled</name></member>
+      <member refid="d8/dcf/class_man_doc_visitor_1a21309707396c58089217409ab596a88c" prot="private" virt="non-virtual"><scope>ManDocVisitor</scope><name>pushEnabled</name></member>
+      <member refid="d8/dcf/class_man_doc_visitor_1a78d86f216cde7db35913c83f439aee47" prot="public" virt="virtual"><scope>ManDocVisitor</scope><name>visit</name></member>
+      <member refid="d8/dcf/class_man_doc_visitor_1a976144c66fb2b63504ea913910a7a7f0" prot="public" virt="virtual"><scope>ManDocVisitor</scope><name>visit</name></member>
+      <member refid="d8/dcf/class_man_doc_visitor_1ac3fa7a7d15c49edbb330fb204672c4ca" prot="public" virt="virtual"><scope>ManDocVisitor</scope><name>visit</name></member>
+      <member refid="d8/dcf/class_man_doc_visitor_1a3e5b70fdc47f9a0f7853309dc81f5a2f" prot="public" virt="virtual"><scope>ManDocVisitor</scope><name>visit</name></member>
+      <member refid="d8/dcf/class_man_doc_visitor_1a9a7b6956a8ac6c89ee141368991c1819" prot="public" virt="virtual"><scope>ManDocVisitor</scope><name>visit</name></member>
+      <member refid="d8/dcf/class_man_doc_visitor_1ad381c88ef578c667010b0371dcdf63f2" prot="public" virt="virtual"><scope>ManDocVisitor</scope><name>visit</name></member>
+      <member refid="d8/dcf/class_man_doc_visitor_1a8ac3645c640850908b9e959c81f9af8a" prot="public" virt="virtual"><scope>ManDocVisitor</scope><name>visit</name></member>
+      <member refid="d8/dcf/class_man_doc_visitor_1ab5d2dd27fa5eef611a68e9c64edde672" prot="public" virt="virtual"><scope>ManDocVisitor</scope><name>visit</name></member>
+      <member refid="d8/dcf/class_man_doc_visitor_1afce754a7c4c92143bb07a9f3334dbc86" prot="public" virt="virtual"><scope>ManDocVisitor</scope><name>visit</name></member>
+      <member refid="d8/dcf/class_man_doc_visitor_1a3fb42461ac61b66285d0666eed9d23b3" prot="public" virt="virtual"><scope>ManDocVisitor</scope><name>visit</name></member>
+      <member refid="d8/dcf/class_man_doc_visitor_1a9e6cd979f65b491fa8b29226b219f114" prot="public" virt="virtual"><scope>ManDocVisitor</scope><name>visit</name></member>
+      <member refid="d8/dcf/class_man_doc_visitor_1a306a5ca1432217e40d1a3af57b6efdf1" prot="public" virt="virtual"><scope>ManDocVisitor</scope><name>visit</name></member>
+      <member refid="d8/dcf/class_man_doc_visitor_1aa9da11de40886b09990711a2d1da8f3a" prot="public" virt="virtual"><scope>ManDocVisitor</scope><name>visit</name></member>
+      <member refid="d8/dcf/class_man_doc_visitor_1a58a69d1661b00279353dc8c08bf102e5" prot="public" virt="virtual"><scope>ManDocVisitor</scope><name>visit</name></member>
+      <member refid="d8/dcf/class_man_doc_visitor_1a8452fb901dc3c7f06a6ce4f93d47096e" prot="public" virt="virtual"><scope>ManDocVisitor</scope><name>visit</name></member>
+      <member refid="d8/dcf/class_man_doc_visitor_1ab6410a0c268c12ff8cc885dc11ac941b" prot="public" virt="virtual"><scope>ManDocVisitor</scope><name>visit</name></member>
+      <member refid="d8/dcf/class_man_doc_visitor_1aa5f721cd0f24353730fcaa5a5e974c1d" prot="public" virt="virtual"><scope>ManDocVisitor</scope><name>visitPost</name></member>
+      <member refid="d8/dcf/class_man_doc_visitor_1ad84e9fadfccda826dff18f85907404eb" prot="public" virt="virtual"><scope>ManDocVisitor</scope><name>visitPost</name></member>
+      <member refid="d8/dcf/class_man_doc_visitor_1add933c3493f06a50e64f397416938d77" prot="public" virt="virtual"><scope>ManDocVisitor</scope><name>visitPost</name></member>
+      <member refid="d8/dcf/class_man_doc_visitor_1a71b77baa7bfd4920c9e967619de9529f" prot="public" virt="virtual"><scope>ManDocVisitor</scope><name>visitPost</name></member>
+      <member refid="d8/dcf/class_man_doc_visitor_1ad04b49e411c456cbd5da762c96dca233" prot="public" virt="virtual"><scope>ManDocVisitor</scope><name>visitPost</name></member>
+      <member refid="d8/dcf/class_man_doc_visitor_1a073e155fa1273a3d332166f0cf3d7721" prot="public" virt="virtual"><scope>ManDocVisitor</scope><name>visitPost</name></member>
+      <member refid="d8/dcf/class_man_doc_visitor_1a4dc9ef46a00302a577c26a96303db04e" prot="public" virt="virtual"><scope>ManDocVisitor</scope><name>visitPost</name></member>
+      <member refid="d8/dcf/class_man_doc_visitor_1a6e316b030c2ce02fa6f10628699d07a9" prot="public" virt="virtual"><scope>ManDocVisitor</scope><name>visitPost</name></member>
+      <member refid="d8/dcf/class_man_doc_visitor_1ad48c62312a049df3ed9f37cce7dcaee4" prot="public" virt="virtual"><scope>ManDocVisitor</scope><name>visitPost</name></member>
+      <member refid="d8/dcf/class_man_doc_visitor_1a0ed34c75c073014b27f73d5641f00505" prot="public" virt="virtual"><scope>ManDocVisitor</scope><name>visitPost</name></member>
+      <member refid="d8/dcf/class_man_doc_visitor_1a95ca8e67415f7189d1df6cad1f2bbfa9" prot="public" virt="virtual"><scope>ManDocVisitor</scope><name>visitPost</name></member>
+      <member refid="d8/dcf/class_man_doc_visitor_1a9604c1c7018484af1f43781cb73c73ec" prot="public" virt="virtual"><scope>ManDocVisitor</scope><name>visitPost</name></member>
+      <member refid="d8/dcf/class_man_doc_visitor_1a89514e6c1137f8fbfa505a1de9f29328" prot="public" virt="virtual"><scope>ManDocVisitor</scope><name>visitPost</name></member>
+      <member refid="d8/dcf/class_man_doc_visitor_1a4a5e112c7dfa74ca62648d5ee9dd8a13" prot="public" virt="virtual"><scope>ManDocVisitor</scope><name>visitPost</name></member>
+      <member refid="d8/dcf/class_man_doc_visitor_1a6a21193b3e897d31793b3153c9f16598" prot="public" virt="virtual"><scope>ManDocVisitor</scope><name>visitPost</name></member>
+      <member refid="d8/dcf/class_man_doc_visitor_1a65d6874e65967b4d3e33d0851a21f4d8" prot="public" virt="virtual"><scope>ManDocVisitor</scope><name>visitPost</name></member>
+      <member refid="d8/dcf/class_man_doc_visitor_1ac61d04620273c151d633e91a4216e6ec" prot="public" virt="virtual"><scope>ManDocVisitor</scope><name>visitPost</name></member>
+      <member refid="d8/dcf/class_man_doc_visitor_1a107c1dc54180b0b461c4ccbd00c8614e" prot="public" virt="virtual"><scope>ManDocVisitor</scope><name>visitPost</name></member>
+      <member refid="d8/dcf/class_man_doc_visitor_1ae0b3ff8b66fecedfd5862165e2dcc979" prot="public" virt="virtual"><scope>ManDocVisitor</scope><name>visitPost</name></member>
+      <member refid="d8/dcf/class_man_doc_visitor_1a203d00affbef71e9e3101d6c359a16d2" prot="public" virt="virtual"><scope>ManDocVisitor</scope><name>visitPost</name></member>
+      <member refid="d8/dcf/class_man_doc_visitor_1a601b7601f5875a3891d9b790dccb13ad" prot="public" virt="virtual"><scope>ManDocVisitor</scope><name>visitPost</name></member>
+      <member refid="d8/dcf/class_man_doc_visitor_1a92700edd2e421eabf98bc10c5c847e75" prot="public" virt="virtual"><scope>ManDocVisitor</scope><name>visitPost</name></member>
+      <member refid="d8/dcf/class_man_doc_visitor_1ab8fcaa39eb29a77e6847aeed1a344bf0" prot="public" virt="virtual"><scope>ManDocVisitor</scope><name>visitPost</name></member>
+      <member refid="d8/dcf/class_man_doc_visitor_1ab9bd5efd00073e6c6b851bbf3c99f250" prot="public" virt="virtual"><scope>ManDocVisitor</scope><name>visitPost</name></member>
+      <member refid="d8/dcf/class_man_doc_visitor_1a2fe6cb8b77d2ffa49b3ed2c9f6c42316" prot="public" virt="virtual"><scope>ManDocVisitor</scope><name>visitPost</name></member>
+      <member refid="d8/dcf/class_man_doc_visitor_1a7d31e38e1fec57232289cb4518ba8054" prot="public" virt="virtual"><scope>ManDocVisitor</scope><name>visitPost</name></member>
+      <member refid="d8/dcf/class_man_doc_visitor_1ad1c2b3e8af0ec9920e69ba839536a1c9" prot="public" virt="virtual"><scope>ManDocVisitor</scope><name>visitPost</name></member>
+      <member refid="d8/dcf/class_man_doc_visitor_1accf0aae5841a6773156ea6e375d1c1f7" prot="public" virt="virtual"><scope>ManDocVisitor</scope><name>visitPost</name></member>
+      <member refid="d8/dcf/class_man_doc_visitor_1a4a6c2a565b9ed4fa569dc0fa80f6b4e1" prot="public" virt="virtual"><scope>ManDocVisitor</scope><name>visitPost</name></member>
+      <member refid="d8/dcf/class_man_doc_visitor_1abcb6114aa293563412d7fda27cc792f3" prot="public" virt="virtual"><scope>ManDocVisitor</scope><name>visitPost</name></member>
+      <member refid="d8/dcf/class_man_doc_visitor_1aeed551e6afa76454fe45e68769c9d965" prot="public" virt="virtual"><scope>ManDocVisitor</scope><name>visitPost</name></member>
+      <member refid="d8/dcf/class_man_doc_visitor_1aba4c6213fafad743bf58742414556f88" prot="public" virt="virtual"><scope>ManDocVisitor</scope><name>visitPost</name></member>
+      <member refid="d8/dcf/class_man_doc_visitor_1a64e6f650bcce8563e70be8c9072108e9" prot="public" virt="virtual"><scope>ManDocVisitor</scope><name>visitPost</name></member>
+      <member refid="d8/dcf/class_man_doc_visitor_1a76585807b1ac81db6d94cf6d171560cd" prot="public" virt="virtual"><scope>ManDocVisitor</scope><name>visitPost</name></member>
+      <member refid="d8/dcf/class_man_doc_visitor_1a7a99dae6fc5666af71794a8c420218c3" prot="public" virt="virtual"><scope>ManDocVisitor</scope><name>visitPost</name></member>
+      <member refid="d8/dcf/class_man_doc_visitor_1aa729c8275c30fb7884067d5b1f6c3616" prot="public" virt="virtual"><scope>ManDocVisitor</scope><name>visitPost</name></member>
+      <member refid="d8/dcf/class_man_doc_visitor_1ac61882eec5fc673cfe3322faafe31b6f" prot="public" virt="virtual"><scope>ManDocVisitor</scope><name>visitPre</name></member>
+      <member refid="d8/dcf/class_man_doc_visitor_1a68535c5718bebca88280ec87204bcb03" prot="public" virt="virtual"><scope>ManDocVisitor</scope><name>visitPre</name></member>
+      <member refid="d8/dcf/class_man_doc_visitor_1a6503a01ed5a422b07aff9090a8f6fa5f" prot="public" virt="virtual"><scope>ManDocVisitor</scope><name>visitPre</name></member>
+      <member refid="d8/dcf/class_man_doc_visitor_1a62ec2a2b37abea790676a3e98f793537" prot="public" virt="virtual"><scope>ManDocVisitor</scope><name>visitPre</name></member>
+      <member refid="d8/dcf/class_man_doc_visitor_1a6b08054f25a91c1d5eb3c03aef4ff94a" prot="public" virt="virtual"><scope>ManDocVisitor</scope><name>visitPre</name></member>
+      <member refid="d8/dcf/class_man_doc_visitor_1a0365148847acb44c9a526249991a2a46" prot="public" virt="virtual"><scope>ManDocVisitor</scope><name>visitPre</name></member>
+      <member refid="d8/dcf/class_man_doc_visitor_1ae5e4161ebc481408d3be81bf4a323c30" prot="public" virt="virtual"><scope>ManDocVisitor</scope><name>visitPre</name></member>
+      <member refid="d8/dcf/class_man_doc_visitor_1a9e22c8905c481b36fc8a786e07f27d59" prot="public" virt="virtual"><scope>ManDocVisitor</scope><name>visitPre</name></member>
+      <member refid="d8/dcf/class_man_doc_visitor_1a9e33eca3d62adf42fb24a3f8009647bc" prot="public" virt="virtual"><scope>ManDocVisitor</scope><name>visitPre</name></member>
+      <member refid="d8/dcf/class_man_doc_visitor_1abd9473fd9bc149f1e08ec4baea38c2dd" prot="public" virt="virtual"><scope>ManDocVisitor</scope><name>visitPre</name></member>
+      <member refid="d8/dcf/class_man_doc_visitor_1a67595af3a1d78f9d08a445f12b01b4fa" prot="public" virt="virtual"><scope>ManDocVisitor</scope><name>visitPre</name></member>
+      <member refid="d8/dcf/class_man_doc_visitor_1a2ad7b57718ec39a2dcb1570b78fbf02a" prot="public" virt="virtual"><scope>ManDocVisitor</scope><name>visitPre</name></member>
+      <member refid="d8/dcf/class_man_doc_visitor_1af60484e92f3e21a5cc8ff133511c2d5e" prot="public" virt="virtual"><scope>ManDocVisitor</scope><name>visitPre</name></member>
+      <member refid="d8/dcf/class_man_doc_visitor_1a88fdf0a67a12e1ab11b448bb2fb5317b" prot="public" virt="virtual"><scope>ManDocVisitor</scope><name>visitPre</name></member>
+      <member refid="d8/dcf/class_man_doc_visitor_1ad7c49df6c8a681ed7eecb499e1249b12" prot="public" virt="virtual"><scope>ManDocVisitor</scope><name>visitPre</name></member>
+      <member refid="d8/dcf/class_man_doc_visitor_1afaae9dce806059785d1df5b16b1b88ef" prot="public" virt="virtual"><scope>ManDocVisitor</scope><name>visitPre</name></member>
+      <member refid="d8/dcf/class_man_doc_visitor_1a34f759bdd64ec279effacc848a603372" prot="public" virt="virtual"><scope>ManDocVisitor</scope><name>visitPre</name></member>
+      <member refid="d8/dcf/class_man_doc_visitor_1a36facbf83beba99eef805e56ba39cc09" prot="public" virt="virtual"><scope>ManDocVisitor</scope><name>visitPre</name></member>
+      <member refid="d8/dcf/class_man_doc_visitor_1a35ae292757c3ae1f0bfcdb17e4e0e164" prot="public" virt="virtual"><scope>ManDocVisitor</scope><name>visitPre</name></member>
+      <member refid="d8/dcf/class_man_doc_visitor_1a07b590a805aabdd2e39146e952d6e68b" prot="public" virt="virtual"><scope>ManDocVisitor</scope><name>visitPre</name></member>
+      <member refid="d8/dcf/class_man_doc_visitor_1aa841735a274000e156580446e3b588ce" prot="public" virt="virtual"><scope>ManDocVisitor</scope><name>visitPre</name></member>
+      <member refid="d8/dcf/class_man_doc_visitor_1a1c1dff13ff841b3ddb4e1a710c2bdd9b" prot="public" virt="virtual"><scope>ManDocVisitor</scope><name>visitPre</name></member>
+      <member refid="d8/dcf/class_man_doc_visitor_1a870d0d242da1508dd14adfe208691416" prot="public" virt="virtual"><scope>ManDocVisitor</scope><name>visitPre</name></member>
+      <member refid="d8/dcf/class_man_doc_visitor_1a2a38feecfa32eaaf6b19d5de0f206791" prot="public" virt="virtual"><scope>ManDocVisitor</scope><name>visitPre</name></member>
+      <member refid="d8/dcf/class_man_doc_visitor_1a7ba393580fadc6fa0a1f1a272f966aee" prot="public" virt="virtual"><scope>ManDocVisitor</scope><name>visitPre</name></member>
+      <member refid="d8/dcf/class_man_doc_visitor_1ad80337d915a216e7ae4aae63fd24a25d" prot="public" virt="virtual"><scope>ManDocVisitor</scope><name>visitPre</name></member>
+      <member refid="d8/dcf/class_man_doc_visitor_1a0926730129e69e040d75a6dcac362890" prot="public" virt="virtual"><scope>ManDocVisitor</scope><name>visitPre</name></member>
+      <member refid="d8/dcf/class_man_doc_visitor_1a9d1f53ca1901201c4cacdeff2f00a5a5" prot="public" virt="virtual"><scope>ManDocVisitor</scope><name>visitPre</name></member>
+      <member refid="d8/dcf/class_man_doc_visitor_1a540d76af886f61c3384596371bec3d30" prot="public" virt="virtual"><scope>ManDocVisitor</scope><name>visitPre</name></member>
+      <member refid="d8/dcf/class_man_doc_visitor_1ae5378c1f14ea3d19a82a98ebde7ce15e" prot="public" virt="virtual"><scope>ManDocVisitor</scope><name>visitPre</name></member>
+      <member refid="d8/dcf/class_man_doc_visitor_1a8c6d2c77be7831b8be778fc8f309d69a" prot="public" virt="virtual"><scope>ManDocVisitor</scope><name>visitPre</name></member>
+      <member refid="d8/dcf/class_man_doc_visitor_1a45ad4c012145d919e785d10daa880da4" prot="public" virt="virtual"><scope>ManDocVisitor</scope><name>visitPre</name></member>
+      <member refid="d8/dcf/class_man_doc_visitor_1a7a2c07fc6eb2758e3b6cac3c0953cf7d" prot="public" virt="virtual"><scope>ManDocVisitor</scope><name>visitPre</name></member>
+      <member refid="d8/dcf/class_man_doc_visitor_1a55128e98164691660adaf300a6a9effb" prot="public" virt="virtual"><scope>ManDocVisitor</scope><name>visitPre</name></member>
+      <member refid="d8/dcf/class_man_doc_visitor_1ab5a49aa7990e8757a4df8a4d82662000" prot="public" virt="virtual"><scope>ManDocVisitor</scope><name>visitPre</name></member>
+      <member refid="d8/dcf/class_man_doc_visitor_1a40e8d9cb775cc4839e0174c0aad63a4e" prot="public" virt="virtual"><scope>ManDocVisitor</scope><name>visitPre</name></member>
+      <member refid="d0/d78/class_doc_visitor_1a11b3740103d21254806867da845a26aa" prot="public" virt="virtual"><scope>ManDocVisitor</scope><name>~DocVisitor</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

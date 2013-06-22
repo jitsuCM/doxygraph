@@ -1,0 +1,160 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.2">
+  <compounddef id="d8/d83/class_search_index_external" kind="class" prot="public">
+    <compoundname>SearchIndexExternal</compoundname>
+    <basecompoundref refid="d8/d4d/class_search_index_intf" prot="public" virt="non-virtual">SearchIndexIntf</basecompoundref>
+    <innerclass refid="d1/db6/struct_search_index_external_1_1_private" prot="public">SearchIndexExternal::Private</innerclass>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="d8/d83/class_search_index_external_1ac974a37c2ee3179eec83b786851a0c0c" prot="private" static="no" mutable="no">
+        <type>Private *</type>
+        <definition>Private* SearchIndexExternal::p</definition>
+        <argsstring></argsstring>
+        <name>p</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/searchindex.h" line="107" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/searchindex.h" bodystart="107" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="d8/d83/class_search_index_external_1abf03bebc7d6e6533841bd7caaf4f03ff" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>SearchIndexExternal::SearchIndexExternal</definition>
+        <argsstring>()</argsstring>
+        <name>SearchIndexExternal</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/searchindex.h" line="101" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/searchindex.cpp" bodystart="432" bodyend="437"/>
+      </memberdef>
+      <memberdef kind="function" id="d8/d83/class_search_index_external_1acf1d122697c562ff75527fa4a8e05b08" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>SearchIndexExternal::~SearchIndexExternal</definition>
+        <argsstring>()</argsstring>
+        <name>~SearchIndexExternal</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/searchindex.h" line="102" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/searchindex.cpp" bodystart="439" bodyend="443"/>
+      </memberdef>
+      <memberdef kind="function" id="d8/d83/class_search_index_external_1adcee9e316b56c1e9ae77c807f0b1db59" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void SearchIndexExternal::setCurrentDoc</definition>
+        <argsstring>(Definition *ctx, const char *anchor, bool isSourceFile)</argsstring>
+        <name>setCurrentDoc</name>
+        <reimplements refid="d8/d4d/class_search_index_intf_1afb1f4d8ad5e2f24848f902ae82e38d31">setCurrentDoc</reimplements>
+        <param>
+          <type><ref refid="d5/dcc/class_definition" kindref="compound">Definition</ref> *</type>
+          <declname>ctx</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>anchor</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>isSourceFile</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/searchindex.h" line="103" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/searchindex.cpp" bodystart="500" bodyend="525"/>
+      </memberdef>
+      <memberdef kind="function" id="d8/d83/class_search_index_external_1af54cf0b5fb981a1d36c32f8d47b4cfca" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void SearchIndexExternal::addWord</definition>
+        <argsstring>(const char *word, bool hiPriority)</argsstring>
+        <name>addWord</name>
+        <reimplements refid="d8/d4d/class_search_index_intf_1abc2c1e940b5b534bbcec2b8a2356a7be">addWord</reimplements>
+        <param>
+          <type>const char *</type>
+          <declname>word</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>hiPriority</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/searchindex.h" line="104" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/searchindex.cpp" bodystart="527" bodyend="534"/>
+      </memberdef>
+      <memberdef kind="function" id="d8/d83/class_search_index_external_1a6a3bf5db1a454bb12cac4e3253962206" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void SearchIndexExternal::write</definition>
+        <argsstring>(const char *file)</argsstring>
+        <name>write</name>
+        <reimplements refid="d8/d4d/class_search_index_intf_1a58f5360b72b2379373e3efd001b7287a">write</reimplements>
+        <param>
+          <type>const char *</type>
+          <declname>file</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/searchindex.h" line="105" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/searchindex.cpp" bodystart="536" bodyend="572"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="4077">
+        <label>SearchIndexExternal</label>
+        <link refid="d8/d83/class_search_index_external"/>
+        <childnode refid="4078" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4078">
+        <label>SearchIndexIntf</label>
+        <link refid="d8/d4d/class_search_index_intf"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="4079">
+        <label>SearchIndexExternal</label>
+        <link refid="d8/d83/class_search_index_external"/>
+        <childnode refid="4080" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4080">
+        <label>SearchIndexIntf</label>
+        <link refid="d8/d4d/class_search_index_intf"/>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/searchindex.h" line="98" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/searchindex.h" bodystart="97" bodyend="108"/>
+    <listofallmembers>
+      <member refid="d8/d83/class_search_index_external_1af54cf0b5fb981a1d36c32f8d47b4cfca" prot="public" virt="virtual"><scope>SearchIndexExternal</scope><name>addWord</name></member>
+      <member refid="d8/d4d/class_search_index_intf_1ade3dd4c1f8bc6487f0f3dccba5c6f9eaa507071eac5d8808e1e91570d8c20523b" prot="public" virt="non-virtual"><scope>SearchIndexExternal</scope><name>External</name></member>
+      <member refid="d8/d4d/class_search_index_intf_1ade3dd4c1f8bc6487f0f3dccba5c6f9eaa4e9f47fa9f92dd54889f2e95261a1041" prot="public" virt="non-virtual"><scope>SearchIndexExternal</scope><name>Internal</name></member>
+      <member refid="d8/d4d/class_search_index_intf_1ade3dd4c1f8bc6487f0f3dccba5c6f9ea" prot="public" virt="non-virtual"><scope>SearchIndexExternal</scope><name>Kind</name></member>
+      <member refid="d8/d4d/class_search_index_intf_1a7cd92ca2c1615831b8880c63b8800030" prot="public" virt="non-virtual"><scope>SearchIndexExternal</scope><name>kind</name></member>
+      <member refid="d8/d83/class_search_index_external_1ac974a37c2ee3179eec83b786851a0c0c" prot="private" virt="non-virtual"><scope>SearchIndexExternal</scope><name>p</name></member>
+      <member refid="d8/d83/class_search_index_external_1abf03bebc7d6e6533841bd7caaf4f03ff" prot="public" virt="non-virtual"><scope>SearchIndexExternal</scope><name>SearchIndexExternal</name></member>
+      <member refid="d8/d4d/class_search_index_intf_1acf0114aef9108626eacc8c3fa065a46d" prot="public" virt="non-virtual"><scope>SearchIndexExternal</scope><name>SearchIndexIntf</name></member>
+      <member refid="d8/d83/class_search_index_external_1adcee9e316b56c1e9ae77c807f0b1db59" prot="public" virt="virtual"><scope>SearchIndexExternal</scope><name>setCurrentDoc</name></member>
+      <member refid="d8/d83/class_search_index_external_1a6a3bf5db1a454bb12cac4e3253962206" prot="public" virt="virtual"><scope>SearchIndexExternal</scope><name>write</name></member>
+      <member refid="d8/d83/class_search_index_external_1acf1d122697c562ff75527fa4a8e05b08" prot="public" virt="non-virtual"><scope>SearchIndexExternal</scope><name>~SearchIndexExternal</name></member>
+      <member refid="d8/d4d/class_search_index_intf_1a02fd1bf25d2f9f7d5ff12fcee678be80" prot="public" virt="virtual"><scope>SearchIndexExternal</scope><name>~SearchIndexIntf</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

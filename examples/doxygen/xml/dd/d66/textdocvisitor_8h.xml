@@ -1,0 +1,254 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.2">
+  <compounddef id="dd/d66/textdocvisitor_8h" kind="file">
+    <compoundname>textdocvisitor.h</compoundname>
+    <includes refid="d2/d3c/docvisitor_8h" local="yes">docvisitor.h</includes>
+    <includes refid="de/d9c/docparser_8h" local="yes">docparser.h</includes>
+    <includes local="no">qstack.h</includes>
+    <includes local="no">qcstring.h</includes>
+    <includes refid="df/d83/ftextstream_8h" local="yes">ftextstream.h</includes>
+    <includedby refid="d3/da6/textdocvisitor_8cpp" local="yes">src/textdocvisitor.cpp</includedby>
+    <includedby refid="df/d2d/util_8cpp" local="yes">src/util.cpp</includedby>
+    <incdepgraph>
+      <node id="4885">
+        <label>qcstring.h</label>
+      </node>
+      <node id="4891">
+        <label>qgstring.h</label>
+      </node>
+      <node id="4887">
+        <label>qstack.h</label>
+      </node>
+      <node id="4882">
+        <label>docparser.h</label>
+        <link refid="de/d9c/docparser_8h_source"/>
+        <childnode refid="4883" relation="include">
+        </childnode>
+        <childnode refid="4884" relation="include">
+        </childnode>
+        <childnode refid="4885" relation="include">
+        </childnode>
+        <childnode refid="4881" relation="include">
+        </childnode>
+        <childnode refid="4886" relation="include">
+        </childnode>
+      </node>
+      <node id="4890">
+        <label>qstring.h</label>
+      </node>
+      <node id="4881">
+        <label>docvisitor.h</label>
+        <link refid="d2/d3c/docvisitor_8h_source"/>
+      </node>
+      <node id="4889">
+        <label>qiodevice.h</label>
+      </node>
+      <node id="4880">
+        <label>src/textdocvisitor.h</label>
+        <link refid="textdocvisitor.h"/>
+        <childnode refid="4881" relation="include">
+        </childnode>
+        <childnode refid="4882" relation="include">
+        </childnode>
+        <childnode refid="4887" relation="include">
+        </childnode>
+        <childnode refid="4885" relation="include">
+        </childnode>
+        <childnode refid="4888" relation="include">
+        </childnode>
+      </node>
+      <node id="4884">
+        <label>qlist.h</label>
+      </node>
+      <node id="4888">
+        <label>ftextstream.h</label>
+        <link refid="df/d83/ftextstream_8h_source"/>
+        <childnode refid="4883" relation="include">
+        </childnode>
+        <childnode refid="4889" relation="include">
+        </childnode>
+        <childnode refid="4890" relation="include">
+        </childnode>
+        <childnode refid="4891" relation="include">
+        </childnode>
+      </node>
+      <node id="4886">
+        <label>htmlattrib.h</label>
+        <link refid="d0/d73/htmlattrib_8h_source"/>
+        <childnode refid="4885" relation="include">
+        </childnode>
+        <childnode refid="4884" relation="include">
+        </childnode>
+      </node>
+      <node id="4883">
+        <label>stdio.h</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="4894">
+        <label>src/util.cpp</label>
+        <link refid="df/d2d/util_8cpp_source"/>
+      </node>
+      <node id="4893">
+        <label>src/textdocvisitor.cpp</label>
+        <link refid="d3/da6/textdocvisitor_8cpp_source"/>
+      </node>
+      <node id="4892">
+        <label>src/textdocvisitor.h</label>
+        <link refid="textdocvisitor.h"/>
+        <childnode refid="4893" relation="include">
+        </childnode>
+        <childnode refid="4894" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="d2/d63/class_text_doc_visitor" prot="public">TextDocVisitor</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">/******************************************************************************</highlight></codeline>
+<codeline lineno="2"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="3"><highlight class="comment"><sp/>*<sp/>$Id:<sp/>$</highlight></codeline>
+<codeline lineno="4"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="5"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="6"><highlight class="comment"><sp/>*<sp/>Copyright<sp/>(C)<sp/>1997-2013<sp/>by<sp/>Dimitri<sp/>van<sp/>Heesch.</highlight></codeline>
+<codeline lineno="7"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="8"><highlight class="comment"><sp/>*<sp/>Permission<sp/>to<sp/>use,<sp/>copy,<sp/>modify,<sp/>and<sp/>distribute<sp/>this<sp/>software<sp/>and<sp/>its</highlight></codeline>
+<codeline lineno="9"><highlight class="comment"><sp/>*<sp/>documentation<sp/>under<sp/>the<sp/>terms<sp/>of<sp/>the<sp/>GNU<sp/>General<sp/>Public<sp/>License<sp/>is<sp/>hereby<sp/></highlight></codeline>
+<codeline lineno="10"><highlight class="comment"><sp/>*<sp/>granted.<sp/>No<sp/>representations<sp/>are<sp/>made<sp/>about<sp/>the<sp/>suitability<sp/>of<sp/>this<sp/>software<sp/></highlight></codeline>
+<codeline lineno="11"><highlight class="comment"><sp/>*<sp/>for<sp/>any<sp/>purpose.<sp/>It<sp/>is<sp/>provided<sp/>&quot;as<sp/>is&quot;<sp/>without<sp/>express<sp/>or<sp/>implied<sp/>warranty.</highlight></codeline>
+<codeline lineno="12"><highlight class="comment"><sp/>*<sp/>See<sp/>the<sp/>GNU<sp/>General<sp/>Public<sp/>License<sp/>for<sp/>more<sp/>details.</highlight></codeline>
+<codeline lineno="13"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="14"><highlight class="comment"><sp/>*<sp/>Documents<sp/>produced<sp/>by<sp/>Doxygen<sp/>are<sp/>derivative<sp/>works<sp/>derived<sp/>from<sp/>the</highlight></codeline>
+<codeline lineno="15"><highlight class="comment"><sp/>*<sp/>input<sp/>used<sp/>in<sp/>their<sp/>production;<sp/>they<sp/>are<sp/>not<sp/>affected<sp/>by<sp/>this<sp/>license.</highlight></codeline>
+<codeline lineno="16"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="17"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>_TEXTDOCVISITOR_H</highlight></codeline>
+<codeline lineno="20"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>_TEXTDOCVISITOR_H</highlight></codeline>
+<codeline lineno="21"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;docvisitor.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;docparser.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;qstack.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;qcstring.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;ftextstream.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight></codeline>
+<codeline lineno="30" refid="d2/d63/class_text_doc_visitor" refkind="compound"><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="d2/d63/class_text_doc_visitor" kindref="compound" tooltip="Concrete visitor implementation for TEXT output.">TextDocVisitor</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="d0/d78/class_doc_visitor" kindref="compound" tooltip="Abstract visitor that participates in the visitor pattern.">DocVisitor</ref></highlight></codeline>
+<codeline lineno="31"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="d2/d63/class_text_doc_visitor" kindref="compound" tooltip="Concrete visitor implementation for TEXT output.">TextDocVisitor</ref>(<ref refid="dc/d3c/class_f_text_stream" kindref="compound" tooltip="Simplified and optimized version of QTextStream.">FTextStream</ref><sp/>&amp;t)<sp/>:<sp/><ref refid="d0/d78/class_doc_visitor" kindref="compound" tooltip="Abstract visitor that participates in the visitor pattern.">DocVisitor</ref>(DocVisitor_Text),<sp/>m_t(t)<sp/>{}</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//--------------------------------------</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>visitor<sp/>functions<sp/>for<sp/>leaf<sp/>nodes</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//--------------------------------------</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>visit(<ref refid="d9/d1d/class_doc_word" kindref="compound" tooltip="Node representing a word.">DocWord</ref><sp/>*w)<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{<sp/>filter(w-&gt;word());<sp/>}</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>visit(<ref refid="d1/d93/class_doc_linked_word" kindref="compound" tooltip="Node representing a word that can be linked to something.">DocLinkedWord</ref><sp/>*w)<sp/><sp/>{<sp/>filter(w-&gt;word());<sp/>}</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>visit(<ref refid="db/d78/class_doc_white_space" kindref="compound" tooltip="Node representing some amount of white space.">DocWhiteSpace</ref><sp/>*)<sp/><sp/><sp/>{<sp/>m_t<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;<sp/>&quot;</highlight><highlight class="normal">;<sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>visit(<ref refid="d7/d67/class_doc_symbol" kindref="compound" tooltip="Node representing a special symbol.">DocSymbol</ref><sp/>*);</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>visit(<ref refid="d9/dcb/class_doc_u_r_l" kindref="compound" tooltip="Node representing an URL (or email address)">DocURL</ref><sp/>*u)<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{<sp/>filter(u-&gt;url());<sp/><sp/>}</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>visit(<ref refid="df/d34/class_doc_line_break" kindref="compound" tooltip="Node representing a line break.">DocLineBreak</ref><sp/>*)<sp/><sp/><sp/><sp/>{<sp/>m_t<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;<sp/>&quot;</highlight><highlight class="normal">;<sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>visit(<ref refid="d9/d6f/class_doc_hor_ruler" kindref="compound" tooltip="Node representing a horizonal ruler.">DocHorRuler</ref><sp/>*)<sp/><sp/><sp/><sp/><sp/>{}</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>visit(<ref refid="d0/d4e/class_doc_style_change" kindref="compound" tooltip="Node representing a style change.">DocStyleChange</ref><sp/>*)<sp/><sp/>{}</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>visit(<ref refid="dc/d12/class_doc_verbatim" kindref="compound" tooltip="Node representing a verbatim, unparsed text fragment.">DocVerbatim</ref><sp/>*s)<sp/><sp/><sp/><sp/>{<sp/>filter(s-&gt;text());<sp/>}</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>visit(<ref refid="d0/d33/class_doc_anchor" kindref="compound" tooltip="Node representing an anchor.">DocAnchor</ref><sp/>*)<sp/><sp/><sp/><sp/><sp/><sp/><sp/>{}</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>visit(<ref refid="d6/db9/class_doc_include" kindref="compound" tooltip="Node representing an included text block from file.">DocInclude</ref><sp/>*)<sp/><sp/><sp/><sp/><sp/><sp/>{}</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>visit(<ref refid="d2/db2/class_doc_inc_operator" kindref="compound" tooltip="Node representing a include/dontinclude operator block.">DocIncOperator</ref><sp/>*)<sp/><sp/>{}</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>visit(<ref refid="df/de1/class_doc_formula" kindref="compound" tooltip="Node representing an item of a cross-referenced list.">DocFormula</ref><sp/>*)<sp/><sp/><sp/><sp/><sp/><sp/>{}</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>visit(<ref refid="d7/dc9/class_doc_index_entry" kindref="compound" tooltip="Node representing an entry in the index.">DocIndexEntry</ref><sp/>*)<sp/><sp/><sp/>{}</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>visit(<ref refid="db/dd0/class_doc_simple_sect_sep" kindref="compound" tooltip="Node representing a separator between two simple sections of the same type.">DocSimpleSectSep</ref><sp/>*){}</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>visit(<ref refid="d6/db8/class_doc_cite" kindref="compound" tooltip="Node representing a citation of some bibliographic reference.">DocCite</ref><sp/>*)<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{}</highlight></codeline>
+<codeline lineno="55"><highlight class="normal"></highlight></codeline>
+<codeline lineno="56"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//--------------------------------------</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="57"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>visitor<sp/>functions<sp/>for<sp/>compound<sp/>nodes</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="58"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//--------------------------------------</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="59"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="60"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>visitPre(<ref refid="d1/d3f/class_doc_auto_list" kindref="compound" tooltip="Node representing an auto List.">DocAutoList</ref><sp/>*)<sp/>{}</highlight></codeline>
+<codeline lineno="61"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>visitPost(<ref refid="d1/d3f/class_doc_auto_list" kindref="compound" tooltip="Node representing an auto List.">DocAutoList</ref><sp/>*)<sp/>{}</highlight></codeline>
+<codeline lineno="62"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>visitPre(<ref refid="d8/df9/class_doc_auto_list_item" kindref="compound" tooltip="Node representing an item of a auto list.">DocAutoListItem</ref><sp/>*)<sp/>{}</highlight></codeline>
+<codeline lineno="63"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>visitPost(<ref refid="d8/df9/class_doc_auto_list_item" kindref="compound" tooltip="Node representing an item of a auto list.">DocAutoListItem</ref><sp/>*)<sp/>{}</highlight></codeline>
+<codeline lineno="64"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>visitPre(<ref refid="d3/d01/class_doc_para" kindref="compound" tooltip="Node representing a paragraph in the documentation tree.">DocPara</ref><sp/>*)<sp/><sp/>{}</highlight></codeline>
+<codeline lineno="65"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>visitPost(<ref refid="d3/d01/class_doc_para" kindref="compound" tooltip="Node representing a paragraph in the documentation tree.">DocPara</ref><sp/>*)<sp/>{}</highlight></codeline>
+<codeline lineno="66"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>visitPre(<ref refid="d8/ddb/class_doc_root" kindref="compound" tooltip="Root node of documentation tree.">DocRoot</ref><sp/>*)<sp/>{}</highlight></codeline>
+<codeline lineno="67"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>visitPost(<ref refid="d8/ddb/class_doc_root" kindref="compound" tooltip="Root node of documentation tree.">DocRoot</ref><sp/>*)<sp/>{}</highlight></codeline>
+<codeline lineno="68"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>visitPre(<ref refid="de/d65/class_doc_simple_sect" kindref="compound" tooltip="Node representing a simple section.">DocSimpleSect</ref><sp/>*)<sp/>{}</highlight></codeline>
+<codeline lineno="69"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>visitPost(<ref refid="de/d65/class_doc_simple_sect" kindref="compound" tooltip="Node representing a simple section.">DocSimpleSect</ref><sp/>*)<sp/>{}</highlight></codeline>
+<codeline lineno="70"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>visitPre(<ref refid="d3/d1c/class_doc_title" kindref="compound" tooltip="Node representing a simple section title.">DocTitle</ref><sp/>*)<sp/>{}</highlight></codeline>
+<codeline lineno="71"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>visitPost(<ref refid="d3/d1c/class_doc_title" kindref="compound" tooltip="Node representing a simple section title.">DocTitle</ref><sp/>*)<sp/>{}</highlight></codeline>
+<codeline lineno="72"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>visitPre(<ref refid="dc/de6/class_doc_simple_list" kindref="compound" tooltip="Node representing a simple list.">DocSimpleList</ref><sp/>*)<sp/>{}</highlight></codeline>
+<codeline lineno="73"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>visitPost(<ref refid="dc/de6/class_doc_simple_list" kindref="compound" tooltip="Node representing a simple list.">DocSimpleList</ref><sp/>*)<sp/>{}</highlight></codeline>
+<codeline lineno="74"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>visitPre(<ref refid="d4/d1e/class_doc_simple_list_item" kindref="compound" tooltip="Node representing a simple list item.">DocSimpleListItem</ref><sp/>*)<sp/>{}</highlight></codeline>
+<codeline lineno="75"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>visitPost(<ref refid="d4/d1e/class_doc_simple_list_item" kindref="compound" tooltip="Node representing a simple list item.">DocSimpleListItem</ref><sp/>*)<sp/>{}</highlight></codeline>
+<codeline lineno="76"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>visitPre(<ref refid="d2/da3/class_doc_section" kindref="compound" tooltip="Node representing a normal section.">DocSection</ref><sp/>*)<sp/>{}</highlight></codeline>
+<codeline lineno="77"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>visitPost(<ref refid="d2/da3/class_doc_section" kindref="compound" tooltip="Node representing a normal section.">DocSection</ref><sp/>*)<sp/>{}</highlight></codeline>
+<codeline lineno="78"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>visitPre(<ref refid="d5/d42/class_doc_html_list" kindref="compound" tooltip="Node representing a Html list.">DocHtmlList</ref><sp/>*)<sp/>{}</highlight></codeline>
+<codeline lineno="79"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>visitPost(<ref refid="d5/d42/class_doc_html_list" kindref="compound" tooltip="Node representing a Html list.">DocHtmlList</ref><sp/>*)<sp/><sp/>{}</highlight></codeline>
+<codeline lineno="80"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>visitPre(<ref refid="df/da8/class_doc_html_list_item" kindref="compound" tooltip="Node representing a HTML list item.">DocHtmlListItem</ref><sp/>*)<sp/>{}</highlight></codeline>
+<codeline lineno="81"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>visitPost(<ref refid="df/da8/class_doc_html_list_item" kindref="compound" tooltip="Node representing a HTML list item.">DocHtmlListItem</ref><sp/>*)<sp/>{}</highlight></codeline>
+<codeline lineno="82"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>visitPre(<ref refid="df/d6f/class_doc_html_desc_list" kindref="compound" tooltip="Node representing a Html description list.">DocHtmlDescList</ref><sp/>*)<sp/>{}</highlight></codeline>
+<codeline lineno="83"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>visitPost(<ref refid="df/d6f/class_doc_html_desc_list" kindref="compound" tooltip="Node representing a Html description list.">DocHtmlDescList</ref><sp/>*)<sp/>{}</highlight></codeline>
+<codeline lineno="84"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>visitPre(<ref refid="dd/dd1/class_doc_html_desc_title" kindref="compound" tooltip="Node representing a Html description item.">DocHtmlDescTitle</ref><sp/>*)<sp/>{}</highlight></codeline>
+<codeline lineno="85"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>visitPost(<ref refid="dd/dd1/class_doc_html_desc_title" kindref="compound" tooltip="Node representing a Html description item.">DocHtmlDescTitle</ref><sp/>*)<sp/>{}</highlight></codeline>
+<codeline lineno="86"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>visitPre(<ref refid="dd/d88/class_doc_html_desc_data" kindref="compound" tooltip="Node representing a HTML description data.">DocHtmlDescData</ref><sp/>*)<sp/>{}</highlight></codeline>
+<codeline lineno="87"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>visitPost(<ref refid="dd/d88/class_doc_html_desc_data" kindref="compound" tooltip="Node representing a HTML description data.">DocHtmlDescData</ref><sp/>*)<sp/>{}</highlight></codeline>
+<codeline lineno="88"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>visitPre(<ref refid="de/d79/class_doc_html_table" kindref="compound" tooltip="Node representing a HTML table.">DocHtmlTable</ref><sp/>*)<sp/>{}</highlight></codeline>
+<codeline lineno="89"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>visitPost(<ref refid="de/d79/class_doc_html_table" kindref="compound" tooltip="Node representing a HTML table.">DocHtmlTable</ref><sp/>*)<sp/>{}</highlight></codeline>
+<codeline lineno="90"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>visitPre(<ref refid="d3/d16/class_doc_html_row" kindref="compound" tooltip="Node representing a HTML table row.">DocHtmlRow</ref><sp/>*)<sp/>{}</highlight></codeline>
+<codeline lineno="91"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>visitPost(<ref refid="d3/d16/class_doc_html_row" kindref="compound" tooltip="Node representing a HTML table row.">DocHtmlRow</ref><sp/>*)<sp/><sp/>{}</highlight></codeline>
+<codeline lineno="92"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>visitPre(<ref refid="d1/d56/class_doc_html_cell" kindref="compound" tooltip="Node representing a HTML table cell.">DocHtmlCell</ref><sp/>*)<sp/>{}</highlight></codeline>
+<codeline lineno="93"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>visitPost(<ref refid="d1/d56/class_doc_html_cell" kindref="compound" tooltip="Node representing a HTML table cell.">DocHtmlCell</ref><sp/>*)<sp/>{}</highlight></codeline>
+<codeline lineno="94"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>visitPre(<ref refid="d0/dc7/class_doc_html_caption" kindref="compound" tooltip="Node representing a HTML table caption.">DocHtmlCaption</ref><sp/>*)<sp/>{}</highlight></codeline>
+<codeline lineno="95"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>visitPost(<ref refid="d0/dc7/class_doc_html_caption" kindref="compound" tooltip="Node representing a HTML table caption.">DocHtmlCaption</ref><sp/>*)<sp/>{}</highlight></codeline>
+<codeline lineno="96"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>visitPre(<ref refid="db/d6d/class_doc_internal" kindref="compound" tooltip="Node representing an internal section of documentation.">DocInternal</ref><sp/>*)<sp/>{}</highlight></codeline>
+<codeline lineno="97"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>visitPost(<ref refid="db/d6d/class_doc_internal" kindref="compound" tooltip="Node representing an internal section of documentation.">DocInternal</ref><sp/>*)<sp/>{}</highlight></codeline>
+<codeline lineno="98"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>visitPre(<ref refid="d9/d10/class_doc_h_ref" kindref="compound" tooltip="Node representing a Hypertext reference.">DocHRef</ref><sp/>*)<sp/>{}</highlight></codeline>
+<codeline lineno="99"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>visitPost(<ref refid="d9/d10/class_doc_h_ref" kindref="compound" tooltip="Node representing a Hypertext reference.">DocHRef</ref><sp/>*)<sp/>{}</highlight></codeline>
+<codeline lineno="100"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>visitPre(<ref refid="df/d24/class_doc_html_header" kindref="compound" tooltip="Node Html heading.">DocHtmlHeader</ref><sp/>*)<sp/>{}</highlight></codeline>
+<codeline lineno="101"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>visitPost(<ref refid="df/d24/class_doc_html_header" kindref="compound" tooltip="Node Html heading.">DocHtmlHeader</ref><sp/>*)<sp/>{}</highlight></codeline>
+<codeline lineno="102"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>visitPre(<ref refid="db/dc8/class_doc_image" kindref="compound" tooltip="Node representing an image.">DocImage</ref><sp/>*)<sp/>{}</highlight></codeline>
+<codeline lineno="103"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>visitPost(<ref refid="db/dc8/class_doc_image" kindref="compound" tooltip="Node representing an image.">DocImage</ref><sp/>*)<sp/>{}</highlight></codeline>
+<codeline lineno="104"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>visitPre(<ref refid="df/d37/class_doc_dot_file" kindref="compound" tooltip="Node representing a dot file.">DocDotFile</ref><sp/>*)<sp/>{}</highlight></codeline>
+<codeline lineno="105"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>visitPost(<ref refid="df/d37/class_doc_dot_file" kindref="compound" tooltip="Node representing a dot file.">DocDotFile</ref><sp/>*)<sp/>{}</highlight></codeline>
+<codeline lineno="106"><highlight class="normal"></highlight></codeline>
+<codeline lineno="107"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>visitPre(<ref refid="d3/d7d/class_doc_msc_file" kindref="compound" tooltip="Node representing a msc file.">DocMscFile</ref><sp/>*)<sp/>{}</highlight></codeline>
+<codeline lineno="108"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>visitPost(<ref refid="d3/d7d/class_doc_msc_file" kindref="compound" tooltip="Node representing a msc file.">DocMscFile</ref><sp/>*)<sp/>{}</highlight></codeline>
+<codeline lineno="109"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>visitPre(<ref refid="d5/dd3/class_doc_link" kindref="compound" tooltip="Node representing a link to some item.">DocLink</ref><sp/>*)<sp/>{}</highlight></codeline>
+<codeline lineno="110"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>visitPost(<ref refid="d5/dd3/class_doc_link" kindref="compound" tooltip="Node representing a link to some item.">DocLink</ref><sp/>*)<sp/>{}</highlight></codeline>
+<codeline lineno="111"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>visitPre(<ref refid="d5/d68/class_doc_ref" kindref="compound" tooltip="Node representing a reference to some item.">DocRef</ref><sp/>*)<sp/>{}</highlight></codeline>
+<codeline lineno="112"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>visitPost(<ref refid="d5/d68/class_doc_ref" kindref="compound" tooltip="Node representing a reference to some item.">DocRef</ref><sp/>*)<sp/>{}</highlight></codeline>
+<codeline lineno="113"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>visitPre(<ref refid="de/d87/class_doc_sec_ref_item" kindref="compound" tooltip="Node representing a reference to a section.">DocSecRefItem</ref><sp/>*)<sp/>{}</highlight></codeline>
+<codeline lineno="114"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>visitPost(<ref refid="de/d87/class_doc_sec_ref_item" kindref="compound" tooltip="Node representing a reference to a section.">DocSecRefItem</ref><sp/>*)<sp/>{}</highlight></codeline>
+<codeline lineno="115"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>visitPre(<ref refid="d3/ddb/class_doc_sec_ref_list" kindref="compound" tooltip="Node representing a list of section references.">DocSecRefList</ref><sp/>*)<sp/>{}</highlight></codeline>
+<codeline lineno="116"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>visitPost(<ref refid="d3/ddb/class_doc_sec_ref_list" kindref="compound" tooltip="Node representing a list of section references.">DocSecRefList</ref><sp/>*)<sp/>{}</highlight></codeline>
+<codeline lineno="117"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>visitPre(<ref refid="d1/d01/class_doc_param_sect" kindref="compound" tooltip="Node representing a parameter section.">DocParamSect</ref><sp/>*)<sp/>{}</highlight></codeline>
+<codeline lineno="118"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>visitPost(<ref refid="d1/d01/class_doc_param_sect" kindref="compound" tooltip="Node representing a parameter section.">DocParamSect</ref><sp/>*)<sp/>{}</highlight></codeline>
+<codeline lineno="119"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>visitPre(<ref refid="d9/d8d/class_doc_param_list" kindref="compound" tooltip="Node representing a parameter list.">DocParamList</ref><sp/>*)<sp/>{}</highlight></codeline>
+<codeline lineno="120"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>visitPost(<ref refid="d9/d8d/class_doc_param_list" kindref="compound" tooltip="Node representing a parameter list.">DocParamList</ref><sp/>*)<sp/>{}</highlight></codeline>
+<codeline lineno="121"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>visitPre(<ref refid="d0/d90/class_doc_x_ref_item" kindref="compound" tooltip="Node representing an item of a cross-referenced list.">DocXRefItem</ref><sp/>*)<sp/>{}</highlight></codeline>
+<codeline lineno="122"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>visitPost(<ref refid="d0/d90/class_doc_x_ref_item" kindref="compound" tooltip="Node representing an item of a cross-referenced list.">DocXRefItem</ref><sp/>*)<sp/>{}</highlight></codeline>
+<codeline lineno="123"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>visitPre(<ref refid="da/da2/class_doc_internal_ref" kindref="compound" tooltip="Node representing an internal reference to some item.">DocInternalRef</ref><sp/>*)<sp/>{}</highlight></codeline>
+<codeline lineno="124"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>visitPost(<ref refid="da/da2/class_doc_internal_ref" kindref="compound" tooltip="Node representing an internal reference to some item.">DocInternalRef</ref><sp/>*)<sp/>{}</highlight></codeline>
+<codeline lineno="125"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>visitPre(<ref refid="da/d97/class_doc_copy" kindref="compound" tooltip="Node representing a copy of documentation block.">DocCopy</ref><sp/>*)<sp/>{}</highlight></codeline>
+<codeline lineno="126"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>visitPost(<ref refid="da/d97/class_doc_copy" kindref="compound" tooltip="Node representing a copy of documentation block.">DocCopy</ref><sp/>*)<sp/>{}</highlight></codeline>
+<codeline lineno="127"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>visitPre(<ref refid="d0/d87/class_doc_text" kindref="compound" tooltip="Root node of a text fragment.">DocText</ref><sp/>*)<sp/>{}</highlight></codeline>
+<codeline lineno="128"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>visitPost(<ref refid="d0/d87/class_doc_text" kindref="compound" tooltip="Root node of a text fragment.">DocText</ref><sp/>*)<sp/>{}</highlight></codeline>
+<codeline lineno="129"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>visitPre(<ref refid="d9/dd3/class_doc_html_block_quote" kindref="compound" tooltip="Node representing an HTML blockquote.">DocHtmlBlockQuote</ref><sp/>*)<sp/>{}</highlight></codeline>
+<codeline lineno="130"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>visitPost(<ref refid="d9/dd3/class_doc_html_block_quote" kindref="compound" tooltip="Node representing an HTML blockquote.">DocHtmlBlockQuote</ref><sp/>*)<sp/>{}</highlight></codeline>
+<codeline lineno="131"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>visitPre(<ref refid="d0/d89/class_doc_vhdl_flow" kindref="compound" tooltip="Node representing a VHDL flow chart.">DocVhdlFlow</ref><sp/>*)<sp/>{}</highlight></codeline>
+<codeline lineno="132"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>visitPost(<ref refid="d0/d89/class_doc_vhdl_flow" kindref="compound" tooltip="Node representing a VHDL flow chart.">DocVhdlFlow</ref><sp/>*)<sp/>{}</highlight></codeline>
+<codeline lineno="133"><highlight class="normal"></highlight></codeline>
+<codeline lineno="134"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="135"><highlight class="normal"></highlight></codeline>
+<codeline lineno="136"><highlight class="normal"><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>filter(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*str);</highlight></codeline>
+<codeline lineno="137"><highlight class="normal"></highlight></codeline>
+<codeline lineno="138"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="dc/d3c/class_f_text_stream" kindref="compound" tooltip="Simplified and optimized version of QTextStream.">FTextStream</ref><sp/>&amp;m_t;</highlight></codeline>
+<codeline lineno="139"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="140"><highlight class="normal"></highlight></codeline>
+<codeline lineno="141"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+    </programlisting>
+    <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/textdocvisitor.h"/>
+  </compounddef>
+</doxygen>

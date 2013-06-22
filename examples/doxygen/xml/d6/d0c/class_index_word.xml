@@ -1,0 +1,113 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.2">
+  <compounddef id="d6/d0c/class_index_word" kind="class" prot="public">
+    <compoundname>IndexWord</compoundname>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="d6/d0c/class_index_word_1af15e1041b938848ea1ac0301e358b482" prot="private" static="no" mutable="no">
+        <type>QCString</type>
+        <definition>QCString IndexWord::m_word</definition>
+        <argsstring></argsstring>
+        <name>m_word</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/searchindex.h" line="62" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/searchindex.h" bodystart="62" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d6/d0c/class_index_word_1a5491b1d2c3ea28d98d71ec691688580e" prot="private" static="no" mutable="no">
+        <type>QIntDict&lt; <ref refid="d6/d43/struct_u_r_l_info" kindref="compound">URLInfo</ref> &gt;</type>
+        <definition>QIntDict&lt;URLInfo&gt; IndexWord::m_urls</definition>
+        <argsstring></argsstring>
+        <name>m_urls</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/searchindex.h" line="63" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/searchindex.h" bodystart="63" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="d6/d0c/class_index_word_1aebc5fc97bb87b053809703919508c765" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>IndexWord::IndexWord</definition>
+        <argsstring>(const char *word)</argsstring>
+        <name>IndexWord</name>
+        <param>
+          <type>const char *</type>
+          <declname>word</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/searchindex.h" line="56" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/searchindex.cpp" bodystart="55" bodyend="59"/>
+      </memberdef>
+      <memberdef kind="function" id="d6/d0c/class_index_word_1a16031b22d97aba33250595882a192b65" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void IndexWord::addUrlIndex</definition>
+        <argsstring>(int, bool)</argsstring>
+        <name>addUrlIndex</name>
+        <param>
+          <type>int</type>
+          <defname>idx</defname>
+        </param>
+        <param>
+          <type>bool</type>
+          <defname>hiPriority</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/searchindex.h" line="57" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/searchindex.cpp" bodystart="61" bodyend="73"/>
+      </memberdef>
+      <memberdef kind="function" id="d6/d0c/class_index_word_1a4e68f859d736b23fea51211018794c58" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>const QIntDict&lt; <ref refid="d6/d43/struct_u_r_l_info" kindref="compound">URLInfo</ref> &gt; &amp;</type>
+        <definition>const QIntDict&lt;URLInfo&gt;&amp; IndexWord::urls</definition>
+        <argsstring>() const </argsstring>
+        <name>urls</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/searchindex.h" line="58" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/searchindex.h" bodystart="58" bodyend="58"/>
+      </memberdef>
+      <memberdef kind="function" id="d6/d0c/class_index_word_1a8db691a064441282700fc43d622a1864" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>QCString</type>
+        <definition>QCString IndexWord::word</definition>
+        <argsstring>() const </argsstring>
+        <name>word</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/searchindex.h" line="59" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/searchindex.h" bodystart="59" bodyend="59"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/searchindex.h" line="54" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/searchindex.h" bodystart="53" bodyend="64"/>
+    <listofallmembers>
+      <member refid="d6/d0c/class_index_word_1a16031b22d97aba33250595882a192b65" prot="public" virt="non-virtual"><scope>IndexWord</scope><name>addUrlIndex</name></member>
+      <member refid="d6/d0c/class_index_word_1aebc5fc97bb87b053809703919508c765" prot="public" virt="non-virtual"><scope>IndexWord</scope><name>IndexWord</name></member>
+      <member refid="d6/d0c/class_index_word_1a5491b1d2c3ea28d98d71ec691688580e" prot="private" virt="non-virtual"><scope>IndexWord</scope><name>m_urls</name></member>
+      <member refid="d6/d0c/class_index_word_1af15e1041b938848ea1ac0301e358b482" prot="private" virt="non-virtual"><scope>IndexWord</scope><name>m_word</name></member>
+      <member refid="d6/d0c/class_index_word_1a4e68f859d736b23fea51211018794c58" prot="public" virt="non-virtual"><scope>IndexWord</scope><name>urls</name></member>
+      <member refid="d6/d0c/class_index_word_1a8db691a064441282700fc43d622a1864" prot="public" virt="non-virtual"><scope>IndexWord</scope><name>word</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

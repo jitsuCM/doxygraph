@@ -1,0 +1,803 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.2">
+  <compounddef id="d1/d50/class_s_dict" kind="class" prot="public">
+    <compoundname>SDict</compoundname>
+    <includes refid="d9/d21/sortdict_8h" local="no">sortdict.h</includes>
+    <innerclass refid="d9/dbf/class_s_dict_1_1_iterator" prot="public">SDict::Iterator</innerclass>
+    <innerclass refid="dd/d70/class_s_dict_1_1_iterator_dict" prot="public">SDict::IteratorDict</innerclass>
+    <templateparamlist>
+      <param>
+        <type>class</type>
+        <declname>T</declname>
+        <defname>T</defname>
+      </param>
+    </templateparamlist>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="d1/d50/class_s_dict_1a5ea3a7928b470c535b4e9b37608fa112" prot="private" static="no" mutable="no">
+        <type><ref refid="df/dce/class_s_list" kindref="compound">SList</ref>&lt; T &gt; *</type>
+        <definition>SList&lt;T&gt;* SDict&lt; T &gt;::m_list</definition>
+        <argsstring></argsstring>
+        <name>m_list</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/sortdict.h" line="100" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/sortdict.h" bodystart="100" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d1/d50/class_s_dict_1a3369f44806ff2547a5ca4fec5e803572" prot="private" static="no" mutable="no">
+        <type>QDict&lt; T &gt; *</type>
+        <definition>QDict&lt;T&gt;* SDict&lt; T &gt;::m_dict</definition>
+        <argsstring></argsstring>
+        <name>m_dict</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/sortdict.h" line="101" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/sortdict.h" bodystart="101" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d1/d50/class_s_dict_1a9257e29270773b23259501188cb3b89f" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int SDict&lt; T &gt;::m_sizeIndex</definition>
+        <argsstring></argsstring>
+        <name>m_sizeIndex</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/sortdict.h" line="102" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/sortdict.h" bodystart="102" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="friend">
+      <memberdef kind="friend" id="d1/d50/class_s_dict_1a9830fc407400559db7e7783cc10a9394" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>friend class</type>
+        <definition>friend class Iterator</definition>
+        <argsstring></argsstring>
+        <name>Iterator</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/sortdict.h" line="290" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/sortdict.h" bodystart="289" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="friend" id="d1/d50/class_s_dict_1ab362b5ead75b40c212098db068d50ac7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>friend class</type>
+        <definition>friend class IteratorDict</definition>
+        <argsstring></argsstring>
+        <name>IteratorDict</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/sortdict.h" line="354" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/sortdict.h" bodystart="353" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="d1/d50/class_s_dict_1a42ccd9c8ed71acbe2771ac65df817323" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>SDict&lt; T &gt;::SDict</definition>
+        <argsstring>(int size, bool caseSensitive=TRUE)</argsstring>
+        <name>SDict</name>
+        <param>
+          <type>int</type>
+          <declname>size</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>caseSensitive</declname>
+          <defval>TRUE</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Create an ordered dictionary. <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>size</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The size of the dictionary. Should be a prime number for best distribution of elements. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>caseSensitive</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>indicated whether the keys should be sorted in a case sensitive way. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/sortdict.h" line="112" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/sortdict.h" bodystart="111" bodyend="120"/>
+      </memberdef>
+      <memberdef kind="function" id="d1/d50/class_s_dict_1a49594f6c587e0915be3861538a3c96cb" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type></type>
+        <definition>virtual SDict&lt; T &gt;::~SDict</definition>
+        <argsstring>()</argsstring>
+        <name>~SDict</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Destroys the dictionary </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/sortdict.h" line="124" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/sortdict.h" bodystart="123" bodyend="127"/>
+      </memberdef>
+      <memberdef kind="function" id="d1/d50/class_s_dict_1a121842d9858421076b81ed663034d62c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void SDict&lt; T &gt;::append</definition>
+        <argsstring>(const char *key, const T *d)</argsstring>
+        <name>append</name>
+        <param>
+          <type>const char *</type>
+          <declname>key</declname>
+        </param>
+        <param>
+          <type>const T *</type>
+          <declname>d</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Appends an element to the dictionary. The element is owned by the dictionary. <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>key</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The unique key to use to quicky find the item later on. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>d</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The compound to add. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="see"><para><ref refid="d1/d50/class_s_dict_1aec67482d780157680d46f48a7ed5e7bd" kindref="member">find()</ref> </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/sortdict.h" line="136" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/sortdict.h" bodystart="135" bodyend="145"/>
+        <referencedby refid="d5/dcc/class_definition_1a2314524366e46c9d0cd8bcb528d6238d" compoundref="d3/dea/definition_8cpp" startline="415" endline="442">Definition::addSectionsToDefinition</referencedby>
+        <referencedby refid="de/db0/class_file_def_1a61ec1208cd1055a3d91cb6a2ee60451d" compoundref="d6/ddc/filedef_8cpp" startline="1017" endline="1032">FileDef::insertClass</referencedby>
+        <referencedby refid="de/db0/class_file_def_1a579c95408a34b048fc3cd288bfa8893c" compoundref="d6/ddc/filedef_8cpp" startline="1035" endline="1054">FileDef::insertNamespace</referencedby>
+        <referencedby refid="d1/dcf/class_class_def_1a67f89df2361269ef583f33b2ee087a2b" compoundref="de/d89/classdef_8cpp" startline="2945" endline="3078">ClassDef::mergeCategory</referencedby>
+        <referencedby refid="d1/dcf/class_class_def_1a91edf0e1d111bb5b90561af28ec93409" compoundref="de/d89/classdef_8cpp" startline="2694" endline="2939">ClassDef::mergeMembers</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="d1/d50/class_s_dict_1adcfbdc244e81360522457c8a84069f2b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void SDict&lt; T &gt;::prepend</definition>
+        <argsstring>(const char *key, const T *d)</argsstring>
+        <name>prepend</name>
+        <param>
+          <type>const char *</type>
+          <declname>key</declname>
+        </param>
+        <param>
+          <type>const T *</type>
+          <declname>d</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Prepends an element to the dictionary. The element is owned by the dictionary. <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>key</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The unique key to use to quicky find the item later on. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>d</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The compound to add. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="see"><para><ref refid="d1/d50/class_s_dict_1aec67482d780157680d46f48a7ed5e7bd" kindref="member">find()</ref> </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/sortdict.h" line="154" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/sortdict.h" bodystart="153" bodyend="163"/>
+      </memberdef>
+      <memberdef kind="function" id="d1/d50/class_s_dict_1ad647b04c9dff33ac0182c4d83b025c77" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool SDict&lt; T &gt;::remove</definition>
+        <argsstring>(const char *key)</argsstring>
+        <name>remove</name>
+        <param>
+          <type>const char *</type>
+          <declname>key</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Remove an item from the dictionary </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/sortdict.h" line="167" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/sortdict.h" bodystart="166" bodyend="170"/>
+      </memberdef>
+      <memberdef kind="function" id="d1/d50/class_s_dict_1ac5aa2cf317cef817cf585efdab3663d7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>T *</type>
+        <definition>T* SDict&lt; T &gt;::take</definition>
+        <argsstring>(const char *key)</argsstring>
+        <name>take</name>
+        <param>
+          <type>const char *</type>
+          <declname>key</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Take an item out of the dictionary without deleting it </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/sortdict.h" line="174" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/sortdict.h" bodystart="173" bodyend="182"/>
+      </memberdef>
+      <memberdef kind="function" id="d1/d50/class_s_dict_1ab6da88a61ee284dfbd07830fcd63aed3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void SDict&lt; T &gt;::sort</definition>
+        <argsstring>()</argsstring>
+        <name>sort</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Sorts the members of the dictionary. First appending a number of members and then sorting them is faster (O(NlogN) than using <ref refid="d1/d50/class_s_dict_1a25a85aeba441b4c855ea7be25a4741b5" kindref="member">inSort()</ref> for each member (O(N^2)). </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/sortdict.h" line="189" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/sortdict.h" bodystart="188" bodyend="191"/>
+      </memberdef>
+      <memberdef kind="function" id="d1/d50/class_s_dict_1a25a85aeba441b4c855ea7be25a4741b5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void SDict&lt; T &gt;::inSort</definition>
+        <argsstring>(const char *key, const T *d)</argsstring>
+        <name>inSort</name>
+        <param>
+          <type>const char *</type>
+          <declname>key</declname>
+        </param>
+        <param>
+          <type>const T *</type>
+          <declname>d</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Inserts a compound into the dictionary in a sorted way. <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>key</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The unique key to use to quicky find the item later on. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>d</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The compound to add. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="see"><para><ref refid="d1/d50/class_s_dict_1aec67482d780157680d46f48a7ed5e7bd" kindref="member">find()</ref> </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/sortdict.h" line="198" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/sortdict.h" bodystart="197" bodyend="207"/>
+        <referencedby refid="de/db0/class_file_def_1a61ec1208cd1055a3d91cb6a2ee60451d" compoundref="d6/ddc/filedef_8cpp" startline="1017" endline="1032">FileDef::insertClass</referencedby>
+        <referencedby refid="de/db0/class_file_def_1a579c95408a34b048fc3cd288bfa8893c" compoundref="d6/ddc/filedef_8cpp" startline="1035" endline="1054">FileDef::insertNamespace</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="d1/d50/class_s_dict_1a7f0a7e316d26fccdf7d0d351837a6614" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void SDict&lt; T &gt;::insertAt</definition>
+        <argsstring>(int i, const char *key, const T *d)</argsstring>
+        <name>insertAt</name>
+        <param>
+          <type>int</type>
+          <declname>i</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>key</declname>
+        </param>
+        <param>
+          <type>const T *</type>
+          <declname>d</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/sortdict.h" line="210" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/sortdict.h" bodystart="209" bodyend="219"/>
+      </memberdef>
+      <memberdef kind="function" id="d1/d50/class_s_dict_1ac5ed340a2e6b4b4fb8398254cd35ef55" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void SDict&lt; T &gt;::setAutoDelete</definition>
+        <argsstring>(bool val)</argsstring>
+        <name>setAutoDelete</name>
+        <param>
+          <type>bool</type>
+          <declname>val</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Indicates whether or not the dictionary owns its elements </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/sortdict.h" line="223" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/sortdict.h" bodystart="222" bodyend="225"/>
+      </memberdef>
+      <memberdef kind="function" id="d1/d50/class_s_dict_1aec67482d780157680d46f48a7ed5e7bd" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>T *</type>
+        <definition>T* SDict&lt; T &gt;::find</definition>
+        <argsstring>(const char *key)</argsstring>
+        <name>find</name>
+        <param>
+          <type>const char *</type>
+          <declname>key</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Looks up a compound given its key. <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>key</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The key to identify this element. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>The requested compound or zero if it cannot be found. </para></simplesect>
+<simplesect kind="see"><para><ref refid="d1/d50/class_s_dict_1a121842d9858421076b81ed663034d62c" kindref="member">append()</ref> </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/sortdict.h" line="233" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/sortdict.h" bodystart="232" bodyend="235"/>
+        <referencedby refid="d5/dcc/class_definition_1a2314524366e46c9d0cd8bcb528d6238d" compoundref="d3/dea/definition_8cpp" startline="415" endline="442">Definition::addSectionsToDefinition</referencedby>
+        <referencedby refid="d8/d3c/util_8h_1af038b3c55db4fa840af0ee26464bb72a" compoundref="df/d2d/util_8cpp" startline="469" endline="484">getClass</referencedby>
+        <referencedby refid="d8/d3c/util_8h_1a299731fdff2d25b4c64d046d24a0ac1f" compoundref="df/d2d/util_8cpp" startline="3899" endline="4264">getDefs</referencedby>
+        <referencedby refid="de/db0/class_file_def_1a579c95408a34b048fc3cd288bfa8893c" compoundref="d6/ddc/filedef_8cpp" startline="1035" endline="1054">FileDef::insertNamespace</referencedby>
+        <referencedby refid="d1/dcf/class_class_def_1a67f89df2361269ef583f33b2ee087a2b" compoundref="de/d89/classdef_8cpp" startline="2945" endline="3078">ClassDef::mergeCategory</referencedby>
+        <referencedby refid="d1/dcf/class_class_def_1a91edf0e1d111bb5b90561af28ec93409" compoundref="de/d89/classdef_8cpp" startline="2694" endline="2939">ClassDef::mergeMembers</referencedby>
+        <referencedby refid="d8/d3c/util_8h_1a4cc99128827cc7c407e276d3f65bb7b2" compoundref="df/d2d/util_8cpp" startline="4340" endline="4509">resolveRef</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="d1/d50/class_s_dict_1a357a25974d906de30d2e34de08b35a4e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>T *</type>
+        <definition>T* SDict&lt; T &gt;::find</definition>
+        <argsstring>(const QCString &amp;key)</argsstring>
+        <name>find</name>
+        <param>
+          <type>const QCString &amp;</type>
+          <declname>key</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/sortdict.h" line="237" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/sortdict.h" bodystart="236" bodyend="239"/>
+      </memberdef>
+      <memberdef kind="function" id="d1/d50/class_s_dict_1abc60b1cc06b0643753906387b7cccfe2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>T *</type>
+        <definition>T* SDict&lt; T &gt;::find</definition>
+        <argsstring>(const QString &amp;key)</argsstring>
+        <name>find</name>
+        <param>
+          <type>const QString &amp;</type>
+          <declname>key</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/sortdict.h" line="241" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/sortdict.h" bodystart="240" bodyend="243"/>
+      </memberdef>
+      <memberdef kind="function" id="d1/d50/class_s_dict_1a6a05b33d4c87325d4f2826921910c89d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int SDict&lt; T &gt;::findAt</definition>
+        <argsstring>(const QCString &amp;key)</argsstring>
+        <name>findAt</name>
+        <param>
+          <type>const QCString &amp;</type>
+          <declname>key</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/sortdict.h" line="245" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/sortdict.h" bodystart="244" bodyend="249"/>
+      </memberdef>
+      <memberdef kind="function" id="d1/d50/class_s_dict_1a1858d5cdf864c4fa6476137ace8bb7f5" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>T *</type>
+        <definition>T* SDict&lt; T &gt;::operator[]</definition>
+        <argsstring>(const char *key) const </argsstring>
+        <name>operator[]</name>
+        <param>
+          <type>const char *</type>
+          <declname>key</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Equavalent to <ref refid="d1/d50/class_s_dict_1aec67482d780157680d46f48a7ed5e7bd" kindref="member">find()</ref>. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/sortdict.h" line="253" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/sortdict.h" bodystart="252" bodyend="255"/>
+      </memberdef>
+      <memberdef kind="function" id="d1/d50/class_s_dict_1ab993899004fc3cfc8f00f131e0b6a29d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>T *</type>
+        <definition>T* SDict&lt; T &gt;::at</definition>
+        <argsstring>(uint i)</argsstring>
+        <name>at</name>
+        <param>
+          <type>uint</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns the item at position <emphasis>i</emphasis> in the sorted dictionary </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/sortdict.h" line="259" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/sortdict.h" bodystart="258" bodyend="261"/>
+      </memberdef>
+      <memberdef kind="function" id="d1/d50/class_s_dict_1a99cd2f7d27403649ab8b7e60d06f487e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>int</type>
+        <definition>virtual int SDict&lt; T &gt;::compareItems</definition>
+        <argsstring>(QCollection::Item item1, QCollection::Item item2)</argsstring>
+        <name>compareItems</name>
+        <reimplementedby refid="d0/d31/class_example_s_dict_1ab77ec9c6ca9d2182ea310cdaf69adf1a">compareItems</reimplementedby>
+        <reimplementedby refid="d0/d8c/class_sorted_ref_items_1a143caa774474ce6db479873b9aed7776">compareItems</reimplementedby>
+        <reimplementedby refid="d1/d7e/class_member_name_s_dict_1a18be68f36283a2bef27796f92f4744c4">compareItems</reimplementedby>
+        <reimplementedby refid="d9/d3d/class_class_s_dict_1a365a341bbe740dc585c0d8e9519166af">compareItems</reimplementedby>
+        <reimplementedby refid="d0/d59/class_page_s_dict_1a6e4fbed4db714f286f20fbc2311ac10b">compareItems</reimplementedby>
+        <reimplementedby refid="d6/d70/class_member_name_info_s_dict_1a2b439acf21f8ac169b20acc8fc3d2bc8">compareItems</reimplementedby>
+        <reimplementedby refid="d6/dd6/class_member_s_dict_1a4965f2c77163eb04280d71b9bfe29198">compareItems</reimplementedby>
+        <reimplementedby refid="d0/d5d/class_file_pair_dict_1a4866ba995e365de64902f4d70358b322">compareItems</reimplementedby>
+        <reimplementedby refid="d0/d32/class_group_s_dict_1ab250223c344e6dfd2891fee59f1520d9">compareItems</reimplementedby>
+        <reimplementedby refid="d4/d8d/class_namespace_s_dict_1a3b77bf1aa3ab01bd70bf9504a8b79e40">compareItems</reimplementedby>
+        <reimplementedby refid="db/dc8/class_dir_s_dict_1a00454f0701f56fdfd71cc5fece6973bb">compareItems</reimplementedby>
+        <param>
+          <type>QCollection::Item</type>
+          <declname>item1</declname>
+        </param>
+        <param>
+          <type>QCollection::Item</type>
+          <declname>item2</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Function that is used to compare two items when sorting. Overload this to properly sort items. <simplesect kind="see"><para><ref refid="d1/d50/class_s_dict_1a25a85aeba441b4c855ea7be25a4741b5" kindref="member">inSort()</ref> </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/sortdict.h" line="268" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/sortdict.h" bodystart="267" bodyend="270"/>
+      </memberdef>
+      <memberdef kind="function" id="d1/d50/class_s_dict_1afd6bec6aaf77e2943f42cec1208bc46d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void SDict&lt; T &gt;::clear</definition>
+        <argsstring>()</argsstring>
+        <name>clear</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Clears the dictionary. Will delete items if <ref refid="d1/d50/class_s_dict_1ac5ed340a2e6b4b4fb8398254cd35ef55" kindref="member">setAutoDelete()</ref> was set to <computeroutput>TRUE</computeroutput>. <simplesect kind="see"><para><ref refid="d1/d50/class_s_dict_1ac5ed340a2e6b4b4fb8398254cd35ef55" kindref="member">setAutoDelete</ref> </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/sortdict.h" line="277" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/sortdict.h" bodystart="276" bodyend="280"/>
+      </memberdef>
+      <memberdef kind="function" id="d1/d50/class_s_dict_1a9e95eebac3e87938cc5bc1f79d078c8a" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int SDict&lt; T &gt;::count</definition>
+        <argsstring>() const </argsstring>
+        <name>count</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns the number of items stored in the dictionary </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/sortdict.h" line="285" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/sortdict.h" bodystart="284" bodyend="287"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Ordered dictionary of elements of type T. </para>    </briefdescription>
+    <detaileddescription>
+<para>Internally uses a QList&lt;T&gt; and a QDict&lt;T&gt;. </para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="4040">
+        <label>SDict&lt; DirRelation &gt;</label>
+        <link refid="d1/d50/class_s_dict"/>
+        <childnode refid="4029" relation="template-instance">
+          <edgelabel>&lt; DirRelation &gt;</edgelabel>
+        </childnode>
+      </node>
+      <node id="4061">
+        <label>SectionDict</label>
+        <link refid="de/d9a/class_section_dict"/>
+        <childnode refid="4060" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4057">
+        <label>SDict&lt; RefItem &gt;</label>
+        <link refid="d1/d50/class_s_dict"/>
+        <childnode refid="4029" relation="template-instance">
+          <edgelabel>&lt; RefItem &gt;</edgelabel>
+        </childnode>
+      </node>
+      <node id="4051">
+        <label>SDict&lt; GenericsCollection &gt;</label>
+        <link refid="d1/d50/class_s_dict"/>
+        <childnode refid="4029" relation="template-instance">
+          <edgelabel>&lt; GenericsCollection &gt;</edgelabel>
+        </childnode>
+      </node>
+      <node id="4036">
+        <label>SDict&lt; QCString &gt;</label>
+        <link refid="d1/d50/class_s_dict"/>
+        <childnode refid="4029" relation="template-instance">
+          <edgelabel>&lt; QCString &gt;</edgelabel>
+        </childnode>
+      </node>
+      <node id="4029">
+        <label>SDict&lt; T &gt;</label>
+        <link refid="d1/d50/class_s_dict"/>
+      </node>
+      <node id="4050">
+        <label>IndexFieldSDict</label>
+        <childnode refid="4049" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4030">
+        <label>SDict&lt; MemberName &gt;</label>
+        <link refid="d1/d50/class_s_dict"/>
+        <childnode refid="4029" relation="template-instance">
+          <edgelabel>&lt; MemberName &gt;</edgelabel>
+        </childnode>
+      </node>
+      <node id="4037">
+        <label>SDict&lt; Definition &gt;</label>
+        <link refid="d1/d50/class_s_dict"/>
+        <childnode refid="4029" relation="template-instance">
+          <edgelabel>&lt; Definition &gt;</edgelabel>
+        </childnode>
+      </node>
+      <node id="4043">
+        <label>NamespaceSDict</label>
+        <link refid="d4/d8d/class_namespace_s_dict"/>
+        <childnode refid="4042" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4042">
+        <label>SDict&lt; NamespaceDef &gt;</label>
+        <link refid="d1/d50/class_s_dict"/>
+        <childnode refid="4029" relation="template-instance">
+          <edgelabel>&lt; NamespaceDef &gt;</edgelabel>
+        </childnode>
+      </node>
+      <node id="4047">
+        <label>SDict&lt; QList&lt; Definition &gt; &gt;</label>
+        <link refid="d1/d50/class_s_dict"/>
+        <childnode refid="4029" relation="template-instance">
+          <edgelabel>&lt; QList&lt; Definition &gt; &gt;</edgelabel>
+        </childnode>
+      </node>
+      <node id="4065">
+        <label>SDict&lt; Example &gt;</label>
+        <link refid="d1/d50/class_s_dict"/>
+        <childnode refid="4029" relation="template-instance">
+          <edgelabel>&lt; Example &gt;</edgelabel>
+        </childnode>
+      </node>
+      <node id="4045">
+        <label>SDict&lt; GroupDef &gt;</label>
+        <link refid="d1/d50/class_s_dict"/>
+        <childnode refid="4029" relation="template-instance">
+          <edgelabel>&lt; GroupDef &gt;</edgelabel>
+        </childnode>
+      </node>
+      <node id="4048">
+        <label>SearchIndexList</label>
+        <childnode refid="4047" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4060">
+        <label>SDict&lt; SectionInfo &gt;</label>
+        <link refid="d1/d50/class_s_dict"/>
+        <childnode refid="4029" relation="template-instance">
+          <edgelabel>&lt; SectionInfo &gt;</edgelabel>
+        </childnode>
+      </node>
+      <node id="4063">
+        <label>SDict&lt; DirDef &gt;</label>
+        <link refid="d1/d50/class_s_dict"/>
+        <childnode refid="4029" relation="template-instance">
+          <edgelabel>&lt; DirDef &gt;</edgelabel>
+        </childnode>
+      </node>
+      <node id="4066">
+        <label>ExampleSDict</label>
+        <link refid="d0/d31/class_example_s_dict"/>
+        <childnode refid="4065" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4039">
+        <label>MemberSDict</label>
+        <link refid="d6/dd6/class_member_s_dict"/>
+        <childnode refid="4038" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4038">
+        <label>SDict&lt; MemberDef &gt;</label>
+        <link refid="d1/d50/class_s_dict"/>
+        <childnode refid="4029" relation="template-instance">
+          <edgelabel>&lt; MemberDef &gt;</edgelabel>
+        </childnode>
+      </node>
+      <node id="4064">
+        <label>DirSDict</label>
+        <link refid="db/dc8/class_dir_s_dict"/>
+        <childnode refid="4063" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4055">
+        <label>ClassSDict</label>
+        <link refid="d9/d3d/class_class_s_dict"/>
+        <childnode refid="4054" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4035">
+        <label>PageSDict</label>
+        <link refid="d0/d59/class_page_s_dict"/>
+        <childnode refid="4034" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4062">
+        <label>SDict&lt; MemberList &gt;</label>
+        <link refid="d1/d50/class_s_dict"/>
+        <childnode refid="4029" relation="template-instance">
+          <edgelabel>&lt; MemberList &gt;</edgelabel>
+        </childnode>
+      </node>
+      <node id="4046">
+        <label>GroupSDict</label>
+        <link refid="d0/d32/class_group_s_dict"/>
+        <childnode refid="4045" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4044">
+        <label>SDict&lt; void &gt;</label>
+        <link refid="d1/d50/class_s_dict"/>
+        <childnode refid="4029" relation="template-instance">
+          <edgelabel>&lt; void &gt;</edgelabel>
+        </childnode>
+      </node>
+      <node id="4034">
+        <label>SDict&lt; PageDef &gt;</label>
+        <link refid="d1/d50/class_s_dict"/>
+        <childnode refid="4029" relation="template-instance">
+          <edgelabel>&lt; PageDef &gt;</edgelabel>
+        </childnode>
+      </node>
+      <node id="4054">
+        <label>SDict&lt; ClassDef &gt;</label>
+        <link refid="d1/d50/class_s_dict"/>
+        <childnode refid="4029" relation="template-instance">
+          <edgelabel>&lt; ClassDef &gt;</edgelabel>
+        </childnode>
+      </node>
+      <node id="4053">
+        <label>FilePairDict</label>
+        <link refid="d0/d5d/class_file_pair_dict"/>
+        <childnode refid="4052" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4052">
+        <label>SDict&lt; FilePair &gt;</label>
+        <link refid="d1/d50/class_s_dict"/>
+        <childnode refid="4029" relation="template-instance">
+          <edgelabel>&lt; FilePair &gt;</edgelabel>
+        </childnode>
+      </node>
+      <node id="4032">
+        <label>SDict&lt; MemberNameInfo &gt;</label>
+        <link refid="d1/d50/class_s_dict"/>
+        <childnode refid="4029" relation="template-instance">
+          <edgelabel>&lt; MemberNameInfo &gt;</edgelabel>
+        </childnode>
+      </node>
+      <node id="4033">
+        <label>MemberNameInfoSDict</label>
+        <link refid="d6/d70/class_member_name_info_s_dict"/>
+        <childnode refid="4032" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4031">
+        <label>MemberNameSDict</label>
+        <link refid="d1/d7e/class_member_name_s_dict"/>
+        <childnode refid="4030" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4041">
+        <label>SDict&lt; DotFilePatcher &gt;</label>
+        <link refid="d1/d50/class_s_dict"/>
+        <childnode refid="4029" relation="template-instance">
+          <edgelabel>&lt; DotFilePatcher &gt;</edgelabel>
+        </childnode>
+      </node>
+      <node id="4056">
+        <label>SDict&lt; NodeDef &gt;</label>
+        <link refid="d1/d50/class_s_dict"/>
+        <childnode refid="4029" relation="template-instance">
+          <edgelabel>&lt; NodeDef &gt;</edgelabel>
+        </childnode>
+      </node>
+      <node id="4049">
+        <label>SDict&lt; IndexField &gt;</label>
+        <link refid="d1/d50/class_s_dict"/>
+        <childnode refid="4029" relation="template-instance">
+          <edgelabel>&lt; IndexField &gt;</edgelabel>
+        </childnode>
+      </node>
+      <node id="4058">
+        <label>SortedRefItems</label>
+        <link refid="d0/d8c/class_sorted_ref_items"/>
+        <childnode refid="4057" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4059">
+        <label>SDict&lt; SearchDocEntry &gt;</label>
+        <link refid="d1/d50/class_s_dict"/>
+        <childnode refid="4029" relation="template-instance">
+          <edgelabel>&lt; SearchDocEntry &gt;</edgelabel>
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/sortdict.h" line="73" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/sortdict.h" bodystart="73" bodyend="-1"/>
+    <listofallmembers>
+      <member refid="d1/d50/class_s_dict_1a121842d9858421076b81ed663034d62c" prot="public" virt="non-virtual"><scope>SDict</scope><name>append</name></member>
+      <member refid="d1/d50/class_s_dict_1ab993899004fc3cfc8f00f131e0b6a29d" prot="public" virt="non-virtual"><scope>SDict</scope><name>at</name></member>
+      <member refid="d1/d50/class_s_dict_1afd6bec6aaf77e2943f42cec1208bc46d" prot="public" virt="non-virtual"><scope>SDict</scope><name>clear</name></member>
+      <member refid="d1/d50/class_s_dict_1a99cd2f7d27403649ab8b7e60d06f487e" prot="public" virt="virtual"><scope>SDict</scope><name>compareItems</name></member>
+      <member refid="d1/d50/class_s_dict_1a9e95eebac3e87938cc5bc1f79d078c8a" prot="public" virt="non-virtual"><scope>SDict</scope><name>count</name></member>
+      <member refid="d1/d50/class_s_dict_1aec67482d780157680d46f48a7ed5e7bd" prot="public" virt="non-virtual"><scope>SDict</scope><name>find</name></member>
+      <member refid="d1/d50/class_s_dict_1a357a25974d906de30d2e34de08b35a4e" prot="public" virt="non-virtual"><scope>SDict</scope><name>find</name></member>
+      <member refid="d1/d50/class_s_dict_1abc60b1cc06b0643753906387b7cccfe2" prot="public" virt="non-virtual"><scope>SDict</scope><name>find</name></member>
+      <member refid="d1/d50/class_s_dict_1a6a05b33d4c87325d4f2826921910c89d" prot="public" virt="non-virtual"><scope>SDict</scope><name>findAt</name></member>
+      <member refid="d1/d50/class_s_dict_1a7f0a7e316d26fccdf7d0d351837a6614" prot="public" virt="non-virtual"><scope>SDict</scope><name>insertAt</name></member>
+      <member refid="d1/d50/class_s_dict_1a25a85aeba441b4c855ea7be25a4741b5" prot="public" virt="non-virtual"><scope>SDict</scope><name>inSort</name></member>
+      <member refid="d1/d50/class_s_dict_1a9830fc407400559db7e7783cc10a9394" prot="public" virt="non-virtual"><scope>SDict</scope><name>Iterator</name></member>
+      <member refid="d1/d50/class_s_dict_1ab362b5ead75b40c212098db068d50ac7" prot="public" virt="non-virtual"><scope>SDict</scope><name>IteratorDict</name></member>
+      <member refid="d1/d50/class_s_dict_1a3369f44806ff2547a5ca4fec5e803572" prot="private" virt="non-virtual"><scope>SDict</scope><name>m_dict</name></member>
+      <member refid="d1/d50/class_s_dict_1a5ea3a7928b470c535b4e9b37608fa112" prot="private" virt="non-virtual"><scope>SDict</scope><name>m_list</name></member>
+      <member refid="d1/d50/class_s_dict_1a9257e29270773b23259501188cb3b89f" prot="private" virt="non-virtual"><scope>SDict</scope><name>m_sizeIndex</name></member>
+      <member refid="d1/d50/class_s_dict_1a1858d5cdf864c4fa6476137ace8bb7f5" prot="public" virt="non-virtual"><scope>SDict</scope><name>operator[]</name></member>
+      <member refid="d1/d50/class_s_dict_1adcfbdc244e81360522457c8a84069f2b" prot="public" virt="non-virtual"><scope>SDict</scope><name>prepend</name></member>
+      <member refid="d1/d50/class_s_dict_1ad647b04c9dff33ac0182c4d83b025c77" prot="public" virt="non-virtual"><scope>SDict</scope><name>remove</name></member>
+      <member refid="d1/d50/class_s_dict_1a42ccd9c8ed71acbe2771ac65df817323" prot="public" virt="non-virtual"><scope>SDict</scope><name>SDict</name></member>
+      <member refid="d1/d50/class_s_dict_1ac5ed340a2e6b4b4fb8398254cd35ef55" prot="public" virt="non-virtual"><scope>SDict</scope><name>setAutoDelete</name></member>
+      <member refid="d1/d50/class_s_dict_1ab6da88a61ee284dfbd07830fcd63aed3" prot="public" virt="non-virtual"><scope>SDict</scope><name>sort</name></member>
+      <member refid="d1/d50/class_s_dict_1ac5aa2cf317cef817cf585efdab3663d7" prot="public" virt="non-virtual"><scope>SDict</scope><name>take</name></member>
+      <member refid="d1/d50/class_s_dict_1a49594f6c587e0915be3861538a3c96cb" prot="public" virt="virtual"><scope>SDict</scope><name>~SDict</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

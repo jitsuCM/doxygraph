@@ -1,0 +1,2540 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.2">
+  <compounddef id="d4/dd7/class_entry" kind="class" prot="public">
+    <compoundname>Entry</compoundname>
+    <includes refid="d1/dc6/entry_8h" local="no">entry.h</includes>
+      <sectiondef kind="public-type">
+      <memberdef kind="enum" id="d4/dd7/class_entry_1a1e615d53eb7db6d16c19fcb5788fbd9e" prot="public" static="no">
+        <name>Sections</name>
+        <enumvalue id="d4/dd7/class_entry_1a1e615d53eb7db6d16c19fcb5788fbd9eafe3e2fbfb346a3d291cea00bdae441fb" prot="public">
+          <name>CLASS_SEC</name>
+          <initializer>= 0x00000001</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d4/dd7/class_entry_1a1e615d53eb7db6d16c19fcb5788fbd9ea86229a756764e3d5f94ad24c19cd2ce1" prot="public">
+          <name>NAMESPACE_SEC</name>
+          <initializer>= 0x00000010</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d4/dd7/class_entry_1a1e615d53eb7db6d16c19fcb5788fbd9ea0fbc29ab81cad1713e5b59f04a6866fb" prot="public">
+          <name>COMPOUND_MASK</name>
+          <initializer>= CLASS_SEC</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d4/dd7/class_entry_1a1e615d53eb7db6d16c19fcb5788fbd9ea07caefb6556cecb7ebaf6eb730fdd871" prot="public">
+          <name>SCOPE_MASK</name>
+          <initializer>= COMPOUND_MASK | NAMESPACE_SEC</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d4/dd7/class_entry_1a1e615d53eb7db6d16c19fcb5788fbd9eac0433f4df4711b49a0e7dfa5565764e4" prot="public">
+          <name>CLASSDOC_SEC</name>
+          <initializer>= 0x00000800</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d4/dd7/class_entry_1a1e615d53eb7db6d16c19fcb5788fbd9ea5067509972e2fbb0b77112960f72e0ec" prot="public">
+          <name>STRUCTDOC_SEC</name>
+          <initializer>= 0x00001000</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d4/dd7/class_entry_1a1e615d53eb7db6d16c19fcb5788fbd9ea9204315b71c1ecf6824c749a958f61b5" prot="public">
+          <name>UNIONDOC_SEC</name>
+          <initializer>= 0x00002000</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d4/dd7/class_entry_1a1e615d53eb7db6d16c19fcb5788fbd9eabf09227a400f2348ecff8291632c45b0" prot="public">
+          <name>EXCEPTIONDOC_SEC</name>
+          <initializer>= 0x00004000</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d4/dd7/class_entry_1a1e615d53eb7db6d16c19fcb5788fbd9ea84f12bd39a098e35429a33c7b2f2e91f" prot="public">
+          <name>NAMESPACEDOC_SEC</name>
+          <initializer>= 0x00008000</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d4/dd7/class_entry_1a1e615d53eb7db6d16c19fcb5788fbd9ea1d38478f61ce5d9d8f1de84d6fb9a1c7" prot="public">
+          <name>INTERFACEDOC_SEC</name>
+          <initializer>= 0x00010000</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d4/dd7/class_entry_1a1e615d53eb7db6d16c19fcb5788fbd9ead9fa44283a6ddc98f642c7a478e8809c" prot="public">
+          <name>PROTOCOLDOC_SEC</name>
+          <initializer>= 0x00020000</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d4/dd7/class_entry_1a1e615d53eb7db6d16c19fcb5788fbd9ea2443071c65e9677804732affd5f226e9" prot="public">
+          <name>CATEGORYDOC_SEC</name>
+          <initializer>= 0x00040000</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d4/dd7/class_entry_1a1e615d53eb7db6d16c19fcb5788fbd9ea35caf3f160162e6bc32fa6b826b99758" prot="public">
+          <name>SERVICEDOC_SEC</name>
+          <initializer>= 0x00080000</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d4/dd7/class_entry_1a1e615d53eb7db6d16c19fcb5788fbd9ea53aa6ec4489c6121cbdab881bae32e16" prot="public">
+          <name>SINGLETONDOC_SEC</name>
+          <initializer>= 0x00100000</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d4/dd7/class_entry_1a1e615d53eb7db6d16c19fcb5788fbd9ea0ebd1dc0e6463d1afa52735edb732576" prot="public">
+          <name>COMPOUNDDOC_MASK</name>
+          <initializer>= CLASSDOC_SEC | STRUCTDOC_SEC | UNIONDOC_SEC | 
+                         INTERFACEDOC_SEC | EXCEPTIONDOC_SEC | PROTOCOLDOC_SEC |
+                         CATEGORYDOC_SEC | SERVICEDOC_SEC | SINGLETONDOC_SEC</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d4/dd7/class_entry_1a1e615d53eb7db6d16c19fcb5788fbd9ea88c12ff4f573557ac9c36e16b1e84396" prot="public">
+          <name>SOURCE_SEC</name>
+          <initializer>= 0x00400000</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d4/dd7/class_entry_1a1e615d53eb7db6d16c19fcb5788fbd9ea61b2174c7ae58ea3a495d75b187db937" prot="public">
+          <name>HEADER_SEC</name>
+          <initializer>= 0x00800000</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d4/dd7/class_entry_1a1e615d53eb7db6d16c19fcb5788fbd9eab6221ac6d0848e4bea8b746572b2722a" prot="public">
+          <name>FILE_MASK</name>
+          <initializer>= SOURCE_SEC | HEADER_SEC</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d4/dd7/class_entry_1a1e615d53eb7db6d16c19fcb5788fbd9ea1d73fb64ff40c38552ab4485a9c6afe5" prot="public">
+          <name>ENUMDOC_SEC</name>
+          <initializer>= 0x01000000</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d4/dd7/class_entry_1a1e615d53eb7db6d16c19fcb5788fbd9ea8730c3fab803821640a0afa085ee8fbf" prot="public">
+          <name>ENUM_SEC</name>
+          <initializer>= 0x02000000</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d4/dd7/class_entry_1a1e615d53eb7db6d16c19fcb5788fbd9ea11846c7a97e4913143fe0ad71ca109a3" prot="public">
+          <name>EMPTY_SEC</name>
+          <initializer>= 0x03000000</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d4/dd7/class_entry_1a1e615d53eb7db6d16c19fcb5788fbd9eacb6a803c732ccd6d66b0c260459a0f1e" prot="public">
+          <name>PAGEDOC_SEC</name>
+          <initializer>= 0x04000000</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d4/dd7/class_entry_1a1e615d53eb7db6d16c19fcb5788fbd9ea25a7eb430ec1ff5877adcba5930fa09d" prot="public">
+          <name>VARIABLE_SEC</name>
+          <initializer>= 0x05000000</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d4/dd7/class_entry_1a1e615d53eb7db6d16c19fcb5788fbd9ea0a9b5e033a271b5e44491c2c8277d12e" prot="public">
+          <name>FUNCTION_SEC</name>
+          <initializer>= 0x06000000</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d4/dd7/class_entry_1a1e615d53eb7db6d16c19fcb5788fbd9ea41ce0bffd8f62c6290ec1631a5383239" prot="public">
+          <name>TYPEDEF_SEC</name>
+          <initializer>= 0x07000000</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d4/dd7/class_entry_1a1e615d53eb7db6d16c19fcb5788fbd9ea1cdc60d6712c8674b7785a7d2ad5831d" prot="public">
+          <name>MEMBERDOC_SEC</name>
+          <initializer>= 0x08000000</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d4/dd7/class_entry_1a1e615d53eb7db6d16c19fcb5788fbd9ea10993a5074ca0f813f263a2aa9600231" prot="public">
+          <name>OVERLOADDOC_SEC</name>
+          <initializer>= 0x09000000</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d4/dd7/class_entry_1a1e615d53eb7db6d16c19fcb5788fbd9ea47aeda2046ce049766a8a4215c36f54a" prot="public">
+          <name>EXAMPLE_SEC</name>
+          <initializer>= 0x0a000000</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d4/dd7/class_entry_1a1e615d53eb7db6d16c19fcb5788fbd9ea9c954be8effa57227478188c78d2c313" prot="public">
+          <name>VARIABLEDOC_SEC</name>
+          <initializer>= 0x0b000000</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d4/dd7/class_entry_1a1e615d53eb7db6d16c19fcb5788fbd9ea921d45942f2ccaecb30796529ff2fd88" prot="public">
+          <name>FILEDOC_SEC</name>
+          <initializer>= 0x0c000000</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d4/dd7/class_entry_1a1e615d53eb7db6d16c19fcb5788fbd9ea17c899186346ea386ad23679cb921831" prot="public">
+          <name>DEFINEDOC_SEC</name>
+          <initializer>= 0x0d000000</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d4/dd7/class_entry_1a1e615d53eb7db6d16c19fcb5788fbd9ea1d5fb5cd375986933fbd33de101669f4" prot="public">
+          <name>INCLUDE_SEC</name>
+          <initializer>= 0x0e000000</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d4/dd7/class_entry_1a1e615d53eb7db6d16c19fcb5788fbd9eae1bf71458b0b2b95f9b45db04580215d" prot="public">
+          <name>DEFINE_SEC</name>
+          <initializer>= 0x0f000000</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d4/dd7/class_entry_1a1e615d53eb7db6d16c19fcb5788fbd9eac436870a3523aa8c5466e9cf63ec0c75" prot="public">
+          <name>GROUPDOC_SEC</name>
+          <initializer>= 0x10000000</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d4/dd7/class_entry_1a1e615d53eb7db6d16c19fcb5788fbd9ea02b6fd475d93b9857740ec4621dbd78c" prot="public">
+          <name>USINGDIR_SEC</name>
+          <initializer>= 0x11000000</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d4/dd7/class_entry_1a1e615d53eb7db6d16c19fcb5788fbd9ea3d14d1f9bc14ce1ea0ae448013b2ca5d" prot="public">
+          <name>MAINPAGEDOC_SEC</name>
+          <initializer>= 0x12000000</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d4/dd7/class_entry_1a1e615d53eb7db6d16c19fcb5788fbd9ea171c9ddbf862a67af2ff3d9e98f1dac4" prot="public">
+          <name>MEMBERGRP_SEC</name>
+          <initializer>= 0x13000000</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d4/dd7/class_entry_1a1e615d53eb7db6d16c19fcb5788fbd9eaf36465de74f5e770163ff501164b5ea3" prot="public">
+          <name>USINGDECL_SEC</name>
+          <initializer>= 0x14000000</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d4/dd7/class_entry_1a1e615d53eb7db6d16c19fcb5788fbd9eadc53e0081b3056cbc39132455d87d661" prot="public">
+          <name>PACKAGE_SEC</name>
+          <initializer>= 0x15000000</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d4/dd7/class_entry_1a1e615d53eb7db6d16c19fcb5788fbd9eaff3a0a82e337b98af15203f11db90d14" prot="public">
+          <name>PACKAGEDOC_SEC</name>
+          <initializer>= 0x16000000</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d4/dd7/class_entry_1a1e615d53eb7db6d16c19fcb5788fbd9ea3fbb1e10f0eb30e274f6075ef399f9b3" prot="public">
+          <name>OBJCIMPL_SEC</name>
+          <initializer>= 0x17000000</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d4/dd7/class_entry_1a1e615d53eb7db6d16c19fcb5788fbd9ea0f04437247b50cb9731aabc27a555c04" prot="public">
+          <name>DIRDOC_SEC</name>
+          <initializer>= 0x18000000</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d4/dd7/class_entry_1a1e615d53eb7db6d16c19fcb5788fbd9ea09a48dbfb47d95b8c33bbb8d2c751f11" prot="public">
+          <name>EXPORTED_INTERFACE_SEC</name>
+          <initializer>= 0x19000000</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d4/dd7/class_entry_1a1e615d53eb7db6d16c19fcb5788fbd9eaaa9c67e31f133405378f06869ec0da27" prot="public">
+          <name>INCLUDED_SERVICE_SEC</name>
+          <initializer>= 0x1A000000</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Kind of entries that are supported </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/entry.h" line="68" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/entry.h" bodystart="68" bodyend="118"/>
+      </memberdef>
+      <memberdef kind="enum" id="d4/dd7/class_entry_1a470b655d0d6179559a11a81e6617d509" prot="public" static="no">
+        <name>GroupDocType</name>
+        <enumvalue id="d4/dd7/class_entry_1a470b655d0d6179559a11a81e6617d509af6812be32a740baaad470ce4aec182be" prot="public">
+          <name>GROUPDOC_NORMAL</name>
+          <briefdescription>
+<para>defgroup </para>          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d4/dd7/class_entry_1a470b655d0d6179559a11a81e6617d509a7637daf4200f6f55374604f2384ac925" prot="public">
+          <name>GROUPDOC_ADD</name>
+          <briefdescription>
+<para>addgroup </para>          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d4/dd7/class_entry_1a470b655d0d6179559a11a81e6617d509a4231a193e86f3b43e9b1b6fe12f64ed0" prot="public">
+          <name>GROUPDOC_WEAK</name>
+          <briefdescription>
+<para>weakgroup </para>          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/entry.h" line="180" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/entry.h" bodystart="179" bodyend="184"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="d4/dd7/class_entry_1ae239a5ac21792686fed8a38e2dd49161" prot="public" static="yes" mutable="no">
+        <type>const uint64</type>
+        <definition>const uint64 Entry::Template</definition>
+        <argsstring></argsstring>
+        <name>Template</name>
+        <initializer>= (1ULL&lt;&lt;0)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/entry.h" line="121" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/entry.h" bodystart="121" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d4/dd7/class_entry_1ae02e62d1c60a9a43bed5d691b5a048b8" prot="public" static="yes" mutable="no">
+        <type>const uint64</type>
+        <definition>const uint64 Entry::Generic</definition>
+        <argsstring></argsstring>
+        <name>Generic</name>
+        <initializer>= (1ULL&lt;&lt;1)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/entry.h" line="122" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/entry.h" bodystart="122" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d4/dd7/class_entry_1a530abd3056891add4d91ef6b26a55ca1" prot="public" static="yes" mutable="no">
+        <type>const uint64</type>
+        <definition>const uint64 Entry::Ref</definition>
+        <argsstring></argsstring>
+        <name>Ref</name>
+        <initializer>= (1ULL&lt;&lt;2)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/entry.h" line="123" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/entry.h" bodystart="123" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d4/dd7/class_entry_1aed8b4b067480b3b467f64363e390be17" prot="public" static="yes" mutable="no">
+        <type>const uint64</type>
+        <definition>const uint64 Entry::Value</definition>
+        <argsstring></argsstring>
+        <name>Value</name>
+        <initializer>= (1ULL&lt;&lt;3)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/entry.h" line="124" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/entry.h" bodystart="124" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d4/dd7/class_entry_1ab880f63d6603f9ba28fcea37575ff7ce" prot="public" static="yes" mutable="no">
+        <type>const uint64</type>
+        <definition>const uint64 Entry::Interface</definition>
+        <argsstring></argsstring>
+        <name>Interface</name>
+        <initializer>= (1ULL&lt;&lt;4)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/entry.h" line="125" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/entry.h" bodystart="125" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d4/dd7/class_entry_1a62352fd788f44f3b34541092e3bee1a2" prot="public" static="yes" mutable="no">
+        <type>const uint64</type>
+        <definition>const uint64 Entry::Struct</definition>
+        <argsstring></argsstring>
+        <name>Struct</name>
+        <initializer>= (1ULL&lt;&lt;5)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/entry.h" line="126" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/entry.h" bodystart="126" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d4/dd7/class_entry_1a2954b31782155586b4d154cd8bcbaa86" prot="public" static="yes" mutable="no">
+        <type>const uint64</type>
+        <definition>const uint64 Entry::Union</definition>
+        <argsstring></argsstring>
+        <name>Union</name>
+        <initializer>= (1ULL&lt;&lt;6)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/entry.h" line="127" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/entry.h" bodystart="127" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d4/dd7/class_entry_1af0d4d4eb70d52c24edeacf0fd339279e" prot="public" static="yes" mutable="no">
+        <type>const uint64</type>
+        <definition>const uint64 Entry::Exception</definition>
+        <argsstring></argsstring>
+        <name>Exception</name>
+        <initializer>= (1ULL&lt;&lt;7)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/entry.h" line="128" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/entry.h" bodystart="128" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d4/dd7/class_entry_1a3a84b60a59e7bc7cb2d1b71e3be16d80" prot="public" static="yes" mutable="no">
+        <type>const uint64</type>
+        <definition>const uint64 Entry::Protocol</definition>
+        <argsstring></argsstring>
+        <name>Protocol</name>
+        <initializer>= (1ULL&lt;&lt;8)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/entry.h" line="129" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/entry.h" bodystart="129" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d4/dd7/class_entry_1aa6c8050991d37fb7c7f56f50399c75c2" prot="public" static="yes" mutable="no">
+        <type>const uint64</type>
+        <definition>const uint64 Entry::Category</definition>
+        <argsstring></argsstring>
+        <name>Category</name>
+        <initializer>= (1ULL&lt;&lt;9)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/entry.h" line="130" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/entry.h" bodystart="130" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d4/dd7/class_entry_1a52ebcc0cc1ada1d65110f17c5a53bae8" prot="public" static="yes" mutable="no">
+        <type>const uint64</type>
+        <definition>const uint64 Entry::SealedClass</definition>
+        <argsstring></argsstring>
+        <name>SealedClass</name>
+        <initializer>= (1ULL&lt;&lt;10)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/entry.h" line="131" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/entry.h" bodystart="131" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d4/dd7/class_entry_1add1e67450bf4630c0f39319e4ab0ccb7" prot="public" static="yes" mutable="no">
+        <type>const uint64</type>
+        <definition>const uint64 Entry::AbstractClass</definition>
+        <argsstring></argsstring>
+        <name>AbstractClass</name>
+        <initializer>= (1ULL&lt;&lt;11)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/entry.h" line="132" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/entry.h" bodystart="132" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d4/dd7/class_entry_1ad7939aa71a758ac6542eae7a751fa402" prot="public" static="yes" mutable="no">
+        <type>const uint64</type>
+        <definition>const uint64 Entry::Enum</definition>
+        <argsstring></argsstring>
+        <name>Enum</name>
+        <initializer>= (1ULL&lt;&lt;12)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/entry.h" line="133" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/entry.h" bodystart="133" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d4/dd7/class_entry_1a9547b8789d4e3947195c1d61f5e1a96a" prot="public" static="yes" mutable="no">
+        <type>const uint64</type>
+        <definition>const uint64 Entry::Service</definition>
+        <argsstring></argsstring>
+        <name>Service</name>
+        <initializer>= (1ULL&lt;&lt;13)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/entry.h" line="134" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/entry.h" bodystart="134" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d4/dd7/class_entry_1a0d43729e0fcbde5bb4ab3a7f955a8414" prot="public" static="yes" mutable="no">
+        <type>const uint64</type>
+        <definition>const uint64 Entry::Singleton</definition>
+        <argsstring></argsstring>
+        <name>Singleton</name>
+        <initializer>= (1ULL&lt;&lt;14)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/entry.h" line="135" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/entry.h" bodystart="135" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d4/dd7/class_entry_1af6ecc88758dbf70b8ac46f1653084fba" prot="public" static="yes" mutable="no">
+        <type>const uint64</type>
+        <definition>const uint64 Entry::Inline</definition>
+        <argsstring></argsstring>
+        <name>Inline</name>
+        <initializer>= (1ULL&lt;&lt;24)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/entry.h" line="138" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/entry.h" bodystart="138" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d4/dd7/class_entry_1aa0daa6276cfbd5511ee700e3a28fc345" prot="public" static="yes" mutable="no">
+        <type>const uint64</type>
+        <definition>const uint64 Entry::Explicit</definition>
+        <argsstring></argsstring>
+        <name>Explicit</name>
+        <initializer>= (1ULL&lt;&lt;25)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/entry.h" line="139" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/entry.h" bodystart="139" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d4/dd7/class_entry_1abdb668913f12e2bb7f497d1240f4dabe" prot="public" static="yes" mutable="no">
+        <type>const uint64</type>
+        <definition>const uint64 Entry::Mutable</definition>
+        <argsstring></argsstring>
+        <name>Mutable</name>
+        <initializer>= (1ULL&lt;&lt;26)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/entry.h" line="140" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/entry.h" bodystart="140" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d4/dd7/class_entry_1afce6228666d983de4eb2c817ab80c035" prot="public" static="yes" mutable="no">
+        <type>const uint64</type>
+        <definition>const uint64 Entry::Settable</definition>
+        <argsstring></argsstring>
+        <name>Settable</name>
+        <initializer>= (1ULL&lt;&lt;27)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/entry.h" line="141" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/entry.h" bodystart="141" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d4/dd7/class_entry_1aecb46e9992b0cf2e49a14f2eaf74d60b" prot="public" static="yes" mutable="no">
+        <type>const uint64</type>
+        <definition>const uint64 Entry::Gettable</definition>
+        <argsstring></argsstring>
+        <name>Gettable</name>
+        <initializer>= (1ULL&lt;&lt;28)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/entry.h" line="142" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/entry.h" bodystart="142" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d4/dd7/class_entry_1a96ae6836464b455d422a5caec657aa52" prot="public" static="yes" mutable="no">
+        <type>const uint64</type>
+        <definition>const uint64 Entry::Readable</definition>
+        <argsstring></argsstring>
+        <name>Readable</name>
+        <initializer>= (1ULL&lt;&lt;29)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/entry.h" line="143" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/entry.h" bodystart="143" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d4/dd7/class_entry_1a25dcb70eced0093cf96d0cac37689f75" prot="public" static="yes" mutable="no">
+        <type>const uint64</type>
+        <definition>const uint64 Entry::Writable</definition>
+        <argsstring></argsstring>
+        <name>Writable</name>
+        <initializer>= (1ULL&lt;&lt;30)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/entry.h" line="144" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/entry.h" bodystart="144" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d4/dd7/class_entry_1a05e41a105992fc7549e7694fcfefb5cc" prot="public" static="yes" mutable="no">
+        <type>const uint64</type>
+        <definition>const uint64 Entry::Final</definition>
+        <argsstring></argsstring>
+        <name>Final</name>
+        <initializer>= (1ULL&lt;&lt;31)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/entry.h" line="145" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/entry.h" bodystart="145" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d4/dd7/class_entry_1a7ed5284eedae913c0384db5a260351b0" prot="public" static="yes" mutable="no">
+        <type>const uint64</type>
+        <definition>const uint64 Entry::Abstract</definition>
+        <argsstring></argsstring>
+        <name>Abstract</name>
+        <initializer>= (1ULL&lt;&lt;32)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/entry.h" line="146" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/entry.h" bodystart="146" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d4/dd7/class_entry_1a101123e22e8c483bd4ee78a529318dd3" prot="public" static="yes" mutable="no">
+        <type>const uint64</type>
+        <definition>const uint64 Entry::Addable</definition>
+        <argsstring></argsstring>
+        <name>Addable</name>
+        <initializer>= (1ULL&lt;&lt;33)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/entry.h" line="147" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/entry.h" bodystart="147" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d4/dd7/class_entry_1a8776cd2246f045bb3babf98767059b01" prot="public" static="yes" mutable="no">
+        <type>const uint64</type>
+        <definition>const uint64 Entry::Removable</definition>
+        <argsstring></argsstring>
+        <name>Removable</name>
+        <initializer>= (1ULL&lt;&lt;34)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/entry.h" line="148" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/entry.h" bodystart="148" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d4/dd7/class_entry_1af29e470caff223862bd5da2ebbc2dae3" prot="public" static="yes" mutable="no">
+        <type>const uint64</type>
+        <definition>const uint64 Entry::Raisable</definition>
+        <argsstring></argsstring>
+        <name>Raisable</name>
+        <initializer>= (1ULL&lt;&lt;35)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/entry.h" line="149" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/entry.h" bodystart="149" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d4/dd7/class_entry_1a83dbbe54e04a253b8e9bdbebacf02ab5" prot="public" static="yes" mutable="no">
+        <type>const uint64</type>
+        <definition>const uint64 Entry::Override</definition>
+        <argsstring></argsstring>
+        <name>Override</name>
+        <initializer>= (1ULL&lt;&lt;36)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/entry.h" line="150" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/entry.h" bodystart="150" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d4/dd7/class_entry_1aafb321f7d03c78d478eb517e2b8fee5c" prot="public" static="yes" mutable="no">
+        <type>const uint64</type>
+        <definition>const uint64 Entry::New</definition>
+        <argsstring></argsstring>
+        <name>New</name>
+        <initializer>= (1ULL&lt;&lt;37)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/entry.h" line="151" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/entry.h" bodystart="151" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d4/dd7/class_entry_1a39e7b20eb9fc71542b0d22beea8c3dc3" prot="public" static="yes" mutable="no">
+        <type>const uint64</type>
+        <definition>const uint64 Entry::Sealed</definition>
+        <argsstring></argsstring>
+        <name>Sealed</name>
+        <initializer>= (1ULL&lt;&lt;38)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/entry.h" line="152" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/entry.h" bodystart="152" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d4/dd7/class_entry_1a08eec02f87c0ace9463450d8d385e6c5" prot="public" static="yes" mutable="no">
+        <type>const uint64</type>
+        <definition>const uint64 Entry::Initonly</definition>
+        <argsstring></argsstring>
+        <name>Initonly</name>
+        <initializer>= (1ULL&lt;&lt;39)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/entry.h" line="153" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/entry.h" bodystart="153" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d4/dd7/class_entry_1a9ad48c27ca569a257713c043a97a73b4" prot="public" static="yes" mutable="no">
+        <type>const uint64</type>
+        <definition>const uint64 Entry::Optional</definition>
+        <argsstring></argsstring>
+        <name>Optional</name>
+        <initializer>= (1ULL&lt;&lt;40)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/entry.h" line="154" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/entry.h" bodystart="154" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d4/dd7/class_entry_1a8f112187a1d23bcc9a76e24ce8cb995f" prot="public" static="yes" mutable="no">
+        <type>const uint64</type>
+        <definition>const uint64 Entry::Required</definition>
+        <argsstring></argsstring>
+        <name>Required</name>
+        <initializer>= (1ULL&lt;&lt;41)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/entry.h" line="155" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/entry.h" bodystart="155" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d4/dd7/class_entry_1a625709046534d2a921dcea4f6cc5e201" prot="public" static="yes" mutable="no">
+        <type>const uint64</type>
+        <definition>const uint64 Entry::NonAtomic</definition>
+        <argsstring></argsstring>
+        <name>NonAtomic</name>
+        <initializer>= (1ULL&lt;&lt;42)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/entry.h" line="156" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/entry.h" bodystart="156" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d4/dd7/class_entry_1a4e1e6da7b39bc64723ee35d131e28e15" prot="public" static="yes" mutable="no">
+        <type>const uint64</type>
+        <definition>const uint64 Entry::Copy</definition>
+        <argsstring></argsstring>
+        <name>Copy</name>
+        <initializer>= (1ULL&lt;&lt;43)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/entry.h" line="157" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/entry.h" bodystart="157" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d4/dd7/class_entry_1a4e58873aeb4db094eca72da7444161e9" prot="public" static="yes" mutable="no">
+        <type>const uint64</type>
+        <definition>const uint64 Entry::Retain</definition>
+        <argsstring></argsstring>
+        <name>Retain</name>
+        <initializer>= (1ULL&lt;&lt;44)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/entry.h" line="158" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/entry.h" bodystart="158" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d4/dd7/class_entry_1a693e96b217885eef90ebcb231fbebf79" prot="public" static="yes" mutable="no">
+        <type>const uint64</type>
+        <definition>const uint64 Entry::Assign</definition>
+        <argsstring></argsstring>
+        <name>Assign</name>
+        <initializer>= (1ULL&lt;&lt;45)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/entry.h" line="159" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/entry.h" bodystart="159" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d4/dd7/class_entry_1a4f025cdbdb27c73efe7f6f5c9af9113e" prot="public" static="yes" mutable="no">
+        <type>const uint64</type>
+        <definition>const uint64 Entry::Strong</definition>
+        <argsstring></argsstring>
+        <name>Strong</name>
+        <initializer>= (1ULL&lt;&lt;46)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/entry.h" line="160" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/entry.h" bodystart="160" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d4/dd7/class_entry_1ac4e4222ded00c776ad62dadac47d56e3" prot="public" static="yes" mutable="no">
+        <type>const uint64</type>
+        <definition>const uint64 Entry::Weak</definition>
+        <argsstring></argsstring>
+        <name>Weak</name>
+        <initializer>= (1ULL&lt;&lt;47)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/entry.h" line="161" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/entry.h" bodystart="161" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d4/dd7/class_entry_1a64b2b777cba602e308b811702be5ab58" prot="public" static="yes" mutable="no">
+        <type>const uint64</type>
+        <definition>const uint64 Entry::Unretained</definition>
+        <argsstring></argsstring>
+        <name>Unretained</name>
+        <initializer>= (1ULL&lt;&lt;48)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/entry.h" line="162" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/entry.h" bodystart="162" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d4/dd7/class_entry_1a2b7df5462b391501de62d2f2238f0a75" prot="public" static="yes" mutable="no">
+        <type>const uint64</type>
+        <definition>const uint64 Entry::Alias</definition>
+        <argsstring></argsstring>
+        <name>Alias</name>
+        <initializer>= (1ULL&lt;&lt;49)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/entry.h" line="163" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/entry.h" bodystart="163" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d4/dd7/class_entry_1ada4aaba5fbbbf54141b2eb9eec393b17" prot="public" static="yes" mutable="no">
+        <type>const uint64</type>
+        <definition>const uint64 Entry::ConstExp</definition>
+        <argsstring></argsstring>
+        <name>ConstExp</name>
+        <initializer>= (1ULL&lt;&lt;50)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/entry.h" line="164" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/entry.h" bodystart="164" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d4/dd7/class_entry_1ad07a0f209289d0375b5740a58fdb3208" prot="public" static="yes" mutable="no">
+        <type>const uint64</type>
+        <definition>const uint64 Entry::Default</definition>
+        <argsstring></argsstring>
+        <name>Default</name>
+        <initializer>= (1ULL&lt;&lt;51)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/entry.h" line="165" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/entry.h" bodystart="165" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d4/dd7/class_entry_1a7acc394a520d7dbc506a434baa11b2ff" prot="public" static="yes" mutable="no">
+        <type>const uint64</type>
+        <definition>const uint64 Entry::Delete</definition>
+        <argsstring></argsstring>
+        <name>Delete</name>
+        <initializer>= (1ULL&lt;&lt;52)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/entry.h" line="166" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/entry.h" bodystart="166" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d4/dd7/class_entry_1ac6b75896b4f2bda76dfc3c0a476af5c9" prot="public" static="yes" mutable="no">
+        <type>const uint64</type>
+        <definition>const uint64 Entry::NoExcept</definition>
+        <argsstring></argsstring>
+        <name>NoExcept</name>
+        <initializer>= (1ULL&lt;&lt;53)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/entry.h" line="167" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/entry.h" bodystart="167" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d4/dd7/class_entry_1a58fb43e4c3a836419285bdcc29302a80" prot="public" static="yes" mutable="no">
+        <type>const uint64</type>
+        <definition>const uint64 Entry::Attribute</definition>
+        <argsstring></argsstring>
+        <name>Attribute</name>
+        <initializer>= (1ULL&lt;&lt;54)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/entry.h" line="168" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/entry.h" bodystart="168" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d4/dd7/class_entry_1a3f6eae37a5b311029176970ab0fdac14" prot="public" static="yes" mutable="no">
+        <type>const uint64</type>
+        <definition>const uint64 Entry::Property</definition>
+        <argsstring></argsstring>
+        <name>Property</name>
+        <initializer>= (1ULL&lt;&lt;55)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/entry.h" line="169" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/entry.h" bodystart="169" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d4/dd7/class_entry_1a6560e43e64a7c5a4b579f6888c9f12f0" prot="public" static="yes" mutable="no">
+        <type>const uint64</type>
+        <definition>const uint64 Entry::Readonly</definition>
+        <argsstring></argsstring>
+        <name>Readonly</name>
+        <initializer>= (1ULL&lt;&lt;56)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/entry.h" line="170" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/entry.h" bodystart="170" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d4/dd7/class_entry_1a34a5de5a4672f4fbcfd879dffc577f58" prot="public" static="yes" mutable="no">
+        <type>const uint64</type>
+        <definition>const uint64 Entry::Bound</definition>
+        <argsstring></argsstring>
+        <name>Bound</name>
+        <initializer>= (1ULL&lt;&lt;57)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/entry.h" line="171" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/entry.h" bodystart="171" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d4/dd7/class_entry_1a025979519b66924ba3cc1de357998f1f" prot="public" static="yes" mutable="no">
+        <type>const uint64</type>
+        <definition>const uint64 Entry::Constrained</definition>
+        <argsstring></argsstring>
+        <name>Constrained</name>
+        <initializer>= (1ULL&lt;&lt;58)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/entry.h" line="172" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/entry.h" bodystart="172" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d4/dd7/class_entry_1a4002f093ccd2b3d3c78c443135757cee" prot="public" static="yes" mutable="no">
+        <type>const uint64</type>
+        <definition>const uint64 Entry::Transient</definition>
+        <argsstring></argsstring>
+        <name>Transient</name>
+        <initializer>= (1ULL&lt;&lt;59)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/entry.h" line="173" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/entry.h" bodystart="173" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d4/dd7/class_entry_1ac4db81b56383103198fda03a5bfe32f7" prot="public" static="yes" mutable="no">
+        <type>const uint64</type>
+        <definition>const uint64 Entry::MaybeVoid</definition>
+        <argsstring></argsstring>
+        <name>MaybeVoid</name>
+        <initializer>= (1ULL&lt;&lt;60)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/entry.h" line="174" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/entry.h" bodystart="174" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d4/dd7/class_entry_1a7fd65cf61e33aa95cef95d5789f61063" prot="public" static="yes" mutable="no">
+        <type>const uint64</type>
+        <definition>const uint64 Entry::MaybeDefault</definition>
+        <argsstring></argsstring>
+        <name>MaybeDefault</name>
+        <initializer>= (1ULL&lt;&lt;61)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/entry.h" line="175" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/entry.h" bodystart="175" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d4/dd7/class_entry_1ae3e84af12e322ab715e5ae191d92d1c7" prot="public" static="yes" mutable="no">
+        <type>const uint64</type>
+        <definition>const uint64 Entry::MaybeAmbiguous</definition>
+        <argsstring></argsstring>
+        <name>MaybeAmbiguous</name>
+        <initializer>= (1ULL&lt;&lt;62)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/entry.h" line="176" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/entry.h" bodystart="176" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d4/dd7/class_entry_1a2dffe3090d7636a879832be07aec6a0a" prot="public" static="yes" mutable="no">
+        <type>const uint64</type>
+        <definition>const uint64 Entry::Published</definition>
+        <argsstring></argsstring>
+        <name>Published</name>
+        <initializer>= (1ULL&lt;&lt;63)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/entry.h" line="177" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/entry.h" bodystart="177" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d4/dd7/class_entry_1a11f13875c6f9f3f9bed32e97a5d50bf5" prot="public" static="yes" mutable="no">
+        <type>int</type>
+        <definition>int Entry::num</definition>
+        <argsstring></argsstring>
+        <name>num</name>
+        <initializer>=0</initializer>
+        <briefdescription>
+<para>counts the total number of entries </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/entry.h" line="288" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/entry.h" bodystart="288" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="d4/dd7/class_entry_1a9197cdd8acd8fc0670e2911a407f3d04" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Entry::section</definition>
+        <argsstring></argsstring>
+        <name>section</name>
+        <briefdescription>
+<para>entry type (see Sections); </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/entry.h" line="230" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/entry.h" bodystart="230" bodyend="-1"/>
+        <referencedby refid="d4/dd7/class_entry_1ae9367c39f34b043c6e36ddb52a4188e0" compoundref="d2/dd2/entry_8cpp" startline="217" endline="274">reset</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="d4/dd7/class_entry_1a79a9b5736630c3769e645f71dc357b9f" prot="public" static="no" mutable="no">
+        <type>QCString</type>
+        <definition>QCString Entry::type</definition>
+        <argsstring></argsstring>
+        <name>type</name>
+        <briefdescription>
+<para>member type </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/entry.h" line="231" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/entry.h" bodystart="231" bodyend="-1"/>
+        <referencedby refid="d4/dd7/class_entry_1ae9367c39f34b043c6e36ddb52a4188e0" compoundref="d2/dd2/entry_8cpp" startline="217" endline="274">reset</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="d4/dd7/class_entry_1a87d6afbe10ea84859ef03b6f046e34d3" prot="public" static="no" mutable="no">
+        <type>QCString</type>
+        <definition>QCString Entry::name</definition>
+        <argsstring></argsstring>
+        <name>name</name>
+        <briefdescription>
+<para>member name </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/entry.h" line="232" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/entry.h" bodystart="232" bodyend="-1"/>
+        <referencedby refid="d4/dd7/class_entry_1ae9367c39f34b043c6e36ddb52a4188e0" compoundref="d2/dd2/entry_8cpp" startline="217" endline="274">reset</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="d4/dd7/class_entry_1a0e6301ae1fd7d56d928e1ef7672d4ede" prot="public" static="no" mutable="no">
+        <type><ref refid="d3/dc3/struct_tag_info" kindref="compound">TagInfo</ref> *</type>
+        <definition>TagInfo* Entry::tagInfo</definition>
+        <argsstring></argsstring>
+        <name>tagInfo</name>
+        <briefdescription>
+<para>tag file info </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/entry.h" line="233" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/entry.h" bodystart="233" bodyend="-1"/>
+        <referencedby refid="d4/dd7/class_entry_1ae9367c39f34b043c6e36ddb52a4188e0" compoundref="d2/dd2/entry_8cpp" startline="217" endline="274">reset</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="d4/dd7/class_entry_1acbb1b4e99978a710863cf9cab6c90553" prot="public" static="no" mutable="no">
+        <type><ref refid="d9/d49/types_8h_1a90e352184df58cd09455fe9996cd4ded" kindref="member">Protection</ref></type>
+        <definition>Protection Entry::protection</definition>
+        <argsstring></argsstring>
+        <name>protection</name>
+        <briefdescription>
+<para>class protection </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/entry.h" line="236" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/entry.h" bodystart="236" bodyend="-1"/>
+        <referencedby refid="d4/dd7/class_entry_1ae9367c39f34b043c6e36ddb52a4188e0" compoundref="d2/dd2/entry_8cpp" startline="217" endline="274">reset</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="d4/dd7/class_entry_1a4669c5294781bce55ce0ad654460acbd" prot="public" static="no" mutable="no">
+        <type><ref refid="d9/d49/types_8h_1a0872178db42722c310fe6117189ed441" kindref="member">MethodTypes</ref></type>
+        <definition>MethodTypes Entry::mtype</definition>
+        <argsstring></argsstring>
+        <name>mtype</name>
+        <briefdescription>
+<para>signal, slot, (dcop) method, or property? </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/entry.h" line="237" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/entry.h" bodystart="237" bodyend="-1"/>
+        <referencedby refid="d4/dd7/class_entry_1ae9367c39f34b043c6e36ddb52a4188e0" compoundref="d2/dd2/entry_8cpp" startline="217" endline="274">reset</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="d4/dd7/class_entry_1a3019e7d39a5c382fb924e22913198133" prot="public" static="no" mutable="no">
+        <type>uint64</type>
+        <definition>uint64 Entry::spec</definition>
+        <argsstring></argsstring>
+        <name>spec</name>
+        <briefdescription>
+<para>class/member specifiers </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/entry.h" line="238" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/entry.h" bodystart="238" bodyend="-1"/>
+        <referencedby refid="d4/dd7/class_entry_1ae9367c39f34b043c6e36ddb52a4188e0" compoundref="d2/dd2/entry_8cpp" startline="217" endline="274">reset</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="d4/dd7/class_entry_1ae283a992b9a74c6925c6f602ba7d830d" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Entry::initLines</definition>
+        <argsstring></argsstring>
+        <name>initLines</name>
+        <briefdescription>
+<para>define/variable initializer lines to show </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/entry.h" line="239" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/entry.h" bodystart="239" bodyend="-1"/>
+        <referencedby refid="d4/dd7/class_entry_1ae9367c39f34b043c6e36ddb52a4188e0" compoundref="d2/dd2/entry_8cpp" startline="217" endline="274">reset</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="d4/dd7/class_entry_1ab5f1d92a0b5d8abdf4d42cefc134fdfa" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool Entry::stat</definition>
+        <argsstring></argsstring>
+        <name>stat</name>
+        <briefdescription>
+<para>static ? </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/entry.h" line="240" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/entry.h" bodystart="240" bodyend="-1"/>
+        <referencedby refid="d4/dd7/class_entry_1ae9367c39f34b043c6e36ddb52a4188e0" compoundref="d2/dd2/entry_8cpp" startline="217" endline="274">reset</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="d4/dd7/class_entry_1a6c5a4c9eda694f2bfd2037d7da08ba5d" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool Entry::explicitExternal</definition>
+        <argsstring></argsstring>
+        <name>explicitExternal</name>
+        <briefdescription>
+<para>explicitly defined as external? </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/entry.h" line="241" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/entry.h" bodystart="241" bodyend="-1"/>
+        <referencedby refid="d4/dd7/class_entry_1ae9367c39f34b043c6e36ddb52a4188e0" compoundref="d2/dd2/entry_8cpp" startline="217" endline="274">reset</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="d4/dd7/class_entry_1a14c9abc36afe46d02521ef846e6bcc27" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool Entry::proto</definition>
+        <argsstring></argsstring>
+        <name>proto</name>
+        <briefdescription>
+<para>prototype ? </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/entry.h" line="242" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/entry.h" bodystart="242" bodyend="-1"/>
+        <referencedby refid="d4/dd7/class_entry_1ae9367c39f34b043c6e36ddb52a4188e0" compoundref="d2/dd2/entry_8cpp" startline="217" endline="274">reset</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="d4/dd7/class_entry_1a095b43379529186300dd6a8d8830d5dc" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool Entry::subGrouping</definition>
+        <argsstring></argsstring>
+        <name>subGrouping</name>
+        <briefdescription>
+<para>automatically group class members? </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/entry.h" line="243" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/entry.h" bodystart="243" bodyend="-1"/>
+        <referencedby refid="d4/dd7/class_entry_1ae9367c39f34b043c6e36ddb52a4188e0" compoundref="d2/dd2/entry_8cpp" startline="217" endline="274">reset</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="d4/dd7/class_entry_1ac3b5637ee0f8469650e2d8d694733314" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool Entry::callGraph</definition>
+        <argsstring></argsstring>
+        <name>callGraph</name>
+        <briefdescription>
+<para>do we need to draw the call graph? </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/entry.h" line="244" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/entry.h" bodystart="244" bodyend="-1"/>
+        <referencedby refid="d4/dd7/class_entry_1ae9367c39f34b043c6e36ddb52a4188e0" compoundref="d2/dd2/entry_8cpp" startline="217" endline="274">reset</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="d4/dd7/class_entry_1a3693baa860ccc1625b5ac4fd3bc1761c" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool Entry::callerGraph</definition>
+        <argsstring></argsstring>
+        <name>callerGraph</name>
+        <briefdescription>
+<para>do we need to draw the caller graph? </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/entry.h" line="245" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/entry.h" bodystart="245" bodyend="-1"/>
+        <referencedby refid="d4/dd7/class_entry_1ae9367c39f34b043c6e36ddb52a4188e0" compoundref="d2/dd2/entry_8cpp" startline="217" endline="274">reset</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="d4/dd7/class_entry_1aaf045b9c026443fd192064117083911b" prot="public" static="no" mutable="no">
+        <type><ref refid="d9/d49/types_8h_1ab16236bdd10ddf4d73a9847350f0017e" kindref="member">Specifier</ref></type>
+        <definition>Specifier Entry::virt</definition>
+        <argsstring></argsstring>
+        <name>virt</name>
+        <briefdescription>
+<para>virtualness of the entry </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/entry.h" line="246" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/entry.h" bodystart="246" bodyend="-1"/>
+        <referencedby refid="d4/dd7/class_entry_1ae9367c39f34b043c6e36ddb52a4188e0" compoundref="d2/dd2/entry_8cpp" startline="217" endline="274">reset</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="d4/dd7/class_entry_1a795acc50f8bb2497b2385ee715304076" prot="public" static="no" mutable="no">
+        <type>QCString</type>
+        <definition>QCString Entry::args</definition>
+        <argsstring></argsstring>
+        <name>args</name>
+        <briefdescription>
+<para>member argument string </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/entry.h" line="247" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/entry.h" bodystart="247" bodyend="-1"/>
+        <referencedby refid="d4/dd7/class_entry_1ae9367c39f34b043c6e36ddb52a4188e0" compoundref="d2/dd2/entry_8cpp" startline="217" endline="274">reset</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="d4/dd7/class_entry_1a239e75c28fe009869cf25e681d2a2d41" prot="public" static="no" mutable="no">
+        <type>QCString</type>
+        <definition>QCString Entry::bitfields</definition>
+        <argsstring></argsstring>
+        <name>bitfields</name>
+        <briefdescription>
+<para>member&apos;s bit fields </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/entry.h" line="248" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/entry.h" bodystart="248" bodyend="-1"/>
+        <referencedby refid="d4/dd7/class_entry_1ae9367c39f34b043c6e36ddb52a4188e0" compoundref="d2/dd2/entry_8cpp" startline="217" endline="274">reset</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="d4/dd7/class_entry_1a7dfa4587991698fbc8550e563cd71948" prot="public" static="no" mutable="no">
+        <type><ref refid="d7/df8/class_argument_list" kindref="compound">ArgumentList</ref> *</type>
+        <definition>ArgumentList* Entry::argList</definition>
+        <argsstring></argsstring>
+        <name>argList</name>
+        <briefdescription>
+<para>member arguments as a list </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/entry.h" line="249" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/entry.h" bodystart="249" bodyend="-1"/>
+        <referencedby refid="d4/dd7/class_entry_1ae9367c39f34b043c6e36ddb52a4188e0" compoundref="d2/dd2/entry_8cpp" startline="217" endline="274">reset</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="d4/dd7/class_entry_1a6fe1bee76d0edf07bdae161814b8e490" prot="public" static="no" mutable="no">
+        <type><ref refid="db/daa/class_q_list" kindref="compound">QList</ref>&lt; <ref refid="d7/df8/class_argument_list" kindref="compound">ArgumentList</ref> &gt; *</type>
+        <definition>QList&lt;ArgumentList&gt;* Entry::tArgLists</definition>
+        <argsstring></argsstring>
+        <name>tArgLists</name>
+        <briefdescription>
+<para>template argument declarations </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/entry.h" line="250" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/entry.h" bodystart="250" bodyend="-1"/>
+        <referencedby refid="d4/dd7/class_entry_1ae9367c39f34b043c6e36ddb52a4188e0" compoundref="d2/dd2/entry_8cpp" startline="217" endline="274">reset</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="d4/dd7/class_entry_1a8aa37e42f17105b914db76b0c05d0a1f" prot="public" static="no" mutable="no">
+        <type>QGString</type>
+        <definition>QGString Entry::program</definition>
+        <argsstring></argsstring>
+        <name>program</name>
+        <briefdescription>
+<para>the program text </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/entry.h" line="251" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/entry.h" bodystart="251" bodyend="-1"/>
+        <referencedby refid="d4/dd7/class_entry_1ae9367c39f34b043c6e36ddb52a4188e0" compoundref="d2/dd2/entry_8cpp" startline="217" endline="274">reset</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="d4/dd7/class_entry_1a2a0c9e7ce364ed2981f49314c33245f9" prot="public" static="no" mutable="no">
+        <type>QGString</type>
+        <definition>QGString Entry::initializer</definition>
+        <argsstring></argsstring>
+        <name>initializer</name>
+        <briefdescription>
+<para>initial value (for variables) </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/entry.h" line="252" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/entry.h" bodystart="252" bodyend="-1"/>
+        <referencedby refid="d4/dd7/class_entry_1ae9367c39f34b043c6e36ddb52a4188e0" compoundref="d2/dd2/entry_8cpp" startline="217" endline="274">reset</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="d4/dd7/class_entry_1a88c55fcdd65a52dce640136f18adccf2" prot="public" static="no" mutable="no">
+        <type>QCString</type>
+        <definition>QCString Entry::includeFile</definition>
+        <argsstring></argsstring>
+        <name>includeFile</name>
+        <briefdescription>
+<para>include file (2 arg of \class, must be unique) </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/entry.h" line="253" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/entry.h" bodystart="253" bodyend="-1"/>
+        <referencedby refid="d4/dd7/class_entry_1ae9367c39f34b043c6e36ddb52a4188e0" compoundref="d2/dd2/entry_8cpp" startline="217" endline="274">reset</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="d4/dd7/class_entry_1a32626ce14eb253f6da64ed475419a4ac" prot="public" static="no" mutable="no">
+        <type>QCString</type>
+        <definition>QCString Entry::includeName</definition>
+        <argsstring></argsstring>
+        <name>includeName</name>
+        <briefdescription>
+<para>include name (3 arg of \class) </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/entry.h" line="254" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/entry.h" bodystart="254" bodyend="-1"/>
+        <referencedby refid="d4/dd7/class_entry_1ae9367c39f34b043c6e36ddb52a4188e0" compoundref="d2/dd2/entry_8cpp" startline="217" endline="274">reset</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="d4/dd7/class_entry_1ac02a6c1dd922221351f6de0286d48d77" prot="public" static="no" mutable="no">
+        <type>QCString</type>
+        <definition>QCString Entry::doc</definition>
+        <argsstring></argsstring>
+        <name>doc</name>
+        <briefdescription>
+<para>documentation block (partly parsed) </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/entry.h" line="255" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/entry.h" bodystart="255" bodyend="-1"/>
+        <referencedby refid="d4/dd7/class_entry_1ae9367c39f34b043c6e36ddb52a4188e0" compoundref="d2/dd2/entry_8cpp" startline="217" endline="274">reset</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="d4/dd7/class_entry_1a180b5fdd7f3b963e4b0d2c4ea6e0b1b5" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Entry::docLine</definition>
+        <argsstring></argsstring>
+        <name>docLine</name>
+        <briefdescription>
+<para>line number at which the documentation was found </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/entry.h" line="256" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/entry.h" bodystart="256" bodyend="-1"/>
+        <referencedby refid="d4/dd7/class_entry_1ae9367c39f34b043c6e36ddb52a4188e0" compoundref="d2/dd2/entry_8cpp" startline="217" endline="274">reset</referencedby>
+        <referencedby refid="d9/d8f/class_markdown_file_parser_1a56e4994924ce8ac7710e2a1da0f98807" compoundref="de/d04/markdown_8cpp" startline="2255" endline="2339">MarkdownFileParser::parseInput</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="d4/dd7/class_entry_1ac6841c6ec8fd7ae6121364e7e1895e94" prot="public" static="no" mutable="no">
+        <type>QCString</type>
+        <definition>QCString Entry::docFile</definition>
+        <argsstring></argsstring>
+        <name>docFile</name>
+        <briefdescription>
+<para>file in which the documentation was found </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/entry.h" line="257" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/entry.h" bodystart="257" bodyend="-1"/>
+        <referencedby refid="d4/dd7/class_entry_1ae9367c39f34b043c6e36ddb52a4188e0" compoundref="d2/dd2/entry_8cpp" startline="217" endline="274">reset</referencedby>
+        <referencedby refid="d9/d8f/class_markdown_file_parser_1a56e4994924ce8ac7710e2a1da0f98807" compoundref="de/d04/markdown_8cpp" startline="2255" endline="2339">MarkdownFileParser::parseInput</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="d4/dd7/class_entry_1ad602ba19af5785515ed81790d843ce4c" prot="public" static="no" mutable="no">
+        <type>QCString</type>
+        <definition>QCString Entry::brief</definition>
+        <argsstring></argsstring>
+        <name>brief</name>
+        <briefdescription>
+<para>brief description (doc block) </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/entry.h" line="258" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/entry.h" bodystart="258" bodyend="-1"/>
+        <referencedby refid="d4/dd7/class_entry_1ae9367c39f34b043c6e36ddb52a4188e0" compoundref="d2/dd2/entry_8cpp" startline="217" endline="274">reset</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="d4/dd7/class_entry_1add7a19978ab2b30a9755b8d5e3cbd00a" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Entry::briefLine</definition>
+        <argsstring></argsstring>
+        <name>briefLine</name>
+        <briefdescription>
+<para>line number at which the brief desc. was found </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/entry.h" line="259" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/entry.h" bodystart="259" bodyend="-1"/>
+        <referencedby refid="d4/dd7/class_entry_1ae9367c39f34b043c6e36ddb52a4188e0" compoundref="d2/dd2/entry_8cpp" startline="217" endline="274">reset</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="d4/dd7/class_entry_1a9a0b7ed65e6082088ededf633771d3d1" prot="public" static="no" mutable="no">
+        <type>QCString</type>
+        <definition>QCString Entry::briefFile</definition>
+        <argsstring></argsstring>
+        <name>briefFile</name>
+        <briefdescription>
+<para>file in which the brief desc. was found </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/entry.h" line="260" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/entry.h" bodystart="260" bodyend="-1"/>
+        <referencedby refid="d4/dd7/class_entry_1ae9367c39f34b043c6e36ddb52a4188e0" compoundref="d2/dd2/entry_8cpp" startline="217" endline="274">reset</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="d4/dd7/class_entry_1a51e209dbd21d11b0c63d246efa6182f2" prot="public" static="no" mutable="no">
+        <type>QCString</type>
+        <definition>QCString Entry::inbodyDocs</definition>
+        <argsstring></argsstring>
+        <name>inbodyDocs</name>
+        <briefdescription>
+<para>documentation inside the body of a function </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/entry.h" line="261" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/entry.h" bodystart="261" bodyend="-1"/>
+        <referencedby refid="d4/dd7/class_entry_1ae9367c39f34b043c6e36ddb52a4188e0" compoundref="d2/dd2/entry_8cpp" startline="217" endline="274">reset</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="d4/dd7/class_entry_1a8eed853bf654e1d583e10f04062ccdde" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Entry::inbodyLine</definition>
+        <argsstring></argsstring>
+        <name>inbodyLine</name>
+        <briefdescription>
+<para>line number at which the body doc was found </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/entry.h" line="262" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/entry.h" bodystart="262" bodyend="-1"/>
+        <referencedby refid="d4/dd7/class_entry_1ae9367c39f34b043c6e36ddb52a4188e0" compoundref="d2/dd2/entry_8cpp" startline="217" endline="274">reset</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="d4/dd7/class_entry_1aee8cba460792393b5051230c78fbb204" prot="public" static="no" mutable="no">
+        <type>QCString</type>
+        <definition>QCString Entry::inbodyFile</definition>
+        <argsstring></argsstring>
+        <name>inbodyFile</name>
+        <briefdescription>
+<para>file in which the body doc was found </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/entry.h" line="263" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/entry.h" bodystart="263" bodyend="-1"/>
+        <referencedby refid="d4/dd7/class_entry_1ae9367c39f34b043c6e36ddb52a4188e0" compoundref="d2/dd2/entry_8cpp" startline="217" endline="274">reset</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="d4/dd7/class_entry_1a611ec017dea1768b7093bea6e4177cba" prot="public" static="no" mutable="no">
+        <type>QCString</type>
+        <definition>QCString Entry::relates</definition>
+        <argsstring></argsstring>
+        <name>relates</name>
+        <briefdescription>
+<para>related class (doc block) </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/entry.h" line="264" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/entry.h" bodystart="264" bodyend="-1"/>
+        <referencedby refid="d4/dd7/class_entry_1ae9367c39f34b043c6e36ddb52a4188e0" compoundref="d2/dd2/entry_8cpp" startline="217" endline="274">reset</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="d4/dd7/class_entry_1a74ff1e30a3ed19f82ce61f70b8a5a413" prot="public" static="no" mutable="no">
+        <type><ref refid="d9/d49/types_8h_1aa370e9ca1d3ff266cab92689bcc37d9e" kindref="member">RelatesType</ref></type>
+        <definition>RelatesType Entry::relatesType</definition>
+        <argsstring></argsstring>
+        <name>relatesType</name>
+        <briefdescription>
+<para>how relates is handled </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/entry.h" line="265" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/entry.h" bodystart="265" bodyend="-1"/>
+        <referencedby refid="d4/dd7/class_entry_1ae9367c39f34b043c6e36ddb52a4188e0" compoundref="d2/dd2/entry_8cpp" startline="217" endline="274">reset</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="d4/dd7/class_entry_1ac5ad6c6585645a4427b54e5281316b65" prot="public" static="no" mutable="no">
+        <type>QCString</type>
+        <definition>QCString Entry::read</definition>
+        <argsstring></argsstring>
+        <name>read</name>
+        <briefdescription>
+<para>property read accessor </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/entry.h" line="266" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/entry.h" bodystart="266" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d4/dd7/class_entry_1a76a68a1f14534f069444ba2704ef7404" prot="public" static="no" mutable="no">
+        <type>QCString</type>
+        <definition>QCString Entry::write</definition>
+        <argsstring></argsstring>
+        <name>write</name>
+        <briefdescription>
+<para>property write accessor </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/entry.h" line="267" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/entry.h" bodystart="267" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d4/dd7/class_entry_1af88583a31bcd3cfc5aa52691f958833f" prot="public" static="no" mutable="no">
+        <type>QCString</type>
+        <definition>QCString Entry::inside</definition>
+        <argsstring></argsstring>
+        <name>inside</name>
+        <briefdescription>
+<para>name of the class in which documents are found </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/entry.h" line="268" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/entry.h" bodystart="268" bodyend="-1"/>
+        <referencedby refid="d4/dd7/class_entry_1ae9367c39f34b043c6e36ddb52a4188e0" compoundref="d2/dd2/entry_8cpp" startline="217" endline="274">reset</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="d4/dd7/class_entry_1a81b9c13cc15e3460c8d9fdcabeb9342d" prot="public" static="no" mutable="no">
+        <type>QCString</type>
+        <definition>QCString Entry::exception</definition>
+        <argsstring></argsstring>
+        <name>exception</name>
+        <briefdescription>
+<para>throw specification </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/entry.h" line="269" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/entry.h" bodystart="269" bodyend="-1"/>
+        <referencedby refid="d4/dd7/class_entry_1ae9367c39f34b043c6e36ddb52a4188e0" compoundref="d2/dd2/entry_8cpp" startline="217" endline="274">reset</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="d4/dd7/class_entry_1a77d30ef01feb28bf83b77d4148968f84" prot="public" static="no" mutable="no">
+        <type><ref refid="d7/df8/class_argument_list" kindref="compound">ArgumentList</ref> *</type>
+        <definition>ArgumentList* Entry::typeConstr</definition>
+        <argsstring></argsstring>
+        <name>typeConstr</name>
+        <briefdescription>
+<para>where clause (C#) for type constraints </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/entry.h" line="270" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/entry.h" bodystart="270" bodyend="-1"/>
+        <referencedby refid="d4/dd7/class_entry_1ae9367c39f34b043c6e36ddb52a4188e0" compoundref="d2/dd2/entry_8cpp" startline="217" endline="274">reset</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="d4/dd7/class_entry_1a9a2b1e3404f4723d8a6bef5966146ed0" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Entry::bodyLine</definition>
+        <argsstring></argsstring>
+        <name>bodyLine</name>
+        <briefdescription>
+<para>line number of the definition in the source </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/entry.h" line="271" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/entry.h" bodystart="271" bodyend="-1"/>
+        <referencedby refid="d4/dd7/class_entry_1ae9367c39f34b043c6e36ddb52a4188e0" compoundref="d2/dd2/entry_8cpp" startline="217" endline="274">reset</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="d4/dd7/class_entry_1a2db88158279ecfe391ea775f63869fc1" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Entry::endBodyLine</definition>
+        <argsstring></argsstring>
+        <name>endBodyLine</name>
+        <briefdescription>
+<para>line number where the definition ends </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/entry.h" line="272" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/entry.h" bodystart="272" bodyend="-1"/>
+        <referencedby refid="d4/dd7/class_entry_1ae9367c39f34b043c6e36ddb52a4188e0" compoundref="d2/dd2/entry_8cpp" startline="217" endline="274">reset</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="d4/dd7/class_entry_1a9f7167fc5b369f1fcd343946803efa0d" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Entry::mGrpId</definition>
+        <argsstring></argsstring>
+        <name>mGrpId</name>
+        <briefdescription>
+<para>member group id </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/entry.h" line="273" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/entry.h" bodystart="273" bodyend="-1"/>
+        <referencedby refid="d4/dd7/class_entry_1ae9367c39f34b043c6e36ddb52a4188e0" compoundref="d2/dd2/entry_8cpp" startline="217" endline="274">reset</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="d4/dd7/class_entry_1a22b4c7b8255e183b68c49d5bd9f04017" prot="public" static="no" mutable="no">
+        <type><ref refid="db/daa/class_q_list" kindref="compound">QList</ref>&lt; <ref refid="de/d64/struct_base_info" kindref="compound">BaseInfo</ref> &gt; *</type>
+        <definition>QList&lt;BaseInfo&gt;* Entry::extends</definition>
+        <argsstring></argsstring>
+        <name>extends</name>
+        <briefdescription>
+<para>list of base classes </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/entry.h" line="274" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/entry.h" bodystart="274" bodyend="-1"/>
+        <referencedby refid="d4/dd7/class_entry_1ae9367c39f34b043c6e36ddb52a4188e0" compoundref="d2/dd2/entry_8cpp" startline="217" endline="274">reset</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="d4/dd7/class_entry_1af10b19c474b2a7173a79b97124d25fc3" prot="public" static="no" mutable="no">
+        <type><ref refid="db/daa/class_q_list" kindref="compound">QList</ref>&lt; <ref refid="d7/d59/struct_grouping" kindref="compound">Grouping</ref> &gt; *</type>
+        <definition>QList&lt;Grouping&gt;* Entry::groups</definition>
+        <argsstring></argsstring>
+        <name>groups</name>
+        <briefdescription>
+<para>list of groups this entry belongs to </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/entry.h" line="275" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/entry.h" bodystart="275" bodyend="-1"/>
+        <referencedby refid="d4/dd7/class_entry_1ae9367c39f34b043c6e36ddb52a4188e0" compoundref="d2/dd2/entry_8cpp" startline="217" endline="274">reset</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="d4/dd7/class_entry_1a4608d738e9d9c7798d8b83a2846b3d12" prot="public" static="no" mutable="no">
+        <type><ref refid="db/daa/class_q_list" kindref="compound">QList</ref>&lt; <ref refid="d5/d5b/struct_section_info" kindref="compound">SectionInfo</ref> &gt; *</type>
+        <definition>QList&lt;SectionInfo&gt;* Entry::anchors</definition>
+        <argsstring></argsstring>
+        <name>anchors</name>
+        <briefdescription>
+<para>list of anchors defined in this entry </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/entry.h" line="276" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/entry.h" bodystart="276" bodyend="-1"/>
+        <referencedby refid="d4/dd7/class_entry_1ae9367c39f34b043c6e36ddb52a4188e0" compoundref="d2/dd2/entry_8cpp" startline="217" endline="274">reset</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="d4/dd7/class_entry_1a736f1dfadfe0c0fabb022c533aa27fdc" prot="public" static="no" mutable="no">
+        <type>QCString</type>
+        <definition>QCString Entry::fileName</definition>
+        <argsstring></argsstring>
+        <name>fileName</name>
+        <briefdescription>
+<para>file this entry was extracted from </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/entry.h" line="277" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/entry.h" bodystart="277" bodyend="-1"/>
+        <referencedby refid="d4/dd7/class_entry_1ae9367c39f34b043c6e36ddb52a4188e0" compoundref="d2/dd2/entry_8cpp" startline="217" endline="274">reset</referencedby>
+        <referencedby refid="d9/d8f/class_markdown_file_parser_1a56e4994924ce8ac7710e2a1da0f98807" compoundref="de/d04/markdown_8cpp" startline="2255" endline="2339">MarkdownFileParser::parseInput</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="d4/dd7/class_entry_1a81bf40c0a6646dc1e33097d7e2552c96" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Entry::startLine</definition>
+        <argsstring></argsstring>
+        <name>startLine</name>
+        <briefdescription>
+<para>start line of entry in the source </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/entry.h" line="278" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/entry.h" bodystart="278" bodyend="-1"/>
+        <referencedby refid="d4/dd7/class_entry_1ae9367c39f34b043c6e36ddb52a4188e0" compoundref="d2/dd2/entry_8cpp" startline="217" endline="274">reset</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="d4/dd7/class_entry_1a59c06b1f3be3c3220404df1d3fdc5bfb" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Entry::startColumn</definition>
+        <argsstring></argsstring>
+        <name>startColumn</name>
+        <briefdescription>
+<para>start column of entry in the source </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/entry.h" line="279" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/entry.h" bodystart="279" bodyend="-1"/>
+        <referencedby refid="d4/dd7/class_entry_1ae9367c39f34b043c6e36ddb52a4188e0" compoundref="d2/dd2/entry_8cpp" startline="217" endline="274">reset</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="d4/dd7/class_entry_1a5328bd7f1580a30ad2345840044c2a4b" prot="public" static="no" mutable="no">
+        <type><ref refid="db/daa/class_q_list" kindref="compound">QList</ref>&lt; <ref refid="d8/dd5/struct_list_item_info" kindref="compound">ListItemInfo</ref> &gt; *</type>
+        <definition>QList&lt;ListItemInfo&gt;* Entry::sli</definition>
+        <argsstring></argsstring>
+        <name>sli</name>
+        <briefdescription>
+<para>special lists (test/todo/bug/deprecated/..) this entry is in </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/entry.h" line="280" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/entry.h" bodystart="280" bodyend="-1"/>
+        <referencedby refid="d4/dd7/class_entry_1ae9367c39f34b043c6e36ddb52a4188e0" compoundref="d2/dd2/entry_8cpp" startline="217" endline="274">reset</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="d4/dd7/class_entry_1a4ee5bbd6ac8bdf2f017d93edcefce5e9" prot="public" static="no" mutable="no">
+        <type><ref refid="d9/d49/types_8h_1a9974623ce72fc23df5d64426b9178bf2" kindref="member">SrcLangExt</ref></type>
+        <definition>SrcLangExt Entry::lang</definition>
+        <argsstring></argsstring>
+        <name>lang</name>
+        <briefdescription>
+<para>programming language in which this entry was found </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/entry.h" line="281" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/entry.h" bodystart="281" bodyend="-1"/>
+        <referencedby refid="d4/dd7/class_entry_1ae9367c39f34b043c6e36ddb52a4188e0" compoundref="d2/dd2/entry_8cpp" startline="217" endline="274">reset</referencedby>
+        <referencedby refid="d9/d8f/class_markdown_file_parser_1a56e4994924ce8ac7710e2a1da0f98807" compoundref="de/d04/markdown_8cpp" startline="2255" endline="2339">MarkdownFileParser::parseInput</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="d4/dd7/class_entry_1acc4d59ae7ae3e94c3365ab8027593727" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool Entry::hidden</definition>
+        <argsstring></argsstring>
+        <name>hidden</name>
+        <briefdescription>
+<para>does this represent an entity that is hidden from the output </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/entry.h" line="282" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/entry.h" bodystart="282" bodyend="-1"/>
+        <referencedby refid="d4/dd7/class_entry_1ae9367c39f34b043c6e36ddb52a4188e0" compoundref="d2/dd2/entry_8cpp" startline="217" endline="274">reset</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="d4/dd7/class_entry_1acbe763144d791b44aa3620b012d0dd30" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool Entry::artificial</definition>
+        <argsstring></argsstring>
+        <name>artificial</name>
+        <briefdescription>
+<para>Artificially introduced item. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/entry.h" line="283" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/entry.h" bodystart="283" bodyend="-1"/>
+        <referencedby refid="d4/dd7/class_entry_1ae9367c39f34b043c6e36ddb52a4188e0" compoundref="d2/dd2/entry_8cpp" startline="217" endline="274">reset</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="d4/dd7/class_entry_1a158710fdea38498193fe93713a280717" prot="public" static="no" mutable="no">
+        <type><ref refid="d4/dd7/class_entry_1a470b655d0d6179559a11a81e6617d509" kindref="member">GroupDocType</ref></type>
+        <definition>GroupDocType Entry::groupDocType</definition>
+        <argsstring></argsstring>
+        <name>groupDocType</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/entry.h" line="284" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/entry.h" bodystart="284" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d4/dd7/class_entry_1a338fb12273a1a4f5dc124a1faf47d473" prot="public" static="no" mutable="no">
+        <type>QCString</type>
+        <definition>QCString Entry::id</definition>
+        <argsstring></argsstring>
+        <name>id</name>
+        <briefdescription>
+<para>libclang id </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/entry.h" line="285" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/entry.h" bodystart="285" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="d4/dd7/class_entry_1add9f0a2163d2e5098b889de081642181" prot="private" static="no" mutable="no">
+        <type><ref refid="d4/dd7/class_entry" kindref="compound">Entry</ref> *</type>
+        <definition>Entry* Entry::m_parent</definition>
+        <argsstring></argsstring>
+        <name>m_parent</name>
+        <briefdescription>
+<para>parent node in the tree </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/entry.h" line="318" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/entry.h" bodystart="318" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d4/dd7/class_entry_1ade1b9bd00d8dd12570d2b65cb4bd02f7" prot="private" static="no" mutable="no">
+        <type><ref refid="db/daa/class_q_list" kindref="compound">QList</ref>&lt; <ref refid="d4/dd7/class_entry" kindref="compound">Entry</ref> &gt; *</type>
+        <definition>QList&lt;Entry&gt;* Entry::m_sublist</definition>
+        <argsstring></argsstring>
+        <name>m_sublist</name>
+        <briefdescription>
+<para>entries that are children of this one </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/entry.h" line="319" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/entry.h" bodystart="319" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="d4/dd7/class_entry_1a8283ac849b1f02ff82ca2ff28253db98" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Entry::Entry</definition>
+        <argsstring>()</argsstring>
+        <name>Entry</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/entry.h" line="186" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/entry.cpp" bodystart="36" bodyend="61"/>
+      </memberdef>
+      <memberdef kind="function" id="d4/dd7/class_entry_1a98c62e07d86951008cc8a0d60632c262" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Entry::Entry</definition>
+        <argsstring>(const Entry &amp;)</argsstring>
+        <name>Entry</name>
+        <param>
+          <type>const <ref refid="d4/dd7/class_entry" kindref="compound">Entry</ref> &amp;</type>
+          <defname>e</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/entry.h" line="187" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/entry.cpp" bodystart="63" bodyend="185"/>
+      </memberdef>
+      <memberdef kind="function" id="d4/dd7/class_entry_1ace080276d727881acfee7197b85f0b65" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Entry::~Entry</definition>
+        <argsstring>()</argsstring>
+        <name>~Entry</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/entry.h" line="188" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/entry.cpp" bodystart="187" bodyend="204"/>
+      </memberdef>
+      <memberdef kind="function" id="d4/dd7/class_entry_1af8a7c9072149622cf62be17fc0bc9ec9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int Entry::getSize</definition>
+        <argsstring>()</argsstring>
+        <name>getSize</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns the static size of the <ref refid="d4/dd7/class_entry" kindref="compound">Entry</ref> (so excluding any dynamic memory) </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/entry.h" line="191" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/entry.cpp" bodystart="277" bodyend="280"/>
+      </memberdef>
+      <memberdef kind="function" id="d4/dd7/class_entry_1aef1da1fbcf9b0f564b47fb7ddd201a1e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Entry::addSpecialListItem</definition>
+        <argsstring>(const char *listName, int index)</argsstring>
+        <name>addSpecialListItem</name>
+        <param>
+          <type>const char *</type>
+          <declname>listName</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>index</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/entry.h" line="193" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/entry.cpp" bodystart="321" bodyend="332"/>
+      </memberdef>
+      <memberdef kind="function" id="d4/dd7/class_entry_1a3f62f91546f105d6552fd8a89513bfaf" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Entry::createNavigationIndex</definition>
+        <argsstring>(EntryNav *rootNav, FileStorage *storage, FileDef *fd)</argsstring>
+        <name>createNavigationIndex</name>
+        <param>
+          <type><ref refid="da/dc6/class_entry_nav" kindref="compound">EntryNav</ref> *</type>
+          <declname>rootNav</declname>
+        </param>
+        <param>
+          <type><ref refid="d3/d94/class_file_storage" kindref="compound">FileStorage</ref> *</type>
+          <declname>storage</declname>
+        </param>
+        <param>
+          <type><ref refid="de/db0/class_file_def" kindref="compound">FileDef</ref> *</type>
+          <declname>fd</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/entry.h" line="194" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/entry.cpp" bodystart="302" bodyend="319"/>
+      </memberdef>
+      <memberdef kind="function" id="d4/dd7/class_entry_1a21bfe6584b202258d72fd158aac694c4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Entry::setParent</definition>
+        <argsstring>(Entry *parent)</argsstring>
+        <name>setParent</name>
+        <param>
+          <type><ref refid="d4/dd7/class_entry" kindref="compound">Entry</ref> *</type>
+          <declname>parent</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/entry.h" line="197" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/entry.h" bodystart="197" bodyend="197"/>
+      </memberdef>
+      <memberdef kind="function" id="d4/dd7/class_entry_1a2161a0a728abbfc211fe5d6af9d6cc16" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="d4/dd7/class_entry" kindref="compound">Entry</ref> *</type>
+        <definition>Entry* Entry::parent</definition>
+        <argsstring>() const </argsstring>
+        <name>parent</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns the parent for this <ref refid="d4/dd7/class_entry" kindref="compound">Entry</ref> or 0 if this entry has no parent. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/entry.h" line="200" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/entry.h" bodystart="200" bodyend="200"/>
+      </memberdef>
+      <memberdef kind="function" id="d4/dd7/class_entry_1ac030130465c1a51a13945b2e8738712e" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>const <ref refid="db/daa/class_q_list" kindref="compound">QList</ref>&lt; <ref refid="d4/dd7/class_entry" kindref="compound">Entry</ref> &gt; *</type>
+        <definition>const QList&lt;Entry&gt;* Entry::children</definition>
+        <argsstring>() const </argsstring>
+        <name>children</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns the list of children for this <ref refid="d4/dd7/class_entry" kindref="compound">Entry</ref> <simplesect kind="see"><para><ref refid="d4/dd7/class_entry_1a8c8479030e7a983413308cd412a926ff" kindref="member">addSubEntry()</ref> and <ref refid="d4/dd7/class_entry_1aecaae1b0c184b1ee2dc342ce7d6300f1" kindref="member">removeSubEntry()</ref> </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/entry.h" line="205" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/entry.h" bodystart="205" bodyend="205"/>
+      </memberdef>
+      <memberdef kind="function" id="d4/dd7/class_entry_1a8c8479030e7a983413308cd412a926ff" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Entry::addSubEntry</definition>
+        <argsstring>(Entry *e)</argsstring>
+        <name>addSubEntry</name>
+        <param>
+          <type><ref refid="d4/dd7/class_entry" kindref="compound">Entry</ref> *</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Adds entry <emphasis>e</emphasis> as a child to this entry </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/entry.h" line="208" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/entry.cpp" bodystart="206" bodyend="215"/>
+        <referencedby refid="d9/d8f/class_markdown_file_parser_1a56e4994924ce8ac7710e2a1da0f98807" compoundref="de/d04/markdown_8cpp" startline="2255" endline="2339">MarkdownFileParser::parseInput</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="d4/dd7/class_entry_1aecaae1b0c184b1ee2dc342ce7d6300f1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="d4/dd7/class_entry" kindref="compound">Entry</ref> *</type>
+        <definition>Entry * Entry::removeSubEntry</definition>
+        <argsstring>(Entry *e)</argsstring>
+        <name>removeSubEntry</name>
+        <param>
+          <type><ref refid="d4/dd7/class_entry" kindref="compound">Entry</ref> *</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Removes entry <emphasis>e</emphasis> from the list of children. Returns a pointer to the entry or 0 if the entry was not a child. Note the entry will not be deleted. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/entry.h" line="214" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/entry.cpp" bodystart="334" bodyend="338"/>
+      </memberdef>
+      <memberdef kind="function" id="d4/dd7/class_entry_1ae9367c39f34b043c6e36ddb52a4188e0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Entry::reset</definition>
+        <argsstring>()</argsstring>
+        <name>reset</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Restore the state of this <ref refid="d4/dd7/class_entry" kindref="compound">Entry</ref> to the default value it has at construction time. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/entry.h" line="219" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/entry.cpp" bodystart="217" bodyend="274"/>
+        <references refid="d4/dd7/class_entry_1a4608d738e9d9c7798d8b83a2846b3d12" compoundref="d1/dc6/entry_8h" startline="276">anchors</references>
+        <references refid="d4/dd7/class_entry_1a7dfa4587991698fbc8550e563cd71948" compoundref="d1/dc6/entry_8h" startline="249">argList</references>
+        <references refid="d4/dd7/class_entry_1a795acc50f8bb2497b2385ee715304076" compoundref="d1/dc6/entry_8h" startline="247">args</references>
+        <references refid="d4/dd7/class_entry_1acbe763144d791b44aa3620b012d0dd30" compoundref="d1/dc6/entry_8h" startline="283">artificial</references>
+        <references refid="d4/dd7/class_entry_1a239e75c28fe009869cf25e681d2a2d41" compoundref="d1/dc6/entry_8h" startline="248">bitfields</references>
+        <references refid="d4/dd7/class_entry_1a9a2b1e3404f4723d8a6bef5966146ed0" compoundref="d1/dc6/entry_8h" startline="271">bodyLine</references>
+        <references refid="d4/dd7/class_entry_1ad602ba19af5785515ed81790d843ce4c" compoundref="d1/dc6/entry_8h" startline="258">brief</references>
+        <references refid="d4/dd7/class_entry_1a9a0b7ed65e6082088ededf633771d3d1" compoundref="d1/dc6/entry_8h" startline="260">briefFile</references>
+        <references refid="d4/dd7/class_entry_1add7a19978ab2b30a9755b8d5e3cbd00a" compoundref="d1/dc6/entry_8h" startline="259">briefLine</references>
+        <references refid="d4/dd7/class_entry_1a3693baa860ccc1625b5ac4fd3bc1761c" compoundref="d1/dc6/entry_8h" startline="245">callerGraph</references>
+        <references refid="d4/dd7/class_entry_1ac3b5637ee0f8469650e2d8d694733314" compoundref="d1/dc6/entry_8h" startline="244">callGraph</references>
+        <references refid="d4/dd7/class_entry_1ac02a6c1dd922221351f6de0286d48d77" compoundref="d1/dc6/entry_8h" startline="255">doc</references>
+        <references refid="d4/dd7/class_entry_1ac6841c6ec8fd7ae6121364e7e1895e94" compoundref="d1/dc6/entry_8h" startline="257">docFile</references>
+        <references refid="d4/dd7/class_entry_1a180b5fdd7f3b963e4b0d2c4ea6e0b1b5" compoundref="d1/dc6/entry_8h" startline="256">docLine</references>
+        <references refid="d4/dd7/class_entry_1a2db88158279ecfe391ea775f63869fc1" compoundref="d1/dc6/entry_8h" startline="272">endBodyLine</references>
+        <references refid="d4/dd7/class_entry_1a81b9c13cc15e3460c8d9fdcabeb9342d" compoundref="d1/dc6/entry_8h" startline="269">exception</references>
+        <references refid="d4/dd7/class_entry_1a6c5a4c9eda694f2bfd2037d7da08ba5d" compoundref="d1/dc6/entry_8h" startline="241">explicitExternal</references>
+        <references refid="d4/dd7/class_entry_1a22b4c7b8255e183b68c49d5bd9f04017" compoundref="d1/dc6/entry_8h" startline="274">extends</references>
+        <references refid="d4/dd7/class_entry_1a736f1dfadfe0c0fabb022c533aa27fdc" compoundref="d1/dc6/entry_8h" startline="277">fileName</references>
+        <references refid="d4/dd7/class_entry_1a470b655d0d6179559a11a81e6617d509af6812be32a740baaad470ce4aec182be" compoundref="d1/dc6/entry_8h" startline="181">GROUPDOC_NORMAL</references>
+        <references refid="d4/dd7/class_entry_1af10b19c474b2a7173a79b97124d25fc3" compoundref="d1/dc6/entry_8h" startline="275">groups</references>
+        <references refid="d4/dd7/class_entry_1acc4d59ae7ae3e94c3365ab8027593727" compoundref="d1/dc6/entry_8h" startline="282">hidden</references>
+        <references refid="d4/dd7/class_entry_1a51e209dbd21d11b0c63d246efa6182f2" compoundref="d1/dc6/entry_8h" startline="261">inbodyDocs</references>
+        <references refid="d4/dd7/class_entry_1aee8cba460792393b5051230c78fbb204" compoundref="d1/dc6/entry_8h" startline="263">inbodyFile</references>
+        <references refid="d4/dd7/class_entry_1a8eed853bf654e1d583e10f04062ccdde" compoundref="d1/dc6/entry_8h" startline="262">inbodyLine</references>
+        <references refid="d4/dd7/class_entry_1a88c55fcdd65a52dce640136f18adccf2" compoundref="d1/dc6/entry_8h" startline="253">includeFile</references>
+        <references refid="d4/dd7/class_entry_1a32626ce14eb253f6da64ed475419a4ac" compoundref="d1/dc6/entry_8h" startline="254">includeName</references>
+        <references refid="d4/dd7/class_entry_1a2a0c9e7ce364ed2981f49314c33245f9" compoundref="d1/dc6/entry_8h" startline="252">initializer</references>
+        <references refid="d4/dd7/class_entry_1ae283a992b9a74c6925c6f602ba7d830d" compoundref="d1/dc6/entry_8h" startline="239">initLines</references>
+        <references refid="d4/dd7/class_entry_1af88583a31bcd3cfc5aa52691f958833f" compoundref="d1/dc6/entry_8h" startline="268">inside</references>
+        <references refid="d4/dd7/class_entry_1a4ee5bbd6ac8bdf2f017d93edcefce5e9" compoundref="d1/dc6/entry_8h" startline="281">lang</references>
+        <references refid="d4/dd7/class_entry_1a9f7167fc5b369f1fcd343946803efa0d" compoundref="d1/dc6/entry_8h" startline="273">mGrpId</references>
+        <references refid="d4/dd7/class_entry_1a4669c5294781bce55ce0ad654460acbd" compoundref="d1/dc6/entry_8h" startline="237">mtype</references>
+        <references refid="d4/dd7/class_entry_1a87d6afbe10ea84859ef03b6f046e34d3" compoundref="d1/dc6/entry_8h" startline="232">name</references>
+        <references refid="d4/dd7/class_entry_1a8aa37e42f17105b914db76b0c05d0a1f" compoundref="d1/dc6/entry_8h" startline="251">program</references>
+        <references refid="d4/dd7/class_entry_1acbb1b4e99978a710863cf9cab6c90553" compoundref="d1/dc6/entry_8h" startline="236">protection</references>
+        <references refid="d4/dd7/class_entry_1a14c9abc36afe46d02521ef846e6bcc27" compoundref="d1/dc6/entry_8h" startline="242">proto</references>
+        <references refid="d4/dd7/class_entry_1a611ec017dea1768b7093bea6e4177cba" compoundref="d1/dc6/entry_8h" startline="264">relates</references>
+        <references refid="d4/dd7/class_entry_1a74ff1e30a3ed19f82ce61f70b8a5a413" compoundref="d1/dc6/entry_8h" startline="265">relatesType</references>
+        <references refid="d4/dd7/class_entry_1a9197cdd8acd8fc0670e2911a407f3d04" compoundref="d1/dc6/entry_8h" startline="230">section</references>
+        <references refid="d4/dd7/class_entry_1a5328bd7f1580a30ad2345840044c2a4b" compoundref="d1/dc6/entry_8h" startline="280">sli</references>
+        <references refid="d4/dd7/class_entry_1a3019e7d39a5c382fb924e22913198133" compoundref="d1/dc6/entry_8h" startline="238">spec</references>
+        <references refid="d4/dd7/class_entry_1a59c06b1f3be3c3220404df1d3fdc5bfb" compoundref="d1/dc6/entry_8h" startline="279">startColumn</references>
+        <references refid="d4/dd7/class_entry_1a81bf40c0a6646dc1e33097d7e2552c96" compoundref="d1/dc6/entry_8h" startline="278">startLine</references>
+        <references refid="d4/dd7/class_entry_1ab5f1d92a0b5d8abdf4d42cefc134fdfa" compoundref="d1/dc6/entry_8h" startline="240">stat</references>
+        <references refid="d4/dd7/class_entry_1a095b43379529186300dd6a8d8830d5dc" compoundref="d1/dc6/entry_8h" startline="243">subGrouping</references>
+        <references refid="d4/dd7/class_entry_1a0e6301ae1fd7d56d928e1ef7672d4ede" compoundref="d1/dc6/entry_8h" startline="233">tagInfo</references>
+        <references refid="d4/dd7/class_entry_1a6fe1bee76d0edf07bdae161814b8e490" compoundref="d1/dc6/entry_8h" startline="250">tArgLists</references>
+        <references refid="d4/dd7/class_entry_1a79a9b5736630c3769e645f71dc357b9f" compoundref="d1/dc6/entry_8h" startline="231">type</references>
+        <references refid="d4/dd7/class_entry_1a77d30ef01feb28bf83b77d4148968f84" compoundref="d1/dc6/entry_8h" startline="270">typeConstr</references>
+        <references refid="d4/dd7/class_entry_1aaf045b9c026443fd192064117083911b" compoundref="d1/dc6/entry_8h" startline="246">virt</references>
+      </memberdef>
+      <memberdef kind="function" id="d4/dd7/class_entry_1a902c34351fc9978dfe5530804827ceb6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Entry::marshall</definition>
+        <argsstring>(StorageIntf *)</argsstring>
+        <name>marshall</name>
+        <param>
+          <type><ref refid="d7/db0/class_storage_intf" kindref="compound">StorageIntf</ref> *</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Serialize this entry to a persistent storage stream. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/entry.h" line="222"/>
+      </memberdef>
+      <memberdef kind="function" id="d4/dd7/class_entry_1a0c2561181c63aad06955b06211667683" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Entry::unmarshall</definition>
+        <argsstring>(StorageIntf *)</argsstring>
+        <name>unmarshall</name>
+        <param>
+          <type><ref refid="d7/db0/class_storage_intf" kindref="compound">StorageIntf</ref> *</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Reinitialize this entry from a persistent storage stream. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/entry.h" line="225"/>
+      </memberdef>
+      <memberdef kind="function" id="d4/dd7/class_entry_1a1ad3fe498337128e3e89c72dd5818e3b" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>const char *</type>
+        <definition>const char* Entry::groupDocCmd</definition>
+        <argsstring>() const </argsstring>
+        <name>groupDocCmd</name>
+        <briefdescription>
+<para>return the command name used to define GROUPDOC_SEC </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/entry.h" line="292" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/entry.h" bodystart="291" bodyend="300"/>
+        <references refid="d4/dd7/class_entry_1a470b655d0d6179559a11a81e6617d509af6812be32a740baaad470ce4aec182be" compoundref="d1/dc6/entry_8h" startline="181">GROUPDOC_NORMAL</references>
+        <references refid="d4/dd7/class_entry_1a470b655d0d6179559a11a81e6617d509a7637daf4200f6f55374604f2384ac925" compoundref="d1/dc6/entry_8h" startline="182">GROUPDOC_ADD</references>
+        <references refid="d4/dd7/class_entry_1a470b655d0d6179559a11a81e6617d509a4231a193e86f3b43e9b1b6fe12f64ed0" compoundref="d1/dc6/entry_8h" startline="183">GROUPDOC_WEAK</references>
+      </memberdef>
+      <memberdef kind="function" id="d4/dd7/class_entry_1ab8da769425ff6b5b1730077e302356ef" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="d7/d59/struct_grouping_1a9f0ec5ab376b083ebe3274ea79fd2d70" kindref="member">Grouping::GroupPri_t</ref></type>
+        <definition>Grouping::GroupPri_t Entry::groupingPri</definition>
+        <argsstring>() const </argsstring>
+        <name>groupingPri</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/entry.h" line="302" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/entry.h" bodystart="301" bodyend="314"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="d4/dd7/class_entry_1ae57233ba1464751b259cbee5e8d748cf" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Entry::createSubtreeIndex</definition>
+        <argsstring>(EntryNav *nav, FileStorage *storage, FileDef *fd)</argsstring>
+        <name>createSubtreeIndex</name>
+        <param>
+          <type><ref refid="da/dc6/class_entry_nav" kindref="compound">EntryNav</ref> *</type>
+          <declname>nav</declname>
+        </param>
+        <param>
+          <type><ref refid="d3/d94/class_file_storage" kindref="compound">FileStorage</ref> *</type>
+          <declname>storage</declname>
+        </param>
+        <param>
+          <type><ref refid="de/db0/class_file_def" kindref="compound">FileDef</ref> *</type>
+          <declname>fd</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/entry.h" line="317" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/entry.cpp" bodystart="282" bodyend="300"/>
+      </memberdef>
+      <memberdef kind="function" id="d4/dd7/class_entry_1aa312e24cb0bd174ad2b8ac8b8cf62578" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="d4/dd7/class_entry" kindref="compound">Entry</ref> &amp;</type>
+        <definition>Entry&amp; Entry::operator=</definition>
+        <argsstring>(const Entry &amp;)</argsstring>
+        <name>operator=</name>
+        <param>
+          <type>const <ref refid="d4/dd7/class_entry" kindref="compound">Entry</ref> &amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/entry.h" line="320"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Represents an unstructured piece of information, about an entity found in the sources. </para>    </briefdescription>
+    <detaileddescription>
+<para>parseMain() in scanner.l will generate a tree of these entries. </para>    </detaileddescription>
+    <collaborationgraph>
+      <node id="3393">
+        <label>QList&lt; Argument &gt;</label>
+        <link refid="db/daa/class_q_list"/>
+      </node>
+      <node id="3390">
+        <label>Entry</label>
+        <link refid="d4/dd7/class_entry"/>
+        <childnode refid="3391" relation="usage">
+          <edgelabel>tagInfo</edgelabel>
+        </childnode>
+        <childnode refid="3392" relation="usage">
+          <edgelabel>argList</edgelabel>
+          <edgelabel>typeConstr</edgelabel>
+        </childnode>
+      </node>
+      <node id="3391">
+        <label>TagInfo</label>
+        <link refid="d3/dc3/struct_tag_info"/>
+      </node>
+      <node id="3392">
+        <label>ArgumentList</label>
+        <link refid="d7/df8/class_argument_list"/>
+        <childnode refid="3393" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/entry.h" line="64" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/entry.h" bodystart="63" bodyend="321"/>
+    <listofallmembers>
+      <member refid="d4/dd7/class_entry_1a7ed5284eedae913c0384db5a260351b0" prot="public" virt="non-virtual"><scope>Entry</scope><name>Abstract</name></member>
+      <member refid="d4/dd7/class_entry_1add1e67450bf4630c0f39319e4ab0ccb7" prot="public" virt="non-virtual"><scope>Entry</scope><name>AbstractClass</name></member>
+      <member refid="d4/dd7/class_entry_1a101123e22e8c483bd4ee78a529318dd3" prot="public" virt="non-virtual"><scope>Entry</scope><name>Addable</name></member>
+      <member refid="d4/dd7/class_entry_1aef1da1fbcf9b0f564b47fb7ddd201a1e" prot="public" virt="non-virtual"><scope>Entry</scope><name>addSpecialListItem</name></member>
+      <member refid="d4/dd7/class_entry_1a8c8479030e7a983413308cd412a926ff" prot="public" virt="non-virtual"><scope>Entry</scope><name>addSubEntry</name></member>
+      <member refid="d4/dd7/class_entry_1a2b7df5462b391501de62d2f2238f0a75" prot="public" virt="non-virtual"><scope>Entry</scope><name>Alias</name></member>
+      <member refid="d4/dd7/class_entry_1a4608d738e9d9c7798d8b83a2846b3d12" prot="public" virt="non-virtual"><scope>Entry</scope><name>anchors</name></member>
+      <member refid="d4/dd7/class_entry_1a7dfa4587991698fbc8550e563cd71948" prot="public" virt="non-virtual"><scope>Entry</scope><name>argList</name></member>
+      <member refid="d4/dd7/class_entry_1a795acc50f8bb2497b2385ee715304076" prot="public" virt="non-virtual"><scope>Entry</scope><name>args</name></member>
+      <member refid="d4/dd7/class_entry_1acbe763144d791b44aa3620b012d0dd30" prot="public" virt="non-virtual"><scope>Entry</scope><name>artificial</name></member>
+      <member refid="d4/dd7/class_entry_1a693e96b217885eef90ebcb231fbebf79" prot="public" virt="non-virtual"><scope>Entry</scope><name>Assign</name></member>
+      <member refid="d4/dd7/class_entry_1a58fb43e4c3a836419285bdcc29302a80" prot="public" virt="non-virtual"><scope>Entry</scope><name>Attribute</name></member>
+      <member refid="d4/dd7/class_entry_1a239e75c28fe009869cf25e681d2a2d41" prot="public" virt="non-virtual"><scope>Entry</scope><name>bitfields</name></member>
+      <member refid="d4/dd7/class_entry_1a9a2b1e3404f4723d8a6bef5966146ed0" prot="public" virt="non-virtual"><scope>Entry</scope><name>bodyLine</name></member>
+      <member refid="d4/dd7/class_entry_1a34a5de5a4672f4fbcfd879dffc577f58" prot="public" virt="non-virtual"><scope>Entry</scope><name>Bound</name></member>
+      <member refid="d4/dd7/class_entry_1ad602ba19af5785515ed81790d843ce4c" prot="public" virt="non-virtual"><scope>Entry</scope><name>brief</name></member>
+      <member refid="d4/dd7/class_entry_1a9a0b7ed65e6082088ededf633771d3d1" prot="public" virt="non-virtual"><scope>Entry</scope><name>briefFile</name></member>
+      <member refid="d4/dd7/class_entry_1add7a19978ab2b30a9755b8d5e3cbd00a" prot="public" virt="non-virtual"><scope>Entry</scope><name>briefLine</name></member>
+      <member refid="d4/dd7/class_entry_1a3693baa860ccc1625b5ac4fd3bc1761c" prot="public" virt="non-virtual"><scope>Entry</scope><name>callerGraph</name></member>
+      <member refid="d4/dd7/class_entry_1ac3b5637ee0f8469650e2d8d694733314" prot="public" virt="non-virtual"><scope>Entry</scope><name>callGraph</name></member>
+      <member refid="d4/dd7/class_entry_1aa6c8050991d37fb7c7f56f50399c75c2" prot="public" virt="non-virtual"><scope>Entry</scope><name>Category</name></member>
+      <member refid="d4/dd7/class_entry_1a1e615d53eb7db6d16c19fcb5788fbd9ea2443071c65e9677804732affd5f226e9" prot="public" virt="non-virtual"><scope>Entry</scope><name>CATEGORYDOC_SEC</name></member>
+      <member refid="d4/dd7/class_entry_1ac030130465c1a51a13945b2e8738712e" prot="public" virt="non-virtual"><scope>Entry</scope><name>children</name></member>
+      <member refid="d4/dd7/class_entry_1a1e615d53eb7db6d16c19fcb5788fbd9eafe3e2fbfb346a3d291cea00bdae441fb" prot="public" virt="non-virtual"><scope>Entry</scope><name>CLASS_SEC</name></member>
+      <member refid="d4/dd7/class_entry_1a1e615d53eb7db6d16c19fcb5788fbd9eac0433f4df4711b49a0e7dfa5565764e4" prot="public" virt="non-virtual"><scope>Entry</scope><name>CLASSDOC_SEC</name></member>
+      <member refid="d4/dd7/class_entry_1a1e615d53eb7db6d16c19fcb5788fbd9ea0fbc29ab81cad1713e5b59f04a6866fb" prot="public" virt="non-virtual"><scope>Entry</scope><name>COMPOUND_MASK</name></member>
+      <member refid="d4/dd7/class_entry_1a1e615d53eb7db6d16c19fcb5788fbd9ea0ebd1dc0e6463d1afa52735edb732576" prot="public" virt="non-virtual"><scope>Entry</scope><name>COMPOUNDDOC_MASK</name></member>
+      <member refid="d4/dd7/class_entry_1ada4aaba5fbbbf54141b2eb9eec393b17" prot="public" virt="non-virtual"><scope>Entry</scope><name>ConstExp</name></member>
+      <member refid="d4/dd7/class_entry_1a025979519b66924ba3cc1de357998f1f" prot="public" virt="non-virtual"><scope>Entry</scope><name>Constrained</name></member>
+      <member refid="d4/dd7/class_entry_1a4e1e6da7b39bc64723ee35d131e28e15" prot="public" virt="non-virtual"><scope>Entry</scope><name>Copy</name></member>
+      <member refid="d4/dd7/class_entry_1a3f62f91546f105d6552fd8a89513bfaf" prot="public" virt="non-virtual"><scope>Entry</scope><name>createNavigationIndex</name></member>
+      <member refid="d4/dd7/class_entry_1ae57233ba1464751b259cbee5e8d748cf" prot="private" virt="non-virtual"><scope>Entry</scope><name>createSubtreeIndex</name></member>
+      <member refid="d4/dd7/class_entry_1ad07a0f209289d0375b5740a58fdb3208" prot="public" virt="non-virtual"><scope>Entry</scope><name>Default</name></member>
+      <member refid="d4/dd7/class_entry_1a1e615d53eb7db6d16c19fcb5788fbd9eae1bf71458b0b2b95f9b45db04580215d" prot="public" virt="non-virtual"><scope>Entry</scope><name>DEFINE_SEC</name></member>
+      <member refid="d4/dd7/class_entry_1a1e615d53eb7db6d16c19fcb5788fbd9ea17c899186346ea386ad23679cb921831" prot="public" virt="non-virtual"><scope>Entry</scope><name>DEFINEDOC_SEC</name></member>
+      <member refid="d4/dd7/class_entry_1a7acc394a520d7dbc506a434baa11b2ff" prot="public" virt="non-virtual"><scope>Entry</scope><name>Delete</name></member>
+      <member refid="d4/dd7/class_entry_1a1e615d53eb7db6d16c19fcb5788fbd9ea0f04437247b50cb9731aabc27a555c04" prot="public" virt="non-virtual"><scope>Entry</scope><name>DIRDOC_SEC</name></member>
+      <member refid="d4/dd7/class_entry_1ac02a6c1dd922221351f6de0286d48d77" prot="public" virt="non-virtual"><scope>Entry</scope><name>doc</name></member>
+      <member refid="d4/dd7/class_entry_1ac6841c6ec8fd7ae6121364e7e1895e94" prot="public" virt="non-virtual"><scope>Entry</scope><name>docFile</name></member>
+      <member refid="d4/dd7/class_entry_1a180b5fdd7f3b963e4b0d2c4ea6e0b1b5" prot="public" virt="non-virtual"><scope>Entry</scope><name>docLine</name></member>
+      <member refid="d4/dd7/class_entry_1a1e615d53eb7db6d16c19fcb5788fbd9ea11846c7a97e4913143fe0ad71ca109a3" prot="public" virt="non-virtual"><scope>Entry</scope><name>EMPTY_SEC</name></member>
+      <member refid="d4/dd7/class_entry_1a2db88158279ecfe391ea775f63869fc1" prot="public" virt="non-virtual"><scope>Entry</scope><name>endBodyLine</name></member>
+      <member refid="d4/dd7/class_entry_1a8283ac849b1f02ff82ca2ff28253db98" prot="public" virt="non-virtual"><scope>Entry</scope><name>Entry</name></member>
+      <member refid="d4/dd7/class_entry_1a98c62e07d86951008cc8a0d60632c262" prot="public" virt="non-virtual"><scope>Entry</scope><name>Entry</name></member>
+      <member refid="d4/dd7/class_entry_1ad7939aa71a758ac6542eae7a751fa402" prot="public" virt="non-virtual"><scope>Entry</scope><name>Enum</name></member>
+      <member refid="d4/dd7/class_entry_1a1e615d53eb7db6d16c19fcb5788fbd9ea8730c3fab803821640a0afa085ee8fbf" prot="public" virt="non-virtual"><scope>Entry</scope><name>ENUM_SEC</name></member>
+      <member refid="d4/dd7/class_entry_1a1e615d53eb7db6d16c19fcb5788fbd9ea1d73fb64ff40c38552ab4485a9c6afe5" prot="public" virt="non-virtual"><scope>Entry</scope><name>ENUMDOC_SEC</name></member>
+      <member refid="d4/dd7/class_entry_1a1e615d53eb7db6d16c19fcb5788fbd9ea47aeda2046ce049766a8a4215c36f54a" prot="public" virt="non-virtual"><scope>Entry</scope><name>EXAMPLE_SEC</name></member>
+      <member refid="d4/dd7/class_entry_1a81b9c13cc15e3460c8d9fdcabeb9342d" prot="public" virt="non-virtual"><scope>Entry</scope><name>exception</name></member>
+      <member refid="d4/dd7/class_entry_1af0d4d4eb70d52c24edeacf0fd339279e" prot="public" virt="non-virtual"><scope>Entry</scope><name>Exception</name></member>
+      <member refid="d4/dd7/class_entry_1a1e615d53eb7db6d16c19fcb5788fbd9eabf09227a400f2348ecff8291632c45b0" prot="public" virt="non-virtual"><scope>Entry</scope><name>EXCEPTIONDOC_SEC</name></member>
+      <member refid="d4/dd7/class_entry_1aa0daa6276cfbd5511ee700e3a28fc345" prot="public" virt="non-virtual"><scope>Entry</scope><name>Explicit</name></member>
+      <member refid="d4/dd7/class_entry_1a6c5a4c9eda694f2bfd2037d7da08ba5d" prot="public" virt="non-virtual"><scope>Entry</scope><name>explicitExternal</name></member>
+      <member refid="d4/dd7/class_entry_1a1e615d53eb7db6d16c19fcb5788fbd9ea09a48dbfb47d95b8c33bbb8d2c751f11" prot="public" virt="non-virtual"><scope>Entry</scope><name>EXPORTED_INTERFACE_SEC</name></member>
+      <member refid="d4/dd7/class_entry_1a22b4c7b8255e183b68c49d5bd9f04017" prot="public" virt="non-virtual"><scope>Entry</scope><name>extends</name></member>
+      <member refid="d4/dd7/class_entry_1a1e615d53eb7db6d16c19fcb5788fbd9eab6221ac6d0848e4bea8b746572b2722a" prot="public" virt="non-virtual"><scope>Entry</scope><name>FILE_MASK</name></member>
+      <member refid="d4/dd7/class_entry_1a1e615d53eb7db6d16c19fcb5788fbd9ea921d45942f2ccaecb30796529ff2fd88" prot="public" virt="non-virtual"><scope>Entry</scope><name>FILEDOC_SEC</name></member>
+      <member refid="d4/dd7/class_entry_1a736f1dfadfe0c0fabb022c533aa27fdc" prot="public" virt="non-virtual"><scope>Entry</scope><name>fileName</name></member>
+      <member refid="d4/dd7/class_entry_1a05e41a105992fc7549e7694fcfefb5cc" prot="public" virt="non-virtual"><scope>Entry</scope><name>Final</name></member>
+      <member refid="d4/dd7/class_entry_1a1e615d53eb7db6d16c19fcb5788fbd9ea0a9b5e033a271b5e44491c2c8277d12e" prot="public" virt="non-virtual"><scope>Entry</scope><name>FUNCTION_SEC</name></member>
+      <member refid="d4/dd7/class_entry_1ae02e62d1c60a9a43bed5d691b5a048b8" prot="public" virt="non-virtual"><scope>Entry</scope><name>Generic</name></member>
+      <member refid="d4/dd7/class_entry_1af8a7c9072149622cf62be17fc0bc9ec9" prot="public" virt="non-virtual"><scope>Entry</scope><name>getSize</name></member>
+      <member refid="d4/dd7/class_entry_1aecb46e9992b0cf2e49a14f2eaf74d60b" prot="public" virt="non-virtual"><scope>Entry</scope><name>Gettable</name></member>
+      <member refid="d4/dd7/class_entry_1a470b655d0d6179559a11a81e6617d509a7637daf4200f6f55374604f2384ac925" prot="public" virt="non-virtual"><scope>Entry</scope><name>GROUPDOC_ADD</name></member>
+      <member refid="d4/dd7/class_entry_1a470b655d0d6179559a11a81e6617d509af6812be32a740baaad470ce4aec182be" prot="public" virt="non-virtual"><scope>Entry</scope><name>GROUPDOC_NORMAL</name></member>
+      <member refid="d4/dd7/class_entry_1a1e615d53eb7db6d16c19fcb5788fbd9eac436870a3523aa8c5466e9cf63ec0c75" prot="public" virt="non-virtual"><scope>Entry</scope><name>GROUPDOC_SEC</name></member>
+      <member refid="d4/dd7/class_entry_1a470b655d0d6179559a11a81e6617d509a4231a193e86f3b43e9b1b6fe12f64ed0" prot="public" virt="non-virtual"><scope>Entry</scope><name>GROUPDOC_WEAK</name></member>
+      <member refid="d4/dd7/class_entry_1a1ad3fe498337128e3e89c72dd5818e3b" prot="public" virt="non-virtual"><scope>Entry</scope><name>groupDocCmd</name></member>
+      <member refid="d4/dd7/class_entry_1a470b655d0d6179559a11a81e6617d509" prot="public" virt="non-virtual"><scope>Entry</scope><name>GroupDocType</name></member>
+      <member refid="d4/dd7/class_entry_1a158710fdea38498193fe93713a280717" prot="public" virt="non-virtual"><scope>Entry</scope><name>groupDocType</name></member>
+      <member refid="d4/dd7/class_entry_1ab8da769425ff6b5b1730077e302356ef" prot="public" virt="non-virtual"><scope>Entry</scope><name>groupingPri</name></member>
+      <member refid="d4/dd7/class_entry_1af10b19c474b2a7173a79b97124d25fc3" prot="public" virt="non-virtual"><scope>Entry</scope><name>groups</name></member>
+      <member refid="d4/dd7/class_entry_1a1e615d53eb7db6d16c19fcb5788fbd9ea61b2174c7ae58ea3a495d75b187db937" prot="public" virt="non-virtual"><scope>Entry</scope><name>HEADER_SEC</name></member>
+      <member refid="d4/dd7/class_entry_1acc4d59ae7ae3e94c3365ab8027593727" prot="public" virt="non-virtual"><scope>Entry</scope><name>hidden</name></member>
+      <member refid="d4/dd7/class_entry_1a338fb12273a1a4f5dc124a1faf47d473" prot="public" virt="non-virtual"><scope>Entry</scope><name>id</name></member>
+      <member refid="d4/dd7/class_entry_1a51e209dbd21d11b0c63d246efa6182f2" prot="public" virt="non-virtual"><scope>Entry</scope><name>inbodyDocs</name></member>
+      <member refid="d4/dd7/class_entry_1aee8cba460792393b5051230c78fbb204" prot="public" virt="non-virtual"><scope>Entry</scope><name>inbodyFile</name></member>
+      <member refid="d4/dd7/class_entry_1a8eed853bf654e1d583e10f04062ccdde" prot="public" virt="non-virtual"><scope>Entry</scope><name>inbodyLine</name></member>
+      <member refid="d4/dd7/class_entry_1a1e615d53eb7db6d16c19fcb5788fbd9ea1d5fb5cd375986933fbd33de101669f4" prot="public" virt="non-virtual"><scope>Entry</scope><name>INCLUDE_SEC</name></member>
+      <member refid="d4/dd7/class_entry_1a1e615d53eb7db6d16c19fcb5788fbd9eaaa9c67e31f133405378f06869ec0da27" prot="public" virt="non-virtual"><scope>Entry</scope><name>INCLUDED_SERVICE_SEC</name></member>
+      <member refid="d4/dd7/class_entry_1a88c55fcdd65a52dce640136f18adccf2" prot="public" virt="non-virtual"><scope>Entry</scope><name>includeFile</name></member>
+      <member refid="d4/dd7/class_entry_1a32626ce14eb253f6da64ed475419a4ac" prot="public" virt="non-virtual"><scope>Entry</scope><name>includeName</name></member>
+      <member refid="d4/dd7/class_entry_1a2a0c9e7ce364ed2981f49314c33245f9" prot="public" virt="non-virtual"><scope>Entry</scope><name>initializer</name></member>
+      <member refid="d4/dd7/class_entry_1ae283a992b9a74c6925c6f602ba7d830d" prot="public" virt="non-virtual"><scope>Entry</scope><name>initLines</name></member>
+      <member refid="d4/dd7/class_entry_1a08eec02f87c0ace9463450d8d385e6c5" prot="public" virt="non-virtual"><scope>Entry</scope><name>Initonly</name></member>
+      <member refid="d4/dd7/class_entry_1af6ecc88758dbf70b8ac46f1653084fba" prot="public" virt="non-virtual"><scope>Entry</scope><name>Inline</name></member>
+      <member refid="d4/dd7/class_entry_1af88583a31bcd3cfc5aa52691f958833f" prot="public" virt="non-virtual"><scope>Entry</scope><name>inside</name></member>
+      <member refid="d4/dd7/class_entry_1ab880f63d6603f9ba28fcea37575ff7ce" prot="public" virt="non-virtual"><scope>Entry</scope><name>Interface</name></member>
+      <member refid="d4/dd7/class_entry_1a1e615d53eb7db6d16c19fcb5788fbd9ea1d38478f61ce5d9d8f1de84d6fb9a1c7" prot="public" virt="non-virtual"><scope>Entry</scope><name>INTERFACEDOC_SEC</name></member>
+      <member refid="d4/dd7/class_entry_1a4ee5bbd6ac8bdf2f017d93edcefce5e9" prot="public" virt="non-virtual"><scope>Entry</scope><name>lang</name></member>
+      <member refid="d4/dd7/class_entry_1add9f0a2163d2e5098b889de081642181" prot="private" virt="non-virtual"><scope>Entry</scope><name>m_parent</name></member>
+      <member refid="d4/dd7/class_entry_1ade1b9bd00d8dd12570d2b65cb4bd02f7" prot="private" virt="non-virtual"><scope>Entry</scope><name>m_sublist</name></member>
+      <member refid="d4/dd7/class_entry_1a1e615d53eb7db6d16c19fcb5788fbd9ea3d14d1f9bc14ce1ea0ae448013b2ca5d" prot="public" virt="non-virtual"><scope>Entry</scope><name>MAINPAGEDOC_SEC</name></member>
+      <member refid="d4/dd7/class_entry_1a902c34351fc9978dfe5530804827ceb6" prot="public" virt="non-virtual"><scope>Entry</scope><name>marshall</name></member>
+      <member refid="d4/dd7/class_entry_1ae3e84af12e322ab715e5ae191d92d1c7" prot="public" virt="non-virtual"><scope>Entry</scope><name>MaybeAmbiguous</name></member>
+      <member refid="d4/dd7/class_entry_1a7fd65cf61e33aa95cef95d5789f61063" prot="public" virt="non-virtual"><scope>Entry</scope><name>MaybeDefault</name></member>
+      <member refid="d4/dd7/class_entry_1ac4db81b56383103198fda03a5bfe32f7" prot="public" virt="non-virtual"><scope>Entry</scope><name>MaybeVoid</name></member>
+      <member refid="d4/dd7/class_entry_1a1e615d53eb7db6d16c19fcb5788fbd9ea1cdc60d6712c8674b7785a7d2ad5831d" prot="public" virt="non-virtual"><scope>Entry</scope><name>MEMBERDOC_SEC</name></member>
+      <member refid="d4/dd7/class_entry_1a1e615d53eb7db6d16c19fcb5788fbd9ea171c9ddbf862a67af2ff3d9e98f1dac4" prot="public" virt="non-virtual"><scope>Entry</scope><name>MEMBERGRP_SEC</name></member>
+      <member refid="d4/dd7/class_entry_1a9f7167fc5b369f1fcd343946803efa0d" prot="public" virt="non-virtual"><scope>Entry</scope><name>mGrpId</name></member>
+      <member refid="d4/dd7/class_entry_1a4669c5294781bce55ce0ad654460acbd" prot="public" virt="non-virtual"><scope>Entry</scope><name>mtype</name></member>
+      <member refid="d4/dd7/class_entry_1abdb668913f12e2bb7f497d1240f4dabe" prot="public" virt="non-virtual"><scope>Entry</scope><name>Mutable</name></member>
+      <member refid="d4/dd7/class_entry_1a87d6afbe10ea84859ef03b6f046e34d3" prot="public" virt="non-virtual"><scope>Entry</scope><name>name</name></member>
+      <member refid="d4/dd7/class_entry_1a1e615d53eb7db6d16c19fcb5788fbd9ea86229a756764e3d5f94ad24c19cd2ce1" prot="public" virt="non-virtual"><scope>Entry</scope><name>NAMESPACE_SEC</name></member>
+      <member refid="d4/dd7/class_entry_1a1e615d53eb7db6d16c19fcb5788fbd9ea84f12bd39a098e35429a33c7b2f2e91f" prot="public" virt="non-virtual"><scope>Entry</scope><name>NAMESPACEDOC_SEC</name></member>
+      <member refid="d4/dd7/class_entry_1aafb321f7d03c78d478eb517e2b8fee5c" prot="public" virt="non-virtual"><scope>Entry</scope><name>New</name></member>
+      <member refid="d4/dd7/class_entry_1ac6b75896b4f2bda76dfc3c0a476af5c9" prot="public" virt="non-virtual"><scope>Entry</scope><name>NoExcept</name></member>
+      <member refid="d4/dd7/class_entry_1a625709046534d2a921dcea4f6cc5e201" prot="public" virt="non-virtual"><scope>Entry</scope><name>NonAtomic</name></member>
+      <member refid="d4/dd7/class_entry_1a11f13875c6f9f3f9bed32e97a5d50bf5" prot="public" virt="non-virtual"><scope>Entry</scope><name>num</name></member>
+      <member refid="d4/dd7/class_entry_1a1e615d53eb7db6d16c19fcb5788fbd9ea3fbb1e10f0eb30e274f6075ef399f9b3" prot="public" virt="non-virtual"><scope>Entry</scope><name>OBJCIMPL_SEC</name></member>
+      <member refid="d4/dd7/class_entry_1aa312e24cb0bd174ad2b8ac8b8cf62578" prot="private" virt="non-virtual"><scope>Entry</scope><name>operator=</name></member>
+      <member refid="d4/dd7/class_entry_1a9ad48c27ca569a257713c043a97a73b4" prot="public" virt="non-virtual"><scope>Entry</scope><name>Optional</name></member>
+      <member refid="d4/dd7/class_entry_1a1e615d53eb7db6d16c19fcb5788fbd9ea10993a5074ca0f813f263a2aa9600231" prot="public" virt="non-virtual"><scope>Entry</scope><name>OVERLOADDOC_SEC</name></member>
+      <member refid="d4/dd7/class_entry_1a83dbbe54e04a253b8e9bdbebacf02ab5" prot="public" virt="non-virtual"><scope>Entry</scope><name>Override</name></member>
+      <member refid="d4/dd7/class_entry_1a1e615d53eb7db6d16c19fcb5788fbd9eadc53e0081b3056cbc39132455d87d661" prot="public" virt="non-virtual"><scope>Entry</scope><name>PACKAGE_SEC</name></member>
+      <member refid="d4/dd7/class_entry_1a1e615d53eb7db6d16c19fcb5788fbd9eaff3a0a82e337b98af15203f11db90d14" prot="public" virt="non-virtual"><scope>Entry</scope><name>PACKAGEDOC_SEC</name></member>
+      <member refid="d4/dd7/class_entry_1a1e615d53eb7db6d16c19fcb5788fbd9eacb6a803c732ccd6d66b0c260459a0f1e" prot="public" virt="non-virtual"><scope>Entry</scope><name>PAGEDOC_SEC</name></member>
+      <member refid="d4/dd7/class_entry_1a2161a0a728abbfc211fe5d6af9d6cc16" prot="public" virt="non-virtual"><scope>Entry</scope><name>parent</name></member>
+      <member refid="d4/dd7/class_entry_1a8aa37e42f17105b914db76b0c05d0a1f" prot="public" virt="non-virtual"><scope>Entry</scope><name>program</name></member>
+      <member refid="d4/dd7/class_entry_1a3f6eae37a5b311029176970ab0fdac14" prot="public" virt="non-virtual"><scope>Entry</scope><name>Property</name></member>
+      <member refid="d4/dd7/class_entry_1acbb1b4e99978a710863cf9cab6c90553" prot="public" virt="non-virtual"><scope>Entry</scope><name>protection</name></member>
+      <member refid="d4/dd7/class_entry_1a14c9abc36afe46d02521ef846e6bcc27" prot="public" virt="non-virtual"><scope>Entry</scope><name>proto</name></member>
+      <member refid="d4/dd7/class_entry_1a3a84b60a59e7bc7cb2d1b71e3be16d80" prot="public" virt="non-virtual"><scope>Entry</scope><name>Protocol</name></member>
+      <member refid="d4/dd7/class_entry_1a1e615d53eb7db6d16c19fcb5788fbd9ead9fa44283a6ddc98f642c7a478e8809c" prot="public" virt="non-virtual"><scope>Entry</scope><name>PROTOCOLDOC_SEC</name></member>
+      <member refid="d4/dd7/class_entry_1a2dffe3090d7636a879832be07aec6a0a" prot="public" virt="non-virtual"><scope>Entry</scope><name>Published</name></member>
+      <member refid="d4/dd7/class_entry_1af29e470caff223862bd5da2ebbc2dae3" prot="public" virt="non-virtual"><scope>Entry</scope><name>Raisable</name></member>
+      <member refid="d4/dd7/class_entry_1ac5ad6c6585645a4427b54e5281316b65" prot="public" virt="non-virtual"><scope>Entry</scope><name>read</name></member>
+      <member refid="d4/dd7/class_entry_1a96ae6836464b455d422a5caec657aa52" prot="public" virt="non-virtual"><scope>Entry</scope><name>Readable</name></member>
+      <member refid="d4/dd7/class_entry_1a6560e43e64a7c5a4b579f6888c9f12f0" prot="public" virt="non-virtual"><scope>Entry</scope><name>Readonly</name></member>
+      <member refid="d4/dd7/class_entry_1a530abd3056891add4d91ef6b26a55ca1" prot="public" virt="non-virtual"><scope>Entry</scope><name>Ref</name></member>
+      <member refid="d4/dd7/class_entry_1a611ec017dea1768b7093bea6e4177cba" prot="public" virt="non-virtual"><scope>Entry</scope><name>relates</name></member>
+      <member refid="d4/dd7/class_entry_1a74ff1e30a3ed19f82ce61f70b8a5a413" prot="public" virt="non-virtual"><scope>Entry</scope><name>relatesType</name></member>
+      <member refid="d4/dd7/class_entry_1a8776cd2246f045bb3babf98767059b01" prot="public" virt="non-virtual"><scope>Entry</scope><name>Removable</name></member>
+      <member refid="d4/dd7/class_entry_1aecaae1b0c184b1ee2dc342ce7d6300f1" prot="public" virt="non-virtual"><scope>Entry</scope><name>removeSubEntry</name></member>
+      <member refid="d4/dd7/class_entry_1a8f112187a1d23bcc9a76e24ce8cb995f" prot="public" virt="non-virtual"><scope>Entry</scope><name>Required</name></member>
+      <member refid="d4/dd7/class_entry_1ae9367c39f34b043c6e36ddb52a4188e0" prot="public" virt="non-virtual"><scope>Entry</scope><name>reset</name></member>
+      <member refid="d4/dd7/class_entry_1a4e58873aeb4db094eca72da7444161e9" prot="public" virt="non-virtual"><scope>Entry</scope><name>Retain</name></member>
+      <member refid="d4/dd7/class_entry_1a1e615d53eb7db6d16c19fcb5788fbd9ea07caefb6556cecb7ebaf6eb730fdd871" prot="public" virt="non-virtual"><scope>Entry</scope><name>SCOPE_MASK</name></member>
+      <member refid="d4/dd7/class_entry_1a39e7b20eb9fc71542b0d22beea8c3dc3" prot="public" virt="non-virtual"><scope>Entry</scope><name>Sealed</name></member>
+      <member refid="d4/dd7/class_entry_1a52ebcc0cc1ada1d65110f17c5a53bae8" prot="public" virt="non-virtual"><scope>Entry</scope><name>SealedClass</name></member>
+      <member refid="d4/dd7/class_entry_1a9197cdd8acd8fc0670e2911a407f3d04" prot="public" virt="non-virtual"><scope>Entry</scope><name>section</name></member>
+      <member refid="d4/dd7/class_entry_1a1e615d53eb7db6d16c19fcb5788fbd9e" prot="public" virt="non-virtual"><scope>Entry</scope><name>Sections</name></member>
+      <member refid="d4/dd7/class_entry_1a9547b8789d4e3947195c1d61f5e1a96a" prot="public" virt="non-virtual"><scope>Entry</scope><name>Service</name></member>
+      <member refid="d4/dd7/class_entry_1a1e615d53eb7db6d16c19fcb5788fbd9ea35caf3f160162e6bc32fa6b826b99758" prot="public" virt="non-virtual"><scope>Entry</scope><name>SERVICEDOC_SEC</name></member>
+      <member refid="d4/dd7/class_entry_1a21bfe6584b202258d72fd158aac694c4" prot="public" virt="non-virtual"><scope>Entry</scope><name>setParent</name></member>
+      <member refid="d4/dd7/class_entry_1afce6228666d983de4eb2c817ab80c035" prot="public" virt="non-virtual"><scope>Entry</scope><name>Settable</name></member>
+      <member refid="d4/dd7/class_entry_1a0d43729e0fcbde5bb4ab3a7f955a8414" prot="public" virt="non-virtual"><scope>Entry</scope><name>Singleton</name></member>
+      <member refid="d4/dd7/class_entry_1a1e615d53eb7db6d16c19fcb5788fbd9ea53aa6ec4489c6121cbdab881bae32e16" prot="public" virt="non-virtual"><scope>Entry</scope><name>SINGLETONDOC_SEC</name></member>
+      <member refid="d4/dd7/class_entry_1a5328bd7f1580a30ad2345840044c2a4b" prot="public" virt="non-virtual"><scope>Entry</scope><name>sli</name></member>
+      <member refid="d4/dd7/class_entry_1a1e615d53eb7db6d16c19fcb5788fbd9ea88c12ff4f573557ac9c36e16b1e84396" prot="public" virt="non-virtual"><scope>Entry</scope><name>SOURCE_SEC</name></member>
+      <member refid="d4/dd7/class_entry_1a3019e7d39a5c382fb924e22913198133" prot="public" virt="non-virtual"><scope>Entry</scope><name>spec</name></member>
+      <member refid="d4/dd7/class_entry_1a59c06b1f3be3c3220404df1d3fdc5bfb" prot="public" virt="non-virtual"><scope>Entry</scope><name>startColumn</name></member>
+      <member refid="d4/dd7/class_entry_1a81bf40c0a6646dc1e33097d7e2552c96" prot="public" virt="non-virtual"><scope>Entry</scope><name>startLine</name></member>
+      <member refid="d4/dd7/class_entry_1ab5f1d92a0b5d8abdf4d42cefc134fdfa" prot="public" virt="non-virtual"><scope>Entry</scope><name>stat</name></member>
+      <member refid="d4/dd7/class_entry_1a4f025cdbdb27c73efe7f6f5c9af9113e" prot="public" virt="non-virtual"><scope>Entry</scope><name>Strong</name></member>
+      <member refid="d4/dd7/class_entry_1a62352fd788f44f3b34541092e3bee1a2" prot="public" virt="non-virtual"><scope>Entry</scope><name>Struct</name></member>
+      <member refid="d4/dd7/class_entry_1a1e615d53eb7db6d16c19fcb5788fbd9ea5067509972e2fbb0b77112960f72e0ec" prot="public" virt="non-virtual"><scope>Entry</scope><name>STRUCTDOC_SEC</name></member>
+      <member refid="d4/dd7/class_entry_1a095b43379529186300dd6a8d8830d5dc" prot="public" virt="non-virtual"><scope>Entry</scope><name>subGrouping</name></member>
+      <member refid="d4/dd7/class_entry_1a0e6301ae1fd7d56d928e1ef7672d4ede" prot="public" virt="non-virtual"><scope>Entry</scope><name>tagInfo</name></member>
+      <member refid="d4/dd7/class_entry_1a6fe1bee76d0edf07bdae161814b8e490" prot="public" virt="non-virtual"><scope>Entry</scope><name>tArgLists</name></member>
+      <member refid="d4/dd7/class_entry_1ae239a5ac21792686fed8a38e2dd49161" prot="public" virt="non-virtual"><scope>Entry</scope><name>Template</name></member>
+      <member refid="d4/dd7/class_entry_1a4002f093ccd2b3d3c78c443135757cee" prot="public" virt="non-virtual"><scope>Entry</scope><name>Transient</name></member>
+      <member refid="d4/dd7/class_entry_1a79a9b5736630c3769e645f71dc357b9f" prot="public" virt="non-virtual"><scope>Entry</scope><name>type</name></member>
+      <member refid="d4/dd7/class_entry_1a77d30ef01feb28bf83b77d4148968f84" prot="public" virt="non-virtual"><scope>Entry</scope><name>typeConstr</name></member>
+      <member refid="d4/dd7/class_entry_1a1e615d53eb7db6d16c19fcb5788fbd9ea41ce0bffd8f62c6290ec1631a5383239" prot="public" virt="non-virtual"><scope>Entry</scope><name>TYPEDEF_SEC</name></member>
+      <member refid="d4/dd7/class_entry_1a2954b31782155586b4d154cd8bcbaa86" prot="public" virt="non-virtual"><scope>Entry</scope><name>Union</name></member>
+      <member refid="d4/dd7/class_entry_1a1e615d53eb7db6d16c19fcb5788fbd9ea9204315b71c1ecf6824c749a958f61b5" prot="public" virt="non-virtual"><scope>Entry</scope><name>UNIONDOC_SEC</name></member>
+      <member refid="d4/dd7/class_entry_1a0c2561181c63aad06955b06211667683" prot="public" virt="non-virtual"><scope>Entry</scope><name>unmarshall</name></member>
+      <member refid="d4/dd7/class_entry_1a64b2b777cba602e308b811702be5ab58" prot="public" virt="non-virtual"><scope>Entry</scope><name>Unretained</name></member>
+      <member refid="d4/dd7/class_entry_1a1e615d53eb7db6d16c19fcb5788fbd9eaf36465de74f5e770163ff501164b5ea3" prot="public" virt="non-virtual"><scope>Entry</scope><name>USINGDECL_SEC</name></member>
+      <member refid="d4/dd7/class_entry_1a1e615d53eb7db6d16c19fcb5788fbd9ea02b6fd475d93b9857740ec4621dbd78c" prot="public" virt="non-virtual"><scope>Entry</scope><name>USINGDIR_SEC</name></member>
+      <member refid="d4/dd7/class_entry_1aed8b4b067480b3b467f64363e390be17" prot="public" virt="non-virtual"><scope>Entry</scope><name>Value</name></member>
+      <member refid="d4/dd7/class_entry_1a1e615d53eb7db6d16c19fcb5788fbd9ea25a7eb430ec1ff5877adcba5930fa09d" prot="public" virt="non-virtual"><scope>Entry</scope><name>VARIABLE_SEC</name></member>
+      <member refid="d4/dd7/class_entry_1a1e615d53eb7db6d16c19fcb5788fbd9ea9c954be8effa57227478188c78d2c313" prot="public" virt="non-virtual"><scope>Entry</scope><name>VARIABLEDOC_SEC</name></member>
+      <member refid="d4/dd7/class_entry_1aaf045b9c026443fd192064117083911b" prot="public" virt="non-virtual"><scope>Entry</scope><name>virt</name></member>
+      <member refid="d4/dd7/class_entry_1ac4e4222ded00c776ad62dadac47d56e3" prot="public" virt="non-virtual"><scope>Entry</scope><name>Weak</name></member>
+      <member refid="d4/dd7/class_entry_1a25dcb70eced0093cf96d0cac37689f75" prot="public" virt="non-virtual"><scope>Entry</scope><name>Writable</name></member>
+      <member refid="d4/dd7/class_entry_1a76a68a1f14534f069444ba2704ef7404" prot="public" virt="non-virtual"><scope>Entry</scope><name>write</name></member>
+      <member refid="d4/dd7/class_entry_1ace080276d727881acfee7197b85f0b65" prot="public" virt="non-virtual"><scope>Entry</scope><name>~Entry</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,716 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.2">
+  <compounddef id="db/dd8/outputlist_8cpp" kind="file">
+    <compoundname>outputlist.cpp</compoundname>
+    <includes refid="d2/db9/outputlist_8h" local="yes">outputlist.h</includes>
+    <includes refid="df/d06/outputgen_8h" local="yes">outputgen.h</includes>
+    <includes refid="db/d16/config_8h" local="yes">config.h</includes>
+    <includes refid="d2/d0d/message_8h" local="yes">message.h</includes>
+    <includes refid="df/da1/definition_8h" local="yes">definition.h</includes>
+    <includes refid="de/d9c/docparser_8h" local="yes">docparser.h</includes>
+    <includes refid="dd/dec/vhdldocgen_8h" local="yes">vhdldocgen.h</includes>
+    <incdepgraph>
+      <node id="4045">
+        <label>qcstring.h</label>
+      </node>
+      <node id="4056">
+        <label>qgstring.h</label>
+      </node>
+      <node id="4046">
+        <label>outputgen.h</label>
+        <link refid="df/d06/outputgen_8h_source"/>
+        <childnode refid="4047" relation="include">
+        </childnode>
+        <childnode refid="4044" relation="include">
+        </childnode>
+        <childnode refid="4048" relation="include">
+        </childnode>
+        <childnode refid="4052" relation="include">
+        </childnode>
+      </node>
+      <node id="4047">
+        <label>qstack.h</label>
+      </node>
+      <node id="4062">
+        <label>docparser.h</label>
+        <link refid="de/d9c/docparser_8h_source"/>
+        <childnode refid="4053" relation="include">
+        </childnode>
+        <childnode refid="4043" relation="include">
+        </childnode>
+        <childnode refid="4045" relation="include">
+        </childnode>
+        <childnode refid="4063" relation="include">
+        </childnode>
+        <childnode refid="4064" relation="include">
+        </childnode>
+      </node>
+      <node id="4058">
+        <label>qstrlist.h</label>
+      </node>
+      <node id="4055">
+        <label>qstring.h</label>
+      </node>
+      <node id="4042">
+        <label>outputlist.h</label>
+        <link refid="d2/db9/outputlist_8h_source"/>
+        <childnode refid="4043" relation="include">
+        </childnode>
+        <childnode refid="4044" relation="include">
+        </childnode>
+        <childnode refid="4046" relation="include">
+        </childnode>
+      </node>
+      <node id="4063">
+        <label>docvisitor.h</label>
+        <link refid="d2/d3c/docvisitor_8h_source"/>
+      </node>
+      <node id="4049">
+        <label>sortdict.h</label>
+        <link refid="d9/d21/sortdict_8h_source"/>
+        <childnode refid="4043" relation="include">
+        </childnode>
+        <childnode refid="4050" relation="include">
+        </childnode>
+        <childnode refid="4051" relation="include">
+        </childnode>
+      </node>
+      <node id="4068">
+        <label>entry.h</label>
+        <link refid="d1/dc6/entry_8h_source"/>
+        <childnode refid="4061" relation="include">
+        </childnode>
+        <childnode refid="4043" relation="include">
+        </childnode>
+        <childnode refid="4056" relation="include">
+        </childnode>
+      </node>
+      <node id="4059">
+        <label>message.h</label>
+        <link refid="d2/d0d/message_8h_source"/>
+        <childnode refid="4053" relation="include">
+        </childnode>
+      </node>
+      <node id="4051">
+        <label>qintdict.h</label>
+      </node>
+      <node id="4054">
+        <label>qiodevice.h</label>
+      </node>
+      <node id="4057">
+        <label>config.h</label>
+        <link refid="db/d16/config_8h_source"/>
+        <childnode refid="4058" relation="include">
+        </childnode>
+        <childnode refid="4050" relation="include">
+        </childnode>
+        <childnode refid="4043" relation="include">
+        </childnode>
+        <childnode refid="4052" relation="include">
+        </childnode>
+      </node>
+      <node id="4061">
+        <label>types.h</label>
+        <link refid="d9/d49/types_8h"/>
+        <childnode refid="4045" relation="include">
+        </childnode>
+      </node>
+      <node id="4043">
+        <label>qlist.h</label>
+      </node>
+      <node id="4052">
+        <label>ftextstream.h</label>
+        <link refid="df/d83/ftextstream_8h_source"/>
+        <childnode refid="4053" relation="include">
+        </childnode>
+        <childnode refid="4054" relation="include">
+        </childnode>
+        <childnode refid="4055" relation="include">
+        </childnode>
+        <childnode refid="4056" relation="include">
+        </childnode>
+      </node>
+      <node id="4048">
+        <label>section.h</label>
+        <link refid="d1/d2a/section_8h_source"/>
+        <childnode refid="4049" relation="include">
+        </childnode>
+      </node>
+      <node id="4060">
+        <label>definition.h</label>
+        <link refid="df/da1/definition_8h_source"/>
+        <childnode refid="4043" relation="include">
+        </childnode>
+        <childnode refid="4050" relation="include">
+        </childnode>
+        <childnode refid="4061" relation="include">
+        </childnode>
+      </node>
+      <node id="4044">
+        <label>index.h</label>
+        <link refid="d1/db5/index_8h_source"/>
+        <childnode refid="4043" relation="include">
+        </childnode>
+        <childnode refid="4045" relation="include">
+        </childnode>
+      </node>
+      <node id="4050">
+        <label>qdict.h</label>
+      </node>
+      <node id="4064">
+        <label>htmlattrib.h</label>
+        <link refid="d0/d73/htmlattrib_8h_source"/>
+        <childnode refid="4045" relation="include">
+        </childnode>
+        <childnode refid="4043" relation="include">
+        </childnode>
+      </node>
+      <node id="4053">
+        <label>stdio.h</label>
+      </node>
+      <node id="4041">
+        <label>src/outputlist.cpp</label>
+        <link refid="outputlist.cpp"/>
+        <childnode refid="4042" relation="include">
+        </childnode>
+        <childnode refid="4046" relation="include">
+        </childnode>
+        <childnode refid="4057" relation="include">
+        </childnode>
+        <childnode refid="4059" relation="include">
+        </childnode>
+        <childnode refid="4060" relation="include">
+        </childnode>
+        <childnode refid="4062" relation="include">
+        </childnode>
+        <childnode refid="4065" relation="include">
+        </childnode>
+      </node>
+      <node id="4065">
+        <label>vhdldocgen.h</label>
+        <link refid="dd/dec/vhdldocgen_8h_source"/>
+        <childnode refid="4050" relation="include">
+        </childnode>
+        <childnode refid="4045" relation="include">
+        </childnode>
+        <childnode refid="4066" relation="include">
+        </childnode>
+        <childnode refid="4067" relation="include">
+        </childnode>
+        <childnode refid="4068" relation="include">
+        </childnode>
+      </node>
+      <node id="4066">
+        <label>layout.h</label>
+        <link refid="db/d51/layout_8h_source"/>
+        <childnode refid="4043" relation="include">
+        </childnode>
+        <childnode refid="4061" relation="include">
+        </childnode>
+      </node>
+      <node id="4067">
+        <label>arguments.h</label>
+        <link refid="df/d9b/arguments_8h_source"/>
+        <childnode refid="4043" relation="include">
+        </childnode>
+        <childnode refid="4045" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+      <sectiondef kind="define">
+      <memberdef kind="define" id="db/dd8/outputlist_8cpp_1af7401f29adec030ecfdd74b9de7d8192" prot="public" static="no">
+        <name>FORALL1</name>
+        <param><defname>a1</defname></param>
+        <param><defname>p1</defname></param>
+        <initializer>void OutputList::forall(void (OutputGenerator::*func)(a1),a1) \
+{                                                             \
+  <ref refid="d3/d8e/class_output_generator" kindref="compound">OutputGenerator</ref> *og=outputs-&gt;first();                       \
+  while (og)                                                  \
+  {                                                           \
+    if (og-&gt;isEnabled()) (og-&gt;*func)(p1);                     \
+    og=outputs-&gt;next();                                       \
+  }                                                           \
+}</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/outputlist.cpp" line="232" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/outputlist.cpp" bodystart="223" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="db/dd8/outputlist_8cpp_1ab5a58e89505ad8c433a86bdf9bd88e43" prot="public" static="no">
+        <name>FORALL2</name>
+        <param><defname>a1</defname></param>
+        <param><defname>a2</defname></param>
+        <param><defname>p1</defname></param>
+        <param><defname>p2</defname></param>
+        <initializer>void OutputList::forall(void (OutputGenerator::*func)(a1,a2),a1,a2) \
+{                                                                   \
+  <ref refid="d3/d8e/class_output_generator" kindref="compound">OutputGenerator</ref> *og=outputs-&gt;first();                             \
+  while (og)                                                        \
+  {                                                                 \
+    if (og-&gt;isEnabled()) (og-&gt;*func)(p1,p2);                        \
+    og=outputs-&gt;next();                                             \
+  }                                                                 \
+}</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/outputlist.cpp" line="244" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/outputlist.cpp" bodystart="235" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="db/dd8/outputlist_8cpp_1a851ecbeeb61a7564df1d830ecf0e768f" prot="public" static="no">
+        <name>FORALL3</name>
+        <param><defname>a1</defname></param>
+        <param><defname>a2</defname></param>
+        <param><defname>a3</defname></param>
+        <param><defname>p1</defname></param>
+        <param><defname>p2</defname></param>
+        <param><defname>p3</defname></param>
+        <initializer>void OutputList::forall(void (OutputGenerator::*func)(a1,a2,a3),a1,a2,a3) \
+{                                                                         \
+  <ref refid="d3/d8e/class_output_generator" kindref="compound">OutputGenerator</ref> *og=outputs-&gt;first();                                   \
+  while (og)                                                              \
+  {                                                                       \
+    if (og-&gt;isEnabled()) (og-&gt;*func)(p1,p2,p3);                           \
+    og=outputs-&gt;next();                                                   \
+  }                                                                       \
+}</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/outputlist.cpp" line="256" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/outputlist.cpp" bodystart="247" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="db/dd8/outputlist_8cpp_1a0380f3d18f639fbc8044838e52add9c6" prot="public" static="no">
+        <name>FORALL4</name>
+        <param><defname>a1</defname></param>
+        <param><defname>a2</defname></param>
+        <param><defname>a3</defname></param>
+        <param><defname>a4</defname></param>
+        <param><defname>p1</defname></param>
+        <param><defname>p2</defname></param>
+        <param><defname>p3</defname></param>
+        <param><defname>p4</defname></param>
+        <initializer>void OutputList::forall(void (OutputGenerator::*func)(a1,a2,a3,a4),a1,a2,a3,a4) \
+{                                                                               \
+  <ref refid="d3/d8e/class_output_generator" kindref="compound">OutputGenerator</ref> *og=outputs-&gt;first();                                         \
+  while (og)                                                                    \
+  {                                                                             \
+    if (og-&gt;isEnabled()) (og-&gt;*func)(p1,p2,p3,p4);                              \
+    og=outputs-&gt;next();                                                         \
+  }                                                                             \
+}</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/outputlist.cpp" line="268" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/outputlist.cpp" bodystart="259" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="db/dd8/outputlist_8cpp_1ae4e23d37dfebcfa38a0064ae191864f3" prot="public" static="no">
+        <name>FORALL5</name>
+        <param><defname>a1</defname></param>
+        <param><defname>a2</defname></param>
+        <param><defname>a3</defname></param>
+        <param><defname>a4</defname></param>
+        <param><defname>a5</defname></param>
+        <param><defname>p1</defname></param>
+        <param><defname>p2</defname></param>
+        <param><defname>p3</defname></param>
+        <param><defname>p4</defname></param>
+        <param><defname>p5</defname></param>
+        <initializer>void OutputList::forall(void (OutputGenerator::*func)(a1,a2,a3,a4,a5),a1,a2,a3,a4,a5) \
+{                                                                                     \
+  <ref refid="d3/d8e/class_output_generator" kindref="compound">OutputGenerator</ref> *og=outputs-&gt;first();                                               \
+  while (og)                                                                          \
+  {                                                                                   \
+    if (og-&gt;isEnabled()) (og-&gt;*func)(p1,p2,p3,p4,p5);                                 \
+    og=outputs-&gt;next();                                                               \
+  }                                                                                   \
+}</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/outputlist.cpp" line="280" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/outputlist.cpp" bodystart="271" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="db/dd8/outputlist_8cpp_1aed434f7818c5abeccbd49e95941036cb" prot="public" static="no">
+        <name>FORALL6</name>
+        <param><defname>a1</defname></param>
+        <param><defname>a2</defname></param>
+        <param><defname>a3</defname></param>
+        <param><defname>a4</defname></param>
+        <param><defname>a5</defname></param>
+        <param><defname>a6</defname></param>
+        <param><defname>p1</defname></param>
+        <param><defname>p2</defname></param>
+        <param><defname>p3</defname></param>
+        <param><defname>p4</defname></param>
+        <param><defname>p5</defname></param>
+        <param><defname>p6</defname></param>
+        <initializer>void OutputList::forall(void (OutputGenerator::*func)(a1,a2,a3,a4,a5,a6),a1,a2,a3,a4,a5,a6) \
+{                                                                                     \
+  <ref refid="d3/d8e/class_output_generator" kindref="compound">OutputGenerator</ref> *og=outputs-&gt;first();                                               \
+  while (og)                                                                          \
+  {                                                                                   \
+    if (og-&gt;isEnabled()) (og-&gt;*func)(p1,p2,p3,p4,p5,p6);                              \
+    og=outputs-&gt;next();                                                               \
+  }                                                                                   \
+}</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/outputlist.cpp" line="292" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/outputlist.cpp" bodystart="283" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>This class represents a list of output generators that work in &quot;parallel&quot;. The class only knows about the abstract base class OutputGenerators. All output is produced by calling a method of this class, which forwards the call to all output generators. </para>    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">/******************************************************************************</highlight></codeline>
+<codeline lineno="2"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="3"><highlight class="comment"><sp/>*<sp/>$Id:<sp/>outputlist.cpp,v<sp/>1.35<sp/>2001/03/19<sp/>19:27:41<sp/>root<sp/>Exp<sp/>$</highlight></codeline>
+<codeline lineno="4"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="5"><highlight class="comment"><sp/>*<sp/>Copyright<sp/>(C)<sp/>1997-2013<sp/>by<sp/>Dimitri<sp/>van<sp/>Heesch.</highlight></codeline>
+<codeline lineno="6"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="7"><highlight class="comment"><sp/>*<sp/>Permission<sp/>to<sp/>use,<sp/>copy,<sp/>modify,<sp/>and<sp/>distribute<sp/>this<sp/>software<sp/>and<sp/>its</highlight></codeline>
+<codeline lineno="8"><highlight class="comment"><sp/>*<sp/>documentation<sp/>under<sp/>the<sp/>terms<sp/>of<sp/>the<sp/>GNU<sp/>General<sp/>Public<sp/>License<sp/>is<sp/>hereby<sp/></highlight></codeline>
+<codeline lineno="9"><highlight class="comment"><sp/>*<sp/>granted.<sp/>No<sp/>representations<sp/>are<sp/>made<sp/>about<sp/>the<sp/>suitability<sp/>of<sp/>this<sp/>software<sp/></highlight></codeline>
+<codeline lineno="10"><highlight class="comment"><sp/>*<sp/>for<sp/>any<sp/>purpose.<sp/>It<sp/>is<sp/>provided<sp/>&quot;as<sp/>is&quot;<sp/>without<sp/>express<sp/>or<sp/>implied<sp/>warranty.</highlight></codeline>
+<codeline lineno="11"><highlight class="comment"><sp/>*<sp/>See<sp/>the<sp/>GNU<sp/>General<sp/>Public<sp/>License<sp/>for<sp/>more<sp/>details.</highlight></codeline>
+<codeline lineno="12"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="13"><highlight class="comment"><sp/>*<sp/>Documents<sp/>produced<sp/>by<sp/>Doxygen<sp/>are<sp/>derivative<sp/>works<sp/>derived<sp/>from<sp/>the</highlight></codeline>
+<codeline lineno="14"><highlight class="comment"><sp/>*<sp/>input<sp/>used<sp/>in<sp/>their<sp/>production;<sp/>they<sp/>are<sp/>not<sp/>affected<sp/>by<sp/>this<sp/>license.</highlight></codeline>
+<codeline lineno="15"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="16"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="preprocessor">#include<sp/>&quot;outputlist.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;outputgen.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;config.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;message.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="29"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;definition.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="30"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;docparser.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="31"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;vhdldocgen.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="32"><highlight class="normal"></highlight></codeline>
+<codeline lineno="33"><highlight class="normal">OutputList::OutputList(</highlight><highlight class="keywordtype">bool</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="34"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//printf(&quot;OutputList::OutputList()\n&quot;);</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/>outputs<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="db/daa/class_q_list" kindref="compound">QList&lt;OutputGenerator&gt;</ref>;</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/>outputs-&gt;setAutoDelete(TRUE);</highlight></codeline>
+<codeline lineno="38"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"></highlight></codeline>
+<codeline lineno="40"><highlight class="normal">OutputList::~OutputList()</highlight></codeline>
+<codeline lineno="41"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//printf(&quot;OutputList::~OutputList()\n&quot;);</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">delete</highlight><highlight class="normal"><sp/>outputs;</highlight></codeline>
+<codeline lineno="44"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"></highlight></codeline>
+<codeline lineno="46"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>OutputList::add(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="d3/d8e/class_output_generator" kindref="compound" tooltip="Abstract output generator.">OutputGenerator</ref><sp/>*og)</highlight></codeline>
+<codeline lineno="47"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(og)<sp/>outputs-&gt;append(og);</highlight></codeline>
+<codeline lineno="49"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"></highlight></codeline>
+<codeline lineno="51" refid="df/dc8/class_output_list_1a73f9be626eea01f1ccd1b446dcf2c003" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="df/dc8/class_output_list_1a73f9be626eea01f1ccd1b446dcf2c003" kindref="member">OutputList::disableAllBut</ref>(OutputGenerator::OutputType<sp/>o)</highlight></codeline>
+<codeline lineno="52"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"><sp/><sp/><ref refid="d3/d8e/class_output_generator" kindref="compound" tooltip="Abstract output generator.">OutputGenerator</ref><sp/>*og=outputs-&gt;first();</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">while</highlight><highlight class="normal"><sp/>(og)</highlight></codeline>
+<codeline lineno="55"><highlight class="normal"><sp/><sp/>{</highlight></codeline>
+<codeline lineno="56"><highlight class="normal"><sp/><sp/><sp/><sp/>og-&gt;disableIfNot(o);</highlight></codeline>
+<codeline lineno="57"><highlight class="normal"><sp/><sp/><sp/><sp/>og=outputs-&gt;next();</highlight></codeline>
+<codeline lineno="58"><highlight class="normal"><sp/><sp/>}</highlight></codeline>
+<codeline lineno="59"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="60"><highlight class="normal"></highlight></codeline>
+<codeline lineno="61" refid="df/dc8/class_output_list_1ad32603ff4c4ba4d39e0bad7ede5924bf" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="df/dc8/class_output_list_1ad32603ff4c4ba4d39e0bad7ede5924bf" kindref="member">OutputList::enableAll</ref>()</highlight></codeline>
+<codeline lineno="62"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="63"><highlight class="normal"><sp/><sp/><ref refid="d3/d8e/class_output_generator" kindref="compound" tooltip="Abstract output generator.">OutputGenerator</ref><sp/>*og=outputs-&gt;first();</highlight></codeline>
+<codeline lineno="64"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">while</highlight><highlight class="normal"><sp/>(og)</highlight></codeline>
+<codeline lineno="65"><highlight class="normal"><sp/><sp/>{</highlight></codeline>
+<codeline lineno="66"><highlight class="normal"><sp/><sp/><sp/><sp/>og-&gt;enable();</highlight></codeline>
+<codeline lineno="67"><highlight class="normal"><sp/><sp/><sp/><sp/>og=outputs-&gt;next();</highlight></codeline>
+<codeline lineno="68"><highlight class="normal"><sp/><sp/>}</highlight></codeline>
+<codeline lineno="69"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="70"><highlight class="normal"></highlight></codeline>
+<codeline lineno="71" refid="df/dc8/class_output_list_1a6a75284d21a037302ea3d7dc6e1558d4" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="df/dc8/class_output_list_1a6a75284d21a037302ea3d7dc6e1558d4" kindref="member">OutputList::disableAll</ref>()</highlight></codeline>
+<codeline lineno="72"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="73"><highlight class="normal"><sp/><sp/><ref refid="d3/d8e/class_output_generator" kindref="compound" tooltip="Abstract output generator.">OutputGenerator</ref><sp/>*og=outputs-&gt;first();</highlight></codeline>
+<codeline lineno="74"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">while</highlight><highlight class="normal"><sp/>(og)</highlight></codeline>
+<codeline lineno="75"><highlight class="normal"><sp/><sp/>{</highlight></codeline>
+<codeline lineno="76"><highlight class="normal"><sp/><sp/><sp/><sp/>og-&gt;disable();</highlight></codeline>
+<codeline lineno="77"><highlight class="normal"><sp/><sp/><sp/><sp/>og=outputs-&gt;next();</highlight></codeline>
+<codeline lineno="78"><highlight class="normal"><sp/><sp/>}</highlight></codeline>
+<codeline lineno="79"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="80"><highlight class="normal"></highlight></codeline>
+<codeline lineno="81" refid="df/dc8/class_output_list_1a22f8c17b8c14518aa55f8af3c2abab0f" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="df/dc8/class_output_list_1a22f8c17b8c14518aa55f8af3c2abab0f" kindref="member">OutputList::disable</ref>(OutputGenerator::OutputType<sp/>o)</highlight></codeline>
+<codeline lineno="82"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="83"><highlight class="normal"><sp/><sp/><ref refid="d3/d8e/class_output_generator" kindref="compound" tooltip="Abstract output generator.">OutputGenerator</ref><sp/>*og=outputs-&gt;first();</highlight></codeline>
+<codeline lineno="84"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">while</highlight><highlight class="normal"><sp/>(og)</highlight></codeline>
+<codeline lineno="85"><highlight class="normal"><sp/><sp/>{</highlight></codeline>
+<codeline lineno="86"><highlight class="normal"><sp/><sp/><sp/><sp/>og-&gt;disableIf(o);</highlight></codeline>
+<codeline lineno="87"><highlight class="normal"><sp/><sp/><sp/><sp/>og=outputs-&gt;next();</highlight></codeline>
+<codeline lineno="88"><highlight class="normal"><sp/><sp/>}</highlight></codeline>
+<codeline lineno="89"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="90"><highlight class="normal"></highlight></codeline>
+<codeline lineno="91" refid="df/dc8/class_output_list_1a4006394472d6c49f7db435628832c49d" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="df/dc8/class_output_list_1a4006394472d6c49f7db435628832c49d" kindref="member">OutputList::enable</ref>(OutputGenerator::OutputType<sp/>o)</highlight></codeline>
+<codeline lineno="92"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="93"><highlight class="normal"><sp/><sp/><ref refid="d3/d8e/class_output_generator" kindref="compound" tooltip="Abstract output generator.">OutputGenerator</ref><sp/>*og=outputs-&gt;first();</highlight></codeline>
+<codeline lineno="94"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">while</highlight><highlight class="normal"><sp/>(og)</highlight></codeline>
+<codeline lineno="95"><highlight class="normal"><sp/><sp/>{</highlight></codeline>
+<codeline lineno="96"><highlight class="normal"><sp/><sp/><sp/><sp/>og-&gt;enableIf(o);</highlight></codeline>
+<codeline lineno="97"><highlight class="normal"><sp/><sp/><sp/><sp/>og=outputs-&gt;next();</highlight></codeline>
+<codeline lineno="98"><highlight class="normal"><sp/><sp/>}</highlight></codeline>
+<codeline lineno="99"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="100"><highlight class="normal"></highlight></codeline>
+<codeline lineno="101" refid="df/dc8/class_output_list_1a63a7bebe83b904d00b2350863c7c7399" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="df/dc8/class_output_list_1a63a7bebe83b904d00b2350863c7c7399" kindref="member">OutputList::isEnabled</ref>(OutputGenerator::OutputType<sp/>o)</highlight></codeline>
+<codeline lineno="102"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="103"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>result=FALSE;</highlight></codeline>
+<codeline lineno="104"><highlight class="normal"><sp/><sp/><ref refid="d3/d8e/class_output_generator" kindref="compound" tooltip="Abstract output generator.">OutputGenerator</ref><sp/>*og=outputs-&gt;first();</highlight></codeline>
+<codeline lineno="105"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">while</highlight><highlight class="normal"><sp/>(og)</highlight></codeline>
+<codeline lineno="106"><highlight class="normal"><sp/><sp/>{</highlight></codeline>
+<codeline lineno="107"><highlight class="normal"><sp/><sp/><sp/><sp/>result=result<sp/>||<sp/>og-&gt;isEnabled(o);</highlight></codeline>
+<codeline lineno="108"><highlight class="normal"><sp/><sp/><sp/><sp/>og=outputs-&gt;next();</highlight></codeline>
+<codeline lineno="109"><highlight class="normal"><sp/><sp/>}</highlight></codeline>
+<codeline lineno="110"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>result;</highlight></codeline>
+<codeline lineno="111"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="112"><highlight class="normal"></highlight></codeline>
+<codeline lineno="113" refid="df/dc8/class_output_list_1a885957a64f7d87aefb663c4ec903188f" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="df/dc8/class_output_list_1a885957a64f7d87aefb663c4ec903188f" kindref="member">OutputList::pushGeneratorState</ref>()</highlight></codeline>
+<codeline lineno="114"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="115"><highlight class="normal"><sp/><sp/><ref refid="d3/d8e/class_output_generator" kindref="compound" tooltip="Abstract output generator.">OutputGenerator</ref><sp/>*og=outputs-&gt;first();</highlight></codeline>
+<codeline lineno="116"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">while</highlight><highlight class="normal"><sp/>(og)</highlight></codeline>
+<codeline lineno="117"><highlight class="normal"><sp/><sp/>{</highlight></codeline>
+<codeline lineno="118"><highlight class="normal"><sp/><sp/><sp/><sp/>og-&gt;pushGeneratorState();</highlight></codeline>
+<codeline lineno="119"><highlight class="normal"><sp/><sp/><sp/><sp/>og=outputs-&gt;next();</highlight></codeline>
+<codeline lineno="120"><highlight class="normal"><sp/><sp/>}</highlight></codeline>
+<codeline lineno="121"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="122"><highlight class="normal"></highlight></codeline>
+<codeline lineno="123" refid="df/dc8/class_output_list_1a94eb1af2ea07425ef1faa539d24adcf8" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="df/dc8/class_output_list_1a94eb1af2ea07425ef1faa539d24adcf8" kindref="member">OutputList::popGeneratorState</ref>()</highlight></codeline>
+<codeline lineno="124"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="125"><highlight class="normal"><sp/><sp/><ref refid="d3/d8e/class_output_generator" kindref="compound" tooltip="Abstract output generator.">OutputGenerator</ref><sp/>*og=outputs-&gt;first();</highlight></codeline>
+<codeline lineno="126"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">while</highlight><highlight class="normal"><sp/>(og)</highlight></codeline>
+<codeline lineno="127"><highlight class="normal"><sp/><sp/>{</highlight></codeline>
+<codeline lineno="128"><highlight class="normal"><sp/><sp/><sp/><sp/>og-&gt;popGeneratorState();</highlight></codeline>
+<codeline lineno="129"><highlight class="normal"><sp/><sp/><sp/><sp/>og=outputs-&gt;next();</highlight></codeline>
+<codeline lineno="130"><highlight class="normal"><sp/><sp/>}</highlight></codeline>
+<codeline lineno="131"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="132"><highlight class="normal"></highlight></codeline>
+<codeline lineno="133"><highlight class="normal"></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>OutputList::generateDoc(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*fileName,</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>startLine,</highlight></codeline>
+<codeline lineno="134"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="d5/dcc/class_definition" kindref="compound" tooltip="The common base class of all entity definitions found in the sources.">Definition</ref><sp/>*ctx,<ref refid="da/d09/class_member_def" kindref="compound" tooltip="A model of a class/file/namespace member symbol.">MemberDef</ref><sp/>*<sp/>md,</highlight></codeline>
+<codeline lineno="135"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QCString<sp/>&amp;docStr,</highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>indexWords,</highlight></codeline>
+<codeline lineno="136"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>isExample,</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*exampleName,</highlight></codeline>
+<codeline lineno="137"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>singleLine,</highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>linkFromIndex)</highlight></codeline>
+<codeline lineno="138"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="139"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>count=0;</highlight></codeline>
+<codeline lineno="140"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(docStr.isEmpty())<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>TRUE;</highlight></codeline>
+<codeline lineno="141"><highlight class="normal"><sp/><sp/></highlight></codeline>
+<codeline lineno="142"><highlight class="normal"><sp/><sp/><ref refid="d3/d8e/class_output_generator" kindref="compound" tooltip="Abstract output generator.">OutputGenerator</ref><sp/>*og=outputs-&gt;first();</highlight></codeline>
+<codeline lineno="143"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">while</highlight><highlight class="normal"><sp/>(og)</highlight></codeline>
+<codeline lineno="144"><highlight class="normal"><sp/><sp/>{</highlight></codeline>
+<codeline lineno="145"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(og-&gt;isEnabled())<sp/>count++;</highlight></codeline>
+<codeline lineno="146"><highlight class="normal"><sp/><sp/><sp/><sp/>og=outputs-&gt;next();</highlight></codeline>
+<codeline lineno="147"><highlight class="normal"><sp/><sp/>}</highlight></codeline>
+<codeline lineno="148"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(count==0)<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>TRUE;<sp/></highlight><highlight class="comment">//<sp/>no<sp/>output<sp/>formats<sp/>enabled.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="149"><highlight class="normal"></highlight></codeline>
+<codeline lineno="150"><highlight class="normal"><sp/><sp/><ref refid="d8/ddb/class_doc_root" kindref="compound" tooltip="Root node of documentation tree.">DocRoot</ref><sp/>*root=0;</highlight></codeline>
+<codeline lineno="151"><highlight class="normal"><sp/><sp/>root<sp/>=<sp/>validatingParseDoc(fileName,startLine,</highlight></codeline>
+<codeline lineno="152"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>ctx,md,docStr,indexWords,isExample,exampleName,</highlight></codeline>
+<codeline lineno="153"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>singleLine,linkFromIndex);</highlight></codeline>
+<codeline lineno="154"><highlight class="normal"></highlight></codeline>
+<codeline lineno="155"><highlight class="normal"><sp/><sp/>writeDoc(root,ctx,md);</highlight></codeline>
+<codeline lineno="156"><highlight class="normal"></highlight></codeline>
+<codeline lineno="157"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>isEmpty<sp/>=<sp/>root-&gt;isEmpty();</highlight></codeline>
+<codeline lineno="158"><highlight class="normal"></highlight></codeline>
+<codeline lineno="159"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">delete</highlight><highlight class="normal"><sp/>root;</highlight></codeline>
+<codeline lineno="160"><highlight class="normal"></highlight></codeline>
+<codeline lineno="161"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>isEmpty;</highlight></codeline>
+<codeline lineno="162"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="163"><highlight class="normal"></highlight></codeline>
+<codeline lineno="164"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>OutputList::writeDoc(<ref refid="d8/ddb/class_doc_root" kindref="compound" tooltip="Root node of documentation tree.">DocRoot</ref><sp/>*root,<ref refid="d5/dcc/class_definition" kindref="compound" tooltip="The common base class of all entity definitions found in the sources.">Definition</ref><sp/>*ctx,<ref refid="da/d09/class_member_def" kindref="compound" tooltip="A model of a class/file/namespace member symbol.">MemberDef</ref><sp/>*md)</highlight></codeline>
+<codeline lineno="165"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="166"><highlight class="normal"><sp/><sp/><ref refid="d3/d8e/class_output_generator" kindref="compound" tooltip="Abstract output generator.">OutputGenerator</ref><sp/>*og=outputs-&gt;first();</highlight></codeline>
+<codeline lineno="167"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">while</highlight><highlight class="normal"><sp/>(og)</highlight></codeline>
+<codeline lineno="168"><highlight class="normal"><sp/><sp/>{</highlight></codeline>
+<codeline lineno="169"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//printf(&quot;og-&gt;printDoc(extension=%s)\n&quot;,</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="170"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/><sp/><sp/><sp/>ctx?ctx-&gt;getDefFileExtension().data():&quot;&lt;null&gt;&quot;);</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="171"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(og-&gt;isEnabled())<sp/>og-&gt;writeDoc(root,ctx,md);</highlight></codeline>
+<codeline lineno="172"><highlight class="normal"><sp/><sp/><sp/><sp/>og=outputs-&gt;next();</highlight></codeline>
+<codeline lineno="173"><highlight class="normal"><sp/><sp/>}</highlight></codeline>
+<codeline lineno="174"><highlight class="normal"></highlight></codeline>
+<codeline lineno="175"><highlight class="normal"><sp/><sp/>VhdlDocGen::setFlowMember(0);</highlight></codeline>
+<codeline lineno="176"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="177"><highlight class="normal"></highlight></codeline>
+<codeline lineno="178"><highlight class="normal"></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>OutputList::parseText(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QCString<sp/>&amp;textStr)</highlight></codeline>
+<codeline lineno="179"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="180"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>count=0;</highlight></codeline>
+<codeline lineno="181"><highlight class="normal"><sp/><sp/><ref refid="d3/d8e/class_output_generator" kindref="compound" tooltip="Abstract output generator.">OutputGenerator</ref><sp/>*og=outputs-&gt;first();</highlight></codeline>
+<codeline lineno="182"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">while</highlight><highlight class="normal"><sp/>(og)</highlight></codeline>
+<codeline lineno="183"><highlight class="normal"><sp/><sp/>{</highlight></codeline>
+<codeline lineno="184"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(og-&gt;isEnabled())<sp/>count++;</highlight></codeline>
+<codeline lineno="185"><highlight class="normal"><sp/><sp/><sp/><sp/>og=outputs-&gt;next();</highlight></codeline>
+<codeline lineno="186"><highlight class="normal"><sp/><sp/>}</highlight></codeline>
+<codeline lineno="187"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(count==0)<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>TRUE;<sp/></highlight><highlight class="comment">//<sp/>no<sp/>output<sp/>formats<sp/>enabled.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="188"><highlight class="normal"></highlight></codeline>
+<codeline lineno="189"><highlight class="normal"><sp/><sp/><ref refid="d0/d87/class_doc_text" kindref="compound" tooltip="Root node of a text fragment.">DocText</ref><sp/>*root<sp/>=<sp/>validatingParseText(textStr);</highlight></codeline>
+<codeline lineno="190"><highlight class="normal"></highlight></codeline>
+<codeline lineno="191"><highlight class="normal"><sp/><sp/>og=outputs-&gt;first();</highlight></codeline>
+<codeline lineno="192"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">while</highlight><highlight class="normal"><sp/>(og)</highlight></codeline>
+<codeline lineno="193"><highlight class="normal"><sp/><sp/>{</highlight></codeline>
+<codeline lineno="194"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(og-&gt;isEnabled())<sp/>og-&gt;writeDoc(root,0,0);</highlight></codeline>
+<codeline lineno="195"><highlight class="normal"><sp/><sp/><sp/><sp/>og=outputs-&gt;next();</highlight></codeline>
+<codeline lineno="196"><highlight class="normal"><sp/><sp/>}</highlight></codeline>
+<codeline lineno="197"><highlight class="normal"></highlight></codeline>
+<codeline lineno="198"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>isEmpty<sp/>=<sp/>root-&gt;isEmpty();</highlight></codeline>
+<codeline lineno="199"><highlight class="normal"></highlight></codeline>
+<codeline lineno="200"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">delete</highlight><highlight class="normal"><sp/>root;</highlight></codeline>
+<codeline lineno="201"><highlight class="normal"></highlight></codeline>
+<codeline lineno="202"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>isEmpty;</highlight></codeline>
+<codeline lineno="203"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="204"><highlight class="normal"></highlight></codeline>
+<codeline lineno="205"><highlight class="normal"></highlight></codeline>
+<codeline lineno="206"><highlight class="normal"></highlight><highlight class="comment">//--------------------------------------------------------------------------</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="207"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Create<sp/>some<sp/>overloaded<sp/>definitions<sp/>of<sp/>the<sp/>forall<sp/>function.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="208"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Using<sp/>template<sp/>functions<sp/>here<sp/>would<sp/>have<sp/>made<sp/>it<sp/>a<sp/>little<sp/>less</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="209"><highlight class="normal"></highlight><highlight class="comment">//<sp/>portable<sp/>(I<sp/>guess).</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="210"><highlight class="normal"></highlight></codeline>
+<codeline lineno="211"><highlight class="normal"></highlight><highlight class="comment">//<sp/>zero<sp/>arguments</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="212"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>OutputList::forall(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>(<ref refid="d3/d8e/class_output_generator" kindref="compound" tooltip="Abstract output generator.">OutputGenerator</ref>::*func)())</highlight></codeline>
+<codeline lineno="213"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="214"><highlight class="normal"><sp/><sp/><ref refid="d3/d8e/class_output_generator" kindref="compound" tooltip="Abstract output generator.">OutputGenerator</ref><sp/>*og=outputs-&gt;first();</highlight></codeline>
+<codeline lineno="215"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">while</highlight><highlight class="normal"><sp/>(og)</highlight></codeline>
+<codeline lineno="216"><highlight class="normal"><sp/><sp/>{</highlight></codeline>
+<codeline lineno="217"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(og-&gt;isEnabled())<sp/>(og-&gt;*func)();</highlight></codeline>
+<codeline lineno="218"><highlight class="normal"><sp/><sp/><sp/><sp/>og=outputs-&gt;next();</highlight></codeline>
+<codeline lineno="219"><highlight class="normal"><sp/><sp/>}</highlight></codeline>
+<codeline lineno="220"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="221"><highlight class="normal"></highlight></codeline>
+<codeline lineno="222"><highlight class="normal"></highlight><highlight class="comment">//<sp/>one<sp/>argument</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="223"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>FORALL1(a1,p1)<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>\</highlight></codeline>
+<codeline lineno="224"><highlight class="preprocessor">void<sp/>OutputList::forall(void<sp/>(OutputGenerator::*func)(a1),a1)<sp/>\</highlight></codeline>
+<codeline lineno="225"><highlight class="preprocessor">{<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>\</highlight></codeline>
+<codeline lineno="226"><highlight class="preprocessor"><sp/><sp/>OutputGenerator<sp/>*og=outputs-&gt;first();<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>\</highlight></codeline>
+<codeline lineno="227"><highlight class="preprocessor"><sp/><sp/>while<sp/>(og)<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>\</highlight></codeline>
+<codeline lineno="228"><highlight class="preprocessor"><sp/><sp/>{<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>\</highlight></codeline>
+<codeline lineno="229"><highlight class="preprocessor"><sp/><sp/><sp/><sp/>if<sp/>(og-&gt;isEnabled())<sp/>(og-&gt;*func)(p1);<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>\</highlight></codeline>
+<codeline lineno="230"><highlight class="preprocessor"><sp/><sp/><sp/><sp/>og=outputs-&gt;next();<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>\</highlight></codeline>
+<codeline lineno="231"><highlight class="preprocessor"><sp/><sp/>}<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>\</highlight></codeline>
+<codeline lineno="232"><highlight class="preprocessor">}<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="233"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="234"><highlight class="normal"></highlight><highlight class="comment">//<sp/>two<sp/>arguments</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="235"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>FORALL2(a1,a2,p1,p2)<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>\</highlight></codeline>
+<codeline lineno="236"><highlight class="preprocessor">void<sp/>OutputList::forall(void<sp/>(OutputGenerator::*func)(a1,a2),a1,a2)<sp/>\</highlight></codeline>
+<codeline lineno="237"><highlight class="preprocessor">{<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>\</highlight></codeline>
+<codeline lineno="238"><highlight class="preprocessor"><sp/><sp/>OutputGenerator<sp/>*og=outputs-&gt;first();<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>\</highlight></codeline>
+<codeline lineno="239"><highlight class="preprocessor"><sp/><sp/>while<sp/>(og)<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>\</highlight></codeline>
+<codeline lineno="240"><highlight class="preprocessor"><sp/><sp/>{<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>\</highlight></codeline>
+<codeline lineno="241"><highlight class="preprocessor"><sp/><sp/><sp/><sp/>if<sp/>(og-&gt;isEnabled())<sp/>(og-&gt;*func)(p1,p2);<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>\</highlight></codeline>
+<codeline lineno="242"><highlight class="preprocessor"><sp/><sp/><sp/><sp/>og=outputs-&gt;next();<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>\</highlight></codeline>
+<codeline lineno="243"><highlight class="preprocessor"><sp/><sp/>}<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>\</highlight></codeline>
+<codeline lineno="244"><highlight class="preprocessor">}<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="245"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="246"><highlight class="normal"></highlight><highlight class="comment">//<sp/>three<sp/>arguments</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="247"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>FORALL3(a1,a2,a3,p1,p2,p3)<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>\</highlight></codeline>
+<codeline lineno="248"><highlight class="preprocessor">void<sp/>OutputList::forall(void<sp/>(OutputGenerator::*func)(a1,a2,a3),a1,a2,a3)<sp/>\</highlight></codeline>
+<codeline lineno="249"><highlight class="preprocessor">{<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>\</highlight></codeline>
+<codeline lineno="250"><highlight class="preprocessor"><sp/><sp/>OutputGenerator<sp/>*og=outputs-&gt;first();<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>\</highlight></codeline>
+<codeline lineno="251"><highlight class="preprocessor"><sp/><sp/>while<sp/>(og)<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>\</highlight></codeline>
+<codeline lineno="252"><highlight class="preprocessor"><sp/><sp/>{<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>\</highlight></codeline>
+<codeline lineno="253"><highlight class="preprocessor"><sp/><sp/><sp/><sp/>if<sp/>(og-&gt;isEnabled())<sp/>(og-&gt;*func)(p1,p2,p3);<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>\</highlight></codeline>
+<codeline lineno="254"><highlight class="preprocessor"><sp/><sp/><sp/><sp/>og=outputs-&gt;next();<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>\</highlight></codeline>
+<codeline lineno="255"><highlight class="preprocessor"><sp/><sp/>}<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>\</highlight></codeline>
+<codeline lineno="256"><highlight class="preprocessor">}<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="257"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="258"><highlight class="normal"></highlight><highlight class="comment">//<sp/>four<sp/>arguments</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="259"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>FORALL4(a1,a2,a3,a4,p1,p2,p3,p4)<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>\</highlight></codeline>
+<codeline lineno="260"><highlight class="preprocessor">void<sp/>OutputList::forall(void<sp/>(OutputGenerator::*func)(a1,a2,a3,a4),a1,a2,a3,a4)<sp/>\</highlight></codeline>
+<codeline lineno="261"><highlight class="preprocessor">{<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>\</highlight></codeline>
+<codeline lineno="262"><highlight class="preprocessor"><sp/><sp/>OutputGenerator<sp/>*og=outputs-&gt;first();<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>\</highlight></codeline>
+<codeline lineno="263"><highlight class="preprocessor"><sp/><sp/>while<sp/>(og)<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>\</highlight></codeline>
+<codeline lineno="264"><highlight class="preprocessor"><sp/><sp/>{<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>\</highlight></codeline>
+<codeline lineno="265"><highlight class="preprocessor"><sp/><sp/><sp/><sp/>if<sp/>(og-&gt;isEnabled())<sp/>(og-&gt;*func)(p1,p2,p3,p4);<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>\</highlight></codeline>
+<codeline lineno="266"><highlight class="preprocessor"><sp/><sp/><sp/><sp/>og=outputs-&gt;next();<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>\</highlight></codeline>
+<codeline lineno="267"><highlight class="preprocessor"><sp/><sp/>}<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>\</highlight></codeline>
+<codeline lineno="268"><highlight class="preprocessor">}<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="269"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="270"><highlight class="normal"></highlight><highlight class="comment">//<sp/>five<sp/>arguments</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="271"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>FORALL5(a1,a2,a3,a4,a5,p1,p2,p3,p4,p5)<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>\</highlight></codeline>
+<codeline lineno="272"><highlight class="preprocessor">void<sp/>OutputList::forall(void<sp/>(OutputGenerator::*func)(a1,a2,a3,a4,a5),a1,a2,a3,a4,a5)<sp/>\</highlight></codeline>
+<codeline lineno="273"><highlight class="preprocessor">{<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>\</highlight></codeline>
+<codeline lineno="274"><highlight class="preprocessor"><sp/><sp/>OutputGenerator<sp/>*og=outputs-&gt;first();<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>\</highlight></codeline>
+<codeline lineno="275"><highlight class="preprocessor"><sp/><sp/>while<sp/>(og)<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>\</highlight></codeline>
+<codeline lineno="276"><highlight class="preprocessor"><sp/><sp/>{<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>\</highlight></codeline>
+<codeline lineno="277"><highlight class="preprocessor"><sp/><sp/><sp/><sp/>if<sp/>(og-&gt;isEnabled())<sp/>(og-&gt;*func)(p1,p2,p3,p4,p5);<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>\</highlight></codeline>
+<codeline lineno="278"><highlight class="preprocessor"><sp/><sp/><sp/><sp/>og=outputs-&gt;next();<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>\</highlight></codeline>
+<codeline lineno="279"><highlight class="preprocessor"><sp/><sp/>}<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>\</highlight></codeline>
+<codeline lineno="280"><highlight class="preprocessor">}<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="281"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="282"><highlight class="normal"></highlight><highlight class="comment">//<sp/>six<sp/>arguments</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="283"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>FORALL6(a1,a2,a3,a4,a5,a6,p1,p2,p3,p4,p5,p6)<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>\</highlight></codeline>
+<codeline lineno="284"><highlight class="preprocessor">void<sp/>OutputList::forall(void<sp/>(OutputGenerator::*func)(a1,a2,a3,a4,a5,a6),a1,a2,a3,a4,a5,a6)<sp/>\</highlight></codeline>
+<codeline lineno="285"><highlight class="preprocessor">{<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>\</highlight></codeline>
+<codeline lineno="286"><highlight class="preprocessor"><sp/><sp/>OutputGenerator<sp/>*og=outputs-&gt;first();<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>\</highlight></codeline>
+<codeline lineno="287"><highlight class="preprocessor"><sp/><sp/>while<sp/>(og)<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>\</highlight></codeline>
+<codeline lineno="288"><highlight class="preprocessor"><sp/><sp/>{<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>\</highlight></codeline>
+<codeline lineno="289"><highlight class="preprocessor"><sp/><sp/><sp/><sp/>if<sp/>(og-&gt;isEnabled())<sp/>(og-&gt;*func)(p1,p2,p3,p4,p5,p6);<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>\</highlight></codeline>
+<codeline lineno="290"><highlight class="preprocessor"><sp/><sp/><sp/><sp/>og=outputs-&gt;next();<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>\</highlight></codeline>
+<codeline lineno="291"><highlight class="preprocessor"><sp/><sp/>}<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>\</highlight></codeline>
+<codeline lineno="292"><highlight class="preprocessor">}<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="293"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="294"><highlight class="normal"></highlight><highlight class="comment">//<sp/>now<sp/>instantiate<sp/>only<sp/>the<sp/>ones<sp/>we<sp/>need.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="295"><highlight class="normal"></highlight></codeline>
+<codeline lineno="296"><highlight class="normal">FORALL1(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*a1,a1)</highlight></codeline>
+<codeline lineno="297"><highlight class="normal">FORALL1(</highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>a1,a1)</highlight></codeline>
+<codeline lineno="298"><highlight class="normal">FORALL1(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>a1,a1)</highlight></codeline>
+<codeline lineno="299"><highlight class="normal">FORALL1(const<sp/><ref refid="df/d1c/class_dot_class_graph" kindref="compound" tooltip="Representation of a class inheritance or dependency graph.">DotClassGraph</ref><sp/>&amp;a1,a1)</highlight></codeline>
+<codeline lineno="300"><highlight class="normal">FORALL1(const<sp/><ref refid="dc/d03/class_dot_incl_dep_graph" kindref="compound" tooltip="Representation of an include dependency graph.">DotInclDepGraph</ref><sp/>&amp;a1,a1)</highlight></codeline>
+<codeline lineno="301"><highlight class="normal">FORALL1(const<sp/><ref refid="d0/dff/class_dot_call_graph" kindref="compound" tooltip="Representation of an call graph.">DotCallGraph</ref><sp/>&amp;a1,a1)</highlight></codeline>
+<codeline lineno="302"><highlight class="normal">FORALL1(const<sp/><ref refid="d7/dd4/class_dot_dir_deps" kindref="compound" tooltip="Representation of an directory dependency graph.">DotDirDeps</ref><sp/>&amp;a1,a1)</highlight></codeline>
+<codeline lineno="303"><highlight class="normal">FORALL1(const<sp/><ref refid="d1/d1f/class_dot_gfx_hierarchy_table" kindref="compound" tooltip="Represents a graphical class hierarchy.">DotGfxHierarchyTable</ref><sp/>&amp;a1,a1)</highlight></codeline>
+<codeline lineno="304"><highlight class="normal">FORALL1(const<sp/><ref refid="d1/d5f/class_dot_group_collaboration" kindref="compound" tooltip="Representation of a group collaboration graph.">DotGroupCollaboration</ref><sp/>&amp;a1,a1)</highlight></codeline>
+<codeline lineno="305"><highlight class="normal">FORALL1(SectionTypes<sp/>a1,a1)</highlight></codeline>
+<codeline lineno="306"><highlight class="normal"></highlight><highlight class="preprocessor">#if<sp/>defined(HAS_BOOL_TYPE)<sp/>||<sp/>defined(Q_HAS_BOOL_TYPE)</highlight></codeline>
+<codeline lineno="307"><highlight class="preprocessor"></highlight><highlight class="normal">FORALL1(</highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>a1,a1)</highlight></codeline>
+<codeline lineno="308"><highlight class="normal">FORALL2(</highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>a1,</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>a2,a1,a2)</highlight></codeline>
+<codeline lineno="309"><highlight class="normal">FORALL2(</highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>a1,</highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>a2,a1,a2)</highlight></codeline>
+<codeline lineno="310"><highlight class="normal">FORALL2(const<sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*a1,</highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>a2,a1,a2)</highlight></codeline>
+<codeline lineno="311"><highlight class="normal">FORALL4(const<sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*a1,const<sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*a2,const<sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*a3,</highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>a4,a1,a2,a3,a4)</highlight></codeline>
+<codeline lineno="312"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+<codeline lineno="313"><highlight class="preprocessor"></highlight><highlight class="normal">FORALL2(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>a1,</highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>a2,a1,a2)</highlight></codeline>
+<codeline lineno="314"><highlight class="normal">FORALL2(</highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>a1,const<sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*a2,a1,a2)</highlight></codeline>
+<codeline lineno="315"><highlight class="normal">FORALL2(ParamListTypes<sp/>a1,const<sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*a2,a1,a2)</highlight></codeline>
+<codeline lineno="316"><highlight class="normal">FORALL1(IndexSections<sp/>a1,a1)</highlight></codeline>
+<codeline lineno="317"><highlight class="normal">FORALL2(const<sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*a1,const<sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*a2,a1,a2)</highlight></codeline>
+<codeline lineno="318"><highlight class="normal">FORALL2(const<sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*a1,</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>a2,a1,a2)</highlight></codeline>
+<codeline lineno="319"><highlight class="normal">FORALL2(const<sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*a1,<ref refid="d5/d5b/struct_section_info" kindref="compound" tooltip="Class representing a section in a page.">SectionInfo</ref>::SectionType<sp/>a2,a1,a2)</highlight></codeline>
+<codeline lineno="320"><highlight class="normal">FORALL3(</highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>a1,HighlightedItem<sp/>a2,const<sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*a3,a1,a2,a3)</highlight></codeline>
+<codeline lineno="321"><highlight class="normal">FORALL3(</highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>a1,</highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>a2,</highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>a3,a1,a2,a3)</highlight></codeline>
+<codeline lineno="322"><highlight class="normal">FORALL3(const<sp/><ref refid="d1/d97/class_class_diagram" kindref="compound" tooltip="Class representing a built-in class diagram.">ClassDiagram</ref><sp/>&amp;a1,const<sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*a2,const<sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*a3,a1,a2,a3)</highlight></codeline>
+<codeline lineno="323"><highlight class="normal">FORALL3(const<sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*a1,const<sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*a2,const<sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*a3,a1,a2,a3)</highlight></codeline>
+<codeline lineno="324"><highlight class="normal">FORALL3(const<sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*a1,const<sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*a2,</highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>a3,a1,a2,a3)</highlight></codeline>
+<codeline lineno="325"><highlight class="normal">FORALL3(const<sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*a1,</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>a2,const<sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*a3,a1,a2,a3)</highlight></codeline>
+<codeline lineno="326"><highlight class="normal">FORALL3(const<sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*a1,const<sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*a2,<ref refid="d5/d5b/struct_section_info" kindref="compound" tooltip="Class representing a section in a page.">SectionInfo</ref>::SectionType<sp/>a3,a1,a2,a3)</highlight></codeline>
+<codeline lineno="327"><highlight class="normal">FORALL3(uchar<sp/>a1,uchar<sp/>a2,uchar<sp/>a3,a1,a2,a3)</highlight></codeline>
+<codeline lineno="328"><highlight class="normal">FORALL3(<ref refid="d5/dcc/class_definition" kindref="compound" tooltip="The common base class of all entity definitions found in the sources.">Definition</ref><sp/>*a1,const<sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*a2,</highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>a3,a1,a2,a3)</highlight></codeline>
+<codeline lineno="329"><highlight class="normal">FORALL4(SectionTypes<sp/>a1,const<sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*a2,const<sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*a3,const<sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*a4,a1,a2,a3,a4)</highlight></codeline>
+<codeline lineno="330"><highlight class="normal">FORALL4(const<sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*a1,const<sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*a2,const<sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*a3,const<sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*a4,a1,a2,a3,a4)</highlight></codeline>
+<codeline lineno="331"><highlight class="normal">FORALL4(const<sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*a1,const<sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*a2,const<sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*a3,</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>a4,a1,a2,a3,a4)</highlight></codeline>
+<codeline lineno="332"><highlight class="normal">FORALL5(const<sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*a1,const<sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*a2,const<sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*a3,const<sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*a4,const<sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*a5,a1,a2,a3,a4,a5)</highlight></codeline>
+<codeline lineno="333"><highlight class="normal">FORALL5(const<sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*a1,const<sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*a2,const<sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*a3,const<sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*a4,</highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>a5,a1,a2,a3,a4,a5)</highlight></codeline>
+<codeline lineno="334"><highlight class="normal">FORALL6(const<sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*a1,const<sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*a2,const<sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*a3,const<sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*a4,const<sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*a5,const<sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*a6,a1,a2,a3,a4,a5,a6)</highlight></codeline>
+<codeline lineno="335"><highlight class="normal"></highlight></codeline>
+<codeline lineno="336"><highlight class="normal"></highlight></codeline>
+<codeline lineno="337"><highlight class="normal"></highlight><highlight class="comment">//--------------------------------------------------------------------------</highlight><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/outputlist.cpp"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,117 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.2">
+  <compounddef id="da/d39/class_definition_list" kind="class" prot="public">
+    <compoundname>DefinitionList</compoundname>
+    <basecompoundref refid="db/daa/class_q_list" prot="public" virt="non-virtual">QList&lt; Definition &gt;</basecompoundref>
+    <basecompoundref refid="d9/d4a/class_definition_intf" prot="public" virt="non-virtual">DefinitionIntf</basecompoundref>
+    <includes refid="df/da1/definition_8h" local="no">definition.h</includes>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="da/d39/class_definition_list_1a3e6fe7cf2fb04b36511d70fa5fa484b1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>DefinitionList::~DefinitionList</definition>
+        <argsstring>()</argsstring>
+        <name>~DefinitionList</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/definition.h" line="365" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/definition.h" bodystart="365" bodyend="365"/>
+      </memberdef>
+      <memberdef kind="function" id="da/d39/class_definition_list_1aacc8d6e59c873b75dbc5b9e222b53d20" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="virtual">
+        <type><ref refid="d9/d4a/class_definition_intf_1ada60114bc621669dd8c19edfc6421766" kindref="member">DefType</ref></type>
+        <definition>DefType DefinitionList::definitionType</definition>
+        <argsstring>() const </argsstring>
+        <name>definitionType</name>
+        <reimplements refid="d9/d4a/class_definition_intf_1ac8ee00bc1af5558ae37f6896d16f5a3a">definitionType</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Use this for dynamic inspection of the type of the derived class </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/definition.h" line="366" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/definition.h" bodystart="366" bodyend="366"/>
+      </memberdef>
+      <memberdef kind="function" id="da/d39/class_definition_list_1a740cfd4391356be0a9a0670ed9f99c63" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int DefinitionList::compareItems</definition>
+        <argsstring>(QCollection::Item item1, QCollection::Item item2)</argsstring>
+        <name>compareItems</name>
+        <param>
+          <type>QCollection::Item</type>
+          <declname>item1</declname>
+        </param>
+        <param>
+          <type>QCollection::Item</type>
+          <declname>item2</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/definition.h" line="368" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/definition.h" bodystart="367" bodyend="372"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>A list of <ref refid="d5/dcc/class_definition" kindref="compound">Definition</ref> objects. </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2814">
+        <label>DefinitionList</label>
+        <link refid="da/d39/class_definition_list"/>
+        <childnode refid="2815" relation="public-inheritance">
+        </childnode>
+        <childnode refid="2816" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2815">
+        <label>QList&lt; Definition &gt;</label>
+        <link refid="db/daa/class_q_list"/>
+      </node>
+      <node id="2816">
+        <label>DefinitionIntf</label>
+        <link refid="d9/d4a/class_definition_intf"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2817">
+        <label>DefinitionList</label>
+        <link refid="da/d39/class_definition_list"/>
+        <childnode refid="2818" relation="public-inheritance">
+        </childnode>
+        <childnode refid="2819" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2818">
+        <label>QList&lt; Definition &gt;</label>
+        <link refid="db/daa/class_q_list"/>
+      </node>
+      <node id="2819">
+        <label>DefinitionIntf</label>
+        <link refid="d9/d4a/class_definition_intf"/>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/definition.h" line="363" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/definition.h" bodystart="362" bodyend="374"/>
+    <listofallmembers>
+      <member refid="da/d39/class_definition_list_1a740cfd4391356be0a9a0670ed9f99c63" prot="public" virt="non-virtual"><scope>DefinitionList</scope><name>compareItems</name></member>
+      <member refid="d9/d4a/class_definition_intf_1a2589f23752497ae83e5894eb25bfe688" prot="public" virt="non-virtual"><scope>DefinitionList</scope><name>DefinitionIntf</name></member>
+      <member refid="da/d39/class_definition_list_1aacc8d6e59c873b75dbc5b9e222b53d20" prot="public" virt="virtual"><scope>DefinitionList</scope><name>definitionType</name></member>
+      <member refid="d9/d4a/class_definition_intf_1ada60114bc621669dd8c19edfc6421766" prot="public" virt="non-virtual"><scope>DefinitionList</scope><name>DefType</name></member>
+      <member refid="d9/d4a/class_definition_intf_1ada60114bc621669dd8c19edfc6421766a8c7123ce45e6d365a610ed3951ecd037" prot="public" virt="non-virtual"><scope>DefinitionList</scope><name>TypeClass</name></member>
+      <member refid="d9/d4a/class_definition_intf_1ada60114bc621669dd8c19edfc6421766ad9e85c8933bcb049693ec8c02fd774fe" prot="public" virt="non-virtual"><scope>DefinitionList</scope><name>TypeDir</name></member>
+      <member refid="d9/d4a/class_definition_intf_1ada60114bc621669dd8c19edfc6421766a92fb29a1b73c05c1a21b5936f262085d" prot="public" virt="non-virtual"><scope>DefinitionList</scope><name>TypeFile</name></member>
+      <member refid="d9/d4a/class_definition_intf_1ada60114bc621669dd8c19edfc6421766a7ae77e43166a87eaa59e89dc7d0e2917" prot="public" virt="non-virtual"><scope>DefinitionList</scope><name>TypeGroup</name></member>
+      <member refid="d9/d4a/class_definition_intf_1ada60114bc621669dd8c19edfc6421766a77974c3635270f07d38ff920fd8f653c" prot="public" virt="non-virtual"><scope>DefinitionList</scope><name>TypeMember</name></member>
+      <member refid="d9/d4a/class_definition_intf_1ada60114bc621669dd8c19edfc6421766ac1833ce9fc94097a64c0c60104ac3297" prot="public" virt="non-virtual"><scope>DefinitionList</scope><name>TypeNamespace</name></member>
+      <member refid="d9/d4a/class_definition_intf_1ada60114bc621669dd8c19edfc6421766ab55dda7065ddf21d823d89a00c23063b" prot="public" virt="non-virtual"><scope>DefinitionList</scope><name>TypePackage</name></member>
+      <member refid="d9/d4a/class_definition_intf_1ada60114bc621669dd8c19edfc6421766a20cfcea557f83381dbdcca5ede9185a8" prot="public" virt="non-virtual"><scope>DefinitionList</scope><name>TypePage</name></member>
+      <member refid="d9/d4a/class_definition_intf_1ada60114bc621669dd8c19edfc6421766a2dfe7456f05b8bf08f04de5c5f8788a7" prot="public" virt="non-virtual"><scope>DefinitionList</scope><name>TypeSymbolList</name></member>
+      <member refid="d9/d4a/class_definition_intf_1a348acc4ce6b1a3490d32e8aedd2183a4" prot="public" virt="virtual"><scope>DefinitionList</scope><name>~DefinitionIntf</name></member>
+      <member refid="da/d39/class_definition_list_1a3e6fe7cf2fb04b36511d70fa5fa484b1" prot="public" virt="non-virtual"><scope>DefinitionList</scope><name>~DefinitionList</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

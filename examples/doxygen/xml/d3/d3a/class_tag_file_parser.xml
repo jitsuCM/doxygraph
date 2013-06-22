@@ -1,0 +1,1199 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.2">
+  <compounddef id="d3/d3a/class_tag_file_parser" kind="class" prot="public">
+    <compoundname>TagFileParser</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">QXmlDefaultHandler</basecompoundref>
+    <innerclass refid="dc/db7/class_tag_file_parser_1_1_end_element_handler" prot="private">TagFileParser::EndElementHandler</innerclass>
+    <innerclass refid="d8/db0/class_tag_file_parser_1_1_start_element_handler" prot="private">TagFileParser::StartElementHandler</innerclass>
+      <sectiondef kind="private-type">
+      <memberdef kind="enum" id="d3/d3a/class_tag_file_parser_1abb24875cbda8fcd4593248e0f19c4a76" prot="private" static="no">
+        <name>State</name>
+        <enumvalue id="d3/d3a/class_tag_file_parser_1abb24875cbda8fcd4593248e0f19c4a76a475f8d81560d14f6d1287c869c7c2b6c" prot="private">
+          <name>Invalid</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d3/d3a/class_tag_file_parser_1abb24875cbda8fcd4593248e0f19c4a76a20a518f0d86c5334b83bcae49103a5f1" prot="private">
+          <name>InClass</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d3/d3a/class_tag_file_parser_1abb24875cbda8fcd4593248e0f19c4a76a943276efcb88daf664971dad823eaeb4" prot="private">
+          <name>InFile</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d3/d3a/class_tag_file_parser_1abb24875cbda8fcd4593248e0f19c4a76a34b0efe950b4f9cedad423e0882b5c0f" prot="private">
+          <name>InNamespace</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d3/d3a/class_tag_file_parser_1abb24875cbda8fcd4593248e0f19c4a76a0bdb5d0a8c5c40716a9418c86b713f26" prot="private">
+          <name>InGroup</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d3/d3a/class_tag_file_parser_1abb24875cbda8fcd4593248e0f19c4a76a3c2ad07ff718d0cf3f202b649d62ad4f" prot="private">
+          <name>InPage</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d3/d3a/class_tag_file_parser_1abb24875cbda8fcd4593248e0f19c4a76a72de22146f35907e5edcbcb9ccc62a06" prot="private">
+          <name>InMember</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d3/d3a/class_tag_file_parser_1abb24875cbda8fcd4593248e0f19c4a76a110ddfb2597afbf1d08cddb10532250c" prot="private">
+          <name>InPackage</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d3/d3a/class_tag_file_parser_1abb24875cbda8fcd4593248e0f19c4a76aa0d97590f7132b97a435b575440a692f" prot="private">
+          <name>InDir</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d3/d3a/class_tag_file_parser_1abb24875cbda8fcd4593248e0f19c4a76a43e49734eed31dcec7b8e67802fd427a" prot="private">
+          <name>InTempArgList</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/tagreader.cpp" line="201" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/tagreader.cpp" bodystart="201" bodyend="211"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="d3/d3a/class_tag_file_parser_1a0bef14ce5d0889c8124b15b34a5436e3" prot="private" static="no" mutable="no">
+        <type><ref refid="db/daa/class_q_list" kindref="compound">QList</ref>&lt; TagClassInfo &gt;</type>
+        <definition>QList&lt;TagClassInfo&gt; TagFileParser::m_tagFileClasses</definition>
+        <argsstring></argsstring>
+        <name>m_tagFileClasses</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/tagreader.cpp" line="839" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/tagreader.cpp" bodystart="839" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d3/d3a/class_tag_file_parser_1afb229b6c39c1769407fa1da0c6b5e5ac" prot="private" static="no" mutable="no">
+        <type><ref refid="db/daa/class_q_list" kindref="compound">QList</ref>&lt; TagFileInfo &gt;</type>
+        <definition>QList&lt;TagFileInfo&gt; TagFileParser::m_tagFileFiles</definition>
+        <argsstring></argsstring>
+        <name>m_tagFileFiles</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/tagreader.cpp" line="840" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/tagreader.cpp" bodystart="840" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d3/d3a/class_tag_file_parser_1a2efdcaf257ec646b6f9a4fe349d590f4" prot="private" static="no" mutable="no">
+        <type><ref refid="db/daa/class_q_list" kindref="compound">QList</ref>&lt; TagNamespaceInfo &gt;</type>
+        <definition>QList&lt;TagNamespaceInfo&gt; TagFileParser::m_tagFileNamespaces</definition>
+        <argsstring></argsstring>
+        <name>m_tagFileNamespaces</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/tagreader.cpp" line="841" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/tagreader.cpp" bodystart="841" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d3/d3a/class_tag_file_parser_1a8120b4f8c3e79b5f4524e0268009f7a5" prot="private" static="no" mutable="no">
+        <type><ref refid="db/daa/class_q_list" kindref="compound">QList</ref>&lt; TagGroupInfo &gt;</type>
+        <definition>QList&lt;TagGroupInfo&gt; TagFileParser::m_tagFileGroups</definition>
+        <argsstring></argsstring>
+        <name>m_tagFileGroups</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/tagreader.cpp" line="842" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/tagreader.cpp" bodystart="842" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d3/d3a/class_tag_file_parser_1a177209e5409f3d9d0260969a43af30fe" prot="private" static="no" mutable="no">
+        <type><ref refid="db/daa/class_q_list" kindref="compound">QList</ref>&lt; TagPageInfo &gt;</type>
+        <definition>QList&lt;TagPageInfo&gt; TagFileParser::m_tagFilePages</definition>
+        <argsstring></argsstring>
+        <name>m_tagFilePages</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/tagreader.cpp" line="843" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/tagreader.cpp" bodystart="843" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d3/d3a/class_tag_file_parser_1adae41f60519dbf787c80a621c76b8d91" prot="private" static="no" mutable="no">
+        <type><ref refid="db/daa/class_q_list" kindref="compound">QList</ref>&lt; TagPackageInfo &gt;</type>
+        <definition>QList&lt;TagPackageInfo&gt; TagFileParser::m_tagFilePackages</definition>
+        <argsstring></argsstring>
+        <name>m_tagFilePackages</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/tagreader.cpp" line="844" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/tagreader.cpp" bodystart="844" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d3/d3a/class_tag_file_parser_1ac72378bd6412e602ecc6bae260677086" prot="private" static="no" mutable="no">
+        <type><ref refid="db/daa/class_q_list" kindref="compound">QList</ref>&lt; TagDirInfo &gt;</type>
+        <definition>QList&lt;TagDirInfo&gt; TagFileParser::m_tagFileDirs</definition>
+        <argsstring></argsstring>
+        <name>m_tagFileDirs</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/tagreader.cpp" line="845" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/tagreader.cpp" bodystart="845" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d3/d3a/class_tag_file_parser_1a69411be8b4e139a74560368bdf5c5a59" prot="private" static="no" mutable="no">
+        <type>QDict&lt; StartElementHandler &gt;</type>
+        <definition>QDict&lt;StartElementHandler&gt; TagFileParser::m_startElementHandlers</definition>
+        <argsstring></argsstring>
+        <name>m_startElementHandlers</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/tagreader.cpp" line="846" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/tagreader.cpp" bodystart="846" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d3/d3a/class_tag_file_parser_1a2c7c6e9479a33a7d10126483179d39e7" prot="private" static="no" mutable="no">
+        <type>QDict&lt; EndElementHandler &gt;</type>
+        <definition>QDict&lt;EndElementHandler&gt; TagFileParser::m_endElementHandlers</definition>
+        <argsstring></argsstring>
+        <name>m_endElementHandlers</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/tagreader.cpp" line="847" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/tagreader.cpp" bodystart="847" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d3/d3a/class_tag_file_parser_1ae9fb00888cc220ebb9feba977e908b0c" prot="private" static="no" mutable="no">
+        <type>TagClassInfo *</type>
+        <definition>TagClassInfo* TagFileParser::m_curClass</definition>
+        <argsstring></argsstring>
+        <name>m_curClass</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/tagreader.cpp" line="848" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/tagreader.cpp" bodystart="848" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d3/d3a/class_tag_file_parser_1a6de1fbfe1b20b332421f851fdada6d04" prot="private" static="no" mutable="no">
+        <type>TagFileInfo *</type>
+        <definition>TagFileInfo* TagFileParser::m_curFile</definition>
+        <argsstring></argsstring>
+        <name>m_curFile</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/tagreader.cpp" line="849" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/tagreader.cpp" bodystart="849" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d3/d3a/class_tag_file_parser_1ac6bfdb974453b2329a410def18bce701" prot="private" static="no" mutable="no">
+        <type>TagNamespaceInfo *</type>
+        <definition>TagNamespaceInfo* TagFileParser::m_curNamespace</definition>
+        <argsstring></argsstring>
+        <name>m_curNamespace</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/tagreader.cpp" line="850" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/tagreader.cpp" bodystart="850" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d3/d3a/class_tag_file_parser_1a6a3fdd214cc77ca4174f65e6f6c8d630" prot="private" static="no" mutable="no">
+        <type>TagPackageInfo *</type>
+        <definition>TagPackageInfo* TagFileParser::m_curPackage</definition>
+        <argsstring></argsstring>
+        <name>m_curPackage</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/tagreader.cpp" line="851" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/tagreader.cpp" bodystart="851" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d3/d3a/class_tag_file_parser_1a486cac63a534187a597666b5e38046d8" prot="private" static="no" mutable="no">
+        <type>TagGroupInfo *</type>
+        <definition>TagGroupInfo* TagFileParser::m_curGroup</definition>
+        <argsstring></argsstring>
+        <name>m_curGroup</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/tagreader.cpp" line="852" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/tagreader.cpp" bodystart="852" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d3/d3a/class_tag_file_parser_1a5898d08e1a1b35b976ce5c8d69515839" prot="private" static="no" mutable="no">
+        <type>TagPageInfo *</type>
+        <definition>TagPageInfo* TagFileParser::m_curPage</definition>
+        <argsstring></argsstring>
+        <name>m_curPage</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/tagreader.cpp" line="853" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/tagreader.cpp" bodystart="853" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d3/d3a/class_tag_file_parser_1a2715b8ea7a6841540020ba93970c1bf6" prot="private" static="no" mutable="no">
+        <type>TagDirInfo *</type>
+        <definition>TagDirInfo* TagFileParser::m_curDir</definition>
+        <argsstring></argsstring>
+        <name>m_curDir</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/tagreader.cpp" line="854" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/tagreader.cpp" bodystart="854" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d3/d3a/class_tag_file_parser_1ad411f0538a685ed8354e55bced6d2790" prot="private" static="no" mutable="no">
+        <type>TagMemberInfo *</type>
+        <definition>TagMemberInfo* TagFileParser::m_curMember</definition>
+        <argsstring></argsstring>
+        <name>m_curMember</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/tagreader.cpp" line="855" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/tagreader.cpp" bodystart="855" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d3/d3a/class_tag_file_parser_1afd0e32bafb6f6cfc33a3f1487d9ae988" prot="private" static="no" mutable="no">
+        <type>TagIncludeInfo *</type>
+        <definition>TagIncludeInfo* TagFileParser::m_curIncludes</definition>
+        <argsstring></argsstring>
+        <name>m_curIncludes</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/tagreader.cpp" line="856" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/tagreader.cpp" bodystart="856" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d3/d3a/class_tag_file_parser_1ae8a7da74333d60eb4a316173934d7e99" prot="private" static="no" mutable="no">
+        <type>QCString</type>
+        <definition>QCString TagFileParser::m_curString</definition>
+        <argsstring></argsstring>
+        <name>m_curString</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/tagreader.cpp" line="857" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/tagreader.cpp" bodystart="857" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d3/d3a/class_tag_file_parser_1a537bc03068a264a86c861e462bdf2054" prot="private" static="no" mutable="no">
+        <type>QCString</type>
+        <definition>QCString TagFileParser::m_tagName</definition>
+        <argsstring></argsstring>
+        <name>m_tagName</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/tagreader.cpp" line="858" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/tagreader.cpp" bodystart="858" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d3/d3a/class_tag_file_parser_1a5c18a898561ce392c990381dba9080d9" prot="private" static="no" mutable="no">
+        <type>QCString</type>
+        <definition>QCString TagFileParser::m_fileName</definition>
+        <argsstring></argsstring>
+        <name>m_fileName</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/tagreader.cpp" line="859" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/tagreader.cpp" bodystart="859" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d3/d3a/class_tag_file_parser_1a2ab4569198df1bb87617696642f91903" prot="private" static="no" mutable="no">
+        <type>QCString</type>
+        <definition>QCString TagFileParser::m_title</definition>
+        <argsstring></argsstring>
+        <name>m_title</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/tagreader.cpp" line="860" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/tagreader.cpp" bodystart="860" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d3/d3a/class_tag_file_parser_1a910c9331cdcd63c12d478bb2926c4ad2" prot="private" static="no" mutable="no">
+        <type>State</type>
+        <definition>State TagFileParser::m_state</definition>
+        <argsstring></argsstring>
+        <name>m_state</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/tagreader.cpp" line="861" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/tagreader.cpp" bodystart="861" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d3/d3a/class_tag_file_parser_1ae37060b9042de43a14ea0ed99efcb529" prot="private" static="no" mutable="no">
+        <type>QStack&lt; State &gt;</type>
+        <definition>QStack&lt;State&gt; TagFileParser::m_stateStack</definition>
+        <argsstring></argsstring>
+        <name>m_stateStack</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/tagreader.cpp" line="862" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/tagreader.cpp" bodystart="862" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d3/d3a/class_tag_file_parser_1a8a077622c7f5a691776a0da8f7c8a32c" prot="private" static="no" mutable="no">
+        <type>QXmlLocator *</type>
+        <definition>QXmlLocator* TagFileParser::m_locator</definition>
+        <argsstring></argsstring>
+        <name>m_locator</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/tagreader.cpp" line="863" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/tagreader.cpp" bodystart="863" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d3/d3a/class_tag_file_parser_1aac11ee0116c0494fab926ed56cbfafbe" prot="private" static="no" mutable="no">
+        <type>QCString</type>
+        <definition>QCString TagFileParser::m_inputFileName</definition>
+        <argsstring></argsstring>
+        <name>m_inputFileName</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/tagreader.cpp" line="864" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/tagreader.cpp" bodystart="864" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="d3/d3a/class_tag_file_parser_1a4f139dc60355077bdb6a0c6a0ba7fd2f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>TagFileParser::TagFileParser</definition>
+        <argsstring>(const char *tagName)</argsstring>
+        <name>TagFileParser</name>
+        <param>
+          <type>const char *</type>
+          <declname>tagName</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/tagreader.cpp" line="238" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/tagreader.cpp" bodystart="235" bodyend="241"/>
+      </memberdef>
+      <memberdef kind="function" id="d3/d3a/class_tag_file_parser_1a947ca98759d61b5cf3d920a7d98fa828" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void TagFileParser::setDocumentLocator</definition>
+        <argsstring>(QXmlLocator *locator)</argsstring>
+        <name>setDocumentLocator</name>
+        <param>
+          <type>QXmlLocator *</type>
+          <declname>locator</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/tagreader.cpp" line="244" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/tagreader.cpp" bodystart="243" bodyend="246"/>
+      </memberdef>
+      <memberdef kind="function" id="d3/d3a/class_tag_file_parser_1a4f993458f2f874771d87e8b4e3373925" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void TagFileParser::setFileName</definition>
+        <argsstring>(const QString &amp;fileName)</argsstring>
+        <name>setFileName</name>
+        <param>
+          <type>const QString &amp;</type>
+          <declname>fileName</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/tagreader.cpp" line="249" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/tagreader.cpp" bodystart="248" bodyend="251"/>
+      </memberdef>
+      <memberdef kind="function" id="d3/d3a/class_tag_file_parser_1acf72e17ee641ea46db2b05c6350bd1c2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void TagFileParser::warn</definition>
+        <argsstring>(const char *fmt)</argsstring>
+        <name>warn</name>
+        <param>
+          <type>const char *</type>
+          <declname>fmt</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/tagreader.cpp" line="254" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/tagreader.cpp" bodystart="253" bodyend="256"/>
+      </memberdef>
+      <memberdef kind="function" id="d3/d3a/class_tag_file_parser_1afbd2e881b3cf9f30d61c62588e9e05fc" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void TagFileParser::warn</definition>
+        <argsstring>(const char *fmt, const char *s)</argsstring>
+        <name>warn</name>
+        <param>
+          <type>const char *</type>
+          <declname>fmt</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>s</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/tagreader.cpp" line="258" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/tagreader.cpp" bodystart="257" bodyend="260"/>
+      </memberdef>
+      <memberdef kind="function" id="d3/d3a/class_tag_file_parser_1a19aa90dae712fab6fc13b84d9b568ce5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void TagFileParser::startCompound</definition>
+        <argsstring>(const QXmlAttributes &amp;attrib)</argsstring>
+        <name>startCompound</name>
+        <param>
+          <type>const QXmlAttributes &amp;</type>
+          <declname>attrib</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/tagreader.cpp" line="263" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/tagreader.cpp" bodystart="262" bodyend="348"/>
+      </memberdef>
+      <memberdef kind="function" id="d3/d3a/class_tag_file_parser_1a10b74d69f1beb95fb58bcde418d78521" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void TagFileParser::endCompound</definition>
+        <argsstring>()</argsstring>
+        <name>endCompound</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/tagreader.cpp" line="351" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/tagreader.cpp" bodystart="350" bodyend="371"/>
+      </memberdef>
+      <memberdef kind="function" id="d3/d3a/class_tag_file_parser_1a9ce94f71fd0686afe0bb6d9ffa6dc9cb" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void TagFileParser::startMember</definition>
+        <argsstring>(const QXmlAttributes &amp;attrib)</argsstring>
+        <name>startMember</name>
+        <param>
+          <type>const QXmlAttributes &amp;</type>
+          <declname>attrib</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/tagreader.cpp" line="374" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/tagreader.cpp" bodystart="373" bodyend="402"/>
+      </memberdef>
+      <memberdef kind="function" id="d3/d3a/class_tag_file_parser_1aed63e6356c833e71abdf24884aee6145" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void TagFileParser::endMember</definition>
+        <argsstring>()</argsstring>
+        <name>endMember</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/tagreader.cpp" line="405" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/tagreader.cpp" bodystart="404" bodyend="417"/>
+      </memberdef>
+      <memberdef kind="function" id="d3/d3a/class_tag_file_parser_1aa00881e9a81fccda41ab9111261c2b58" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void TagFileParser::endDocAnchor</definition>
+        <argsstring>()</argsstring>
+        <name>endDocAnchor</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/tagreader.cpp" line="420" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/tagreader.cpp" bodystart="419" bodyend="433"/>
+      </memberdef>
+      <memberdef kind="function" id="d3/d3a/class_tag_file_parser_1a9e3e83215c3dc1433589d72835c16dba" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void TagFileParser::endClass</definition>
+        <argsstring>()</argsstring>
+        <name>endClass</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/tagreader.cpp" line="436" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/tagreader.cpp" bodystart="435" bodyend="446"/>
+      </memberdef>
+      <memberdef kind="function" id="d3/d3a/class_tag_file_parser_1a604566afd5d8237b6a8626d30b1b1902" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void TagFileParser::endNamespace</definition>
+        <argsstring>()</argsstring>
+        <name>endNamespace</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/tagreader.cpp" line="449" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/tagreader.cpp" bodystart="448" bodyend="457"/>
+      </memberdef>
+      <memberdef kind="function" id="d3/d3a/class_tag_file_parser_1aefa0fddc21d84d09769eb62690a6bf93" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void TagFileParser::endFile</definition>
+        <argsstring>()</argsstring>
+        <name>endFile</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/tagreader.cpp" line="460" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/tagreader.cpp" bodystart="459" bodyend="467"/>
+      </memberdef>
+      <memberdef kind="function" id="d3/d3a/class_tag_file_parser_1ae85e845d46b1032f51d6efd833bc5061" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void TagFileParser::endPage</definition>
+        <argsstring>()</argsstring>
+        <name>endPage</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/tagreader.cpp" line="470" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/tagreader.cpp" bodystart="469" bodyend="476"/>
+      </memberdef>
+      <memberdef kind="function" id="d3/d3a/class_tag_file_parser_1af425bde6cf85ebc042b01decc1370eda" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void TagFileParser::endDir</definition>
+        <argsstring>()</argsstring>
+        <name>endDir</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/tagreader.cpp" line="479" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/tagreader.cpp" bodystart="478" bodyend="485"/>
+      </memberdef>
+      <memberdef kind="function" id="d3/d3a/class_tag_file_parser_1a6a6319a60a875f3771ba420465691dab" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void TagFileParser::startStringValue</definition>
+        <argsstring>(const QXmlAttributes &amp;)</argsstring>
+        <name>startStringValue</name>
+        <param>
+          <type>const QXmlAttributes &amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/tagreader.cpp" line="488" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/tagreader.cpp" bodystart="487" bodyend="490"/>
+      </memberdef>
+      <memberdef kind="function" id="d3/d3a/class_tag_file_parser_1adbba8c8baa5115e73376f94529395010" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void TagFileParser::startDocAnchor</definition>
+        <argsstring>(const QXmlAttributes &amp;attrib)</argsstring>
+        <name>startDocAnchor</name>
+        <param>
+          <type>const QXmlAttributes &amp;</type>
+          <declname>attrib</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/tagreader.cpp" line="493" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/tagreader.cpp" bodystart="492" bodyend="497"/>
+      </memberdef>
+      <memberdef kind="function" id="d3/d3a/class_tag_file_parser_1aa93bd22b0121cafa26c559948c98acce" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void TagFileParser::endType</definition>
+        <argsstring>()</argsstring>
+        <name>endType</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/tagreader.cpp" line="500" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/tagreader.cpp" bodystart="499" bodyend="509"/>
+      </memberdef>
+      <memberdef kind="function" id="d3/d3a/class_tag_file_parser_1ac070eedd9f9f365fccc7519e30ca66c2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void TagFileParser::endName</definition>
+        <argsstring>()</argsstring>
+        <name>endName</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/tagreader.cpp" line="512" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/tagreader.cpp" bodystart="511" bodyend="525"/>
+      </memberdef>
+      <memberdef kind="function" id="d3/d3a/class_tag_file_parser_1ac9fab44512abd410a1e351cc41e9abd7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void TagFileParser::startBase</definition>
+        <argsstring>(const QXmlAttributes &amp;attrib)</argsstring>
+        <name>startBase</name>
+        <param>
+          <type>const QXmlAttributes &amp;</type>
+          <declname>attrib</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/tagreader.cpp" line="528" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/tagreader.cpp" bodystart="527" bodyend="559"/>
+      </memberdef>
+      <memberdef kind="function" id="d3/d3a/class_tag_file_parser_1a77b9865b6dbdc647b825c2ac5440648a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void TagFileParser::endBase</definition>
+        <argsstring>()</argsstring>
+        <name>endBase</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/tagreader.cpp" line="562" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/tagreader.cpp" bodystart="561" bodyend="571"/>
+      </memberdef>
+      <memberdef kind="function" id="d3/d3a/class_tag_file_parser_1a0703a045114c51e2c8a265a4f7b59d50" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void TagFileParser::startIncludes</definition>
+        <argsstring>(const QXmlAttributes &amp;attrib)</argsstring>
+        <name>startIncludes</name>
+        <param>
+          <type>const QXmlAttributes &amp;</type>
+          <declname>attrib</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/tagreader.cpp" line="574" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/tagreader.cpp" bodystart="573" bodyend="589"/>
+      </memberdef>
+      <memberdef kind="function" id="d3/d3a/class_tag_file_parser_1a4a6f3a01d14a9233322d1281ac568e2b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void TagFileParser::endIncludes</definition>
+        <argsstring>()</argsstring>
+        <name>endIncludes</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/tagreader.cpp" line="592" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/tagreader.cpp" bodystart="591" bodyend="594"/>
+      </memberdef>
+      <memberdef kind="function" id="d3/d3a/class_tag_file_parser_1a69ef902b3409f6cb1c09dd23ea836838" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void TagFileParser::endTemplateArg</definition>
+        <argsstring>()</argsstring>
+        <name>endTemplateArg</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/tagreader.cpp" line="597" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/tagreader.cpp" bodystart="596" bodyend="611"/>
+      </memberdef>
+      <memberdef kind="function" id="d3/d3a/class_tag_file_parser_1aeb11d87bb2fd76859a6d1390ec5565c8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void TagFileParser::endFilename</definition>
+        <argsstring>()</argsstring>
+        <name>endFilename</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/tagreader.cpp" line="614" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/tagreader.cpp" bodystart="613" bodyend="626"/>
+      </memberdef>
+      <memberdef kind="function" id="d3/d3a/class_tag_file_parser_1ac9a90fee9e64016f476fd4f71ae5fc3c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void TagFileParser::endPath</definition>
+        <argsstring>()</argsstring>
+        <name>endPath</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/tagreader.cpp" line="629" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/tagreader.cpp" bodystart="628" bodyend="636"/>
+      </memberdef>
+      <memberdef kind="function" id="d3/d3a/class_tag_file_parser_1a7f1486b9a2a926ecc5dce03420148f91" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void TagFileParser::endAnchor</definition>
+        <argsstring>()</argsstring>
+        <name>endAnchor</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/tagreader.cpp" line="639" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/tagreader.cpp" bodystart="638" bodyend="648"/>
+      </memberdef>
+      <memberdef kind="function" id="d3/d3a/class_tag_file_parser_1a6a2bcfbad3ba6c6eda830ddec5e2e9f8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void TagFileParser::endClangId</definition>
+        <argsstring>()</argsstring>
+        <name>endClangId</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/tagreader.cpp" line="651" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/tagreader.cpp" bodystart="650" bodyend="668"/>
+      </memberdef>
+      <memberdef kind="function" id="d3/d3a/class_tag_file_parser_1a4fd27631371b12c34da983007311f032" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void TagFileParser::endAnchorFile</definition>
+        <argsstring>()</argsstring>
+        <name>endAnchorFile</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/tagreader.cpp" line="673" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/tagreader.cpp" bodystart="672" bodyend="682"/>
+      </memberdef>
+      <memberdef kind="function" id="d3/d3a/class_tag_file_parser_1a683c1db16fb9938e213516a668d387b2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void TagFileParser::endArglist</definition>
+        <argsstring>()</argsstring>
+        <name>endArglist</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/tagreader.cpp" line="685" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/tagreader.cpp" bodystart="684" bodyend="694"/>
+      </memberdef>
+      <memberdef kind="function" id="d3/d3a/class_tag_file_parser_1a3210a7d1250f47f40e9e7e2e55fcbaf6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void TagFileParser::endTitle</definition>
+        <argsstring>()</argsstring>
+        <name>endTitle</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/tagreader.cpp" line="696" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/tagreader.cpp" bodystart="695" bodyend="703"/>
+      </memberdef>
+      <memberdef kind="function" id="d3/d3a/class_tag_file_parser_1a63cb54e8b8b03819af5ff4464f134509" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void TagFileParser::endSubgroup</definition>
+        <argsstring>()</argsstring>
+        <name>endSubgroup</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/tagreader.cpp" line="706" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/tagreader.cpp" bodystart="705" bodyend="715"/>
+      </memberdef>
+      <memberdef kind="function" id="d3/d3a/class_tag_file_parser_1acb04850b5bd3986ae23351a81ee8c947" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void TagFileParser::startIgnoreElement</definition>
+        <argsstring>(const QXmlAttributes &amp;)</argsstring>
+        <name>startIgnoreElement</name>
+        <param>
+          <type>const QXmlAttributes &amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/tagreader.cpp" line="718" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/tagreader.cpp" bodystart="717" bodyend="719"/>
+      </memberdef>
+      <memberdef kind="function" id="d3/d3a/class_tag_file_parser_1af0f86acf5070e1450ebd7afe2f0756df" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void TagFileParser::endIgnoreElement</definition>
+        <argsstring>()</argsstring>
+        <name>endIgnoreElement</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/tagreader.cpp" line="722" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/tagreader.cpp" bodystart="721" bodyend="723"/>
+      </memberdef>
+      <memberdef kind="function" id="d3/d3a/class_tag_file_parser_1a56d1a932efadb2ddd7e459884ebab4e4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool TagFileParser::startDocument</definition>
+        <argsstring>()</argsstring>
+        <name>startDocument</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/tagreader.cpp" line="726" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/tagreader.cpp" bodystart="725" bodyend="793"/>
+      </memberdef>
+      <memberdef kind="function" id="d3/d3a/class_tag_file_parser_1ad9f6b4e83d37df58b95a2018d4e2e606" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool TagFileParser::startElement</definition>
+        <argsstring>(const QString &amp;, const QString &amp;, const QString &amp;name, const QXmlAttributes &amp;attrib)</argsstring>
+        <name>startElement</name>
+        <param>
+          <type>const QString &amp;</type>
+        </param>
+        <param>
+          <type>const QString &amp;</type>
+        </param>
+        <param>
+          <type>const QString &amp;</type>
+          <declname>name</declname>
+        </param>
+        <param>
+          <type>const QXmlAttributes &amp;</type>
+          <declname>attrib</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/tagreader.cpp" line="797" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/tagreader.cpp" bodystart="795" bodyend="809"/>
+      </memberdef>
+      <memberdef kind="function" id="d3/d3a/class_tag_file_parser_1aeb0fd2877b6d5fc40a15f7c7bec19ee0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool TagFileParser::endElement</definition>
+        <argsstring>(const QString &amp;, const QString &amp;, const QString &amp;name)</argsstring>
+        <name>endElement</name>
+        <param>
+          <type>const QString &amp;</type>
+        </param>
+        <param>
+          <type>const QString &amp;</type>
+        </param>
+        <param>
+          <type>const QString &amp;</type>
+          <declname>name</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/tagreader.cpp" line="812" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/tagreader.cpp" bodystart="811" bodyend="824"/>
+      </memberdef>
+      <memberdef kind="function" id="d3/d3a/class_tag_file_parser_1a3d80deca329fd56350927d24c84a21b1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool TagFileParser::characters</definition>
+        <argsstring>(const QString &amp;ch)</argsstring>
+        <name>characters</name>
+        <param>
+          <type>const QString &amp;</type>
+          <declname>ch</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/tagreader.cpp" line="827" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/tagreader.cpp" bodystart="826" bodyend="830"/>
+      </memberdef>
+      <memberdef kind="function" id="d3/d3a/class_tag_file_parser_1adce233a37587ff0cc0753ae672f67d25" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void TagFileParser::dump</definition>
+        <argsstring>()</argsstring>
+        <name>dump</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Dumps the internal structures. For debugging only! </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/tagreader.cpp" line="832" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/tagreader.cpp" bodystart="897" bodyend="1065"/>
+      </memberdef>
+      <memberdef kind="function" id="d3/d3a/class_tag_file_parser_1a92748cf53ec12acd05e1003b1fcd34e1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void TagFileParser::buildLists</definition>
+        <argsstring>(Entry *root)</argsstring>
+        <name>buildLists</name>
+        <param>
+          <type><ref refid="d4/dd7/class_entry" kindref="compound">Entry</ref> *</type>
+          <declname>root</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Injects the info gathered by the XML parser into the <ref refid="d4/dd7/class_entry" kindref="compound">Entry</ref> tree. This tree contains the information extracted from the input in a &quot;unrelated&quot; form. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/tagreader.cpp" line="833" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/tagreader.cpp" bodystart="1208" bodyend="1383"/>
+      </memberdef>
+      <memberdef kind="function" id="d3/d3a/class_tag_file_parser_1ab88c5f05236839ab0744c9e08d1c77e4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void TagFileParser::addIncludes</definition>
+        <argsstring>()</argsstring>
+        <name>addIncludes</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/tagreader.cpp" line="834" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/tagreader.cpp" bodystart="1385" bodyend="1430"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="d3/d3a/class_tag_file_parser_1a33818bf588801dd2290ca4129381aa7e" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void TagFileParser::buildMemberList</definition>
+        <argsstring>(Entry *ce, QList&lt; TagMemberInfo &gt; &amp;members)</argsstring>
+        <name>buildMemberList</name>
+        <param>
+          <type><ref refid="d4/dd7/class_entry" kindref="compound">Entry</ref> *</type>
+          <declname>ce</declname>
+        </param>
+        <param>
+          <type><ref refid="db/daa/class_q_list" kindref="compound">QList</ref>&lt; TagMemberInfo &gt; &amp;</type>
+          <declname>members</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/tagreader.cpp" line="837" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/tagreader.cpp" bodystart="1089" bodyend="1189"/>
+      </memberdef>
+      <memberdef kind="function" id="d3/d3a/class_tag_file_parser_1a3a875030e1f39b820d85fa2e51f5fe71" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void TagFileParser::addDocAnchors</definition>
+        <argsstring>(Entry *e, const TagAnchorInfoList &amp;l)</argsstring>
+        <name>addDocAnchors</name>
+        <param>
+          <type><ref refid="d4/dd7/class_entry" kindref="compound">Entry</ref> *</type>
+          <declname>e</declname>
+        </param>
+        <param>
+          <type>const TagAnchorInfoList &amp;</type>
+          <declname>l</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/tagreader.cpp" line="838" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/tagreader.cpp" bodystart="1067" bodyend="1087"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Tag file parser. </para>    </briefdescription>
+    <detaileddescription>
+<para>Reads an XML-structured tagfile and builds up the structure in memory. The method buildLists() is used to transfer/translate the structures to the doxygen engine. </para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="4216">
+        <label>QXmlDefaultHandler</label>
+      </node>
+      <node id="4215">
+        <label>TagFileParser</label>
+        <childnode refid="4216" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="4218">
+        <label>QXmlDefaultHandler</label>
+      </node>
+      <node id="4217">
+        <label>TagFileParser</label>
+        <childnode refid="4218" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/tagreader.cpp" line="200" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/tagreader.cpp" bodystart="199" bodyend="865"/>
+    <listofallmembers>
+      <member refid="d3/d3a/class_tag_file_parser_1a3a875030e1f39b820d85fa2e51f5fe71" prot="private" virt="non-virtual"><scope>TagFileParser</scope><name>addDocAnchors</name></member>
+      <member refid="d3/d3a/class_tag_file_parser_1ab88c5f05236839ab0744c9e08d1c77e4" prot="public" virt="non-virtual"><scope>TagFileParser</scope><name>addIncludes</name></member>
+      <member refid="d3/d3a/class_tag_file_parser_1a92748cf53ec12acd05e1003b1fcd34e1" prot="public" virt="non-virtual"><scope>TagFileParser</scope><name>buildLists</name></member>
+      <member refid="d3/d3a/class_tag_file_parser_1a33818bf588801dd2290ca4129381aa7e" prot="private" virt="non-virtual"><scope>TagFileParser</scope><name>buildMemberList</name></member>
+      <member refid="d3/d3a/class_tag_file_parser_1a3d80deca329fd56350927d24c84a21b1" prot="public" virt="non-virtual"><scope>TagFileParser</scope><name>characters</name></member>
+      <member refid="d3/d3a/class_tag_file_parser_1adce233a37587ff0cc0753ae672f67d25" prot="public" virt="non-virtual"><scope>TagFileParser</scope><name>dump</name></member>
+      <member refid="d3/d3a/class_tag_file_parser_1a7f1486b9a2a926ecc5dce03420148f91" prot="public" virt="non-virtual"><scope>TagFileParser</scope><name>endAnchor</name></member>
+      <member refid="d3/d3a/class_tag_file_parser_1a4fd27631371b12c34da983007311f032" prot="public" virt="non-virtual"><scope>TagFileParser</scope><name>endAnchorFile</name></member>
+      <member refid="d3/d3a/class_tag_file_parser_1a683c1db16fb9938e213516a668d387b2" prot="public" virt="non-virtual"><scope>TagFileParser</scope><name>endArglist</name></member>
+      <member refid="d3/d3a/class_tag_file_parser_1a77b9865b6dbdc647b825c2ac5440648a" prot="public" virt="non-virtual"><scope>TagFileParser</scope><name>endBase</name></member>
+      <member refid="d3/d3a/class_tag_file_parser_1a6a2bcfbad3ba6c6eda830ddec5e2e9f8" prot="public" virt="non-virtual"><scope>TagFileParser</scope><name>endClangId</name></member>
+      <member refid="d3/d3a/class_tag_file_parser_1a9e3e83215c3dc1433589d72835c16dba" prot="public" virt="non-virtual"><scope>TagFileParser</scope><name>endClass</name></member>
+      <member refid="d3/d3a/class_tag_file_parser_1a10b74d69f1beb95fb58bcde418d78521" prot="public" virt="non-virtual"><scope>TagFileParser</scope><name>endCompound</name></member>
+      <member refid="d3/d3a/class_tag_file_parser_1af425bde6cf85ebc042b01decc1370eda" prot="public" virt="non-virtual"><scope>TagFileParser</scope><name>endDir</name></member>
+      <member refid="d3/d3a/class_tag_file_parser_1aa00881e9a81fccda41ab9111261c2b58" prot="public" virt="non-virtual"><scope>TagFileParser</scope><name>endDocAnchor</name></member>
+      <member refid="d3/d3a/class_tag_file_parser_1aeb0fd2877b6d5fc40a15f7c7bec19ee0" prot="public" virt="non-virtual"><scope>TagFileParser</scope><name>endElement</name></member>
+      <member refid="d3/d3a/class_tag_file_parser_1aefa0fddc21d84d09769eb62690a6bf93" prot="public" virt="non-virtual"><scope>TagFileParser</scope><name>endFile</name></member>
+      <member refid="d3/d3a/class_tag_file_parser_1aeb11d87bb2fd76859a6d1390ec5565c8" prot="public" virt="non-virtual"><scope>TagFileParser</scope><name>endFilename</name></member>
+      <member refid="d3/d3a/class_tag_file_parser_1af0f86acf5070e1450ebd7afe2f0756df" prot="public" virt="non-virtual"><scope>TagFileParser</scope><name>endIgnoreElement</name></member>
+      <member refid="d3/d3a/class_tag_file_parser_1a4a6f3a01d14a9233322d1281ac568e2b" prot="public" virt="non-virtual"><scope>TagFileParser</scope><name>endIncludes</name></member>
+      <member refid="d3/d3a/class_tag_file_parser_1aed63e6356c833e71abdf24884aee6145" prot="public" virt="non-virtual"><scope>TagFileParser</scope><name>endMember</name></member>
+      <member refid="d3/d3a/class_tag_file_parser_1ac070eedd9f9f365fccc7519e30ca66c2" prot="public" virt="non-virtual"><scope>TagFileParser</scope><name>endName</name></member>
+      <member refid="d3/d3a/class_tag_file_parser_1a604566afd5d8237b6a8626d30b1b1902" prot="public" virt="non-virtual"><scope>TagFileParser</scope><name>endNamespace</name></member>
+      <member refid="d3/d3a/class_tag_file_parser_1ae85e845d46b1032f51d6efd833bc5061" prot="public" virt="non-virtual"><scope>TagFileParser</scope><name>endPage</name></member>
+      <member refid="d3/d3a/class_tag_file_parser_1ac9a90fee9e64016f476fd4f71ae5fc3c" prot="public" virt="non-virtual"><scope>TagFileParser</scope><name>endPath</name></member>
+      <member refid="d3/d3a/class_tag_file_parser_1a63cb54e8b8b03819af5ff4464f134509" prot="public" virt="non-virtual"><scope>TagFileParser</scope><name>endSubgroup</name></member>
+      <member refid="d3/d3a/class_tag_file_parser_1a69ef902b3409f6cb1c09dd23ea836838" prot="public" virt="non-virtual"><scope>TagFileParser</scope><name>endTemplateArg</name></member>
+      <member refid="d3/d3a/class_tag_file_parser_1a3210a7d1250f47f40e9e7e2e55fcbaf6" prot="public" virt="non-virtual"><scope>TagFileParser</scope><name>endTitle</name></member>
+      <member refid="d3/d3a/class_tag_file_parser_1aa93bd22b0121cafa26c559948c98acce" prot="public" virt="non-virtual"><scope>TagFileParser</scope><name>endType</name></member>
+      <member refid="d3/d3a/class_tag_file_parser_1abb24875cbda8fcd4593248e0f19c4a76a20a518f0d86c5334b83bcae49103a5f1" prot="private" virt="non-virtual"><scope>TagFileParser</scope><name>InClass</name></member>
+      <member refid="d3/d3a/class_tag_file_parser_1abb24875cbda8fcd4593248e0f19c4a76aa0d97590f7132b97a435b575440a692f" prot="private" virt="non-virtual"><scope>TagFileParser</scope><name>InDir</name></member>
+      <member refid="d3/d3a/class_tag_file_parser_1abb24875cbda8fcd4593248e0f19c4a76a943276efcb88daf664971dad823eaeb4" prot="private" virt="non-virtual"><scope>TagFileParser</scope><name>InFile</name></member>
+      <member refid="d3/d3a/class_tag_file_parser_1abb24875cbda8fcd4593248e0f19c4a76a0bdb5d0a8c5c40716a9418c86b713f26" prot="private" virt="non-virtual"><scope>TagFileParser</scope><name>InGroup</name></member>
+      <member refid="d3/d3a/class_tag_file_parser_1abb24875cbda8fcd4593248e0f19c4a76a72de22146f35907e5edcbcb9ccc62a06" prot="private" virt="non-virtual"><scope>TagFileParser</scope><name>InMember</name></member>
+      <member refid="d3/d3a/class_tag_file_parser_1abb24875cbda8fcd4593248e0f19c4a76a34b0efe950b4f9cedad423e0882b5c0f" prot="private" virt="non-virtual"><scope>TagFileParser</scope><name>InNamespace</name></member>
+      <member refid="d3/d3a/class_tag_file_parser_1abb24875cbda8fcd4593248e0f19c4a76a110ddfb2597afbf1d08cddb10532250c" prot="private" virt="non-virtual"><scope>TagFileParser</scope><name>InPackage</name></member>
+      <member refid="d3/d3a/class_tag_file_parser_1abb24875cbda8fcd4593248e0f19c4a76a3c2ad07ff718d0cf3f202b649d62ad4f" prot="private" virt="non-virtual"><scope>TagFileParser</scope><name>InPage</name></member>
+      <member refid="d3/d3a/class_tag_file_parser_1abb24875cbda8fcd4593248e0f19c4a76a43e49734eed31dcec7b8e67802fd427a" prot="private" virt="non-virtual"><scope>TagFileParser</scope><name>InTempArgList</name></member>
+      <member refid="d3/d3a/class_tag_file_parser_1abb24875cbda8fcd4593248e0f19c4a76a475f8d81560d14f6d1287c869c7c2b6c" prot="private" virt="non-virtual"><scope>TagFileParser</scope><name>Invalid</name></member>
+      <member refid="d3/d3a/class_tag_file_parser_1ae9fb00888cc220ebb9feba977e908b0c" prot="private" virt="non-virtual"><scope>TagFileParser</scope><name>m_curClass</name></member>
+      <member refid="d3/d3a/class_tag_file_parser_1a2715b8ea7a6841540020ba93970c1bf6" prot="private" virt="non-virtual"><scope>TagFileParser</scope><name>m_curDir</name></member>
+      <member refid="d3/d3a/class_tag_file_parser_1a6de1fbfe1b20b332421f851fdada6d04" prot="private" virt="non-virtual"><scope>TagFileParser</scope><name>m_curFile</name></member>
+      <member refid="d3/d3a/class_tag_file_parser_1a486cac63a534187a597666b5e38046d8" prot="private" virt="non-virtual"><scope>TagFileParser</scope><name>m_curGroup</name></member>
+      <member refid="d3/d3a/class_tag_file_parser_1afd0e32bafb6f6cfc33a3f1487d9ae988" prot="private" virt="non-virtual"><scope>TagFileParser</scope><name>m_curIncludes</name></member>
+      <member refid="d3/d3a/class_tag_file_parser_1ad411f0538a685ed8354e55bced6d2790" prot="private" virt="non-virtual"><scope>TagFileParser</scope><name>m_curMember</name></member>
+      <member refid="d3/d3a/class_tag_file_parser_1ac6bfdb974453b2329a410def18bce701" prot="private" virt="non-virtual"><scope>TagFileParser</scope><name>m_curNamespace</name></member>
+      <member refid="d3/d3a/class_tag_file_parser_1a6a3fdd214cc77ca4174f65e6f6c8d630" prot="private" virt="non-virtual"><scope>TagFileParser</scope><name>m_curPackage</name></member>
+      <member refid="d3/d3a/class_tag_file_parser_1a5898d08e1a1b35b976ce5c8d69515839" prot="private" virt="non-virtual"><scope>TagFileParser</scope><name>m_curPage</name></member>
+      <member refid="d3/d3a/class_tag_file_parser_1ae8a7da74333d60eb4a316173934d7e99" prot="private" virt="non-virtual"><scope>TagFileParser</scope><name>m_curString</name></member>
+      <member refid="d3/d3a/class_tag_file_parser_1a2c7c6e9479a33a7d10126483179d39e7" prot="private" virt="non-virtual"><scope>TagFileParser</scope><name>m_endElementHandlers</name></member>
+      <member refid="d3/d3a/class_tag_file_parser_1a5c18a898561ce392c990381dba9080d9" prot="private" virt="non-virtual"><scope>TagFileParser</scope><name>m_fileName</name></member>
+      <member refid="d3/d3a/class_tag_file_parser_1aac11ee0116c0494fab926ed56cbfafbe" prot="private" virt="non-virtual"><scope>TagFileParser</scope><name>m_inputFileName</name></member>
+      <member refid="d3/d3a/class_tag_file_parser_1a8a077622c7f5a691776a0da8f7c8a32c" prot="private" virt="non-virtual"><scope>TagFileParser</scope><name>m_locator</name></member>
+      <member refid="d3/d3a/class_tag_file_parser_1a69411be8b4e139a74560368bdf5c5a59" prot="private" virt="non-virtual"><scope>TagFileParser</scope><name>m_startElementHandlers</name></member>
+      <member refid="d3/d3a/class_tag_file_parser_1a910c9331cdcd63c12d478bb2926c4ad2" prot="private" virt="non-virtual"><scope>TagFileParser</scope><name>m_state</name></member>
+      <member refid="d3/d3a/class_tag_file_parser_1ae37060b9042de43a14ea0ed99efcb529" prot="private" virt="non-virtual"><scope>TagFileParser</scope><name>m_stateStack</name></member>
+      <member refid="d3/d3a/class_tag_file_parser_1a0bef14ce5d0889c8124b15b34a5436e3" prot="private" virt="non-virtual"><scope>TagFileParser</scope><name>m_tagFileClasses</name></member>
+      <member refid="d3/d3a/class_tag_file_parser_1ac72378bd6412e602ecc6bae260677086" prot="private" virt="non-virtual"><scope>TagFileParser</scope><name>m_tagFileDirs</name></member>
+      <member refid="d3/d3a/class_tag_file_parser_1afb229b6c39c1769407fa1da0c6b5e5ac" prot="private" virt="non-virtual"><scope>TagFileParser</scope><name>m_tagFileFiles</name></member>
+      <member refid="d3/d3a/class_tag_file_parser_1a8120b4f8c3e79b5f4524e0268009f7a5" prot="private" virt="non-virtual"><scope>TagFileParser</scope><name>m_tagFileGroups</name></member>
+      <member refid="d3/d3a/class_tag_file_parser_1a2efdcaf257ec646b6f9a4fe349d590f4" prot="private" virt="non-virtual"><scope>TagFileParser</scope><name>m_tagFileNamespaces</name></member>
+      <member refid="d3/d3a/class_tag_file_parser_1adae41f60519dbf787c80a621c76b8d91" prot="private" virt="non-virtual"><scope>TagFileParser</scope><name>m_tagFilePackages</name></member>
+      <member refid="d3/d3a/class_tag_file_parser_1a177209e5409f3d9d0260969a43af30fe" prot="private" virt="non-virtual"><scope>TagFileParser</scope><name>m_tagFilePages</name></member>
+      <member refid="d3/d3a/class_tag_file_parser_1a537bc03068a264a86c861e462bdf2054" prot="private" virt="non-virtual"><scope>TagFileParser</scope><name>m_tagName</name></member>
+      <member refid="d3/d3a/class_tag_file_parser_1a2ab4569198df1bb87617696642f91903" prot="private" virt="non-virtual"><scope>TagFileParser</scope><name>m_title</name></member>
+      <member refid="d3/d3a/class_tag_file_parser_1a947ca98759d61b5cf3d920a7d98fa828" prot="public" virt="non-virtual"><scope>TagFileParser</scope><name>setDocumentLocator</name></member>
+      <member refid="d3/d3a/class_tag_file_parser_1a4f993458f2f874771d87e8b4e3373925" prot="public" virt="non-virtual"><scope>TagFileParser</scope><name>setFileName</name></member>
+      <member refid="d3/d3a/class_tag_file_parser_1ac9fab44512abd410a1e351cc41e9abd7" prot="public" virt="non-virtual"><scope>TagFileParser</scope><name>startBase</name></member>
+      <member refid="d3/d3a/class_tag_file_parser_1a19aa90dae712fab6fc13b84d9b568ce5" prot="public" virt="non-virtual"><scope>TagFileParser</scope><name>startCompound</name></member>
+      <member refid="d3/d3a/class_tag_file_parser_1adbba8c8baa5115e73376f94529395010" prot="public" virt="non-virtual"><scope>TagFileParser</scope><name>startDocAnchor</name></member>
+      <member refid="d3/d3a/class_tag_file_parser_1a56d1a932efadb2ddd7e459884ebab4e4" prot="public" virt="non-virtual"><scope>TagFileParser</scope><name>startDocument</name></member>
+      <member refid="d3/d3a/class_tag_file_parser_1ad9f6b4e83d37df58b95a2018d4e2e606" prot="public" virt="non-virtual"><scope>TagFileParser</scope><name>startElement</name></member>
+      <member refid="d3/d3a/class_tag_file_parser_1acb04850b5bd3986ae23351a81ee8c947" prot="public" virt="non-virtual"><scope>TagFileParser</scope><name>startIgnoreElement</name></member>
+      <member refid="d3/d3a/class_tag_file_parser_1a0703a045114c51e2c8a265a4f7b59d50" prot="public" virt="non-virtual"><scope>TagFileParser</scope><name>startIncludes</name></member>
+      <member refid="d3/d3a/class_tag_file_parser_1a9ce94f71fd0686afe0bb6d9ffa6dc9cb" prot="public" virt="non-virtual"><scope>TagFileParser</scope><name>startMember</name></member>
+      <member refid="d3/d3a/class_tag_file_parser_1a6a6319a60a875f3771ba420465691dab" prot="public" virt="non-virtual"><scope>TagFileParser</scope><name>startStringValue</name></member>
+      <member refid="d3/d3a/class_tag_file_parser_1abb24875cbda8fcd4593248e0f19c4a76" prot="private" virt="non-virtual"><scope>TagFileParser</scope><name>State</name></member>
+      <member refid="d3/d3a/class_tag_file_parser_1a4f139dc60355077bdb6a0c6a0ba7fd2f" prot="public" virt="non-virtual"><scope>TagFileParser</scope><name>TagFileParser</name></member>
+      <member refid="d3/d3a/class_tag_file_parser_1acf72e17ee641ea46db2b05c6350bd1c2" prot="public" virt="non-virtual"><scope>TagFileParser</scope><name>warn</name></member>
+      <member refid="d3/d3a/class_tag_file_parser_1afbd2e881b3cf9f30d61c62588e9e05fc" prot="public" virt="non-virtual"><scope>TagFileParser</scope><name>warn</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

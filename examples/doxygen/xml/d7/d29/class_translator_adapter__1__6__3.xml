@@ -1,0 +1,586 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.2">
+  <compounddef id="d7/d29/class_translator_adapter__1__6__3" kind="class" prot="public">
+    <compoundname>TranslatorAdapter_1_6_3</compoundname>
+    <basecompoundref refid="da/d24/class_translator_adapter__1__7__5" prot="public" virt="non-virtual">TranslatorAdapter_1_7_5</basecompoundref>
+    <derivedcompoundref refid="d3/da1/class_translator_adapter__1__6__0" prot="public" virt="non-virtual">TranslatorAdapter_1_6_0</derivedcompoundref>
+    <includes refid="da/de6/translator__adapter_8h" local="no">translator_adapter.h</includes>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="d7/d29/class_translator_adapter__1__6__3_1ab3d79abfb926c41bd7609eeb706654fe" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>QCString</type>
+        <definition>virtual QCString TranslatorAdapter_1_6_3::updateNeededMessage</definition>
+        <argsstring>()</argsstring>
+        <name>updateNeededMessage</name>
+        <reimplements refid="da/d24/class_translator_adapter__1__7__5_1a6e69d48e79a13c9d934f9af1a8befd8a">updateNeededMessage</reimplements>
+        <reimplementedby refid="d3/da1/class_translator_adapter__1__6__0_1abc231eb2c1864ca9f878e7e5deb94f54">updateNeededMessage</reimplementedby>
+        <reimplementedby refid="df/dc7/class_translator_adapter__1__5__4_1a587a31dad925e47f206b6a0cda9eedd0">updateNeededMessage</reimplementedby>
+        <reimplementedby refid="d4/d2b/class_translator_adapter__1__4__6_1ab19b01d4e00c95ef1e6eb631fbe6ada4">updateNeededMessage</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>This method is used to generate a warning message to signal the user that the translation of his/her language of choice needs updating. It must be implemented by the translator adapter class (pure virtual).</para><para><simplesect kind="see"><para><ref refid="db/d6c/class_translator_adapter_base_1a71493b87a34d6e4c232e540734aba698" kindref="member">createUpdateNeededMessage()</ref> </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/translator_adapter.h" line="162" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/translator_adapter.h" bodystart="161" bodyend="162"/>
+        <references refid="db/d6c/class_translator_adapter_base_1a71493b87a34d6e4c232e540734aba698" compoundref="da/de6/translator__adapter_8h" startline="22" endline="30">TranslatorAdapterBase::createUpdateNeededMessage</references>
+      </memberdef>
+      <memberdef kind="function" id="d7/d29/class_translator_adapter__1__6__3_1a90eb8b795d5cc664b706b8cbbd48929c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>QCString</type>
+        <definition>virtual QCString TranslatorAdapter_1_6_3::trDirDependency</definition>
+        <argsstring>(const char *name)</argsstring>
+        <name>trDirDependency</name>
+        <reimplements refid="d8/dfb/class_translator_1af4ea6840ecfdc736cf96c4941ec3f455">trDirDependency</reimplements>
+        <param>
+          <type>const char *</type>
+          <declname>name</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/translator_adapter.h" line="165" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/translator_adapter.h" bodystart="164" bodyend="165"/>
+      </memberdef>
+      <memberdef kind="function" id="d7/d29/class_translator_adapter__1__6__3_1a3645d77e245f76891d9926254208e840" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>QCString</type>
+        <definition>virtual QCString TranslatorAdapter_1_6_3::trFileIn</definition>
+        <argsstring>(const char *name)</argsstring>
+        <name>trFileIn</name>
+        <reimplements refid="d8/dfb/class_translator_1a07ebbeefa44a421f3c2ab0f1c01b88db">trFileIn</reimplements>
+        <param>
+          <type>const char *</type>
+          <declname>name</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/translator_adapter.h" line="167" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/translator_adapter.h" bodystart="166" bodyend="167"/>
+      </memberdef>
+      <memberdef kind="function" id="d7/d29/class_translator_adapter__1__6__3_1a3f0eecc876597e903d6dd557a72e598f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>QCString</type>
+        <definition>virtual QCString TranslatorAdapter_1_6_3::trIncludesFileIn</definition>
+        <argsstring>(const char *name)</argsstring>
+        <name>trIncludesFileIn</name>
+        <reimplements refid="d8/dfb/class_translator_1a671ab8974160728018662ded67ebf16b">trIncludesFileIn</reimplements>
+        <param>
+          <type>const char *</type>
+          <declname>name</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/translator_adapter.h" line="169" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/translator_adapter.h" bodystart="168" bodyend="169"/>
+      </memberdef>
+      <memberdef kind="function" id="d7/d29/class_translator_adapter__1__6__3_1a9a4db38fc5d4ddb87a9ac244fd6cef27" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>QCString</type>
+        <definition>virtual QCString TranslatorAdapter_1_6_3::trDateTime</definition>
+        <argsstring>(int year, int month, int day, int dayOfWeek, int hour, int minutes, int seconds, bool includeTime)</argsstring>
+        <name>trDateTime</name>
+        <reimplements refid="d8/dfb/class_translator_1aa96be72c23a1d2139b068552e3a539c4">trDateTime</reimplements>
+        <param>
+          <type>int</type>
+          <declname>year</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>month</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>day</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>dayOfWeek</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>hour</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>minutes</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>seconds</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>includeTime</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/translator_adapter.h" line="173" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/translator_adapter.h" bodystart="170" bodyend="173"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Adapter class for languages that only contain translations up to version 1.6.3. </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="4411">
+        <label>TranslatorAdapter_1_8_0</label>
+        <link refid="de/d49/class_translator_adapter__1__8__0"/>
+        <childnode refid="4412" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4412">
+        <label>TranslatorAdapter_1_8_2</label>
+        <link refid="d2/d75/class_translator_adapter__1__8__2"/>
+        <childnode refid="4413" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4413">
+        <label>TranslatorAdapter_1_8_4</label>
+        <link refid="de/d2f/class_translator_adapter__1__8__4"/>
+        <childnode refid="4414" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4431">
+        <label>TranslatorVietnamese</label>
+        <link refid="df/d20/class_translator_vietnamese"/>
+        <childnode refid="4416" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4418">
+        <label>TranslatorAdapter_1_4_6</label>
+        <link refid="d4/d2b/class_translator_adapter__1__4__6"/>
+        <childnode refid="4417" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4426">
+        <label>TranslatorJapanese</label>
+        <link refid="d1/d6a/class_translator_japanese"/>
+        <childnode refid="4416" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4420">
+        <label>TranslatorHungarian</label>
+        <link refid="db/d5f/class_translator_hungarian"/>
+        <childnode refid="4418" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4430">
+        <label>TranslatorSwedish</label>
+        <link refid="d5/d5c/class_translator_swedish"/>
+        <childnode refid="4416" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4422">
+        <label>TranslatorNorwegian</label>
+        <link refid="dd/d38/class_translator_norwegian"/>
+        <childnode refid="4418" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4425">
+        <label>TranslatorFinnish</label>
+        <link refid="de/df7/class_translator_finnish"/>
+        <childnode refid="4416" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4417">
+        <label>TranslatorAdapter_1_5_4</label>
+        <link refid="df/dc7/class_translator_adapter__1__5__4"/>
+        <childnode refid="4416" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4414">
+        <label>TranslatorAdapterBase</label>
+        <link refid="db/d6c/class_translator_adapter_base"/>
+        <childnode refid="4415" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4427">
+        <label>TranslatorMacedonian</label>
+        <link refid="d9/ddf/class_translator_macedonian"/>
+        <childnode refid="4416" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4419">
+        <label>TranslatorArabic</label>
+        <link refid="d3/de9/class_translator_arabic"/>
+        <childnode refid="4418" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4416">
+        <label>TranslatorAdapter_1_6_0</label>
+        <link refid="d3/da1/class_translator_adapter__1__6__0"/>
+        <childnode refid="4409" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4409">
+        <label>TranslatorAdapter_1_6_3</label>
+        <link refid="d7/d29/class_translator_adapter__1__6__3"/>
+        <childnode refid="4410" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4429">
+        <label>TranslatorSerbianCyrilic</label>
+        <link refid="db/d7d/class_translator_serbian_cyrilic"/>
+        <childnode refid="4416" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4428">
+        <label>TranslatorSerbian</label>
+        <link refid="d5/d0a/class_translator_serbian"/>
+        <childnode refid="4416" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4424">
+        <label>TranslatorAfrikaans</label>
+        <link refid="d3/d65/class_translator_afrikaans"/>
+        <childnode refid="4416" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4410">
+        <label>TranslatorAdapter_1_7_5</label>
+        <link refid="da/d24/class_translator_adapter__1__7__5"/>
+        <childnode refid="4411" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4421">
+        <label>TranslatorLithuanian</label>
+        <link refid="dc/d53/class_translator_lithuanian"/>
+        <childnode refid="4418" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4423">
+        <label>TranslatorSlovene</label>
+        <link refid="dd/d0b/class_translator_slovene"/>
+        <childnode refid="4418" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4415">
+        <label>Translator</label>
+        <link refid="d8/dfb/class_translator"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="4434">
+        <label>TranslatorAdapter_1_8_0</label>
+        <link refid="de/d49/class_translator_adapter__1__8__0"/>
+        <childnode refid="4435" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4435">
+        <label>TranslatorAdapter_1_8_2</label>
+        <link refid="d2/d75/class_translator_adapter__1__8__2"/>
+        <childnode refid="4436" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4436">
+        <label>TranslatorAdapter_1_8_4</label>
+        <link refid="de/d2f/class_translator_adapter__1__8__4"/>
+        <childnode refid="4437" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4437">
+        <label>TranslatorAdapterBase</label>
+        <link refid="db/d6c/class_translator_adapter_base"/>
+        <childnode refid="4438" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4439" relation="usage">
+          <edgelabel>english</edgelabel>
+        </childnode>
+      </node>
+      <node id="4432">
+        <label>TranslatorAdapter_1_6_3</label>
+        <link refid="d7/d29/class_translator_adapter__1__6__3"/>
+        <childnode refid="4433" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4433">
+        <label>TranslatorAdapter_1_7_5</label>
+        <link refid="da/d24/class_translator_adapter__1__7__5"/>
+        <childnode refid="4434" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4438">
+        <label>Translator</label>
+        <link refid="d8/dfb/class_translator"/>
+      </node>
+      <node id="4439">
+        <label>TranslatorEnglish</label>
+        <link refid="d6/d78/class_translator_english"/>
+        <childnode refid="4438" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/translator_adapter.h" line="159" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/translator_adapter.h" bodystart="158" bodyend="174"/>
+    <listofallmembers>
+      <member refid="db/d6c/class_translator_adapter_base_1a71493b87a34d6e4c232e540734aba698" prot="protected" virt="non-virtual"><scope>TranslatorAdapter_1_6_3</scope><name>createUpdateNeededMessage</name></member>
+      <member refid="db/d6c/class_translator_adapter_base_1a75fd1d1116debf9adacfef772a04a7b1" prot="protected" virt="non-virtual"><scope>TranslatorAdapter_1_6_3</scope><name>english</name></member>
+      <member refid="d8/dfb/class_translator_1af1d1a225ccc757c51c6cecfeda886b93" prot="public" virt="pure-virtual"><scope>TranslatorAdapter_1_6_3</scope><name>idLanguage</name></member>
+      <member refid="d8/dfb/class_translator_1a6b26d72594303084ac03b5b7e9d8cc38" prot="public" virt="pure-virtual"><scope>TranslatorAdapter_1_6_3</scope><name>idLanguageCharset</name></member>
+      <member refid="d8/dfb/class_translator_1a05dfd255fa09d9c3ca66e1e0b7afa30e" prot="protected" virt="non-virtual"><scope>TranslatorAdapter_1_6_3</scope><name>ISO88592ToWin1250</name></member>
+      <member refid="d8/dfb/class_translator_1a417bf06973a6bcf798e8419637422d0b" prot="protected" virt="non-virtual"><scope>TranslatorAdapter_1_6_3</scope><name>JapaneseEucToSjis</name></member>
+      <member refid="d8/dfb/class_translator_1ac87d4f99130f5c7285ff3649e643c09b" prot="protected" virt="non-virtual"><scope>TranslatorAdapter_1_6_3</scope><name>Koi8RToWindows1251</name></member>
+      <member refid="d8/dfb/class_translator_1aa2cff88fa1aa000c9f5efe2ac12c4448" prot="public" virt="pure-virtual"><scope>TranslatorAdapter_1_6_3</scope><name>latexLanguageSupportCommand</name></member>
+      <member refid="de/d49/class_translator_adapter__1__8__0_1abfa3bd866a75cec56e75751e8ab8d20d" prot="public" virt="virtual"><scope>TranslatorAdapter_1_6_3</scope><name>trAdditionalInheritedMembers</name></member>
+      <member refid="d8/dfb/class_translator_1a008615452dda018b06bfea08a2d1d552" prot="public" virt="pure-virtual"><scope>TranslatorAdapter_1_6_3</scope><name>trAll</name></member>
+      <member refid="d8/dfb/class_translator_1a29ca320f711e4f7d43e91b0acbdb04ab" prot="public" virt="pure-virtual"><scope>TranslatorAdapter_1_6_3</scope><name>trAlphabeticalList</name></member>
+      <member refid="de/d49/class_translator_adapter__1__8__0_1a091b619b50fdf129ac17d5aac58bdaa0" prot="public" virt="virtual"><scope>TranslatorAdapter_1_6_3</scope><name>trAndMore</name></member>
+      <member refid="d8/dfb/class_translator_1a988fcf036a857cf3761ee11638ce9179" prot="public" virt="pure-virtual"><scope>TranslatorAdapter_1_6_3</scope><name>trAttention</name></member>
+      <member refid="d8/dfb/class_translator_1ab1d687861b87ec383f96cc0b323be6eb" prot="public" virt="pure-virtual"><scope>TranslatorAdapter_1_6_3</scope><name>trAuthor</name></member>
+      <member refid="d8/dfb/class_translator_1a09bd1ed5d149f8b2c37f660d7d84cfde" prot="public" virt="pure-virtual"><scope>TranslatorAdapter_1_6_3</scope><name>trBug</name></member>
+      <member refid="d8/dfb/class_translator_1a904e5e013c7329eb66fd98bc6709d4d5" prot="public" virt="pure-virtual"><scope>TranslatorAdapter_1_6_3</scope><name>trBugList</name></member>
+      <member refid="d8/dfb/class_translator_1a4c8eaa74686abf7667ee9f0ac0b0bacd" prot="public" virt="pure-virtual"><scope>TranslatorAdapter_1_6_3</scope><name>trCallerGraph</name></member>
+      <member refid="d8/dfb/class_translator_1a5f2fd294c6ca32ec48a76eff010b4ae0" prot="public" virt="pure-virtual"><scope>TranslatorAdapter_1_6_3</scope><name>trCallGraph</name></member>
+      <member refid="da/d24/class_translator_adapter__1__7__5_1ab4ade1617a97ef1340201d5e551c355b" prot="public" virt="virtual"><scope>TranslatorAdapter_1_6_3</scope><name>trCiteReferences</name></member>
+      <member refid="d8/dfb/class_translator_1a887fa58ae73ee4585bd9d89359049196" prot="public" virt="pure-virtual"><scope>TranslatorAdapter_1_6_3</scope><name>trClass</name></member>
+      <member refid="d8/dfb/class_translator_1ab48ba6edf52f116adc4ecb47314470a4" prot="public" virt="pure-virtual"><scope>TranslatorAdapter_1_6_3</scope><name>trClassDiagram</name></member>
+      <member refid="d8/dfb/class_translator_1a7f2ce6d3f52323d11e2ec9021c1daff1" prot="public" virt="pure-virtual"><scope>TranslatorAdapter_1_6_3</scope><name>trClassDocumentation</name></member>
+      <member refid="d8/dfb/class_translator_1a182de1d9ac67d054637647d67d90f788" prot="public" virt="pure-virtual"><scope>TranslatorAdapter_1_6_3</scope><name>trClasses</name></member>
+      <member refid="d8/dfb/class_translator_1aa0239ddf927f682dd691ea075cb8c675" prot="public" virt="pure-virtual"><scope>TranslatorAdapter_1_6_3</scope><name>trClassHierarchy</name></member>
+      <member refid="d8/dfb/class_translator_1a05c4c5ca2361559b5424e6dbadcbdf5c" prot="public" virt="pure-virtual"><scope>TranslatorAdapter_1_6_3</scope><name>trClassHierarchyDescription</name></member>
+      <member refid="d2/d75/class_translator_adapter__1__8__2_1a12bfc4603de05d145a7529a3ce9a4ecd" prot="public" virt="virtual"><scope>TranslatorAdapter_1_6_3</scope><name>trClassMethods</name></member>
+      <member refid="d8/dfb/class_translator_1af85261d5c63262a8dfdf918fd1b35fc2" prot="public" virt="pure-virtual"><scope>TranslatorAdapter_1_6_3</scope><name>trCode</name></member>
+      <member refid="d8/dfb/class_translator_1a5f811bad50bed217f91d14aa734d77b4" prot="public" virt="pure-virtual"><scope>TranslatorAdapter_1_6_3</scope><name>trCollaborationDiagram</name></member>
+      <member refid="d8/dfb/class_translator_1a7040654c74fbc401fab833fa581ab04d" prot="public" virt="pure-virtual"><scope>TranslatorAdapter_1_6_3</scope><name>trCompoundIndex</name></member>
+      <member refid="d8/dfb/class_translator_1ab704a3dfea30bf2f98e1d2b568027ecd" prot="public" virt="pure-virtual"><scope>TranslatorAdapter_1_6_3</scope><name>trCompoundIndexFortran</name></member>
+      <member refid="d8/dfb/class_translator_1af66045c049fb505e2e09605d641f2ff2" prot="public" virt="pure-virtual"><scope>TranslatorAdapter_1_6_3</scope><name>trCompoundList</name></member>
+      <member refid="d8/dfb/class_translator_1a031a3a5017a0548c73bb764c7a6b24f4" prot="public" virt="pure-virtual"><scope>TranslatorAdapter_1_6_3</scope><name>trCompoundListDescription</name></member>
+      <member refid="d8/dfb/class_translator_1aee8fb1ec3c97865efe420ed67ca49c58" prot="public" virt="pure-virtual"><scope>TranslatorAdapter_1_6_3</scope><name>trCompoundListDescriptionFortran</name></member>
+      <member refid="d8/dfb/class_translator_1aa63e646006549a0504783bcb9049a5c0" prot="public" virt="pure-virtual"><scope>TranslatorAdapter_1_6_3</scope><name>trCompoundListFortran</name></member>
+      <member refid="d8/dfb/class_translator_1a6c32b990a668865e04330007c37ecb2a" prot="public" virt="pure-virtual"><scope>TranslatorAdapter_1_6_3</scope><name>trCompoundMembers</name></member>
+      <member refid="d8/dfb/class_translator_1a3f5797671f227e6a206aaa866973fcb2" prot="public" virt="pure-virtual"><scope>TranslatorAdapter_1_6_3</scope><name>trCompoundMembersDescription</name></member>
+      <member refid="d8/dfb/class_translator_1af9d5b1d1ff55debe8079331a2e32ea4a" prot="public" virt="pure-virtual"><scope>TranslatorAdapter_1_6_3</scope><name>trCompoundMembersDescriptionFortran</name></member>
+      <member refid="d8/dfb/class_translator_1aef130f6aef47d68ad82b30299a8f704f" prot="public" virt="pure-virtual"><scope>TranslatorAdapter_1_6_3</scope><name>trCompoundMembersFortran</name></member>
+      <member refid="d8/dfb/class_translator_1a3d5b3f4d7fa46a79728673f3b6dfd661" prot="public" virt="pure-virtual"><scope>TranslatorAdapter_1_6_3</scope><name>trCompoundReference</name></member>
+      <member refid="d8/dfb/class_translator_1abff334a66edc039b1e8257ab27739744" prot="public" virt="pure-virtual"><scope>TranslatorAdapter_1_6_3</scope><name>trCompoundReferenceFortran</name></member>
+      <member refid="d8/dfb/class_translator_1a8e2b65d58a4997060ee9f2feff75046b" prot="public" virt="pure-virtual"><scope>TranslatorAdapter_1_6_3</scope><name>trCompounds</name></member>
+      <member refid="de/d2f/class_translator_adapter__1__8__4_1a29436fe42b5d4019bccd69ea0f76df11" prot="public" virt="virtual"><scope>TranslatorAdapter_1_6_3</scope><name>trConstantGroupReference</name></member>
+      <member refid="de/d2f/class_translator_adapter__1__8__4_1aa07851abe1843c4c8530164a62924c18" prot="public" virt="virtual"><scope>TranslatorAdapter_1_6_3</scope><name>trConstantGroups</name></member>
+      <member refid="d8/dfb/class_translator_1af0bb3238975bac96f454f69e9b940538" prot="public" virt="pure-virtual"><scope>TranslatorAdapter_1_6_3</scope><name>trConstructorDocumentation</name></member>
+      <member refid="da/d24/class_translator_adapter__1__7__5_1ae43b0f966bbfa1ee7fafcc2bd4d22b22" prot="public" virt="virtual"><scope>TranslatorAdapter_1_6_3</scope><name>trCopyright</name></member>
+      <member refid="d8/dfb/class_translator_1a0a0157cfc45d1bc085438bf1d3cca3bb" prot="public" virt="pure-virtual"><scope>TranslatorAdapter_1_6_3</scope><name>trDataTypes</name></member>
+      <member refid="d8/dfb/class_translator_1aa1e4638e8942601483cf2ba078b86f05" prot="public" virt="pure-virtual"><scope>TranslatorAdapter_1_6_3</scope><name>trDate</name></member>
+      <member refid="d7/d29/class_translator_adapter__1__6__3_1a9a4db38fc5d4ddb87a9ac244fd6cef27" prot="public" virt="virtual"><scope>TranslatorAdapter_1_6_3</scope><name>trDateTime</name></member>
+      <member refid="d8/dfb/class_translator_1aa92f90f3f8d26e7250601439c2779af1" prot="public" virt="pure-virtual"><scope>TranslatorAdapter_1_6_3</scope><name>trDCOPMethods</name></member>
+      <member refid="d8/dfb/class_translator_1ade090183d43e3f6a3bcebf03a89ebdfd" prot="public" virt="pure-virtual"><scope>TranslatorAdapter_1_6_3</scope><name>trDefinedAtLineInSourceFile</name></member>
+      <member refid="d8/dfb/class_translator_1adcf22e25b6f53f1e98a5461fa6fd4615" prot="public" virt="pure-virtual"><scope>TranslatorAdapter_1_6_3</scope><name>trDefinedIn</name></member>
+      <member refid="d8/dfb/class_translator_1a7107b47ae388237e48ccf1fc4c3b3f77" prot="public" virt="pure-virtual"><scope>TranslatorAdapter_1_6_3</scope><name>trDefinedInSourceFile</name></member>
+      <member refid="d8/dfb/class_translator_1a931507210a6681017dbcfadedc0a30ce" prot="public" virt="pure-virtual"><scope>TranslatorAdapter_1_6_3</scope><name>trDefineDocumentation</name></member>
+      <member refid="d8/dfb/class_translator_1afe1d9b3dcd74bb8fb8c116c2c0e86e2e" prot="public" virt="pure-virtual"><scope>TranslatorAdapter_1_6_3</scope><name>trDefines</name></member>
+      <member refid="d8/dfb/class_translator_1a33b3a92d21ec58a5cba1043aefbd466b" prot="public" virt="pure-virtual"><scope>TranslatorAdapter_1_6_3</scope><name>trDefineValue</name></member>
+      <member refid="d8/dfb/class_translator_1aa03a2c19570b7e2ba76c4d7b70485cfc" prot="public" virt="pure-virtual"><scope>TranslatorAdapter_1_6_3</scope><name>trDeprecated</name></member>
+      <member refid="d8/dfb/class_translator_1a3da3ae447f82df17863e3ab80be0a8e9" prot="public" virt="pure-virtual"><scope>TranslatorAdapter_1_6_3</scope><name>trDeprecatedList</name></member>
+      <member refid="d2/d75/class_translator_adapter__1__8__2_1abf6858c813ca8ee242f266e22c227982" prot="public" virt="virtual"><scope>TranslatorAdapter_1_6_3</scope><name>trDesignOverview</name></member>
+      <member refid="d8/dfb/class_translator_1a6f0826040d05174e350c90920651bf45" prot="public" virt="pure-virtual"><scope>TranslatorAdapter_1_6_3</scope><name>trDetailedDescription</name></member>
+      <member refid="de/d49/class_translator_adapter__1__8__0_1a4da9c471e95968f4c6f67ce92e9d212c" prot="public" virt="virtual"><scope>TranslatorAdapter_1_6_3</scope><name>trDetailLevel</name></member>
+      <member refid="d8/dfb/class_translator_1a63ce770ac66730a13f1686202e0c5d46" prot="public" virt="pure-virtual"><scope>TranslatorAdapter_1_6_3</scope><name>trDir</name></member>
+      <member refid="d7/d29/class_translator_adapter__1__6__3_1a90eb8b795d5cc664b706b8cbbd48929c" prot="public" virt="virtual"><scope>TranslatorAdapter_1_6_3</scope><name>trDirDependency</name></member>
+      <member refid="da/d24/class_translator_adapter__1__7__5_1a3bf65b69eeddae154b563b0d7a373232" prot="public" virt="virtual"><scope>TranslatorAdapter_1_6_3</scope><name>trDirDepGraph</name></member>
+      <member refid="d8/dfb/class_translator_1a44999ecffbd6fbdcc19918b3230c6e40" prot="public" virt="pure-virtual"><scope>TranslatorAdapter_1_6_3</scope><name>trDirDescription</name></member>
+      <member refid="d8/dfb/class_translator_1ab3aee25a206ae53f6d4198b736a6b87d" prot="public" virt="pure-virtual"><scope>TranslatorAdapter_1_6_3</scope><name>trDirDocumentation</name></member>
+      <member refid="d8/dfb/class_translator_1a15ab2414971ee4ece3b2b59f7a4f67bf" prot="public" virt="pure-virtual"><scope>TranslatorAdapter_1_6_3</scope><name>trDirectories</name></member>
+      <member refid="d8/dfb/class_translator_1a11169ba583e072969866a1c2ab5adacb" prot="public" virt="pure-virtual"><scope>TranslatorAdapter_1_6_3</scope><name>trDirIndex</name></member>
+      <member refid="d8/dfb/class_translator_1ad137eb4290b99385fc32b4e5bdd72ada" prot="public" virt="pure-virtual"><scope>TranslatorAdapter_1_6_3</scope><name>trDirReference</name></member>
+      <member refid="d8/dfb/class_translator_1ab2feff71f21ed48a0b49f0e2f37ba695" prot="public" virt="pure-virtual"><scope>TranslatorAdapter_1_6_3</scope><name>trDirRelation</name></member>
+      <member refid="d8/dfb/class_translator_1a49c727268a64ce6b2989070c475d14be" prot="public" virt="pure-virtual"><scope>TranslatorAdapter_1_6_3</scope><name>trDocumentation</name></member>
+      <member refid="d8/dfb/class_translator_1aa64aafd8ba4afe93889cf3ca459eb862" prot="public" virt="pure-virtual"><scope>TranslatorAdapter_1_6_3</scope><name>trEnumerations</name></member>
+      <member refid="d8/dfb/class_translator_1a688c81619f410644c0fb5b3e7d96b4d6" prot="public" virt="pure-virtual"><scope>TranslatorAdapter_1_6_3</scope><name>trEnumerationTypeDocumentation</name></member>
+      <member refid="d8/dfb/class_translator_1aea7d68b2384a8a88eaa88638e1af2d51" prot="public" virt="pure-virtual"><scope>TranslatorAdapter_1_6_3</scope><name>trEnumerationValueDocumentation</name></member>
+      <member refid="d8/dfb/class_translator_1a61bb38a3a5fa42b9e1b1045a5151f092" prot="public" virt="pure-virtual"><scope>TranslatorAdapter_1_6_3</scope><name>trEnumerationValues</name></member>
+      <member refid="de/d49/class_translator_adapter__1__8__0_1af5e54cf6d212a780eaa83dc74cdf1a57" prot="public" virt="virtual"><scope>TranslatorAdapter_1_6_3</scope><name>trEnumGeneratedFromFiles</name></member>
+      <member refid="d8/dfb/class_translator_1abc6078e0cfddec33bfd37104629c8aa5" prot="public" virt="pure-virtual"><scope>TranslatorAdapter_1_6_3</scope><name>trEnumName</name></member>
+      <member refid="de/d49/class_translator_adapter__1__8__0_1a983c0f41b5a8fd4078045ef28a73ba7e" prot="public" virt="virtual"><scope>TranslatorAdapter_1_6_3</scope><name>trEnumReference</name></member>
+      <member refid="d8/dfb/class_translator_1ac967d215eaeada1586591ff86fcb27ee" prot="public" virt="pure-virtual"><scope>TranslatorAdapter_1_6_3</scope><name>trEnumValue</name></member>
+      <member refid="d8/dfb/class_translator_1a2c96efb89bc411ddbfe8250f9d0e2e24" prot="public" virt="pure-virtual"><scope>TranslatorAdapter_1_6_3</scope><name>trEventDocumentation</name></member>
+      <member refid="d8/dfb/class_translator_1ac9e66274bee002ddd496457b2f3dc266" prot="public" virt="pure-virtual"><scope>TranslatorAdapter_1_6_3</scope><name>trEvents</name></member>
+      <member refid="d8/dfb/class_translator_1a7829ffeeebcaaddb10372921956a2d6e" prot="public" virt="pure-virtual"><scope>TranslatorAdapter_1_6_3</scope><name>trExampleDocumentation</name></member>
+      <member refid="d8/dfb/class_translator_1ad0aac429d4bcd4489a41e395c5244976" prot="public" virt="pure-virtual"><scope>TranslatorAdapter_1_6_3</scope><name>trExamples</name></member>
+      <member refid="d8/dfb/class_translator_1a6f98d005e7b74f9d189abc30e3d48e6c" prot="public" virt="pure-virtual"><scope>TranslatorAdapter_1_6_3</scope><name>trExamplesDescription</name></member>
+      <member refid="d8/dfb/class_translator_1a638f0cdaaad952acdd6830c76ff740fc" prot="public" virt="pure-virtual"><scope>TranslatorAdapter_1_6_3</scope><name>trExceptions</name></member>
+      <member refid="d2/d75/class_translator_adapter__1__8__2_1a474edba60f61b2e307818381df8ec7ee" prot="public" virt="virtual"><scope>TranslatorAdapter_1_6_3</scope><name>trExtendsClass</name></member>
+      <member refid="d8/dfb/class_translator_1adcedc68246e92cc1e7e3c6e5a457acba" prot="public" virt="pure-virtual"><scope>TranslatorAdapter_1_6_3</scope><name>trFile</name></member>
+      <member refid="d8/dfb/class_translator_1a60511677ac6d642d9ad9226e6a225550" prot="public" virt="pure-virtual"><scope>TranslatorAdapter_1_6_3</scope><name>trFileDocumentation</name></member>
+      <member refid="d7/d29/class_translator_adapter__1__6__3_1a3645d77e245f76891d9926254208e840" prot="public" virt="virtual"><scope>TranslatorAdapter_1_6_3</scope><name>trFileIn</name></member>
+      <member refid="d8/dfb/class_translator_1a211fb54600da7fd1c98dc7b45e045f6b" prot="public" virt="pure-virtual"><scope>TranslatorAdapter_1_6_3</scope><name>trFileIndex</name></member>
+      <member refid="d8/dfb/class_translator_1ac461556d9c97028bde87745fdc97b3cb" prot="public" virt="pure-virtual"><scope>TranslatorAdapter_1_6_3</scope><name>trFileList</name></member>
+      <member refid="d8/dfb/class_translator_1a30b48fc385dd9707a52622ffebc4392e" prot="public" virt="pure-virtual"><scope>TranslatorAdapter_1_6_3</scope><name>trFileListDescription</name></member>
+      <member refid="d8/dfb/class_translator_1ab1ae470cc9c32e47bdebde8141940ffe" prot="public" virt="pure-virtual"><scope>TranslatorAdapter_1_6_3</scope><name>trFileMembers</name></member>
+      <member refid="d8/dfb/class_translator_1ace231b43d772f05ca59d0aa18cbdd51b" prot="public" virt="pure-virtual"><scope>TranslatorAdapter_1_6_3</scope><name>trFileMembersDescription</name></member>
+      <member refid="d8/dfb/class_translator_1a6f49523dd1d640f21a5cf6856b3654ac" prot="public" virt="pure-virtual"><scope>TranslatorAdapter_1_6_3</scope><name>trFileReference</name></member>
+      <member refid="d8/dfb/class_translator_1af3a9c3c5d0e47b4b9984b02dea4d6f63" prot="public" virt="pure-virtual"><scope>TranslatorAdapter_1_6_3</scope><name>trForInternalUseOnly</name></member>
+      <member refid="d8/dfb/class_translator_1ab046901f13c045c05588f7e45a3f806d" prot="public" virt="pure-virtual"><scope>TranslatorAdapter_1_6_3</scope><name>trFriends</name></member>
+      <member refid="d8/dfb/class_translator_1a88ae6cfb9d84d0045ec9811408e49e94" prot="public" virt="pure-virtual"><scope>TranslatorAdapter_1_6_3</scope><name>trFuncProtos</name></member>
+      <member refid="d8/dfb/class_translator_1a3733d3cbf05292e37f9c6503e92e30ff" prot="public" virt="pure-virtual"><scope>TranslatorAdapter_1_6_3</scope><name>trFunctionDocumentation</name></member>
+      <member refid="d8/dfb/class_translator_1ae77faaec9321fe2b332b764fa571374b" prot="public" virt="pure-virtual"><scope>TranslatorAdapter_1_6_3</scope><name>trFunctionPrototypeDocumentation</name></member>
+      <member refid="d8/dfb/class_translator_1a47b276e3a96dfc48a2466b16b04c1360" prot="public" virt="pure-virtual"><scope>TranslatorAdapter_1_6_3</scope><name>trFunctions</name></member>
+      <member refid="d8/dfb/class_translator_1a256d8f2585b2b29a785ea217568778d2" prot="public" virt="pure-virtual"><scope>TranslatorAdapter_1_6_3</scope><name>trGeneratedAt</name></member>
+      <member refid="d8/dfb/class_translator_1a9ab5205d45ae0dd1f71236f54560c21b" prot="public" virt="pure-virtual"><scope>TranslatorAdapter_1_6_3</scope><name>trGeneratedAutomatically</name></member>
+      <member refid="d8/dfb/class_translator_1a8ba96cf4ebea87a6706e8544661cb0c9" prot="public" virt="pure-virtual"><scope>TranslatorAdapter_1_6_3</scope><name>trGeneratedBy</name></member>
+      <member refid="d8/dfb/class_translator_1ab6cb87a7a16f256661ea6e7e08d333cb" prot="public" virt="pure-virtual"><scope>TranslatorAdapter_1_6_3</scope><name>trGeneratedFromFiles</name></member>
+      <member refid="d8/dfb/class_translator_1a58bd3fc18bce920201e873ed4338e9a7" prot="public" virt="pure-virtual"><scope>TranslatorAdapter_1_6_3</scope><name>trGeneratedFromFilesFortran</name></member>
+      <member refid="d8/dfb/class_translator_1a5a2679653633e7b81db3158b90216704" prot="public" virt="pure-virtual"><scope>TranslatorAdapter_1_6_3</scope><name>trGlobal</name></member>
+      <member refid="d8/dfb/class_translator_1aa8d8adf1538babeb7e637ef4dba5549c" prot="public" virt="pure-virtual"><scope>TranslatorAdapter_1_6_3</scope><name>trGlobalNamespace</name></member>
+      <member refid="d8/dfb/class_translator_1ad513407b6d899db23bf73ae8c05a2c3a" prot="public" virt="pure-virtual"><scope>TranslatorAdapter_1_6_3</scope><name>trGotoDocumentation</name></member>
+      <member refid="d8/dfb/class_translator_1a28654b6dd890c89f1df2a6ff11f65976" prot="public" virt="pure-virtual"><scope>TranslatorAdapter_1_6_3</scope><name>trGotoGraphicalHierarchy</name></member>
+      <member refid="d8/dfb/class_translator_1a32f89b2666555fc695a9f06f8d808570" prot="public" virt="pure-virtual"><scope>TranslatorAdapter_1_6_3</scope><name>trGotoSourceCode</name></member>
+      <member refid="d8/dfb/class_translator_1ab8e328e4648c861e894f7c7348e2a9cf" prot="public" virt="pure-virtual"><scope>TranslatorAdapter_1_6_3</scope><name>trGotoTextualHierarchy</name></member>
+      <member refid="d8/dfb/class_translator_1a365fa800907a883b1659566f420ee4ee" prot="public" virt="pure-virtual"><scope>TranslatorAdapter_1_6_3</scope><name>trGraphicalHierarchy</name></member>
+      <member refid="d8/dfb/class_translator_1a3e440062dda08d55c8f9f99d572f6af0" prot="public" virt="pure-virtual"><scope>TranslatorAdapter_1_6_3</scope><name>trGroup</name></member>
+      <member refid="d8/dfb/class_translator_1a2bd618847b3b5a486bc777240d791c5f" prot="public" virt="pure-virtual"><scope>TranslatorAdapter_1_6_3</scope><name>trHierarchicalIndex</name></member>
+      <member refid="d8/dfb/class_translator_1af6f635d2008014eab980bc9aa8544606" prot="public" virt="pure-virtual"><scope>TranslatorAdapter_1_6_3</scope><name>trImplementedFromList</name></member>
+      <member refid="d8/dfb/class_translator_1a7d211e806e62d4203fa532b4735be716" prot="public" virt="pure-virtual"><scope>TranslatorAdapter_1_6_3</scope><name>trImplementedInList</name></member>
+      <member refid="d8/dfb/class_translator_1a2331edf6365c5c71d9317e5b5bc4da8c" prot="public" virt="pure-virtual"><scope>TranslatorAdapter_1_6_3</scope><name>trInclByDepGraph</name></member>
+      <member refid="d8/dfb/class_translator_1aa48bba9e5bb9b903cbf8cbd3bf26be00" prot="public" virt="pure-virtual"><scope>TranslatorAdapter_1_6_3</scope><name>trInclDepGraph</name></member>
+      <member refid="d7/d29/class_translator_adapter__1__6__3_1a3f0eecc876597e903d6dd557a72e598f" prot="public" virt="virtual"><scope>TranslatorAdapter_1_6_3</scope><name>trIncludesFileIn</name></member>
+      <member refid="d8/dfb/class_translator_1a158a1104617de4cdbe589d2c2f678cb1" prot="public" virt="pure-virtual"><scope>TranslatorAdapter_1_6_3</scope><name>trIncludingInheritedMembers</name></member>
+      <member refid="d8/dfb/class_translator_1ac285a2e20bd3f084e02fbcc43c3e0caa" prot="public" virt="pure-virtual"><scope>TranslatorAdapter_1_6_3</scope><name>trInheritedByList</name></member>
+      <member refid="de/d49/class_translator_adapter__1__8__0_1a932515e9726f48018b93f49bfd2dba6a" prot="public" virt="virtual"><scope>TranslatorAdapter_1_6_3</scope><name>trInheritedFrom</name></member>
+      <member refid="d8/dfb/class_translator_1a837ce455893cb96869ab2cd7c049b729" prot="public" virt="pure-virtual"><scope>TranslatorAdapter_1_6_3</scope><name>trInheritsList</name></member>
+      <member refid="d8/dfb/class_translator_1a79f4a5405cc412a027d7d35dd9b3d2d9" prot="public" virt="pure-virtual"><scope>TranslatorAdapter_1_6_3</scope><name>trInitialValue</name></member>
+      <member refid="d2/d75/class_translator_adapter__1__8__2_1a45cb32f3ae6bfd259801e40d8b2467b5" prot="public" virt="virtual"><scope>TranslatorAdapter_1_6_3</scope><name>trInstanceMethods</name></member>
+      <member refid="de/d2f/class_translator_adapter__1__8__4_1a9bed6b9e7675c823022339b518421a66" prot="public" virt="virtual"><scope>TranslatorAdapter_1_6_3</scope><name>trInterfaces</name></member>
+      <member refid="d8/dfb/class_translator_1af9a644c79e6da8b784bb0fe03a37fb15" prot="public" virt="pure-virtual"><scope>TranslatorAdapter_1_6_3</scope><name>trInvariant</name></member>
+      <member refid="d8/dfb/class_translator_1a976b00badc594fa4d38ac4a9ab527a17" prot="public" virt="pure-virtual"><scope>TranslatorAdapter_1_6_3</scope><name>trLegend</name></member>
+      <member refid="d8/dfb/class_translator_1a897f4914e877c88c5970c71099d22fdb" prot="public" virt="pure-virtual"><scope>TranslatorAdapter_1_6_3</scope><name>trLegendDocs</name></member>
+      <member refid="d8/dfb/class_translator_1add6f65cea99a2aaffd476604277bda13" prot="public" virt="pure-virtual"><scope>TranslatorAdapter_1_6_3</scope><name>trLegendTitle</name></member>
+      <member refid="d8/dfb/class_translator_1ade3aeeb9d926bef235edea112a4aae3e" prot="public" virt="pure-virtual"><scope>TranslatorAdapter_1_6_3</scope><name>trListOfAllMembers</name></member>
+      <member refid="d8/dfb/class_translator_1a44cd9d9f06489e63609a980c7218e20c" prot="public" virt="pure-virtual"><scope>TranslatorAdapter_1_6_3</scope><name>trLoading</name></member>
+      <member refid="d8/dfb/class_translator_1ae315af2d9a5d19fb5df34e76c5b0a182" prot="public" virt="pure-virtual"><scope>TranslatorAdapter_1_6_3</scope><name>trMainPage</name></member>
+      <member refid="d8/dfb/class_translator_1aa8a315987247035ab2aed48303716535" prot="public" virt="pure-virtual"><scope>TranslatorAdapter_1_6_3</scope><name>trMember</name></member>
+      <member refid="d8/dfb/class_translator_1a7951a0dfe5173b444a0bf464148c5961" prot="public" virt="pure-virtual"><scope>TranslatorAdapter_1_6_3</scope><name>trMemberDataDocumentation</name></member>
+      <member refid="d8/dfb/class_translator_1aa327ece6b24bc5201a45a9fdee813556" prot="public" virt="pure-virtual"><scope>TranslatorAdapter_1_6_3</scope><name>trMemberEnumerationDocumentation</name></member>
+      <member refid="d8/dfb/class_translator_1aaf453b274c90d92010dd4673e3cdae93" prot="public" virt="pure-virtual"><scope>TranslatorAdapter_1_6_3</scope><name>trMemberFunctionDocumentation</name></member>
+      <member refid="d8/dfb/class_translator_1a0b6cc2ce49b7b1587e958fd537bf2f22" prot="public" virt="pure-virtual"><scope>TranslatorAdapter_1_6_3</scope><name>trMemberFunctionDocumentationFortran</name></member>
+      <member refid="d8/dfb/class_translator_1a00110754c6a4bf3250db05aeec9ce441" prot="public" virt="pure-virtual"><scope>TranslatorAdapter_1_6_3</scope><name>trMemberList</name></member>
+      <member refid="d8/dfb/class_translator_1a381da0ae49e0801e0699b0e10b448d0b" prot="public" virt="pure-virtual"><scope>TranslatorAdapter_1_6_3</scope><name>trMemberTypedefDocumentation</name></member>
+      <member refid="d2/d75/class_translator_adapter__1__8__2_1ac36ebe637cb13898158be0b683485e9c" prot="public" virt="virtual"><scope>TranslatorAdapter_1_6_3</scope><name>trMethodDocumentation</name></member>
+      <member refid="d8/dfb/class_translator_1aacb52f5a80d2ad3e47b983a8d34c4371" prot="public" virt="pure-virtual"><scope>TranslatorAdapter_1_6_3</scope><name>trModule</name></member>
+      <member refid="d8/dfb/class_translator_1a8af0b797724f6454dd670173ecdea786" prot="public" virt="pure-virtual"><scope>TranslatorAdapter_1_6_3</scope><name>trModuleDocumentation</name></member>
+      <member refid="d8/dfb/class_translator_1a1528b760ac55c716b31a5bfeb0fce464" prot="public" virt="pure-virtual"><scope>TranslatorAdapter_1_6_3</scope><name>trModuleIndex</name></member>
+      <member refid="d8/dfb/class_translator_1a112174f615836178aec4c9dcb29469be" prot="public" virt="pure-virtual"><scope>TranslatorAdapter_1_6_3</scope><name>trModuleReference</name></member>
+      <member refid="d8/dfb/class_translator_1a30ab06b4873f2a1147790b1f19070daa" prot="public" virt="pure-virtual"><scope>TranslatorAdapter_1_6_3</scope><name>trModules</name></member>
+      <member refid="d8/dfb/class_translator_1a36c9337d60e94df29e4c7769910e0272" prot="public" virt="pure-virtual"><scope>TranslatorAdapter_1_6_3</scope><name>trModulesDescription</name></member>
+      <member refid="d8/dfb/class_translator_1aaa71718cc9cdcceea109f72ab6c23b44" prot="public" virt="pure-virtual"><scope>TranslatorAdapter_1_6_3</scope><name>trModulesIndex</name></member>
+      <member refid="d8/dfb/class_translator_1a307b9ec047c97330b93adcdebb43a548" prot="public" virt="pure-virtual"><scope>TranslatorAdapter_1_6_3</scope><name>trModulesList</name></member>
+      <member refid="d8/dfb/class_translator_1a5273ea86727c6460eae628782d416669" prot="public" virt="pure-virtual"><scope>TranslatorAdapter_1_6_3</scope><name>trModulesListDescription</name></member>
+      <member refid="d8/dfb/class_translator_1a7702dae5014c8f51767c12eb540d34e0" prot="public" virt="pure-virtual"><scope>TranslatorAdapter_1_6_3</scope><name>trModulesMemberDescription</name></member>
+      <member refid="d8/dfb/class_translator_1a73e62152bb05ffe75997806daf5e0b8d" prot="public" virt="pure-virtual"><scope>TranslatorAdapter_1_6_3</scope><name>trModulesMembers</name></member>
+      <member refid="d8/dfb/class_translator_1a739f39ac982745ec61d60bb8ed57bd6d" prot="public" virt="pure-virtual"><scope>TranslatorAdapter_1_6_3</scope><name>trMore</name></member>
+      <member refid="d8/dfb/class_translator_1a4a3ca0198450342adb8599f00531a881" prot="public" virt="pure-virtual"><scope>TranslatorAdapter_1_6_3</scope><name>trNamespace</name></member>
+      <member refid="d8/dfb/class_translator_1a0760fb42dec2f5417768814ed628a26a" prot="public" virt="pure-virtual"><scope>TranslatorAdapter_1_6_3</scope><name>trNamespaceDocumentation</name></member>
+      <member refid="d8/dfb/class_translator_1a283f3fe348325ea95b6d65add32af790" prot="public" virt="pure-virtual"><scope>TranslatorAdapter_1_6_3</scope><name>trNamespaceIndex</name></member>
+      <member refid="d8/dfb/class_translator_1aa204b3cebbb1807093fb76afca1e41e1" prot="public" virt="pure-virtual"><scope>TranslatorAdapter_1_6_3</scope><name>trNamespaceList</name></member>
+      <member refid="d8/dfb/class_translator_1ab47254ac74585b9a1f5aa51a689d2058" prot="public" virt="pure-virtual"><scope>TranslatorAdapter_1_6_3</scope><name>trNamespaceListDescription</name></member>
+      <member refid="d8/dfb/class_translator_1acfb4ee07ff2d845063e70216569fad6c" prot="public" virt="pure-virtual"><scope>TranslatorAdapter_1_6_3</scope><name>trNamespaceMemberDescription</name></member>
+      <member refid="d8/dfb/class_translator_1ad4395d9d41cc9ab23624034e328401b5" prot="public" virt="pure-virtual"><scope>TranslatorAdapter_1_6_3</scope><name>trNamespaceMembers</name></member>
+      <member refid="d8/dfb/class_translator_1a432360b0228e223d75384f797db6abec" prot="public" virt="pure-virtual"><scope>TranslatorAdapter_1_6_3</scope><name>trNamespaceReference</name></member>
+      <member refid="d8/dfb/class_translator_1aeb0ea0117f3c89b8d35780b8d5aa3640" prot="public" virt="pure-virtual"><scope>TranslatorAdapter_1_6_3</scope><name>trNamespaces</name></member>
+      <member refid="d8/dfb/class_translator_1a7c29a8b20c38ea5a2195bef0864bd21f" prot="public" virt="pure-virtual"><scope>TranslatorAdapter_1_6_3</scope><name>trNoMatches</name></member>
+      <member refid="d8/dfb/class_translator_1a9172f5a9cd750add7d839c184e349cd2" prot="public" virt="pure-virtual"><scope>TranslatorAdapter_1_6_3</scope><name>trNote</name></member>
+      <member refid="d8/dfb/class_translator_1af933c719d65181b1cb11a7d07db37a09" prot="public" virt="pure-virtual"><scope>TranslatorAdapter_1_6_3</scope><name>trOverloadText</name></member>
+      <member refid="d8/dfb/class_translator_1abed3ef8029bcccbd9eebdb4f2d04782d" prot="public" virt="pure-virtual"><scope>TranslatorAdapter_1_6_3</scope><name>trPackage</name></member>
+      <member refid="d8/dfb/class_translator_1ac65b5c2a08b0b0df895d762ee1b90493" prot="public" virt="pure-virtual"><scope>TranslatorAdapter_1_6_3</scope><name>trPackageAttribs</name></member>
+      <member refid="d8/dfb/class_translator_1afaaad2ae5bf1e542b484d7cd58ed9141" prot="public" virt="pure-virtual"><scope>TranslatorAdapter_1_6_3</scope><name>trPackageList</name></member>
+      <member refid="d8/dfb/class_translator_1a0d426f7f05e8f1ce512709d7dc24a302" prot="public" virt="pure-virtual"><scope>TranslatorAdapter_1_6_3</scope><name>trPackageListDescription</name></member>
+      <member refid="d8/dfb/class_translator_1a55faa09f74a1f8abfcda6c3cfe444d3a" prot="public" virt="pure-virtual"><scope>TranslatorAdapter_1_6_3</scope><name>trPackageMembers</name></member>
+      <member refid="d8/dfb/class_translator_1a5d327e7906daeed24aa27d26f2a7c98a" prot="public" virt="pure-virtual"><scope>TranslatorAdapter_1_6_3</scope><name>trPackages</name></member>
+      <member refid="d8/dfb/class_translator_1ad3328af2789b15e01a5050ffc7851d47" prot="public" virt="pure-virtual"><scope>TranslatorAdapter_1_6_3</scope><name>trPackageTypes</name></member>
+      <member refid="d8/dfb/class_translator_1a6cf8494079dacb3504df0b71f1bd62f8" prot="public" virt="pure-virtual"><scope>TranslatorAdapter_1_6_3</scope><name>trPage</name></member>
+      <member refid="d8/dfb/class_translator_1a800bf5724b6cff1053d43470090e2963" prot="public" virt="pure-virtual"><scope>TranslatorAdapter_1_6_3</scope><name>trPageAbbreviation</name></member>
+      <member refid="d8/dfb/class_translator_1a11de24b3e8a375ee2e6fe7cf0ecb950c" prot="public" virt="pure-virtual"><scope>TranslatorAdapter_1_6_3</scope><name>trPageDocumentation</name></member>
+      <member refid="d8/dfb/class_translator_1a5e4d73ddc4d881e32b687dfcc29a8118" prot="public" virt="pure-virtual"><scope>TranslatorAdapter_1_6_3</scope><name>trPageIndex</name></member>
+      <member refid="d2/d75/class_translator_adapter__1__8__2_1a13608bc1163641d721587d398924f09a" prot="public" virt="virtual"><scope>TranslatorAdapter_1_6_3</scope><name>trPanelSynchronisationTooltip</name></member>
+      <member refid="d8/dfb/class_translator_1aab8ec7804a21da51d6e6447d5dd19aea" prot="public" virt="pure-virtual"><scope>TranslatorAdapter_1_6_3</scope><name>trParameters</name></member>
+      <member refid="d8/dfb/class_translator_1a970c167e640eff619d4202266c4cb0ce" prot="public" virt="pure-virtual"><scope>TranslatorAdapter_1_6_3</scope><name>trPostcondition</name></member>
+      <member refid="d8/dfb/class_translator_1a1908a5ec684a3fb38fdfc50346d18530" prot="public" virt="pure-virtual"><scope>TranslatorAdapter_1_6_3</scope><name>trPrecondition</name></member>
+      <member refid="d8/dfb/class_translator_1a677cff738d86652a45f63b464f31dc81" prot="public" virt="pure-virtual"><scope>TranslatorAdapter_1_6_3</scope><name>trPrivateAttribs</name></member>
+      <member refid="d8/dfb/class_translator_1a1567e42b2461ef41cd5baa346ee0aee2" prot="public" virt="pure-virtual"><scope>TranslatorAdapter_1_6_3</scope><name>trPrivateMembers</name></member>
+      <member refid="d8/dfb/class_translator_1a1db1cd6e798b4dfadcdb3b11e6623632" prot="public" virt="pure-virtual"><scope>TranslatorAdapter_1_6_3</scope><name>trPrivateSlots</name></member>
+      <member refid="d8/dfb/class_translator_1a087da7af77da7427f9a20936e3413947" prot="public" virt="pure-virtual"><scope>TranslatorAdapter_1_6_3</scope><name>trPrivateTypes</name></member>
+      <member refid="d8/dfb/class_translator_1af77d1512b4b3c84c0e37492d0c9fa249" prot="public" virt="pure-virtual"><scope>TranslatorAdapter_1_6_3</scope><name>trProperties</name></member>
+      <member refid="d8/dfb/class_translator_1a238509e37848af806a976776bc8af8cb" prot="public" virt="pure-virtual"><scope>TranslatorAdapter_1_6_3</scope><name>trPropertyDocumentation</name></member>
+      <member refid="d8/dfb/class_translator_1a6674f1658eea9aa3280b115d767e1441" prot="public" virt="pure-virtual"><scope>TranslatorAdapter_1_6_3</scope><name>trProtectedAttribs</name></member>
+      <member refid="d8/dfb/class_translator_1a46439037035e4dc2cec3de8477c90b73" prot="public" virt="pure-virtual"><scope>TranslatorAdapter_1_6_3</scope><name>trProtectedMembers</name></member>
+      <member refid="d8/dfb/class_translator_1a5259c79b898160c0c23b17b9dccb785a" prot="public" virt="pure-virtual"><scope>TranslatorAdapter_1_6_3</scope><name>trProtectedSlots</name></member>
+      <member refid="d8/dfb/class_translator_1aa83fb42d457d2ccea5284e22e24f1856" prot="public" virt="pure-virtual"><scope>TranslatorAdapter_1_6_3</scope><name>trProtectedTypes</name></member>
+      <member refid="d2/d75/class_translator_adapter__1__8__2_1a0a1548862a686357d6c6efc96aa1c89f" prot="public" virt="virtual"><scope>TranslatorAdapter_1_6_3</scope><name>trProvidedByCategory</name></member>
+      <member refid="d8/dfb/class_translator_1ad9680f03e2a6c433ef003cb2cae62113" prot="public" virt="pure-virtual"><scope>TranslatorAdapter_1_6_3</scope><name>trPublicAttribs</name></member>
+      <member refid="d8/dfb/class_translator_1a4b4790665d064a1848772cf91ca8d022" prot="public" virt="pure-virtual"><scope>TranslatorAdapter_1_6_3</scope><name>trPublicMembers</name></member>
+      <member refid="d8/dfb/class_translator_1a636e0e1cc32864447d2445935842a5ee" prot="public" virt="pure-virtual"><scope>TranslatorAdapter_1_6_3</scope><name>trPublicSlots</name></member>
+      <member refid="d8/dfb/class_translator_1a5a9f4647349c2f0b239b98e174bf1a3a" prot="public" virt="pure-virtual"><scope>TranslatorAdapter_1_6_3</scope><name>trPublicTypes</name></member>
+      <member refid="d8/dfb/class_translator_1a56b84cff6c76c108b33a8a1bc95a826c" prot="public" virt="pure-virtual"><scope>TranslatorAdapter_1_6_3</scope><name>trReferencedBy</name></member>
+      <member refid="d8/dfb/class_translator_1af35d27f8e080e06312ae9a70edcaaeaf" prot="public" virt="pure-virtual"><scope>TranslatorAdapter_1_6_3</scope><name>trReferenceManual</name></member>
+      <member refid="d8/dfb/class_translator_1a9c8edf9885d809f859f7c91d847d2f67" prot="public" virt="pure-virtual"><scope>TranslatorAdapter_1_6_3</scope><name>trReferences</name></member>
+      <member refid="d8/dfb/class_translator_1ab4194f85d265659e3b0a962e3d2050f7" prot="public" virt="pure-virtual"><scope>TranslatorAdapter_1_6_3</scope><name>trReimplementedFromList</name></member>
+      <member refid="d8/dfb/class_translator_1a4c9b9e653e7d5b65307b2fd68c3c1dfb" prot="public" virt="pure-virtual"><scope>TranslatorAdapter_1_6_3</scope><name>trReimplementedInList</name></member>
+      <member refid="d8/dfb/class_translator_1aec367f7f7b16943d6bb41572a728d064" prot="public" virt="pure-virtual"><scope>TranslatorAdapter_1_6_3</scope><name>trRelatedFunctionDocumentation</name></member>
+      <member refid="d8/dfb/class_translator_1af90d4efa4402e01bd8212af18b6a2c05" prot="public" virt="pure-virtual"><scope>TranslatorAdapter_1_6_3</scope><name>trRelatedFunctions</name></member>
+      <member refid="d8/dfb/class_translator_1a9211862fab0f3438ac948b60175c3a8f" prot="public" virt="pure-virtual"><scope>TranslatorAdapter_1_6_3</scope><name>trRelatedPages</name></member>
+      <member refid="d8/dfb/class_translator_1a69514c5a8d25925e7cd60245ca5e8e73" prot="public" virt="pure-virtual"><scope>TranslatorAdapter_1_6_3</scope><name>trRelatedPagesDescription</name></member>
+      <member refid="d8/dfb/class_translator_1a766626cb6f268088fec86e9d3c20b2f3" prot="public" virt="pure-virtual"><scope>TranslatorAdapter_1_6_3</scope><name>trRelatedSubscript</name></member>
+      <member refid="d8/dfb/class_translator_1a7e3a80bdd1f03467f8a5e3fa21614a84" prot="public" virt="pure-virtual"><scope>TranslatorAdapter_1_6_3</scope><name>trRemarks</name></member>
+      <member refid="d8/dfb/class_translator_1a6085a6938ea5edb5b1a61874983260e5" prot="public" virt="pure-virtual"><scope>TranslatorAdapter_1_6_3</scope><name>trReturns</name></member>
+      <member refid="d8/dfb/class_translator_1af3f57cf1b57db46a8958688c4945daad" prot="public" virt="pure-virtual"><scope>TranslatorAdapter_1_6_3</scope><name>trReturnValues</name></member>
+      <member refid="d8/dfb/class_translator_1a9953a4c0e6a4fc7d017abcd5c2939e0f" prot="public" virt="pure-virtual"><scope>TranslatorAdapter_1_6_3</scope><name>trRTFansicp</name></member>
+      <member refid="d8/dfb/class_translator_1afad391f3cbfb5ce6332b7239f8e2049a" prot="public" virt="pure-virtual"><scope>TranslatorAdapter_1_6_3</scope><name>trRTFCharSet</name></member>
+      <member refid="d8/dfb/class_translator_1a023a76a06189f153d11dc150c664fbd8" prot="public" virt="pure-virtual"><scope>TranslatorAdapter_1_6_3</scope><name>trRTFGeneralIndex</name></member>
+      <member refid="d8/dfb/class_translator_1a68212eef7295b4a261cd05b88f00aa8b" prot="public" virt="pure-virtual"><scope>TranslatorAdapter_1_6_3</scope><name>trRTFTableOfContents</name></member>
+      <member refid="d8/dfb/class_translator_1a2069e8807c39f57f4e665367d3e214d0" prot="public" virt="pure-virtual"><scope>TranslatorAdapter_1_6_3</scope><name>trSearch</name></member>
+      <member refid="d8/dfb/class_translator_1afe7b078664cd149d3a8f416564012bfc" prot="public" virt="pure-virtual"><scope>TranslatorAdapter_1_6_3</scope><name>trSearchForIndex</name></member>
+      <member refid="d8/dfb/class_translator_1a679d91793083e8bda60dbf346aad2623" prot="public" virt="pure-virtual"><scope>TranslatorAdapter_1_6_3</scope><name>trSearching</name></member>
+      <member refid="d8/dfb/class_translator_1a144382f5d8b61298e894387a7938559e" prot="public" virt="pure-virtual"><scope>TranslatorAdapter_1_6_3</scope><name>trSearchMatches</name></member>
+      <member refid="d8/dfb/class_translator_1aac55ca755f3f6bffc8baf2162bea7771" prot="public" virt="pure-virtual"><scope>TranslatorAdapter_1_6_3</scope><name>trSearchResults</name></member>
+      <member refid="d8/dfb/class_translator_1a39e01cdc61885a896f0ca9fbf700987d" prot="public" virt="pure-virtual"><scope>TranslatorAdapter_1_6_3</scope><name>trSearchResultsTitle</name></member>
+      <member refid="d8/dfb/class_translator_1ad1f5dba74deba99cafcf97a3df60164e" prot="public" virt="pure-virtual"><scope>TranslatorAdapter_1_6_3</scope><name>trSeeAlso</name></member>
+      <member refid="de/d2f/class_translator_adapter__1__8__4_1a5b2a344738143665e24d41da7a32a4d8" prot="public" virt="virtual"><scope>TranslatorAdapter_1_6_3</scope><name>trServiceGeneratedFromFiles</name></member>
+      <member refid="de/d2f/class_translator_adapter__1__8__4_1a7c2596ce1d0872da3e22cb33ec32a57c" prot="public" virt="virtual"><scope>TranslatorAdapter_1_6_3</scope><name>trServiceReference</name></member>
+      <member refid="de/d2f/class_translator_adapter__1__8__4_1a8fb11db78b8f48b000a8f59f2d371b88" prot="public" virt="virtual"><scope>TranslatorAdapter_1_6_3</scope><name>trServices</name></member>
+      <member refid="d8/dfb/class_translator_1a970ddc9df41ebdd40d97719faa7190d9" prot="public" virt="pure-virtual"><scope>TranslatorAdapter_1_6_3</scope><name>trSignals</name></member>
+      <member refid="d8/dfb/class_translator_1a416b08f410f1cd41ba1e5bc286b467d6" prot="public" virt="pure-virtual"><scope>TranslatorAdapter_1_6_3</scope><name>trSince</name></member>
+      <member refid="de/d2f/class_translator_adapter__1__8__4_1a97a9aea944d6ef3b39c40bd01a62fdbc" prot="public" virt="virtual"><scope>TranslatorAdapter_1_6_3</scope><name>trSingletonGeneratedFromFiles</name></member>
+      <member refid="de/d2f/class_translator_adapter__1__8__4_1a916e58d54ae15e3d99b134e1d45e2db3" prot="public" virt="virtual"><scope>TranslatorAdapter_1_6_3</scope><name>trSingletonReference</name></member>
+      <member refid="d8/dfb/class_translator_1a25a12bd37f32c6ff636cd7d227175a5a" prot="public" virt="pure-virtual"><scope>TranslatorAdapter_1_6_3</scope><name>trSourceFile</name></member>
+      <member refid="d8/dfb/class_translator_1a186a1a9583c01752d452af26fd28d2b0" prot="public" virt="pure-virtual"><scope>TranslatorAdapter_1_6_3</scope><name>trStaticPackageAttribs</name></member>
+      <member refid="d8/dfb/class_translator_1a697b586bce78781017d735e7988c6e4d" prot="public" virt="pure-virtual"><scope>TranslatorAdapter_1_6_3</scope><name>trStaticPackageMembers</name></member>
+      <member refid="d8/dfb/class_translator_1a01eab1086b6ee5c5162ff14bb49310d9" prot="public" virt="pure-virtual"><scope>TranslatorAdapter_1_6_3</scope><name>trStaticPrivateAttribs</name></member>
+      <member refid="d8/dfb/class_translator_1a6328b8e557a9f3d364f1eff1ae2854d1" prot="public" virt="pure-virtual"><scope>TranslatorAdapter_1_6_3</scope><name>trStaticPrivateMembers</name></member>
+      <member refid="d8/dfb/class_translator_1a1ea34ab09695b03d15c7e080c9508be4" prot="public" virt="pure-virtual"><scope>TranslatorAdapter_1_6_3</scope><name>trStaticProtectedAttribs</name></member>
+      <member refid="d8/dfb/class_translator_1a9996790ddc011f76b9305fdee0d54534" prot="public" virt="pure-virtual"><scope>TranslatorAdapter_1_6_3</scope><name>trStaticProtectedMembers</name></member>
+      <member refid="d8/dfb/class_translator_1af21395ae106dc7613c68e5e2ea523445" prot="public" virt="pure-virtual"><scope>TranslatorAdapter_1_6_3</scope><name>trStaticPublicAttribs</name></member>
+      <member refid="d8/dfb/class_translator_1ae7017c5aa5b5356a852c29fc6db86128" prot="public" virt="pure-virtual"><scope>TranslatorAdapter_1_6_3</scope><name>trStaticPublicMembers</name></member>
+      <member refid="d8/dfb/class_translator_1a8afff623bf7e3a0e950ed28df4abd482" prot="public" virt="pure-virtual"><scope>TranslatorAdapter_1_6_3</scope><name>trSubprogram</name></member>
+      <member refid="d8/dfb/class_translator_1a66fabf8785f82dbb59804f67dc4aae84" prot="public" virt="pure-virtual"><scope>TranslatorAdapter_1_6_3</scope><name>trSubprogramDocumentation</name></member>
+      <member refid="d8/dfb/class_translator_1ad8bee4c72ece7c603742a06d2e097bb2" prot="public" virt="pure-virtual"><scope>TranslatorAdapter_1_6_3</scope><name>trSubprograms</name></member>
+      <member refid="de/d49/class_translator_adapter__1__8__0_1a2614ce073bd4d9a8b809b76f583e7418" prot="public" virt="virtual"><scope>TranslatorAdapter_1_6_3</scope><name>trTemplateParameters</name></member>
+      <member refid="d8/dfb/class_translator_1a092d95033a0447968f3c536b42e29dc5" prot="public" virt="pure-virtual"><scope>TranslatorAdapter_1_6_3</scope><name>trTest</name></member>
+      <member refid="d8/dfb/class_translator_1ad29041fc573a780089d35d5b61533567" prot="public" virt="pure-virtual"><scope>TranslatorAdapter_1_6_3</scope><name>trTestList</name></member>
+      <member refid="d8/dfb/class_translator_1a7d3db35076be3c4855bd784f02948583" prot="public" virt="pure-virtual"><scope>TranslatorAdapter_1_6_3</scope><name>trThisIsTheListOfAllMembers</name></member>
+      <member refid="d8/dfb/class_translator_1a681cf622bc34bd65a3505fbf4cdcec07" prot="public" virt="pure-virtual"><scope>TranslatorAdapter_1_6_3</scope><name>trTodo</name></member>
+      <member refid="d8/dfb/class_translator_1aee6d584921e7851c57e016cb0c64c01b" prot="public" virt="pure-virtual"><scope>TranslatorAdapter_1_6_3</scope><name>trTodoList</name></member>
+      <member refid="d8/dfb/class_translator_1a1fb2258a8a0fed41d8efec2ab2c88dce" prot="public" virt="pure-virtual"><scope>TranslatorAdapter_1_6_3</scope><name>trType</name></member>
+      <member refid="d8/dfb/class_translator_1a3695f44e92e6478f7a4f0aabf7cf37ad" prot="public" virt="pure-virtual"><scope>TranslatorAdapter_1_6_3</scope><name>trTypeConstraints</name></member>
+      <member refid="d8/dfb/class_translator_1a74a96db24fcfdcaea9988b7ffff60271" prot="public" virt="pure-virtual"><scope>TranslatorAdapter_1_6_3</scope><name>trTypedefDocumentation</name></member>
+      <member refid="d8/dfb/class_translator_1afcd2ee932660156f0d368863391e1c90" prot="public" virt="pure-virtual"><scope>TranslatorAdapter_1_6_3</scope><name>trTypedefs</name></member>
+      <member refid="d8/dfb/class_translator_1a96a7cdf0b35d6c092875b364bac5f2cf" prot="public" virt="pure-virtual"><scope>TranslatorAdapter_1_6_3</scope><name>trTypeDocumentation</name></member>
+      <member refid="d8/dfb/class_translator_1a637b04555eedd43402fe240760f302ea" prot="public" virt="pure-virtual"><scope>TranslatorAdapter_1_6_3</scope><name>trVariableDocumentation</name></member>
+      <member refid="d8/dfb/class_translator_1a436fe2e6f0ba8c4cdb544dd72a6e72a2" prot="public" virt="pure-virtual"><scope>TranslatorAdapter_1_6_3</scope><name>trVariables</name></member>
+      <member refid="d8/dfb/class_translator_1a5969dae9422940f4675aa18304b16087" prot="public" virt="pure-virtual"><scope>TranslatorAdapter_1_6_3</scope><name>trVersion</name></member>
+      <member refid="d8/dfb/class_translator_1ad00b8ff1d576631ed24b1aaf81f21b82" prot="public" virt="pure-virtual"><scope>TranslatorAdapter_1_6_3</scope><name>trWarning</name></member>
+      <member refid="d8/dfb/class_translator_1a31e719b4e290a359ddbb78132bf3f494" prot="public" virt="pure-virtual"><scope>TranslatorAdapter_1_6_3</scope><name>trWriteList</name></member>
+      <member refid="d8/dfb/class_translator_1a36e8422acaf7b80565f09f3471120392" prot="public" virt="pure-virtual"><scope>TranslatorAdapter_1_6_3</scope><name>trWrittenBy</name></member>
+      <member refid="d7/d29/class_translator_adapter__1__6__3_1ab3d79abfb926c41bd7609eeb706654fe" prot="public" virt="virtual"><scope>TranslatorAdapter_1_6_3</scope><name>updateNeededMessage</name></member>
+      <member refid="d8/dfb/class_translator_1a814a9121daf0261f270c1e3f1956fbb4" prot="protected" virt="non-virtual"><scope>TranslatorAdapter_1_6_3</scope><name>Win1250ToISO88592</name></member>
+      <member refid="d8/dfb/class_translator_1a94f42c302737d4d99e2aecc28f2fbc25" prot="protected" virt="non-virtual"><scope>TranslatorAdapter_1_6_3</scope><name>Windows1251ToKoi8R</name></member>
+      <member refid="d8/dfb/class_translator_1aefb33b75e4bd594476f322f886ff441c" prot="public" virt="virtual"><scope>TranslatorAdapter_1_6_3</scope><name>~Translator</name></member>
+      <member refid="db/d6c/class_translator_adapter_base_1a1be363973c6841e1d917b32529a03ae0" prot="protected" virt="virtual"><scope>TranslatorAdapter_1_6_3</scope><name>~TranslatorAdapterBase</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

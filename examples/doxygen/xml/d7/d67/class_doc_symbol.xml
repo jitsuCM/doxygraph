@@ -1,0 +1,1076 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.2">
+  <compounddef id="d7/d67/class_doc_symbol" kind="class" prot="public">
+    <compoundname>DocSymbol</compoundname>
+    <basecompoundref refid="d9/d0e/class_doc_node" prot="public" virt="non-virtual">DocNode</basecompoundref>
+    <includes refid="de/d9c/docparser_8h" local="no">docparser.h</includes>
+      <sectiondef kind="public-type">
+      <memberdef kind="enum" id="d7/d67/class_doc_symbol_1abea9ba345564542cc6b65ae4c76be6c2" prot="public" static="no">
+        <name>SymType</name>
+        <enumvalue id="d7/d67/class_doc_symbol_1abea9ba345564542cc6b65ae4c76be6c2a625bec0d01d65f1e374b7c0b9ad64da6" prot="public">
+          <name>Unknown</name>
+          <initializer>=0</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d7/d67/class_doc_symbol_1abea9ba345564542cc6b65ae4c76be6c2a566455abe0e3ba1c1daf3bf3f4574178" prot="public">
+          <name>BSlash</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d7/d67/class_doc_symbol_1abea9ba345564542cc6b65ae4c76be6c2abdce9ddbb668bd9007a0c61a3d5a1e4c" prot="public">
+          <name>At</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d7/d67/class_doc_symbol_1abea9ba345564542cc6b65ae4c76be6c2a0293303ab19105925442c8ff0c222d87" prot="public">
+          <name>Less</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d7/d67/class_doc_symbol_1abea9ba345564542cc6b65ae4c76be6c2a8f5548105dc920cb7255cf65eb37ffa3" prot="public">
+          <name>Greater</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d7/d67/class_doc_symbol_1abea9ba345564542cc6b65ae4c76be6c2aece5b62a51d761fb8632f05ab80685d6" prot="public">
+          <name>Amp</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d7/d67/class_doc_symbol_1abea9ba345564542cc6b65ae4c76be6c2a487629fb80ab9acfaeb0f79ca6a794d3" prot="public">
+          <name>Dollar</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d7/d67/class_doc_symbol_1abea9ba345564542cc6b65ae4c76be6c2a16c00a552b1169ddc8eed5cff0354212" prot="public">
+          <name>Hash</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d7/d67/class_doc_symbol_1abea9ba345564542cc6b65ae4c76be6c2ac27b0e33d6173849f5fa131b2652b345" prot="public">
+          <name>DoubleColon</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d7/d67/class_doc_symbol_1abea9ba345564542cc6b65ae4c76be6c2acbec2da20a7c717c155c95ce4b71f5c1" prot="public">
+          <name>Percent</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d7/d67/class_doc_symbol_1abea9ba345564542cc6b65ae4c76be6c2a1dd5e1345835faeccdc675fdb7923173" prot="public">
+          <name>Copy</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d7/d67/class_doc_symbol_1abea9ba345564542cc6b65ae4c76be6c2a1920c7670b15afb54acd45c4033b6ff7" prot="public">
+          <name>Tm</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d7/d67/class_doc_symbol_1abea9ba345564542cc6b65ae4c76be6c2a9d2f6dd3be5f15750ac67459119f37ca" prot="public">
+          <name>Reg</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d7/d67/class_doc_symbol_1abea9ba345564542cc6b65ae4c76be6c2a2062790738173f54ffa215d47d387f10" prot="public">
+          <name>Apos</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d7/d67/class_doc_symbol_1abea9ba345564542cc6b65ae4c76be6c2a22c4482b3ef5bb260bf9f6b12dca3a82" prot="public">
+          <name>Quot</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d7/d67/class_doc_symbol_1abea9ba345564542cc6b65ae4c76be6c2acb1e2bca76e159d89654749a13913f94" prot="public">
+          <name>Uml</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d7/d67/class_doc_symbol_1abea9ba345564542cc6b65ae4c76be6c2a33792b5d942685f3524ab4f1d3dd3c8a" prot="public">
+          <name>Acute</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d7/d67/class_doc_symbol_1abea9ba345564542cc6b65ae4c76be6c2aa9a643f803c91ace5a2031a2629ae19b" prot="public">
+          <name>Grave</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d7/d67/class_doc_symbol_1abea9ba345564542cc6b65ae4c76be6c2a0326c70f51e68ecd37de25cd92507b3c" prot="public">
+          <name>Circ</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d7/d67/class_doc_symbol_1abea9ba345564542cc6b65ae4c76be6c2a0c47b764b0ebe33007b4a6f1c2a47bcf" prot="public">
+          <name>Tilde</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d7/d67/class_doc_symbol_1abea9ba345564542cc6b65ae4c76be6c2aada751cefef1d2a3d71bec7a40c5976a" prot="public">
+          <name>Szlig</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d7/d67/class_doc_symbol_1abea9ba345564542cc6b65ae4c76be6c2ad4f3ac2911f362e78d7e1536f06ad073" prot="public">
+          <name>Cedil</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d7/d67/class_doc_symbol_1abea9ba345564542cc6b65ae4c76be6c2a93415ff4b0d37827309ea563669506f6" prot="public">
+          <name>Ring</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d7/d67/class_doc_symbol_1abea9ba345564542cc6b65ae4c76be6c2a782191e9fbd32838d5034329985202a7" prot="public">
+          <name>Nbsp</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d7/d67/class_doc_symbol_1abea9ba345564542cc6b65ae4c76be6c2a4d9e9211c1a13817322840dcc702aee7" prot="public">
+          <name>Slash</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d7/d67/class_doc_symbol_1abea9ba345564542cc6b65ae4c76be6c2a75285df99f1cea74fd69886b4ab07cae" prot="public">
+          <name>Lsquo</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d7/d67/class_doc_symbol_1abea9ba345564542cc6b65ae4c76be6c2a633a0d7a36b1b18d290c0b4b19945405" prot="public">
+          <name>Rsquo</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d7/d67/class_doc_symbol_1abea9ba345564542cc6b65ae4c76be6c2a5d7660b037532e6ef5ebb18b47e0058f" prot="public">
+          <name>Ldquo</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d7/d67/class_doc_symbol_1abea9ba345564542cc6b65ae4c76be6c2abd000e9bb838e6a05a3efb46b06522b0" prot="public">
+          <name>Rdquo</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d7/d67/class_doc_symbol_1abea9ba345564542cc6b65ae4c76be6c2ac14c08371ab9e50f987411ea00e78318" prot="public">
+          <name>Ndash</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d7/d67/class_doc_symbol_1abea9ba345564542cc6b65ae4c76be6c2ad9faf1533549558411a10a11e09f8440" prot="public">
+          <name>Mdash</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d7/d67/class_doc_symbol_1abea9ba345564542cc6b65ae4c76be6c2a9729ed6ca95d48c1b6a4129609ce0e2b" prot="public">
+          <name>Aelig</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d7/d67/class_doc_symbol_1abea9ba345564542cc6b65ae4c76be6c2af867a785839368d5fd0932c198b04920" prot="public">
+          <name>AElig</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d7/d67/class_doc_symbol_1abea9ba345564542cc6b65ae4c76be6c2a7ccfd2570ee31e965f97721938d4d50b" prot="public">
+          <name>GrkGamma</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d7/d67/class_doc_symbol_1abea9ba345564542cc6b65ae4c76be6c2afeac6a7b3fa1a108fd149dd453c1fdd2" prot="public">
+          <name>GrkDelta</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d7/d67/class_doc_symbol_1abea9ba345564542cc6b65ae4c76be6c2ae08c1032c4843a52594b6067a3bf1d2b" prot="public">
+          <name>GrkTheta</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d7/d67/class_doc_symbol_1abea9ba345564542cc6b65ae4c76be6c2a771c55c693199442e068a09001ce007b" prot="public">
+          <name>GrkLambda</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d7/d67/class_doc_symbol_1abea9ba345564542cc6b65ae4c76be6c2a87c5340896b7e9bbde4d3605257ffa45" prot="public">
+          <name>GrkXi</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d7/d67/class_doc_symbol_1abea9ba345564542cc6b65ae4c76be6c2a544ea58dfe434086933d5ebfcf915dd0" prot="public">
+          <name>GrkPi</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d7/d67/class_doc_symbol_1abea9ba345564542cc6b65ae4c76be6c2ab1236d618fe9f2052426042dc1545454" prot="public">
+          <name>GrkSigma</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d7/d67/class_doc_symbol_1abea9ba345564542cc6b65ae4c76be6c2a5843df56564512093de3b1de35b7c859" prot="public">
+          <name>GrkUpsilon</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d7/d67/class_doc_symbol_1abea9ba345564542cc6b65ae4c76be6c2a3c9d991826561baf3ff7d8115786758b" prot="public">
+          <name>GrkPhi</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d7/d67/class_doc_symbol_1abea9ba345564542cc6b65ae4c76be6c2a4204d23b8f82c01621aa6b2e851c99ee" prot="public">
+          <name>GrkPsi</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d7/d67/class_doc_symbol_1abea9ba345564542cc6b65ae4c76be6c2a251eefaa77fc0a82f63472f2e44e8f55" prot="public">
+          <name>GrkOmega</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d7/d67/class_doc_symbol_1abea9ba345564542cc6b65ae4c76be6c2ac5658d6cbd15701aa713834c706c111e" prot="public">
+          <name>Grkalpha</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d7/d67/class_doc_symbol_1abea9ba345564542cc6b65ae4c76be6c2a98bcd0121711a488a5ef08289eab4556" prot="public">
+          <name>Grkbeta</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d7/d67/class_doc_symbol_1abea9ba345564542cc6b65ae4c76be6c2aa43c6293530234d125f9b5a487eb7e19" prot="public">
+          <name>Grkgamma</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d7/d67/class_doc_symbol_1abea9ba345564542cc6b65ae4c76be6c2abf3ba6d74c1ed40dfbee1ebe7be18383" prot="public">
+          <name>Grkdelta</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d7/d67/class_doc_symbol_1abea9ba345564542cc6b65ae4c76be6c2ab772c082b20e0ccc1a23e769323d2dfe" prot="public">
+          <name>Grkepsilon</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d7/d67/class_doc_symbol_1abea9ba345564542cc6b65ae4c76be6c2a5f1868906dd57e51025ac6cb32c23e8d" prot="public">
+          <name>Grkzeta</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d7/d67/class_doc_symbol_1abea9ba345564542cc6b65ae4c76be6c2ac5ab907937a68d2e6f10550eb167dbfd" prot="public">
+          <name>Grketa</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d7/d67/class_doc_symbol_1abea9ba345564542cc6b65ae4c76be6c2acf1ed8b7d6a09f42c235f34dc8a294a0" prot="public">
+          <name>Grktheta</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d7/d67/class_doc_symbol_1abea9ba345564542cc6b65ae4c76be6c2a3e54f32fd8957776361e632d3a50c556" prot="public">
+          <name>Grkiota</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d7/d67/class_doc_symbol_1abea9ba345564542cc6b65ae4c76be6c2ace4b1aaaefc2a2e38137e22d7bda9027" prot="public">
+          <name>Grkkappa</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d7/d67/class_doc_symbol_1abea9ba345564542cc6b65ae4c76be6c2a52d24fa66ee3a3c1218748a24c9f6bae" prot="public">
+          <name>Grklambda</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d7/d67/class_doc_symbol_1abea9ba345564542cc6b65ae4c76be6c2a1c7a144d785bf457e864d11403f1388b" prot="public">
+          <name>Grkmu</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d7/d67/class_doc_symbol_1abea9ba345564542cc6b65ae4c76be6c2a53db8c3b02a1d1f28426a7182f1b35c2" prot="public">
+          <name>Grknu</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d7/d67/class_doc_symbol_1abea9ba345564542cc6b65ae4c76be6c2a66fb57b14bf83d6f54e5fb1b1da9caba" prot="public">
+          <name>Grkxi</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d7/d67/class_doc_symbol_1abea9ba345564542cc6b65ae4c76be6c2a09fa66b700eccda0aac230c8afbb34da" prot="public">
+          <name>Grkpi</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d7/d67/class_doc_symbol_1abea9ba345564542cc6b65ae4c76be6c2a8729b86760c65fb1df6085253ce584f3" prot="public">
+          <name>Grkrho</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d7/d67/class_doc_symbol_1abea9ba345564542cc6b65ae4c76be6c2ad25625d46d6627000e438116b5552b04" prot="public">
+          <name>Grksigma</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d7/d67/class_doc_symbol_1abea9ba345564542cc6b65ae4c76be6c2a970149eef23a2d82c9e29c9b80f6b6db" prot="public">
+          <name>Grktau</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d7/d67/class_doc_symbol_1abea9ba345564542cc6b65ae4c76be6c2ac8a07248bf333525010ab489de14333f" prot="public">
+          <name>Grkupsilon</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d7/d67/class_doc_symbol_1abea9ba345564542cc6b65ae4c76be6c2a81a3cb4053d19ccf8c7120170d94274b" prot="public">
+          <name>Grkphi</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d7/d67/class_doc_symbol_1abea9ba345564542cc6b65ae4c76be6c2a3d7bc106bb53689cdb6c9a49d12a7f06" prot="public">
+          <name>Grkchi</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d7/d67/class_doc_symbol_1abea9ba345564542cc6b65ae4c76be6c2a0e54fa81cf1513e8a42b659c3082133a" prot="public">
+          <name>Grkpsi</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d7/d67/class_doc_symbol_1abea9ba345564542cc6b65ae4c76be6c2a760b3f3736f6c58c3c1c5f7e4f111ca9" prot="public">
+          <name>Grkomega</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d7/d67/class_doc_symbol_1abea9ba345564542cc6b65ae4c76be6c2a181bae58bce4d2a404e2e079f26386ad" prot="public">
+          <name>Grkvarsigma</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d7/d67/class_doc_symbol_1abea9ba345564542cc6b65ae4c76be6c2a2e7c85152ebe7a30edf2c6a95624097a" prot="public">
+          <name>Section</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d7/d67/class_doc_symbol_1abea9ba345564542cc6b65ae4c76be6c2a6d0a295e195bdc6ed05121052bbfe470" prot="public">
+          <name>Degree</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d7/d67/class_doc_symbol_1abea9ba345564542cc6b65ae4c76be6c2a332437cf590b68bfd0e3058790e561af" prot="public">
+          <name>Prime</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d7/d67/class_doc_symbol_1abea9ba345564542cc6b65ae4c76be6c2ae0fa316777553d84a2a9100020fd05b7" prot="public">
+          <name>DoublePrime</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d7/d67/class_doc_symbol_1abea9ba345564542cc6b65ae4c76be6c2a90dca7b66af675bfa93667bbe0b7b703" prot="public">
+          <name>Infinity</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d7/d67/class_doc_symbol_1abea9ba345564542cc6b65ae4c76be6c2ad95cb7bc9fce1311330e057a172c233d" prot="public">
+          <name>EmptySet</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d7/d67/class_doc_symbol_1abea9ba345564542cc6b65ae4c76be6c2a0d85d007090bd69ffbcc5861d739f96e" prot="public">
+          <name>PlusMinus</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d7/d67/class_doc_symbol_1abea9ba345564542cc6b65ae4c76be6c2a715b9b8deacdf0dbee48522b6e156973" prot="public">
+          <name>Times</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d7/d67/class_doc_symbol_1abea9ba345564542cc6b65ae4c76be6c2abe2fcdfc561194e6096f751b0741d5bb" prot="public">
+          <name>Minus</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d7/d67/class_doc_symbol_1abea9ba345564542cc6b65ae4c76be6c2a1769f381a483b5476c46c83dee6f1575" prot="public">
+          <name>CenterDot</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d7/d67/class_doc_symbol_1abea9ba345564542cc6b65ae4c76be6c2a443190db37eac9619112b63139fe009f" prot="public">
+          <name>Partial</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d7/d67/class_doc_symbol_1abea9ba345564542cc6b65ae4c76be6c2a762555b709fa6012b47651ec8eb73bce" prot="public">
+          <name>Nabla</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d7/d67/class_doc_symbol_1abea9ba345564542cc6b65ae4c76be6c2ae45d93c816a084610f335677bde4906f" prot="public">
+          <name>SquareRoot</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d7/d67/class_doc_symbol_1abea9ba345564542cc6b65ae4c76be6c2a9366fb29d98f52fa5582baf757b5b7a2" prot="public">
+          <name>Perpendicular</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d7/d67/class_doc_symbol_1abea9ba345564542cc6b65ae4c76be6c2a53855e3de73aadc257d507b0bd5e4d3f" prot="public">
+          <name>Sum</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d7/d67/class_doc_symbol_1abea9ba345564542cc6b65ae4c76be6c2a8553e3f234b104d8aa0edde78592ec81" prot="public">
+          <name>Integral</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d7/d67/class_doc_symbol_1abea9ba345564542cc6b65ae4c76be6c2adda6ce3d83dcfc277e19cb7e0342b321" prot="public">
+          <name>Product</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d7/d67/class_doc_symbol_1abea9ba345564542cc6b65ae4c76be6c2a8e15076ce43850e781d5d7f57c1baf83" prot="public">
+          <name>Similar</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d7/d67/class_doc_symbol_1abea9ba345564542cc6b65ae4c76be6c2a5ca26eba118f0604ae40ba4daae288d5" prot="public">
+          <name>Approx</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d7/d67/class_doc_symbol_1abea9ba345564542cc6b65ae4c76be6c2ab379ce766343ef13c0f16dcad3af65f1" prot="public">
+          <name>NotEqual</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d7/d67/class_doc_symbol_1abea9ba345564542cc6b65ae4c76be6c2a5ae1683457a67c6aa3f63e717b780137" prot="public">
+          <name>Equivalent</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d7/d67/class_doc_symbol_1abea9ba345564542cc6b65ae4c76be6c2a778bcb60388cfecd697c2ecfab48a3de" prot="public">
+          <name>Proportional</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d7/d67/class_doc_symbol_1abea9ba345564542cc6b65ae4c76be6c2a934a9da540bca3c504013543580bdf9f" prot="public">
+          <name>LessEqual</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d7/d67/class_doc_symbol_1abea9ba345564542cc6b65ae4c76be6c2a4548c83fc3d3c4f78035f4a7bfabe668" prot="public">
+          <name>GreaterEqual</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d7/d67/class_doc_symbol_1abea9ba345564542cc6b65ae4c76be6c2a4fa38d1e3e53eff4a6bd3f61474a0050" prot="public">
+          <name>LeftArrow</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d7/d67/class_doc_symbol_1abea9ba345564542cc6b65ae4c76be6c2a945de2c5a754bd73f46b428aa5b9cfdb" prot="public">
+          <name>RightArrow</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d7/d67/class_doc_symbol_1abea9ba345564542cc6b65ae4c76be6c2a566070393bb7ecd26d738b547561aa20" prot="public">
+          <name>SetIn</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d7/d67/class_doc_symbol_1abea9ba345564542cc6b65ae4c76be6c2a1e921a8964bbf3596dd819b47b6b5ff0" prot="public">
+          <name>SetNotIn</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d7/d67/class_doc_symbol_1abea9ba345564542cc6b65ae4c76be6c2a0b3abd2e19782ec00790ee6147a06562" prot="public">
+          <name>LeftCeil</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d7/d67/class_doc_symbol_1abea9ba345564542cc6b65ae4c76be6c2a461d117c07f46bcdd31747f5d4336f15" prot="public">
+          <name>RightCeil</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d7/d67/class_doc_symbol_1abea9ba345564542cc6b65ae4c76be6c2a8935799e69fb1bd40c39a7682afa5624" prot="public">
+          <name>LeftFloor</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d7/d67/class_doc_symbol_1abea9ba345564542cc6b65ae4c76be6c2ae2d9a1b5d222a3139f40db25a09498c9" prot="public">
+          <name>RightFloor</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d7/d67/class_doc_symbol_1abea9ba345564542cc6b65ae4c76be6c2acab241f3ce2d2f65a6812b1c070173ba" prot="public">
+          <name>Pipe</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/docparser.h" line="337" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/docparser.h" bodystart="337" bodyend="353"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="d7/d67/class_doc_symbol_1ac416c087b087fdb0d92af061c418dc85" prot="private" static="no" mutable="no">
+        <type>SymType</type>
+        <definition>SymType DocSymbol::m_symbol</definition>
+        <argsstring></argsstring>
+        <name>m_symbol</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/docparser.h" line="363" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/docparser.h" bodystart="363" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d7/d67/class_doc_symbol_1a7c833603ff70b10c6214c7f93ac29ff1" prot="private" static="no" mutable="no">
+        <type>char</type>
+        <definition>char DocSymbol::m_letter</definition>
+        <argsstring></argsstring>
+        <name>m_letter</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/docparser.h" line="364" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/docparser.h" bodystart="364" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="d7/d67/class_doc_symbol_1a099a744beaaea97237395fafd0419914" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>DocSymbol::DocSymbol</definition>
+        <argsstring>(DocNode *parent, SymType s, char letter=&apos;\0&apos;)</argsstring>
+        <name>DocSymbol</name>
+        <param>
+          <type><ref refid="d9/d0e/class_doc_node" kindref="compound">DocNode</ref> *</type>
+          <declname>parent</declname>
+        </param>
+        <param>
+          <type>SymType</type>
+          <declname>s</declname>
+        </param>
+        <param>
+          <type>char</type>
+          <declname>letter</declname>
+          <defval>&apos;\0&apos;</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/docparser.h" line="355" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/docparser.h" bodystart="354" bodyend="355"/>
+      </memberdef>
+      <memberdef kind="function" id="d7/d67/class_doc_symbol_1a6384276cbbeab02af2bebdb5e86fa72f" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>SymType</type>
+        <definition>SymType DocSymbol::symbol</definition>
+        <argsstring>() const </argsstring>
+        <name>symbol</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/docparser.h" line="356" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/docparser.h" bodystart="356" bodyend="356"/>
+      </memberdef>
+      <memberdef kind="function" id="d7/d67/class_doc_symbol_1a521052b439d29dc7961c019866d95e62" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>char</type>
+        <definition>char DocSymbol::letter</definition>
+        <argsstring>() const </argsstring>
+        <name>letter</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/docparser.h" line="357" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/docparser.h" bodystart="357" bodyend="357"/>
+      </memberdef>
+      <memberdef kind="function" id="d7/d67/class_doc_symbol_1abe1dd032ae5550cafb1f803c4bb96165" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="virtual">
+        <type><ref refid="d9/d0e/class_doc_node_1aebd16e89ca590d84cbd40543ea5faadb" kindref="member">Kind</ref></type>
+        <definition>Kind DocSymbol::kind</definition>
+        <argsstring>() const </argsstring>
+        <name>kind</name>
+        <reimplements refid="d9/d0e/class_doc_node_1a108ffd214a72ba6e93dac084a8f58049">kind</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns the kind of node. Provides runtime type information </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/docparser.h" line="358" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/docparser.h" bodystart="358" bodyend="358"/>
+      </memberdef>
+      <memberdef kind="function" id="d7/d67/class_doc_symbol_1ab7e27f7abdd4004918f6b39c09a05fd8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>void DocSymbol::accept</definition>
+        <argsstring>(DocVisitor *v)</argsstring>
+        <name>accept</name>
+        <reimplements refid="d9/d0e/class_doc_node_1a5303a550cbe6395663bf9b9dad28cbf1">accept</reimplements>
+        <param>
+          <type><ref refid="d0/d78/class_doc_visitor" kindref="compound">DocVisitor</ref> *</type>
+          <declname>v</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Acceptor function for node visitors. Part of the visitor pattern. <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>v</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Abstract visitor. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/docparser.h" line="359" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/docparser.h" bodystart="359" bodyend="359"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="d7/d67/class_doc_symbol_1aef238733b3c7dfd779b1d4ee0ccf4d4d" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>SymType</type>
+        <definition>DocSymbol::SymType DocSymbol::decodeSymbol</definition>
+        <argsstring>(const QCString &amp;symName, char *letter)</argsstring>
+        <name>decodeSymbol</name>
+        <param>
+          <type>const QCString &amp;</type>
+          <declname>symName</declname>
+        </param>
+        <param>
+          <type>char *</type>
+          <declname>letter</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/docparser.h" line="360" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/docparser.cpp" bodystart="1593" bodyend="1724"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Node representing a special symbol. </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="3238">
+        <label>DocSymbol</label>
+        <link refid="d7/d67/class_doc_symbol"/>
+        <childnode refid="3239" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3239">
+        <label>DocNode</label>
+        <link refid="d9/d0e/class_doc_node"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="3240">
+        <label>DocSymbol</label>
+        <link refid="d7/d67/class_doc_symbol"/>
+        <childnode refid="3241" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3241">
+        <label>DocNode</label>
+        <link refid="d9/d0e/class_doc_node"/>
+        <childnode refid="3241" relation="usage">
+          <edgelabel>m_parent</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/docparser.h" line="335" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/docparser.h" bodystart="334" bodyend="365"/>
+    <listofallmembers>
+      <member refid="d7/d67/class_doc_symbol_1ab7e27f7abdd4004918f6b39c09a05fd8" prot="public" virt="virtual"><scope>DocSymbol</scope><name>accept</name></member>
+      <member refid="d7/d67/class_doc_symbol_1abea9ba345564542cc6b65ae4c76be6c2a33792b5d942685f3524ab4f1d3dd3c8a" prot="public" virt="non-virtual"><scope>DocSymbol</scope><name>Acute</name></member>
+      <member refid="d7/d67/class_doc_symbol_1abea9ba345564542cc6b65ae4c76be6c2a9729ed6ca95d48c1b6a4129609ce0e2b" prot="public" virt="non-virtual"><scope>DocSymbol</scope><name>Aelig</name></member>
+      <member refid="d7/d67/class_doc_symbol_1abea9ba345564542cc6b65ae4c76be6c2af867a785839368d5fd0932c198b04920" prot="public" virt="non-virtual"><scope>DocSymbol</scope><name>AElig</name></member>
+      <member refid="d7/d67/class_doc_symbol_1abea9ba345564542cc6b65ae4c76be6c2aece5b62a51d761fb8632f05ab80685d6" prot="public" virt="non-virtual"><scope>DocSymbol</scope><name>Amp</name></member>
+      <member refid="d7/d67/class_doc_symbol_1abea9ba345564542cc6b65ae4c76be6c2a2062790738173f54ffa215d47d387f10" prot="public" virt="non-virtual"><scope>DocSymbol</scope><name>Apos</name></member>
+      <member refid="d7/d67/class_doc_symbol_1abea9ba345564542cc6b65ae4c76be6c2a5ca26eba118f0604ae40ba4daae288d5" prot="public" virt="non-virtual"><scope>DocSymbol</scope><name>Approx</name></member>
+      <member refid="d7/d67/class_doc_symbol_1abea9ba345564542cc6b65ae4c76be6c2abdce9ddbb668bd9007a0c61a3d5a1e4c" prot="public" virt="non-virtual"><scope>DocSymbol</scope><name>At</name></member>
+      <member refid="d7/d67/class_doc_symbol_1abea9ba345564542cc6b65ae4c76be6c2a566455abe0e3ba1c1daf3bf3f4574178" prot="public" virt="non-virtual"><scope>DocSymbol</scope><name>BSlash</name></member>
+      <member refid="d7/d67/class_doc_symbol_1abea9ba345564542cc6b65ae4c76be6c2ad4f3ac2911f362e78d7e1536f06ad073" prot="public" virt="non-virtual"><scope>DocSymbol</scope><name>Cedil</name></member>
+      <member refid="d7/d67/class_doc_symbol_1abea9ba345564542cc6b65ae4c76be6c2a1769f381a483b5476c46c83dee6f1575" prot="public" virt="non-virtual"><scope>DocSymbol</scope><name>CenterDot</name></member>
+      <member refid="d7/d67/class_doc_symbol_1abea9ba345564542cc6b65ae4c76be6c2a0326c70f51e68ecd37de25cd92507b3c" prot="public" virt="non-virtual"><scope>DocSymbol</scope><name>Circ</name></member>
+      <member refid="d7/d67/class_doc_symbol_1abea9ba345564542cc6b65ae4c76be6c2a1dd5e1345835faeccdc675fdb7923173" prot="public" virt="non-virtual"><scope>DocSymbol</scope><name>Copy</name></member>
+      <member refid="d7/d67/class_doc_symbol_1aef238733b3c7dfd779b1d4ee0ccf4d4d" prot="public" virt="non-virtual"><scope>DocSymbol</scope><name>decodeSymbol</name></member>
+      <member refid="d7/d67/class_doc_symbol_1abea9ba345564542cc6b65ae4c76be6c2a6d0a295e195bdc6ed05121052bbfe470" prot="public" virt="non-virtual"><scope>DocSymbol</scope><name>Degree</name></member>
+      <member refid="d9/d0e/class_doc_node_1a98d902adedf9b2270a6673e59dbab89e" prot="public" virt="non-virtual"><scope>DocSymbol</scope><name>DocNode</name></member>
+      <member refid="d7/d67/class_doc_symbol_1a099a744beaaea97237395fafd0419914" prot="public" virt="non-virtual"><scope>DocSymbol</scope><name>DocSymbol</name></member>
+      <member refid="d7/d67/class_doc_symbol_1abea9ba345564542cc6b65ae4c76be6c2a487629fb80ab9acfaeb0f79ca6a794d3" prot="public" virt="non-virtual"><scope>DocSymbol</scope><name>Dollar</name></member>
+      <member refid="d7/d67/class_doc_symbol_1abea9ba345564542cc6b65ae4c76be6c2ac27b0e33d6173849f5fa131b2652b345" prot="public" virt="non-virtual"><scope>DocSymbol</scope><name>DoubleColon</name></member>
+      <member refid="d7/d67/class_doc_symbol_1abea9ba345564542cc6b65ae4c76be6c2ae0fa316777553d84a2a9100020fd05b7" prot="public" virt="non-virtual"><scope>DocSymbol</scope><name>DoublePrime</name></member>
+      <member refid="d7/d67/class_doc_symbol_1abea9ba345564542cc6b65ae4c76be6c2ad95cb7bc9fce1311330e057a172c233d" prot="public" virt="non-virtual"><scope>DocSymbol</scope><name>EmptySet</name></member>
+      <member refid="d7/d67/class_doc_symbol_1abea9ba345564542cc6b65ae4c76be6c2a5ae1683457a67c6aa3f63e717b780137" prot="public" virt="non-virtual"><scope>DocSymbol</scope><name>Equivalent</name></member>
+      <member refid="d7/d67/class_doc_symbol_1abea9ba345564542cc6b65ae4c76be6c2aa9a643f803c91ace5a2031a2629ae19b" prot="public" virt="non-virtual"><scope>DocSymbol</scope><name>Grave</name></member>
+      <member refid="d7/d67/class_doc_symbol_1abea9ba345564542cc6b65ae4c76be6c2a8f5548105dc920cb7255cf65eb37ffa3" prot="public" virt="non-virtual"><scope>DocSymbol</scope><name>Greater</name></member>
+      <member refid="d7/d67/class_doc_symbol_1abea9ba345564542cc6b65ae4c76be6c2a4548c83fc3d3c4f78035f4a7bfabe668" prot="public" virt="non-virtual"><scope>DocSymbol</scope><name>GreaterEqual</name></member>
+      <member refid="d7/d67/class_doc_symbol_1abea9ba345564542cc6b65ae4c76be6c2ac5658d6cbd15701aa713834c706c111e" prot="public" virt="non-virtual"><scope>DocSymbol</scope><name>Grkalpha</name></member>
+      <member refid="d7/d67/class_doc_symbol_1abea9ba345564542cc6b65ae4c76be6c2a98bcd0121711a488a5ef08289eab4556" prot="public" virt="non-virtual"><scope>DocSymbol</scope><name>Grkbeta</name></member>
+      <member refid="d7/d67/class_doc_symbol_1abea9ba345564542cc6b65ae4c76be6c2a3d7bc106bb53689cdb6c9a49d12a7f06" prot="public" virt="non-virtual"><scope>DocSymbol</scope><name>Grkchi</name></member>
+      <member refid="d7/d67/class_doc_symbol_1abea9ba345564542cc6b65ae4c76be6c2afeac6a7b3fa1a108fd149dd453c1fdd2" prot="public" virt="non-virtual"><scope>DocSymbol</scope><name>GrkDelta</name></member>
+      <member refid="d7/d67/class_doc_symbol_1abea9ba345564542cc6b65ae4c76be6c2abf3ba6d74c1ed40dfbee1ebe7be18383" prot="public" virt="non-virtual"><scope>DocSymbol</scope><name>Grkdelta</name></member>
+      <member refid="d7/d67/class_doc_symbol_1abea9ba345564542cc6b65ae4c76be6c2ab772c082b20e0ccc1a23e769323d2dfe" prot="public" virt="non-virtual"><scope>DocSymbol</scope><name>Grkepsilon</name></member>
+      <member refid="d7/d67/class_doc_symbol_1abea9ba345564542cc6b65ae4c76be6c2ac5ab907937a68d2e6f10550eb167dbfd" prot="public" virt="non-virtual"><scope>DocSymbol</scope><name>Grketa</name></member>
+      <member refid="d7/d67/class_doc_symbol_1abea9ba345564542cc6b65ae4c76be6c2a7ccfd2570ee31e965f97721938d4d50b" prot="public" virt="non-virtual"><scope>DocSymbol</scope><name>GrkGamma</name></member>
+      <member refid="d7/d67/class_doc_symbol_1abea9ba345564542cc6b65ae4c76be6c2aa43c6293530234d125f9b5a487eb7e19" prot="public" virt="non-virtual"><scope>DocSymbol</scope><name>Grkgamma</name></member>
+      <member refid="d7/d67/class_doc_symbol_1abea9ba345564542cc6b65ae4c76be6c2a3e54f32fd8957776361e632d3a50c556" prot="public" virt="non-virtual"><scope>DocSymbol</scope><name>Grkiota</name></member>
+      <member refid="d7/d67/class_doc_symbol_1abea9ba345564542cc6b65ae4c76be6c2ace4b1aaaefc2a2e38137e22d7bda9027" prot="public" virt="non-virtual"><scope>DocSymbol</scope><name>Grkkappa</name></member>
+      <member refid="d7/d67/class_doc_symbol_1abea9ba345564542cc6b65ae4c76be6c2a771c55c693199442e068a09001ce007b" prot="public" virt="non-virtual"><scope>DocSymbol</scope><name>GrkLambda</name></member>
+      <member refid="d7/d67/class_doc_symbol_1abea9ba345564542cc6b65ae4c76be6c2a52d24fa66ee3a3c1218748a24c9f6bae" prot="public" virt="non-virtual"><scope>DocSymbol</scope><name>Grklambda</name></member>
+      <member refid="d7/d67/class_doc_symbol_1abea9ba345564542cc6b65ae4c76be6c2a1c7a144d785bf457e864d11403f1388b" prot="public" virt="non-virtual"><scope>DocSymbol</scope><name>Grkmu</name></member>
+      <member refid="d7/d67/class_doc_symbol_1abea9ba345564542cc6b65ae4c76be6c2a53db8c3b02a1d1f28426a7182f1b35c2" prot="public" virt="non-virtual"><scope>DocSymbol</scope><name>Grknu</name></member>
+      <member refid="d7/d67/class_doc_symbol_1abea9ba345564542cc6b65ae4c76be6c2a760b3f3736f6c58c3c1c5f7e4f111ca9" prot="public" virt="non-virtual"><scope>DocSymbol</scope><name>Grkomega</name></member>
+      <member refid="d7/d67/class_doc_symbol_1abea9ba345564542cc6b65ae4c76be6c2a251eefaa77fc0a82f63472f2e44e8f55" prot="public" virt="non-virtual"><scope>DocSymbol</scope><name>GrkOmega</name></member>
+      <member refid="d7/d67/class_doc_symbol_1abea9ba345564542cc6b65ae4c76be6c2a81a3cb4053d19ccf8c7120170d94274b" prot="public" virt="non-virtual"><scope>DocSymbol</scope><name>Grkphi</name></member>
+      <member refid="d7/d67/class_doc_symbol_1abea9ba345564542cc6b65ae4c76be6c2a3c9d991826561baf3ff7d8115786758b" prot="public" virt="non-virtual"><scope>DocSymbol</scope><name>GrkPhi</name></member>
+      <member refid="d7/d67/class_doc_symbol_1abea9ba345564542cc6b65ae4c76be6c2a544ea58dfe434086933d5ebfcf915dd0" prot="public" virt="non-virtual"><scope>DocSymbol</scope><name>GrkPi</name></member>
+      <member refid="d7/d67/class_doc_symbol_1abea9ba345564542cc6b65ae4c76be6c2a09fa66b700eccda0aac230c8afbb34da" prot="public" virt="non-virtual"><scope>DocSymbol</scope><name>Grkpi</name></member>
+      <member refid="d7/d67/class_doc_symbol_1abea9ba345564542cc6b65ae4c76be6c2a0e54fa81cf1513e8a42b659c3082133a" prot="public" virt="non-virtual"><scope>DocSymbol</scope><name>Grkpsi</name></member>
+      <member refid="d7/d67/class_doc_symbol_1abea9ba345564542cc6b65ae4c76be6c2a4204d23b8f82c01621aa6b2e851c99ee" prot="public" virt="non-virtual"><scope>DocSymbol</scope><name>GrkPsi</name></member>
+      <member refid="d7/d67/class_doc_symbol_1abea9ba345564542cc6b65ae4c76be6c2a8729b86760c65fb1df6085253ce584f3" prot="public" virt="non-virtual"><scope>DocSymbol</scope><name>Grkrho</name></member>
+      <member refid="d7/d67/class_doc_symbol_1abea9ba345564542cc6b65ae4c76be6c2ad25625d46d6627000e438116b5552b04" prot="public" virt="non-virtual"><scope>DocSymbol</scope><name>Grksigma</name></member>
+      <member refid="d7/d67/class_doc_symbol_1abea9ba345564542cc6b65ae4c76be6c2ab1236d618fe9f2052426042dc1545454" prot="public" virt="non-virtual"><scope>DocSymbol</scope><name>GrkSigma</name></member>
+      <member refid="d7/d67/class_doc_symbol_1abea9ba345564542cc6b65ae4c76be6c2a970149eef23a2d82c9e29c9b80f6b6db" prot="public" virt="non-virtual"><scope>DocSymbol</scope><name>Grktau</name></member>
+      <member refid="d7/d67/class_doc_symbol_1abea9ba345564542cc6b65ae4c76be6c2ae08c1032c4843a52594b6067a3bf1d2b" prot="public" virt="non-virtual"><scope>DocSymbol</scope><name>GrkTheta</name></member>
+      <member refid="d7/d67/class_doc_symbol_1abea9ba345564542cc6b65ae4c76be6c2acf1ed8b7d6a09f42c235f34dc8a294a0" prot="public" virt="non-virtual"><scope>DocSymbol</scope><name>Grktheta</name></member>
+      <member refid="d7/d67/class_doc_symbol_1abea9ba345564542cc6b65ae4c76be6c2ac8a07248bf333525010ab489de14333f" prot="public" virt="non-virtual"><scope>DocSymbol</scope><name>Grkupsilon</name></member>
+      <member refid="d7/d67/class_doc_symbol_1abea9ba345564542cc6b65ae4c76be6c2a5843df56564512093de3b1de35b7c859" prot="public" virt="non-virtual"><scope>DocSymbol</scope><name>GrkUpsilon</name></member>
+      <member refid="d7/d67/class_doc_symbol_1abea9ba345564542cc6b65ae4c76be6c2a181bae58bce4d2a404e2e079f26386ad" prot="public" virt="non-virtual"><scope>DocSymbol</scope><name>Grkvarsigma</name></member>
+      <member refid="d7/d67/class_doc_symbol_1abea9ba345564542cc6b65ae4c76be6c2a87c5340896b7e9bbde4d3605257ffa45" prot="public" virt="non-virtual"><scope>DocSymbol</scope><name>GrkXi</name></member>
+      <member refid="d7/d67/class_doc_symbol_1abea9ba345564542cc6b65ae4c76be6c2a66fb57b14bf83d6f54e5fb1b1da9caba" prot="public" virt="non-virtual"><scope>DocSymbol</scope><name>Grkxi</name></member>
+      <member refid="d7/d67/class_doc_symbol_1abea9ba345564542cc6b65ae4c76be6c2a5f1868906dd57e51025ac6cb32c23e8d" prot="public" virt="non-virtual"><scope>DocSymbol</scope><name>Grkzeta</name></member>
+      <member refid="d7/d67/class_doc_symbol_1abea9ba345564542cc6b65ae4c76be6c2a16c00a552b1169ddc8eed5cff0354212" prot="public" virt="non-virtual"><scope>DocSymbol</scope><name>Hash</name></member>
+      <member refid="d7/d67/class_doc_symbol_1abea9ba345564542cc6b65ae4c76be6c2a90dca7b66af675bfa93667bbe0b7b703" prot="public" virt="non-virtual"><scope>DocSymbol</scope><name>Infinity</name></member>
+      <member refid="d7/d67/class_doc_symbol_1abea9ba345564542cc6b65ae4c76be6c2a8553e3f234b104d8aa0edde78592ec81" prot="public" virt="non-virtual"><scope>DocSymbol</scope><name>Integral</name></member>
+      <member refid="d9/d0e/class_doc_node_1aef508bc4dc916756c919594db7930d54" prot="public" virt="non-virtual"><scope>DocSymbol</scope><name>isPreformatted</name></member>
+      <member refid="d7/d67/class_doc_symbol_1abe1dd032ae5550cafb1f803c4bb96165" prot="public" virt="virtual"><scope>DocSymbol</scope><name>kind</name></member>
+      <member refid="d9/d0e/class_doc_node_1aebd16e89ca590d84cbd40543ea5faadb" prot="public" virt="non-virtual"><scope>DocSymbol</scope><name>Kind</name></member>
+      <member refid="d9/d0e/class_doc_node_1aebd16e89ca590d84cbd40543ea5faadba5acf76d5bed04d9f8973b5599e4c7d61" prot="public" virt="non-virtual"><scope>DocSymbol</scope><name>Kind_Anchor</name></member>
+      <member refid="d9/d0e/class_doc_node_1aebd16e89ca590d84cbd40543ea5faadbaf4af6d302524a2a72e6503fa4b5008cc" prot="public" virt="non-virtual"><scope>DocSymbol</scope><name>Kind_AutoList</name></member>
+      <member refid="d9/d0e/class_doc_node_1aebd16e89ca590d84cbd40543ea5faadba09e40b89d37e12cd78384c04aea5c185" prot="public" virt="non-virtual"><scope>DocSymbol</scope><name>Kind_AutoListItem</name></member>
+      <member refid="d9/d0e/class_doc_node_1aebd16e89ca590d84cbd40543ea5faadba2c31b7a4358465ca132212321e15fc20" prot="public" virt="non-virtual"><scope>DocSymbol</scope><name>Kind_Copy</name></member>
+      <member refid="d9/d0e/class_doc_node_1aebd16e89ca590d84cbd40543ea5faadba31635222d2661ef99e79b44bf3b58382" prot="public" virt="non-virtual"><scope>DocSymbol</scope><name>Kind_DotFile</name></member>
+      <member refid="d9/d0e/class_doc_node_1aebd16e89ca590d84cbd40543ea5faadbad6f44af7d7a9d2545d12570f1c911514" prot="public" virt="non-virtual"><scope>DocSymbol</scope><name>Kind_Formula</name></member>
+      <member refid="d9/d0e/class_doc_node_1aebd16e89ca590d84cbd40543ea5faadba66fdcd73d28143e4eee061037d1c0d05" prot="public" virt="non-virtual"><scope>DocSymbol</scope><name>Kind_HorRuler</name></member>
+      <member refid="d9/d0e/class_doc_node_1aebd16e89ca590d84cbd40543ea5faadba219784882f7a809370a515cbf18c2794" prot="public" virt="non-virtual"><scope>DocSymbol</scope><name>Kind_HRef</name></member>
+      <member refid="d9/d0e/class_doc_node_1aebd16e89ca590d84cbd40543ea5faadbacfac967afd367665bc4a4890828fc98d" prot="public" virt="non-virtual"><scope>DocSymbol</scope><name>Kind_HtmlBlockQuote</name></member>
+      <member refid="d9/d0e/class_doc_node_1aebd16e89ca590d84cbd40543ea5faadba3f64e51b724ff9f596689e66165d4e5f" prot="public" virt="non-virtual"><scope>DocSymbol</scope><name>Kind_HtmlCaption</name></member>
+      <member refid="d9/d0e/class_doc_node_1aebd16e89ca590d84cbd40543ea5faadbae35a8fc01717b7fba896f3f9103b641a" prot="public" virt="non-virtual"><scope>DocSymbol</scope><name>Kind_HtmlCell</name></member>
+      <member refid="d9/d0e/class_doc_node_1aebd16e89ca590d84cbd40543ea5faadbac9568654cd0eaa2d2e6705eb88b8bb6f" prot="public" virt="non-virtual"><scope>DocSymbol</scope><name>Kind_HtmlDescData</name></member>
+      <member refid="d9/d0e/class_doc_node_1aebd16e89ca590d84cbd40543ea5faadbad53b68c158dba60a523d4fd261741c1a" prot="public" virt="non-virtual"><scope>DocSymbol</scope><name>Kind_HtmlDescList</name></member>
+      <member refid="d9/d0e/class_doc_node_1aebd16e89ca590d84cbd40543ea5faadba0e47ad72ee03a88acc5d35755230a4bc" prot="public" virt="non-virtual"><scope>DocSymbol</scope><name>Kind_HtmlDescTitle</name></member>
+      <member refid="d9/d0e/class_doc_node_1aebd16e89ca590d84cbd40543ea5faadbac559cf092ec1d51d36500217b128df91" prot="public" virt="non-virtual"><scope>DocSymbol</scope><name>Kind_HtmlHeader</name></member>
+      <member refid="d9/d0e/class_doc_node_1aebd16e89ca590d84cbd40543ea5faadba2d89d13df0a6a173008cc476ed19da5a" prot="public" virt="non-virtual"><scope>DocSymbol</scope><name>Kind_HtmlList</name></member>
+      <member refid="d9/d0e/class_doc_node_1aebd16e89ca590d84cbd40543ea5faadba3899f85cc2bbe76eebc01969f026c4a8" prot="public" virt="non-virtual"><scope>DocSymbol</scope><name>Kind_HtmlListItem</name></member>
+      <member refid="d9/d0e/class_doc_node_1aebd16e89ca590d84cbd40543ea5faadba4aecc53268c197469ae7e36a82297f66" prot="public" virt="non-virtual"><scope>DocSymbol</scope><name>Kind_HtmlRow</name></member>
+      <member refid="d9/d0e/class_doc_node_1aebd16e89ca590d84cbd40543ea5faadbaaa0953fe727d5208d808d6200db9d8c4" prot="public" virt="non-virtual"><scope>DocSymbol</scope><name>Kind_HtmlTable</name></member>
+      <member refid="d9/d0e/class_doc_node_1aebd16e89ca590d84cbd40543ea5faadba130db602d847e2889247e35215f6ab61" prot="public" virt="non-virtual"><scope>DocSymbol</scope><name>Kind_Image</name></member>
+      <member refid="d9/d0e/class_doc_node_1aebd16e89ca590d84cbd40543ea5faadba0d394262ed69236213f48850d00655e1" prot="public" virt="non-virtual"><scope>DocSymbol</scope><name>Kind_Include</name></member>
+      <member refid="d9/d0e/class_doc_node_1aebd16e89ca590d84cbd40543ea5faadba22a463e2625469c3243a58a25ec2ac5e" prot="public" virt="non-virtual"><scope>DocSymbol</scope><name>Kind_IncOperator</name></member>
+      <member refid="d9/d0e/class_doc_node_1aebd16e89ca590d84cbd40543ea5faadba0c99bba8a3a83741f4cb5b488be07919" prot="public" virt="non-virtual"><scope>DocSymbol</scope><name>Kind_IndexEntry</name></member>
+      <member refid="d9/d0e/class_doc_node_1aebd16e89ca590d84cbd40543ea5faadbaa908f2050f29caaa1852bc6bfc2167d7" prot="public" virt="non-virtual"><scope>DocSymbol</scope><name>Kind_Internal</name></member>
+      <member refid="d9/d0e/class_doc_node_1aebd16e89ca590d84cbd40543ea5faadba08795b9078b94b17470db06f10e47e9a" prot="public" virt="non-virtual"><scope>DocSymbol</scope><name>Kind_InternalRef</name></member>
+      <member refid="d9/d0e/class_doc_node_1aebd16e89ca590d84cbd40543ea5faadba806ec6c0d1fe6c3d855364ae3ab6f02e" prot="public" virt="non-virtual"><scope>DocSymbol</scope><name>Kind_LineBreak</name></member>
+      <member refid="d9/d0e/class_doc_node_1aebd16e89ca590d84cbd40543ea5faadba3ea5a7ccd9136dff8ecd035c4d403c4d" prot="public" virt="non-virtual"><scope>DocSymbol</scope><name>Kind_Link</name></member>
+      <member refid="d9/d0e/class_doc_node_1aebd16e89ca590d84cbd40543ea5faadba3078fef47a0dd99f4a3c2ea943e9dc38" prot="public" virt="non-virtual"><scope>DocSymbol</scope><name>Kind_LinkedWord</name></member>
+      <member refid="d9/d0e/class_doc_node_1aebd16e89ca590d84cbd40543ea5faadbaf7a503a623b646514dbf0a1cdd4bc56d" prot="public" virt="non-virtual"><scope>DocSymbol</scope><name>Kind_MscFile</name></member>
+      <member refid="d9/d0e/class_doc_node_1aebd16e89ca590d84cbd40543ea5faadbab386d3972ee5815e6403a2ba94d13da7" prot="public" virt="non-virtual"><scope>DocSymbol</scope><name>Kind_Para</name></member>
+      <member refid="d9/d0e/class_doc_node_1aebd16e89ca590d84cbd40543ea5faadbada1efab7269767fb09ed0468023d47ef" prot="public" virt="non-virtual"><scope>DocSymbol</scope><name>Kind_ParamList</name></member>
+      <member refid="d9/d0e/class_doc_node_1aebd16e89ca590d84cbd40543ea5faadba98f09f518a149bbd2ca945d8be62b2eb" prot="public" virt="non-virtual"><scope>DocSymbol</scope><name>Kind_ParamSect</name></member>
+      <member refid="d9/d0e/class_doc_node_1aebd16e89ca590d84cbd40543ea5faadba7e37091374b5c3a40bc6080b727b8633" prot="public" virt="non-virtual"><scope>DocSymbol</scope><name>Kind_Ref</name></member>
+      <member refid="d9/d0e/class_doc_node_1aebd16e89ca590d84cbd40543ea5faadba40f32b4da392f2e607acd9dcd51e97ef" prot="public" virt="non-virtual"><scope>DocSymbol</scope><name>Kind_Root</name></member>
+      <member refid="d9/d0e/class_doc_node_1aebd16e89ca590d84cbd40543ea5faadbab434fb5f35821ac8e092397720a9986e" prot="public" virt="non-virtual"><scope>DocSymbol</scope><name>Kind_SecRefItem</name></member>
+      <member refid="d9/d0e/class_doc_node_1aebd16e89ca590d84cbd40543ea5faadba8a1dc5275094432667a3b3f60ca6924e" prot="public" virt="non-virtual"><scope>DocSymbol</scope><name>Kind_SecRefList</name></member>
+      <member refid="d9/d0e/class_doc_node_1aebd16e89ca590d84cbd40543ea5faadba2adb5849cad20cab071f918a8da06938" prot="public" virt="non-virtual"><scope>DocSymbol</scope><name>Kind_Section</name></member>
+      <member refid="d9/d0e/class_doc_node_1aebd16e89ca590d84cbd40543ea5faadba653816fa54d8104dc69848cd470e9e50" prot="public" virt="non-virtual"><scope>DocSymbol</scope><name>Kind_SimpleList</name></member>
+      <member refid="d9/d0e/class_doc_node_1aebd16e89ca590d84cbd40543ea5faadba3484d4b967a5e3650a21218cafe45bfc" prot="public" virt="non-virtual"><scope>DocSymbol</scope><name>Kind_SimpleListItem</name></member>
+      <member refid="d9/d0e/class_doc_node_1aebd16e89ca590d84cbd40543ea5faadbac383a7308a123820e290b129354b945b" prot="public" virt="non-virtual"><scope>DocSymbol</scope><name>Kind_SimpleSect</name></member>
+      <member refid="d9/d0e/class_doc_node_1aebd16e89ca590d84cbd40543ea5faadba9e64be26f9961dd56b44dc8bf940f612" prot="public" virt="non-virtual"><scope>DocSymbol</scope><name>Kind_SimpleSectSep</name></member>
+      <member refid="d9/d0e/class_doc_node_1aebd16e89ca590d84cbd40543ea5faadba23b15e9d0bd5a796e7ea6bc5ddb90a51" prot="public" virt="non-virtual"><scope>DocSymbol</scope><name>Kind_StyleChange</name></member>
+      <member refid="d9/d0e/class_doc_node_1aebd16e89ca590d84cbd40543ea5faadba11cfbdc9641f7d5e57bbf9d2d1ac29f6" prot="public" virt="non-virtual"><scope>DocSymbol</scope><name>Kind_Symbol</name></member>
+      <member refid="d9/d0e/class_doc_node_1aebd16e89ca590d84cbd40543ea5faadba7625967c18a27b98c0253b1d8813b22a" prot="public" virt="non-virtual"><scope>DocSymbol</scope><name>Kind_Text</name></member>
+      <member refid="d9/d0e/class_doc_node_1aebd16e89ca590d84cbd40543ea5faadba3a4f43b18aee3dae38339c2e322f019d" prot="public" virt="non-virtual"><scope>DocSymbol</scope><name>Kind_Title</name></member>
+      <member refid="d9/d0e/class_doc_node_1aebd16e89ca590d84cbd40543ea5faadbaf65de407d32b599b5b8e3172e910921f" prot="public" virt="non-virtual"><scope>DocSymbol</scope><name>Kind_URL</name></member>
+      <member refid="d9/d0e/class_doc_node_1aebd16e89ca590d84cbd40543ea5faadba647ae404715ce1ea95d747d03302d069" prot="public" virt="non-virtual"><scope>DocSymbol</scope><name>Kind_Verbatim</name></member>
+      <member refid="d9/d0e/class_doc_node_1aebd16e89ca590d84cbd40543ea5faadba2c92a0041dfb7d3d024370d59840a9ec" prot="public" virt="non-virtual"><scope>DocSymbol</scope><name>Kind_VhdlFlow</name></member>
+      <member refid="d9/d0e/class_doc_node_1aebd16e89ca590d84cbd40543ea5faadba19ac8d817d8ba62f451c9ac6b06052c9" prot="public" virt="non-virtual"><scope>DocSymbol</scope><name>Kind_WhiteSpace</name></member>
+      <member refid="d9/d0e/class_doc_node_1aebd16e89ca590d84cbd40543ea5faadbafaa72c1c3a23f07645d1546177e265ad" prot="public" virt="non-virtual"><scope>DocSymbol</scope><name>Kind_Word</name></member>
+      <member refid="d9/d0e/class_doc_node_1aebd16e89ca590d84cbd40543ea5faadbabf87f371a0f69d86d0e6606d31133d40" prot="public" virt="non-virtual"><scope>DocSymbol</scope><name>Kind_XRefItem</name></member>
+      <member refid="d7/d67/class_doc_symbol_1abea9ba345564542cc6b65ae4c76be6c2a5d7660b037532e6ef5ebb18b47e0058f" prot="public" virt="non-virtual"><scope>DocSymbol</scope><name>Ldquo</name></member>
+      <member refid="d7/d67/class_doc_symbol_1abea9ba345564542cc6b65ae4c76be6c2a4fa38d1e3e53eff4a6bd3f61474a0050" prot="public" virt="non-virtual"><scope>DocSymbol</scope><name>LeftArrow</name></member>
+      <member refid="d7/d67/class_doc_symbol_1abea9ba345564542cc6b65ae4c76be6c2a0b3abd2e19782ec00790ee6147a06562" prot="public" virt="non-virtual"><scope>DocSymbol</scope><name>LeftCeil</name></member>
+      <member refid="d7/d67/class_doc_symbol_1abea9ba345564542cc6b65ae4c76be6c2a8935799e69fb1bd40c39a7682afa5624" prot="public" virt="non-virtual"><scope>DocSymbol</scope><name>LeftFloor</name></member>
+      <member refid="d7/d67/class_doc_symbol_1abea9ba345564542cc6b65ae4c76be6c2a0293303ab19105925442c8ff0c222d87" prot="public" virt="non-virtual"><scope>DocSymbol</scope><name>Less</name></member>
+      <member refid="d7/d67/class_doc_symbol_1abea9ba345564542cc6b65ae4c76be6c2a934a9da540bca3c504013543580bdf9f" prot="public" virt="non-virtual"><scope>DocSymbol</scope><name>LessEqual</name></member>
+      <member refid="d7/d67/class_doc_symbol_1a521052b439d29dc7961c019866d95e62" prot="public" virt="non-virtual"><scope>DocSymbol</scope><name>letter</name></member>
+      <member refid="d7/d67/class_doc_symbol_1abea9ba345564542cc6b65ae4c76be6c2a75285df99f1cea74fd69886b4ab07cae" prot="public" virt="non-virtual"><scope>DocSymbol</scope><name>Lsquo</name></member>
+      <member refid="d7/d67/class_doc_symbol_1a7c833603ff70b10c6214c7f93ac29ff1" prot="private" virt="non-virtual"><scope>DocSymbol</scope><name>m_letter</name></member>
+      <member refid="d9/d0e/class_doc_node_1a5f1139016d8919795a0e1c722d3e4b91" prot="protected" virt="non-virtual"><scope>DocSymbol</scope><name>m_parent</name></member>
+      <member refid="d7/d67/class_doc_symbol_1ac416c087b087fdb0d92af061c418dc85" prot="private" virt="non-virtual"><scope>DocSymbol</scope><name>m_symbol</name></member>
+      <member refid="d7/d67/class_doc_symbol_1abea9ba345564542cc6b65ae4c76be6c2ad9faf1533549558411a10a11e09f8440" prot="public" virt="non-virtual"><scope>DocSymbol</scope><name>Mdash</name></member>
+      <member refid="d7/d67/class_doc_symbol_1abea9ba345564542cc6b65ae4c76be6c2abe2fcdfc561194e6096f751b0741d5bb" prot="public" virt="non-virtual"><scope>DocSymbol</scope><name>Minus</name></member>
+      <member refid="d7/d67/class_doc_symbol_1abea9ba345564542cc6b65ae4c76be6c2a762555b709fa6012b47651ec8eb73bce" prot="public" virt="non-virtual"><scope>DocSymbol</scope><name>Nabla</name></member>
+      <member refid="d7/d67/class_doc_symbol_1abea9ba345564542cc6b65ae4c76be6c2a782191e9fbd32838d5034329985202a7" prot="public" virt="non-virtual"><scope>DocSymbol</scope><name>Nbsp</name></member>
+      <member refid="d7/d67/class_doc_symbol_1abea9ba345564542cc6b65ae4c76be6c2ac14c08371ab9e50f987411ea00e78318" prot="public" virt="non-virtual"><scope>DocSymbol</scope><name>Ndash</name></member>
+      <member refid="d7/d67/class_doc_symbol_1abea9ba345564542cc6b65ae4c76be6c2ab379ce766343ef13c0f16dcad3af65f1" prot="public" virt="non-virtual"><scope>DocSymbol</scope><name>NotEqual</name></member>
+      <member refid="d9/d0e/class_doc_node_1a990d8b983962776a647e6231d38bd329" prot="public" virt="non-virtual"><scope>DocSymbol</scope><name>parent</name></member>
+      <member refid="d7/d67/class_doc_symbol_1abea9ba345564542cc6b65ae4c76be6c2a443190db37eac9619112b63139fe009f" prot="public" virt="non-virtual"><scope>DocSymbol</scope><name>Partial</name></member>
+      <member refid="d7/d67/class_doc_symbol_1abea9ba345564542cc6b65ae4c76be6c2acbec2da20a7c717c155c95ce4b71f5c1" prot="public" virt="non-virtual"><scope>DocSymbol</scope><name>Percent</name></member>
+      <member refid="d7/d67/class_doc_symbol_1abea9ba345564542cc6b65ae4c76be6c2a9366fb29d98f52fa5582baf757b5b7a2" prot="public" virt="non-virtual"><scope>DocSymbol</scope><name>Perpendicular</name></member>
+      <member refid="d7/d67/class_doc_symbol_1abea9ba345564542cc6b65ae4c76be6c2acab241f3ce2d2f65a6812b1c070173ba" prot="public" virt="non-virtual"><scope>DocSymbol</scope><name>Pipe</name></member>
+      <member refid="d7/d67/class_doc_symbol_1abea9ba345564542cc6b65ae4c76be6c2a0d85d007090bd69ffbcc5861d739f96e" prot="public" virt="non-virtual"><scope>DocSymbol</scope><name>PlusMinus</name></member>
+      <member refid="d7/d67/class_doc_symbol_1abea9ba345564542cc6b65ae4c76be6c2a332437cf590b68bfd0e3058790e561af" prot="public" virt="non-virtual"><scope>DocSymbol</scope><name>Prime</name></member>
+      <member refid="d7/d67/class_doc_symbol_1abea9ba345564542cc6b65ae4c76be6c2adda6ce3d83dcfc277e19cb7e0342b321" prot="public" virt="non-virtual"><scope>DocSymbol</scope><name>Product</name></member>
+      <member refid="d7/d67/class_doc_symbol_1abea9ba345564542cc6b65ae4c76be6c2a778bcb60388cfecd697c2ecfab48a3de" prot="public" virt="non-virtual"><scope>DocSymbol</scope><name>Proportional</name></member>
+      <member refid="d7/d67/class_doc_symbol_1abea9ba345564542cc6b65ae4c76be6c2a22c4482b3ef5bb260bf9f6b12dca3a82" prot="public" virt="non-virtual"><scope>DocSymbol</scope><name>Quot</name></member>
+      <member refid="d7/d67/class_doc_symbol_1abea9ba345564542cc6b65ae4c76be6c2abd000e9bb838e6a05a3efb46b06522b0" prot="public" virt="non-virtual"><scope>DocSymbol</scope><name>Rdquo</name></member>
+      <member refid="d7/d67/class_doc_symbol_1abea9ba345564542cc6b65ae4c76be6c2a9d2f6dd3be5f15750ac67459119f37ca" prot="public" virt="non-virtual"><scope>DocSymbol</scope><name>Reg</name></member>
+      <member refid="d7/d67/class_doc_symbol_1abea9ba345564542cc6b65ae4c76be6c2a945de2c5a754bd73f46b428aa5b9cfdb" prot="public" virt="non-virtual"><scope>DocSymbol</scope><name>RightArrow</name></member>
+      <member refid="d7/d67/class_doc_symbol_1abea9ba345564542cc6b65ae4c76be6c2a461d117c07f46bcdd31747f5d4336f15" prot="public" virt="non-virtual"><scope>DocSymbol</scope><name>RightCeil</name></member>
+      <member refid="d7/d67/class_doc_symbol_1abea9ba345564542cc6b65ae4c76be6c2ae2d9a1b5d222a3139f40db25a09498c9" prot="public" virt="non-virtual"><scope>DocSymbol</scope><name>RightFloor</name></member>
+      <member refid="d7/d67/class_doc_symbol_1abea9ba345564542cc6b65ae4c76be6c2a93415ff4b0d37827309ea563669506f6" prot="public" virt="non-virtual"><scope>DocSymbol</scope><name>Ring</name></member>
+      <member refid="d7/d67/class_doc_symbol_1abea9ba345564542cc6b65ae4c76be6c2a633a0d7a36b1b18d290c0b4b19945405" prot="public" virt="non-virtual"><scope>DocSymbol</scope><name>Rsquo</name></member>
+      <member refid="d7/d67/class_doc_symbol_1abea9ba345564542cc6b65ae4c76be6c2a2e7c85152ebe7a30edf2c6a95624097a" prot="public" virt="non-virtual"><scope>DocSymbol</scope><name>Section</name></member>
+      <member refid="d7/d67/class_doc_symbol_1abea9ba345564542cc6b65ae4c76be6c2a566070393bb7ecd26d738b547561aa20" prot="public" virt="non-virtual"><scope>DocSymbol</scope><name>SetIn</name></member>
+      <member refid="d9/d0e/class_doc_node_1a7059408f429dc1358764e334079ca986" prot="protected" virt="non-virtual"><scope>DocSymbol</scope><name>setInsidePreformatted</name></member>
+      <member refid="d7/d67/class_doc_symbol_1abea9ba345564542cc6b65ae4c76be6c2a1e921a8964bbf3596dd819b47b6b5ff0" prot="public" virt="non-virtual"><scope>DocSymbol</scope><name>SetNotIn</name></member>
+      <member refid="d9/d0e/class_doc_node_1a2855de7ff1248fdb71e579087ae56098" prot="public" virt="non-virtual"><scope>DocSymbol</scope><name>setParent</name></member>
+      <member refid="d7/d67/class_doc_symbol_1abea9ba345564542cc6b65ae4c76be6c2a8e15076ce43850e781d5d7f57c1baf83" prot="public" virt="non-virtual"><scope>DocSymbol</scope><name>Similar</name></member>
+      <member refid="d7/d67/class_doc_symbol_1abea9ba345564542cc6b65ae4c76be6c2a4d9e9211c1a13817322840dcc702aee7" prot="public" virt="non-virtual"><scope>DocSymbol</scope><name>Slash</name></member>
+      <member refid="d7/d67/class_doc_symbol_1abea9ba345564542cc6b65ae4c76be6c2ae45d93c816a084610f335677bde4906f" prot="public" virt="non-virtual"><scope>DocSymbol</scope><name>SquareRoot</name></member>
+      <member refid="d7/d67/class_doc_symbol_1abea9ba345564542cc6b65ae4c76be6c2a53855e3de73aadc257d507b0bd5e4d3f" prot="public" virt="non-virtual"><scope>DocSymbol</scope><name>Sum</name></member>
+      <member refid="d7/d67/class_doc_symbol_1a6384276cbbeab02af2bebdb5e86fa72f" prot="public" virt="non-virtual"><scope>DocSymbol</scope><name>symbol</name></member>
+      <member refid="d7/d67/class_doc_symbol_1abea9ba345564542cc6b65ae4c76be6c2" prot="public" virt="non-virtual"><scope>DocSymbol</scope><name>SymType</name></member>
+      <member refid="d7/d67/class_doc_symbol_1abea9ba345564542cc6b65ae4c76be6c2aada751cefef1d2a3d71bec7a40c5976a" prot="public" virt="non-virtual"><scope>DocSymbol</scope><name>Szlig</name></member>
+      <member refid="d7/d67/class_doc_symbol_1abea9ba345564542cc6b65ae4c76be6c2a0c47b764b0ebe33007b4a6f1c2a47bcf" prot="public" virt="non-virtual"><scope>DocSymbol</scope><name>Tilde</name></member>
+      <member refid="d7/d67/class_doc_symbol_1abea9ba345564542cc6b65ae4c76be6c2a715b9b8deacdf0dbee48522b6e156973" prot="public" virt="non-virtual"><scope>DocSymbol</scope><name>Times</name></member>
+      <member refid="d7/d67/class_doc_symbol_1abea9ba345564542cc6b65ae4c76be6c2a1920c7670b15afb54acd45c4033b6ff7" prot="public" virt="non-virtual"><scope>DocSymbol</scope><name>Tm</name></member>
+      <member refid="d7/d67/class_doc_symbol_1abea9ba345564542cc6b65ae4c76be6c2acb1e2bca76e159d89654749a13913f94" prot="public" virt="non-virtual"><scope>DocSymbol</scope><name>Uml</name></member>
+      <member refid="d7/d67/class_doc_symbol_1abea9ba345564542cc6b65ae4c76be6c2a625bec0d01d65f1e374b7c0b9ad64da6" prot="public" virt="non-virtual"><scope>DocSymbol</scope><name>Unknown</name></member>
+      <member refid="d9/d0e/class_doc_node_1a024e5ba89b140e83416f9f85f5f6d036" prot="public" virt="virtual"><scope>DocSymbol</scope><name>~DocNode</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

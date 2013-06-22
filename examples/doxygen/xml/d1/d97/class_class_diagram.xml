@@ -1,0 +1,139 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.2">
+  <compounddef id="d1/d97/class_class_diagram" kind="class" prot="public">
+    <compoundname>ClassDiagram</compoundname>
+    <includes refid="d9/d1b/diagram_8h" local="no">diagram.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="d1/d97/class_class_diagram_1add66c91215026c730e7152d6ea4d9a6c" prot="private" static="no" mutable="no">
+        <type>TreeDiagram *</type>
+        <definition>TreeDiagram* ClassDiagram::base</definition>
+        <argsstring></argsstring>
+        <name>base</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/diagram.h" line="39" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/diagram.h" bodystart="39" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d1/d97/class_class_diagram_1a229af92d7206505287034f6ca6744653" prot="private" static="no" mutable="no">
+        <type>TreeDiagram *</type>
+        <definition>TreeDiagram* ClassDiagram::super</definition>
+        <argsstring></argsstring>
+        <name>super</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/diagram.h" line="40" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/diagram.h" bodystart="40" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="d1/d97/class_class_diagram_1abc61e6f209f3e4474a4b4dc7aedaa77d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>ClassDiagram::ClassDiagram</definition>
+        <argsstring>(ClassDef *root)</argsstring>
+        <name>ClassDiagram</name>
+        <param>
+          <type><ref refid="d1/dcf/class_class_def" kindref="compound">ClassDef</ref> *</type>
+          <declname>root</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/diagram.h" line="32" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/diagram.cpp" bodystart="1048" bodyend="1070"/>
+      </memberdef>
+      <memberdef kind="function" id="d1/d97/class_class_diagram_1a6ddb806254eae2bc59a5a8c19a51d142" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>ClassDiagram::~ClassDiagram</definition>
+        <argsstring>()</argsstring>
+        <name>~ClassDiagram</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/diagram.h" line="33" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/diagram.cpp" bodystart="1072" bodyend="1076"/>
+      </memberdef>
+      <memberdef kind="function" id="d1/d97/class_class_diagram_1af2774267335482514626b5f9cad73f1c" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ClassDiagram::writeFigure</definition>
+        <argsstring>(FTextStream &amp;t, const char *path, const char *file) const </argsstring>
+        <name>writeFigure</name>
+        <param>
+          <type><ref refid="dc/d3c/class_f_text_stream" kindref="compound">FTextStream</ref> &amp;</type>
+          <declname>t</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>path</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>file</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/diagram.h" line="35" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/diagram.cpp" bodystart="1078" bodyend="1372"/>
+      </memberdef>
+      <memberdef kind="function" id="d1/d97/class_class_diagram_1a3cc2aed05da3139bd0bab180a477f42a" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ClassDiagram::writeImage</definition>
+        <argsstring>(FTextStream &amp;t, const char *path, const char *relPath, const char *file, bool generateMap=TRUE) const </argsstring>
+        <name>writeImage</name>
+        <param>
+          <type><ref refid="dc/d3c/class_f_text_stream" kindref="compound">FTextStream</ref> &amp;</type>
+          <declname>t</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>path</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>relPath</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>file</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>generateMap</declname>
+          <defval>TRUE</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/diagram.h" line="37" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/diagram.cpp" bodystart="1375" bodyend="1407"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Class representing a built-in class diagram. </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/diagram.h" line="30" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/diagram.h" bodystart="29" bodyend="41"/>
+    <listofallmembers>
+      <member refid="d1/d97/class_class_diagram_1add66c91215026c730e7152d6ea4d9a6c" prot="private" virt="non-virtual"><scope>ClassDiagram</scope><name>base</name></member>
+      <member refid="d1/d97/class_class_diagram_1abc61e6f209f3e4474a4b4dc7aedaa77d" prot="public" virt="non-virtual"><scope>ClassDiagram</scope><name>ClassDiagram</name></member>
+      <member refid="d1/d97/class_class_diagram_1a229af92d7206505287034f6ca6744653" prot="private" virt="non-virtual"><scope>ClassDiagram</scope><name>super</name></member>
+      <member refid="d1/d97/class_class_diagram_1af2774267335482514626b5f9cad73f1c" prot="public" virt="non-virtual"><scope>ClassDiagram</scope><name>writeFigure</name></member>
+      <member refid="d1/d97/class_class_diagram_1a3cc2aed05da3139bd0bab180a477f42a" prot="public" virt="non-virtual"><scope>ClassDiagram</scope><name>writeImage</name></member>
+      <member refid="d1/d97/class_class_diagram_1a6ddb806254eae2bc59a5a8c19a51d142" prot="public" virt="non-virtual"><scope>ClassDiagram</scope><name>~ClassDiagram</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

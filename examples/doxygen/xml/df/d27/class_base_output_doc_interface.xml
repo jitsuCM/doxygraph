@@ -1,0 +1,1452 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.2">
+  <compounddef id="df/d27/class_base_output_doc_interface" kind="class" prot="public" abstract="yes">
+    <compoundname>BaseOutputDocInterface</compoundname>
+    <basecompoundref refid="d5/d9c/class_code_output_interface" prot="public" virt="non-virtual">CodeOutputInterface</basecompoundref>
+    <derivedcompoundref refid="d2/d1a/class_output_doc_interface" prot="public" virt="non-virtual">OutputDocInterface</derivedcompoundref>
+    <derivedcompoundref refid="d3/d8e/class_output_generator" prot="public" virt="non-virtual">OutputGenerator</derivedcompoundref>
+    <includes refid="df/d06/outputgen_8h" local="no">outputgen.h</includes>
+      <sectiondef kind="public-type">
+      <memberdef kind="enum" id="df/d27/class_base_output_doc_interface_1a944ed4d9fb389999c2724eeb321b8c8c" prot="public" static="no">
+        <name>ParamListTypes</name>
+        <enumvalue id="df/d27/class_base_output_doc_interface_1a944ed4d9fb389999c2724eeb321b8c8ca2f12909be9be736f564ef1bccd8bc981" prot="public">
+          <name>Param</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="df/d27/class_base_output_doc_interface_1a944ed4d9fb389999c2724eeb321b8c8ca7dbac297ebba84b706efa2afb8e5e609" prot="public">
+          <name>RetVal</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="df/d27/class_base_output_doc_interface_1a944ed4d9fb389999c2724eeb321b8c8ca013f47562e6f852189ce39404b2c83ce" prot="public">
+          <name>Exception</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/outputgen.h" line="90" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/outputgen.h" bodystart="90" bodyend="90"/>
+      </memberdef>
+      <memberdef kind="enum" id="df/d27/class_base_output_doc_interface_1a07a3d5df76a714674e070e5e236fe886" prot="public" static="no">
+        <name>SectionTypes</name>
+        <enumvalue id="df/d27/class_base_output_doc_interface_1a07a3d5df76a714674e070e5e236fe886a14899d1909b84ceff4b564f2c5cdd5c8" prot="public">
+          <name>EnumValues</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="df/d27/class_base_output_doc_interface_1a07a3d5df76a714674e070e5e236fe886a8e76c29b11f7bc42235f145253d37661" prot="public">
+          <name>Examples</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/outputgen.h" line="91" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/outputgen.h" bodystart="91" bodyend="97"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="df/d27/class_base_output_doc_interface_1ac23dcf3208e5199e2b562c2643536beb" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type></type>
+        <definition>virtual BaseOutputDocInterface::~BaseOutputDocInterface</definition>
+        <argsstring>()</argsstring>
+        <name>~BaseOutputDocInterface</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/outputgen.h" line="89" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/outputgen.h" bodystart="89" bodyend="89"/>
+      </memberdef>
+      <memberdef kind="function" id="df/d27/class_base_output_doc_interface_1a26c20546f1084cdaea8c6fe1ec8de76a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>bool</type>
+        <definition>virtual bool BaseOutputDocInterface::parseText</definition>
+        <argsstring>(const QCString &amp;s)</argsstring>
+        <name>parseText</name>
+        <reimplementedby refid="df/dc8/class_output_list_1ad094ea058825f0c0a7afb579af1bfc4a">parseText</reimplementedby>
+        <param>
+          <type>const QCString &amp;</type>
+          <declname>s</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/outputgen.h" line="99" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/outputgen.h" bodystart="99" bodyend="99"/>
+      </memberdef>
+      <memberdef kind="function" id="df/d27/class_base_output_doc_interface_1a54b169393594b6cf113977ccccaeb9ee" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>void</type>
+        <definition>virtual void BaseOutputDocInterface::startItemList</definition>
+        <argsstring>()=0</argsstring>
+        <name>startItemList</name>
+        <reimplementedby refid="d0/da4/class_r_t_f_generator_1a277db06db2dc29602f3209ca899111c9">startItemList</reimplementedby>
+        <reimplementedby refid="de/da5/class_man_generator_1a5b29aa8c2dd69237fd7470df129fc4e3">startItemList</reimplementedby>
+        <reimplementedby refid="d3/d77/class_latex_generator_1a19bab2ba8d61d4a574805610d1a639e6">startItemList</reimplementedby>
+        <reimplementedby refid="df/dc8/class_output_list_1a1677b65eb8f01a10b1d767758338a212">startItemList</reimplementedby>
+        <reimplementedby refid="d7/d41/class_html_generator_1aedec2c1429139e4fd713df22e5636879">startItemList</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Start of a bullet list: e.g. <computeroutput>&lt;ul&gt;</computeroutput> in html. <ref refid="df/d27/class_base_output_doc_interface_1aa1cbcadfedf8e6d52029d17526b5fa3f" kindref="member">startItemListItem()</ref> is Used for the bullet items. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/outputgen.h" line="104"/>
+        <referencedby refid="df/dc8/class_output_list_1a1677b65eb8f01a10b1d767758338a212" compoundref="d2/db9/outputlist_8h" startline="133" endline="134">OutputList::startItemList</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="df/d27/class_base_output_doc_interface_1aa1cbcadfedf8e6d52029d17526b5fa3f" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>void</type>
+        <definition>virtual void BaseOutputDocInterface::startItemListItem</definition>
+        <argsstring>()=0</argsstring>
+        <name>startItemListItem</name>
+        <reimplementedby refid="d0/da4/class_r_t_f_generator_1ae09155b5cf6fb7457ae598f22d65d045">startItemListItem</reimplementedby>
+        <reimplementedby refid="d3/d77/class_latex_generator_1ae7a65542a815c62b5a55283fcc68d774">startItemListItem</reimplementedby>
+        <reimplementedby refid="de/da5/class_man_generator_1a83d776971ea058ea021d49df05f4e563">startItemListItem</reimplementedby>
+        <reimplementedby refid="d7/d41/class_html_generator_1aaa5091e04c77ea310e0c5dee4cc04e94">startItemListItem</reimplementedby>
+        <reimplementedby refid="df/dc8/class_output_list_1a77e30e9a84b48907b886e8231dbbc20b">startItemListItem</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Writes a list item for a bullet or enumerated list: e.g. <computeroutput>&lt;li&gt;</computeroutput> in html </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/outputgen.h" line="109"/>
+        <referencedby refid="df/dc8/class_output_list_1a77e30e9a84b48907b886e8231dbbc20b" compoundref="d2/db9/outputlist_8h" startline="175" endline="176">OutputList::startItemListItem</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="df/d27/class_base_output_doc_interface_1a90d290d7a06a9e7ecd968c8da90ed665" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>void</type>
+        <definition>virtual void BaseOutputDocInterface::endItemListItem</definition>
+        <argsstring>()=0</argsstring>
+        <name>endItemListItem</name>
+        <reimplementedby refid="d0/da4/class_r_t_f_generator_1a4d3cc3baac4adda9ef5da4c9e470871b">endItemListItem</reimplementedby>
+        <reimplementedby refid="d3/d77/class_latex_generator_1a32c196e3b968d56ed445bb3bc090ca6b">endItemListItem</reimplementedby>
+        <reimplementedby refid="de/da5/class_man_generator_1a87a722d58e6364660622ab086f20edc8">endItemListItem</reimplementedby>
+        <reimplementedby refid="d7/d41/class_html_generator_1a91f6100cb025e52c1cef35b8749761b2">endItemListItem</reimplementedby>
+        <reimplementedby refid="df/dc8/class_output_list_1a784d921c1961db570e1b12905fe97c05">endItemListItem</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Writes a list item for a bullet or enumerated list: e.g. <computeroutput>&lt;/li&gt;</computeroutput> in html </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/outputgen.h" line="114"/>
+        <referencedby refid="df/dc8/class_output_list_1a784d921c1961db570e1b12905fe97c05" compoundref="d2/db9/outputlist_8h" startline="177" endline="178">OutputList::endItemListItem</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="df/d27/class_base_output_doc_interface_1a3493b65672bf134033bd3bb296acdff4" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>void</type>
+        <definition>virtual void BaseOutputDocInterface::endItemList</definition>
+        <argsstring>()=0</argsstring>
+        <name>endItemList</name>
+        <reimplementedby refid="d0/da4/class_r_t_f_generator_1a530e2868f7db6b92a4423cdee7fc9f75">endItemList</reimplementedby>
+        <reimplementedby refid="de/da5/class_man_generator_1abb7aa578a49c62b103f85e0f5d3c9e2a">endItemList</reimplementedby>
+        <reimplementedby refid="d3/d77/class_latex_generator_1ad126330bd7b18c670464599fdfc262ab">endItemList</reimplementedby>
+        <reimplementedby refid="df/dc8/class_output_list_1ac6efca5985597bb6e51427c51d40732f">endItemList</reimplementedby>
+        <reimplementedby refid="d7/d41/class_html_generator_1aa5dc9b6c49ebf68dd54942d258716206">endItemList</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Ends a bullet list: e.g. <computeroutput>&lt;/ul&gt;</computeroutput> in html </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/outputgen.h" line="117"/>
+        <referencedby refid="df/dc8/class_output_list_1ac6efca5985597bb6e51427c51d40732f" compoundref="d2/db9/outputlist_8h" startline="135" endline="136">OutputList::endItemList</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="df/d27/class_base_output_doc_interface_1ad7d3f6631bd157739170690e669b3e75" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>void</type>
+        <definition>virtual void BaseOutputDocInterface::docify</definition>
+        <argsstring>(const char *s)=0</argsstring>
+        <name>docify</name>
+        <reimplementedby refid="d0/da4/class_r_t_f_generator_1a0e292cd3d60599a4ddfad4036c0b6d46">docify</reimplementedby>
+        <reimplementedby refid="de/da5/class_man_generator_1aae62a687e228c0f3c5b698570c603022">docify</reimplementedby>
+        <reimplementedby refid="d3/d77/class_latex_generator_1ad6786a95e819d8af4dbfa717207cc674">docify</reimplementedby>
+        <reimplementedby refid="df/dc8/class_output_list_1a3335d926bd59e1c9e3912c4352ca5bc6">docify</reimplementedby>
+        <reimplementedby refid="d7/d41/class_html_generator_1a1f33982a4ce6eac13224197e91f057d8">docify</reimplementedby>
+        <param>
+          <type>const char *</type>
+          <declname>s</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Writes an ASCII string to the output. Converts characters that have A special meaning, like <computeroutput>&amp;</computeroutput> in html. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/outputgen.h" line="122"/>
+        <referencedby refid="df/dc8/class_output_list_1a3335d926bd59e1c9e3912c4352ca5bc6" compoundref="d2/db9/outputlist_8h" startline="141" endline="142">OutputList::docify</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="df/d27/class_base_output_doc_interface_1a1577324720c1c71142dff84ae80b058d" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>void</type>
+        <definition>virtual void BaseOutputDocInterface::writeChar</definition>
+        <argsstring>(char c)=0</argsstring>
+        <name>writeChar</name>
+        <reimplementedby refid="de/da5/class_man_generator_1a5831577a90e226daf7ad892dd8744d33">writeChar</reimplementedby>
+        <reimplementedby refid="d0/da4/class_r_t_f_generator_1a1d1912d4a9d95b54ee88b12b3306e3d2">writeChar</reimplementedby>
+        <reimplementedby refid="d3/d77/class_latex_generator_1a910e0329c0a8c8b54685d2335d22f690">writeChar</reimplementedby>
+        <reimplementedby refid="d7/d41/class_html_generator_1a71e6263d7ffef2cc600e289be06c4f33">writeChar</reimplementedby>
+        <reimplementedby refid="df/dc8/class_output_list_1a188c7a8f0a0dc35ec5ea0f8b4a491d33">writeChar</reimplementedby>
+        <param>
+          <type>char</type>
+          <declname>c</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Writes a single ASCII character to the output. Converts characters that have a special meaning. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/outputgen.h" line="127"/>
+        <referencedby refid="df/dc8/class_output_list_1a188c7a8f0a0dc35ec5ea0f8b4a491d33" compoundref="d2/db9/outputlist_8h" startline="252" endline="253">OutputList::writeChar</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="df/d27/class_base_output_doc_interface_1a5737513ddf260787b5b79c84ae1059af" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>void</type>
+        <definition>virtual void BaseOutputDocInterface::writeString</definition>
+        <argsstring>(const char *text)=0</argsstring>
+        <name>writeString</name>
+        <reimplementedby refid="d0/da4/class_r_t_f_generator_1ace3fd5e7a703cbae0272372d7e55083b">writeString</reimplementedby>
+        <reimplementedby refid="de/da5/class_man_generator_1a39ca2f1de2bbbe5548f6f03997a84c88">writeString</reimplementedby>
+        <reimplementedby refid="d3/d77/class_latex_generator_1a03cd5be16357940ab7d712791fc8949e">writeString</reimplementedby>
+        <reimplementedby refid="df/dc8/class_output_list_1adeaf5f7b41eca22a3afbc415a8390767">writeString</reimplementedby>
+        <reimplementedby refid="d7/d41/class_html_generator_1ad54dd4f0dda0e22574149cfb4415ae4a">writeString</reimplementedby>
+        <param>
+          <type>const char *</type>
+          <declname>text</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Writes an ASCII string to the output, <emphasis>without</emphasis> converting special characters. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/outputgen.h" line="132"/>
+        <referencedby refid="df/dc8/class_output_list_1adeaf5f7b41eca22a3afbc415a8390767" compoundref="d2/db9/outputlist_8h" startline="115" endline="116">OutputList::writeString</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="df/d27/class_base_output_doc_interface_1a731e8b90a344b185fff49d13858efbb3" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>void</type>
+        <definition>virtual void BaseOutputDocInterface::startParagraph</definition>
+        <argsstring>()=0</argsstring>
+        <name>startParagraph</name>
+        <reimplementedby refid="d0/da4/class_r_t_f_generator_1af1118332fddc139ef5a6d37cf98fc035">startParagraph</reimplementedby>
+        <reimplementedby refid="de/da5/class_man_generator_1a294d7eed78e08af7bff45813a5f38b5b">startParagraph</reimplementedby>
+        <reimplementedby refid="d3/d77/class_latex_generator_1a40649d40755fbf1e70e5478e48ccd11a">startParagraph</reimplementedby>
+        <reimplementedby refid="df/dc8/class_output_list_1ad6c1fc2a1b67c59c1efb27fb59aa7e5f">startParagraph</reimplementedby>
+        <reimplementedby refid="d7/d41/class_html_generator_1a471c8c0a88245c500c5cc88bd64efa11">startParagraph</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Starts a new paragraph</para><para>Starts a new paragraph </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/outputgen.h" line="138"/>
+        <referencedby refid="df/dc8/class_output_list_1ad6c1fc2a1b67c59c1efb27fb59aa7e5f" compoundref="d2/db9/outputlist_8h" startline="111" endline="112">OutputList::startParagraph</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="df/d27/class_base_output_doc_interface_1ab76280c2eb451ad160991707206b6c95" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>void</type>
+        <definition>virtual void BaseOutputDocInterface::endParagraph</definition>
+        <argsstring>()=0</argsstring>
+        <name>endParagraph</name>
+        <reimplementedby refid="d0/da4/class_r_t_f_generator_1aefcb5d16655eae184dcacecfd27c0068">endParagraph</reimplementedby>
+        <reimplementedby refid="de/da5/class_man_generator_1a7c4c2315a23018eb35413776b36b29e7">endParagraph</reimplementedby>
+        <reimplementedby refid="d3/d77/class_latex_generator_1a725c87d183be3801d4ceecb793ecb458">endParagraph</reimplementedby>
+        <reimplementedby refid="df/dc8/class_output_list_1a6523eb013a6f759d505650de41855085">endParagraph</reimplementedby>
+        <reimplementedby refid="d7/d41/class_html_generator_1a48e5516f348a9ec6ed456a6a3b003af3">endParagraph</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Ends a paragraph </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/outputgen.h" line="140"/>
+        <referencedby refid="df/dc8/class_output_list_1a6523eb013a6f759d505650de41855085" compoundref="d2/db9/outputlist_8h" startline="113" endline="114">OutputList::endParagraph</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="df/d27/class_base_output_doc_interface_1a3537423635807fe140ec5be1a2198060" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>void</type>
+        <definition>virtual void BaseOutputDocInterface::writeObjectLink</definition>
+        <argsstring>(const char *ref, const char *file, const char *anchor, const char *name)=0</argsstring>
+        <name>writeObjectLink</name>
+        <reimplementedby refid="d0/da4/class_r_t_f_generator_1a5b27737ba89d55761a9908a088631367">writeObjectLink</reimplementedby>
+        <reimplementedby refid="de/da5/class_man_generator_1a4bcf9c17c915914aca7b271c85aa08ea">writeObjectLink</reimplementedby>
+        <reimplementedby refid="d3/d77/class_latex_generator_1a882b1439eadf3f6b28ba7ae0f8e22873">writeObjectLink</reimplementedby>
+        <reimplementedby refid="df/dc8/class_output_list_1a8c499e7baca8905c8e057d23f72ff548">writeObjectLink</reimplementedby>
+        <reimplementedby refid="d7/d41/class_html_generator_1a26b15cf05292634e086ec26cede20f2e">writeObjectLink</reimplementedby>
+        <param>
+          <type>const char *</type>
+          <declname>ref</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>file</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>anchor</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>name</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Writes a link to an object in the documentation. <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>ref</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>If this is non-zero, the object is to be found in an external documentation file. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>file</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The file in which the object is located. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>anchor</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The anchor uniquely identifying the object within the file. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>name</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The text to display as a placeholder for the link. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/outputgen.h" line="151"/>
+        <referencedby refid="df/dc8/class_output_list_1a8c499e7baca8905c8e057d23f72ff548" compoundref="d2/db9/outputlist_8h" startline="145" endline="147">OutputList::writeObjectLink</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="df/d27/class_base_output_doc_interface_1ab52dbf41ce337c701f9cd1e7794f80e7" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>void</type>
+        <definition>virtual void BaseOutputDocInterface::startHtmlLink</definition>
+        <argsstring>(const char *url)=0</argsstring>
+        <name>startHtmlLink</name>
+        <reimplementedby refid="d0/da4/class_r_t_f_generator_1a265ab601396745bb97d5c6cee59329d6">startHtmlLink</reimplementedby>
+        <reimplementedby refid="de/da5/class_man_generator_1a605e678d3be65519e6b94dff6e403e79">startHtmlLink</reimplementedby>
+        <reimplementedby refid="d3/d77/class_latex_generator_1a491cb262e91a3f16b37d5dd2017e2f6a">startHtmlLink</reimplementedby>
+        <reimplementedby refid="d7/d41/class_html_generator_1a5fdd7ff7fcabd4e301b8fec2b9c72b85">startHtmlLink</reimplementedby>
+        <reimplementedby refid="df/dc8/class_output_list_1acfe3869e533af42c1446e2fc91a37e5e">startHtmlLink</reimplementedby>
+        <param>
+          <type>const char *</type>
+          <declname>url</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Starts a (link to an) <ref refid="dd/d89/struct_u_r_l" kindref="compound">URL</ref> found in the documentation. <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>url</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The <ref refid="dd/d89/struct_u_r_l" kindref="compound">URL</ref> to link to. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/outputgen.h" line="157"/>
+        <referencedby refid="df/dc8/class_output_list_1acfe3869e533af42c1446e2fc91a37e5e" compoundref="d2/db9/outputlist_8h" startline="156" endline="157">OutputList::startHtmlLink</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="df/d27/class_base_output_doc_interface_1afb808c1c487135d4fb2156d0675b387e" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>void</type>
+        <definition>virtual void BaseOutputDocInterface::endHtmlLink</definition>
+        <argsstring>()=0</argsstring>
+        <name>endHtmlLink</name>
+        <reimplementedby refid="d0/da4/class_r_t_f_generator_1a73a4ea59114077ea461ff16757c8429b">endHtmlLink</reimplementedby>
+        <reimplementedby refid="de/da5/class_man_generator_1a7323695cedb872064ddb450875b2baea">endHtmlLink</reimplementedby>
+        <reimplementedby refid="d3/d77/class_latex_generator_1a28854e0713249d4ee70a0544b0ebfed5">endHtmlLink</reimplementedby>
+        <reimplementedby refid="d7/d41/class_html_generator_1af6ca967739e45755318c78058115c27a">endHtmlLink</reimplementedby>
+        <reimplementedby refid="df/dc8/class_output_list_1a14c59e71b1bb4cb6a6366a09ea62545f">endHtmlLink</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Ends a link started by <ref refid="df/d27/class_base_output_doc_interface_1ab52dbf41ce337c701f9cd1e7794f80e7" kindref="member">startHtmlLink()</ref>. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/outputgen.h" line="161"/>
+        <referencedby refid="df/dc8/class_output_list_1a14c59e71b1bb4cb6a6366a09ea62545f" compoundref="d2/db9/outputlist_8h" startline="158" endline="159">OutputList::endHtmlLink</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="df/d27/class_base_output_doc_interface_1aa0bfe5ef08077a7191ba4666f47c441b" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>void</type>
+        <definition>virtual void BaseOutputDocInterface::startBold</definition>
+        <argsstring>()=0</argsstring>
+        <name>startBold</name>
+        <reimplementedby refid="d0/da4/class_r_t_f_generator_1acb774060df0aaad9be8f91018503b20b">startBold</reimplementedby>
+        <reimplementedby refid="de/da5/class_man_generator_1a93a20331a8e073df653ed1df9834361b">startBold</reimplementedby>
+        <reimplementedby refid="d3/d77/class_latex_generator_1a48859c667b43515483f4adb04f46cf0e">startBold</reimplementedby>
+        <reimplementedby refid="d7/d41/class_html_generator_1a4785d0f1ac1828284aa1f21dbb1e3773">startBold</reimplementedby>
+        <reimplementedby refid="df/dc8/class_output_list_1a796018ee85949771252f36fea9a288d0">startBold</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Changes the text font to bold face. The bold section ends with <ref refid="df/d27/class_base_output_doc_interface_1a2a17911ba778f8efac83999fb5d190d9" kindref="member">endBold()</ref> </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/outputgen.h" line="167"/>
+        <referencedby refid="df/dc8/class_output_list_1a796018ee85949771252f36fea9a288d0" compoundref="d2/db9/outputlist_8h" startline="301" endline="302">OutputList::startBold</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="df/d27/class_base_output_doc_interface_1a2a17911ba778f8efac83999fb5d190d9" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>void</type>
+        <definition>virtual void BaseOutputDocInterface::endBold</definition>
+        <argsstring>()=0</argsstring>
+        <name>endBold</name>
+        <reimplementedby refid="d0/da4/class_r_t_f_generator_1a430a7df863505527d0b1da4c70116a05">endBold</reimplementedby>
+        <reimplementedby refid="de/da5/class_man_generator_1acc9e3c928bd473ce079e323f19948dc7">endBold</reimplementedby>
+        <reimplementedby refid="d3/d77/class_latex_generator_1ae2336bd8bc8ca0802fb94ff6953e7779">endBold</reimplementedby>
+        <reimplementedby refid="d7/d41/class_html_generator_1a8e60c605c5db7577e2e0256c0431dcb1">endBold</reimplementedby>
+        <reimplementedby refid="df/dc8/class_output_list_1aa3f855a4e60d2a7c6769b66d43c69b23">endBold</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>End a section of text displayed in bold face. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/outputgen.h" line="170"/>
+        <referencedby refid="df/dc8/class_output_list_1aa3f855a4e60d2a7c6769b66d43c69b23" compoundref="d2/db9/outputlist_8h" startline="303" endline="304">OutputList::endBold</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="df/d27/class_base_output_doc_interface_1abde41a60b900d35b0b198f43731c1cd0" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>void</type>
+        <definition>virtual void BaseOutputDocInterface::startTypewriter</definition>
+        <argsstring>()=0</argsstring>
+        <name>startTypewriter</name>
+        <reimplementedby refid="d0/da4/class_r_t_f_generator_1ac3760aa18a5102cd8e8b0a4969f0953d">startTypewriter</reimplementedby>
+        <reimplementedby refid="de/da5/class_man_generator_1aa03f575a82549d2393bb080337769f1c">startTypewriter</reimplementedby>
+        <reimplementedby refid="d3/d77/class_latex_generator_1a72fe56f1f20836344b8fdf003c1a442e">startTypewriter</reimplementedby>
+        <reimplementedby refid="d7/d41/class_html_generator_1ae3174a7318289e8f7042f2d10345c419">startTypewriter</reimplementedby>
+        <reimplementedby refid="df/dc8/class_output_list_1a848e77a8fd7af578497f7ee1ec163b98">startTypewriter</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Changes the text font to fixed size. The section ends with <ref refid="df/d27/class_base_output_doc_interface_1a9e987baf8aed76f0e5e6676b3238d2c8" kindref="member">endTypewriter()</ref> </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/outputgen.h" line="175"/>
+        <referencedby refid="df/dc8/class_output_list_1a848e77a8fd7af578497f7ee1ec163b98" compoundref="d2/db9/outputlist_8h" startline="165" endline="166">OutputList::startTypewriter</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="df/d27/class_base_output_doc_interface_1a9e987baf8aed76f0e5e6676b3238d2c8" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>void</type>
+        <definition>virtual void BaseOutputDocInterface::endTypewriter</definition>
+        <argsstring>()=0</argsstring>
+        <name>endTypewriter</name>
+        <reimplementedby refid="d0/da4/class_r_t_f_generator_1af9e17986de22ddd0b3a4afe4449b4a2c">endTypewriter</reimplementedby>
+        <reimplementedby refid="de/da5/class_man_generator_1a918922201985cac387c671a9767021d1">endTypewriter</reimplementedby>
+        <reimplementedby refid="d3/d77/class_latex_generator_1a40c84d4660b7514fb336c18544005b52">endTypewriter</reimplementedby>
+        <reimplementedby refid="d7/d41/class_html_generator_1a574b29296b93ffa4c3b119cbee70269c">endTypewriter</reimplementedby>
+        <reimplementedby refid="df/dc8/class_output_list_1ad83302c45e73f387c9dc13789df012f7">endTypewriter</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>End a section of text displayed in typewriter style. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/outputgen.h" line="178"/>
+        <referencedby refid="df/dc8/class_output_list_1ad83302c45e73f387c9dc13789df012f7" compoundref="d2/db9/outputlist_8h" startline="167" endline="168">OutputList::endTypewriter</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="df/d27/class_base_output_doc_interface_1a21debc3a6c4c58791a41e715dc78f4ab" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>void</type>
+        <definition>virtual void BaseOutputDocInterface::startEmphasis</definition>
+        <argsstring>()=0</argsstring>
+        <name>startEmphasis</name>
+        <reimplementedby refid="d0/da4/class_r_t_f_generator_1a235071d9e43bed7dabaec79e88bf43c7">startEmphasis</reimplementedby>
+        <reimplementedby refid="de/da5/class_man_generator_1a8a88956b0c96590290287835934344b9">startEmphasis</reimplementedby>
+        <reimplementedby refid="d3/d77/class_latex_generator_1a247441f3922c912966d8193f578f5c74">startEmphasis</reimplementedby>
+        <reimplementedby refid="d7/d41/class_html_generator_1afa50b0bc75a1f73eb0e86d4718534d1b">startEmphasis</reimplementedby>
+        <reimplementedby refid="df/dc8/class_output_list_1aba5576798309803175cefaedf33b2a28">startEmphasis</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Changes the text font to italic. The italic section ends with <ref refid="df/d27/class_base_output_doc_interface_1aed2cf04d82648509f97403bd4ce62590" kindref="member">endEmphasis()</ref> </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/outputgen.h" line="183"/>
+        <referencedby refid="df/dc8/class_output_list_1aba5576798309803175cefaedf33b2a28" compoundref="d2/db9/outputlist_8h" startline="248" endline="249">OutputList::startEmphasis</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="df/d27/class_base_output_doc_interface_1aed2cf04d82648509f97403bd4ce62590" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>void</type>
+        <definition>virtual void BaseOutputDocInterface::endEmphasis</definition>
+        <argsstring>()=0</argsstring>
+        <name>endEmphasis</name>
+        <reimplementedby refid="d0/da4/class_r_t_f_generator_1a283896a8d13cd017f4b765d82ba1e132">endEmphasis</reimplementedby>
+        <reimplementedby refid="de/da5/class_man_generator_1a3e158ae587148e66ad6f3d4df509ca35">endEmphasis</reimplementedby>
+        <reimplementedby refid="d3/d77/class_latex_generator_1a5837f5169fd6b05b088a4d9182756711">endEmphasis</reimplementedby>
+        <reimplementedby refid="d7/d41/class_html_generator_1a88c2f4c34f00161d34e4c1059d747381">endEmphasis</reimplementedby>
+        <reimplementedby refid="df/dc8/class_output_list_1a5674d5d9336eb1f7f6cb83c058f5ad8f">endEmphasis</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Ends a section of text displayed in italic. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/outputgen.h" line="186"/>
+        <referencedby refid="df/dc8/class_output_list_1a5674d5d9336eb1f7f6cb83c058f5ad8f" compoundref="d2/db9/outputlist_8h" startline="250" endline="251">OutputList::endEmphasis</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="df/d27/class_base_output_doc_interface_1ab19fc767b08c25b0ca7c976d24799bda" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>void</type>
+        <definition>virtual void BaseOutputDocInterface::startCodeFragment</definition>
+        <argsstring>()=0</argsstring>
+        <name>startCodeFragment</name>
+        <reimplementedby refid="d0/da4/class_r_t_f_generator_1ac7783a014fb21a8688b4f334aea2cc30">startCodeFragment</reimplementedby>
+        <reimplementedby refid="de/da5/class_man_generator_1a23377579a34bc5cee9a43885888dd5d4">startCodeFragment</reimplementedby>
+        <reimplementedby refid="d3/d77/class_latex_generator_1a4fc23629424d5f2bb82f87d2d0311361">startCodeFragment</reimplementedby>
+        <reimplementedby refid="d7/d41/class_html_generator_1ac071e1f57eb6e4b2d4baeae1723186bd">startCodeFragment</reimplementedby>
+        <reimplementedby refid="df/dc8/class_output_list_1ae9d700d50e148d13422052cd58243624">startCodeFragment</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Starts a source code fragment. The fragment will be fed to the code parser (see <ref refid="dd/dd8/code_8h_source" kindref="compound">code.h</ref>) for syntax highlighting and cross-referencing. The fragment ends by a call to <ref refid="df/d27/class_base_output_doc_interface_1a08f032482a8f23ac1aab66552db43a81" kindref="member">endCodeFragment()</ref> </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/outputgen.h" line="193"/>
+        <referencedby refid="df/dc8/class_output_list_1ae9d700d50e148d13422052cd58243624" compoundref="d2/db9/outputlist_8h" startline="237" endline="238">OutputList::startCodeFragment</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="df/d27/class_base_output_doc_interface_1a08f032482a8f23ac1aab66552db43a81" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>void</type>
+        <definition>virtual void BaseOutputDocInterface::endCodeFragment</definition>
+        <argsstring>()=0</argsstring>
+        <name>endCodeFragment</name>
+        <reimplementedby refid="d0/da4/class_r_t_f_generator_1ae75111adf81a1179b924ab7656d8c74c">endCodeFragment</reimplementedby>
+        <reimplementedby refid="de/da5/class_man_generator_1a4e825c27561ebb51c155840d9101725a">endCodeFragment</reimplementedby>
+        <reimplementedby refid="d3/d77/class_latex_generator_1a761292f353178bad45e21ca40cbe6115">endCodeFragment</reimplementedby>
+        <reimplementedby refid="d7/d41/class_html_generator_1a6df6ede2137490c79228b9825df3b263">endCodeFragment</reimplementedby>
+        <reimplementedby refid="df/dc8/class_output_list_1a9fccddf083f487654f6e6ce261fafff8">endCodeFragment</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Ends a source code fragment </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/outputgen.h" line="197"/>
+        <referencedby refid="df/dc8/class_output_list_1a9fccddf083f487654f6e6ce261fafff8" compoundref="d2/db9/outputlist_8h" startline="239" endline="240">OutputList::endCodeFragment</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="df/d27/class_base_output_doc_interface_1ade0d004fb6e8641c92f2f144d7242f0b" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>void</type>
+        <definition>virtual void BaseOutputDocInterface::writeRuler</definition>
+        <argsstring>()=0</argsstring>
+        <name>writeRuler</name>
+        <reimplementedby refid="d0/da4/class_r_t_f_generator_1a97d0c2260e0642d5b6ac0117b2e91687">writeRuler</reimplementedby>
+        <reimplementedby refid="de/da5/class_man_generator_1ab7a5373b1e631879e56bf5699e00cfe2">writeRuler</reimplementedby>
+        <reimplementedby refid="d3/d77/class_latex_generator_1a3b87ba9aa190c6337db947023df1c0cc">writeRuler</reimplementedby>
+        <reimplementedby refid="d7/d41/class_html_generator_1aa8f5d1eab68eb5fd43f2529c947f0a02">writeRuler</reimplementedby>
+        <reimplementedby refid="df/dc8/class_output_list_1a2203589f0bc276cb3ba01f529b9536a9">writeRuler</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Writes a horizontal ruler to the output </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/outputgen.h" line="203"/>
+        <referencedby refid="df/dc8/class_output_list_1a2203589f0bc276cb3ba01f529b9536a9" compoundref="d2/db9/outputlist_8h" startline="233" endline="234">OutputList::writeRuler</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="df/d27/class_base_output_doc_interface_1ac9c801c3ad0b50e3e69be184b50c2fef" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>void</type>
+        <definition>virtual void BaseOutputDocInterface::startDescription</definition>
+        <argsstring>()=0</argsstring>
+        <name>startDescription</name>
+        <reimplementedby refid="d0/da4/class_r_t_f_generator_1a9c6c7896f2bd09fb5e6ce53b9e6cee5c">startDescription</reimplementedby>
+        <reimplementedby refid="de/da5/class_man_generator_1a40c97f2dcd8827c13a9d1eedb96701b5">startDescription</reimplementedby>
+        <reimplementedby refid="d3/d77/class_latex_generator_1a32a518fb74711bc0e791c03e95c666cb">startDescription</reimplementedby>
+        <reimplementedby refid="d7/d41/class_html_generator_1a8ae03ee5e64d705aeebbe605d3c05b0f">startDescription</reimplementedby>
+        <reimplementedby refid="df/dc8/class_output_list_1a63dfb00b7d99d58acfb89473ab8ac7d8">startDescription</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Starts a description list: e.g. <computeroutput>&lt;dl&gt;</computeroutput> in HTML Items are surrounded by <ref refid="df/d27/class_base_output_doc_interface_1a5d1cc59d94c3f529c90e0a06704be181" kindref="member">startDescItem()</ref> and <ref refid="df/d27/class_base_output_doc_interface_1a09e3aa9d3faac55b2cc9290eaa69f55b" kindref="member">endDescItem()</ref> </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/outputgen.h" line="208"/>
+        <referencedby refid="df/dc8/class_output_list_1a63dfb00b7d99d58acfb89473ab8ac7d8" compoundref="d2/db9/outputlist_8h" startline="271" endline="272">OutputList::startDescription</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="df/d27/class_base_output_doc_interface_1ac25c565e9fd8aee6c2b0d9b71fcff380" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>void</type>
+        <definition>virtual void BaseOutputDocInterface::endDescription</definition>
+        <argsstring>()=0</argsstring>
+        <name>endDescription</name>
+        <reimplementedby refid="d0/da4/class_r_t_f_generator_1a4c9b42e803206c575f464d82eec460d9">endDescription</reimplementedby>
+        <reimplementedby refid="de/da5/class_man_generator_1a04db9176fd114182d5aab2a48346621d">endDescription</reimplementedby>
+        <reimplementedby refid="d3/d77/class_latex_generator_1a3da64ef2d6cfe58facd7a35ad736ea83">endDescription</reimplementedby>
+        <reimplementedby refid="d7/d41/class_html_generator_1aff598e78fc1ebaefb21fe94fda564e4d">endDescription</reimplementedby>
+        <reimplementedby refid="df/dc8/class_output_list_1a231f2150bf8b3d9823cb1f201ecc6774">endDescription</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Ends a description list: e.g. <computeroutput>&lt;/dl&gt;</computeroutput> in HTML </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/outputgen.h" line="211"/>
+        <referencedby refid="df/dc8/class_output_list_1a231f2150bf8b3d9823cb1f201ecc6774" compoundref="d2/db9/outputlist_8h" startline="273" endline="274">OutputList::endDescription</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="df/d27/class_base_output_doc_interface_1a5d1cc59d94c3f529c90e0a06704be181" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>void</type>
+        <definition>virtual void BaseOutputDocInterface::startDescItem</definition>
+        <argsstring>()=0</argsstring>
+        <name>startDescItem</name>
+        <reimplementedby refid="d0/da4/class_r_t_f_generator_1a39ef721382a2a25ef0a41463a34f1b02">startDescItem</reimplementedby>
+        <reimplementedby refid="de/da5/class_man_generator_1a3230aa59d50e8bdbbfb94e56bd956f56">startDescItem</reimplementedby>
+        <reimplementedby refid="d3/d77/class_latex_generator_1a92603047f2bff0fef3c2bd5ed1be73d9">startDescItem</reimplementedby>
+        <reimplementedby refid="d7/d41/class_html_generator_1a7a4d4ef015bc9d8298a6c023f85737c5">startDescItem</reimplementedby>
+        <reimplementedby refid="df/dc8/class_output_list_1a021752b31f2577c15d6cef3e858c84d8">startDescItem</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Starts an item of a description list: e.g. <computeroutput>&lt;dt&gt;</computeroutput> in HTML. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/outputgen.h" line="214"/>
+        <referencedby refid="df/dc8/class_output_list_1a021752b31f2577c15d6cef3e858c84d8" compoundref="d2/db9/outputlist_8h" startline="275" endline="276">OutputList::startDescItem</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="df/d27/class_base_output_doc_interface_1a4bd0d53fa5bd37ab551b462fa1935cff" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>void</type>
+        <definition>virtual void BaseOutputDocInterface::startDescForItem</definition>
+        <argsstring>()=0</argsstring>
+        <name>startDescForItem</name>
+        <reimplementedby refid="d0/da4/class_r_t_f_generator_1af015080aa4a53dc119385ed520258a93">startDescForItem</reimplementedby>
+        <reimplementedby refid="de/da5/class_man_generator_1ae826d6dc94da45c9b35bb715ab316656">startDescForItem</reimplementedby>
+        <reimplementedby refid="d3/d77/class_latex_generator_1a423a4c8f0d6b49352edcfa7261fdb1c0">startDescForItem</reimplementedby>
+        <reimplementedby refid="d7/d41/class_html_generator_1a760684d94139338dc683a816a6d59e3d">startDescForItem</reimplementedby>
+        <reimplementedby refid="df/dc8/class_output_list_1a8ac4a6e52094643a093fcdeedf1ae0bc">startDescForItem</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/outputgen.h" line="216"/>
+      </memberdef>
+      <memberdef kind="function" id="df/d27/class_base_output_doc_interface_1a1b04c0dc473f245979860c158ea450e7" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>void</type>
+        <definition>virtual void BaseOutputDocInterface::endDescForItem</definition>
+        <argsstring>()=0</argsstring>
+        <name>endDescForItem</name>
+        <reimplementedby refid="d0/da4/class_r_t_f_generator_1ad60deab094f7a994b685e0b55639839c">endDescForItem</reimplementedby>
+        <reimplementedby refid="de/da5/class_man_generator_1a0729f8d1cc066dd6629a0c7bd765bc81">endDescForItem</reimplementedby>
+        <reimplementedby refid="d3/d77/class_latex_generator_1a435efc951be4e6d166b4658a34d8b810">endDescForItem</reimplementedby>
+        <reimplementedby refid="d7/d41/class_html_generator_1a67179d9c17833aacd71619f5046859b3">endDescForItem</reimplementedby>
+        <reimplementedby refid="df/dc8/class_output_list_1a5e1d56ddf6a6238a4e1b8733d057c782">endDescForItem</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/outputgen.h" line="217"/>
+      </memberdef>
+      <memberdef kind="function" id="df/d27/class_base_output_doc_interface_1a09e3aa9d3faac55b2cc9290eaa69f55b" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>void</type>
+        <definition>virtual void BaseOutputDocInterface::endDescItem</definition>
+        <argsstring>()=0</argsstring>
+        <name>endDescItem</name>
+        <reimplementedby refid="d0/da4/class_r_t_f_generator_1aaeb8cbfab437b4198548c4f06dc12847">endDescItem</reimplementedby>
+        <reimplementedby refid="de/da5/class_man_generator_1ab86f06d399e075e2b6855319bf26e1ec">endDescItem</reimplementedby>
+        <reimplementedby refid="d3/d77/class_latex_generator_1aa675b530ccd61f9c4784efc2abcedbaa">endDescItem</reimplementedby>
+        <reimplementedby refid="d7/d41/class_html_generator_1a0354681e6d39ae7da41d33f88656e335">endDescItem</reimplementedby>
+        <reimplementedby refid="df/dc8/class_output_list_1aca7c1dd564ed727ce77f9f2bc43a74ea">endDescItem</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Ends an item of a description list and starts the description itself: e.g. <computeroutput>&lt;/dt&gt;</computeroutput> in HTML. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/outputgen.h" line="222"/>
+        <referencedby refid="df/dc8/class_output_list_1aca7c1dd564ed727ce77f9f2bc43a74ea" compoundref="d2/db9/outputlist_8h" startline="277" endline="278">OutputList::endDescItem</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="df/d27/class_base_output_doc_interface_1af7740896d897da2924e8d8818858edd1" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>void</type>
+        <definition>virtual void BaseOutputDocInterface::startCenter</definition>
+        <argsstring>()=0</argsstring>
+        <name>startCenter</name>
+        <reimplementedby refid="d0/da4/class_r_t_f_generator_1aeaaadb26bd52241ae6a838608f30652b">startCenter</reimplementedby>
+        <reimplementedby refid="de/da5/class_man_generator_1a0779e3309c5b48fef8be36d066e51879">startCenter</reimplementedby>
+        <reimplementedby refid="d3/d77/class_latex_generator_1a9ee4283738dc975f9b31b554a0de945e">startCenter</reimplementedby>
+        <reimplementedby refid="d7/d41/class_html_generator_1a233402f133de12862b43bfdd202fd050">startCenter</reimplementedby>
+        <reimplementedby refid="df/dc8/class_output_list_1acc709b251fc97e9e5c7d3d205ffb0a5e">startCenter</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/outputgen.h" line="224"/>
+      </memberdef>
+      <memberdef kind="function" id="df/d27/class_base_output_doc_interface_1aacbcdb867519fce8db354460566aa4ea" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>void</type>
+        <definition>virtual void BaseOutputDocInterface::endCenter</definition>
+        <argsstring>()=0</argsstring>
+        <name>endCenter</name>
+        <reimplementedby refid="d0/da4/class_r_t_f_generator_1ad5b630364443ea63a67af9166b9cbaad">endCenter</reimplementedby>
+        <reimplementedby refid="de/da5/class_man_generator_1ac97abbbcd519a1c77f62516634feff3f">endCenter</reimplementedby>
+        <reimplementedby refid="d3/d77/class_latex_generator_1a8c5c4da427d30d6ef2756c036e0e88d1">endCenter</reimplementedby>
+        <reimplementedby refid="d7/d41/class_html_generator_1abc11851ba8f0b133e5c664ecd9504496">endCenter</reimplementedby>
+        <reimplementedby refid="df/dc8/class_output_list_1ad71b2d5a74052d9539968a25e7d86bb0">endCenter</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/outputgen.h" line="225"/>
+      </memberdef>
+      <memberdef kind="function" id="df/d27/class_base_output_doc_interface_1aa48fb5d720aabf2dc67d866b9861f733" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>void</type>
+        <definition>virtual void BaseOutputDocInterface::startSmall</definition>
+        <argsstring>()=0</argsstring>
+        <name>startSmall</name>
+        <reimplementedby refid="d0/da4/class_r_t_f_generator_1abef7c0c5864bfb1dfce99d181ae1e51c">startSmall</reimplementedby>
+        <reimplementedby refid="de/da5/class_man_generator_1a5a3d0de8665d88ae599c1d3d408356d3">startSmall</reimplementedby>
+        <reimplementedby refid="d3/d77/class_latex_generator_1a1b522f2da59b6ee8f3ac0d10478ea9bd">startSmall</reimplementedby>
+        <reimplementedby refid="d7/d41/class_html_generator_1abfec4f0b6bf47b4bf4635876f094363e">startSmall</reimplementedby>
+        <reimplementedby refid="df/dc8/class_output_list_1acf8ce762c6c7838d86ad132f20a2306a">startSmall</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/outputgen.h" line="226"/>
+      </memberdef>
+      <memberdef kind="function" id="df/d27/class_base_output_doc_interface_1aece1c56c3a382b5e7228f034e600b43f" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>void</type>
+        <definition>virtual void BaseOutputDocInterface::endSmall</definition>
+        <argsstring>()=0</argsstring>
+        <name>endSmall</name>
+        <reimplementedby refid="d0/da4/class_r_t_f_generator_1a2ac789ba16b4fa9f8c64fe59041e9699">endSmall</reimplementedby>
+        <reimplementedby refid="de/da5/class_man_generator_1a1e934fe458d046107d45ab389ea645d8">endSmall</reimplementedby>
+        <reimplementedby refid="d3/d77/class_latex_generator_1aa0f89ab599109d222204ed70531feb84">endSmall</reimplementedby>
+        <reimplementedby refid="d7/d41/class_html_generator_1aae94afd45fc65086afdc6c3204e67a1f">endSmall</reimplementedby>
+        <reimplementedby refid="df/dc8/class_output_list_1a8142de5d17dd16fce39b80c0dfc3dfe2">endSmall</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/outputgen.h" line="227"/>
+      </memberdef>
+      <memberdef kind="function" id="df/d27/class_base_output_doc_interface_1aa70bb07889b548a670a5b30f53fd8046" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>void</type>
+        <definition>virtual void BaseOutputDocInterface::startSimpleSect</definition>
+        <argsstring>(SectionTypes t, const char *file, const char *anchor, const char *title)=0</argsstring>
+        <name>startSimpleSect</name>
+        <reimplementedby refid="d0/da4/class_r_t_f_generator_1a13765dff479a88399169576b49350909">startSimpleSect</reimplementedby>
+        <reimplementedby refid="de/da5/class_man_generator_1a9071e3acc29d0ec5163b79b41ed9b0fa">startSimpleSect</reimplementedby>
+        <reimplementedby refid="d3/d77/class_latex_generator_1a854408e8d2e2dae3a8623303efff9be2">startSimpleSect</reimplementedby>
+        <reimplementedby refid="d7/d41/class_html_generator_1aca9d9cd03420d38b7103c86dea817a1b">startSimpleSect</reimplementedby>
+        <reimplementedby refid="df/dc8/class_output_list_1a2bf0b9cae987f44d8eb7fe798b219512">startSimpleSect</reimplementedby>
+        <param>
+          <type>SectionTypes</type>
+          <declname>t</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>file</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>anchor</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>title</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/outputgen.h" line="230"/>
+      </memberdef>
+      <memberdef kind="function" id="df/d27/class_base_output_doc_interface_1a4519107f922ba406e50b84a2a6b274b7" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>void</type>
+        <definition>virtual void BaseOutputDocInterface::endSimpleSect</definition>
+        <argsstring>()=0</argsstring>
+        <name>endSimpleSect</name>
+        <reimplementedby refid="d0/da4/class_r_t_f_generator_1a8afb99af4261fe3e962951a6bc9ba4b8">endSimpleSect</reimplementedby>
+        <reimplementedby refid="de/da5/class_man_generator_1a727316739c8b0ba879ad127f1373ff10">endSimpleSect</reimplementedby>
+        <reimplementedby refid="d3/d77/class_latex_generator_1a77de974324f4e432fdc7511a35420a01">endSimpleSect</reimplementedby>
+        <reimplementedby refid="d7/d41/class_html_generator_1a96f0170ae27a873fbbf9570deedf51d9">endSimpleSect</reimplementedby>
+        <reimplementedby refid="df/dc8/class_output_list_1ad6ec67690fed6ec9b09df3d7c98f673f">endSimpleSect</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/outputgen.h" line="231"/>
+      </memberdef>
+      <memberdef kind="function" id="df/d27/class_base_output_doc_interface_1a0fe360d170bf70af8455d521ecad8cab" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>void</type>
+        <definition>virtual void BaseOutputDocInterface::startParamList</definition>
+        <argsstring>(ParamListTypes t, const char *title)=0</argsstring>
+        <name>startParamList</name>
+        <reimplementedby refid="d0/da4/class_r_t_f_generator_1a009a5bf6c30b65c6aa66d9cd924f0af7">startParamList</reimplementedby>
+        <reimplementedby refid="de/da5/class_man_generator_1a12ce892150a512ed5803e90ad684dd0a">startParamList</reimplementedby>
+        <reimplementedby refid="d3/d77/class_latex_generator_1a2ee56b14fecf40c894b24bab806fb6b1">startParamList</reimplementedby>
+        <reimplementedby refid="d7/d41/class_html_generator_1a65ea430579ba2d902cfb1afbb740f225">startParamList</reimplementedby>
+        <reimplementedby refid="df/dc8/class_output_list_1ab981978bf338f7ebf63200533a99d305">startParamList</reimplementedby>
+        <param>
+          <type>ParamListTypes</type>
+          <declname>t</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>title</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/outputgen.h" line="232"/>
+      </memberdef>
+      <memberdef kind="function" id="df/d27/class_base_output_doc_interface_1a2e18469ef7e3f144e05d7713efaa9aac" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>void</type>
+        <definition>virtual void BaseOutputDocInterface::endParamList</definition>
+        <argsstring>()=0</argsstring>
+        <name>endParamList</name>
+        <reimplementedby refid="d0/da4/class_r_t_f_generator_1ac34fa07c0453017057bf8d6b9863c8d4">endParamList</reimplementedby>
+        <reimplementedby refid="de/da5/class_man_generator_1a08de61d7842d7920e0cffe03213f31fb">endParamList</reimplementedby>
+        <reimplementedby refid="d3/d77/class_latex_generator_1ac4add448cd45bd24b9055e59ca16c0e1">endParamList</reimplementedby>
+        <reimplementedby refid="d7/d41/class_html_generator_1a540b07cf18af5217bac8603e32c8586a">endParamList</reimplementedby>
+        <reimplementedby refid="df/dc8/class_output_list_1a9f7355d80e1d26ae3c1daec5c156bbfb">endParamList</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/outputgen.h" line="233"/>
+      </memberdef>
+      <memberdef kind="function" id="df/d27/class_base_output_doc_interface_1a52507f4f611800062e6776704d3c0eaf" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>void</type>
+        <definition>virtual void BaseOutputDocInterface::startTitle</definition>
+        <argsstring>()=0</argsstring>
+        <name>startTitle</name>
+        <reimplementedby refid="d0/da4/class_r_t_f_generator_1af0954cd0854f60839004dda1b134f7e3">startTitle</reimplementedby>
+        <reimplementedby refid="de/da5/class_man_generator_1ae53c0d4f7905f85069f2e253f97f99a6">startTitle</reimplementedby>
+        <reimplementedby refid="d3/d77/class_latex_generator_1a4d1236763a4e5149866e3bae4961b13c">startTitle</reimplementedby>
+        <reimplementedby refid="df/dc8/class_output_list_1a0edaede07adae2149d715105433848c9">startTitle</reimplementedby>
+        <reimplementedby refid="d7/d41/class_html_generator_1a0fd5a2e848ea16b025b1fb07b4b307fc">startTitle</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/outputgen.h" line="236"/>
+      </memberdef>
+      <memberdef kind="function" id="df/d27/class_base_output_doc_interface_1a5dee56a3a18bafb23c30f42e6575210f" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>void</type>
+        <definition>virtual void BaseOutputDocInterface::endTitle</definition>
+        <argsstring>()=0</argsstring>
+        <name>endTitle</name>
+        <reimplementedby refid="d0/da4/class_r_t_f_generator_1a9cc9028ce4b47900b45798c2d2006eca">endTitle</reimplementedby>
+        <reimplementedby refid="de/da5/class_man_generator_1a5f10174e0eec5ab53365aad27ad48f22">endTitle</reimplementedby>
+        <reimplementedby refid="d3/d77/class_latex_generator_1a39f79e928a962730a332e6d9dd9b251e">endTitle</reimplementedby>
+        <reimplementedby refid="df/dc8/class_output_list_1a6b1d6b4e89edaebfe3291b24505e80c5">endTitle</reimplementedby>
+        <reimplementedby refid="d7/d41/class_html_generator_1ae1337adbb5ad6cea03fcee0d5a7cdfce">endTitle</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/outputgen.h" line="237"/>
+      </memberdef>
+      <memberdef kind="function" id="df/d27/class_base_output_doc_interface_1a02ec04af87e175323ad789347884c896" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>void</type>
+        <definition>virtual void BaseOutputDocInterface::writeAnchor</definition>
+        <argsstring>(const char *fileName, const char *name)=0</argsstring>
+        <name>writeAnchor</name>
+        <reimplementedby refid="d0/da4/class_r_t_f_generator_1a425368bac3a2fb414b747ae60a1e2301">writeAnchor</reimplementedby>
+        <reimplementedby refid="de/da5/class_man_generator_1a196669b4dd3c70556bf585925ae824fe">writeAnchor</reimplementedby>
+        <reimplementedby refid="d3/d77/class_latex_generator_1a158d49cddc6c34aea663fe0726616332">writeAnchor</reimplementedby>
+        <reimplementedby refid="d7/d41/class_html_generator_1a9bc82a247269f9294be37a72460f5ff8">writeAnchor</reimplementedby>
+        <reimplementedby refid="df/dc8/class_output_list_1af547c76944d466ab7c66ab31b32bde13">writeAnchor</reimplementedby>
+        <param>
+          <type>const char *</type>
+          <declname>fileName</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>name</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/outputgen.h" line="239"/>
+      </memberdef>
+      <memberdef kind="function" id="df/d27/class_base_output_doc_interface_1a820f65539d9328cfafe23a2542375853" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>void</type>
+        <definition>virtual void BaseOutputDocInterface::startSection</definition>
+        <argsstring>(const char *, const char *, SectionInfo::SectionType)=0</argsstring>
+        <name>startSection</name>
+        <reimplementedby refid="d0/da4/class_r_t_f_generator_1aa28599035df308890bfb4abfcd322c6d">startSection</reimplementedby>
+        <reimplementedby refid="de/da5/class_man_generator_1ad22a90e2eed1e0487fb500674e004e91">startSection</reimplementedby>
+        <reimplementedby refid="d3/d77/class_latex_generator_1a93e679ac80ca24f50f72fefa51e7d98e">startSection</reimplementedby>
+        <reimplementedby refid="d7/d41/class_html_generator_1a8be287f3a8b68b1aaf0ce945a246ef32">startSection</reimplementedby>
+        <reimplementedby refid="df/dc8/class_output_list_1a9a1d1f6dbf37a65e8ebe099e8c3dd5cf">startSection</reimplementedby>
+        <param>
+          <type>const char *</type>
+        </param>
+        <param>
+          <type>const char *</type>
+        </param>
+        <param>
+          <type>SectionInfo::SectionType</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/outputgen.h" line="240"/>
+      </memberdef>
+      <memberdef kind="function" id="df/d27/class_base_output_doc_interface_1a754ab1bd2b1a2cf82ac1207822e76f59" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>void</type>
+        <definition>virtual void BaseOutputDocInterface::endSection</definition>
+        <argsstring>(const char *, SectionInfo::SectionType)=0</argsstring>
+        <name>endSection</name>
+        <reimplementedby refid="d0/da4/class_r_t_f_generator_1af33a34d8ccdbda134053ca89eeeacf5a">endSection</reimplementedby>
+        <reimplementedby refid="de/da5/class_man_generator_1a08b9cad6ac2d759823224b4580c77fd3">endSection</reimplementedby>
+        <reimplementedby refid="d3/d77/class_latex_generator_1aec87e4e5a2e5f72924316fb20005903b">endSection</reimplementedby>
+        <reimplementedby refid="d7/d41/class_html_generator_1a0f92a2fa1124ae02396ed560aa925b0f">endSection</reimplementedby>
+        <reimplementedby refid="df/dc8/class_output_list_1ae50a2aac014352256bd3772f4e98237e">endSection</reimplementedby>
+        <param>
+          <type>const char *</type>
+        </param>
+        <param>
+          <type>SectionInfo::SectionType</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/outputgen.h" line="241"/>
+      </memberdef>
+      <memberdef kind="function" id="df/d27/class_base_output_doc_interface_1ada61ce97bb848a4e73f60c351e217391" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>void</type>
+        <definition>virtual void BaseOutputDocInterface::lineBreak</definition>
+        <argsstring>(const char *style)=0</argsstring>
+        <name>lineBreak</name>
+        <reimplementedby refid="d0/da4/class_r_t_f_generator_1aac2aff06973207c6c7e5b2e5f1984482">lineBreak</reimplementedby>
+        <reimplementedby refid="de/da5/class_man_generator_1a3c7ce366b7915a1c3dc6129182f0f9e8">lineBreak</reimplementedby>
+        <reimplementedby refid="d3/d77/class_latex_generator_1a91b269c8334ab9dffaf5d07d4c34ae69">lineBreak</reimplementedby>
+        <reimplementedby refid="d7/d41/class_html_generator_1a0931c48e06fde3d6fca0940261ea8e4f">lineBreak</reimplementedby>
+        <reimplementedby refid="df/dc8/class_output_list_1a492a56a47cd88f46dfc05279a692159e">lineBreak</reimplementedby>
+        <param>
+          <type>const char *</type>
+          <declname>style</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/outputgen.h" line="243"/>
+      </memberdef>
+      <memberdef kind="function" id="df/d27/class_base_output_doc_interface_1acc5ad4f6230310456380f4db9a407161" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>void</type>
+        <definition>virtual void BaseOutputDocInterface::addIndexItem</definition>
+        <argsstring>(const char *s1, const char *s2)=0</argsstring>
+        <name>addIndexItem</name>
+        <reimplementedby refid="d0/da4/class_r_t_f_generator_1af35b41bf3bcf9a94af08ba6d68d2df23">addIndexItem</reimplementedby>
+        <reimplementedby refid="de/da5/class_man_generator_1a290636c8090c771e5fd94e35cce35248">addIndexItem</reimplementedby>
+        <reimplementedby refid="d3/d77/class_latex_generator_1aabbdce121f41f32494aa03a28863840d">addIndexItem</reimplementedby>
+        <reimplementedby refid="d7/d41/class_html_generator_1aa966249e9239eff3631f57211f314504">addIndexItem</reimplementedby>
+        <reimplementedby refid="df/dc8/class_output_list_1a4d682e57f5f0365a943aeb116ccbfc45">addIndexItem</reimplementedby>
+        <param>
+          <type>const char *</type>
+          <declname>s1</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>s2</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/outputgen.h" line="244"/>
+      </memberdef>
+      <memberdef kind="function" id="df/d27/class_base_output_doc_interface_1a7a6903af564a1de397adb0887e7e419a" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>void</type>
+        <definition>virtual void BaseOutputDocInterface::writeNonBreakableSpace</definition>
+        <argsstring>(int)=0</argsstring>
+        <name>writeNonBreakableSpace</name>
+        <reimplementedby refid="d0/da4/class_r_t_f_generator_1a0f51f9022b3e8f3d95f154e0d4d5b201">writeNonBreakableSpace</reimplementedby>
+        <reimplementedby refid="de/da5/class_man_generator_1ab73e17675d0c5ce30b48c9815c60ba74">writeNonBreakableSpace</reimplementedby>
+        <reimplementedby refid="d3/d77/class_latex_generator_1a5e671bec2d4436bc8dd7577ac925eaac">writeNonBreakableSpace</reimplementedby>
+        <reimplementedby refid="d7/d41/class_html_generator_1aca7f1402f6cc3d9efbe9815ab8de3cc5">writeNonBreakableSpace</reimplementedby>
+        <reimplementedby refid="df/dc8/class_output_list_1ae6cc078977edd1e2a5ae2cf6ed64ed35">writeNonBreakableSpace</reimplementedby>
+        <param>
+          <type>int</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/outputgen.h" line="246"/>
+      </memberdef>
+      <memberdef kind="function" id="df/d27/class_base_output_doc_interface_1ae8d272c529f66d55e23b63a8cbb1abd7" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>void</type>
+        <definition>virtual void BaseOutputDocInterface::startDescTable</definition>
+        <argsstring>(const char *title)=0</argsstring>
+        <name>startDescTable</name>
+        <reimplementedby refid="d0/da4/class_r_t_f_generator_1ac5e98d54b526e7f2356dfb673bef4119">startDescTable</reimplementedby>
+        <reimplementedby refid="de/da5/class_man_generator_1a7af24abd8f1dc66da50b6e515e12ed68">startDescTable</reimplementedby>
+        <reimplementedby refid="d3/d77/class_latex_generator_1a6cedf5f253f92b21a660f5014988866a">startDescTable</reimplementedby>
+        <reimplementedby refid="d7/d41/class_html_generator_1ad238943ff33bd9b0ea5e566f0be9a168">startDescTable</reimplementedby>
+        <reimplementedby refid="df/dc8/class_output_list_1afbb3ffe228e3d50508ee7161194344fc">startDescTable</reimplementedby>
+        <param>
+          <type>const char *</type>
+          <declname>title</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/outputgen.h" line="247"/>
+      </memberdef>
+      <memberdef kind="function" id="df/d27/class_base_output_doc_interface_1acad6dba3f360141250109216856eff38" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>void</type>
+        <definition>virtual void BaseOutputDocInterface::endDescTable</definition>
+        <argsstring>()=0</argsstring>
+        <name>endDescTable</name>
+        <reimplementedby refid="d0/da4/class_r_t_f_generator_1ae98972ee6670de733f0ec0fa00cb1a67">endDescTable</reimplementedby>
+        <reimplementedby refid="de/da5/class_man_generator_1a0d3eea58e70d7213f199e3ed11d490dc">endDescTable</reimplementedby>
+        <reimplementedby refid="d3/d77/class_latex_generator_1a93e92fa0f35e8f3da32b0f08597a0285">endDescTable</reimplementedby>
+        <reimplementedby refid="d7/d41/class_html_generator_1adc3d1eed2818cdd2a01eb1eacc0ad08d">endDescTable</reimplementedby>
+        <reimplementedby refid="df/dc8/class_output_list_1a223fb4453aeeaf8270e8bd5f875ed9c9">endDescTable</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/outputgen.h" line="248"/>
+      </memberdef>
+      <memberdef kind="function" id="df/d27/class_base_output_doc_interface_1a2a026821caecc0397f2c21fd1a1de095" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>void</type>
+        <definition>virtual void BaseOutputDocInterface::startDescTableTitle</definition>
+        <argsstring>()=0</argsstring>
+        <name>startDescTableTitle</name>
+        <reimplementedby refid="d0/da4/class_r_t_f_generator_1afa65fd09520391f8db47a98d2ac210c3">startDescTableTitle</reimplementedby>
+        <reimplementedby refid="de/da5/class_man_generator_1a43e02986b96420b036ba2204db980994">startDescTableTitle</reimplementedby>
+        <reimplementedby refid="d3/d77/class_latex_generator_1a229466fe4c9fa9251c0bfb514600feaf">startDescTableTitle</reimplementedby>
+        <reimplementedby refid="d7/d41/class_html_generator_1a3513b8c53063d076b85ffb8e0608cd9d">startDescTableTitle</reimplementedby>
+        <reimplementedby refid="df/dc8/class_output_list_1a6b984edbfa21eecfe20b2a7a3ef0fc97">startDescTableTitle</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/outputgen.h" line="249"/>
+      </memberdef>
+      <memberdef kind="function" id="df/d27/class_base_output_doc_interface_1a1106996c286d637c873c819adc5072ba" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>void</type>
+        <definition>virtual void BaseOutputDocInterface::endDescTableTitle</definition>
+        <argsstring>()=0</argsstring>
+        <name>endDescTableTitle</name>
+        <reimplementedby refid="d0/da4/class_r_t_f_generator_1a9c091d5c54d49a0eebac04726a8c0f39">endDescTableTitle</reimplementedby>
+        <reimplementedby refid="de/da5/class_man_generator_1a27152804f9384ad60557157f5e5be5da">endDescTableTitle</reimplementedby>
+        <reimplementedby refid="d3/d77/class_latex_generator_1a3481549b50ac3745a5de40a590bf1fb5">endDescTableTitle</reimplementedby>
+        <reimplementedby refid="d7/d41/class_html_generator_1ac070a0a291e13f63c3d17294244960d6">endDescTableTitle</reimplementedby>
+        <reimplementedby refid="df/dc8/class_output_list_1a51b3d439827ec272ecc6e8c2e108eac0">endDescTableTitle</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/outputgen.h" line="250"/>
+      </memberdef>
+      <memberdef kind="function" id="df/d27/class_base_output_doc_interface_1ae9e8390997be56f776e966c0f906483d" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>void</type>
+        <definition>virtual void BaseOutputDocInterface::startDescTableData</definition>
+        <argsstring>()=0</argsstring>
+        <name>startDescTableData</name>
+        <reimplementedby refid="d0/da4/class_r_t_f_generator_1ac79979b6bd1ccc052698058158d2f1e6">startDescTableData</reimplementedby>
+        <reimplementedby refid="de/da5/class_man_generator_1a1a7710a1e0c3c53a8729bda81863addc">startDescTableData</reimplementedby>
+        <reimplementedby refid="d3/d77/class_latex_generator_1a2fca61002fe342c603e112cc4e99921f">startDescTableData</reimplementedby>
+        <reimplementedby refid="d7/d41/class_html_generator_1acf27d538b5edea06a1ec91813ca059fd">startDescTableData</reimplementedby>
+        <reimplementedby refid="df/dc8/class_output_list_1a8823d3ed58554ae3eeb9169ff920ba00">startDescTableData</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/outputgen.h" line="251"/>
+      </memberdef>
+      <memberdef kind="function" id="df/d27/class_base_output_doc_interface_1a7448492f455ed3dbff7dbedc00bb7be2" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>void</type>
+        <definition>virtual void BaseOutputDocInterface::endDescTableData</definition>
+        <argsstring>()=0</argsstring>
+        <name>endDescTableData</name>
+        <reimplementedby refid="d0/da4/class_r_t_f_generator_1ab98bd7772c1a72bf4d2cac4c00aa90a2">endDescTableData</reimplementedby>
+        <reimplementedby refid="de/da5/class_man_generator_1a98fcb779ebc649bc817dc7ce7fd53caf">endDescTableData</reimplementedby>
+        <reimplementedby refid="d3/d77/class_latex_generator_1aa3830e8ae350a66bbec769c2a9337305">endDescTableData</reimplementedby>
+        <reimplementedby refid="d7/d41/class_html_generator_1a20750bdcf48a3104469275333d41f942">endDescTableData</reimplementedby>
+        <reimplementedby refid="df/dc8/class_output_list_1a66b7fd1338764cbe47b66d3f9e77bb07">endDescTableData</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/outputgen.h" line="252"/>
+      </memberdef>
+      <memberdef kind="function" id="df/d27/class_base_output_doc_interface_1af3e8e537c3a2379071c3573d25a64d03" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>void</type>
+        <definition>virtual void BaseOutputDocInterface::startTextLink</definition>
+        <argsstring>(const char *file, const char *anchor)=0</argsstring>
+        <name>startTextLink</name>
+        <reimplementedby refid="d0/da4/class_r_t_f_generator_1aa92286bf94c590a675ac75f8f5c1671e">startTextLink</reimplementedby>
+        <reimplementedby refid="de/da5/class_man_generator_1a3c1d7362119d49471f88a39189e63869">startTextLink</reimplementedby>
+        <reimplementedby refid="d3/d77/class_latex_generator_1ae4ec8b6a0997e558994bfb9e6a8a0e79">startTextLink</reimplementedby>
+        <reimplementedby refid="df/dc8/class_output_list_1ad4fb4cab0e1a0f5e6e7b56ac820456c9">startTextLink</reimplementedby>
+        <reimplementedby refid="d7/d41/class_html_generator_1a61a18a9d5cfa300f91af10bd72f4f51b">startTextLink</reimplementedby>
+        <param>
+          <type>const char *</type>
+          <declname>file</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>anchor</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/outputgen.h" line="253"/>
+      </memberdef>
+      <memberdef kind="function" id="df/d27/class_base_output_doc_interface_1a5b584fb5f7e3d9747c78a4e13715340a" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>void</type>
+        <definition>virtual void BaseOutputDocInterface::endTextLink</definition>
+        <argsstring>()=0</argsstring>
+        <name>endTextLink</name>
+        <reimplementedby refid="d0/da4/class_r_t_f_generator_1a6e7091e1279e20ea431ddd36a6984e77">endTextLink</reimplementedby>
+        <reimplementedby refid="de/da5/class_man_generator_1ae0b59e20362769f00731c90f0e3fdc00">endTextLink</reimplementedby>
+        <reimplementedby refid="d3/d77/class_latex_generator_1a99844d76a29239103359ea6690a37efe">endTextLink</reimplementedby>
+        <reimplementedby refid="df/dc8/class_output_list_1a74e89e9bcca41e9203ca080fc127a004">endTextLink</reimplementedby>
+        <reimplementedby refid="d7/d41/class_html_generator_1ab2b0bff4d5587ad095832783fdba8064">endTextLink</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/outputgen.h" line="254"/>
+      </memberdef>
+      <memberdef kind="function" id="df/d27/class_base_output_doc_interface_1add686ba33132cc455a70356c77416994" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>void</type>
+        <definition>virtual void BaseOutputDocInterface::startPageRef</definition>
+        <argsstring>()=0</argsstring>
+        <name>startPageRef</name>
+        <reimplementedby refid="d0/da4/class_r_t_f_generator_1acfe100fa82bd9c75629790a719a6f711">startPageRef</reimplementedby>
+        <reimplementedby refid="de/da5/class_man_generator_1a15352d2d3122b7b9d24e9ea564026d9f">startPageRef</reimplementedby>
+        <reimplementedby refid="d3/d77/class_latex_generator_1a06e41ed1bb67b71516bed656ea2f2243">startPageRef</reimplementedby>
+        <reimplementedby refid="d7/d41/class_html_generator_1a815ab026ba09dceca7ad84157e9eb4dc">startPageRef</reimplementedby>
+        <reimplementedby refid="df/dc8/class_output_list_1a6f14fd99b68f6df4f9510dbc627f5a43">startPageRef</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/outputgen.h" line="255"/>
+      </memberdef>
+      <memberdef kind="function" id="df/d27/class_base_output_doc_interface_1a292c5c481f4ba85ab7957bb4b8979d97" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>void</type>
+        <definition>virtual void BaseOutputDocInterface::endPageRef</definition>
+        <argsstring>(const char *, const char *)=0</argsstring>
+        <name>endPageRef</name>
+        <reimplementedby refid="d0/da4/class_r_t_f_generator_1af6443e553d28dc4b34cfed6567c530c7">endPageRef</reimplementedby>
+        <reimplementedby refid="de/da5/class_man_generator_1aedfd0c9012aa4bab7db46b5388552342">endPageRef</reimplementedby>
+        <reimplementedby refid="d3/d77/class_latex_generator_1ad2f1a929d3e6a97c1e521184f03961c9">endPageRef</reimplementedby>
+        <reimplementedby refid="d7/d41/class_html_generator_1a0d8ff1d418517388be08b4cb8f63ef6e">endPageRef</reimplementedby>
+        <reimplementedby refid="df/dc8/class_output_list_1ab6eef37e9e241eeb7a53709f338be0a7">endPageRef</reimplementedby>
+        <param>
+          <type>const char *</type>
+        </param>
+        <param>
+          <type>const char *</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/outputgen.h" line="256"/>
+      </memberdef>
+      <memberdef kind="function" id="df/d27/class_base_output_doc_interface_1ab2c4106db654fb639aaca243d3f4a686" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>void</type>
+        <definition>virtual void BaseOutputDocInterface::startSubsection</definition>
+        <argsstring>()=0</argsstring>
+        <name>startSubsection</name>
+        <reimplementedby refid="d0/da4/class_r_t_f_generator_1aee4ce8432c14804a99c4422f97b8ae59">startSubsection</reimplementedby>
+        <reimplementedby refid="de/da5/class_man_generator_1a8b76bb902110b0df8f020b73207baf0c">startSubsection</reimplementedby>
+        <reimplementedby refid="d3/d77/class_latex_generator_1a39d4b6c5ce49e1a2cef9d6046e78ef92">startSubsection</reimplementedby>
+        <reimplementedby refid="d7/d41/class_html_generator_1ad5672bd4e2cf016436ce21392f366868">startSubsection</reimplementedby>
+        <reimplementedby refid="df/dc8/class_output_list_1ad4ec0814711cb2928d9a32aa69d980d1">startSubsection</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/outputgen.h" line="257"/>
+      </memberdef>
+      <memberdef kind="function" id="df/d27/class_base_output_doc_interface_1a3e403e27b8284843a8f3cf7e30e32d2c" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>void</type>
+        <definition>virtual void BaseOutputDocInterface::endSubsection</definition>
+        <argsstring>()=0</argsstring>
+        <name>endSubsection</name>
+        <reimplementedby refid="d0/da4/class_r_t_f_generator_1ae8b39bb99367d13410a574ef93cae773">endSubsection</reimplementedby>
+        <reimplementedby refid="de/da5/class_man_generator_1a4ae427e8787652bcc456f58f729079a3">endSubsection</reimplementedby>
+        <reimplementedby refid="d3/d77/class_latex_generator_1a076423c36308d68eaa4ae934909960ea">endSubsection</reimplementedby>
+        <reimplementedby refid="d7/d41/class_html_generator_1abc4bc4379bbff6450b129ac605dc9416">endSubsection</reimplementedby>
+        <reimplementedby refid="df/dc8/class_output_list_1a23eb35221592612198b556c577ffe619">endSubsection</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/outputgen.h" line="258"/>
+      </memberdef>
+      <memberdef kind="function" id="df/d27/class_base_output_doc_interface_1a7f923f13c625fccde495debb5e31eb35" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>void</type>
+        <definition>virtual void BaseOutputDocInterface::startSubsubsection</definition>
+        <argsstring>()=0</argsstring>
+        <name>startSubsubsection</name>
+        <reimplementedby refid="d0/da4/class_r_t_f_generator_1a1b2ed71d67f00e2f067648714393341b">startSubsubsection</reimplementedby>
+        <reimplementedby refid="de/da5/class_man_generator_1aedb1d92ae73f0d14dceac0f52eb159d1">startSubsubsection</reimplementedby>
+        <reimplementedby refid="d3/d77/class_latex_generator_1a845056c8248cf0662d95aa4b584fe561">startSubsubsection</reimplementedby>
+        <reimplementedby refid="d7/d41/class_html_generator_1a36a9752e811198e008617ad624066be0">startSubsubsection</reimplementedby>
+        <reimplementedby refid="df/dc8/class_output_list_1af8eba8c14941c51616d949a618516ff4">startSubsubsection</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/outputgen.h" line="259"/>
+      </memberdef>
+      <memberdef kind="function" id="df/d27/class_base_output_doc_interface_1a760a6b33b261dafc6625b3cf49ba2124" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>void</type>
+        <definition>virtual void BaseOutputDocInterface::endSubsubsection</definition>
+        <argsstring>()=0</argsstring>
+        <name>endSubsubsection</name>
+        <reimplementedby refid="d0/da4/class_r_t_f_generator_1a15b343f2ae0d87433bfb28a92b02d502">endSubsubsection</reimplementedby>
+        <reimplementedby refid="de/da5/class_man_generator_1ab4ab218011dee86fa1e5f7938567aefb">endSubsubsection</reimplementedby>
+        <reimplementedby refid="d3/d77/class_latex_generator_1a4eb7f9f80bf4407d5b23c1b13d0a560b">endSubsubsection</reimplementedby>
+        <reimplementedby refid="d7/d41/class_html_generator_1af08ae4e64ba09f0e0d4afbf496011243">endSubsubsection</reimplementedby>
+        <reimplementedby refid="df/dc8/class_output_list_1a828e83dee7bf45ee04493942d9dd803b">endSubsubsection</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/outputgen.h" line="260"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Base Interface used for generating output outside of the comment blocks. </para>    </briefdescription>
+    <detaileddescription>
+<para>This abstract class is used by output generation functions to generate the output for a specific format, or a list of formats (see <ref refid="df/dc8/class_output_list" kindref="compound">OutputList</ref>). This interface contains functions that generate fragments of the output. </para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="2522">
+        <label>HtmlGenerator</label>
+        <link refid="d7/d41/class_html_generator"/>
+        <childnode refid="2521" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2523">
+        <label>LatexGenerator</label>
+        <link refid="d3/d77/class_latex_generator"/>
+        <childnode refid="2521" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2525">
+        <label>RTFGenerator</label>
+        <link refid="d0/da4/class_r_t_f_generator"/>
+        <childnode refid="2521" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2520">
+        <label>OutputList</label>
+        <link refid="df/dc8/class_output_list"/>
+        <childnode refid="2519" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2517">
+        <label>BaseOutputDocInterface</label>
+        <link refid="df/d27/class_base_output_doc_interface"/>
+        <childnode refid="2518" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2524">
+        <label>ManGenerator</label>
+        <link refid="de/da5/class_man_generator"/>
+        <childnode refid="2521" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2519">
+        <label>OutputDocInterface</label>
+        <link refid="d2/d1a/class_output_doc_interface"/>
+        <childnode refid="2517" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2521">
+        <label>OutputGenerator</label>
+        <link refid="d3/d8e/class_output_generator"/>
+        <childnode refid="2517" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2518">
+        <label>CodeOutputInterface</label>
+        <link refid="d5/d9c/class_code_output_interface"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2526">
+        <label>BaseOutputDocInterface</label>
+        <link refid="df/d27/class_base_output_doc_interface"/>
+        <childnode refid="2527" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2527">
+        <label>CodeOutputInterface</label>
+        <link refid="d5/d9c/class_code_output_interface"/>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/outputgen.h" line="87" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/outputgen.h" bodystart="86" bodyend="261"/>
+    <listofallmembers>
+      <member refid="df/d27/class_base_output_doc_interface_1acc5ad4f6230310456380f4db9a407161" prot="public" virt="pure-virtual"><scope>BaseOutputDocInterface</scope><name>addIndexItem</name></member>
+      <member refid="d5/d9c/class_code_output_interface_1a2734a8371d6e710620ad238ed8de118e" prot="public" virt="pure-virtual"><scope>BaseOutputDocInterface</scope><name>addWord</name></member>
+      <member refid="d5/d9c/class_code_output_interface_1aa29a5eedda08596ace50ed5b59c8ae7f" prot="public" virt="pure-virtual"><scope>BaseOutputDocInterface</scope><name>codify</name></member>
+      <member refid="df/d27/class_base_output_doc_interface_1ad7d3f6631bd157739170690e669b3e75" prot="public" virt="pure-virtual"><scope>BaseOutputDocInterface</scope><name>docify</name></member>
+      <member refid="df/d27/class_base_output_doc_interface_1a2a17911ba778f8efac83999fb5d190d9" prot="public" virt="pure-virtual"><scope>BaseOutputDocInterface</scope><name>endBold</name></member>
+      <member refid="df/d27/class_base_output_doc_interface_1aacbcdb867519fce8db354460566aa4ea" prot="public" virt="pure-virtual"><scope>BaseOutputDocInterface</scope><name>endCenter</name></member>
+      <member refid="d5/d9c/class_code_output_interface_1a404ebed09713d9736191657e3519c6b4" prot="public" virt="pure-virtual"><scope>BaseOutputDocInterface</scope><name>endCodeAnchor</name></member>
+      <member refid="df/d27/class_base_output_doc_interface_1a08f032482a8f23ac1aab66552db43a81" prot="public" virt="pure-virtual"><scope>BaseOutputDocInterface</scope><name>endCodeFragment</name></member>
+      <member refid="d5/d9c/class_code_output_interface_1afac5763eafc78f93b82691fb9a6dcff7" prot="public" virt="pure-virtual"><scope>BaseOutputDocInterface</scope><name>endCodeLine</name></member>
+      <member refid="df/d27/class_base_output_doc_interface_1a1b04c0dc473f245979860c158ea450e7" prot="public" virt="pure-virtual"><scope>BaseOutputDocInterface</scope><name>endDescForItem</name></member>
+      <member refid="df/d27/class_base_output_doc_interface_1a09e3aa9d3faac55b2cc9290eaa69f55b" prot="public" virt="pure-virtual"><scope>BaseOutputDocInterface</scope><name>endDescItem</name></member>
+      <member refid="df/d27/class_base_output_doc_interface_1ac25c565e9fd8aee6c2b0d9b71fcff380" prot="public" virt="pure-virtual"><scope>BaseOutputDocInterface</scope><name>endDescription</name></member>
+      <member refid="df/d27/class_base_output_doc_interface_1acad6dba3f360141250109216856eff38" prot="public" virt="pure-virtual"><scope>BaseOutputDocInterface</scope><name>endDescTable</name></member>
+      <member refid="df/d27/class_base_output_doc_interface_1a7448492f455ed3dbff7dbedc00bb7be2" prot="public" virt="pure-virtual"><scope>BaseOutputDocInterface</scope><name>endDescTableData</name></member>
+      <member refid="df/d27/class_base_output_doc_interface_1a1106996c286d637c873c819adc5072ba" prot="public" virt="pure-virtual"><scope>BaseOutputDocInterface</scope><name>endDescTableTitle</name></member>
+      <member refid="df/d27/class_base_output_doc_interface_1aed2cf04d82648509f97403bd4ce62590" prot="public" virt="pure-virtual"><scope>BaseOutputDocInterface</scope><name>endEmphasis</name></member>
+      <member refid="d5/d9c/class_code_output_interface_1a2b8ac05a391dae36793aa3aa8714a0f6" prot="public" virt="pure-virtual"><scope>BaseOutputDocInterface</scope><name>endFontClass</name></member>
+      <member refid="df/d27/class_base_output_doc_interface_1afb808c1c487135d4fb2156d0675b387e" prot="public" virt="pure-virtual"><scope>BaseOutputDocInterface</scope><name>endHtmlLink</name></member>
+      <member refid="df/d27/class_base_output_doc_interface_1a3493b65672bf134033bd3bb296acdff4" prot="public" virt="pure-virtual"><scope>BaseOutputDocInterface</scope><name>endItemList</name></member>
+      <member refid="df/d27/class_base_output_doc_interface_1a90d290d7a06a9e7ecd968c8da90ed665" prot="public" virt="pure-virtual"><scope>BaseOutputDocInterface</scope><name>endItemListItem</name></member>
+      <member refid="df/d27/class_base_output_doc_interface_1a292c5c481f4ba85ab7957bb4b8979d97" prot="public" virt="pure-virtual"><scope>BaseOutputDocInterface</scope><name>endPageRef</name></member>
+      <member refid="df/d27/class_base_output_doc_interface_1ab76280c2eb451ad160991707206b6c95" prot="public" virt="pure-virtual"><scope>BaseOutputDocInterface</scope><name>endParagraph</name></member>
+      <member refid="df/d27/class_base_output_doc_interface_1a2e18469ef7e3f144e05d7713efaa9aac" prot="public" virt="pure-virtual"><scope>BaseOutputDocInterface</scope><name>endParamList</name></member>
+      <member refid="df/d27/class_base_output_doc_interface_1a754ab1bd2b1a2cf82ac1207822e76f59" prot="public" virt="pure-virtual"><scope>BaseOutputDocInterface</scope><name>endSection</name></member>
+      <member refid="df/d27/class_base_output_doc_interface_1a4519107f922ba406e50b84a2a6b274b7" prot="public" virt="pure-virtual"><scope>BaseOutputDocInterface</scope><name>endSimpleSect</name></member>
+      <member refid="df/d27/class_base_output_doc_interface_1aece1c56c3a382b5e7228f034e600b43f" prot="public" virt="pure-virtual"><scope>BaseOutputDocInterface</scope><name>endSmall</name></member>
+      <member refid="df/d27/class_base_output_doc_interface_1a3e403e27b8284843a8f3cf7e30e32d2c" prot="public" virt="pure-virtual"><scope>BaseOutputDocInterface</scope><name>endSubsection</name></member>
+      <member refid="df/d27/class_base_output_doc_interface_1a760a6b33b261dafc6625b3cf49ba2124" prot="public" virt="pure-virtual"><scope>BaseOutputDocInterface</scope><name>endSubsubsection</name></member>
+      <member refid="df/d27/class_base_output_doc_interface_1a5b584fb5f7e3d9747c78a4e13715340a" prot="public" virt="pure-virtual"><scope>BaseOutputDocInterface</scope><name>endTextLink</name></member>
+      <member refid="df/d27/class_base_output_doc_interface_1a5dee56a3a18bafb23c30f42e6575210f" prot="public" virt="pure-virtual"><scope>BaseOutputDocInterface</scope><name>endTitle</name></member>
+      <member refid="df/d27/class_base_output_doc_interface_1a9e987baf8aed76f0e5e6676b3238d2c8" prot="public" virt="pure-virtual"><scope>BaseOutputDocInterface</scope><name>endTypewriter</name></member>
+      <member refid="df/d27/class_base_output_doc_interface_1a07a3d5df76a714674e070e5e236fe886a14899d1909b84ceff4b564f2c5cdd5c8" prot="public" virt="non-virtual"><scope>BaseOutputDocInterface</scope><name>EnumValues</name></member>
+      <member refid="df/d27/class_base_output_doc_interface_1a07a3d5df76a714674e070e5e236fe886a8e76c29b11f7bc42235f145253d37661" prot="public" virt="non-virtual"><scope>BaseOutputDocInterface</scope><name>Examples</name></member>
+      <member refid="df/d27/class_base_output_doc_interface_1a944ed4d9fb389999c2724eeb321b8c8ca013f47562e6f852189ce39404b2c83ce" prot="public" virt="non-virtual"><scope>BaseOutputDocInterface</scope><name>Exception</name></member>
+      <member refid="df/d27/class_base_output_doc_interface_1ada61ce97bb848a4e73f60c351e217391" prot="public" virt="pure-virtual"><scope>BaseOutputDocInterface</scope><name>lineBreak</name></member>
+      <member refid="df/d27/class_base_output_doc_interface_1a944ed4d9fb389999c2724eeb321b8c8ca2f12909be9be736f564ef1bccd8bc981" prot="public" virt="non-virtual"><scope>BaseOutputDocInterface</scope><name>Param</name></member>
+      <member refid="df/d27/class_base_output_doc_interface_1a944ed4d9fb389999c2724eeb321b8c8c" prot="public" virt="non-virtual"><scope>BaseOutputDocInterface</scope><name>ParamListTypes</name></member>
+      <member refid="df/d27/class_base_output_doc_interface_1a26c20546f1084cdaea8c6fe1ec8de76a" prot="public" virt="virtual"><scope>BaseOutputDocInterface</scope><name>parseText</name></member>
+      <member refid="df/d27/class_base_output_doc_interface_1a944ed4d9fb389999c2724eeb321b8c8ca7dbac297ebba84b706efa2afb8e5e609" prot="public" virt="non-virtual"><scope>BaseOutputDocInterface</scope><name>RetVal</name></member>
+      <member refid="df/d27/class_base_output_doc_interface_1a07a3d5df76a714674e070e5e236fe886" prot="public" virt="non-virtual"><scope>BaseOutputDocInterface</scope><name>SectionTypes</name></member>
+      <member refid="d5/d9c/class_code_output_interface_1a67a190860748597bd65b4cfc313797d3" prot="public" virt="pure-virtual"><scope>BaseOutputDocInterface</scope><name>setCurrentDoc</name></member>
+      <member refid="df/d27/class_base_output_doc_interface_1aa0bfe5ef08077a7191ba4666f47c441b" prot="public" virt="pure-virtual"><scope>BaseOutputDocInterface</scope><name>startBold</name></member>
+      <member refid="df/d27/class_base_output_doc_interface_1af7740896d897da2924e8d8818858edd1" prot="public" virt="pure-virtual"><scope>BaseOutputDocInterface</scope><name>startCenter</name></member>
+      <member refid="d5/d9c/class_code_output_interface_1a1bac70cba0bb8c2ae9034df5b15c95b1" prot="public" virt="pure-virtual"><scope>BaseOutputDocInterface</scope><name>startCodeAnchor</name></member>
+      <member refid="df/d27/class_base_output_doc_interface_1ab19fc767b08c25b0ca7c976d24799bda" prot="public" virt="pure-virtual"><scope>BaseOutputDocInterface</scope><name>startCodeFragment</name></member>
+      <member refid="d5/d9c/class_code_output_interface_1a080d71d457de084ce2b3245bca5a0d68" prot="public" virt="pure-virtual"><scope>BaseOutputDocInterface</scope><name>startCodeLine</name></member>
+      <member refid="df/d27/class_base_output_doc_interface_1a4bd0d53fa5bd37ab551b462fa1935cff" prot="public" virt="pure-virtual"><scope>BaseOutputDocInterface</scope><name>startDescForItem</name></member>
+      <member refid="df/d27/class_base_output_doc_interface_1a5d1cc59d94c3f529c90e0a06704be181" prot="public" virt="pure-virtual"><scope>BaseOutputDocInterface</scope><name>startDescItem</name></member>
+      <member refid="df/d27/class_base_output_doc_interface_1ac9c801c3ad0b50e3e69be184b50c2fef" prot="public" virt="pure-virtual"><scope>BaseOutputDocInterface</scope><name>startDescription</name></member>
+      <member refid="df/d27/class_base_output_doc_interface_1ae8d272c529f66d55e23b63a8cbb1abd7" prot="public" virt="pure-virtual"><scope>BaseOutputDocInterface</scope><name>startDescTable</name></member>
+      <member refid="df/d27/class_base_output_doc_interface_1ae9e8390997be56f776e966c0f906483d" prot="public" virt="pure-virtual"><scope>BaseOutputDocInterface</scope><name>startDescTableData</name></member>
+      <member refid="df/d27/class_base_output_doc_interface_1a2a026821caecc0397f2c21fd1a1de095" prot="public" virt="pure-virtual"><scope>BaseOutputDocInterface</scope><name>startDescTableTitle</name></member>
+      <member refid="df/d27/class_base_output_doc_interface_1a21debc3a6c4c58791a41e715dc78f4ab" prot="public" virt="pure-virtual"><scope>BaseOutputDocInterface</scope><name>startEmphasis</name></member>
+      <member refid="d5/d9c/class_code_output_interface_1af68087fd1ed0e5b28b446889625337bb" prot="public" virt="pure-virtual"><scope>BaseOutputDocInterface</scope><name>startFontClass</name></member>
+      <member refid="df/d27/class_base_output_doc_interface_1ab52dbf41ce337c701f9cd1e7794f80e7" prot="public" virt="pure-virtual"><scope>BaseOutputDocInterface</scope><name>startHtmlLink</name></member>
+      <member refid="df/d27/class_base_output_doc_interface_1a54b169393594b6cf113977ccccaeb9ee" prot="public" virt="pure-virtual"><scope>BaseOutputDocInterface</scope><name>startItemList</name></member>
+      <member refid="df/d27/class_base_output_doc_interface_1aa1cbcadfedf8e6d52029d17526b5fa3f" prot="public" virt="pure-virtual"><scope>BaseOutputDocInterface</scope><name>startItemListItem</name></member>
+      <member refid="df/d27/class_base_output_doc_interface_1add686ba33132cc455a70356c77416994" prot="public" virt="pure-virtual"><scope>BaseOutputDocInterface</scope><name>startPageRef</name></member>
+      <member refid="df/d27/class_base_output_doc_interface_1a731e8b90a344b185fff49d13858efbb3" prot="public" virt="pure-virtual"><scope>BaseOutputDocInterface</scope><name>startParagraph</name></member>
+      <member refid="df/d27/class_base_output_doc_interface_1a0fe360d170bf70af8455d521ecad8cab" prot="public" virt="pure-virtual"><scope>BaseOutputDocInterface</scope><name>startParamList</name></member>
+      <member refid="df/d27/class_base_output_doc_interface_1a820f65539d9328cfafe23a2542375853" prot="public" virt="pure-virtual"><scope>BaseOutputDocInterface</scope><name>startSection</name></member>
+      <member refid="df/d27/class_base_output_doc_interface_1aa70bb07889b548a670a5b30f53fd8046" prot="public" virt="pure-virtual"><scope>BaseOutputDocInterface</scope><name>startSimpleSect</name></member>
+      <member refid="df/d27/class_base_output_doc_interface_1aa48fb5d720aabf2dc67d866b9861f733" prot="public" virt="pure-virtual"><scope>BaseOutputDocInterface</scope><name>startSmall</name></member>
+      <member refid="df/d27/class_base_output_doc_interface_1ab2c4106db654fb639aaca243d3f4a686" prot="public" virt="pure-virtual"><scope>BaseOutputDocInterface</scope><name>startSubsection</name></member>
+      <member refid="df/d27/class_base_output_doc_interface_1a7f923f13c625fccde495debb5e31eb35" prot="public" virt="pure-virtual"><scope>BaseOutputDocInterface</scope><name>startSubsubsection</name></member>
+      <member refid="df/d27/class_base_output_doc_interface_1af3e8e537c3a2379071c3573d25a64d03" prot="public" virt="pure-virtual"><scope>BaseOutputDocInterface</scope><name>startTextLink</name></member>
+      <member refid="df/d27/class_base_output_doc_interface_1a52507f4f611800062e6776704d3c0eaf" prot="public" virt="pure-virtual"><scope>BaseOutputDocInterface</scope><name>startTitle</name></member>
+      <member refid="df/d27/class_base_output_doc_interface_1abde41a60b900d35b0b198f43731c1cd0" prot="public" virt="pure-virtual"><scope>BaseOutputDocInterface</scope><name>startTypewriter</name></member>
+      <member refid="df/d27/class_base_output_doc_interface_1a02ec04af87e175323ad789347884c896" prot="public" virt="pure-virtual"><scope>BaseOutputDocInterface</scope><name>writeAnchor</name></member>
+      <member refid="df/d27/class_base_output_doc_interface_1a1577324720c1c71142dff84ae80b058d" prot="public" virt="pure-virtual"><scope>BaseOutputDocInterface</scope><name>writeChar</name></member>
+      <member refid="d5/d9c/class_code_output_interface_1a1f6394c4ef7c4143de90bcaf3a65c0b4" prot="public" virt="pure-virtual"><scope>BaseOutputDocInterface</scope><name>writeCodeAnchor</name></member>
+      <member refid="d5/d9c/class_code_output_interface_1a102e2b7f40916c75b79871307f5bb674" prot="public" virt="pure-virtual"><scope>BaseOutputDocInterface</scope><name>writeCodeLink</name></member>
+      <member refid="d5/d9c/class_code_output_interface_1a8115646785b65e292480c2e4e969b389" prot="public" virt="pure-virtual"><scope>BaseOutputDocInterface</scope><name>writeLineNumber</name></member>
+      <member refid="df/d27/class_base_output_doc_interface_1a7a6903af564a1de397adb0887e7e419a" prot="public" virt="pure-virtual"><scope>BaseOutputDocInterface</scope><name>writeNonBreakableSpace</name></member>
+      <member refid="df/d27/class_base_output_doc_interface_1a3537423635807fe140ec5be1a2198060" prot="public" virt="pure-virtual"><scope>BaseOutputDocInterface</scope><name>writeObjectLink</name></member>
+      <member refid="df/d27/class_base_output_doc_interface_1ade0d004fb6e8641c92f2f144d7242f0b" prot="public" virt="pure-virtual"><scope>BaseOutputDocInterface</scope><name>writeRuler</name></member>
+      <member refid="df/d27/class_base_output_doc_interface_1a5737513ddf260787b5b79c84ae1059af" prot="public" virt="pure-virtual"><scope>BaseOutputDocInterface</scope><name>writeString</name></member>
+      <member refid="df/d27/class_base_output_doc_interface_1ac23dcf3208e5199e2b562c2643536beb" prot="public" virt="virtual"><scope>BaseOutputDocInterface</scope><name>~BaseOutputDocInterface</name></member>
+      <member refid="d5/d9c/class_code_output_interface_1a09fd2fd0be98227359200de7ab89c7e6" prot="public" virt="virtual"><scope>BaseOutputDocInterface</scope><name>~CodeOutputInterface</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

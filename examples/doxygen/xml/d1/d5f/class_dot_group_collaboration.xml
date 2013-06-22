@@ -1,0 +1,370 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.2">
+  <compounddef id="d1/d5f/class_dot_group_collaboration" kind="class" prot="public">
+    <compoundname>DotGroupCollaboration</compoundname>
+    <includes refid="d6/d4a/dot_8h" local="no">dot.h</includes>
+    <innerclass refid="d8/d65/class_dot_group_collaboration_1_1_edge" prot="public">DotGroupCollaboration::Edge</innerclass>
+    <innerclass refid="d2/df0/class_dot_group_collaboration_1_1_link" prot="public">DotGroupCollaboration::Link</innerclass>
+      <sectiondef kind="public-type">
+      <memberdef kind="enum" id="d1/d5f/class_dot_group_collaboration_1ab83aa11b8617398a50923c04c2541624" prot="public" static="no">
+        <name>EdgeType</name>
+        <enumvalue id="d1/d5f/class_dot_group_collaboration_1ab83aa11b8617398a50923c04c2541624a6a203a336e7cfcbd7aff57f2c73399cd" prot="public">
+          <name>tmember</name>
+          <initializer>= 0</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d1/d5f/class_dot_group_collaboration_1ab83aa11b8617398a50923c04c2541624ae9c350dfd0a91744d191b0c72c4aa90f" prot="public">
+          <name>tclass</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d1/d5f/class_dot_group_collaboration_1ab83aa11b8617398a50923c04c2541624ae29bf2589c994b4a77c5d8fcb4cc0ea1" prot="public">
+          <name>tnamespace</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d1/d5f/class_dot_group_collaboration_1ab83aa11b8617398a50923c04c2541624a7fa22c95ee2968afb94c0a0ea5699509" prot="public">
+          <name>tfile</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d1/d5f/class_dot_group_collaboration_1ab83aa11b8617398a50923c04c2541624ad8208b1bd621d3b751e42e015d9ea21c" prot="public">
+          <name>tpages</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d1/d5f/class_dot_group_collaboration_1ab83aa11b8617398a50923c04c2541624a2e54350e7f5aadd30f553c402c9c0a82" prot="public">
+          <name>tdir</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d1/d5f/class_dot_group_collaboration_1ab83aa11b8617398a50923c04c2541624a6e085e15ff653f37b1923a3c3053d11b" prot="public">
+          <name>thierarchy</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/dot.h" line="268" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/dot.h" bodystart="267" bodyend="275"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="d1/d5f/class_dot_group_collaboration_1a082a33c662fd404a5fb5073c34863af7" prot="private" static="no" mutable="no">
+        <type><ref refid="dd/d7e/class_dot_node" kindref="compound">DotNode</ref> *</type>
+        <definition>DotNode* DotGroupCollaboration::m_rootNode</definition>
+        <argsstring></argsstring>
+        <name>m_rootNode</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/dot.h" line="314" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/dot.h" bodystart="314" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d1/d5f/class_dot_group_collaboration_1a4b0bd37d24605c22f11e90453b3c97de" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int DotGroupCollaboration::m_curNodeId</definition>
+        <argsstring></argsstring>
+        <name>m_curNodeId</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/dot.h" line="315" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/dot.h" bodystart="315" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d1/d5f/class_dot_group_collaboration_1a12038b8081db252837a4095581335709" prot="private" static="no" mutable="no">
+        <type>QDict&lt; <ref refid="dd/d7e/class_dot_node" kindref="compound">DotNode</ref> &gt; *</type>
+        <definition>QDict&lt;DotNode&gt;* DotGroupCollaboration::m_usedNodes</definition>
+        <argsstring></argsstring>
+        <name>m_usedNodes</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/dot.h" line="316" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/dot.h" bodystart="316" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d1/d5f/class_dot_group_collaboration_1adb242ac701301dbd4beb2ba011af5e43" prot="private" static="no" mutable="no">
+        <type>QCString</type>
+        <definition>QCString DotGroupCollaboration::m_diskName</definition>
+        <argsstring></argsstring>
+        <name>m_diskName</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/dot.h" line="317" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/dot.h" bodystart="317" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d1/d5f/class_dot_group_collaboration_1a994b6dbfc5eb3de53043d67293a49fac" prot="private" static="no" mutable="no">
+        <type><ref refid="db/daa/class_q_list" kindref="compound">QList</ref>&lt; <ref refid="d8/d65/class_dot_group_collaboration_1_1_edge" kindref="compound">Edge</ref> &gt;</type>
+        <definition>QList&lt;Edge&gt; DotGroupCollaboration::m_edges</definition>
+        <argsstring></argsstring>
+        <name>m_edges</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/dot.h" line="318" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/dot.h" bodystart="318" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="d1/d5f/class_dot_group_collaboration_1aa113b5a55446f4ea4aeab03a4b268387" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>DotGroupCollaboration::DotGroupCollaboration</definition>
+        <argsstring>(GroupDef *gd)</argsstring>
+        <name>DotGroupCollaboration</name>
+        <param>
+          <type><ref refid="d8/d09/class_group_def" kindref="compound">GroupDef</ref> *</type>
+          <declname>gd</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/dot.h" line="300" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/dot.cpp" bodystart="4168" bodyend="4181"/>
+      </memberdef>
+      <memberdef kind="function" id="d1/d5f/class_dot_group_collaboration_1a12add4fb219d598569440c259239263b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>DotGroupCollaboration::~DotGroupCollaboration</definition>
+        <argsstring>()</argsstring>
+        <name>~DotGroupCollaboration</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/dot.h" line="301" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/dot.cpp" bodystart="4183" bodyend="4186"/>
+      </memberdef>
+      <memberdef kind="function" id="d1/d5f/class_dot_group_collaboration_1a446583942671c92d0a1f4feb1d4600c2" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>QCString</type>
+        <definition>QCString DotGroupCollaboration::writeGraph</definition>
+        <argsstring>(FTextStream &amp;t, GraphOutputFormat format, const char *path, const char *fileName, const char *relPath, bool writeImageMap=TRUE, int graphId=-1) const </argsstring>
+        <name>writeGraph</name>
+        <param>
+          <type><ref refid="dc/d3c/class_f_text_stream" kindref="compound">FTextStream</ref> &amp;</type>
+          <declname>t</declname>
+        </param>
+        <param>
+          <type>GraphOutputFormat</type>
+          <declname>format</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>path</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>fileName</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>relPath</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>writeImageMap</declname>
+          <defval>TRUE</defval>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>graphId</declname>
+          <defval>-1</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/dot.h" line="304" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/dot.cpp" bodystart="4381" bodyend="4523"/>
+      </memberdef>
+      <memberdef kind="function" id="d1/d5f/class_dot_group_collaboration_1a5d03d883816436706f414dd734013629" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void DotGroupCollaboration::buildGraph</definition>
+        <argsstring>(GroupDef *gd)</argsstring>
+        <name>buildGraph</name>
+        <param>
+          <type><ref refid="d8/d09/class_group_def" kindref="compound">GroupDef</ref> *</type>
+          <declname>gd</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/dot.h" line="305" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/dot.cpp" bodystart="4188" bodyend="4306"/>
+      </memberdef>
+      <memberdef kind="function" id="d1/d5f/class_dot_group_collaboration_1a303f3f76a7a4ab30f9991d9cbd41ba7a" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool DotGroupCollaboration::isTrivial</definition>
+        <argsstring>() const </argsstring>
+        <name>isTrivial</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/dot.h" line="306" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/dot.cpp" bodystart="4587" bodyend="4590"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="d1/d5f/class_dot_group_collaboration_1af2ab8ac6987d778a27063591fa14cae5" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void DotGroupCollaboration::addCollaborationMember</definition>
+        <argsstring>(Definition *def, QCString &amp;url, EdgeType eType)</argsstring>
+        <name>addCollaborationMember</name>
+        <param>
+          <type><ref refid="d5/dcc/class_definition" kindref="compound">Definition</ref> *</type>
+          <declname>def</declname>
+        </param>
+        <param>
+          <type>QCString &amp;</type>
+          <declname>url</declname>
+        </param>
+        <param>
+          <type>EdgeType</type>
+          <declname>eType</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/dot.h" line="308" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/dot.cpp" bodystart="4352" bodyend="4378"/>
+      </memberdef>
+      <memberdef kind="function" id="d1/d5f/class_dot_group_collaboration_1a2cc4fd1745dd5af379937db46ac15761" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void DotGroupCollaboration::addMemberList</definition>
+        <argsstring>(class MemberList *ml)</argsstring>
+        <name>addMemberList</name>
+        <param>
+          <type>class <ref refid="dd/d13/class_member_list" kindref="compound">MemberList</ref> *</type>
+          <declname>ml</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/dot.h" line="309" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/dot.cpp" bodystart="4308" bodyend="4319"/>
+      </memberdef>
+      <memberdef kind="function" id="d1/d5f/class_dot_group_collaboration_1a4755ec60d00b352776f0de00fa4e59d1" prot="private" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void DotGroupCollaboration::writeGraphHeader</definition>
+        <argsstring>(FTextStream &amp;t, const QCString &amp;title) const </argsstring>
+        <name>writeGraphHeader</name>
+        <param>
+          <type><ref refid="dc/d3c/class_f_text_stream" kindref="compound">FTextStream</ref> &amp;</type>
+          <declname>t</declname>
+        </param>
+        <param>
+          <type>const QCString &amp;</type>
+          <declname>title</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/dot.h" line="310" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/dot.cpp" bodystart="4592" bodyend="4614"/>
+      </memberdef>
+      <memberdef kind="function" id="d1/d5f/class_dot_group_collaboration_1abf63a5af48b746aaa8638bfbb8d787b0" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="d8/d65/class_dot_group_collaboration_1_1_edge" kindref="compound">Edge</ref> *</type>
+        <definition>DotGroupCollaboration::Edge * DotGroupCollaboration::addEdge</definition>
+        <argsstring>(DotNode *_pNStart, DotNode *_pNEnd, EdgeType _eType, const QCString &amp;_label, const QCString &amp;_url)</argsstring>
+        <name>addEdge</name>
+        <param>
+          <type><ref refid="dd/d7e/class_dot_node" kindref="compound">DotNode</ref> *</type>
+          <declname>_pNStart</declname>
+        </param>
+        <param>
+          <type><ref refid="dd/d7e/class_dot_node" kindref="compound">DotNode</ref> *</type>
+          <declname>_pNEnd</declname>
+        </param>
+        <param>
+          <type>EdgeType</type>
+          <declname>_eType</declname>
+        </param>
+        <param>
+          <type>const QCString &amp;</type>
+          <declname>_label</declname>
+        </param>
+        <param>
+          <type>const QCString &amp;</type>
+          <declname>_url</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/dot.h" line="312" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/dot.cpp" bodystart="4321" bodyend="4350"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Representation of a group collaboration graph. </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/dot.h" line="265" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/dot.h" bodystart="264" bodyend="319"/>
+    <listofallmembers>
+      <member refid="d1/d5f/class_dot_group_collaboration_1af2ab8ac6987d778a27063591fa14cae5" prot="private" virt="non-virtual"><scope>DotGroupCollaboration</scope><name>addCollaborationMember</name></member>
+      <member refid="d1/d5f/class_dot_group_collaboration_1abf63a5af48b746aaa8638bfbb8d787b0" prot="private" virt="non-virtual"><scope>DotGroupCollaboration</scope><name>addEdge</name></member>
+      <member refid="d1/d5f/class_dot_group_collaboration_1a2cc4fd1745dd5af379937db46ac15761" prot="private" virt="non-virtual"><scope>DotGroupCollaboration</scope><name>addMemberList</name></member>
+      <member refid="d1/d5f/class_dot_group_collaboration_1a5d03d883816436706f414dd734013629" prot="public" virt="non-virtual"><scope>DotGroupCollaboration</scope><name>buildGraph</name></member>
+      <member refid="d1/d5f/class_dot_group_collaboration_1aa113b5a55446f4ea4aeab03a4b268387" prot="public" virt="non-virtual"><scope>DotGroupCollaboration</scope><name>DotGroupCollaboration</name></member>
+      <member refid="d1/d5f/class_dot_group_collaboration_1ab83aa11b8617398a50923c04c2541624" prot="public" virt="non-virtual"><scope>DotGroupCollaboration</scope><name>EdgeType</name></member>
+      <member refid="d1/d5f/class_dot_group_collaboration_1a303f3f76a7a4ab30f9991d9cbd41ba7a" prot="public" virt="non-virtual"><scope>DotGroupCollaboration</scope><name>isTrivial</name></member>
+      <member refid="d1/d5f/class_dot_group_collaboration_1a4b0bd37d24605c22f11e90453b3c97de" prot="private" virt="non-virtual"><scope>DotGroupCollaboration</scope><name>m_curNodeId</name></member>
+      <member refid="d1/d5f/class_dot_group_collaboration_1adb242ac701301dbd4beb2ba011af5e43" prot="private" virt="non-virtual"><scope>DotGroupCollaboration</scope><name>m_diskName</name></member>
+      <member refid="d1/d5f/class_dot_group_collaboration_1a994b6dbfc5eb3de53043d67293a49fac" prot="private" virt="non-virtual"><scope>DotGroupCollaboration</scope><name>m_edges</name></member>
+      <member refid="d1/d5f/class_dot_group_collaboration_1a082a33c662fd404a5fb5073c34863af7" prot="private" virt="non-virtual"><scope>DotGroupCollaboration</scope><name>m_rootNode</name></member>
+      <member refid="d1/d5f/class_dot_group_collaboration_1a12038b8081db252837a4095581335709" prot="private" virt="non-virtual"><scope>DotGroupCollaboration</scope><name>m_usedNodes</name></member>
+      <member refid="d1/d5f/class_dot_group_collaboration_1ab83aa11b8617398a50923c04c2541624ae9c350dfd0a91744d191b0c72c4aa90f" prot="public" virt="non-virtual"><scope>DotGroupCollaboration</scope><name>tclass</name></member>
+      <member refid="d1/d5f/class_dot_group_collaboration_1ab83aa11b8617398a50923c04c2541624a2e54350e7f5aadd30f553c402c9c0a82" prot="public" virt="non-virtual"><scope>DotGroupCollaboration</scope><name>tdir</name></member>
+      <member refid="d1/d5f/class_dot_group_collaboration_1ab83aa11b8617398a50923c04c2541624a7fa22c95ee2968afb94c0a0ea5699509" prot="public" virt="non-virtual"><scope>DotGroupCollaboration</scope><name>tfile</name></member>
+      <member refid="d1/d5f/class_dot_group_collaboration_1ab83aa11b8617398a50923c04c2541624a6e085e15ff653f37b1923a3c3053d11b" prot="public" virt="non-virtual"><scope>DotGroupCollaboration</scope><name>thierarchy</name></member>
+      <member refid="d1/d5f/class_dot_group_collaboration_1ab83aa11b8617398a50923c04c2541624a6a203a336e7cfcbd7aff57f2c73399cd" prot="public" virt="non-virtual"><scope>DotGroupCollaboration</scope><name>tmember</name></member>
+      <member refid="d1/d5f/class_dot_group_collaboration_1ab83aa11b8617398a50923c04c2541624ae29bf2589c994b4a77c5d8fcb4cc0ea1" prot="public" virt="non-virtual"><scope>DotGroupCollaboration</scope><name>tnamespace</name></member>
+      <member refid="d1/d5f/class_dot_group_collaboration_1ab83aa11b8617398a50923c04c2541624ad8208b1bd621d3b751e42e015d9ea21c" prot="public" virt="non-virtual"><scope>DotGroupCollaboration</scope><name>tpages</name></member>
+      <member refid="d1/d5f/class_dot_group_collaboration_1a446583942671c92d0a1f4feb1d4600c2" prot="public" virt="non-virtual"><scope>DotGroupCollaboration</scope><name>writeGraph</name></member>
+      <member refid="d1/d5f/class_dot_group_collaboration_1a4755ec60d00b352776f0de00fa4e59d1" prot="private" virt="non-virtual"><scope>DotGroupCollaboration</scope><name>writeGraphHeader</name></member>
+      <member refid="d1/d5f/class_dot_group_collaboration_1a12add4fb219d598569440c259239263b" prot="public" virt="non-virtual"><scope>DotGroupCollaboration</scope><name>~DotGroupCollaboration</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

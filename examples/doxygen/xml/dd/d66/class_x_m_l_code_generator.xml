@@ -1,0 +1,450 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.2">
+  <compounddef id="dd/d66/class_x_m_l_code_generator" kind="class" prot="public">
+    <compoundname>XMLCodeGenerator</compoundname>
+    <basecompoundref refid="d5/d9c/class_code_output_interface" prot="public" virt="non-virtual">CodeOutputInterface</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="dd/d66/class_x_m_l_code_generator_1a91bca04682f1687f11d53dbf6afeca4c" prot="private" static="no" mutable="no">
+        <type><ref refid="dc/d3c/class_f_text_stream" kindref="compound">FTextStream</ref> &amp;</type>
+        <definition>FTextStream&amp; XMLCodeGenerator::m_t</definition>
+        <argsstring></argsstring>
+        <name>m_t</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/xmlgen.cpp" line="366" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/xmlgen.cpp" bodystart="366" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="dd/d66/class_x_m_l_code_generator_1aa8d05dcbd2db6a318e74367b05bb243f" prot="private" static="no" mutable="no">
+        <type>QCString</type>
+        <definition>QCString XMLCodeGenerator::m_refId</definition>
+        <argsstring></argsstring>
+        <name>m_refId</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/xmlgen.cpp" line="367" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/xmlgen.cpp" bodystart="367" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="dd/d66/class_x_m_l_code_generator_1abdb404fb86f03d744dbd295d47e4ae36" prot="private" static="no" mutable="no">
+        <type>QCString</type>
+        <definition>QCString XMLCodeGenerator::m_external</definition>
+        <argsstring></argsstring>
+        <name>m_external</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/xmlgen.cpp" line="368" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/xmlgen.cpp" bodystart="368" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="dd/d66/class_x_m_l_code_generator_1a70bd87abe416e5572fc1847432c9ac3e" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int XMLCodeGenerator::m_lineNumber</definition>
+        <argsstring></argsstring>
+        <name>m_lineNumber</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/xmlgen.cpp" line="369" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/xmlgen.cpp" bodystart="369" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="dd/d66/class_x_m_l_code_generator_1afa1a2871d0b2973b2ebac3d87f6ab1eb" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool XMLCodeGenerator::m_isMemberRef</definition>
+        <argsstring></argsstring>
+        <name>m_isMemberRef</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/xmlgen.cpp" line="370" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/xmlgen.cpp" bodystart="370" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="dd/d66/class_x_m_l_code_generator_1a25f18a7ebdc9bd22e88be6cbbf940bee" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int XMLCodeGenerator::col</definition>
+        <argsstring></argsstring>
+        <name>col</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/xmlgen.cpp" line="371" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/xmlgen.cpp" bodystart="371" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="dd/d66/class_x_m_l_code_generator_1a91f4f54448a0801dd6b300205a5bd033" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool XMLCodeGenerator::m_insideCodeLine</definition>
+        <argsstring></argsstring>
+        <name>m_insideCodeLine</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/xmlgen.cpp" line="373" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/xmlgen.cpp" bodystart="373" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="dd/d66/class_x_m_l_code_generator_1a54b560e7b1518573507fc1e289d704ab" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool XMLCodeGenerator::m_normalHLNeedStartTag</definition>
+        <argsstring></argsstring>
+        <name>m_normalHLNeedStartTag</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/xmlgen.cpp" line="374" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/xmlgen.cpp" bodystart="374" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="dd/d66/class_x_m_l_code_generator_1a0e4c40bf672d84b66baf63299846b69b" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool XMLCodeGenerator::m_insideSpecialHL</definition>
+        <argsstring></argsstring>
+        <name>m_insideSpecialHL</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/xmlgen.cpp" line="375" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/xmlgen.cpp" bodystart="375" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="dd/d66/class_x_m_l_code_generator_1a1dd6dbe14d945e6b69470826968cc355" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>XMLCodeGenerator::XMLCodeGenerator</definition>
+        <argsstring>(FTextStream &amp;t)</argsstring>
+        <name>XMLCodeGenerator</name>
+        <param>
+          <type><ref refid="dc/d3c/class_f_text_stream" kindref="compound">FTextStream</ref> &amp;</type>
+          <declname>t</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/xmlgen.cpp" line="234" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/xmlgen.cpp" bodystart="232" bodyend="234"/>
+      </memberdef>
+      <memberdef kind="function" id="dd/d66/class_x_m_l_code_generator_1a634d1af5c5c1b597244d07dafb4b6fc4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type></type>
+        <definition>virtual XMLCodeGenerator::~XMLCodeGenerator</definition>
+        <argsstring>()</argsstring>
+        <name>~XMLCodeGenerator</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/xmlgen.cpp" line="235" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/xmlgen.cpp" bodystart="235" bodyend="235"/>
+      </memberdef>
+      <memberdef kind="function" id="dd/d66/class_x_m_l_code_generator_1a40ff443bfb15f9f862f8bd3ceb50ce89" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void XMLCodeGenerator::codify</definition>
+        <argsstring>(const char *text)</argsstring>
+        <name>codify</name>
+        <param>
+          <type>const char *</type>
+          <declname>text</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/xmlgen.cpp" line="238" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/xmlgen.cpp" bodystart="237" bodyend="246"/>
+      </memberdef>
+      <memberdef kind="function" id="dd/d66/class_x_m_l_code_generator_1aa0e45ec4ffd221b96f0af9202a098a29" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void XMLCodeGenerator::writeCodeLink</definition>
+        <argsstring>(const char *ref, const char *file, const char *anchor, const char *name, const char *tooltip)</argsstring>
+        <name>writeCodeLink</name>
+        <param>
+          <type>const char *</type>
+          <declname>ref</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>file</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>anchor</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>name</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>tooltip</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/xmlgen.cpp" line="250" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/xmlgen.cpp" bodystart="247" bodyend="259"/>
+      </memberdef>
+      <memberdef kind="function" id="dd/d66/class_x_m_l_code_generator_1a44719eff2d9d919cd24aca0f6313b3ea" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void XMLCodeGenerator::startCodeLine</definition>
+        <argsstring>(bool)</argsstring>
+        <name>startCodeLine</name>
+        <param>
+          <type>bool</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/xmlgen.cpp" line="261" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/xmlgen.cpp" bodystart="260" bodyend="287"/>
+      </memberdef>
+      <memberdef kind="function" id="dd/d66/class_x_m_l_code_generator_1a47927ff273870cc7713f2d20e8c2beb3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void XMLCodeGenerator::endCodeLine</definition>
+        <argsstring>()</argsstring>
+        <name>endCodeLine</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/xmlgen.cpp" line="289" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/xmlgen.cpp" bodystart="288" bodyend="301"/>
+      </memberdef>
+      <memberdef kind="function" id="dd/d66/class_x_m_l_code_generator_1ae8a303f514904cba6482e2754619d04f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void XMLCodeGenerator::startCodeAnchor</definition>
+        <argsstring>(const char *id)</argsstring>
+        <name>startCodeAnchor</name>
+        <param>
+          <type>const char *</type>
+          <declname>id</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/xmlgen.cpp" line="303" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/xmlgen.cpp" bodystart="302" bodyend="311"/>
+      </memberdef>
+      <memberdef kind="function" id="dd/d66/class_x_m_l_code_generator_1a244ee04cb76f5c4a74ed13a9fac38027" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void XMLCodeGenerator::endCodeAnchor</definition>
+        <argsstring>()</argsstring>
+        <name>endCodeAnchor</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/xmlgen.cpp" line="313" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/xmlgen.cpp" bodystart="312" bodyend="316"/>
+      </memberdef>
+      <memberdef kind="function" id="dd/d66/class_x_m_l_code_generator_1aa6d0288952109fba1efe98d82e863b70" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void XMLCodeGenerator::startFontClass</definition>
+        <argsstring>(const char *colorClass)</argsstring>
+        <name>startFontClass</name>
+        <param>
+          <type>const char *</type>
+          <declname>colorClass</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/xmlgen.cpp" line="318" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/xmlgen.cpp" bodystart="317" bodyend="327"/>
+      </memberdef>
+      <memberdef kind="function" id="dd/d66/class_x_m_l_code_generator_1adbf57d4544dc1c27571b472f3990a385" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void XMLCodeGenerator::endFontClass</definition>
+        <argsstring>()</argsstring>
+        <name>endFontClass</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/xmlgen.cpp" line="329" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/xmlgen.cpp" bodystart="328" bodyend="333"/>
+      </memberdef>
+      <memberdef kind="function" id="dd/d66/class_x_m_l_code_generator_1a2c6ae0bc633493d36a2b517c44ebb8f4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void XMLCodeGenerator::writeCodeAnchor</definition>
+        <argsstring>(const char *)</argsstring>
+        <name>writeCodeAnchor</name>
+        <param>
+          <type>const char *</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/xmlgen.cpp" line="335" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/xmlgen.cpp" bodystart="334" bodyend="337"/>
+      </memberdef>
+      <memberdef kind="function" id="dd/d66/class_x_m_l_code_generator_1af06c584af323f840eb54a2ab98acd8c2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void XMLCodeGenerator::writeLineNumber</definition>
+        <argsstring>(const char *extRef, const char *compId, const char *anchorId, int l)</argsstring>
+        <name>writeLineNumber</name>
+        <param>
+          <type>const char *</type>
+          <declname>extRef</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>compId</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>anchorId</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>l</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/xmlgen.cpp" line="340" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/xmlgen.cpp" bodystart="338" bodyend="352"/>
+      </memberdef>
+      <memberdef kind="function" id="dd/d66/class_x_m_l_code_generator_1a914538997a35d89bea60f82f2357dbba" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void XMLCodeGenerator::setCurrentDoc</definition>
+        <argsstring>(Definition *, const char *, bool)</argsstring>
+        <name>setCurrentDoc</name>
+        <param>
+          <type><ref refid="d5/dcc/class_definition" kindref="compound">Definition</ref> *</type>
+        </param>
+        <param>
+          <type>const char *</type>
+        </param>
+        <param>
+          <type>bool</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/xmlgen.cpp" line="354" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/xmlgen.cpp" bodystart="353" bodyend="355"/>
+      </memberdef>
+      <memberdef kind="function" id="dd/d66/class_x_m_l_code_generator_1ad881d483a68619cc88b9022f85f116ea" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void XMLCodeGenerator::addWord</definition>
+        <argsstring>(const char *, bool)</argsstring>
+        <name>addWord</name>
+        <param>
+          <type>const char *</type>
+        </param>
+        <param>
+          <type>bool</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/xmlgen.cpp" line="357" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/xmlgen.cpp" bodystart="356" bodyend="358"/>
+      </memberdef>
+      <memberdef kind="function" id="dd/d66/class_x_m_l_code_generator_1a28def93f4623a2788f74a072a6a72a7d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void XMLCodeGenerator::finish</definition>
+        <argsstring>()</argsstring>
+        <name>finish</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/xmlgen.cpp" line="361" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/xmlgen.cpp" bodystart="360" bodyend="363"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Generator for producing XML formatted source code. </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="5288">
+        <label>XMLCodeGenerator</label>
+        <childnode refid="5289" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="5289">
+        <label>CodeOutputInterface</label>
+        <link refid="d5/d9c/class_code_output_interface"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="5290">
+        <label>XMLCodeGenerator</label>
+        <childnode refid="5291" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="5291">
+        <label>CodeOutputInterface</label>
+        <link refid="d5/d9c/class_code_output_interface"/>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/xmlgen.cpp" line="229" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/xmlgen.cpp" bodystart="228" bodyend="376"/>
+    <listofallmembers>
+      <member refid="dd/d66/class_x_m_l_code_generator_1ad881d483a68619cc88b9022f85f116ea" prot="public" virt="non-virtual"><scope>XMLCodeGenerator</scope><name>addWord</name></member>
+      <member refid="dd/d66/class_x_m_l_code_generator_1a40ff443bfb15f9f862f8bd3ceb50ce89" prot="public" virt="non-virtual"><scope>XMLCodeGenerator</scope><name>codify</name></member>
+      <member refid="dd/d66/class_x_m_l_code_generator_1a25f18a7ebdc9bd22e88be6cbbf940bee" prot="private" virt="non-virtual"><scope>XMLCodeGenerator</scope><name>col</name></member>
+      <member refid="dd/d66/class_x_m_l_code_generator_1a244ee04cb76f5c4a74ed13a9fac38027" prot="public" virt="non-virtual"><scope>XMLCodeGenerator</scope><name>endCodeAnchor</name></member>
+      <member refid="dd/d66/class_x_m_l_code_generator_1a47927ff273870cc7713f2d20e8c2beb3" prot="public" virt="non-virtual"><scope>XMLCodeGenerator</scope><name>endCodeLine</name></member>
+      <member refid="dd/d66/class_x_m_l_code_generator_1adbf57d4544dc1c27571b472f3990a385" prot="public" virt="non-virtual"><scope>XMLCodeGenerator</scope><name>endFontClass</name></member>
+      <member refid="dd/d66/class_x_m_l_code_generator_1a28def93f4623a2788f74a072a6a72a7d" prot="public" virt="non-virtual"><scope>XMLCodeGenerator</scope><name>finish</name></member>
+      <member refid="dd/d66/class_x_m_l_code_generator_1abdb404fb86f03d744dbd295d47e4ae36" prot="private" virt="non-virtual"><scope>XMLCodeGenerator</scope><name>m_external</name></member>
+      <member refid="dd/d66/class_x_m_l_code_generator_1a91f4f54448a0801dd6b300205a5bd033" prot="private" virt="non-virtual"><scope>XMLCodeGenerator</scope><name>m_insideCodeLine</name></member>
+      <member refid="dd/d66/class_x_m_l_code_generator_1a0e4c40bf672d84b66baf63299846b69b" prot="private" virt="non-virtual"><scope>XMLCodeGenerator</scope><name>m_insideSpecialHL</name></member>
+      <member refid="dd/d66/class_x_m_l_code_generator_1afa1a2871d0b2973b2ebac3d87f6ab1eb" prot="private" virt="non-virtual"><scope>XMLCodeGenerator</scope><name>m_isMemberRef</name></member>
+      <member refid="dd/d66/class_x_m_l_code_generator_1a70bd87abe416e5572fc1847432c9ac3e" prot="private" virt="non-virtual"><scope>XMLCodeGenerator</scope><name>m_lineNumber</name></member>
+      <member refid="dd/d66/class_x_m_l_code_generator_1a54b560e7b1518573507fc1e289d704ab" prot="private" virt="non-virtual"><scope>XMLCodeGenerator</scope><name>m_normalHLNeedStartTag</name></member>
+      <member refid="dd/d66/class_x_m_l_code_generator_1aa8d05dcbd2db6a318e74367b05bb243f" prot="private" virt="non-virtual"><scope>XMLCodeGenerator</scope><name>m_refId</name></member>
+      <member refid="dd/d66/class_x_m_l_code_generator_1a91bca04682f1687f11d53dbf6afeca4c" prot="private" virt="non-virtual"><scope>XMLCodeGenerator</scope><name>m_t</name></member>
+      <member refid="dd/d66/class_x_m_l_code_generator_1a914538997a35d89bea60f82f2357dbba" prot="public" virt="non-virtual"><scope>XMLCodeGenerator</scope><name>setCurrentDoc</name></member>
+      <member refid="dd/d66/class_x_m_l_code_generator_1ae8a303f514904cba6482e2754619d04f" prot="public" virt="non-virtual"><scope>XMLCodeGenerator</scope><name>startCodeAnchor</name></member>
+      <member refid="dd/d66/class_x_m_l_code_generator_1a44719eff2d9d919cd24aca0f6313b3ea" prot="public" virt="non-virtual"><scope>XMLCodeGenerator</scope><name>startCodeLine</name></member>
+      <member refid="dd/d66/class_x_m_l_code_generator_1aa6d0288952109fba1efe98d82e863b70" prot="public" virt="non-virtual"><scope>XMLCodeGenerator</scope><name>startFontClass</name></member>
+      <member refid="dd/d66/class_x_m_l_code_generator_1a2c6ae0bc633493d36a2b517c44ebb8f4" prot="public" virt="non-virtual"><scope>XMLCodeGenerator</scope><name>writeCodeAnchor</name></member>
+      <member refid="dd/d66/class_x_m_l_code_generator_1aa0e45ec4ffd221b96f0af9202a098a29" prot="public" virt="non-virtual"><scope>XMLCodeGenerator</scope><name>writeCodeLink</name></member>
+      <member refid="dd/d66/class_x_m_l_code_generator_1af06c584af323f840eb54a2ab98acd8c2" prot="public" virt="non-virtual"><scope>XMLCodeGenerator</scope><name>writeLineNumber</name></member>
+      <member refid="dd/d66/class_x_m_l_code_generator_1a1dd6dbe14d945e6b69470826968cc355" prot="public" virt="non-virtual"><scope>XMLCodeGenerator</scope><name>XMLCodeGenerator</name></member>
+      <member refid="d5/d9c/class_code_output_interface_1a09fd2fd0be98227359200de7ab89c7e6" prot="public" virt="virtual"><scope>XMLCodeGenerator</scope><name>~CodeOutputInterface</name></member>
+      <member refid="dd/d66/class_x_m_l_code_generator_1a634d1af5c5c1b597244d07dafb4b6fc4" prot="public" virt="virtual"><scope>XMLCodeGenerator</scope><name>~XMLCodeGenerator</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

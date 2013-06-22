@@ -1,0 +1,675 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.2">
+  <compounddef id="d3/de9/class_layout_parser" kind="class" prot="public">
+    <compoundname>LayoutParser</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">QXmlDefaultHandler</basecompoundref>
+    <innerclass refid="d6/d3d/class_layout_parser_1_1_end_element_handler" prot="private">LayoutParser::EndElementHandler</innerclass>
+    <innerclass refid="d9/dc0/class_layout_parser_1_1_start_element_handler" prot="private">LayoutParser::StartElementHandler</innerclass>
+    <innerclass refid="d4/d2b/class_layout_parser_1_1_start_element_handler_kind" prot="private">LayoutParser::StartElementHandlerKind</innerclass>
+    <innerclass refid="d2/d61/class_layout_parser_1_1_start_element_handler_member" prot="private">LayoutParser::StartElementHandlerMember</innerclass>
+    <innerclass refid="d0/ddf/class_layout_parser_1_1_start_element_handler_nav_entry" prot="private">LayoutParser::StartElementHandlerNavEntry</innerclass>
+    <innerclass refid="d3/d67/class_layout_parser_1_1_start_element_handler_section" prot="private">LayoutParser::StartElementHandlerSection</innerclass>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="d3/de9/class_layout_parser_1ac1f943de0f3809898c53883867f56156" prot="private" static="no" mutable="no">
+        <type>QDict&lt; StartElementHandler &gt;</type>
+        <definition>QDict&lt;StartElementHandler&gt; LayoutParser::m_sHandler</definition>
+        <argsstring></argsstring>
+        <name>m_sHandler</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/layout.cpp" line="1273" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/layout.cpp" bodystart="1273" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d3/de9/class_layout_parser_1aa77fc6466267f9ac302dd343c2f455d0" prot="private" static="no" mutable="no">
+        <type>QDict&lt; EndElementHandler &gt;</type>
+        <definition>QDict&lt;EndElementHandler&gt; LayoutParser::m_eHandler</definition>
+        <argsstring></argsstring>
+        <name>m_eHandler</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/layout.cpp" line="1274" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/layout.cpp" bodystart="1274" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d3/de9/class_layout_parser_1a03ed81aca66391771e47ecaad3b4302a" prot="private" static="no" mutable="no">
+        <type>QCString</type>
+        <definition>QCString LayoutParser::m_scope</definition>
+        <argsstring></argsstring>
+        <name>m_scope</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/layout.cpp" line="1275" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/layout.cpp" bodystart="1275" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d3/de9/class_layout_parser_1ae20b793865b0d52f4675a2a214e20574" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int LayoutParser::m_part</definition>
+        <argsstring></argsstring>
+        <name>m_part</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/layout.cpp" line="1276" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/layout.cpp" bodystart="1276" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d3/de9/class_layout_parser_1ae0622ae2c94c9380801ebabe0248c6b3" prot="private" static="no" mutable="no">
+        <type><ref refid="df/de7/struct_layout_nav_entry" kindref="compound">LayoutNavEntry</ref> *</type>
+        <definition>LayoutNavEntry* LayoutParser::m_rootNav</definition>
+        <argsstring></argsstring>
+        <name>m_rootNav</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/layout.cpp" line="1277" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/layout.cpp" bodystart="1277" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d3/de9/class_layout_parser_1a9da971c25670c1827d1a08877fb091c1" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool LayoutParser::m_invalidEntry</definition>
+        <argsstring></argsstring>
+        <name>m_invalidEntry</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/layout.cpp" line="1278" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/layout.cpp" bodystart="1278" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="d3/de9/class_layout_parser_1a280d75b3f9fd09d4cace0bc11c78c18e" prot="private" static="yes" mutable="no">
+        <type>int</type>
+        <definition>int LayoutParser::m_userGroupCount</definition>
+        <argsstring></argsstring>
+        <name>m_userGroupCount</name>
+        <initializer>=0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/layout.cpp" line="1279" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/layout.cpp" bodystart="1279" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="d3/de9/class_layout_parser_1a15418df161dd0e336bf07663382f787a" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>LayoutParser &amp;</type>
+        <definition>static LayoutParser&amp; LayoutParser::instance</definition>
+        <argsstring>()</argsstring>
+        <name>instance</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/layout.cpp" line="254" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/layout.cpp" bodystart="253" bodyend="257"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="d3/de9/class_layout_parser_1a243d5eae295c4957a37c5521a0d677f5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void LayoutParser::init</definition>
+        <argsstring>()</argsstring>
+        <name>init</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/layout.cpp" line="259" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/layout.cpp" bodystart="258" bodyend="810"/>
+      </memberdef>
+      <memberdef kind="function" id="d3/de9/class_layout_parser_1af06bd886b0d723dbc6f9ec2d95c6c8d1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void LayoutParser::startSimpleEntry</definition>
+        <argsstring>(LayoutDocEntry::Kind k, const QXmlAttributes &amp;attrib)</argsstring>
+        <name>startSimpleEntry</name>
+        <param>
+          <type>LayoutDocEntry::Kind</type>
+          <declname>k</declname>
+        </param>
+        <param>
+          <type>const QXmlAttributes &amp;</type>
+          <declname>attrib</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/layout.cpp" line="813" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/layout.cpp" bodystart="812" bodyend="820"/>
+      </memberdef>
+      <memberdef kind="function" id="d3/de9/class_layout_parser_1abc6401e54a9617520571194d40d6c2ec" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void LayoutParser::startSectionEntry</definition>
+        <argsstring>(LayoutDocEntry::Kind k, const QXmlAttributes &amp;attrib, const QCString &amp;title)</argsstring>
+        <name>startSectionEntry</name>
+        <param>
+          <type>LayoutDocEntry::Kind</type>
+          <declname>k</declname>
+        </param>
+        <param>
+          <type>const QXmlAttributes &amp;</type>
+          <declname>attrib</declname>
+        </param>
+        <param>
+          <type>const QCString &amp;</type>
+          <declname>title</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/layout.cpp" line="824" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/layout.cpp" bodystart="822" bodyend="835"/>
+      </memberdef>
+      <memberdef kind="function" id="d3/de9/class_layout_parser_1ac47233901d4ceddb7b53b94335144441" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void LayoutParser::startMemberDeclEntry</definition>
+        <argsstring>(const QXmlAttributes &amp;attrib, MemberListType type, const QCString &amp;title, const QCString &amp;subscript)</argsstring>
+        <name>startMemberDeclEntry</name>
+        <param>
+          <type>const QXmlAttributes &amp;</type>
+          <declname>attrib</declname>
+        </param>
+        <param>
+          <type>MemberListType</type>
+          <declname>type</declname>
+        </param>
+        <param>
+          <type>const QCString &amp;</type>
+          <declname>title</declname>
+        </param>
+        <param>
+          <type>const QCString &amp;</type>
+          <declname>subscript</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/layout.cpp" line="840" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/layout.cpp" bodystart="838" bodyend="853"/>
+      </memberdef>
+      <memberdef kind="function" id="d3/de9/class_layout_parser_1a8c394955e0d4748de57bd04d459a8983" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void LayoutParser::startMemberDefEntry</definition>
+        <argsstring>(const QXmlAttributes &amp;attrib, MemberListType type, const QCString &amp;title, const QCString &amp;)</argsstring>
+        <name>startMemberDefEntry</name>
+        <param>
+          <type>const QXmlAttributes &amp;</type>
+          <declname>attrib</declname>
+        </param>
+        <param>
+          <type>MemberListType</type>
+          <declname>type</declname>
+        </param>
+        <param>
+          <type>const QCString &amp;</type>
+          <declname>title</declname>
+        </param>
+        <param>
+          <type>const QCString &amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/layout.cpp" line="857" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/layout.cpp" bodystart="855" bodyend="866"/>
+      </memberdef>
+      <memberdef kind="function" id="d3/de9/class_layout_parser_1a1fe962fb0452d1513133f9be74855316" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void LayoutParser::startLayout</definition>
+        <argsstring>(const QXmlAttributes &amp;)</argsstring>
+        <name>startLayout</name>
+        <param>
+          <type>const QXmlAttributes &amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/layout.cpp" line="869" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/layout.cpp" bodystart="868" bodyend="870"/>
+      </memberdef>
+      <memberdef kind="function" id="d3/de9/class_layout_parser_1ae0812943705504094029aef52414675c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void LayoutParser::endLayout</definition>
+        <argsstring>()</argsstring>
+        <name>endLayout</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/layout.cpp" line="873" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/layout.cpp" bodystart="872" bodyend="874"/>
+      </memberdef>
+      <memberdef kind="function" id="d3/de9/class_layout_parser_1a17a2d4c4d85917fc43d25aaaae562d03" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void LayoutParser::startNavIndex</definition>
+        <argsstring>(const QXmlAttributes &amp;)</argsstring>
+        <name>startNavIndex</name>
+        <param>
+          <type>const QXmlAttributes &amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/layout.cpp" line="877" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/layout.cpp" bodystart="876" bodyend="881"/>
+      </memberdef>
+      <memberdef kind="function" id="d3/de9/class_layout_parser_1ac23ebe1f687d00e2de1afe54e9774d6e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void LayoutParser::endNavIndex</definition>
+        <argsstring>()</argsstring>
+        <name>endNavIndex</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/layout.cpp" line="884" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/layout.cpp" bodystart="883" bodyend="893"/>
+      </memberdef>
+      <memberdef kind="function" id="d3/de9/class_layout_parser_1ab1c6a6e8435dfac22c988ca0f1f434c3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void LayoutParser::startNavEntry</definition>
+        <argsstring>(const QXmlAttributes &amp;attrib)</argsstring>
+        <name>startNavEntry</name>
+        <param>
+          <type>const QXmlAttributes &amp;</type>
+          <declname>attrib</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/layout.cpp" line="896" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/layout.cpp" bodystart="895" bodyend="1108"/>
+      </memberdef>
+      <memberdef kind="function" id="d3/de9/class_layout_parser_1aeef097868148b046c02b7b2ecdd42e59" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void LayoutParser::endNavEntry</definition>
+        <argsstring>()</argsstring>
+        <name>endNavEntry</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/layout.cpp" line="1111" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/layout.cpp" bodystart="1110" bodyend="1115"/>
+      </memberdef>
+      <memberdef kind="function" id="d3/de9/class_layout_parser_1a43f4c8089b8a9da04be6cbd17672c69a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void LayoutParser::startClass</definition>
+        <argsstring>(const QXmlAttributes &amp;)</argsstring>
+        <name>startClass</name>
+        <param>
+          <type>const QXmlAttributes &amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/layout.cpp" line="1118" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/layout.cpp" bodystart="1117" bodyend="1122"/>
+      </memberdef>
+      <memberdef kind="function" id="d3/de9/class_layout_parser_1aedfb21bc901f880aa359f2c23f82492a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void LayoutParser::endClass</definition>
+        <argsstring>()</argsstring>
+        <name>endClass</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/layout.cpp" line="1125" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/layout.cpp" bodystart="1124" bodyend="1128"/>
+      </memberdef>
+      <memberdef kind="function" id="d3/de9/class_layout_parser_1a6fddf2358d18a9caefde0e7e93cdcbd0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void LayoutParser::startNamespace</definition>
+        <argsstring>(const QXmlAttributes &amp;)</argsstring>
+        <name>startNamespace</name>
+        <param>
+          <type>const QXmlAttributes &amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/layout.cpp" line="1131" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/layout.cpp" bodystart="1130" bodyend="1135"/>
+      </memberdef>
+      <memberdef kind="function" id="d3/de9/class_layout_parser_1aadce9f277dc348593d137d06c79ede26" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void LayoutParser::endNamespace</definition>
+        <argsstring>()</argsstring>
+        <name>endNamespace</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/layout.cpp" line="1138" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/layout.cpp" bodystart="1137" bodyend="1141"/>
+      </memberdef>
+      <memberdef kind="function" id="d3/de9/class_layout_parser_1ac6a715c3de3c7eb65dded27f7e667489" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void LayoutParser::startFile</definition>
+        <argsstring>(const QXmlAttributes &amp;)</argsstring>
+        <name>startFile</name>
+        <param>
+          <type>const QXmlAttributes &amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/layout.cpp" line="1144" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/layout.cpp" bodystart="1143" bodyend="1148"/>
+      </memberdef>
+      <memberdef kind="function" id="d3/de9/class_layout_parser_1a243a2f6da8f80d564283f569f4d3dad7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void LayoutParser::endFile</definition>
+        <argsstring>()</argsstring>
+        <name>endFile</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/layout.cpp" line="1151" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/layout.cpp" bodystart="1150" bodyend="1154"/>
+      </memberdef>
+      <memberdef kind="function" id="d3/de9/class_layout_parser_1a968de3bc9328f0f0e9a93406001fd293" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void LayoutParser::startGroup</definition>
+        <argsstring>(const QXmlAttributes &amp;)</argsstring>
+        <name>startGroup</name>
+        <param>
+          <type>const QXmlAttributes &amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/layout.cpp" line="1157" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/layout.cpp" bodystart="1156" bodyend="1161"/>
+      </memberdef>
+      <memberdef kind="function" id="d3/de9/class_layout_parser_1a07e465e3a3b8f544e0c5857f99200ffa" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void LayoutParser::endGroup</definition>
+        <argsstring>()</argsstring>
+        <name>endGroup</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/layout.cpp" line="1164" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/layout.cpp" bodystart="1163" bodyend="1167"/>
+      </memberdef>
+      <memberdef kind="function" id="d3/de9/class_layout_parser_1abc39b9f2b8f2745fbb9aa66e3cfa0a82" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void LayoutParser::startDirectory</definition>
+        <argsstring>(const QXmlAttributes &amp;)</argsstring>
+        <name>startDirectory</name>
+        <param>
+          <type>const QXmlAttributes &amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/layout.cpp" line="1170" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/layout.cpp" bodystart="1169" bodyend="1174"/>
+      </memberdef>
+      <memberdef kind="function" id="d3/de9/class_layout_parser_1aedf31ed1122667f92f01ee56e9c62a2e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void LayoutParser::endDirectory</definition>
+        <argsstring>()</argsstring>
+        <name>endDirectory</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/layout.cpp" line="1177" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/layout.cpp" bodystart="1176" bodyend="1180"/>
+      </memberdef>
+      <memberdef kind="function" id="d3/de9/class_layout_parser_1a3f7a37e5a0c26d8fd9ee8e305f574a98" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void LayoutParser::startMemberDef</definition>
+        <argsstring>(const QXmlAttributes &amp;)</argsstring>
+        <name>startMemberDef</name>
+        <param>
+          <type>const QXmlAttributes &amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/layout.cpp" line="1183" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/layout.cpp" bodystart="1182" bodyend="1190"/>
+      </memberdef>
+      <memberdef kind="function" id="d3/de9/class_layout_parser_1a9962ccd9bdd19597ef89c7b70d4d9b71" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void LayoutParser::endMemberDef</definition>
+        <argsstring>()</argsstring>
+        <name>endMemberDef</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/layout.cpp" line="1193" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/layout.cpp" bodystart="1192" bodyend="1204"/>
+      </memberdef>
+      <memberdef kind="function" id="d3/de9/class_layout_parser_1adbb62efccf1bc11e82082034fa0ef6cb" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void LayoutParser::startMemberDecl</definition>
+        <argsstring>(const QXmlAttributes &amp;)</argsstring>
+        <name>startMemberDecl</name>
+        <param>
+          <type>const QXmlAttributes &amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/layout.cpp" line="1207" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/layout.cpp" bodystart="1206" bodyend="1214"/>
+      </memberdef>
+      <memberdef kind="function" id="d3/de9/class_layout_parser_1a4619bdb8c07c8e0ccfc55290e0b92303" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void LayoutParser::endMemberDecl</definition>
+        <argsstring>()</argsstring>
+        <name>endMemberDecl</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/layout.cpp" line="1217" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/layout.cpp" bodystart="1216" bodyend="1228"/>
+      </memberdef>
+      <memberdef kind="function" id="d3/de9/class_layout_parser_1aa870786ef488ce9d300214dab2c497ae" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool LayoutParser::startElement</definition>
+        <argsstring>(const QString &amp;, const QString &amp;, const QString &amp;name, const QXmlAttributes &amp;attrib)</argsstring>
+        <name>startElement</name>
+        <param>
+          <type>const QString &amp;</type>
+        </param>
+        <param>
+          <type>const QString &amp;</type>
+        </param>
+        <param>
+          <type>const QString &amp;</type>
+          <declname>name</declname>
+        </param>
+        <param>
+          <type>const QXmlAttributes &amp;</type>
+          <declname>attrib</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/layout.cpp" line="1233" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/layout.cpp" bodystart="1231" bodyend="1246"/>
+      </memberdef>
+      <memberdef kind="function" id="d3/de9/class_layout_parser_1aded617e52b2a221ed57c29ac79da360b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool LayoutParser::endElement</definition>
+        <argsstring>(const QString &amp;, const QString &amp;, const QString &amp;name)</argsstring>
+        <name>endElement</name>
+        <param>
+          <type>const QString &amp;</type>
+        </param>
+        <param>
+          <type>const QString &amp;</type>
+        </param>
+        <param>
+          <type>const QString &amp;</type>
+          <declname>name</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/layout.cpp" line="1248" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/layout.cpp" bodystart="1247" bodyend="1264"/>
+      </memberdef>
+      <memberdef kind="function" id="d3/de9/class_layout_parser_1a69ed2ff63a31f160e166ff79c93f5865" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool LayoutParser::startDocument</definition>
+        <argsstring>()</argsstring>
+        <name>startDocument</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/layout.cpp" line="1266" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/layout.cpp" bodystart="1265" bodyend="1268"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="d3/de9/class_layout_parser_1a34838c548bbff343cd508081026f383e" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>LayoutParser::LayoutParser</definition>
+        <argsstring>()</argsstring>
+        <name>LayoutParser</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/layout.cpp" line="1271" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/layout.cpp" bodystart="1271" bodyend="1271"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="3644">
+        <label>LayoutParser</label>
+        <childnode refid="3645" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3645">
+        <label>QXmlDefaultHandler</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="3646">
+        <label>LayoutParser</label>
+        <childnode refid="3647" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3647">
+        <label>QXmlDefaultHandler</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/layout.cpp" line="133" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/layout.cpp" bodystart="132" bodyend="1280"/>
+    <listofallmembers>
+      <member refid="d3/de9/class_layout_parser_1aedfb21bc901f880aa359f2c23f82492a" prot="public" virt="non-virtual"><scope>LayoutParser</scope><name>endClass</name></member>
+      <member refid="d3/de9/class_layout_parser_1aedf31ed1122667f92f01ee56e9c62a2e" prot="public" virt="non-virtual"><scope>LayoutParser</scope><name>endDirectory</name></member>
+      <member refid="d3/de9/class_layout_parser_1aded617e52b2a221ed57c29ac79da360b" prot="public" virt="non-virtual"><scope>LayoutParser</scope><name>endElement</name></member>
+      <member refid="d3/de9/class_layout_parser_1a243a2f6da8f80d564283f569f4d3dad7" prot="public" virt="non-virtual"><scope>LayoutParser</scope><name>endFile</name></member>
+      <member refid="d3/de9/class_layout_parser_1a07e465e3a3b8f544e0c5857f99200ffa" prot="public" virt="non-virtual"><scope>LayoutParser</scope><name>endGroup</name></member>
+      <member refid="d3/de9/class_layout_parser_1ae0812943705504094029aef52414675c" prot="public" virt="non-virtual"><scope>LayoutParser</scope><name>endLayout</name></member>
+      <member refid="d3/de9/class_layout_parser_1a4619bdb8c07c8e0ccfc55290e0b92303" prot="public" virt="non-virtual"><scope>LayoutParser</scope><name>endMemberDecl</name></member>
+      <member refid="d3/de9/class_layout_parser_1a9962ccd9bdd19597ef89c7b70d4d9b71" prot="public" virt="non-virtual"><scope>LayoutParser</scope><name>endMemberDef</name></member>
+      <member refid="d3/de9/class_layout_parser_1aadce9f277dc348593d137d06c79ede26" prot="public" virt="non-virtual"><scope>LayoutParser</scope><name>endNamespace</name></member>
+      <member refid="d3/de9/class_layout_parser_1aeef097868148b046c02b7b2ecdd42e59" prot="public" virt="non-virtual"><scope>LayoutParser</scope><name>endNavEntry</name></member>
+      <member refid="d3/de9/class_layout_parser_1ac23ebe1f687d00e2de1afe54e9774d6e" prot="public" virt="non-virtual"><scope>LayoutParser</scope><name>endNavIndex</name></member>
+      <member refid="d3/de9/class_layout_parser_1a243d5eae295c4957a37c5521a0d677f5" prot="public" virt="non-virtual"><scope>LayoutParser</scope><name>init</name></member>
+      <member refid="d3/de9/class_layout_parser_1a15418df161dd0e336bf07663382f787a" prot="public" virt="non-virtual"><scope>LayoutParser</scope><name>instance</name></member>
+      <member refid="d3/de9/class_layout_parser_1a34838c548bbff343cd508081026f383e" prot="private" virt="non-virtual"><scope>LayoutParser</scope><name>LayoutParser</name></member>
+      <member refid="d3/de9/class_layout_parser_1aa77fc6466267f9ac302dd343c2f455d0" prot="private" virt="non-virtual"><scope>LayoutParser</scope><name>m_eHandler</name></member>
+      <member refid="d3/de9/class_layout_parser_1a9da971c25670c1827d1a08877fb091c1" prot="private" virt="non-virtual"><scope>LayoutParser</scope><name>m_invalidEntry</name></member>
+      <member refid="d3/de9/class_layout_parser_1ae20b793865b0d52f4675a2a214e20574" prot="private" virt="non-virtual"><scope>LayoutParser</scope><name>m_part</name></member>
+      <member refid="d3/de9/class_layout_parser_1ae0622ae2c94c9380801ebabe0248c6b3" prot="private" virt="non-virtual"><scope>LayoutParser</scope><name>m_rootNav</name></member>
+      <member refid="d3/de9/class_layout_parser_1a03ed81aca66391771e47ecaad3b4302a" prot="private" virt="non-virtual"><scope>LayoutParser</scope><name>m_scope</name></member>
+      <member refid="d3/de9/class_layout_parser_1ac1f943de0f3809898c53883867f56156" prot="private" virt="non-virtual"><scope>LayoutParser</scope><name>m_sHandler</name></member>
+      <member refid="d3/de9/class_layout_parser_1a280d75b3f9fd09d4cace0bc11c78c18e" prot="private" virt="non-virtual"><scope>LayoutParser</scope><name>m_userGroupCount</name></member>
+      <member refid="d3/de9/class_layout_parser_1a43f4c8089b8a9da04be6cbd17672c69a" prot="public" virt="non-virtual"><scope>LayoutParser</scope><name>startClass</name></member>
+      <member refid="d3/de9/class_layout_parser_1abc39b9f2b8f2745fbb9aa66e3cfa0a82" prot="public" virt="non-virtual"><scope>LayoutParser</scope><name>startDirectory</name></member>
+      <member refid="d3/de9/class_layout_parser_1a69ed2ff63a31f160e166ff79c93f5865" prot="public" virt="non-virtual"><scope>LayoutParser</scope><name>startDocument</name></member>
+      <member refid="d3/de9/class_layout_parser_1aa870786ef488ce9d300214dab2c497ae" prot="public" virt="non-virtual"><scope>LayoutParser</scope><name>startElement</name></member>
+      <member refid="d3/de9/class_layout_parser_1ac6a715c3de3c7eb65dded27f7e667489" prot="public" virt="non-virtual"><scope>LayoutParser</scope><name>startFile</name></member>
+      <member refid="d3/de9/class_layout_parser_1a968de3bc9328f0f0e9a93406001fd293" prot="public" virt="non-virtual"><scope>LayoutParser</scope><name>startGroup</name></member>
+      <member refid="d3/de9/class_layout_parser_1a1fe962fb0452d1513133f9be74855316" prot="public" virt="non-virtual"><scope>LayoutParser</scope><name>startLayout</name></member>
+      <member refid="d3/de9/class_layout_parser_1adbb62efccf1bc11e82082034fa0ef6cb" prot="public" virt="non-virtual"><scope>LayoutParser</scope><name>startMemberDecl</name></member>
+      <member refid="d3/de9/class_layout_parser_1ac47233901d4ceddb7b53b94335144441" prot="public" virt="non-virtual"><scope>LayoutParser</scope><name>startMemberDeclEntry</name></member>
+      <member refid="d3/de9/class_layout_parser_1a3f7a37e5a0c26d8fd9ee8e305f574a98" prot="public" virt="non-virtual"><scope>LayoutParser</scope><name>startMemberDef</name></member>
+      <member refid="d3/de9/class_layout_parser_1a8c394955e0d4748de57bd04d459a8983" prot="public" virt="non-virtual"><scope>LayoutParser</scope><name>startMemberDefEntry</name></member>
+      <member refid="d3/de9/class_layout_parser_1a6fddf2358d18a9caefde0e7e93cdcbd0" prot="public" virt="non-virtual"><scope>LayoutParser</scope><name>startNamespace</name></member>
+      <member refid="d3/de9/class_layout_parser_1ab1c6a6e8435dfac22c988ca0f1f434c3" prot="public" virt="non-virtual"><scope>LayoutParser</scope><name>startNavEntry</name></member>
+      <member refid="d3/de9/class_layout_parser_1a17a2d4c4d85917fc43d25aaaae562d03" prot="public" virt="non-virtual"><scope>LayoutParser</scope><name>startNavIndex</name></member>
+      <member refid="d3/de9/class_layout_parser_1abc6401e54a9617520571194d40d6c2ec" prot="public" virt="non-virtual"><scope>LayoutParser</scope><name>startSectionEntry</name></member>
+      <member refid="d3/de9/class_layout_parser_1af06bd886b0d723dbc6f9ec2d95c6c8d1" prot="public" virt="non-virtual"><scope>LayoutParser</scope><name>startSimpleEntry</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

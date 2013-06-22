@@ -1,0 +1,169 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.2">
+  <compounddef id="d4/d0d/class_parser_manager" kind="class" prot="public">
+    <compoundname>ParserManager</compoundname>
+    <includes refid="da/d55/parserintf_8h" local="no">parserintf.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="d4/d0d/class_parser_manager_1aa240afba2fc8d0a2bd9f983aaeec1bdb" prot="private" static="no" mutable="no">
+        <type>QDict&lt; <ref refid="d5/d84/class_parser_interface" kindref="compound">ParserInterface</ref> &gt;</type>
+        <definition>QDict&lt;ParserInterface&gt; ParserManager::m_parsers</definition>
+        <argsstring></argsstring>
+        <name>m_parsers</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/parserintf.h" line="192" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/parserintf.h" bodystart="192" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d4/d0d/class_parser_manager_1a3e65f1ea585b043ea90a115e8e81e5b8" prot="private" static="no" mutable="no">
+        <type>QDict&lt; <ref refid="d5/d84/class_parser_interface" kindref="compound">ParserInterface</ref> &gt;</type>
+        <definition>QDict&lt;ParserInterface&gt; ParserManager::m_extensions</definition>
+        <argsstring></argsstring>
+        <name>m_extensions</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/parserintf.h" line="193" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/parserintf.h" bodystart="193" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d4/d0d/class_parser_manager_1acd0a56a2dd35b8f9bf2da39513d1908f" prot="private" static="no" mutable="no">
+        <type><ref refid="d5/d84/class_parser_interface" kindref="compound">ParserInterface</ref> *</type>
+        <definition>ParserInterface* ParserManager::m_defaultParser</definition>
+        <argsstring></argsstring>
+        <name>m_defaultParser</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/parserintf.h" line="194" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/parserintf.h" bodystart="194" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="d4/d0d/class_parser_manager_1a6d40c2ea132a10d04515db91b170023c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>ParserManager::ParserManager</definition>
+        <argsstring>()</argsstring>
+        <name>ParserManager</name>
+        <briefdescription>
+<para>Creates the parser manager object. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/parserintf.h" line="143" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/parserintf.h" bodystart="142" bodyend="143"/>
+      </memberdef>
+      <memberdef kind="function" id="d4/d0d/class_parser_manager_1ae532c1adf9e98fbafc25a415d56f9753" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ParserManager::registerParser</definition>
+        <argsstring>(const char *name, ParserInterface *parser, bool defParser=FALSE)</argsstring>
+        <name>registerParser</name>
+        <param>
+          <type>const char *</type>
+          <declname>name</declname>
+        </param>
+        <param>
+          <type><ref refid="d5/d84/class_parser_interface" kindref="compound">ParserInterface</ref> *</type>
+          <declname>parser</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>defParser</declname>
+          <defval>FALSE</defval>
+        </param>
+        <briefdescription>
+<para>Registers an additional parser. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">name</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>A symbolic name of the parser, i.e. &quot;c&quot;, &quot;python&quot;, &quot;fortran&quot;, &quot;vhdl&quot;, ... </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">parser</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The parser that is to be used for the given name. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">defParser</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Use this parser as the default parser, used for unregistered file extensions. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/parserintf.h" line="154" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/parserintf.h" bodystart="153" bodyend="157"/>
+      </memberdef>
+      <memberdef kind="function" id="d4/d0d/class_parser_manager_1a2184813c0cd50eda1cf6ce74bf50d8b5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool ParserManager::registerExtension</definition>
+        <argsstring>(const char *extension, const char *parserName)</argsstring>
+        <name>registerExtension</name>
+        <param>
+          <type>const char *</type>
+          <declname>extension</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>parserName</declname>
+        </param>
+        <briefdescription>
+<para>Registers a file <emphasis>extension</emphasis> with a parser with name <emphasis>parserName</emphasis>. </para>        </briefdescription>
+        <detaileddescription>
+<para>Returns TRUE if the extension was successfully registered. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/parserintf.h" line="163" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/parserintf.h" bodystart="162" bodyend="173"/>
+      </memberdef>
+      <memberdef kind="function" id="d4/d0d/class_parser_manager_1a69f9874c260df7559242ec5833051ac5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="d5/d84/class_parser_interface" kindref="compound">ParserInterface</ref> *</type>
+        <definition>ParserInterface* ParserManager::getParser</definition>
+        <argsstring>(const char *extension)</argsstring>
+        <name>getParser</name>
+        <param>
+          <type>const char *</type>
+          <declname>extension</declname>
+        </param>
+        <briefdescription>
+<para>Gets the interface to the parser associated with given <emphasis>extension</emphasis>. </para>        </briefdescription>
+        <detaileddescription>
+<para>If there is no parser explicitly registered for the supplied extension, the interface to the default parser will be returned. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/parserintf.h" line="180" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/parserintf.h" bodystart="179" bodyend="189"/>
+        <referencedby refid="d9/d8f/class_markdown_file_parser_1a1a4b6de88fb9230bfa7800d146c9d280" compoundref="de/d04/markdown_8cpp" startline="2341" endline="2362">MarkdownFileParser::parseCode</referencedby>
+        <referencedby refid="d9/d8f/class_markdown_file_parser_1a5579fefcfe5512e79abfe55fd508fc95" compoundref="de/d04/markdown_8cpp" startline="2373" endline="2380">MarkdownFileParser::parsePrototype</referencedby>
+        <referencedby refid="d9/d8f/class_markdown_file_parser_1a78b5337fc2b6a6dd1ee5ce104005e566" compoundref="de/d04/markdown_8cpp" startline="2364" endline="2371">MarkdownFileParser::resetCodeParserState</referencedby>
+        <referencedby refid="da/d09/class_member_def_1a480c55edf3118c9e657d3aa4eecf841b" compoundref="d0/d72/memberdef_8cpp" startline="2362" endline="2844">MemberDef::writeDocumentation</referencedby>
+        <referencedby refid="d5/dcc/class_definition_1ad5ad17068a22165040e5b256c564c603" compoundref="d3/dea/definition_8cpp" startline="1019" endline="1060">Definition::writeInlineCode</referencedby>
+        <referencedby refid="de/db0/class_file_def_1a5ed9987b075539aa61654cc55d3bac28" compoundref="d6/ddc/filedef_8cpp" startline="804" endline="889">FileDef::writeSource</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Manages programming language parsers. </para>    </briefdescription>
+    <detaileddescription>
+<para>This class manages the language parsers in the system. One can register parsers, and obtain a parser given a file extension. </para>    </detaileddescription>
+    <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/parserintf.h" line="138" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/parserintf.h" bodystart="137" bodyend="195"/>
+    <listofallmembers>
+      <member refid="d4/d0d/class_parser_manager_1a69f9874c260df7559242ec5833051ac5" prot="public" virt="non-virtual"><scope>ParserManager</scope><name>getParser</name></member>
+      <member refid="d4/d0d/class_parser_manager_1acd0a56a2dd35b8f9bf2da39513d1908f" prot="private" virt="non-virtual"><scope>ParserManager</scope><name>m_defaultParser</name></member>
+      <member refid="d4/d0d/class_parser_manager_1a3e65f1ea585b043ea90a115e8e81e5b8" prot="private" virt="non-virtual"><scope>ParserManager</scope><name>m_extensions</name></member>
+      <member refid="d4/d0d/class_parser_manager_1aa240afba2fc8d0a2bd9f983aaeec1bdb" prot="private" virt="non-virtual"><scope>ParserManager</scope><name>m_parsers</name></member>
+      <member refid="d4/d0d/class_parser_manager_1a6d40c2ea132a10d04515db91b170023c" prot="public" virt="non-virtual"><scope>ParserManager</scope><name>ParserManager</name></member>
+      <member refid="d4/d0d/class_parser_manager_1a2184813c0cd50eda1cf6ce74bf50d8b5" prot="public" virt="non-virtual"><scope>ParserManager</scope><name>registerExtension</name></member>
+      <member refid="d4/d0d/class_parser_manager_1ae532c1adf9e98fbafc25a415d56f9753" prot="public" virt="non-virtual"><scope>ParserManager</scope><name>registerParser</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

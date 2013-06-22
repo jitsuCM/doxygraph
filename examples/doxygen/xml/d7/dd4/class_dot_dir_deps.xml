@@ -1,0 +1,122 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.2">
+  <compounddef id="d7/dd4/class_dot_dir_deps" kind="class" prot="public">
+    <compoundname>DotDirDeps</compoundname>
+    <includes refid="d6/d4a/dot_8h" local="no">dot.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="d7/dd4/class_dot_dir_deps_1a0cdb9bf5c6a222adb1d0b7e4f773d682" prot="private" static="no" mutable="no">
+        <type><ref refid="d4/dd4/class_dir_def" kindref="compound">DirDef</ref> *</type>
+        <definition>DirDef* DotDirDeps::m_dir</definition>
+        <argsstring></argsstring>
+        <name>m_dir</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/dot.h" line="260" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/dot.h" bodystart="260" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="d7/dd4/class_dot_dir_deps_1a265d81baaeb7a83e2203dd55785fd10e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>DotDirDeps::DotDirDeps</definition>
+        <argsstring>(DirDef *dir)</argsstring>
+        <name>DotDirDeps</name>
+        <param>
+          <type><ref refid="d4/dd4/class_dir_def" kindref="compound">DirDef</ref> *</type>
+          <declname>dir</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/dot.h" line="249" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/dot.cpp" bodystart="3853" bodyend="3855"/>
+      </memberdef>
+      <memberdef kind="function" id="d7/dd4/class_dot_dir_deps_1abf8e83e88014ce0fa7fb71891a57c9f9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>DotDirDeps::~DotDirDeps</definition>
+        <argsstring>()</argsstring>
+        <name>~DotDirDeps</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/dot.h" line="250" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/dot.cpp" bodystart="3857" bodyend="3859"/>
+      </memberdef>
+      <memberdef kind="function" id="d7/dd4/class_dot_dir_deps_1ad1924dfd45d106a832262b9826c1698d" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool DotDirDeps::isTrivial</definition>
+        <argsstring>() const </argsstring>
+        <name>isTrivial</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/dot.h" line="251" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/dot.cpp" bodystart="3985" bodyend="3988"/>
+      </memberdef>
+      <memberdef kind="function" id="d7/dd4/class_dot_dir_deps_1a64ea820fb9784d2c5e93624f9ee2e179" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>QCString</type>
+        <definition>QCString DotDirDeps::writeGraph</definition>
+        <argsstring>(FTextStream &amp;out, GraphOutputFormat format, const char *path, const char *fileName, const char *relPath, bool writeImageMap=TRUE, int graphId=-1) const </argsstring>
+        <name>writeGraph</name>
+        <param>
+          <type><ref refid="dc/d3c/class_f_text_stream" kindref="compound">FTextStream</ref> &amp;</type>
+          <declname>out</declname>
+        </param>
+        <param>
+          <type>GraphOutputFormat</type>
+          <declname>format</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>path</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>fileName</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>relPath</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>writeImageMap</declname>
+          <defval>TRUE</defval>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>graphId</declname>
+          <defval>-1</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/dot.h" line="258" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/dot.cpp" bodystart="3861" bodyend="3983"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Representation of an directory dependency graph. </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/dot.h" line="247" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/dot.h" bodystart="246" bodyend="261"/>
+    <listofallmembers>
+      <member refid="d7/dd4/class_dot_dir_deps_1a265d81baaeb7a83e2203dd55785fd10e" prot="public" virt="non-virtual"><scope>DotDirDeps</scope><name>DotDirDeps</name></member>
+      <member refid="d7/dd4/class_dot_dir_deps_1ad1924dfd45d106a832262b9826c1698d" prot="public" virt="non-virtual"><scope>DotDirDeps</scope><name>isTrivial</name></member>
+      <member refid="d7/dd4/class_dot_dir_deps_1a0cdb9bf5c6a222adb1d0b7e4f773d682" prot="private" virt="non-virtual"><scope>DotDirDeps</scope><name>m_dir</name></member>
+      <member refid="d7/dd4/class_dot_dir_deps_1a64ea820fb9784d2c5e93624f9ee2e179" prot="public" virt="non-virtual"><scope>DotDirDeps</scope><name>writeGraph</name></member>
+      <member refid="d7/dd4/class_dot_dir_deps_1abf8e83e88014ce0fa7fb71891a57c9f9" prot="public" virt="non-virtual"><scope>DotDirDeps</scope><name>~DotDirDeps</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

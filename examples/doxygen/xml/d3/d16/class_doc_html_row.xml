@@ -1,0 +1,400 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.2">
+  <compounddef id="d3/d16/class_doc_html_row" kind="class" prot="public">
+    <compoundname>DocHtmlRow</compoundname>
+    <basecompoundref refid="d7/da3/class_comp_accept" prot="public" virt="non-virtual">CompAccept&lt; DocHtmlRow &gt;</basecompoundref>
+    <basecompoundref refid="d9/d0e/class_doc_node" prot="public" virt="non-virtual">DocNode</basecompoundref>
+    <includes refid="de/d9c/docparser_8h" local="no">docparser.h</includes>
+      <sectiondef kind="friend">
+      <memberdef kind="friend" id="d3/d16/class_doc_html_row_1a1f7413118a8c0d90c891a2695a7cb90d" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>friend class</type>
+        <definition>friend class DocHtmlTable</definition>
+        <argsstring></argsstring>
+        <name>DocHtmlTable</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/docparser.h" line="1198" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/docparser.h" bodystart="1198" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="d3/d16/class_doc_html_row_1ac015bde980b2d2460a8af57acd7e87b4" prot="private" static="no" mutable="no">
+        <type><ref refid="db/d4d/class_html_attrib_list" kindref="compound">HtmlAttribList</ref></type>
+        <definition>HtmlAttribList DocHtmlRow::m_attribs</definition>
+        <argsstring></argsstring>
+        <name>m_attribs</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/docparser.h" line="1217" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/docparser.h" bodystart="1217" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d3/d16/class_doc_html_row_1a1fb8bcc9a213c4f93978d0a4aa2c0bed" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int DocHtmlRow::m_visibleCells</definition>
+        <argsstring></argsstring>
+        <name>m_visibleCells</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/docparser.h" line="1218" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/docparser.h" bodystart="1218" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d3/d16/class_doc_html_row_1ab03f5dd1810bdedfa53ada576fc8b895" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int DocHtmlRow::m_rowIdx</definition>
+        <argsstring></argsstring>
+        <name>m_rowIdx</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/docparser.h" line="1219" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/docparser.h" bodystart="1219" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="d3/d16/class_doc_html_row_1a7da5a9ce865c561c0aa9c8378ac91d83" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>DocHtmlRow::DocHtmlRow</definition>
+        <argsstring>(DocNode *parent, const HtmlAttribList &amp;attribs)</argsstring>
+        <name>DocHtmlRow</name>
+        <param>
+          <type><ref refid="d9/d0e/class_doc_node" kindref="compound">DocNode</ref> *</type>
+          <declname>parent</declname>
+        </param>
+        <param>
+          <type>const <ref refid="db/d4d/class_html_attrib_list" kindref="compound">HtmlAttribList</ref> &amp;</type>
+          <declname>attribs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/docparser.h" line="1201" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/docparser.h" bodystart="1200" bodyend="1201"/>
+      </memberdef>
+      <memberdef kind="function" id="d3/d16/class_doc_html_row_1a7a03b3b7b19800deb159ed949dd87603" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="virtual">
+        <type><ref refid="d9/d0e/class_doc_node_1aebd16e89ca590d84cbd40543ea5faadb" kindref="member">Kind</ref></type>
+        <definition>Kind DocHtmlRow::kind</definition>
+        <argsstring>() const </argsstring>
+        <name>kind</name>
+        <reimplements refid="d9/d0e/class_doc_node_1a108ffd214a72ba6e93dac084a8f58049">kind</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns the kind of node. Provides runtime type information </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/docparser.h" line="1202" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/docparser.h" bodystart="1202" bodyend="1202"/>
+      </memberdef>
+      <memberdef kind="function" id="d3/d16/class_doc_html_row_1a5f28cb286346471bad2e37322a21fbef" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>uint</type>
+        <definition>uint DocHtmlRow::numCells</definition>
+        <argsstring>() const </argsstring>
+        <name>numCells</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/docparser.h" line="1203" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/docparser.h" bodystart="1203" bodyend="1203"/>
+      </memberdef>
+      <memberdef kind="function" id="d3/d16/class_doc_html_row_1a1b62250676fc8c1223c94fbc61beeb0e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>void DocHtmlRow::accept</definition>
+        <argsstring>(DocVisitor *v)</argsstring>
+        <name>accept</name>
+        <reimplements refid="d9/d0e/class_doc_node_1a5303a550cbe6395663bf9b9dad28cbf1">accept</reimplements>
+        <param>
+          <type><ref refid="d0/d78/class_doc_visitor" kindref="compound">DocVisitor</ref> *</type>
+          <declname>v</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Acceptor function for node visitors. Part of the visitor pattern. <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>v</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Abstract visitor. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/docparser.h" line="1204" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/docparser.h" bodystart="1204" bodyend="1204"/>
+      </memberdef>
+      <memberdef kind="function" id="d3/d16/class_doc_html_row_1a5fb9c34a0e9013a5fd55a5e7f5e50f60" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>const <ref refid="db/d4d/class_html_attrib_list" kindref="compound">HtmlAttribList</ref> &amp;</type>
+        <definition>const HtmlAttribList&amp; DocHtmlRow::attribs</definition>
+        <argsstring>() const </argsstring>
+        <name>attribs</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/docparser.h" line="1205" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/docparser.h" bodystart="1205" bodyend="1205"/>
+      </memberdef>
+      <memberdef kind="function" id="d3/d16/class_doc_html_row_1ad3a01dad6a2318647d5eb3e8d3d4ac90" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int DocHtmlRow::parse</definition>
+        <argsstring>()</argsstring>
+        <name>parse</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/docparser.h" line="1206" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/docparser.cpp" bodystart="3553" bodyend="3617"/>
+      </memberdef>
+      <memberdef kind="function" id="d3/d16/class_doc_html_row_1ae3b8511bd72b445cdf33c2e0b8ea58e7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int DocHtmlRow::parseXml</definition>
+        <argsstring>(bool header)</argsstring>
+        <name>parseXml</name>
+        <param>
+          <type>bool</type>
+          <declname>header</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/docparser.h" line="1207" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/docparser.cpp" bodystart="3619" bodyend="3679"/>
+      </memberdef>
+      <memberdef kind="function" id="d3/d16/class_doc_html_row_1accbfb59186495c223f5ffe27f8874aeb" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool DocHtmlRow::isHeading</definition>
+        <argsstring>() const </argsstring>
+        <name>isHeading</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/docparser.h" line="1208" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/docparser.h" bodystart="1208" bodyend="1210"/>
+      </memberdef>
+      <memberdef kind="function" id="d3/d16/class_doc_html_row_1a9bba32b3b39b4dafdf607acb6aac1514" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void DocHtmlRow::setVisibleCells</definition>
+        <argsstring>(int n)</argsstring>
+        <name>setVisibleCells</name>
+        <param>
+          <type>int</type>
+          <declname>n</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/docparser.h" line="1211" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/docparser.h" bodystart="1211" bodyend="1211"/>
+      </memberdef>
+      <memberdef kind="function" id="d3/d16/class_doc_html_row_1af5ea0e54304adfbf2229fcd4721ad5a3" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int DocHtmlRow::visibleCells</definition>
+        <argsstring>() const </argsstring>
+        <name>visibleCells</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/docparser.h" line="1212" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/docparser.h" bodystart="1212" bodyend="1212"/>
+      </memberdef>
+      <memberdef kind="function" id="d3/d16/class_doc_html_row_1a401fc8383cbcba2910142d03892502fa" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int DocHtmlRow::rowIndex</definition>
+        <argsstring>() const </argsstring>
+        <name>rowIndex</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/docparser.h" line="1213" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/docparser.h" bodystart="1213" bodyend="1213"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="d3/d16/class_doc_html_row_1a0d98fe9dff0090e853a0b5cb252c8c36" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void DocHtmlRow::setRowIndex</definition>
+        <argsstring>(int idx)</argsstring>
+        <name>setRowIndex</name>
+        <param>
+          <type>int</type>
+          <declname>idx</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/docparser.h" line="1216" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/docparser.h" bodystart="1216" bodyend="1216"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Node representing a HTML table row. </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="3003">
+        <label>DocHtmlRow</label>
+        <link refid="d3/d16/class_doc_html_row"/>
+        <childnode refid="3004" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3006" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3006">
+        <label>DocNode</label>
+        <link refid="d9/d0e/class_doc_node"/>
+      </node>
+      <node id="3004">
+        <label>CompAccept&lt; DocHtmlRow &gt;</label>
+        <link refid="d7/da3/class_comp_accept"/>
+        <childnode refid="3005" relation="template-instance">
+          <edgelabel>&lt; DocHtmlRow &gt;</edgelabel>
+        </childnode>
+      </node>
+      <node id="3005">
+        <label>CompAccept&lt; T &gt;</label>
+        <link refid="d7/da3/class_comp_accept"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="3007">
+        <label>DocHtmlRow</label>
+        <link refid="d3/d16/class_doc_html_row"/>
+        <childnode refid="3008" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3010" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3010">
+        <label>DocNode</label>
+        <link refid="d9/d0e/class_doc_node"/>
+        <childnode refid="3010" relation="usage">
+          <edgelabel>m_parent</edgelabel>
+        </childnode>
+      </node>
+      <node id="3008">
+        <label>CompAccept&lt; DocHtmlRow &gt;</label>
+        <link refid="d7/da3/class_comp_accept"/>
+        <childnode refid="3009" relation="template-instance">
+          <edgelabel>&lt; DocHtmlRow &gt;</edgelabel>
+        </childnode>
+      </node>
+      <node id="3009">
+        <label>CompAccept&lt; T &gt;</label>
+        <link refid="d7/da3/class_comp_accept"/>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/docparser.h" line="1197" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/docparser.h" bodystart="1196" bodyend="1220"/>
+    <listofallmembers>
+      <member refid="d3/d16/class_doc_html_row_1a1b62250676fc8c1223c94fbc61beeb0e" prot="public" virt="virtual"><scope>DocHtmlRow</scope><name>accept</name></member>
+      <member refid="d7/da3/class_comp_accept_1a5787ab796a9008bab225031921773b5c" prot="public" virt="non-virtual" ambiguityscope="CompAccept&lt; DocHtmlRow &gt;::"><scope>DocHtmlRow</scope><name>accept</name></member>
+      <member refid="d3/d16/class_doc_html_row_1a5fb9c34a0e9013a5fd55a5e7f5e50f60" prot="public" virt="non-virtual"><scope>DocHtmlRow</scope><name>attribs</name></member>
+      <member refid="d7/da3/class_comp_accept_1ad45c9ef74bc602bead18c2f36ad5d351" prot="public" virt="non-virtual"><scope>DocHtmlRow</scope><name>children</name></member>
+      <member refid="d7/da3/class_comp_accept_1af0bab1c89fc80848fe8be7b5c81afacb" prot="public" virt="non-virtual"><scope>DocHtmlRow</scope><name>children</name></member>
+      <member refid="d7/da3/class_comp_accept_1ad243d87336e0fd5dae91ca8481a1c85a" prot="public" virt="non-virtual"><scope>DocHtmlRow</scope><name>CompAccept</name></member>
+      <member refid="d3/d16/class_doc_html_row_1a7da5a9ce865c561c0aa9c8378ac91d83" prot="public" virt="non-virtual"><scope>DocHtmlRow</scope><name>DocHtmlRow</name></member>
+      <member refid="d3/d16/class_doc_html_row_1a1f7413118a8c0d90c891a2695a7cb90d" prot="private" virt="non-virtual"><scope>DocHtmlRow</scope><name>DocHtmlTable</name></member>
+      <member refid="d9/d0e/class_doc_node_1a98d902adedf9b2270a6673e59dbab89e" prot="public" virt="non-virtual"><scope>DocHtmlRow</scope><name>DocNode</name></member>
+      <member refid="d3/d16/class_doc_html_row_1accbfb59186495c223f5ffe27f8874aeb" prot="public" virt="non-virtual"><scope>DocHtmlRow</scope><name>isHeading</name></member>
+      <member refid="d9/d0e/class_doc_node_1aef508bc4dc916756c919594db7930d54" prot="public" virt="non-virtual"><scope>DocHtmlRow</scope><name>isPreformatted</name></member>
+      <member refid="d9/d0e/class_doc_node_1aebd16e89ca590d84cbd40543ea5faadb" prot="public" virt="non-virtual"><scope>DocHtmlRow</scope><name>Kind</name></member>
+      <member refid="d3/d16/class_doc_html_row_1a7a03b3b7b19800deb159ed949dd87603" prot="public" virt="virtual"><scope>DocHtmlRow</scope><name>kind</name></member>
+      <member refid="d9/d0e/class_doc_node_1aebd16e89ca590d84cbd40543ea5faadba5acf76d5bed04d9f8973b5599e4c7d61" prot="public" virt="non-virtual"><scope>DocHtmlRow</scope><name>Kind_Anchor</name></member>
+      <member refid="d9/d0e/class_doc_node_1aebd16e89ca590d84cbd40543ea5faadbaf4af6d302524a2a72e6503fa4b5008cc" prot="public" virt="non-virtual"><scope>DocHtmlRow</scope><name>Kind_AutoList</name></member>
+      <member refid="d9/d0e/class_doc_node_1aebd16e89ca590d84cbd40543ea5faadba09e40b89d37e12cd78384c04aea5c185" prot="public" virt="non-virtual"><scope>DocHtmlRow</scope><name>Kind_AutoListItem</name></member>
+      <member refid="d9/d0e/class_doc_node_1aebd16e89ca590d84cbd40543ea5faadba2c31b7a4358465ca132212321e15fc20" prot="public" virt="non-virtual"><scope>DocHtmlRow</scope><name>Kind_Copy</name></member>
+      <member refid="d9/d0e/class_doc_node_1aebd16e89ca590d84cbd40543ea5faadba31635222d2661ef99e79b44bf3b58382" prot="public" virt="non-virtual"><scope>DocHtmlRow</scope><name>Kind_DotFile</name></member>
+      <member refid="d9/d0e/class_doc_node_1aebd16e89ca590d84cbd40543ea5faadbad6f44af7d7a9d2545d12570f1c911514" prot="public" virt="non-virtual"><scope>DocHtmlRow</scope><name>Kind_Formula</name></member>
+      <member refid="d9/d0e/class_doc_node_1aebd16e89ca590d84cbd40543ea5faadba66fdcd73d28143e4eee061037d1c0d05" prot="public" virt="non-virtual"><scope>DocHtmlRow</scope><name>Kind_HorRuler</name></member>
+      <member refid="d9/d0e/class_doc_node_1aebd16e89ca590d84cbd40543ea5faadba219784882f7a809370a515cbf18c2794" prot="public" virt="non-virtual"><scope>DocHtmlRow</scope><name>Kind_HRef</name></member>
+      <member refid="d9/d0e/class_doc_node_1aebd16e89ca590d84cbd40543ea5faadbacfac967afd367665bc4a4890828fc98d" prot="public" virt="non-virtual"><scope>DocHtmlRow</scope><name>Kind_HtmlBlockQuote</name></member>
+      <member refid="d9/d0e/class_doc_node_1aebd16e89ca590d84cbd40543ea5faadba3f64e51b724ff9f596689e66165d4e5f" prot="public" virt="non-virtual"><scope>DocHtmlRow</scope><name>Kind_HtmlCaption</name></member>
+      <member refid="d9/d0e/class_doc_node_1aebd16e89ca590d84cbd40543ea5faadbae35a8fc01717b7fba896f3f9103b641a" prot="public" virt="non-virtual"><scope>DocHtmlRow</scope><name>Kind_HtmlCell</name></member>
+      <member refid="d9/d0e/class_doc_node_1aebd16e89ca590d84cbd40543ea5faadbac9568654cd0eaa2d2e6705eb88b8bb6f" prot="public" virt="non-virtual"><scope>DocHtmlRow</scope><name>Kind_HtmlDescData</name></member>
+      <member refid="d9/d0e/class_doc_node_1aebd16e89ca590d84cbd40543ea5faadbad53b68c158dba60a523d4fd261741c1a" prot="public" virt="non-virtual"><scope>DocHtmlRow</scope><name>Kind_HtmlDescList</name></member>
+      <member refid="d9/d0e/class_doc_node_1aebd16e89ca590d84cbd40543ea5faadba0e47ad72ee03a88acc5d35755230a4bc" prot="public" virt="non-virtual"><scope>DocHtmlRow</scope><name>Kind_HtmlDescTitle</name></member>
+      <member refid="d9/d0e/class_doc_node_1aebd16e89ca590d84cbd40543ea5faadbac559cf092ec1d51d36500217b128df91" prot="public" virt="non-virtual"><scope>DocHtmlRow</scope><name>Kind_HtmlHeader</name></member>
+      <member refid="d9/d0e/class_doc_node_1aebd16e89ca590d84cbd40543ea5faadba2d89d13df0a6a173008cc476ed19da5a" prot="public" virt="non-virtual"><scope>DocHtmlRow</scope><name>Kind_HtmlList</name></member>
+      <member refid="d9/d0e/class_doc_node_1aebd16e89ca590d84cbd40543ea5faadba3899f85cc2bbe76eebc01969f026c4a8" prot="public" virt="non-virtual"><scope>DocHtmlRow</scope><name>Kind_HtmlListItem</name></member>
+      <member refid="d9/d0e/class_doc_node_1aebd16e89ca590d84cbd40543ea5faadba4aecc53268c197469ae7e36a82297f66" prot="public" virt="non-virtual"><scope>DocHtmlRow</scope><name>Kind_HtmlRow</name></member>
+      <member refid="d9/d0e/class_doc_node_1aebd16e89ca590d84cbd40543ea5faadbaaa0953fe727d5208d808d6200db9d8c4" prot="public" virt="non-virtual"><scope>DocHtmlRow</scope><name>Kind_HtmlTable</name></member>
+      <member refid="d9/d0e/class_doc_node_1aebd16e89ca590d84cbd40543ea5faadba130db602d847e2889247e35215f6ab61" prot="public" virt="non-virtual"><scope>DocHtmlRow</scope><name>Kind_Image</name></member>
+      <member refid="d9/d0e/class_doc_node_1aebd16e89ca590d84cbd40543ea5faadba0d394262ed69236213f48850d00655e1" prot="public" virt="non-virtual"><scope>DocHtmlRow</scope><name>Kind_Include</name></member>
+      <member refid="d9/d0e/class_doc_node_1aebd16e89ca590d84cbd40543ea5faadba22a463e2625469c3243a58a25ec2ac5e" prot="public" virt="non-virtual"><scope>DocHtmlRow</scope><name>Kind_IncOperator</name></member>
+      <member refid="d9/d0e/class_doc_node_1aebd16e89ca590d84cbd40543ea5faadba0c99bba8a3a83741f4cb5b488be07919" prot="public" virt="non-virtual"><scope>DocHtmlRow</scope><name>Kind_IndexEntry</name></member>
+      <member refid="d9/d0e/class_doc_node_1aebd16e89ca590d84cbd40543ea5faadbaa908f2050f29caaa1852bc6bfc2167d7" prot="public" virt="non-virtual"><scope>DocHtmlRow</scope><name>Kind_Internal</name></member>
+      <member refid="d9/d0e/class_doc_node_1aebd16e89ca590d84cbd40543ea5faadba08795b9078b94b17470db06f10e47e9a" prot="public" virt="non-virtual"><scope>DocHtmlRow</scope><name>Kind_InternalRef</name></member>
+      <member refid="d9/d0e/class_doc_node_1aebd16e89ca590d84cbd40543ea5faadba806ec6c0d1fe6c3d855364ae3ab6f02e" prot="public" virt="non-virtual"><scope>DocHtmlRow</scope><name>Kind_LineBreak</name></member>
+      <member refid="d9/d0e/class_doc_node_1aebd16e89ca590d84cbd40543ea5faadba3ea5a7ccd9136dff8ecd035c4d403c4d" prot="public" virt="non-virtual"><scope>DocHtmlRow</scope><name>Kind_Link</name></member>
+      <member refid="d9/d0e/class_doc_node_1aebd16e89ca590d84cbd40543ea5faadba3078fef47a0dd99f4a3c2ea943e9dc38" prot="public" virt="non-virtual"><scope>DocHtmlRow</scope><name>Kind_LinkedWord</name></member>
+      <member refid="d9/d0e/class_doc_node_1aebd16e89ca590d84cbd40543ea5faadbaf7a503a623b646514dbf0a1cdd4bc56d" prot="public" virt="non-virtual"><scope>DocHtmlRow</scope><name>Kind_MscFile</name></member>
+      <member refid="d9/d0e/class_doc_node_1aebd16e89ca590d84cbd40543ea5faadbab386d3972ee5815e6403a2ba94d13da7" prot="public" virt="non-virtual"><scope>DocHtmlRow</scope><name>Kind_Para</name></member>
+      <member refid="d9/d0e/class_doc_node_1aebd16e89ca590d84cbd40543ea5faadbada1efab7269767fb09ed0468023d47ef" prot="public" virt="non-virtual"><scope>DocHtmlRow</scope><name>Kind_ParamList</name></member>
+      <member refid="d9/d0e/class_doc_node_1aebd16e89ca590d84cbd40543ea5faadba98f09f518a149bbd2ca945d8be62b2eb" prot="public" virt="non-virtual"><scope>DocHtmlRow</scope><name>Kind_ParamSect</name></member>
+      <member refid="d9/d0e/class_doc_node_1aebd16e89ca590d84cbd40543ea5faadba7e37091374b5c3a40bc6080b727b8633" prot="public" virt="non-virtual"><scope>DocHtmlRow</scope><name>Kind_Ref</name></member>
+      <member refid="d9/d0e/class_doc_node_1aebd16e89ca590d84cbd40543ea5faadba40f32b4da392f2e607acd9dcd51e97ef" prot="public" virt="non-virtual"><scope>DocHtmlRow</scope><name>Kind_Root</name></member>
+      <member refid="d9/d0e/class_doc_node_1aebd16e89ca590d84cbd40543ea5faadbab434fb5f35821ac8e092397720a9986e" prot="public" virt="non-virtual"><scope>DocHtmlRow</scope><name>Kind_SecRefItem</name></member>
+      <member refid="d9/d0e/class_doc_node_1aebd16e89ca590d84cbd40543ea5faadba8a1dc5275094432667a3b3f60ca6924e" prot="public" virt="non-virtual"><scope>DocHtmlRow</scope><name>Kind_SecRefList</name></member>
+      <member refid="d9/d0e/class_doc_node_1aebd16e89ca590d84cbd40543ea5faadba2adb5849cad20cab071f918a8da06938" prot="public" virt="non-virtual"><scope>DocHtmlRow</scope><name>Kind_Section</name></member>
+      <member refid="d9/d0e/class_doc_node_1aebd16e89ca590d84cbd40543ea5faadba653816fa54d8104dc69848cd470e9e50" prot="public" virt="non-virtual"><scope>DocHtmlRow</scope><name>Kind_SimpleList</name></member>
+      <member refid="d9/d0e/class_doc_node_1aebd16e89ca590d84cbd40543ea5faadba3484d4b967a5e3650a21218cafe45bfc" prot="public" virt="non-virtual"><scope>DocHtmlRow</scope><name>Kind_SimpleListItem</name></member>
+      <member refid="d9/d0e/class_doc_node_1aebd16e89ca590d84cbd40543ea5faadbac383a7308a123820e290b129354b945b" prot="public" virt="non-virtual"><scope>DocHtmlRow</scope><name>Kind_SimpleSect</name></member>
+      <member refid="d9/d0e/class_doc_node_1aebd16e89ca590d84cbd40543ea5faadba9e64be26f9961dd56b44dc8bf940f612" prot="public" virt="non-virtual"><scope>DocHtmlRow</scope><name>Kind_SimpleSectSep</name></member>
+      <member refid="d9/d0e/class_doc_node_1aebd16e89ca590d84cbd40543ea5faadba23b15e9d0bd5a796e7ea6bc5ddb90a51" prot="public" virt="non-virtual"><scope>DocHtmlRow</scope><name>Kind_StyleChange</name></member>
+      <member refid="d9/d0e/class_doc_node_1aebd16e89ca590d84cbd40543ea5faadba11cfbdc9641f7d5e57bbf9d2d1ac29f6" prot="public" virt="non-virtual"><scope>DocHtmlRow</scope><name>Kind_Symbol</name></member>
+      <member refid="d9/d0e/class_doc_node_1aebd16e89ca590d84cbd40543ea5faadba7625967c18a27b98c0253b1d8813b22a" prot="public" virt="non-virtual"><scope>DocHtmlRow</scope><name>Kind_Text</name></member>
+      <member refid="d9/d0e/class_doc_node_1aebd16e89ca590d84cbd40543ea5faadba3a4f43b18aee3dae38339c2e322f019d" prot="public" virt="non-virtual"><scope>DocHtmlRow</scope><name>Kind_Title</name></member>
+      <member refid="d9/d0e/class_doc_node_1aebd16e89ca590d84cbd40543ea5faadbaf65de407d32b599b5b8e3172e910921f" prot="public" virt="non-virtual"><scope>DocHtmlRow</scope><name>Kind_URL</name></member>
+      <member refid="d9/d0e/class_doc_node_1aebd16e89ca590d84cbd40543ea5faadba647ae404715ce1ea95d747d03302d069" prot="public" virt="non-virtual"><scope>DocHtmlRow</scope><name>Kind_Verbatim</name></member>
+      <member refid="d9/d0e/class_doc_node_1aebd16e89ca590d84cbd40543ea5faadba2c92a0041dfb7d3d024370d59840a9ec" prot="public" virt="non-virtual"><scope>DocHtmlRow</scope><name>Kind_VhdlFlow</name></member>
+      <member refid="d9/d0e/class_doc_node_1aebd16e89ca590d84cbd40543ea5faadba19ac8d817d8ba62f451c9ac6b06052c9" prot="public" virt="non-virtual"><scope>DocHtmlRow</scope><name>Kind_WhiteSpace</name></member>
+      <member refid="d9/d0e/class_doc_node_1aebd16e89ca590d84cbd40543ea5faadbafaa72c1c3a23f07645d1546177e265ad" prot="public" virt="non-virtual"><scope>DocHtmlRow</scope><name>Kind_Word</name></member>
+      <member refid="d9/d0e/class_doc_node_1aebd16e89ca590d84cbd40543ea5faadbabf87f371a0f69d86d0e6606d31133d40" prot="public" virt="non-virtual"><scope>DocHtmlRow</scope><name>Kind_XRefItem</name></member>
+      <member refid="d3/d16/class_doc_html_row_1ac015bde980b2d2460a8af57acd7e87b4" prot="private" virt="non-virtual"><scope>DocHtmlRow</scope><name>m_attribs</name></member>
+      <member refid="d7/da3/class_comp_accept_1af32d89695dc65d34b642dceb0da9e281" prot="protected" virt="non-virtual"><scope>DocHtmlRow</scope><name>m_children</name></member>
+      <member refid="d9/d0e/class_doc_node_1a5f1139016d8919795a0e1c722d3e4b91" prot="protected" virt="non-virtual"><scope>DocHtmlRow</scope><name>m_parent</name></member>
+      <member refid="d3/d16/class_doc_html_row_1ab03f5dd1810bdedfa53ada576fc8b895" prot="private" virt="non-virtual"><scope>DocHtmlRow</scope><name>m_rowIdx</name></member>
+      <member refid="d3/d16/class_doc_html_row_1a1fb8bcc9a213c4f93978d0a4aa2c0bed" prot="private" virt="non-virtual"><scope>DocHtmlRow</scope><name>m_visibleCells</name></member>
+      <member refid="d3/d16/class_doc_html_row_1a5f28cb286346471bad2e37322a21fbef" prot="public" virt="non-virtual"><scope>DocHtmlRow</scope><name>numCells</name></member>
+      <member refid="d9/d0e/class_doc_node_1a990d8b983962776a647e6231d38bd329" prot="public" virt="non-virtual"><scope>DocHtmlRow</scope><name>parent</name></member>
+      <member refid="d3/d16/class_doc_html_row_1ad3a01dad6a2318647d5eb3e8d3d4ac90" prot="public" virt="non-virtual"><scope>DocHtmlRow</scope><name>parse</name></member>
+      <member refid="d3/d16/class_doc_html_row_1ae3b8511bd72b445cdf33c2e0b8ea58e7" prot="public" virt="non-virtual"><scope>DocHtmlRow</scope><name>parseXml</name></member>
+      <member refid="d3/d16/class_doc_html_row_1a401fc8383cbcba2910142d03892502fa" prot="public" virt="non-virtual"><scope>DocHtmlRow</scope><name>rowIndex</name></member>
+      <member refid="d9/d0e/class_doc_node_1a7059408f429dc1358764e334079ca986" prot="protected" virt="non-virtual"><scope>DocHtmlRow</scope><name>setInsidePreformatted</name></member>
+      <member refid="d9/d0e/class_doc_node_1a2855de7ff1248fdb71e579087ae56098" prot="public" virt="non-virtual"><scope>DocHtmlRow</scope><name>setParent</name></member>
+      <member refid="d3/d16/class_doc_html_row_1a0d98fe9dff0090e853a0b5cb252c8c36" prot="private" virt="non-virtual"><scope>DocHtmlRow</scope><name>setRowIndex</name></member>
+      <member refid="d3/d16/class_doc_html_row_1a9bba32b3b39b4dafdf607acb6aac1514" prot="public" virt="non-virtual"><scope>DocHtmlRow</scope><name>setVisibleCells</name></member>
+      <member refid="d3/d16/class_doc_html_row_1af5ea0e54304adfbf2229fcd4721ad5a3" prot="public" virt="non-virtual"><scope>DocHtmlRow</scope><name>visibleCells</name></member>
+      <member refid="d7/da3/class_comp_accept_1a0efdf3a4631f1d7894bf5c4ba6025d1e" prot="public" virt="virtual"><scope>DocHtmlRow</scope><name>~CompAccept</name></member>
+      <member refid="d9/d0e/class_doc_node_1a024e5ba89b140e83416f9f85f5f6d036" prot="public" virt="virtual"><scope>DocHtmlRow</scope><name>~DocNode</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

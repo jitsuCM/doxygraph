@@ -1,0 +1,166 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.2">
+  <compounddef id="d7/daa/doxygen_8md" kind="file">
+    <compoundname>doxygen.md</compoundname>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="normal"><ref refid="de/d6a/class_doxygen" kindref="compound" tooltip="This class serves as a namespace for global variables used by doxygen.">Doxygen</ref><sp/>Internals<sp/>{#mainpage}</highlight></codeline>
+<codeline lineno="2"><highlight class="normal">=================</highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal">Introduction</highlight></codeline>
+<codeline lineno="5"><highlight class="normal">------------</highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal">This<sp/>page<sp/>provides<sp/>a<sp/>high-level<sp/>overview<sp/>of<sp/>the<sp/>internals<sp/>of<sp/>doxygen,<sp/>with</highlight></codeline>
+<codeline lineno="8"><highlight class="normal">links<sp/>to<sp/>the<sp/>relevant<sp/>parts<sp/>of<sp/>the<sp/>code.<sp/>This<sp/>document<sp/>is<sp/>intended<sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal">developers<sp/>who<sp/>want<sp/>to<sp/>work<sp/>on<sp/>doxygen.<sp/>Users<sp/>of<sp/>doxygen<sp/>are<sp/>referred<sp/>to<sp/>the</highlight></codeline>
+<codeline lineno="10"><highlight class="normal">[User<sp/>Manual](http:</highlight><highlight class="comment">//www.doxygen.org/manual.html).</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal">The<sp/></highlight><highlight class="keyword">generic</highlight><highlight class="normal"><sp/>starting<sp/>point<sp/>of<sp/>the<sp/>application<sp/>is<sp/>of<sp/>cource<sp/>the<sp/><ref refid="df/d0a/main_8cpp_1a3c04138a5bfe5d72780bb7e82a18e627" kindref="member">main</ref>()<sp/>function.</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal">Configuration<sp/>options</highlight></codeline>
+<codeline lineno="15"><highlight class="normal">---------------------</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal">Configuration<sp/>file<sp/>data<sp/>is<sp/>stored<sp/>in<sp/>singleton<sp/>class<sp/><ref refid="dd/d34/class_config" kindref="compound" tooltip="Singleton for configuration variables.">Config</ref><sp/>and<sp/>can<sp/>be</highlight></codeline>
+<codeline lineno="18"><highlight class="normal">accessed<sp/>using<sp/>wrapper<sp/>macros<sp/></highlight></codeline>
+<codeline lineno="19"><highlight class="normal">Config_getString(),<sp/>Config_getInt(),<sp/>Config_getList(),</highlight></codeline>
+<codeline lineno="20"><highlight class="normal">Config_getEnum(),<sp/>and<sp/>Config_getBool()<sp/>depending<sp/>on<sp/>the<sp/>type<sp/>of<sp/>the</highlight></codeline>
+<codeline lineno="21"><highlight class="normal">option.<sp/></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal">The<sp/>format<sp/>of<sp/>the<sp/>configuration<sp/>file<sp/>(options<sp/>and<sp/>types)<sp/>is<sp/>defined</highlight></codeline>
+<codeline lineno="24"><highlight class="normal">by<sp/>the<sp/>file<sp/>`config.xml`.<sp/>As<sp/>part<sp/>of<sp/>the<sp/>build<sp/>process,<sp/></highlight></codeline>
+<codeline lineno="25"><highlight class="normal">the<sp/>python<sp/>script<sp/>`configgen.py`<sp/>will<sp/>create<sp/>a<sp/>file<sp/>configoptions.cpp<sp/></highlight></codeline>
+<codeline lineno="26"><highlight class="normal">from<sp/>this,<sp/>which<sp/>serves<sp/>as<sp/>the<sp/>input<sp/>for<sp/>the<sp/>configuration<sp/>file<sp/>parser</highlight></codeline>
+<codeline lineno="27"><highlight class="normal">that<sp/>is<sp/>invoked<sp/>using<sp/><ref refid="dd/d34/class_config" kindref="compound" tooltip="Singleton for configuration variables.">Config</ref>::parse()</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight></codeline>
+<codeline lineno="29"><highlight class="normal">Gathering<sp/>Input<sp/>files</highlight></codeline>
+<codeline lineno="30"><highlight class="normal">---------------------</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"></highlight></codeline>
+<codeline lineno="32"><highlight class="normal">After<sp/>the<sp/>configuration<sp/>is<sp/>known,<sp/>the<sp/>input<sp/>files<sp/>are<sp/>searched<sp/>using</highlight></codeline>
+<codeline lineno="33"><highlight class="normal">searchInputFiles()<sp/>and<sp/>any<sp/>tag<sp/>files<sp/>are<sp/>read<sp/>using<sp/>readTagFile()</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"></highlight></codeline>
+<codeline lineno="35"><highlight class="normal">Parsing<sp/>Input<sp/>files</highlight></codeline>
+<codeline lineno="36"><highlight class="normal">-------------------</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"></highlight></codeline>
+<codeline lineno="38"><highlight class="normal">The<sp/>function<sp/>parseFiles()<sp/>takes<sp/>care<sp/>of<sp/>parsing<sp/>all<sp/>files.</highlight></codeline>
+<codeline lineno="39"><highlight class="normal">It<sp/>uses<sp/>the<sp/><ref refid="d4/d0d/class_parser_manager" kindref="compound" tooltip="Manages programming language parsers.">ParserManager</ref><sp/>singleton<sp/>factory<sp/>to<sp/>create<sp/>a<sp/>suitable<sp/>parser<sp/></highlight><highlight class="keywordtype">object</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="40"><highlight class="normal">for<sp/>each<sp/>file.<sp/>Each<sp/>parser<sp/>implements<sp/>the<sp/>abstract<sp/>interface<sp/><ref refid="d5/d84/class_parser_interface" kindref="compound" tooltip="Abstract interface for programming language parsers.">ParserInterface</ref>.</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"></highlight></codeline>
+<codeline lineno="42"><highlight class="normal">If<sp/>the<sp/>parser<sp/>indicates<sp/>it<sp/>needs<sp/>preprocessing</highlight></codeline>
+<codeline lineno="43"><highlight class="normal">via<sp/><ref refid="d5/d84/class_parser_interface" kindref="compound" tooltip="Abstract interface for programming language parsers.">ParserInterface</ref>::needsPreprocessing(),<sp/>doxygen<sp/>will<sp/>call<sp/>preprocessFile()</highlight></codeline>
+<codeline lineno="44"><highlight class="normal">on<sp/>the<sp/>file.<sp/></highlight></codeline>
+<codeline lineno="45"><highlight class="normal"></highlight></codeline>
+<codeline lineno="46"><highlight class="normal">A<sp/>second<sp/>step<sp/>is<sp/>to<sp/>convert<sp/>multiline<sp/>C++-style<sp/>comments<sp/>into<sp/>C<sp/>style<sp/>comments</highlight></codeline>
+<codeline lineno="47"><highlight class="normal">for<sp/>easier<sp/>processing<sp/>later<sp/>on.<sp/>As<sp/>side<sp/>effect<sp/>of<sp/>this<sp/>step<sp/>also<sp/></highlight></codeline>
+<codeline lineno="48"><highlight class="normal">aliases<sp/>(ALIASES<sp/>option)<sp/>are<sp/>resolved.<sp/>The<sp/>function<sp/>that<sp/>performs<sp/>these<sp/></highlight></codeline>
+<codeline lineno="49"><highlight class="normal">2<sp/>tasks<sp/>is<sp/>called<sp/>convertCppComments().</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"></highlight></codeline>
+<codeline lineno="51"><highlight class="normal">*Note:*<sp/>Alias<sp/>resolution<sp/>should<sp/>better<sp/>be<sp/>done<sp/>in<sp/>a<sp/>separate<sp/>step<sp/>as<sp/>it<sp/>is</highlight></codeline>
+<codeline lineno="52"><highlight class="normal">now<sp/>coupled<sp/>to<sp/>C/C++<sp/>code<sp/>and<sp/>does<sp/>not<sp/>work<sp/>automatically<sp/>for<sp/>other<sp/>languages!</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"></highlight></codeline>
+<codeline lineno="54"><highlight class="normal">The<sp/>third<sp/>step<sp/>is<sp/>the<sp/>actual<sp/>language<sp/>parsing<sp/>and<sp/>is<sp/>done<sp/>by<sp/>calling<sp/></highlight></codeline>
+<codeline lineno="55"><highlight class="normal"><ref refid="d5/d84/class_parser_interface" kindref="compound" tooltip="Abstract interface for programming language parsers.">ParserInterface</ref>::parseInput()<sp/>on<sp/>the<sp/>parser<sp/>interface<sp/>returned<sp/>by<sp/></highlight></codeline>
+<codeline lineno="56"><highlight class="normal">the<sp/><ref refid="d4/d0d/class_parser_manager" kindref="compound" tooltip="Manages programming language parsers.">ParserManager</ref>.</highlight></codeline>
+<codeline lineno="57"><highlight class="normal"></highlight></codeline>
+<codeline lineno="58"><highlight class="normal">The<sp/>result<sp/>of<sp/>parsing<sp/>is<sp/>a<sp/>tree<sp/>of<sp/><ref refid="d4/dd7/class_entry" kindref="compound" tooltip="Represents an unstructured piece of information, about an entity found in the sources.">Entry</ref><sp/>objects.</highlight></codeline>
+<codeline lineno="59"><highlight class="normal">These<sp/><ref refid="d4/dd7/class_entry" kindref="compound" tooltip="Represents an unstructured piece of information, about an entity found in the sources.">Entry</ref><sp/>objects<sp/>are<sp/>wrapped<sp/>in<sp/>a<sp/><ref refid="da/dc6/class_entry_nav" kindref="compound" tooltip="Wrapper for a node in the Entry tree.">EntryNav</ref><sp/></highlight><highlight class="keywordtype">object</highlight><highlight class="normal"><sp/>and<sp/>stored<sp/>on<sp/>disk<sp/>using</highlight></codeline>
+<codeline lineno="60"><highlight class="normal"><ref refid="d4/dd7/class_entry" kindref="compound" tooltip="Represents an unstructured piece of information, about an entity found in the sources.">Entry</ref>::createNavigationIndex()<sp/>on<sp/>the<sp/>root<sp/>node<sp/>of<sp/>the<sp/>tree.</highlight></codeline>
+<codeline lineno="61"><highlight class="normal"></highlight></codeline>
+<codeline lineno="62"><highlight class="normal">Each<sp/><ref refid="d4/dd7/class_entry" kindref="compound" tooltip="Represents an unstructured piece of information, about an entity found in the sources.">Entry</ref><sp/></highlight><highlight class="keywordtype">object</highlight><highlight class="normal"><sp/>roughly<sp/>contains<sp/>the<sp/>raw<sp/>data<sp/>for<sp/>a<sp/>symbol<sp/>and<sp/>is<sp/>later</highlight></codeline>
+<codeline lineno="63"><highlight class="normal">converted<sp/>into<sp/>a<sp/><ref refid="d5/dcc/class_definition" kindref="compound" tooltip="The common base class of all entity definitions found in the sources.">Definition</ref><sp/></highlight><highlight class="keywordtype">object</highlight><highlight class="normal">.</highlight></codeline>
+<codeline lineno="64"><highlight class="normal"></highlight></codeline>
+<codeline lineno="65"><highlight class="normal">When<sp/>a<sp/>parser<sp/>finds<sp/>a<sp/>special<sp/>comment<sp/>block<sp/>in<sp/>the<sp/>input,<sp/>it<sp/>will<sp/>do<sp/>a<sp/>first</highlight></codeline>
+<codeline lineno="66"><highlight class="normal">pass<sp/>parsing<sp/>via<sp/><ref refid="db/d0d/commentscan_8h_1aca4d7871b4c0228f614cb1433ba15e86" kindref="member" tooltip="Invokes the comment block parser with the request to parse a single comment block.">parseCommentBlock</ref>().<sp/>During<sp/>this<sp/>pass<sp/>the<sp/>comment<sp/>block</highlight></codeline>
+<codeline lineno="67"><highlight class="normal">is<sp/>split<sp/>into<sp/>multiple<sp/>parts<sp/>if<sp/>needed.<sp/>Some<sp/>data<sp/>that<sp/>is<sp/>later<sp/>needed<sp/>is</highlight></codeline>
+<codeline lineno="68"><highlight class="normal">extracted<sp/>like<sp/>section<sp/>labels,<sp/>xref<sp/>items,<sp/>and<sp/>formulas.<sp/></highlight></codeline>
+<codeline lineno="69"><highlight class="normal">Also<sp/>Markdown<sp/>markup<sp/>is<sp/>processed<sp/>using<sp/>processMarkdown()<sp/>during<sp/>this<sp/>pass.</highlight></codeline>
+<codeline lineno="70"><highlight class="normal"></highlight></codeline>
+<codeline lineno="71"><highlight class="normal">Resolving<sp/>relations</highlight></codeline>
+<codeline lineno="72"><highlight class="normal">-------------------</highlight></codeline>
+<codeline lineno="73"><highlight class="normal"></highlight></codeline>
+<codeline lineno="74"><highlight class="normal">The<sp/><ref refid="d4/dd7/class_entry" kindref="compound" tooltip="Represents an unstructured piece of information, about an entity found in the sources.">Entry</ref><sp/>objects<sp/>created<sp/>and<sp/>filled<sp/>during<sp/>parsing<sp/>are<sp/>stored<sp/>on<sp/>disk<sp/></highlight></codeline>
+<codeline lineno="75"><highlight class="normal">(to<sp/>keep<sp/>memory<sp/>needs<sp/>low).<sp/>The<sp/>name,<sp/>parent/child<sp/>relation,<sp/>and<sp/></highlight></codeline>
+<codeline lineno="76"><highlight class="normal">location<sp/>on<sp/>disk<sp/>of<sp/>each<sp/><ref refid="d4/dd7/class_entry" kindref="compound" tooltip="Represents an unstructured piece of information, about an entity found in the sources.">Entry</ref><sp/>is<sp/>stored<sp/>as<sp/>a<sp/>tree<sp/>of<sp/><ref refid="da/dc6/class_entry_nav" kindref="compound" tooltip="Wrapper for a node in the Entry tree.">EntryNav</ref><sp/>nodes,<sp/>which<sp/>is<sp/></highlight></codeline>
+<codeline lineno="77"><highlight class="normal">kept<sp/>in<sp/>memory.</highlight></codeline>
+<codeline lineno="78"><highlight class="normal"></highlight></codeline>
+<codeline lineno="79"><highlight class="normal"><ref refid="de/d6a/class_doxygen" kindref="compound" tooltip="This class serves as a namespace for global variables used by doxygen.">Doxygen</ref><sp/>does<sp/>a<sp/>number<sp/>of<sp/>tree<sp/>walks<sp/>over<sp/>the<sp/><ref refid="da/dc6/class_entry_nav" kindref="compound" tooltip="Wrapper for a node in the Entry tree.">EntryNav</ref><sp/>nodes<sp/>in<sp/>the<sp/>tree<sp/>to</highlight></codeline>
+<codeline lineno="80"><highlight class="normal">build<sp/>up<sp/>the<sp/>data<sp/>structures<sp/>needed<sp/>to<sp/>produce<sp/>the<sp/>output.<sp/></highlight></codeline>
+<codeline lineno="81"><highlight class="normal"></highlight></codeline>
+<codeline lineno="82"><highlight class="normal">The<sp/>resulting<sp/>data<sp/>structures<sp/>are<sp/>all<sp/>children<sp/>of<sp/>the<sp/>generic<sp/>base<sp/>class</highlight></codeline>
+<codeline lineno="83"><highlight class="normal">called<sp/><ref refid="d5/dcc/class_definition" kindref="compound" tooltip="The common base class of all entity definitions found in the sources.">Definition</ref><sp/>which<sp/>holds<sp/>all<sp/>non-specific<sp/>data<sp/>for<sp/>a<sp/>symbol<sp/>definition.</highlight></codeline>
+<codeline lineno="84"><highlight class="normal"></highlight></codeline>
+<codeline lineno="85"><highlight class="normal"><ref refid="d5/dcc/class_definition" kindref="compound" tooltip="The common base class of all entity definitions found in the sources.">Definition</ref><sp/>is<sp/>an<sp/>abstract<sp/>base<sp/>class.<sp/>Concrete<sp/>subclasses<sp/>are</highlight></codeline>
+<codeline lineno="86"><highlight class="normal">-<sp/><ref refid="d1/dcf/class_class_def" kindref="compound" tooltip="A class representing of a compound symbol.">ClassDef</ref>:<sp/>for<sp/>storing<sp/>class/struct/union<sp/>related<sp/>data</highlight></codeline>
+<codeline lineno="87"><highlight class="normal">-<sp/><ref refid="d0/d07/class_namespace_def" kindref="compound" tooltip="A model of a namespace symbol.">NamespaceDef</ref>:<sp/>for<sp/>storing<sp/>namespace<sp/>related<sp/>data</highlight></codeline>
+<codeline lineno="88"><highlight class="normal">-<sp/><ref refid="de/db0/class_file_def" kindref="compound" tooltip="A model of a file symbol.">FileDef</ref>:<sp/>for<sp/>storing<sp/>file<sp/>related<sp/>data</highlight></codeline>
+<codeline lineno="89"><highlight class="normal">-<sp/><ref refid="d4/dd4/class_dir_def" kindref="compound" tooltip="A model of a directory symbol.">DirDef</ref>:<sp/>for<sp/>storing<sp/>directory<sp/>related<sp/>data</highlight></codeline>
+<codeline lineno="90"><highlight class="normal"></highlight></codeline>
+<codeline lineno="91"><highlight class="normal">For<sp/>doxygen<sp/>specific<sp/>concepts<sp/>the<sp/>following<sp/>subclasses<sp/>are<sp/>available</highlight></codeline>
+<codeline lineno="92"><highlight class="normal">-<sp/><ref refid="d8/d09/class_group_def" kindref="compound" tooltip="A model of a group of symbols.">GroupDef</ref>:<sp/>for<sp/>storing<sp/>grouping<sp/>related<sp/>data</highlight></codeline>
+<codeline lineno="93"><highlight class="normal">-<sp/><ref refid="dd/d41/class_page_def" kindref="compound" tooltip="A model of a page symbol.">PageDef</ref>:<sp/>for<sp/>storing<sp/>page<sp/>related<sp/>data</highlight></codeline>
+<codeline lineno="94"><highlight class="normal"></highlight></codeline>
+<codeline lineno="95"><highlight class="normal">Finally<sp/>the<sp/>data<sp/>for<sp/>members<sp/>of<sp/>classes,<sp/>namespaces,<sp/>and<sp/>files<sp/>is<sp/>stored<sp/>in</highlight></codeline>
+<codeline lineno="96"><highlight class="normal">the<sp/>subclass<sp/><ref refid="da/d09/class_member_def" kindref="compound" tooltip="A model of a class/file/namespace member symbol.">MemberDef</ref>.</highlight></codeline>
+<codeline lineno="97"><highlight class="normal"></highlight></codeline>
+<codeline lineno="98"><highlight class="normal">Producing<sp/>output</highlight></codeline>
+<codeline lineno="99"><highlight class="normal">----------------</highlight></codeline>
+<codeline lineno="100"><highlight class="normal"></highlight></codeline>
+<codeline lineno="101"><highlight class="normal">TODO</highlight></codeline>
+<codeline lineno="102"><highlight class="normal"></highlight></codeline>
+<codeline lineno="103"><highlight class="normal">Topics<sp/>TODO</highlight></codeline>
+<codeline lineno="104"><highlight class="normal">-----------</highlight></codeline>
+<codeline lineno="105"><highlight class="normal">-<sp/><ref refid="d7/d59/struct_grouping" kindref="compound" tooltip="Grouping info.">Grouping</ref><sp/>of<sp/>files<sp/>in<sp/>Model<sp/>/<sp/>Parser<sp/>/<sp/>Generator<sp/>categories</highlight></codeline>
+<codeline lineno="106"><highlight class="normal">-<sp/>Index<sp/>files<sp/>based<sp/>on<sp/><ref refid="d9/dd5/class_index_intf" kindref="compound" tooltip="Abstract interface for index generators.">IndexIntf</ref></highlight></codeline>
+<codeline lineno="107"><highlight class="normal"><sp/><sp/>-<sp/>HTML<sp/>navigation</highlight></codeline>
+<codeline lineno="108"><highlight class="normal"><sp/><sp/>-<sp/>HTML<sp/>Help<sp/>(chm)</highlight></codeline>
+<codeline lineno="109"><highlight class="normal"><sp/><sp/>-<sp/>Documentation<sp/>Sets<sp/>(XCode)</highlight></codeline>
+<codeline lineno="110"><highlight class="normal"><sp/><sp/>-<sp/>Qt<sp/>Help<sp/>(qhp)</highlight></codeline>
+<codeline lineno="111"><highlight class="normal"><sp/><sp/>-<sp/>Eclipse<sp/>Help</highlight></codeline>
+<codeline lineno="112"><highlight class="normal">-<sp/>Search<sp/>index</highlight></codeline>
+<codeline lineno="113"><highlight class="normal"><sp/><sp/>-<sp/>Javascript<sp/>based</highlight></codeline>
+<codeline lineno="114"><highlight class="normal"><sp/><sp/>-<sp/>Server<sp/>based</highlight></codeline>
+<codeline lineno="115"><highlight class="normal"><sp/><sp/>-<sp/>External</highlight></codeline>
+<codeline lineno="116"><highlight class="normal">-<sp/>Citations</highlight></codeline>
+<codeline lineno="117"><highlight class="normal"><sp/><sp/>-<sp/>via<sp/>bibtex</highlight></codeline>
+<codeline lineno="118"><highlight class="normal">-<sp/>Various<sp/>processing<sp/>steps<sp/>for<sp/>a<sp/>comment<sp/>block</highlight></codeline>
+<codeline lineno="119"><highlight class="normal"><sp/><sp/>-<sp/>comment<sp/>conversion</highlight></codeline>
+<codeline lineno="120"><highlight class="normal"><sp/><sp/>-<sp/>comment<sp/>scanner</highlight></codeline>
+<codeline lineno="121"><highlight class="normal"><sp/><sp/>-<sp/>markdown<sp/>processor</highlight></codeline>
+<codeline lineno="122"><highlight class="normal"><sp/><sp/>-<sp/>doc<sp/>tokeninzer</highlight></codeline>
+<codeline lineno="123"><highlight class="normal"><sp/><sp/>-<sp/>doc<sp/>parser</highlight></codeline>
+<codeline lineno="124"><highlight class="normal"><sp/><sp/>-<sp/>doc<sp/>visitors</highlight></codeline>
+<codeline lineno="125"><highlight class="normal">-<sp/>Diagrams<sp/>and<sp/>Images</highlight></codeline>
+<codeline lineno="126"><highlight class="normal"><sp/><sp/>-<sp/>builtin</highlight></codeline>
+<codeline lineno="127"><highlight class="normal"><sp/><sp/>-<sp/>via<sp/>Graphviz<sp/>dot</highlight></codeline>
+<codeline lineno="128"><highlight class="normal"><sp/><sp/>-<sp/>via<sp/>mscgen</highlight></codeline>
+<codeline lineno="129"><highlight class="normal"><sp/><sp/>-<sp/>PNG<sp/>generation</highlight></codeline>
+<codeline lineno="130"><highlight class="normal">-<sp/>Output<sp/>formats:<sp/>OutputGen,<sp/><ref refid="df/dc8/class_output_list" kindref="compound" tooltip="Class representing a list of output generators that are written to in parallel.">OutputList</ref>,<sp/>and<sp/><ref refid="d0/d78/class_doc_visitor" kindref="compound" tooltip="Abstract visitor that participates in the visitor pattern.">DocVisitor</ref></highlight></codeline>
+<codeline lineno="131"><highlight class="normal"><sp/><sp/>-<sp/>Html:<sp/><sp/><ref refid="d7/d41/class_html_generator" kindref="compound" tooltip="Generator for HTML output.">HtmlGenerator</ref><sp/>and<sp/><ref refid="d5/d1b/class_html_doc_visitor" kindref="compound" tooltip="Concrete visitor implementation for HTML output.">HtmlDocVisitor</ref></highlight></codeline>
+<codeline lineno="132"><highlight class="normal"><sp/><sp/>-<sp/>Latex:<sp/><ref refid="d3/d77/class_latex_generator" kindref="compound" tooltip="Generator for LaTeX output.">LatexGenerator</ref><sp/>and<sp/><ref refid="d3/df4/class_latex_doc_visitor" kindref="compound" tooltip="Concrete visitor implementation for LaTeX output.">LatexDocVisitor</ref></highlight></codeline>
+<codeline lineno="133"><highlight class="normal"><sp/><sp/>-<sp/>RTF:<sp/><sp/><sp/><ref refid="d0/da4/class_r_t_f_generator" kindref="compound" tooltip="Generator for RTF output.">RTFGenerator</ref><sp/>and<sp/><ref refid="d1/d4b/class_r_t_f_doc_visitor" kindref="compound" tooltip="Concrete visitor implementation for RTF output.">RTFDocVisitor</ref></highlight></codeline>
+<codeline lineno="134"><highlight class="normal"><sp/><sp/>-<sp/>Man:<sp/><sp/><sp/><ref refid="de/da5/class_man_generator" kindref="compound" tooltip="Generator for Man page output.">ManGenerator</ref><sp/>and<sp/><ref refid="d8/dcf/class_man_doc_visitor" kindref="compound" tooltip="Concrete visitor implementation for LaTeX output.">ManDocVisitor</ref></highlight></codeline>
+<codeline lineno="135"><highlight class="normal"><sp/><sp/>-<sp/>XML:<sp/><sp/><sp/>generateXML()<sp/>and<sp/><ref refid="d4/dc8/class_xml_doc_visitor" kindref="compound" tooltip="Concrete visitor implementation for XML output.">XmlDocVisitor</ref></highlight></codeline>
+<codeline lineno="136"><highlight class="normal"><sp/><sp/>-<sp/>print:<sp/>debugging<sp/>via<sp/><ref refid="d3/d43/class_print_doc_visitor" kindref="compound">PrintDocVisitor</ref></highlight></codeline>
+<codeline lineno="137"><highlight class="normal"><sp/><sp/>-<sp/>text:<sp/><sp/><ref refid="d2/d63/class_text_doc_visitor" kindref="compound" tooltip="Concrete visitor implementation for TEXT output.">TextDocVisitor</ref><sp/>for<sp/>tooltips</highlight></codeline>
+<codeline lineno="138"><highlight class="normal"><sp/><sp/>-<sp/>perlmod</highlight></codeline>
+<codeline lineno="139"><highlight class="normal">-<sp/>i18n<sp/>via<sp/><ref refid="d8/dfb/class_translator" kindref="compound" tooltip="Abstract base class for all translatable text fragments.">Translator</ref><sp/>and<sp/>language.cpp</highlight></codeline>
+<codeline lineno="140"><highlight class="normal">-<sp/>Customizing<sp/>the<sp/>layout<sp/>via<sp/><ref refid="dc/d1d/class_layout_doc_manager" kindref="compound" tooltip="Singleton providing access to the (user configurable) layout of the documentation.">LayoutDocManager</ref></highlight></codeline>
+<codeline lineno="141"><highlight class="normal">-<sp/>Parsers<sp/></highlight></codeline>
+<codeline lineno="142"><highlight class="normal"><sp/><sp/>-<sp/>C<sp/>Preprocessing<sp/></highlight></codeline>
+<codeline lineno="143"><highlight class="normal"><sp/><sp/><sp/><sp/>-<sp/>const<sp/>expression<sp/>evaluation</highlight></codeline>
+<codeline lineno="144"><highlight class="normal"><sp/><sp/>-<sp/>C<sp/>link<sp/>languages</highlight></codeline>
+<codeline lineno="145"><highlight class="normal"><sp/><sp/>-<sp/>Python</highlight></codeline>
+<codeline lineno="146"><highlight class="normal"><sp/><sp/>-<sp/>Fortran</highlight></codeline>
+<codeline lineno="147"><highlight class="normal"><sp/><sp/>-<sp/>VHDL</highlight></codeline>
+<codeline lineno="148"><highlight class="normal"><sp/><sp/>-<sp/>TCL</highlight></codeline>
+<codeline lineno="149"><highlight class="normal"><sp/><sp/>-<sp/>Tag<sp/>files</highlight></codeline>
+<codeline lineno="150"><highlight class="normal">-<sp/>Marshaling<sp/>to/from<sp/>disk</highlight></codeline>
+<codeline lineno="151"><highlight class="normal">-<sp/>Portability<sp/>functions</highlight></codeline>
+<codeline lineno="152"><highlight class="normal">-<sp/>Utility<sp/>functions</highlight></codeline>
+<codeline lineno="153"><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/doxygen.md"/>
+  </compounddef>
+</doxygen>

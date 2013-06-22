@@ -1,0 +1,146 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.2">
+  <compounddef id="d6/db3/class_dir_relation" kind="class" prot="public">
+    <compoundname>DirRelation</compoundname>
+    <includes refid="d6/d15/dirdef_8h" local="no">dirdef.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="d6/db3/class_dir_relation_1a470369422b9a291d75c8ea3cdf48fc5f" prot="private" static="no" mutable="no">
+        <type>QCString</type>
+        <definition>QCString DirRelation::m_name</definition>
+        <argsstring></argsstring>
+        <name>m_name</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/dirdef.h" line="157" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/dirdef.h" bodystart="157" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d6/db3/class_dir_relation_1a26ed2443620e5e3e3444280ab137c19e" prot="private" static="no" mutable="no">
+        <type><ref refid="d4/dd4/class_dir_def" kindref="compound">DirDef</ref> *</type>
+        <definition>DirDef* DirRelation::m_src</definition>
+        <argsstring></argsstring>
+        <name>m_src</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/dirdef.h" line="158" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/dirdef.h" bodystart="158" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d6/db3/class_dir_relation_1a3e4e275033d30b182a7b88338f11fb77" prot="private" static="no" mutable="no">
+        <type><ref refid="df/d42/class_used_dir" kindref="compound">UsedDir</ref> *</type>
+        <definition>UsedDir* DirRelation::m_dst</definition>
+        <argsstring></argsstring>
+        <name>m_dst</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/dirdef.h" line="159" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/dirdef.h" bodystart="159" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="d6/db3/class_dir_relation_1a2d86d0c822e9dbb36c1997ed81bcce77" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>DirRelation::DirRelation</definition>
+        <argsstring>(const QCString &amp;name, DirDef *src, UsedDir *dst)</argsstring>
+        <name>DirRelation</name>
+        <param>
+          <type>const QCString &amp;</type>
+          <declname>name</declname>
+        </param>
+        <param>
+          <type><ref refid="d4/dd4/class_dir_def" kindref="compound">DirDef</ref> *</type>
+          <declname>src</declname>
+        </param>
+        <param>
+          <type><ref refid="df/d42/class_used_dir" kindref="compound">UsedDir</ref> *</type>
+          <declname>dst</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/dirdef.h" line="150" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/dirdef.h" bodystart="149" bodyend="150"/>
+      </memberdef>
+      <memberdef kind="function" id="d6/db3/class_dir_relation_1a0b67122187becad2984b437a26f3a996" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="d4/dd4/class_dir_def" kindref="compound">DirDef</ref> *</type>
+        <definition>DirDef* DirRelation::source</definition>
+        <argsstring>() const </argsstring>
+        <name>source</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/dirdef.h" line="151" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/dirdef.h" bodystart="151" bodyend="151"/>
+      </memberdef>
+      <memberdef kind="function" id="d6/db3/class_dir_relation_1a8b027ae8a056b8c74eca5e786b9128b7" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="df/d42/class_used_dir" kindref="compound">UsedDir</ref> *</type>
+        <definition>UsedDir* DirRelation::destination</definition>
+        <argsstring>() const </argsstring>
+        <name>destination</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/dirdef.h" line="152" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/dirdef.h" bodystart="152" bodyend="152"/>
+      </memberdef>
+      <memberdef kind="function" id="d6/db3/class_dir_relation_1a5fa861050993dafb351589f2f1c05326" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void DirRelation::writeDocumentation</definition>
+        <argsstring>(OutputList &amp;ol)</argsstring>
+        <name>writeDocumentation</name>
+        <param>
+          <type><ref refid="df/dc8/class_output_list" kindref="compound">OutputList</ref> &amp;</type>
+          <declname>ol</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/dirdef.h" line="153" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/dirdef.cpp" bodystart="702" bodyend="756"/>
+      </memberdef>
+      <memberdef kind="function" id="d6/db3/class_dir_relation_1a425f7b71a253a7b62001eb301ef5de29" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>QCString</type>
+        <definition>QCString DirRelation::getOutputFileBase</definition>
+        <argsstring>() const </argsstring>
+        <name>getOutputFileBase</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/dirdef.h" line="154" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/dirdef.h" bodystart="154" bodyend="154"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>A usage relation between two directories. </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/dirdef.h" line="147" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/dirdef.h" bodystart="146" bodyend="160"/>
+    <listofallmembers>
+      <member refid="d6/db3/class_dir_relation_1a8b027ae8a056b8c74eca5e786b9128b7" prot="public" virt="non-virtual"><scope>DirRelation</scope><name>destination</name></member>
+      <member refid="d6/db3/class_dir_relation_1a2d86d0c822e9dbb36c1997ed81bcce77" prot="public" virt="non-virtual"><scope>DirRelation</scope><name>DirRelation</name></member>
+      <member refid="d6/db3/class_dir_relation_1a425f7b71a253a7b62001eb301ef5de29" prot="public" virt="non-virtual"><scope>DirRelation</scope><name>getOutputFileBase</name></member>
+      <member refid="d6/db3/class_dir_relation_1a3e4e275033d30b182a7b88338f11fb77" prot="private" virt="non-virtual"><scope>DirRelation</scope><name>m_dst</name></member>
+      <member refid="d6/db3/class_dir_relation_1a470369422b9a291d75c8ea3cdf48fc5f" prot="private" virt="non-virtual"><scope>DirRelation</scope><name>m_name</name></member>
+      <member refid="d6/db3/class_dir_relation_1a26ed2443620e5e3e3444280ab137c19e" prot="private" virt="non-virtual"><scope>DirRelation</scope><name>m_src</name></member>
+      <member refid="d6/db3/class_dir_relation_1a0b67122187becad2984b437a26f3a996" prot="public" virt="non-virtual"><scope>DirRelation</scope><name>source</name></member>
+      <member refid="d6/db3/class_dir_relation_1a5fa861050993dafb351589f2f1c05326" prot="public" virt="non-virtual"><scope>DirRelation</scope><name>writeDocumentation</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

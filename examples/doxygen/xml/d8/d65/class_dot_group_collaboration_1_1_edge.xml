@@ -1,0 +1,131 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.2">
+  <compounddef id="d8/d65/class_dot_group_collaboration_1_1_edge" kind="class" prot="public">
+    <compoundname>DotGroupCollaboration::Edge</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="d8/d65/class_dot_group_collaboration_1_1_edge_1a05c8193b7ab3fa66b1cfe1c7bd87e1d2" prot="public" static="no" mutable="no">
+        <type><ref refid="dd/d7e/class_dot_node" kindref="compound">DotNode</ref> *</type>
+        <definition>DotNode* DotGroupCollaboration::Edge::pNStart</definition>
+        <argsstring></argsstring>
+        <name>pNStart</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/dot.h" line="292" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/dot.h" bodystart="292" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d8/d65/class_dot_group_collaboration_1_1_edge_1aaa1b8e53e4a95e63acde11b161331e11" prot="public" static="no" mutable="no">
+        <type><ref refid="dd/d7e/class_dot_node" kindref="compound">DotNode</ref> *</type>
+        <definition>DotNode* DotGroupCollaboration::Edge::pNEnd</definition>
+        <argsstring></argsstring>
+        <name>pNEnd</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/dot.h" line="293" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/dot.h" bodystart="293" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d8/d65/class_dot_group_collaboration_1_1_edge_1a76a2ba25cd605e65eece591f41706626" prot="public" static="no" mutable="no">
+        <type>EdgeType</type>
+        <definition>EdgeType DotGroupCollaboration::Edge::eType</definition>
+        <argsstring></argsstring>
+        <name>eType</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/dot.h" line="294" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/dot.h" bodystart="294" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d8/d65/class_dot_group_collaboration_1_1_edge_1af8c82f23e5a2e9f3845fa402864eb6dd" prot="public" static="no" mutable="no">
+        <type><ref refid="db/daa/class_q_list" kindref="compound">QList</ref>&lt; <ref refid="d2/df0/class_dot_group_collaboration_1_1_link" kindref="compound">Link</ref> &gt;</type>
+        <definition>QList&lt;Link&gt; DotGroupCollaboration::Edge::links</definition>
+        <argsstring></argsstring>
+        <name>links</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/dot.h" line="296" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/dot.h" bodystart="296" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="d8/d65/class_dot_group_collaboration_1_1_edge_1a72ac56ac966b6ab1f983c728e99f9608" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>DotGroupCollaboration::Edge::Edge</definition>
+        <argsstring>(DotNode *start, DotNode *end, EdgeType type)</argsstring>
+        <name>Edge</name>
+        <param>
+          <type><ref refid="dd/d7e/class_dot_node" kindref="compound">DotNode</ref> *</type>
+          <declname>start</declname>
+        </param>
+        <param>
+          <type><ref refid="dd/d7e/class_dot_node" kindref="compound">DotNode</ref> *</type>
+          <declname>end</declname>
+        </param>
+        <param>
+          <type>EdgeType</type>
+          <declname>type</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/dot.h" line="290" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/dot.h" bodystart="288" bodyend="290"/>
+      </memberdef>
+      <memberdef kind="function" id="d8/d65/class_dot_group_collaboration_1_1_edge_1a1cb5153f62d179c3e0471955e69e3692" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void DotGroupCollaboration::Edge::write</definition>
+        <argsstring>(FTextStream &amp;t) const </argsstring>
+        <name>write</name>
+        <param>
+          <type><ref refid="dc/d3c/class_f_text_stream" kindref="compound">FTextStream</ref> &amp;</type>
+          <declname>t</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/dot.h" line="297" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/dot.cpp" bodystart="4525" bodyend="4585"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="3377">
+        <label>DotGroupCollaboration::Edge</label>
+        <link refid="d8/d65/class_dot_group_collaboration_1_1_edge"/>
+        <childnode refid="3378" relation="usage">
+          <edgelabel>pNStart</edgelabel>
+          <edgelabel>pNEnd</edgelabel>
+        </childnode>
+      </node>
+      <node id="3378">
+        <label>DotNode</label>
+        <link refid="dd/d7e/class_dot_node"/>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/dot.h" line="286" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/dot.h" bodystart="285" bodyend="298"/>
+    <listofallmembers>
+      <member refid="d8/d65/class_dot_group_collaboration_1_1_edge_1a72ac56ac966b6ab1f983c728e99f9608" prot="public" virt="non-virtual"><scope>DotGroupCollaboration::Edge</scope><name>Edge</name></member>
+      <member refid="d8/d65/class_dot_group_collaboration_1_1_edge_1a76a2ba25cd605e65eece591f41706626" prot="public" virt="non-virtual"><scope>DotGroupCollaboration::Edge</scope><name>eType</name></member>
+      <member refid="d8/d65/class_dot_group_collaboration_1_1_edge_1af8c82f23e5a2e9f3845fa402864eb6dd" prot="public" virt="non-virtual"><scope>DotGroupCollaboration::Edge</scope><name>links</name></member>
+      <member refid="d8/d65/class_dot_group_collaboration_1_1_edge_1aaa1b8e53e4a95e63acde11b161331e11" prot="public" virt="non-virtual"><scope>DotGroupCollaboration::Edge</scope><name>pNEnd</name></member>
+      <member refid="d8/d65/class_dot_group_collaboration_1_1_edge_1a05c8193b7ab3fa66b1cfe1c7bd87e1d2" prot="public" virt="non-virtual"><scope>DotGroupCollaboration::Edge</scope><name>pNStart</name></member>
+      <member refid="d8/d65/class_dot_group_collaboration_1_1_edge_1a1cb5153f62d179c3e0471955e69e3692" prot="public" virt="non-virtual"><scope>DotGroupCollaboration::Edge</scope><name>write</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

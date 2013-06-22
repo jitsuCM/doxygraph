@@ -1,0 +1,178 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.2">
+  <compounddef id="d7/d59/struct_grouping" kind="struct" prot="public">
+    <compoundname>Grouping</compoundname>
+    <includes refid="d9/d49/types_8h" local="no">types.h</includes>
+      <sectiondef kind="public-type">
+      <memberdef kind="enum" id="d7/d59/struct_grouping_1a9f0ec5ab376b083ebe3274ea79fd2d70" prot="public" static="no">
+        <name>GroupPri_t</name>
+        <enumvalue id="d7/d59/struct_grouping_1a9f0ec5ab376b083ebe3274ea79fd2d70a251075fcb0324e4f5f3d7bc8767ca06b" prot="public">
+          <name>GROUPING_LOWEST</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d7/d59/struct_grouping_1a9f0ec5ab376b083ebe3274ea79fd2d70aa59227c8fa39faf56ebc4c06e08d4d84" prot="public">
+          <name>GROUPING_AUTO_WEAK</name>
+          <initializer>= GROUPING_LOWEST</initializer>
+          <briefdescription>
+<para>membership in group was defined via @weakgroup </para>          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d7/d59/struct_grouping_1a9f0ec5ab376b083ebe3274ea79fd2d70a44f89332beea02ebc5d56bcb71a081ba" prot="public">
+          <name>GROUPING_AUTO_ADD</name>
+          <briefdescription>
+<para>membership in group was defined via @add[to]group </para>          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d7/d59/struct_grouping_1a9f0ec5ab376b083ebe3274ea79fd2d70ab767fc9fe6f874c09362fd1350738f7f" prot="public">
+          <name>GROUPING_AUTO_DEF</name>
+          <briefdescription>
+<para>membership in group was defined via @defgroup </para>          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d7/d59/struct_grouping_1a9f0ec5ab376b083ebe3274ea79fd2d70ab0dee71675bf90a137537784427e2956" prot="public">
+          <name>GROUPING_AUTO_HIGHEST</name>
+          <initializer>= GROUPING_AUTO_DEF</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d7/d59/struct_grouping_1a9f0ec5ab376b083ebe3274ea79fd2d70a464b2001acf04bed5df29c11a66fb2fb" prot="public">
+          <name>GROUPING_INGROUP</name>
+          <briefdescription>
+<para>membership in group was defined by @ingroup </para>          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d7/d59/struct_grouping_1a9f0ec5ab376b083ebe3274ea79fd2d70adca997c0931955d0ff0b9e23d14a9d2a" prot="public">
+          <name>GROUPING_HIGHEST</name>
+          <initializer>= GROUPING_INGROUP</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+<para><ref refid="d7/d59/struct_grouping" kindref="compound">Grouping</ref> priority. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/types.h" line="65" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/types.h" bodystart="64" bodyend="73"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="d7/d59/struct_grouping_1a05e6a053a86cc2f588d065f3880801dc" prot="public" static="no" mutable="no">
+        <type>QCString</type>
+        <definition>QCString Grouping::groupname</definition>
+        <argsstring></argsstring>
+        <name>groupname</name>
+        <briefdescription>
+<para>name of the group </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/types.h" line="93" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/types.h" bodystart="93" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d7/d59/struct_grouping_1aead55d7198ceffe16cb82d2c114e4254" prot="public" static="no" mutable="no">
+        <type><ref refid="d7/d59/struct_grouping_1a9f0ec5ab376b083ebe3274ea79fd2d70" kindref="member">GroupPri_t</ref></type>
+        <definition>GroupPri_t Grouping::pri</definition>
+        <argsstring></argsstring>
+        <name>pri</name>
+        <briefdescription>
+<para>priority of this definition </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/types.h" line="94" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/types.h" bodystart="94" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="d7/d59/struct_grouping_1ae38a9f0b7428a2539810e4e782a740af" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>const char *</type>
+        <definition>static const char* Grouping::getGroupPriName</definition>
+        <argsstring>(GroupPri_t priority)</argsstring>
+        <name>getGroupPriName</name>
+        <param>
+          <type><ref refid="d7/d59/struct_grouping_1a9f0ec5ab376b083ebe3274ea79fd2d70" kindref="member">GroupPri_t</ref></type>
+          <declname>priority</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/types.h" line="76" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/types.h" bodystart="75" bodyend="89"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="d7/d59/struct_grouping_1a41b9c9ed04b5fa49a91a6e18e84d3576" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Grouping::Grouping</definition>
+        <argsstring>(const char *gn, GroupPri_t p)</argsstring>
+        <name>Grouping</name>
+        <param>
+          <type>const char *</type>
+          <declname>gn</declname>
+        </param>
+        <param>
+          <type><ref refid="d7/d59/struct_grouping_1a9f0ec5ab376b083ebe3274ea79fd2d70" kindref="member">GroupPri_t</ref></type>
+          <declname>p</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/types.h" line="91" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/types.h" bodystart="91" bodyend="91"/>
+      </memberdef>
+      <memberdef kind="function" id="d7/d59/struct_grouping_1ab8595b4b30745ff7b201e023b486ab67" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Grouping::Grouping</definition>
+        <argsstring>(const Grouping &amp;g)</argsstring>
+        <name>Grouping</name>
+        <param>
+          <type>const <ref refid="d7/d59/struct_grouping" kindref="compound">Grouping</ref> &amp;</type>
+          <declname>g</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/types.h" line="92" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/types.h" bodystart="92" bodyend="92"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para><ref refid="d7/d59/struct_grouping" kindref="compound">Grouping</ref> info. </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/types.h" line="62" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/types.h" bodystart="61" bodyend="96"/>
+    <listofallmembers>
+      <member refid="d7/d59/struct_grouping_1ae38a9f0b7428a2539810e4e782a740af" prot="public" virt="non-virtual"><scope>Grouping</scope><name>getGroupPriName</name></member>
+      <member refid="d7/d59/struct_grouping_1a41b9c9ed04b5fa49a91a6e18e84d3576" prot="public" virt="non-virtual"><scope>Grouping</scope><name>Grouping</name></member>
+      <member refid="d7/d59/struct_grouping_1ab8595b4b30745ff7b201e023b486ab67" prot="public" virt="non-virtual"><scope>Grouping</scope><name>Grouping</name></member>
+      <member refid="d7/d59/struct_grouping_1a9f0ec5ab376b083ebe3274ea79fd2d70a44f89332beea02ebc5d56bcb71a081ba" prot="public" virt="non-virtual"><scope>Grouping</scope><name>GROUPING_AUTO_ADD</name></member>
+      <member refid="d7/d59/struct_grouping_1a9f0ec5ab376b083ebe3274ea79fd2d70ab767fc9fe6f874c09362fd1350738f7f" prot="public" virt="non-virtual"><scope>Grouping</scope><name>GROUPING_AUTO_DEF</name></member>
+      <member refid="d7/d59/struct_grouping_1a9f0ec5ab376b083ebe3274ea79fd2d70ab0dee71675bf90a137537784427e2956" prot="public" virt="non-virtual"><scope>Grouping</scope><name>GROUPING_AUTO_HIGHEST</name></member>
+      <member refid="d7/d59/struct_grouping_1a9f0ec5ab376b083ebe3274ea79fd2d70aa59227c8fa39faf56ebc4c06e08d4d84" prot="public" virt="non-virtual"><scope>Grouping</scope><name>GROUPING_AUTO_WEAK</name></member>
+      <member refid="d7/d59/struct_grouping_1a9f0ec5ab376b083ebe3274ea79fd2d70adca997c0931955d0ff0b9e23d14a9d2a" prot="public" virt="non-virtual"><scope>Grouping</scope><name>GROUPING_HIGHEST</name></member>
+      <member refid="d7/d59/struct_grouping_1a9f0ec5ab376b083ebe3274ea79fd2d70a464b2001acf04bed5df29c11a66fb2fb" prot="public" virt="non-virtual"><scope>Grouping</scope><name>GROUPING_INGROUP</name></member>
+      <member refid="d7/d59/struct_grouping_1a9f0ec5ab376b083ebe3274ea79fd2d70a251075fcb0324e4f5f3d7bc8767ca06b" prot="public" virt="non-virtual"><scope>Grouping</scope><name>GROUPING_LOWEST</name></member>
+      <member refid="d7/d59/struct_grouping_1a05e6a053a86cc2f588d065f3880801dc" prot="public" virt="non-virtual"><scope>Grouping</scope><name>groupname</name></member>
+      <member refid="d7/d59/struct_grouping_1a9f0ec5ab376b083ebe3274ea79fd2d70" prot="public" virt="non-virtual"><scope>Grouping</scope><name>GroupPri_t</name></member>
+      <member refid="d7/d59/struct_grouping_1aead55d7198ceffe16cb82d2c114e4254" prot="public" virt="non-virtual"><scope>Grouping</scope><name>pri</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

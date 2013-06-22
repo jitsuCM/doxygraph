@@ -1,0 +1,98 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.2">
+  <compounddef id="d7/db0/class_storage_intf" kind="class" prot="public" abstract="yes">
+    <compoundname>StorageIntf</compoundname>
+    <derivedcompoundref refid="d3/d94/class_file_storage" prot="public" virt="non-virtual">FileStorage</derivedcompoundref>
+    <derivedcompoundref refid="db/d9d/class_store" prot="public" virt="non-virtual">Store</derivedcompoundref>
+    <includes refid="d5/d3f/store_8h" local="no">store.h</includes>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="d7/db0/class_storage_intf_1a20aa41248a1ea20f9829cce656171bd0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type></type>
+        <definition>virtual StorageIntf::~StorageIntf</definition>
+        <argsstring>()</argsstring>
+        <name>~StorageIntf</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Required by gcc </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/store.h" line="31" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/store.h" bodystart="31" bodyend="31"/>
+      </memberdef>
+      <memberdef kind="function" id="d7/db0/class_storage_intf_1a125b99d1511364f4fe49709feec46bb4" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>int</type>
+        <definition>virtual int StorageIntf::read</definition>
+        <argsstring>(char *buf, uint size)=0</argsstring>
+        <name>read</name>
+        <reimplementedby refid="d3/d94/class_file_storage_1ae28163449c4c40730b5e27b75362e22d">read</reimplementedby>
+        <reimplementedby refid="db/d9d/class_store_1a02df7a98367838e436f8f8b3367016d1">read</reimplementedby>
+        <param>
+          <type>char *</type>
+          <declname>buf</declname>
+        </param>
+        <param>
+          <type>uint</type>
+          <declname>size</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Read <emphasis>size</emphasis> bytes from the store into <emphasis>buf</emphasis>. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/store.h" line="33"/>
+      </memberdef>
+      <memberdef kind="function" id="d7/db0/class_storage_intf_1a97b26023c6cf0590423e428947d6febb" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>int</type>
+        <definition>virtual int StorageIntf::write</definition>
+        <argsstring>(const char *buf, uint size)=0</argsstring>
+        <name>write</name>
+        <reimplementedby refid="d3/d94/class_file_storage_1a9f680051229bda7bca2639e5464bca77">write</reimplementedby>
+        <reimplementedby refid="db/d9d/class_store_1aec754c74cf190cb55281a923db21194a">write</reimplementedby>
+        <param>
+          <type>const char *</type>
+          <declname>buf</declname>
+        </param>
+        <param>
+          <type>uint</type>
+          <declname>size</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Write <emphasis>size</emphasis> bytes from <emphasis>buf</emphasis> into the store. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/store.h" line="35"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Abstract interface for file based memory storage operations. </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="4174">
+        <label>FileStorage</label>
+        <link refid="d3/d94/class_file_storage"/>
+        <childnode refid="4173" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4173">
+        <label>StorageIntf</label>
+        <link refid="d7/db0/class_storage_intf"/>
+      </node>
+      <node id="4175">
+        <label>Store</label>
+        <link refid="db/d9d/class_store"/>
+        <childnode refid="4173" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/store.h" line="28" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/store.h" bodystart="27" bodyend="36"/>
+    <listofallmembers>
+      <member refid="d7/db0/class_storage_intf_1a125b99d1511364f4fe49709feec46bb4" prot="public" virt="pure-virtual"><scope>StorageIntf</scope><name>read</name></member>
+      <member refid="d7/db0/class_storage_intf_1a97b26023c6cf0590423e428947d6febb" prot="public" virt="pure-virtual"><scope>StorageIntf</scope><name>write</name></member>
+      <member refid="d7/db0/class_storage_intf_1a20aa41248a1ea20f9829cce656171bd0" prot="public" virt="virtual"><scope>StorageIntf</scope><name>~StorageIntf</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

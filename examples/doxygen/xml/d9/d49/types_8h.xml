@@ -1,0 +1,2463 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.2">
+  <compounddef id="d9/d49/types_8h" kind="file">
+    <compoundname>types.h</compoundname>
+    <includes local="no">qcstring.h</includes>
+    <includedby refid="d8/d3c/util_8h" local="yes">src/util.h</includedby>
+    <includedby refid="df/da1/definition_8h" local="yes">src/definition.h</includedby>
+    <includedby refid="d1/dc6/entry_8h" local="yes">src/entry.h</includedby>
+    <includedby refid="d9/d11/membergroup_8h" local="yes">src/membergroup.h</includedby>
+    <includedby refid="d4/d46/memberdef_8h" local="yes">src/memberdef.h</includedby>
+    <includedby refid="dd/d78/memberlist_8h" local="yes">src/memberlist.h</includedby>
+    <includedby refid="db/d51/layout_8h" local="yes">src/layout.h</includedby>
+    <includedby refid="db/d0d/commentscan_8h" local="yes">src/commentscan.h</includedby>
+    <incdepgraph>
+      <node id="5107">
+        <label>qcstring.h</label>
+      </node>
+      <node id="5106">
+        <label>src/types.h</label>
+        <link refid="types.h"/>
+        <childnode refid="5107" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="5178">
+        <label>src/marshal.cpp</label>
+        <link refid="d9/d85/marshal_8cpp_source"/>
+      </node>
+      <node id="5155">
+        <label>src/tagreader.cpp</label>
+        <link refid="d4/d7b/tagreader_8cpp_source"/>
+      </node>
+      <node id="5132">
+        <label>src/htmldocvisitor.cpp</label>
+        <link refid="da/db0/htmldocvisitor_8cpp_source"/>
+      </node>
+      <node id="5173">
+        <label>src/qhp.cpp</label>
+        <link refid="d9/d45/qhp_8cpp_source"/>
+      </node>
+      <node id="5152">
+        <label>src/rtfdocvisitor.cpp</label>
+        <link refid="de/d9a/rtfdocvisitor_8cpp_source"/>
+      </node>
+      <node id="5120">
+        <label>src/docparser.cpp</label>
+        <link refid="da/d17/docparser_8cpp_source"/>
+      </node>
+      <node id="5143">
+        <label>src/membergroup.cpp</label>
+        <link refid="d6/d18/membergroup_8cpp_source"/>
+      </node>
+      <node id="5142">
+        <label>src/memberdef.cpp</label>
+        <link refid="d0/d72/memberdef_8cpp_source"/>
+      </node>
+      <node id="5123">
+        <label>src/doxygen.cpp</label>
+        <link refid="dc/d98/doxygen_8cpp_source"/>
+      </node>
+      <node id="5122">
+        <label>src/dot.cpp</label>
+        <link refid="de/daa/dot_8cpp_source"/>
+      </node>
+      <node id="5157">
+        <label>src/vhdldocgen.cpp</label>
+        <link refid="de/dea/vhdldocgen_8cpp_source"/>
+      </node>
+      <node id="5168">
+        <label>src/classlist.h</label>
+        <link refid="d2/df8/classlist_8h_source"/>
+        <childnode refid="5111" relation="include">
+        </childnode>
+        <childnode refid="5112" relation="include">
+        </childnode>
+        <childnode refid="5114" relation="include">
+        </childnode>
+        <childnode refid="5116" relation="include">
+        </childnode>
+        <childnode refid="5118" relation="include">
+        </childnode>
+        <childnode refid="5120" relation="include">
+        </childnode>
+        <childnode refid="5122" relation="include">
+        </childnode>
+        <childnode refid="5123" relation="include">
+        </childnode>
+        <childnode refid="5126" relation="include">
+        </childnode>
+        <childnode refid="5130" relation="include">
+        </childnode>
+        <childnode refid="5134" relation="include">
+        </childnode>
+        <childnode refid="5137" relation="include">
+        </childnode>
+        <childnode refid="5148" relation="include">
+        </childnode>
+        <childnode refid="5169" relation="include">
+        </childnode>
+        <childnode refid="5153" relation="include">
+        </childnode>
+        <childnode refid="5154" relation="include">
+        </childnode>
+        <childnode refid="5156" relation="include">
+        </childnode>
+        <childnode refid="5157" relation="include">
+        </childnode>
+        <childnode refid="5159" relation="include">
+        </childnode>
+      </node>
+      <node id="5153">
+        <label>src/rtfgen.cpp</label>
+        <link refid="d0/d9c/rtfgen_8cpp_source"/>
+      </node>
+      <node id="5139">
+        <label>src/mandocvisitor.cpp</label>
+        <link refid="d8/dde/mandocvisitor_8cpp_source"/>
+      </node>
+      <node id="5112">
+        <label>src/classlist.cpp</label>
+        <link refid="d6/d10/classlist_8cpp_source"/>
+      </node>
+      <node id="5167">
+        <label>src/translator.cpp</label>
+        <link refid="da/d34/translator_8cpp"/>
+      </node>
+      <node id="5149">
+        <label>src/pagedef.cpp</label>
+        <link refid="d9/db4/pagedef_8cpp_source"/>
+      </node>
+      <node id="5187">
+        <label>src/membergroup.h</label>
+        <link refid="d9/d11/membergroup_8h_source"/>
+        <childnode refid="5171" relation="include">
+        </childnode>
+        <childnode refid="5111" relation="include">
+        </childnode>
+        <childnode refid="5118" relation="include">
+        </childnode>
+        <childnode refid="5122" relation="include">
+        </childnode>
+        <childnode refid="5123" relation="include">
+        </childnode>
+        <childnode refid="5126" relation="include">
+        </childnode>
+        <childnode refid="5130" relation="include">
+        </childnode>
+        <childnode refid="5142" relation="include">
+        </childnode>
+        <childnode refid="5143" relation="include">
+        </childnode>
+        <childnode refid="5144" relation="include">
+        </childnode>
+        <childnode refid="5148" relation="include">
+        </childnode>
+        <childnode refid="5169" relation="include">
+        </childnode>
+        <childnode refid="5156" relation="include">
+        </childnode>
+        <childnode refid="5157" relation="include">
+        </childnode>
+        <childnode refid="5159" relation="include">
+        </childnode>
+      </node>
+      <node id="5186">
+        <label>src/vhdlscanner.h</label>
+        <link refid="d8/d75/vhdlscanner_8h_source"/>
+        <childnode refid="5123" relation="include">
+        </childnode>
+        <childnode refid="5142" relation="include">
+        </childnode>
+        <childnode refid="5157" relation="include">
+        </childnode>
+      </node>
+      <node id="5114">
+        <label>src/defgen.cpp</label>
+        <link refid="d3/d17/defgen_8cpp_source"/>
+      </node>
+      <node id="5125">
+        <label>src/entry.cpp</label>
+        <link refid="d2/dd2/entry_8cpp_source"/>
+      </node>
+      <node id="5156">
+        <label>src/util.cpp</label>
+        <link refid="df/d2d/util_8cpp_source"/>
+      </node>
+      <node id="5147">
+        <label>src/msc.cpp</label>
+        <link refid="db/d33/msc_8cpp_source"/>
+      </node>
+      <node id="5136">
+        <label>src/latexdocvisitor.cpp</label>
+        <link refid="d1/d4e/latexdocvisitor_8cpp_source"/>
+      </node>
+      <node id="5175">
+        <label>src/memberlist.h</label>
+        <link refid="dd/d78/memberlist_8h_source"/>
+        <childnode refid="5171" relation="include">
+        </childnode>
+        <childnode refid="5111" relation="include">
+        </childnode>
+        <childnode refid="5176" relation="include">
+        </childnode>
+        <childnode refid="5114" relation="include">
+        </childnode>
+        <childnode refid="5115" relation="include">
+        </childnode>
+        <childnode refid="5118" relation="include">
+        </childnode>
+        <childnode refid="5122" relation="include">
+        </childnode>
+        <childnode refid="5123" relation="include">
+        </childnode>
+        <childnode refid="5126" relation="include">
+        </childnode>
+        <childnode refid="5130" relation="include">
+        </childnode>
+        <childnode refid="5134" relation="include">
+        </childnode>
+        <childnode refid="5178" relation="include">
+        </childnode>
+        <childnode refid="5142" relation="include">
+        </childnode>
+        <childnode refid="5143" relation="include">
+        </childnode>
+        <childnode refid="5144" relation="include">
+        </childnode>
+        <childnode refid="5148" relation="include">
+        </childnode>
+        <childnode refid="5169" relation="include">
+        </childnode>
+        <childnode refid="5156" relation="include">
+        </childnode>
+        <childnode refid="5157" relation="include">
+        </childnode>
+        <childnode refid="5159" relation="include">
+        </childnode>
+      </node>
+      <node id="5146">
+        <label>src/message.cpp</label>
+        <link refid="d8/d6a/message_8cpp_source"/>
+      </node>
+      <node id="5154">
+        <label>src/searchindex.cpp</label>
+        <link refid="d7/d79/searchindex_8cpp_source"/>
+      </node>
+      <node id="5163">
+        <label>src/language.h</label>
+        <link refid="d8/dce/language_8h_source"/>
+        <childnode refid="5110" relation="include">
+        </childnode>
+        <childnode refid="5111" relation="include">
+        </childnode>
+        <childnode refid="5112" relation="include">
+        </childnode>
+        <childnode refid="5115" relation="include">
+        </childnode>
+        <childnode refid="5117" relation="include">
+        </childnode>
+        <childnode refid="5118" relation="include">
+        </childnode>
+        <childnode refid="5119" relation="include">
+        </childnode>
+        <childnode refid="5120" relation="include">
+        </childnode>
+        <childnode refid="5122" relation="include">
+        </childnode>
+        <childnode refid="5123" relation="include">
+        </childnode>
+        <childnode refid="5126" relation="include">
+        </childnode>
+        <childnode refid="5129" relation="include">
+        </childnode>
+        <childnode refid="5130" relation="include">
+        </childnode>
+        <childnode refid="5132" relation="include">
+        </childnode>
+        <childnode refid="5133" relation="include">
+        </childnode>
+        <childnode refid="5164" relation="include">
+        </childnode>
+        <childnode refid="5134" relation="include">
+        </childnode>
+        <childnode refid="5135" relation="include">
+        </childnode>
+        <childnode refid="5136" relation="include">
+        </childnode>
+        <childnode refid="5137" relation="include">
+        </childnode>
+        <childnode refid="5138" relation="include">
+        </childnode>
+        <childnode refid="5139" relation="include">
+        </childnode>
+        <childnode refid="5140" relation="include">
+        </childnode>
+        <childnode refid="5142" relation="include">
+        </childnode>
+        <childnode refid="5143" relation="include">
+        </childnode>
+        <childnode refid="5144" relation="include">
+        </childnode>
+        <childnode refid="5148" relation="include">
+        </childnode>
+        <childnode refid="5149" relation="include">
+        </childnode>
+        <childnode refid="5152" relation="include">
+        </childnode>
+        <childnode refid="5153" relation="include">
+        </childnode>
+        <childnode refid="5154" relation="include">
+        </childnode>
+        <childnode refid="5156" relation="include">
+        </childnode>
+        <childnode refid="5157" relation="include">
+        </childnode>
+        <childnode refid="5158" relation="include">
+        </childnode>
+        <childnode refid="5159" relation="include">
+        </childnode>
+      </node>
+      <node id="5184">
+        <label>src/entry.h</label>
+        <link refid="d1/dc6/entry_8h_source"/>
+        <childnode refid="5111" relation="include">
+        </childnode>
+        <childnode refid="5185" relation="include">
+        </childnode>
+        <childnode refid="5113" relation="include">
+        </childnode>
+        <childnode refid="5123" relation="include">
+        </childnode>
+        <childnode refid="5186" relation="include">
+        </childnode>
+        <childnode refid="5125" relation="include">
+        </childnode>
+        <childnode refid="5126" relation="include">
+        </childnode>
+        <childnode refid="5130" relation="include">
+        </childnode>
+        <childnode refid="5141" relation="include">
+        </childnode>
+        <childnode refid="5178" relation="include">
+        </childnode>
+        <childnode refid="5143" relation="include">
+        </childnode>
+        <childnode refid="5155" relation="include">
+        </childnode>
+        <childnode refid="5156" relation="include">
+        </childnode>
+      </node>
+      <node id="5126">
+        <label>src/filedef.cpp</label>
+        <link refid="d6/ddc/filedef_8cpp_source"/>
+      </node>
+      <node id="5130">
+        <label>src/groupdef.cpp</label>
+        <link refid="d6/d42/groupdef_8cpp_source"/>
+      </node>
+      <node id="5118">
+        <label>src/docbookgen.cpp</label>
+        <link refid="d8/d29/docbookgen_8cpp_source"/>
+      </node>
+      <node id="5127">
+        <label>src/filename.cpp</label>
+        <link refid="de/d36/filename_8cpp_source"/>
+      </node>
+      <node id="5117">
+        <label>src/dirdef.cpp</label>
+        <link refid="d8/d52/dirdef_8cpp_source"/>
+      </node>
+      <node id="5169">
+        <label>src/perlmodgen.cpp</label>
+        <link refid="de/dd0/perlmodgen_8cpp_source"/>
+      </node>
+      <node id="5177">
+        <label>src/filename.h</label>
+        <link refid="dc/dd6/filename_8h_source"/>
+        <childnode refid="5114" relation="include">
+        </childnode>
+        <childnode refid="5117" relation="include">
+        </childnode>
+        <childnode refid="5118" relation="include">
+        </childnode>
+        <childnode refid="5119" relation="include">
+        </childnode>
+        <childnode refid="5122" relation="include">
+        </childnode>
+        <childnode refid="5123" relation="include">
+        </childnode>
+        <childnode refid="5126" relation="include">
+        </childnode>
+        <childnode refid="5127" relation="include">
+        </childnode>
+        <childnode refid="5134" relation="include">
+        </childnode>
+        <childnode refid="5137" relation="include">
+        </childnode>
+        <childnode refid="5169" relation="include">
+        </childnode>
+        <childnode refid="5153" relation="include">
+        </childnode>
+        <childnode refid="5154" relation="include">
+        </childnode>
+        <childnode refid="5155" relation="include">
+        </childnode>
+        <childnode refid="5156" relation="include">
+        </childnode>
+        <childnode refid="5157" relation="include">
+        </childnode>
+        <childnode refid="5158" relation="include">
+        </childnode>
+        <childnode refid="5159" relation="include">
+        </childnode>
+      </node>
+      <node id="5115">
+        <label>src/definition.cpp</label>
+        <link refid="d3/dea/definition_8cpp_source"/>
+      </node>
+      <node id="5161">
+        <label>src/classdef.h</label>
+        <link refid="d1/da6/classdef_8h_source"/>
+        <childnode refid="5162" relation="include">
+        </childnode>
+        <childnode refid="5111" relation="include">
+        </childnode>
+        <childnode refid="5168" relation="include">
+        </childnode>
+        <childnode refid="5116" relation="include">
+        </childnode>
+        <childnode refid="5121" relation="include">
+        </childnode>
+        <childnode refid="5126" relation="include">
+        </childnode>
+        <childnode refid="5130" relation="include">
+        </childnode>
+        <childnode refid="5143" relation="include">
+        </childnode>
+        <childnode refid="5144" relation="include">
+        </childnode>
+        <childnode refid="5145" relation="include">
+        </childnode>
+        <childnode refid="5148" relation="include">
+        </childnode>
+        <childnode refid="5169" relation="include">
+        </childnode>
+        <childnode refid="5154" relation="include">
+        </childnode>
+        <childnode refid="5155" relation="include">
+        </childnode>
+        <childnode refid="5156" relation="include">
+        </childnode>
+      </node>
+      <node id="5148">
+        <label>src/namespacedef.cpp</label>
+        <link refid="d7/d1c/namespacedef_8cpp_source"/>
+      </node>
+      <node id="5109">
+        <label>src/util.h</label>
+        <link refid="d8/d3c/util_8h"/>
+        <childnode refid="5110" relation="include">
+        </childnode>
+        <childnode refid="5111" relation="include">
+        </childnode>
+        <childnode refid="5112" relation="include">
+        </childnode>
+        <childnode refid="5113" relation="include">
+        </childnode>
+        <childnode refid="5114" relation="include">
+        </childnode>
+        <childnode refid="5115" relation="include">
+        </childnode>
+        <childnode refid="5116" relation="include">
+        </childnode>
+        <childnode refid="5117" relation="include">
+        </childnode>
+        <childnode refid="5118" relation="include">
+        </childnode>
+        <childnode refid="5119" relation="include">
+        </childnode>
+        <childnode refid="5120" relation="include">
+        </childnode>
+        <childnode refid="5121" relation="include">
+        </childnode>
+        <childnode refid="5122" relation="include">
+        </childnode>
+        <childnode refid="5123" relation="include">
+        </childnode>
+        <childnode refid="5124" relation="include">
+        </childnode>
+        <childnode refid="5125" relation="include">
+        </childnode>
+        <childnode refid="5126" relation="include">
+        </childnode>
+        <childnode refid="5127" relation="include">
+        </childnode>
+        <childnode refid="5128" relation="include">
+        </childnode>
+        <childnode refid="5129" relation="include">
+        </childnode>
+        <childnode refid="5130" relation="include">
+        </childnode>
+        <childnode refid="5131" relation="include">
+        </childnode>
+        <childnode refid="5132" relation="include">
+        </childnode>
+        <childnode refid="5133" relation="include">
+        </childnode>
+        <childnode refid="5134" relation="include">
+        </childnode>
+        <childnode refid="5135" relation="include">
+        </childnode>
+        <childnode refid="5136" relation="include">
+        </childnode>
+        <childnode refid="5137" relation="include">
+        </childnode>
+        <childnode refid="5138" relation="include">
+        </childnode>
+        <childnode refid="5139" relation="include">
+        </childnode>
+        <childnode refid="5140" relation="include">
+        </childnode>
+        <childnode refid="5141" relation="include">
+        </childnode>
+        <childnode refid="5142" relation="include">
+        </childnode>
+        <childnode refid="5143" relation="include">
+        </childnode>
+        <childnode refid="5144" relation="include">
+        </childnode>
+        <childnode refid="5145" relation="include">
+        </childnode>
+        <childnode refid="5146" relation="include">
+        </childnode>
+        <childnode refid="5147" relation="include">
+        </childnode>
+        <childnode refid="5148" relation="include">
+        </childnode>
+        <childnode refid="5149" relation="include">
+        </childnode>
+        <childnode refid="5150" relation="include">
+        </childnode>
+        <childnode refid="5151" relation="include">
+        </childnode>
+        <childnode refid="5152" relation="include">
+        </childnode>
+        <childnode refid="5153" relation="include">
+        </childnode>
+        <childnode refid="5154" relation="include">
+        </childnode>
+        <childnode refid="5155" relation="include">
+        </childnode>
+        <childnode refid="5156" relation="include">
+        </childnode>
+        <childnode refid="5157" relation="include">
+        </childnode>
+        <childnode refid="5158" relation="include">
+        </childnode>
+        <childnode refid="5159" relation="include">
+        </childnode>
+      </node>
+      <node id="5113">
+        <label>src/dbusxmlscanner.cpp</label>
+        <link refid="d1/d70/dbusxmlscanner_8cpp_source"/>
+      </node>
+      <node id="5150">
+        <label>src/qhpxmlwriter.cpp</label>
+        <link refid="dd/d53/qhpxmlwriter_8cpp_source"/>
+      </node>
+      <node id="5128">
+        <label>src/formula.cpp</label>
+        <link refid="d7/d5b/formula_8cpp_source"/>
+      </node>
+      <node id="5158">
+        <label>src/xmldocvisitor.cpp</label>
+        <link refid="dd/db6/xmldocvisitor_8cpp_source"/>
+      </node>
+      <node id="5119">
+        <label>src/docbookvisitor.cpp</label>
+        <link refid="dc/d05/docbookvisitor_8cpp_source"/>
+      </node>
+      <node id="5182">
+        <label>src/pagedef.h</label>
+        <link refid="dd/d66/pagedef_8h_source"/>
+        <childnode refid="5115" relation="include">
+        </childnode>
+        <childnode refid="5118" relation="include">
+        </childnode>
+        <childnode refid="5120" relation="include">
+        </childnode>
+        <childnode refid="5122" relation="include">
+        </childnode>
+        <childnode refid="5123" relation="include">
+        </childnode>
+        <childnode refid="5129" relation="include">
+        </childnode>
+        <childnode refid="5130" relation="include">
+        </childnode>
+        <childnode refid="5133" relation="include">
+        </childnode>
+        <childnode refid="5134" relation="include">
+        </childnode>
+        <childnode refid="5137" relation="include">
+        </childnode>
+        <childnode refid="5149" relation="include">
+        </childnode>
+        <childnode refid="5169" relation="include">
+        </childnode>
+        <childnode refid="5153" relation="include">
+        </childnode>
+        <childnode refid="5154" relation="include">
+        </childnode>
+        <childnode refid="5156" relation="include">
+        </childnode>
+        <childnode refid="5159" relation="include">
+        </childnode>
+      </node>
+      <node id="5140">
+        <label>src/mangen.cpp</label>
+        <link refid="d7/de7/mangen_8cpp_source"/>
+      </node>
+      <node id="5108">
+        <label>src/types.h</label>
+        <link refid="types.h"/>
+        <childnode refid="5109" relation="include">
+        </childnode>
+        <childnode refid="5160" relation="include">
+        </childnode>
+        <childnode refid="5184" relation="include">
+        </childnode>
+        <childnode refid="5187" relation="include">
+        </childnode>
+        <childnode refid="5174" relation="include">
+        </childnode>
+        <childnode refid="5175" relation="include">
+        </childnode>
+        <childnode refid="5188" relation="include">
+        </childnode>
+        <childnode refid="5189" relation="include">
+        </childnode>
+      </node>
+      <node id="5129">
+        <label>src/ftvhelp.cpp</label>
+        <link refid="db/d41/ftvhelp_8cpp_source"/>
+      </node>
+      <node id="5131">
+        <label>src/htags.cpp</label>
+        <link refid="d9/db7/htags_8cpp_source"/>
+      </node>
+      <node id="5159">
+        <label>src/xmlgen.cpp</label>
+        <link refid="d0/dc3/xmlgen_8cpp_source"/>
+      </node>
+      <node id="5133">
+        <label>src/htmlgen.cpp</label>
+        <link refid="d8/d6e/htmlgen_8cpp_source"/>
+      </node>
+      <node id="5134">
+        <label>src/index.cpp</label>
+        <link refid="db/d14/index_8cpp"/>
+      </node>
+      <node id="5138">
+        <label>src/layout.cpp</label>
+        <link refid="db/d16/layout_8cpp_source"/>
+      </node>
+      <node id="5165">
+        <label>src/translatordecoder.h</label>
+        <link refid="d3/d47/translatordecoder_8h_source"/>
+        <childnode refid="5135" relation="include">
+        </childnode>
+      </node>
+      <node id="5144">
+        <label>src/memberlist.cpp</label>
+        <link refid="d0/d14/memberlist_8cpp_source"/>
+      </node>
+      <node id="5121">
+        <label>src/docsets.cpp</label>
+        <link refid="d7/d8f/docsets_8cpp_source"/>
+      </node>
+      <node id="5124">
+        <label>src/eclipsehelp.cpp</label>
+        <link refid="d8/d56/eclipsehelp_8cpp_source"/>
+      </node>
+      <node id="5151">
+        <label>src/reflist.cpp</label>
+        <link refid="d4/d09/reflist_8cpp_source"/>
+      </node>
+      <node id="5145">
+        <label>src/membername.cpp</label>
+        <link refid="de/d1d/membername_8cpp_source"/>
+      </node>
+      <node id="5166">
+        <label>src/translator_adapter.h</label>
+        <link refid="da/de6/translator__adapter_8h_source"/>
+        <childnode refid="5135" relation="include">
+        </childnode>
+      </node>
+      <node id="5171">
+        <label>src/doxygen.h</label>
+        <link refid="d1/da1/doxygen_8h_source"/>
+        <childnode refid="5111" relation="include">
+        </childnode>
+        <childnode refid="5112" relation="include">
+        </childnode>
+        <childnode refid="5114" relation="include">
+        </childnode>
+        <childnode refid="5115" relation="include">
+        </childnode>
+        <childnode refid="5116" relation="include">
+        </childnode>
+        <childnode refid="5117" relation="include">
+        </childnode>
+        <childnode refid="5118" relation="include">
+        </childnode>
+        <childnode refid="5119" relation="include">
+        </childnode>
+        <childnode refid="5120" relation="include">
+        </childnode>
+        <childnode refid="5121" relation="include">
+        </childnode>
+        <childnode refid="5122" relation="include">
+        </childnode>
+        <childnode refid="5123" relation="include">
+        </childnode>
+        <childnode refid="5124" relation="include">
+        </childnode>
+        <childnode refid="5125" relation="include">
+        </childnode>
+        <childnode refid="5126" relation="include">
+        </childnode>
+        <childnode refid="5128" relation="include">
+        </childnode>
+        <childnode refid="5129" relation="include">
+        </childnode>
+        <childnode refid="5130" relation="include">
+        </childnode>
+        <childnode refid="5132" relation="include">
+        </childnode>
+        <childnode refid="5133" relation="include">
+        </childnode>
+        <childnode refid="5164" relation="include">
+        </childnode>
+        <childnode refid="5134" relation="include">
+        </childnode>
+        <childnode refid="5136" relation="include">
+        </childnode>
+        <childnode refid="5137" relation="include">
+        </childnode>
+        <childnode refid="5138" relation="include">
+        </childnode>
+        <childnode refid="5172" relation="include">
+        </childnode>
+        <childnode refid="5139" relation="include">
+        </childnode>
+        <childnode refid="5140" relation="include">
+        </childnode>
+        <childnode refid="5141" relation="include">
+        </childnode>
+        <childnode refid="5142" relation="include">
+        </childnode>
+        <childnode refid="5143" relation="include">
+        </childnode>
+        <childnode refid="5144" relation="include">
+        </childnode>
+        <childnode refid="5146" relation="include">
+        </childnode>
+        <childnode refid="5147" relation="include">
+        </childnode>
+        <childnode refid="5148" relation="include">
+        </childnode>
+        <childnode refid="5149" relation="include">
+        </childnode>
+        <childnode refid="5169" relation="include">
+        </childnode>
+        <childnode refid="5173" relation="include">
+        </childnode>
+        <childnode refid="5152" relation="include">
+        </childnode>
+        <childnode refid="5153" relation="include">
+        </childnode>
+        <childnode refid="5154" relation="include">
+        </childnode>
+        <childnode refid="5155" relation="include">
+        </childnode>
+        <childnode refid="5156" relation="include">
+        </childnode>
+        <childnode refid="5157" relation="include">
+        </childnode>
+        <childnode refid="5158" relation="include">
+        </childnode>
+        <childnode refid="5159" relation="include">
+        </childnode>
+      </node>
+      <node id="5174">
+        <label>src/memberdef.h</label>
+        <link refid="d4/d46/memberdef_8h_source"/>
+        <childnode refid="5175" relation="include">
+        </childnode>
+        <childnode refid="5179" relation="include">
+        </childnode>
+        <childnode refid="5118" relation="include">
+        </childnode>
+        <childnode refid="5120" relation="include">
+        </childnode>
+        <childnode refid="5121" relation="include">
+        </childnode>
+        <childnode refid="5122" relation="include">
+        </childnode>
+        <childnode refid="5126" relation="include">
+        </childnode>
+        <childnode refid="5132" relation="include">
+        </childnode>
+        <childnode refid="5164" relation="include">
+        </childnode>
+        <childnode refid="5142" relation="include">
+        </childnode>
+        <childnode refid="5173" relation="include">
+        </childnode>
+        <childnode refid="5154" relation="include">
+        </childnode>
+        <childnode refid="5157" relation="include">
+        </childnode>
+        <childnode refid="5159" relation="include">
+        </childnode>
+      </node>
+      <node id="5176">
+        <label>src/filedef.h</label>
+        <link refid="d4/d3a/filedef_8h_source"/>
+        <childnode refid="5111" relation="include">
+        </childnode>
+        <childnode refid="5114" relation="include">
+        </childnode>
+        <childnode refid="5177" relation="include">
+        </childnode>
+        <childnode refid="5115" relation="include">
+        </childnode>
+        <childnode refid="5119" relation="include">
+        </childnode>
+        <childnode refid="5120" relation="include">
+        </childnode>
+        <childnode refid="5121" relation="include">
+        </childnode>
+        <childnode refid="5126" relation="include">
+        </childnode>
+        <childnode refid="5129" relation="include">
+        </childnode>
+        <childnode refid="5130" relation="include">
+        </childnode>
+        <childnode refid="5132" relation="include">
+        </childnode>
+        <childnode refid="5164" relation="include">
+        </childnode>
+        <childnode refid="5134" relation="include">
+        </childnode>
+        <childnode refid="5136" relation="include">
+        </childnode>
+        <childnode refid="5139" relation="include">
+        </childnode>
+        <childnode refid="5142" relation="include">
+        </childnode>
+        <childnode refid="5143" relation="include">
+        </childnode>
+        <childnode refid="5144" relation="include">
+        </childnode>
+        <childnode refid="5145" relation="include">
+        </childnode>
+        <childnode refid="5146" relation="include">
+        </childnode>
+        <childnode refid="5173" relation="include">
+        </childnode>
+        <childnode refid="5152" relation="include">
+        </childnode>
+        <childnode refid="5154" relation="include">
+        </childnode>
+        <childnode refid="5155" relation="include">
+        </childnode>
+        <childnode refid="5156" relation="include">
+        </childnode>
+      </node>
+      <node id="5180">
+        <label>src/groupdef.h</label>
+        <link refid="d1/de6/groupdef_8h_source"/>
+        <childnode refid="5111" relation="include">
+        </childnode>
+        <childnode refid="5115" relation="include">
+        </childnode>
+        <childnode refid="5118" relation="include">
+        </childnode>
+        <childnode refid="5120" relation="include">
+        </childnode>
+        <childnode refid="5121" relation="include">
+        </childnode>
+        <childnode refid="5122" relation="include">
+        </childnode>
+        <childnode refid="5123" relation="include">
+        </childnode>
+        <childnode refid="5126" relation="include">
+        </childnode>
+        <childnode refid="5130" relation="include">
+        </childnode>
+        <childnode refid="5164" relation="include">
+        </childnode>
+        <childnode refid="5134" relation="include">
+        </childnode>
+        <childnode refid="5137" relation="include">
+        </childnode>
+        <childnode refid="5178" relation="include">
+        </childnode>
+        <childnode refid="5142" relation="include">
+        </childnode>
+        <childnode refid="5143" relation="include">
+        </childnode>
+        <childnode refid="5144" relation="include">
+        </childnode>
+        <childnode refid="5149" relation="include">
+        </childnode>
+        <childnode refid="5169" relation="include">
+        </childnode>
+        <childnode refid="5173" relation="include">
+        </childnode>
+        <childnode refid="5153" relation="include">
+        </childnode>
+        <childnode refid="5154" relation="include">
+        </childnode>
+        <childnode refid="5156" relation="include">
+        </childnode>
+        <childnode refid="5157" relation="include">
+        </childnode>
+        <childnode refid="5159" relation="include">
+        </childnode>
+      </node>
+      <node id="5179">
+        <label>src/membername.h</label>
+        <link refid="d7/dfc/membername_8h_source"/>
+        <childnode refid="5111" relation="include">
+        </childnode>
+        <childnode refid="5118" relation="include">
+        </childnode>
+        <childnode refid="5123" relation="include">
+        </childnode>
+        <childnode refid="5130" relation="include">
+        </childnode>
+        <childnode refid="5142" relation="include">
+        </childnode>
+        <childnode refid="5145" relation="include">
+        </childnode>
+        <childnode refid="5169" relation="include">
+        </childnode>
+        <childnode refid="5154" relation="include">
+        </childnode>
+        <childnode refid="5156" relation="include">
+        </childnode>
+        <childnode refid="5159" relation="include">
+        </childnode>
+      </node>
+      <node id="5110">
+        <label>src/cite.cpp</label>
+        <link refid="d5/d0b/cite_8cpp_source"/>
+      </node>
+      <node id="5160">
+        <label>src/definition.h</label>
+        <link refid="df/da1/definition_8h_source"/>
+        <childnode refid="5161" relation="include">
+        </childnode>
+        <childnode refid="5170" relation="include">
+        </childnode>
+        <childnode refid="5174" relation="include">
+        </childnode>
+        <childnode refid="5180" relation="include">
+        </childnode>
+        <childnode refid="5176" relation="include">
+        </childnode>
+        <childnode refid="5181" relation="include">
+        </childnode>
+        <childnode refid="5115" relation="include">
+        </childnode>
+        <childnode refid="5182" relation="include">
+        </childnode>
+        <childnode refid="5178" relation="include">
+        </childnode>
+        <childnode refid="5183" relation="include">
+        </childnode>
+        <childnode refid="5157" relation="include">
+        </childnode>
+      </node>
+      <node id="5172">
+        <label>src/main.cpp</label>
+        <link refid="df/d0a/main_8cpp"/>
+      </node>
+      <node id="5141">
+        <label>src/markdown.cpp</label>
+        <link refid="de/d04/markdown_8cpp_source"/>
+      </node>
+      <node id="5164">
+        <label>src/htmlhelp.cpp</label>
+        <link refid="d3/d4b/htmlhelp_8cpp_source"/>
+      </node>
+      <node id="5170">
+        <label>src/dirdef.h</label>
+        <link refid="d6/d15/dirdef_8h_source"/>
+        <childnode refid="5171" relation="include">
+        </childnode>
+        <childnode refid="5115" relation="include">
+        </childnode>
+        <childnode refid="5117" relation="include">
+        </childnode>
+        <childnode refid="5118" relation="include">
+        </childnode>
+        <childnode refid="5122" relation="include">
+        </childnode>
+        <childnode refid="5123" relation="include">
+        </childnode>
+        <childnode refid="5126" relation="include">
+        </childnode>
+        <childnode refid="5130" relation="include">
+        </childnode>
+        <childnode refid="5133" relation="include">
+        </childnode>
+        <childnode refid="5134" relation="include">
+        </childnode>
+        <childnode refid="5137" relation="include">
+        </childnode>
+        <childnode refid="5153" relation="include">
+        </childnode>
+        <childnode refid="5156" relation="include">
+        </childnode>
+        <childnode refid="5159" relation="include">
+        </childnode>
+      </node>
+      <node id="5116">
+        <label>src/diagram.cpp</label>
+        <link refid="da/d0d/diagram_8cpp_source"/>
+      </node>
+      <node id="5135">
+        <label>src/language.cpp</label>
+        <link refid="d2/d48/language_8cpp_source"/>
+      </node>
+      <node id="5111">
+        <label>src/classdef.cpp</label>
+        <link refid="de/d89/classdef_8cpp_source"/>
+      </node>
+      <node id="5137">
+        <label>src/latexgen.cpp</label>
+        <link refid="d4/d42/latexgen_8cpp_source"/>
+      </node>
+      <node id="5189">
+        <label>src/commentscan.h</label>
+        <link refid="db/d0d/commentscan_8h"/>
+        <childnode refid="5113" relation="include">
+        </childnode>
+        <childnode refid="5141" relation="include">
+        </childnode>
+        <childnode refid="5157" relation="include">
+        </childnode>
+      </node>
+      <node id="5183">
+        <label>src/outputlist.cpp</label>
+        <link refid="db/dd8/outputlist_8cpp"/>
+      </node>
+      <node id="5185">
+        <label>src/vhdldocgen.h</label>
+        <link refid="dd/dec/vhdldocgen_8h_source"/>
+        <childnode refid="5111" relation="include">
+        </childnode>
+        <childnode refid="5112" relation="include">
+        </childnode>
+        <childnode refid="5115" relation="include">
+        </childnode>
+        <childnode refid="5120" relation="include">
+        </childnode>
+        <childnode refid="5122" relation="include">
+        </childnode>
+        <childnode refid="5186" relation="include">
+        </childnode>
+        <childnode refid="5123" relation="include">
+        </childnode>
+        <childnode refid="5126" relation="include">
+        </childnode>
+        <childnode refid="5130" relation="include">
+        </childnode>
+        <childnode refid="5132" relation="include">
+        </childnode>
+        <childnode refid="5133" relation="include">
+        </childnode>
+        <childnode refid="5134" relation="include">
+        </childnode>
+        <childnode refid="5138" relation="include">
+        </childnode>
+        <childnode refid="5142" relation="include">
+        </childnode>
+        <childnode refid="5144" relation="include">
+        </childnode>
+        <childnode refid="5148" relation="include">
+        </childnode>
+        <childnode refid="5183" relation="include">
+        </childnode>
+        <childnode refid="5153" relation="include">
+        </childnode>
+        <childnode refid="5157" relation="include">
+        </childnode>
+      </node>
+      <node id="5188">
+        <label>src/layout.h</label>
+        <link refid="db/d51/layout_8h_source"/>
+        <childnode refid="5185" relation="include">
+        </childnode>
+        <childnode refid="5111" relation="include">
+        </childnode>
+        <childnode refid="5117" relation="include">
+        </childnode>
+        <childnode refid="5123" relation="include">
+        </childnode>
+        <childnode refid="5126" relation="include">
+        </childnode>
+        <childnode refid="5129" relation="include">
+        </childnode>
+        <childnode refid="5130" relation="include">
+        </childnode>
+        <childnode refid="5133" relation="include">
+        </childnode>
+        <childnode refid="5134" relation="include">
+        </childnode>
+        <childnode refid="5138" relation="include">
+        </childnode>
+        <childnode refid="5148" relation="include">
+        </childnode>
+        <childnode refid="5157" relation="include">
+        </childnode>
+      </node>
+      <node id="5162">
+        <label>src/translator.h</label>
+        <link refid="d9/df1/translator_8h_source"/>
+        <childnode refid="5163" relation="include">
+        </childnode>
+        <childnode refid="5135" relation="include">
+        </childnode>
+        <childnode refid="5165" relation="include">
+        </childnode>
+        <childnode refid="5166" relation="include">
+        </childnode>
+        <childnode refid="5167" relation="include">
+        </childnode>
+      </node>
+      <node id="5181">
+        <label>src/namespacedef.h</label>
+        <link refid="d7/d97/namespacedef_8h_source"/>
+        <childnode refid="5111" relation="include">
+        </childnode>
+        <childnode refid="5114" relation="include">
+        </childnode>
+        <childnode refid="5115" relation="include">
+        </childnode>
+        <childnode refid="5118" relation="include">
+        </childnode>
+        <childnode refid="5120" relation="include">
+        </childnode>
+        <childnode refid="5121" relation="include">
+        </childnode>
+        <childnode refid="5122" relation="include">
+        </childnode>
+        <childnode refid="5123" relation="include">
+        </childnode>
+        <childnode refid="5126" relation="include">
+        </childnode>
+        <childnode refid="5130" relation="include">
+        </childnode>
+        <childnode refid="5134" relation="include">
+        </childnode>
+        <childnode refid="5137" relation="include">
+        </childnode>
+        <childnode refid="5142" relation="include">
+        </childnode>
+        <childnode refid="5143" relation="include">
+        </childnode>
+        <childnode refid="5144" relation="include">
+        </childnode>
+        <childnode refid="5148" relation="include">
+        </childnode>
+        <childnode refid="5149" relation="include">
+        </childnode>
+        <childnode refid="5169" relation="include">
+        </childnode>
+        <childnode refid="5153" relation="include">
+        </childnode>
+        <childnode refid="5154" relation="include">
+        </childnode>
+        <childnode refid="5156" relation="include">
+        </childnode>
+        <childnode refid="5157" relation="include">
+        </childnode>
+        <childnode refid="5159" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="d7/d59/struct_grouping" prot="public">Grouping</innerclass>
+    <innerclass refid="d8/dd5/struct_list_item_info" prot="public">ListItemInfo</innerclass>
+      <sectiondef kind="enum">
+      <memberdef kind="enum" id="d9/d49/types_8h_1a90e352184df58cd09455fe9996cd4ded" prot="public" static="no">
+        <name>Protection</name>
+        <enumvalue id="d9/d49/types_8h_1a90e352184df58cd09455fe9996cd4deda2d47e20e63deb55d32228fde32f6b513" prot="public">
+          <name>Public</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d9/d49/types_8h_1a90e352184df58cd09455fe9996cd4deda72414112a6a45ab0b4b73e8b83d0b0f5" prot="public">
+          <name>Protected</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d9/d49/types_8h_1a90e352184df58cd09455fe9996cd4dedaaa82165706f5dd0859648a09f1f64166" prot="public">
+          <name>Private</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d9/d49/types_8h_1a90e352184df58cd09455fe9996cd4dedabd5ca841a2d3757e8aeb3edb88d7d5e6" prot="public">
+          <name>Package</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+<para>Protection level of members. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/types.h" line="26" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/types.h" bodystart="26" bodyend="26"/>
+      </memberdef>
+      <memberdef kind="enum" id="d9/d49/types_8h_1ab16236bdd10ddf4d73a9847350f0017e" prot="public" static="no">
+        <name>Specifier</name>
+        <enumvalue id="d9/d49/types_8h_1ab16236bdd10ddf4d73a9847350f0017ea5ecbcf0afce98b042f35ec71ba03fa4b" prot="public">
+          <name>Normal</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d9/d49/types_8h_1ab16236bdd10ddf4d73a9847350f0017ea297d23a3dfc1e710a551d79c0679348f" prot="public">
+          <name>Virtual</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d9/d49/types_8h_1ab16236bdd10ddf4d73a9847350f0017ea8a81b080f1c9509ceec0bf860140db73" prot="public">
+          <name>Pure</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+<para>Virtualness of a member. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/types.h" line="29" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/types.h" bodystart="29" bodyend="29"/>
+      </memberdef>
+      <memberdef kind="enum" id="d9/d49/types_8h_1a0872178db42722c310fe6117189ed441" prot="public" static="no">
+        <name>MethodTypes</name>
+        <enumvalue id="d9/d49/types_8h_1a0872178db42722c310fe6117189ed441ab5cc7355b6259f0d316874571bb5cce5" prot="public">
+          <name>Method</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d9/d49/types_8h_1a0872178db42722c310fe6117189ed441ae7a08cca3b458a424eb814c860b3dfe3" prot="public">
+          <name>Signal</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d9/d49/types_8h_1a0872178db42722c310fe6117189ed441a56495ec78fa4954c5f05f94919cd4690" prot="public">
+          <name>Slot</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d9/d49/types_8h_1a0872178db42722c310fe6117189ed441ad7c745b9bad6c71f2363e86167829c2c" prot="public">
+          <name>DCOP</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d9/d49/types_8h_1a0872178db42722c310fe6117189ed441a6b59cf161fe69fad3478f2aa7b98bf7f" prot="public">
+          <name>Property</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d9/d49/types_8h_1a0872178db42722c310fe6117189ed441a179ea6039d06368199692ba093b79047" prot="public">
+          <name>Event</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+<para>Kind of method. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/types.h" line="32" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/types.h" bodystart="32" bodyend="32"/>
+      </memberdef>
+      <memberdef kind="enum" id="d9/d49/types_8h_1aa370e9ca1d3ff266cab92689bcc37d9e" prot="public" static="no">
+        <name>RelatesType</name>
+        <enumvalue id="d9/d49/types_8h_1aa370e9ca1d3ff266cab92689bcc37d9eaebfbf7dc5cde0772efb1aa49712bd76b" prot="public">
+          <name>Simple</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d9/d49/types_8h_1aa370e9ca1d3ff266cab92689bcc37d9ea119a45e404df9bb5b8aa3125081f7914" prot="public">
+          <name>Duplicate</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d9/d49/types_8h_1aa370e9ca1d3ff266cab92689bcc37d9ea391fbcb5b8eff04c3a82fc085f1c8f58" prot="public">
+          <name>MemberOf</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+<para>Type of member relation. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/types.h" line="35" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/types.h" bodystart="35" bodyend="35"/>
+      </memberdef>
+      <memberdef kind="enum" id="d9/d49/types_8h_1a9d625fe894d9313ec78df1d78553f32e" prot="public" static="no">
+        <name>Relationship</name>
+        <enumvalue id="d9/d49/types_8h_1a9d625fe894d9313ec78df1d78553f32ea131b9f46d320a38adefa3494dfdafcd8" prot="public">
+          <name>Member</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d9/d49/types_8h_1a9d625fe894d9313ec78df1d78553f32ea5bf154a6832af5d6e94c52690d7494f6" prot="public">
+          <name>Related</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d9/d49/types_8h_1a9d625fe894d9313ec78df1d78553f32ea36ecf2e1dcb8aaa07c5e74862a9fbed1" prot="public">
+          <name>Foreign</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+<para>Kind of member relationship. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/types.h" line="38" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/types.h" bodystart="38" bodyend="38"/>
+      </memberdef>
+      <memberdef kind="enum" id="d9/d49/types_8h_1a9974623ce72fc23df5d64426b9178bf2" prot="public" static="no">
+        <name>SrcLangExt</name>
+        <enumvalue id="d9/d49/types_8h_1a9974623ce72fc23df5d64426b9178bf2a17e01b5bb16dab5d94d806a8a0f3aab0" prot="public">
+          <name>SrcLangExt_Unknown</name>
+          <initializer>= 0x00000</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d9/d49/types_8h_1a9974623ce72fc23df5d64426b9178bf2a62508383c9b4934b7560c4381d164682" prot="public">
+          <name>SrcLangExt_IDL</name>
+          <initializer>= 0x00008</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d9/d49/types_8h_1a9974623ce72fc23df5d64426b9178bf2aa0fe6567418c3d5187b51d501a95f3f2" prot="public">
+          <name>SrcLangExt_Java</name>
+          <initializer>= 0x00010</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d9/d49/types_8h_1a9974623ce72fc23df5d64426b9178bf2a4740fbd3314b27a53b9ced791357872a" prot="public">
+          <name>SrcLangExt_CSharp</name>
+          <initializer>= 0x00020</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d9/d49/types_8h_1a9974623ce72fc23df5d64426b9178bf2a581d68e639c5497dc8ccc76cc5efd2da" prot="public">
+          <name>SrcLangExt_D</name>
+          <initializer>= 0x00040</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d9/d49/types_8h_1a9974623ce72fc23df5d64426b9178bf2a30345d9f8c7bfd3851050ddc2cb3b207" prot="public">
+          <name>SrcLangExt_PHP</name>
+          <initializer>= 0x00080</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d9/d49/types_8h_1a9974623ce72fc23df5d64426b9178bf2a1fa44a6b668b9f3e3cacfc269264d47f" prot="public">
+          <name>SrcLangExt_ObjC</name>
+          <initializer>= 0x00100</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d9/d49/types_8h_1a9974623ce72fc23df5d64426b9178bf2a3d28c4322de4264c1736eed2918e8202" prot="public">
+          <name>SrcLangExt_Cpp</name>
+          <initializer>= 0x00200</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d9/d49/types_8h_1a9974623ce72fc23df5d64426b9178bf2a58108bc0cfa891c1103ab322eae46de2" prot="public">
+          <name>SrcLangExt_JS</name>
+          <initializer>= 0x00400</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d9/d49/types_8h_1a9974623ce72fc23df5d64426b9178bf2a57c0fb9de98cdad12bc30c80cf96bd53" prot="public">
+          <name>SrcLangExt_Python</name>
+          <initializer>= 0x00800</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d9/d49/types_8h_1a9974623ce72fc23df5d64426b9178bf2abc7c7944bb4e705c9e1812b02c89c346" prot="public">
+          <name>SrcLangExt_Fortran</name>
+          <initializer>= 0x01000</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d9/d49/types_8h_1a9974623ce72fc23df5d64426b9178bf2a04de850503d4e73333e3c8eec7f97da7" prot="public">
+          <name>SrcLangExt_VHDL</name>
+          <initializer>= 0x02000</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d9/d49/types_8h_1a9974623ce72fc23df5d64426b9178bf2a9ddc3570ffa3828db3d6c3eda8475785" prot="public">
+          <name>SrcLangExt_XML</name>
+          <initializer>= 0x04000</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d9/d49/types_8h_1a9974623ce72fc23df5d64426b9178bf2abe670c821c3d760acf1a2113ae4d5270" prot="public">
+          <name>SrcLangExt_Tcl</name>
+          <initializer>= 0x08000</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d9/d49/types_8h_1a9974623ce72fc23df5d64426b9178bf2ae5521f6417755a3ff021e5601c9d688d" prot="public">
+          <name>SrcLangExt_Markdown</name>
+          <initializer>= 0x10000</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+<para>Language as given by extension. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/types.h" line="42" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/types.h" bodystart="41" bodyend="58"/>
+      </memberdef>
+      <memberdef kind="enum" id="d9/d49/types_8h_1abe8ad5992f8938a28f918f51b199aa19" prot="public" static="no">
+        <name>MemberListType</name>
+        <enumvalue id="d9/d49/types_8h_1abe8ad5992f8938a28f918f51b199aa19adb3258c3ff44c571562b60d48d706911" prot="public">
+          <name>MemberListType_privateLists</name>
+          <initializer>= 0x0800</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d9/d49/types_8h_1abe8ad5992f8938a28f918f51b199aa19a8f7cd8ff838619bf4261c06ef5c48410" prot="public">
+          <name>MemberListType_detailedLists</name>
+          <initializer>= 0x1000</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d9/d49/types_8h_1abe8ad5992f8938a28f918f51b199aa19ae4dff438c4bc09938eaa30a0e3295c18" prot="public">
+          <name>MemberListType_declarationLists</name>
+          <initializer>= 0x2000</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d9/d49/types_8h_1abe8ad5992f8938a28f918f51b199aa19ad677226919299bb0cf6cece6ce02b3d8" prot="public">
+          <name>MemberListType_documentationLists</name>
+          <initializer>= 0x4000</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d9/d49/types_8h_1abe8ad5992f8938a28f918f51b199aa19aef8f34581b3661954fb301bd03cab7ac" prot="public">
+          <name>MemberListType_pubMethods</name>
+          <initializer>= 0</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d9/d49/types_8h_1abe8ad5992f8938a28f918f51b199aa19a6c7055013f54257b5357a40bb71ab30b" prot="public">
+          <name>MemberListType_proMethods</name>
+          <initializer>= 1</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d9/d49/types_8h_1abe8ad5992f8938a28f918f51b199aa19afb459b398551de1661a6fc07d1ac343f" prot="public">
+          <name>MemberListType_pacMethods</name>
+          <initializer>= 2</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d9/d49/types_8h_1abe8ad5992f8938a28f918f51b199aa19a27588aae06391e4bb595afe192798c54" prot="public">
+          <name>MemberListType_priMethods</name>
+          <initializer>= 3 + MemberListType_privateLists</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d9/d49/types_8h_1abe8ad5992f8938a28f918f51b199aa19a0470faf798900e11a6cfaba539c0225e" prot="public">
+          <name>MemberListType_pubStaticMethods</name>
+          <initializer>= 4</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d9/d49/types_8h_1abe8ad5992f8938a28f918f51b199aa19a5f7e527c25e8bd6bc6f20ec76db08c77" prot="public">
+          <name>MemberListType_proStaticMethods</name>
+          <initializer>= 5</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d9/d49/types_8h_1abe8ad5992f8938a28f918f51b199aa19a7538ca1accbab01f0dc30e983d1c3897" prot="public">
+          <name>MemberListType_pacStaticMethods</name>
+          <initializer>= 6</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d9/d49/types_8h_1abe8ad5992f8938a28f918f51b199aa19a2dde4eba3aa0b88ed0bb3f762ec86c66" prot="public">
+          <name>MemberListType_priStaticMethods</name>
+          <initializer>= 7 + MemberListType_privateLists</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d9/d49/types_8h_1abe8ad5992f8938a28f918f51b199aa19ab1a5c4bd8c06d61218186c9ba980d466" prot="public">
+          <name>MemberListType_pubSlots</name>
+          <initializer>= 8</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d9/d49/types_8h_1abe8ad5992f8938a28f918f51b199aa19a73235042b966173fb5d36c7387142c77" prot="public">
+          <name>MemberListType_proSlots</name>
+          <initializer>= 9</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d9/d49/types_8h_1abe8ad5992f8938a28f918f51b199aa19a4067625a8b88cfbf209ba0088706766e" prot="public">
+          <name>MemberListType_priSlots</name>
+          <initializer>= 10 + MemberListType_privateLists</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d9/d49/types_8h_1abe8ad5992f8938a28f918f51b199aa19ad09005646858e4eb170a11587b54a179" prot="public">
+          <name>MemberListType_pubAttribs</name>
+          <initializer>= 11</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d9/d49/types_8h_1abe8ad5992f8938a28f918f51b199aa19a6bef63a519fca19cc433cab4dca6cfac" prot="public">
+          <name>MemberListType_proAttribs</name>
+          <initializer>= 12</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d9/d49/types_8h_1abe8ad5992f8938a28f918f51b199aa19aa39c5602df44ba1999b6d5ce6ef3591e" prot="public">
+          <name>MemberListType_pacAttribs</name>
+          <initializer>= 13</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d9/d49/types_8h_1abe8ad5992f8938a28f918f51b199aa19aa9dd84b0c9bd938b2fd021c8767bbf08" prot="public">
+          <name>MemberListType_priAttribs</name>
+          <initializer>= 14 + MemberListType_privateLists</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d9/d49/types_8h_1abe8ad5992f8938a28f918f51b199aa19a010054b255c48c0e8b3d65ec1afad9bd" prot="public">
+          <name>MemberListType_pubStaticAttribs</name>
+          <initializer>= 15</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d9/d49/types_8h_1abe8ad5992f8938a28f918f51b199aa19a274544818f7b4a647dc7b6d51a88241f" prot="public">
+          <name>MemberListType_proStaticAttribs</name>
+          <initializer>= 16</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d9/d49/types_8h_1abe8ad5992f8938a28f918f51b199aa19afbb7e9e5c3d0c48a29654bba34f3bf5a" prot="public">
+          <name>MemberListType_pacStaticAttribs</name>
+          <initializer>= 17</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d9/d49/types_8h_1abe8ad5992f8938a28f918f51b199aa19a993f41a89fc038a71274c5d02db1e457" prot="public">
+          <name>MemberListType_priStaticAttribs</name>
+          <initializer>= 18 + MemberListType_privateLists</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d9/d49/types_8h_1abe8ad5992f8938a28f918f51b199aa19a148db9c1db1f39f7df74ed36c9f66c91" prot="public">
+          <name>MemberListType_pubTypes</name>
+          <initializer>= 19</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d9/d49/types_8h_1abe8ad5992f8938a28f918f51b199aa19a17703ad9cbbe96912fb4270eac00f1c6" prot="public">
+          <name>MemberListType_proTypes</name>
+          <initializer>= 20</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d9/d49/types_8h_1abe8ad5992f8938a28f918f51b199aa19aac4220ab86ae93d185eeab65c60c57db" prot="public">
+          <name>MemberListType_pacTypes</name>
+          <initializer>= 21</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d9/d49/types_8h_1abe8ad5992f8938a28f918f51b199aa19a078b62c40b38b03618f5e9cd19319afb" prot="public">
+          <name>MemberListType_priTypes</name>
+          <initializer>= 22 + MemberListType_privateLists</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d9/d49/types_8h_1abe8ad5992f8938a28f918f51b199aa19aab0a67e37d0f94cf94bf70453955ced7" prot="public">
+          <name>MemberListType_related</name>
+          <initializer>= 23</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d9/d49/types_8h_1abe8ad5992f8938a28f918f51b199aa19a972f30bc3ec9c760065a781d90e2e909" prot="public">
+          <name>MemberListType_signals</name>
+          <initializer>= 24</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d9/d49/types_8h_1abe8ad5992f8938a28f918f51b199aa19a1483537e3b2db0fd694f83062c71ff9a" prot="public">
+          <name>MemberListType_friends</name>
+          <initializer>= 25</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d9/d49/types_8h_1abe8ad5992f8938a28f918f51b199aa19a222404582ae8cdf1b5b39c9d2363c755" prot="public">
+          <name>MemberListType_dcopMethods</name>
+          <initializer>= 26</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d9/d49/types_8h_1abe8ad5992f8938a28f918f51b199aa19aab98e74b5f86f8b438ddc1854be7929a" prot="public">
+          <name>MemberListType_properties</name>
+          <initializer>= 27</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d9/d49/types_8h_1abe8ad5992f8938a28f918f51b199aa19a692a60a8e143f77f40dd19607fc87347" prot="public">
+          <name>MemberListType_events</name>
+          <initializer>= 28</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d9/d49/types_8h_1abe8ad5992f8938a28f918f51b199aa19abd9dfd15e010feb9675983da5ad57775" prot="public">
+          <name>MemberListType_typedefMembers</name>
+          <initializer>= 29 + MemberListType_detailedLists</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d9/d49/types_8h_1abe8ad5992f8938a28f918f51b199aa19a8d918a991bf3ff42e927aecdb4909456" prot="public">
+          <name>MemberListType_enumMembers</name>
+          <initializer>= 30 + MemberListType_detailedLists</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d9/d49/types_8h_1abe8ad5992f8938a28f918f51b199aa19ac4b7ff18652fb6bdf97e7e02dcf4dcbd" prot="public">
+          <name>MemberListType_enumValMembers</name>
+          <initializer>= 31 + MemberListType_detailedLists</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d9/d49/types_8h_1abe8ad5992f8938a28f918f51b199aa19aafe22f3b736c5790d4c8f074d01a4a04" prot="public">
+          <name>MemberListType_functionMembers</name>
+          <initializer>= 32 + MemberListType_detailedLists</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d9/d49/types_8h_1abe8ad5992f8938a28f918f51b199aa19a4cad99b97412a42b44d2187ddd831357" prot="public">
+          <name>MemberListType_relatedMembers</name>
+          <initializer>= 33 + MemberListType_detailedLists</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d9/d49/types_8h_1abe8ad5992f8938a28f918f51b199aa19ac236492bbb72e2af1802dfdcbd6d3ad8" prot="public">
+          <name>MemberListType_variableMembers</name>
+          <initializer>= 34 + MemberListType_detailedLists</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d9/d49/types_8h_1abe8ad5992f8938a28f918f51b199aa19a832d025b342dd1fec72104e5454d4acb" prot="public">
+          <name>MemberListType_propertyMembers</name>
+          <initializer>= 35 + MemberListType_detailedLists</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d9/d49/types_8h_1abe8ad5992f8938a28f918f51b199aa19ab0eabcf2e16e5463323f827ef5e67eb0" prot="public">
+          <name>MemberListType_eventMembers</name>
+          <initializer>= 36 + MemberListType_detailedLists</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d9/d49/types_8h_1abe8ad5992f8938a28f918f51b199aa19a52c640c5d7ed3e75d1c186869a00ff32" prot="public">
+          <name>MemberListType_constructors</name>
+          <initializer>= 37 + MemberListType_detailedLists</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d9/d49/types_8h_1abe8ad5992f8938a28f918f51b199aa19ae5d8c38233229e4c743976f97728a19e" prot="public">
+          <name>MemberListType_allMembersList</name>
+          <initializer>= 38</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d9/d49/types_8h_1abe8ad5992f8938a28f918f51b199aa19a73d02094d1a59a7309cee06da77df796" prot="public">
+          <name>MemberListType_decDefineMembers</name>
+          <initializer>= 39 + MemberListType_declarationLists</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d9/d49/types_8h_1abe8ad5992f8938a28f918f51b199aa19ac6921c622df956e9bc89feeec55ee88b" prot="public">
+          <name>MemberListType_decProtoMembers</name>
+          <initializer>= 40 + MemberListType_declarationLists</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d9/d49/types_8h_1abe8ad5992f8938a28f918f51b199aa19a6bc27be0bd58302ad21130e7c2cc1615" prot="public">
+          <name>MemberListType_decTypedefMembers</name>
+          <initializer>= 41 + MemberListType_declarationLists</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d9/d49/types_8h_1abe8ad5992f8938a28f918f51b199aa19a07524e8bc859fa0a8b7b0b92f55bd321" prot="public">
+          <name>MemberListType_decEnumMembers</name>
+          <initializer>= 42 + MemberListType_declarationLists</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d9/d49/types_8h_1abe8ad5992f8938a28f918f51b199aa19aabe947fec3dde8fd70eaeaca14099ebf" prot="public">
+          <name>MemberListType_decFuncMembers</name>
+          <initializer>= 43 + MemberListType_declarationLists</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d9/d49/types_8h_1abe8ad5992f8938a28f918f51b199aa19a369ea62fe59e0e8903906eb844e19972" prot="public">
+          <name>MemberListType_decVarMembers</name>
+          <initializer>= 44 + MemberListType_declarationLists</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d9/d49/types_8h_1abe8ad5992f8938a28f918f51b199aa19a4c80e8e6043ecdc5cb7999b6aa4d560c" prot="public">
+          <name>MemberListType_decEnumValMembers</name>
+          <initializer>= 45 + MemberListType_declarationLists</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d9/d49/types_8h_1abe8ad5992f8938a28f918f51b199aa19ab386444ed118ef22667d8b0a48312464" prot="public">
+          <name>MemberListType_decPubSlotMembers</name>
+          <initializer>= 46 + MemberListType_declarationLists</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d9/d49/types_8h_1abe8ad5992f8938a28f918f51b199aa19ae6ae88eb69852488fff2e7be13536590" prot="public">
+          <name>MemberListType_decProSlotMembers</name>
+          <initializer>= 47 + MemberListType_declarationLists</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d9/d49/types_8h_1abe8ad5992f8938a28f918f51b199aa19ac545d4bf943a0756d88c32d6efe0a73c" prot="public">
+          <name>MemberListType_decPriSlotMembers</name>
+          <initializer>= 48 + MemberListType_declarationLists</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d9/d49/types_8h_1abe8ad5992f8938a28f918f51b199aa19ab8488bb2af3607182545b3018f723177" prot="public">
+          <name>MemberListType_decSignalMembers</name>
+          <initializer>= 49 + MemberListType_declarationLists</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d9/d49/types_8h_1abe8ad5992f8938a28f918f51b199aa19accf96c26f71bf06242172daa3f021816" prot="public">
+          <name>MemberListType_decEventMembers</name>
+          <initializer>= 50 + MemberListType_declarationLists</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d9/d49/types_8h_1abe8ad5992f8938a28f918f51b199aa19af2ef7833c7768f267786b14d53d60ea4" prot="public">
+          <name>MemberListType_decFriendMembers</name>
+          <initializer>= 51 + MemberListType_declarationLists</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d9/d49/types_8h_1abe8ad5992f8938a28f918f51b199aa19af12a243fa03cc7e4929eebb53b0bf38c" prot="public">
+          <name>MemberListType_decPropMembers</name>
+          <initializer>= 52 + MemberListType_declarationLists</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d9/d49/types_8h_1abe8ad5992f8938a28f918f51b199aa19a740d8f85be04db4b469bee11a0393498" prot="public">
+          <name>MemberListType_docDefineMembers</name>
+          <initializer>= 53 + MemberListType_documentationLists</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d9/d49/types_8h_1abe8ad5992f8938a28f918f51b199aa19ae262ac163b0604ce44585ebd32f7ad5a" prot="public">
+          <name>MemberListType_docProtoMembers</name>
+          <initializer>= 54 + MemberListType_documentationLists</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d9/d49/types_8h_1abe8ad5992f8938a28f918f51b199aa19a4c27b81a2c7615dbf16d24930454e490" prot="public">
+          <name>MemberListType_docTypedefMembers</name>
+          <initializer>= 55 + MemberListType_documentationLists</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d9/d49/types_8h_1abe8ad5992f8938a28f918f51b199aa19a3098080fcfd70da2f8907534ba99cdcb" prot="public">
+          <name>MemberListType_docEnumMembers</name>
+          <initializer>= 56 + MemberListType_documentationLists</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d9/d49/types_8h_1abe8ad5992f8938a28f918f51b199aa19aa4ad01d2cb7c30ef514a55cfae3230da" prot="public">
+          <name>MemberListType_docFuncMembers</name>
+          <initializer>= 57 + MemberListType_documentationLists</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d9/d49/types_8h_1abe8ad5992f8938a28f918f51b199aa19a1edd3d5fd415fa3b65549b7d06a92931" prot="public">
+          <name>MemberListType_docVarMembers</name>
+          <initializer>= 58 + MemberListType_documentationLists</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d9/d49/types_8h_1abe8ad5992f8938a28f918f51b199aa19a5c76f81975bf65e513e5e208be7b8ed0" prot="public">
+          <name>MemberListType_docEnumValMembers</name>
+          <initializer>= 59 + MemberListType_documentationLists</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d9/d49/types_8h_1abe8ad5992f8938a28f918f51b199aa19ac4c06fb80d1b9333938e1b4f73e833f7" prot="public">
+          <name>MemberListType_docPubSlotMembers</name>
+          <initializer>= 60 + MemberListType_documentationLists</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d9/d49/types_8h_1abe8ad5992f8938a28f918f51b199aa19a0705871c68af1179de5a9cb1456eae29" prot="public">
+          <name>MemberListType_docProSlotMembers</name>
+          <initializer>= 61 + MemberListType_documentationLists</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d9/d49/types_8h_1abe8ad5992f8938a28f918f51b199aa19a3b6a6d1d0f0c0f25462ece07cea1d4ac" prot="public">
+          <name>MemberListType_docPriSlotMembers</name>
+          <initializer>= 62 + MemberListType_documentationLists</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d9/d49/types_8h_1abe8ad5992f8938a28f918f51b199aa19af6e3f3d8bf66356b3e0aac79da84a3de" prot="public">
+          <name>MemberListType_docSignalMembers</name>
+          <initializer>= 63 + MemberListType_documentationLists</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d9/d49/types_8h_1abe8ad5992f8938a28f918f51b199aa19a8dccb936369ea53d34e17149b62500e8" prot="public">
+          <name>MemberListType_docEventMembers</name>
+          <initializer>= 64 + MemberListType_documentationLists</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d9/d49/types_8h_1abe8ad5992f8938a28f918f51b199aa19ab84a490edd1b267cc0777666b12f4fb6" prot="public">
+          <name>MemberListType_docFriendMembers</name>
+          <initializer>= 65 + MemberListType_documentationLists</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d9/d49/types_8h_1abe8ad5992f8938a28f918f51b199aa19ad1b56a8bf683dfdae31cd775ce3be8c0" prot="public">
+          <name>MemberListType_docPropMembers</name>
+          <initializer>= 66 + MemberListType_documentationLists</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d9/d49/types_8h_1abe8ad5992f8938a28f918f51b199aa19a1b9b145ce71dd7273122841ae5895803" prot="public">
+          <name>MemberListType_redefinedBy</name>
+          <initializer>= 67</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d9/d49/types_8h_1abe8ad5992f8938a28f918f51b199aa19a40e094385e64a422db1c24ee95f0a4d6" prot="public">
+          <name>MemberListType_enumFields</name>
+          <initializer>= 68</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d9/d49/types_8h_1abe8ad5992f8938a28f918f51b199aa19aa8aa722178c8b4762f858c99c17ae2dd" prot="public">
+          <name>MemberListType_memberGroup</name>
+          <initializer>= 69</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d9/d49/types_8h_1abe8ad5992f8938a28f918f51b199aa19a8565d33e1ba9009544e922bcebe7a7d8" prot="public">
+          <name>MemberListType_interfaces</name>
+          <initializer>= 70</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d9/d49/types_8h_1abe8ad5992f8938a28f918f51b199aa19a039488975e82317aa5b7c6a5f5cac5fb" prot="public">
+          <name>MemberListType_interfaceMembers</name>
+          <initializer>= 71 + MemberListType_detailedLists</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d9/d49/types_8h_1abe8ad5992f8938a28f918f51b199aa19ac607676d61367fc51015253b2f5ffeee" prot="public">
+          <name>MemberListType_services</name>
+          <initializer>= 72</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d9/d49/types_8h_1abe8ad5992f8938a28f918f51b199aa19a65b97ecdfc14087fc9017469c4247216" prot="public">
+          <name>MemberListType_serviceMembers</name>
+          <initializer>= 73 + MemberListType_detailedLists</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/types.h" line="105" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/types.h" bodystart="104" bodyend="193"/>
+      </memberdef>
+      <memberdef kind="enum" id="d9/d49/types_8h_1a63e3de542c5d38de617ab78c8c8f5a41" prot="public" static="no">
+        <name>MemberType</name>
+        <enumvalue id="d9/d49/types_8h_1a63e3de542c5d38de617ab78c8c8f5a41ac4ce66219192a6e36fcd4e380766e14a" prot="public">
+          <name>MemberType_Define</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d9/d49/types_8h_1a63e3de542c5d38de617ab78c8c8f5a41ab4e09b1d0da82308751350ea35d21eaa" prot="public">
+          <name>MemberType_Function</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d9/d49/types_8h_1a63e3de542c5d38de617ab78c8c8f5a41a8e26e040fbf55bd636794ea899dd48f0" prot="public">
+          <name>MemberType_Variable</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d9/d49/types_8h_1a63e3de542c5d38de617ab78c8c8f5a41aeba26988270a40d6a751d624d6f44544" prot="public">
+          <name>MemberType_Typedef</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d9/d49/types_8h_1a63e3de542c5d38de617ab78c8c8f5a41a57bf5866557a9b8913c19a2600e59031" prot="public">
+          <name>MemberType_Enumeration</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d9/d49/types_8h_1a63e3de542c5d38de617ab78c8c8f5a41ae8516439ea72cbee13a83edf7f012102" prot="public">
+          <name>MemberType_EnumValue</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d9/d49/types_8h_1a63e3de542c5d38de617ab78c8c8f5a41a8d34be5bc736156a701fdf2cb394f33e" prot="public">
+          <name>MemberType_Signal</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d9/d49/types_8h_1a63e3de542c5d38de617ab78c8c8f5a41a4f1c300abaac199f664e220a7fb93c58" prot="public">
+          <name>MemberType_Slot</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d9/d49/types_8h_1a63e3de542c5d38de617ab78c8c8f5a41a44e5c2fbef8e457e22fc0fcd93249f3b" prot="public">
+          <name>MemberType_Friend</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d9/d49/types_8h_1a63e3de542c5d38de617ab78c8c8f5a41ab4a781552e78ecc99786efc4b2f4a827" prot="public">
+          <name>MemberType_DCOP</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d9/d49/types_8h_1a63e3de542c5d38de617ab78c8c8f5a41ae2d8b3f7025ee9564e43ed4b90c05596" prot="public">
+          <name>MemberType_Property</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d9/d49/types_8h_1a63e3de542c5d38de617ab78c8c8f5a41aae882e459d99f610230675cdcb1a07f7" prot="public">
+          <name>MemberType_Event</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d9/d49/types_8h_1a63e3de542c5d38de617ab78c8c8f5a41a6cd0ecda3c82ab026846295e4983c0ab" prot="public">
+          <name>MemberType_Interface</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d9/d49/types_8h_1a63e3de542c5d38de617ab78c8c8f5a41a735f4c96de6c140482cac85394a386b7" prot="public">
+          <name>MemberType_Service</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/types.h" line="196" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/types.h" bodystart="195" bodyend="211"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>This file contains a number of basic enums and types. </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">/******************************************************************************</highlight></codeline>
+<codeline lineno="2"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="3"><highlight class="comment"><sp/>*<sp/>Copyright<sp/>(C)<sp/>1997-2013<sp/>by<sp/>Dimitri<sp/>van<sp/>Heesch.</highlight></codeline>
+<codeline lineno="4"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="5"><highlight class="comment"><sp/>*<sp/>Permission<sp/>to<sp/>use,<sp/>copy,<sp/>modify,<sp/>and<sp/>distribute<sp/>this<sp/>software<sp/>and<sp/>its</highlight></codeline>
+<codeline lineno="6"><highlight class="comment"><sp/>*<sp/>documentation<sp/>under<sp/>the<sp/>terms<sp/>of<sp/>the<sp/>GNU<sp/>General<sp/>Public<sp/>License<sp/>is<sp/>hereby<sp/></highlight></codeline>
+<codeline lineno="7"><highlight class="comment"><sp/>*<sp/>granted.<sp/>No<sp/>representations<sp/>are<sp/>made<sp/>about<sp/>the<sp/>suitability<sp/>of<sp/>this<sp/>software<sp/></highlight></codeline>
+<codeline lineno="8"><highlight class="comment"><sp/>*<sp/>for<sp/>any<sp/>purpose.<sp/>It<sp/>is<sp/>provided<sp/>&quot;as<sp/>is&quot;<sp/>without<sp/>express<sp/>or<sp/>implied<sp/>warranty.</highlight></codeline>
+<codeline lineno="9"><highlight class="comment"><sp/>*<sp/>See<sp/>the<sp/>GNU<sp/>General<sp/>Public<sp/>License<sp/>for<sp/>more<sp/>details.</highlight></codeline>
+<codeline lineno="10"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="11"><highlight class="comment"><sp/>*<sp/>Documents<sp/>produced<sp/>by<sp/>Doxygen<sp/>are<sp/>derivative<sp/>works<sp/>derived<sp/>from<sp/>the</highlight></codeline>
+<codeline lineno="12"><highlight class="comment"><sp/>*<sp/>input<sp/>used<sp/>in<sp/>their<sp/>production;<sp/>they<sp/>are<sp/>not<sp/>affected<sp/>by<sp/>this<sp/>license.</highlight></codeline>
+<codeline lineno="13"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="14"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>TYPES_H</highlight></codeline>
+<codeline lineno="17"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>TYPES_H</highlight></codeline>
+<codeline lineno="18"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;qcstring.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight></codeline>
+<codeline lineno="26" refid="d9/d49/types_8h_1a90e352184df58cd09455fe9996cd4ded" refkind="member"><highlight class="keyword">enum</highlight><highlight class="normal"><sp/><ref refid="d9/d49/types_8h_1a90e352184df58cd09455fe9996cd4ded" kindref="member" tooltip="Protection level of members.">Protection</ref><sp/><sp/><sp/>{<sp/>Public,<sp/>Protected,<sp/>Private,<sp/>Package<sp/>}<sp/>;</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight></codeline>
+<codeline lineno="29" refid="d9/d49/types_8h_1ab16236bdd10ddf4d73a9847350f0017e" refkind="member"><highlight class="keyword">enum</highlight><highlight class="normal"><sp/><ref refid="d9/d49/types_8h_1ab16236bdd10ddf4d73a9847350f0017e" kindref="member" tooltip="Virtualness of a member.">Specifier</ref><sp/><sp/><sp/><sp/>{<sp/>Normal,<sp/>Virtual,<sp/>Pure<sp/>}<sp/>;</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"></highlight></codeline>
+<codeline lineno="32" refid="d9/d49/types_8h_1a0872178db42722c310fe6117189ed441" refkind="member"><highlight class="keyword">enum</highlight><highlight class="normal"><sp/><ref refid="d9/d49/types_8h_1a0872178db42722c310fe6117189ed441" kindref="member" tooltip="Kind of method.">MethodTypes</ref><sp/><sp/>{<sp/>Method,<sp/>Signal,<sp/>Slot,<sp/>DCOP,<sp/>Property,<sp/>Event<sp/>};</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"></highlight></codeline>
+<codeline lineno="35" refid="d9/d49/types_8h_1aa370e9ca1d3ff266cab92689bcc37d9e" refkind="member"><highlight class="keyword">enum</highlight><highlight class="normal"><sp/><ref refid="d9/d49/types_8h_1aa370e9ca1d3ff266cab92689bcc37d9e" kindref="member" tooltip="Type of member relation.">RelatesType</ref><sp/><sp/>{<sp/>Simple,<sp/>Duplicate,<sp/>MemberOf<sp/>};</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"></highlight></codeline>
+<codeline lineno="38" refid="d9/d49/types_8h_1a9d625fe894d9313ec78df1d78553f32e" refkind="member"><highlight class="keyword">enum</highlight><highlight class="normal"><sp/><ref refid="d9/d49/types_8h_1a9d625fe894d9313ec78df1d78553f32e" kindref="member" tooltip="Kind of member relationship.">Relationship</ref><sp/>{<sp/>Member,<sp/>Related,<sp/>Foreign<sp/>};</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"></highlight></codeline>
+<codeline lineno="41" refid="d9/d49/types_8h_1a9974623ce72fc23df5d64426b9178bf2" refkind="member"><highlight class="keyword">enum</highlight><highlight class="normal"><sp/><ref refid="d9/d49/types_8h_1a9974623ce72fc23df5d64426b9178bf2" kindref="member" tooltip="Language as given by extension.">SrcLangExt</ref></highlight></codeline>
+<codeline lineno="42"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/>SrcLangExt_Unknown<sp/><sp/>=<sp/>0x00000,</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"><sp/><sp/>SrcLangExt_IDL<sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>0x00008,</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"><sp/><sp/>SrcLangExt_Java<sp/><sp/><sp/><sp/><sp/>=<sp/>0x00010,</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"><sp/><sp/>SrcLangExt_CSharp<sp/><sp/><sp/>=<sp/>0x00020,</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"><sp/><sp/>SrcLangExt_D<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>0x00040,</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"><sp/><sp/>SrcLangExt_PHP<sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>0x00080,</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"><sp/><sp/>SrcLangExt_ObjC<sp/><sp/><sp/><sp/><sp/>=<sp/>0x00100,</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"><sp/><sp/>SrcLangExt_Cpp<sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>0x00200,</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"><sp/><sp/>SrcLangExt_JS<sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>0x00400,</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"><sp/><sp/>SrcLangExt_Python<sp/><sp/><sp/>=<sp/>0x00800,</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"><sp/><sp/>SrcLangExt_Fortran<sp/><sp/>=<sp/>0x01000,</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"><sp/><sp/>SrcLangExt_VHDL<sp/><sp/><sp/><sp/><sp/>=<sp/>0x02000,</highlight></codeline>
+<codeline lineno="55"><highlight class="normal"><sp/><sp/>SrcLangExt_XML<sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>0x04000,</highlight></codeline>
+<codeline lineno="56"><highlight class="normal"><sp/><sp/>SrcLangExt_Tcl<sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>0x08000,</highlight></codeline>
+<codeline lineno="57"><highlight class="normal"><sp/><sp/>SrcLangExt_Markdown<sp/>=<sp/>0x10000</highlight></codeline>
+<codeline lineno="58"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="59"><highlight class="normal"></highlight></codeline>
+<codeline lineno="61" refid="d7/d59/struct_grouping" refkind="compound"><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="d7/d59/struct_grouping" kindref="compound" tooltip="Grouping info.">Grouping</ref><sp/></highlight></codeline>
+<codeline lineno="62"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="64" refid="d7/d59/struct_grouping_1a9f0ec5ab376b083ebe3274ea79fd2d70" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/><ref refid="d7/d59/struct_grouping_1a9f0ec5ab376b083ebe3274ea79fd2d70" kindref="member" tooltip="Grouping priority.">GroupPri_t</ref><sp/></highlight></codeline>
+<codeline lineno="65"><highlight class="normal"><sp/><sp/>{</highlight></codeline>
+<codeline lineno="66"><highlight class="normal"><sp/><sp/><sp/><sp/>GROUPING_LOWEST,</highlight></codeline>
+<codeline lineno="67" refid="d7/d59/struct_grouping_1a9f0ec5ab376b083ebe3274ea79fd2d70aa59227c8fa39faf56ebc4c06e08d4d84" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="d7/d59/struct_grouping_1a9f0ec5ab376b083ebe3274ea79fd2d70aa59227c8fa39faf56ebc4c06e08d4d84" kindref="member" tooltip="membership in group was defined via @weakgroup">GROUPING_AUTO_WEAK</ref><sp/>=<sp/>GROUPING_LOWEST,<sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="68" refid="d7/d59/struct_grouping_1a9f0ec5ab376b083ebe3274ea79fd2d70a44f89332beea02ebc5d56bcb71a081ba" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="d7/d59/struct_grouping_1a9f0ec5ab376b083ebe3274ea79fd2d70a44f89332beea02ebc5d56bcb71a081ba" kindref="member" tooltip="membership in group was defined via @add[to]group">GROUPING_AUTO_ADD</ref>,<sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="69" refid="d7/d59/struct_grouping_1a9f0ec5ab376b083ebe3274ea79fd2d70ab767fc9fe6f874c09362fd1350738f7f" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="d7/d59/struct_grouping_1a9f0ec5ab376b083ebe3274ea79fd2d70ab767fc9fe6f874c09362fd1350738f7f" kindref="member" tooltip="membership in group was defined via @defgroup">GROUPING_AUTO_DEF</ref>,<sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="70"><highlight class="normal"><sp/><sp/><sp/><sp/>GROUPING_AUTO_HIGHEST<sp/>=<sp/><ref refid="d7/d59/struct_grouping_1a9f0ec5ab376b083ebe3274ea79fd2d70ab767fc9fe6f874c09362fd1350738f7f" kindref="member" tooltip="membership in group was defined via @defgroup">GROUPING_AUTO_DEF</ref>,</highlight></codeline>
+<codeline lineno="71" refid="d7/d59/struct_grouping_1a9f0ec5ab376b083ebe3274ea79fd2d70a464b2001acf04bed5df29c11a66fb2fb" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="d7/d59/struct_grouping_1a9f0ec5ab376b083ebe3274ea79fd2d70a464b2001acf04bed5df29c11a66fb2fb" kindref="member" tooltip="membership in group was defined by @ingroup">GROUPING_INGROUP</ref>,<sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="72"><highlight class="normal"><sp/><sp/><sp/><sp/>GROUPING_HIGHEST<sp/>=<sp/><ref refid="d7/d59/struct_grouping_1a9f0ec5ab376b083ebe3274ea79fd2d70a464b2001acf04bed5df29c11a66fb2fb" kindref="member" tooltip="membership in group was defined by @ingroup">GROUPING_INGROUP</ref></highlight></codeline>
+<codeline lineno="73"><highlight class="normal"><sp/><sp/>};</highlight></codeline>
+<codeline lineno="74"><highlight class="normal"></highlight></codeline>
+<codeline lineno="75"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*getGroupPriName(<sp/><ref refid="d7/d59/struct_grouping_1a9f0ec5ab376b083ebe3274ea79fd2d70" kindref="member" tooltip="Grouping priority.">GroupPri_t</ref><sp/>priority<sp/>)</highlight></codeline>
+<codeline lineno="76"><highlight class="normal"><sp/><sp/>{</highlight></codeline>
+<codeline lineno="77"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">switch</highlight><highlight class="normal">(<sp/>priority<sp/>)</highlight></codeline>
+<codeline lineno="78"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="79"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/><ref refid="d7/d59/struct_grouping_1a9f0ec5ab376b083ebe3274ea79fd2d70aa59227c8fa39faf56ebc4c06e08d4d84" kindref="member" tooltip="membership in group was defined via @weakgroup">GROUPING_AUTO_WEAK</ref>:</highlight></codeline>
+<codeline lineno="80"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;@weakgroup&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="81"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/><ref refid="d7/d59/struct_grouping_1a9f0ec5ab376b083ebe3274ea79fd2d70a44f89332beea02ebc5d56bcb71a081ba" kindref="member" tooltip="membership in group was defined via @add[to]group">GROUPING_AUTO_ADD</ref>:</highlight></codeline>
+<codeline lineno="82"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;@addtogroup&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="83"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/><ref refid="d7/d59/struct_grouping_1a9f0ec5ab376b083ebe3274ea79fd2d70ab767fc9fe6f874c09362fd1350738f7f" kindref="member" tooltip="membership in group was defined via @defgroup">GROUPING_AUTO_DEF</ref>:</highlight></codeline>
+<codeline lineno="84"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;@defgroup&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="85"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/><ref refid="d7/d59/struct_grouping_1a9f0ec5ab376b083ebe3274ea79fd2d70a464b2001acf04bed5df29c11a66fb2fb" kindref="member" tooltip="membership in group was defined by @ingroup">GROUPING_INGROUP</ref>:</highlight></codeline>
+<codeline lineno="86"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;@ingroup&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="87"><highlight class="normal"><sp/><sp/><sp/><sp/>}<sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="88"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;???&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="89"><highlight class="normal"><sp/><sp/>}</highlight></codeline>
+<codeline lineno="90"><highlight class="normal"></highlight></codeline>
+<codeline lineno="91"><highlight class="normal"><sp/><sp/><ref refid="d7/d59/struct_grouping" kindref="compound" tooltip="Grouping info.">Grouping</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*gn,<sp/><ref refid="d7/d59/struct_grouping_1a9f0ec5ab376b083ebe3274ea79fd2d70" kindref="member" tooltip="Grouping priority.">GroupPri_t</ref><sp/>p<sp/>)<sp/>:<sp/><ref refid="d7/d59/struct_grouping_1a05e6a053a86cc2f588d065f3880801dc" kindref="member" tooltip="name of the group">groupname</ref>(gn),<sp/><ref refid="d7/d59/struct_grouping_1aead55d7198ceffe16cb82d2c114e4254" kindref="member" tooltip="priority of this definition">pri</ref>(p)<sp/>{}</highlight></codeline>
+<codeline lineno="92"><highlight class="normal"><sp/><sp/><ref refid="d7/d59/struct_grouping" kindref="compound" tooltip="Grouping info.">Grouping</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="d7/d59/struct_grouping" kindref="compound" tooltip="Grouping info.">Grouping</ref><sp/>&amp;g<sp/>)<sp/>:<sp/><ref refid="d7/d59/struct_grouping_1a05e6a053a86cc2f588d065f3880801dc" kindref="member" tooltip="name of the group">groupname</ref>(g.<ref refid="d7/d59/struct_grouping_1a05e6a053a86cc2f588d065f3880801dc" kindref="member" tooltip="name of the group">groupname</ref>),<sp/><ref refid="d7/d59/struct_grouping_1aead55d7198ceffe16cb82d2c114e4254" kindref="member" tooltip="priority of this definition">pri</ref>(g.<ref refid="d7/d59/struct_grouping_1aead55d7198ceffe16cb82d2c114e4254" kindref="member" tooltip="priority of this definition">pri</ref>)<sp/>{}</highlight></codeline>
+<codeline lineno="93" refid="d7/d59/struct_grouping_1a05e6a053a86cc2f588d065f3880801dc" refkind="member"><highlight class="normal"><sp/><sp/>QCString<sp/><ref refid="d7/d59/struct_grouping_1a05e6a053a86cc2f588d065f3880801dc" kindref="member" tooltip="name of the group">groupname</ref>;<sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="94" refid="d7/d59/struct_grouping_1aead55d7198ceffe16cb82d2c114e4254" refkind="member"><highlight class="normal"><sp/><sp/><ref refid="d7/d59/struct_grouping_1a9f0ec5ab376b083ebe3274ea79fd2d70" kindref="member" tooltip="Grouping priority.">GroupPri_t</ref><sp/><ref refid="d7/d59/struct_grouping_1aead55d7198ceffe16cb82d2c114e4254" kindref="member" tooltip="priority of this definition">pri</ref>;<sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="95"><highlight class="normal"></highlight></codeline>
+<codeline lineno="96"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="97"><highlight class="normal"></highlight></codeline>
+<codeline lineno="98" refid="d8/dd5/struct_list_item_info" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="d8/dd5/struct_list_item_info" kindref="compound">ListItemInfo</ref></highlight></codeline>
+<codeline lineno="99"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="100"><highlight class="normal"><sp/><sp/>QCString<sp/>type;</highlight></codeline>
+<codeline lineno="101"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>itemId;</highlight></codeline>
+<codeline lineno="102"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="103"><highlight class="normal"></highlight></codeline>
+<codeline lineno="104"><highlight class="normal"></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/>MemberListType</highlight></codeline>
+<codeline lineno="105"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="106"><highlight class="normal"><sp/><sp/>MemberListType_privateLists<sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>0x0800,</highlight></codeline>
+<codeline lineno="107"><highlight class="normal"><sp/><sp/>MemberListType_detailedLists<sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>0x1000,</highlight></codeline>
+<codeline lineno="108"><highlight class="normal"><sp/><sp/>MemberListType_declarationLists<sp/><sp/><sp/>=<sp/>0x2000,</highlight></codeline>
+<codeline lineno="109"><highlight class="normal"><sp/><sp/>MemberListType_documentationLists<sp/>=<sp/>0x4000,</highlight></codeline>
+<codeline lineno="110"><highlight class="normal"></highlight></codeline>
+<codeline lineno="111"><highlight class="normal"><sp/><sp/>MemberListType_pubMethods<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>0,</highlight></codeline>
+<codeline lineno="112"><highlight class="normal"><sp/><sp/>MemberListType_proMethods<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>1,</highlight></codeline>
+<codeline lineno="113"><highlight class="normal"><sp/><sp/>MemberListType_pacMethods<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>2,</highlight></codeline>
+<codeline lineno="114"><highlight class="normal"><sp/><sp/>MemberListType_priMethods<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>3<sp/>+<sp/>MemberListType_privateLists,</highlight></codeline>
+<codeline lineno="115"><highlight class="normal"><sp/><sp/>MemberListType_pubStaticMethods<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>4,</highlight></codeline>
+<codeline lineno="116"><highlight class="normal"><sp/><sp/>MemberListType_proStaticMethods<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>5,</highlight></codeline>
+<codeline lineno="117"><highlight class="normal"><sp/><sp/>MemberListType_pacStaticMethods<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>6,</highlight></codeline>
+<codeline lineno="118"><highlight class="normal"><sp/><sp/>MemberListType_priStaticMethods<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>7<sp/>+<sp/>MemberListType_privateLists,</highlight></codeline>
+<codeline lineno="119"><highlight class="normal"><sp/><sp/>MemberListType_pubSlots<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>8,</highlight></codeline>
+<codeline lineno="120"><highlight class="normal"><sp/><sp/>MemberListType_proSlots<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>9,</highlight></codeline>
+<codeline lineno="121"><highlight class="normal"><sp/><sp/>MemberListType_priSlots<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>10<sp/>+<sp/>MemberListType_privateLists,</highlight></codeline>
+<codeline lineno="122"><highlight class="normal"><sp/><sp/>MemberListType_pubAttribs<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>11,</highlight></codeline>
+<codeline lineno="123"><highlight class="normal"><sp/><sp/>MemberListType_proAttribs<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>12,</highlight></codeline>
+<codeline lineno="124"><highlight class="normal"><sp/><sp/>MemberListType_pacAttribs<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>13,</highlight></codeline>
+<codeline lineno="125"><highlight class="normal"><sp/><sp/>MemberListType_priAttribs<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>14<sp/>+<sp/>MemberListType_privateLists,</highlight></codeline>
+<codeline lineno="126"><highlight class="normal"><sp/><sp/>MemberListType_pubStaticAttribs<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>15,</highlight></codeline>
+<codeline lineno="127"><highlight class="normal"><sp/><sp/>MemberListType_proStaticAttribs<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>16,</highlight></codeline>
+<codeline lineno="128"><highlight class="normal"><sp/><sp/>MemberListType_pacStaticAttribs<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>17,</highlight></codeline>
+<codeline lineno="129"><highlight class="normal"><sp/><sp/>MemberListType_priStaticAttribs<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>18<sp/>+<sp/>MemberListType_privateLists,</highlight></codeline>
+<codeline lineno="130"><highlight class="normal"><sp/><sp/>MemberListType_pubTypes<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>19,</highlight></codeline>
+<codeline lineno="131"><highlight class="normal"><sp/><sp/>MemberListType_proTypes<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>20,</highlight></codeline>
+<codeline lineno="132"><highlight class="normal"><sp/><sp/>MemberListType_pacTypes<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>21,</highlight></codeline>
+<codeline lineno="133"><highlight class="normal"><sp/><sp/>MemberListType_priTypes<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>22<sp/>+<sp/>MemberListType_privateLists,</highlight></codeline>
+<codeline lineno="134"><highlight class="normal"><sp/><sp/>MemberListType_related<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>23,</highlight></codeline>
+<codeline lineno="135"><highlight class="normal"><sp/><sp/>MemberListType_signals<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>24,</highlight></codeline>
+<codeline lineno="136"><highlight class="normal"><sp/><sp/>MemberListType_friends<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>25,</highlight></codeline>
+<codeline lineno="137"><highlight class="normal"><sp/><sp/>MemberListType_dcopMethods<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>26,</highlight></codeline>
+<codeline lineno="138"><highlight class="normal"><sp/><sp/>MemberListType_properties<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>27,</highlight></codeline>
+<codeline lineno="139"><highlight class="normal"><sp/><sp/>MemberListType_events<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>28,</highlight></codeline>
+<codeline lineno="140"><highlight class="normal"></highlight></codeline>
+<codeline lineno="141"><highlight class="normal"><sp/><sp/>MemberListType_typedefMembers<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>29<sp/>+<sp/>MemberListType_detailedLists,</highlight></codeline>
+<codeline lineno="142"><highlight class="normal"><sp/><sp/>MemberListType_enumMembers<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>30<sp/>+<sp/>MemberListType_detailedLists,</highlight></codeline>
+<codeline lineno="143"><highlight class="normal"><sp/><sp/>MemberListType_enumValMembers<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>31<sp/>+<sp/>MemberListType_detailedLists,</highlight></codeline>
+<codeline lineno="144"><highlight class="normal"><sp/><sp/>MemberListType_functionMembers<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>32<sp/>+<sp/>MemberListType_detailedLists,</highlight></codeline>
+<codeline lineno="145"><highlight class="normal"><sp/><sp/>MemberListType_relatedMembers<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>33<sp/>+<sp/>MemberListType_detailedLists,</highlight></codeline>
+<codeline lineno="146"><highlight class="normal"><sp/><sp/>MemberListType_variableMembers<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>34<sp/>+<sp/>MemberListType_detailedLists,</highlight></codeline>
+<codeline lineno="147"><highlight class="normal"><sp/><sp/>MemberListType_propertyMembers<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>35<sp/>+<sp/>MemberListType_detailedLists,</highlight></codeline>
+<codeline lineno="148"><highlight class="normal"><sp/><sp/>MemberListType_eventMembers<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>36<sp/>+<sp/>MemberListType_detailedLists,</highlight></codeline>
+<codeline lineno="149"><highlight class="normal"><sp/><sp/>MemberListType_constructors<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>37<sp/>+<sp/>MemberListType_detailedLists,</highlight></codeline>
+<codeline lineno="150"><highlight class="normal"></highlight></codeline>
+<codeline lineno="151"><highlight class="normal"><sp/><sp/>MemberListType_allMembersList<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>38,</highlight></codeline>
+<codeline lineno="152"><highlight class="normal"></highlight></codeline>
+<codeline lineno="153"><highlight class="normal"><sp/><sp/>MemberListType_decDefineMembers<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>39<sp/>+<sp/>MemberListType_declarationLists,</highlight></codeline>
+<codeline lineno="154"><highlight class="normal"><sp/><sp/>MemberListType_decProtoMembers<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>40<sp/>+<sp/>MemberListType_declarationLists,<sp/></highlight></codeline>
+<codeline lineno="155"><highlight class="normal"><sp/><sp/>MemberListType_decTypedefMembers<sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>41<sp/>+<sp/>MemberListType_declarationLists,</highlight></codeline>
+<codeline lineno="156"><highlight class="normal"><sp/><sp/>MemberListType_decEnumMembers<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>42<sp/>+<sp/>MemberListType_declarationLists,</highlight></codeline>
+<codeline lineno="157"><highlight class="normal"><sp/><sp/>MemberListType_decFuncMembers<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>43<sp/>+<sp/>MemberListType_declarationLists,</highlight></codeline>
+<codeline lineno="158"><highlight class="normal"><sp/><sp/>MemberListType_decVarMembers<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>44<sp/>+<sp/>MemberListType_declarationLists,</highlight></codeline>
+<codeline lineno="159"><highlight class="normal"><sp/><sp/>MemberListType_decEnumValMembers<sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>45<sp/>+<sp/>MemberListType_declarationLists,</highlight></codeline>
+<codeline lineno="160"><highlight class="normal"><sp/><sp/>MemberListType_decPubSlotMembers<sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>46<sp/>+<sp/>MemberListType_declarationLists,</highlight></codeline>
+<codeline lineno="161"><highlight class="normal"><sp/><sp/>MemberListType_decProSlotMembers<sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>47<sp/>+<sp/>MemberListType_declarationLists,</highlight></codeline>
+<codeline lineno="162"><highlight class="normal"><sp/><sp/>MemberListType_decPriSlotMembers<sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>48<sp/>+<sp/>MemberListType_declarationLists,</highlight></codeline>
+<codeline lineno="163"><highlight class="normal"><sp/><sp/>MemberListType_decSignalMembers<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>49<sp/>+<sp/>MemberListType_declarationLists,</highlight></codeline>
+<codeline lineno="164"><highlight class="normal"><sp/><sp/>MemberListType_decEventMembers<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>50<sp/>+<sp/>MemberListType_declarationLists,</highlight></codeline>
+<codeline lineno="165"><highlight class="normal"><sp/><sp/>MemberListType_decFriendMembers<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>51<sp/>+<sp/>MemberListType_declarationLists,</highlight></codeline>
+<codeline lineno="166"><highlight class="normal"><sp/><sp/>MemberListType_decPropMembers<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>52<sp/>+<sp/>MemberListType_declarationLists,</highlight></codeline>
+<codeline lineno="167"><highlight class="normal"></highlight></codeline>
+<codeline lineno="168"><highlight class="normal"><sp/><sp/>MemberListType_docDefineMembers<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>53<sp/>+<sp/>MemberListType_documentationLists,</highlight></codeline>
+<codeline lineno="169"><highlight class="normal"><sp/><sp/>MemberListType_docProtoMembers<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>54<sp/>+<sp/>MemberListType_documentationLists,</highlight></codeline>
+<codeline lineno="170"><highlight class="normal"><sp/><sp/>MemberListType_docTypedefMembers<sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>55<sp/>+<sp/>MemberListType_documentationLists,</highlight></codeline>
+<codeline lineno="171"><highlight class="normal"><sp/><sp/>MemberListType_docEnumMembers<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>56<sp/>+<sp/>MemberListType_documentationLists,</highlight></codeline>
+<codeline lineno="172"><highlight class="normal"><sp/><sp/>MemberListType_docFuncMembers<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>57<sp/>+<sp/>MemberListType_documentationLists,</highlight></codeline>
+<codeline lineno="173"><highlight class="normal"><sp/><sp/>MemberListType_docVarMembers<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>58<sp/>+<sp/>MemberListType_documentationLists,</highlight></codeline>
+<codeline lineno="174"><highlight class="normal"><sp/><sp/>MemberListType_docEnumValMembers<sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>59<sp/>+<sp/>MemberListType_documentationLists,</highlight></codeline>
+<codeline lineno="175"><highlight class="normal"><sp/><sp/>MemberListType_docPubSlotMembers<sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>60<sp/>+<sp/>MemberListType_documentationLists,</highlight></codeline>
+<codeline lineno="176"><highlight class="normal"><sp/><sp/>MemberListType_docProSlotMembers<sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>61<sp/>+<sp/>MemberListType_documentationLists,</highlight></codeline>
+<codeline lineno="177"><highlight class="normal"><sp/><sp/>MemberListType_docPriSlotMembers<sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>62<sp/>+<sp/>MemberListType_documentationLists,</highlight></codeline>
+<codeline lineno="178"><highlight class="normal"><sp/><sp/>MemberListType_docSignalMembers<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>63<sp/>+<sp/>MemberListType_documentationLists,</highlight></codeline>
+<codeline lineno="179"><highlight class="normal"><sp/><sp/>MemberListType_docEventMembers<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>64<sp/>+<sp/>MemberListType_documentationLists,</highlight></codeline>
+<codeline lineno="180"><highlight class="normal"><sp/><sp/>MemberListType_docFriendMembers<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>65<sp/>+<sp/>MemberListType_documentationLists,</highlight></codeline>
+<codeline lineno="181"><highlight class="normal"><sp/><sp/>MemberListType_docPropMembers<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>66<sp/>+<sp/>MemberListType_documentationLists,</highlight></codeline>
+<codeline lineno="182"><highlight class="normal"></highlight></codeline>
+<codeline lineno="183"><highlight class="normal"><sp/><sp/>MemberListType_redefinedBy<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>67,</highlight></codeline>
+<codeline lineno="184"><highlight class="normal"><sp/><sp/>MemberListType_enumFields<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>68,</highlight></codeline>
+<codeline lineno="185"><highlight class="normal"><sp/><sp/>MemberListType_memberGroup<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>69,</highlight></codeline>
+<codeline lineno="186"><highlight class="normal"></highlight></codeline>
+<codeline lineno="187"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//<sp/>this<sp/>one<sp/>is<sp/>for<sp/>the<sp/>summary<sp/>section<sp/>on<sp/>the<sp/>class<sp/>page</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="188"><highlight class="normal"><sp/><sp/>MemberListType_interfaces<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>70,</highlight></codeline>
+<codeline lineno="189"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//<sp/>this<sp/>one<sp/>is<sp/>for<sp/>the<sp/>detailed<sp/>section<sp/>on<sp/>the<sp/>class<sp/>page</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="190"><highlight class="normal"><sp/><sp/>MemberListType_interfaceMembers<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>71<sp/>+<sp/>MemberListType_detailedLists,</highlight></codeline>
+<codeline lineno="191"><highlight class="normal"><sp/><sp/>MemberListType_services<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>72,</highlight></codeline>
+<codeline lineno="192"><highlight class="normal"><sp/><sp/>MemberListType_serviceMembers<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>73<sp/>+<sp/>MemberListType_detailedLists,</highlight></codeline>
+<codeline lineno="193"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="194"><highlight class="normal"></highlight></codeline>
+<codeline lineno="195"><highlight class="normal"></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/>MemberType<sp/></highlight></codeline>
+<codeline lineno="196"><highlight class="normal">{<sp/></highlight></codeline>
+<codeline lineno="197"><highlight class="normal"><sp/><sp/>MemberType_Define,</highlight></codeline>
+<codeline lineno="198"><highlight class="normal"><sp/><sp/>MemberType_Function,<sp/></highlight></codeline>
+<codeline lineno="199"><highlight class="normal"><sp/><sp/>MemberType_Variable,<sp/></highlight></codeline>
+<codeline lineno="200"><highlight class="normal"><sp/><sp/>MemberType_Typedef,<sp/></highlight></codeline>
+<codeline lineno="201"><highlight class="normal"><sp/><sp/>MemberType_Enumeration,<sp/></highlight></codeline>
+<codeline lineno="202"><highlight class="normal"><sp/><sp/>MemberType_EnumValue,</highlight></codeline>
+<codeline lineno="203"><highlight class="normal"><sp/><sp/>MemberType_Signal,</highlight></codeline>
+<codeline lineno="204"><highlight class="normal"><sp/><sp/>MemberType_Slot,</highlight></codeline>
+<codeline lineno="205"><highlight class="normal"><sp/><sp/>MemberType_Friend,</highlight></codeline>
+<codeline lineno="206"><highlight class="normal"><sp/><sp/>MemberType_DCOP,</highlight></codeline>
+<codeline lineno="207"><highlight class="normal"><sp/><sp/>MemberType_Property,</highlight></codeline>
+<codeline lineno="208"><highlight class="normal"><sp/><sp/>MemberType_Event,</highlight></codeline>
+<codeline lineno="209"><highlight class="normal"><sp/><sp/>MemberType_Interface,</highlight></codeline>
+<codeline lineno="210"><highlight class="normal"><sp/><sp/>MemberType_Service,</highlight></codeline>
+<codeline lineno="211"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="212"><highlight class="normal"></highlight></codeline>
+<codeline lineno="213"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+    </programlisting>
+    <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/types.h"/>
+  </compounddef>
+</doxygen>

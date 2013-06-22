@@ -1,0 +1,213 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.2">
+  <compounddef id="db/daa/class_dot_file_patcher" kind="class" prot="public">
+    <compoundname>DotFilePatcher</compoundname>
+    <includes refid="d6/d4a/dot_8h" local="no">dot.h</includes>
+    <innerclass refid="dd/d6e/struct_dot_file_patcher_1_1_map" prot="public">DotFilePatcher::Map</innerclass>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="db/daa/class_dot_file_patcher_1a46d8903f803fd2d67ee8234e3ec03d32" prot="private" static="no" mutable="no">
+        <type><ref refid="db/daa/class_q_list" kindref="compound">QList</ref>&lt; <ref refid="dd/d6e/struct_dot_file_patcher_1_1_map" kindref="compound">Map</ref> &gt;</type>
+        <definition>QList&lt;Map&gt; DotFilePatcher::m_maps</definition>
+        <argsstring></argsstring>
+        <name>m_maps</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/dot.h" line="388" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/dot.h" bodystart="388" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="db/daa/class_dot_file_patcher_1ae17984831f2efe1fab30c6ab5d9e36f0" prot="private" static="no" mutable="no">
+        <type>QCString</type>
+        <definition>QCString DotFilePatcher::m_patchFile</definition>
+        <argsstring></argsstring>
+        <name>m_patchFile</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/dot.h" line="389" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/dot.h" bodystart="389" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="db/daa/class_dot_file_patcher_1aaf02acecacecc1482f18bfaf154ec3aa" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>DotFilePatcher::DotFilePatcher</definition>
+        <argsstring>(const char *patchFile)</argsstring>
+        <name>DotFilePatcher</name>
+        <param>
+          <type>const char *</type>
+          <declname>patchFile</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/dot.h" line="375" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/dot.cpp" bodystart="877" bodyend="881"/>
+      </memberdef>
+      <memberdef kind="function" id="db/daa/class_dot_file_patcher_1aa53ad66e5d0c6a04f6d198aa030b63f3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int DotFilePatcher::addMap</definition>
+        <argsstring>(const QCString &amp;mapFile, const QCString &amp;relPath, bool urlOnly, const QCString &amp;context, const QCString &amp;label)</argsstring>
+        <name>addMap</name>
+        <param>
+          <type>const QCString &amp;</type>
+          <declname>mapFile</declname>
+        </param>
+        <param>
+          <type>const QCString &amp;</type>
+          <declname>relPath</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>urlOnly</declname>
+        </param>
+        <param>
+          <type>const QCString &amp;</type>
+          <declname>context</declname>
+        </param>
+        <param>
+          <type>const QCString &amp;</type>
+          <declname>label</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/dot.h" line="377" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/dot.cpp" bodystart="888" bodyend="902"/>
+      </memberdef>
+      <memberdef kind="function" id="db/daa/class_dot_file_patcher_1af67aa4441f3e872f6d3c69667572c052" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int DotFilePatcher::addFigure</definition>
+        <argsstring>(const QCString &amp;baseName, const QCString &amp;figureName, bool heightCheck)</argsstring>
+        <name>addFigure</name>
+        <param>
+          <type>const QCString &amp;</type>
+          <declname>baseName</declname>
+        </param>
+        <param>
+          <type>const QCString &amp;</type>
+          <declname>figureName</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>heightCheck</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/dot.h" line="379" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/dot.cpp" bodystart="904" bodyend="916"/>
+      </memberdef>
+      <memberdef kind="function" id="db/daa/class_dot_file_patcher_1aac97171a3985fd07e09fef2a25819a16" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int DotFilePatcher::addSVGConversion</definition>
+        <argsstring>(const QCString &amp;relPath, bool urlOnly, const QCString &amp;context, bool zoomable, int graphId)</argsstring>
+        <name>addSVGConversion</name>
+        <param>
+          <type>const QCString &amp;</type>
+          <declname>relPath</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>urlOnly</declname>
+        </param>
+        <param>
+          <type>const QCString &amp;</type>
+          <declname>context</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>zoomable</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>graphId</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/dot.h" line="381" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/dot.cpp" bodystart="918" bodyend="931"/>
+      </memberdef>
+      <memberdef kind="function" id="db/daa/class_dot_file_patcher_1a8a0183f93570ac3b1a8df3e0f7229a2b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int DotFilePatcher::addSVGObject</definition>
+        <argsstring>(const QCString &amp;baseName, const QCString &amp;figureName, const QCString &amp;relPath)</argsstring>
+        <name>addSVGObject</name>
+        <param>
+          <type>const QCString &amp;</type>
+          <declname>baseName</declname>
+        </param>
+        <param>
+          <type>const QCString &amp;</type>
+          <declname>figureName</declname>
+        </param>
+        <param>
+          <type>const QCString &amp;</type>
+          <declname>relPath</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/dot.h" line="383" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/dot.cpp" bodystart="933" bodyend="946"/>
+      </memberdef>
+      <memberdef kind="function" id="db/daa/class_dot_file_patcher_1a659e502ffc3ddcf46e1f53820ee5926e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool DotFilePatcher::run</definition>
+        <argsstring>()</argsstring>
+        <name>run</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/dot.h" line="384" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/dot.cpp" bodystart="948" bodyend="1151"/>
+      </memberdef>
+      <memberdef kind="function" id="db/daa/class_dot_file_patcher_1a4a23a9a5cdb7f82892685f1d062de564" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>QCString</type>
+        <definition>QCString DotFilePatcher::file</definition>
+        <argsstring>() const </argsstring>
+        <name>file</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/dot.h" line="385" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/dot.cpp" bodystart="883" bodyend="886"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Helper class to insert a set of map file into an output file. </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/dot.h" line="363" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/dot.h" bodystart="362" bodyend="390"/>
+    <listofallmembers>
+      <member refid="db/daa/class_dot_file_patcher_1af67aa4441f3e872f6d3c69667572c052" prot="public" virt="non-virtual"><scope>DotFilePatcher</scope><name>addFigure</name></member>
+      <member refid="db/daa/class_dot_file_patcher_1aa53ad66e5d0c6a04f6d198aa030b63f3" prot="public" virt="non-virtual"><scope>DotFilePatcher</scope><name>addMap</name></member>
+      <member refid="db/daa/class_dot_file_patcher_1aac97171a3985fd07e09fef2a25819a16" prot="public" virt="non-virtual"><scope>DotFilePatcher</scope><name>addSVGConversion</name></member>
+      <member refid="db/daa/class_dot_file_patcher_1a8a0183f93570ac3b1a8df3e0f7229a2b" prot="public" virt="non-virtual"><scope>DotFilePatcher</scope><name>addSVGObject</name></member>
+      <member refid="db/daa/class_dot_file_patcher_1aaf02acecacecc1482f18bfaf154ec3aa" prot="public" virt="non-virtual"><scope>DotFilePatcher</scope><name>DotFilePatcher</name></member>
+      <member refid="db/daa/class_dot_file_patcher_1a4a23a9a5cdb7f82892685f1d062de564" prot="public" virt="non-virtual"><scope>DotFilePatcher</scope><name>file</name></member>
+      <member refid="db/daa/class_dot_file_patcher_1a46d8903f803fd2d67ee8234e3ec03d32" prot="private" virt="non-virtual"><scope>DotFilePatcher</scope><name>m_maps</name></member>
+      <member refid="db/daa/class_dot_file_patcher_1ae17984831f2efe1fab30c6ab5d9e36f0" prot="private" virt="non-virtual"><scope>DotFilePatcher</scope><name>m_patchFile</name></member>
+      <member refid="db/daa/class_dot_file_patcher_1a659e502ffc3ddcf46e1f53820ee5926e" prot="public" virt="non-virtual"><scope>DotFilePatcher</scope><name>run</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

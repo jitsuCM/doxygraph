@@ -1,0 +1,305 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.2">
+  <compounddef id="d5/d7c/class_dot_manager" kind="class" prot="public">
+    <compoundname>DotManager</compoundname>
+    <includes refid="d6/d4a/dot_8h" local="no">dot.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="d5/d7c/class_dot_manager_1af6f877bd446b412a1fcb9c12be34c598" prot="private" static="no" mutable="no">
+        <type><ref refid="db/daa/class_q_list" kindref="compound">QList</ref>&lt; <ref refid="d1/de9/class_dot_runner" kindref="compound">DotRunner</ref> &gt;</type>
+        <definition>QList&lt;DotRunner&gt; DotManager::m_dotRuns</definition>
+        <argsstring></argsstring>
+        <name>m_dotRuns</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/dot.h" line="438" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/dot.h" bodystart="438" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d5/d7c/class_dot_manager_1a0b8e26f6dcd5946fc018fae6ddcf3a7c" prot="private" static="no" mutable="no">
+        <type><ref refid="d1/d50/class_s_dict" kindref="compound">SDict</ref>&lt; <ref refid="db/daa/class_dot_file_patcher" kindref="compound">DotFilePatcher</ref> &gt;</type>
+        <definition>SDict&lt;DotFilePatcher&gt; DotManager::m_dotMaps</definition>
+        <argsstring></argsstring>
+        <name>m_dotMaps</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/dot.h" line="439" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/dot.h" bodystart="439" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d5/d7c/class_dot_manager_1a64cd1342a6f50012b756f61834e01883" prot="private" static="no" mutable="no">
+        <type><ref refid="d6/dbb/class_dot_runner_queue" kindref="compound">DotRunnerQueue</ref> *</type>
+        <definition>DotRunnerQueue* DotManager::m_queue</definition>
+        <argsstring></argsstring>
+        <name>m_queue</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/dot.h" line="441" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/dot.h" bodystart="441" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d5/d7c/class_dot_manager_1abbaf8a47d2ca26f10e25e9dfa18bbac5" prot="private" static="no" mutable="no">
+        <type><ref refid="db/daa/class_q_list" kindref="compound">QList</ref>&lt; <ref refid="d5/d99/class_dot_worker_thread" kindref="compound">DotWorkerThread</ref> &gt;</type>
+        <definition>QList&lt;DotWorkerThread&gt; DotManager::m_workers</definition>
+        <argsstring></argsstring>
+        <name>m_workers</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/dot.h" line="442" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/dot.h" bodystart="442" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="d5/d7c/class_dot_manager_1a4b3f45966b762230df12771226bba138" prot="private" static="yes" mutable="no">
+        <type><ref refid="d5/d7c/class_dot_manager" kindref="compound">DotManager</ref> *</type>
+        <definition>DotManager * DotManager::m_theInstance</definition>
+        <argsstring></argsstring>
+        <name>m_theInstance</name>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/dot.h" line="440" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/dot.h" bodystart="440" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="d5/d7c/class_dot_manager_1af6eb5ac505738992f7440e4a5948997f" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="d5/d7c/class_dot_manager" kindref="compound">DotManager</ref> *</type>
+        <definition>DotManager * DotManager::instance</definition>
+        <argsstring>()</argsstring>
+        <name>instance</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/dot.h" line="422" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/dot.cpp" bodystart="1216" bodyend="1223"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="d5/d7c/class_dot_manager_1a738dc3b3bdbcc60b802db0ccd43c6f84" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void DotManager::addRun</definition>
+        <argsstring>(DotRunner *run)</argsstring>
+        <name>addRun</name>
+        <param>
+          <type><ref refid="d1/de9/class_dot_runner" kindref="compound">DotRunner</ref> *</type>
+          <declname>run</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/dot.h" line="423" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/dot.cpp" bodystart="1257" bodyend="1260"/>
+      </memberdef>
+      <memberdef kind="function" id="d5/d7c/class_dot_manager_1a00e00b1956a2b2b6477d9af428c300c2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int DotManager::addMap</definition>
+        <argsstring>(const QCString &amp;file, const QCString &amp;mapFile, const QCString &amp;relPath, bool urlOnly, const QCString &amp;context, const QCString &amp;label)</argsstring>
+        <name>addMap</name>
+        <param>
+          <type>const QCString &amp;</type>
+          <declname>file</declname>
+        </param>
+        <param>
+          <type>const QCString &amp;</type>
+          <declname>mapFile</declname>
+        </param>
+        <param>
+          <type>const QCString &amp;</type>
+          <declname>relPath</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>urlOnly</declname>
+        </param>
+        <param>
+          <type>const QCString &amp;</type>
+          <declname>context</declname>
+        </param>
+        <param>
+          <type>const QCString &amp;</type>
+          <declname>label</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/dot.h" line="426" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/dot.cpp" bodystart="1262" bodyend="1273"/>
+      </memberdef>
+      <memberdef kind="function" id="d5/d7c/class_dot_manager_1af84ce8e355f7971a4a8869993d7d0181" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int DotManager::addFigure</definition>
+        <argsstring>(const QCString &amp;file, const QCString &amp;baseName, const QCString &amp;figureName, bool heightCheck)</argsstring>
+        <name>addFigure</name>
+        <param>
+          <type>const QCString &amp;</type>
+          <declname>file</declname>
+        </param>
+        <param>
+          <type>const QCString &amp;</type>
+          <declname>baseName</declname>
+        </param>
+        <param>
+          <type>const QCString &amp;</type>
+          <declname>figureName</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>heightCheck</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/dot.h" line="428" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/dot.cpp" bodystart="1275" bodyend="1285"/>
+      </memberdef>
+      <memberdef kind="function" id="d5/d7c/class_dot_manager_1adf754e666617a77c8aed10ccc90a3860" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int DotManager::addSVGConversion</definition>
+        <argsstring>(const QCString &amp;file, const QCString &amp;relPath, bool urlOnly, const QCString &amp;context, bool zoomable, int graphId)</argsstring>
+        <name>addSVGConversion</name>
+        <param>
+          <type>const QCString &amp;</type>
+          <declname>file</declname>
+        </param>
+        <param>
+          <type>const QCString &amp;</type>
+          <declname>relPath</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>urlOnly</declname>
+        </param>
+        <param>
+          <type>const QCString &amp;</type>
+          <declname>context</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>zoomable</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>graphId</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/dot.h" line="430" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/dot.cpp" bodystart="1287" bodyend="1298"/>
+      </memberdef>
+      <memberdef kind="function" id="d5/d7c/class_dot_manager_1a68003377d30caae4e674bd3b4b8f2899" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int DotManager::addSVGObject</definition>
+        <argsstring>(const QCString &amp;file, const QCString &amp;baseName, const QCString &amp;figureNAme, const QCString &amp;relPath)</argsstring>
+        <name>addSVGObject</name>
+        <param>
+          <type>const QCString &amp;</type>
+          <declname>file</declname>
+        </param>
+        <param>
+          <type>const QCString &amp;</type>
+          <declname>baseName</declname>
+        </param>
+        <param>
+          <type>const QCString &amp;</type>
+          <declname>figureNAme</declname>
+        </param>
+        <param>
+          <type>const QCString &amp;</type>
+          <declname>relPath</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/dot.h" line="432" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/dot.cpp" bodystart="1300" bodyend="1310"/>
+      </memberdef>
+      <memberdef kind="function" id="d5/d7c/class_dot_manager_1a3b34d4c3e0ab9e9debe6c7fa45a129bb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool DotManager::run</definition>
+        <argsstring>()</argsstring>
+        <name>run</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/dot.h" line="433" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/dot.cpp" bodystart="1312" bodyend="1430"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="d5/d7c/class_dot_manager_1a1797796e74535bef24884ca3fdb6b1ea" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>DotManager::DotManager</definition>
+        <argsstring>()</argsstring>
+        <name>DotManager</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/dot.h" line="436" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/dot.cpp" bodystart="1225" bodyend="1250"/>
+      </memberdef>
+      <memberdef kind="function" id="d5/d7c/class_dot_manager_1aa708c8fe7888cf0aaf4836061cec9a2d" prot="private" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type></type>
+        <definition>DotManager::~DotManager</definition>
+        <argsstring>()</argsstring>
+        <name>~DotManager</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/dot.h" line="437" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/dot.cpp" bodystart="1252" bodyend="1255"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Singleton that manages dot relation actions. </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/dot.h" line="420" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/dot.h" bodystart="419" bodyend="443"/>
+    <listofallmembers>
+      <member refid="d5/d7c/class_dot_manager_1af84ce8e355f7971a4a8869993d7d0181" prot="public" virt="non-virtual"><scope>DotManager</scope><name>addFigure</name></member>
+      <member refid="d5/d7c/class_dot_manager_1a00e00b1956a2b2b6477d9af428c300c2" prot="public" virt="non-virtual"><scope>DotManager</scope><name>addMap</name></member>
+      <member refid="d5/d7c/class_dot_manager_1a738dc3b3bdbcc60b802db0ccd43c6f84" prot="public" virt="non-virtual"><scope>DotManager</scope><name>addRun</name></member>
+      <member refid="d5/d7c/class_dot_manager_1adf754e666617a77c8aed10ccc90a3860" prot="public" virt="non-virtual"><scope>DotManager</scope><name>addSVGConversion</name></member>
+      <member refid="d5/d7c/class_dot_manager_1a68003377d30caae4e674bd3b4b8f2899" prot="public" virt="non-virtual"><scope>DotManager</scope><name>addSVGObject</name></member>
+      <member refid="d5/d7c/class_dot_manager_1a1797796e74535bef24884ca3fdb6b1ea" prot="private" virt="non-virtual"><scope>DotManager</scope><name>DotManager</name></member>
+      <member refid="d5/d7c/class_dot_manager_1af6eb5ac505738992f7440e4a5948997f" prot="public" virt="non-virtual"><scope>DotManager</scope><name>instance</name></member>
+      <member refid="d5/d7c/class_dot_manager_1a0b8e26f6dcd5946fc018fae6ddcf3a7c" prot="private" virt="non-virtual"><scope>DotManager</scope><name>m_dotMaps</name></member>
+      <member refid="d5/d7c/class_dot_manager_1af6f877bd446b412a1fcb9c12be34c598" prot="private" virt="non-virtual"><scope>DotManager</scope><name>m_dotRuns</name></member>
+      <member refid="d5/d7c/class_dot_manager_1a64cd1342a6f50012b756f61834e01883" prot="private" virt="non-virtual"><scope>DotManager</scope><name>m_queue</name></member>
+      <member refid="d5/d7c/class_dot_manager_1a4b3f45966b762230df12771226bba138" prot="private" virt="non-virtual"><scope>DotManager</scope><name>m_theInstance</name></member>
+      <member refid="d5/d7c/class_dot_manager_1abbaf8a47d2ca26f10e25e9dfa18bbac5" prot="private" virt="non-virtual"><scope>DotManager</scope><name>m_workers</name></member>
+      <member refid="d5/d7c/class_dot_manager_1a3b34d4c3e0ab9e9debe6c7fa45a129bb" prot="public" virt="non-virtual"><scope>DotManager</scope><name>run</name></member>
+      <member refid="d5/d7c/class_dot_manager_1aa708c8fe7888cf0aaf4836061cec9a2d" prot="private" virt="virtual"><scope>DotManager</scope><name>~DotManager</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

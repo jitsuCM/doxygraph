@@ -1,0 +1,363 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.2">
+  <compounddef id="df/df1/cmdmapper_8cpp" kind="file">
+    <compoundname>cmdmapper.cpp</compoundname>
+    <includes refid="d3/d42/cmdmapper_8h" local="yes">cmdmapper.h</includes>
+    <incdepgraph>
+      <node id="605">
+        <label>src/cmdmapper.cpp</label>
+        <link refid="cmdmapper.cpp"/>
+        <childnode refid="606" relation="include">
+        </childnode>
+      </node>
+      <node id="607">
+        <label>qdict.h</label>
+      </node>
+      <node id="606">
+        <label>cmdmapper.h</label>
+        <link refid="d3/d42/cmdmapper_8h_source"/>
+        <childnode refid="607" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <innerclass refid="dd/d16/struct_command_map" prot="public">CommandMap</innerclass>
+      <sectiondef kind="var">
+      <memberdef kind="variable" id="df/df1/cmdmapper_8cpp_1a7b8d3a6efe70667ff57a1000f0f9acc9" prot="public" static="no" mutable="no">
+        <type>CommandMap</type>
+        <definition>CommandMap cmdMap[]</definition>
+        <argsstring>[]</argsstring>
+        <name>cmdMap</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/cmdmapper.cpp" line="135" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/cmdmapper.cpp" bodystart="28" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="df/df1/cmdmapper_8cpp_1a6ddce7306213db42fd60077a7f7142ad" prot="public" static="no" mutable="no">
+        <type>CommandMap</type>
+        <definition>CommandMap htmlTagMap[]</definition>
+        <argsstring>[]</argsstring>
+        <name>htmlTagMap</name>
+        <initializer>=
+{
+  { &quot;strong&quot;,     HTML_BOLD },
+  { &quot;center&quot;,     HTML_CENTER },
+  { &quot;table&quot;,      HTML_TABLE },
+  { &quot;caption&quot;,    HTML_CAPTION },
+  { &quot;small&quot;,      HTML_SMALL },
+  { &quot;code&quot;,       HTML_CODE },
+  { &quot;dfn&quot;,        HTML_CODE },
+  { &quot;var&quot;,        HTML_EMPHASIS },
+  { &quot;img&quot;,        HTML_IMG },
+  { &quot;pre&quot;,        HTML_PRE },
+  { &quot;sub&quot;,        HTML_SUB },
+  { &quot;sup&quot;,        HTML_SUP },
+  { &quot;tr&quot;,         HTML_TR },
+  { &quot;td&quot;,         HTML_TD },
+  { &quot;th&quot;,         HTML_TH },
+  { &quot;ol&quot;,         HTML_OL },
+  { &quot;ul&quot;,         HTML_UL },
+  { &quot;li&quot;,         HTML_LI },
+  { &quot;tt&quot;,         XML_C  },
+  { &quot;kbd&quot;,        XML_C  },
+  { &quot;em&quot;,         HTML_EMPHASIS },
+  { &quot;hr&quot;,         HTML_HR },
+  { &quot;dl&quot;,         HTML_DL },
+  { &quot;dt&quot;,         HTML_DT },
+  { &quot;dd&quot;,         HTML_DD },
+  { &quot;br&quot;,         HTML_BR },
+  { &quot;i&quot;,          HTML_EMPHASIS },
+  { &quot;a&quot;,          HTML_A },
+  { &quot;b&quot;,          HTML_BOLD },
+  { &quot;p&quot;,          HTML_P },
+  { &quot;h1&quot;,         HTML_H1 },
+  { &quot;h2&quot;,         HTML_H2 },
+  { &quot;h3&quot;,         HTML_H3 },
+  { &quot;h4&quot;,         HTML_H4 },
+  { &quot;h5&quot;,         HTML_H5 },
+  { &quot;h6&quot;,         HTML_H6 },
+  { &quot;span&quot;,       HTML_SPAN },
+  { &quot;div&quot;,        HTML_DIV },
+  { &quot;blockquote&quot;, HTML_BLOCKQUOTE },
+
+  { &quot;c&quot;,            XML_C },
+  
+  { &quot;description&quot;,  XML_DESCRIPTION },
+  { &quot;example&quot;,      XML_EXAMPLE },
+  { &quot;exception&quot;,    XML_EXCEPTION },
+  { &quot;include&quot;,      XML_INCLUDE },
+  { &quot;item&quot;,         XML_ITEM },
+  { &quot;list&quot;,         XML_LIST }, 
+  { &quot;listheader&quot;,   XML_LISTHEADER },
+  { &quot;para&quot;,         XML_PARA },
+  { &quot;param&quot;,        XML_PARAM },
+  { &quot;paramref&quot;,     XML_PARAMREF },
+  { &quot;typeparam&quot;,    XML_TYPEPARAM },
+  { &quot;typeparamref&quot;, XML_TYPEPARAMREF },
+  { &quot;permission&quot;,   XML_PERMISSION },
+  { &quot;remarks&quot;,      XML_REMARKS },
+  { &quot;returns&quot;,      XML_RETURNS },
+  { &quot;see&quot;,          XML_SEE },
+  { &quot;seealso&quot;,      XML_SEEALSO },
+  { &quot;summary&quot;,      XML_SUMMARY },
+  { &quot;term&quot;,         XML_TERM },
+  { &quot;value&quot;,        XML_VALUE },
+  { &quot;inheritdoc&quot;,   XML_INHERITDOC },
+  { 0,              0 }
+}</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/cmdmapper.cpp" line="205" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/cmdmapper.cpp" bodystart="139" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">/******************************************************************************</highlight></codeline>
+<codeline lineno="2"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="3"><highlight class="comment"><sp/>*<sp/></highlight></codeline>
+<codeline lineno="4"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="5"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="6"><highlight class="comment"><sp/>*<sp/>Copyright<sp/>(C)<sp/>1997-2013<sp/>by<sp/>Dimitri<sp/>van<sp/>Heesch.</highlight></codeline>
+<codeline lineno="7"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="8"><highlight class="comment"><sp/>*<sp/>Permission<sp/>to<sp/>use,<sp/>copy,<sp/>modify,<sp/>and<sp/>distribute<sp/>this<sp/>software<sp/>and<sp/>its</highlight></codeline>
+<codeline lineno="9"><highlight class="comment"><sp/>*<sp/>documentation<sp/>under<sp/>the<sp/>terms<sp/>of<sp/>the<sp/>GNU<sp/>General<sp/>Public<sp/>License<sp/>is<sp/>hereby<sp/></highlight></codeline>
+<codeline lineno="10"><highlight class="comment"><sp/>*<sp/>granted.<sp/>No<sp/>representations<sp/>are<sp/>made<sp/>about<sp/>the<sp/>suitability<sp/>of<sp/>this<sp/>software<sp/></highlight></codeline>
+<codeline lineno="11"><highlight class="comment"><sp/>*<sp/>for<sp/>any<sp/>purpose.<sp/>It<sp/>is<sp/>provided<sp/>&quot;as<sp/>is&quot;<sp/>without<sp/>express<sp/>or<sp/>implied<sp/>warranty.</highlight></codeline>
+<codeline lineno="12"><highlight class="comment"><sp/>*<sp/>See<sp/>the<sp/>GNU<sp/>General<sp/>Public<sp/>License<sp/>for<sp/>more<sp/>details.</highlight></codeline>
+<codeline lineno="13"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="14"><highlight class="comment"><sp/>*<sp/>Documents<sp/>produced<sp/>by<sp/>Doxygen<sp/>are<sp/>derivative<sp/>works<sp/>derived<sp/>from<sp/>the</highlight></codeline>
+<codeline lineno="15"><highlight class="comment"><sp/>*<sp/>input<sp/>used<sp/>in<sp/>their<sp/>production;<sp/>they<sp/>are<sp/>not<sp/>affected<sp/>by<sp/>this<sp/>license.</highlight></codeline>
+<codeline lineno="16"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="17"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;cmdmapper.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="keyword">struct<sp/></highlight><highlight class="normal">CommandMap</highlight></codeline>
+<codeline lineno="23"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*cmdName;</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>cmdId;</highlight></codeline>
+<codeline lineno="26"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight></codeline>
+<codeline lineno="28"><highlight class="normal">CommandMap<sp/>cmdMap[]<sp/>=</highlight></codeline>
+<codeline lineno="29"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;a&quot;</highlight><highlight class="normal">,<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>CMD_EMPHASIS<sp/>},</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;addindex&quot;</highlight><highlight class="normal">,<sp/><sp/><sp/><sp/><sp/><sp/>CMD_ADDINDEX<sp/>},</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;anchor&quot;</highlight><highlight class="normal">,<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>CMD_ANCHOR<sp/>},</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;arg&quot;</highlight><highlight class="normal">,<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>CMD_LI<sp/>},</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;attention&quot;</highlight><highlight class="normal">,<sp/><sp/><sp/><sp/><sp/>CMD_ATTENTION<sp/>},</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;author&quot;</highlight><highlight class="normal">,<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>CMD_AUTHOR<sp/>},</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;authors&quot;</highlight><highlight class="normal">,<sp/><sp/><sp/><sp/><sp/><sp/><sp/>CMD_AUTHORS<sp/>},</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;b&quot;</highlight><highlight class="normal">,<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>CMD_BOLD<sp/>},</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;c&quot;</highlight><highlight class="normal">,<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>CMD_CODE<sp/>},</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;cite&quot;</highlight><highlight class="normal">,<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>CMD_CITE<sp/>},</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;code&quot;</highlight><highlight class="normal">,<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>CMD_STARTCODE<sp/>},</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;copydoc&quot;</highlight><highlight class="normal">,<sp/><sp/><sp/><sp/><sp/><sp/><sp/>CMD_COPYDOC<sp/>},</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;copybrief&quot;</highlight><highlight class="normal">,<sp/><sp/><sp/><sp/><sp/>CMD_COPYBRIEF<sp/>},</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;copydetails&quot;</highlight><highlight class="normal">,<sp/><sp/><sp/>CMD_COPYDETAILS<sp/>},</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;copyright&quot;</highlight><highlight class="normal">,<sp/><sp/><sp/><sp/><sp/>CMD_COPYRIGHT<sp/>},</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;date&quot;</highlight><highlight class="normal">,<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>CMD_DATE<sp/>},</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;dontinclude&quot;</highlight><highlight class="normal">,<sp/><sp/><sp/>CMD_DONTINCLUDE<sp/>},</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;dotfile&quot;</highlight><highlight class="normal">,<sp/><sp/><sp/><sp/><sp/><sp/><sp/>CMD_DOTFILE<sp/>},</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;e&quot;</highlight><highlight class="normal">,<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>CMD_EMPHASIS<sp/>},</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;em&quot;</highlight><highlight class="normal">,<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>CMD_EMPHASIS<sp/>},</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;endcode&quot;</highlight><highlight class="normal">,<sp/><sp/><sp/><sp/><sp/><sp/><sp/>CMD_ENDCODE<sp/>},</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;endhtmlonly&quot;</highlight><highlight class="normal">,<sp/><sp/><sp/>CMD_ENDHTMLONLY<sp/>},</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;endlatexonly&quot;</highlight><highlight class="normal">,<sp/><sp/>CMD_ENDLATEXONLY<sp/>},</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;endlink&quot;</highlight><highlight class="normal">,<sp/><sp/><sp/><sp/><sp/><sp/><sp/>CMD_ENDLINK<sp/>},</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;endsecreflist&quot;</highlight><highlight class="normal">,<sp/>CMD_ENDSECREFLIST<sp/>},</highlight></codeline>
+<codeline lineno="55"><highlight class="normal"><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;endverbatim&quot;</highlight><highlight class="normal">,<sp/><sp/><sp/>CMD_ENDVERBATIM<sp/>},</highlight></codeline>
+<codeline lineno="56"><highlight class="normal"><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;endxmlonly&quot;</highlight><highlight class="normal">,<sp/><sp/><sp/><sp/>CMD_ENDXMLONLY<sp/>},</highlight></codeline>
+<codeline lineno="57"><highlight class="normal"><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;exception&quot;</highlight><highlight class="normal">,<sp/><sp/><sp/><sp/><sp/>CMD_EXCEPTION<sp/>},</highlight></codeline>
+<codeline lineno="58"><highlight class="normal"><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;form&quot;</highlight><highlight class="normal">,<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>CMD_FORMULA<sp/>},</highlight></codeline>
+<codeline lineno="59"><highlight class="normal"><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;htmlinclude&quot;</highlight><highlight class="normal">,<sp/><sp/><sp/>CMD_HTMLINCLUDE<sp/>},</highlight></codeline>
+<codeline lineno="60"><highlight class="normal"><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;htmlonly&quot;</highlight><highlight class="normal">,<sp/><sp/><sp/><sp/><sp/><sp/>CMD_HTMLONLY<sp/>},</highlight></codeline>
+<codeline lineno="61"><highlight class="normal"><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;image&quot;</highlight><highlight class="normal">,<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>CMD_IMAGE<sp/>},</highlight></codeline>
+<codeline lineno="62"><highlight class="normal"><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;include&quot;</highlight><highlight class="normal">,<sp/><sp/><sp/><sp/><sp/><sp/><sp/>CMD_INCLUDE<sp/>},</highlight></codeline>
+<codeline lineno="63"><highlight class="normal"><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;internal&quot;</highlight><highlight class="normal">,<sp/><sp/><sp/><sp/><sp/><sp/>CMD_INTERNAL<sp/>},</highlight></codeline>
+<codeline lineno="64"><highlight class="normal"><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;invariant&quot;</highlight><highlight class="normal">,<sp/><sp/><sp/><sp/><sp/>CMD_INVARIANT<sp/>},</highlight></codeline>
+<codeline lineno="65"><highlight class="normal"><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;javalink&quot;</highlight><highlight class="normal">,<sp/><sp/><sp/><sp/><sp/><sp/>CMD_JAVALINK<sp/>},</highlight></codeline>
+<codeline lineno="66"><highlight class="normal"><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;latexonly&quot;</highlight><highlight class="normal">,<sp/><sp/><sp/><sp/><sp/>CMD_LATEXONLY<sp/>},</highlight></codeline>
+<codeline lineno="67"><highlight class="normal"><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;li&quot;</highlight><highlight class="normal">,<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>CMD_LI<sp/>},</highlight></codeline>
+<codeline lineno="68"><highlight class="normal"><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;line&quot;</highlight><highlight class="normal">,<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>CMD_LINE<sp/>},</highlight></codeline>
+<codeline lineno="69"><highlight class="normal"><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;link&quot;</highlight><highlight class="normal">,<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>CMD_LINK<sp/>},</highlight></codeline>
+<codeline lineno="70"><highlight class="normal"><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;n&quot;</highlight><highlight class="normal">,<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>CMD_LINEBREAK<sp/>},</highlight></codeline>
+<codeline lineno="71"><highlight class="normal"><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;note&quot;</highlight><highlight class="normal">,<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>CMD_NOTE<sp/>},</highlight></codeline>
+<codeline lineno="72"><highlight class="normal"><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;p&quot;</highlight><highlight class="normal">,<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>CMD_CODE<sp/>},</highlight></codeline>
+<codeline lineno="73"><highlight class="normal"><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;par&quot;</highlight><highlight class="normal">,<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>CMD_PAR<sp/>},</highlight></codeline>
+<codeline lineno="74"><highlight class="normal"><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;param&quot;</highlight><highlight class="normal">,<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>CMD_PARAM<sp/>},</highlight></codeline>
+<codeline lineno="75"><highlight class="normal"><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;post&quot;</highlight><highlight class="normal">,<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>CMD_POST<sp/>},</highlight></codeline>
+<codeline lineno="76"><highlight class="normal"><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;pre&quot;</highlight><highlight class="normal">,<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>CMD_PRE<sp/>},</highlight></codeline>
+<codeline lineno="77"><highlight class="normal"><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;ref&quot;</highlight><highlight class="normal">,<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>CMD_REF<sp/>},</highlight></codeline>
+<codeline lineno="78"><highlight class="normal"><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;refitem&quot;</highlight><highlight class="normal">,<sp/><sp/><sp/><sp/><sp/><sp/><sp/>CMD_SECREFITEM<sp/>},</highlight></codeline>
+<codeline lineno="79"><highlight class="normal"><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;remark&quot;</highlight><highlight class="normal">,<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>CMD_REMARK<sp/>},</highlight></codeline>
+<codeline lineno="80"><highlight class="normal"><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;remarks&quot;</highlight><highlight class="normal">,<sp/><sp/><sp/><sp/><sp/><sp/><sp/>CMD_REMARK<sp/>},</highlight></codeline>
+<codeline lineno="81"><highlight class="normal"><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;result&quot;</highlight><highlight class="normal">,<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>CMD_RETURN<sp/>},</highlight></codeline>
+<codeline lineno="82"><highlight class="normal"><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;return&quot;</highlight><highlight class="normal">,<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>CMD_RETURN<sp/>},</highlight></codeline>
+<codeline lineno="83"><highlight class="normal"><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;returns&quot;</highlight><highlight class="normal">,<sp/><sp/><sp/><sp/><sp/><sp/><sp/>CMD_RETURN<sp/>},</highlight></codeline>
+<codeline lineno="84"><highlight class="normal"><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;retval&quot;</highlight><highlight class="normal">,<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>CMD_RETVAL<sp/>},</highlight></codeline>
+<codeline lineno="85"><highlight class="normal"><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;rtfonly&quot;</highlight><highlight class="normal">,<sp/><sp/><sp/><sp/><sp/><sp/><sp/>CMD_RTFONLY<sp/>},</highlight></codeline>
+<codeline lineno="86"><highlight class="normal"><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;sa&quot;</highlight><highlight class="normal">,<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>CMD_SA<sp/>},</highlight></codeline>
+<codeline lineno="87"><highlight class="normal"><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;secreflist&quot;</highlight><highlight class="normal">,<sp/><sp/><sp/><sp/>CMD_SECREFLIST<sp/>},</highlight></codeline>
+<codeline lineno="88"><highlight class="normal"><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;section&quot;</highlight><highlight class="normal">,<sp/><sp/><sp/><sp/><sp/><sp/><sp/>CMD_SECTION<sp/>},</highlight></codeline>
+<codeline lineno="89"><highlight class="normal"><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;snippet&quot;</highlight><highlight class="normal">,<sp/><sp/><sp/><sp/><sp/><sp/><sp/>CMD_SNIPPET<sp/>},</highlight></codeline>
+<codeline lineno="90"><highlight class="normal"><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;subpage&quot;</highlight><highlight class="normal">,<sp/><sp/><sp/><sp/><sp/><sp/><sp/>CMD_SUBPAGE<sp/>},</highlight></codeline>
+<codeline lineno="91"><highlight class="normal"><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;subsection&quot;</highlight><highlight class="normal">,<sp/><sp/><sp/><sp/>CMD_SUBSECTION<sp/>},</highlight></codeline>
+<codeline lineno="92"><highlight class="normal"><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;subsubsection&quot;</highlight><highlight class="normal">,<sp/>CMD_SUBSUBSECTION<sp/>},</highlight></codeline>
+<codeline lineno="93"><highlight class="normal"><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;paragraph&quot;</highlight><highlight class="normal">,<sp/><sp/><sp/><sp/><sp/>CMD_PARAGRAPH<sp/>},</highlight></codeline>
+<codeline lineno="94"><highlight class="normal"><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;see&quot;</highlight><highlight class="normal">,<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>CMD_SA<sp/>},</highlight></codeline>
+<codeline lineno="95"><highlight class="normal"><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;since&quot;</highlight><highlight class="normal">,<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>CMD_SINCE<sp/>},</highlight></codeline>
+<codeline lineno="96"><highlight class="normal"><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;skip&quot;</highlight><highlight class="normal">,<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>CMD_SKIP<sp/>},</highlight></codeline>
+<codeline lineno="97"><highlight class="normal"><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;skipline&quot;</highlight><highlight class="normal">,<sp/><sp/><sp/><sp/><sp/><sp/>CMD_SKIPLINE<sp/>},</highlight></codeline>
+<codeline lineno="98"><highlight class="normal"><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;xmlonly&quot;</highlight><highlight class="normal">,<sp/><sp/><sp/><sp/><sp/><sp/><sp/>CMD_XMLONLY<sp/>},</highlight></codeline>
+<codeline lineno="99"><highlight class="normal"><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;xrefitem&quot;</highlight><highlight class="normal">,<sp/><sp/><sp/><sp/><sp/><sp/>CMD_XREFITEM<sp/>},</highlight></codeline>
+<codeline lineno="100"><highlight class="normal"><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;throw&quot;</highlight><highlight class="normal">,<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>CMD_EXCEPTION<sp/>},</highlight></codeline>
+<codeline lineno="101"><highlight class="normal"><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;until&quot;</highlight><highlight class="normal">,<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>CMD_UNTIL<sp/>},</highlight></codeline>
+<codeline lineno="102"><highlight class="normal"><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;verbatim&quot;</highlight><highlight class="normal">,<sp/><sp/><sp/><sp/><sp/><sp/>CMD_VERBATIM<sp/>},</highlight></codeline>
+<codeline lineno="103"><highlight class="normal"><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;verbinclude&quot;</highlight><highlight class="normal">,<sp/><sp/><sp/>CMD_VERBINCLUDE<sp/>},</highlight></codeline>
+<codeline lineno="104"><highlight class="normal"><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;version&quot;</highlight><highlight class="normal">,<sp/><sp/><sp/><sp/><sp/><sp/><sp/>CMD_VERSION<sp/>},</highlight></codeline>
+<codeline lineno="105"><highlight class="normal"><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;warning&quot;</highlight><highlight class="normal">,<sp/><sp/><sp/><sp/><sp/><sp/><sp/>CMD_WARNING<sp/>},</highlight></codeline>
+<codeline lineno="106"><highlight class="normal"><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;throws&quot;</highlight><highlight class="normal">,<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>CMD_EXCEPTION<sp/>},</highlight></codeline>
+<codeline lineno="107"><highlight class="normal"><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;tparam&quot;</highlight><highlight class="normal">,<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>CMD_TPARAM<sp/>},</highlight></codeline>
+<codeline lineno="108"><highlight class="normal"><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;\\&quot;</highlight><highlight class="normal">,<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>CMD_BSLASH<sp/>},</highlight></codeline>
+<codeline lineno="109"><highlight class="normal"><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;@&quot;</highlight><highlight class="normal">,<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>CMD_AT<sp/>},</highlight></codeline>
+<codeline lineno="110"><highlight class="normal"><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;&lt;&quot;</highlight><highlight class="normal">,<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>CMD_LESS<sp/>},</highlight></codeline>
+<codeline lineno="111"><highlight class="normal"><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;&gt;&quot;</highlight><highlight class="normal">,<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>CMD_GREATER<sp/>},</highlight></codeline>
+<codeline lineno="112"><highlight class="normal"><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;&amp;&quot;</highlight><highlight class="normal">,<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>CMD_AMP<sp/>},</highlight></codeline>
+<codeline lineno="113"><highlight class="normal"><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;$&quot;</highlight><highlight class="normal">,<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>CMD_DOLLAR<sp/>},</highlight></codeline>
+<codeline lineno="114"><highlight class="normal"><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;#&quot;</highlight><highlight class="normal">,<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>CMD_HASH<sp/>},</highlight></codeline>
+<codeline lineno="115"><highlight class="normal"><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;%&quot;</highlight><highlight class="normal">,<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>CMD_PERCENT<sp/>},</highlight></codeline>
+<codeline lineno="116"><highlight class="normal"><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;|&quot;</highlight><highlight class="normal">,<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>CMD_PIPE<sp/>},</highlight></codeline>
+<codeline lineno="117"><highlight class="normal"><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;::&quot;</highlight><highlight class="normal">,<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>CMD_DCOLON<sp/>},</highlight></codeline>
+<codeline lineno="118"><highlight class="normal"><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;\&quot;&quot;</highlight><highlight class="normal">,<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>CMD_QUOTE<sp/>},</highlight></codeline>
+<codeline lineno="119"><highlight class="normal"><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;_internalref&quot;</highlight><highlight class="normal">,<sp/><sp/>CMD_INTERNALREF<sp/>},</highlight></codeline>
+<codeline lineno="120"><highlight class="normal"><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;dot&quot;</highlight><highlight class="normal">,<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>CMD_DOT<sp/>},</highlight></codeline>
+<codeline lineno="121"><highlight class="normal"><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;msc&quot;</highlight><highlight class="normal">,<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>CMD_MSC<sp/>},</highlight></codeline>
+<codeline lineno="122"><highlight class="normal"><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;enddot&quot;</highlight><highlight class="normal">,<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>CMD_ENDDOT<sp/>},</highlight></codeline>
+<codeline lineno="123"><highlight class="normal"><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;endmsc&quot;</highlight><highlight class="normal">,<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>CMD_ENDMSC<sp/>},</highlight></codeline>
+<codeline lineno="124"><highlight class="normal"><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;manonly&quot;</highlight><highlight class="normal">,<sp/><sp/><sp/><sp/><sp/><sp/><sp/>CMD_MANONLY<sp/>},</highlight></codeline>
+<codeline lineno="125"><highlight class="normal"><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;endmanonly&quot;</highlight><highlight class="normal">,<sp/><sp/><sp/><sp/>CMD_ENDMANONLY<sp/>},</highlight></codeline>
+<codeline lineno="126"><highlight class="normal"><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;includelineno&quot;</highlight><highlight class="normal">,<sp/>CMD_INCWITHLINES<sp/>},</highlight></codeline>
+<codeline lineno="127"><highlight class="normal"><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;inheritdoc&quot;</highlight><highlight class="normal">,<sp/><sp/><sp/><sp/>CMD_INHERITDOC<sp/>},</highlight></codeline>
+<codeline lineno="128"><highlight class="normal"><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;mscfile&quot;</highlight><highlight class="normal">,<sp/><sp/><sp/><sp/><sp/><sp/><sp/>CMD_MSCFILE<sp/>},</highlight></codeline>
+<codeline lineno="129"><highlight class="normal"><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;rtfonly&quot;</highlight><highlight class="normal">,<sp/><sp/><sp/><sp/><sp/><sp/><sp/>CMD_RTFONLY<sp/>},</highlight></codeline>
+<codeline lineno="130"><highlight class="normal"><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;endrtfonly&quot;</highlight><highlight class="normal">,<sp/><sp/><sp/><sp/>CMD_ENDRTFONLY<sp/>},</highlight></codeline>
+<codeline lineno="131"><highlight class="normal"><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;vhdlflow&quot;</highlight><highlight class="normal">,<sp/><sp/><sp/><sp/><sp/><sp/>CMD_VHDLFLOW<sp/>},</highlight></codeline>
+<codeline lineno="132"><highlight class="normal"><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;docbookonly&quot;</highlight><highlight class="normal">,<sp/><sp/><sp/>CMD_DBONLY<sp/>},</highlight></codeline>
+<codeline lineno="133"><highlight class="normal"><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;enddocbookonly&quot;</highlight><highlight class="normal">,CMD_ENDDBONLY<sp/>},</highlight></codeline>
+<codeline lineno="134"><highlight class="normal"><sp/><sp/>{<sp/>0,<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>0<sp/>},</highlight></codeline>
+<codeline lineno="135"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="136"><highlight class="normal"></highlight></codeline>
+<codeline lineno="137"><highlight class="normal"></highlight><highlight class="comment">//----------------------------------------------------------------------------</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="138"><highlight class="normal"></highlight></codeline>
+<codeline lineno="139"><highlight class="normal">CommandMap<sp/>htmlTagMap[]<sp/>=</highlight></codeline>
+<codeline lineno="140"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="141"><highlight class="normal"><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;strong&quot;</highlight><highlight class="normal">,<sp/><sp/><sp/><sp/><sp/>HTML_BOLD<sp/>},</highlight></codeline>
+<codeline lineno="142"><highlight class="normal"><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;center&quot;</highlight><highlight class="normal">,<sp/><sp/><sp/><sp/><sp/>HTML_CENTER<sp/>},</highlight></codeline>
+<codeline lineno="143"><highlight class="normal"><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;table&quot;</highlight><highlight class="normal">,<sp/><sp/><sp/><sp/><sp/><sp/>HTML_TABLE<sp/>},</highlight></codeline>
+<codeline lineno="144"><highlight class="normal"><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;caption&quot;</highlight><highlight class="normal">,<sp/><sp/><sp/><sp/>HTML_CAPTION<sp/>},</highlight></codeline>
+<codeline lineno="145"><highlight class="normal"><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;small&quot;</highlight><highlight class="normal">,<sp/><sp/><sp/><sp/><sp/><sp/>HTML_SMALL<sp/>},</highlight></codeline>
+<codeline lineno="146"><highlight class="normal"><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;code&quot;</highlight><highlight class="normal">,<sp/><sp/><sp/><sp/><sp/><sp/><sp/>HTML_CODE<sp/>},</highlight></codeline>
+<codeline lineno="147"><highlight class="normal"><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;dfn&quot;</highlight><highlight class="normal">,<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>HTML_CODE<sp/>},</highlight></codeline>
+<codeline lineno="148"><highlight class="normal"><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;var&quot;</highlight><highlight class="normal">,<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>HTML_EMPHASIS<sp/>},</highlight></codeline>
+<codeline lineno="149"><highlight class="normal"><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;img&quot;</highlight><highlight class="normal">,<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>HTML_IMG<sp/>},</highlight></codeline>
+<codeline lineno="150"><highlight class="normal"><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;pre&quot;</highlight><highlight class="normal">,<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>HTML_PRE<sp/>},</highlight></codeline>
+<codeline lineno="151"><highlight class="normal"><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;sub&quot;</highlight><highlight class="normal">,<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>HTML_SUB<sp/>},</highlight></codeline>
+<codeline lineno="152"><highlight class="normal"><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;sup&quot;</highlight><highlight class="normal">,<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>HTML_SUP<sp/>},</highlight></codeline>
+<codeline lineno="153"><highlight class="normal"><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;tr&quot;</highlight><highlight class="normal">,<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>HTML_TR<sp/>},</highlight></codeline>
+<codeline lineno="154"><highlight class="normal"><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;td&quot;</highlight><highlight class="normal">,<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>HTML_TD<sp/>},</highlight></codeline>
+<codeline lineno="155"><highlight class="normal"><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;th&quot;</highlight><highlight class="normal">,<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>HTML_TH<sp/>},</highlight></codeline>
+<codeline lineno="156"><highlight class="normal"><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;ol&quot;</highlight><highlight class="normal">,<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>HTML_OL<sp/>},</highlight></codeline>
+<codeline lineno="157"><highlight class="normal"><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;ul&quot;</highlight><highlight class="normal">,<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>HTML_UL<sp/>},</highlight></codeline>
+<codeline lineno="158"><highlight class="normal"><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;li&quot;</highlight><highlight class="normal">,<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>HTML_LI<sp/>},</highlight></codeline>
+<codeline lineno="159"><highlight class="normal"><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;tt&quot;</highlight><highlight class="normal">,<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>XML_C<sp/></highlight><highlight class="comment">/*HTML_CODE*/</highlight><highlight class="normal"><sp/>},</highlight></codeline>
+<codeline lineno="160"><highlight class="normal"><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;kbd&quot;</highlight><highlight class="normal">,<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>XML_C<sp/></highlight><highlight class="comment">/*HTML_CODE*/</highlight><highlight class="normal"><sp/>},</highlight></codeline>
+<codeline lineno="161"><highlight class="normal"><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;em&quot;</highlight><highlight class="normal">,<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>HTML_EMPHASIS<sp/>},</highlight></codeline>
+<codeline lineno="162"><highlight class="normal"><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;hr&quot;</highlight><highlight class="normal">,<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>HTML_HR<sp/>},</highlight></codeline>
+<codeline lineno="163"><highlight class="normal"><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;dl&quot;</highlight><highlight class="normal">,<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>HTML_DL<sp/>},</highlight></codeline>
+<codeline lineno="164"><highlight class="normal"><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;dt&quot;</highlight><highlight class="normal">,<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>HTML_DT<sp/>},</highlight></codeline>
+<codeline lineno="165"><highlight class="normal"><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;dd&quot;</highlight><highlight class="normal">,<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>HTML_DD<sp/>},</highlight></codeline>
+<codeline lineno="166"><highlight class="normal"><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;br&quot;</highlight><highlight class="normal">,<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>HTML_BR<sp/>},</highlight></codeline>
+<codeline lineno="167"><highlight class="normal"><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;i&quot;</highlight><highlight class="normal">,<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>HTML_EMPHASIS<sp/>},</highlight></codeline>
+<codeline lineno="168"><highlight class="normal"><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;a&quot;</highlight><highlight class="normal">,<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>HTML_A<sp/>},</highlight></codeline>
+<codeline lineno="169"><highlight class="normal"><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;b&quot;</highlight><highlight class="normal">,<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>HTML_BOLD<sp/>},</highlight></codeline>
+<codeline lineno="170"><highlight class="normal"><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;p&quot;</highlight><highlight class="normal">,<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>HTML_P<sp/>},</highlight></codeline>
+<codeline lineno="171"><highlight class="normal"><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;h1&quot;</highlight><highlight class="normal">,<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>HTML_H1<sp/>},</highlight></codeline>
+<codeline lineno="172"><highlight class="normal"><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;h2&quot;</highlight><highlight class="normal">,<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>HTML_H2<sp/>},</highlight></codeline>
+<codeline lineno="173"><highlight class="normal"><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;h3&quot;</highlight><highlight class="normal">,<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>HTML_H3<sp/>},</highlight></codeline>
+<codeline lineno="174"><highlight class="normal"><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;h4&quot;</highlight><highlight class="normal">,<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>HTML_H4<sp/>},</highlight></codeline>
+<codeline lineno="175"><highlight class="normal"><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;h5&quot;</highlight><highlight class="normal">,<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>HTML_H5<sp/>},</highlight></codeline>
+<codeline lineno="176"><highlight class="normal"><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;h6&quot;</highlight><highlight class="normal">,<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>HTML_H6<sp/>},</highlight></codeline>
+<codeline lineno="177"><highlight class="normal"><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;span&quot;</highlight><highlight class="normal">,<sp/><sp/><sp/><sp/><sp/><sp/><sp/>HTML_SPAN<sp/>},</highlight></codeline>
+<codeline lineno="178"><highlight class="normal"><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;div&quot;</highlight><highlight class="normal">,<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>HTML_DIV<sp/>},</highlight></codeline>
+<codeline lineno="179"><highlight class="normal"><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;blockquote&quot;</highlight><highlight class="normal">,<sp/>HTML_BLOCKQUOTE<sp/>},</highlight></codeline>
+<codeline lineno="180"><highlight class="normal"></highlight></codeline>
+<codeline lineno="181"><highlight class="normal"><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;c&quot;</highlight><highlight class="normal">,<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>XML_C<sp/>},</highlight></codeline>
+<codeline lineno="182"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//<sp/>{<sp/>&quot;code&quot;,<sp/><sp/><sp/><sp/><sp/><sp/><sp/>XML_CODE<sp/>},<sp/><sp/>&lt;=<sp/>ambiguous<sp/>&lt;code&gt;<sp/>is<sp/>also<sp/>a<sp/>HTML<sp/>tag</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="183"><highlight class="normal"><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;description&quot;</highlight><highlight class="normal">,<sp/><sp/>XML_DESCRIPTION<sp/>},</highlight></codeline>
+<codeline lineno="184"><highlight class="normal"><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;example&quot;</highlight><highlight class="normal">,<sp/><sp/><sp/><sp/><sp/><sp/>XML_EXAMPLE<sp/>},</highlight></codeline>
+<codeline lineno="185"><highlight class="normal"><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;exception&quot;</highlight><highlight class="normal">,<sp/><sp/><sp/><sp/>XML_EXCEPTION<sp/>},</highlight></codeline>
+<codeline lineno="186"><highlight class="normal"><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;include&quot;</highlight><highlight class="normal">,<sp/><sp/><sp/><sp/><sp/><sp/>XML_INCLUDE<sp/>},</highlight></codeline>
+<codeline lineno="187"><highlight class="normal"><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;item&quot;</highlight><highlight class="normal">,<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>XML_ITEM<sp/>},</highlight></codeline>
+<codeline lineno="188"><highlight class="normal"><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;list&quot;</highlight><highlight class="normal">,<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>XML_LIST<sp/>},<sp/></highlight><highlight class="comment">//<sp/>type=&quot;table|bullet|number&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="189"><highlight class="normal"><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;listheader&quot;</highlight><highlight class="normal">,<sp/><sp/><sp/>XML_LISTHEADER<sp/>},</highlight></codeline>
+<codeline lineno="190"><highlight class="normal"><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;para&quot;</highlight><highlight class="normal">,<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>XML_PARA<sp/>},</highlight></codeline>
+<codeline lineno="191"><highlight class="normal"><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;param&quot;</highlight><highlight class="normal">,<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>XML_PARAM<sp/>},</highlight></codeline>
+<codeline lineno="192"><highlight class="normal"><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;paramref&quot;</highlight><highlight class="normal">,<sp/><sp/><sp/><sp/><sp/>XML_PARAMREF<sp/>},</highlight></codeline>
+<codeline lineno="193"><highlight class="normal"><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;typeparam&quot;</highlight><highlight class="normal">,<sp/><sp/><sp/><sp/>XML_TYPEPARAM<sp/>},</highlight></codeline>
+<codeline lineno="194"><highlight class="normal"><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;typeparamref&quot;</highlight><highlight class="normal">,<sp/>XML_TYPEPARAMREF<sp/>},</highlight></codeline>
+<codeline lineno="195"><highlight class="normal"><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;permission&quot;</highlight><highlight class="normal">,<sp/><sp/><sp/>XML_PERMISSION<sp/>},</highlight></codeline>
+<codeline lineno="196"><highlight class="normal"><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;remarks&quot;</highlight><highlight class="normal">,<sp/><sp/><sp/><sp/><sp/><sp/>XML_REMARKS<sp/>},</highlight></codeline>
+<codeline lineno="197"><highlight class="normal"><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;returns&quot;</highlight><highlight class="normal">,<sp/><sp/><sp/><sp/><sp/><sp/>XML_RETURNS<sp/>},</highlight></codeline>
+<codeline lineno="198"><highlight class="normal"><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;see&quot;</highlight><highlight class="normal">,<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>XML_SEE<sp/>},</highlight></codeline>
+<codeline lineno="199"><highlight class="normal"><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;seealso&quot;</highlight><highlight class="normal">,<sp/><sp/><sp/><sp/><sp/><sp/>XML_SEEALSO<sp/>},</highlight></codeline>
+<codeline lineno="200"><highlight class="normal"><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;summary&quot;</highlight><highlight class="normal">,<sp/><sp/><sp/><sp/><sp/><sp/>XML_SUMMARY<sp/>},</highlight></codeline>
+<codeline lineno="201"><highlight class="normal"><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;term&quot;</highlight><highlight class="normal">,<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>XML_TERM<sp/>},</highlight></codeline>
+<codeline lineno="202"><highlight class="normal"><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;value&quot;</highlight><highlight class="normal">,<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>XML_VALUE<sp/>},</highlight></codeline>
+<codeline lineno="203"><highlight class="normal"><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;inheritdoc&quot;</highlight><highlight class="normal">,<sp/><sp/><sp/>XML_INHERITDOC<sp/>},</highlight></codeline>
+<codeline lineno="204"><highlight class="normal"><sp/><sp/>{<sp/>0,<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>0<sp/>}</highlight></codeline>
+<codeline lineno="205"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="206"><highlight class="normal"></highlight></codeline>
+<codeline lineno="207"><highlight class="normal"></highlight><highlight class="comment">//----------------------------------------------------------------------------</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="208"><highlight class="normal"></highlight></codeline>
+<codeline lineno="209"><highlight class="normal"><ref refid="d9/d09/class_mapper" kindref="compound" tooltip="Class representing a mapping from command names to command IDs.">Mapper</ref><sp/>*Mappers::cmdMapper<sp/><sp/><sp/><sp/><sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="d9/d09/class_mapper" kindref="compound" tooltip="Class representing a mapping from command names to command IDs.">Mapper</ref>(cmdMap,TRUE);</highlight></codeline>
+<codeline lineno="210"><highlight class="normal"><ref refid="d9/d09/class_mapper" kindref="compound" tooltip="Class representing a mapping from command names to command IDs.">Mapper</ref><sp/>*Mappers::htmlTagMapper<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="d9/d09/class_mapper" kindref="compound" tooltip="Class representing a mapping from command names to command IDs.">Mapper</ref>(htmlTagMap,FALSE);</highlight></codeline>
+<codeline lineno="211"><highlight class="normal"></highlight></codeline>
+<codeline lineno="212"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>Mapper::map(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*n)</highlight></codeline>
+<codeline lineno="213"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="214"><highlight class="normal"><sp/><sp/>QCString<sp/>name=n;</highlight></codeline>
+<codeline lineno="215"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(!m_cs)<sp/>name=name.lower();</highlight></codeline>
+<codeline lineno="216"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>*result;</highlight></codeline>
+<codeline lineno="217"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>!name.isEmpty()<sp/>&amp;&amp;<sp/>(result=m_map.find(name))<sp/>?<sp/>*result:<sp/>0;</highlight></codeline>
+<codeline lineno="218"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="219"><highlight class="normal"></highlight></codeline>
+<codeline lineno="220"><highlight class="normal">Mapper::Mapper(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>CommandMap<sp/>*cm,</highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>caseSensitive)<sp/>:<sp/>m_map(89),<sp/>m_cs(caseSensitive)</highlight></codeline>
+<codeline lineno="221"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="222"><highlight class="normal"><sp/><sp/>m_map.setAutoDelete(TRUE);</highlight></codeline>
+<codeline lineno="223"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>CommandMap<sp/>*p<sp/>=<sp/>cm;</highlight></codeline>
+<codeline lineno="224"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">while</highlight><highlight class="normal"><sp/>(p-&gt;cmdName)</highlight></codeline>
+<codeline lineno="225"><highlight class="normal"><sp/><sp/>{</highlight></codeline>
+<codeline lineno="226"><highlight class="normal"><sp/><sp/><sp/><sp/>m_map.insert(p-&gt;cmdName,</highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal">(p-&gt;cmdId));</highlight></codeline>
+<codeline lineno="227"><highlight class="normal"><sp/><sp/><sp/><sp/>p++;</highlight></codeline>
+<codeline lineno="228"><highlight class="normal"><sp/><sp/>}</highlight></codeline>
+<codeline lineno="229"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="230"><highlight class="normal"></highlight></codeline>
+<codeline lineno="231"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>Mappers::freeMappers()</highlight></codeline>
+<codeline lineno="232"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="233"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">delete</highlight><highlight class="normal"><sp/>cmdMapper;<sp/><sp/><sp/><sp/><sp/>cmdMapper<sp/><sp/><sp/><sp/><sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="234"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">delete</highlight><highlight class="normal"><sp/>htmlTagMapper;<sp/>htmlTagMapper<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="235"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="236"><highlight class="normal"></highlight></codeline>
+<codeline lineno="237"><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/cmdmapper.cpp"/>
+  </compounddef>
+</doxygen>

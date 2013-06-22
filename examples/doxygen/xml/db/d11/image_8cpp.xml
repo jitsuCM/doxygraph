@@ -1,0 +1,867 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.2">
+  <compounddef id="db/d11/image_8cpp" kind="file">
+    <compoundname>image.cpp</compoundname>
+    <includes refid="d5/db2/image_8h" local="yes">image.h</includes>
+    <includes local="no">qfile.h</includes>
+    <includes local="no">math.h</includes>
+    <includes refid="d2/ddf/lodepng_8h" local="yes">lodepng.h</includes>
+    <includes refid="db/d16/config_8h" local="yes">config.h</includes>
+    <incdepgraph>
+      <node id="2659">
+        <label>qgstring.h</label>
+      </node>
+      <node id="2644">
+        <label>image.h</label>
+        <link refid="d5/db2/image_8h_source"/>
+        <childnode refid="2645" relation="include">
+        </childnode>
+      </node>
+      <node id="2646">
+        <label>qfile.h</label>
+      </node>
+      <node id="2653">
+        <label>qstrlist.h</label>
+      </node>
+      <node id="2645">
+        <label>qglobal.h</label>
+      </node>
+      <node id="2658">
+        <label>qstring.h</label>
+      </node>
+      <node id="2650">
+        <label>stdlib.h</label>
+      </node>
+      <node id="2643">
+        <label>src/image.cpp</label>
+        <link refid="image.cpp"/>
+        <childnode refid="2644" relation="include">
+        </childnode>
+        <childnode refid="2646" relation="include">
+        </childnode>
+        <childnode refid="2647" relation="include">
+        </childnode>
+        <childnode refid="2648" relation="include">
+        </childnode>
+        <childnode refid="2652" relation="include">
+        </childnode>
+      </node>
+      <node id="2657">
+        <label>qiodevice.h</label>
+      </node>
+      <node id="2652">
+        <label>config.h</label>
+        <link refid="db/d16/config_8h_source"/>
+        <childnode refid="2653" relation="include">
+        </childnode>
+        <childnode refid="2654" relation="include">
+        </childnode>
+        <childnode refid="2655" relation="include">
+        </childnode>
+        <childnode refid="2656" relation="include">
+        </childnode>
+      </node>
+      <node id="2651">
+        <label>string.h</label>
+      </node>
+      <node id="2648">
+        <label>lodepng.h</label>
+        <link refid="d2/ddf/lodepng_8h_source"/>
+        <childnode refid="2649" relation="include">
+        </childnode>
+        <childnode refid="2650" relation="include">
+        </childnode>
+        <childnode refid="2651" relation="include">
+        </childnode>
+      </node>
+      <node id="2655">
+        <label>qlist.h</label>
+      </node>
+      <node id="2656">
+        <label>ftextstream.h</label>
+        <link refid="df/d83/ftextstream_8h_source"/>
+        <childnode refid="2649" relation="include">
+        </childnode>
+        <childnode refid="2657" relation="include">
+        </childnode>
+        <childnode refid="2658" relation="include">
+        </childnode>
+        <childnode refid="2659" relation="include">
+        </childnode>
+      </node>
+      <node id="2647">
+        <label>math.h</label>
+      </node>
+      <node id="2654">
+        <label>qdict.h</label>
+      </node>
+      <node id="2649">
+        <label>stdio.h</label>
+      </node>
+    </incdepgraph>
+    <innerclass refid="d9/d44/struct_color" prot="public">Color</innerclass>
+      <sectiondef kind="typedef">
+      <memberdef kind="typedef" id="db/d11/image_8cpp_1ae3a497195d617519e5353ea7b417940f" prot="public" static="no">
+        <type>unsigned char</type>
+        <definition>typedef unsigned char Byte</definition>
+        <argsstring></argsstring>
+        <name>Byte</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/image.cpp" line="25" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/image.cpp" bodystart="25" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="var">
+      <memberdef kind="variable" id="db/d11/image_8cpp_1addcb648439e446f4cdc7f81ed8bd7701" prot="public" static="no" mutable="no">
+        <type>const int</type>
+        <definition>const int charSetWidth</definition>
+        <argsstring></argsstring>
+        <name>charSetWidth</name>
+        <initializer>=80</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/image.cpp" line="36" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/image.cpp" bodystart="36" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="db/d11/image_8cpp_1ac01e29ec591af8444cb2cb5e9128d130" prot="public" static="no" mutable="no">
+        <type>const int</type>
+        <definition>const int charHeight</definition>
+        <argsstring></argsstring>
+        <name>charHeight</name>
+        <initializer>=12</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/image.cpp" line="37" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/image.cpp" bodystart="37" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="db/d11/image_8cpp_1a7039c6d467143b65eee4688f35178297" prot="public" static="no" mutable="no">
+        <type>const int</type>
+        <definition>const int numChars</definition>
+        <argsstring></argsstring>
+        <name>numChars</name>
+        <initializer>=96</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/image.cpp" line="38" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/image.cpp" bodystart="38" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="db/d11/image_8cpp_1a3f015eca9b8327e05044743748629ae9" prot="public" static="no" mutable="no">
+        <type>unsigned short</type>
+        <definition>unsigned short charPos[numChars]</definition>
+        <argsstring>[numChars]</argsstring>
+        <name>charPos</name>
+        <initializer>= 
+  {   
+      0,  5,  8, 13, 20, 27, 38, 47, 
+     50, 54, 58, 65, 72, 76, 83, 87, 
+     91, 98,105,112,119,126,133,140,
+    147,154,161,164,167,174,181,188,
+    195,207,216,224,233,242,250,258,
+    267,276,279,286,294,301,312,321,
+    331,339,349,357,365,372,380,389,
+    400,409,418,427,430,434,437,443,
+    450,453,460,467,474,481,488,492,
+    499,506,509,512,518,521,530,537,
+    544,551,557,562,568,571,578,585,
+    594,600,607,613,617,620,624,631
+  }</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/image.cpp" line="54" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/image.cpp" bodystart="40" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="db/d11/image_8cpp_1afdd592511fae7801258a4408091d4342" prot="public" static="no" mutable="no">
+        <type>unsigned char</type>
+        <definition>unsigned char charWidth[numChars]</definition>
+        <argsstring>[numChars]</argsstring>
+        <name>charWidth</name>
+        <initializer>= 
+  {
+     5, 3, 5, 7, 7,11, 9, 3,
+     4, 4, 7, 7, 4, 7, 4, 4,
+
+     7, 7, 7, 7, 7, 7, 7, 7,
+     7, 7, 3, 3, 7, 7, 7, 7,
+    12, 9, 8, 9, 9, 8, 8, 9,
+     9, 3, 7, 8, 7,11, 9,10,
+     8,10, 8, 8, 7, 8, 9,11,
+     9, 9, 9, 3, 4, 3, 6, 7,
+     3, 7, 7, 7, 7, 7, 4, 7,
+     7, 3, 3, 6, 3, 9, 7, 7,
+     7, 6, 5, 6, 3, 7, 7, 9,
+     6, 7, 6, 4, 3, 4, 7, 5   
+  }</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/image.cpp" line="71" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/image.cpp" bodystart="56" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="db/d11/image_8cpp_1a54eb9c5e56292b27cc59fca445f72f4b" prot="public" static="no" mutable="no">
+        <type>unsigned char</type>
+        <definition>unsigned char fontRaw[charSetWidth *charHeight]</definition>
+        <argsstring>[charSetWidth *charHeight]</argsstring>
+        <name>fontRaw</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/image.cpp" line="154" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/image.cpp" bodystart="73" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="db/d11/image_8cpp_1acfe43b36ff6b37d0df7b60495d7b5ea7" prot="public" static="yes" mutable="no">
+        <type>Color</type>
+        <definition>Color palette[]</definition>
+        <argsstring>[]</argsstring>
+        <name>palette</name>
+        <initializer>=
+{
+  { 0xff, 0xff, 0xff, 0x00 },
+  { 0x00, 0x00, 0x00, 0xff },
+  { 0xff, 0xff, 0xc0, 0xff },
+  { 0x9f, 0x9f, 0x60, 0xff },
+  { 0x90, 0x00, 0x00, 0xff },
+  { 0x00, 0x90, 0x00, 0xff },
+  { 0x00, 0x00, 0x90, 0xff },
+  { 0xc0, 0xc0, 0xc0, 0xff }
+}</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/image.cpp" line="166" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/image.cpp" bodystart="156" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="db/d11/image_8cpp_1a2d2cfe7b154b6053a60c75d8c1358315" prot="public" static="yes" mutable="no">
+        <type>Color</type>
+        <definition>Color palette2[]</definition>
+        <argsstring>[]</argsstring>
+        <name>palette2</name>
+        <initializer>=
+{
+  { 0x00, 0x00, 0x00, 0x00 },
+  { 0x00, 0x00, 0x00, 0x2e },
+  { 0x00, 0x00, 0x00, 0x48 },
+  { 0x00, 0x00, 0x00, 0x5d },
+  { 0x00, 0x00, 0x00, 0x6f },
+  { 0x00, 0x00, 0x00, 0x80 },
+  { 0x00, 0x00, 0x00, 0x8f },
+  { 0x00, 0x00, 0x00, 0x9e },
+  { 0x00, 0x00, 0x00, 0xac },
+  { 0x00, 0x00, 0x00, 0xb9 },
+  { 0x00, 0x00, 0x00, 0xc5 },
+  { 0x00, 0x00, 0x00, 0xd2 },
+  { 0x00, 0x00, 0x00, 0xdd },
+  { 0x00, 0x00, 0x00, 0xe9 },
+  { 0x00, 0x00, 0x00, 0xf4 },
+  { 0x00, 0x00, 0x00, 0xff }
+}</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/image.cpp" line="187" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/image.cpp" bodystart="169" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="db/d11/image_8cpp_1a29c596fd015784c4f3773f6c6f004b77" prot="public" static="yes" mutable="no">
+        <type>Color</type>
+        <definition>Color palette3[]</definition>
+        <argsstring>[]</argsstring>
+        <name>palette3</name>
+        <initializer>=
+{
+  { 0xff, 0xff, 0xff, 0xff },
+  { 0xe0, 0xe0, 0xe0, 0xff },
+  { 0xd0, 0xd0, 0xd0, 0xff },
+  { 0xc0, 0xc0, 0xc0, 0xff },
+  { 0xb0, 0xb0, 0xb0, 0xff },
+  { 0xa0, 0xa0, 0xa0, 0xff },
+  { 0x90, 0x90, 0x90, 0xff },
+  { 0x80, 0x80, 0x80, 0xff },
+  { 0x70, 0x70, 0x70, 0xff },
+  { 0x60, 0x60, 0x60, 0xff },
+  { 0x50, 0x50, 0x50, 0xff },
+  { 0x40, 0x40, 0x40, 0xff },
+  { 0x30, 0x30, 0x30, 0xff },
+  { 0x20, 0x20, 0x20, 0xff },
+  { 0x10, 0x10, 0x10, 0xff },
+  { 0x00, 0x00, 0x00, 0xff }
+}</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/image.cpp" line="207" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/image.cpp" bodystart="189" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">/******************************************************************************</highlight></codeline>
+<codeline lineno="2"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="3"><highlight class="comment"><sp/>*<sp/>$Id:<sp/>image.cpp,v<sp/>1.14<sp/>2001/03/19<sp/>19:27:40<sp/>root<sp/>Exp<sp/>$</highlight></codeline>
+<codeline lineno="4"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="5"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="6"><highlight class="comment"><sp/>*<sp/>Copyright<sp/>(C)<sp/>1997-2013<sp/>by<sp/>Dimitri<sp/>van<sp/>Heesch.</highlight></codeline>
+<codeline lineno="7"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="8"><highlight class="comment"><sp/>*<sp/>Permission<sp/>to<sp/>use,<sp/>copy,<sp/>modify,<sp/>and<sp/>distribute<sp/>this<sp/>software<sp/>and<sp/>its</highlight></codeline>
+<codeline lineno="9"><highlight class="comment"><sp/>*<sp/>documentation<sp/>under<sp/>the<sp/>terms<sp/>of<sp/>the<sp/>GNU<sp/>General<sp/>Public<sp/>License<sp/>is<sp/>hereby<sp/></highlight></codeline>
+<codeline lineno="10"><highlight class="comment"><sp/>*<sp/>granted.<sp/>No<sp/>representations<sp/>are<sp/>made<sp/>about<sp/>the<sp/>suitability<sp/>of<sp/>this<sp/>software<sp/></highlight></codeline>
+<codeline lineno="11"><highlight class="comment"><sp/>*<sp/>for<sp/>any<sp/>purpose.<sp/>It<sp/>is<sp/>provided<sp/>&quot;as<sp/>is&quot;<sp/>without<sp/>express<sp/>or<sp/>implied<sp/>warranty.</highlight></codeline>
+<codeline lineno="12"><highlight class="comment"><sp/>*<sp/>See<sp/>the<sp/>GNU<sp/>General<sp/>Public<sp/>License<sp/>for<sp/>more<sp/>details.</highlight></codeline>
+<codeline lineno="13"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="14"><highlight class="comment"><sp/>*<sp/>Documents<sp/>produced<sp/>by<sp/>Doxygen<sp/>are<sp/>derivative<sp/>works<sp/>derived<sp/>from<sp/>the</highlight></codeline>
+<codeline lineno="15"><highlight class="comment"><sp/>*<sp/>input<sp/>used<sp/>in<sp/>their<sp/>production;<sp/>they<sp/>are<sp/>not<sp/>affected<sp/>by<sp/>this<sp/>license.</highlight></codeline>
+<codeline lineno="16"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="17"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;image.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;qfile.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;math.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;lodepng.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;config.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/><sp/>Byte;</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight></codeline>
+<codeline lineno="28"><highlight class="keyword">struct<sp/></highlight><highlight class="normal">Color</highlight></codeline>
+<codeline lineno="29"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/>Byte<sp/>red;</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/>Byte<sp/>green;</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/>Byte<sp/>blue;</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/>Byte<sp/>alpha;</highlight></codeline>
+<codeline lineno="34"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"></highlight></codeline>
+<codeline lineno="36"><highlight class="normal"></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>charSetWidth=80;</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>charHeight=12;</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>numChars=96;</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"></highlight></codeline>
+<codeline lineno="40"><highlight class="normal"></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">short</highlight><highlight class="normal"><sp/>charPos[numChars]<sp/><sp/><sp/><sp/>=<sp/></highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/>{<sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>0,<sp/><sp/>5,<sp/><sp/>8,<sp/>13,<sp/>20,<sp/>27,<sp/>38,<sp/>47,<sp/></highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/>50,<sp/>54,<sp/>58,<sp/>65,<sp/>72,<sp/>76,<sp/>83,<sp/>87,<sp/></highlight></codeline>
+<codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/>91,<sp/>98,105,112,119,126,133,140,</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"><sp/><sp/><sp/><sp/>147,154,161,164,167,174,181,188,</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"><sp/><sp/><sp/><sp/>195,207,216,224,233,242,250,258,</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"><sp/><sp/><sp/><sp/>267,276,279,286,294,301,312,321,</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"><sp/><sp/><sp/><sp/>331,339,349,357,365,372,380,389,</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"><sp/><sp/><sp/><sp/>400,409,418,427,430,434,437,443,</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"><sp/><sp/><sp/><sp/>450,453,460,467,474,481,488,492,</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"><sp/><sp/><sp/><sp/>499,506,509,512,518,521,530,537,</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"><sp/><sp/><sp/><sp/>544,551,557,562,568,571,578,585,</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"><sp/><sp/><sp/><sp/>594,600,607,613,617,620,624,631</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"><sp/><sp/>};</highlight></codeline>
+<codeline lineno="55"><highlight class="normal"></highlight></codeline>
+<codeline lineno="56"><highlight class="normal"></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>charWidth[numChars]<sp/>=<sp/></highlight></codeline>
+<codeline lineno="57"><highlight class="normal"><sp/><sp/>{</highlight></codeline>
+<codeline lineno="58"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/>5,<sp/>3,<sp/>5,<sp/>7,<sp/>7,11,<sp/>9,<sp/>3,</highlight></codeline>
+<codeline lineno="59"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/>4,<sp/>4,<sp/>7,<sp/>7,<sp/>4,<sp/>7,<sp/>4,<sp/>4,</highlight></codeline>
+<codeline lineno="60"><highlight class="normal"></highlight></codeline>
+<codeline lineno="61"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/>7,<sp/>7,<sp/>7,<sp/>7,<sp/>7,<sp/>7,<sp/>7,<sp/>7,</highlight></codeline>
+<codeline lineno="62"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/>7,<sp/>7,<sp/>3,<sp/>3,<sp/>7,<sp/>7,<sp/>7,<sp/>7,</highlight></codeline>
+<codeline lineno="63"><highlight class="normal"><sp/><sp/><sp/><sp/>12,<sp/>9,<sp/>8,<sp/>9,<sp/>9,<sp/>8,<sp/>8,<sp/>9,</highlight></codeline>
+<codeline lineno="64"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/>9,<sp/>3,<sp/>7,<sp/>8,<sp/>7,11,<sp/>9,10,</highlight></codeline>
+<codeline lineno="65"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/>8,10,<sp/>8,<sp/>8,<sp/>7,<sp/>8,<sp/>9,11,</highlight></codeline>
+<codeline lineno="66"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/>9,<sp/>9,<sp/>9,<sp/>3,<sp/>4,<sp/>3,<sp/>6,<sp/>7,</highlight></codeline>
+<codeline lineno="67"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/>3,<sp/>7,<sp/>7,<sp/>7,<sp/>7,<sp/>7,<sp/>4,<sp/>7,</highlight></codeline>
+<codeline lineno="68"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/>7,<sp/>3,<sp/>3,<sp/>6,<sp/>3,<sp/>9,<sp/>7,<sp/>7,</highlight></codeline>
+<codeline lineno="69"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/>7,<sp/>6,<sp/>5,<sp/>6,<sp/>3,<sp/>7,<sp/>7,<sp/>9,</highlight></codeline>
+<codeline lineno="70"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/>6,<sp/>7,<sp/>6,<sp/>4,<sp/>3,<sp/>4,<sp/>7,<sp/>5<sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="71"><highlight class="normal"><sp/><sp/>};</highlight></codeline>
+<codeline lineno="72"><highlight class="normal"></highlight></codeline>
+<codeline lineno="73"><highlight class="normal"></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>fontRaw[charSetWidth*charHeight]<sp/>=<sp/>{</highlight></codeline>
+<codeline lineno="74"><highlight class="normal"><sp/><sp/>0x02,<sp/>0x50,<sp/>0x01,<sp/>0x06,<sp/>0x20,<sp/>0x60,<sp/>0xc6,<sp/>0x04,<sp/>0x00,<sp/>0x00,<sp/>0x00,<sp/>0x27,</highlight></codeline>
+<codeline lineno="75"><highlight class="normal"><sp/><sp/>0x04,<sp/>0x1c,<sp/>0x38,<sp/>0x11,<sp/>0xf1,<sp/>0xc7,<sp/>0xc7,<sp/>0x0e,<sp/>0x00,<sp/>0x00,<sp/>0x00,<sp/>0x03,</highlight></codeline>
+<codeline lineno="76"><highlight class="normal"><sp/><sp/>0x81,<sp/>0xf0,<sp/>0x10,<sp/>0x7c,<sp/>0x1e,<sp/>0x3e,<sp/>0x1f,<sp/>0x9f,<sp/>0x87,<sp/>0x88,<sp/>0x24,<sp/>0x09,</highlight></codeline>
+<codeline lineno="77"><highlight class="normal"><sp/><sp/>0x09,<sp/>0x02,<sp/>0x02,<sp/>0x41,<sp/>0x0f,<sp/>0x0f,<sp/>0x83,<sp/>0xc3,<sp/>0xe1,<sp/>0xe7,<sp/>0xf4,<sp/>0x24,</highlight></codeline>
+<codeline lineno="78"><highlight class="normal"><sp/><sp/>0x12,<sp/>0x22,<sp/>0x41,<sp/>0x20,<sp/>0x9f,<sp/>0xce,<sp/>0x30,<sp/>0x00,<sp/>0x10,<sp/>0x04,<sp/>0x00,<sp/>0x01,</highlight></codeline>
+<codeline lineno="79"><highlight class="normal"><sp/><sp/>0x00,<sp/>0x30,<sp/>0x08,<sp/>0x12,<sp/>0x41,<sp/>0x00,<sp/>0x00,<sp/>0x00,<sp/>0x00,<sp/>0x00,<sp/>0x00,<sp/>0x40,</highlight></codeline>
+<codeline lineno="80"><highlight class="normal"><sp/><sp/>0x00,<sp/>0x00,<sp/>0x00,<sp/>0x00,<sp/>0x01,<sp/>0xac,<sp/>0x00,<sp/>0x00,<sp/>0x02,<sp/>0x51,<sp/>0x43,<sp/>0x89,</highlight></codeline>
+<codeline lineno="81"><highlight class="normal"><sp/><sp/>0x40,<sp/>0x90,<sp/>0x49,<sp/>0x15,<sp/>0x00,<sp/>0x00,<sp/>0x00,<sp/>0x28,<sp/>0x9c,<sp/>0x22,<sp/>0x44,<sp/>0x31,</highlight></codeline>
+<codeline lineno="82"><highlight class="normal"><sp/><sp/>0x02,<sp/>0x20,<sp/>0x48,<sp/>0x91,<sp/>0x00,<sp/>0x00,<sp/>0x00,<sp/>0x04,<sp/>0x46,<sp/>0x08,<sp/>0x28,<sp/>0x42,</highlight></codeline>
+<codeline lineno="83"><highlight class="normal"><sp/><sp/>0x21,<sp/>0x21,<sp/>0x10,<sp/>0x10,<sp/>0x08,<sp/>0x48,<sp/>0x24,<sp/>0x09,<sp/>0x11,<sp/>0x03,<sp/>0x06,<sp/>0x61,</highlight></codeline>
+<codeline lineno="84"><highlight class="normal"><sp/><sp/>0x10,<sp/>0x88,<sp/>0x44,<sp/>0x22,<sp/>0x12,<sp/>0x10,<sp/>0x84,<sp/>0x24,<sp/>0x12,<sp/>0x22,<sp/>0x22,<sp/>0x20,</highlight></codeline>
+<codeline lineno="85"><highlight class="normal"><sp/><sp/>0x80,<sp/>0x4a,<sp/>0x11,<sp/>0x00,<sp/>0x20,<sp/>0x04,<sp/>0x00,<sp/>0x01,<sp/>0x00,<sp/>0x40,<sp/>0x08,<sp/>0x00,</highlight></codeline>
+<codeline lineno="86"><highlight class="normal"><sp/><sp/>0x41,<sp/>0x00,<sp/>0x00,<sp/>0x00,<sp/>0x00,<sp/>0x00,<sp/>0x00,<sp/>0x40,<sp/>0x00,<sp/>0x00,<sp/>0x00,<sp/>0x00,</highlight></codeline>
+<codeline lineno="87"><highlight class="normal"><sp/><sp/>0x02,<sp/>0x22,<sp/>0x00,<sp/>0x00,<sp/>0x02,<sp/>0x51,<sp/>0x45,<sp/>0x49,<sp/>0x40,<sp/>0x90,<sp/>0x89,<sp/>0x0a,</highlight></codeline>
+<codeline lineno="88"><highlight class="normal"><sp/><sp/>0x00,<sp/>0x00,<sp/>0x00,<sp/>0x48,<sp/>0x84,<sp/>0x02,<sp/>0x04,<sp/>0x51,<sp/>0x02,<sp/>0x00,<sp/>0x88,<sp/>0x91,</highlight></codeline>
+<codeline lineno="89"><highlight class="normal"><sp/><sp/>0x00,<sp/>0x00,<sp/>0x00,<sp/>0x04,<sp/>0x44,<sp/>0xd4,<sp/>0x28,<sp/>0x42,<sp/>0x40,<sp/>0x20,<sp/>0x90,<sp/>0x10,</highlight></codeline>
+<codeline lineno="90"><highlight class="normal"><sp/><sp/>0x10,<sp/>0x08,<sp/>0x24,<sp/>0x09,<sp/>0x21,<sp/>0x03,<sp/>0x06,<sp/>0x51,<sp/>0x20,<sp/>0x48,<sp/>0x48,<sp/>0x12,</highlight></codeline>
+<codeline lineno="91"><highlight class="normal"><sp/><sp/>0x12,<sp/>0x00,<sp/>0x84,<sp/>0x22,<sp/>0x22,<sp/>0x22,<sp/>0x22,<sp/>0x11,<sp/>0x00,<sp/>0x89,<sp/>0x12,<sp/>0x80,</highlight></codeline>
+<codeline lineno="92"><highlight class="normal"><sp/><sp/>0x31,<sp/>0xc5,<sp/>0x87,<sp/>0x0d,<sp/>0x1c,<sp/>0xe3,<sp/>0x4b,<sp/>0x12,<sp/>0x49,<sp/>0x29,<sp/>0x16,<sp/>0x1c,</highlight></codeline>
+<codeline lineno="93"><highlight class="normal"><sp/><sp/>0x58,<sp/>0x69,<sp/>0x4c,<sp/>0xe8,<sp/>0x91,<sp/>0x44,<sp/>0x61,<sp/>0x44,<sp/>0xf2,<sp/>0x22,<sp/>0x00,<sp/>0x00,</highlight></codeline>
+<codeline lineno="94"><highlight class="normal"><sp/><sp/>0x02,<sp/>0x07,<sp/>0xe5,<sp/>0x06,<sp/>0x80,<sp/>0x60,<sp/>0x10,<sp/>0x95,<sp/>0x08,<sp/>0x00,<sp/>0x00,<sp/>0x48,</highlight></codeline>
+<codeline lineno="95"><highlight class="normal"><sp/><sp/>0x84,<sp/>0x04,<sp/>0x18,<sp/>0x51,<sp/>0xe2,<sp/>0xc0,<sp/>0x87,<sp/>0x11,<sp/>0x24,<sp/>0x18,<sp/>0x03,<sp/>0x00,</highlight></codeline>
+<codeline lineno="96"><highlight class="normal"><sp/><sp/>0x89,<sp/>0x24,<sp/>0x44,<sp/>0x42,<sp/>0x40,<sp/>0x20,<sp/>0x90,<sp/>0x10,<sp/>0x10,<sp/>0x08,<sp/>0x24,<sp/>0x09,</highlight></codeline>
+<codeline lineno="97"><highlight class="normal"><sp/><sp/>0x41,<sp/>0x02,<sp/>0x8a,<sp/>0x51,<sp/>0x20,<sp/>0x48,<sp/>0x48,<sp/>0x12,<sp/>0x11,<sp/>0x80,<sp/>0x84,<sp/>0x22,</highlight></codeline>
+<codeline lineno="98"><highlight class="normal"><sp/><sp/>0x21,<sp/>0x24,<sp/>0x14,<sp/>0x11,<sp/>0x01,<sp/>0x09,<sp/>0x14,<sp/>0x40,<sp/>0x02,<sp/>0x26,<sp/>0x48,<sp/>0x93,</highlight></codeline>
+<codeline lineno="99"><highlight class="normal"><sp/><sp/>0x22,<sp/>0x44,<sp/>0xcc,<sp/>0x92,<sp/>0x51,<sp/>0x36,<sp/>0x99,<sp/>0x22,<sp/>0x64,<sp/>0x99,<sp/>0x92,<sp/>0x48,</highlight></codeline>
+<codeline lineno="100"><highlight class="normal"><sp/><sp/>0x91,<sp/>0x44,<sp/>0x52,<sp/>0x44,<sp/>0x12,<sp/>0x22,<sp/>0x00,<sp/>0x00,<sp/>0x02,<sp/>0x01,<sp/>0x43,<sp/>0x80,</highlight></codeline>
+<codeline lineno="101"><highlight class="normal"><sp/><sp/>0x80,<sp/>0xa0,<sp/>0x10,<sp/>0x84,<sp/>0x08,<sp/>0x00,<sp/>0x00,<sp/>0x88,<sp/>0x84,<sp/>0x08,<sp/>0x04,<sp/>0x90,</highlight></codeline>
+<codeline lineno="102"><highlight class="normal"><sp/><sp/>0x13,<sp/>0x21,<sp/>0x08,<sp/>0x8f,<sp/>0x00,<sp/>0x61,<sp/>0xf0,<sp/>0xc0,<sp/>0x8a,<sp/>0x24,<sp/>0x44,<sp/>0x7c,</highlight></codeline>
+<codeline lineno="103"><highlight class="normal"><sp/><sp/>0x40,<sp/>0x20,<sp/>0x9f,<sp/>0x9f,<sp/>0x11,<sp/>0xcf,<sp/>0xe4,<sp/>0x09,<sp/>0xc1,<sp/>0x02,<sp/>0x8a,<sp/>0x49,</highlight></codeline>
+<codeline lineno="104"><highlight class="normal"><sp/><sp/>0x20,<sp/>0x4f,<sp/>0x88,<sp/>0x13,<sp/>0xe0,<sp/>0x60,<sp/>0x84,<sp/>0x22,<sp/>0x21,<sp/>0x54,<sp/>0x08,<sp/>0x0a,</highlight></codeline>
+<codeline lineno="105"><highlight class="normal"><sp/><sp/>0x02,<sp/>0x08,<sp/>0x90,<sp/>0x00,<sp/>0x00,<sp/>0x24,<sp/>0x48,<sp/>0x11,<sp/>0x22,<sp/>0x44,<sp/>0x48,<sp/>0x92,</highlight></codeline>
+<codeline lineno="106"><highlight class="normal"><sp/><sp/>0x61,<sp/>0x24,<sp/>0x91,<sp/>0x22,<sp/>0x44,<sp/>0x89,<sp/>0x10,<sp/>0x48,<sp/>0x91,<sp/>0x24,<sp/>0x8c,<sp/>0x44,</highlight></codeline>
+<codeline lineno="107"><highlight class="normal"><sp/><sp/>0x22,<sp/>0x22,<sp/>0x64,<sp/>0x00,<sp/>0x02,<sp/>0x07,<sp/>0xe1,<sp/>0x41,<sp/>0x31,<sp/>0x14,<sp/>0x10,<sp/>0x80,</highlight></codeline>
+<codeline lineno="108"><highlight class="normal"><sp/><sp/>0x3e,<sp/>0x07,<sp/>0xc0,<sp/>0x88,<sp/>0x84,<sp/>0x10,<sp/>0x05,<sp/>0x10,<sp/>0x12,<sp/>0x21,<sp/>0x08,<sp/>0x81,</highlight></codeline>
+<codeline lineno="109"><highlight class="normal"><sp/><sp/>0x01,<sp/>0x80,<sp/>0x00,<sp/>0x31,<sp/>0x0a,<sp/>0x24,<sp/>0x7c,<sp/>0x42,<sp/>0x40,<sp/>0x20,<sp/>0x90,<sp/>0x10,</highlight></codeline>
+<codeline lineno="110"><highlight class="normal"><sp/><sp/>0x10,<sp/>0x48,<sp/>0x24,<sp/>0x09,<sp/>0x21,<sp/>0x02,<sp/>0x52,<sp/>0x45,<sp/>0x20,<sp/>0x48,<sp/>0x08,<sp/>0x92,</highlight></codeline>
+<codeline lineno="111"><highlight class="normal"><sp/><sp/>0x20,<sp/>0x10,<sp/>0x84,<sp/>0x21,<sp/>0x41,<sp/>0x54,<sp/>0x14,<sp/>0x04,<sp/>0x04,<sp/>0x08,<sp/>0x90,<sp/>0x00,</highlight></codeline>
+<codeline lineno="112"><highlight class="normal"><sp/><sp/>0x01,<sp/>0xe4,<sp/>0x48,<sp/>0x11,<sp/>0x3e,<sp/>0x44,<sp/>0x48,<sp/>0x92,<sp/>0x61,<sp/>0x24,<sp/>0x91,<sp/>0x22,</highlight></codeline>
+<codeline lineno="113"><highlight class="normal"><sp/><sp/>0x44,<sp/>0x89,<sp/>0x0c,<sp/>0x48,<sp/>0x8a,<sp/>0x24,<sp/>0x8c,<sp/>0x48,<sp/>0x44,<sp/>0x21,<sp/>0x98,<sp/>0x00,</highlight></codeline>
+<codeline lineno="114"><highlight class="normal"><sp/><sp/>0x02,<sp/>0x02,<sp/>0x85,<sp/>0x41,<sp/>0x49,<sp/>0x08,<sp/>0x10,<sp/>0x80,<sp/>0x08,<sp/>0x00,<sp/>0x00,<sp/>0x88,</highlight></codeline>
+<codeline lineno="115"><highlight class="normal"><sp/><sp/>0x84,<sp/>0x20,<sp/>0x45,<sp/>0xf9,<sp/>0x12,<sp/>0x21,<sp/>0x08,<sp/>0x81,<sp/>0x00,<sp/>0x61,<sp/>0xf0,<sp/>0xc1,</highlight></codeline>
+<codeline lineno="116"><highlight class="normal"><sp/><sp/>0x0a,<sp/>0x68,<sp/>0x82,<sp/>0x42,<sp/>0x40,<sp/>0x20,<sp/>0x90,<sp/>0x10,<sp/>0x10,<sp/>0x48,<sp/>0x24,<sp/>0x89,</highlight></codeline>
+<codeline lineno="117"><highlight class="normal"><sp/><sp/>0x11,<sp/>0x02,<sp/>0x52,<sp/>0x45,<sp/>0x20,<sp/>0x48,<sp/>0x08,<sp/>0x52,<sp/>0x12,<sp/>0x10,<sp/>0x84,<sp/>0x21,</highlight></codeline>
+<codeline lineno="118"><highlight class="normal"><sp/><sp/>0x40,<sp/>0x88,<sp/>0x22,<sp/>0x04,<sp/>0x08,<sp/>0x08,<sp/>0x90,<sp/>0x00,<sp/>0x02,<sp/>0x24,<sp/>0x48,<sp/>0x11,</highlight></codeline>
+<codeline lineno="119"><highlight class="normal"><sp/><sp/>0x20,<sp/>0x44,<sp/>0x48,<sp/>0x92,<sp/>0x51,<sp/>0x24,<sp/>0x91,<sp/>0x22,<sp/>0x44,<sp/>0x89,<sp/>0x02,<sp/>0x48,</highlight></codeline>
+<codeline lineno="120"><highlight class="normal"><sp/><sp/>0x8a,<sp/>0x2a,<sp/>0x92,<sp/>0x28,<sp/>0x42,<sp/>0x22,<sp/>0x00,<sp/>0x00,<sp/>0x00,<sp/>0x02,<sp/>0x85,<sp/>0x41,</highlight></codeline>
+<codeline lineno="121"><highlight class="normal"><sp/><sp/>0x49,<sp/>0x18,<sp/>0x10,<sp/>0x80,<sp/>0x08,<sp/>0x00,<sp/>0x01,<sp/>0x08,<sp/>0x84,<sp/>0x20,<sp/>0x44,<sp/>0x11,</highlight></codeline>
+<codeline lineno="122"><highlight class="normal"><sp/><sp/>0x12,<sp/>0x22,<sp/>0x08,<sp/>0x91,<sp/>0x00,<sp/>0x18,<sp/>0x03,<sp/>0x00,<sp/>0x09,<sp/>0xb0,<sp/>0x82,<sp/>0x42,</highlight></codeline>
+<codeline lineno="123"><highlight class="normal"><sp/><sp/>0x21,<sp/>0x21,<sp/>0x10,<sp/>0x10,<sp/>0x08,<sp/>0xc8,<sp/>0x24,<sp/>0x89,<sp/>0x09,<sp/>0x02,<sp/>0x22,<sp/>0x43,</highlight></codeline>
+<codeline lineno="124"><highlight class="normal"><sp/><sp/>0x10,<sp/>0x88,<sp/>0x04,<sp/>0x22,<sp/>0x12,<sp/>0x10,<sp/>0x84,<sp/>0x20,<sp/>0x80,<sp/>0x88,<sp/>0x22,<sp/>0x04,</highlight></codeline>
+<codeline lineno="125"><highlight class="normal"><sp/><sp/>0x10,<sp/>0x08,<sp/>0x50,<sp/>0x00,<sp/>0x02,<sp/>0x26,<sp/>0x48,<sp/>0x93,<sp/>0x22,<sp/>0x44,<sp/>0xc8,<sp/>0x92,</highlight></codeline>
+<codeline lineno="126"><highlight class="normal"><sp/><sp/>0x49,<sp/>0x24,<sp/>0x91,<sp/>0x22,<sp/>0x64,<sp/>0x99,<sp/>0x12,<sp/>0x49,<sp/>0x84,<sp/>0x11,<sp/>0x21,<sp/>0x28,</highlight></codeline>
+<codeline lineno="127"><highlight class="normal"><sp/><sp/>0x82,<sp/>0x22,<sp/>0x00,<sp/>0x00,<sp/>0x02,<sp/>0x02,<sp/>0x83,<sp/>0x82,<sp/>0x30,<sp/>0xe4,<sp/>0x10,<sp/>0x80,</highlight></codeline>
+<codeline lineno="128"><highlight class="normal"><sp/><sp/>0x00,<sp/>0x20,<sp/>0x05,<sp/>0x07,<sp/>0x04,<sp/>0x3e,<sp/>0x38,<sp/>0x10,<sp/>0xe1,<sp/>0xc2,<sp/>0x07,<sp/>0x0e,</highlight></codeline>
+<codeline lineno="129"><highlight class="normal"><sp/><sp/>0x24,<sp/>0x00,<sp/>0x00,<sp/>0x01,<sp/>0x04,<sp/>0x00,<sp/>0x82,<sp/>0x7c,<sp/>0x1e,<sp/>0x3e,<sp/>0x1f,<sp/>0x90,</highlight></codeline>
+<codeline lineno="130"><highlight class="normal"><sp/><sp/>0x07,<sp/>0x48,<sp/>0x24,<sp/>0x71,<sp/>0x05,<sp/>0xf2,<sp/>0x22,<sp/>0x41,<sp/>0x0f,<sp/>0x08,<sp/>0x03,<sp/>0xd2,</highlight></codeline>
+<codeline lineno="131"><highlight class="normal"><sp/><sp/>0x11,<sp/>0xe0,<sp/>0x83,<sp/>0xc0,<sp/>0x80,<sp/>0x88,<sp/>0x41,<sp/>0x04,<sp/>0x1f,<sp/>0xc8,<sp/>0x50,<sp/>0x00,</highlight></codeline>
+<codeline lineno="132"><highlight class="normal"><sp/><sp/>0x01,<sp/>0xd5,<sp/>0x87,<sp/>0x0d,<sp/>0x1c,<sp/>0x43,<sp/>0x48,<sp/>0x92,<sp/>0x45,<sp/>0x24,<sp/>0x91,<sp/>0x1c,</highlight></codeline>
+<codeline lineno="133"><highlight class="normal"><sp/><sp/>0x58,<sp/>0x69,<sp/>0x0c,<sp/>0x66,<sp/>0x84,<sp/>0x11,<sp/>0x21,<sp/>0x10,<sp/>0xf2,<sp/>0x22,<sp/>0x00,<sp/>0x00,</highlight></codeline>
+<codeline lineno="134"><highlight class="normal"><sp/><sp/>0x00,<sp/>0x00,<sp/>0x01,<sp/>0x00,<sp/>0x00,<sp/>0x00,<sp/>0x09,<sp/>0x00,<sp/>0x00,<sp/>0x20,<sp/>0x00,<sp/>0x00,</highlight></codeline>
+<codeline lineno="135"><highlight class="normal"><sp/><sp/>0x00,<sp/>0x00,<sp/>0x00,<sp/>0x00,<sp/>0x00,<sp/>0x00,<sp/>0x00,<sp/>0x00,<sp/>0x04,<sp/>0x00,<sp/>0x00,<sp/>0x00,</highlight></codeline>
+<codeline lineno="136"><highlight class="normal"><sp/><sp/>0x03,<sp/>0xe0,<sp/>0x00,<sp/>0x00,<sp/>0x00,<sp/>0x00,<sp/>0x00,<sp/>0x00,<sp/>0x00,<sp/>0x00,<sp/>0x00,<sp/>0x00,</highlight></codeline>
+<codeline lineno="137"><highlight class="normal"><sp/><sp/>0x00,<sp/>0x00,<sp/>0x00,<sp/>0x00,<sp/>0x00,<sp/>0x00,<sp/>0x00,<sp/>0x00,<sp/>0x00,<sp/>0x00,<sp/>0x00,<sp/>0x00,</highlight></codeline>
+<codeline lineno="138"><highlight class="normal"><sp/><sp/>0x00,<sp/>0x00,<sp/>0x00,<sp/>0x00,<sp/>0x00,<sp/>0x08,<sp/>0x10,<sp/>0x00,<sp/>0x00,<sp/>0x00,<sp/>0x00,<sp/>0x00,</highlight></codeline>
+<codeline lineno="139"><highlight class="normal"><sp/><sp/>0x00,<sp/>0x00,<sp/>0x40,<sp/>0x02,<sp/>0x00,<sp/>0x00,<sp/>0x00,<sp/>0x00,<sp/>0x40,<sp/>0x08,<sp/>0x00,<sp/>0x00,</highlight></codeline>
+<codeline lineno="140"><highlight class="normal"><sp/><sp/>0x00,<sp/>0x00,<sp/>0x00,<sp/>0x10,<sp/>0x02,<sp/>0x22,<sp/>0x00,<sp/>0x00,<sp/>0x00,<sp/>0x00,<sp/>0x00,<sp/>0x00,</highlight></codeline>
+<codeline lineno="141"><highlight class="normal"><sp/><sp/>0x00,<sp/>0x00,<sp/>0x09,<sp/>0x00,<sp/>0x00,<sp/>0x40,<sp/>0x00,<sp/>0x00,<sp/>0x00,<sp/>0x00,<sp/>0x00,<sp/>0x00,</highlight></codeline>
+<codeline lineno="142"><highlight class="normal"><sp/><sp/>0x00,<sp/>0x00,<sp/>0x00,<sp/>0x00,<sp/>0x08,<sp/>0x00,<sp/>0x00,<sp/>0x00,<sp/>0x00,<sp/>0x00,<sp/>0x00,<sp/>0x00,</highlight></codeline>
+<codeline lineno="143"><highlight class="normal"><sp/><sp/>0x00,<sp/>0x00,<sp/>0x00,<sp/>0x00,<sp/>0x00,<sp/>0x00,<sp/>0x00,<sp/>0x00,<sp/>0x00,<sp/>0x00,<sp/>0x00,<sp/>0x00,</highlight></codeline>
+<codeline lineno="144"><highlight class="normal"><sp/><sp/>0x00,<sp/>0x00,<sp/>0x00,<sp/>0x00,<sp/>0x00,<sp/>0x00,<sp/>0x00,<sp/>0x00,<sp/>0x00,<sp/>0x00,<sp/>0x00,<sp/>0x00,</highlight></codeline>
+<codeline lineno="145"><highlight class="normal"><sp/><sp/>0x00,<sp/>0x08,<sp/>0x10,<sp/>0x1f,<sp/>0xc0,<sp/>0x00,<sp/>0x00,<sp/>0x00,<sp/>0x00,<sp/>0x04,<sp/>0x40,<sp/>0x02,</highlight></codeline>
+<codeline lineno="146"><highlight class="normal"><sp/><sp/>0x00,<sp/>0x00,<sp/>0x00,<sp/>0x00,<sp/>0x40,<sp/>0x08,<sp/>0x00,<sp/>0x00,<sp/>0x00,<sp/>0x00,<sp/>0x00,<sp/>0x20,</highlight></codeline>
+<codeline lineno="147"><highlight class="normal"><sp/><sp/>0x02,<sp/>0x22,<sp/>0x00,<sp/>0x00,<sp/>0x00,<sp/>0x00,<sp/>0x00,<sp/>0x00,<sp/>0x00,<sp/>0x00,<sp/>0x06,<sp/>0x00,</highlight></codeline>
+<codeline lineno="148"><highlight class="normal"><sp/><sp/>0x00,<sp/>0x00,<sp/>0x00,<sp/>0x00,<sp/>0x00,<sp/>0x00,<sp/>0x00,<sp/>0x00,<sp/>0x00,<sp/>0x00,<sp/>0x00,<sp/>0x00,</highlight></codeline>
+<codeline lineno="149"><highlight class="normal"><sp/><sp/>0x00,<sp/>0x00,<sp/>0x00,<sp/>0x00,<sp/>0x00,<sp/>0x00,<sp/>0x00,<sp/>0x00,<sp/>0x00,<sp/>0x00,<sp/>0x00,<sp/>0x00,</highlight></codeline>
+<codeline lineno="150"><highlight class="normal"><sp/><sp/>0x00,<sp/>0x00,<sp/>0x00,<sp/>0x00,<sp/>0x00,<sp/>0x00,<sp/>0x00,<sp/>0x00,<sp/>0x00,<sp/>0x00,<sp/>0x00,<sp/>0x00,</highlight></codeline>
+<codeline lineno="151"><highlight class="normal"><sp/><sp/>0x00,<sp/>0x00,<sp/>0x00,<sp/>0x00,<sp/>0x00,<sp/>0x00,<sp/>0x00,<sp/>0x00,<sp/>0x00,<sp/>0x0c,<sp/>0x30,<sp/>0x00,</highlight></codeline>
+<codeline lineno="152"><highlight class="normal"><sp/><sp/>0x00,<sp/>0x00,<sp/>0x00,<sp/>0x00,<sp/>0x00,<sp/>0x03,<sp/>0x80,<sp/>0x04,<sp/>0x00,<sp/>0x00,<sp/>0x00,<sp/>0x00,</highlight></codeline>
+<codeline lineno="153"><highlight class="normal"><sp/><sp/>0x40,<sp/>0x08,<sp/>0x00,<sp/>0x00,<sp/>0x00,<sp/>0x00,<sp/>0x00,<sp/>0x40,<sp/>0x01,<sp/>0xac,<sp/>0x00,<sp/>0x00</highlight></codeline>
+<codeline lineno="154"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="155"><highlight class="normal"></highlight></codeline>
+<codeline lineno="156"><highlight class="normal"></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/>Color<sp/>palette[]<sp/>=</highlight></codeline>
+<codeline lineno="157"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="158"><highlight class="normal"><sp/><sp/>{<sp/>0xff,<sp/>0xff,<sp/>0xff,<sp/>0x00<sp/>},</highlight></codeline>
+<codeline lineno="159"><highlight class="normal"><sp/><sp/>{<sp/>0x00,<sp/>0x00,<sp/>0x00,<sp/>0xff<sp/>},</highlight></codeline>
+<codeline lineno="160"><highlight class="normal"><sp/><sp/>{<sp/>0xff,<sp/>0xff,<sp/>0xc0,<sp/>0xff<sp/>},</highlight></codeline>
+<codeline lineno="161"><highlight class="normal"><sp/><sp/>{<sp/>0x9f,<sp/>0x9f,<sp/>0x60,<sp/>0xff<sp/>},</highlight></codeline>
+<codeline lineno="162"><highlight class="normal"><sp/><sp/>{<sp/>0x90,<sp/>0x00,<sp/>0x00,<sp/>0xff<sp/>},</highlight></codeline>
+<codeline lineno="163"><highlight class="normal"><sp/><sp/>{<sp/>0x00,<sp/>0x90,<sp/>0x00,<sp/>0xff<sp/>},</highlight></codeline>
+<codeline lineno="164"><highlight class="normal"><sp/><sp/>{<sp/>0x00,<sp/>0x00,<sp/>0x90,<sp/>0xff<sp/>},</highlight></codeline>
+<codeline lineno="165"><highlight class="normal"><sp/><sp/>{<sp/>0xc0,<sp/>0xc0,<sp/>0xc0,<sp/>0xff<sp/>}</highlight></codeline>
+<codeline lineno="166"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="167"><highlight class="normal"></highlight></codeline>
+<codeline lineno="168"><highlight class="normal"></highlight><highlight class="comment">//<sp/>for<sp/>alpha<sp/>we<sp/>use<sp/>x^(1/1.3)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="169"><highlight class="normal"></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/>Color<sp/>palette2[]<sp/>=</highlight></codeline>
+<codeline lineno="170"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="171"><highlight class="normal"><sp/><sp/>{<sp/>0x00,<sp/>0x00,<sp/>0x00,<sp/>0x00<sp/>},</highlight></codeline>
+<codeline lineno="172"><highlight class="normal"><sp/><sp/>{<sp/>0x00,<sp/>0x00,<sp/>0x00,<sp/>0x2e<sp/>},</highlight></codeline>
+<codeline lineno="173"><highlight class="normal"><sp/><sp/>{<sp/>0x00,<sp/>0x00,<sp/>0x00,<sp/>0x48<sp/>},</highlight></codeline>
+<codeline lineno="174"><highlight class="normal"><sp/><sp/>{<sp/>0x00,<sp/>0x00,<sp/>0x00,<sp/>0x5d<sp/>},</highlight></codeline>
+<codeline lineno="175"><highlight class="normal"><sp/><sp/>{<sp/>0x00,<sp/>0x00,<sp/>0x00,<sp/>0x6f<sp/>},</highlight></codeline>
+<codeline lineno="176"><highlight class="normal"><sp/><sp/>{<sp/>0x00,<sp/>0x00,<sp/>0x00,<sp/>0x80<sp/>},</highlight></codeline>
+<codeline lineno="177"><highlight class="normal"><sp/><sp/>{<sp/>0x00,<sp/>0x00,<sp/>0x00,<sp/>0x8f<sp/>},</highlight></codeline>
+<codeline lineno="178"><highlight class="normal"><sp/><sp/>{<sp/>0x00,<sp/>0x00,<sp/>0x00,<sp/>0x9e<sp/>},</highlight></codeline>
+<codeline lineno="179"><highlight class="normal"><sp/><sp/>{<sp/>0x00,<sp/>0x00,<sp/>0x00,<sp/>0xac<sp/>},</highlight></codeline>
+<codeline lineno="180"><highlight class="normal"><sp/><sp/>{<sp/>0x00,<sp/>0x00,<sp/>0x00,<sp/>0xb9<sp/>},</highlight></codeline>
+<codeline lineno="181"><highlight class="normal"><sp/><sp/>{<sp/>0x00,<sp/>0x00,<sp/>0x00,<sp/>0xc5<sp/>},</highlight></codeline>
+<codeline lineno="182"><highlight class="normal"><sp/><sp/>{<sp/>0x00,<sp/>0x00,<sp/>0x00,<sp/>0xd2<sp/>},</highlight></codeline>
+<codeline lineno="183"><highlight class="normal"><sp/><sp/>{<sp/>0x00,<sp/>0x00,<sp/>0x00,<sp/>0xdd<sp/>},</highlight></codeline>
+<codeline lineno="184"><highlight class="normal"><sp/><sp/>{<sp/>0x00,<sp/>0x00,<sp/>0x00,<sp/>0xe9<sp/>},</highlight></codeline>
+<codeline lineno="185"><highlight class="normal"><sp/><sp/>{<sp/>0x00,<sp/>0x00,<sp/>0x00,<sp/>0xf4<sp/>},</highlight></codeline>
+<codeline lineno="186"><highlight class="normal"><sp/><sp/>{<sp/>0x00,<sp/>0x00,<sp/>0x00,<sp/>0xff<sp/>}</highlight></codeline>
+<codeline lineno="187"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="188"><highlight class="normal"></highlight></codeline>
+<codeline lineno="189"><highlight class="normal"></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/>Color<sp/>palette3[]<sp/>=</highlight></codeline>
+<codeline lineno="190"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="191"><highlight class="normal"><sp/><sp/>{<sp/>0xff,<sp/>0xff,<sp/>0xff,<sp/>0xff<sp/>},</highlight></codeline>
+<codeline lineno="192"><highlight class="normal"><sp/><sp/>{<sp/>0xe0,<sp/>0xe0,<sp/>0xe0,<sp/>0xff<sp/>},</highlight></codeline>
+<codeline lineno="193"><highlight class="normal"><sp/><sp/>{<sp/>0xd0,<sp/>0xd0,<sp/>0xd0,<sp/>0xff<sp/>},</highlight></codeline>
+<codeline lineno="194"><highlight class="normal"><sp/><sp/>{<sp/>0xc0,<sp/>0xc0,<sp/>0xc0,<sp/>0xff<sp/>},</highlight></codeline>
+<codeline lineno="195"><highlight class="normal"><sp/><sp/>{<sp/>0xb0,<sp/>0xb0,<sp/>0xb0,<sp/>0xff<sp/>},</highlight></codeline>
+<codeline lineno="196"><highlight class="normal"><sp/><sp/>{<sp/>0xa0,<sp/>0xa0,<sp/>0xa0,<sp/>0xff<sp/>},</highlight></codeline>
+<codeline lineno="197"><highlight class="normal"><sp/><sp/>{<sp/>0x90,<sp/>0x90,<sp/>0x90,<sp/>0xff<sp/>},</highlight></codeline>
+<codeline lineno="198"><highlight class="normal"><sp/><sp/>{<sp/>0x80,<sp/>0x80,<sp/>0x80,<sp/>0xff<sp/>},</highlight></codeline>
+<codeline lineno="199"><highlight class="normal"><sp/><sp/>{<sp/>0x70,<sp/>0x70,<sp/>0x70,<sp/>0xff<sp/>},</highlight></codeline>
+<codeline lineno="200"><highlight class="normal"><sp/><sp/>{<sp/>0x60,<sp/>0x60,<sp/>0x60,<sp/>0xff<sp/>},</highlight></codeline>
+<codeline lineno="201"><highlight class="normal"><sp/><sp/>{<sp/>0x50,<sp/>0x50,<sp/>0x50,<sp/>0xff<sp/>},</highlight></codeline>
+<codeline lineno="202"><highlight class="normal"><sp/><sp/>{<sp/>0x40,<sp/>0x40,<sp/>0x40,<sp/>0xff<sp/>},</highlight></codeline>
+<codeline lineno="203"><highlight class="normal"><sp/><sp/>{<sp/>0x30,<sp/>0x30,<sp/>0x30,<sp/>0xff<sp/>},</highlight></codeline>
+<codeline lineno="204"><highlight class="normal"><sp/><sp/>{<sp/>0x20,<sp/>0x20,<sp/>0x20,<sp/>0xff<sp/>},</highlight></codeline>
+<codeline lineno="205"><highlight class="normal"><sp/><sp/>{<sp/>0x10,<sp/>0x10,<sp/>0x10,<sp/>0xff<sp/>},</highlight></codeline>
+<codeline lineno="206"><highlight class="normal"><sp/><sp/>{<sp/>0x00,<sp/>0x00,<sp/>0x00,<sp/>0xff<sp/>}</highlight></codeline>
+<codeline lineno="207"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="208"><highlight class="normal"></highlight></codeline>
+<codeline lineno="209"><highlight class="normal"></highlight></codeline>
+<codeline lineno="210"><highlight class="normal">Image::Image(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>w,</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>h)</highlight></codeline>
+<codeline lineno="211"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="212"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>hue<sp/><sp/><sp/>=<sp/>Config_getInt(</highlight><highlight class="stringliteral">&quot;HTML_COLORSTYLE_HUE&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="213"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>sat<sp/><sp/><sp/>=<sp/>Config_getInt(</highlight><highlight class="stringliteral">&quot;HTML_COLORSTYLE_SAT&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="214"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>gamma<sp/>=<sp/>Config_getInt(</highlight><highlight class="stringliteral">&quot;HTML_COLORSTYLE_GAMMA&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="215"><highlight class="normal"></highlight></codeline>
+<codeline lineno="216"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>red1,green1,blue1;</highlight></codeline>
+<codeline lineno="217"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>red2,green2,blue2;</highlight></codeline>
+<codeline lineno="218"><highlight class="normal"></highlight></codeline>
+<codeline lineno="219"><highlight class="normal"><sp/><sp/>ColoredImage::hsl2rgb(hue/360.0,<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>hue</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="220"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>sat/255.0,<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>saturation</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="221"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>pow(235/255.0,gamma/100.0),<sp/></highlight><highlight class="comment">//<sp/>luma<sp/>(gamma<sp/>corrected)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="222"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>&amp;red1,&amp;green1,&amp;blue1</highlight></codeline>
+<codeline lineno="223"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>);</highlight></codeline>
+<codeline lineno="224"><highlight class="normal"></highlight></codeline>
+<codeline lineno="225"><highlight class="normal"><sp/><sp/>ColoredImage::hsl2rgb(hue/360.0,<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>hue</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="226"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>sat/255.0,<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>saturation</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="227"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>pow(138/255.0,gamma/100.0),<sp/></highlight><highlight class="comment">//<sp/>luma<sp/>(gamma<sp/>corrected)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="228"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>&amp;red2,&amp;green2,&amp;blue2</highlight></codeline>
+<codeline lineno="229"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>);</highlight></codeline>
+<codeline lineno="230"><highlight class="normal"></highlight></codeline>
+<codeline lineno="231"><highlight class="normal"><sp/><sp/>palette[2].red<sp/><sp/><sp/>=<sp/>(int)(red1<sp/><sp/><sp/>*<sp/>255.0);</highlight></codeline>
+<codeline lineno="232"><highlight class="normal"><sp/><sp/>palette[2].green<sp/>=<sp/>(int)(green1<sp/>*<sp/>255.0);</highlight></codeline>
+<codeline lineno="233"><highlight class="normal"><sp/><sp/>palette[2].blue<sp/><sp/>=<sp/>(int)(blue1<sp/><sp/>*<sp/>255.0);</highlight></codeline>
+<codeline lineno="234"><highlight class="normal"></highlight></codeline>
+<codeline lineno="235"><highlight class="normal"><sp/><sp/>palette[3].red<sp/><sp/><sp/>=<sp/>(int)(red2<sp/><sp/><sp/>*<sp/>255.0);</highlight></codeline>
+<codeline lineno="236"><highlight class="normal"><sp/><sp/>palette[3].green<sp/>=<sp/>(int)(green2<sp/>*<sp/>255.0);</highlight></codeline>
+<codeline lineno="237"><highlight class="normal"><sp/><sp/>palette[3].blue<sp/><sp/>=<sp/>(int)(blue2<sp/><sp/>*<sp/>255.0);</highlight></codeline>
+<codeline lineno="238"><highlight class="normal"></highlight></codeline>
+<codeline lineno="239"><highlight class="normal"><sp/><sp/>data<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>uchar[w*h];</highlight></codeline>
+<codeline lineno="240"><highlight class="normal"><sp/><sp/>memset(data,0,w*h);</highlight></codeline>
+<codeline lineno="241"><highlight class="normal"><sp/><sp/>width<sp/>=<sp/>w;</highlight></codeline>
+<codeline lineno="242"><highlight class="normal"><sp/><sp/>height<sp/>=<sp/>h;</highlight></codeline>
+<codeline lineno="243"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="244"><highlight class="normal"></highlight></codeline>
+<codeline lineno="245"><highlight class="normal">Image::~Image()</highlight></codeline>
+<codeline lineno="246"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="247"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">delete</highlight><highlight class="normal">[]<sp/>data;</highlight></codeline>
+<codeline lineno="248"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="249"><highlight class="normal"></highlight></codeline>
+<codeline lineno="250"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>Image::setPixel(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>x,</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>y,uchar<sp/>val)</highlight></codeline>
+<codeline lineno="251"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="252"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(x&gt;=0<sp/>&amp;&amp;<sp/>x&lt;width<sp/>&amp;&amp;<sp/>y&gt;=0<sp/>&amp;&amp;<sp/>y&lt;height)</highlight></codeline>
+<codeline lineno="253"><highlight class="normal"><sp/><sp/><sp/><sp/>data[y*width+x]<sp/>=<sp/>val;</highlight></codeline>
+<codeline lineno="254"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="255"><highlight class="normal"></highlight></codeline>
+<codeline lineno="256"><highlight class="normal">uchar<sp/>Image::getPixel(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>x,</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>y)</highlight><highlight class="keyword"><sp/>const</highlight></codeline>
+<codeline lineno="257"><highlight class="keyword"></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="258"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(x&gt;=0<sp/>&amp;&amp;<sp/>x&lt;width<sp/>&amp;&amp;<sp/>y&gt;=0<sp/>&amp;&amp;<sp/>y&lt;height)</highlight></codeline>
+<codeline lineno="259"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>data[y*width+x];</highlight></codeline>
+<codeline lineno="260"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="261"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>0;</highlight></codeline>
+<codeline lineno="262"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="263"><highlight class="normal"></highlight></codeline>
+<codeline lineno="264"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>Image::writeChar(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>x,</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>y,</highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>c,uchar<sp/>fg)<sp/></highlight></codeline>
+<codeline lineno="265"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="266"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(c&gt;=</highlight><highlight class="charliteral">&apos;<sp/>&apos;</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="267"><highlight class="normal"><sp/><sp/>{</highlight></codeline>
+<codeline lineno="268"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>xf,yf,ci=c-</highlight><highlight class="charliteral">&apos;<sp/>&apos;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="269"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>rowOffset=0;</highlight></codeline>
+<codeline lineno="270"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>cw<sp/>=<sp/>charWidth[ci];</highlight></codeline>
+<codeline lineno="271"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>cp<sp/>=<sp/>charPos[ci];</highlight></codeline>
+<codeline lineno="272"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(yf=0;yf&lt;charHeight;yf++)</highlight></codeline>
+<codeline lineno="273"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="274"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">short</highlight><highlight class="normal"><sp/>bitPattern=0;</highlight></codeline>
+<codeline lineno="275"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>bitsLeft=cw;</highlight></codeline>
+<codeline lineno="276"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>byteOffset<sp/>=<sp/>rowOffset+(cp&gt;&gt;3);</highlight></codeline>
+<codeline lineno="277"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>bitOffset<sp/><sp/>=<sp/>cp&amp;7;</highlight></codeline>
+<codeline lineno="278"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>get<sp/>the<sp/>bit<sp/>pattern<sp/>for<sp/>row<sp/>yf<sp/>of<sp/>the<sp/>character<sp/>from<sp/>the<sp/>font<sp/>data</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="279"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">while</highlight><highlight class="normal"><sp/>(bitsLeft&gt;0)</highlight></codeline>
+<codeline lineno="280"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="281"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>bits=8-bitOffset;</highlight></codeline>
+<codeline lineno="282"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(bits&gt;bitsLeft)<sp/>bits=bitsLeft;<sp/></highlight></codeline>
+<codeline lineno="283"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>bitPattern&lt;&lt;=bits;<sp/></highlight></codeline>
+<codeline lineno="284"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>bitPattern|=((fontRaw[byteOffset]&lt;&lt;bitOffset)&amp;0xff)&gt;&gt;(8-bits);</highlight></codeline>
+<codeline lineno="285"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>bitsLeft-=bits;</highlight></codeline>
+<codeline lineno="286"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>bitOffset=0;</highlight></codeline>
+<codeline lineno="287"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>byteOffset++;</highlight></codeline>
+<codeline lineno="288"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="289"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>mask=1&lt;&lt;(cw-1);</highlight></codeline>
+<codeline lineno="290"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>draw<sp/>character<sp/>row<sp/>yf</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="291"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(xf=0;xf&lt;cw;xf++)</highlight></codeline>
+<codeline lineno="292"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="293"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>setPixel(x+xf,y+yf,(bitPattern&amp;mask)<sp/>?<sp/>fg<sp/>:<sp/>getPixel(x+xf,y+yf));</highlight></codeline>
+<codeline lineno="294"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>mask&gt;&gt;=1;</highlight></codeline>
+<codeline lineno="295"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="296"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>rowOffset+=charSetWidth;</highlight></codeline>
+<codeline lineno="297"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="298"><highlight class="normal"><sp/><sp/>}<sp/></highlight></codeline>
+<codeline lineno="299"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="300"><highlight class="normal"></highlight></codeline>
+<codeline lineno="301"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>Image::writeString(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>x,</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>y,</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*s,uchar<sp/>fg)<sp/></highlight></codeline>
+<codeline lineno="302"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="303"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(s)</highlight></codeline>
+<codeline lineno="304"><highlight class="normal"><sp/><sp/>{</highlight></codeline>
+<codeline lineno="305"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>c;</highlight></codeline>
+<codeline lineno="306"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">while</highlight><highlight class="normal"><sp/>((c=*s++))</highlight></codeline>
+<codeline lineno="307"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="308"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>writeChar(x,y,c,fg);</highlight></codeline>
+<codeline lineno="309"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>x+=charWidth[c-</highlight><highlight class="charliteral">&apos;<sp/>&apos;</highlight><highlight class="normal">];</highlight></codeline>
+<codeline lineno="310"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="311"><highlight class="normal"><sp/><sp/>}</highlight></codeline>
+<codeline lineno="312"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="313"><highlight class="normal"></highlight></codeline>
+<codeline lineno="314"><highlight class="normal">uint<sp/>Image::stringLength(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*s)<sp/></highlight></codeline>
+<codeline lineno="315"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="316"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>w=0;</highlight></codeline>
+<codeline lineno="317"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(s)</highlight></codeline>
+<codeline lineno="318"><highlight class="normal"><sp/><sp/>{</highlight></codeline>
+<codeline lineno="319"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>c;</highlight></codeline>
+<codeline lineno="320"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">while</highlight><highlight class="normal"><sp/>((c=*s++))<sp/>w+=charWidth[c-</highlight><highlight class="charliteral">&apos;<sp/>&apos;</highlight><highlight class="normal">];</highlight></codeline>
+<codeline lineno="321"><highlight class="normal"><sp/><sp/>}</highlight></codeline>
+<codeline lineno="322"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>w;</highlight></codeline>
+<codeline lineno="323"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="324"><highlight class="normal"></highlight></codeline>
+<codeline lineno="325"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>Image::drawHorzLine(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>y,</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>xs,</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>xe,uchar<sp/>colIndex,uint<sp/>mask)</highlight></codeline>
+<codeline lineno="326"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="327"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>x,i=0,j=0;</highlight></codeline>
+<codeline lineno="328"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(x=xs;x&lt;=xe;x++,j++)<sp/></highlight></codeline>
+<codeline lineno="329"><highlight class="normal"><sp/><sp/>{</highlight></codeline>
+<codeline lineno="330"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(j&amp;1)<sp/>i++;</highlight></codeline>
+<codeline lineno="331"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(mask&amp;(1&lt;&lt;(i&amp;0x1f)))<sp/>setPixel(x,y,colIndex);</highlight></codeline>
+<codeline lineno="332"><highlight class="normal"><sp/><sp/>}</highlight></codeline>
+<codeline lineno="333"><highlight class="normal">}<sp/></highlight></codeline>
+<codeline lineno="334"><highlight class="normal"></highlight></codeline>
+<codeline lineno="335"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>Image::drawHorzArrow(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>y,</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>xs,</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>xe,uchar<sp/>colIndex,uint<sp/>mask)</highlight></codeline>
+<codeline lineno="336"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="337"><highlight class="normal"><sp/><sp/>drawHorzLine(y,xs,xe,colIndex,mask);</highlight></codeline>
+<codeline lineno="338"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>i;</highlight></codeline>
+<codeline lineno="339"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(i=0;i&lt;6;i++)</highlight></codeline>
+<codeline lineno="340"><highlight class="normal"><sp/><sp/>{</highlight></codeline>
+<codeline lineno="341"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>h=i&gt;&gt;1;</highlight></codeline>
+<codeline lineno="342"><highlight class="normal"><sp/><sp/><sp/><sp/>drawVertLine(xe-i,y-h,y+h,colIndex,0xffffffff);</highlight></codeline>
+<codeline lineno="343"><highlight class="normal"><sp/><sp/>}</highlight></codeline>
+<codeline lineno="344"><highlight class="normal">}<sp/></highlight></codeline>
+<codeline lineno="345"><highlight class="normal"></highlight></codeline>
+<codeline lineno="346"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>Image::drawVertLine(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>x,</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>ys,</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>ye,uchar<sp/>colIndex,uint<sp/>mask)</highlight></codeline>
+<codeline lineno="347"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="348"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>y,i=0;</highlight></codeline>
+<codeline lineno="349"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(y=ys;y&lt;=ye;y++,i++)<sp/></highlight></codeline>
+<codeline lineno="350"><highlight class="normal"><sp/><sp/>{</highlight></codeline>
+<codeline lineno="351"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(mask&amp;(1&lt;&lt;(i&amp;0x1f)))<sp/>setPixel(x,y,colIndex);</highlight></codeline>
+<codeline lineno="352"><highlight class="normal"><sp/><sp/>}</highlight></codeline>
+<codeline lineno="353"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="354"><highlight class="normal"></highlight></codeline>
+<codeline lineno="355"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>Image::drawVertArrow(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>x,</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>ys,</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>ye,uchar<sp/>colIndex,uint<sp/>mask)</highlight></codeline>
+<codeline lineno="356"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="357"><highlight class="normal"><sp/><sp/>drawVertLine(x,ys,ye,colIndex,mask);</highlight></codeline>
+<codeline lineno="358"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>i;</highlight></codeline>
+<codeline lineno="359"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(i=0;i&lt;6;i++)</highlight></codeline>
+<codeline lineno="360"><highlight class="normal"><sp/><sp/>{</highlight></codeline>
+<codeline lineno="361"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>h=i&gt;&gt;1;</highlight></codeline>
+<codeline lineno="362"><highlight class="normal"><sp/><sp/><sp/><sp/>drawHorzLine(ys+i,x-h,x+h,colIndex,0xffffffff);</highlight></codeline>
+<codeline lineno="363"><highlight class="normal"><sp/><sp/>}</highlight></codeline>
+<codeline lineno="364"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="365"><highlight class="normal"></highlight></codeline>
+<codeline lineno="366"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>Image::drawRect(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>x,</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>y,</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>w,</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>h,uchar<sp/>colIndex,uint<sp/>mask)</highlight></codeline>
+<codeline lineno="367"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="368"><highlight class="normal"><sp/><sp/>drawHorzLine(y,x,x+w-1,colIndex,mask);</highlight></codeline>
+<codeline lineno="369"><highlight class="normal"><sp/><sp/>drawHorzLine(y+h-1,x,x+w-1,colIndex,mask);</highlight></codeline>
+<codeline lineno="370"><highlight class="normal"><sp/><sp/>drawVertLine(x,y,y+h-1,colIndex,mask);</highlight></codeline>
+<codeline lineno="371"><highlight class="normal"><sp/><sp/>drawVertLine(x+w-1,y,y+h-1,colIndex,mask);</highlight></codeline>
+<codeline lineno="372"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="373"><highlight class="normal"></highlight></codeline>
+<codeline lineno="374"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>Image::fillRect(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>x,</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>y,</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>lwidth,</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>lheight,uchar<sp/>colIndex,uint<sp/>mask)</highlight></codeline>
+<codeline lineno="375"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="376"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>xp,yp,xi,yi;</highlight></codeline>
+<codeline lineno="377"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(yp=y,yi=0;yp&lt;y+lheight;yp++,yi++)</highlight></codeline>
+<codeline lineno="378"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(xp=x,xi=0;xp&lt;x+lwidth;xp++,xi++)</highlight></codeline>
+<codeline lineno="379"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(mask&amp;(1&lt;&lt;((xi+yi)&amp;0x1f)))<sp/></highlight></codeline>
+<codeline lineno="380"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>setPixel(xp,yp,colIndex);</highlight></codeline>
+<codeline lineno="381"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="382"><highlight class="normal"></highlight></codeline>
+<codeline lineno="383"><highlight class="normal"></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>Image::save(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*fileName,</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>mode)</highlight></codeline>
+<codeline lineno="384"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="385"><highlight class="normal"></highlight><highlight class="preprocessor">#if<sp/>0</highlight></codeline>
+<codeline lineno="386"><highlight class="preprocessor"></highlight><highlight class="normal"><sp/><sp/>GifEncoder<sp/>gifenc(data,</highlight></codeline>
+<codeline lineno="387"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>mode==0<sp/>?<sp/>palette<sp/>:<sp/>palette2,</highlight></codeline>
+<codeline lineno="388"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>width,height,</highlight></codeline>
+<codeline lineno="389"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>mode==0<sp/>?<sp/>3<sp/>:<sp/>4,</highlight></codeline>
+<codeline lineno="390"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>0);</highlight></codeline>
+<codeline lineno="391"><highlight class="normal"><sp/><sp/>QFile<sp/>file(fileName);</highlight></codeline>
+<codeline lineno="392"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(file.open(IO_WriteOnly))</highlight></codeline>
+<codeline lineno="393"><highlight class="normal"><sp/><sp/>{</highlight></codeline>
+<codeline lineno="394"><highlight class="normal"><sp/><sp/><sp/><sp/>gifenc.writeGIF(file);</highlight></codeline>
+<codeline lineno="395"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>TRUE;</highlight></codeline>
+<codeline lineno="396"><highlight class="normal"><sp/><sp/>}</highlight></codeline>
+<codeline lineno="397"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="398"><highlight class="normal"><sp/><sp/>{</highlight></codeline>
+<codeline lineno="399"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>FALSE;</highlight></codeline>
+<codeline lineno="400"><highlight class="normal"><sp/><sp/>}</highlight></codeline>
+<codeline lineno="401"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+<codeline lineno="402"><highlight class="preprocessor"></highlight><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>useTransparency<sp/>=<sp/>Config_getBool(</highlight><highlight class="stringliteral">&quot;FORMULA_TRANSPARENT&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="403"><highlight class="normal"><sp/><sp/>uchar*<sp/>buffer;</highlight></codeline>
+<codeline lineno="404"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>bufferSize;</highlight></codeline>
+<codeline lineno="405"><highlight class="normal"><sp/><sp/><ref refid="d6/d0e/struct_lode_p_n_g___encoder" kindref="compound">LodePNG_Encoder</ref><sp/>encoder;</highlight></codeline>
+<codeline lineno="406"><highlight class="normal"><sp/><sp/>LodePNG_Encoder_init(&amp;encoder);</highlight></codeline>
+<codeline lineno="407"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>numCols<sp/>=<sp/>mode==0<sp/>?<sp/>8<sp/>:<sp/>16;</highlight></codeline>
+<codeline lineno="408"><highlight class="normal"><sp/><sp/>Color<sp/>*pPal<sp/>=<sp/>mode==0<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>?<sp/>palette<sp/><sp/>:<sp/></highlight></codeline>
+<codeline lineno="409"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>useTransparency<sp/>?<sp/>palette2<sp/>:<sp/></highlight></codeline>
+<codeline lineno="410"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>palette3<sp/>;</highlight></codeline>
+<codeline lineno="411"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>i;</highlight></codeline>
+<codeline lineno="412"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(i=0;i&lt;numCols;i++,pPal++)</highlight></codeline>
+<codeline lineno="413"><highlight class="normal"><sp/><sp/>{</highlight></codeline>
+<codeline lineno="414"><highlight class="normal"><sp/><sp/><sp/><sp/>LodePNG_InfoColor_addPalette(&amp;encoder.infoPng.color,</highlight></codeline>
+<codeline lineno="415"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>pPal-&gt;red,pPal-&gt;green,pPal-&gt;blue,pPal-&gt;alpha);</highlight></codeline>
+<codeline lineno="416"><highlight class="normal"><sp/><sp/>}</highlight></codeline>
+<codeline lineno="417"><highlight class="normal"><sp/><sp/>encoder.infoPng.color.colorType<sp/>=<sp/>3;<sp/></highlight></codeline>
+<codeline lineno="418"><highlight class="normal"><sp/><sp/>encoder.infoRaw.color.colorType<sp/>=<sp/>3;</highlight></codeline>
+<codeline lineno="419"><highlight class="normal"><sp/><sp/>LodePNG_encode(&amp;encoder,<sp/>&amp;buffer,<sp/>&amp;bufferSize,<sp/>data,<sp/>width,<sp/>height);</highlight></codeline>
+<codeline lineno="420"><highlight class="normal"><sp/><sp/>LodePNG_saveFile(buffer,<sp/>bufferSize,<sp/>fileName);</highlight></codeline>
+<codeline lineno="421"><highlight class="normal"><sp/><sp/>free(buffer);</highlight></codeline>
+<codeline lineno="422"><highlight class="normal"><sp/><sp/>LodePNG_Encoder_cleanup(&amp;encoder);</highlight></codeline>
+<codeline lineno="423"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>TRUE;</highlight></codeline>
+<codeline lineno="424"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="425"><highlight class="normal"></highlight></codeline>
+<codeline lineno="426"><highlight class="normal"></highlight><highlight class="comment">//----------------------------------------------------------------</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="427"><highlight class="normal"></highlight></codeline>
+<codeline lineno="428"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>ColoredImage::hsl2rgb(</highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>h,</highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>s,</highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>l,</highlight></codeline>
+<codeline lineno="429"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>*pRed,</highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>*pGreen,</highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>*pBlue)</highlight></codeline>
+<codeline lineno="430"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="431"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>v;</highlight></codeline>
+<codeline lineno="432"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>r,g,b;</highlight></codeline>
+<codeline lineno="433"><highlight class="normal"></highlight></codeline>
+<codeline lineno="434"><highlight class="normal"><sp/><sp/>r<sp/>=<sp/>l;<sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>default<sp/>to<sp/>gray</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="435"><highlight class="normal"><sp/><sp/>g<sp/>=<sp/>l;</highlight></codeline>
+<codeline lineno="436"><highlight class="normal"><sp/><sp/>b<sp/>=<sp/>l;</highlight></codeline>
+<codeline lineno="437"><highlight class="normal"><sp/><sp/>v<sp/>=<sp/>(l<sp/>&lt;=<sp/>0.5)<sp/>?<sp/>(l<sp/>*<sp/>(1.0<sp/>+<sp/>s))<sp/>:<sp/>(l<sp/>+<sp/>s<sp/>-<sp/>l<sp/>*<sp/>s);</highlight></codeline>
+<codeline lineno="438"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(v<sp/>&gt;<sp/>0)</highlight></codeline>
+<codeline lineno="439"><highlight class="normal"><sp/><sp/>{</highlight></codeline>
+<codeline lineno="440"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>m;</highlight></codeline>
+<codeline lineno="441"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>sv;</highlight></codeline>
+<codeline lineno="442"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>sextant;</highlight></codeline>
+<codeline lineno="443"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>fract,<sp/>vsf,<sp/>mid1,<sp/>mid2;</highlight></codeline>
+<codeline lineno="444"><highlight class="normal"></highlight></codeline>
+<codeline lineno="445"><highlight class="normal"><sp/><sp/><sp/><sp/>m<sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>l<sp/>+<sp/>l<sp/>-<sp/>v;</highlight></codeline>
+<codeline lineno="446"><highlight class="normal"><sp/><sp/><sp/><sp/>sv<sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>(v<sp/>-<sp/>m<sp/>)<sp/>/<sp/>v;</highlight></codeline>
+<codeline lineno="447"><highlight class="normal"><sp/><sp/><sp/><sp/>h<sp/><sp/><sp/><sp/><sp/><sp/>*=<sp/>6.0;</highlight></codeline>
+<codeline lineno="448"><highlight class="normal"><sp/><sp/><sp/><sp/>sextant<sp/>=<sp/>(int)h;</highlight></codeline>
+<codeline lineno="449"><highlight class="normal"><sp/><sp/><sp/><sp/>fract<sp/><sp/><sp/>=<sp/>h<sp/>-<sp/>sextant;</highlight></codeline>
+<codeline lineno="450"><highlight class="normal"><sp/><sp/><sp/><sp/>vsf<sp/><sp/><sp/><sp/><sp/>=<sp/>v<sp/>*<sp/>sv<sp/>*<sp/>fract;</highlight></codeline>
+<codeline lineno="451"><highlight class="normal"><sp/><sp/><sp/><sp/>mid1<sp/><sp/><sp/><sp/>=<sp/>m<sp/>+<sp/>vsf;</highlight></codeline>
+<codeline lineno="452"><highlight class="normal"><sp/><sp/><sp/><sp/>mid2<sp/><sp/><sp/><sp/>=<sp/>v<sp/>-<sp/>vsf;</highlight></codeline>
+<codeline lineno="453"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">switch</highlight><highlight class="normal"><sp/>(sextant)</highlight></codeline>
+<codeline lineno="454"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="455"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/>0:</highlight></codeline>
+<codeline lineno="456"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>r<sp/>=<sp/>v;</highlight></codeline>
+<codeline lineno="457"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>g<sp/>=<sp/>mid1;</highlight></codeline>
+<codeline lineno="458"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>b<sp/>=<sp/>m;</highlight></codeline>
+<codeline lineno="459"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="460"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/>1:</highlight></codeline>
+<codeline lineno="461"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>r<sp/>=<sp/>mid2;</highlight></codeline>
+<codeline lineno="462"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>g<sp/>=<sp/>v;</highlight></codeline>
+<codeline lineno="463"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>b<sp/>=<sp/>m;</highlight></codeline>
+<codeline lineno="464"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="465"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/>2:</highlight></codeline>
+<codeline lineno="466"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>r<sp/>=<sp/>m;</highlight></codeline>
+<codeline lineno="467"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>g<sp/>=<sp/>v;</highlight></codeline>
+<codeline lineno="468"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>b<sp/>=<sp/>mid1;</highlight></codeline>
+<codeline lineno="469"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="470"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/>3:</highlight></codeline>
+<codeline lineno="471"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>r<sp/>=<sp/>m;</highlight></codeline>
+<codeline lineno="472"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>g<sp/>=<sp/>mid2;</highlight></codeline>
+<codeline lineno="473"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>b<sp/>=<sp/>v;</highlight></codeline>
+<codeline lineno="474"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="475"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/>4:</highlight></codeline>
+<codeline lineno="476"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>r<sp/>=<sp/>mid1;</highlight></codeline>
+<codeline lineno="477"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>g<sp/>=<sp/>m;</highlight></codeline>
+<codeline lineno="478"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>b<sp/>=<sp/>v;</highlight></codeline>
+<codeline lineno="479"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="480"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/>5:</highlight></codeline>
+<codeline lineno="481"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>r<sp/>=<sp/>v;</highlight></codeline>
+<codeline lineno="482"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>g<sp/>=<sp/>m;</highlight></codeline>
+<codeline lineno="483"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>b<sp/>=<sp/>mid2;</highlight></codeline>
+<codeline lineno="484"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="485"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="486"><highlight class="normal"><sp/><sp/>}</highlight></codeline>
+<codeline lineno="487"><highlight class="normal"><sp/><sp/>*pRed<sp/><sp/><sp/>=<sp/>r;</highlight></codeline>
+<codeline lineno="488"><highlight class="normal"><sp/><sp/>*pGreen<sp/>=<sp/>g;</highlight></codeline>
+<codeline lineno="489"><highlight class="normal"><sp/><sp/>*pBlue<sp/><sp/>=<sp/>b;</highlight></codeline>
+<codeline lineno="490"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="491"><highlight class="normal"></highlight></codeline>
+<codeline lineno="492"><highlight class="normal">ColoredImage::ColoredImage(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>width,</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>height,</highlight></codeline>
+<codeline lineno="493"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>uchar<sp/>*greyLevels,</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>uchar<sp/>*alphaLevels,</highlight></codeline>
+<codeline lineno="494"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>saturation,</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>hue,</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>gamma)</highlight></codeline>
+<codeline lineno="495"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="496"><highlight class="normal"><sp/><sp/>m_hasAlpha<sp/>=<sp/>alphaLevels!=0;</highlight></codeline>
+<codeline lineno="497"><highlight class="normal"><sp/><sp/>m_width<sp/><sp/><sp/><sp/>=<sp/>width;</highlight></codeline>
+<codeline lineno="498"><highlight class="normal"><sp/><sp/>m_height<sp/><sp/><sp/>=<sp/>height;</highlight></codeline>
+<codeline lineno="499"><highlight class="normal"><sp/><sp/>m_data<sp/><sp/><sp/><sp/><sp/>=<sp/>(uchar*)malloc(width*height*4);</highlight></codeline>
+<codeline lineno="500"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>i;</highlight></codeline>
+<codeline lineno="501"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(i=0;i&lt;width*height;i++)</highlight></codeline>
+<codeline lineno="502"><highlight class="normal"><sp/><sp/>{</highlight></codeline>
+<codeline lineno="503"><highlight class="normal"><sp/><sp/><sp/><sp/>uchar<sp/>r,g,b,a;</highlight></codeline>
+<codeline lineno="504"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>red,green,blue;</highlight></codeline>
+<codeline lineno="505"><highlight class="normal"><sp/><sp/><sp/><sp/>hsl2rgb(hue/360.0,<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>hue</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="506"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>saturation/255.0,<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>saturation</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="507"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>pow(greyLevels[i]/255.0,gamma/100.0),<sp/></highlight><highlight class="comment">//<sp/>luma<sp/>(gamma<sp/>corrected)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="508"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>&amp;red,&amp;green,&amp;blue);</highlight></codeline>
+<codeline lineno="509"><highlight class="normal"><sp/><sp/><sp/><sp/>r<sp/>=<sp/>(int)(red<sp/><sp/>*255.0);</highlight></codeline>
+<codeline lineno="510"><highlight class="normal"><sp/><sp/><sp/><sp/>g<sp/>=<sp/>(int)(green*255.0);</highlight></codeline>
+<codeline lineno="511"><highlight class="normal"><sp/><sp/><sp/><sp/>b<sp/>=<sp/>(int)(blue<sp/>*255.0);</highlight></codeline>
+<codeline lineno="512"><highlight class="normal"><sp/><sp/><sp/><sp/>a<sp/>=<sp/>alphaLevels<sp/>?<sp/>alphaLevels[i]<sp/>:<sp/>255;</highlight></codeline>
+<codeline lineno="513"><highlight class="normal"><sp/><sp/><sp/><sp/>m_data[i*4+0]=r;</highlight></codeline>
+<codeline lineno="514"><highlight class="normal"><sp/><sp/><sp/><sp/>m_data[i*4+1]=g;</highlight></codeline>
+<codeline lineno="515"><highlight class="normal"><sp/><sp/><sp/><sp/>m_data[i*4+2]=b;</highlight></codeline>
+<codeline lineno="516"><highlight class="normal"><sp/><sp/><sp/><sp/>m_data[i*4+3]=a;</highlight></codeline>
+<codeline lineno="517"><highlight class="normal"><sp/><sp/>}</highlight></codeline>
+<codeline lineno="518"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="519"><highlight class="normal"></highlight></codeline>
+<codeline lineno="520"><highlight class="normal">ColoredImage::~ColoredImage()</highlight></codeline>
+<codeline lineno="521"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="522"><highlight class="normal"><sp/><sp/>free(m_data);</highlight></codeline>
+<codeline lineno="523"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="524"><highlight class="normal"></highlight></codeline>
+<codeline lineno="525"><highlight class="normal"></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>ColoredImage::save(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*fileName)</highlight></codeline>
+<codeline lineno="526"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="527"><highlight class="normal"><sp/><sp/>uchar<sp/>*buffer;</highlight></codeline>
+<codeline lineno="528"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>bufferSize;</highlight></codeline>
+<codeline lineno="529"><highlight class="normal"><sp/><sp/><ref refid="d6/d0e/struct_lode_p_n_g___encoder" kindref="compound">LodePNG_Encoder</ref><sp/>encoder;</highlight></codeline>
+<codeline lineno="530"><highlight class="normal"><sp/><sp/>LodePNG_Encoder_init(&amp;encoder);</highlight></codeline>
+<codeline lineno="531"><highlight class="normal"><sp/><sp/>encoder.infoPng.color.colorType<sp/>=<sp/>m_hasAlpha<sp/>?<sp/>6<sp/>:<sp/>2;<sp/></highlight><highlight class="comment">//<sp/>2=RGB<sp/>24<sp/>bit,<sp/>6=RGBA<sp/>32<sp/>bit</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="532"><highlight class="normal"><sp/><sp/>encoder.infoRaw.color.colorType<sp/>=<sp/>6;<sp/></highlight><highlight class="comment">//<sp/>6=RGBA<sp/>32<sp/>bit</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="533"><highlight class="normal"><sp/><sp/>LodePNG_encode(&amp;encoder,<sp/>&amp;buffer,<sp/>&amp;bufferSize,<sp/>m_data,<sp/>m_width,<sp/>m_height);</highlight></codeline>
+<codeline lineno="534"><highlight class="normal"><sp/><sp/>LodePNG_saveFile(buffer,<sp/>bufferSize,<sp/>fileName);</highlight></codeline>
+<codeline lineno="535"><highlight class="normal"><sp/><sp/>LodePNG_Encoder_cleanup(&amp;encoder);</highlight></codeline>
+<codeline lineno="536"><highlight class="normal"><sp/><sp/>free(buffer);</highlight></codeline>
+<codeline lineno="537"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>TRUE;</highlight></codeline>
+<codeline lineno="538"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="539"><highlight class="normal"></highlight></codeline>
+<codeline lineno="540"><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/image.cpp"/>
+  </compounddef>
+</doxygen>

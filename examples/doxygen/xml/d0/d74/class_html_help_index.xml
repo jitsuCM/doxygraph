@@ -1,0 +1,195 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.2">
+  <compounddef id="d0/d74/class_html_help_index" kind="class" prot="public">
+    <compoundname>HtmlHelpIndex</compoundname>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="d0/d74/class_html_help_index_1afe2256fdbed0767a38e66df861910638" prot="private" static="no" mutable="no">
+        <type>IndexFieldSDict *</type>
+        <definition>IndexFieldSDict* HtmlHelpIndex::dict</definition>
+        <argsstring></argsstring>
+        <name>dict</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/htmlhelp.cpp" line="76" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/htmlhelp.cpp" bodystart="76" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d0/d74/class_html_help_index_1a9e407d5bdbf0ec361298b289f12c1b7d" prot="private" static="no" mutable="no">
+        <type><ref refid="d4/db3/class_html_help" kindref="compound">HtmlHelp</ref> *</type>
+        <definition>HtmlHelp* HtmlHelpIndex::m_help</definition>
+        <argsstring></argsstring>
+        <name>m_help</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/htmlhelp.cpp" line="77" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/htmlhelp.cpp" bodystart="77" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="d0/d74/class_html_help_index_1a9a6f1abc33b6d3679229d9dbd5ed92d9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>HtmlHelpIndex::HtmlHelpIndex</definition>
+        <argsstring>(HtmlHelp *help)</argsstring>
+        <name>HtmlHelpIndex</name>
+        <param>
+          <type><ref refid="d4/db3/class_html_help" kindref="compound">HtmlHelp</ref> *</type>
+          <declname>help</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs a new <ref refid="d4/db3/class_html_help" kindref="compound">HtmlHelp</ref> index </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/htmlhelp.cpp" line="69" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/htmlhelp.cpp" bodystart="81" bodyend="85"/>
+      </memberdef>
+      <memberdef kind="function" id="d0/d74/class_html_help_index_1a0b68b2ca104803c3a6dc76a18aa05f13" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>HtmlHelpIndex::~HtmlHelpIndex</definition>
+        <argsstring>()</argsstring>
+        <name>~HtmlHelpIndex</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Destroys the <ref refid="d4/db3/class_html_help" kindref="compound">HtmlHelp</ref> index </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/htmlhelp.cpp" line="70" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/htmlhelp.cpp" bodystart="88" bodyend="91"/>
+      </memberdef>
+      <memberdef kind="function" id="d0/d74/class_html_help_index_1aa6f679550c81eee3249f29395ad7e174" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void HtmlHelpIndex::addItem</definition>
+        <argsstring>(const char *first, const char *second, const char *url, const char *anchor, bool hasLink, bool reversed)</argsstring>
+        <name>addItem</name>
+        <param>
+          <type>const char *</type>
+          <declname>first</declname>
+          <defname>level1</defname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>second</declname>
+          <defname>level2</defname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>url</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>anchor</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>hasLink</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>reversed</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Stores an item in the index if it is not already present. Items are stored in alphetical order, by sorting on the concatenation of <emphasis>level1</emphasis> and <emphasis>level2</emphasis> (if present).</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>level1</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the string at level 1 in the index. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>level2</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the string at level 2 in the index (or 0 if not applicable). </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>url</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the url of the documentation (without .html extension). </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>anchor</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the anchor of the documentation within the page. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>hasLink</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>if true, the url (without anchor) can be used in the level1 item, when writing the header of a list of level2 items. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>reversed</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>TRUE if level1 is the member name and level2 the compound name. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/htmlhelp.cpp" line="73" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/htmlhelp.cpp" bodystart="106" bodyend="128"/>
+      </memberdef>
+      <memberdef kind="function" id="d0/d74/class_html_help_index_1aa7658c0bcf38f46aed6664cd5dbd1be1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void HtmlHelpIndex::writeFields</definition>
+        <argsstring>(FTextStream &amp;t)</argsstring>
+        <name>writeFields</name>
+        <param>
+          <type><ref refid="dc/d3c/class_f_text_stream" kindref="compound">FTextStream</ref> &amp;</type>
+          <declname>t</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Writes the sorted list of index items into a html like list.</para><para>An list of calls with <computeroutput>name = level1,level2</computeroutput> as follows: <preformatted>
+     a1,b1
+     a1,b2
+     a2,b1
+     a2,b2
+     a3
+     a4,b1
+   </preformatted></para><para>Will result in the following list:</para><para><preformatted>
+     a1       -&gt; link to url if hasLink==TRUE
+       b1     -&gt; link to url::anchor
+       b2     -&gt; link to url::anchor
+     a2       -&gt; link to url if hasLink==TRUE
+       b1     -&gt; link to url::anchor
+       b2     -&gt; link to url::anchor
+     a3       -&gt; link to url if hasLink==TRUE
+     a4       -&gt; link to url if hasLink==TRUE
+       b1     -&gt; link to url::anchor 
+   </preformatted> </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/htmlhelp.cpp" line="74" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/htmlhelp.cpp" bodystart="166" bodyend="260"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>A helper class for <ref refid="d4/db3/class_html_help" kindref="compound">HtmlHelp</ref> that manages a two level index in alphabetical order. </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/htmlhelp.cpp" line="67" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/htmlhelp.cpp" bodystart="66" bodyend="78"/>
+    <listofallmembers>
+      <member refid="d0/d74/class_html_help_index_1aa6f679550c81eee3249f29395ad7e174" prot="public" virt="non-virtual"><scope>HtmlHelpIndex</scope><name>addItem</name></member>
+      <member refid="d0/d74/class_html_help_index_1afe2256fdbed0767a38e66df861910638" prot="private" virt="non-virtual"><scope>HtmlHelpIndex</scope><name>dict</name></member>
+      <member refid="d0/d74/class_html_help_index_1a9a6f1abc33b6d3679229d9dbd5ed92d9" prot="public" virt="non-virtual"><scope>HtmlHelpIndex</scope><name>HtmlHelpIndex</name></member>
+      <member refid="d0/d74/class_html_help_index_1a9e407d5bdbf0ec361298b289f12c1b7d" prot="private" virt="non-virtual"><scope>HtmlHelpIndex</scope><name>m_help</name></member>
+      <member refid="d0/d74/class_html_help_index_1aa7658c0bcf38f46aed6664cd5dbd1be1" prot="public" virt="non-virtual"><scope>HtmlHelpIndex</scope><name>writeFields</name></member>
+      <member refid="d0/d74/class_html_help_index_1a0b68b2ca104803c3a6dc76a18aa05f13" prot="public" virt="non-virtual"><scope>HtmlHelpIndex</scope><name>~HtmlHelpIndex</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

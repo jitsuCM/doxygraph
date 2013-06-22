@@ -1,0 +1,76 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.2">
+  <compounddef id="dd/dc6/struct_mappers" kind="struct" prot="public">
+    <compoundname>Mappers</compoundname>
+    <includes refid="d3/d42/cmdmapper_8h" local="no">cmdmapper.h</includes>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="dd/dc6/struct_mappers_1a7f535b1382d0320d5ad22b75386da706" prot="public" static="yes" mutable="no">
+        <type><ref refid="d9/d09/class_mapper" kindref="compound">Mapper</ref> *</type>
+        <definition>Mapper * Mappers::cmdMapper</definition>
+        <argsstring></argsstring>
+        <name>cmdMapper</name>
+        <initializer>= new <ref refid="d9/d09/class_mapper" kindref="compound">Mapper</ref>(cmdMap,TRUE)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/cmdmapper.h" line="205" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/cmdmapper.h" bodystart="205" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="dd/dc6/struct_mappers_1abeeec7950ae00f874c06bee2f04337ff" prot="public" static="yes" mutable="no">
+        <type><ref refid="d9/d09/class_mapper" kindref="compound">Mapper</ref> *</type>
+        <definition>Mapper * Mappers::htmlTagMapper</definition>
+        <argsstring></argsstring>
+        <name>htmlTagMapper</name>
+        <initializer>= new <ref refid="d9/d09/class_mapper" kindref="compound">Mapper</ref>(htmlTagMap,FALSE)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/cmdmapper.h" line="206" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/cmdmapper.h" bodystart="206" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="dd/dc6/struct_mappers_1aa2ba9c5371b148a67f2dbd2f85620968" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Mappers::freeMappers</definition>
+        <argsstring>()</argsstring>
+        <name>freeMappers</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/cmdmapper.h" line="204" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/cmdmapper.cpp" bodystart="231" bodyend="235"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Class representing a namespace for the doxygen and HTML command mappers. </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="3699">
+        <label>Mapper</label>
+        <link refid="d9/d09/class_mapper"/>
+      </node>
+      <node id="3698">
+        <label>Mappers</label>
+        <link refid="dd/dc6/struct_mappers"/>
+        <childnode refid="3699" relation="usage">
+          <edgelabel>htmlTagMapper</edgelabel>
+          <edgelabel>cmdMapper</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/cmdmapper.h" line="203" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/cmdmapper.h" bodystart="202" bodyend="207"/>
+    <listofallmembers>
+      <member refid="dd/dc6/struct_mappers_1a7f535b1382d0320d5ad22b75386da706" prot="public" virt="non-virtual"><scope>Mappers</scope><name>cmdMapper</name></member>
+      <member refid="dd/dc6/struct_mappers_1aa2ba9c5371b148a67f2dbd2f85620968" prot="public" virt="non-virtual"><scope>Mappers</scope><name>freeMappers</name></member>
+      <member refid="dd/dc6/struct_mappers_1abeeec7950ae00f874c06bee2f04337ff" prot="public" virt="non-virtual"><scope>Mappers</scope><name>htmlTagMapper</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,480 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.2">
+  <compounddef id="da/db6/class_html_code_generator" kind="class" prot="public">
+    <compoundname>HtmlCodeGenerator</compoundname>
+    <basecompoundref refid="d5/d9c/class_code_output_interface" prot="public" virt="non-virtual">CodeOutputInterface</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="da/db6/class_html_code_generator_1a7d85da51b7e82879254f3dcfe7faf653" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool HtmlCodeGenerator::m_streamSet</definition>
+        <argsstring></argsstring>
+        <name>m_streamSet</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/htmlgen.h" line="55" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/htmlgen.h" bodystart="55" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="da/db6/class_html_code_generator_1ac8b4ffa099d795e5f11aa7df5da2ceba" prot="private" static="no" mutable="no">
+        <type><ref refid="dc/d3c/class_f_text_stream" kindref="compound">FTextStream</ref></type>
+        <definition>FTextStream HtmlCodeGenerator::m_t</definition>
+        <argsstring></argsstring>
+        <name>m_t</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/htmlgen.h" line="56" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/htmlgen.h" bodystart="56" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="da/db6/class_html_code_generator_1acf7e275e8dd80016271da6c856e50885" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int HtmlCodeGenerator::m_col</definition>
+        <argsstring></argsstring>
+        <name>m_col</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/htmlgen.h" line="57" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/htmlgen.h" bodystart="57" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="da/db6/class_html_code_generator_1a80720eb841d423de493dda614c8fed50" prot="private" static="no" mutable="no">
+        <type>QCString</type>
+        <definition>QCString HtmlCodeGenerator::m_relPath</definition>
+        <argsstring></argsstring>
+        <name>m_relPath</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/htmlgen.h" line="58" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/htmlgen.h" bodystart="58" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="da/db6/class_html_code_generator_1a56e49ef654ba100c1d218aa99a881fe8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>HtmlCodeGenerator::HtmlCodeGenerator</definition>
+        <argsstring>(FTextStream &amp;t, const QCString &amp;relPath)</argsstring>
+        <name>HtmlCodeGenerator</name>
+        <param>
+          <type><ref refid="dc/d3c/class_f_text_stream" kindref="compound">FTextStream</ref> &amp;</type>
+          <declname>t</declname>
+        </param>
+        <param>
+          <type>const QCString &amp;</type>
+          <declname>relPath</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/htmlgen.h" line="34" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/htmlgen.cpp" bodystart="1230" bodyend="1234"/>
+      </memberdef>
+      <memberdef kind="function" id="da/db6/class_html_code_generator_1a8a10788cb7969a1c9bd11548a7d58b6a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>HtmlCodeGenerator::HtmlCodeGenerator</definition>
+        <argsstring>()</argsstring>
+        <name>HtmlCodeGenerator</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/htmlgen.h" line="35" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/htmlgen.cpp" bodystart="1225" bodyend="1228"/>
+      </memberdef>
+      <memberdef kind="function" id="da/db6/class_html_code_generator_1a9b5bfa3e5431129fb292ccde2cabcfe8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void HtmlCodeGenerator::setTextStream</definition>
+        <argsstring>(FTextStream &amp;t)</argsstring>
+        <name>setTextStream</name>
+        <param>
+          <type><ref refid="dc/d3c/class_f_text_stream" kindref="compound">FTextStream</ref> &amp;</type>
+          <declname>t</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/htmlgen.h" line="36" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/htmlgen.cpp" bodystart="1236" bodyend="1240"/>
+      </memberdef>
+      <memberdef kind="function" id="da/db6/class_html_code_generator_1a9bc120e267a5830b05030cf6c74a3d41" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void HtmlCodeGenerator::setRelativePath</definition>
+        <argsstring>(const QCString &amp;path)</argsstring>
+        <name>setRelativePath</name>
+        <param>
+          <type>const QCString &amp;</type>
+          <declname>path</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/htmlgen.h" line="37" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/htmlgen.cpp" bodystart="1242" bodyend="1245"/>
+      </memberdef>
+      <memberdef kind="function" id="da/db6/class_html_code_generator_1aa482ae62b65a2fd1cc6cda022e88c920" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void HtmlCodeGenerator::codify</definition>
+        <argsstring>(const char *text)</argsstring>
+        <name>codify</name>
+        <reimplements refid="d5/d9c/class_code_output_interface_1aa29a5eedda08596ace50ed5b59c8ae7f">codify</reimplements>
+        <param>
+          <type>const char *</type>
+          <declname>s</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Writes an ASCII string to the output. This function should keep spaces visible, should break lines at a newline and should convert tabs to the right number of spaces. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/htmlgen.h" line="38" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/htmlgen.cpp" bodystart="1247" bodyend="1293"/>
+        <referencedby refid="d7/d41/class_html_generator_1a574ab87e7aa9b92c11248027912851bc" compoundref="d8/d56/htmlgen_8h" startline="89" endline="90">HtmlGenerator::codify</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="da/db6/class_html_code_generator_1a5098b373d91b9674cc399132a321f040" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void HtmlCodeGenerator::writeCodeLink</definition>
+        <argsstring>(const char *ref, const char *file, const char *anchor, const char *name, const char *tooltip)</argsstring>
+        <name>writeCodeLink</name>
+        <reimplements refid="d5/d9c/class_code_output_interface_1a102e2b7f40916c75b79871307f5bb674">writeCodeLink</reimplements>
+        <param>
+          <type>const char *</type>
+          <declname>ref</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>file</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>anchor</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>name</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>tooltip</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Writes a link to an object in a code fragment. <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>ref</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>If this is non-zero, the object is to be found in an external documentation file. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>file</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The file in which the object is located. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>anchor</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The anchor uniquely identifying the object within the file. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>name</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The text to display as a placeholder for the link. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>tooltip</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The tooltip to display when the mouse is on the link. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/htmlgen.h" line="41" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/htmlgen.cpp" bodystart="1347" bodyend="1372"/>
+        <referencedby refid="d7/d41/class_html_generator_1a91b156be8ac84d8a2a8a88e7adf0869b" compoundref="d8/d56/htmlgen_8h" startline="91" endline="94">HtmlGenerator::writeCodeLink</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="da/db6/class_html_code_generator_1a926369daa75db9967dc5c6f818b5b406" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void HtmlCodeGenerator::writeLineNumber</definition>
+        <argsstring>(const char *, const char *, const char *, int)</argsstring>
+        <name>writeLineNumber</name>
+        <reimplements refid="d5/d9c/class_code_output_interface_1a8115646785b65e292480c2e4e969b389">writeLineNumber</reimplements>
+        <param>
+          <type>const char *</type>
+          <defname>ref</defname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <defname>filename</defname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <defname>anchor</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <defname>l</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/htmlgen.h" line="42" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/htmlgen.cpp" bodystart="1324" bodyend="1344"/>
+      </memberdef>
+      <memberdef kind="function" id="da/db6/class_html_code_generator_1afbc2414a5387b977150b015dfbd16c10" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void HtmlCodeGenerator::startCodeLine</definition>
+        <argsstring>(bool)</argsstring>
+        <name>startCodeLine</name>
+        <reimplements refid="d5/d9c/class_code_output_interface_1a080d71d457de084ce2b3245bca5a0d68">startCodeLine</reimplements>
+        <param>
+          <type>bool</type>
+          <defname>hasLineNumbers</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/htmlgen.h" line="43" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/htmlgen.cpp" bodystart="1374" bodyend="1378"/>
+      </memberdef>
+      <memberdef kind="function" id="da/db6/class_html_code_generator_1ab0909b2a97301c8da4fcbf83831c84b3" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void HtmlCodeGenerator::endCodeLine</definition>
+        <argsstring>()</argsstring>
+        <name>endCodeLine</name>
+        <reimplements refid="d5/d9c/class_code_output_interface_1afac5763eafc78f93b82691fb9a6dcff7">endCodeLine</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/htmlgen.h" line="44" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/htmlgen.cpp" bodystart="1380" bodyend="1383"/>
+      </memberdef>
+      <memberdef kind="function" id="da/db6/class_html_code_generator_1a9ceb803ad05e69844cdddfee3a9b406b" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void HtmlCodeGenerator::startCodeAnchor</definition>
+        <argsstring>(const char *label)</argsstring>
+        <name>startCodeAnchor</name>
+        <reimplements refid="d5/d9c/class_code_output_interface_1a1bac70cba0bb8c2ae9034df5b15c95b1">startCodeAnchor</reimplements>
+        <param>
+          <type>const char *</type>
+          <declname>label</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/htmlgen.h" line="45" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/htmlgen.cpp" bodystart="1385" bodyend="1389"/>
+      </memberdef>
+      <memberdef kind="function" id="da/db6/class_html_code_generator_1a900a05e7b4278f340ff653c22e45a21f" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void HtmlCodeGenerator::endCodeAnchor</definition>
+        <argsstring>()</argsstring>
+        <name>endCodeAnchor</name>
+        <reimplements refid="d5/d9c/class_code_output_interface_1a404ebed09713d9736191657e3519c6b4">endCodeAnchor</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/htmlgen.h" line="46" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/htmlgen.cpp" bodystart="1391" bodyend="1394"/>
+      </memberdef>
+      <memberdef kind="function" id="da/db6/class_html_code_generator_1ae7eaca4c34eeb6bf1aeaf0ac5ce4257b" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void HtmlCodeGenerator::startFontClass</definition>
+        <argsstring>(const char *s)</argsstring>
+        <name>startFontClass</name>
+        <reimplements refid="d5/d9c/class_code_output_interface_1af68087fd1ed0e5b28b446889625337bb">startFontClass</reimplements>
+        <param>
+          <type>const char *</type>
+          <declname>s</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/htmlgen.h" line="47" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/htmlgen.cpp" bodystart="1397" bodyend="1400"/>
+      </memberdef>
+      <memberdef kind="function" id="da/db6/class_html_code_generator_1a8efe5c697dc169b24b5e7da7cf54305e" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void HtmlCodeGenerator::endFontClass</definition>
+        <argsstring>()</argsstring>
+        <name>endFontClass</name>
+        <reimplements refid="d5/d9c/class_code_output_interface_1a2b8ac05a391dae36793aa3aa8714a0f6">endFontClass</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/htmlgen.h" line="48" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/htmlgen.cpp" bodystart="1402" bodyend="1405"/>
+      </memberdef>
+      <memberdef kind="function" id="da/db6/class_html_code_generator_1a89ec8d4b9eb2b5162b4d9a7cab209b4a" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void HtmlCodeGenerator::writeCodeAnchor</definition>
+        <argsstring>(const char *anchor)</argsstring>
+        <name>writeCodeAnchor</name>
+        <reimplements refid="d5/d9c/class_code_output_interface_1a1f6394c4ef7c4143de90bcaf3a65c0b4">writeCodeAnchor</reimplements>
+        <param>
+          <type>const char *</type>
+          <declname>anchor</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/htmlgen.h" line="49" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/htmlgen.cpp" bodystart="1407" bodyend="1410"/>
+      </memberdef>
+      <memberdef kind="function" id="da/db6/class_html_code_generator_1a6ac7fde67764c26857967eed883eb36b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>void HtmlCodeGenerator::setCurrentDoc</definition>
+        <argsstring>(Definition *, const char *, bool)</argsstring>
+        <name>setCurrentDoc</name>
+        <reimplements refid="d5/d9c/class_code_output_interface_1a67a190860748597bd65b4cfc313797d3">setCurrentDoc</reimplements>
+        <param>
+          <type><ref refid="d5/dcc/class_definition" kindref="compound">Definition</ref> *</type>
+        </param>
+        <param>
+          <type>const char *</type>
+        </param>
+        <param>
+          <type>bool</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/htmlgen.h" line="50" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/htmlgen.h" bodystart="50" bodyend="50"/>
+      </memberdef>
+      <memberdef kind="function" id="da/db6/class_html_code_generator_1a589f4d1ffce901b424bcbc0db0808471" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>void HtmlCodeGenerator::addWord</definition>
+        <argsstring>(const char *, bool)</argsstring>
+        <name>addWord</name>
+        <reimplements refid="d5/d9c/class_code_output_interface_1a2734a8371d6e710620ad238ed8de118e">addWord</reimplements>
+        <param>
+          <type>const char *</type>
+        </param>
+        <param>
+          <type>bool</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/htmlgen.h" line="51" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/htmlgen.h" bodystart="51" bodyend="51"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="da/db6/class_html_code_generator_1abb4c097fc9c9e0c4a7952922d7b4d5f1" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void HtmlCodeGenerator::docify</definition>
+        <argsstring>(const char *str)</argsstring>
+        <name>docify</name>
+        <param>
+          <type>const char *</type>
+          <declname>str</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/htmlgen.h" line="54" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/htmlgen.cpp" bodystart="1295" bodyend="1322"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="3533">
+        <label>CodeOutputInterface</label>
+        <link refid="d5/d9c/class_code_output_interface"/>
+      </node>
+      <node id="3532">
+        <label>HtmlCodeGenerator</label>
+        <link refid="da/db6/class_html_code_generator"/>
+        <childnode refid="3533" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="3535">
+        <label>CodeOutputInterface</label>
+        <link refid="d5/d9c/class_code_output_interface"/>
+      </node>
+      <node id="3534">
+        <label>HtmlCodeGenerator</label>
+        <link refid="da/db6/class_html_code_generator"/>
+        <childnode refid="3535" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/htmlgen.h" line="32" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/htmlgen.h" bodystart="31" bodyend="59"/>
+    <listofallmembers>
+      <member refid="da/db6/class_html_code_generator_1a589f4d1ffce901b424bcbc0db0808471" prot="public" virt="virtual"><scope>HtmlCodeGenerator</scope><name>addWord</name></member>
+      <member refid="da/db6/class_html_code_generator_1aa482ae62b65a2fd1cc6cda022e88c920" prot="public" virt="virtual"><scope>HtmlCodeGenerator</scope><name>codify</name></member>
+      <member refid="da/db6/class_html_code_generator_1abb4c097fc9c9e0c4a7952922d7b4d5f1" prot="private" virt="non-virtual"><scope>HtmlCodeGenerator</scope><name>docify</name></member>
+      <member refid="da/db6/class_html_code_generator_1a900a05e7b4278f340ff653c22e45a21f" prot="public" virt="virtual"><scope>HtmlCodeGenerator</scope><name>endCodeAnchor</name></member>
+      <member refid="da/db6/class_html_code_generator_1ab0909b2a97301c8da4fcbf83831c84b3" prot="public" virt="virtual"><scope>HtmlCodeGenerator</scope><name>endCodeLine</name></member>
+      <member refid="da/db6/class_html_code_generator_1a8efe5c697dc169b24b5e7da7cf54305e" prot="public" virt="virtual"><scope>HtmlCodeGenerator</scope><name>endFontClass</name></member>
+      <member refid="da/db6/class_html_code_generator_1a56e49ef654ba100c1d218aa99a881fe8" prot="public" virt="non-virtual"><scope>HtmlCodeGenerator</scope><name>HtmlCodeGenerator</name></member>
+      <member refid="da/db6/class_html_code_generator_1a8a10788cb7969a1c9bd11548a7d58b6a" prot="public" virt="non-virtual"><scope>HtmlCodeGenerator</scope><name>HtmlCodeGenerator</name></member>
+      <member refid="da/db6/class_html_code_generator_1acf7e275e8dd80016271da6c856e50885" prot="private" virt="non-virtual"><scope>HtmlCodeGenerator</scope><name>m_col</name></member>
+      <member refid="da/db6/class_html_code_generator_1a80720eb841d423de493dda614c8fed50" prot="private" virt="non-virtual"><scope>HtmlCodeGenerator</scope><name>m_relPath</name></member>
+      <member refid="da/db6/class_html_code_generator_1a7d85da51b7e82879254f3dcfe7faf653" prot="private" virt="non-virtual"><scope>HtmlCodeGenerator</scope><name>m_streamSet</name></member>
+      <member refid="da/db6/class_html_code_generator_1ac8b4ffa099d795e5f11aa7df5da2ceba" prot="private" virt="non-virtual"><scope>HtmlCodeGenerator</scope><name>m_t</name></member>
+      <member refid="da/db6/class_html_code_generator_1a6ac7fde67764c26857967eed883eb36b" prot="public" virt="virtual"><scope>HtmlCodeGenerator</scope><name>setCurrentDoc</name></member>
+      <member refid="da/db6/class_html_code_generator_1a9bc120e267a5830b05030cf6c74a3d41" prot="public" virt="non-virtual"><scope>HtmlCodeGenerator</scope><name>setRelativePath</name></member>
+      <member refid="da/db6/class_html_code_generator_1a9b5bfa3e5431129fb292ccde2cabcfe8" prot="public" virt="non-virtual"><scope>HtmlCodeGenerator</scope><name>setTextStream</name></member>
+      <member refid="da/db6/class_html_code_generator_1a9ceb803ad05e69844cdddfee3a9b406b" prot="public" virt="virtual"><scope>HtmlCodeGenerator</scope><name>startCodeAnchor</name></member>
+      <member refid="da/db6/class_html_code_generator_1afbc2414a5387b977150b015dfbd16c10" prot="public" virt="virtual"><scope>HtmlCodeGenerator</scope><name>startCodeLine</name></member>
+      <member refid="da/db6/class_html_code_generator_1ae7eaca4c34eeb6bf1aeaf0ac5ce4257b" prot="public" virt="virtual"><scope>HtmlCodeGenerator</scope><name>startFontClass</name></member>
+      <member refid="da/db6/class_html_code_generator_1a89ec8d4b9eb2b5162b4d9a7cab209b4a" prot="public" virt="virtual"><scope>HtmlCodeGenerator</scope><name>writeCodeAnchor</name></member>
+      <member refid="da/db6/class_html_code_generator_1a5098b373d91b9674cc399132a321f040" prot="public" virt="virtual"><scope>HtmlCodeGenerator</scope><name>writeCodeLink</name></member>
+      <member refid="da/db6/class_html_code_generator_1a926369daa75db9967dc5c6f818b5b406" prot="public" virt="virtual"><scope>HtmlCodeGenerator</scope><name>writeLineNumber</name></member>
+      <member refid="d5/d9c/class_code_output_interface_1a09fd2fd0be98227359200de7ab89c7e6" prot="public" virt="virtual"><scope>HtmlCodeGenerator</scope><name>~CodeOutputInterface</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

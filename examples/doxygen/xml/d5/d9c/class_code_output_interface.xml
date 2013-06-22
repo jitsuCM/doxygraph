@@ -1,0 +1,463 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.2">
+  <compounddef id="d5/d9c/class_code_output_interface" kind="class" prot="public" abstract="yes">
+    <compoundname>CodeOutputInterface</compoundname>
+    <derivedcompoundref refid="df/d27/class_base_output_doc_interface" prot="public" virt="non-virtual">BaseOutputDocInterface</derivedcompoundref>
+    <derivedcompoundref refid="dd/d8a/class_dev_null_code_doc_interface" prot="public" virt="non-virtual">DevNullCodeDocInterface</derivedcompoundref>
+    <derivedcompoundref refid="d7/d80/class_docbook_code_generator" prot="public" virt="non-virtual">DocbookCodeGenerator</derivedcompoundref>
+    <derivedcompoundref refid="da/db6/class_html_code_generator" prot="public" virt="non-virtual">HtmlCodeGenerator</derivedcompoundref>
+    <derivedcompoundref refid="dd/d66/class_x_m_l_code_generator" prot="public" virt="non-virtual">XMLCodeGenerator</derivedcompoundref>
+    <includes refid="df/d06/outputgen_8h" local="no">outputgen.h</includes>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="d5/d9c/class_code_output_interface_1a09fd2fd0be98227359200de7ab89c7e6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type></type>
+        <definition>virtual CodeOutputInterface::~CodeOutputInterface</definition>
+        <argsstring>()</argsstring>
+        <name>~CodeOutputInterface</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/outputgen.h" line="45" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/outputgen.h" bodystart="45" bodyend="45"/>
+      </memberdef>
+      <memberdef kind="function" id="d5/d9c/class_code_output_interface_1aa29a5eedda08596ace50ed5b59c8ae7f" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>void</type>
+        <definition>virtual void CodeOutputInterface::codify</definition>
+        <argsstring>(const char *s)=0</argsstring>
+        <name>codify</name>
+        <reimplementedby refid="da/db6/class_html_code_generator_1aa482ae62b65a2fd1cc6cda022e88c920">codify</reimplementedby>
+        <reimplementedby refid="d0/da4/class_r_t_f_generator_1a331ca74e622c48bbbcad7e02139a6bfb">codify</reimplementedby>
+        <reimplementedby refid="de/da5/class_man_generator_1a6e70bf6444a4e6d5db43f5bbb7b6b125">codify</reimplementedby>
+        <reimplementedby refid="d3/d77/class_latex_generator_1a0013e3c0a103883ba879974c92b5a989">codify</reimplementedby>
+        <reimplementedby refid="d7/d41/class_html_generator_1a574ab87e7aa9b92c11248027912851bc">codify</reimplementedby>
+        <reimplementedby refid="df/dc8/class_output_list_1a81c7d3f51fa62b85c2699830f7170ccd">codify</reimplementedby>
+        <param>
+          <type>const char *</type>
+          <declname>s</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Writes an ASCII string to the output. This function should keep spaces visible, should break lines at a newline and should convert tabs to the right number of spaces. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/outputgen.h" line="50"/>
+        <referencedby refid="df/dc8/class_output_list_1a81c7d3f51fa62b85c2699830f7170ccd" compoundref="d2/db9/outputlist_8h" startline="143" endline="144">OutputList::codify</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="d5/d9c/class_code_output_interface_1a102e2b7f40916c75b79871307f5bb674" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>void</type>
+        <definition>virtual void CodeOutputInterface::writeCodeLink</definition>
+        <argsstring>(const char *ref, const char *file, const char *anchor, const char *name, const char *tooltip)=0</argsstring>
+        <name>writeCodeLink</name>
+        <reimplementedby refid="da/db6/class_html_code_generator_1a5098b373d91b9674cc399132a321f040">writeCodeLink</reimplementedby>
+        <reimplementedby refid="d0/da4/class_r_t_f_generator_1ad598f8811fde4d3b1849c2e9b92a6686">writeCodeLink</reimplementedby>
+        <reimplementedby refid="de/da5/class_man_generator_1ac4d91e5763d584238139d65d873e9f64">writeCodeLink</reimplementedby>
+        <reimplementedby refid="d3/d77/class_latex_generator_1af7b390d37f164fa8a094541e95be2bd0">writeCodeLink</reimplementedby>
+        <reimplementedby refid="d7/d41/class_html_generator_1a91b156be8ac84d8a2a8a88e7adf0869b">writeCodeLink</reimplementedby>
+        <reimplementedby refid="df/dc8/class_output_list_1adebe51dec7320f28fe291d5e1dae740c">writeCodeLink</reimplementedby>
+        <param>
+          <type>const char *</type>
+          <declname>ref</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>file</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>anchor</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>name</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>tooltip</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Writes a link to an object in a code fragment. <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>ref</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>If this is non-zero, the object is to be found in an external documentation file. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>file</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The file in which the object is located. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>anchor</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The anchor uniquely identifying the object within the file. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>name</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The text to display as a placeholder for the link. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>tooltip</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The tooltip to display when the mouse is on the link. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/outputgen.h" line="63"/>
+        <referencedby refid="df/dc8/class_output_list_1adebe51dec7320f28fe291d5e1dae740c" compoundref="d2/db9/outputlist_8h" startline="148" endline="151">OutputList::writeCodeLink</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="d5/d9c/class_code_output_interface_1a8115646785b65e292480c2e4e969b389" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>void</type>
+        <definition>virtual void CodeOutputInterface::writeLineNumber</definition>
+        <argsstring>(const char *ref, const char *file, const char *anchor, int lineNumber)=0</argsstring>
+        <name>writeLineNumber</name>
+        <reimplementedby refid="da/db6/class_html_code_generator_1a926369daa75db9967dc5c6f818b5b406">writeLineNumber</reimplementedby>
+        <reimplementedby refid="d7/d41/class_html_generator_1a042fed032c729b4a5e44b9a7c86385a7">writeLineNumber</reimplementedby>
+        <reimplementedby refid="d0/da4/class_r_t_f_generator_1a4e6a13e14340ff6585c305d3c9b55c4f">writeLineNumber</reimplementedby>
+        <reimplementedby refid="de/da5/class_man_generator_1a3fe4aad0243fbecd3b746448a9373d3c">writeLineNumber</reimplementedby>
+        <reimplementedby refid="d3/d77/class_latex_generator_1a02bd7806ea67c323b902b2311811eb2b">writeLineNumber</reimplementedby>
+        <reimplementedby refid="df/dc8/class_output_list_1a9472c77d09f7049b64dbad0c4ba13ccd">writeLineNumber</reimplementedby>
+        <param>
+          <type>const char *</type>
+          <declname>ref</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>file</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>anchor</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>lineNumber</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/outputgen.h" line="66"/>
+      </memberdef>
+      <memberdef kind="function" id="d5/d9c/class_code_output_interface_1a080d71d457de084ce2b3245bca5a0d68" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>void</type>
+        <definition>virtual void CodeOutputInterface::startCodeLine</definition>
+        <argsstring>(bool hasLineNumbers)=0</argsstring>
+        <name>startCodeLine</name>
+        <reimplementedby refid="da/db6/class_html_code_generator_1afbc2414a5387b977150b015dfbd16c10">startCodeLine</reimplementedby>
+        <reimplementedby refid="d7/d41/class_html_generator_1ab89f82b354a626585bf1ff5a793ad5db">startCodeLine</reimplementedby>
+        <reimplementedby refid="d0/da4/class_r_t_f_generator_1abd342f1207b80ca7ef8badcf659a0b58">startCodeLine</reimplementedby>
+        <reimplementedby refid="de/da5/class_man_generator_1a2690c4b3d068da46f8a6804d43fd34e7">startCodeLine</reimplementedby>
+        <reimplementedby refid="d3/d77/class_latex_generator_1a9bfa7242e97eca8f1d795245bb98fa37">startCodeLine</reimplementedby>
+        <reimplementedby refid="df/dc8/class_output_list_1a4676ca4801912753ba2c5af4f38cb951">startCodeLine</reimplementedby>
+        <param>
+          <type>bool</type>
+          <declname>hasLineNumbers</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/outputgen.h" line="67"/>
+      </memberdef>
+      <memberdef kind="function" id="d5/d9c/class_code_output_interface_1afac5763eafc78f93b82691fb9a6dcff7" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>void</type>
+        <definition>virtual void CodeOutputInterface::endCodeLine</definition>
+        <argsstring>()=0</argsstring>
+        <name>endCodeLine</name>
+        <reimplementedby refid="da/db6/class_html_code_generator_1ab0909b2a97301c8da4fcbf83831c84b3">endCodeLine</reimplementedby>
+        <reimplementedby refid="d7/d41/class_html_generator_1a509e9b78f035f58e533cef4f79bf5401">endCodeLine</reimplementedby>
+        <reimplementedby refid="d0/da4/class_r_t_f_generator_1a3f63e2fedfb61f656e35df2054a6d772">endCodeLine</reimplementedby>
+        <reimplementedby refid="de/da5/class_man_generator_1a0f0040036147c71754651d0701029f70">endCodeLine</reimplementedby>
+        <reimplementedby refid="d3/d77/class_latex_generator_1a87b0106936769e1226310df32ec5e1a6">endCodeLine</reimplementedby>
+        <reimplementedby refid="df/dc8/class_output_list_1a0e08c34eb6d9058342d0bd7fdc2a453d">endCodeLine</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/outputgen.h" line="68"/>
+      </memberdef>
+      <memberdef kind="function" id="d5/d9c/class_code_output_interface_1a1bac70cba0bb8c2ae9034df5b15c95b1" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>void</type>
+        <definition>virtual void CodeOutputInterface::startCodeAnchor</definition>
+        <argsstring>(const char *label)=0</argsstring>
+        <name>startCodeAnchor</name>
+        <reimplementedby refid="da/db6/class_html_code_generator_1a9ceb803ad05e69844cdddfee3a9b406b">startCodeAnchor</reimplementedby>
+        <reimplementedby refid="d7/d41/class_html_generator_1a0e25d32498ed887dc9c4f9368ad33798">startCodeAnchor</reimplementedby>
+        <reimplementedby refid="d0/da4/class_r_t_f_generator_1aef0c48c2428976d58c0503379eee815f">startCodeAnchor</reimplementedby>
+        <reimplementedby refid="de/da5/class_man_generator_1adda1970dde62e5516baccfcbfff5928f">startCodeAnchor</reimplementedby>
+        <reimplementedby refid="d3/d77/class_latex_generator_1a8334d5805456500c303a17b6ab24ba36">startCodeAnchor</reimplementedby>
+        <reimplementedby refid="df/dc8/class_output_list_1a8266691f7e7b5e2cd0f199aaf2bf7d29">startCodeAnchor</reimplementedby>
+        <param>
+          <type>const char *</type>
+          <declname>label</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/outputgen.h" line="69"/>
+      </memberdef>
+      <memberdef kind="function" id="d5/d9c/class_code_output_interface_1a404ebed09713d9736191657e3519c6b4" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>void</type>
+        <definition>virtual void CodeOutputInterface::endCodeAnchor</definition>
+        <argsstring>()=0</argsstring>
+        <name>endCodeAnchor</name>
+        <reimplementedby refid="da/db6/class_html_code_generator_1a900a05e7b4278f340ff653c22e45a21f">endCodeAnchor</reimplementedby>
+        <reimplementedby refid="d7/d41/class_html_generator_1acdd2cd3b4541c6c0c01ba5a29f8b5e60">endCodeAnchor</reimplementedby>
+        <reimplementedby refid="d0/da4/class_r_t_f_generator_1ad5359e58815e1d5f41bc470dbfd1e646">endCodeAnchor</reimplementedby>
+        <reimplementedby refid="de/da5/class_man_generator_1acdd40b0a100f17b1062ecd3734397ec8">endCodeAnchor</reimplementedby>
+        <reimplementedby refid="d3/d77/class_latex_generator_1a15bbf5d10c6c1c78712526638b520783">endCodeAnchor</reimplementedby>
+        <reimplementedby refid="df/dc8/class_output_list_1ae27390c8708b52dbae18366af2f45190">endCodeAnchor</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/outputgen.h" line="70"/>
+      </memberdef>
+      <memberdef kind="function" id="d5/d9c/class_code_output_interface_1af68087fd1ed0e5b28b446889625337bb" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>void</type>
+        <definition>virtual void CodeOutputInterface::startFontClass</definition>
+        <argsstring>(const char *)=0</argsstring>
+        <name>startFontClass</name>
+        <reimplementedby refid="da/db6/class_html_code_generator_1ae7eaca4c34eeb6bf1aeaf0ac5ce4257b">startFontClass</reimplementedby>
+        <reimplementedby refid="d7/d41/class_html_generator_1aa600cc24896060a68612e3db6efb7dbf">startFontClass</reimplementedby>
+        <reimplementedby refid="de/da5/class_man_generator_1a4bafda26799458d289c507fad6690de9">startFontClass</reimplementedby>
+        <reimplementedby refid="d0/da4/class_r_t_f_generator_1a84114371fc0f3865e0321c2df8ce0ae9">startFontClass</reimplementedby>
+        <reimplementedby refid="d3/d77/class_latex_generator_1a9d6086d408fbbda70d328c5cbdff56fb">startFontClass</reimplementedby>
+        <reimplementedby refid="df/dc8/class_output_list_1ace178947661035b39f4dc9076595c24f">startFontClass</reimplementedby>
+        <param>
+          <type>const char *</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/outputgen.h" line="71"/>
+      </memberdef>
+      <memberdef kind="function" id="d5/d9c/class_code_output_interface_1a2b8ac05a391dae36793aa3aa8714a0f6" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>void</type>
+        <definition>virtual void CodeOutputInterface::endFontClass</definition>
+        <argsstring>()=0</argsstring>
+        <name>endFontClass</name>
+        <reimplementedby refid="da/db6/class_html_code_generator_1a8efe5c697dc169b24b5e7da7cf54305e">endFontClass</reimplementedby>
+        <reimplementedby refid="d7/d41/class_html_generator_1aca25e58aa19b44b41de489dc966e4b5d">endFontClass</reimplementedby>
+        <reimplementedby refid="de/da5/class_man_generator_1a35a79c6fc4ee7bd9eeadb74181e368d1">endFontClass</reimplementedby>
+        <reimplementedby refid="d0/da4/class_r_t_f_generator_1a8753e9a10c126e0f8b9af7ff9783afcd">endFontClass</reimplementedby>
+        <reimplementedby refid="d3/d77/class_latex_generator_1a553927a6db74aca325fa50bd666b44b0">endFontClass</reimplementedby>
+        <reimplementedby refid="df/dc8/class_output_list_1a484c1bcfcffe7a6cb94316ac8df64b61">endFontClass</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/outputgen.h" line="72"/>
+      </memberdef>
+      <memberdef kind="function" id="d5/d9c/class_code_output_interface_1a1f6394c4ef7c4143de90bcaf3a65c0b4" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>void</type>
+        <definition>virtual void CodeOutputInterface::writeCodeAnchor</definition>
+        <argsstring>(const char *name)=0</argsstring>
+        <name>writeCodeAnchor</name>
+        <reimplementedby refid="da/db6/class_html_code_generator_1a89ec8d4b9eb2b5162b4d9a7cab209b4a">writeCodeAnchor</reimplementedby>
+        <reimplementedby refid="d7/d41/class_html_generator_1a9e2528347c04b6f07dd9263441dbcf4f">writeCodeAnchor</reimplementedby>
+        <reimplementedby refid="de/da5/class_man_generator_1a15b2642afa851662afe60fb00d4b20fb">writeCodeAnchor</reimplementedby>
+        <reimplementedby refid="d0/da4/class_r_t_f_generator_1a01b1cb771ecbdb9da62b21c980d1a5ae">writeCodeAnchor</reimplementedby>
+        <reimplementedby refid="d3/d77/class_latex_generator_1a8f95b3ffc6a7404a308befa3da25b0ef">writeCodeAnchor</reimplementedby>
+        <reimplementedby refid="df/dc8/class_output_list_1ad40cf8ca8c6289590afa5871b8d5d9a0">writeCodeAnchor</reimplementedby>
+        <param>
+          <type>const char *</type>
+          <declname>name</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/outputgen.h" line="73"/>
+      </memberdef>
+      <memberdef kind="function" id="d5/d9c/class_code_output_interface_1a67a190860748597bd65b4cfc313797d3" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>void</type>
+        <definition>virtual void CodeOutputInterface::setCurrentDoc</definition>
+        <argsstring>(Definition *context, const char *anchor, bool isSourceFile)=0</argsstring>
+        <name>setCurrentDoc</name>
+        <reimplementedby refid="da/db6/class_html_code_generator_1a6ac7fde67764c26857967eed883eb36b">setCurrentDoc</reimplementedby>
+        <reimplementedby refid="d7/d41/class_html_generator_1a36829b23efe3855373db99bac3e9998d">setCurrentDoc</reimplementedby>
+        <reimplementedby refid="de/da5/class_man_generator_1a2b9d9b85061921cbb368b96e152bc918">setCurrentDoc</reimplementedby>
+        <reimplementedby refid="d0/da4/class_r_t_f_generator_1a38af98ffc41789449c0204dcde02b7dd">setCurrentDoc</reimplementedby>
+        <reimplementedby refid="d3/d77/class_latex_generator_1af5df048a8317a74877a26dd2a17bac8b">setCurrentDoc</reimplementedby>
+        <reimplementedby refid="df/dc8/class_output_list_1a5465259b203bfc5430ebcf7821feb11d">setCurrentDoc</reimplementedby>
+        <param>
+          <type><ref refid="d5/dcc/class_definition" kindref="compound">Definition</ref> *</type>
+          <declname>context</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>anchor</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>isSourceFile</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/outputgen.h" line="74"/>
+      </memberdef>
+      <memberdef kind="function" id="d5/d9c/class_code_output_interface_1a2734a8371d6e710620ad238ed8de118e" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>void</type>
+        <definition>virtual void CodeOutputInterface::addWord</definition>
+        <argsstring>(const char *word, bool hiPriority)=0</argsstring>
+        <name>addWord</name>
+        <reimplementedby refid="da/db6/class_html_code_generator_1a589f4d1ffce901b424bcbc0db0808471">addWord</reimplementedby>
+        <reimplementedby refid="d7/d41/class_html_generator_1ab80e35069bed2aadfd28912897ff59c8">addWord</reimplementedby>
+        <reimplementedby refid="de/da5/class_man_generator_1af92adee00e581b1275adef04effe1699">addWord</reimplementedby>
+        <reimplementedby refid="d0/da4/class_r_t_f_generator_1af386b517dfdb4b5b5c02cfd2bae5761e">addWord</reimplementedby>
+        <reimplementedby refid="d3/d77/class_latex_generator_1a04cf15ca0b9c9a231adbe7e42436a1cf">addWord</reimplementedby>
+        <reimplementedby refid="df/dc8/class_output_list_1a909e6711f00132f53f9576ccf4e409be">addWord</reimplementedby>
+        <param>
+          <type>const char *</type>
+          <declname>word</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>hiPriority</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/outputgen.h" line="75"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Output interface for code parser. </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2622">
+        <label>XMLCodeGenerator</label>
+        <childnode refid="2610" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2615">
+        <label>HtmlGenerator</label>
+        <link refid="d7/d41/class_html_generator"/>
+        <childnode refid="2614" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2620">
+        <label>DocbookCodeGenerator</label>
+        <childnode refid="2610" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2616">
+        <label>LatexGenerator</label>
+        <link refid="d3/d77/class_latex_generator"/>
+        <childnode refid="2614" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2618">
+        <label>RTFGenerator</label>
+        <link refid="d0/da4/class_r_t_f_generator"/>
+        <childnode refid="2614" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2613">
+        <label>OutputList</label>
+        <link refid="df/dc8/class_output_list"/>
+        <childnode refid="2612" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2611">
+        <label>BaseOutputDocInterface</label>
+        <link refid="df/d27/class_base_output_doc_interface"/>
+        <childnode refid="2610" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2617">
+        <label>ManGenerator</label>
+        <link refid="de/da5/class_man_generator"/>
+        <childnode refid="2614" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2612">
+        <label>OutputDocInterface</label>
+        <link refid="d2/d1a/class_output_doc_interface"/>
+        <childnode refid="2611" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2619">
+        <label>DevNullCodeDocInterface</label>
+        <childnode refid="2610" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2614">
+        <label>OutputGenerator</label>
+        <link refid="d3/d8e/class_output_generator"/>
+        <childnode refid="2611" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2610">
+        <label>CodeOutputInterface</label>
+        <link refid="d5/d9c/class_code_output_interface"/>
+      </node>
+      <node id="2621">
+        <label>HtmlCodeGenerator</label>
+        <link refid="da/db6/class_html_code_generator"/>
+        <childnode refid="2610" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/outputgen.h" line="43" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/outputgen.h" bodystart="42" bodyend="76"/>
+    <listofallmembers>
+      <member refid="d5/d9c/class_code_output_interface_1a2734a8371d6e710620ad238ed8de118e" prot="public" virt="pure-virtual"><scope>CodeOutputInterface</scope><name>addWord</name></member>
+      <member refid="d5/d9c/class_code_output_interface_1aa29a5eedda08596ace50ed5b59c8ae7f" prot="public" virt="pure-virtual"><scope>CodeOutputInterface</scope><name>codify</name></member>
+      <member refid="d5/d9c/class_code_output_interface_1a404ebed09713d9736191657e3519c6b4" prot="public" virt="pure-virtual"><scope>CodeOutputInterface</scope><name>endCodeAnchor</name></member>
+      <member refid="d5/d9c/class_code_output_interface_1afac5763eafc78f93b82691fb9a6dcff7" prot="public" virt="pure-virtual"><scope>CodeOutputInterface</scope><name>endCodeLine</name></member>
+      <member refid="d5/d9c/class_code_output_interface_1a2b8ac05a391dae36793aa3aa8714a0f6" prot="public" virt="pure-virtual"><scope>CodeOutputInterface</scope><name>endFontClass</name></member>
+      <member refid="d5/d9c/class_code_output_interface_1a67a190860748597bd65b4cfc313797d3" prot="public" virt="pure-virtual"><scope>CodeOutputInterface</scope><name>setCurrentDoc</name></member>
+      <member refid="d5/d9c/class_code_output_interface_1a1bac70cba0bb8c2ae9034df5b15c95b1" prot="public" virt="pure-virtual"><scope>CodeOutputInterface</scope><name>startCodeAnchor</name></member>
+      <member refid="d5/d9c/class_code_output_interface_1a080d71d457de084ce2b3245bca5a0d68" prot="public" virt="pure-virtual"><scope>CodeOutputInterface</scope><name>startCodeLine</name></member>
+      <member refid="d5/d9c/class_code_output_interface_1af68087fd1ed0e5b28b446889625337bb" prot="public" virt="pure-virtual"><scope>CodeOutputInterface</scope><name>startFontClass</name></member>
+      <member refid="d5/d9c/class_code_output_interface_1a1f6394c4ef7c4143de90bcaf3a65c0b4" prot="public" virt="pure-virtual"><scope>CodeOutputInterface</scope><name>writeCodeAnchor</name></member>
+      <member refid="d5/d9c/class_code_output_interface_1a102e2b7f40916c75b79871307f5bb674" prot="public" virt="pure-virtual"><scope>CodeOutputInterface</scope><name>writeCodeLink</name></member>
+      <member refid="d5/d9c/class_code_output_interface_1a8115646785b65e292480c2e4e969b389" prot="public" virt="pure-virtual"><scope>CodeOutputInterface</scope><name>writeLineNumber</name></member>
+      <member refid="d5/d9c/class_code_output_interface_1a09fd2fd0be98227359200de7ab89c7e6" prot="public" virt="virtual"><scope>CodeOutputInterface</scope><name>~CodeOutputInterface</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

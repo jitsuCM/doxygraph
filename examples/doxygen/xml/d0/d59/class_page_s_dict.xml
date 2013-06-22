@@ -1,0 +1,128 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.2">
+  <compounddef id="d0/d59/class_page_s_dict" kind="class" prot="public">
+    <compoundname>PageSDict</compoundname>
+    <basecompoundref refid="d1/d50/class_s_dict" prot="public" virt="non-virtual">SDict&lt; PageDef &gt;</basecompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="d0/d59/class_page_s_dict_1ab22010367ff1d002f515743d567a9068" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>PageSDict::PageSDict</definition>
+        <argsstring>(int size)</argsstring>
+        <name>PageSDict</name>
+        <param>
+          <type>int</type>
+          <declname>size</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/pagedef.h" line="83" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/pagedef.h" bodystart="83" bodyend="83"/>
+      </memberdef>
+      <memberdef kind="function" id="d0/d59/class_page_s_dict_1a17ba14a5bfe6437346c3deb2df156f46" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type></type>
+        <definition>virtual PageSDict::~PageSDict</definition>
+        <argsstring>()</argsstring>
+        <name>~PageSDict</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/pagedef.h" line="84" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/pagedef.h" bodystart="84" bodyend="84"/>
+      </memberdef>
+      <memberdef kind="function" id="d0/d59/class_page_s_dict_1a6e4fbed4db714f286f20fbc2311ac10b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>int</type>
+        <definition>int PageSDict::compareItems</definition>
+        <argsstring>(QCollection::Item i1, QCollection::Item i2)</argsstring>
+        <name>compareItems</name>
+        <reimplements refid="d1/d50/class_s_dict_1a99cd2f7d27403649ab8b7e60d06f487e">compareItems</reimplements>
+        <param>
+          <type>QCollection::Item</type>
+          <declname>item1</declname>
+        </param>
+        <param>
+          <type>QCollection::Item</type>
+          <declname>item2</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Function that is used to compare two items when sorting. Overload this to properly sort items. <simplesect kind="see"><para><ref refid="d1/d50/class_s_dict_1a25a85aeba441b4c855ea7be25a4741b5" kindref="member">inSort()</ref> </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/pagedef.h" line="86" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/pagedef.h" bodystart="85" bodyend="88"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="3884">
+        <label>SDict&lt; T &gt;</label>
+        <link refid="d1/d50/class_s_dict"/>
+      </node>
+      <node id="3882">
+        <label>PageSDict</label>
+        <link refid="d0/d59/class_page_s_dict"/>
+        <childnode refid="3883" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3883">
+        <label>SDict&lt; PageDef &gt;</label>
+        <link refid="d1/d50/class_s_dict"/>
+        <childnode refid="3884" relation="template-instance">
+          <edgelabel>&lt; PageDef &gt;</edgelabel>
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="3887">
+        <label>SDict&lt; T &gt;</label>
+        <link refid="d1/d50/class_s_dict"/>
+      </node>
+      <node id="3885">
+        <label>PageSDict</label>
+        <link refid="d0/d59/class_page_s_dict"/>
+        <childnode refid="3886" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3886">
+        <label>SDict&lt; PageDef &gt;</label>
+        <link refid="d1/d50/class_s_dict"/>
+        <childnode refid="3887" relation="template-instance">
+          <edgelabel>&lt; PageDef &gt;</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/pagedef.h" line="81" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/pagedef.h" bodystart="80" bodyend="89"/>
+    <listofallmembers>
+      <member refid="d1/d50/class_s_dict_1a121842d9858421076b81ed663034d62c" prot="public" virt="non-virtual"><scope>PageSDict</scope><name>append</name></member>
+      <member refid="d1/d50/class_s_dict_1ab993899004fc3cfc8f00f131e0b6a29d" prot="public" virt="non-virtual"><scope>PageSDict</scope><name>at</name></member>
+      <member refid="d1/d50/class_s_dict_1afd6bec6aaf77e2943f42cec1208bc46d" prot="public" virt="non-virtual"><scope>PageSDict</scope><name>clear</name></member>
+      <member refid="d0/d59/class_page_s_dict_1a6e4fbed4db714f286f20fbc2311ac10b" prot="public" virt="virtual"><scope>PageSDict</scope><name>compareItems</name></member>
+      <member refid="d1/d50/class_s_dict_1a9e95eebac3e87938cc5bc1f79d078c8a" prot="public" virt="non-virtual"><scope>PageSDict</scope><name>count</name></member>
+      <member refid="d1/d50/class_s_dict_1aec67482d780157680d46f48a7ed5e7bd" prot="public" virt="non-virtual"><scope>PageSDict</scope><name>find</name></member>
+      <member refid="d1/d50/class_s_dict_1a357a25974d906de30d2e34de08b35a4e" prot="public" virt="non-virtual"><scope>PageSDict</scope><name>find</name></member>
+      <member refid="d1/d50/class_s_dict_1abc60b1cc06b0643753906387b7cccfe2" prot="public" virt="non-virtual"><scope>PageSDict</scope><name>find</name></member>
+      <member refid="d1/d50/class_s_dict_1a6a05b33d4c87325d4f2826921910c89d" prot="public" virt="non-virtual"><scope>PageSDict</scope><name>findAt</name></member>
+      <member refid="d1/d50/class_s_dict_1a7f0a7e316d26fccdf7d0d351837a6614" prot="public" virt="non-virtual"><scope>PageSDict</scope><name>insertAt</name></member>
+      <member refid="d1/d50/class_s_dict_1a25a85aeba441b4c855ea7be25a4741b5" prot="public" virt="non-virtual"><scope>PageSDict</scope><name>inSort</name></member>
+      <member refid="d1/d50/class_s_dict_1a1858d5cdf864c4fa6476137ace8bb7f5" prot="public" virt="non-virtual"><scope>PageSDict</scope><name>operator[]</name></member>
+      <member refid="d0/d59/class_page_s_dict_1ab22010367ff1d002f515743d567a9068" prot="public" virt="non-virtual"><scope>PageSDict</scope><name>PageSDict</name></member>
+      <member refid="d1/d50/class_s_dict_1adcfbdc244e81360522457c8a84069f2b" prot="public" virt="non-virtual"><scope>PageSDict</scope><name>prepend</name></member>
+      <member refid="d1/d50/class_s_dict_1ad647b04c9dff33ac0182c4d83b025c77" prot="public" virt="non-virtual"><scope>PageSDict</scope><name>remove</name></member>
+      <member refid="d1/d50/class_s_dict_1a42ccd9c8ed71acbe2771ac65df817323" prot="public" virt="non-virtual"><scope>PageSDict</scope><name>SDict</name></member>
+      <member refid="d1/d50/class_s_dict_1ac5ed340a2e6b4b4fb8398254cd35ef55" prot="public" virt="non-virtual"><scope>PageSDict</scope><name>setAutoDelete</name></member>
+      <member refid="d1/d50/class_s_dict_1ab6da88a61ee284dfbd07830fcd63aed3" prot="public" virt="non-virtual"><scope>PageSDict</scope><name>sort</name></member>
+      <member refid="d1/d50/class_s_dict_1ac5aa2cf317cef817cf585efdab3663d7" prot="public" virt="non-virtual"><scope>PageSDict</scope><name>take</name></member>
+      <member refid="d0/d59/class_page_s_dict_1a17ba14a5bfe6437346c3deb2df156f46" prot="public" virt="virtual"><scope>PageSDict</scope><name>~PageSDict</name></member>
+      <member refid="d1/d50/class_s_dict_1a49594f6c587e0915be3861538a3c96cb" prot="public" virt="virtual"><scope>PageSDict</scope><name>~SDict</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

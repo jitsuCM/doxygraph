@@ -1,0 +1,342 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.2">
+  <compounddef id="d7/d21/class_cond_parser" kind="class" prot="public">
+    <compoundname>CondParser</compoundname>
+    <includes refid="d7/d6f/condparser_8h" local="no">condparser.h</includes>
+      <sectiondef kind="private-type">
+      <memberdef kind="enum" id="d7/d21/class_cond_parser_1a49fd9c96ce822ecb68d8ab4489bb484b" prot="private" static="no">
+        <name>TOKENTYPE</name>
+        <enumvalue id="d7/d21/class_cond_parser_1a49fd9c96ce822ecb68d8ab4489bb484babcaf3be350d7a11e470f9d7cef66e891" prot="private">
+          <name>NOTHING</name>
+          <initializer>= -1</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d7/d21/class_cond_parser_1a49fd9c96ce822ecb68d8ab4489bb484bab8fea9f3274addd57d0b8ebfd1bd907e" prot="private">
+          <name>DELIMITER</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d7/d21/class_cond_parser_1a49fd9c96ce822ecb68d8ab4489bb484baa23d749d95982f9481de025aeb453bb2" prot="private">
+          <name>VARIABLE</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d7/d21/class_cond_parser_1a49fd9c96ce822ecb68d8ab4489bb484ba2f8004dacf1ef246d3fc618e428716d9" prot="private">
+          <name>UNKNOWN</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/condparser.h" line="36" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/condparser.h" bodystart="35" bodyend="41"/>
+      </memberdef>
+      <memberdef kind="enum" id="d7/d21/class_cond_parser_1a5aa74df7a6a3bdd9a8f5eecc10efa66c" prot="private" static="no">
+        <name>OPERATOR_ID</name>
+        <enumvalue id="d7/d21/class_cond_parser_1a5aa74df7a6a3bdd9a8f5eecc10efa66cac8110a4c12bb2f7863a1f21a7cc5e322" prot="private">
+          <name>UNKNOWN_OP</name>
+          <initializer>= -1</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d7/d21/class_cond_parser_1a5aa74df7a6a3bdd9a8f5eecc10efa66caa6deda36f663e46ae740b13fbf4e79f4" prot="private">
+          <name>AND</name>
+          <initializer>= 1</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d7/d21/class_cond_parser_1a5aa74df7a6a3bdd9a8f5eecc10efa66ca1876531ccdd04cb91a5c786dc77198ce" prot="private">
+          <name>OR</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="d7/d21/class_cond_parser_1a5aa74df7a6a3bdd9a8f5eecc10efa66ca3dd545603f097982a39111714ebd3cd3" prot="private">
+          <name>NOT</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/condparser.h" line="43" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/condparser.h" bodystart="42" bodyend="48"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="d7/d21/class_cond_parser_1a448f211b15963afd7fc97413c135d021" prot="private" static="no" mutable="no">
+        <type>QCString</type>
+        <definition>QCString CondParser::m_err</definition>
+        <argsstring></argsstring>
+        <name>m_err</name>
+        <briefdescription>
+<para>error state </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/condparser.h" line="53" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/condparser.h" bodystart="53" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d7/d21/class_cond_parser_1ab5f8516736be27414bab7ff62030c4b2" prot="private" static="no" mutable="no">
+        <type>QCString</type>
+        <definition>QCString CondParser::m_expr</definition>
+        <argsstring></argsstring>
+        <name>m_expr</name>
+        <briefdescription>
+<para>holds the expression </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/condparser.h" line="54" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/condparser.h" bodystart="54" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d7/d21/class_cond_parser_1ad6be9806676e4c982291efc8a43e3c50" prot="private" static="no" mutable="no">
+        <type>const char *</type>
+        <definition>const char* CondParser::m_e</definition>
+        <argsstring></argsstring>
+        <name>m_e</name>
+        <briefdescription>
+<para>points to a character in expr </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/condparser.h" line="55" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/condparser.h" bodystart="55" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d7/d21/class_cond_parser_1a34b7c2efbc206f720c384413f2630790" prot="private" static="no" mutable="no">
+        <type>QCString</type>
+        <definition>QCString CondParser::m_token</definition>
+        <argsstring></argsstring>
+        <name>m_token</name>
+        <briefdescription>
+<para>holds the token </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/condparser.h" line="57" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/condparser.h" bodystart="57" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d7/d21/class_cond_parser_1a5bcf72a37dcd8bff1730267da0587697" prot="private" static="no" mutable="no">
+        <type>TOKENTYPE</type>
+        <definition>TOKENTYPE CondParser::m_tokenType</definition>
+        <argsstring></argsstring>
+        <name>m_tokenType</name>
+        <briefdescription>
+<para>type of the token </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/condparser.h" line="58" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/condparser.h" bodystart="58" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="d7/d21/class_cond_parser_1a81b78b3d5873b27da1d4dc1b7cdcb0b0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool CondParser::parse</definition>
+        <argsstring>(const char *fileName, int lineNr, const char *expr)</argsstring>
+        <name>parse</name>
+        <param>
+          <type>const char *</type>
+          <declname>fileName</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>lineNr</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>expr</declname>
+        </param>
+        <briefdescription>
+<para>Copyright (C) 1997-2013 by Dimitri van Heesch. </para>        </briefdescription>
+        <detaileddescription>
+<para>Permission to use, copy, modify, and distribute this software and its documentation under the terms of the GNU General Public License is hereby granted. No representations are made about the suitability of this software for any purpose. It is provided &quot;as is&quot; without express or implied warranty. See the GNU General Public License for more details.</para><para>Documents produced by <ref refid="de/d6a/class_doxygen" kindref="compound">Doxygen</ref> are derivative works derived from the input used in their production; they are not affected by this license.</para><para>C++ Expression parser for ENABLED_SECTIONS in <ref refid="de/d6a/class_doxygen" kindref="compound">Doxygen</ref></para><para>Features used: Operators: &amp;&amp; AND operator || OR operator ! NOT operator parses and evaluates the given expression. <simplesect kind="return"><para><itemizedlist>
+<listitem><para>On error, an error message is returned.</para></listitem><listitem><para>On success, the result of the expression is either &quot;1&quot; or &quot;0&quot;. </para></listitem></itemizedlist>
+</para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/condparser.h" line="31" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/condparser.cpp" bodystart="34" bodyend="83"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="d7/d21/class_cond_parser_1a767f34907250fdaaeaae44c37d82c3de" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void CondParser::getToken</definition>
+        <argsstring>()</argsstring>
+        <name>getToken</name>
+        <briefdescription>
+<para>Get next token in the current string expr. </para>        </briefdescription>
+        <detaileddescription>
+<para>Uses the data in m_expr pointed to by m_e to produce m_tokenType and m_token, set m_err in case of an error </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/condparser.h" line="62" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/condparser.cpp" bodystart="129" bodyend="188"/>
+      </memberdef>
+      <memberdef kind="function" id="d7/d21/class_cond_parser_1a6fb4d64e51915d819ab6bbcdc40a387b" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool CondParser::parseLevel1</definition>
+        <argsstring>()</argsstring>
+        <name>parseLevel1</name>
+        <briefdescription>
+<para>conditional operators AND and OR </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/condparser.h" line="64" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/condparser.cpp" bodystart="194" bodyend="207"/>
+      </memberdef>
+      <memberdef kind="function" id="d7/d21/class_cond_parser_1a42e0e9ce1665b6be5de97c16c26d353c" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool CondParser::parseLevel2</definition>
+        <argsstring>()</argsstring>
+        <name>parseLevel2</name>
+        <briefdescription>
+<para>NOT. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/condparser.h" line="65" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/condparser.cpp" bodystart="212" bodyend="227"/>
+      </memberdef>
+      <memberdef kind="function" id="d7/d21/class_cond_parser_1af63a661f43a32b9343e6b222661bf206" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool CondParser::parseLevel3</definition>
+        <argsstring>()</argsstring>
+        <name>parseLevel3</name>
+        <briefdescription>
+<para>parenthesized expression or variable </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/condparser.h" line="66" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/condparser.cpp" bodystart="233" bodyend="254"/>
+      </memberdef>
+      <memberdef kind="function" id="d7/d21/class_cond_parser_1ae984d41f533dbf4306ddbffe725e272e" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool CondParser::parseVar</definition>
+        <argsstring>()</argsstring>
+        <name>parseVar</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/condparser.h" line="67" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/condparser.cpp" bodystart="257" bodyend="283"/>
+      </memberdef>
+      <memberdef kind="function" id="d7/d21/class_cond_parser_1ad4fcf0ce5b9644fb6ff130cf7e335730" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool CondParser::evalOperator</definition>
+        <argsstring>(const int opId, bool lhs, bool rhs)</argsstring>
+        <name>evalOperator</name>
+        <param>
+          <type>const int</type>
+          <declname>opId</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>lhs</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>rhs</declname>
+        </param>
+        <briefdescription>
+<para>evaluate an operator for given valuess </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/condparser.h" line="69" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/condparser.cpp" bodystart="288" bodyend="299"/>
+      </memberdef>
+      <memberdef kind="function" id="d7/d21/class_cond_parser_1ac8dd6ad10a726cea9b5692f5fff5965f" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool CondParser::evalVariable</definition>
+        <argsstring>(const char *varName)</argsstring>
+        <name>evalVariable</name>
+        <param>
+          <type>const char *</type>
+          <declname>varName</declname>
+        </param>
+        <briefdescription>
+<para>evaluate a variable </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/condparser.h" line="70" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/condparser.cpp" bodystart="304" bodyend="308"/>
+      </memberdef>
+      <memberdef kind="function" id="d7/d21/class_cond_parser_1af8a4c0a1dc2325a61a6555c4d48f8869" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int CondParser::getOperatorId</definition>
+        <argsstring>(const QCString &amp;opName)</argsstring>
+        <name>getOperatorId</name>
+        <param>
+          <type>const QCString &amp;</type>
+          <declname>opName</declname>
+        </param>
+        <briefdescription>
+<para>returns the id of the given operator returns -1 if the operator is not recognized </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/condparser.h" line="71" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/condparser.cpp" bodystart="112" bodyend="122"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Copyright (C) 1997-2013 by Dimitri van Heesch. </para>    </briefdescription>
+    <detaileddescription>
+<para>Permission to use, copy, modify, and distribute this software and its documentation under the terms of the GNU General Public License is hereby granted. No representations are made about the suitability of this software for any purpose. It is provided &quot;as is&quot; without express or implied warranty. See the GNU General Public License for more details.</para><para>Documents produced by <ref refid="de/d6a/class_doxygen" kindref="compound">Doxygen</ref> are derivative works derived from the input used in their production; they are not affected by this license.</para><para>C++ Expression parser for EXTABLED_SETIONS in <ref refid="de/d6a/class_doxygen" kindref="compound">Doxygen</ref></para><para>Features used: Operators: &amp;&amp; AND operator || OR operator ! NOT operator </para>    </detaileddescription>
+    <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/condparser.h" line="28" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/condparser.h" bodystart="27" bodyend="72"/>
+    <listofallmembers>
+      <member refid="d7/d21/class_cond_parser_1a5aa74df7a6a3bdd9a8f5eecc10efa66caa6deda36f663e46ae740b13fbf4e79f4" prot="private" virt="non-virtual"><scope>CondParser</scope><name>AND</name></member>
+      <member refid="d7/d21/class_cond_parser_1a49fd9c96ce822ecb68d8ab4489bb484bab8fea9f3274addd57d0b8ebfd1bd907e" prot="private" virt="non-virtual"><scope>CondParser</scope><name>DELIMITER</name></member>
+      <member refid="d7/d21/class_cond_parser_1ad4fcf0ce5b9644fb6ff130cf7e335730" prot="private" virt="non-virtual"><scope>CondParser</scope><name>evalOperator</name></member>
+      <member refid="d7/d21/class_cond_parser_1ac8dd6ad10a726cea9b5692f5fff5965f" prot="private" virt="non-virtual"><scope>CondParser</scope><name>evalVariable</name></member>
+      <member refid="d7/d21/class_cond_parser_1af8a4c0a1dc2325a61a6555c4d48f8869" prot="private" virt="non-virtual"><scope>CondParser</scope><name>getOperatorId</name></member>
+      <member refid="d7/d21/class_cond_parser_1a767f34907250fdaaeaae44c37d82c3de" prot="private" virt="non-virtual"><scope>CondParser</scope><name>getToken</name></member>
+      <member refid="d7/d21/class_cond_parser_1ad6be9806676e4c982291efc8a43e3c50" prot="private" virt="non-virtual"><scope>CondParser</scope><name>m_e</name></member>
+      <member refid="d7/d21/class_cond_parser_1a448f211b15963afd7fc97413c135d021" prot="private" virt="non-virtual"><scope>CondParser</scope><name>m_err</name></member>
+      <member refid="d7/d21/class_cond_parser_1ab5f8516736be27414bab7ff62030c4b2" prot="private" virt="non-virtual"><scope>CondParser</scope><name>m_expr</name></member>
+      <member refid="d7/d21/class_cond_parser_1a34b7c2efbc206f720c384413f2630790" prot="private" virt="non-virtual"><scope>CondParser</scope><name>m_token</name></member>
+      <member refid="d7/d21/class_cond_parser_1a5bcf72a37dcd8bff1730267da0587697" prot="private" virt="non-virtual"><scope>CondParser</scope><name>m_tokenType</name></member>
+      <member refid="d7/d21/class_cond_parser_1a5aa74df7a6a3bdd9a8f5eecc10efa66ca3dd545603f097982a39111714ebd3cd3" prot="private" virt="non-virtual"><scope>CondParser</scope><name>NOT</name></member>
+      <member refid="d7/d21/class_cond_parser_1a49fd9c96ce822ecb68d8ab4489bb484babcaf3be350d7a11e470f9d7cef66e891" prot="private" virt="non-virtual"><scope>CondParser</scope><name>NOTHING</name></member>
+      <member refid="d7/d21/class_cond_parser_1a5aa74df7a6a3bdd9a8f5eecc10efa66c" prot="private" virt="non-virtual"><scope>CondParser</scope><name>OPERATOR_ID</name></member>
+      <member refid="d7/d21/class_cond_parser_1a5aa74df7a6a3bdd9a8f5eecc10efa66ca1876531ccdd04cb91a5c786dc77198ce" prot="private" virt="non-virtual"><scope>CondParser</scope><name>OR</name></member>
+      <member refid="d7/d21/class_cond_parser_1a81b78b3d5873b27da1d4dc1b7cdcb0b0" prot="public" virt="non-virtual"><scope>CondParser</scope><name>parse</name></member>
+      <member refid="d7/d21/class_cond_parser_1a6fb4d64e51915d819ab6bbcdc40a387b" prot="private" virt="non-virtual"><scope>CondParser</scope><name>parseLevel1</name></member>
+      <member refid="d7/d21/class_cond_parser_1a42e0e9ce1665b6be5de97c16c26d353c" prot="private" virt="non-virtual"><scope>CondParser</scope><name>parseLevel2</name></member>
+      <member refid="d7/d21/class_cond_parser_1af63a661f43a32b9343e6b222661bf206" prot="private" virt="non-virtual"><scope>CondParser</scope><name>parseLevel3</name></member>
+      <member refid="d7/d21/class_cond_parser_1ae984d41f533dbf4306ddbffe725e272e" prot="private" virt="non-virtual"><scope>CondParser</scope><name>parseVar</name></member>
+      <member refid="d7/d21/class_cond_parser_1a49fd9c96ce822ecb68d8ab4489bb484b" prot="private" virt="non-virtual"><scope>CondParser</scope><name>TOKENTYPE</name></member>
+      <member refid="d7/d21/class_cond_parser_1a49fd9c96ce822ecb68d8ab4489bb484ba2f8004dacf1ef246d3fc618e428716d9" prot="private" virt="non-virtual"><scope>CondParser</scope><name>UNKNOWN</name></member>
+      <member refid="d7/d21/class_cond_parser_1a5aa74df7a6a3bdd9a8f5eecc10efa66cac8110a4c12bb2f7863a1f21a7cc5e322" prot="private" virt="non-virtual"><scope>CondParser</scope><name>UNKNOWN_OP</name></member>
+      <member refid="d7/d21/class_cond_parser_1a49fd9c96ce822ecb68d8ab4489bb484baa23d749d95982f9481de025aeb453bb2" prot="private" virt="non-virtual"><scope>CondParser</scope><name>VARIABLE</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

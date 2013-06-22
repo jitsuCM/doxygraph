@@ -1,0 +1,460 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.2">
+  <compounddef id="da/dc6/class_entry_nav" kind="class" prot="public">
+    <compoundname>EntryNav</compoundname>
+    <includes refid="d1/dc6/entry_8h" local="no">entry.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="da/dc6/class_entry_nav_1a7b13d6e241f77f147586ee34cf1b0f06" prot="private" static="no" mutable="no">
+        <type><ref refid="da/dc6/class_entry_nav" kindref="compound">EntryNav</ref> *</type>
+        <definition>EntryNav* EntryNav::m_parent</definition>
+        <argsstring></argsstring>
+        <name>m_parent</name>
+        <briefdescription>
+<para>parent node in the tree </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/entry.h" line="354" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/entry.h" bodystart="354" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="da/dc6/class_entry_nav_1ac4096b15c407966ba5c68af190e875bd" prot="private" static="no" mutable="no">
+        <type><ref refid="db/daa/class_q_list" kindref="compound">QList</ref>&lt; <ref refid="da/dc6/class_entry_nav" kindref="compound">EntryNav</ref> &gt; *</type>
+        <definition>QList&lt;EntryNav&gt;* EntryNav::m_subList</definition>
+        <argsstring></argsstring>
+        <name>m_subList</name>
+        <briefdescription>
+<para>entries that are children of this one </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/entry.h" line="355" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/entry.h" bodystart="355" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="da/dc6/class_entry_nav_1ab95d7a6da572f47e60ddd81d79b34c26" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int EntryNav::m_section</definition>
+        <argsstring></argsstring>
+        <name>m_section</name>
+        <briefdescription>
+<para>entry type (see Sections); </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/entry.h" line="358" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/entry.h" bodystart="358" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="da/dc6/class_entry_nav_1a76d1740a3e5708df1e8d9bad7a250b86" prot="private" static="no" mutable="no">
+        <type>QCString</type>
+        <definition>QCString EntryNav::m_type</definition>
+        <argsstring></argsstring>
+        <name>m_type</name>
+        <briefdescription>
+<para>member type </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/entry.h" line="359" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/entry.h" bodystart="359" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="da/dc6/class_entry_nav_1a01920f8b0f3e1dbb9eb5baddaa8c91d6" prot="private" static="no" mutable="no">
+        <type>QCString</type>
+        <definition>QCString EntryNav::m_name</definition>
+        <argsstring></argsstring>
+        <name>m_name</name>
+        <briefdescription>
+<para>member name </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/entry.h" line="360" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/entry.h" bodystart="360" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="da/dc6/class_entry_nav_1aba0ea1a5fd0196ee776f8f74b92da5e2" prot="private" static="no" mutable="no">
+        <type><ref refid="d3/dc3/struct_tag_info" kindref="compound">TagInfo</ref> *</type>
+        <definition>TagInfo* EntryNav::m_tagInfo</definition>
+        <argsstring></argsstring>
+        <name>m_tagInfo</name>
+        <briefdescription>
+<para>tag file info </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/entry.h" line="361" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/entry.h" bodystart="361" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="da/dc6/class_entry_nav_1affc17928e831a3a9b155913904d4eeba" prot="private" static="no" mutable="no">
+        <type><ref refid="de/db0/class_file_def" kindref="compound">FileDef</ref> *</type>
+        <definition>FileDef* EntryNav::m_fileDef</definition>
+        <argsstring></argsstring>
+        <name>m_fileDef</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/entry.h" line="362" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/entry.h" bodystart="362" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="da/dc6/class_entry_nav_1a554de0cf4ba921a304901e3d30222ce2" prot="private" static="no" mutable="no">
+        <type><ref refid="d9/d49/types_8h_1a9974623ce72fc23df5d64426b9178bf2" kindref="member">SrcLangExt</ref></type>
+        <definition>SrcLangExt EntryNav::m_lang</definition>
+        <argsstring></argsstring>
+        <name>m_lang</name>
+        <briefdescription>
+<para>programming language in which this entry was found </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/entry.h" line="363" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/entry.h" bodystart="363" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="da/dc6/class_entry_nav_1ae86e5f894ec72b6b851665d8a1da78cd" prot="private" static="no" mutable="no">
+        <type><ref refid="d4/dd7/class_entry" kindref="compound">Entry</ref> *</type>
+        <definition>Entry* EntryNav::m_info</definition>
+        <argsstring></argsstring>
+        <name>m_info</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/entry.h" line="365" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/entry.h" bodystart="365" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="da/dc6/class_entry_nav_1a7d19a4c5480c0c92aa0457f884f69008" prot="private" static="no" mutable="no">
+        <type>int64</type>
+        <definition>int64 EntryNav::m_offset</definition>
+        <argsstring></argsstring>
+        <name>m_offset</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/entry.h" line="366" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/entry.h" bodystart="366" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="da/dc6/class_entry_nav_1af71a711b0f55de50151748bda950bff9" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool EntryNav::m_noLoad</definition>
+        <argsstring></argsstring>
+        <name>m_noLoad</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/entry.h" line="367" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/entry.h" bodystart="367" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="da/dc6/class_entry_nav_1a778223f04da2618c47b697d33d10559d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>EntryNav::EntryNav</definition>
+        <argsstring>(EntryNav *parent, Entry *e)</argsstring>
+        <name>EntryNav</name>
+        <param>
+          <type><ref refid="da/dc6/class_entry_nav" kindref="compound">EntryNav</ref> *</type>
+          <declname>parent</declname>
+        </param>
+        <param>
+          <type><ref refid="d4/dd7/class_entry" kindref="compound">Entry</ref> *</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/entry.h" line="331" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/entry.cpp" bodystart="343" bodyend="367"/>
+      </memberdef>
+      <memberdef kind="function" id="da/dc6/class_entry_nav_1a146c0cb4e53cf34eafae961189be08a7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>EntryNav::~EntryNav</definition>
+        <argsstring>()</argsstring>
+        <name>~EntryNav</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/entry.h" line="332" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/entry.cpp" bodystart="369" bodyend="374"/>
+      </memberdef>
+      <memberdef kind="function" id="da/dc6/class_entry_nav_1af988d3085b14c1fa584d934a31a1e494" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void EntryNav::addChild</definition>
+        <argsstring>(EntryNav *)</argsstring>
+        <name>addChild</name>
+        <param>
+          <type><ref refid="da/dc6/class_entry_nav" kindref="compound">EntryNav</ref> *</type>
+          <defname>e</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/entry.h" line="333" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/entry.cpp" bodystart="376" bodyend="384"/>
+      </memberdef>
+      <memberdef kind="function" id="da/dc6/class_entry_nav_1ae8baa4eaf2eca2a813110c5272fba763" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool EntryNav::loadEntry</definition>
+        <argsstring>(FileStorage *storage)</argsstring>
+        <name>loadEntry</name>
+        <param>
+          <type><ref refid="d3/d94/class_file_storage" kindref="compound">FileStorage</ref> *</type>
+          <declname>storage</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/entry.h" line="334" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/entry.cpp" bodystart="386" bodyend="417"/>
+      </memberdef>
+      <memberdef kind="function" id="da/dc6/class_entry_nav_1a51daafd4189df04bf0df6504b3c4b1f5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool EntryNav::saveEntry</definition>
+        <argsstring>(Entry *e, FileStorage *storage)</argsstring>
+        <name>saveEntry</name>
+        <param>
+          <type><ref refid="d4/dd7/class_entry" kindref="compound">Entry</ref> *</type>
+          <declname>e</declname>
+        </param>
+        <param>
+          <type><ref refid="d3/d94/class_file_storage" kindref="compound">FileStorage</ref> *</type>
+          <declname>storage</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/entry.h" line="335" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/entry.cpp" bodystart="419" bodyend="425"/>
+      </memberdef>
+      <memberdef kind="function" id="da/dc6/class_entry_nav_1a935101b752fb22f735e62b83721f325c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void EntryNav::setEntry</definition>
+        <argsstring>(Entry *e)</argsstring>
+        <name>setEntry</name>
+        <param>
+          <type><ref refid="d4/dd7/class_entry" kindref="compound">Entry</ref> *</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/entry.h" line="336" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/entry.cpp" bodystart="437" bodyend="443"/>
+      </memberdef>
+      <memberdef kind="function" id="da/dc6/class_entry_nav_1a1475c94b8cb03e8731d852190b8efc64" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void EntryNav::releaseEntry</definition>
+        <argsstring>()</argsstring>
+        <name>releaseEntry</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/entry.h" line="337" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/entry.cpp" bodystart="427" bodyend="435"/>
+      </memberdef>
+      <memberdef kind="function" id="da/dc6/class_entry_nav_1aa9d8db3a7fb50142d976111658e7c2f8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void EntryNav::changeSection</definition>
+        <argsstring>(int section)</argsstring>
+        <name>changeSection</name>
+        <param>
+          <type>int</type>
+          <declname>section</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/entry.h" line="338" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/entry.h" bodystart="338" bodyend="338"/>
+      </memberdef>
+      <memberdef kind="function" id="da/dc6/class_entry_nav_1a527cd33c59bd801382b73f26a42e2b64" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void EntryNav::setFileDef</definition>
+        <argsstring>(FileDef *fd)</argsstring>
+        <name>setFileDef</name>
+        <param>
+          <type><ref refid="de/db0/class_file_def" kindref="compound">FileDef</ref> *</type>
+          <declname>fd</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/entry.h" line="339" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/entry.h" bodystart="339" bodyend="339"/>
+      </memberdef>
+      <memberdef kind="function" id="da/dc6/class_entry_nav_1ae83c2f83749522f31bf96e2bbb46e04c" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="d4/dd7/class_entry" kindref="compound">Entry</ref> *</type>
+        <definition>Entry* EntryNav::entry</definition>
+        <argsstring>() const </argsstring>
+        <name>entry</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/entry.h" line="341" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/entry.h" bodystart="341" bodyend="341"/>
+      </memberdef>
+      <memberdef kind="function" id="da/dc6/class_entry_nav_1a20d879ec204d36042d7e4da2294a7567" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int EntryNav::section</definition>
+        <argsstring>() const </argsstring>
+        <name>section</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/entry.h" line="342" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/entry.h" bodystart="342" bodyend="342"/>
+      </memberdef>
+      <memberdef kind="function" id="da/dc6/class_entry_nav_1a4baef4385b2c51eee0afbe3dfdd222ea" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="d9/d49/types_8h_1a9974623ce72fc23df5d64426b9178bf2" kindref="member">SrcLangExt</ref></type>
+        <definition>SrcLangExt EntryNav::lang</definition>
+        <argsstring>() const </argsstring>
+        <name>lang</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/entry.h" line="343" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/entry.h" bodystart="343" bodyend="343"/>
+      </memberdef>
+      <memberdef kind="function" id="da/dc6/class_entry_nav_1aa6c45f37e3ab65056807dc3246bf6e5c" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>const QCString &amp;</type>
+        <definition>const QCString&amp; EntryNav::type</definition>
+        <argsstring>() const </argsstring>
+        <name>type</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/entry.h" line="344" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/entry.h" bodystart="344" bodyend="344"/>
+      </memberdef>
+      <memberdef kind="function" id="da/dc6/class_entry_nav_1a4a518be1a66143bf1706ff5d29208181" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>const QCString &amp;</type>
+        <definition>const QCString&amp; EntryNav::name</definition>
+        <argsstring>() const </argsstring>
+        <name>name</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/entry.h" line="345" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/entry.h" bodystart="345" bodyend="345"/>
+      </memberdef>
+      <memberdef kind="function" id="da/dc6/class_entry_nav_1acd74509ccbdf99f56d87238979ac419f" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="d3/dc3/struct_tag_info" kindref="compound">TagInfo</ref> *</type>
+        <definition>TagInfo* EntryNav::tagInfo</definition>
+        <argsstring>() const </argsstring>
+        <name>tagInfo</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/entry.h" line="346" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/entry.h" bodystart="346" bodyend="346"/>
+      </memberdef>
+      <memberdef kind="function" id="da/dc6/class_entry_nav_1a7b56e89137f8d93d36a0fc9c51eeb2d1" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>const <ref refid="db/daa/class_q_list" kindref="compound">QList</ref>&lt; <ref refid="da/dc6/class_entry_nav" kindref="compound">EntryNav</ref> &gt; *</type>
+        <definition>const QList&lt;EntryNav&gt;* EntryNav::children</definition>
+        <argsstring>() const </argsstring>
+        <name>children</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/entry.h" line="347" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/entry.h" bodystart="347" bodyend="347"/>
+      </memberdef>
+      <memberdef kind="function" id="da/dc6/class_entry_nav_1ad81958481115dc8d88c74756d8278c5f" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="da/dc6/class_entry_nav" kindref="compound">EntryNav</ref> *</type>
+        <definition>EntryNav* EntryNav::parent</definition>
+        <argsstring>() const </argsstring>
+        <name>parent</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/entry.h" line="348" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/entry.h" bodystart="348" bodyend="348"/>
+      </memberdef>
+      <memberdef kind="function" id="da/dc6/class_entry_nav_1af3753c9dea44d3a05b80d99f9034dc3d" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="de/db0/class_file_def" kindref="compound">FileDef</ref> *</type>
+        <definition>FileDef* EntryNav::fileDef</definition>
+        <argsstring>() const </argsstring>
+        <name>fileDef</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/entry.h" line="349" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/entry.h" bodystart="349" bodyend="349"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Wrapper for a node in the <ref refid="d4/dd7/class_entry" kindref="compound">Entry</ref> tree. </para>    </briefdescription>
+    <detaileddescription>
+<para>Allows navigating through the <ref refid="d4/dd7/class_entry" kindref="compound">Entry</ref> tree and load and storing <ref refid="d4/dd7/class_entry" kindref="compound">Entry</ref> objects persistently to disk. </para>    </detaileddescription>
+    <location file="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/entry.h" line="329" bodyfile="C:/Users/Mat/Projects/doxygraph/examples/doxygen-1.8.4/src/entry.h" bodystart="328" bodyend="368"/>
+    <listofallmembers>
+      <member refid="da/dc6/class_entry_nav_1af988d3085b14c1fa584d934a31a1e494" prot="public" virt="non-virtual"><scope>EntryNav</scope><name>addChild</name></member>
+      <member refid="da/dc6/class_entry_nav_1aa9d8db3a7fb50142d976111658e7c2f8" prot="public" virt="non-virtual"><scope>EntryNav</scope><name>changeSection</name></member>
+      <member refid="da/dc6/class_entry_nav_1a7b56e89137f8d93d36a0fc9c51eeb2d1" prot="public" virt="non-virtual"><scope>EntryNav</scope><name>children</name></member>
+      <member refid="da/dc6/class_entry_nav_1ae83c2f83749522f31bf96e2bbb46e04c" prot="public" virt="non-virtual"><scope>EntryNav</scope><name>entry</name></member>
+      <member refid="da/dc6/class_entry_nav_1a778223f04da2618c47b697d33d10559d" prot="public" virt="non-virtual"><scope>EntryNav</scope><name>EntryNav</name></member>
+      <member refid="da/dc6/class_entry_nav_1af3753c9dea44d3a05b80d99f9034dc3d" prot="public" virt="non-virtual"><scope>EntryNav</scope><name>fileDef</name></member>
+      <member refid="da/dc6/class_entry_nav_1a4baef4385b2c51eee0afbe3dfdd222ea" prot="public" virt="non-virtual"><scope>EntryNav</scope><name>lang</name></member>
+      <member refid="da/dc6/class_entry_nav_1ae8baa4eaf2eca2a813110c5272fba763" prot="public" virt="non-virtual"><scope>EntryNav</scope><name>loadEntry</name></member>
+      <member refid="da/dc6/class_entry_nav_1affc17928e831a3a9b155913904d4eeba" prot="private" virt="non-virtual"><scope>EntryNav</scope><name>m_fileDef</name></member>
+      <member refid="da/dc6/class_entry_nav_1ae86e5f894ec72b6b851665d8a1da78cd" prot="private" virt="non-virtual"><scope>EntryNav</scope><name>m_info</name></member>
+      <member refid="da/dc6/class_entry_nav_1a554de0cf4ba921a304901e3d30222ce2" prot="private" virt="non-virtual"><scope>EntryNav</scope><name>m_lang</name></member>
+      <member refid="da/dc6/class_entry_nav_1a01920f8b0f3e1dbb9eb5baddaa8c91d6" prot="private" virt="non-virtual"><scope>EntryNav</scope><name>m_name</name></member>
+      <member refid="da/dc6/class_entry_nav_1af71a711b0f55de50151748bda950bff9" prot="private" virt="non-virtual"><scope>EntryNav</scope><name>m_noLoad</name></member>
+      <member refid="da/dc6/class_entry_nav_1a7d19a4c5480c0c92aa0457f884f69008" prot="private" virt="non-virtual"><scope>EntryNav</scope><name>m_offset</name></member>
+      <member refid="da/dc6/class_entry_nav_1a7b13d6e241f77f147586ee34cf1b0f06" prot="private" virt="non-virtual"><scope>EntryNav</scope><name>m_parent</name></member>
+      <member refid="da/dc6/class_entry_nav_1ab95d7a6da572f47e60ddd81d79b34c26" prot="private" virt="non-virtual"><scope>EntryNav</scope><name>m_section</name></member>
+      <member refid="da/dc6/class_entry_nav_1ac4096b15c407966ba5c68af190e875bd" prot="private" virt="non-virtual"><scope>EntryNav</scope><name>m_subList</name></member>
+      <member refid="da/dc6/class_entry_nav_1aba0ea1a5fd0196ee776f8f74b92da5e2" prot="private" virt="non-virtual"><scope>EntryNav</scope><name>m_tagInfo</name></member>
+      <member refid="da/dc6/class_entry_nav_1a76d1740a3e5708df1e8d9bad7a250b86" prot="private" virt="non-virtual"><scope>EntryNav</scope><name>m_type</name></member>
+      <member refid="da/dc6/class_entry_nav_1a4a518be1a66143bf1706ff5d29208181" prot="public" virt="non-virtual"><scope>EntryNav</scope><name>name</name></member>
+      <member refid="da/dc6/class_entry_nav_1ad81958481115dc8d88c74756d8278c5f" prot="public" virt="non-virtual"><scope>EntryNav</scope><name>parent</name></member>
+      <member refid="da/dc6/class_entry_nav_1a1475c94b8cb03e8731d852190b8efc64" prot="public" virt="non-virtual"><scope>EntryNav</scope><name>releaseEntry</name></member>
+      <member refid="da/dc6/class_entry_nav_1a51daafd4189df04bf0df6504b3c4b1f5" prot="public" virt="non-virtual"><scope>EntryNav</scope><name>saveEntry</name></member>
+      <member refid="da/dc6/class_entry_nav_1a20d879ec204d36042d7e4da2294a7567" prot="public" virt="non-virtual"><scope>EntryNav</scope><name>section</name></member>
+      <member refid="da/dc6/class_entry_nav_1a935101b752fb22f735e62b83721f325c" prot="public" virt="non-virtual"><scope>EntryNav</scope><name>setEntry</name></member>
+      <member refid="da/dc6/class_entry_nav_1a527cd33c59bd801382b73f26a42e2b64" prot="public" virt="non-virtual"><scope>EntryNav</scope><name>setFileDef</name></member>
+      <member refid="da/dc6/class_entry_nav_1acd74509ccbdf99f56d87238979ac419f" prot="public" virt="non-virtual"><scope>EntryNav</scope><name>tagInfo</name></member>
+      <member refid="da/dc6/class_entry_nav_1aa6c45f37e3ab65056807dc3246bf6e5c" prot="public" virt="non-virtual"><scope>EntryNav</scope><name>type</name></member>
+      <member refid="da/dc6/class_entry_nav_1a146c0cb4e53cf34eafae961189be08a7" prot="public" virt="non-virtual"><scope>EntryNav</scope><name>~EntryNav</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>
